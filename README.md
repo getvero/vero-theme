@@ -1,0 +1,1 @@
+To use this theme, you can pull it as a submodule.
