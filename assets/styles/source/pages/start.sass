@@ -1,0 +1,182 @@
+@import '../vero'
+
+.start
+  section
+    padding: 60px 40px
+  h5, .h5, h4, .h4
+    text-transform: uppercase
+    color: $gray-dark
+  .half
+    @include span-columns(6)
+  section#hero
+    padding-bottom: 0 !important
+    background: #00c3e4
+    h1
+      color: white
+    h2
+      padding: 0 0 $padding-large-vertical
+      color: darken($brand-primary, 15%)
+      margin-top: 0
+      font-size: $font-size-h3
+
+    p
+      margin: 30px 0
+      line-height: 1.4
+
+    img
+      float: right
+      width: 60%
+      border-top-left-radius: 3px
+      border-top-right-radius: 3px
+      margin-left: 20px
+
+    .left
+      @include span-columns(5)
+    .right
+      @include span-columns(7)
+
+  section#customers
+    display: inline-block
+    width: 100%
+    text-align: center
+    .column
+      font: bold 16px/50px $font-family-sans-serif
+      height: 50px
+      text-align: center
+      display: inline-block
+      width: 18.25%
+      margin-right: 2.5%
+      img
+        vertical-align: middle
+      &:last-child
+        margin-right: 0 !important
+    h4.column
+      margin-top: 0
+      margin-bottom: 0
+      width: 15%
+
+  section#testimonials
+    background: #f5f6f8
+    border-top: 1px solid #e2e6eb
+    border-bottom: 1px solid #e2e6eb
+    display: inline-block
+    width: 100%
+    .quote
+      margin: 0 60px
+      color: #71767f
+    .who
+      float: left
+      font-weight: bold
+      text-align: center
+      margin-top: 15px
+      text-align: center
+      img
+        width: 100px
+        height: 100px
+        border: 4px solid #e2e6eb
+        border-radius: 50px
+        display: block
+        margin-bottom: 10px
+        margin-right: 0
+    p
+      margin: 0 0 0 140px
+      font: 20px/1.6 $font-family-sans-serif
+      border-left: 1px solid #dfdfdf
+      padding: 41px 40px
+
+  section#features
+    background: $gray-dark
+    color: white
+    text-align: center
+    .container
+      display: inline-block
+      margin: 50px 0 0
+    .feature
+      @include span-columns(4)
+      text-align: center
+      h4
+        font-weight: bold
+      img
+        border-radius: $border-radius-base
+        border: $border-radius-base solid white
+      &:last-child
+        @include omega()
+
+  section#can-i
+    h3
+      width: 100%
+      text-align: center
+      display: block
+      margin-bottom: 50px
+      color: #444444
+      span
+        width: 150px
+        border-bottom: 2px solid #444444
+        display: inline-block
+        margin-bottom: -10px
+    ul
+      margin: 0 auto
+      padding: 0
+      text-align: left
+      width: 400px
+      background: url('/wp-content/themes/vero/assets/images/start/approved.png') no-repeat
+      background-position: bottom right
+      background-size: 50%
+      li
+        font-size: $font-size-h4
+        color: $gray-light
+        padding: 15px 0 
+        border-bottom: 1px solid $gray-lighter
+        &:last-child
+          border-bottom: 0
+
+    .yes
+      font-size: 30px
+      font-weight: bold
+      color: #55c055
+      margin: 10px auto
+      text-align: left
+      width: 320px
+      display: block
+
+  section#case-studies
+    background: $gray-lighter
+    padding: 60px 0 0
+    .container
+      @include row(table)
+      margin-top: 60px
+    .case-study
+      @include span-columns(4)
+      &:last-child
+        @include omega()
+      .desc
+        padding: 20px 0 20px 10px
+        font-weight: bold
+        color: $gray-dark
+        text-align: center
+        border-right: 1px solid rgba(0, 0, 0, 0.14)
+        display: block
+      a:hover
+        text-decoration: none
+        span.desc
+          opacity: 0.8
+      .pic
+        display: block
+        &.bugherd
+          background: url("assets/images/case-studies/bugherd/bg.jpg") no-repeat
+          background-size: cover
+          height: 300px
+        &.sop
+          background: url("assets/images/case-studies/sop/bg.jpg") no-repeat
+          background-size: cover
+          height: 300px
+        &.wooga
+          background: url("assets/images/case-studies/wooga/bg.jpg") no-repeat
+          background-size: cover
+          height: 300px
+      .bugherd + .desc
+        border-top: 6px solid $brand-success
+      .sop + .desc
+        border-top: 6px solid $brand-warning
+      .wooga + .desc
+        border-top: 6px solid $brand-error

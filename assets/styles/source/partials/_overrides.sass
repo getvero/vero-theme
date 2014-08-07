@@ -1,0 +1,154 @@
+@import '../vero'
+   
+#fancy_title
+  tr:hover
+    background: none !important
+  tr
+    td
+      border-top: 0 !important
+      border-bottom: 0 !important
+      
+.full-width
+  .site-inner
+    width: 100%
+    max-width: 100%
+    padding-top: 0
+  .content 
+    width: 100% !important
+    float: none !important
+    article 
+      padding: 0
+
+.genesis-nav-menu
+  .current-menu-item > a
+    color: white !important
+
+.menu
+  .menu-item.video-icon
+    background: url(/wp-content/themes/vero/assets/images/video-icon.png) no-repeat
+    background-size: 16px
+    background-position: 0 4px
+    padding-left: 20px
+.nav-primary
+  width: 100%
+  display: inline-block
+  ul
+    text-align: right
+    padding-left: 0
+    width: 100%
+    display: inline-block
+    li
+      display: inline-block
+      a[title="button"]
+        margin-top: -2px
+        font-size: 14px
+        color: white !important
+        padding: 6px 12px
+        text-transform: uppercase
+        line-height: 20px !important
+        height: 34px
+    #logo
+      float: left
+      padding-left: 0
+
+.widget-area
+  .widget
+    background: $gray-lighter
+    padding: $padding-xlarge-vertical $padding-xlarge-horizontal 
+    margin-bottom: $padding-large-vertical * 2
+    border-radius: 0
+    h4, .no-hover a
+      text-transform: uppercase
+      color: $gray-dark
+      font-size: $font-size-h5
+      font-family: $font-family-heading
+    h4
+      margin: 0 0 $padding-xlarge-vertical
+      font-weight: bold
+    .no-hover
+      margin:  $padding-xlarge-vertical 0 ($padding-large-vertical * 2)
+    .no-hover:first-child
+      margin: 0 0 ($padding-large-vertical * 2)
+    ul
+      padding: 0
+      margin: 0
+    p
+      color: $gray-dark
+      font-size: $font-size-small
+    a
+      &.btn
+        color: white
+        text-decoration: none
+      &:hover
+        color: $gray-darker
+    &.white
+      background: white
+      border-left: 1px solid white
+      text-align: center
+      margin-left: -1px
+      padding-left: 0
+      padding-right: 0
+      padding-top: 0
+      margin-top: -25px
+      padding-bottom: 75px
+      margin-bottom: -25px
+
+footer
+  ul
+    list-style: none
+
+.entry-meta
+  color: $gray
+  font-size: $font-size-small
+  a
+    text-decoration: none
+  span, time
+    font-style: normal
+
+.no-hover a, .no-hover a:hover 
+  font-weight: bold
+  color: $gray-dark
+  background: transparent
+  cursor: default
+  text-decoration: none !important
+
+input
+  display: block
+  width: 100%
+  height: $input-height-base
+  padding: $padding-vertical $padding-horizontal
+  font-size: $font-size-base
+  line-height: $line-height-base
+  color: $input-color
+  background-color: $input-bg
+  background-image: none
+  border: 1px solid $input-border
+  border-radius: $input-border-radius
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+  &:focus
+    $rgb-color: rgba($brand-primary, .6)
+    outline: 0
+    box-shadow: "inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #{$rgb-color}"
+    
+blockquote
+  color: $gray-blue
+  position: relative
+  margin-left: 0
+  padding-left: 20px
+  &::before
+    color: $gray-blue
+    content: "\201C"
+    display: block
+    font-size: 100px
+    left: -60px
+    position: absolute
+    top: -30px
+
+.archive-pagination 
+  padding-bottom: $padding-xxlarge-vertical / 2
+
+.archive
+  .entry-title
+    a:hover
+      opacity: 0.8
+      text-decoration: none

@@ -1,0 +1,92 @@
+@import '../vero'
+
+.kb.archive
+  #topics
+    .wrap
+      @include outer-container
+    .thirds
+      @include span-columns(4)
+      @include omega(3n)
+      height: 372px
+      border-right: 1px solid $gray-lighter
+      margin-bottom: 20px
+      ul
+        margin: $padding-large-vertical 0 $padding-xlarge-vertical
+        li
+          padding: $padding-large-vertical 0
+      &:nth-child(3)
+        border-right: none !important
+.kb.tax-topic 
+  h3
+    padding-top: $padding-xlarge-vertical
+  article:first-child
+    h3  
+      padding-top: 0
+      margin-top: 0
+  h1
+    margin-bottom: $padding-xlarge-vertical
+    margin-top: 0
+    width: 810px
+    margin-left: 275px
+    
+.help-docs, .api-docs, .kb
+  .above-content
+    .widget-area
+      .widget
+        background: none !important
+        padding: none !important
+        input
+          width: 100%
+  .site-inner
+    padding-top: $padding-xlarge-vertical
+  .entry-title
+    margin-bottom: $padding-xlarge-vertical
+    margin-top: 0
+    width: 810px
+    margin-left: 275px
+  .widget-area
+    .widget
+      a
+        color: $gray-dark
+        text-decoration: none
+        font-size: $font-size-small
+        &.btn
+          color: white
+          text-decoration: none
+      .current-menu-item a
+        font-weight: bold
+  .entry-content
+    h2:first-child, h3:first-child, h4:first-child
+      margin-top: 0
+  .content
+    .crayon-syntax
+      border: none !important
+    h1
+      margin-top: 0
+      margin-bottom: $padding-xlarge-vertical
+    h2
+      margin-top: $padding-xlarge-vertical * 3.5
+      margin-bottom: $padding-xlarge-vertical * 1.5
+      a
+        color: $gray-dark
+    h3, .h3
+      margin-bottom: $padding-large-vertical
+      font-size: $font-size-h4
+      font-weight: bold
+      color: $gray-blue
+    h5
+      text-transform: uppercase
+      font-weight: bold
+    ul, ol
+      padding-left: 0
+    p, li
+      line-height: $line-height-xlarge
+    p
+      margin-bottom: $padding-large-vertical
+    blockquote, ul, ol
+      margin: $padding-xlarge-vertical 0
+    img
+      border: $border-radius-base $gray-lighter solid
+      border-radius: $border-radius-base
+      margin: $padding-large-vertical 0
+      display: block

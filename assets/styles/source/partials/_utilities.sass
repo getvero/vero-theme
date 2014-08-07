@@ -1,0 +1,51 @@
+// Floating
+.pull-right
+  float: right !important
+.pull-left
+  float: left !important
+
+.pull-left + .pull-left
+  margin-left: 10px
+.pull-right + .pull-right
+  margin-right: 10px
+
+.center-block
+  +center-block
+.center-text
+  text-align: center
+
+.right-text
+  text-align: right
+.left-text
+  text-align: left
+
+// Layout
+.inner
+  @include outer-container
+
+// Content
+.hide
+  display: none !important
+
+.show
+  display: block !important
+
+.visible
+  visibility: visible
+
+.invisible
+  visibility: hidden !important
+
+.hide-text
+  +hide-text
+
+.hidden
+  @extend .hide
+  @extend .invisible
+
+.clearfix
+  +clearfix
+
+// Icons
+.rotate-r90
+  +transform(rotate(90deg))

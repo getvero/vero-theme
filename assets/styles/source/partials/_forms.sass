@@ -1,0 +1,178 @@
+@import ../vero
+
+label
+  display: inline-block
+  max-width: 100%
+  margin-bottom: 5px
+  font-weight: bold
+
+input[type="search"]
+  box-sizing: border-box
+
+input[type="radio"],
+input[type="checkbox"]
+  margin: 4px 0 0
+  margin-top: 1px
+  line-height: normal
+  width: auto
+  box-shadow: none
+  height: auto
+
+input[type="file"]
+  display: block
+
+input[type="range"]
+  display: block
+  width: 100%
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus
+  +tab-focus
+
+form
+  .form-control,
+    display: block
+    width: 100%
+    height: $input-height-base
+    padding: $padding-vertical $padding-horizontal
+    font-size: $font-size-base
+    line-height: $line-height-base
+    color: $input-color
+    background-color: $input-bg
+    background-image: none
+    border: 1px solid $input-border
+    border-radius: $input-border-radius
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+    &:focus
+      $rgb-color: rgba($brand-primary, .6)
+      outline: 0
+      box-shadow: "inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #{$rgb-color}"
+
+  textarea.form-control,
+    height: auto
+    min-height: 200px
+
+  select.form-control,
+    +appearance(none)
+    background: white url("/wp-content/themes/vero/assets/images/dropdown-black.png") no-repeat right
+
+  .form-group
+    margin-bottom: 15px
+
+  .radio,
+  .checkbox
+    display: block
+    min-height: $line-height-computed
+    margin-top: 10px
+    margin-bottom: 10px
+
+    label
+      padding-left: 20px
+      margin-bottom: 0
+      font-weight: normal
+      cursor: pointer
+
+  .radio input[type="radio"],
+  .radio-inline input[type="radio"],
+  .checkbox input[type="checkbox"],
+  .checkbox-inline input[type="checkbox"]
+    float: left
+    margin-left: -20px
+
+  .radio + .radio,
+  .checkbox + .checkbox
+    margin-top: -5px
+
+  .radio-inline,
+  .checkbox-inline
+    display: inline-block
+    padding-left: 20px
+    margin-bottom: 0
+    vertical-align: middle
+    font-weight: normal
+    cursor: pointer
+
+  .radio-inline + .radio-inline,
+  .checkbox-inline + .checkbox-inline
+    margin-top: 0
+    margin-left: 10px
+
+  .input-sm
+    +input-size($input-height-small, $padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $border-radius-small)
+
+  .input-lg
+    +input-size($input-height-large, $padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $border-radius-large)
+
+  .bestinplace
+    @extend .input-sm
+    max-width: 300px
+    display: inline-block
+    margin-right: 10px
+    &:last-child
+      margin-right: 0px
+
+  .help-text
+    display: block
+    margin-top: 5px
+    margin-bottom: 10px
+    color: lighten($text-color, 50%)
+
+.form-inline
+  .form-group
+    display: inline-block
+    margin-bottom: 0
+    vertical-align: middle
+
+  .form-control
+    display: inline-block
+    width: auto
+    vertical-align: middle
+
+  .input-group
+    display: inline-table
+    vertical-align: middle
+
+    .input-group-addon,
+    .input-group-btn,
+    .form-control
+      width: auto
+
+  .input-group > .form-control
+    width: 100%
+
+
+  .control-label
+    margin-bottom: 0
+    vertical-align: middle
+
+  .radio,
+  .checkbox
+    display: inline-block
+    margin-top: 0
+    margin-bottom: 0
+    padding-left: 0
+    vertical-align: middle
+
+  .radio input[type="radio"],
+  .checkbox input[type="checkbox"]
+    float: none
+    margin-left: 0
+
+.form-horizontal
+
+  .radio,
+  .checkbox,
+  .radio-inline,
+  .checkbox-inline
+    margin-top: 0
+    margin-bottom: 0
+    padding-top: ($padding-vertical + 1)
+
+  .radio,
+  .checkbox
+    min-height: ($line-height-computed + ($padding-vertical + 1))
+
+  .form-control-static
+    padding-top: ($padding-vertical + 1)
+    padding-bottom: ($padding-vertical + 1)

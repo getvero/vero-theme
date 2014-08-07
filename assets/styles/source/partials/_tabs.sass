@@ -1,0 +1,22 @@
+#tabs
+  line-height: $action-bar-line-height
+  ul.tabs
+    @extend .list-inline
+    margin-bottom: 0
+    li.tab
+      position: relative
+      a
+        color: $gray-blue-light
+        font: $font-size-large $font-family-heading-bold
+        -webkit-font-smoothing: antialiased
+        text-decoration: none
+        +small-caps
+        +lowercase
+      &.active
+        &:after
+          border-bottom: $tabs-active-border
+          position: absolute
+          bottom: -19px
+          left: 0
+          right: 0
+          content: ' '

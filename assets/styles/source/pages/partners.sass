@@ -1,0 +1,56 @@
+@import '../vero'
+
+.partners
+  section
+    padding: $padding-xxlarge-vertical 0
+  h5, .h5, h4, .h4
+    text-transform: uppercase
+    color: $gray-dark
+  #top
+    background: $brand-primary
+    position: relative
+    h1
+      color: white
+    h2
+      padding: 0 0 $padding-large-vertical
+      margin-top: 0
+      color: darken($brand-primary, 15%)
+  #partners
+    background: $gray-lighter
+    ul
+      li
+        @include span-columns(4)
+        background: white
+        margin-bottom: $padding-xlarge-vertical
+        .helper
+          display: inline-block
+          height: 100%
+          vertical-align: middle
+        img
+          max-width: 50%
+          max-height: 65px
+          vertical-align: middle
+          display: inline-block
+        &.last
+          @include omega()
+        &.bottom-row
+          margin-bottom: 0
+        h3
+          font-weight: bold
+        p
+          padding: $padding-large-vertical 0 $padding-xlarge-vertical
+          color: $gray-light
+          a
+            margin-top: $padding-xlarge-vertical
+        .top
+          line-height: 150px
+          height: 150px
+          background: $gray-lightest
+          margin-top: -$padding-xlarge-vertical
+          margin-left: -$padding-large-horizontal
+          margin-right: -$padding-large-horizontal
+          margin-bottom: 0 !important
+          border-top-left-radius: $border-radius-base
+          border-top-right-radius: $border-radius-base
+        .bottom
+          padding: $padding-xlarge-vertical 0

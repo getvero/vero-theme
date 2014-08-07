@@ -1,0 +1,350 @@
+//
+// App size
+////
+$app-min-width:          1024px
+$app-max-width:          100%
+$public-max-width:       1088px
+
+$main-padding:           20px 40px
+
+//
+// Colors
+////
+
+$gray-blue-lighter:      #CFD7E1
+$gray-blue-light:        #95A5A6
+$gray-blue:              #97a8ae //#858585
+$gray-blue-dark:         #5A8399
+$gray-blue-darker:       #354254
+
+$gray-darker:       lighten(#000, 13.5%)   // #222222
+$gray-dark:         #38454a //lighten(#000, 20%)     // #333333
+$gray:              lighten(#000, 33.5%)   // #555555
+$gray-light:        #818e93 // lighten(#000, 60%)     // #999999
+$gray-lighter:      #e4eef2 //lighten(#000, 93.5%)   // #EEEEEE
+$gray-lightest:     #f6f9fa
+
+$brand-primary:     #00c3e4
+$brand-success:     #44B390
+$brand-info:        #50B9EE//#D9EDF7
+$brand-warning:     #E4B91D//#F8EFCE
+$brand-error:       #F07563
+
+
+//
+// Global Styles
+////
+$body-bg:           #FFFFFF
+$body-color:        #222222
+
+$text-color:        #000000
+
+$link-color:        $brand-primary
+$link-hover-color:  darken($link-color, 15%)
+
+//
+// Typography
+////
+$font-family-sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-heading:           "proximanova-regular", "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-heading-semi-bold: "proximanova-light-bold", "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-heading-bold:      "proximanova-bold", "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-serif:             Georgia, "Times New Roman", Times, serif
+$font-family-monospace:         Menlo, Monaco, Consolas, "Courier New", monospace
+$font-family-base:              $font-family-sans-serif
+
+$font-size-base:          16px
+$font-size-large:         ceil(($font-size-base * 1.25))  // 18px
+$font-size-small:         ceil(($font-size-base * 0.85))  // 12px
+
+$font-size-h1:            floor(($font-size-base * 2.6))  // 36px
+$font-size-h2:            floor(($font-size-base * 2.15)) // 30px
+$font-size-h3:            floor(($font-size-base * 1.7))  // 24px
+$font-size-h4:            floor(($font-size-base * 1.29)) // 18px
+$font-size-h5:            $font-size-base                 // 16px
+$font-size-h6:            floor(($font-size-base * 0.85)) // 12px
+
+$line-height-base:        1.428571429                     // 20/$font-size-base
+$line-height-computed:    floor(($font-size-base * $line-height-base))
+$line-height-large:       1.33
+$line-height-small:       1.5
+$line-height-xlarge:      1.8
+
+$headings-font-family:    inherit
+$headings-font-weight:    500
+$headings-line-height:    1.1
+$headings-color:          inherit
+
+//
+// Spacing and borders
+////
+$padding-vertical:              6px
+$padding-horizontal:            12px
+
+$padding-xlarge-vertical:       30px
+$padding-xlarge-horizontal:     36px
+
+$padding-xxlarge-vertical:       80px
+$padding-xxlarge-horizontal:     120px
+
+$padding-large-vertical:        10px
+$padding-large-horizontal:      16px
+
+$padding-medium-vertical:        8px
+$padding-medium-horizontal:      12px
+
+$padding-small-vertical:        5px
+$padding-small-horizontal:      10px
+
+$padding-xsmall-vertical:       1px
+$padding-xsmall-horizontal:     5px
+
+$border-radius-base:            4px
+$border-radius-large:           6px
+$border-radius-small:           3px
+
+//
+// Paragraph
+////
+$paragraph-margin:              0 0 ($line-height-computed / 2)
+
+//
+// Carret
+////
+$caret-width-base:              4px
+
+//
+// Bulk actions
+////
+$bulk-border-radius:            $border-radius-base
+$bulk-bg-color:                 $gray-blue-lighter
+$bulk-padding:                  $padding-vertical $padding-horizontal
+
+//
+// Tables
+////
+$table-head-padding:            10px 8px 20px
+$table-cell-padding-vertical:   20px
+$table-cell-padding-horizontal: 8px
+$table-cell-padding:            $table-cell-padding-vertical $table-cell-padding-horizontal
+
+$table-condensed-head-padding:            5px
+$table-condensed-cell-padding-vertical:   8px
+$table-condensed-cell-padding-horizontal: 5px
+$table-condensed-cell-padding:            $table-condensed-cell-padding-vertical $table-condensed-cell-padding-horizontal
+
+$table-bg:                      transparent
+$table-bg-stripe:               #F9F9F9
+$table-bg-hover:                #F5F5F5
+$table-bg-active:               $table-bg-hover
+
+$table-border-color:            #DDDDDD
+$table-highlight-size:          4px
+
+$table-header-color:            $gray-blue
+$table-header-font-weight:      500
+$table-header-font-size:        $font-size-large
+$table-header-font-family:      $font-family-base
+
+//
+// Pagination
+////
+$pagination-border-color:       #DDDDDD
+$pagination-active-background:  #F5F5F5
+$pagination-padding:            $padding-vertical $padding-horizontal
+$pagination-border-radius:      $border-radius-base
+
+//
+// Buttons
+////
+
+$btn-font-weight:               normal
+
+$btn-default-color:             #333333
+$btn-default-bg:                #FFFFFF
+$btn-default-border:            #CCCCCC
+
+$btn-primary-color:             #FFFFFF
+$btn-primary-bg:                $brand-primary
+$btn-primary-border:            darken($btn-primary-bg, 5%)
+
+$btn-success-color:             #FFFFFF
+$btn-success-bg:                $brand-success
+$btn-success-border:            darken($btn-success-bg, 5%)
+
+$btn-info-color:                #FFFFFF
+$btn-info-bg:                   $brand-info
+$btn-info-border:               darken($btn-info-bg, 5%)
+
+$btn-warning-color:             #FFFFFF
+$btn-warning-bg:                $brand-warning
+$btn-warning-border:            darken($btn-warning-bg, 5%)
+
+$btn-error-color:               #FFFFFF
+$btn-error-bg:                  $brand-error
+$btn-error-border:              darken($btn-error-bg, 5%)
+
+//
+// Forms
+////
+
+$input-bg:                      #FFFFFF
+$input-color:                   $body-color
+$input-border:                  #CCCCCC
+$input-border-radius:           $border-radius-base
+$input-border-focus:            $brand-primary
+
+$input-color-placeholders:      $gray-light
+$input-height-base:             ($line-height-computed + ($padding-vertical * 2) + 2)
+$input-height-large:            ($line-height-computed + ($padding-large-vertical * 2) + 2)
+$input-height-small:            ($line-height-computed + ($padding-small-vertical * 2) + 2)
+
+//
+// Z-indexes
+////
+$zindex-filters:      900
+$zindex-layout:       1000
+$zindex-tooltip:      1070
+$zindex-modal-bg:     1040
+$zindex-modal:        1050
+
+//
+// Topbar and Sidebar
+////
+
+$topbar-height:                    64px
+$topbar-default-color:             $gray-blue-darker
+$topbar-default-bg:                $gray-blue-lighter
+$topbar-default-border:            $gray-blue-light
+$topbar-link-padding:              $padding-large-vertical $padding-large-horizontal
+
+$sidebar-width:                    200px
+$sidebar-default-color:            #FFFFFF
+$sidebar-default-bg:               $gray-blue-darker
+$sidebar-default-border:           $gray-blue-light
+$sidebar-font-size:                 19px
+$sidebar-link-padding:             $padding-large-vertical $padding-large-horizontal
+$sidebar-link-active-border:       $brand-primary
+$sidebar-link-active-border-size:  4px
+$sidebar-link-active-padding:      $padding-large-vertical $padding-large-horizontal $padding-large-vertical ($padding-large-horizontal - $sidebar-link-active-border-size)
+
+
+//
+// States colors
+////
+$state-success-bg:               #DBEBCF
+$state-success-text:             darken($state-success-bg, 40%)//#ABC2A6
+$state-success-border:           darken(saturate($state-success-bg, 10), 10%)
+
+$state-info-bg:                  #DAE4F1
+$state-info-text:                darken($state-info-bg, 40%)//#A8BFDD
+$state-info-border:              darken(saturate($state-info-bg, 10), 10%)
+
+$state-warning-bg:               #FBF5DD
+$state-warning-text:             darken($state-warning-bg, 40%)//#E1CDA3
+$state-warning-border:           darken(saturate($state-warning-bg, 10), 10%)
+
+$state-error-bg:                #EFD7D7
+$state-error-text:              darken($state-error-bg, 40%)//#DCA7A7
+$state-error-border:            darken(saturate($state-error-bg, 10), 10%)
+
+
+//
+// Alerts
+////
+$alert-padding:               15px
+$alert-border-radius:         $border-radius-base
+$alert-link-font-weight:      bold
+
+$alert-success-bg:            $state-success-bg
+$alert-success-text:          $state-success-text
+$alert-success-border:        $state-success-border
+
+$alert-info-bg:               $state-info-bg
+$alert-info-text:             $state-info-text
+$alert-info-border:           $state-info-border
+
+$alert-warning-bg:            $state-warning-bg
+$alert-warning-text:          $state-warning-text
+$alert-warning-border:        $state-warning-border
+
+$alert-error-bg:             $state-error-bg
+$alert-error-text:           $state-error-text
+$alert-error-border:         $state-error-border
+
+//
+// Actions Bar
+////
+$action-bar-height:           74px
+$action-bar-line-height:      33px
+
+//
+// Tabs
+////
+$tabs-active-color:            $brand-primary
+$tabs-active-border:            4px solid $tabs-active-color
+
+//
+// Filters
+////
+
+$filter-left-position:          70px
+$filter-width:                  260px
+
+$filter-background-color-1:     $gray-blue-lighter
+$filter-background-color-2:     darken($gray-blue-lighter, 5%)
+$filter-padding:                $padding-xsmall-vertical $padding-xsmall-horizontal
+$filter-border-color:           $gray-blue-light
+$filter-border-size:            1px
+$filter-border-radius:          $border-radius-base
+$filter-box-shadow:             0 4px 13px rgba(0, 0, 0, 0.5)
+
+$filter-header-color:           $gray-dark
+
+$filter-list-background-color1: #FFFFFF
+$filter-list-background-color2: $gray-lighter
+$filter-list-item-border-color: $gray-blue-light
+
+$filter-inner-background:       #ECECEC
+$filter-inner-box-shadow:       inset 0px 0px 1px rgba(0,0,0,.5)
+
+//
+// Code
+////
+$code-color:                    #c7254e
+$code-bg:                       #f9f2f4
+$pre-color:                     #f5f5f5
+$pre-bg:                        $gray-dark
+$pre-border-color:              #CCCCCC
+$pre-scrollable-max-height:     340px
+
+//
+// Blank state
+////
+$blank-state-padding:           60px 0
+
+//
+// Modals
+////
+$modal-inner-padding:                     15px
+$modal-title-padding:                     15px
+$modal-title-line-height:                 $line-height-base
+$modal-content-bg:                        #fff
+$modal-content-border-color:              rgba(0,0,0,.2)
+$modal-content-fallback-border-color:     #999
+$modal-backdrop-bg:                       #000
+$modal-backdrop-opacity:                  .5
+$modal-header-border-color:               #e5e5e5
+$modal-footer-border-color:               $modal-header-border-color
+$modal-width-large:                       900px
+$modal-width:                             600px
+$modal-width-small:                       300px
+
+//
+// Badges
+////
+$badge-color:                 $gray-light
+$badge-bg:                    $gray-blue-lighter
+$badge-font-weight:           normal
+$badge-line-height:           1
+$badge-border-radius:         10px

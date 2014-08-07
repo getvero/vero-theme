@@ -1,0 +1,16 @@
+.pull-left
+  float: left
+  margin-right: $padding-large-horizontal
+.pull-right
+  float: right
+  margin-left: $padding-large-horizontal
+
+=feature($direction:left)
+  clear: both
+  padding: $padding-medium-vertical 0
+  img
+    float: $direction
+    @extend .pull-#{$direction}
+    border: 3px solid $gray-blue-light
+    margin-bottom: $padding-small-vertical
+    width: 80px

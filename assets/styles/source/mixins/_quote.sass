@@ -1,0 +1,29 @@
+=quote($image_width, $align, $main_text_size: inherit, $who_text_size: inherit, $bg_color: white, $text_color: white, $who_color: inherit, $padding: 8px 10px, $caret_percent: 80%, $caret_width: $caret-width-base, $link_color: inherit)
+  p, .p
+    font-size: $main_text_size
+    text-align: center
+    background: $bg_color
+    padding: $padding
+    border-radius: 4px
+    display: block
+    position: relative
+    +caret($bg_color, 100%, $caret_percent, 0, 0, $caret_width)
+    color: $text_color
+  img
+    width: $image_width
+    border-radius: $image_width/2
+    margin-right: $image_width/8
+    vertical-align: baseline
+  .who
+    color: $who_color
+    padding-top: $image_width/6
+    img 
+      border: 5px solid $bg_color
+    a
+      color: $link-color
+  .who, a
+    font-size: $who_text_size
+    line-height: $image_width
+    vertical-align: top
+    text-align: $align
+

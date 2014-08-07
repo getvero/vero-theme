@@ -1,0 +1,283 @@
+@import '../vero'
+
+body.transactional-email
+  background: $gray-lighter !important
+  margin: 0
+  padding: 0
+  font: 18px / 26px Helvetica, arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  color: #333
+
+  .site-inner
+    padding-top: 0 !important
+
+  #guide-title
+    height: 250px !important
+    line-height: 250px
+    h1
+      padding: inherit
+      margin: inherit
+      font-size: 40px
+      text-align: center
+      line-height: 250px
+      margin: inherit
+      font-weight: bold !important
+      margin: 0 !important
+      color: white !important
+
+  .entry
+    background: white !important
+
+  .image-wrapper
+    width: 100%
+    margin: 30px auto
+    text-align: center
+    img
+      max-width: 100%
+      border: 50px solid $gray-lighter !important
+    .title
+      color: #b8c7cc
+      font-style: italic
+      font-size: 14px
+      border-bottom: 10px solid #E0EAEF
+      margin-top: 20px
+      padding-bottom: 10px
+
+  .epic-section
+    padding: 30px 0
+    h2, h3, h4
+      margin: 0 auto
+    p, ul, ol
+      margin: 0 auto
+      width: 100%
+    h2
+      color: #333
+      text-transform: uppercase
+      background: #eee
+      padding: 20px !important
+      text-align: center
+      font-weight: normal
+      font-size: 26px
+      margin-bottom: 50px
+      box-sizing: border-box
+      margin-top: 80px
+      margin-bottom: 42px
+      text-align: center
+      width: 100%
+      a
+        color: white
+        font-size: 56px
+        text-shadow: 3px 3px 10px #000
+    h3
+      color: #333
+      padding: 50px 0 20px
+      text-align: center
+      font-size: 26px
+      margin: 30px 0
+      font-weight: bold
+    h4
+      color: #333
+      padding: 20px
+      text-align: center
+      margin-bottom: 10px !important
+      font-weight: bold !important
+    h2 span
+      color: #b2b2b2
+    p
+      line-height: 30px !important
+      margin-top: 10px !important
+      margin-bottom: 50px !important
+    ul
+      list-style: circle
+      li
+        margin-left: 24px
+        blockquote
+          padding: 0 !important
+          margin: 0 !important
+          &:before
+            left: initial
+            position: absolute
+            top: initial
+            line-height: 130px
+    ol
+      list-style: decimal
+
+  #collect_box_holder
+    display: none
+
+  .entry .epic-section ul.chapters
+    list-style: none
+    padding: 0 !important
+    li
+      background: #66ccff
+      position: relative
+      height: 80px
+      width: 100%
+      margin-left: 0
+      &:nth-child(2n)
+        background: #71d54d
+        color: #71d54d
+        .number
+          background: #71d54d
+          color: #71d54d
+      &:nth-child(3n)
+        background: #7ea2d8
+        color: #7ea2d8
+        .number
+          background: #7ea2d8
+          color: #7ea2d8
+      &:nth-child(4n)
+        background: #ffbc47
+        color: #ffbc47
+        .number
+          background: #ffbc47
+          color: #ffbc47
+      &:nth-child(5n)
+        background: #52ddb5
+        color: #52ddb5
+        .number
+          background: #52ddb5
+          color: #52ddb5
+      .number
+        background: white !important
+        padding: 12px 18px
+        border-radius: 30px
+        font-size: 28px
+        margin-right: 20px
+        color: #66ccff
+        position: absolute
+        top: 14px
+        line-height: 28px
+        left: 30px
+      .chapter
+        position: absolute
+        top: 18px
+        text-transform: uppercase
+        color: #3790BD
+        left: 100px
+        line-height: 18px
+      &:nth-child(2n) .chapter
+        color: #539C38
+      &:nth-child(3n) .chapter
+        color: #5A759C
+      &:nth-child(4n) .chapter
+        color: #B4832E
+      &:nth-child(5n) .chapter
+        color: #36977B
+      a
+        position: absolute
+        position: absolute
+        font-weight: bold
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        margin: 0
+        padding: 24px 0 0 102px
+        line-height: 60px
+        text-decoration: none
+        color: white !important
+        text-transform: uppercase
+        font-size: 32px
+
+  #welcome h2
+    background: #66ccff
+    color: white
+    span
+      color: #3790BD
+
+  #notification h2
+    background: #71d54d
+    color: white
+    span
+      color: #539C38
+
+  #confirmation h2
+    background: #7ea2d8
+    color: white
+    span
+      color: #5A759C
+
+  #reminder h2
+    background: #ffbc47
+    color: white
+    span
+      color: #B4832E
+
+  #request h2
+    background: #52ddb5
+    color: white
+    span
+      color: #36977B
+
+  /*--- Popover ---
+
+  #blog-popup
+    background: url('http://blog.getvero.com/wp-content/uploads/2014/06/congruent_pentagon.jpg')
+    padding: 25px 25px 35px
+    width: 700px
+    .button
+      color: #71d54d
+      background-image: url('http://blog.getvero.com/wp-content/themes/vero-blog-theme-updated/img/buttons/go_to_the_chapter_2.png')
+      &:hover
+        background-image: url('http://blog.getvero.com/wp-content/themes/vero-blog-theme-updated/img/buttons/go_to_the_chapter_2_hover.png')
+        background-color: #71d54d
+        color: white !important
+      margin-top: 30px
+      cursor: pointer
+      display: inline-block
+      height: 62px
+      width: 430px !important
+      font-family: Arimo, sans-serif
+      font-size: 26px
+      font-weight: bold
+      text-transform: uppercase
+      background-color: white
+      box-shadow: 0px 5px 0px #d1e1e9
+      border: none
+      text-align: center !important
+      line-height: 40px
+      text-decoration: none
+      padding: 10px 40px 12px 0 !important
+    form
+      text-align: center
+
+  .visiblebox
+    h3, h1
+      text-align: center
+
+  .entry, .epic-section blockquote
+    p
+      margin-bottom: 10px !important
+      margin-left: -120px !important
+
+  #blog-popup
+    input
+      &[type='email']
+        width: 430px
+        clear: both
+        border: 1px solid #d1e1e9
+        padding: 15px 20px
+        border-radius: 3px
+        margin-bottom: 15px !important
+        box-shadow: none
+        font-size: 24px
+        width: 60%
+      &[type="email"]:focus
+        outline: none
+        border: 1px solid #52a3cc
+    h3
+      font-weight: bold
+      text-align: center
+      color: #52a3cc
+    h1
+      margin: 0
+      padding: 0
+      font-size: 40px
+      text-align: center
+      color: white
+    p
+      font-size: 20px
+      text-align: center
+      margin: 0 0 25px
+      color: white

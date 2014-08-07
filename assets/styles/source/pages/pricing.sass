@@ -1,0 +1,92 @@
+@import '../vero'
+
+.pricing
+  section
+    padding: ($padding-xxlarge-vertical / 2) 0
+  h5, .h5
+    text-transform: uppercase
+    color: $gray-dark
+  .inline-block
+    display: inline-block
+  #top
+    h1
+      color: $gray-dark
+    ul
+      @include row(table)
+      li
+        @include span-columns(4)
+        @include reset-display
+        @include pad()
+        img
+          padding: $padding-xlarge-vertical 0 $padding-xlarge-vertical
+  #join
+    position: relative
+    background: $brand-primary
+    padding: $padding-xxlarge-vertical 0
+    border-top: 1px solid $gray-blue-dark
+    #period
+      width: 110px
+    #plan
+      width: 450px
+    .monthly-price, .yearly-price
+      color: $brand-primary
+      font-weight: bold
+    .discount
+      color: white
+      background: $brand-warning
+      padding: 6px 6px
+      border-radius: 4px
+    .high-volume
+      padding-top: $padding-xlarge-vertical
+      width: 100%
+      a
+        display: inline-block
+        color: $gray-dark
+        margin-left: 6px
+        text-decoration: underline
+    .join-now
+      margin-top: $padding-xlarge-vertical
+    .price-box
+      background: white
+      width: 24%
+      padding: $padding-large-vertical 0
+      border-radius: $border-radius-base
+      border: 2px solid $gray-blue-dark
+      position: absolute
+      top: -20px
+      left: 38%
+      text-align: center
+
+.high-volume
+  section
+    padding: $padding-xxlarge-vertical 0
+  h5, .h5, h4, .h4
+    text-transform: uppercase
+    color: $gray-dark
+  #top
+    background: $brand-primary
+    position: relative
+    h1
+      color: white
+    h2
+      padding: 0 0 $padding-large-vertical
+      margin-top: 0
+      color: darken($brand-primary, 15%)
+  #high-volume
+    background: $gray-lighter
+    form
+      .inner
+        @include outer-container()
+      input[type='radio']
+        display: initial
+      .form-group
+        @include span-columns(6)
+        @include omega(2n)
+        &:last-child
+          @include shift(6)
+          text-align: right
+      label.method
+        display: inline-block
+        margin-right: 10px
+      .error
+        border-color: darken($btn-error-bg, 5%)

@@ -1,0 +1,22 @@
+.pagination
+  display: inline-block
+  padding-left: 0
+  margin: 0
+  border-radius: $border-radius-base
+  ul
+    font-size: 0
+    @extend .list-inline
+    margin-bottom: 0
+    li
+      display: inline
+      border: 1px solid $pagination-border-color
+      border-right: 0
+      padding: $pagination-padding !important
+      font-size: $font-size-base
+      &:first-child
+        +border-left-radius($pagination-border-radius)
+      &:last-child
+        border-right: 1px solid $pagination-border-color
+        +border-right-radius($pagination-border-radius)
+      &.active
+        background: $pagination-active-background
