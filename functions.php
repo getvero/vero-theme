@@ -12,6 +12,9 @@ function genesischild_theme_setup() {
   include_once( CHILD_DIR . '/lib/theme-functions.php' );
   include_once( CHILD_DIR . '/lib/theme-settings.php' );
 
+  //Favicon
+  add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
+  
   //Add classes to small images
   add_filter('the_content', 'add_class_to_small_images');
 

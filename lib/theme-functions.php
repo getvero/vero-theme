@@ -22,7 +22,11 @@ function add_logo_to_navbar($menu, $args) {
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
   $logo = ob_get_clean();
-  return $menu . $logo;
+  return $logo . $menu;
+}
+
+function custom_favicon( $favicon_url ) {
+  return '/wp-content/themes/vero/assets/images/favicon.png';
 }
 
 function add_body_classes($classes) {
