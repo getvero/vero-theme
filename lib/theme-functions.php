@@ -14,7 +14,6 @@ function child_output_filter( $backtotop_text, $creds_text ) {
   $third_column = wp_nav_menu( array( 'menu' => 'vero_footer_third' ));
 	return '<div class="pull-right">' . $third_column . '</div>' . '<div>' . $first_column . '</div>' . '<div>' . $second_column . '</div>';
 }
-
 function add_logo_to_navbar($menu, $args) {
   $args = (array)$args;
   if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
