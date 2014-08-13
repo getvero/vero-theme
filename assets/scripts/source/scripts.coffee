@@ -43,7 +43,7 @@ jQuery("#period").on "change", ->
     customePrice()
   else
     renderPrice jQuery("#plan").val()
-  
+
   if jQuery(this).val() is "1"
     jQuery(".yearly-discount").show()
   else
@@ -102,3 +102,15 @@ jQuery ->
     jQuery(document).on 'click', '#request-demo', ->
       requestDemo()
       false
+  if jQuery(".price-selection").length
+    jQuery(document).on 'change', '.price-selection', ->
+      monthly =  parseInt(jQuery(this).val())
+      yearly = Math.round((monthly * 10) / 12)
+      jQuery('.yearly-price').text("$#{yearly}")
+      jQuery('.monthly-price').text("$#{monthly}")
+      features = jQuery("[data-pricing]")
+      for feature in features
+        if jQuery(feature).data('pricing') <= monthly
+          jQuery(feature).removeClass('disable')
+        else
+          jQuery(feature).addClass('disable')
