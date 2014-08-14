@@ -97,26 +97,40 @@
     .plan
       @include span-columns(6)
       &.enterprise
-        background: lighten($brand-info, 20%)
+        border: 1px solid #E2C86B
+        background: rgba(228, 185, 29, 0.26)
+        border-radius: 4px
         .title
-          background: #82A7B9
+          background: #E2C86B
         .price-block
           padding: 18px 12px
+          border-bottom: 1px solid rgba(226, 200, 107, 0.5)
+        .details
+          line-height: inherit
+        .best-for
+          border-bottom: 1px solid rgba(226, 200, 107, 0.5)
       &.standard
         background: $gray-lighter
+        border: 1px solid #B8B8B8
+        border-radius: 4px
         .title
           background: #B8B8B8
       .title
+        border-top-left-radius: 4px
+        border-top-right-radius: 4px
         text-align: center
-        text-transform: uppercase
-        font: bold 18px $font-family-sans-serif
-        color: $gray-dark
+        font-variant: small-caps
+        font-weight: bold
+        font-size: 18px
+        color: white
         padding: $padding-vertical $padding-horizontal
       .price-block
-        font: bold 12px $font-family-sans-serif
+        font: bold 14px $font-family-sans-serif
         text-align: center
+        // background: white
         padding: $padding-vertical $padding-horizontal
-        text-transform: uppercase
+        font-variant: small-caps
+        border-bottom: 1px solid rgba(184, 184, 184, 0.5)
         color: #555
         height: 120px
         .price
@@ -136,51 +150,92 @@
           display: block
       .details
         text-align: center
-        font: bold 12px $font-family-sans-serif
-        text-transform: uppercase
+        font: bold 14px $font-family-sans-serif
+        font-variant: small-caps
         color: #555
-        padding: 6px 0
+        padding: 20px 0 6px
         height: 60px
+        line-height: 48px
         form
           width: 80%
           display: inline-block
         .phone
           display: block
-          color: $gray-dark
+          color: $brand-info
           font: bold 20px $font-family-sans-serif
           padding: 0 0 6px
       .cta
         text-align: center
-        margin: 20px
+        padding: 20px 0
       .best-for
         text-align: center
-        font: bold 12px $font-family-sans-serif
-        text-transform: uppercase
+        font: normal 14px $font-family-sans-serif
+        text-transform: capitalize
+        line-height: 22px
+        padding: 12px 0 20px
         color: #555
-        padding: 30px 0
-        p
-          font: normal 14px $font-family-sans-serif
-          text-transform: capitalize
-          line-height: 22px
-          padding: 12px
+        border-bottom: 1px solid rgba(184, 184, 184, 0.5)
+        span
+          display: block
+          font-variant: small-caps
+          text-transform: none
+          margin-bottom: 10px
+          font-weight: bold
       .features
         text-align: center
-        font: bold 12px $font-family-sans-serif
+        font: bold 14px $font-family-sans-serif
         color: #555
-        text-transform: uppercase
+        margin-top: 20px
+        font-variant: small-caps
+        min-height: 260px
         ul
           font: normal 14px $font-family-sans-serif
           margin-top: 12px
           @include outer-container()
           text-transform: none
           li
-            @include span-columns(4)
+            @include span-columns(5)
             padding: 6px 0
             text-align: left
             &:nth-child(2n+1)
-              @include shift(2)
+              @include shift(1)
             &.disable
-              color: #B1B1B1
+              opacity: .2
+          [class^="icon-"], [class*=" icon-"]
+            font: 14px/16px $font-family-sans-serif
+            padding-left: 32px
+          .icon-behavioral
+            background: url(/wp-content/themes/vero/assets/images/pricing/behavioral.png) no-repeat 0px center
+          .icon-transactional
+            background: url(/wp-content/themes/vero/assets/images/pricing/transactional.png) no-repeat 0px center
+          .icon-newsletter
+            background: url(/wp-content/themes/vero/assets/images/pricing/newsletter.png) no-repeat 0px center
+          .icon-segment
+            background: url(/wp-content/themes/vero/assets/images/pricing/segment.png) no-repeat 0px center
+          .icon-abtest
+            background: url(/wp-content/themes/vero/assets/images/pricing/abtest.png) no-repeat 0px center
+          .icon-conversion
+            background: url(/wp-content/themes/vero/assets/images/pricing/conversion.png) no-repeat 0px center
+          .icon-projects
+            background: url(/wp-content/themes/vero/assets/images/pricing/projects.png) no-repeat 0px center
+          .icon-external
+            background: url(/wp-content/themes/vero/assets/images/pricing/external.png) no-repeat 0px center
+          .icon-team
+            background: url(/wp-content/themes/vero/assets/images/pricing/team.png) no-repeat 0px center
+          .icon-revenue
+            background: url(/wp-content/themes/vero/assets/images/pricing/revenue.png) no-repeat 0px center
+          .icon-secure
+            background: url(/wp-content/themes/vero/assets/images/pricing/secure.png) no-repeat 0px center
+          .icon-api
+            background: url(/wp-content/themes/vero/assets/images/pricing/api.png) no-repeat 0px center
+          .icon-heatmap
+            background: url(/wp-content/themes/vero/assets/images/pricing/heatmap.png) no-repeat 0px center
+          .icon-log
+            background: url(/wp-content/themes/vero/assets/images/pricing/log.png) no-repeat 0px center
+          .icon-manager
+            background: url(/wp-content/themes/vero/assets/images/pricing/manager.png) no-repeat 0px center
+          .icon-support
+            background: url(/wp-content/themes/vero/assets/images/pricing/support.png) no-repeat 0px center
   .plans-info
     @include outer-container()
     padding: ($padding-xxlarge-vertical / 2) 0
@@ -216,9 +271,13 @@
       border-left: 1px solid #dfdfdf
       padding: 41px 40px
 
+  #customers
+    img
+      margin-top: 40px
   #faq
     background: $gray-lighter
     ul
+      margin-top: 40px
       @include outer-container()
       li
         @include span-columns(6)

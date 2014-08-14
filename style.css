@@ -6133,26 +6133,39 @@ body.transactional-email {
     .plans #plans .plan:last-child {
       margin-right: 0; }
     .plans #plans .plan.enterprise {
-      background: #addef7; }
+      border: 1px solid #e2c86b;
+      background: rgba(228, 185, 29, 0.26);
+      border-radius: 4px; }
       .plans #plans .plan.enterprise .title {
-        background: #82a7b9; }
+        background: #e2c86b; }
       .plans #plans .plan.enterprise .price-block {
-        padding: 18px 12px; }
+        padding: 18px 12px;
+        border-bottom: 1px solid rgba(226, 200, 107, 0.5); }
+      .plans #plans .plan.enterprise .details {
+        line-height: inherit; }
+      .plans #plans .plan.enterprise .best-for {
+        border-bottom: 1px solid rgba(226, 200, 107, 0.5); }
     .plans #plans .plan.standard {
-      background: #e4eef2; }
+      background: #e4eef2;
+      border: 1px solid #b8b8b8;
+      border-radius: 4px; }
       .plans #plans .plan.standard .title {
         background: #b8b8b8; }
     .plans #plans .plan .title {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
       text-align: center;
-      text-transform: uppercase;
-      font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #38454a;
+      font-variant: small-caps;
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
       padding: 6px 12px; }
     .plans #plans .plan .price-block {
-      font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-align: center;
       padding: 6px 12px;
-      text-transform: uppercase;
+      font-variant: small-caps;
+      border-bottom: 1px solid rgba(184, 184, 184, 0.5);
       color: #555555;
       height: 120px; }
       .plans #plans .plan .price-block .price {
@@ -6172,38 +6185,44 @@ body.transactional-email {
         display: block; }
     .plans #plans .plan .details {
       text-align: center;
-      font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
+      font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-variant: small-caps;
       color: #555555;
-      padding: 6px 0;
-      height: 60px; }
+      padding: 20px 0 6px;
+      height: 60px;
+      line-height: 48px; }
       .plans #plans .plan .details form {
         width: 80%;
         display: inline-block; }
       .plans #plans .plan .details .phone {
         display: block;
-        color: #38454a;
+        color: #50b9ee;
         font: bold 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
         padding: 0 0 6px; }
     .plans #plans .plan .cta {
       text-align: center;
-      margin: 20px; }
+      padding: 20px 0; }
     .plans #plans .plan .best-for {
       text-align: center;
-      font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
+      font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: capitalize;
+      line-height: 22px;
+      padding: 12px 0 20px;
       color: #555555;
-      padding: 30px 0; }
-      .plans #plans .plan .best-for p {
-        font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: capitalize;
-        line-height: 22px;
-        padding: 12px; }
+      border-bottom: 1px solid rgba(184, 184, 184, 0.5); }
+      .plans #plans .plan .best-for span {
+        display: block;
+        font-variant: small-caps;
+        text-transform: none;
+        margin-bottom: 10px;
+        font-weight: bold; }
     .plans #plans .plan .features {
       text-align: center;
-      font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #555555;
-      text-transform: uppercase; }
+      margin-top: 20px;
+      font-variant: small-caps;
+      min-height: 260px; }
       .plans #plans .plan .features ul {
         font: normal 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin-top: 12px;
@@ -6220,15 +6239,50 @@ body.transactional-email {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 31.76157%;
+          width: 40.29137%;
           padding: 6px 0;
           text-align: left; }
           .plans #plans .plan .features ul li:last-child {
             margin-right: 0; }
           .plans #plans .plan .features ul li:nth-child(2n+1) {
-            margin-left: 17.05961%; }
+            margin-left: 8.5298%; }
           .plans #plans .plan .features ul li.disable {
-            color: #b1b1b1; }
+            opacity: 0.2; }
+        .plans #plans .plan .features ul [class^="icon-"], .plans #plans .plan .features ul [class*=" icon-"] {
+          font: 14px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+          padding-left: 32px; }
+        .plans #plans .plan .features ul .icon-behavioral {
+          background: url(/wp-content/themes/vero/assets/images/pricing/behavioral.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-transactional {
+          background: url(/wp-content/themes/vero/assets/images/pricing/transactional.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-newsletter {
+          background: url(/wp-content/themes/vero/assets/images/pricing/newsletter.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-segment {
+          background: url(/wp-content/themes/vero/assets/images/pricing/segment.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-abtest {
+          background: url(/wp-content/themes/vero/assets/images/pricing/abtest.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-conversion {
+          background: url(/wp-content/themes/vero/assets/images/pricing/conversion.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-projects {
+          background: url(/wp-content/themes/vero/assets/images/pricing/projects.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-external {
+          background: url(/wp-content/themes/vero/assets/images/pricing/external.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-team {
+          background: url(/wp-content/themes/vero/assets/images/pricing/team.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-revenue {
+          background: url(/wp-content/themes/vero/assets/images/pricing/revenue.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-secure {
+          background: url(/wp-content/themes/vero/assets/images/pricing/secure.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-api {
+          background: url(/wp-content/themes/vero/assets/images/pricing/api.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-heatmap {
+          background: url(/wp-content/themes/vero/assets/images/pricing/heatmap.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-log {
+          background: url(/wp-content/themes/vero/assets/images/pricing/log.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-manager {
+          background: url(/wp-content/themes/vero/assets/images/pricing/manager.png) no-repeat 0px center; }
+        .plans #plans .plan .features ul .icon-support {
+          background: url(/wp-content/themes/vero/assets/images/pricing/support.png) no-repeat 0px center; }
 .plans .plans-info {
   max-width: 68em;
   margin-left: auto;
@@ -6269,9 +6323,12 @@ body.transactional-email {
     font: 20px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-left: 1px solid #dfdfdf;
     padding: 41px 40px; }
+.plans #customers img {
+  margin-top: 40px; }
 .plans #faq {
   background: #e4eef2; }
   .plans #faq ul {
+    margin-top: 40px;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
