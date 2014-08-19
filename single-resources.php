@@ -18,12 +18,14 @@ function metro_add_body_class( $classes ) {
 
 add_action( 'genesis_before_content', 'generate_resource_header', 5 );
 function generate_resource_header() {
+  global $post;
   ?>
   <header class="entry-header">
     <?php echo genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ) ) ); ?>
     <h1 class="entry-title" itemprop="headline"><?php echo get_the_title() ?></h1>
     <?php if($_GET['dl'] != "") { ?>
       <a href="<?php echo the_field('downloadable_file') ?>" class="btn btn-large btn-warning">Download your resource</a>
+      <script>ga('send', 'pageview', "/resources/download/<?php echo $post->post_name; ?>");</script>
       <?php optimized_counters_html5() ?>
     <?php } else { ?>
       <form action="https://app.getvero.com/forms/da1218dec1e57d5a9f9364a3ae8c0061" method="post" class="download-subscribe-form form-inline">

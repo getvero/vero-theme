@@ -22,7 +22,13 @@ function generate_resource_header() {
     <h1 class="entry-title" itemprop="headline"><?php echo get_the_title() ?></h1>
     <?php echo genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ) ) ); ?>
   </header>
+
   <?php
+    if ($_GET["where"] != "") { ?>
+      <script>
+        _gaq.push(['_setCustomVar',1,'blog subscribe source','<?php echo $_GET["where"]; ?>',3]);
+      </script>
+  <?php }
 }
 
 genesis(); ?>
