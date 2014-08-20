@@ -1,8 +1,6 @@
 <?php
-
 // Start the engine the other way
 add_action('genesis_setup','genesischild_theme_setup', 15); 
-
 function genesischild_theme_setup() { 
 
 	//Define child theme version
@@ -147,5 +145,4 @@ function genesischild_theme_setup() {
     unregister_nav_menu('secondary');
   }
 }
-
 ?>
