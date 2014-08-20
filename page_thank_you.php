@@ -33,6 +33,7 @@ function generate_resource_header() {
         });
       </script>
   <?php }
+
   
 }
 
