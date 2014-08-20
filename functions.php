@@ -36,7 +36,8 @@ function genesischild_theme_setup() {
 
   //Enqueue JS
   add_action( 'wp_enqueue_scripts', 'add_js' );  
-
+  add_action('genesis_after_footer', 'add_gtm_identify');
+  
   //HTML5 support
 	remove_action( 'genesis_entry_footer', 'optimized_counters_html5', 1 );
 

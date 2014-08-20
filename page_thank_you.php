@@ -27,6 +27,10 @@ function generate_resource_header() {
     if ($_GET["where"] != "") { ?>
       <script>
         _gaq.push(['_setCustomVar',1,'blog subscribe source','<?php echo $_GET["where"]; ?>',3]);
+        woopra.track('pv', {
+          url: window.location.pathname,
+          blog_subscribe_source: '<?php echo $_GET["where"]; ?>'
+        });
       </script>
   <?php }
 }

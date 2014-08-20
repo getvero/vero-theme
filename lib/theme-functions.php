@@ -119,6 +119,19 @@ function add_js() {
   wp_enqueue_script('vero-js');
 }
 
+
+function add_gtm_identify() {
+  $email = urldecode($_GET['vero_e']);
+  if($_GET['vero_e'] != "") {
+  ?>
+    <script type="text/javascript" charset="utf-8">
+      dataLayer = []
+      dataLayer.push({'current_user_email': '<?php echo $email?>'});
+    </script>
+  <?php
+  }
+}
+
 function read_more_link() {
   return '<a class="more-link btn btn-success" href="' . get_permalink() . '">Read more &rarr;</a>';
 }
