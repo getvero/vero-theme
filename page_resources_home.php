@@ -25,14 +25,10 @@ function metro_add_body_class( $classes ) {
 //Add featured sections at the top
 add_action( 'genesis_before_content', 'blog_resources_do_featured' );
 function blog_resources_do_featured() {
-    echo '<section id="top" class="clearfix resources-featured"><div class="wrap">';
- 
     genesis_widget_area( 'resources-featured-full', array(
       'before' => '<main class="resources-featured-full">',
       'after' => '</main>',
     ) );
-
-    echo '</section><!-- end resources-featured -->';
 }
 
 //Add guides
