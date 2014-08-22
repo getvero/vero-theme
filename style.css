@@ -6578,6 +6578,9 @@ body.transactional-email {
         margin-top: 10px;
         color: white; }
 
+.start.hello .inner {
+  min-width: 1088px !important; }
+
 .start section {
   padding: 60px 40px; }
 .start h5, .start .h5, .start h4, .start .h4 {
@@ -6636,6 +6639,10 @@ body.transactional-email {
   .start section#hero p {
     margin: 30px 0;
     line-height: 1.4; }
+  .start section#hero .small-image img {
+    margin-left: 20px;
+    width: 60%;
+    float: right; }
   .start section#hero #mac-frame {
     float: right;
     margin-top: 30px;
