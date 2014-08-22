@@ -138,14 +138,30 @@ function read_more_link() {
 
 function custom_popups() {
   $post = get_post();
+  $with_scroll = (get_post_meta($post->ID, 'percent', true));
   $popup_value = (do_shortcode(get_post_meta($post->ID, 'popup_value', true)));
   if (!empty($popup_value)){
   ?>
-    <div id="blog-popup"><?php echo $popup_value ?></div>
+    <div id="blog-popup" style="display:none;"><?php echo $popup_value ?></div>
+  <?php if ($with_scroll == false) { ?>
     <script>jQuery(document).ready(function(){
       jQuery("#blog-popup").loadLeanModal();
     });</script>
-  <?php
+  <?php } else { ?>
+    <script>
+      var body = document.body,
+      html = document.documentElement;
+      var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                           html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+      var interval = setInterval(function() {
+          if (jQuery(window).scrollTop() >= (height * 0.75)) {
+            jQuery("#blog-popup").loadLeanModal();
+            clearInterval(interval);
+          }
+      }, 250);
+    </script>
+  <?php }
   }
 }
 
