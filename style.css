@@ -6583,6 +6583,36 @@ body.transactional-email {
 .start h5, .start .h5, .start h4, .start .h4 {
   text-transform: uppercase;
   color: #38454a; }
+.start .nav-primary {
+  z-index: 1000;
+  position: fixed; }
+  .start .nav-primary .labels {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    height: 60px;
+    vertical-align: top;
+    margin-top: 16px; }
+    .start .nav-primary .labels span {
+      display: block;
+      line-height: 16px; }
+  .start .nav-primary .email {
+    margin-right: 0;
+    padding-right: 0;
+    width: 400px; }
+    .start .nav-primary .email input {
+      width: 190px;
+      display: inline-block; }
+    .start .nav-primary .email #user_email {
+      margin-right: 3px; }
+  .start .nav-primary .submit {
+    margin-left: 0;
+    padding-left: 0; }
+    .start .nav-primary .submit input {
+      vertical-align: top;
+      margin-top: 14px; }
+  .start .nav-primary .login {
+    float: right; }
 .start .half {
   float: left;
   display: block;
@@ -6592,23 +6622,34 @@ body.transactional-email {
     margin-right: 0; }
 .start section#hero {
   padding-bottom: 0 !important;
-  background: #00c3e4; }
+  background: #00c3e4;
+  border-bottom: 1px solid #e2e6eb; }
+  .start section#hero .inner {
+    padding-top: 50px; }
   .start section#hero h1 {
     color: white; }
   .start section#hero h2 {
     padding: 0 0 10px;
     color: #008298;
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 27px; }
   .start section#hero p {
     margin: 30px 0;
     line-height: 1.4; }
-  .start section#hero img {
+  .start section#hero #mac-frame {
     float: right;
+    margin-top: 30px;
     width: 60%;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    background: url("/wp-content/themes/vero/assets/images/mac-frame.png") no-repeat;
+    background-size: 100%;
+    height: 326px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px; }
+    .start section#hero #mac-frame #top-video {
+      border: 1px solid #bbbbbb;
+      border-bottom: 0; }
   .start section#hero .left {
     float: left;
     display: block;
