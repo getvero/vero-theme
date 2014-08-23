@@ -1043,6 +1043,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/mac-frame.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85162,
+		"inputAbbreviatedPath": "\/assets\/images\/mac-frame.png",
+		"outputAbbreviatedPath": "\/assets\/images\/mac-frame.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/one-place.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
