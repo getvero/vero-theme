@@ -4416,7 +4416,10 @@ form .help-text {
   border-right: 1px solid #e4eef2;
   padding-right: 60px; }
   .blog .content .post-image {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    min-width: 500px; }
   .blog .content .entry-content {
     padding-bottom: 30px;
     border-bottom: 1px solid #e4eef2; }
@@ -4551,6 +4554,52 @@ form .help-text {
     border: 3px solid #97a8ae;
     margin-bottom: 10px;
     border-radius: 3px; }
+.blog.archive .row_stat {
+  height: 80px;
+  line-height: 80px;
+  margin-top: 1px solid #e4eef2;
+  margin-bottom: 1px solid #e4eef2; }
+  .blog.archive .row_stat:last-child {
+    margin-bottom: 0; }
+  .blog.archive .row_stat .rowc {
+    width: 100%; }
+    .blog.archive .row_stat .rowc .desc {
+      width: 80%; }
+    .blog.archive .row_stat .rowc .tweet_link {
+      width: 20%;
+      display: block;
+      float: right;
+      vertical-align: middle; }
+  .blog.archive .row_stat .amount {
+    color: #ff6f00;
+    font-size: 32px;
+    font-weight: bold; }
+    .blog.archive .row_stat .amount .text {
+      font-size: 20px;
+      font-weight: normal; }
+  .blog.archive .row_stat .tdesc_area {
+    margin-left: 20px;
+    color: #e4eef2; }
+    .blog.archive .row_stat .tdesc_area .tdesc {
+      color: #38454a; }
+    .blog.archive .row_stat .tdesc_area a {
+      font-style: italic; }
+
+.blog.centered .entry-title {
+  text-align: center;
+  width: 100%; }
+.blog.centered .entry-meta {
+  text-align: center;
+  width: 100% !important;
+  margin-bottom: 5px; }
+.blog.centered .before-entry-widgets {
+  text-align: center;
+  width: 100%; }
+.blog.centered .content {
+  margin-top: 50px; }
+.blog.centered .post-image-link {
+  text-align: center;
+  display: block; }
 
 .blog-home .menu-primary {
   height: 48px; }

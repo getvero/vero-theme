@@ -29,11 +29,18 @@ function custom_favicon( $favicon_url ) {
 }
 
 function add_body_classes($classes) {
+  global $post;
+
   if ( is_singular('help_docs') ) {
     $classes[] = 'help-docs sidebar-content';
     return $classes;
   } else if ( is_singular('post') ) {
-    $classes[] = 'blog';
+    $post_style = get_post_meta($post->ID, 'post_style', true); 
+    if ( $post_style == 'centered' ) {
+      $classes[] = 'blog centered';
+    } else {
+      $classes[] = 'blog';
+    }
     return $classes;
   } else if ( is_singular('kb') || is_post_type_archive('kb') || is_tax('topic') ) {
     $classes[] = 'kb';
@@ -200,19 +207,25 @@ function blog_post_featured_image () {
   if ( ! is_singular( 'post' ) )
     return;
   $img = genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
-  printf( '<a href="%s" title="%s">%s</a>', get_permalink(), the_title_attribute( 'echo=0' ), $img );
+  printf( '<a class="post-image-link" href="%s" title="%s">%s</a>', get_permalink(), the_title_attribute( 'echo=0' ), $img );
 }
 
 function fix_blog_navs_and_header () {
+  global $post;
   if( is_singular('post') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    $post_style = get_post_meta($post->ID, 'post_style', true); 
+    if ( $post_style == 'centered' ) {
+      add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
+    } else {
+      add_action( 'genesis_entry_header', 'blog_post_featured_image', 15);
+    }
     add_action( 'genesis_before_content', 'genesis_do_post_title', 9 );
     add_action( 'genesis_before_content', 'genesis_post_info', 9 );
     add_action( 'genesis_before_content', 'before_entry_widget', 9 );
-    add_action( 'genesis_entry_header', 'blog_post_featured_image', 15);
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if ( is_singular('resources') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );

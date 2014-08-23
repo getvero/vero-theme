@@ -22,6 +22,9 @@
     padding-right: 60px
     .post-image
       margin-bottom: $padding-xlarge-vertical
+      display: block
+      clear: both
+      min-width: 500px
     .entry-content
       padding-bottom: $padding-xlarge-vertical
       border-bottom: 1px solid $gray-lighter
@@ -171,3 +174,50 @@
         border: 3px solid $gray-blue
         margin-bottom: $padding-large-vertical
         border-radius: $border-radius-small
+  .row_stat
+    height: 80px
+    line-height: 80px
+    margin-top: 1px solid $gray-lighter
+    margin-bottom: 1px solid $gray-lighter
+    &:last-child
+      margin-bottom: 0
+    .rowc
+      width: 100%
+      .desc
+        width: 80%
+      .tweet_link
+        width: 20%
+        display: block
+        float: right
+        vertical-align: middle
+    .amount
+      color: #ff6f00
+      font-size: 32px
+      font-weight: bold
+      .text
+        font-size: 20px
+        font-weight: normal
+    .tdesc_area
+      margin-left: 20px
+      color: $gray-lighter
+      .tdesc
+        color: $gray-dark
+      a
+        font-style: italic
+
+.blog.centered
+  .entry-title
+    text-align: center
+    width: 100%
+  .entry-meta
+    text-align: center
+    width: 100% !important
+    margin-bottom: 5px
+  .before-entry-widgets
+    text-align: center
+    width: 100%
+  .content
+    margin-top: 50px
+  .post-image-link
+    text-align: center
+    display: block
