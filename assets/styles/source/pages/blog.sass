@@ -81,6 +81,36 @@
         height: 100%
         left: 0
         top: 0
+  .row_stat
+    height: 80px
+    line-height: 80px
+    margin-top: 1px solid $gray-lighter
+    margin-bottom: 1px solid $gray-lighter
+    &:last-child
+      margin-bottom: 0
+    .rowc
+      width: 100%
+      .desc
+        width: 80%
+      .tweet_link
+        width: 20%
+        display: block
+        float: right
+        vertical-align: middle
+    .amount
+      color: #ff6f00
+      font-size: 32px
+      font-weight: bold
+      .text
+        font-size: 20px
+        font-weight: normal
+    .tdesc_area
+      margin-left: 20px
+      color: $gray-lighter
+      .tdesc
+        color: $gray-dark
+      a
+        font-style: italic
 
 #ts-fab-below
   padding: $padding-xlarge-vertical 0 0
@@ -133,36 +163,6 @@
           color: #444
       .ts-fab-description
         font-size: 14px
-  .row_stat
-    height: 80px
-    line-height: 80px
-    margin-top: 1px solid $gray-lighter
-    margin-bottom: 1px solid $gray-lighter
-    &:last-child
-      margin-bottom: 0
-    .rowc
-      width: 100%
-      .desc
-        width: 80%
-      .tweet_link
-        width: 20%
-        display: block
-        float: right
-        vertical-align: middle
-    .amount
-      color: #ff6f00
-      font-size: 32px
-      font-weight: bold
-      .text
-        font-size: 20px
-        font-weight: normal
-    .tdesc_area
-      margin-left: 20px
-      color: $gray-lighter
-      .tdesc
-        color: $gray-dark
-      a
-        font-style: italic
 
 .blog.archive
   .sidebar

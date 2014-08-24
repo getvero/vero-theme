@@ -2443,7 +2443,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 2,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/styles\/source\/vero.sass",
 		"outputAbbreviatedPath": "\/assets\/styles\/css\/vero.css",
