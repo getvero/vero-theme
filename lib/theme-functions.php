@@ -196,6 +196,26 @@ function add_blog_navbar_logic() {
   }
 }
 
+function add_how_to_do_this_area () {
+  if ( is_singular('post') ) { 
+    global $post; 
+    $how_to_vero = get_post_meta($post->ID, 'vero_how_to', true);
+    if ( $how_to_vero == true ) { ?>
+      <section class="how-to-vero">
+        <?php 
+          $title = get_post_meta($post->ID, 'vero_tip_title', true);
+          $text = get_post_meta($post->ID, 'vero_tip_text', true);
+        ?>
+        <h4><?php echo $title ?></h4>
+        <div class="text">
+          <?php echo $text ?>
+        </div>
+        <a href="http://app.getvero.com/signup" class="btn btn-success">Free 14 day trial &rarr;</a>
+      </section>
+    <?php }
+  }
+}
+
 function add_blog_cta_before_footer() {
   if ( is_singular('post') ) { ?>
 

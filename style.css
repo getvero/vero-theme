@@ -4395,8 +4395,6 @@ form .help-text {
     .partners #partners ul li .bottom {
       padding: 30px 0; }
 
-.blog footer {
-  border-top: 1px solid #e4eef2; }
 .blog .content-sidebar-wrap > h1.entry-title {
   width: 810px;
   display: block;
@@ -4420,15 +4418,27 @@ form .help-text {
     display: block;
     clear: both;
     min-width: 500px; }
-  .blog .content .entry-content {
-    border-bottom: 1px solid #e4eef2; }
 .blog .nav-primary {
   line-height: 65px; }
 .blog .site-inner {
   padding-top: 30px; }
 .blog .entry-footer {
-  padding-bottom: 30px;
-  display: none; }
+  padding: 30px 0 0;
+  border-top: none;
+  padding-top: 0; }
+  .blog .entry-footer .how-to-vero {
+    padding: 30px;
+    background: rgba(228, 185, 29, 0.26); }
+    .blog .entry-footer .how-to-vero h4 {
+      text-transform: uppercase; }
+    .blog .entry-footer .how-to-vero img {
+      border-radius: 4px;
+      border: 4px solid #e2c86b; }
+    .blog .entry-footer .how-to-vero ul, .blog .entry-footer .how-to-vero ol {
+      margin: 10px; }
+      .blog .entry-footer .how-to-vero ul li, .blog .entry-footer .how-to-vero ol li {
+        list-style: bullet;
+        margin-left: 20px; }
 .blog .featured-content h2 {
   font-size: 16px;
   font-weight: normal;
