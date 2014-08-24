@@ -4560,10 +4560,14 @@ form .help-text {
 .blog.archive .entry-title {
   margin-top: 30px;
   margin-bottom: 5px; }
+  .blog.archive .entry-title h1 {
+    color: #38454a; }
 .blog.archive article:first-child .entry-title {
   margin-top: 0; }
 .blog.archive .content {
   padding-bottom: 0 !important; }
+  .blog.archive .content p:first-child {
+    margin-top: 0; }
   .blog.archive .content .entry-content {
     padding-bottom: 45px; }
   .blog.archive .content .entry-footer {
@@ -7689,3 +7693,13 @@ blockquote {
 .archive .entry-title a:hover {
   opacity: 0.8;
   text-decoration: none; }
+
+.author-box {
+  padding: 30px;
+  background: 30px; }
+  .author-box h1 {
+    margin-top: 0; }
+
+.archive-description {
+  margin-bottom: 30px;
+  padding: 0; }

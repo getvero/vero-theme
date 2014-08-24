@@ -237,7 +237,11 @@ function fix_blog_navs_and_header () {
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if (is_singular('guides') ) {
     remove_action('genesis_after_header', 'genesis_do_nav');
-  } else if ( is_author() ) {
+  } else if ( is_author() || is_search()) {
+    add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_open', 5 );
+    add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
+    add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
+    add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_close', 15 );
   } else if ( is_post_type_archive('post') || is_home() || is_category() ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
