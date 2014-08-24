@@ -111,9 +111,11 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     }  else if ( ( is_singular('kb') && in_array($menu_item->title, $term_array) ) || ( is_tax('topic') && ($menu_item->title == $taxonomy) ) ) {
       $classes[] = 'current-menu-item';
-    } else if ( $menu_item->title == 'Resources' && (is_page('email-marketing-resources') || is_singular('guides') || is_singular('resources') ) ) {
+    } else if ( $menu_item->title == 'Email Marketing Resources' && (is_page('email-marketing-resources') || is_singular('guides') || is_singular('resources') ) ) {
       $classes[] = 'current-menu-item';
-    }
+    } else if ( strtolower($menu_item->title) == 'blog' && (array_shift(explode(".",$_SERVER['HTTP_HOST'])) == 'blog') ) {
+      $classes[] = 'current-menu-item';
+    } 
     return $classes;
 }
 

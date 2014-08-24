@@ -1574,7 +1574,7 @@ h6, .h6 {
   font-size: 13px; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 22px 0; }
   p span, p time {
     text-transform: uppercase;
     color: #38454a;
@@ -2027,7 +2027,7 @@ h6, .h6 {
   font-size: 13px; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 22px 0; }
   p span, p time {
     text-transform: uppercase;
     color: #38454a;
@@ -2738,7 +2738,7 @@ h6, .h6 {
   font-size: 13px; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 22px 0; }
   p span, p time {
     text-transform: uppercase;
     color: #38454a;
@@ -3584,7 +3584,7 @@ h6, .h6 {
   font-size: 13px; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 22px 0; }
   p span, p time {
     text-transform: uppercase;
     color: #38454a;
@@ -4421,7 +4421,6 @@ form .help-text {
     clear: both;
     min-width: 500px; }
   .blog .content .entry-content {
-    padding-bottom: 30px;
     border-bottom: 1px solid #e4eef2; }
 .blog .nav-primary {
   line-height: 65px; }
@@ -4438,8 +4437,9 @@ form .help-text {
   color: #38454a; }
   .blog .featured-content a img {
     border: 3px solid #97a8ae;
-    margin-bottom: 10px;
-    border-radius: 3px; }
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 40%; }
 .blog .post-entry-widget {
   padding: 0 0 80px; }
 .blog .content {
@@ -4458,10 +4458,8 @@ form .help-text {
     padding-left: 0; }
   .blog .content p, .blog .content li {
     line-height: 1.8; }
-  .blog .content p {
-    margin-bottom: 10px; }
-    .blog .content p iframe {
-      width: 100%; }
+  .blog .content p iframe {
+    width: 100%; }
   .blog .content blockquote, .blog .content ul, .blog .content ol {
     margin: 30px 0; }
   .blog .content .aspect-ratio {
@@ -4494,13 +4492,20 @@ form .help-text {
   .blog .row_stat .amount {
     color: #ff6f00;
     font-size: 32px;
-    font-weight: bold; }
+    font-weight: bold;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top; }
     .blog .row_stat .amount .text {
       font-size: 20px;
       font-weight: normal; }
   .blog .row_stat .tdesc_area {
     margin-left: 20px;
-    color: #e4eef2; }
+    color: #e4eef2;
+    width: 70%;
+    display: inline-block;
+    line-height: 22px !important;
+    vertical-align: middle; }
     .blog .row_stat .tdesc_area .tdesc {
       color: #38454a; }
     .blog .row_stat .tdesc_area a {
@@ -4599,7 +4604,8 @@ form .help-text {
   margin-top: 50px; }
 .blog.centered .content-sidebar-wrap .post-image-link {
   text-align: center;
-  display: block; }
+  display: block;
+  padding: 30px 0 20px; }
 
 .blog-home .menu-primary {
   height: 48px; }
@@ -7312,7 +7318,7 @@ h6, .h6 {
   font-size: 13px; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 22px 0; }
   p span, p time {
     text-transform: uppercase;
     color: #38454a;
