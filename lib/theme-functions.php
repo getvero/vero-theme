@@ -237,6 +237,7 @@ function fix_blog_navs_and_header () {
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if (is_singular('guides') ) {
     remove_action('genesis_after_header', 'genesis_do_nav');
+  } else if ( is_author() ) {
   } else if ( is_post_type_archive('post') || is_home() || is_category() ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
