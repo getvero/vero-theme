@@ -16,7 +16,6 @@ function metro_add_body_class( $classes ) {
    return $classes;
 }
 
-
 remove_action('genesis_after_header', 'genesis_do_nav');
 add_action('genesis_after_header', 'do_welcome_nav');
 function do_welcome_nav() {
@@ -25,6 +24,18 @@ function do_welcome_nav() {
     'theme_location' => 'hola-nav-menu'
     ) );
   echo '</div></nav>';
+}
+
+add_filter( 'genesis_nav_items', 'add_white_logo_to_navbar', 10, 2 );
+add_filter( 'wp_nav_menu_items', 'add_white_logo_to_navbar', 10, 2 );
+function add_white_logo_to_navbar($menu, $args) {
+  $args = (array)$args;
+  if ( 'hola-nav-menu' !== $args['theme_location'] )
+    return $menu;
+  ob_start();
+  echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-with-border.png">Vero</a></li>';
+  $logo = ob_get_clean();
+  return $logo . $menu;
 }
 
 genesis(); ?>
