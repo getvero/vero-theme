@@ -145,5 +145,8 @@ function genesischild_theme_setup() {
   function remove_default_menu(){
     unregister_nav_menu('secondary');
   }
+
+  //Hola page
+  register_nav_menu('hola-nav-menu' , __( '(Main) Hola Primary Navigation Menu'));
 }
 ?>
