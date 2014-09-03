@@ -911,6 +911,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/hat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5674,
+		"inputAbbreviatedPath": "\/assets\/images\/hat.png",
+		"outputAbbreviatedPath": "\/assets\/images\/hat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/automated.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1340,6 +1351,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/support.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6633,
+		"inputAbbreviatedPath": "\/assets\/images\/support.png",
+		"outputAbbreviatedPath": "\/assets\/images\/support.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/targeted-email.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1523,6 +1545,28 @@
 		"initialSize": 7957,
 		"inputAbbreviatedPath": "\/assets\/images\/welcome\/up.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/welcome\/up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/what-is-vero-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50410,
+		"inputAbbreviatedPath": "\/assets\/images\/what-is-vero-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/what-is-vero-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/what-is-vero-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50531,
+		"inputAbbreviatedPath": "\/assets\/images\/what-is-vero-3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/what-is-vero-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2627,6 +2671,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page_full_width.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page_hola.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page_hola.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

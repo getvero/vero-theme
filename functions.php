@@ -104,6 +104,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before', 'fix_blog_navs_and_header' );
   add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
+  add_action( 'genesis_entry_footer', 'add_how_to_do_this_area', 14 );
   add_action( 'genesis_entry_footer', 'add_blog_cta_before_footer', 15 );
   genesis_register_sidebar( array(
     'id'          => 'before-entry',
@@ -144,5 +145,8 @@ function genesischild_theme_setup() {
   function remove_default_menu(){
     unregister_nav_menu('secondary');
   }
+
+  //Hola page
+  register_nav_menu('hola-nav-menu' , __( '(Main) Hola Primary Navigation Menu'));
 }
 ?>
