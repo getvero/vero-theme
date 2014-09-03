@@ -4611,6 +4611,11 @@ form .help-text {
   display: block;
   padding: 30px 0 20px; }
 
+.blog.search .entry-title h2 a {
+  color: #38454a; }
+  .blog.search .entry-title h2 a:hover {
+    text-decoration: none; }
+
 .blog-home .menu-primary {
   height: 48px; }
   .blog-home .menu-primary li {
@@ -5694,6 +5699,7 @@ body.transactional-email {
     body.transactional-email .epic-section h2, body.transactional-email .epic-section h3, body.transactional-email .epic-section h4 {
       margin: 0 auto; }
     body.transactional-email .epic-section p, body.transactional-email .epic-section ul, body.transactional-email .epic-section ol {
+      float: none;
       margin: 0 auto;
       width: 100%; }
     body.transactional-email .epic-section h2 {
@@ -5880,7 +5886,8 @@ body.transactional-email {
   body.transactional-email .visiblebox h3, body.transactional-email .visiblebox h1 {
     text-align: center; }
   body.transactional-email .entry p, body.transactional-email .epic-section blockquote p {
-    margin-bottom: 10px !important;
+    margin-bottom: 10px !important; }
+  body.transactional-email .epic-section blockquote p {
     margin-left: -120px !important; }
   body.transactional-email #blog-popup input[type='email'] {
     width: 430px;
@@ -7690,13 +7697,14 @@ blockquote {
 .archive-pagination {
   padding-bottom: 40px; }
 
-.archive .entry-title a:hover {
+.archive .entry-title a:hover, .search .entry-title a:hover {
   opacity: 0.8;
   text-decoration: none; }
 
 .author-box {
   padding: 30px;
-  background: 30px; }
+  background: 30px;
+  background: #e4eef2; }
   .author-box h1 {
     margin-top: 0; }
 
