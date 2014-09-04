@@ -26,10 +26,13 @@ function generate_resource_header() {
     <?php if($_GET['dl'] != "") { ?>
       <a href="<?php echo the_field('downloadable_file') ?>" class="btn btn-large btn-warning">Download your resource</a>
       <script>
-      _gaq.push('_trackPageview', "/resources/download/<?php echo $post->post_name; ?>");
-      woopra.track('pv', {
-          url: "/resources/download/<?php echo $post->post_name; ?>"
-      });</script>
+      jQuery(document).ready(function(){
+        _gaq.push('_trackPageview', "/resources/download/<?php echo $post->post_name; ?>");
+        woopra.track('pv', {
+            url: "/resources/download/<?php echo $post->post_name; ?>"
+        });
+      }
+      </script>
       <?php optimized_counters_html5() ?>
     <?php } else { ?>
       <form action="https://app.getvero.com/forms/da1218dec1e57d5a9f9364a3ae8c0061" method="post" class="download-subscribe-form form-inline">
