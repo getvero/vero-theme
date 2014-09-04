@@ -28,10 +28,7 @@ function generate_resource_header() {
       <script>
       jQuery(document).ready(function(){
         _gaq.push('_trackPageview', "/resources/download/<?php echo $post->post_name; ?>");
-        woopra.track('pv', {
-            url: "/resources/download/<?php echo $post->post_name; ?>"
-        });
-      }
+      });
       </script>
       <?php optimized_counters_html5() ?>
     <?php } else { ?>
