@@ -25,7 +25,8 @@ function generate_resource_header() {
     <h1 class="entry-title" itemprop="headline"><?php echo get_the_title() ?></h1>
     <?php if($_GET['dl'] != "") { ?>
       <a href="<?php echo the_field('downloadable_file') ?>" class="btn btn-large btn-warning">Download your resource</a>
-      <script>ga('send', 'pageview', "/resources/download/<?php echo $post->post_name; ?>");
+      <script>
+      _gaq.push('_trackPageview', "/resources/download/<?php echo $post->post_name; ?>");
       woopra.track('pv', {
           url: "/resources/download/<?php echo $post->post_name; ?>"
       });</script>
