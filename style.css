@@ -7057,6 +7057,199 @@ body.transactional-email {
   margin-bottom: 30px;
   margin-top: 0; }
 
+.bonjour .half {
+  display: table-cell;
+  width: 50%; }
+.bonjour section {
+  padding: 40px 0; }
+.bonjour h5, .bonjour .h5, .bonjour h4, .bonjour .h4 {
+  text-transform: uppercase;
+  color: #38454a;
+  margin-bottom: 45px; }
+.bonjour .nav-primary {
+  z-index: 1000;
+  position: fixed; }
+  .bonjour .nav-primary .labels {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    height: 60px;
+    vertical-align: top;
+    margin-top: 16px; }
+    .bonjour .nav-primary .labels span {
+      display: block;
+      line-height: 16px; }
+  .bonjour .nav-primary .email {
+    margin-right: 0;
+    padding-right: 0;
+    width: 400px; }
+    .bonjour .nav-primary .email input {
+      width: 190px;
+      display: inline-block; }
+    .bonjour .nav-primary .email #user_email {
+      margin-right: 3px; }
+  .bonjour .nav-primary .submit {
+    margin-left: 0;
+    padding-left: 0; }
+    .bonjour .nav-primary .submit input {
+      vertical-align: top;
+      margin-top: 14px; }
+  .bonjour .nav-primary .login {
+    float: right; }
+.bonjour #top {
+  padding-bottom: 0;
+  padding: 80px 0 0;
+  margin-top: 0; }
+  .bonjour #top h1 {
+    color: #38454a;
+    font-family: "proximanova-bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .bonjour #top h2 {
+    padding: 0 0 10px;
+    color: #555555;
+    margin-top: 30px;
+    line-height: 40px; }
+  .bonjour #top .inner {
+    margin-top: 40px; }
+  .bonjour #top .half {
+    vertical-align: top; }
+    .bonjour #top .half ul {
+      text-align: left; }
+      .bonjour #top .half ul li {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 20px; }
+        .bonjour #top .half ul li .icon {
+          margin-right: 6px; }
+.bonjour #signup {
+  border-bottom: 1px dashed #38454a; }
+  .bonjour #signup .half {
+    vertical-align: top; }
+  .bonjour #signup .signup-content .btn-xlarge {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%; }
+  .bonjour #signup .customers h4 {
+    margin: 0 0 20px;
+    text-align: center;
+    font-weight: bold; }
+  .bonjour #signup .customers ul li {
+    display: inline-block;
+    padding: 0 24px; }
+.bonjour #testimonials h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px; }
+.bonjour #testimonials li .number {
+  display: table-cell;
+  width: 16.66667%; }
+  .bonjour #testimonials li .number .large {
+    color: #00c3e4;
+    font-size: 75px;
+    line-height: 75px; }
+  .bonjour #testimonials li .number .what {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+    font-weight: bold;
+    display: block;
+    clear: both;
+    padding: 10px 0 5px; }
+  .bonjour #testimonials li .number .how {
+    line-height: 28px;
+    font-size: 12px; }
+    .bonjour #testimonials li .number .how img {
+      width: 24px;
+      vertical-align: top;
+      margin-top: 0;
+      margin-right: 5px; }
+.bonjour #testimonials li .quote {
+  display: table-cell;
+  width: 83.33333%; }
+  .bonjour #testimonials li .quote p, .bonjour #testimonials li .quote .p {
+    font-size: 20px;
+    text-align: center;
+    background: #e4eef2;
+    padding: 30px 16px;
+    border-radius: 4px;
+    display: block;
+    position: relative;
+    color: #818e93; }
+    .bonjour #testimonials li .quote p:after, .bonjour #testimonials li .quote .p:after {
+      display: block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 10px solid #e4eef2;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      content: " ";
+      position: absolute;
+      top: 100%;
+      bottom: 0;
+      left: 94%;
+      right: 0; }
+  .bonjour #testimonials li .quote img {
+    width: 85px;
+    border-radius: 42.5px;
+    margin-right: 10.625px;
+    vertical-align: baseline; }
+  .bonjour #testimonials li .quote .who {
+    color: inherit;
+    padding-top: 14.16667px; }
+    .bonjour #testimonials li .quote .who img {
+      border: 5px solid #e4eef2; }
+    .bonjour #testimonials li .quote .who a {
+      color: inherit; }
+  .bonjour #testimonials li .quote .who, .bonjour #testimonials li .quote a {
+    font-size: inherit;
+    line-height: 85px;
+    vertical-align: top;
+    text-align: right; }
+  .bonjour #testimonials li .quote img {
+    margin-left: 10px;
+    margin-right: 0; }
+.bonjour .feature {
+  color: #818e93; }
+  .bonjour .feature h5 {
+    color: #00c3e4;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .bonjour .feature h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #38454a; }
+  .bonjour .feature .half {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top; }
+    .bonjour .feature .half img {
+      border-radius: 6px;
+      border: 6px solid #e4eef2; }
+.bonjour #vero-conditions, .bonjour #vero-segments {
+  background: #e4eef2; }
+  .bonjour #vero-conditions img, .bonjour #vero-segments img {
+    border: 6px solid white; }
+.bonjour #bottom-signup {
+  border-bottom: 1px solid #e4eef2;
+  border-top: 1px dashed #818e93;
+  padding: 60px 0 60px;
+  margin-top: 20px; }
+  .bonjour #bottom-signup h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #38454a; }
+  .bonjour #bottom-signup form {
+    text-align: center; }
+  .bonjour #bottom-signup .note {
+    background: #efd578;
+    display: block;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-align: center; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

@@ -922,6 +922,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/hola\/automate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79167,
+		"inputAbbreviatedPath": "\/assets\/images\/hola\/automate.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/hola\/automate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/hola\/conversions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32357,
+		"inputAbbreviatedPath": "\/assets\/images\/hola\/conversions.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/hola\/conversions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/hola\/log.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48400,
+		"inputAbbreviatedPath": "\/assets\/images\/hola\/log.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/hola\/log.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/automated.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1050,6 +1083,17 @@
 		"initialSize": 2673,
 		"inputAbbreviatedPath": "\/assets\/images\/logo-blue.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-with-border.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5763,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-with-border.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-with-border.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2791,7 +2835,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Chris Hexton",
+"lastSavedByUser": "damien",
 "manualImportLinks": {
 	},
 "projectAttributes": {

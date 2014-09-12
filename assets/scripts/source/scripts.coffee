@@ -123,3 +123,10 @@ jQuery ->
           jQuery(feature).removeClass('disable')
         else
           jQuery(feature).addClass('disable')
+
+  jQuery(document).on "click", ".slider", (e) ->
+    e.preventDefault()
+    target = jQuery(this).attr("href")
+    jQuery("body").animate
+      scrollTop: jQuery(target).offset().top - 90
+    , 600
