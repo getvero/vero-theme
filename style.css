@@ -7097,6 +7097,7 @@ body.transactional-email {
   .bonjour .nav-primary .login {
     float: right; }
 .bonjour #top {
+  background: none;
   padding-bottom: 0;
   padding: 80px 0 0;
   margin-top: 0; }
@@ -7120,6 +7121,10 @@ body.transactional-email {
         padding-bottom: 20px; }
         .bonjour #top .half ul li .icon {
           margin-right: 6px; }
+  .bonjour #top img {
+    padding-top: 0;
+    width: auto;
+    vertical-align: top; }
 .bonjour #signup {
   border-bottom: 1px dashed #38454a; }
   .bonjour #signup .half {
