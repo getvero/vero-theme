@@ -6,6 +6,9 @@ function genesischild_theme_setup() {
 	//Define child theme version
 	define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
 	
+  // Custom stylesheet
+  add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
+
   //Setup theme functions
   include_once( CHILD_DIR . '/lib/theme-functions.php' );
   include_once( CHILD_DIR . '/lib/theme-settings.php' );
