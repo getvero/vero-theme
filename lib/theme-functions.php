@@ -7,6 +7,15 @@ include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );
 //
 //Tweaks to Genesis
 //----------------------
+function custom_load_custom_style_sheet() {
+  if($_SERVER["HTTP_HOST"] == "localhost:8888"){
+    $base_url = "http://0.0.0.0:9000";
+    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
+  } else {
+    $base_url = "http://d3qxef4rp70elm.cloudfront.net";
+    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
+  }
+}
 
 function child_output_filter( $backtotop_text, $creds_text ) {
 	$first_column = wp_nav_menu( array( 'menu' => 'vero_footer' ));
