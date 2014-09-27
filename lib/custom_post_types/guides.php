@@ -84,7 +84,12 @@ function guides_featured_title () {
       $title = get_the_title();
       $img = genesis_get_image( array( 'format' => 'url', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
     }
-    printf( '<div id="guide-title" style="background:url(%s)"><h1>%s</h1></div>', $img, $title );
+    printf( '<div id="guide-title" style="background:url(%s)"><div id="title-inner">
+      <div id="title-well" class="well">
+        <p class="what meta">An Epic Guide To</p>
+        <h1><span class="small h5">Email Marketing <br>Best Practices</span><span class="big">%s</span></h1>
+        <p class="published meta">by <span>Jimmy Daly</span><br>on <span>23 September 2014</span></p>
+      </div></div></div>', $img, $title );
   }
 }
 

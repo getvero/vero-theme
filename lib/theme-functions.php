@@ -58,7 +58,7 @@ function add_body_classes($classes) {
     $classes[] = 'api-docs sidebar-content';
     return $classes;
   } else if ( is_singular('guides') ) {
-    $classes[] = 'guides sidebar-content';
+    $classes[] = 'blog guides sidebar-content';
     return $classes;
   } else if ( is_home('post') || is_archive('post') ) {
     $classes[] = 'blog archive';
