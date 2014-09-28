@@ -70,11 +70,23 @@ function custom_header_for_guides () {
   }
 }
 
+function guides_before_footer () {
+    ?>
+    <div id="guide-footer">
+      <div id="title-well" class="well">
+        <h1><span class="small h5">Get more great content</span><span class="big">Read our other guides</span></h1>
+        <a href="/email-marketing-resources" class="btn btn-success">Check them out &rarr;</a>
+      </div>
+    </div>
+    <?php 
+}
+
 function guides_featured_title () {
+  global $post;
+
   if (genesis_get_option('guides') == true) {
     if ( ! is_singular( 'guides' ) )
       return;
-    $post = get_post();
     if (!empty($post->post_parent)) {
       $parent = get_post($post->post_parent);
       $title = get_the_title($parent);
@@ -85,11 +97,17 @@ function guides_featured_title () {
       $title = get_the_title();
       $img = genesis_get_image( array( 'format' => 'url', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
     }
+    $what_is_it = get_post_meta($post->ID, 'what_is_it', true); 
+    $sub_title = get_post_meta($post->ID, 'sub_title', true); 
+    $author_id = get_queried_object()->post_author;
+    $author = get_the_author_meta('display_name', $author_id);
+    $date = get_the_date("d F Y");
+
     printf( '<div id="guide-title" style="background:url(%s)"><div id="title-inner">
       <div id="title-well" class="well">
-        <p class="what meta">An Epic Guide To</p>
-        <h1><span class="small h5">Email Marketing <br>Best Practices</span><span class="big">%s</span></h1>
-        <p class="published meta">by <span>Jimmy Daly</span><br>on <span>23 September 2014</span></p>
+        <p class="what meta">'.$what_is_it.'</p>
+        <h1><span class="small h5">'.$sub_title.'</span><span class="big">%s</span></h1>
+        <p class="published meta">by <span>'.$author.'</span><br>on <span>'.$date.'</span></p>
       </div></div></div>', $img, $title );
   }
 }
@@ -120,6 +138,15 @@ function fix_guide_navs () {
       remove_action('genesis_after_header', 'genesis_do_subnav');
     }
   }
+}
+
+function add_guides_scripts()
+{
+    if ('20 Tips for Dramatically Better Emails')
+    {
+      wp_register_script('20-tips', get_stylesheet_directory_uri() . '/assets/scripts/20-tips.js', array('jquery'), NULL, true);
+      wp_enqueue_script('20-tips');
+    }
 }
 
 ?>

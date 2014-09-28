@@ -123,6 +123,8 @@ function genesischild_theme_setup() {
   add_action( 'init', 'create_guides_post_type' );
   add_action( 'genesis_before', 'custom_header_for_guides' ); 
   add_action( 'genesis_before', 'fix_guide_navs' );
+  add_action( 'wp_enqueue_scripts', 'add_guides_scripts');
+  add_action ( 'genesis_after_entry', 'guides_before_footer');
 
 	//Add and customise resources
 	add_action( 'init', 'create_resources_post_type' );
