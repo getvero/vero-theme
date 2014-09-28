@@ -27,6 +27,7 @@ function create_guides_post_type() {
   }
 }
 
+
 function change_guide_slugs() {
   if (genesis_get_option('guides') == true) {
     global $wpdb;

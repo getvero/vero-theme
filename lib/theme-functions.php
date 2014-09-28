@@ -131,12 +131,15 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
 function add_js() {
   wp_register_script('numeral', get_stylesheet_directory_uri() . '/assets/scripts/vendor/numeral.min.js', array('jquery'), NULL, true);
   wp_register_script('lead_modal', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
+  wp_register_script('lodash', '//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js', array('jquery'), NULL, true);
+  wp_register_script('scrollwatch', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollwatch.min.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_enqueue_script('numeral');
   wp_enqueue_script('lead_modal');
+  wp_enqueue_script('lodash');
+  wp_enqueue_script('scrollwatch');
   wp_enqueue_script('vero-js');
 }
-
 
 function add_gtm_identify() {
   $email = urldecode($_GET['vero_e']);
