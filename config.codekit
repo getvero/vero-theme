@@ -1725,6 +1725,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/scripts\/20-tips.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/20-tips.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/20-tips-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/source\/20-tips.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
@@ -1736,17 +1747,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/scripts\/source\/20-tips.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/source\/20-tips.js",
-		"outputAbbreviatedPath": "\/assets\/scripts\/source\/min\/20-tips-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/scripts\/source\/scripts.coffee": {
@@ -1894,15 +1894,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/custom_post_types\/resources.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lib\/theme-functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/theme-functions.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
