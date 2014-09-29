@@ -11,8 +11,11 @@ function custom_load_custom_style_sheet() {
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
+  }($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com") else if {
+    $base_url = "http://getvero.staging.getvero.com";
+    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
   } else {
-    $base_url = "http://d3qxef4rp70elm.cloudfront.net";
+    $base_url = "https://static.getvero.com.s3.amazonaws.com";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
   }
 }
