@@ -22,6 +22,9 @@ function genesischild_theme_setup() {
   //Change more links
   add_filter( 'the_content_more_link', 'read_more_link' );
 
+  //Fix version numbers
+  add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
+  
   //Fix pagination
   add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
   function gt_review_prev_link_text() {
