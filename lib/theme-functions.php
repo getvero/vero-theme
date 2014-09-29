@@ -37,6 +37,12 @@ function custom_favicon( $favicon_url ) {
   return '/wp-content/themes/vero/assets/images/favicon.png';
 }
 
+function remove_cssjs_ver( $src ) {
+ if( strpos( $src, '?ver=' ) )
+ $src = remove_query_arg( 'ver', $src );
+ return $src;
+}
+
 function add_body_classes($classes) {
   global $post;
 
