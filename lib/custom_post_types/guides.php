@@ -17,7 +17,7 @@ function create_guides_post_type() {
       'menu_icon' => '/wp-content/themes/vero/assets/images/icons/attibutes.png',
       'rewrite' => array('slug' => 'guides','with_front' => true),
       'hierarchical' => true,
-      'supports' => array('title','editor','comments','page-attributes','thumbnail', 'excerpt')
+      'supports' => array('title','editor','page-attributes','thumbnail', 'excerpt')
     );
 
     register_post_type( 'guides', $args);
@@ -71,6 +71,8 @@ function custom_header_for_guides () {
 }
 
 function guides_before_footer () {
+    if ( ! is_singular( 'guides' ) )
+      return;
     ?>
     <div id="guide-footer">
       <div id="title-well" class="well">
