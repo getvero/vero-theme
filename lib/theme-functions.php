@@ -13,7 +13,7 @@ function custom_load_custom_style_sheet() {
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
   } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com") {
     $base_url = "http://static.getvero.com.s3.amazonaws.com";
-    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
   } else {
     $base_url = "http://d3qxef4rp70elm.cloudfront.net";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
