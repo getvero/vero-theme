@@ -352,21 +352,29 @@ function add_class_to_small_images( $content ) {
     // the existing classes already on the images
     $existing_classes = $parent->getAttribute('class');
 
-    // the class we're adding
-    $new_class = ' small-image';
-
-    // the existing classes plus the new class
-    $class_names_to_add = $existing_classes . $new_class;
-
     // if image is less than 480px, add their old classes back in plus our new class
     
     if ( ! is_singular( 'guides' ) ) {
       if( $width < 1080) {
-          $parent->setAttribute('class', $class_names_to_add);
+        // the class we're adding
+        $new_class = ' small-image';
+        // the existing classes plus the new class
+        $class_names_to_add = $existing_classes . $new_class;
+        $parent->setAttribute('class', $class_names_to_add);
       }
     } else {
-      if( $width < 790) {
-          $parent->setAttribute('class', $class_names_to_add);
+      if( $width < 600) {
+        // the class we're adding
+        $new_class = ' tiny-image';
+        // the existing classes plus the new class
+        $class_names_to_add = $existing_classes . $new_class;
+        $parent->setAttribute('class', $class_names_to_add);
+      } else if ($width< 790) {
+        // the class we're adding
+        $new_class = ' small-image';
+        // the existing classes plus the new class
+        $class_names_to_add = $existing_classes . $new_class;
+        $parent->setAttribute('class', $class_names_to_add);
       }
     }
   }

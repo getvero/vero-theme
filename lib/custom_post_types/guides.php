@@ -123,9 +123,8 @@ function guides_chapter_headers () {
     if (!empty($post->post_parent)) { ?>
     <div class="entry-header">
       <div class="title toc-chapter">
-        <p class="number"><?php echo $chapter_number ?></p>
         <h1>
-          <span>CHAPTER</span>
+          <span class="h5">Chapter <?php echo $chapter_number ?></span><br>
           <?php echo the_title(); ?>
         </h1>
       </div>
