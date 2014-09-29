@@ -337,6 +337,8 @@ function create_sidebars_blog_resources() {
 // Images
 //------------------------
 function add_class_to_small_images( $content ) {
+  global $post;
+
   $dom = new DOMDocument();
   @$dom->loadHTML( $content );
   $dom->preserveWhiteSpace = false;
@@ -360,8 +362,15 @@ function add_class_to_small_images( $content ) {
     $class_names_to_add = $existing_classes . $new_class;
 
     // if image is less than 480px, add their old classes back in plus our new class
-    if( $width < 1080) {
-        $parent->setAttribute('class', $class_names_to_add);
+    
+    if ( ! is_singular( 'guides' ) ) {
+      if( $width < 1080) {
+          $parent->setAttribute('class', $class_names_to_add);
+      }
+    } else {
+      if( $width < 790) {
+          $parent->setAttribute('class', $class_names_to_add);
+      }
     }
   }
   $iframes = $dom->getElementsByTagName('iframe');
