@@ -38,9 +38,9 @@ function custom_favicon( $favicon_url ) {
 }
 
 function remove_cssjs_ver( $src ) {
- if( strpos( $src, '?ver=' ) )
- $src = remove_query_arg( 'ver', $src );
- return $src;
+  if( strpos( $src, '?ver=' ) )
+    $src = remove_query_arg( 'ver', $src );
+    return $src;
 }
 
 function add_body_classes($classes) {
