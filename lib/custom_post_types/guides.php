@@ -151,9 +151,11 @@ function add_guides_scripts()
 }
 
 function add_guides_sidebar() {
-    echo "<div id='sidebar'>";
-    genesis_widget_area( 'guides-sidebar-widget' );
-    echo "</div>";
+  if ( ! is_singular( 'guides' ) )
+    return;
+  echo "<div id='sidebar'>";
+  genesis_widget_area( 'guides-sidebar-widget' );
+  echo "</div>";
 }
 
 ?>
