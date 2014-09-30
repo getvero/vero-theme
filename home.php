@@ -16,7 +16,9 @@ add_action( 'genesis_entry_content', 'custom_excerpt');
 
 function custom_excerpt() {
   $post = get_post();
+  echo "<p>";
   echo strip_tags(get_the_excerpt(), "<img>");
+  echo "</p>";
   echo '<p><br><a class="btn btn-success" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
 }
 

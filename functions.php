@@ -37,6 +37,9 @@ function genesischild_theme_setup() {
           return $nextlink;
   }
 
+  //Cookies
+  add_action('init', 'set_cookies');
+  
   //Enqueue JS
   add_action( 'wp_enqueue_scripts', 'add_js' );  
   add_action('genesis_after_footer', 'add_gtm_identify');

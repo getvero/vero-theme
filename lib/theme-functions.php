@@ -36,6 +36,15 @@ function add_logo_to_navbar($menu, $args) {
   return $logo . $menu;
 }
 
+function set_cookies() {
+  $url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+  $parsed_url = parse_url($url);
+
+  if(!empty($_GET['c'])) {
+    setcookie(str_replace('/', '_', $parsed_url['path']),'true',time() + (86400 * 180));
+  } 
+}
+
 function custom_favicon( $favicon_url ) {
   return '/wp-content/themes/vero/assets/images/favicon.png';
 }
@@ -168,8 +177,15 @@ function read_more_link() {
 function custom_popups() {
   $post = get_post();
   $with_scroll = (get_post_meta($post->ID, 'percent', true));
+  $percent = (get_post_meta($post->ID, 'percent_down', true));
   $popup_value = (do_shortcode(get_post_meta($post->ID, 'popup_value', true)));
-  if (!empty($popup_value)){
+  
+  $url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+  $parsed_url = parse_url($url);
+  
+  $has_cookie = $_COOKIE[str_replace('/', '_', $parsed_url['path'])];
+
+  if (!empty($popup_value) && empty($has_cookie)){
   ?>
     <div id="blog-popup" style="display:none;"><?php echo $popup_value ?></div>
   <?php if ($with_scroll == false) { ?>
@@ -184,7 +200,7 @@ function custom_popups() {
                            html.clientHeight, html.scrollHeight, html.offsetHeight );
 
       var interval = setInterval(function() {
-          if (jQuery(window).scrollTop() >= (height * 0.75)) {
+          if (jQuery(window).scrollTop() >= (height * (<?php echo intval($percent)/100; ?>))) {
             jQuery("#blog-popup").loadLeanModal();
             clearInterval(interval);
           }
@@ -259,14 +275,14 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
+    add_action( 'genesis_before_entry_content', 'genesis_post_info', 9 );
     $post_style = get_post_meta($post->ID, 'post_style', true); 
     if ( $post_style == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
     } else {
-      add_action( 'genesis_entry_header', 'blog_post_featured_image', 15);
+      add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
-    add_action( 'genesis_before_content', 'genesis_do_post_title', 9 );
-    add_action( 'genesis_before_content', 'genesis_post_info', 9 );
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if ( is_singular('resources') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
@@ -289,6 +305,9 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     remove_action('genesis_after_header', 'genesis_do_nav');
+    if (is_post_type_archive('post') || is_home()){
+      add_action('genesis_after_header', 'add_big_cta');
+    }
   }
 }
 
@@ -296,6 +315,24 @@ function fix_blog_navs_and_header () {
 //
 // Add and customise blog home page
 //----------------------
+
+function add_big_cta() {
+  ?>
+  <section id="top">
+    <div class="inner">
+      <div class="person"><img src="/wp-content/themes/vero/assets/images/chris.png"></div>
+        <div class="signup">
+          <h1>Get access to my best email marketing tips and hacks:</h1>
+          <form action='https://app.getvero.com/forms/3089a0e63a5e72761cdfc289e3890d81' method='post'>
+            <input name='email' type='email' placeholder="Enter your email..." /><input name='redirect_on_success' type='hidden' value='/posts' /><input type='submit' class="btn btn-warning" value='Subscribe' />
+          </form>
+          <h3>You'll join over 7,000 other email marketers that have learnt how to send behavioral emails that drive conversions.</h3>
+      </div>
+    </div>
+  </section>
+  <?php
+}
+
 function create_sidebars_blog_home() {
   genesis_register_sidebar( array(
     'id'      => 'home-featured-full',
