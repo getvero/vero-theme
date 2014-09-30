@@ -403,15 +403,15 @@ function add_class_to_small_images( $content ) {
         $parent->setAttribute('class', $class_names_to_add);
       }
     } else {
-      if( $width < 600) {
+      if ($width < 790 && $width > 600) {
         // the class we're adding
-        $new_class = ' tiny-image';
+        $new_class = ' small-image';
         // the existing classes plus the new class
         $class_names_to_add = $existing_classes . $new_class;
         $parent->setAttribute('class', $class_names_to_add);
-      } else if ($width< 790) {
+      } else if ($width < 600) {
         // the class we're adding
-        $new_class = ' small-image';
+        $new_class = ' tiny-image';
         // the existing classes plus the new class
         $class_names_to_add = $existing_classes . $new_class;
         $parent->setAttribute('class', $class_names_to_add);
