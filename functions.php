@@ -131,6 +131,12 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before', 'fix_guide_navs' );
   add_action( 'wp_enqueue_scripts', 'add_guides_scripts');
   add_action ( 'genesis_after_entry', 'guides_before_footer');
+  genesis_register_sidebar( array(
+    'id'        => 'guides-sidebar-widget',
+    'name'      => __( 'Guide sidebar' ),
+    'description' => __( 'This is the code for registering a new widget in your functions file.' )
+  ) );
+  add_action( 'genesis_after_content', 'add_guides_sidebar' );
 
 	//Add and customise resources
 	add_action( 'init', 'create_resources_post_type' );
