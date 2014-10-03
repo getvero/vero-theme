@@ -11,12 +11,15 @@ function custom_load_custom_style_sheet() {
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
   } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com") {
     $base_url = "http://static.getvero.com.s3.amazonaws.com";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
   } else {
     $base_url = "http://d3qxef4rp70elm.cloudfront.net";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
   }
 }
 
@@ -83,6 +86,19 @@ function add_body_classes($classes) {
     return $classes;
   } else {
     return $classes;
+  }
+}
+
+function add_categories_to_pages(){
+  add_meta_box(   'categorydiv', __('Categories'), 'post_categories_meta_box', 
+        'page', 'side', 'core');
+  register_taxonomy_for_object_type('category', 'page');
+}
+
+function filter_text_on_static_pages() {
+  global $post;
+  if(in_category('static', $post)){
+    remove_post_type_support( 'page', 'editor' );
   }
 }
 

@@ -25,6 +25,12 @@ function genesischild_theme_setup() {
   //Fix version numbers
   add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
   
+  //Add categories to pages
+  add_filter( 'admin_init', 'add_categories_to_pages');
+
+  //Filter text on static pages
+  add_filter( 'admin_head', 'filter_text_on_static_pages');
+
   //Fix pagination
   add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
   function gt_review_prev_link_text() {
