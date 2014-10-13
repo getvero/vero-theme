@@ -72,9 +72,6 @@ function add_body_classes($classes) {
       $classes[] = 'blog';
     }
     return $classes;
-  } else if ( is_singular('kb') || is_post_type_archive('kb') || is_tax('topic') ) {
-    $classes[] = 'kb';
-    return $classes;
   } else if ( is_singular('api_docs') ) {
     $classes[] = 'api-docs sidebar-content';
     return $classes;
@@ -104,24 +101,11 @@ function filter_text_on_static_pages() {
 
 function add_blue_navbar_logic() {
   global $wp_query;
-  //if ( is_singular('post') || is_home() || is_post_type_archive('post') || is_category() ) {
-  //  wp_nav_menu( array(
-  //  'theme_location' => 'third-menu-blog',
-  //  'container_class' => 'blue-nav-menu'
-  //  ) );
-  //  echo '<div class="search-bar">';
-  //  genesis_widget_area( 'docs_topbar' );
-  //  echo '</div>';
-  //} else 
-  if ( is_singular('help_docs') || is_singular('api_docs') || is_singular('kb') || is_post_type_archive('kb') || is_tax('topic') ) {
+  if ( is_singular('api_docs') ) {
     wp_nav_menu( array(
     'theme_location' => 'third-menu-docs',
     'container_class' => 'blue-nav-menu'
     ) );
-
-    echo '<div class="search-bar">';
-    genesis_widget_area( 'docs_topbar' );
-    echo '</div>';
   }
 }
 
@@ -280,7 +264,6 @@ function set_admin_menu_separator() {
   remove_admin_menu_separator(99);
 }
 
-
 //
 // Customise blog posts
 //----------------------
@@ -313,15 +296,6 @@ function add_how_to_do_this_area () {
       </section>
     <?php }
   }
-}
-
-function add_blog_cta_before_footer() {
-  if ( is_singular('post') ) { ?>
-
-  <section class="post-entry-widget">
-    <?php dynamic_sidebar( 'after-post-widget' ); ?>
-  </section>
-  <?php }
 }
 
 function blog_post_featured_image () {
@@ -360,6 +334,14 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_close', 15 );
+  } else if ( is_singular('api_docs') ) {
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+    remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+    remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+    remove_action( 'genesis_footer', 'genesis_do_footer' );
+    remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
   } else if ( is_post_type_archive('post') || is_home() || is_category() ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
