@@ -2,7 +2,7 @@
 
 include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );
-include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );
+include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
 
 //
 //Tweaks to Genesis
@@ -231,6 +231,53 @@ function remove_digg_digg() {
     remove_filter('the_excerpt', 'dd_hook_wp_content');
     remove_filter('the_content', 'dd_hook_wp_content');
   } 
+}
+
+function add_admin_menu_separator( $position ) {
+  global $menu;
+  if (empty($menu[ $position ])) {
+    $menu[ $position ] = array(
+        0 => '',
+        1 => 'read',
+        2 => 'separator' . $position,
+        3 => '',
+        4 => 'wp-menu-separator'
+      );
+  } else {
+    $count = 1;
+    $empty = false;
+    while ($empty == false) {
+      $empty = empty($menu[ $position + $count ]);
+      if ($empty == true) {
+        $final_position = $position + $count - 1;
+      }
+      $count++;
+    }
+    if ($empty == true) {
+      for ($i = $final_position; $i > $position; $i--) {
+        $menu[ $i + 1 ] = $menu[ $i ];
+      }
+      $menu[ $position + 1] = array(
+        0 => '',
+        1 => 'read',
+        2 => 'separator' . $position,
+        3 => '',
+        4 => 'wp-menu-separator'
+      );
+    }
+  }
+}
+
+function remove_admin_menu_separator( $position ) {
+  global $menu;
+  unset($menu[$position]);
+  return $menu;
+}
+
+function set_admin_menu_separator() {
+  add_admin_menu_separator(25);
+  add_admin_menu_separator("80.020");
+  remove_admin_menu_separator(99);
 }
 
 

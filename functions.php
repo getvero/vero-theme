@@ -31,6 +31,9 @@ function genesischild_theme_setup() {
   //Filter text on static pages
   add_filter( 'admin_head', 'filter_text_on_static_pages');
 
+  //Adjust sidebar in admin
+  add_action( 'admin_menu', 'set_admin_menu_separator');
+
   //Fix pagination
   add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
   function gt_review_prev_link_text() {
@@ -42,7 +45,7 @@ function genesischild_theme_setup() {
           $nextlink = 'Next Posts &raquo;';
           return $nextlink;
   }
-
+  
   //Cookies
   add_action('init', 'set_cookies');
   

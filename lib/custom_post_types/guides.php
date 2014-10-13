@@ -14,7 +14,7 @@ function create_guides_post_type() {
       'labels' => $labels,
       'public' => true,
       'has_archive' => false,
-      'menu_icon' => '/wp-content/themes/vero/assets/images/icons/attibutes.png',
+      'menu_icon' => '/wp-content/themes/vero/assets/images/icons/guides.png',
       'rewrite' => array('slug' => 'guides','with_front' => true),
       'hierarchical' => true,
       'supports' => array('title','editor','page-attributes','thumbnail', 'excerpt'),

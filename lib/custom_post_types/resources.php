@@ -13,7 +13,7 @@ function create_resources_post_type () {
       $args = array(
       'labels' => $labels,
       'public' => true,
-      'menu_icon' => '/wp-content/themes/vero/assets/images/icons/premium.png',
+      'menu_icon' => '/wp-content/themes/vero/assets/images/icons/resources.png',
       'has_archive' => true,
       'rewrite' => array('slug' => 'resources'),
       'supports' => array( 'title', 'editor', 'thumbnail' )
