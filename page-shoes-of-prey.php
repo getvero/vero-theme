@@ -7,7 +7,7 @@ function add_class($classes) {
   return $classes;  
 }
 
-include 'pages/shared/static-header.php';
+include 'pages-shared/static-header.php';
 ?>
 <div id="top" style="background-image: url('http://localhost:8888/wp-content/uploads/2014/08/bg.png');"></div>
 &nbsp;

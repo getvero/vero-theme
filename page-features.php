@@ -7,7 +7,7 @@
     return $classes;  
   }
   
-  include 'pages/shared/static-header.php';
+  include 'pages-shared/static-header.php';
 ?>
 <section id="top" class="center-text">
   <div class="inner">

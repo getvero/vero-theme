@@ -7,7 +7,7 @@ function add_class($classes) {
   return $classes;  
 }
 
-include 'pages/shared/static-header.php';
+include 'pages-shared/static-header.php';
 ?>
 <section id="top">
   <div id="partners-overlay">

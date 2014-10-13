@@ -7,7 +7,7 @@
     return $classes;  
   }
   
-  include 'pages/shared/static-header.php';
+  include 'pages-shared/static-header.php';
 ?>
 <section id="top" class="center-text">
   <div class="inner">
@@ -18,7 +18,7 @@
 <section id="team">
   <div class="inner">
     <div class='one-quarter photo'>
-      <img src="/wp-content/themes/vero/assets/images/chris.png" alt="chris hexton" /><a href="https://twitter.com/chexton" class="twitter-follow-button" data-show-count="false">Follow @chexton</a>
+      <img src="//new.getvero.com/wp-content/uploads/2014/08/chris-2.png" alt="chris hexton" /><a href="https://twitter.com/chexton" class="twitter-follow-button" data-show-count="false">Follow @chexton</a>
     </div>
     <div class="three-quarter">
       <div class='details'>
