@@ -13,6 +13,11 @@ function genesischild_theme_setup() {
   include_once( CHILD_DIR . '/lib/theme-functions.php' );
   include_once( CHILD_DIR . '/lib/theme-settings.php' );
 
+  unregister_sidebar( 'sidebar-alt' );
+  unregister_sidebar( 'sidebar-footer' );
+  unregister_sidebar( 'header-right' );
+  remove_theme_support('genesis-footer-widgets', 3);
+
   //Favicon
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
   
@@ -60,8 +65,6 @@ function genesischild_theme_setup() {
 	add_theme_support( 'html5' );
 	//Add viewport metatag
 	add_theme_support( 'genesis-responsive-viewport' );
-	//Add 3 footer widgets
-	add_theme_support( 'genesis-footer-widgets', 3 );
 
 	//Remove header
 	remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
@@ -92,28 +95,12 @@ function genesischild_theme_setup() {
 
 	//Add and customise help docs, KB and API docs
 	add_action( 'init', 'create_all_docs_post_type' );
-	genesis_register_sidebar( array(
-    'id' => 'help_docs_sidebar',
-    'name' => 'Help Docs Sidebar',
-    'description' => 'This is a column for the docs sidebar.',
-	) );
   genesis_register_sidebar( array(
     'id' => 'api_docs_sidebar',
     'name' => 'API Docs Sidebar',
     'description' => 'This is a column for the API docs sidebar.',
   ) );
-  genesis_register_sidebar( array(
-    'id' => 'kb_sidebar',
-    'name' => 'KB Sidebar',
-    'description' => 'This is a column for the KB sidebar.',
-  ) );
-  genesis_register_sidebar( array(
-    'id' => 'docs_topbar',
-    'name' => 'Docs Topbar',
-    'description' => 'This is a column for the docs above the header.',
-  ) );
 	add_action( 'get_header', 'all_docs_sidebar_logic' );
-  add_action( 'genesis_before', 'fix_docs_navs_and_header' ); 
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
   add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
 
@@ -123,16 +110,6 @@ function genesischild_theme_setup() {
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
   add_action( 'genesis_entry_footer', 'add_how_to_do_this_area', 14 );
   add_action( 'genesis_entry_footer', 'add_blog_cta_before_footer', 15 );
-  genesis_register_sidebar( array(
-    'id'          => 'before-entry',
-    'name'        => __( 'Before Blog Entry' ),
-    'description' => __( 'This is the before entry section.' ),
-  ) );
-  genesis_register_sidebar( array(
-    'id'        => 'after-post-widget',
-    'name'      => __( 'After Blog Entry' ),
-    'description' => __( 'This is the code for registering a new widget in your functions file.' )
-  ) );
 
   //Add guides
   add_action( 'init', 'create_guides_post_type' );
@@ -142,16 +119,13 @@ function genesischild_theme_setup() {
   add_action ( 'genesis_after_entry', 'guides_before_footer');
   genesis_register_sidebar( array(
     'id'        => 'guides-sidebar-widget',
-    'name'      => __( 'Guide sidebar' ),
+    'name'      => __( 'Guides sidebar' ),
     'description' => __( 'This is the code for registering a new widget in your functions file.' )
   ) );
   add_action( 'genesis_after_content', 'add_guides_sidebar' );
 
 	//Add and customise resources
 	add_action( 'init', 'create_resources_post_type' );
-
-	//Add and customise blog home page
-	create_sidebars_blog_home();
 
   //Add and customise resources page
   create_sidebars_blog_resources();

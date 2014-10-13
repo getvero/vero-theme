@@ -17,6 +17,7 @@ function register_api_post_type () {
     'public' => true,
     'menu_icon' => '/wp-content/themes/vero/assets/images/icons/api.png',
     'has_archive' => true,
+    'hierarchical' => true,
     'rewrite' => array('slug' => 'api')
   );
 
@@ -46,16 +47,5 @@ function remove_post_info($post_info) {
   } else {
     $post_info = 'Published on [post_date]';
     return $post_info;
-  }
-}
-
-function fix_docs_navs_and_header () {
-  if( is_singular('help_docs') || is_singular('api_docs') ||  is_singular('kb') ) {
-    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-    remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
-    remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-    add_action( 'genesis_before_content', 'genesis_do_post_title', 9 );
-    add_action( 'genesis_entry_header', 'blog_post_featured_image', 15);
   }
 }
