@@ -17,7 +17,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="top" class="center-text">
+<section id="top" class="center-text nothing">
   <div class="inner">
     <div id="reba" class="person half right-text"><img src="/wp-content/themes/vero/assets/images/home/reba.png"/></div>
     <div id="right" class="half center-text">
