@@ -16,7 +16,7 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
   unregister_sidebar( 'header-right' );
-  remove_theme_support('genesis-footer-widgets', 3);
+  add_theme_support('genesis-footer-widgets', 3);
 
   //Favicon
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );

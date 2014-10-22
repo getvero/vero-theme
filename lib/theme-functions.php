@@ -24,10 +24,9 @@ function custom_load_custom_style_sheet() {
 }
 
 function child_output_filter( $backtotop_text, $creds_text ) {
-	$first_column = wp_nav_menu( array( 'menu' => 'vero_footer' ));
-  $second_column = wp_nav_menu( array( 'menu' => 'vero_footer_second' ));
-  $third_column = wp_nav_menu( array( 'menu' => 'vero_footer_third' ));
-	return '<div class="pull-right">' . $third_column . '</div>' . '<div>' . $first_column . '</div>' . '<div>' . $second_column . '</div>';
+	$first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
+  $second_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left One' ));
+  $third_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left Two' ));
 }
 function add_logo_to_navbar($menu, $args) {
   $args = (array)$args;
@@ -35,6 +34,7 @@ function add_logo_to_navbar($menu, $args) {
     return $menu;
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
+  echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Email Marketing Software</span></li>';
   $logo = ob_get_clean();
   return $logo . $menu;
 }
@@ -95,13 +95,13 @@ function add_categories_to_pages(){
 function filter_text_on_static_pages() {
   global $post;
   if(in_category('static', $post)){
-    remove_post_type_support( 'page', 'editor' );
+    //remove_post_type_support( 'page', 'editor' );
   }
 }
 
 function add_blue_navbar_logic() {
   global $wp_query;
-  if ( is_singular('api_docs') ) {
+  if ( is_singular('api_docs') || is_page('faq')) {
     wp_nav_menu( array(
     'theme_location' => 'third-menu-docs',
     'container_class' => 'blue-nav-menu'

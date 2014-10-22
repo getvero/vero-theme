@@ -9,95 +9,108 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="top">
 <div class="inner">
-<h1 class="center-text">A plan for every business</h1>
-</div>
-</section>
-<div id="plans">
-<div class="plan standard">
-<div class="title">standard</div>
-<div class="price-block"><span class="price"><span class="yearly-price">$82</span><sub>/ month</sub></span> billed annually<span class="monthly">OR <span class="monthly-price">$99</span> month-to-month</span></div>
-<div class="details"><form><select class="form-control price-selection"><option value="99">12,500 Subscribers / 25,000 Emails</option><option value="149">50,000 Subscribers / 175,000 Emails</option><option value="299">100,000 Subscribers / 250,000 Emails</option><option value="549">175,000 Subscribers / 400,000 Emails</option></select></form></div>
-<div class="cta"><a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Start free trial</a></div>
-<div class="best-for">best forIndividuals, Bloggers,
-Small Agencies,
-Small Business Owners</div>
-<div class="features">
+  <section id="left">
+      <h1>Send smarter emails at a great price.</h1>
+      <table><tbody>
+        <tr>
+          <th>Emails / month</th>
+          <th>Subscribers</th>
+          <th>Price / month</th>
+        </tr>
+        <tr>
+          <td>25,000</td>
+          <td>12,500</td>
+          <td>$99</td>
+        </tr>
+        <tr>
+          <td>175,000</td>
+          <td>50,000</td>
+          <td>$149</td>
+        </tr>
+        <tr>
+          <td>400,000</td>
+          <td>150,000</td>
+          <td>$299</td>
+        </tr>
+        <tr>
+          <td>700,000</td>
+          <td>300,000</td>
+          <td>$549</td>
+        </tr>
+        <tr>
+          <td>750,000</td>
+          <td>500,000</td>
+          <td>$749</td>
+        </tr>
+        <tr>
+          <td>1,000,000</td>
+          <td>500,000</td>
+          <td>$1,099</td>
+        </tr>
+        <tr>
+          <td>1,500,000</td>
+          <td>750,000</td>
+          <td>$1,499</td>
+        </tr>
+        <tr>
+          <td>2,500,000</td>
+          <td>1,250,000</td>
+          <td>$1,799</td>
+        </tr>
+      </tbody></table>
+      <h2>Need more power?</h2>
+      <p>Don’t worry if the threshholds above aren’t powerful enough for you. It’s easy and affordable to add on.</p>
+      <p>Enquire about our <a href="/high-volume-senders">high volume plans</a></p>
+  </section>
+  <section id="right">
+    <div class="color">
+      <div class="arrow"></div>
 
-what is included
-<ul class="list-unstyled">
-  <li class="icon-behavioral" data-pricing="99">Behavioral emails</li>
-  <li class="icon-transactional" data-pricing="99">Transactional emails</li>
-  <li class="icon-newsletter" data-pricing="99">Newsletters</li>
-  <li class="icon-segment" data-pricing="99">Customer Segmentation</li>
-  <li class="icon-abtest" data-pricing="99">A/B Testing</li>
-  <li class="icon-conversion" data-pricing="99">Conversion tracking</li>
-  <li class="icon-projects" data-pricing="99">Up to three projects ($149+)</li>
-  <li class="icon-team" data-pricing="99">Team management ($149+)</li>
-  <li class="icon-external" data-pricing="99">External data access ($299+)</li>
-  <li class="icon-support" data-pricing="99">20/5 Email Support</li>
-</ul>
-</div>
-</div>
-<div class="plan enterprise">
-<div class="title">enterprise</div>
-<div class="price-block">starts from <span class="price">$1099<sub>/ month</sub></span></div>
-<div class="details">call us at<span class="phone">+1 415 562 8376</span></div>
-<div class="cta"><a href="/high-volume-senders" class="btn btn-success btn-large">Request a demo</a></div>
-<div class="best-for">best forTeams focused on optimization,
-Large Agencies,
-Enterprise Deployment</div>
-<div class="features">
+      <form accept-charset="UTF-8" action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
+      <div class="form-group">
+        <label>Name</label>
+        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="Steve Vero" type="text">
+      </div>
 
-what is included
-<ul class="list-unstyled">
-  <li class="icon-behavioral">Behavioral emails</li>
-  <li class="icon-transactional">Transactional emails</li>
-  <li class="icon-newsletter">Newsletters</li>
-  <li class="icon-segment">Customer Segmentation</li>
-  <li class="icon-abtest">A/B Testing</li>
-  <li class="icon-conversion">Conversion tracking</li>
-  <li class="icon-projects">Unlimited projects</li>
-  <li class="icon-external">External data access</li>
-  <li class="icon-team">Team management</li>
-  <li class="icon-revenue">Revenue tracking</li>
-  <li class="icon-secure">Hosted JS on your site</li>
-  <li class="icon-api">Full API access</li>
-  <li class="icon-heatmap">Heatmaps report</li>
-  <li class="icon-log">90 days log history</li>
-  <li class="icon-manager">Account manager</li>
-  <li class="icon-support">24/7 Phone Support</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="plans-info center-text">
+      <div class="form-group">
+        <label>Email</label>
+        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="steve@getvero.com" type="text" value="">
+      </div>
 
-<p><b>Agency?</b> Manage multiple client accounts from one account. <a href="mailto:support@getvero.com">Contact us</a> to learn about agency options.</p><p><b>Why annual billing?</b> You can save 16% by signing up for a year at a time - that's <strong>two months</strong>. It's also easier on your accounting department - just one transaction per year instead of 12. Even better, you get to annualise your usage: which is helps you ride the ebbs and flows of your email campaigns with ease.
+      <div class="form-group">
+        <label>Password</label>
+        <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (must include one upper-case, one lower-case, one number)" type="password">
+      </div>
 
-</div>
-<section id="testimonials">
-<div class="inner">
-<div class="quote"><p><b>Vero is awesome.</b> By implementing personalised welcome emails, we have been able to lift activation rates by 35%. That is incredible and is essentially a magic lift in the bottom line.</p><div class="who"><img src="https://new.getvero.com/wp-content/uploads/2014/08/alan1.png" alt="" /> Alan Downie,
-CEO, BugHerd</div>
-<div class="clearfix"></div>
-</div>
-</div>
-</section><section id="customers" class="center-text inner">
-<h2>Trusted by companies worldwide</h2>
-<img src="https://new.getvero.com/wp-content/uploads/2014/07/worldwide1.png" alt="" />
+      <div class="form-group">
+        <input class="btn btn-warning" name="commit" type="submit" value="Get started now">
+        <p class="small center-text">No credit card required.</p>
+      </div>
+      </form>
 
-</section><section id="faq" class="center-text">
-<h2>Frequently asked Questions</h2>
-<ul class="list-unstyled">
-  <li><strong>What are 'subscribers'?</strong></br>Subscribers are the number of individual customer profiles you have in your Vero system. Subscribers can be added in two ways: via our API (most common) or via CSV. If someone comes to your website, inputs their email and you pass this along to the Vero API, they'll be added to your 'subscriber database' and counted as a subscriber.</li>
-  <li><strong>What if I go over my monthly limit?</strong></br>Vero will email you when you go over your limit and, if consistent, will upgrade you to the next plan. You can always review your usage and downgrade your account if your usage drops again. We have no lock-in periods so all pricing is based on your individual month-to-month usage.</li>
-  <li><strong>How many email campaigns can I run at once?</strong></br>You can have as many automated and newsletter email campaigns running as you want at any one time.</li>
-  <li><strong>Can I cancel my subscription anytime?</strong></br>Yes, you can stop your subscription anytime you wish, we have no lock-in contracts. You can also upgrade or downgrade your account at any time.</li>
-  <li><strong>What are projects?</strong></br>Projects allow you to manage multiple websites within one Vero account. The advantage of this is ease of team management and shared billing and volume.</li>
-</ul>
-</section>
-          <?php 
-          no_content_genesis_footer();
-          ?>
+      <div id="happy" class="center-text">
+        <p><img src="/wp-content/themes/vero/assets/images/pricing/happy.png"/></p>
+        <p><strong>Not happy?</strong> We'll refund you, no questions asked.</p>
+      </div>
+
+      <div id="customers">
+        <p>Join 300+ happy customers sending over 50 million emails every month.</p>
+        <p>
+          <img src="/wp-content/themes/vero/assets/images/pricing/rackspace.png">
+          <img src="/wp-content/themes/vero/assets/images/pricing/qualaroo.png">
+          <img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png">
+          <img src="/wp-content/themes/vero/assets/images/pricing/pipedrive.png">
+        </p>
+      </div>
+
+      <div id="testimonial">
+        <img src="/wp-content/themes/vero/assets/images/pricing/alaister.png">
+        <p><em>"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</em></p>
+        <p class="who small">– Alaister Low, Director of Customer Experience, Freelancer</p>
+    </div>
+  </section>
+</div>
+<?php 
+no_content_genesis_footer();
+?>
