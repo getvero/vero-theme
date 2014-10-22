@@ -21,7 +21,7 @@
   <div class="inner">
     <div id="reba" class="person half right-text"><img src="/wp-content/themes/vero/assets/images/home/reba.png"/></div>
     <div id="right" class="half center-text">
-      <h1 class="center-text">Track behavior,<br>trigger emails.</h1>
+      <h1 class="center-text nothing">Track behavior,<br>trigger emails.</h1>
       <div id="box">
         <h5 class="center-text">An example from a Vero customer</h5>
         <ul class="flow left list-unstyled left-text">
