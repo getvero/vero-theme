@@ -34,7 +34,7 @@ function genesischild_theme_setup() {
   add_filter( 'admin_init', 'add_categories_to_pages');
 
   //Filter text on static pages
-  add_filter( 'admin_head', 'filter_text_on_static_pages');
+  //add_filter( 'admin_head', 'filter_text_on_static_pages');
 
   //Adjust sidebar in admin
   add_action( 'admin_menu', 'set_admin_menu_separator');
@@ -89,9 +89,6 @@ function genesischild_theme_setup() {
 
 	//Custom body classes
   add_filter( 'body_class', 'add_body_classes' );
-
-	//Remove default page templates
-	add_filter( 'theme_page_templates', 'remove_genesis_page_templates' );
 
 	//Add and customise help docs, KB and API docs
 	add_action( 'init', 'create_all_docs_post_type' );
