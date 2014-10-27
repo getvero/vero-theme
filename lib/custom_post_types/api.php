@@ -1,7 +1,5 @@
 <?php
 
-include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
-
 //
 // Add API docs
 //----------------------

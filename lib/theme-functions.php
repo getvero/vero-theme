@@ -101,10 +101,19 @@ function filter_text_on_static_pages() {
 
 function add_blue_navbar_logic() {
   global $wp_query;
-  if ( is_singular('api_docs') || is_page('faq')) {
+  if ( is_singular('api_docs') ) {
     wp_nav_menu( array(
-    'theme_location' => 'third-menu-docs',
-    'container_class' => 'blue-nav-menu'
+      'theme_location' => 'third-menu-docs',
+      'container_class' => 'blue-nav-menu left'
+    ) );
+    wp_nav_menu( array( 
+      'menu' => 'API Docs Languages',
+      'container_class' => 'blue-nav-menu right' 
+    ) );
+  } else if (is_page('faq')) {
+    wp_nav_menu( array(
+      'theme_location' => 'third-menu-docs',
+      'container_class' => 'blue-nav-menu left'
     ) );
   }
 }
