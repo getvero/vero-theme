@@ -107,7 +107,7 @@ function add_blue_navbar_logic() {
       'container_class' => 'blue-nav-menu left'
     ) );
     wp_nav_menu( array( 
-      'menu' => 'API Docs Languages',
+      'menu' => 'api-docs-languages',
       'container_class' => 'blue-nav-menu right' 
     ) );
   } else if (is_page('faq')) {

@@ -10,8 +10,10 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <div class="inner">
+  <div id="top">
+    <h1 class="center-text">Send smarter emails, <br>at a great price.</h1>
+  </div>
   <section id="left">
-      <h1>Send smarter emails at a great price.</h1>
       <table><tbody>
         <tr>
           <th>Emails / month</th>
@@ -59,13 +61,12 @@ include 'pages-shared/static-header.php';
           <td>$1,799</td>
         </tr>
       </tbody></table>
-      <h2>Need more power?</h2>
+      <h3>Need more power?<a href="/high-volume-senders" class="btn btn-primary">See our high volume plans</a></h3>
       <p>Don’t worry if the threshholds above aren’t powerful enough for you. It’s easy and affordable to add on.</p>
-      <p>Enquire about our <a href="/high-volume-senders">high volume plans</a></p>
   </section>
   <section id="right">
     <div class="color">
-      <div class="arrow"></div>
+      <div class="deco"></div>
 
       <form accept-charset="UTF-8" action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
       <div class="form-group">
@@ -84,33 +85,30 @@ include 'pages-shared/static-header.php';
       </div>
 
       <div class="form-group">
-        <input class="btn btn-warning" name="commit" type="submit" value="Get started now">
+        <input class="btn" name="commit" type="submit" value="Get started now">
         <p class="small center-text">No credit card required.</p>
       </div>
       </form>
 
-      <div id="happy" class="center-text">
-        <p><img src="/wp-content/themes/vero/assets/images/pricing/happy.png"/></p>
-        <p><strong>Not happy?</strong> We'll refund you, no questions asked.</p>
+      <div id="happy">
+        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Not happy?</h5> <p>We'll refund you, no questions asked.</p>
       </div>
 
-      <div id="customers">
-        <p>Join 300+ happy customers sending over 50 million emails every month.</p>
-        <p>
-          <img src="/wp-content/themes/vero/assets/images/pricing/rackspace.png">
-          <img src="/wp-content/themes/vero/assets/images/pricing/qualaroo.png">
-          <img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png">
-          <img src="/wp-content/themes/vero/assets/images/pricing/pipedrive.png">
-        </p>
+      <div id="customers" class="center-text">
+        <h4 class="center-text">Join 300+ happy customers sending over 50 million emails every month.</h4>
+        <li><img src="/wp-content/themes/vero/assets/images/pricing/rackspace.png"></li>
+        <li><img src="/wp-content/themes/vero/assets/images/pricing/qualaroo.png"></li>
+        <li><img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png"></li>
+        <li><img src="/wp-content/themes/vero/assets/images/pricing/pipedrivelogo.png"></li>
       </div>
-
+      <div class="separator"></div>
       <div id="testimonial">
-        <img src="/wp-content/themes/vero/assets/images/pricing/alaister.png">
-        <p><em>"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</em></p>
-        <p class="who small">– Alaister Low, Director of Customer Experience, Freelancer</p>
+        <p>"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</p>
+        <p class="who small">
+        <img src="/wp-content/themes/vero/assets/images/pricing/alaister.png"> Alaister Low<br>Director of Customer Experience, Freelancer</p>
     </div>
   </section>
 </div>
 <?php 
-no_content_genesis_footer();
+  //no_content_genesis_footer();
 ?>
