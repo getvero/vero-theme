@@ -12,7 +12,7 @@ function custom_load_custom_style_sheet() {
     $base_url = "http://0.0.0.0:9000";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
-  } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com") {
+  } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" ) {
     $base_url = "http://static.getvero.com.s3.amazonaws.com";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
