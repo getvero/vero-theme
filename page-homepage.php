@@ -18,15 +18,16 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="top" class="center-text nothing">
+  <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div class="inner">
+    <h1 class="center-text nothing">Track behavior, trigger emails.</h1>
     <div id="reba" class="person half right-text"><img src="/wp-content/themes/vero/assets/images/home/reba.png"/></div>
     <div id="right" class="half center-text">
-      <h1 class="center-text nothing">Track behavior,<br>trigger emails.</h1>
       <div id="box">
-        <h5 class="center-text">An example from a Vero customer</h5>
+        <h5 class="center-text header">An example from a Vero customer</h5>
         <ul class="flow left list-unstyled left-text">
           <li>
-            <span class="circle"></span>
+            <span class="first-circle"></span>
             <span class="line"></span>
           </li>
           <li>
@@ -42,14 +43,14 @@
           </li>
         </ul>
         <ul class="story left list-unstyled left-text">
-          <li>Reba visits shoesofprey.com and starts desiging a shoe online.</li>
-          <li>She adds <em>custom red leather</em> to the shoes she is designing.</li>
-          <li>Reba leaves Shoes of Prey without purchasing the shoes.</li>
+          <li>Reba visits <em>shoesofprey.com</em> and starts <strong>desiging a shoe online</strong>.</li>
+          <li>She adds custom red leather shoes to the shoes she is designing.</li>
+          <li>Reba leaves <em>shoesofprey.com</em> without <strong>purchasing</strong> the shoes.</li>
           <li>Vero sends a <strong>triggered email</strong> to Reba two hours later with an image of <strong>the</strong> custom red leather shoes she was designing online.</li>
         </ul>
+        <a href="/features" class="btn btn-warning">Send Behavioral Emails</a>
+        <div class="small center-text">Try a 14-day free trial, no credit card required.</div>
       </div>
-      <a href="/features" class="btn btn-warning">Send behavioral emails like this</a>
-      <div class="small center-text">Try a 14-day free trial, no credit card required.</div>
   </div>
 </section>
 <?php 

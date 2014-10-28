@@ -135,6 +135,7 @@ function genesischild_theme_setup() {
   //Custom blue navigation on blog posts and docs
   register_nav_menu('third-menu-blog' , __( '(Blog) Blue Navigation Menu'));
   register_nav_menu('third-menu-docs' , __( '(Docs) Blue Navigation Menu'));
+  register_nav_menu('api-docs-languages' , __( '(Docs) Languages Menu'));
   add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
   add_filter( 'nav_menu_css_class', 'additional_active_item_classes', 10, 2 );
 

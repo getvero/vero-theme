@@ -11,39 +11,31 @@
 ?>
 <section id="top" class="center-text">
   <div class="inner">
-    <h1>Things you never knew you could do with email, <br> you can do with Vero.</h1>
+    <h1>Things you never knew you could do <br>with email, you can do with Vero.</h1>
     <ul class="list-unstyled list-inline">
       <li>
+        <img src="/wp-content/themes/vero/assets/images/features/MailReplyAll48.png"/>
         <p>Automate emails when a user takes an action</p>
-        <div class="box"></div>
       </li>
       <li>
+        <img src="/wp-content/themes/vero/assets/images/features/MailSearch48.png"/>
         <p>Track and insert meta-data with on-site events</p>
-        <div class="box"></div>
       </li>
       <li>
+        <img src="/wp-content/themes/vero/assets/images/features/MailSend64.png"/>
         <p>Send transactional emails without coding</p>
-        <div class="box"></div>
       </li>
       <li>
+        <img src="/wp-content/themes/vero/assets/images/features/MailWithCursors48.png"/>
         <p>Track clicks and conversions on your site</p>
-        <div class="box"></div>
       </li>
       <li>
-        <div class="box"></div>
+        <img src="/wp-content/themes/vero/assets/images/features/Mail32.png"/>
         <p>A/B test triggered email campaigns </p>
       </li>
       <li>
-        <div class="box"></div>
+        <img src="/wp-content/themes/vero/assets/images/features/PostMail248.png"/>
         <p>Pull data into emails from your web server</p>
-      </li>
-      <li>
-        <div class="box"></div>
-        <p>Send transactional emails without coding</p>
-      </li>
-      <li>
-        <div class="box"></div>
-        <p>Send transactional emails without coding</p>
       </li>
   </div>
 </section>
@@ -51,35 +43,39 @@
   <div class="inner">
     <h2 class="center-text">...plus, you can do all the usual stuff too.</h2>
     <ul class="list-unstyled list-inline">
-      <li>Send direct newsletters</li>
-      <li>Invite team members</li>
-      <li>Import users via CSV</li>
-      <li>Export reporting data</li>
-      <li>Google UTM integration</li>
-      <li>Send emails from your own domain</li>
-      <li>See open, click, unsubscribe, bounce and other statistics</li>
-      <li>Import your own HTML templates and edit via WYSIWYG editor</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/mail.png" />Send direct newsletters</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/person.png" />Invite team members</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/people.png" />Import users via CSV</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/stocks.png" />Export reporting data</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/google.png" />Google UTM integration</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/readability.png" />Send emails from your own domain</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/mouse-pointer.png" />See open, click, unsubscribe, bounce and other statistics</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/screen.png" />Import your own HTML templates and edit via WYSIWYG editor</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/hammer.png" />A/B test your email campaigns</li>
     </ul>
   </div>
 </section>
 <section id="awesome-support">
   <div class="inner">
-    <h2 class="center-text">Our support heroes are real marketers and engineers</h2>
+    <h2 class="center-text">Our support heroes are <br>real marketers and engineers</h2>
+  </div>
+  <div>
     <ul class="list-unstyled list-inline">
-      <li><img src="/wp-content/themes/vero/assets/images/features/chris.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/chris.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/chris.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/chris.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/chris.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/1.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/2.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/3.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/4.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/5.png"></li>
     </ul>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <a href="/pricing" class="btn btn-large btn-warning">Learn more</a>
-    <h5>Start your 14-day free trial and use all of these features.</h5>
+    <h2>Start your 14-day free trial.</h2>
+    <p>Start your 14-day free trial and use all of these features.</p>
+    <a href="/pricing" class="btn btn-large btn-primary">Learn more</a>
   </div>
 </section>
 <?php 
-  no_content_genesis_footer();
+  //no_content_genesis_footer();
  ?>
