@@ -91,7 +91,7 @@ include 'pages-shared/static-header.php';
       </form>
 
       <div id="happy">
-        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Not happy?</h5> <p>We'll refund you, no questions asked.</p>
+        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Be happy!</h5> <p>If you don't love Vero we'll refund you, no questions asked.</p>
       </div>
 
       <div id="customers" class="center-text">

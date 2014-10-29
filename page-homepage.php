@@ -21,10 +21,15 @@
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div class="inner">
     <h1 class="center-text nothing">Track behavior, trigger emails.</h1>
-    <div id="reba" class="person half right-text"><img src="/wp-content/themes/vero/assets/images/home/reba.png"/></div>
+    <div id="levels">
+    <div id="image" class="person half right-text">
+      <img id="arrow" src="/wp-content/themes/vero/assets/images/home/arrow.png">
+      <img id="hero" src="/wp-content/themes/vero/assets/images/home/reba.png"/>
+    </div>
     <div id="right" class="half center-text">
       <div id="box">
         <h5 class="center-text header">An example from a Vero customer</h5>
+        <p class="customer"><img src="/wp-content/themes/vero/assets/images/home/sop.png"/></p>
         <ul class="flow left list-unstyled left-text">
           <li>
             <span class="first-circle"></span>
@@ -51,6 +56,7 @@
         <a href="/features" class="btn btn-warning">Send Behavioral Emails</a>
         <div class="small center-text">Try a 14-day free trial, no credit card required.</div>
       </div>
+    </div>
   </div>
 </section>
 <?php 
