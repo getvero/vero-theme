@@ -337,8 +337,8 @@ function add_big_cta() {
   <section id="top">
     <div class="inner">
       <h1>20 Tips to Drastically Better Email</h1>
-      <h3>A full-length, free, online guide with real tips to improve your emails.</h3>
-      <p><a href="http://blog.getvero.com/guides/email-marketing-best-practices/" class="btn btn-warning btn-large">Get my free guide</a></p>
+      <h3>Actionable advice for every email marketer.</h3>
+      <p><a href="http://blog.getvero.com/guides/email-marketing-best-practices/" class="btn btn-warning btn-large">Read Now</a></p>
     </div>
   </section>
   <?php
