@@ -336,14 +336,9 @@ function add_big_cta() {
   ?>
   <section id="top">
     <div class="inner">
-      <div class="person"><img src="/wp-content/themes/vero/assets/images/chris.png"></div>
-        <div class="signup">
-          <h1>Get access to my best email marketing tips and hacks:</h1>
-          <form action='https://app.getvero.com/forms/3089a0e63a5e72761cdfc289e3890d81' method='post'>
-            <input name='email' type='email' placeholder="Enter your email..." /><input name='redirect_on_success' type='hidden' value='/posts' /><input type='submit' class="btn btn-warning" value='Subscribe' />
-          </form>
-          <h3>You'll join over 7,000 other email marketers that have learnt how to send behavioral emails that drive conversions.</h3>
-      </div>
+      <h1>20 Tips to Drastically Better Email</h1>
+      <h3>A full-length, free, online guide with real tips to improve your emails.</h3>
+      <p><a href="http://blog.getvero.com/guides/email-marketing-best-practices/" class="btn btn-warning btn-large">Get my free guide</a></p>
     </div>
   </section>
   <?php
