@@ -37,7 +37,7 @@ function custom_do_guides_loop() {
   echo '<section id="guides"><div class="wrap"><h3 class="h4 center-text">Online Email Marketing Guides</h3>';
 
   global $query_args; // any wp_query() args
-  $args= array('post_type' => 'guides', 'post_parent' => '0', 'posts_per_page' => 2, 'show_posts' => 2, 'order' => 'ASC', 'orderby' => 'date');
+  $args= array('post_type' => 'guides', 'post_parent' => '0', 'posts_per_page' => 2, 'show_posts' => 2, 'category_name' => 'featured-guides');
   genesis_custom_loop(wp_parse_args($query_args, $args));
 
   echo '</div></section>';
