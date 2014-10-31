@@ -37,7 +37,7 @@ function add_logo_to_navbar($menu, $args) {
     return $menu;
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
-  echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Email Marketing Software</span></li>';
+  echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
   $logo = ob_get_clean();
   return $logo . $menu;
 }

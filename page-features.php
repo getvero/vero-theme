@@ -35,7 +35,7 @@
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/features/PostMail248.png"/>
-        <p>Pull data into emails from your web server</p>
+        <p>Personalize emails with data from your web server</p>
       </li>
   </div>
 </section>
@@ -46,8 +46,8 @@
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/mail.png" />Send direct newsletters</li>
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/person.png" />Invite team members</li>
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/people.png" />Import users via CSV</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/stocks.png" />Export reporting data</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/google.png" />Google UTM integration</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/stocks.png" />Export analytics data</li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/usual/google.png" />Integrate with Google UTM</li>
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/readability.png" />Send emails from your own domain</li>
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/mouse-pointer.png" />See open, click, unsubscribe, bounce and other statistics</li>
       <li><img src="/wp-content/themes/vero/assets/images/features/usual/screen.png" />Import your own HTML templates and edit via WYSIWYG editor</li>
@@ -61,19 +61,18 @@
   </div>
   <div>
     <ul class="list-unstyled list-inline">
-      <li><img src="/wp-content/themes/vero/assets/images/features/team/1.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/team/2.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/team/3.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/team/4.png"></li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/team/5.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/james.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/damien.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/emily.png"></li>
+      <li><img src="/wp-content/themes/vero/assets/images/features/team/chris.png"></li>
     </ul>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <h2>Start your 14-day free trial.</h2>
-    <p>Start your 14-day free trial and use all of these features.</p>
-    <a href="/pricing" class="btn btn-large btn-primary">Learn more</a>
+    <p>Email marketing has never been this powerful.</p>
+    <a href="/pricing" class="btn btn-large btn-primary">Signup for your trial</a>
   </div>
 </section>
 <?php 
