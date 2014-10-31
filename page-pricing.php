@@ -62,10 +62,11 @@ include 'pages-shared/static-header.php';
         </tr>
       </tbody></table>
       <h3>Need more power?<a href="/high-volume-senders" class="btn btn-primary">See our high volume plans</a></h3>
-      <p>Don’t worry if the threshholds above aren’t powerful enough for you. It’s easy and affordable to add on.</p>
+      <p>Vero users aren't locked into any plan. Scale up to meet demand or scale down to save money.</p>
   </section>
   <section id="right">
     <div class="color">
+      <p>Start a free trial, no credit card required.</p>
       <div class="deco"></div>
 
       <form accept-charset="UTF-8" action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
@@ -86,16 +87,15 @@ include 'pages-shared/static-header.php';
 
       <div class="form-group">
         <input class="btn" name="commit" type="submit" value="Get started now">
-        <p class="small center-text">No credit card required.</p>
       </div>
       </form>
 
       <div id="happy">
-        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Be happy!</h5> <p>If you don't love Vero we'll refund you, no questions asked.</p>
+        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Risk-free!</h5> <p>If you don't love Vero we'll refund you, no questions asked.</p>
       </div>
 
       <div id="customers" class="center-text">
-        <h4 class="center-text">Join 300+ happy customers sending over 50 million emails every month.</h4>
+        <h4 class="center-text">Join 300+ happy customers sending more than 50 million emails every month.</h4>
         <li><img src="/wp-content/themes/vero/assets/images/pricing/rackspace.png"></li>
         <li><img src="/wp-content/themes/vero/assets/images/pricing/qualaroo.png"></li>
         <li><img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png"></li>
