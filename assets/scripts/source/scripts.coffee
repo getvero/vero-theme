@@ -67,7 +67,7 @@ validateForm = ->
   if ($company = jQuery("#sender_company_name")).val() != ''
     $company.removeClass('error')
   else
-    $name.addClass('error')
+    $company.addClass('error')
     ret = false
 
   if ($subscribers = jQuery("#sender_subscribers")).val() != ''
@@ -103,7 +103,7 @@ requestDemo = ->
         contact_method: jQuery("input:radio[name=contact_method]:checked").val()
       }
     ]
-    jQuery("#high-volume > .inner").addClass('text-center').html("<h3>Thanks for your request.</h3><h4>We will be contacting your shortly</h4>")
+    jQuery("#high-volume > .inner").addClass('center-text').html("<h3 style='color:#222;font-weight:bold;'>Thanks for your request!</h3><h4 style='color:#222;padding-bottom:100px;'>We will contact you shortly.</h4>")
     console.log 'success'
 
 jQuery ->

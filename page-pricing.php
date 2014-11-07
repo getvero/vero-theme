@@ -31,18 +31,18 @@ include 'pages-shared/static-header.php';
           <td>$149</td>
         </tr>
         <tr>
-          <td>400,000</td>
-          <td>150,000</td>
+          <td>250,000</td>
+          <td>100,000</td>
           <td>$299</td>
+        </tr>
+        <tr>
+          <td>400,000</td>
+          <td>175,000</td>
+          <td>$549</td>
         </tr>
         <tr>
           <td>700,000</td>
           <td>300,000</td>
-          <td>$549</td>
-        </tr>
-        <tr>
-          <td>750,000</td>
-          <td>500,000</td>
           <td>$749</td>
         </tr>
         <tr>

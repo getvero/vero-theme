@@ -69,3 +69,14 @@ function no_content_genesis_footer() {
   </html>
 <?php
   }
+
+
+//Customised Genesis Footer
+function no_menus_genesis_footer() {
+  echo '</div>'; //* end .site-container or #wrap
+  wp_footer(); //* we need this for plugins
+  ?>
+  </body>
+  </html>
+<?php
+  }
