@@ -14,12 +14,12 @@ function custom_load_custom_style_sheet() {
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-mobile-stylesheet', $base_url."/marketing-mobile.css", array(), PARENT_THEME_VERSION );
   } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" ) {
-    $base_url = "http://static.getvero.com.s3.amazonaws.com";
+    $base_url = "https://static.getvero.com.s3.amazonaws.com";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-mobile-stylesheet', $base_url."/marketing-mobile.min.css", array(), PARENT_THEME_VERSION );
   } else {
-    $base_url = "http://d3qxef4rp70elm.cloudfront.net";
+    $base_url = "https://d3qxef4rp70elm.cloudfront.net";
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
     wp_enqueue_style( 'marketing-mobile-stylesheet', $base_url."/marketing-mobile.min.css", array(), PARENT_THEME_VERSION );
