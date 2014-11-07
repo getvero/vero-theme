@@ -59,5 +59,5 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <?php 
-  //no_content_genesis_footer();
+  no_menus_genesis_footer();
 ?>
