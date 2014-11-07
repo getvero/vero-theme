@@ -105,6 +105,7 @@ function filter_text_on_static_pages() {
 function add_blue_navbar_logic() {
   global $wp_query;
   if ( is_singular('api_docs') ) {
+    echo "<div id='blue-holder'><div class='spacer'></div>";
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
       'container_class' => 'blue-nav-menu left'
@@ -113,6 +114,7 @@ function add_blue_navbar_logic() {
       'menu' => 'api-docs-languages',
       'container_class' => 'blue-nav-menu right' 
     ) );
+    echo "</div><div class='spacer'></div>";
   } else if (is_page('faq')) {
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
