@@ -46,7 +46,13 @@ include 'pages-shared/static-header.php';
         <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="sender[subscribers]"><option value="500000">&lt; 500,000 subscribers</option><option value="1000000">&lt; 1,000,000 subscribers</option><option value="5000000">&lt; 5,000,000 subscribers</option><option value="10000000">&lt; 10,000,000 subscribers</option><option value="more">&gt; 10,000,000 subscribers</option></select></div>
         <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="sender[emails]"><option value="1000000">&lt; 1,000,000 emails</option><option value="5000000">&lt; 5,000,000 emails</option><option value="10000000">&lt; 10,000,000 emails</option><option value="50000000">&lt; 50,000,000 emails</option><option value="more">&gt; 50,000,000 emails</option></select></div>
         <!--<div class="form-group"><label>Comments or questions:</label><textarea id="sender_question" class="form-control" name="sender[question]"></textarea></div>-->
-        <div class="form-group"><label>Contact method:</label><br><label class="method" for="email"><input id="email" checked="checked" name="contact_method" type="radio" value="email" /> Email</label>&nbsp;&nbsp;<label class="method" for="phone"><input id="phone" name="contact_method" type="radio" value="phone" /> Phone</label></div>
+        <div class="form-group">
+          <label>Preferred contact method:</label><br>
+          <input id="email" checked="checked" name="contact_method" type="radio" value="email" />
+          <label class="method" for="email"><img src="/wp-content/themes/vero/assets/images/phone.png"></label>
+          <input id="phone" name="contact_method" type="radio" value="phone" />
+          <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/images/mail-white.png"></label>
+        </div>
         <div class="form-group"><a id="request-demo" class="btn btn-primary" href="#">Get in touch</a></div>
       </div>
     </form>

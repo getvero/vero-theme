@@ -69,20 +69,20 @@ include 'pages-shared/static-header.php';
       <p>Start a free trial, no credit card required.</p>
       <div class="deco"></div>
 
-      <form accept-charset="UTF-8" action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
+      <form accept-charset="UTF-8" action="https://app.getvero.com/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
       <div class="form-group">
         <label>Name</label>
-        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="Steve Vero" type="text">
+        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="James Bond" type="text">
       </div>
 
       <div class="form-group">
         <label>Email</label>
-        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="steve@getvero.com" type="text" value="">
+        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="james@mi5.gov.uk" type="text" value="">
       </div>
 
       <div class="form-group">
         <label>Password</label>
-        <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (must include one upper-case, one lower-case, one number)" type="password">
+        <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (at least one upper-case, one lower-case, one number)" type="password">
       </div>
 
       <div class="form-group">

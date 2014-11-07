@@ -22,7 +22,7 @@ include 'pages-shared/static-header.php';
         <ul>
           <li><a href="#users-and-actions">What are user attributes and user actions?</a></li>
           <li><a href="#tags">What are tags?</a></li>
-          <li><a href="">What is a segment?</a></li>
+          <li><a href="#segments">What is a segment?</a></li>
         </ul>
         <h4 class="widget-title widgettitle">Email campaigns</h4>
           <li><a href="#newsletters">What is a newsletter?</a></li>
@@ -100,7 +100,7 @@ include 'pages-shared/static-header.php';
   </ul>
   <p>Behavioural emails are setup as campaigns by defualt. An event can trigger a single email or a series. The frequency of the emails in a behavioural series can be based on date or other variables. Vero’s behavioural emails replace exporting user data, creating new segments in Excel and uploading new lists. It’s the fastest, easiest way to send highly personalized, timely emails.</p>
   
-  <p class="heading" id="drips"><b>Can I build a drip campaign?</b></p>
+  <p class="heading" id="drip-campaigns"><b>Can I build a drip campaign?</b></p>
   <p>In Vero, drip campaigns and autoresponders are part of our <a href="https://#behavioral-emails">behavioral emails</a>. To create a drip campaign, setup a new behavioral campaign and follows the steps to define your targeting and email content. Once saved you are taken to the <i>campaign snapshot</i> where you can choose to <i>Add an email</i> to your series.&nbsp;</p>
   <p>Emails in a series are triggered via the <b>previous email</b> and each email can have its own filter conditions. If an email in a series goes out, no emails following this email will be sent.</p>
   
