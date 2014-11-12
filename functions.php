@@ -126,6 +126,9 @@ function genesischild_theme_setup() {
 	//Add and customise resources
 	add_action( 'init', 'create_resources_post_type' );
 
+  //Add and customise jobs
+  add_action( 'init', 'create_jobs_post_type' );
+
   //Add and customise resources page
   create_sidebars_blog_resources();
 

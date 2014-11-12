@@ -3,6 +3,7 @@
 include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
+include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );
 
 //
 //Tweaks to Genesis
