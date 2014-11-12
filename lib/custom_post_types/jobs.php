@@ -13,7 +13,7 @@ function create_jobs_post_type () {
       $args = array(
       'labels' => $labels,
       'public' => true,
-      //'menu_icon' => '/wp-content/themes/vero/assets/images/icons/resources.png',
+      'menu_icon' => '/wp-content/themes/vero/assets/images/icons/jobs.png',
       'has_archive' => true,
       'rewrite' => array('slug' => 'jobs'),
       'supports' => array( 'title', 'editor', 'thumbnail' )
