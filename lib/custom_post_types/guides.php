@@ -28,6 +28,12 @@ function create_guides_post_type() {
   }
 }
 
+//Force full width layout
+function guides_layout($opt) {
+  if ( 'guides' == get_post_type() )
+    $opt = 'full-width-content';
+    return $opt;
+}
 
 function change_guide_slugs() {
   if (genesis_get_option('guides') == true) {
@@ -109,9 +115,9 @@ function guides_featured_title () {
     printf( '<div id="guide-title" style="background:url(%s)"><div id="title-inner">
       <div id="title-well" class="well">
         <p class="what meta">'.$what_is_it.'</p>
-        <h1><span class="small h5">'.$sub_title.'</span><span class="big">%s</span></h1>
-        <p class="published meta">by <span>'.$author.'</span><br>on <span>'.$date.'</span></p>
+        <h1><span class="small h5">'.$sub_title.'</span><span class="big">%s</span></h1><p class="published meta">by <span>'.$author.'</span><br>on <span>'.$date.'</span></p>
       </div></div></div>', $img, $title );
+    echo do_shortcode('[easy-share]');
   }
 }
 
@@ -144,11 +150,18 @@ function fix_guide_navs () {
 
 function add_guides_scripts()
 {
-    if ('20 Tips for Dramatically Better Emails')
-    {
-      wp_register_script('20-tips', get_stylesheet_directory_uri() . '/assets/scripts/20-tips.js', array('jquery'), NULL, true);
-      wp_enqueue_script('20-tips');
-    }
+  global $post;
+
+  if ('20 Tips for Dramatically Better Emails')
+  {
+    wp_register_script('20-tips', get_stylesheet_directory_uri() . '/assets/scripts/20-tips.js', array('jquery'), NULL, true);
+    wp_enqueue_script('20-tips');
+  }
+
+  if ($post->post_name == 'the-amazon-experience') {
+    wp_register_script('amazon-experience', get_stylesheet_directory_uri() . '/assets/scripts/amazon-experience.js', array('jquery'), NULL, true);
+    wp_enqueue_script('amazon-experience');
+  }
 }
 
 function add_guides_sidebar() {
@@ -159,4 +172,27 @@ function add_guides_sidebar() {
   echo "</div>";
 }
 
+function add_custom_elements_to_guides() {
+  global $post;
+
+  if ($post->post_name == 'the-amazon-experience') {
+    echo "<div id='top-bar-journey'>
+    <ul class='list-unstyled list-inline'>
+    <li id='link-to-email-1'><a href='#email-1'><span class='circle'>1</span>Welcome</a><span class='line'></span></li>
+    <li id='link-to-email-2'><a href='#email-2'><span class='circle'>2</span>Receipt</a><span class='line'></span></li>
+    <li id='link-to-email-3'><a href='#email-3'><span class='circle'>3</span>Shipping</a><span class='line'></span></li>
+    <li id='link-to-email-4'><a href='#email-4'><span class='circle'>4</span>Thank You</a><span class='line'></span></li>
+    <li id='link-to-email-5'><a href='#email-5'><span class='circle'>5</span>Invite</a><span class='line'></span></li>
+    <li id='link-to-email-6'><a href='#email-6'><span class='circle'>6</span>Upsell</a><span class='line'></span></li>
+    <li id='link-to-email-7'><a href='#email-7'><span class='circle'>7</span>Black Friday</a><span class='line'></span></li>
+    <li id='link-to-email-8'><a href='#email-8'><span class='circle'>8</span>Review</a><span class='line'></span></li>
+    <li id='link-to-email-9'><a href='#email-9'><span class='circle'>9</span>Browsing</a><span class='line'></span></li>
+    </ul>
+    <div id='call-to-action-top'>
+    <form action='https://app.getvero.com/forms/243e4965b0e9af63977a56c577bd26d1' method='post'>
+      <p>Email tips, once per week</p><input name='email' type='email'><input type='hidden' value='http://blog.getvero.com/thanks-subscribing?where=guide-amazon' name='redirect_on_success'><input type='submit' value='Subscribe' class='btn btn-success btn-xsmall'><br>
+    </form>
+    </div>";
+  }
+}
 ?>
