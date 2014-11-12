@@ -11,6 +11,7 @@ function post_type_defaults( $defaults ) {
   $defaults['kb'] = false;
   $defaults['api'] = false;
   $defaults['help_docs'] = false;
+  $defaults['jobs'] = false;
  
   return $defaults;
 }
@@ -25,7 +26,8 @@ function register_post_type_sanitzation_filters() {
       'guides',
       'api',
       'help_docs',
-      'kb'
+      'kb',
+      'jobs'
     ) 
   );
 }
@@ -53,6 +55,9 @@ function post_types_box() {
  
   <p><?php _e( 'KB:', 'be-genesis-child' );?>
   <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[kb]" value='1' <?php checked(1, genesis_get_option('kb') ); ?> /> </p>
+
+  <p><?php _e( 'Jobs:', 'be-genesis-child' );?>
+  <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[jobs]" value='1' <?php checked(1, genesis_get_option('jobs') ); ?> /> </p>
 
   <?php
 }
