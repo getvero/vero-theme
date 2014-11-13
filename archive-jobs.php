@@ -75,7 +75,7 @@ function add_jobs_featured() {
           </li>
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/heart.png"/>
-            <h5>Fulfilment</h5>
+            <h5>Fulfillment</h5>
             <p>Don't defer your life plan. Live passionately now.</p>
           </li>
           <li>

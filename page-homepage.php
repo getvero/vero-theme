@@ -45,7 +45,7 @@
         </li>
       </ul>
       <ul class="story left list-unstyled left-text">
-        <li>Reba visits <em>shoesofprey.com</em> and starts <strong>desiging a shoe</strong>.</li>
+        <li>Reba visits <em>shoesofprey.com</em> and starts <strong>designing a shoe</strong>.</li>
         <li>She adds custom red leather to the shoes.</li>
         <li>Reba leaves <em>shoesofprey.com</em> without <strong>purchasing</strong> the shoes.</li>
         <li>Vero automatically <strong>triggers an email</strong> two hours later with an image of <strong>the</strong> exact shoes Reba was designing along with a strong call to action.</li>
