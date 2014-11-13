@@ -30,10 +30,21 @@ function custom_excerpt() {
   ?>
     <a href="<?php echo get_permalink(); ?>" class="well job">
       <h4><?php echo get_the_title(); ?></h4>
-      <p><?php echo get_the_excerpt(); ?></p>
+      <p><?php echo string_limit_words(get_the_excerpt(),10); ?></p>
       <span class='button'>Read more</span>
     </a>
   <?php
+}
+
+function string_limit_words($string, $word_limit)
+{
+  $words = explode(' ', $string, ($word_limit + 1));
+  if(count($words) > $word_limit) {
+  array_pop($words);
+  //add a ... at last article when more than limit word count
+  echo implode(' ', $words)."..."; } else {
+  //otherwise
+  echo implode(' ', $words); }
 }
 
 //Add featured sections at the top
