@@ -11,6 +11,12 @@ function metro_add_body_class( $classes ) {
    return $classes;
 }
 
+//Remove header
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+
 //Remove footer
 remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
 remove_action( 'genesis_footer', 'genesis_do_footer' );
