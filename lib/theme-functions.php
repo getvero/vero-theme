@@ -30,7 +30,6 @@ function custom_load_custom_style_sheet() {
 function child_output_filter( $backtotop_text, $creds_text ) {
 	$first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
   $second_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left One' ));
-  $third_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left Two' ));
 }
 function add_logo_to_navbar($menu, $args) {
   $args = (array)$args;
