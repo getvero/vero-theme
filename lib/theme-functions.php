@@ -31,13 +31,16 @@ function child_output_filter( $backtotop_text, $creds_text ) {
 	$first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
   $second_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left One' ));
 }
+
 function add_logo_to_navbar($menu, $args) {
   $args = (array)$args;
   if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
     return $menu;
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
-  echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
+  if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "blog.getvero.com" ) {
+    echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
+  }
   $logo = ob_get_clean();
   return $logo . $menu;
 }
