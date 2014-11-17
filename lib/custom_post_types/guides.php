@@ -117,7 +117,7 @@ function guides_featured_title () {
         <p class="what meta">'.$what_is_it.'</p>
         <h1><span class="small h5">'.$sub_title.'</span><span class="big">%s</span></h1><p class="published meta">by <span>'.$author.'</span><br>on <span>'.$date.'</span></p>
       </div></div></div>', $img, $title );
-    echo do_shortcode('[easy-share]');
+    echo do_shortcode('[easy-share buttons="facebook,twitter,linkedin,buffer,pocket" counters=1 hide_names="force" counter_pos="inside" native="no" total_counter_pos="left" template="metro-retina"]');
   }
 }
 
