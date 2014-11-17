@@ -18,9 +18,9 @@ remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
 
 //Remove footer
-remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
-remove_action( 'genesis_footer', 'genesis_do_footer' );
-remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
+//remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+//remove_action( 'genesis_footer', 'genesis_do_footer' );
+//remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
 //Custom post format
 remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
@@ -60,27 +60,22 @@ function add_jobs_featured() {
         <ul class="list-unstyled list-inline">
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/magnify.png"/>
-            <h5>Clarity</h5>
             <p>Less is more.</p>
           </li>
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/bulb.png"/>
-            <h5>Innovation</h5>
             <p>Technology can make the world a better place.</p>
           </li>
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/books.png"/>
-            <h5>Education</h5>
             <p>Knowledge is empowering. Never stop learning.</p>
           </li>
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/heart.png"/>
-            <h5>Fulfillment</h5>
             <p>Don't defer your life plan. Live passionately now.</p>
           </li>
           <li>
             <img src="/wp-content/themes/vero/assets/images/jobs/tick.png"/>
-            <h5>Action</h5>
             <p>"Great artists ship". Action over intention.</p>
           </li>
       </div>
