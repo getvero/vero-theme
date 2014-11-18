@@ -17,7 +17,7 @@ function create_guides_post_type() {
       'menu_icon' => '/wp-content/themes/vero/assets/images/icons/guides.png',
       'rewrite' => array('slug' => 'guides','with_front' => true),
       'hierarchical' => true,
-      'supports' => array('title','editor','page-attributes','thumbnail', 'excerpt'),
+      'supports' => array('title','editor','page-attributes','thumbnail', 'excerpt', 'post-formats'),
       'taxonomies' => array('category')
     );
 
@@ -111,13 +111,14 @@ function guides_featured_title () {
     $author_id = get_queried_object()->post_author;
     $author = get_the_author_meta('display_name', $author_id);
     $date = get_the_date("d F Y");
+    $video = add_video();
 
-    printf( '<div id="guide-title" style="background:url(%s)"><div id="title-inner">
+    printf( '<div id="guide-title" style="background:url(%s)"><div id="title-inner">%s
       <div id="title-well" class="well">
         <p class="what meta">'.$what_is_it.'</p>
         <h1><span class="small h5">'.$sub_title.'</span><span class="big">%s</span></h1><p class="published meta">by <span>'.$author.'</span><br>on <span>'.$date.'</span></p>
-      </div></div></div>', $img, $title );
-    echo do_shortcode('[easy-share buttons="facebook,twitter,linkedin,buffer,pocket" counters=1 hide_names="force" counter_pos="inside" native="no" total_counter_pos="left" template="metro-retina"]a');
+      </div></div></div>', $img, $video, $title );
+    echo do_shortcode('[easy-share buttons="facebook,twitter,linkedin,buffer,pocket" counters=1 hide_names="force" counter_pos="inside" native="no" total_counter_pos="left" template="metro-retina"]');
   }
 }
 

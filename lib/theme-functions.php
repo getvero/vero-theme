@@ -282,6 +282,17 @@ function set_admin_menu_separator() {
 }
 
 //
+// Add video
+//----------------------
+function add_video() {
+  global $post;
+
+  $video = "<div id='video-embed'>".get_post_meta($post->ID, 'video_embed_code', true)."</div>";
+
+  return $video;
+}
+
+//
 // Customise blog posts
 //----------------------
 function add_blog_navbar_logic() {

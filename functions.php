@@ -39,6 +39,19 @@ function genesischild_theme_setup() {
   //Adjust sidebar in admin
   add_action( 'admin_menu', 'set_admin_menu_separator');
 
+  //Add support for post formats
+  add_theme_support( 'post-formats', array(
+    'aside',
+    'audio',
+    'chat',
+    'gallery',
+    'image',
+    'link',
+    'quote',
+    'status',
+    'video'
+  ) );
+
   //Fix pagination
   add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
   function gt_review_prev_link_text() {
@@ -90,7 +103,10 @@ function genesischild_theme_setup() {
 	//Custom body classes
   add_filter( 'body_class', 'add_body_classes' );
 
-	//Add and customise help docs, KB and API docs
+  //Add video
+  //add_filter('genesis_before', 'add_videos');
+
+	//Add and customise FAQ and api docs
 	add_action( 'init', 'create_all_docs_post_type' );
   genesis_register_sidebar( array(
     'id' => 'api_docs_sidebar',
