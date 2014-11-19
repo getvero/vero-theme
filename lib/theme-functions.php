@@ -38,7 +38,9 @@ function add_logo_to_navbar($menu, $args) {
     return $menu;
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
-  if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "blog.getvero.com" ) { } else {
+  if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "blog.getvero.com" ) { 
+    echo '<li id="hiring"><a href="https://www.getvero.com/jobs">We are hiring</a></li>';
+  } else {
     echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
   }
   $logo = ob_get_clean();
@@ -391,11 +393,11 @@ function fix_blog_navs_and_header () {
 
 function add_big_cta() {
   ?>
-  <section id="top">
+  <section id="top" style="background: url(http://getvero.staging.wpengine.com/wp-content/uploads/2014/11/skulls-blue.jpg) repeat; backgrond-size: auto;">
     <div class="inner">
-      <h1>20 Tips to Drastically Better Email</h1>
-      <h3>Actionable advice for every email marketer.</h3>
-      <p><a href="http://blog.getvero.com/guides/email-marketing-best-practices/" class="btn btn-warning btn-large">Read Now</a></p>
+      <h1>How and why to run an international team retreat</h1>
+      <h3>Get your hands on nine practical activites for your next team retreat.</h3>
+      <p><a href="/guides/team-retreat/" class="btn btn-warning btn-large">Watch the video now</a></p>
     </div>
   </section>
   <?php
