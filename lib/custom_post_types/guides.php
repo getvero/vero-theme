@@ -166,10 +166,16 @@ function add_guides_scripts()
 }
 
 function add_guides_sidebar() {
+  global $post;
+
   if ( ! is_singular( 'guides' ) )
     return;
   echo "<div id='sidebar'>";
-  genesis_widget_area( 'guides-sidebar-widget' );
+  if ($post->post_name == 'email-marketing-best-practices') {
+    genesis_widget_area( '20-tips-sidebar-widget' );
+  } else {
+    genesis_widget_area( 'guides-sidebar-widget' );
+  }
   echo "</div>";
 }
 

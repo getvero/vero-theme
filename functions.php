@@ -140,6 +140,11 @@ function genesischild_theme_setup() {
     'name'      => __( 'Guides sidebar' ),
     'description' => __( 'This is the code for registering a new widget in your functions file.' )
   ) );
+  genesis_register_sidebar( array(
+    'id'        => '20-tips-sidebar-widget',
+    'name'      => __( '20-tips email sidebar' ),
+    'description' => __( 'This is the code for registering a new widget in your functions file.' )
+  ) );
   add_action( 'genesis_after_content', 'add_guides_sidebar' );
 
 	//Add and customise resources
