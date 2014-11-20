@@ -99,11 +99,13 @@ include 'pages-shared/static-header.php';
       <div class="form-group">
         <label>What best describes you?</label>
         <select class="form-control" id="user_password" name="user[industry]" >
-          <option>Online software</option>
-          <option>Mobile app</option>
+          <option>B2B online software</option>
           <option>eCommerce</option>
-          <option>Online and social gaming</option>
-          <option>Lead generation</option>
+          <option>Consumer online products (gaming, travel, etc.)</option>
+          <option>Mobile app</option>
+          <option>Information marketer</option>
+          <option>Media</option>
+          <option>Other</option>
         </select>
       </div>
 
