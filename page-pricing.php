@@ -72,17 +72,39 @@ include 'pages-shared/static-header.php';
       <form accept-charset="UTF-8" action="https://app.getvero.com/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
       <div class="form-group">
         <label>Name</label>
-        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="James Bond" type="text">
+        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="Tyrion Lannister" type="text">
       </div>
 
       <div class="form-group">
         <label>Email</label>
-        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="james@mi5.gov.uk" type="text" value="">
+        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="tyrion.lannister@casterlyrock.com" type="text" value="">
       </div>
 
       <div class="form-group">
         <label>Password</label>
         <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (at least one upper-case, one lower-case, one number)" type="password">
+      </div>
+
+      <div class="form-group">
+        <label>How many contacts do you have?</label>
+        <select class="form-control" id="user_password" name="user[customers]" >
+          <option value="1000">0 - 1,000</option>
+          <option value="50000">1,000 - 50,000</option>
+          <option value="100000">50,000 - 100,000</option>
+          <option value="1000000">100,000 - 1,000,000</option>
+          <option value="1000001">Over 1,000,000</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>What best describes you?</label>
+        <select class="form-control" id="user_password" name="user[industry]" >
+          <option>Online software</option>
+          <option>Mobile app</option>
+          <option>eCommerce</option>
+          <option>Online and social gaming</option>
+          <option>Lead generation</option>
+        </select>
       </div>
 
       <div class="form-group">
