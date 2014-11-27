@@ -22,9 +22,9 @@ jQuery(document).one('scroll', () ->
 )
 
 jQuery(document).on "scroll", ->
-  first_heading_from_top = jQuery(".spacer.big").first().offset().top
-  first_heading_from_top = first_heading_from_top + jQuery(".spacer.big").first().outerHeight(true)
-  if jQuery(document).scrollTop() > first_heading_from_top
+  first_heading_from_top = jQuery("#start-here").offset().top
+  first_heading_from_top = first_heading_from_top + jQuery("#start-here").outerHeight(true)
+  if (jQuery(document).scrollTop() > first_heading_from_top) 
     jQuery("#top-bar-journey").show()  
   else
     jQuery("#top-bar-journey").hide()  
@@ -32,8 +32,8 @@ jQuery(document).on "scroll", ->
 
 
 jQuery(document).ready ->
-  first_heading_from_top = jQuery(".spacer.big").first().offset().top
-  first_heading_from_top = first_heading_from_top + jQuery(".spacer.big").first().outerHeight(true)
+  first_heading_from_top = jQuery("#start-here").offset().top
+  first_heading_from_top = first_heading_from_top + jQuery("#start-here").outerHeight(true)
   if jQuery(document).scrollTop() > first_heading_from_top
     jQuery("#top-bar-journey").show()  
   else

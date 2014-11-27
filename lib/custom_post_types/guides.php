@@ -153,7 +153,7 @@ function add_guides_scripts()
 {
   global $post;
 
-  if ('20 Tips for Dramatically Better Emails')
+  if ($post->post_name == 'email-marketing-best-practices')
   {
     wp_register_script('20-tips', get_stylesheet_directory_uri() . '/assets/scripts/20-tips.js', array('jquery'), NULL, true);
     wp_enqueue_script('20-tips');
