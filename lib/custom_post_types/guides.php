@@ -88,6 +88,7 @@ function guides_before_footer () {
       </div>
     </div>
     <?php 
+    echo "<h1>".$_COOKIE['hide_guide_sidebar']."</h1>";
     if ($_COOKIE['hide_guide_sidebar'] == 'true') { 
     ?>
       <style>#sidebar{display:none !important;}</style>
