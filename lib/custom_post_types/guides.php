@@ -88,6 +88,10 @@ function guides_before_footer () {
       </div>
     </div>
     <?php 
+    if ($_COOKIES['hide_guide_sidebar'] == 'true') { 
+    ?>
+      <style>#sidebar{display:none;}</style>
+    <?php }
 }
 
 function guides_featured_title () {
@@ -195,11 +199,6 @@ function add_custom_elements_to_guides() {
     <li id='link-to-email-8'><a href='#email-8'><span class='circle'>8</span>Review</a><span class='line'></span></li>
     <li id='link-to-email-9'><a href='#email-9'><span class='circle'>9</span>Browsing</a><span class='line'></span></li>
     </ul>
-    <div id='call-to-action-top'>
-    <form action='https://app.getvero.com/forms/243e4965b0e9af63977a56c577bd26d1' method='post'>
-      <p>Email tips, once per week</p><input name='email' type='email'><input type='hidden' value='http://blog.getvero.com/thanks-subscribing?where=guide-amazon' name='redirect_on_success'><input type='submit' value='Subscribe' class='btn btn-success btn-xsmall'><br>
-    </form>
-    </div>
     </div>";
   }
 }

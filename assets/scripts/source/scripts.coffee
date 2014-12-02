@@ -83,6 +83,9 @@ validateForm = ->
     ret = false
   ret
 
+hideGuideSidebar = ->
+  jQuery.cookie('hide_guide_sidebar', 'true', { expires: 90 })
+  jQuery('#hide-guide-sidebar').hide()
 
 requestDemo = ->
   if validateForm()
@@ -130,3 +133,9 @@ jQuery ->
     jQuery("body").animate
       scrollTop: jQuery(target).offset().top - 90
     , 600
+
+jQuery ->
+  if jQuery("#hide-guide-sidebar").length
+    jQuery(document).on 'click', '#hide-guide-sidebar', ->
+      hideGuideSidebar()
+      false

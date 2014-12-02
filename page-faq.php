@@ -127,7 +127,7 @@ include 'pages-shared/static-header.php';
   <p class="heading" id="csv"><b>Can I import via CSV?</b></p>
   <p>Yes, you can import both <i>users</i> and <i>actions</i> into Vero via CSV.</p>
   <p>CSV imports are predominantely used to backfill data in Vero or manually move data between email service providers or other tools.</p>
-  <p>To import via CSV, visit the <i><a href="https://app.getvero.com/segments">Segments</a> </i>section and select <i>Import CSV</i> (at the top right). You will be shown the exact fields you need to import in order to successfully update user attributes or actions.</p>
+  <p>To import via CSV, select 'Import... from the Configuration menu (at the top right). You will be shown the exact fields you need to import in order to successfully update user attributes or actions.</p>
   <p>When you are importing actions, you can choose whether the import should <a href="https://#triggered-emails">trigger emails</a> or not. This is important since you could accidentally trigger emails to these users based on your existing transactional or behavioural campaigns</p>
   
   <p><b>Note</b> that the CSV uploader can handle files up to around 50,000 rows at a time. If you have larger CSVs please split them up or <a href="mailto:support@getvero.com">get in touch via email</a> and pass along the file – we’re happy to help.</p>
