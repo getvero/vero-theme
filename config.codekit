@@ -2616,17 +2616,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/scripts\/amazon-experience.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/amazon-experience.js",
-		"outputAbbreviatedPath": "\/assets\/scripts\/min\/amazon-experience-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/assets\/scripts\/source\/20-tips.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
@@ -2635,19 +2624,6 @@
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/20-tips.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/assets\/scripts\/20-tips.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/scripts\/source\/amazon-experience.coffee": {
-		"createSourceMap": 0,
-		"fileType": 32,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/source\/amazon-experience.coffee",
-		"minifyOutput": 1,
-		"outputAbbreviatedPath": "\/assets\/scripts\/amazon-experience.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -2760,15 +2736,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/custom_post_types\/resources.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lib\/theme-functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/theme-functions.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
