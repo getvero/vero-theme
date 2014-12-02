@@ -88,9 +88,9 @@ function guides_before_footer () {
       </div>
     </div>
     <?php 
-    if ($_COOKIES['hide_guide_sidebar'] == 'true') { 
+    if ($_COOKIE['hide_guide_sidebar'] == 'true') { 
     ?>
-      <style>#sidebar{display:none;}</style>
+      <style>#sidebar{display:none !important;}</style>
     <?php }
 }
 
