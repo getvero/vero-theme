@@ -26,8 +26,10 @@ jQuery(document).on "scroll", ->
   first_heading_from_top = first_heading_from_top + jQuery("#start-here").outerHeight(true)
   if (jQuery(document).scrollTop() > first_heading_from_top) 
     jQuery("#top-bar-journey").show()  
+    jQuery("#sidebar").show()
   else
     jQuery("#top-bar-journey").hide()  
+    jQuery("#sidebar").hide()
   return
 
 
@@ -36,6 +38,8 @@ jQuery(document).ready ->
   first_heading_from_top = first_heading_from_top + jQuery("#start-here").outerHeight(true)
   if jQuery(document).scrollTop() > first_heading_from_top
     jQuery("#top-bar-journey").show()  
+    jQuery("#sidebar").show()
   else
     jQuery("#top-bar-journey").hide()  
+    jQuery("#sidebar").hide()
   return
