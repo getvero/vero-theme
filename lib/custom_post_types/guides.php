@@ -83,7 +83,7 @@ function guides_before_footer () {
     ?>
     <div id="guide-footer">
       <div id="title-well" class="well">
-        <h1><span class="small h5">Get more great content</span><span class="big">Read our other guides</span></h1>
+        <div class='h1'><span class="small h5">Get more great content</span><span class="big">Read our other guides</span></div>
         <a href="/email-marketing-resources" class="btn btn-success">Check them out &rarr;</a>
       </div>
     </div>
