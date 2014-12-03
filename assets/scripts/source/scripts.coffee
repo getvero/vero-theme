@@ -85,8 +85,8 @@ validateForm = ->
 
 hideGuideSidebar = ->
   jQuery.cookie('hide_guide_sidebar', 'true', { expires: 90 })
-  jQuery.attr "style", (i, s) ->
-    "width: 100px !important;"
+  jQuery('#sidebar').attr "style", (i, s) ->
+    "display: none !important;"
 
 requestDemo = ->
   if validateForm()
