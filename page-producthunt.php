@@ -9,9 +9,9 @@
   
   include 'pages-shared/static-header.php';
 ?>
-<section id="producthunt" class="center-text">
+<section id="producthunt">
   <div class="inner">
-    <img src="/wp-content/themes/vero/producthunt.png"/>
+    <img src="/wp-content/themes/vero/assets/images/producthunt.png"/>
     <div id="right">
       <h2>Welcome ProductHunters!</h2>
       <p>Start a free trial today and get 30% off your first 6 months with Vero.</p>
