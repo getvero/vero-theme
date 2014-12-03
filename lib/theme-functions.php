@@ -397,9 +397,9 @@ function add_big_cta() {
   ?>
   <section id="top" style="background: url(http://getvero.staging.wpengine.com/wp-content/uploads/2014/11/skulls-blue.jpg) repeat; backgrond-size: auto;">
     <div class="inner">
-      <h1>How and why to run an international team retreat</h1>
-      <h3>Get your hands on nine practical activites for your next team retreat.</h3>
-      <p><a href="/guides/team-retreat/" class="btn btn-warning btn-large">Watch the video now</a></p>
+      <h1>The Amazon Experience</h1>
+      <h3>Take a closer look at how Amazon does email marketing.</h3>
+      <p><a href="/guides/the-amazon-experience/" class="btn btn-warning btn-large">Learn More</a></p>
     </div>
   </section>
   <?php
