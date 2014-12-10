@@ -3,6 +3,7 @@
 include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
+include_once( CHILD_DIR . '/lib/custom_post_types/campaigns.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );
 
 //
@@ -83,6 +84,9 @@ function add_body_classes($classes) {
   } else if ( is_singular('api_docs') ) {
     $classes[] = 'api-docs sidebar-content';
     return $classes;
+  } else if ( is_singular('campaigns') ) {
+    $classes[] = 'campaigns sidebar-content';
+    return $classes;
   } else if ( is_singular('guides') ) {
     $classes[] = 'blog guides sidebar-content';
     return $classes;
@@ -120,7 +124,7 @@ function add_blue_navbar_logic() {
       'container_class' => 'blue-nav-menu right' 
     ) );
     echo "</div><div class='spacer'></div>";
-  } else if (is_page('faq')) {
+  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns')) {
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
       'container_class' => 'blue-nav-menu left'
@@ -152,6 +156,8 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'api docs' && ( is_post_type_archive('api_docs') || is_singular('api_docs') ) ) {
       $classes[] = 'current-menu-item';
+    } else if ( strtolower($menu_item->title) == 'idea lab' && ( is_singular('campaigns') || is_post_type_archive('campaigns')) ) {
+      $classes[] = 'current-menu-item';
     } else if ( $menu_item->title == 'Pricing' && is_page('high-volume-senders') ) {
       $classes[] = 'current-menu-item';
     }  else if ( ( is_singular('kb') && in_array($menu_item->title, $term_array) ) || ( is_tax('topic') && ($menu_item->title == $taxonomy) ) ) {
@@ -165,12 +171,14 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
 }
 
 function add_js() {
+  wp_register_script('vmodal', get_stylesheet_directory_uri() . '/assets/scripts/vmodal.js', array('jquery'), NULL, true);
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('numeral', get_stylesheet_directory_uri() . '/assets/scripts/vendor/numeral.min.js', array('jquery'), NULL, true);
   wp_register_script('lead_modal', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   wp_register_script('lodash', '//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js', array('jquery'), NULL, true);
   wp_register_script('scrollwatch', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollwatch.min.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
+  wp_enqueue_script('vmodal');
   wp_enqueue_script('numeral');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lead_modal');

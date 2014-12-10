@@ -12,6 +12,7 @@ function post_type_defaults( $defaults ) {
   $defaults['api'] = false;
   $defaults['help_docs'] = false;
   $defaults['jobs'] = false;
+  $defaults['campaigns'] = false;
  
   return $defaults;
 }
@@ -27,7 +28,8 @@ function register_post_type_sanitzation_filters() {
       'api',
       'help_docs',
       'kb',
-      'jobs'
+      'jobs',
+      'campaigns'
     ) 
   );
 }
@@ -58,6 +60,9 @@ function post_types_box() {
 
   <p><?php _e( 'Jobs:', 'be-genesis-child' );?>
   <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[jobs]" value='1' <?php checked(1, genesis_get_option('jobs') ); ?> /> </p>
+
+  <p><?php _e( 'Campaigns:', 'be-genesis-child' );?>
+  <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[campaigns]" value='1' <?php checked(1, genesis_get_option('campaigns') ); ?> /> </p>
 
   <?php
 }

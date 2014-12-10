@@ -119,6 +119,15 @@ function genesischild_theme_setup() {
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
   add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
 
+  //Add and customise campaigns
+  add_action( 'init', 'create_campaigns_post_type' );
+  genesis_register_sidebar( array(
+    'id' => 'campaigns_sidebar',
+    'name' => 'Campaigns Sidebar',
+    'description' => 'This is a column for the campaigns sidebar.',
+  ) );
+  add_action( 'get_header', 'campaigns_sidebar_logic' );
+
 	//Customize blog posts
   add_action( 'genesis_before', 'fix_blog_navs_and_header' );
   add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
