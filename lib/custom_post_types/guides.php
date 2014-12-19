@@ -30,7 +30,7 @@ function create_guides_post_type() {
 
 function disable_for_cpt( $default ) {
   global $post;
-  if ( 'guides' == get_post_type( $post ) )
+  if ( 'guides' == get_post_type( $post ) || 'api_docs' == get_post_type( $post ) )
     return false;
   return $default;
 }
