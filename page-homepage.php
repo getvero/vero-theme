@@ -51,6 +51,10 @@
         <li>Vero automatically <strong>triggers an email</strong> two hours later with an image of <strong>the</strong> exact shoes Reba was designing along with a strong call to action.</li>
       </ul>
       <a href="/features" class="btn btn-warning">Send Behavioral Emails</a>
+      <ul class="subtle-footer list-unstyled list-inline">
+        <li>(650) 843 9866</li>
+        <li><a href="/terms-of-service">Terms of Service</a></li>
+      </ul>
     </div>
 <?php 
 no_content_genesis_footer();

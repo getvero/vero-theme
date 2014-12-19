@@ -42,9 +42,11 @@ function get_campaign_story() {
 
 function get_campaign_preview() {
   global $post;
-  $campaign_preview = get_post_meta($post->ID, 'campaign_preview', true); 
+  $campaign_id = get_post_meta($post->ID, 'campaign_id', true); 
+  $campaign_preview = "https://app.getvero.com/preview/idea_lab/". $campaign_id;
+  $campaign_subject = get_post_meta($post->ID, 'campaign_subject', true); 
   ?>
-    <p id='subject'><strong>Subject:</strong> The subject of the email will go here. Excellent!</p>
+    <p id='subject'><strong>Subject:</strong> <?php echo $campaign_subject ?></p>
     <iframe id="campaign-preview" src="<?php echo $campaign_preview; ?>"/>
   <?php 
 }

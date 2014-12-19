@@ -28,6 +28,13 @@ function create_guides_post_type() {
   }
 }
 
+function disable_for_cpt( $default ) {
+  global $post;
+  if ( 'guides' == get_post_type( $post ) )
+    return false;
+  return $default;
+}
+
 //Force full width layout
 function guides_layout($opt) {
   if ( 'guides' == get_post_type() )
@@ -88,7 +95,6 @@ function guides_before_footer () {
       </div>
     </div>
     <?php 
-    echo "<h1>".$_COOKIE['hide_guide_sidebar']."</h1>";
     if ($_COOKIE['hide_guide_sidebar'] == 'true') { 
     ?>
       <style>#sidebar{display:none !important;}</style>

@@ -67,7 +67,7 @@ include 'pages-shared/static-header.php';
   <p>Vero uses segments in place of lists. Lists are made up of a static group of users while segments are dynamic groups created by filtering conditions, such as tags, events, behaviour and past emails.</p>
   <p>For example, you might create a segment called <i>Paying customers</i> by including any user that <i>has triggered the event <b>Charges Card </b></i>
   <i>at least once</i>. This segment would then automatically include anyone that has triggered this event in the past and anyone who does in the future.</p>
-  <p>Segments are then used when <a href="https://hackpad.com/">sending newsletters</a> and creating <a href="https://hackpad.com/">triggered emails</a>.</p>
+  <p>Segments are then used when <a href="#newsletters">sending newsletters</a> and creating <a href="#triggered">triggered emails</a>.</p>
   
   <p class="heading" id="newsletters"><b>What is a newsletter?</b></p>
   <p>A newsletter is a one-off email. These are different than triggered emails because they are manually sent or scheduled. You can define who receives the email based on your segments. You could, for example, send an a weekly email newsletter to everyone in the segment "Blog Subscribers" or send a coupon to everyone <b>not</b> in the segment "Current Customers". Because segments are so powerful, it’s easy to send highly personalized newsetters rather than blasting the same message to everyone in your database.</p>
@@ -101,7 +101,7 @@ include 'pages-shared/static-header.php';
   <p>Behavioural emails are setup as campaigns by defualt. An event can trigger a single email or a series. The frequency of the emails in a behavioural series can be based on date or other variables. Vero’s behavioural emails replace exporting user data, creating new segments in Excel and uploading new lists. It’s the fastest, easiest way to send highly personalized, timely emails.</p>
   
   <p class="heading" id="drip-campaigns"><b>Can I build a drip campaign?</b></p>
-  <p>In Vero, drip campaigns and autoresponders are part of our <a href="https://#behavioral-emails">behavioral emails</a>. To create a drip campaign, setup a new behavioral campaign and follows the steps to define your targeting and email content. Once saved you are taken to the <i>campaign snapshot</i> where you can choose to <i>Add an email</i> to your series.&nbsp;</p>
+  <p>In Vero, drip campaigns and autoresponders are part of our <a href="#behavioral">behavioral emails</a>. To create a drip campaign, setup a new behavioral campaign and follows the steps to define your targeting and email content. Once saved you are taken to the <i>campaign snapshot</i> where you can choose to <i>Add an email</i> to your series.&nbsp;</p>
   <p>Emails in a series are triggered via the <b>previous email</b> and each email can have its own filter conditions. If an email in a series goes out, no emails following this email will be sent.</p>
   
   <p class="heading" id="ab-tests"><b>Can I A/B test my emails?</b></p>
@@ -128,7 +128,7 @@ include 'pages-shared/static-header.php';
   <p>Yes, you can import both <i>users</i> and <i>actions</i> into Vero via CSV.</p>
   <p>CSV imports are predominantely used to backfill data in Vero or manually move data between email service providers or other tools.</p>
   <p>To import via CSV, select 'Import... from the Configuration menu (at the top right). You will be shown the exact fields you need to import in order to successfully update user attributes or actions.</p>
-  <p>When you are importing actions, you can choose whether the import should <a href="https://#triggered-emails">trigger emails</a> or not. This is important since you could accidentally trigger emails to these users based on your existing transactional or behavioural campaigns</p>
+  <p>When you are importing actions, you can choose whether the import should <a href="#triggered-emails">trigger emails</a> or not. This is important since you could accidentally trigger emails to these users based on your existing transactional or behavioural campaigns</p>
   
   <p><b>Note</b> that the CSV uploader can handle files up to around 50,000 rows at a time. If you have larger CSVs please split them up or <a href="mailto:support@getvero.com">get in touch via email</a> and pass along the file – we’re happy to help.</p>
   
@@ -139,14 +139,14 @@ include 'pages-shared/static-header.php';
     <p>Vero replaces static lists with powerful dynamic segments. Your Vero database contains individual entries for each of your subscribers and tracks their <i>attributes</i>, <i>actions</i> and past emails you’ve sent. You can use this data to create dynamic segments or use them as static segments. When automating your campaigns, you include or exclude segments to email the desired group.</li>
     <li>You get the most value from Vero by installing our Javascript snippet (or use our other API integrations) to capture data in real-time, rather than via a simple form or via CSV imports. <a href="http://www.getvero.com/help/api">Learn how to install our API</a>.</p></li>
   </ol>
-  <p>To migrate, you should export all of your lists into one (or many, if you have more than 50,000 users) CSV files and import them into Vero. We recommend you use <a href="https://#tags">tags</a> to keep a record of the lists your subscribers were on previously. You can segment based on tags, so you can always see who started where, and this can be helpful to check you’ve imported all your data.</p>
-  <p>You will also need to export and import your email templates. This is a relatively simple task from most email providers. Learn <a href="https://#template-editor">how Vero’s WYSIWYG template editor works</a> and how to replace your <a href="https://#merge-tags">merge tags</a>.</p>
+  <p>To migrate, you should export all of your lists into one (or many, if you have more than 50,000 users) CSV files and import them into Vero. We recommend you use <a href="#tags">tags</a> to keep a record of the lists your subscribers were on previously. You can segment based on tags, so you can always see who started where, and this can be helpful to check you’ve imported all your data.</p>
+  <p>You will also need to export and import your email templates. This is a relatively simple task from most email providers. Learn <a href="#template-editor">how Vero’s WYSIWYG template editor works</a> and how to replace your <a href="#merge-tags">merge tags</a>.</p>
   
   <p class="heading" id="merge-tags"><b>How do I insert merge tags (using Liquid) in my emails?</b></p>
   <p>When creating campaigns in Vero — whether you’re using templates or standard rich text — you can insert dynamic variables using the <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid markup language</a>. Here’s a list of the key variables and functions you can use:</p>
   <ul>
-    <li><span class="liquid">{{user.attribute}}</span> replace <i>attribute</i> with the name of any user attribute you’ve captured with our API or uploaded <a href="https://#import-via-csv">via CSV</a>. For example, {{user.first_name}} would print <i>John</i> for a user profile that has the attribute <i>first_name</i> with value <i>John</i>.</li>
-    <li><span class="liquid">{{event.attribute}}</span> replace <i>attribute</i> with the name of any event attribute you’ve captured with our API or uploaded <a href="https:/#import-via-csv">via CSV</a>. For example, {{event.product_name}} would print <i>Apple MacBook Pro</i> for an event that has the attribute <i>product_name</i> with value <i>Apple MacBook Pro</i>. Note that you can only access event attributea for the <b>trigger event</b> of a <a href="https://#triggered-email">triggered email</a>.</li>
+    <li><span class="liquid">{{user.attribute}}</span> replace <i>attribute</i> with the name of any user attribute you’ve captured with our API or uploaded <a href="#import-via-csv">via CSV</a>. For example, {{user.first_name}} would print <i>John</i> for a user profile that has the attribute <i>first_name</i> with value <i>John</i>.</li>
+    <li><span class="liquid">{{event.attribute}}</span> replace <i>attribute</i> with the name of any event attribute you’ve captured with our API or uploaded <a href="https:/#import-via-csv">via CSV</a>. For example, {{event.product_name}} would print <i>Apple MacBook Pro</i> for an event that has the attribute <i>product_name</i> with value <i>Apple MacBook Pro</i>. Note that you can only access event attributea for the <b>trigger event</b> of a <a href="#triggered-email">triggered email</a>.</li>
     <li><span class="liquid">{{url.unsubscribe_link}}</span> inserts a direct URL (e.g. <a href="http://getvero.com/unsubscribe/xyz)"></a>http://getvero.com/unsubscribe/xyz) that unsubscribes your customers in one click.</li>
     <li><span class="liquid">{{url.unsubscribe}}</span> inserts an actual link with the word <i>Unsubscribe </i>and points to the link referenced by {{url.unsubscribe_link}} above.</li>
     <li><span class="liquid">{{url.permalink_link}}</span> inserts a direct URL (e.g. <a href="http://getvero.com/view-online/xyz)"></a>http://getvero.com/view-online/xyz) that points to an online, hosted version of each individual user.</li>
@@ -159,12 +159,12 @@ include 'pages-shared/static-header.php';
     <li><span class="liquid">{{event.price | precision: 2}}</span> allows you to <b>change the precision</b> of integers. As an example, <i>2.0554 </i>would become <i>2.06</i> with a precision of two.</li>
     <li><span class="liquid">{{ event.purchase_date | time_zone: ’Sydney’ | date: ’%d/%m/%Y %H:%M:%S %Z’ }}</span>allows you to change the timezone and format of an attribute. The attribute must be a number. You can use any of the timezone values from the <i>TZ</i> column of this <a href="http://en.wikipedia.org/wiki/List_of_tz_database_time_zones">guide to timezones</a>. This <a href="http://strftime.net/">time formating tool</a> can help you build the formatting string for output.</li>
   </ul>
-  <p>We have some custom functions for our <a href="https://#external-attributes">External Attributes</a> feature specifically:</p>
+  <p>We have some custom functions for our <a href="#external-attributes">External Attributes</a> feature specifically:</p>
   <ul>
     <li>
       <span class="liquid">{% fetch_html | ’</span>
       <span class="liquid">http://yourdomain.com/page.html?params=</span>
-      <span class="liquid">{{user.id}}’ %}</span> allows you to pull custom HTML data into your emails from your own web server. This is an advanced feature and you can <a href="https://#external-attributes">read more about our External Attributes tool below</a>.</li>
+      <span class="liquid">{{user.id}}’ %}</span> allows you to pull custom HTML data into your emails from your own web server. This is an advanced feature and you can <a href="#external-attributes">read more about our External Attributes tool below</a>.</li>
   </ul>
   
   <p class="heading" id="limit"><b>What happens if I go over my subscription limit?</b></p>
@@ -220,8 +220,8 @@ include 'pages-shared/static-header.php';
   <p>One of Vero’s most powerful features is <i>External Attributes</i>. This feature allows you to pull data from your own web server and include it in an email <b>before it is sent to your users</b>. For example, you might want to pull in recommended products or the latest number for a certain statistic.&nbsp;</p>
   <p>You can pull data in two ways:</p>
   <ol>
-    <li><b>As HTML.</b> To do this you use a custom filter using we’ve built using the Liquid templating language. You can read about tcan read about this filter in the <a href="https://#merge-tags">merge tags</a> section above.&nbsp;</li>
-    <li><b>As JSON.</b> Alternately, you can include an API end-point and pull JSON data from your web server to be used when creating a campaign via our {{external}} merge tag. Read how to do this in the <a href="https://#merge-tags">merge tags</a> section above.</li>
+    <li><b>As HTML.</b> To do this you use a custom filter using we’ve built using the Liquid templating language. You can read about tcan read about this filter in the <a href="#merge-tags">merge tags</a> section above.&nbsp;</li>
+    <li><b>As JSON.</b> Alternately, you can include an API end-point and pull JSON data from your web server to be used when creating a campaign via our {{external}} merge tag. Read how to do this in the <a href="#merge-tags">merge tags</a> section above.</li>
   </ol>
   <p><i>External Attributes</i> is an advanced feature and, as it is intensive, is only available on our $299/month plan and above.</p>
   </main>

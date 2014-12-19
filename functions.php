@@ -143,6 +143,7 @@ function genesischild_theme_setup() {
   add_action( 'wp_enqueue_scripts', 'add_guides_scripts');
   add_action( 'genesis_after_entry', 'guides_before_footer');
   add_action( 'genesis_after_entry', 'add_custom_elements_to_guides');
+  add_filter( 'user_can_richedit', 'disable_for_cpt' );
 
   genesis_register_sidebar( array(
     'id'        => 'guides-sidebar-widget',
