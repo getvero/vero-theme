@@ -7,6 +7,12 @@ remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
+//Headers
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    
 //Add title, no date
 add_action( 'genesis_before_entry_content', 'add_title_meta', 9 );
 add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
