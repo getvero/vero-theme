@@ -55,7 +55,7 @@ function add_cta() {
   global $post;
   $campaign_id = get_post_meta($post->ID, 'campaign_id', true); 
   ?>
-  <a href="https://app.getvero.com/campaigns/<?php echo $campaign_id ?>/clone" class="btn btn-large btn-success">Start sending this email &rarr;</a>
+  <a href="https://app.getvero.com/campaigns/<?php echo $campaign_id ?>/clone-external" class="btn btn-large btn-success">Start sending this email &rarr;</a>
   <p class='small'>Copy this campaign and it's rules into your Vero account, or sign up for a free trial to test it out.</p>
   <?php
 }
