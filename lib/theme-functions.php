@@ -200,7 +200,7 @@ function add_gtm_identify() {
 }
 
 function read_more_link() {
-  return '<a class="more-link btn btn-success" href="' . get_permalink() . '">Read more &rarr;</a>';
+  return '<p><a class="more-link btn btn-success" href="' . get_permalink() . '">Read more &rarr;</a></p>';
 }
 
 function custom_popups() {
@@ -390,27 +390,31 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     remove_action('genesis_after_header', 'genesis_do_nav');
+    //Ads 
+    add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
     if (is_post_type_archive('post') || is_home()){
       add_action('genesis_after_header', 'add_big_cta');
     }
   }
 }
 
+function ads_after_post_content() {
+  global $loop_counter;
+  $loop_counter++;
+
+  if( 1 >= $loop_counter ) { 
+    if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 1), true);
+  }
+}
 
 //
 // Add and customise blog home page
 //----------------------
 
 function add_big_cta() {
-  ?>
-  <section id="top" style="background: url(http://getvero.staging.wpengine.com/wp-content/uploads/2014/11/skulls-blue.jpg) repeat; backgrond-size: auto;">
-    <div class="inner">
-      <h1>The Amazon Experience</h1>
-      <h3>Take a closer look at how Amazon does email marketing.</h3>
-      <p><a href="/guides/the-amazon-experience/" class="btn btn-warning btn-large">Learn More</a></p>
-    </div>
-  </section>
-  <?php
+  echo "<div class='big-cta-area'>";
+  genesis_widget_area( 'posts-big-cta' );
+  echo "</div>";
 }
 
 function create_sidebars_blog_home() {

@@ -26,6 +26,7 @@ function genesischild_theme_setup() {
 
   //Change more links
   add_filter( 'the_content_more_link', 'read_more_link' );
+  add_filter( 'get_the_content_more_link', 'read_more_link' );
 
   //Fix version numbers
   add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
@@ -182,7 +183,11 @@ function genesischild_theme_setup() {
     unregister_nav_menu('secondary');
   }
 
-  //Hola page
-  register_nav_menu('hola-nav-menu' , __( '(Main) Hola Primary Navigation Menu'));
+  // Big CTA on posts
+  genesis_register_sidebar( array(
+    'id'        => 'posts-big-cta',
+    'name'      => __( 'Posts Archive BIG CTA' ),
+    'description' => __( 'This is the code for registering a new widget in your functions file.' )
+  ) );
 }
 ?>
