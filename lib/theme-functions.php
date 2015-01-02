@@ -47,7 +47,7 @@ function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
 }
 
 function namespace_add_custom_types( $query ) {
-  if( (is_archive() || is_home() || is_category() || is_tag()) && $query->is_archive() ) {
+  if( (is_post_type_archive('post') ) && $query->is_archive() && !is_admin() ) {
     $query->set( 'post_type', array(
      'post', 'guides'
     ));
