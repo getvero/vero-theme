@@ -18,6 +18,9 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'header-right' );
   add_theme_support('genesis-footer-widgets', 3);
 
+  //Add all post types to main archive
+  add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
+  
   //Favicon
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
   
@@ -182,12 +185,5 @@ function genesischild_theme_setup() {
   function remove_default_menu(){
     unregister_nav_menu('secondary');
   }
-
-  // Big CTA on posts
-  genesis_register_sidebar( array(
-    'id'        => 'posts-big-cta',
-    'name'      => __( 'Posts Archive BIG CTA' ),
-    'description' => __( 'This is the code for registering a new widget in your functions file.' )
-  ) );
 }
 ?>

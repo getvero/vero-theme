@@ -28,6 +28,33 @@ function custom_load_custom_style_sheet() {
   }
 }
 
+function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
+  global $post;
+  if ( '' == $text ) {
+    $text = get_the_content('');
+    $text = apply_filters('the_content', $text);
+    $text = str_replace(']]>', ']]>', $text);
+    $text = strip_tags($text);
+    $excerpt_length = $length;
+    $words = explode(' ', $text, $excerpt_length + 1);
+    if (count($words) > $excerpt_length) {
+      array_pop($words);
+      array_push($words, '[...]');
+      $text = implode(' ', $words);
+    }
+  }
+  return $text;
+}
+
+function namespace_add_custom_types( $query ) {
+  if( (is_archive() || is_home() || is_category() || is_tag()) && $query->is_archive() ) {
+    $query->set( 'post_type', array(
+     'post', 'guides'
+    ));
+    return $query;
+  }
+}
+
 function child_output_filter( $backtotop_text, $creds_text ) {
 	$first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
   $second_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left One' ));
@@ -45,7 +72,9 @@ function add_logo_to_navbar($menu, $args) {
     echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
   }
   $logo = ob_get_clean();
-  return $logo . $menu;
+  if( $args['theme_location'] == 'blog-secondary-nav-menu' )
+    $search = "<li id='search' class='menu-item menu-item-type-custom'>" . get_search_form(false) ."</li>";
+  return $logo . $menu . $search;
 }
 
 function set_cookies() {
@@ -341,6 +370,7 @@ function add_how_to_do_this_area () {
 function blog_post_featured_image () {
   if ( ! is_singular( 'post' ) )
     return;
+
   $img = genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
   printf( '<a class="post-image-link" href="%s" title="%s">%s</a>', get_permalink(), the_title_attribute( 'echo=0' ), $img );
 }
@@ -387,8 +417,9 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    add_action( 'genesis_before_entry_content', 'do_post_type' );
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
-    add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
+    //add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     remove_action('genesis_after_header', 'genesis_do_nav');
     //Ads 
     add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
@@ -398,11 +429,38 @@ function fix_blog_navs_and_header () {
   }
 }
 
+function do_post_type($color,$line=true,$latest=false) {
+  global $post;
+  ?>
+    <div class="post-type-block center-text">
+      <div class="the-date"><?php if($latest==true){ echo 'Latest'; } else {the_date('d M Y');} ?></div>
+      <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/<?php get_the_desc_for_post_type(get_post_type($post)) ?><?php echo $color ?>.png"></div>
+      <div class="tag"><?php get_the_desc_for_post_type(get_post_type($post))?></div>
+    </div>
+    <?php if($line == true){
+      ?><div class="post-type-line"></div>
+    <?php }
+}
+
+function get_the_desc_for_post_type($type){
+  switch($type){
+    case "guides":
+      echo "guide";
+      break;
+    case "resources":
+      echo "ebook";
+      break;
+    default:
+      echo "post";
+      break;
+  }
+}
+
 function ads_after_post_content() {
   global $loop_counter;
   $loop_counter++;
 
-  if( 1 >= $loop_counter ) { 
+  if( 3 >= $loop_counter ) { 
     if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 1), true);
   }
 }
@@ -412,8 +470,28 @@ function ads_after_post_content() {
 //----------------------
 
 function add_big_cta() {
+  global $loop_counter;
+  $loop_counter++;
+
   echo "<div class='big-cta-area'>";
-  genesis_widget_area( 'posts-big-cta' );
+  if( 1 == $loop_counter ) { 
+    global $post;
+    setup_postdata( $post );
+    ?>
+      <div class='big-bg' style="background:url('http://localhost:8888/wp-content/uploads/2015/01/bg.png')">
+      <div class="shade">
+      <div class="wrap">
+        <?php echo do_post_type('white',false,true); ?>
+        <h1><a href="<?php echo get_the_permalink($post) ?>"><?php echo get_the_title($post) ?></a></h1>
+        <p><?php echo get_custom_excerpt(800); ?></p>
+        <p>
+          <a class="more-link btn btn-success" href="<?php echo get_the_permalink($post); ?>">Read more &rarr;</a>
+        </p>
+        </div>
+      </div>
+      </div>
+    <?php
+  }
   echo "</div>";
 }
 
