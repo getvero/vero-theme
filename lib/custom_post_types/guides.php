@@ -193,7 +193,7 @@ function add_guides_sidebar() {
 function add_custom_elements_to_guides() {
   global $post;
 
-  if ($post->post_name == 'the-amazon-experience') {
+  if ($post->post_name == 'the-amazon-experience' && is_single()) {
     echo "<div id='top-bar-journey'>
     <ul class='list-unstyled list-inline'>
     <li id='link-to-email-1'><a href='#email-1'><span class='circle'>1</span>Welcome</a><span class='line'></span></li>
