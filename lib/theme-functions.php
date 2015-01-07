@@ -28,6 +28,11 @@ function custom_load_custom_style_sheet() {
   }
 }
 
+function my_attributes_dropdown_pages_args($dropdown_args) {
+  $dropdown_args['post_status'] = array('publish','draft');
+  return $dropdown_args;
+}
+
 function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
   global $post;
   if ( '' == $text ) {
