@@ -122,6 +122,9 @@ function add_body_classes($classes) {
   } else if ( is_home('post') || is_archive('post') ) {
     $classes[] = 'blog archive';
     return $classes;
+  } else if (is_search()){
+    $classes[] = 'blog';
+    return $classes;
   } else {
     return $classes;
   }
@@ -337,7 +340,7 @@ function add_video() {
 // Customise blog posts
 //----------------------
 function add_blog_navbar_logic() {
-  if ( is_singular('post') || is_singular('guides') || is_post_type_archive('post') || is_category() || is_home() || is_singular('resources') ) {
+  if ( is_singular('post') || is_author() || is_search() || is_singular('guides') || is_post_type_archive('post') || is_category() || is_home() || is_singular('resources') ) {
     echo '<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"><div class="wrap">';
     wp_nav_menu( array(
       'theme_location' => 'blog-secondary-nav-menu',
@@ -383,7 +386,7 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
-    add_action( 'genesis_before_entry_content', 'genesis_post_info', 9 );
+    add_action( 'genesis_before_entry_content', 'do_post_type' );
     $post_style = get_post_meta($post->ID, 'post_style', true); 
     if ( $post_style == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
@@ -399,11 +402,11 @@ function fix_blog_navs_and_header () {
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if (is_singular('guides') ) {
     remove_action('genesis_after_header', 'genesis_do_nav');
-  } else if ( is_author() || is_search()) {
-    add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_open', 5 );
-    add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
-    add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
-    add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_close', 15 );
+  //} else if ( is_author() || is_search()) {
+  //  add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_open', 5 );
+  //  add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
+  //  add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
+  //  add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_close', 15 );
   } else if ( is_singular('api_docs') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -412,7 +415,7 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
     remove_action( 'genesis_footer', 'genesis_do_footer' );
     remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
-  } else if ( is_post_type_archive('post') || is_home() || is_category() ) {
+  } else if ( is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
@@ -423,36 +426,40 @@ function fix_blog_navs_and_header () {
     remove_action('genesis_after_header', 'genesis_do_nav');
     //Ads 
     add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
-    if (is_post_type_archive('post') || is_home()){
+    if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
     }
   }
 }
 
-function do_post_type($color,$line=true,$latest=false) {
+function do_post_type($color,$line=true,$latest=false,$temp_title=nil) {
   global $post;
   ?>
     <div class="post-type-block center-text">
       <div class="the-date"><?php if($latest==true){ echo 'Latest'; } else {the_date('d M Y');} ?></div>
-      <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/<?php get_the_desc_for_post_type(get_post_type($post)) ?><?php echo $color ?>.png"></div>
-      <div class="tag"><?php get_the_desc_for_post_type(get_post_type($post))?></div>
+      <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/<?php get_the_desc_for_post_type(get_post_type($post),$temp_title) ?><?php echo $color ?>.png"></div>
+      <div class="tag"><?php get_the_desc_for_post_type( get_post_type($post),$temp_title)?></div>
     </div>
     <?php if($line == true){
       ?><div class="post-type-line"></div>
     <?php }
 }
 
-function get_the_desc_for_post_type($type){
-  switch($type){
-    case "guides":
-      echo "guide";
-      break;
-    case "resources":
-      echo "ebook";
-      break;
-    default:
-      echo "post";
-      break;
+function get_the_desc_for_post_type($type,$title=nil){
+  if ($title != nil) {
+    echo $title;
+  } else {
+    switch($type){
+      case "guides":
+        echo "guide";
+        break;
+      case "resources":
+        echo "ebook";
+        break;
+      default:
+        echo "post";
+        break;
+    }
   }
 }
 
@@ -460,7 +467,7 @@ function ads_after_post_content() {
   global $loop_counter;
   $loop_counter++;
 
-  if( 3 >= $loop_counter ) { 
+  if( 3 == $loop_counter ) { 
     if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 1), true);
   }
 }
@@ -477,10 +484,12 @@ function add_big_cta() {
   if( 1 == $loop_counter ) { 
     global $post;
     setup_postdata( $post );
+    $img = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
     ?>
-      <div class='big-bg' style="background:url('http://localhost:8888/wp-content/uploads/2015/01/bg.png')">
+      <div class='big-bg' style="background:url('<?php echo $img; ?>')">
       <div class="shade">
       <div class="wrap">
+        <div class="post-type-line-top"></div>
         <?php echo do_post_type('white',false,true); ?>
         <h1><a href="<?php echo get_the_permalink($post) ?>"><?php echo get_the_title($post) ?></a></h1>
         <p><?php echo get_custom_excerpt(800); ?></p>
