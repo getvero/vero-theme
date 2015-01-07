@@ -34,7 +34,7 @@ function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
     $text = get_the_content('');
     $text = apply_filters('the_content', $text);
     $text = str_replace(']]>', ']]>', $text);
-    $text = strip_tags($text);
+    $text = strip_tags($text,'<p>');
     $excerpt_length = $length;
     $words = explode(' ', $text, $excerpt_length + 1);
     if (count($words) > $excerpt_length) {
@@ -47,10 +47,14 @@ function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
 }
 
 function namespace_add_custom_types( $query ) {
-  if( (is_post_type_archive('post') ) && $query->is_archive() && !is_admin() ) {
+  global $wp_the_query;
+
+  if( ((is_post_type_archive('post') ) || is_home()) && $query === $wp_the_query && !is_admin() ) {
     $query->set( 'post_type', array(
      'post', 'guides'
     ));
+    $query->set( 'offset', 0 );
+    $query->set( 'post_parent', 0 );
     return $query;
   }
 }
@@ -481,18 +485,18 @@ function add_big_cta() {
   $loop_counter++;
 
   echo "<div class='big-cta-area'>";
-  if( 1 == $loop_counter ) { 
+  if( 1 == $loop_counter && !is_paged() ) { 
     global $post;
     setup_postdata( $post );
     $img = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
     ?>
-      <div class='big-bg' style="background:url('<?php echo $img; ?>')">
+      <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($post)) ?>' style="background:url('<?php echo $img; ?>')">
       <div class="shade">
       <div class="wrap">
         <div class="post-type-line-top"></div>
         <?php echo do_post_type('white',false,true); ?>
         <h1><a href="<?php echo get_the_permalink($post) ?>"><?php echo get_the_title($post) ?></a></h1>
-        <p><?php echo get_custom_excerpt(800); ?></p>
+        <p><?php echo get_custom_excerpt(110); ?></p>
         <p>
           <a class="more-link btn btn-success" href="<?php echo get_the_permalink($post); ?>">Read more &rarr;</a>
         </p>
