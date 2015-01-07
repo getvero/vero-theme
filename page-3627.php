@@ -46,7 +46,7 @@ function add_big_cta_resources() {
   
   foreach( $items as $post ) {
     $img = get_post_meta($post->ID, 'cover_image', true);
-    $img = wp_get_attachment_image_src($img, 'large');
+    $img = wp_get_attachment_image_src($img, 'large')[0];
   ?>
     <div class='big-bg' style="background:url('<?php echo $img; ?>')">
     <div class="shade">
@@ -54,7 +54,7 @@ function add_big_cta_resources() {
       <div class="post-type-line-top"></div>
       <?php echo do_post_type('white',false,true,'guide'); ?>
       <h1><a href="<?php echo get_the_permalink($post) ?>"><?php echo get_the_title($post) ?></a></h1>
-      <p><?php echo get_custom_excerpt(800); ?></p>
+      <p><?php echo get_custom_excerpt(200); ?></p>
       <p>
         <a class="more-link btn btn-success" href="<?php echo get_the_permalink($post); ?>">Read more &rarr;</a>
       </p>
