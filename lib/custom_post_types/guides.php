@@ -37,7 +37,7 @@ function disable_for_cpt( $default ) {
 
 //Force full width layout
 function guides_layout($opt) {
-  if ( 'guides' == get_post_type() && !is_home() )
+  if ( 'guides' == get_post_type() && (!is_home() && !is_search()) )
     $opt = 'full-width-content';
     return $opt;
 }

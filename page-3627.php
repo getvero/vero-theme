@@ -46,7 +46,8 @@ function add_big_cta_resources() {
   
   foreach( $items as $post ) {
     $img = get_post_meta($post->ID, 'cover_image', true);
-    $img = wp_get_attachment_image_src($img, 'large')[0];
+    $img = wp_get_attachment_image_src($img, 'large')
+    $img = $img[0];
   ?>
     <div class='big-bg' style="background:url('<?php echo $img; ?>')">
     <div class="shade">

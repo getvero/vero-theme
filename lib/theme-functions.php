@@ -56,7 +56,7 @@ function namespace_add_custom_types( $query ) {
 
   if( ((is_post_type_archive('post') ) || is_home()) && $query === $wp_the_query && !is_admin() ) {
     $query->set( 'post_type', array(
-     'post', 'guides'
+      'post', 'guides'
     ));
     if(!is_paged()){
       $query->set( 'offset', 1 );
@@ -488,38 +488,45 @@ function ads_after_post_content() {
 //----------------------
 
 function add_big_cta() {
-  global $wp_the_query;
-  $wp_the_query->set('posts_per_page', 1);
-  $wp_the_query->set('post_parent', 0);
+  $args = array(
+    'posts_per_page' => 1,
+    'post_parent' => 0, 
+    'post_type' => array(
+      'post', 'guides'
+    )
+  );
 
   if(!is_paged() ) { 
-    $counter = 1;
-
+    $counter = 0;
     echo "<div class='big-cta-area'>";
-    $items = get_posts( $wp_the_query );
-    foreach( $items as $post ) {
-      if($counter < 2) {
-        setup_postdata( $post );
-        $img = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+
+    $the_query = new WP_Query( $args );
+    $items = $the_query->get_posts();
+
+    #foreach( $items as $item ) {
+    #  if($counter < 1) {
+    $item = $items[0];
+        setup_postdata( $item );
+        $img = wp_get_attachment_url( get_post_thumbnail_id($item->ID) );
         ?>
-          <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($post)) ?>' style="background:url('<?php echo $img; ?>')">
+          <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($item)) ?>' style="background:url('<?php echo $img; ?>')">
           <div class="shade">
           <div class="wrap">
             <div class="post-type-line-top"></div>
             <?php echo do_post_type('white',false,true); ?>
-            <h1><a href="<?php echo get_the_permalink($post) ?>"><?php echo get_the_title($post) ?></a></h1>
+            <h1><a href="<?php echo get_the_permalink($item) ?>"><?php echo get_the_title($item) ?></a></h1>
             <p><?php echo get_custom_excerpt(110); ?></p>
             <p>
-              <a class="more-link btn btn-success" href="<?php echo get_the_permalink($post); ?>">Read more &rarr;</a>
+              <a class="more-link btn btn-success" href="<?php echo get_the_permalink($item); ?>">Read more &rarr;</a>
             </p>
             </div>
           </div>
           </div>
         <?php
-      }
+    #  }
 
-      $counter++;
-    }
+    #  $counter++;
+    #}
     echo "</div>";
   }
 }
