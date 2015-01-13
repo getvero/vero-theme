@@ -31,6 +31,7 @@ function register_campaign_post_type () {
     'public' => true,
     'menu_icon' => '/wp-content/themes/vero/assets/images/icons/campaign.png',
     'has_archive' => true,
+    'taxonomies' => array('category'),
     'rewrite' => array(
       'slug' => 'idea-lab', 
       //'slug' => 'idea-lab/%idea_lab_category%',

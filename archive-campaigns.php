@@ -37,7 +37,7 @@ function add_campaigns_header() {
     <div class="inner center-text">
       <h1>Need email campaign inspiration?</h1>
       <h2 class="h5">Create a free targeted email campaigns in 60 seconds using our best-of-breed email campaign templates.</h2>
-      <a href="mailto:support@getvero.com" class="btn btn-large btn-primary">Start targeting now</a>
+      <a href="#b2b-software" class="btn btn-large btn-primary">Start targeting now</a>
     </div>
   </section>
   <?php 
@@ -57,15 +57,15 @@ function custom_do_b2b_loop() {
   <?php
 
   global $query_args; // any wp_query() args
-  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3);
+  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3, 'category_name' => 'saas-campaign-ideas');
   genesis_custom_loop(wp_parse_args($query_args, $args));
   ?>
-    <article class="campaigns gray"><div class="entry-content"><a data-target="suggest-modal" data-toggle='vmodal' class="well gray"><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
+    <article class="campaigns gray"><div class="entry-content"><a data-target="#suggest-modal" data-toggle='vmodal' class="well gray"><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
   <?php
   echo '</div></div></section>';
 }
 
-//Add consumer software
+//Add consumer products
 add_action('genesis_loop', 'custom_do_cs_loop');
 function custom_do_cs_loop() {
   ?>
@@ -79,10 +79,10 @@ function custom_do_cs_loop() {
   <?php
 
   global $query_args; // any wp_query() args
-  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3);
+  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3, 'category_name' => 'consumer-products-campaign-ideas');
   genesis_custom_loop(wp_parse_args($query_args, $args));
   ?>
-    <article class="campaigns gray"><div class="entry-content"><a data-target="suggest-modal" data-toggle='vmodal' class="well "><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
+    <article class="campaigns gray"><div class="entry-content"><a data-target="#suggest-modal" data-toggle='vmodal' class="well "><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
   <?php
   echo '</div></div></section>';
 }
@@ -101,29 +101,7 @@ function custom_do_ecommerce_loop() {
   <?php
 
   global $query_args; // any wp_query() args
-  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3);
-  genesis_custom_loop(wp_parse_args($query_args, $args));
-  ?>
-    <article class="campaigns gray"><div class="entry-content"><a data-target="suggest-modal" data-toggle='vmodal' class="well "><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
-  <?php
-  echo '</div></div></section>';
-}
-
-//Add information marketer
-add_action('genesis_loop', 'custom_do_im_loop');
-function custom_do_im_loop() {
-  ?>
-    <section id="information-marketer" class="campaign-block">
-      <div class="wrap">
-        <div class="left">
-          <h3>Information marketers</h3>
-          <p>If you sell online courses or products we know you have a strong history of content marketing and understand email and customer engagement well.</p><p>Each of our template campaigns for Information Marketers is designed to help you with targeting and how to set up the highly effective drip campaigns and sales emails you're after.</p>
-        </div>
-        <div class="right">
-  <?php
-
-  global $query_args; // any wp_query() args
-  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3);
+  $args= array('post_type' => 'campaigns', 'posts_per_page' => 3, 'show_posts' => 3, 'category_name' => 'ecommerce-campaign-ideas');
   genesis_custom_loop(wp_parse_args($query_args, $args));
   ?>
     <article class="campaigns gray"><div class="entry-content"><a data-target="#suggest-modal" data-toggle='vmodal' class="well "><p class="plus">+</p><p>Suggest a campaign</p></a></div></article>
@@ -140,11 +118,12 @@ function add_modal() {
           <div class="close">x</div>
           <h4>Suggest an idea or personal campaign success</h4>
         </div>
-        <form action='https://app.getvero.com/forms/16ed1b5d46fd7e499468489c79a978a1' method='post'>
+        <form action='https://app.getvero.com/forms/16c4bac7da47edef91516ff0f409cc01' method='post'>
           <div class="vmodal-body">
               <div class="form-group"><label for='email'>Your email address</label><br/><input name='email' type='email' class="form-control"/></div>
               <div class="form-group"><label for='event_suggestion'>Suggestion</label><br/><textarea name='event[suggestion]' class="form-control"/></textarea></div>
           </div>
+          <input name='redirect_on_success' type='hidden' class="http://www.getvero.com/idea-lab"/>
           <div class="vmodal-footer">
             <input type='submit' class="btn btn-success" value='Submit your example' />
           </div>

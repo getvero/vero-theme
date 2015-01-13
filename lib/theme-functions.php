@@ -51,6 +51,20 @@ function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
   return $text;
 }
 
+function get_custom_excerpt_with_text($length=55,$text='') { // Fakes an excerpt if needed
+  $text = str_replace(']]>', ']]>', $text);
+  $text = strip_tags($text,'<p>');
+  $excerpt_length = $length;
+  $words = explode(' ', $text, $excerpt_length + 1);
+  if (count($words) > $excerpt_length) {
+    array_pop($words);
+    array_push($words, '[...]');
+    $text = implode(' ', $words);
+  }
+  return $text;
+}
+
+
 function namespace_add_custom_types( $query ) {
   global $wp_the_query;
 
@@ -436,7 +450,10 @@ function fix_blog_navs_and_header () {
     //add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     remove_action('genesis_after_header', 'genesis_do_nav');
     //Ads 
-    add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
+    if (is_singular('campaigns') || is_singular('jobs')){
+    } else {
+      //add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
+    }
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
     }
@@ -509,7 +526,7 @@ function add_big_cta() {
         setup_postdata( $item );
         $img = wp_get_attachment_url( get_post_thumbnail_id($item->ID) );
         ?>
-          <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($item)) ?>' style="background:url('<?php echo $img; ?>')">
+          <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($item)) ?>' style="background:url('<?php echo $img; ?>') no-repeat center center fixed;">
           <div class="shade">
           <div class="wrap">
             <div class="post-type-line-top"></div>
