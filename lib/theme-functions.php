@@ -81,7 +81,7 @@ function namespace_add_custom_types( $query ) {
 }
 
 function child_output_filter( $backtotop_text, $creds_text ) {
-	$first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
+  $first_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Copyright' ));
   $second_column = wp_nav_menu( array( 'menu' => 'Vero Footer - Left One' ));
 }
 
@@ -530,7 +530,7 @@ function add_big_cta() {
           <div class="shade">
           <div class="wrap">
             <div class="post-type-line-top"></div>
-            <?php echo do_post_type('white',false,true); ?>
+            <?php $type = get_the_desc_for_post_type(get_post_type($item); echo do_post_type('white',false,true,$type); ?>
             <h1><a href="<?php echo get_the_permalink($item) ?>"><?php echo get_the_title($item) ?></a></h1>
             <p><?php echo get_custom_excerpt(110); ?></p>
             <p>
