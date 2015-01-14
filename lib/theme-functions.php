@@ -454,7 +454,7 @@ function fix_blog_navs_and_header () {
     //Ads 
     if (is_singular('campaigns') || is_singular('jobs')){
     } else {
-      //add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
+      add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
     }
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
