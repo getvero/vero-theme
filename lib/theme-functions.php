@@ -228,6 +228,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
 }
 
 function add_js() {
+  wp_register_script('cross-domain', get_stylesheet_directory_uri() . '/assets/scripts/cross-domain.js', array('jquery'), NULL, true);
   wp_register_script('vmodal', get_stylesheet_directory_uri() . '/assets/scripts/vmodal.js', array('jquery'), NULL, true);
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('numeral', get_stylesheet_directory_uri() . '/assets/scripts/vendor/numeral.min.js', array('jquery'), NULL, true);
@@ -235,6 +236,7 @@ function add_js() {
   wp_register_script('lodash', '//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js', array('jquery'), NULL, true);
   wp_register_script('scrollwatch', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollwatch.min.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
+  wp_enqueue_script('cross-domain');
   wp_enqueue_script('vmodal');
   wp_enqueue_script('numeral');
   wp_enqueue_script('cookies');
@@ -452,7 +454,7 @@ function fix_blog_navs_and_header () {
     //Ads 
     if (is_singular('campaigns') || is_singular('jobs')){
     } else {
-      //add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
+      add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
     }
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
@@ -530,10 +532,6 @@ function add_big_cta() {
           <div class="shade">
           <div class="wrap">
             <div class="post-type-line-top"></div>
-            <?php 
-              $type = get_the_desc_for_post_type(get_post_type($item)); 
-              echo do_post_type('white',false,true); 
-            ?>
             <h1><a href="<?php echo get_the_permalink($item) ?>"><?php echo get_the_title($item) ?></a></h1>
             <p><?php echo get_custom_excerpt(110); ?></p>
             <p>

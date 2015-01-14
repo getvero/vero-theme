@@ -97,7 +97,7 @@ function add_big_cta_resources() {
   foreach( $items as $item ) {
     $img = get_post_meta($item->ID, 'cover_image', true);
     $img = wp_get_attachment_image_src($img, 'large');
-    if(empty($img)){ $img = $img[0]; }
+    if(!empty($img)){ $img = $img[0]; }
   ?>
     <div class='big-bg' style="background: #00c3e4 url('<?php echo $img; ?>') no-repeat center center fixed;">
     <?php if(!empty($img)){ ?><div class="shade"><?php } ?>
