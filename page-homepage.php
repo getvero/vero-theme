@@ -16,6 +16,7 @@
   }
 
   include 'pages-shared/static-header.php';
+  
 ?>
 <section id="top">
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
