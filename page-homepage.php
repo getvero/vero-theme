@@ -47,10 +47,10 @@
         </li>
       </ul>
       <ul class="story left list-unstyled left-text">
-        <li>Reba visits <em>shoesofprey.com</em> and starts <strong>designing a shoe</strong>.</li>
-        <li>She adds custom red leather to the shoes.</li>
-        <li>Reba leaves <em>shoesofprey.com</em> without <strong>purchasing</strong> the shoes.</li>
-        <li>Vero automatically <strong>triggers an email</strong> two hours later with an image of <strong>the</strong> exact shoes Reba was designing along with a strong call to action.</li>
+        <li>Tom visits <em>Freelancer</em> and starts <strong>a new project</strong>.</li>
+        <li>He selects the project type and saves a draft.</li>
+        <li>Tom leaves <em>Freelancer</em> without <strong>publishing</strong> the project.</li>
+        <li>Vero automatically <strong>triggers an email</strong> two hours later with <strong>the</strong> exact details of the project he was designing along with a strong call to action.</li>
       </ul>
       <a href="/pricing" class="btn btn-warning">Send emails like this &rarr;</a>
       <ul class="subtle-footer list-unstyled list-inline">
