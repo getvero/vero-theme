@@ -23,7 +23,7 @@ function get_job_sidebar() {
     <div class="widget-1 widget-first widget-last widget-odd widget-wrap">
       <h4 class="widget-title widgettitle">Apply for this job</h4>
       <div class="textwidget">
-        <p>Send us an email with a little about ou and what attracts you to this job.</p>
+        <p>Send us an email with a little about you and what attracts you to this job.</p>
         <p>We're looking forward to hearing from you.</p>
         <p><a href="mailto:jobs@getvero.com?subject=Apply for <?php echo get_the_title(); ?>" class="btn btn-primary"><strong>Apply Now</strong></a></p>
       </div>
