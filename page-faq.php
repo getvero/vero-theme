@@ -37,6 +37,7 @@ include 'pages-shared/static-header.php';
           <li><a href="#projects">What are projects?</a></li>
           <li><a href="#conversions">Can I track conversions on my website for an email?</a></li>
           <li><a href="#csv">Can I import via CSV?</a></li>
+          <li><a href="#responsive-templates">Can I use responsive email templates with Vero?</a></li>
           <li><a href="#migrate">How do I migrate from another email provider?</a></li>
           <li><a href="#merge-tags">How do I insert merge tags (using Liquid) in my emails?</a></li>
           <li><a href="#limit">What happens if I go over my subscription limit?</a></li>
@@ -132,6 +133,21 @@ include 'pages-shared/static-header.php';
   
   <p><b>Note</b> that the CSV uploader can handle files up to around 50,000 rows at a time. If you have larger CSVs please split them up or <a href="mailto:support@getvero.com">get in touch via email</a> and pass along the file – we’re happy to help.</p>
   
+  <p class="heading" id="responsive-templates"><b>Can I use responsive email templates with Vero?</b></p>
+  <p>Email client support for CSS styles varies significantly, so Vero will inline your CSS for you to ensure optimum results.</p>
+  <p>This means that any CSS styles you have in the head of your HTML template will be split up and inlined automatically by Vero before each email is sent.</p>
+  <p>At this time, inlining responsive styles does not always perform accurately. Given that responsive templates will work effectively in 
+  <p>To use responsive templates, you should split your &lt;style&gt; tags into two blocks: one containing styles to be inlined and another containing only media queries. You should then add a 'premailer' 'ignore' filter to your media queries block, so that Vero's premail compiler knows not to inline these styles.</p>
+  
+    <span class="liquid">&lt;style&gt;<br/>
+    // Inlined styles go here<br/>
+    &lt;/style&gt;</span><br/><br/>
+
+    <span class="liquid">&lt;style data-premailer=&quot;ignore&quot;&gt;<br/>
+    // Media queries go here<br/>
+    &lt;/style&gt;</span>
+  
+
   <p class="heading" id="migrate"><b>How do I migrate from another email provider?</b></p>
   <p>When migrating from a <i>traditional</i> email provider (Mailchimp, AWeber, Campaign Monitor, etc.) there are two key things you need to know:</p>
   <ol>  
