@@ -24,6 +24,8 @@ function no_content_genesis_header() {
   
   wp_head(); //* we need this for plugins
   ?>
+  
+  <meta name="google-site-verification" content="AkIiiyFL03lKnauhmJxy0yvCx-iyt8zAvsjfzQVrakA" />
   </head>
   <?php
   genesis_markup( array(
