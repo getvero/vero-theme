@@ -115,14 +115,24 @@ function genesischild_theme_setup() {
 
 	//Add and customise FAQ and api docs
 	add_action( 'init', 'create_all_docs_post_type' );
+  add_action( 'init', 'create_help_docs_post_type' );
+  add_action( 'init', 'add_help_docs_taxonomies', 0 );
+  add_filter('post_type_link', 'filter_help_docs_link', 10, 2);
   genesis_register_sidebar( array(
     'id' => 'api_docs_sidebar',
     'name' => 'API Docs Sidebar',
     'description' => 'This is a column for the API docs sidebar.',
   ) );
+  add_filter('genesis_site_layout', 'help_docs_layout');
+  //genesis_register_sidebar( array(
+  //  'id' => 'help_docs_sidebar',
+  //  'name' => 'Help Docs Sidebar',
+  //  'description' => 'This is a column for the Help docs sidebar.',
+  //) );
 
   register_nav_menu('blog-api_docs_language_bar-nav-menu' , __( 'API Docs Languages'));
 	add_action( 'get_header', 'all_docs_sidebar_logic' );
+  //add_action( 'get_header', 'help_docs_sidebar_logic' );
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
   add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
 

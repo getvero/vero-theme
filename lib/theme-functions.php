@@ -3,6 +3,7 @@
 include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
+include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/campaigns.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );
 
@@ -124,7 +125,13 @@ function remove_cssjs_ver( $src ) {
 function add_body_classes($classes) {
   global $post;
 
-  if ( is_singular('help_docs') ) {
+  if ( is_tax('help_docs_categories') ){
+    foreach($classes as $key => $value) {
+      if ($value == 'archive') unset($classes[$key]);
+    }
+    return $classes;
+  } 
+  else if ( is_singular('help_docs') ) {
     $classes[] = 'help-docs sidebar-content';
     return $classes;
   } else if ( is_singular('post') ) {
@@ -170,7 +177,7 @@ function filter_text_on_static_pages() {
 
 function add_blue_navbar_logic() {
   global $wp_query;
-  if ( is_singular('api_docs') ) {
+  if ( is_singular('api_docs')  ) {
     echo "<div id='blue-holder'><div class='spacer'></div>";
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
@@ -181,7 +188,7 @@ function add_blue_navbar_logic() {
       'container_class' => 'blue-nav-menu right' 
     ) );
     echo "</div><div class='spacer'></div>";
-  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns')) {
+  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns') || is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') ) {
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
       'container_class' => 'blue-nav-menu left'
@@ -459,6 +466,10 @@ function fix_blog_navs_and_header () {
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
     }
+  } else if ( is_singular('help_docs') ) {
+    add_action( 'genesis_before_entry_content', 'add_help_docs_breadcrumbs');
+    add_action( 'genesis_before_footer', 'add_help_docs_footer');
+    add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
   }
 }
 
