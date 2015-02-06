@@ -60,7 +60,7 @@
               'order' =>  'ASC',
               'taxonomy' => $category->taxonomy,
               'term'  => $category->slug,
-              'nopaging' => true,
+              'posts_per_page' => 5
               ));
             // Here's the second, nested foreach loop that cycles through the posts associated with this category
             foreach($posts as $post) :

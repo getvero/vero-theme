@@ -467,6 +467,10 @@ function fix_blog_navs_and_header () {
       add_action('genesis_after_header', 'add_big_cta');
     }
   } else if ( is_singular('help_docs') ) {
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+    remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+    remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
     add_action( 'genesis_before_entry_content', 'add_help_docs_breadcrumbs');
     add_action( 'genesis_before_footer', 'add_help_docs_footer');
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
