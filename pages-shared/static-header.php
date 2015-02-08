@@ -72,7 +72,6 @@ function no_content_genesis_footer() {
 <?php
   }
 
-
 //Customised Genesis Footer
 function no_menus_genesis_footer() {
   echo '</div>'; //* end .site-container or #wrap
@@ -82,3 +81,38 @@ function no_menus_genesis_footer() {
   </html>
 <?php
   }
+
+function custom_footer_static() {
+  ?>
+  <footer><div class="wrap">
+    <ul class="col">
+      <li class="header">Features</li>
+      <li>Real-time segmentation</li>
+      <li>Individual customer profiles (CRM)</li>
+      <li>Triggered emails</li>
+      <li>Smart newsletters</li>
+      <li>External Attributes</li>
+    </ul>
+    <ul class="col">
+      <li class="header">Resources</li>
+      <li><a href="http://www.getvero.com/pricing">Pricing</a></li>
+      <li><a href="http://www.getvero.com/faq">Help Documentation</a></li>
+      <li><a href="http://www.getvero.com/idea-lab">Email Recipe Lab</a></li>
+      <li><a href="http://www.getvero.com/api">API Reference</a></li>
+      <li><a href="http://blog.getvero.com" target="_blank">Blog</a></li>
+    </ul>
+    <ul class="col">
+      <li class="header">Company</li>
+      <li>About</li>
+      <li><a href="http://www.getvero.com/jobs">Jobs</a></li>
+      <li><a href="http://status.getvero.com/faq">Status</a></li>
+    </ul>
+    <ul class="col">
+      <li class="header">Say Hello</li>
+      <li><a href="mailto:support@getvero.com">Email Support</a></li>
+      <li><a href="http://www.getvero.com/high-volume">Contact Sales</a></li>
+      <li></li>
+    </ul>
+  </div></footer>
+<?php
+}

@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){return $(".active").each(function(n){return $(n).animate({opacity:.8},2e3)})})}).call(this);

@@ -117,6 +117,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/ch2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364707,
+		"inputAbbreviatedPath": "\/assets\/images\/ch2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/ch2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/chris-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -183,6 +194,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/customers\/all-grey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63431,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/all-grey.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/all-grey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customers\/bitnami.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9998,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/bitnami.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/bitnami.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customers\/canva.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6369,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/canva.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/canva.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/customers\/freelancer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -223,6 +267,28 @@
 		"initialSize": 7350,
 		"inputAbbreviatedPath": "\/assets\/images\/customers\/rackspace.png",
 		"outputAbbreviatedPath": "\/assets\/images\/customers\/rackspace.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customers\/tnw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12718,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/tnw.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/tnw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customers\/wave.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14861,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/wave.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/wave.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -311,6 +377,17 @@
 		"initialSize": 50582,
 		"inputAbbreviatedPath": "\/assets\/images\/features\/chris.png",
 		"outputAbbreviatedPath": "\/assets\/images\/features\/chris.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/features\/hero.bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 496137,
+		"inputAbbreviatedPath": "\/assets\/images\/features\/hero.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/features\/hero.bak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1492,6 +1569,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/high-volume\/legs-2.bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.74247e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/high-volume\/legs-2.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/high-volume\/legs-2.bak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/high-volume\/legs-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1602,6 +1690,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/home\/browser-chrome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1000,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/browser-chrome.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/browser-chrome.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1453,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/browser.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/database.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6652,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/database.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/database.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/developers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6656,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/developers.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/developers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/freelancer-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263413,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/freelancer-homepage.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/freelancer-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/newsletters.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1609,6 +1752,17 @@
 		"initialSize": 162165,
 		"inputAbbreviatedPath": "\/assets\/images\/home\/newsletters.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/home\/newsletters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 951,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/phone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1679,6 +1833,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/home\/tom.bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 884839,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/tom.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/tom.bak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/tom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224013,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/tom.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/tom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/what-is-vero.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1690,13 +1866,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/icons\/administrative-docs.png": {
+	"\/assets\/images\/icons\/api.bak.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 438,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/administrative-docs.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/administrative-docs.png",
+		"initialSize": 4335,
+		"inputAbbreviatedPath": "\/assets\/images\/icons\/api.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icons\/api.bak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1712,24 +1888,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/icons\/attibutes.png": {
+	"\/assets\/images\/icons\/campaign.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 561,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/attibutes.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/attibutes.png",
+		"initialSize": 591,
+		"inputAbbreviatedPath": "\/assets\/images\/icons\/campaign.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icons\/campaign.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/icons\/database.png": {
+	"\/assets\/images\/icons\/guides.bak.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 601,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/database.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/database.png",
+		"initialSize": 4080,
+		"inputAbbreviatedPath": "\/assets\/images\/icons\/guides.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icons\/guides.bak.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1745,6 +1921,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/icons\/jobs.bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4242,
+		"inputAbbreviatedPath": "\/assets\/images\/icons\/jobs.bak.png",
+		"outputAbbreviatedPath": "\/assets\/images\/icons\/jobs.bak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/icons\/jobs.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1752,28 +1939,6 @@
 		"initialSize": 4242,
 		"inputAbbreviatedPath": "\/assets\/images\/icons\/jobs.png",
 		"outputAbbreviatedPath": "\/assets\/images\/icons\/jobs.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/lightbulb.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 713,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/lightbulb.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/lightbulb.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/icons\/premium.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 702,
-		"inputAbbreviatedPath": "\/assets\/images\/icons\/premium.png",
-		"outputAbbreviatedPath": "\/assets\/images\/icons\/premium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1910,6 +2075,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/legs-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241275,
+		"inputAbbreviatedPath": "\/assets\/images\/legs-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/legs-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/logo-blue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1994,6 +2170,72 @@
 		"initialSize": 19367,
 		"inputAbbreviatedPath": "\/assets\/images\/pocket.png",
 		"outputAbbreviatedPath": "\/assets\/images\/pocket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/ebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 466,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/ebook.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/ebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/ebookwhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1448,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/ebookwhite.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/ebookwhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/guide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1954,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/guide.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/guide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/guidewhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1621,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/guidewhite.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/guidewhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/post.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 786,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/post.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/post.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/post-types\/postwhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 550,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/postwhite.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/postwhite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2658,13 +2900,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/cross-domain.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/cross-domain.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/cross-domain-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/source\/20-tips.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/20-tips.coffee",
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/assets\/scripts\/20-tips.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
@@ -2677,7 +2930,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/amazon-experience.coffee",
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/assets\/scripts\/source\/amazon-experience.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2695,13 +2948,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/source\/homepage.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/source\/homepage.coffee",
+		"minifyOutput": 0,
+		"outputAbbreviatedPath": "\/assets\/scripts\/homepage.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/source\/homepage.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/source\/homepage.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/source\/min\/homepage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/source\/scripts.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/scripts.coffee",
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/assets\/scripts\/source\/scripts.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2725,7 +3002,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/vmodal.coffee",
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/assets\/scripts\/vmodal.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
@@ -2754,12 +3031,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/vendor\/jquery.scrollmagic.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/vendor\/jquery.scrollmagic.min.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/vendor\/min\/jquery.scrollmagic.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/vendor\/jquery.scrollwatch.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/vendor\/jquery.scrollwatch.min.js",
 		"outputAbbreviatedPath": "\/assets\/scripts\/vendor\/min\/jquery.scrollwatch.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/vendor\/jquery.sticky.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/vendor\/jquery.sticky.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/vendor\/min\/jquery.sticky-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2776,6 +3075,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/vmodal.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/vmodal.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/vmodal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2784,6 +3094,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/homepage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/homepage.js",
+		"outputAbbreviatedPath": "\/min\/homepage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/lib\/custom_post_types\/api.php": {
 		"fileType": 8192,
@@ -2808,6 +3129,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/custom_post_types\/guides.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/custom_post_types\/help_docs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/custom_post_types\/help_docs.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2857,11 +3187,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/page-email-marketing-resources-3.php": {
+	"\/page-3627.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page-email-marketing-resources-3.php",
+		"inputAbbreviatedPath": "\/page-3627.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2907,6 +3237,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-friends.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-help.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-help.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2974,6 +3313,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pages-shared\/vero-live-bar.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages-shared\/vero-live-bar.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pages-templates\/page_basic.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3028,15 +3376,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages-wordpress\/search.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages-wordpress\/search.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/scripts.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3080,6 +3419,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/taxonomy-help_docs_categories.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/taxonomy-help_docs_categories.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3224,7 +3572,7 @@
 			"flagValue": -1
 			}
 		},
-	"coffeeMinifyOutput": 1,
+	"coffeeMinifyOutput": 0,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
