@@ -72,6 +72,10 @@
         <img src="/wp-content/themes/vero/assets/images/home/database.png"/>
         <p>Customise emails with data you track in Vero, or data from your own APIs.</p>
       </li>
+    </ul>
+    <p>
+      <a href="/features" class="btn btn-warning">Start the tour &rarr;</a>
+    </p>
   </div>
 </section>
 <!--<section id="usual-stuff">
@@ -100,8 +104,9 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <p class="h1">Start increasing your email conversions now.</p>
-    <a href="/pricing" class="btn btn-primary">Signup for your trial</a>
+    <p class="h1">Ready to send smarter emails?</p>
+    <a href="/pricing" class="btn btn-warning">Start sending now &rarr;</a>
+    <p class="small">Free trial • No credit card required</p>
   </div>
 </section>
 <?php 

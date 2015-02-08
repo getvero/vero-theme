@@ -119,7 +119,63 @@
     });
     controller = new ScrollMagic();
     window.animateTracker();
-    return window.ellipses(jQuery("#status-update"));
+    window.ellipses(jQuery("#status-update"));
+    return window.veroMachine();
   });
+
+  window.veroMachine = function() {
+    var clock, clockScroll, emails, emailsScroll, inputs, inputsScroll, segments, segmentsScroll;
+    inputs = new TimelineMax;
+    inputs.to('#iphone', .5, {
+      y: 85
+    });
+    inputs.to('#csv', .5, {
+      y: 100
+    }, '-=0.5');
+    inputs.to('#zapier', .5, {
+      y: 80
+    }, '-=0.5');
+    segments = new TimelineMax;
+    segments.to('#red', .5, {
+      x: 35,
+      y: 120
+    });
+    segments.to('#purple', .5, {
+      x: 10,
+      y: 135
+    }, '-=0.5');
+    segments.to('#green', .5, {
+      x: -120,
+      y: 50
+    }, '-=0.5');
+    emails = new TimelineMax;
+    emails.to('#gmail', .5, {
+      y: 125
+    });
+    emails.to('#body', .5, {
+      y: 45
+    }, '-=0.5');
+    clock = new TimelineMax;
+    clock.to('#clock', .5, {
+      x: 10,
+      y: 140
+    });
+    inputsScroll = new ScrollScene({
+      triggerElement: '#inputs-trigger',
+      duration: 300
+    }).setTween(inputs).addTo(controller);
+    segmentsScroll = new ScrollScene({
+      triggerElement: '#segments-trigger',
+      duration: 300
+    }).setTween(segments).addTo(controller);
+    emailsScroll = new ScrollScene({
+      triggerElement: '#emails-trigger',
+      duration: 300
+    }).setTween(emails).addTo(controller);
+    return clockScroll = new ScrollScene({
+      triggerElement: '#clock-trigger',
+      duration: 300
+    }).setTween(clock).addTo(controller);
+  };
 
 }).call(this);
