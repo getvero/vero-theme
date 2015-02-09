@@ -120,7 +120,8 @@
     controller = new ScrollMagic();
     window.animateTracker();
     window.ellipses(jQuery("#status-update"));
-    return window.veroMachine();
+    window.veroMachine();
+    return window.triggeredPage();
   });
 
   window.veroMachine = function() {
@@ -176,6 +177,31 @@
       triggerElement: '#clock-trigger',
       duration: 300
     }).setTween(clock).addTo(controller);
+  };
+
+  window.triggeredPage = function() {
+    var dataScroll, insertData, testABScroll, testScroll;
+    testScroll = new TimelineMax;
+    testScroll.to('#var-a', .5, {
+      x: -70
+    });
+    testScroll.to('#var-b', .5, {
+      x: 70
+    }, '-=0.5');
+    dataScroll = new TimelineMax;
+    dataScroll.to('#bikinis-email', .5, {
+      css: {
+        opacity: 0.5
+      }
+    });
+    testABScroll = new ScrollScene({
+      triggerElement: '#ab-test-trigger',
+      duration: 300
+    }).setTween(testScroll).addTo(controller);
+    return insertData = new ScrollScene({
+      triggerElement: '#use-data-trigger',
+      duration: 300
+    }).setTween(dataScroll).addTo(controller);
   };
 
 }).call(this);

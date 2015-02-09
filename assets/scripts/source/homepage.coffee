@@ -118,6 +118,7 @@ jQuery(document).ready ->
   window.animateTracker()
   window.ellipses(jQuery("#status-update"))
   window.veroMachine()
+  window.triggeredPage()
 
 window.veroMachine = () ->
   inputs = new TimelineMax
@@ -153,4 +154,19 @@ window.veroMachine = () ->
   clockScroll = new ScrollScene(
     triggerElement: '#clock-trigger'
     duration: 300).setTween(clock).addTo(controller)
-  
+
+window.triggeredPage = () ->
+  testScroll = new TimelineMax
+  testScroll.to('#var-a', .5, {x: -70})
+  testScroll.to('#var-b', .5, {x: 70 }, '-=0.5')
+
+  dataScroll = new TimelineMax
+  dataScroll.to('#bikinis-email', .5, {css:{opacity:0.5}})
+
+  testABScroll = new ScrollScene(
+    triggerElement: '#ab-test-trigger'
+    duration: 300).setTween(testScroll).addTo(controller)
+
+  insertData = new ScrollScene(
+    triggerElement: '#use-data-trigger'
+    duration: 300).setTween(dataScroll).addTo(controller)
