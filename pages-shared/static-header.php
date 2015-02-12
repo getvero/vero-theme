@@ -87,11 +87,11 @@ function custom_footer_static() {
   <footer><div class="wrap">
     <ul class="col">
       <li class="header">Features</li>
-      <li>Start the tour &rarr;</li>
-      <li>Individual customer profiles (CRM)</li>
-      <li>Triggered emails</li>
-      <li>Smart newsletters</li>
-      <li>External Attributes</li>
+      <li><a href="/features">Start the tour &rarr;</a></li>
+      <li><a href="/triggered-emails">Triggered emails</li>
+      <li><a href="/smart-newsletters">Smart newsletters</li>
+      <li><a href="/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
+      <li><a href="/external-attributes">External Attributes</li>
     </ul>
     <ul class="col">
       <li class="header">Resources</li>

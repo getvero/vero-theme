@@ -28,17 +28,17 @@
     <div class="description" id="inputs-description">
       <h3>Use more data than ever before.</h3>
       <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
-      <p><a href="/" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
+      <p><a href="/smart-newsletters" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="segments-description">
       <h3>Segment without writing code.</h3>
       <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
-      <p><a href="/" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p>  
+      <p><a href="/individual-contact-profiles" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p>  
     </div>
     <div class="description" id="timing-description">
       <h3>Trigger automated messages or send a newsletter today.</h3>
       <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
-      <p><a href="/" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
+      <p><a href="/targeted-emails" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="dynamic-description">
       <h3>Use your data with dynamic fields.</h3>
@@ -48,7 +48,7 @@
     <div class="description" id="external-description">
       <h3>Insert even more dynamic code from your own APIs.</h3>
       <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
-      <p><a href="/" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
+      <p><a href="/external-attributes" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="template-description">
       <h3>Manage all of your templates in one central place.</h3>
@@ -97,7 +97,7 @@
   <div class="inner">
     <p class="h1">Ready to go?</p>
     <a href="/pricing" class="btn btn-white btn-outline">Start my trial</a>
-    <a href="/pricing" class="btn btn-warning">Continue tour &rarr;</a>
+    <a href="/triggered-emails" class="btn btn-warning">Continue tour &rarr;</a>
     <p class="small">Free trial • No credit card required</p>
   </div>
 </section>

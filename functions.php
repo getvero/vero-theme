@@ -17,6 +17,7 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'sidebar-footer' );
   unregister_sidebar( 'header-right' );
   add_theme_support('genesis-footer-widgets', 3);
+  add_theme_support( 'genesis-responsive-viewport' );
 
   //Drafts in main
   add_filter('page_attributes_dropdown_pages_args', 'my_attributes_dropdown_pages_args', 1, 1);

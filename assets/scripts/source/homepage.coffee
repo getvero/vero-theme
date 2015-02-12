@@ -1,5 +1,3 @@
-window.dotsAndLines = ->
-
 window.blink = ->
   jQuery('.active').delay(2000).fadeTo(100, 0.5).delay(100).fadeTo 100, 1, blink
   return

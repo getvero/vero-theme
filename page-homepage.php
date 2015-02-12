@@ -19,9 +19,35 @@
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div id="hero" class="center-text">
     <h1>Track behavior, trigger emails.</h1>
-    <h2>The smartest way to automate emails based on what your customers do.</h2>
     <div id="container-trigger"></div>
-    <div id="vero-live-sticky">
+    <div id="blocks">
+      <div class="inner">
+        <div id="blocks-descriptions">
+          <div id="browser-block-desc">
+            <span class="circle"></span>
+            <span class="line"></span>
+            <p class="h5">Track</p>
+            <p>Track what your customers do on your website or in your application.</p>
+          </div>
+          <div id="vero-block-desc">
+            <span class="circle"></span>
+            <span class="line"></span>
+            <p class="h5">Target</p>
+            <p>Use Vero's visual rule-builder to create targeted emails.</p>
+          </div>
+          <div id="email-block-desc">
+            <span class="circle"></span>
+            <span class="line"></span>
+            <p class="h5">Trigger</p>
+            <p>Send automated trigger campaigns and newsletters your customers want to read.</p>
+          </div>
+        </div>
+        <img id="browser-block" src="/wp-content/themes/vero/assets/images/home/browser-block.png">
+        <img id="vero-block" src="/wp-content/themes/vero/assets/images/home/vero.png">
+        <img id="email-block" src="/wp-content/themes/vero/assets/images/home/email.png">
+      </div>
+    </div>
+    <!--<div id="vero-live-sticky">
       <div id="vero-live-container">
         <div id="vero-live">
           <div class="wrap">
@@ -38,10 +64,10 @@
           <span id="status">Status:</span>
           <span id="status-update">Listening...</span>
         </div>
-      </div>
+      </div>-->
     </div>
 
-    <p class="bottom">Scroll down   •   <a href="http://www.getvero.com/pricing">Skip and create a free account &rarr;</a></p>
+    <p class="bottom"><a href="#" class="btn btn-warning">See Vero in action &rarr;</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white">Create my free account</a></p>
   </div>
   <div id="scroll-down">⌄</div>
 </section>
@@ -98,14 +124,19 @@
   <canvas id="dots"></canvas>
   <div class="inner center-text">
     <p class="h1">Billions of data points.<br>Millions of emails.<br>Awesome support.</p>
-    <p>Vero tracks billions of customer interactions on websites for over 300 customers around the world.</p>
+    <p>Vero tracks billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
     <p>Our product-first approach is backed by fast, practical support from experienced engineers and marketers to help you deliver emails that convert.</p>
+    <p class="quote">"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</p>
+    <p class="who h5">
+      <img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png">
+    </p>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <p class="h1">Ready to send smarter emails?</p>
-    <a href="/pricing" class="btn btn-warning">Start sending now &rarr;</a>
+    <a href="/features" class="btn btn-warning">Learn more about Vero &rarr;</a>
+    <a href="/pricing" class="btn btn-outline btn-primary">Create my free account</a>
     <p class="small">Free trial • No credit card required</p>
   </div>
 </section>

@@ -79,7 +79,7 @@
   <div class="inner">
     <p class="h1">Ready to go?</p>
     <a href="/pricing" class="btn btn-white btn-outline">Start my trial</a>
-    <a href="/pricing" class="btn btn-warning">Continue tour &rarr;</a>
+    <a href="/smart-newsletters" class="btn btn-warning">Continue tour &rarr;</a>
     <p class="small">Free trial • No credit card required</p>
   </div>
 </section>

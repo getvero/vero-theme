@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17682",
+"creatorBuild": "18493",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -183,6 +183,358 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/crm\/event-log.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148557,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/event-log.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/event-log.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73454,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/hero.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/a-and-b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10576,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/a-and-b.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/a-and-b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23824,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/a.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23877,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/b.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/back1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58655,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/back2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59554,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/back3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42017,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/back3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/body.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/body.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/body.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/browser.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/clock.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/clock.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/clock.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/csv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/csv.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/csv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/dynamic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/dynamic.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/dynamic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/external-attributes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78945,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/external-attributes.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/external-attributes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/gmail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/gmail.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/gmail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/iphone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/line-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/line-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/line-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/line-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/newsletter-segments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51630,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/newsletter-segments.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/newsletter-segments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/rain-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/rain-left.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/rain-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/rain-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/rain-right.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/rain-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/segment-base.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-base.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-base.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/segment-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-green.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/segment-purple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-purple.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-purple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/segment-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-red.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/segment-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/timing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/timing.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/timing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/tracking.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25960,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/tracking.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/tracking.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/outputs\/zapier.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10489,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/zapier.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/outputs\/zapier.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/properties.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73805,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/properties.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/properties.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/tags.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22002,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/tags.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/tags.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/crm\/tracking.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13981,
+		"inputAbbreviatedPath": "\/assets\/images\/crm\/tracking.png",
+		"outputAbbreviatedPath": "\/assets\/images\/crm\/tracking.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/customers-sprite-blue-sml-color-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -344,6 +696,17 @@
 		"initialSize": 7038,
 		"inputAbbreviatedPath": "\/assets\/images\/email-bar.png",
 		"outputAbbreviatedPath": "\/assets\/images\/email-bar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/external-attributes\/external-attributes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78838,
+		"inputAbbreviatedPath": "\/assets\/images\/external-attributes\/external-attributes.png",
+		"outputAbbreviatedPath": "\/assets\/images\/external-attributes\/external-attributes.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2218,6 +2581,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/home\/browser-block.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9952,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/browser-block.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/browser-block.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/browser-chrome.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2262,6 +2636,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/home\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5445,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/email.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/home\/freelancer-homepage.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2280,6 +2665,72 @@
 		"initialSize": 162165,
 		"inputAbbreviatedPath": "\/assets\/images\/home\/newsletters.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/home\/newsletters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/browser-block.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5695,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/browser-block.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/browser-block.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12813,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/browser.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8635,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/email.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/line1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4687,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/line1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/line1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/mesh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56529,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/mesh.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/mesh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/outputs\/vero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17068,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/outputs\/vero.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/outputs\/vero.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2379,6 +2830,17 @@
 		"initialSize": 224013,
 		"inputAbbreviatedPath": "\/assets\/images\/home\/tom.png",
 		"outputAbbreviatedPath": "\/assets\/images\/home\/tom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/home\/vero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13127,
+		"inputAbbreviatedPath": "\/assets\/images\/home\/vero.png",
+		"outputAbbreviatedPath": "\/assets\/images\/home\/vero.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2654,6 +3116,358 @@
 		"initialSize": 12627,
 		"inputAbbreviatedPath": "\/assets\/images\/mail-white.png",
 		"outputAbbreviatedPath": "\/assets\/images\/mail-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/conversions-clean.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30468,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/conversions-clean.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/conversions-clean.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/conversions.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36273,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/conversions.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/conversions.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73454,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/hero.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/newsletter-segments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38983,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/newsletter-segments.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/newsletter-segments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/a-and-b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8693,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/a-and-b.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/a-and-b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21941,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/a.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21994,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/b.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/back1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56771,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/back2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57671,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/back3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40134,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/back3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/body.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/body.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/body.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/browser.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/clock.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/clock.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/clock.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/csv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/csv.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/csv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/dynamic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/dynamic.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/dynamic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/external-attributes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78545,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/external-attributes.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/external-attributes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/gmail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/gmail.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/gmail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/iphone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/line-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/line-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/line-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/line-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/newsletter-segments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16996,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/newsletter-segments.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/newsletter-segments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/rain-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/rain-left.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/rain-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/rain-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/rain-right.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/rain-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/segment-base.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-base.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-base.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/segment-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-green.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/segment-purple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-purple.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-purple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/segment-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-red.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/segment-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/timing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/timing.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/timing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/outputs\/zapier.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8606,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/zapier.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/outputs\/zapier.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/timezones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45802,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/timezones.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/timezones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/newsletters\/triggers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36941,
+		"inputAbbreviatedPath": "\/assets\/images\/newsletters\/triggers.png",
+		"outputAbbreviatedPath": "\/assets\/images\/newsletters\/triggers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3791,6 +4605,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/dots.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/dots.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/dots-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/homepage.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/homepage.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/homepage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/source\/20-tips.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
@@ -3826,19 +4662,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/scripts\/source\/dots.coffee": {
-		"createSourceMap": 0,
-		"fileType": 32,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/source\/dots.coffee",
-		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/assets\/scripts\/source\/dots.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/scripts\/source\/homepage.coffee": {
@@ -4098,6 +4921,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-external-attributes.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-external-attributes.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-faq.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4161,6 +4993,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-individual-contact-profiles.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-individual-contact-profiles.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-partners.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4197,11 +5038,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/page-triggered.php": {
+	"\/page-smart-newsletters.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page-triggered.php",
+		"inputAbbreviatedPath": "\/page-smart-newsletters.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-triggered-emails.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-triggered-emails.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4385,6 +5235,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"indentation": {
 			"active": 1,
 			"flagValue": 2
@@ -4469,8 +5323,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"space_operators": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
 			"flagValue": -1
 			}
 		},
@@ -4528,6 +5390,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -4550,6 +5416,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -4604,6 +5474,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -4647,6 +5521,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -4716,6 +5594,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -4733,6 +5615,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4936,6 +5822,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -4944,6 +5831,7 @@
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
@@ -4959,8 +5847,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -4997,6 +5886,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5040,6 +5933,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -5052,8 +5949,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {
