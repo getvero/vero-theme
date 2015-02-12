@@ -13,8 +13,8 @@
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div class="inner">
   <div class="center-text">
-    <h1>Use your own APIs and data for true personalization</h1>
-    <h2>Make queries of your own data or APIs to customise individual outgoing emails for truly dynamic sends.</h2>
+    <h1>Use your own data to personalize emails</h1>
+    <h2>Query your own data or API's to customize emails as they are sent.</h2>
     <div id="hero-images">
       <div class="inside">
       <img id="bikinis-web" src="/wp-content/themes/vero/assets/images/triggered/bikinis-web.png">
@@ -27,8 +27,8 @@
 <section id="merge-tags" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>Use all of the data you send Vero in your outgoing emails</h3>
-      <p>Most email marketing software only knows about your contacts and their emails, not what they do on your website or in your application.</p>
+    <h3>Email that is truly data-driven</h3>
+      <p>Most email software keeps your data in a silo. Vero monitors behavior on your site to give you a more complete picture of your customers. Even more exciting, you can use that data to send incredibly personalized emails.</p>
     <img src="/wp-content/themes/vero/assets/images/external-attributes/dynamic-fields.png">
   </div>
   </div>
@@ -38,9 +38,12 @@
   <div class="center-text">
     <h3>Pull in even more data with our world-first External Attributes</h3>
     <div class='half'>
-      <p>Most email marketing software only knows about your contacts and their emails, not what they do on your website or in your application.</p>
-      <p>Vero's behavioral tracking gives you another layer of data you can use to segment your contacts.</p>
-      <p>Want to email customers that have purchased three times? Need to send out an email to customers that have never used a certain feature? Vero has you covered.</p>
+      <p>
+        Instead of sending the same email to everyone, imagine sending a unique email to every customer.
+      </p>
+      <p>
+        For example, use External Attributes to provide product recommendations based on purchase history or send retention emails based on inactivity. If you can track the behavior, we can trigger the email.
+      </p>
     </div>
     <img class="half" src="/wp-content/themes/vero/assets/images/external-attributes/external-attributes.png">
   </div>

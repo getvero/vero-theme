@@ -124,7 +124,7 @@
   <canvas id="dots"></canvas>
   <div class="inner center-text">
     <p class="h1">Billions of data points.<br>Millions of emails.<br>Awesome support.</p>
-    <p>Vero tracks billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
+    <p>Vero has tracked billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
     <p>Our product-first approach is backed by fast, practical support from experienced engineers and marketers to help you deliver emails that convert.</p>
     <p class="quote">"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</p>
     <p class="who h5">

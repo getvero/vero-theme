@@ -13,8 +13,8 @@
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div class="inner">
   <div class="center-text">
-    <h1>Treat every contact as an individual</h1>
-    <h2>Don't store static <em>lists</em> – build dynamic, individual profiles for each contact.</h2>
+    <h1>Treat every contact as a human, not just an email</h1>
+    <h2>Don't store static <em>lists</em> – build dynamic, individual profiles for all of your contacts.</h2>
     <img id="hero-image" src="/wp-content/themes/vero/assets/images/newsletters/hero.png">
   </div>
   </div>
@@ -24,8 +24,7 @@
   <div>
     <h3 class="center-text">Track customers across multiple devices</h3>
     <div class='half text left-text'>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum. Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at.</p>
-      <p>Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+      <p>In order to build a complete user profile, mobile is a must. Vero tracks your contacts across devices, browsers and platforms to help you build robust profiles.</p>
     </div>
     <img class="half pull-right" src="/wp-content/themes/vero/assets/images/crm/tracking.png">
   </div>
@@ -34,11 +33,15 @@
 <section id="tags" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>Use Vero's unique tags and manually adjust customer experience</h3>
+    <h3>Use Vero's tags for deeper segmentation and preference management</h3>
     <img src="/wp-content/themes/vero/assets/images/crm/tags.png">
     <div class="text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum. Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at.</p>
-      <p>Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+      <p>
+        Vero lets you automate just about everything but you can always take control using our tags. Use tags to label your best customers, hot leads or people who deserve a thank you note.
+      </p>
+      <p>
+        You can even create dynamic segments based on tags, allowing you to segment groups at the deepest possible level.</p>
+      </p>
     </div>
   </div>
   </div>
@@ -46,11 +49,10 @@
 <section id="properties">
   <div class="inner">
   <div class="center-text">
-    <h3>Unlimited storage of contact properties so your emails get smarter with time</h3>
+    <h3>Unlimited storage of contact properties so your emails get smarter over time</h3>
     <img src="/wp-content/themes/vero/assets/images/crm/properties.png">
     <div class="text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum. Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at.</p>
-      <p>Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+      <p>Add as many user properties, actions, tags and segments as you want. The more data you collect, the smarter your emails can be. And don't worry, Vero automates campaigns so you never have to worry about sending emails manually.</p>
     </div>
   </div>
   </div>
@@ -58,9 +60,8 @@
 <section id="contact-actions" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>A full history of every contacts' actions</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum. Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies. Donec feugiat tempor turpis, rutrum sagittis mi venenatis at.</p>
-    <p>Sed molestie lorem a blandit congue. Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+    <h3>A detailed behavioral history</h3>
+    <p>We keep track of behavior over time, making it easy to identify trends in usage and conversions. You'll get to know your contacts like never before.</p>
     <img src="/wp-content/themes/vero/assets/images/crm/event-log.png">
   </div>
   </div>
