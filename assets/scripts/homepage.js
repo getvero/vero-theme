@@ -116,10 +116,12 @@
       return false;
     });
     controller = new ScrollMagic();
-    window.animateTracker();
-    window.ellipses(jQuery("#status-update"));
-    window.veroMachine();
-    return window.triggeredPage();
+    if (!jQuery('body').hasClass('mobile')) {
+      window.animateTracker();
+      window.ellipses(jQuery("#status-update"));
+      window.veroMachine();
+      return window.triggeredPage();
+    }
   });
 
   window.veroMachine = function() {

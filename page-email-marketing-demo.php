@@ -35,7 +35,7 @@ include 'pages-shared/static-header.php';
           <input id="phone" name="event[contact_method]" type="radio" value="phone" />
           <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/images/mail-white.png"></label>
         </div>
-        <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/get-a-demo/?thanks=yourock"
+        <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock"
         <div class="form-group"><input type="submit" value="Get in touch" id="request-demo" class="btn btn-warning"></div>
       </div>
     </form>
