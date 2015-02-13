@@ -120,7 +120,7 @@
     </ul>
   </div>
 </section>-->
-<section id="reliable">
+<section id="reliable" class="reliable">
   <canvas id="dots"></canvas>
   <div class="inner center-text">
     <p class="h1">Billions of data points.<br>Millions of emails.<br>Awesome support.</p>

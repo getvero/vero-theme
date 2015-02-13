@@ -90,23 +90,7 @@ hideGuideSidebar = ->
 
 requestDemo = ->
   if validateForm()
-    _veroq.push [
-      "user"
-      {
-        id: jQuery("#sender_email_address").val()
-      }
-    ]
-    _veroq.push [
-      "track"
-      "high_sender_request"
-      {
-        name: jQuery("#sender_name").val()
-        company_name: jQuery("#sender_company_name").val()
-        subscribers: jQuery("#sender_subscribers").val()
-        monthy_emails: jQuery("#sender_emails").val()
-        contact_method: jQuery("input:radio[name=contact_method]:checked").val()
-      }
-    ]
+    jQuery("#high-volume-sender-form").submit()
     jQuery("#high-volume > .inner").addClass('center-text').html("<h3 style='color:#222;font-weight:bold;'>Thanks for your request!</h3><h4 style='color:#222;padding-bottom:100px;'>We will contact you shortly.</h4>")
     console.log 'success'
 

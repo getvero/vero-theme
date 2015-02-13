@@ -90,10 +90,10 @@ jQuery(document).ready(function() {
       dot.animate();
     }
 
-    jQuery('#reliable').on('mousemove mouseleave', function(e){
+    jQuery('.reliable').on('mousemove mouseleave', function(e){
       if(e.type == 'mousemove'){
         mousePosition.x = e.pageX;
-        mousePosition.y = e.pageY - jQuery('#reliable').offset().top;
+        mousePosition.y = e.pageY - jQuery('.reliable').offset().top;
       }
       if(e.type == 'mouseleave'){
         mousePosition.x = canvas.width / 2;

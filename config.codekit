@@ -3131,6 +3131,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/mail-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3687,
+		"inputAbbreviatedPath": "\/assets\/images\/mail-white.png",
+		"outputAbbreviatedPath": "\/assets\/images\/mail-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/newsletters\/conversions-clean.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3501,6 +3512,17 @@
 		"initialSize": 64029,
 		"inputAbbreviatedPath": "\/assets\/images\/partners-overlay.png",
 		"outputAbbreviatedPath": "\/assets\/images\/partners-overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4992,
+		"inputAbbreviatedPath": "\/assets\/images\/phone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4695,21 +4717,10 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/scripts.coffee",
 		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/assets\/scripts\/source\/scripts.js",
+		"outputAbbreviatedPath": "\/scripts.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/scripts\/source\/scripts.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/source\/scripts.js",
-		"outputAbbreviatedPath": "\/assets\/scripts\/source\/min\/scripts-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/scripts\/source\/vmodal.coffee": {
@@ -5127,17 +5138,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/scripts.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts.js",
-		"outputAbbreviatedPath": "\/min\/scripts-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/single-campaigns.php": {
 		"fileType": 8192,
