@@ -223,7 +223,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'idea lab' && ( is_singular('campaigns') || is_post_type_archive('campaigns')) ) {
       $classes[] = 'current-menu-item';
-    } else if ( $menu_item->title == 'Pricing' && is_page('high-volume-senders') ) {
+    } else if ( $menu_item->title == 'Pricing' ) {
       $classes[] = 'current-menu-item';
     }  else if ( ( is_singular('kb') && in_array($menu_item->title, $term_array) ) || ( is_tax('topic') && ($menu_item->title == $taxonomy) ) ) {
       $classes[] = 'current-menu-item';

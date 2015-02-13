@@ -95,22 +95,22 @@ function custom_footer_static() {
     </ul>
     <ul class="col">
       <li class="header">Resources</li>
-      <li><a href="http://www.getvero.com/pricing">Pricing</a></li>
-      <li><a href="http://www.getvero.com/faq">Help Documentation</a></li>
-      <li><a href="http://www.getvero.com/idea-lab">Email Recipe Lab</a></li>
-      <li><a href="http://www.getvero.com/api">API Reference</a></li>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/faq">Help Documentation</a></li>
+      <li><a href="/idea-lab">Email Recipe Lab</a></li>
+      <li><a href="/api">API Reference</a></li>
       <li><a href="http://blog.getvero.com" target="_blank">Blog</a></li>
     </ul>
     <ul class="col">
       <li class="header">Company</li>
       <!--<li>About</li>-->
-      <li><a href="http://www.getvero.com/jobs">Jobs</a></li>
-      <li><a href="http://status.getvero.com/faq">Status</a></li>
+      <li><a href="/jobs">Jobs</a></li>
+      <li><a href="http://status.getvero.com">Status</a></li>
     </ul>
     <ul class="col">
       <li class="header">Say Hello</li>
       <li><a href="mailto:support@getvero.com">Email Support</a></li>
-      <li><a href="http://www.getvero.com/high-volume">Contact Sales</a></li>
+      <li><a href="get-a-demo">Contact Sales</a></li>
       <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
     </ul>

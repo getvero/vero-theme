@@ -13,7 +13,6 @@ include 'pages-shared/static-header.php';
   <canvas id="dots"></canvas>
   <div class="inner center-text">
     <?php if($_GET['thanks'] == 'yourock'){?>
-    
       <h1>Thanks!</h1>
       <h2>Hang tight, one of our Customer Success engineers will be in touch soon.</h2>
     <?php } else { ?>
@@ -36,7 +35,7 @@ include 'pages-shared/static-header.php';
           <input id="phone" name="event[contact_method]" type="radio" value="phone" />
           <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/images/mail-white.png"></label>
         </div>
-        <input type="hidden" name="redirect_on_success" value="http://localhost:8888/high-volume-senders?thanks=yourock"
+        <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/get-a-demo/?thanks=yourock"
         <div class="form-group"><input type="submit" value="Get in touch" id="request-demo" class="btn btn-warning"></div>
       </div>
     </form>
