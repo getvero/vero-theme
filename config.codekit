@@ -700,6 +700,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/external-attributes\/dynamic-fields.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103734,
+		"inputAbbreviatedPath": "\/assets\/images\/external-attributes\/dynamic-fields.png",
+		"outputAbbreviatedPath": "\/assets\/images\/external-attributes\/dynamic-fields.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/external-attributes\/external-attributes.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2515,6 +2526,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/high-volume\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3687,
+		"inputAbbreviatedPath": "\/assets\/images\/high-volume\/phone.png",
+		"outputAbbreviatedPath": "\/assets\/images\/high-volume\/phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/high-volume\/stamp.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3109,17 +3131,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/mail-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12627,
-		"inputAbbreviatedPath": "\/assets\/images\/mail-white.png",
-		"outputAbbreviatedPath": "\/assets\/images\/mail-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/newsletters\/conversions-clean.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3490,17 +3501,6 @@
 		"initialSize": 64029,
 		"inputAbbreviatedPath": "\/assets\/images\/partners-overlay.png",
 		"outputAbbreviatedPath": "\/assets\/images\/partners-overlay.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/phone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12591,
-		"inputAbbreviatedPath": "\/assets\/images\/phone.png",
-		"outputAbbreviatedPath": "\/assets\/images\/phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

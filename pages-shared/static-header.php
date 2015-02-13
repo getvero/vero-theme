@@ -103,7 +103,7 @@ function custom_footer_static() {
     </ul>
     <ul class="col">
       <li class="header">Company</li>
-      <li>About</li>
+      <!--<li>About</li>-->
       <li><a href="http://www.getvero.com/jobs">Jobs</a></li>
       <li><a href="http://status.getvero.com/faq">Status</a></li>
     </ul>

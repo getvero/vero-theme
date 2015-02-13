@@ -42,7 +42,13 @@
     <img src="/wp-content/themes/vero/assets/images/newsletters/timezones.png">
     <div class="text">
       <p>
-        Your have contacts in different time zones, making it hard to send email everyone at 7am on Tuesday. Vero's time zone tool solves the problem by tracking location and allowing you to send emails based on individual recipients' time zone.
+        Not all of your contacts live on different time zones, making it hard to send email everyone at 7am on Tuesday.
+      </p>
+      <p>
+        Vero's newsletters solve this problem by automatically tracking the location of each individual contact and allowing you to send emails based on each individual recipients' time zone.
+      </p>
+      <p>
+        Increase your conversions by targeting people at the right time in their lives.
       </p>
     </div>
   </div>
@@ -51,12 +57,13 @@
 <section id="dynamic-segments">
   <div class="inner">
   <div class="center-text">
-    <h3>Real-time segmentation to organise your subscribers</h3>
+    <h3>Real-time segmentation to target your contacts</h3>
     <img src="/wp-content/themes/vero/assets/images/newsletters/newsletter-segments.png">
     <div class="text">
-      <p>
-        Instead of downloading lists, organized them in Excel and uploading them every time you want to segment, let Vero automate it. Our dynamic segments update as your contacts take certain actions or you manually apply tags. Every segment is always up-to-date.
-      </p>
+      <p>Instead of downloading lists, adjusting them in Excel and uploading them every time you want to create a new list, let Vero automate the process for you.</p>
+      <p>Our dynamic segments update as your contacts take actions on your site or in your app or as their attributes are updated in Vero.</p> 
+      <p>Want to target the most up to date list of customers that have <em>Checked out</em> three times before? Or your SaaS users that have signed up but not used a certain feature? Easy, with Vero's segment builder.</p>
+      <p>Every segment is real-time, constantly up to date, and flexible. Move faster with Vero.</p>
     </div>
   </div>
   </div>
@@ -65,7 +72,8 @@
   <div class="inner">
   <div class="center-text">
     <h3>Track conversions, not just opens and clicks</h3>
-    <p>Opens and clicks don't drive revenue but conversions do. Identify the goal of each email and track how many contacts convert. Whether it's starting a free trial, buying a product or just visiting a landing page, you'll know exactly how effective every email is.</p>
+    <p>Opens and clicks don't drive revenue but conversions do.</p>
+    <p>Identify the goal of each email and track how many contacts convert. Whether it's starting a free trial, buying a product or just visiting a landing page, you'll know exactly how effective every email is.</p>
     <img src="/wp-content/themes/vero/assets/images/newsletters/conversions-clean.png">
   </div>
   </div>
@@ -74,7 +82,7 @@
   <div class="inner">
     <p class="h1">Ready to go?</p>
     <a href="/pricing" class="btn btn-white btn-outline">Start my trial</a>
-    <a href="/individual-contact-profiles" class="btn btn-warning">Continue tour &rarr;</a>
+    <a href="/individual-contact-profiles" class="btn btn-warning">Continue tour</a>
     <p class="small">Free trial • No credit card required</p>
   </div>
 </section>

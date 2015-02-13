@@ -33,7 +33,7 @@
             <span class="circle"></span>
             <span class="line"></span>
             <p class="h5">Target</p>
-            <p>Use Vero's visual rule-builder to create targeted emails.</p>
+            <p>Use Vero's rule builder to create targeted emails.</p>
           </div>
           <div id="email-block-desc">
             <span class="circle"></span>
@@ -67,7 +67,7 @@
       </div>-->
     </div>
 
-    <p class="bottom"><a href="#" class="btn btn-warning">See Vero in action &rarr;</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white">Create my free account</a></p>
+    <p class="bottom"><a href="/features" class="btn btn-warning">Learn more about Vero</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white">Create my free account</a></p>
   </div>
   <div id="scroll-down">⌄</div>
 </section>
@@ -135,7 +135,7 @@
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <p class="h1">Ready to send smarter emails?</p>
-    <a href="/features" class="btn btn-warning">Learn more about Vero &rarr;</a>
+    <a href="/features" class="btn btn-warning">Learn more about Vero</a>
     <a href="/pricing" class="btn btn-outline btn-primary">Create my free account</a>
     <p class="small">Free trial • No credit card required</p>
   </div>

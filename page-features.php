@@ -27,33 +27,32 @@
   <div class="inner">
     <div class="description" id="inputs-description">
       <h3>Use more data than ever before.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
+      <p>Unlike traditional, list-based, email marketing platforms, Vero tracks what your customers do. Track what happens on your website, in your app, via plugins such as Zapier and Segment and use this powerful real-time data to send more targeted campaigns.</p>
       <p><a href="/smart-newsletters" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="segments-description">
       <h3>Segment without writing code.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
+      <p>Using Vero you can build all of your campapign logic using our great UI. No more writing code, massaging Excel spreadsheets or running SQL queries to find the right customers to email – Vero does all this for you, enabling you to work smarter and faster.</p>
       <p><a href="/individual-contact-profiles" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p>  
     </div>
     <div class="description" id="timing-description">
       <h3>Trigger automated messages or send a newsletter today.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
+      <p>Setup automated emails, drip campaigns, and workflows to send individual contacts the right message at exactly the right time. Vero works while you sleep, so the right customers always get the right message.</p>
       <p><a href="/targeted-emails" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="dynamic-description">
       <h3>Use your data with dynamic fields.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
+      <p>Insert the dynamic data you send Vero into your templates and outgoing emails. This could be as simple as a contact's first name or as complex as a product they looked at on your website. Vero's templating language gives you the power to ensure your emails are truly personalised.</p>
       <p>Processing billions of rows of data, Vero is designed to handle your data.</p> 
     </div>
     <div class="description" id="external-description">
       <h3>Insert even more dynamic code from your own APIs.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
+      <p>Send better emails with better data. Vero can pull data from your website or APIs and make your emails super dynamic. Include charts, related products or up-to-the-minute statistics in any of your outgoing emails with our <em>External Attributes</em> feature.</p>
       <p><a href="/external-attributes" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="template-description">
       <h3>Manage all of your templates in one central place.</h3>
-      <p>Send better emails with better data. Connect Vero directly to your website or application to track what your contacts do in real time. Vero keeps tabs on all of your data for you and makes it easy for you to query, manage and use it.</p>
-      
+      <p>Edit both transactional and newsletter emails in one UI. Upload custom HTML templates that support fully responsive design and use these across all of your campaigns for a consistent look and feel whenever you email your customers.</p>
     </div>
   </div>
 </section>
@@ -97,7 +96,7 @@
   <div class="inner">
     <p class="h1">Ready to go?</p>
     <a href="/pricing" class="btn btn-white btn-outline">Start my trial</a>
-    <a href="/triggered-emails" class="btn btn-warning">Continue tour &rarr;</a>
+    <a href="/triggered-emails" class="btn btn-warning">Continue tour</a>
     <p class="small">Free trial • No credit card required</p>
   </div>
 </section>

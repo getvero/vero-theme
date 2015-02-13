@@ -9,32 +9,11 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="high-volume">
-  <div id="top">
-    <div class="inner center-text">
-      <h1>Triggered email at scale.</h1>
-      <p>Need more juice? We offer custom packages for power users.</p>
-    </div>
-  </div>
-  <div id="features">
-    <div class="inner">
-      <ul class="list-unstyled list-inline">
-        <li class="center-text">
-          <img src="/wp-content/themes/vero/assets/images/high-volume/stamp.png">
-          <h5>Send millions of emails <br>each month</h5>
-        </li>
-        <li class="center-text">
-          <img src="/wp-content/themes/vero/assets/images/high-volume/mail-settings.png">
-          <h5>Support guaranteed <br>within an hour</h5>
-        </li>
-        <li class="center-text">
-          <img src="/wp-content/themes/vero/assets/images/high-volume/mail-empty.png">
-          <h5>Dedicated IP addresses</h5>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="inner">
+<section id="top">
+  <canvas id="dots"></canvas>
+  <div class="inner center-text">
+    <h1>Get a personal demo of the future of email.</h1>
+    <p>One of our Customer Success team will give you a personal demo of Vero, so you can see the full power of email.</p>
     <form id="high-volume-sender-form">
       <div class="half">
         <div class="form-group"><label>Name:</label><input id="sender_name" class="form-control" name="sender[name]" type="text" autofocus="autofocus" /></div>
@@ -53,7 +32,7 @@ include 'pages-shared/static-header.php';
           <input id="phone" name="contact_method" type="radio" value="phone" />
           <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/images/mail-white.png"></label>
         </div>
-        <div class="form-group"><a id="request-demo" class="btn btn-primary" href="#">Get in touch</a></div>
+        <div class="form-group"><a id="request-demo" class="btn btn-warning" href="#">Get in touch</a></div>
       </div>
     </form>
   </div>

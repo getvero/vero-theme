@@ -92,7 +92,7 @@ function add_logo_to_navbar($menu, $args) {
   if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "blog.getvero.com" ) { 
     echo '<li id="hiring"><a href="https://www.getvero.com/jobs">We are hiring</a></li>';
   } else {
-    echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>A new kind of email marketing software</span></li>';
+    echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Data-driven email marketing software</span></li>';
   }
   $logo = ob_get_clean();
   if( $args['theme_location'] == 'blog-secondary-nav-menu' )
@@ -261,7 +261,7 @@ function add_js() {
   wp_enqueue_script('draggable');
   wp_enqueue_script('scrollmagic');
   wp_enqueue_script('sticky');
-  if ( is_front_page()  && ($_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "www.getvero.com" || $_SERVER["HTTP_HOST"] == "localhost:8888" )) {
+  if ( (is_front_page() || is_page('high-volume-senders') )  && ($_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "www.getvero.com" || $_SERVER["HTTP_HOST"] == "localhost:8888" )) {
     wp_enqueue_script('dots');
   }
   wp_enqueue_script('vero-js');
