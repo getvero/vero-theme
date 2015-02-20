@@ -16,7 +16,6 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
   unregister_sidebar( 'header-right' );
-  add_theme_support('genesis-footer-widgets', 3);
   add_theme_support( 'genesis-responsive-viewport' );
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer_static' );
@@ -153,7 +152,6 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
   add_action( 'genesis_entry_footer', 'add_how_to_do_this_area', 14 );
-  //add_action( 'genesis_entry_footer', 'add_blog_cta_before_footer', 15 );
 
   //Add guides
   add_action( 'init', 'create_guides_post_type' );

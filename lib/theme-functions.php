@@ -65,7 +65,7 @@ function custom_footer_static() {
 
 function custom_footer_static_wrap() {
   ?>
-  <footer><div class="wrap">
+  <footer class="site-footer"><div class="wrap">
     <?php echo custom_footer_static(); ?>
   </div></footer>
 <?php
