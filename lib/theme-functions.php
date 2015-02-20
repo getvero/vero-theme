@@ -141,7 +141,9 @@ function add_logo_to_navbar($menu, $args) {
   }
   $logo = ob_get_clean();
   if( $args['theme_location'] == 'blog-secondary-nav-menu' )
-    $search = "<li id='search' class='menu-item menu-item-type-custom'>" . get_search_form(false) ."</li>";
+    $search  = "<li id='search' class='menu-item menu-item-type-custom'>"
+    $search += "<form><div class="form-group"><input type="text" id="st-search-input" class="st-search-input form-control" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;"></div></form>"
+    $search += "</li>";
   return $logo . $menu . $search;
 }
 
@@ -282,6 +284,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
 
 function add_js() {
   wp_register_script('cross-domain', get_stylesheet_directory_uri() . '/assets/scripts/cross-domain.js', array('jquery'), NULL, true);
+  wp_register_script('swiftype', get_stylesheet_directory_uri() . '/assets/scripts/swiftype.js', array('jquery'), NULL, true);
   wp_register_script('vmodal', get_stylesheet_directory_uri() . '/assets/scripts/vmodal.js', array('jquery'), NULL, true);
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('numeral', get_stylesheet_directory_uri() . '/assets/scripts/vendor/numeral.min.js', array('jquery'), NULL, true);
@@ -296,6 +299,7 @@ function add_js() {
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
   wp_enqueue_script('cross-domain');
+  wp_enqueue_script('swiftype');
   wp_enqueue_script('vmodal');
   wp_enqueue_script('numeral');
   wp_enqueue_script('cookies');
@@ -496,11 +500,6 @@ function fix_blog_navs_and_header () {
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if (is_singular('guides') ) {
     remove_action('genesis_after_header', 'genesis_do_nav');
-  //} else if ( is_author() || is_search()) {
-  //  add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_open', 5 );
-  //  add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
-  //  add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
-  //  add_action( 'genesis_before_entry_content', 'genesis_entry_header_markup_close', 15 );
   } else if ( is_singular('api_docs') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
