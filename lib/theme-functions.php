@@ -141,9 +141,7 @@ function add_logo_to_navbar($menu, $args) {
   }
   $logo = ob_get_clean();
   if( $args['theme_location'] == 'blog-secondary-nav-menu' )
-    $search  = "<li id='search' class='menu-item menu-item-type-custom'>"
-    $search += "<form><div class="form-group"><input type="text" id="st-search-input" class="st-search-input form-control" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;"></div></form>"
-    $search += "</li>";
+    $search  = "<li id='search' class='menu-item menu-item-type-custom'>"."<form><div class='form-group'><input type='text' id='st-search-input' class='st-search-input form-control' autocomplete='off' autocorrect='off' autocapitalize='off' style='outline: none;'></div></form>"."</li>";
   return $logo . $menu . $search;
 }
 
@@ -491,6 +489,9 @@ function fix_blog_navs_and_header () {
     } else {
       add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
+    if (is_singular()){
+      add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
+    }
     remove_action('genesis_after_header', 'genesis_do_nav');
   } else if ( is_singular('resources') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
@@ -536,7 +537,7 @@ function fix_blog_navs_and_header () {
   }
 }
 
-function do_post_type($color,$line=true,$latest=false,$temp_title=nil) {
+function do_post_type($color,$line=true,$latest=false,$temp_title=nil,$comments=false) {
   global $post;
   ?>
     <div class="post-type-block center-text">
@@ -546,6 +547,12 @@ function do_post_type($color,$line=true,$latest=false,$temp_title=nil) {
     </div>
     <?php if($line == true){
       ?><div class="post-type-line"></div>
+    <?php }
+    
+    if(is_singular('post')){?>
+      <div class="post-type-block comments center-text">
+        <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/comments.png"></div>
+      </div>
     <?php }
 }
 
@@ -574,6 +581,20 @@ function ads_after_post_content() {
   if( 3 == $loop_counter ) { 
     if(function_exists('drawAdsPlace')) drawAdsPlace(array('id' => 1), true);
   }
+}
+
+function subscribe_after_content() {
+  ?>
+    <div class="subscribe-footer">
+      <p class="h3">Actionable email marketing tips. Once per week.</p>
+      <p>Join 9,500+ other marketers that hear our tips first.</p>
+      <form action='https://app.getvero.com/forms/71789091b958b7b1683654756aca7391' method='post'>
+        <input name='email' type='email' />
+        <input type='submit' value='Subscribe' class="btn btn-primary" />
+        <p class="small">You can unsubscribe at any time.</p>
+      </form>
+    </div>
+  <?php
 }
 
 //

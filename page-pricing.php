@@ -61,7 +61,7 @@ include 'pages-shared/static-header.php';
           <td>$1,799</td>
         </tr>
       </tbody></table>
-      <h3>Need more power?<a href="/high-volume-senders" class="btn btn-primary">See our high volume plans</a></h3>
+      <h3>Need more power?<a href="/email-marketing-demo" class="btn btn-primary">Get a demo of Vero</a></h3>
       <p>Vero users aren't locked into any plan. Scale up to meet demand or scale down to save money.</p>
   </section>
   <section id="right">
