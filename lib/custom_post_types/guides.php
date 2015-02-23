@@ -87,14 +87,7 @@ function custom_header_for_guides () {
 function guides_before_footer () {
     if ( ! is_singular( 'guides' ) )
       return;
-    ?>
-    <div id="guide-footer">
-      <div id="title-well" class="well">
-        <div class='h1'><span class="small h5">Get more great content</span><span class="big">Read our other guides</span></div>
-        <a href="/email-marketing-resources" class="btn btn-success">Check them out &rarr;</a>
-      </div>
-    </div>
-    <?php 
+    echo subscribe_after_content();
     if ($_COOKIE['hide_guide_sidebar'] == 'true') { 
     ?>
       <style>#sidebar{display:none !important;}</style>
