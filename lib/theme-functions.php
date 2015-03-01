@@ -136,11 +136,7 @@ function add_logo_to_navbar($menu, $args) {
     return $menu;
   ob_start();
   echo '<li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>';
-  if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "blog.getvero.com" ) { 
-    echo '<li id="hiring"><a href="https://www.getvero.com/jobs">We are hiring</a></li>';
-  } else {
-    echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Data-driven email marketing software</span></li>';
-  }
+  echo '<li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Data-driven email marketing software</span></li>';
   $logo = ob_get_clean();
   if( $args['theme_location'] == 'blog-secondary-nav-menu' )
     $search  = "<li id='search' class='menu-item menu-item-type-custom'>"."<form><div class='form-group'><input type='text' id='st-search-input' class='st-search-input form-control' autocomplete='off' autocorrect='off' autocapitalize='off' style='outline: none;'></div></form>"."</li>";
