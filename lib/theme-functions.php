@@ -32,18 +32,18 @@ function custom_footer_static() {
     ?>
     <ul class="col">
       <li class="header">Features</li>
-      <li><a href="/features">Start the tour &rarr;</a></li>
-      <li><a href="/triggered-emails">Triggered emails</li>
-      <li><a href="/smart-newsletters">Smart newsletters</li>
-      <li><a href="/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
-      <li><a href="/external-attributes">External Attributes</li>
+      <li><a href="http://www.getvero.com/features">Start the tour &rarr;</a></li>
+      <li><a href="http://www.getvero.com/triggered-emails">Triggered emails</li>
+      <li><a href="http://www.getvero.com/smart-newsletters">Smart newsletters</li>
+      <li><a href="http://www.getvero.com/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
+      <li><a href="http://www.getvero.com/external-attributes">External Attributes</li>
     </ul>
     <ul class="col">
       <li class="header">Resources</li>
-      <li><a href="/pricing">Pricing</a></li>
-      <li><a href="/faq">Help Documentation</a></li>
-      <li><a href="/idea-lab">Email Recipe Lab</a></li>
-      <li><a href="/api">API Reference</a></li>
+      <li><a href="http://www.getvero.com/pricing">Pricing</a></li>
+      <li><a href="http://www.getvero.com/faq">Help Documentation</a></li>
+      <li><a href="http://www.getvero.com/idea-lab">Email Recipe Lab</a></li>
+      <li><a href="http://www.getvero.com/api">API Reference</a></li>
       <li><a href="http://blog.getvero.com" target="_blank">Blog</a></li>
     </ul>
     <ul class="col">
@@ -51,6 +51,8 @@ function custom_footer_static() {
       <!--<li>About</li>-->
       <li><a href="/jobs">Jobs</a></li>
       <li><a href="http://status.getvero.com">Status</a></li>
+      <li><a href="http://www.getvero.com/terms-of-service">Terms of Service</a></li>
+      <li><a href="http://www.getvero.com/privacy">Privacy Policy</a></li>
     </ul>
     <ul class="col">
       <li class="header">Say Hello</li>
@@ -492,15 +494,11 @@ function fix_blog_navs_and_header () {
     if (is_singular()){
       add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     }
-    remove_action('genesis_after_header', 'genesis_do_nav');
   } else if ( is_singular('resources') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
     remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-    remove_action('genesis_after_header', 'genesis_do_nav');
-  } else if (is_singular('guides') ) {
-    remove_action('genesis_after_header', 'genesis_do_nav');
   } else if ( is_singular('api_docs') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -517,9 +515,8 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'do_post_type' );
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     //add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
-    remove_action('genesis_after_header', 'genesis_do_nav');
     //Ads 
-    if (is_singular('campaigns') || is_singular('jobs')){
+    if (is_singular('campaigns') || is_singular('jobs') ){
     } else {
       add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
     }
@@ -586,11 +583,11 @@ function ads_after_post_content() {
 function subscribe_after_content() {
   ?>
     <div class="subscribe-footer">
-      <p class="h3">Actionable email marketing tips. Once per week.</p>
-      <p>Join 9,500+ other marketers that hear our tips first.</p>
+      <p class="h3">Stay informed and inspired.</p>
+      <p>Join 9,500+ marketers who get weekly email marketing tips in their inbox.</p>
       <form action='https://app.getvero.com/forms/71789091b958b7b1683654756aca7391' method='post'>
         <input name='email' type='email' />
-        <input type='submit' value='Subscribe' class="btn btn-primary" />
+        <input type='submit' value='Join Us' class="btn btn-primary" />
         <p class="small">You can unsubscribe at any time.</p>
       </form>
     </div>

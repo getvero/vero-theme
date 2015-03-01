@@ -149,7 +149,7 @@ function genesischild_theme_setup() {
 
 	//Customize blog posts
   add_action( 'genesis_before', 'fix_blog_navs_and_header' );
-  add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
+  //add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
   add_action( 'genesis_entry_footer', 'add_how_to_do_this_area', 14 );
 

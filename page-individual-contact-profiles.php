@@ -49,7 +49,7 @@
     <img src="/wp-content/themes/vero/assets/images/crm/properties.png">
     <div class="text">
       <p>Add and store as many user attributes, actions, tags and segments as you want.</p>
-      <p>The more data you collect, the smarter your emails can be. We don't charge for data storage or API calls at Vero: we want you to have as much data as possible at your fingerprints in order to make the best marketing decisions possible.</p>
+      <p>The more data you collect, the smarter your emails can be. We don't charge for data storage or API calls at Vero: we want you to have as much data as possible at your fingertips in order to make the best marketing decisions possible.</p>
     </div>
   </div>
   </div>

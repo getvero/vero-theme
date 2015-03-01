@@ -51,7 +51,7 @@
   <div class="center-text">
     <h3>A/B test your triggered emails</h3>
     <p>In the past, triggered emails were locked in your code, sent via SMTP to a server somewhere on the interet.</p>
-    <p>Vero empowers your team to mover faster by allowing you to A/B test the triggered emails taht you send – whether it's a receipt email, a new user onboarding sequence or a marketing newsletter.</p>
+    <p>Vero empowers your team to mover faster by allowing you to A/B test the triggered emails that you send – whether it's a receipt email, a new user onboarding sequence or a marketing newsletter.</p>
     <div id="a-and-b">
       <img id="var-line" src="/wp-content/themes/vero/assets/images/triggered/a-and-b.png">
       <img id="var-a" src="/wp-content/themes/vero/assets/images/triggered/a.png">

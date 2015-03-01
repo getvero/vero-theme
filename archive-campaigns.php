@@ -5,6 +5,10 @@ Template Name: Campaigns Archive
 
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
+add_filter('wp_title', 'my_custom_title');
+function my_custom_title($title) {
+    return 'Email Marketing Inspiration | Vero';
+}
 //Force full width layout
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 add_filter( 'body_class', 'metro_add_body_class', 20, 2);
