@@ -73,11 +73,11 @@ function filter_help_docs_link( $link, $post) {
 }
 
 
-function help_docs_layout($opt) {
-if ( 'help_docs' == get_post_type() )
-  $opt = 'full-width-content';
-  return $opt;
-}
+#function help_docs_layout($opt) {
+#if ( 'help_docs' == get_post_type() )
+#  $opt = 'full-width-content';
+#  return $opt;
+#}
 
 #function help_docs_sidebar_logic() {
 #  if ( is_singular('help_docs') ) {
@@ -110,12 +110,34 @@ function add_help_docs_breadcrumbs(){
 }
 
 function add_help_docs_footer(){
+  if(is_singular('help_docs'))
+    return;
   ?>
   <section id="bottom">
     <div class="inner center-text">
       <h1>Need more help?</h1>
       <h2 class="h5">If you can't find the answer you're after, click the button below to shoot our super support team an email.</h2>
       <a href="mailto:support@getvero.com" class="btn btn-large btn-primary">Email Us</a>
+    </div>
+  </section>
+  <?php
+}
+
+
+remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
+add_action( 'genesis_sidebar', 'add_help_docs_page_sidebar' );
+function add_help_docs_page_sidebar(){
+  ?>
+  <section class="widget-first widget widget_text">
+    <div class="widget-first">
+      <h4 class="widget-title widgettitle">Need more help?</h4>
+      <div class="textwidget">
+        <p>We offer free email support for all Vero trial and paying customers.</p>
+        <p>If you have any questions or issues, feel free to get in touch with us via email below.</p>
+        <p>Vero support works from 9am Monday in Sydney (AEST) until 5pm Friday in San Francisco (PST).</p>
+        <p>Please get in touch, we're here to help!</p>
+        <a href="mailto:support@getvero.com" class="btn btn-primary">Email Support</a>
+      </div>
     </div>
   </section>
   <?php

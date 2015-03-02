@@ -54,10 +54,8 @@
         <ul>
           <?php
             //Setup the query to retrieve the posts that exist under each term
-            $posts = get_posts(array(
+            $posts = query_posts(array(
               'post_type' => 'help_docs',
-              'orderby' => 'menu_order',
-              'order' =>  'ASC',
               'taxonomy' => $category->taxonomy,
               'term'  => $category->slug,
               'posts_per_page' => 5

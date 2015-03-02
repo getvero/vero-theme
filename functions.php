@@ -20,6 +20,9 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer_static' );
 
+  //Move
+  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
+
   //Drafts in main
   add_filter('page_attributes_dropdown_pages_args', 'my_attributes_dropdown_pages_args', 1, 1);
 

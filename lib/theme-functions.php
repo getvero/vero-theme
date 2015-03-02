@@ -590,6 +590,18 @@ function subscribe_after_content() {
   <?php
 }
 
+
+//
+// Help docs categories
+//--------
+function set_posts_per_docs_category( $query ) {
+  if (!is_main_query() || !is_tax('help_docs_categories') )
+    return;
+
+  $query->set( 'posts_per_page', -1 );
+  return $query;
+}
+
 //
 // Add and customise blog home page
 //----------------------
