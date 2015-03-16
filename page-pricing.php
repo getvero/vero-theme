@@ -1,4 +1,5 @@
 <?php 
+
 add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
@@ -11,125 +12,134 @@ include 'pages-shared/static-header.php';
 ?>
 <div class="inner">
   <div id="top">
-    <h1 class="center-text">Send smarter emails, <br>at a great price.</h1>
+    <h1 class="center-text">Communicate better and grow your business.</h1>
+    <h2 class="center-text">Join 300+ other businesses that send smarter emails and increase engagement.</h2>
   </div>
-  <section id="left">
-      <table><tbody>
-        <tr>
-          <th>Emails / month</th>
-          <th>Subscribers</th>
-          <th>Price / month</th>
-        </tr>
-        <tr>
-          <td>25,000</td>
-          <td>12,500</td>
-          <td>$99</td>
-        </tr>
-        <tr>
-          <td>175,000</td>
-          <td>50,000</td>
-          <td>$149</td>
-        </tr>
-        <tr>
-          <td>250,000</td>
-          <td>100,000</td>
-          <td>$299</td>
-        </tr>
-        <tr>
-          <td>400,000</td>
-          <td>175,000</td>
-          <td>$549</td>
-        </tr>
-        <tr>
-          <td>700,000</td>
-          <td>300,000</td>
-          <td>$749</td>
-        </tr>
-        <tr>
-          <td>1,000,000</td>
-          <td>500,000</td>
-          <td>$1,099</td>
-        </tr>
-        <tr>
-          <td>1,500,000</td>
-          <td>750,000</td>
-          <td>$1,499</td>
-        </tr>
-        <tr>
-          <td>2,500,000</td>
-          <td>1,250,000</td>
-          <td>$1,799</td>
-        </tr>
-      </tbody></table>
-      <h3>Need more power?<a href="/email-marketing-demo" class="btn btn-primary">Get a demo of Vero</a></h3>
-      <p>Vero users aren't locked into any plan. Scale up to meet demand or scale down to save money.</p>
+  <section id="pricing">
+    <ul class="list-inline list-unstyled">
+      <li class="well">
+        <h5 class="light">Light</h5>
+        <p class="price">$99<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>25,000 subscribers</li>
+          <li>75,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email support</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+        </ul>
+        <p>
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
+      </li>
+      <li class="well">
+        <div class="recommended">Recommended</div>
+        <h5 class="growth">Growth</h5>
+        <p class="price">$249<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>100,000 subscribers</li>
+          <li>250,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email support</li>
+          <li>Unlimited environments</li>
+          <li>A/B testing</li>
+          <li>&nbsp;</li>
+        </ul>
+        <p>
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
+      </li>
+      <li class="well">
+        <h5 class="pro">PRO</h5>
+        <p class="price">$549<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>200,000 subscribers</li>
+          <li>500,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email support</li>
+          <li>Unlimited environments</li>
+          <li>A/B testing</li>
+          <li>Phone support</li>
+        </ul>
+        <p>
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
+      </li>
+      <li class="well enterprise">
+        <h5>Enterprise</h5>
+        <p class="price">$1,049+<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>Unlimited subscribers</li>
+          <li>Unlimited emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Unlimited environments</li>
+          <li>A/B testing</li>
+          <li>24/7 phone support</li>
+          <li><em>External Attributes</em> access</li>
+        </ul>
+        <p>
+          <a href="/email-marketing-demo" class="btn btn-primary">Get a demo</a>
+        </p>
+      </li>
   </section>
-  <section id="right">
-    <div class="color">
-      <p>Start a free trial, no credit card required.</p>
-      <div class="deco"></div>
 
-      <form accept-charset="UTF-8" action="https://app.getvero.com/users" method="post"><div style="margin:0;padding:0;display:inline"><input autocomplete="off" name="utf8" type="hidden" value="✓"><input autocomplete="off" name="authenticity_token" type="hidden" value="2omPCu2QyiGxAC+pIz9v6aml1dClsIAy0eC7kQrTVKs="></div>
-      <div class="form-group">
-        <label>Name</label>
-        <input autocomplete="off" autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="Tyrion Lannister" type="text">
-      </div>
+  <section id="trusted-by">
+    <div class="inner center-text">
+      <h4>Trusted by market-leading companies like these</h4>
+      <img src="/wp-content/themes/vero/assets/images/customers/all-grey.png">
+    </div>
+  </section>
 
-      <div class="form-group">
-        <label>Email</label>
-        <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="tyrion.lannister@casterlyrock.com" type="text" value="">
-      </div>
+  <section id="faq">
+    <div class="left">
+      <h3>What are projects?</h3>
+      <p>
+        Projects are essentially Vero sub-accounts. Each project has a separate database, API keys and campaigns. In other words, it’s like having two Vero accounts in one.
+      </p>
+      <p>
+        You can have up to three projects on our base plan, and many more on our higher plans. Every account gets a free ’Test’ project: designed to make it safe for you to test your campaign ideas without emailing any real customers.
+      </p>
+      <p>
+        If you’re an agency, you may also use projects to manage multiple clients.
+      </p>
 
-      <div class="form-group">
-        <label>Password</label>
-        <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (at least one upper-case, one lower-case, one number)" type="password">
-      </div>
+      <h3>What happens if I go over my subscription limit?</h3>
+      <p>
+        Vero will send you an email when you cross the subscriber or email thresholds over a 30-day period. You will automatically be upgraded to the appropriate plan.
+      </p>
+      <p>
+        You can downgrade at any time and, if your usage fluctuates, can minimize your spend each and every month.
+      </p>
 
-      <div class="form-group">
-        <label>How many contacts do you have?</label>
-        <select class="form-control" id="user_password" name="user[customers]" >
-          <option value="1000">0 - 1,000</option>
-          <option value="50000">1,000 - 50,000</option>
-          <option value="100000">50,000 - 100,000</option>
-          <option value="1000000">100,000 - 1,000,000</option>
-          <option value="1000001">Over 1,000,000</option>
-        </select>
-      </div>
+      <h3>Does the data I send Vero belong to me?</h3>
+      <p>
+        Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored  as required to deliver the Vero service you require. At any time you can export or request to remove your data – it is entirely yours.
+      </p>
+      <p>
+        Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for full details.
+      </p>
+    </div>
+    <div class="right">
+      <h3>What happens if I pay annually?</h3>
+      <p>
+        By choosing to pay annually,  you get two months of Vero free each year.
+      </p>
+      <p>
+        Paying annually also means your email limits are spread out across the year. For example, if you are on our $149/month plan and can send up to 175,000 emails per month, on our annual plan you can send up to 2,100,000 emails per year. This means that seasonal spikes in email volume will not require you to go up a plan, saving you even more.
+      </p>
 
-      <div class="form-group">
-        <label>What best describes you?</label>
-        <select class="form-control" id="user_password" name="user[industry]" >
-          <option>B2B online software</option>
-          <option>eCommerce</option>
-          <option>Consumer online products (gaming, travel, etc.)</option>
-          <option>Mobile app</option>
-          <option>Information marketer</option>
-          <option>Media</option>
-          <option>Other</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <input class="btn" name="commit" type="submit" value="Get started now">
-      </div>
-      </form>
-
-      <div id="happy">
-        <img src="/wp-content/themes/vero/assets/images/pricing/badge.png"/><h5>Risk-free!</h5> <p>If you don't love Vero we'll refund you, no questions asked.</p>
-      </div>
-
-      <div id="customers" class="center-text">
-        <h4 class="center-text">Join 300+ happy customers sending more than 50 million emails every month.</h4>
-        <li><img src="/wp-content/themes/vero/assets/images/pricing/rackspace.png"></li>
-        <li><img src="/wp-content/themes/vero/assets/images/pricing/qualaroo.png"></li>
-        <li><img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png"></li>
-        <li><img src="/wp-content/themes/vero/assets/images/pricing/pipedrivelogo.png"></li>
-      </div>
-      <div class="separator"></div>
-      <div id="testimonial">
-        <p>"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</p>
-        <p class="who small">
-        <img src="/wp-content/themes/vero/assets/images/pricing/alaister.png"> Alaister Low<br>Director of Customer Experience, Freelancer</p>
+      <h3>How do we handle support?</h3>
+      <p>
+        We use email as our primary support channel. Our aim is to respond to all tickets within a few hours and work with you closely on any specific or technical issues.
+      </p> 
+      <p>
+        We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week. If you think we’ve done a great job, or if we could do better next time, please email us an let us know.
+      </p>
     </div>
   </section>
 </div>
