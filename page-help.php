@@ -23,12 +23,12 @@
     <?php
   }
 
-  add_action( 'genesis_before_loop', 'add_top', 8 );
+  add_action( 'genesis_after_header', 'add_top' );
   function add_top() {
     ?>
     <section id="top">
       <div class="inner center-text">
-        <h1>Questions? Get help here.</h1>
+        <h1>Questions? Search our help guides.</h1>
         <form>
           <div class="form-group">
             <input type="text" id="st-search-input" class="st-search-input form-control" />
@@ -40,8 +40,54 @@
     <?php
   }
 
+  add_action( 'genesis_after_header', 'add_get_started' );
+  function add_get_started() {
+    ?>
+    <section id="get-started">
+      <div class="inner center-text">
+        <h1>Getting started? Easy as 1, 2, 3</h1>
+        <ul id="videos" class="list-unstyled list-inline">
+          <li class="center-text">
+            <h3>
+              <span class="number">1</span>
+              Add your customers
+            </h3>
+            <a class="video one" target="blank" href="//fast.wistia.net/embed/iframe/n98c3gk441?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+              <img src="/wp-content/themes/vero/assets/images/help/play.png" class="play">
+            </a>
+            <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+            <p>Know which customers are on your website when they login, signup or subscribe with our Javascript library.</p>
+          </li>
+          <li class="center-text">
+            <h3>
+              <span class="number">2</span>
+              Track customer actions
+            </h3>
+            <a class="video two" target="blank" href="//fast.wistia.net/embed/iframe/uruaowfxro?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+              <img src="/wp-content/themes/vero/assets/images/help/play-white.png" class="play">
+            </a>
+            <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+            <p>Track import customer lifecycle events on your website using our simple Javascript library.</p>
+          </li>
+          <li class="center-text">
+            <h3>
+              <span class="number">3</span>
+              Your first triggered email
+            </h3>
+            <a class="video three" target="blank" href="//fast.wistia.net/embed/iframe/vlcykly3p4?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+              <img src="/wp-content/themes/vero/assets/images/help/play.png" class="play">
+            </a>
+            <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+            <p>Learn how to send your first triggered behavioral email campaign using Vero's workflows.</p>
+          </li>
+      </div>
+    </section>
+    <?php
+  }
+
   add_action( 'genesis_loop', 'help_docs_archive_loop' );
   function help_docs_archive_loop() {
+    ?><h1 class="category-header center-text">Everything else you need</h1><?php
     //Retrieve custom taxonomy terms using get_terms and the custom post type.
     $categories = get_terms('help_docs_categories');
     echo "<section id='categories'>";

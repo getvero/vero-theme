@@ -16,7 +16,7 @@ include 'pages-shared/static-header.php';
       <h1>Thanks!</h1>
       <h2>Hang tight, one of our Customer Success engineers will be in touch soon.</h2>
     <?php } else { ?>
-    <h1>Get a personal demo of the future of email.</h1>
+    <h1>Send a lot of email? Get a personal demo of the future of email.</h1>
     <h2>One of our Customer Success engineers will get in touch and show you around Vero, so you can see the full power of behavioral email.</h2>
     <form id="high-volume-sender-form" action='https://app.getvero.com/forms/3c6371cb540e6fb7d22e53a0fd2adaa1' method='post'>
       <div class="half">
@@ -26,8 +26,20 @@ include 'pages-shared/static-header.php';
         <div class="form-group"><label>Company name:</label><input id="sender_company_name" class="form-control" name="event[company_name]" type="text" /></div>
       </div>
       <div class="half">
-        <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="event[subscribers]"><option value="25000">Less than 25,000 subscribers</option><option value="100000">25,000 to 100,000 subscribers</option><option value="250000">100,000 - 250,000 subscribers</option><option value="500000">250,000 - 500,000 subscribers</option><option value="1000000">500,000 - 1,000,000 subscribers</option><option value="5000000">1,000,000 - 5,000,000 subscribers</option><option value="10000000">5,000,000 - 10,000,000 subscribers</option><option value="more">10,000,000+ subscribers</option></select></div>
-        <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="event[monthly_emails]"><option value="30000">Less than 30,000 emails</option><option value="100000">30,000 - 100,000 emails</option><option value="250000">100,000 - 250,000 emails</option><option value="1000000">250,000 - 1,000,000 emails</option><option value="1000000">500,000 - 1,000,000 emails</option><option value="1000000">1,000,000 - 5,000,000 emails</option><option value="10000000">5,000,000 - 10,000,000 emails</option><option value="50000000">10,000,000 - 50,000,000 emails</option><option value="more">50,000,000+ emails</option></select></div>
+        <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="event[subscribers]">
+          <option value="250000">100,000 - 250,000 subscribers</option>
+          <option value="500000">250,000 - 500,000 subscribers</option>
+          <option value="1000000">500,000 - 1,000,000 subscribers</option>
+          <option value="5000000">1,000,000 - 5,000,000 subscribers</option>
+          <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
+          <option value="more">10,000,000+ subscribers</option></select></div>
+        <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="event[monthly_emails]">
+          <option value="1000000">250,000 - 1,000,000 emails</option>
+          <option value="1000000">500,000 - 1,000,000 emails</option>
+          <option value="1000000">1,000,000 - 5,000,000 emails</option>
+          <option value="10000000">5,000,000 - 10,000,000 emails</option>
+          <option value="50000000">10,000,000 - 50,000,000 emails</option>
+          <option value="more">50,000,000+ emails</option></select></div>
         <div class="form-group">
           <label>Preferred contact method:</label><br>
           <input id="email" checked="checked" name="event[contact_method]" type="radio" value="email" />
