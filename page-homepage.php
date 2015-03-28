@@ -75,7 +75,7 @@
 <section id="trusted-by">
   <div class="inner center-text">
     <h4>Trusted by market-leading companies like these</h4>
-    <img src="/wp-content/themes/vero/assets/images/customers/all-grey.png">
+    <img src="/wp-content/themes/vero/assets/images/customers/all-grey-more.png">
   </div>
 </section>
 <section id="features" class="center-text">

@@ -26,6 +26,14 @@ function custom_load_custom_style_sheet() {
   }
 }
 
+function add_popup_area() {
+  ?>
+    <div id='popup-area' style="display:none;position:fixed;left:0;bottom:-150px;width:100%;height:150px;background:blue;color:white;" ng-app="popupApp">
+      <div ng-view>
+      </div>
+    </div>
+  <?php
+}
 
 function custom_footer_static() {
   if( !is_singular('api_docs') ){
@@ -49,7 +57,7 @@ function custom_footer_static() {
     <ul class="col">
       <li class="header">Company</li>
       <!--<li>About</li>-->
-      <li><a href="/jobs">Jobs</a></li>
+      <li><a href="http://www.getvero.com/jobs">Jobs</a></li>
       <li><a href="http://status.getvero.com">Status</a></li>
       <li><a href="http://www.getvero.com/terms-of-service">Terms of Service</a></li>
       <li><a href="http://www.getvero.com/privacy">Privacy Policy</a></li>
@@ -57,7 +65,7 @@ function custom_footer_static() {
     <ul class="col">
       <li class="header">Say Hello</li>
       <li><a href="mailto:support@getvero.com">Email Support</a></li>
-      <li><a href="email-marketing-demo">Contact Sales</a></li>
+      <li><a href="http://www.getvero.com/email-marketing-demo">Contact Sales</a></li>
       <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
     </ul>
@@ -294,6 +302,16 @@ function add_js() {
   wp_register_script('dots', get_stylesheet_directory_uri() . '/assets/scripts/dots.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
+
+  //wp_register_script('angular', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js', array('jquery'), NULL, true);
+  //wp_register_script('angular-route', 'https://code.angularjs.org/1.2.22/angular-route.min.js', array('jquery'), NULL, true);
+  //wp_register_script('angular-animate', 'https://code.angularjs.org/1.2.22/angular-animate.min.js', array('jquery'), NULL, true);
+  //wp_register_script('firebase', 'https://cdn.firebase.com/js/client/2.2.2/firebase.js', array('jquery'), NULL, true);
+  //wp_register_script('angular-fire', 'https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js', array('jquery'), NULL, true);
+  
+  wp_register_script('vero-blog-angular', get_stylesheet_directory_uri() . '/assets/scripts/app.js', array('jquery'), NULL, true);
+  wp_register_script('vero-blog-angular-any', get_stylesheet_directory_uri() . '/assets/scripts/angular/any.js', array('jquery'), NULL, true);
+  
   wp_enqueue_script('cross-domain');
   wp_enqueue_script('swiftype');
   wp_enqueue_script('vmodal');
@@ -306,6 +324,15 @@ function add_js() {
   wp_enqueue_script('draggable');
   wp_enqueue_script('scrollmagic');
   wp_enqueue_script('sticky');
+
+  //wp_enqueue_script('angular');
+  //wp_enqueue_script('angular-route');
+  //wp_enqueue_script('angular-animate');
+  //wp_enqueue_script('firebase');
+  //wp_enqueue_script('angular-fire');
+  //wp_enqueue_script('vero-blog-angular-any');
+  //wp_enqueue_script('vero-blog-angular');
+  
   if ( (is_front_page() || is_page('high-volume-senders') )  && ($_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "www.getvero.com" || $_SERVER["HTTP_HOST"] == "localhost:8888" )) {
     wp_enqueue_script('dots');
   }

@@ -55,7 +55,7 @@ function custom_do_b2b_loop() {
       <div class="wrap">
         <div class="left">
           <h3>B2B Software</h3>
-          <p>Vero allows you to send welcome campaigns, inactivity emails, weekly newsletters for your SaaS or other B2B software with ease.</p><p>Each of the campaign templates provided here will help you target the <strong>right customers</strong> and are best-of-breed, taken directly from Vero's own experiements or shared directly by our customers.</p>
+          <p>Vero allows you to send welcome campaigns, inactivity emails, weekly newsletters for your SaaS or other B2B software with ease.</p><p>Each of the campaign templates provided here will help you target the <strong>right customers</strong> and are best-of-breed, taken directly from Vero's own experiments or shared directly by our customers.</p>
         </div>
         <div class="right">
   <?php

@@ -127,6 +127,8 @@ function add_help_docs_footer(){
 remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
 add_action( 'genesis_sidebar', 'add_help_docs_page_sidebar' );
 function add_help_docs_page_sidebar(){
+  if(is_singular('api_docs'))
+    return;
   ?>
   <section class="widget-first widget widget_text">
     <div class="widget-first">

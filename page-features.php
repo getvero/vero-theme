@@ -32,13 +32,13 @@
     </div>
     <div class="description" id="segments-description">
       <h3>Segment without writing code.</h3>
-      <p>Using Vero you can build all of your campapign logic using our great UI. No more writing code, massaging Excel spreadsheets or running SQL queries to find the right customers to email – Vero does all this for you, enabling you to work smarter and faster.</p>
+      <p>Using Vero you can build all of your campaign logic using our great UI. No more writing code, massaging Excel spreadsheets or running SQL queries to find the right customers to email – Vero does all this for you, enabling you to work smarter and faster.</p>
       <p><a href="/individual-contact-profiles" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p>  
     </div>
     <div class="description" id="timing-description">
       <h3>Trigger automated messages or send a newsletter today.</h3>
       <p>Setup automated emails, drip campaigns, and workflows to send individual contacts the right message at exactly the right time. Vero works while you sleep, so the right customers always get the right message.</p>
-      <p><a href="/targeted-emails" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
+      <p><a href="/triggered-emails" class="btn btn-mini btn-primary btn-outline">Read more &rarr;</a></p> 
     </div>
     <div class="description" id="dynamic-description">
       <h3>Use your data with dynamic fields.</h3>

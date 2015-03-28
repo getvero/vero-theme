@@ -9,6 +9,11 @@
     return $classes;  
   }
 
+  add_filter('wp_title', 'my_custom_title');
+  function my_custom_title($title) {
+      return 'Vero Customer Support and Help Desk';
+  }
+
   add_action( 'genesis_before_footer', 'add_swiftype');
   function add_swiftype() {
     ?>
@@ -52,7 +57,7 @@
               <span class="number">1</span>
               Add your customers
             </h3>
-            <a class="video one" target="blank" href="//fast.wistia.net/embed/iframe/n98c3gk441?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+            <a class="video one" target="blank" href="https://getvero.wistia.com/medias/vlcykly3p4" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
               <img src="/wp-content/themes/vero/assets/images/help/play.png" class="play">
             </a>
             <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
@@ -63,7 +68,7 @@
               <span class="number">2</span>
               Track customer actions
             </h3>
-            <a class="video two" target="blank" href="//fast.wistia.net/embed/iframe/uruaowfxro?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+            <a class="video two" target="blank" href="https://getvero.wistia.com/medias/uruaowfxro" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
               <img src="/wp-content/themes/vero/assets/images/help/play-white.png" class="play">
             </a>
             <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
@@ -74,7 +79,7 @@
               <span class="number">3</span>
               Your first triggered email
             </h3>
-            <a class="video three" target="blank" href="//fast.wistia.net/embed/iframe/vlcykly3p4?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
+            <a class="video three" target="blank" href="https://getvero.wistia.com/medias/n98c3gk441" class="wistia-popover[height=360,playerColor=7b796a,width=640]">
               <img src="/wp-content/themes/vero/assets/images/help/play.png" class="play">
             </a>
             <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>

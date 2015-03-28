@@ -43,9 +43,9 @@ include 'pages-shared/static-header.php';
           <li>250,000 emails</li>
         </ul>
         <ul class="list-unstyled">
+          <li>A/B testing</li>
           <li>Email support</li>
           <li>Unlimited environments</li>
-          <li>A/B testing</li>
           <li>&nbsp;</li>
         </ul>
         <p>
@@ -60,9 +60,9 @@ include 'pages-shared/static-header.php';
           <li>500,000 emails</li>
         </ul>
         <ul class="list-unstyled">
+          <li>A/B testing</li>
           <li>Email support</li>
           <li>Unlimited environments</li>
-          <li>A/B testing</li>
           <li>Phone support</li>
         </ul>
         <p>
@@ -77,9 +77,9 @@ include 'pages-shared/static-header.php';
           <li>Unlimited emails</li>
         </ul>
         <ul class="list-unstyled">
-          <li>Unlimited environments</li>
           <li>A/B testing</li>
-          <li>24/7 phone support</li>
+          <li>Unlimited environments</li>
+          <li>Success Manager</li>
           <li><em>External Attributes</em> access</li>
         </ul>
         <p>
@@ -88,10 +88,14 @@ include 'pages-shared/static-header.php';
       </li>
   </section>
 
+  <section id="annual">
+    <p><strong>Go annual</strong> and get two months free. Our annual plans include a two month (or 15%) discount.</p>
+  </section>
+  
   <section id="trusted-by">
     <div class="inner center-text">
       <h4>Trusted by market-leading companies like these</h4>
-      <img src="/wp-content/themes/vero/assets/images/customers/all-grey.png">
+      <img src="/wp-content/themes/vero/assets/images/customers/all-grey-more.png">
     </div>
   </section>
 
