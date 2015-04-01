@@ -72,24 +72,6 @@ function filter_help_docs_link( $link, $post) {
     return $link;
 }
 
-
-#function help_docs_layout($opt) {
-#if ( 'help_docs' == get_post_type() )
-#  $opt = 'full-width-content';
-#  return $opt;
-#}
-
-#function help_docs_sidebar_logic() {
-#  if ( is_singular('help_docs') ) {
-#    remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
-#    add_action( 'genesis_sidebar', 'get_help_docs_sidebar' );
-#  } 
-#}
-#
-#function get_help_docs_sidebar() {
-#  genesis_widget_area( 'help_docs_sidebar' );
-#}
-
 function add_help_docs_breadcrumbs(){
   global $post;
   $terms = wp_get_post_terms( $post->ID, 'help_docs_categories'); 
@@ -122,13 +104,25 @@ function add_help_docs_footer(){
   </section>
   <?php
 }
+/** Force full width layout on single posts only*/
+add_filter( 'genesis_pre_get_option_site_layout', 'help_docs_layout' );
+function help_docs_layout( $opt ) {
+if (is_singular('help_docs')) {
+    $opt = 'content-sidebar'; 
+    return $opt;
+ 
+    } 
+}
 
+add_action('get_header','change_help_docs_sidebar');
+function change_help_docs_sidebar() {
+  if (is_singular('help_docs')) { 
+    remove_action( 'genesis_sidebar', 'genesis_do_sidebar' ); 
+    add_action( 'genesis_sidebar', 'add_help_docs_page_sidebar' ); 
+  }
+}
 
-remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
-add_action( 'genesis_sidebar', 'add_help_docs_page_sidebar' );
 function add_help_docs_page_sidebar(){
-  if(is_singular('api_docs'))
-    return;
   ?>
   <section class="widget-first widget widget_text">
     <div class="widget-first">
