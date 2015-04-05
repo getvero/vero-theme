@@ -67,7 +67,7 @@
       </div>-->
     </div>
 
-    <p class="bottom"><a href="/features" class="btn btn-warning">Learn more about Vero</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white">Create my free account</a></p>
+    <p class="bottom"><a href="/features" class="btn btn-warning btn-large">Learn more about Vero</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white btn-large">Create my free account</a></p>
   </div>
   <div id="scroll-down">⌄</div>
 </section>
@@ -100,36 +100,41 @@
       </li>
     </ul>
     <p>
-      <a href="/features" class="btn btn-warning">Start the tour &rarr;</a>
+      <a href="/features" class="btn btn-warning btn-large">Start the tour &rarr;</a>
     </p>
   </div>
 </section>
-<!--<section id="usual-stuff">
-  <div class="inner">
-    <h2 class="center-text">...plus, you can do all the usual stuff too.</h2>
-    <ul class="list-unstyled list-inline">
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/mail.png" />Send direct newsletters</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/person.png" />Invite team members</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/people.png" />Import users via CSV</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/stocks.png" />Export analytics data</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/google.png" />Integrate with Google UTM</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/readability.png" />Send emails from your own domain</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/mouse-pointer.png" />See open, click, unsubscribe, bounce and other statistics</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/screen.png" />Import your own HTML templates and edit via WYSIWYG editor</li>
-      <li><img src="/wp-content/themes/vero/assets/images/features/usual/hammer.png" />A/B test your email campaigns</li>
-    </ul>
+<section id="stories">
+  <h2 class="center-text">See how businesses around the world use Vero to grow</h2>
+  <h3 class="center-text">We asked some of our best customers how Vero has helped their businesses make more money</h3>
+  <div>
+    <div class="story wooga">
+      <a href="">
+        <p>Learn how Wooga measure complex campaigns with ease.</p>
+        <span class="btn btn-primary">Read success story</span>
+      </a>
+    </div>
+    <div class="story sop">
+      <a href="">
+        <p>Learn how Shoes of Prey send truly personalised content each and every time</p>
+        <span class="btn btn-primary">Read success story</span>
+      </a>
+    </div>
+    <div class="story bugherd">
+      <a href="">
+        <p>Learn how Bugherd increased their activation rates by 35%</p>
+        <span class="btn btn-primary">Read success story</span>
+      </a>
+    </div>
   </div>
-</section>-->
+</section>
 <section id="reliable" class="reliable">
   <canvas id="dots"></canvas>
   <div class="inner center-text">
-    <p class="h1">Billions of data points.<br>Millions of emails.<br>Awesome support.</p>
+    <p class="h1">Rock-solid Infrastructure.</h1>
+    <p class="h3">Billions of data points. Millions of emails. Awesome support.</p>
     <p>Vero has tracked billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
     <p>Our product-first approach is backed by fast, practical support from experienced engineers and marketers to help you deliver emails that convert.</p>
-    <p class="quote">"Vero gives us an easy way to manage all our emails in one place. All we needed from design to stakeholders reports are available with a few clicks."</p>
-    <p class="who h5">
-      <img src="/wp-content/themes/vero/assets/images/pricing/freelancer.png">
-    </p>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
