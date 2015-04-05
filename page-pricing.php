@@ -12,44 +12,85 @@ include 'pages-shared/static-header.php';
 ?>
 <div class="inner">
   <div id="top">
-    <h1 class="center-text">Pricing that scales to suit your business.</h1>
-    <h2 class="center-text">Join 300+ other businesses that communicate better to grow their businesses.</h2>
-    <div class="center-text">
-      <a href="https://app.getvero.com/signup" class="btn btn-large btn-warning">Start a free trial</a>
-      <p class="small">14 day free trial • No credit card required</p>
-    </div>
+    <h1 class="center-text">Communicate better and grow your business.</h1>
+    <h2 class="center-text">Join 300+ other businesses that send smarter emails and increase engagement.</h2>
   </div>
   <section id="pricing">
     <ul class="list-inline list-unstyled">
       <li class="well">
-        <img src="/wp-content/themes/vero/assets/images/pricing/entrepreneur.png">
-        <h3 class="light">Entrepreneur</h3>
+        <h5 class="light">Light</h5>
+        <p class="price">$99<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>25,000 subscribers</li>
+          <li>75,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email support</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+        </ul>
         <p>
-          <a href="/pricing/entrepreneur" class="btn btn-primary">Learn more</a>
-          Understand your customer from the ground up. Capture customer data and automate emails from the beginning to make smart decisions.
-          </p>
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
       </li>
       <li class="well">
-        <img src="/wp-content/themes/vero/assets/images/pricing/growth.png">
-        <h3 class="light">Growth</h3>
+        <div class="recommended">Recommended</div>
+        <h5 class="growth">Growth</h5>
+        <p class="price">$249<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>100,000 subscribers</li>
+          <li>250,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>A/B testing</li>
+          <li>Email support</li>
+          <li>Unlimited environments</li>
+          <li>&nbsp;</li>
+        </ul>
         <p>
-          <a href="/pricing/growth" class="btn btn-primary">Learn more</a>
-          Graduate from list-based email and ensure your customers get the right message. Run tests and do analysis on your to increase your growth. 
-          </p>
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
       </li>
       <li class="well">
-        <img src="/wp-content/themes/vero/assets/images/pricing/enterprise.png">
-        <h3 class="light">Enterprise</h3>
+        <h5 class="pro">PRO</h5>
+        <p class="price">$549<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>200,000 subscribers</li>
+          <li>500,000 emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>A/B testing</li>
+          <li>Email support</li>
+          <li>Unlimited environments</li>
+          <li>Phone support</li>
+        </ul>
         <p>
-          <a href="/pricing/enterprise" class="btn btn-primary">Learn more</a>
-          Store all of your actionable customer data in one place and co-ordinate Marketing and IT to implement and automate the personalised emails you want to.
+          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
+        </p>
+      </li>
+      <li class="well enterprise">
+        <h5>Enterprise</h5>
+        <p class="price">$1,049+<span>/month</span></p>
+        <ul class="limits list-unstyled">
+          <li>Unlimited subscribers</li>
+          <li>Unlimited emails</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>A/B testing</li>
+          <li>Unlimited environments</li>
+          <li>Success Manager</li>
+          <li><em>External Attributes</em> access</li>
+        </ul>
+        <p>
+          <a href="/email-marketing-demo" class="btn btn-primary">Get a demo</a>
         </p>
       </li>
   </section>
 
-  <!--<section id="annual">
+  <section id="annual">
     <p><strong>Go annual</strong> and get two months free. Our annual plans include a two month (or 15%) discount.</p>
-  </section>-->
+  </section>
   
   <section id="trusted-by">
     <div class="inner center-text">
