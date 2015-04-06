@@ -4,7 +4,7 @@ add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
-  $classes[] = 'pricing';
+  $classes[] = 'pricing old-pricing';
   return $classes;  
 }
 
