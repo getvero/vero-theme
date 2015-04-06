@@ -109,19 +109,19 @@
   <h3 class="center-text">We asked some of our best customers how Vero has helped their businesses make more money</h3>
   <div>
     <div class="story wooga">
-      <a href="">
+      <a href="/case-studies/wooga">
         <p>Learn how Wooga measure complex campaigns with ease.</p>
         <span class="btn btn-primary">Read success story</span>
       </a>
     </div>
     <div class="story sop">
-      <a href="">
+      <a href="/case-studies/shoes-of-prey">
         <p>Learn how Shoes of Prey send truly personalised content each and every time</p>
         <span class="btn btn-primary">Read success story</span>
       </a>
     </div>
     <div class="story bugherd">
-      <a href="">
+      <a href="/case-studies/bugherd">
         <p>Learn how Bugherd increased their activation rates by 35%</p>
         <span class="btn btn-primary">Read success story</span>
       </a>
