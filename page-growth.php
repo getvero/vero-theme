@@ -68,6 +68,9 @@
       <p class="h5">$749/month</p>
       <p class="includes">200,000 contacts<br/>750,000 emails/month</p>
       <p class="over">Need more? Check our <a href="/pricing/enterprise">Enterprise</a> plans.</p>
+      
+      <br/>
+      <a href="https://app.getvero.com/signup" class="btn btn-large btn-warning">Start a free trial</a>
     </div>
   </div>
 </section>

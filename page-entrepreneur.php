@@ -50,6 +50,10 @@
       <li>Custom domain setup</li>
       <li>Multiple team logins</li>
       <li>Multiple environments</li>
+      </ul>
+      <br/>
+      <a href="https://app.getvero.com/signup" class="btn btn-large btn-warning">Start a free trial</a>
+
     </div>
   </div>
 </section>
