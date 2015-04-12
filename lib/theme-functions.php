@@ -302,6 +302,7 @@ function add_js() {
   wp_register_script('dots', get_stylesheet_directory_uri() . '/assets/scripts/dots.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
+  wp_register_script('responsive-menu', get_stylesheet_directory_uri() . '/assets/scripts/responsive-menu.js', array('jquery'), NULL, true);
 
   //wp_register_script('angular', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js', array('jquery'), NULL, true);
   //wp_register_script('angular-route', 'https://code.angularjs.org/1.2.22/angular-route.min.js', array('jquery'), NULL, true);
@@ -324,6 +325,7 @@ function add_js() {
   wp_enqueue_script('draggable');
   wp_enqueue_script('scrollmagic');
   wp_enqueue_script('sticky');
+  wp_enqueue_script('responsive-menu');
 
   //wp_enqueue_script('angular');
   //wp_enqueue_script('angular-route');
