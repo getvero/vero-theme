@@ -517,6 +517,7 @@ function fix_blog_navs_and_header () {
       add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
     if (is_singular()){
+      add_action( 'genesis_before_content', 'cta_before_content' );
       add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     }
   } else if ( is_singular('resources') ) {
@@ -615,6 +616,34 @@ function subscribe_after_content() {
         <input type='submit' value='Join Us' class="btn btn-primary" />
         <p class="small">You can unsubscribe at any time.</p>
       </form>
+    </div>
+  <?php
+}
+
+function cta_before_content() {
+  ?>
+    <div class="cta-header">
+      <p class="h3">Send emails to the right customer, at the right time.</p>
+      <form action='https://app.getvero.com/users' method='post'>
+        <div class="control-group">
+          <label>Your work email</label>
+          <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="tyrion.lannister@casterlyrock.com" type="text" value="">
+        </div>
+        <div class="control-group">
+          <label>Choose a password</label>
+          <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (must include one upper-case, one lower-case, one number)" type="password">
+        </div>
+        <input type='submit' value='Start a free trial' class="btn btn-primary" />
+      </form>
+      <div class="right">
+        <p>Every one of your customers and subscribers has a unique profile in Vero. Collect data, track what they do and segment your customers to send newsletters or automated emails that improve engagement.</p>
+        <p>Start a 14-day free trial and check out Vero's:</p>
+        <ul>
+          <li>Automated email workflows and drip campaigns</li>
+          <li>Real-time segment builder</li>
+          <li>A/B testing of email series</li>
+        </ul>
+      </div>
     </div>
   <?php
 }
