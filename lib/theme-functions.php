@@ -623,7 +623,7 @@ function subscribe_after_content() {
 function cta_before_content() {
   ?>
     <div class="cta-header">
-      <p class="h3">Send emails to the right customer, at the right time.</p>
+      <p class="h3">Automate emails to the right customer, at the right time.</p>
       <form action='https://app.getvero.com/users' method='post'>
         <div class="control-group">
           <label>Your work email</label>
@@ -636,7 +636,7 @@ function cta_before_content() {
         <input type='submit' value='Start a free trial' class="btn btn-primary" />
       </form>
       <div class="right">
-        <p>Every one of your customers and subscribers has a unique profile in Vero. Collect data, track what they do and segment your customers to send newsletters or automated emails that improve engagement.</p>
+        <p>Every one of your customers and subscribers has a unique profile in Vero. Collect data, track behavior and segment your customers to send newsletters and automated emails that improve engagement and sales.</p>
         <p>Start a 14-day free trial and check out Vero's:</p>
         <ul>
           <li>Automated email workflows and drip campaigns</li>
