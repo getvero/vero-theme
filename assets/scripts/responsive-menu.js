@@ -15,3 +15,4 @@ $this.toggleClass( 'activated' );
 $this.next( 'nav, .sub-menu' ).slideToggle( 'fast' );
 
 });
+});
