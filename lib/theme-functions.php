@@ -305,7 +305,7 @@ function add_js() {
   wp_register_script('scrollwatch', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollwatch.min.js', array('jquery'), NULL, true);
   wp_register_script('greensock', '//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js', array('jquery'), NULL, true);
   wp_register_script('draggable', '//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/utils/Draggable.min.js', array('jquery'), NULL, true);
-  wp_register_script('scrollmagic', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollmagic.min.js', array('jquery'), NULL, true);
+  wp_register_script('scrollmagic', '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js', array('jquery'), NULL, true);
   wp_register_script('sticky', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.sticky.js', array('jquery'), NULL, true);
   wp_register_script('dots', get_stylesheet_directory_uri() . '/assets/scripts/dots.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
@@ -506,11 +506,18 @@ function blog_post_featured_image () {
     return;
 
   $img = genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
-  printf( '<a class="post-image-link" href="%s" title="%s">%s</a>', get_permalink(), the_title_attribute( 'echo=0' ), $img );
+  printf( '<a id="blog-post-image" class="post-image-link" href="%s" title="%s">%s</a>', get_permalink(), the_title_attribute( 'echo=0' ), $img );
+}
+
+function scrolls_for_blog_posts () {
   ?>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="getvero" data-size="large">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  <?php
+  <script>
+  jQuery(document).ready( function () { 
+    // build scene
+    jQuery("#post-type-block").sticky({topSpacing:40});
+  });
+  </script>
+  <?php 
 }
 
 function fix_blog_navs_and_header () {
@@ -522,6 +529,7 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
     add_action( 'genesis_before_entry_content', 'do_post_type' );
+    add_action( 'genesis_after', 'scrolls_for_blog_posts');
     $post_style = get_post_meta($post->ID, 'post_style', true); 
     if ( $post_style == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
@@ -575,10 +583,12 @@ function fix_blog_navs_and_header () {
 function do_post_type($color,$line=true,$latest=false,$temp_title=nil,$comments=false) {
   global $post;
   ?>
-    <div class="post-type-block center-text">
+    <div id="post-type-block" class="post-type-block center-text">
       <div class="the-date"><?php if($latest==true){ echo 'Latest'; } else {the_date('d M Y');} ?></div>
       <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/<?php get_the_desc_for_post_type(get_post_type($post),$temp_title) ?><?php echo $color ?>.png"></div>
       <div class="tag"><?php get_the_desc_for_post_type( get_post_type($post),$temp_title)?></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="getvero">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </div>
     <?php if($line == true){
       ?><div class="post-type-line"></div>
