@@ -43,7 +43,7 @@
       <p>Our highly advanced, one-of-a-kind, <em>External Attributes</em> feature allows you to setup emails that call your own web server or API and return HTML or JSON that can be used, dynamically in the individual outgoing email.</p>
       <p>Use this tool to insert product recommendations, run advanced algorithms on your own dataset, or insert custom chart images.</p>
       <p>Bring the full power of your entire database into your email marketing, layering on top of our merge tags and dynamic data.</p>
-      <p><a href="/request-a-demo" class="btn btn-outline btn-primary">Get a demo</a></p>
+      <p><a href="/email-marketing-demo" class="btn btn-outline btn-primary">Get a demo</a></p>
     </div>
     <img class="half" src="/wp-content/themes/vero/assets/images/external-attributes/external-attributes.png">
   </div>
