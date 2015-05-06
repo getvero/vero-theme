@@ -198,8 +198,8 @@ function genesischild_theme_setup() {
   add_filter( 'nav_menu_css_class', 'additional_active_item_classes', 10, 2 );
 
   //Add logo to primary nav bar
-  #add_filter( 'genesis_nav_items', 'add_logo_to_navbar', 10, 2 );
-  #add_filter( 'wp_nav_menu_items', 'add_logo_to_navbar', 10, 2 );
+  add_filter( 'genesis_nav_items', 'add_logo_to_navbar', 10, 2 );
+  add_filter( 'wp_nav_menu_items', 'add_logo_to_navbar', 10, 2 );
   remove_action('genesis_after_header', 'genesis_do_subnav');
   add_action( 'after_setup_theme', 'remove_default_menu', 11 );
   function remove_default_menu(){
