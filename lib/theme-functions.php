@@ -26,6 +26,7 @@ function custom_load_custom_style_sheet() {
   }
 }
 
+
 function add_popup_area() {
   ?>
     <div id='popup-area' style="display:none;position:fixed;left:0;bottom:-150px;width:100%;height:150px;background:blue;color:white;" ng-app="popupApp">
