@@ -18,28 +18,23 @@
 <section id="top">
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div id="hero" class="center-text">
-    <h1>Track behavior, trigger emails.</h1>
+    <h1>Customer engagement made easy.</h1>
+    <h2 style="margin-top: 20px; max-width: 800px; text-align: center; width: 750px; display: inline;" class="center-text">Customers, users, subscribers...they are all <em>people</em>. Vero helps you get to know them.</h2>
     <div id="container-trigger"></div>
     <div id="blocks">
       <div class="inner">
         <div id="blocks-descriptions">
           <div id="browser-block-desc">
-            <span class="circle"></span>
-            <span class="line"></span>
-            <p class="h5">Track</p>
-            <p>Track what your customers do on your website or in your application.</p>
+            <p class="h5">1 - Record</p>
+            <p>Track behavior such as in-app engagement and pageviews.</p>
           </div>
           <div id="vero-block-desc">
-            <span class="circle"></span>
-            <span class="line"></span>
-            <p class="h5">Target</p>
-            <p>Use Vero's rule builder to create targeted emails.</p>
+            <p class="h5">2 – Segment</p>
+            <p>Create dynamic segments based on behavior, user attributes and custom tags.</p>
           </div>
           <div id="email-block-desc">
-            <span class="circle"></span>
-            <span class="line"></span>
-            <p class="h5">Trigger</p>
-            <p>Send automated trigger campaigns and newsletters your customers want to read.</p>
+            <p class="h5">3 – Automate</p>
+            <p>Send simple, targeted messages at the right time, every time.</p>
           </div>
         </div>
         <img id="browser-block" src="/wp-content/themes/vero/assets/images/home/browser-block.png">
