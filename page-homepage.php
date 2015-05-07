@@ -19,7 +19,7 @@
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
   <div id="hero" class="center-text">
     <h1>Customer engagement made easy.</h1>
-    <h2 style="margin-top: 20px; max-width: 800px; text-align: center; width: 750px; display: inline;" class="center-text">Customers, users, subscribers...they are all <em>people</em>. Vero helps you get to know them.</h2>
+    <h2 class="center-text">Customers, users, subscribers...they are all <em>people</em>. Vero helps you get to know them.</h2>
     <div id="container-trigger"></div>
     <div id="blocks">
       <div class="inner">
