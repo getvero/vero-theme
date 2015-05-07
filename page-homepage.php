@@ -37,9 +37,6 @@
             <p>Send simple, targeted messages at the right time, every time.</p>
           </div>
         </div>
-        <img id="browser-block" src="/wp-content/themes/vero/assets/images/home/browser-block.png">
-        <img id="vero-block" src="/wp-content/themes/vero/assets/images/home/vero.png">
-        <img id="email-block" src="/wp-content/themes/vero/assets/images/home/email.png">
       </div>
     </div>
     <!--<div id="vero-live-sticky">
