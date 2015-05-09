@@ -22,7 +22,7 @@
 <section id="devices">
   <div class="inner">
   <div>
-    <h3 class="center-text">Track customers across multiple devices</h3>
+    <h2 class="center-text">Track customers across multiple devices</h2>
     <div class='half text left-text'>
       <p>In order to build a complete user profile, mobile is a must.</p>
       <p>Vero tracks your contacts across devices, browsers and platforms to help you build robust profiles.</p>
@@ -35,7 +35,7 @@
 <section id="contact-actions" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>A detailed behavioral history</h3>
+    <h2>A detailed behavioral history</h2>
     <p>We keep track of your contacts' actions over time, making it easier to improve your emails based on usage and conversions. The longer you use Vero and the more emails you send, the more targeted each individual contact profile becomes.</p>
     <p>You'll get to know your contacts like never before and create email campaigns they'll actually want to receive.</p>
     <img src="/wp-content/themes/vero/assets/images/crm/event-log.png">
@@ -45,7 +45,7 @@
 <section id="properties">
   <div class="inner">
   <div class="center-text">
-    <h3>Unlimited storage of contact properties so your emails get smarter over time</h3>
+    <h2>Unlimited storage of contact properties so your emails get smarter over time</h2>
     <img src="/wp-content/themes/vero/assets/images/crm/properties.png">
     <div class="text">
       <p>Add and store as many user attributes, actions, tags and segments as you want.</p>
@@ -57,7 +57,7 @@
 <section id="tags" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>Use Vero's tags for preference management or deeper segmentation</h3>
+    <h2>Use Vero's tags for preference management or deeper segmentation</h2>
     <div class="text">
       <p>
         Every contact in your database can have as many tags as you specify. Create custom preference management toolsets, allowing your users to express in a particular category or frequency and tag them in order to exclude or include them in specific email campaigns.</p>

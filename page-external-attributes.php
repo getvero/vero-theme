@@ -27,7 +27,7 @@
 <section id="merge-tags" class="gray">
   <div class="inner">
   <div class="center-text">
-    <h3>Email that is truly data-driven</h3>
+    <h2>Email that is truly data-driven</h2>
       <p>Most email software keeps your data in a silo. Vero monitors behavior on your site to give you a more complete picture of your customers.</p>
       <p>Even more exciting, you can use that data to send incredibly personalized emails. Insert contact attributes and event attributes using our merge tags. This could be a contact's first name, the list of products in their cart (including images and links) or the number of times they've done something.</p>
       <p>Give your emails context with Vero's personalisation tools.</p>
@@ -38,7 +38,7 @@
 <section id="external-attributes">
   <div class="inner">
   <div class="center-text">
-    <h3>Pull in even more data with our world-first External Attributes</h3>
+    <h2>Pull in even more data with our world-first External Attributes</h2>
     <div class='half'>
       <p>Our highly advanced, one-of-a-kind, <em>External Attributes</em> feature allows you to setup emails that call your own web server or API and return HTML or JSON that can be used, dynamically in the individual outgoing email.</p>
       <p>Use this tool to insert product recommendations, run advanced algorithms on your own dataset, or insert custom chart images.</p>

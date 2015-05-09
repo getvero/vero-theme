@@ -10,7 +10,6 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section id="top" class="reliable">
-  <canvas id="dots"></canvas>
   <div class="inner center-text">
     <?php if($_GET['thanks'] == 'yourock'){?>
       <h1>Thanks!</h1>

@@ -22,7 +22,8 @@
 <section id="use-behavior">
   <div class="inner">
   <div>
-    <h3 class="center-text">Send one-to-one newsletters that matter</h3>
+    <h2 class="center-text">Send one-to-one newsletters that matter</h2>
+    <img class="half" src="/wp-content/themes/vero/assets/images/newsletters/triggers.png">
     <div class='half text'>
       <p>
         Instead of sending the same email to your entire list, Vero's behavioral tracking and dynamic segmentation make it easy to send personalized newsletters and promotional emails.
@@ -31,14 +32,13 @@
         You can even automate emails based on purchases or activity in your app. For example, automate a reminder to buy more dog food based on the purchase data and size of the previous order. Or trigger a retention email to users who haven't paid this month but haven't logged in for 14 days.
       </p>
     </div>
-    <img class="half" src="/wp-content/themes/vero/assets/images/newsletters/triggers.png">
   </div>
   </div>
 </section>
 <section id="complex-sending">
   <div class="inner">
   <div class="center-text">
-    <h3>Send emails at the right time, in your contacts' timezones</h3>
+    <h2>Send emails at the right time, in your contacts' timezones</h2>
     <img src="/wp-content/themes/vero/assets/images/newsletters/timezones.png">
     <div class="text">
       <p>
@@ -57,7 +57,7 @@
 <section id="dynamic-segments">
   <div class="inner">
   <div class="center-text">
-    <h3>Real-time segmentation to target your contacts</h3>
+    <h2>Real-time segmentation to target your contacts</h2>
     <img src="/wp-content/themes/vero/assets/images/newsletters/newsletter-segments.png">
     <div class="text">
       <p>Instead of downloading lists, adjusting them in Excel and uploading them every time you want to create a new list, let Vero automate the process for you.</p>
@@ -71,7 +71,7 @@
 <section id="conversions">
   <div class="inner">
   <div class="center-text">
-    <h3>Track conversions, not just opens and clicks</h3>
+    <h2>Track conversions, not just opens and clicks</h2>
     <p>Opens and clicks don't drive revenue but conversions do.</p>
     <p>Identify the goal of each email and track how many contacts convert. Whether it's starting a free trial, buying a product or just visiting a landing page, you'll know exactly how effective every email is.</p>
     <img src="/wp-content/themes/vero/assets/images/newsletters/conversions-clean.png">

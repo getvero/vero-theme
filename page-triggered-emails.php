@@ -22,7 +22,7 @@
 <section id="workflows">
   <div class="inner">
   <div class="center-text">
-    <h3>Build automated workflows without touching code</h3>
+    <h2>Build automated workflows without touching code</h2>
     <img class="half" src="/wp-content/themes/vero/assets/images/triggered/triggered-email-workflow.png">
     <div class='half'>
       <p>Vero allows you to setup workflows that trigger emails at exactly the right time based on what your contacts are clicking on, visiting and engaging with.</p>
@@ -35,7 +35,7 @@
 <section id="filters">
   <div class="inner">
   <div class="center-text">
-    <h3>Target exact individuals with powerful filters</h3>
+    <h2>Target exact individuals with powerful filters</h2>
     <img src="/wp-content/themes/vero/assets/images/triggered/filters.png">
     <div class="text">
       <p>Vero allows you to setup workflows that trigger emails at exactly the right time based on what your contacts are clicking on, visiting and engaging with.</p>
@@ -49,7 +49,7 @@
   <div id="ab-test-trigger"></div>
   <div class="inner">
   <div class="center-text">
-    <h3>A/B test your triggered emails</h3>
+    <h2>A/B test your triggered emails</h2>
     <p>In the past, triggered emails were locked in your code, sent via SMTP to a server somewhere on the interet.</p>
     <p>Vero empowers your team to move faster by allowing you to A/B test the triggered emails that you send – whether it's a receipt email, a new user onboarding sequence or a marketing newsletter.</p>
     <div id="a-and-b">
@@ -63,7 +63,7 @@
 <section id="use-data">
   <div class="inner">
   <div class="center-text">
-    <h3>Use data you track from your website in your emails</h3>
+    <h2>Use data you track from your website in your emails</h2>
     <p>Vero is design to track all of your customers properties and actions, including specific details such as their age, which products they viewed, how much money they've spent or how many times they've logged in.</p>
     <p>Using Vero's merge tags and <em>External Data</em> features, you can insert any of the data you've captured. This means your triggered emails can include personal content <strong>for each individual</strong> thanks to our merge tags.</p>
     <p><a href="/external-attributes" class="btn btn-outline btn-primary">More on External Attributes &rarr;</a></p>

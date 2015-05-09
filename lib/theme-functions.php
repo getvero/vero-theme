@@ -307,6 +307,7 @@ function add_js() {
   wp_register_script('greensock', '//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js', array('jquery'), NULL, true);
   wp_register_script('draggable', '//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/utils/Draggable.min.js', array('jquery'), NULL, true);
   wp_register_script('scrollmagic', '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js', array('jquery'), NULL, true);
+  wp_register_script('scrollscene', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.scrollmagic.min.js', array('jquery'), NULL, true);
   wp_register_script('sticky', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.sticky.js', array('jquery'), NULL, true);
   wp_register_script('dots', get_stylesheet_directory_uri() . '/assets/scripts/dots.js', array('jquery'), NULL, true);
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
@@ -333,6 +334,7 @@ function add_js() {
   wp_enqueue_script('greensock');
   wp_enqueue_script('draggable');
   wp_enqueue_script('scrollmagic');
+  wp_enqueue_script('scrollscene');
   wp_enqueue_script('sticky');
   wp_enqueue_script('responsive-menu');
 
@@ -538,7 +540,7 @@ function fix_blog_navs_and_header () {
       add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
     if (is_singular()){
-      add_action( 'genesis_before_content', 'cta_before_content' );
+      add_action( 'genesis_after_header', 'cta_before_content' );
       add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     }
   } else if ( is_singular('resources') ) {
@@ -563,10 +565,10 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     //add_action( 'genesis_before_entry_content', 'genesis_post_info', 12 );
     //Ads 
-    if (is_singular('campaigns') || is_singular('jobs') ){
-    } else {
-      add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
-    }
+    //if (is_singular('campaigns') || is_singular('jobs') ){
+    //} else {
+    //  add_action( 'genesis_after_entry_content', 'ads_after_post_content' );
+    //}
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
     }
@@ -645,9 +647,9 @@ function subscribe_after_content() {
 
 function cta_before_content() {
   ?>
-    <div class="cta-header">
+    <div class="cta-header center-text">
       <p class="h3">Automate emails to the right customer, at the right time.</p>
-      <form action='https://app.getvero.com/users' method='post'>
+      <form action='https://app.getvero.com/users' method='post' class='form-inline'>
         <div class="control-group">
           <label>Your work email</label>
           <input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="tyrion.lannister@casterlyrock.com" type="text" value="">
@@ -656,15 +658,11 @@ function cta_before_content() {
           <label>Choose a password</label>
           <input autocomplete="off" class="form-control" id="user_password" name="user[password]" placeholder="Secure password (must include one upper-case, one lower-case, one number)" type="password">
         </div>
-        <input type='submit' value='Start a free trial' class="btn btn-primary" />
+        <input type='submit' value='Start a free trial' class="btn btn-outline btn-white" />
       </form>
       <div class="right">
         <p>Every one of your customers and subscribers has a unique profile in Vero. Collect data, track behavior and segment your customers to send newsletters and automated emails that improve engagement and sales.</p>
-        <p>Start a 14-day free trial and check out Vero's:</p>
-        <ul>
-          <li>Automated email workflows and drip campaigns</li>
-          <li>Real-time segment builder</li>
-          <li>A/B testing of email series</li>
+        <p>Start a 14-day free trial and <strong> create automated email workflows and drip campaigns</strong>, <strong>segment your customer data in real-time</strong> and <strong>A/B testing of email series</strong>.
         </ul>
       </div>
     </div>
