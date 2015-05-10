@@ -4,21 +4,21 @@ add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
-  $classes[] = 'pricing';
+  $classes[] = 'pricing full-pricing';
   return $classes;  
 }
 
 include 'pages-shared/static-header.php';
 ?>
 <div class="inner">
-  <div id="top">
+  <section id="top">
     <h1 class="center-text">Pricing that scales to suit your business.</h1>
     <h2 class="center-text">Join 300+ other businesses that communicate better to grow their businesses.</h2>
     <div class="center-text">
       <a href="https://app.getvero.com/signup" class="btn btn-large btn-warning">Start a free trial</a>
       <p class="small">14 day free trial • No credit card required</p>
     </div>
-  </div>
+  </section>
   <section id="pricing">
     <ul class="list-inline list-unstyled">
       <li class="well">

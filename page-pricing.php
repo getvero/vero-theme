@@ -11,10 +11,10 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <div class="inner">
-  <div id="top">
+  <section id="top">
     <h1 class="center-text">Communicate better and grow your business.</h1>
     <h2 class="center-text">Join 300+ other businesses that send smarter emails and increase engagement.</h2>
-  </div>
+  </section>
   <section id="pricing">
     <ul class="list-inline list-unstyled">
       <li class="well">

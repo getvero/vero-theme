@@ -17,53 +17,30 @@
 
 <section id="top">
   <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
-  <div id="hero" class="center-text">
+  <div class="center-text">
     <h1>Customer engagement made easy.</h1>
-    <h2 class="center-text">Customers, users, subscribers...they are all <em>people</em>. Vero helps you get to know them.</h2>
-    <div id="container-trigger"></div>
-    <div id="blocks">
-      <div class="inner">
-        <div id="blocks-descriptions">
-          <div id="browser-block-desc">
-            <p class="h5">1 - Record</p>
-            <p>Track behavior such as in-app engagement and pageviews.</p>
-          </div>
-          <div id="vero-block-desc">
-            <p class="h5">2 – Segment</p>
-            <p>Create dynamic segments based on behavior, user attributes and custom tags.</p>
-          </div>
-          <div id="email-block-desc">
-            <p class="h5">3 – Automate</p>
-            <p>Send simple, targeted messages at the right time, every time.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--<div id="vero-live-sticky">
-      <div id="vero-live-container">
-        <div id="vero-live">
-          <div class="wrap">
-            <div class="inside">
-              <form>
-                <input type="text" name="email" id="email" placeholder="Enter your email...">
-                <input type="submit" value="See Vero in action" class="btn btn-warning">
-              </form>
-            </div>
-          </div>
-        </div>
-        <div id="vero-live-status">
-          <span id="title">Vero Live Tracker.</span>
-          <span id="status">Status:</span>
-          <span id="status-update">Listening...</span>
-        </div>
-      </div>-->
-    </div>
-
-    <p class="bottom"><a href="/features" class="btn btn-warning btn-large">Learn more about Vero</a> <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white btn-large">Create my free account</a></p>
+    <h2>Customers, users, subscribers...they are all <em>people</em>.<br/>Vero helps you get to know them.</h2>
+    <ul id="blocks" class="inner list-unstyled">
+      <li>
+        <p class="h5">1 - Record</p>
+        <p>Track behavior such as in-app engagement and pageviews.</p>
+      </li>
+      <li>
+        <p class="h5">2 – Segment</p>
+        <p>Create dynamic segments based on behavior, user attributes and custom tags.</p>
+      </li>
+      <li>
+        <p class="h5">3 – Automate</p>
+        <p>Send simple, targeted messages at the right time, every time.</p>
+      </li>
+    </ul>
   </div>
-  <div id="scroll-down">⌄</div>
+  <p class="center-text">
+    <a href="/features" class="btn btn-warning btn-large">Learn more about Vero</a> 
+    <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white btn-large">Create my free account</a>
+    </p>
+  </div>
 </section>
-
 <section id="trusted-by">
   <div class="inner center-text">
     <h4>Trusted by market-leading companies like these</h4>
@@ -72,7 +49,7 @@
 </section>
 <section id="features" class="center-text">
   <div class="inner center-text">
-    <p class="h1">Things you never knew you could do <br>with email, you can do with Vero.</p>
+    <p class="h2">Things you never knew you could do <br>with email, you can do with Vero.</p>
     <ul class="list-unstyled list-inline">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/browser.png"/>
@@ -123,10 +100,10 @@
 <section id="reliable" class="reliable">
   <canvas id="dots"></canvas>
   <div class="inner center-text">
-    <p class="h1">Rock-solid Infrastructure.</h1>
+    <p class="h2">Rock-solid Infrastructure.</h1>
     <p class="h3">Billions of data points. Millions of emails. Awesome support.</p>
     <p>Vero has tracked billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
-    <p>Our product-first approach is backed by fast, practical support from experienced engineers and marketers to help you deliver emails that convert.</p>
+    <p>Our product-first approach is backed by fast, practical support from experienced engineers <br/>and marketers to help you deliver emails that convert.</p>
   </div>
 </section>
 <section id="call-to-action" class="center-text">

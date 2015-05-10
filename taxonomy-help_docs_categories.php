@@ -15,9 +15,11 @@ add_action( 'genesis_entry_content', 'custom_excerpt');
 function custom_excerpt() {
   $post = get_post();
   ?>
-    <a href="<?php echo get_permalink(); ?>" class="well job">
-      <h4><?php echo get_the_title(); ?></h4>
-    </a>
+      <p>
+        <a href="<?php echo get_permalink(); ?>" class="well job">
+          <?php echo get_the_title(); ?>
+        </a>
+      </p>
   <?php
 }
 
@@ -54,6 +56,7 @@ function add_help_docs_categories_sidebar(){
         <p>If you have any questions or issues, feel free to get in touch with us via email below.</p>
         <p>Vero support works from 9am Monday in Sydney (AEST) until 5pm Friday in San Francisco (PST).</p>
         <p>Please get in touch, we're here to help!</p>
+        <br/>
         <a href="mailto:support@getvero.com" class="btn btn-primary">Email Support</a>
       </div>
     </div>
