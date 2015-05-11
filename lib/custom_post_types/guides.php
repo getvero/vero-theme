@@ -136,7 +136,7 @@ function guides_chapter_headers () {
     <div class="entry-header">
       <div class="title toc-chapter">
         <h1>
-          <span class="h5">Chapter <?php echo $chapter_number ?></span><br>
+          <span class="h5">Chapter <?php echo $chapter_number ?></span>
           <?php echo the_title(); ?>
         </h1>
       </div>
