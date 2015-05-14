@@ -257,6 +257,25 @@ function add_blue_navbar_logic() {
   }
 }
 
+function add_blog_data_layer() {
+  $persona_values = get_post_meta( get_the_ID() , 'persona' ); 
+  $job_values = get_post_meta( get_the_ID() , 'job' ); 
+  $stage = get_post_meta( get_the_ID() , 'stage' ); 
+  $premcont = get_post_meta( get_the_ID() , 'premcont' );
+  ?>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        'tgtPersona': <?php echo $persona_values; ?>,
+        'tgtJob': <?php echo $job_vaules; ?>,
+        'premCont': <?php echo $premcont; ?>,
+        'stage': <?php echo $stage; ?>,
+        'event': 'postView'
+    });
+  </script>
+  <?php 
+}
+
 function additional_active_item_classes($classes = array(), $menu_item = false){
     if(is_singular('kb')) {
       $post = get_post();
@@ -281,9 +300,13 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'api docs' && ( is_post_type_archive('api_docs') || is_singular('api_docs') ) ) {
       $classes[] = 'current-menu-item';
+    } else if ( strtolower($menu_item->title) == 'help' && ( is_singular('help_docs') || is_singular('help_docs_categories') || is_tax('help_docs_categories') || is_page('help')  ) ) {
+      $classes[] = 'current-menu-item';
+    } else if ( strtolower($menu_item->title) == 'tour' && ( is_page('features') || is_page('triggered-emails') || is_page('smart-newsletters') || is_page('external-attributes') || is_page('individual-contact-profiles')  ) ) {
+      $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'idea lab' && ( is_singular('campaigns') || is_post_type_archive('campaigns')) ) {
       $classes[] = 'current-menu-item';
-    } else if ( $menu_item->title == 'Pricing' && is_page('pricing') ) {
+    } else if ( $menu_item->title == 'Pricing' && (is_page('pricing') || is_page('growth') || is_page('entrepreneur') || is_page('enterprise')  || is_page('full-pricing') ) ) {
       $classes[] = 'current-menu-item';
     }  else if ( ( is_singular('kb') && in_array($menu_item->title, $term_array) ) || ( is_tax('topic') && ($menu_item->title == $taxonomy) ) ) {
       $classes[] = 'current-menu-item';
@@ -533,6 +556,7 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
     add_action( 'genesis_before_entry_content', 'do_post_type' );
     add_action( 'genesis_after', 'scrolls_for_blog_posts');
+    add_action( 'genesis_after_footer', 'add_blog_data_layer');
     $post_style = get_post_meta($post->ID, 'post_style', true); 
     if ( $post_style == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
