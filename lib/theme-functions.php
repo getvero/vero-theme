@@ -258,10 +258,12 @@ function add_blue_navbar_logic() {
 }
 
 function add_blog_data_layer() {
-  $persona_values = get_post_meta( get_the_ID() , 'persona' ); 
-  $job_values = get_post_meta( get_the_ID() , 'job' ); 
-  $stage = get_post_meta( get_the_ID() , 'stage' ); 
-  $premcont = get_post_meta( get_the_ID() , 'premcont' );
+  global $post;
+
+  $persona_values = get_post_meta( $post->ID, 'persona' ); 
+  $job_values = get_post_meta( $post->ID, 'job' ); 
+  $stage = get_post_meta( $post->ID, 'stage' ); 
+  $premcont = get_post_meta( $post->ID, 'premcont' );
   ?>
   <script>
     window.dataLayer = window.dataLayer || [];
