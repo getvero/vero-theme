@@ -322,7 +322,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
 
 function add_js() {
   wp_register_script('cross-domain', get_stylesheet_directory_uri() . '/assets/scripts/cross-domain.js', array('jquery'), NULL, true);
-  wp_register_script('swiftype', get_stylesheet_directory_uri() . '/assets/scripts/swiftype.js', array('jquery'), NULL, true);
+  //wp_register_script('swiftype', get_stylesheet_directory_uri() . '/assets/scripts/swiftype.js', array('jquery'), NULL, true);
   wp_register_script('vmodal', get_stylesheet_directory_uri() . '/assets/scripts/vmodal.js', array('jquery'), NULL, true);
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('numeral', get_stylesheet_directory_uri() . '/assets/scripts/vendor/numeral.min.js', array('jquery'), NULL, true);
@@ -349,7 +349,7 @@ function add_js() {
   wp_register_script('vero-blog-angular-any', get_stylesheet_directory_uri() . '/assets/scripts/angular/any.js', array('jquery'), NULL, true);
   
   wp_enqueue_script('cross-domain');
-  wp_enqueue_script('swiftype');
+  //wp_enqueue_script('swiftype');
   wp_enqueue_script('vmodal');
   wp_enqueue_script('numeral');
   wp_enqueue_script('cookies');
