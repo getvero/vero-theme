@@ -268,8 +268,8 @@ function add_blog_data_layer() {
   <script>
     window.dataLayer = window.dataLayer || [];
     dataLayer.push({
-        'tgtPersona': <?php echo $persona_values; ?>,
-        'tgtJob': <?php echo $job_vaules; ?>,
+        'tgtPersona': '<?php echo $persona_values; ?>',
+        'tgtJob': '<?php echo $job_vaules; ?>',
         'premCont': <?php echo $premcont; ?>,
         'stage': <?php echo $stage; ?>,
         'event': 'postView'
