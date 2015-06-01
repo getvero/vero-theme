@@ -17,7 +17,7 @@ include 'pages-shared/static-header.php';
     <?php } else { ?>
     <h1>Send a lot of email?<br/>Get a personal demo of the future of email.</h1>
     <h2>One of our Customer Success engineers will get in touch and show you around Vero, so you can see the full power of behavioral email.</h2>
-    <form id="high-volume-sender-form" action='http://localhost:3000/demos' method='post'>
+    <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
       <div class="half">
         <div class="form-group"><label>Name:</label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
         <div class="form-group"><label>Email:</label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
