@@ -813,9 +813,11 @@ function add_class_to_small_images( $content ) {
 
     // get the widths of each image
     $width = $image->getAttribute('width');
+    $child_classes = $image->getAttribute('class');
 
     // the existing classes already on the images
     $existing_classes = $parent->getAttribute('class');
+    $existing_styles = $parent->getAttribute('style');
 
     // if image is less than 480px, add their old classes back in plus our new class
     
@@ -823,23 +825,35 @@ function add_class_to_small_images( $content ) {
       if( $width < 1080) {
         // the class we're adding
         $new_class = ' small-image';
+        $new_style = $width .'px';
         // the existing classes plus the new class
         $class_names_to_add = $existing_classes . $new_class;
         $parent->setAttribute('class', $class_names_to_add);
+        // add width as a style
+        $styles_to_add = $existing_styles . $new_style;
+        $parent->setAttribute('style', $styles_to_add);
       }
     } else {
-      if ($width < 790 && $width > 600) {
+      if (strlen($child_classes) && strpos('example-email',$child_classes) !== false){
         // the class we're adding
-        $new_class = ' small-image';
+        $new_class = ' example-email';
         // the existing classes plus the new class
         $class_names_to_add = $existing_classes . $new_class;
         $parent->setAttribute('class', $class_names_to_add);
-      } else if ($width < 600) {
-        // the class we're adding
-        $new_class = ' tiny-image';
-        // the existing classes plus the new class
-        $class_names_to_add = $existing_classes . $new_class;
-        $parent->setAttribute('class', $class_names_to_add);
+      } else {
+        if ($width < 790 && $width > 600) {
+          // the class we're adding
+          $new_class = ' small-image';
+          // the existing classes plus the new class
+          $class_names_to_add = $existing_classes . $new_class;
+          $parent->setAttribute('class', $class_names_to_add);
+        } else if ($width < 600) {
+          // the class we're adding
+          $new_class = ' tiny-image';
+          // the existing classes plus the new class
+          $class_names_to_add = $existing_classes . $new_class;
+          $parent->setAttribute('class', $class_names_to_add);
+        }
       }
     }
   }
@@ -864,5 +878,4 @@ function add_class_to_small_images( $content ) {
   $content = $dom->saveHTML();
   return $content;
 }
-
 ?>

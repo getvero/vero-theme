@@ -17,7 +17,7 @@ include 'pages-shared/static-header.php';
   </section>
   <section id="pricing">
     <ul class="list-inline list-unstyled">
-      <li class="well">
+      <li class="well light">
         <h5 class="light">Light</h5>
         <p class="price">$99<span>/month</span></p>
         <ul class="limits list-unstyled">
@@ -34,10 +34,10 @@ include 'pages-shared/static-header.php';
           <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
         </p>
       </li>
-      <li class="well">
+      <li class="well growth">
         <div class="recommended">Recommended</div>
         <h5 class="growth">Growth</h5>
-        <p class="price">$249<span>/month</span></p>
+        <p class="price">$299<span>/month</span></p>
         <ul class="limits list-unstyled">
           <li>100,000 subscribers</li>
           <li>250,000 emails</li>
@@ -52,7 +52,7 @@ include 'pages-shared/static-header.php';
           <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
         </p>
       </li>
-      <li class="well">
+      <li class="well pro">
         <h5 class="pro">PRO</h5>
         <p class="price">$549<span>/month</span></p>
         <ul class="limits list-unstyled">
