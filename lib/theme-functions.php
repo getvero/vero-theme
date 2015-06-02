@@ -660,8 +660,8 @@ function ads_after_post_content() {
 function subscribe_after_content() {
   ?>
     <div class="subscribe-footer">
-      <p class="h3">Stay informed and inspired.</p>
-      <p>Join 9,500+ marketers who get weekly email marketing tips in their inbox.</p>
+      <p class="h3">We dissect email campaigns for a living.</p>
+      <p>Join 10,000+ marketers who get weekly email marketing tips in their inbox.</p>
       <form action='https://app.getvero.com/forms/71789091b958b7b1683654756aca7391' method='post'>
         <input name='email' type='email' />
         <input type='submit' value='Join Us' class="btn btn-primary" />
