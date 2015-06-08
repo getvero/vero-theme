@@ -40,6 +40,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/browser-chrome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12104,
+		"inputAbbreviatedPath": "\/assets\/images\/browser-chrome.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/browser-chrome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/caffeinated.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -47,6 +58,39 @@
 		"initialSize": 46296,
 		"inputAbbreviatedPath": "\/assets\/images\/caffeinated.png",
 		"outputAbbreviatedPath": "\/assets\/images\/caffeinated.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/been-verified.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10506,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/been-verified.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/been-verified.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/bugherd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4394,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/bugherd\/alan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99389,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/alan.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/alan.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -73,6 +117,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/case-studies\/bugherd\/logo-sml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6294,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/logo-sml.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/logo-sml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/bugherd\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6182,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/bugherd\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/shoesofprey\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 746851,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/bg.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/shoesofprey\/joel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261762,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/joel.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/joel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/shoesofprey\/logo-sml-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6575,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/logo-sml-white.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/logo-sml-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/shoesofprey\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7127,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/shoesofprey\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/case-studies\/sop\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -95,6 +205,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/case-studies\/wooga.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6440,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/case-studies\/wooga\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -113,6 +234,61 @@
 		"initialSize": 1.58297e+06,
 		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/bg.png",
 		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/wooga\/feature.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263221,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/feature.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/feature.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/wooga\/jan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42493,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/jan.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/jan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/wooga\/logo-sml-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10782,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/logo-sml-white.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/logo-sml-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/wooga\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6481,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/case-studies\/wooga\/wooga.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6440,
+		"inputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/wooga.png",
+		"outputAbbreviatedPath": "\/assets\/images\/case-studies\/wooga\/wooga.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -542,6 +718,17 @@
 		"initialSize": 45782,
 		"inputAbbreviatedPath": "\/assets\/images\/customers-sprite-blue-sml-color-2.png",
 		"outputAbbreviatedPath": "\/assets\/images\/customers-sprite-blue-sml-color-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/customers\/all-grey-more.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104424,
+		"inputAbbreviatedPath": "\/assets\/images\/customers\/all-grey-more.png",
+		"outputAbbreviatedPath": "\/assets\/images\/customers\/all-grey-more.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2471,6 +2658,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/help\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160150,
+		"inputAbbreviatedPath": "\/assets\/images\/help\/1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/help\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/help\/2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149544,
+		"inputAbbreviatedPath": "\/assets\/images\/help\/2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/help\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/help\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217301,
+		"inputAbbreviatedPath": "\/assets\/images\/help\/3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/help\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/help\/play-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1236,
+		"inputAbbreviatedPath": "\/assets\/images\/help\/play-white.png",
+		"outputAbbreviatedPath": "\/assets\/images\/help\/play-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/help\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2090,
+		"inputAbbreviatedPath": "\/assets\/images\/help\/play.png",
+		"outputAbbreviatedPath": "\/assets\/images\/help\/play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/high-volume\/legs-2.bak.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3538,6 +3780,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/post-types\/comments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1896,
+		"inputAbbreviatedPath": "\/assets\/images\/post-types\/comments.png",
+		"outputAbbreviatedPath": "\/assets\/images\/post-types\/comments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/post-types\/ebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3626,6 +3879,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/pricing\/alex-smith.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12679,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing\/alex-smith.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing\/alex-smith.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/pricing\/api.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3681,6 +3945,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/pricing\/enterprise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10596,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing\/enterprise.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing\/enterprise.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pricing\/entrepreneur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11907,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing\/entrepreneur.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing\/entrepreneur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/pricing\/external.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3699,6 +3985,17 @@
 		"initialSize": 8717,
 		"inputAbbreviatedPath": "\/assets\/images\/pricing\/freelancer.png",
 		"outputAbbreviatedPath": "\/assets\/images\/pricing\/freelancer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pricing\/growth.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11152,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing\/growth.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing\/growth.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3732,6 +4029,17 @@
 		"initialSize": 866,
 		"inputAbbreviatedPath": "\/assets\/images\/pricing\/log.png",
 		"outputAbbreviatedPath": "\/assets\/images\/pricing\/log.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/pricing\/logos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41682,
+		"inputAbbreviatedPath": "\/assets\/images\/pricing\/logos.png",
+		"outputAbbreviatedPath": "\/assets\/images\/pricing\/logos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4594,23 +4902,32 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/scripts\/20-tips.js": {
-		"fileType": 64,
-		"ignore": 1,
+	"\/assets\/scripts\/angular\/any.html": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/20-tips.js",
-		"outputAbbreviatedPath": "\/assets\/scripts\/min\/20-tips-min.js",
+		"inputAbbreviatedPath": "\/assets\/scripts\/angular\/any.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/scripts\/angular\/any.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/angular\/any.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/angular\/min\/any-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/scripts\/amazon-experience.js": {
+	"\/assets\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/scripts\/amazon-experience.js",
-		"outputAbbreviatedPath": "\/assets\/scripts\/min\/amazon-experience-min.js",
+		"inputAbbreviatedPath": "\/assets\/scripts\/app.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4638,6 +4955,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/scripts\/homepage.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/homepage.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/homepage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/responsive-menu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/responsive-menu.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/responsive-menu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/scripts\/source\/20-tips.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
@@ -4658,9 +4997,9 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scripts\/source\/amazon-experience.coffee",
 		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/assets\/scripts\/source\/amazon-experience.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/amazon-experience.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
@@ -4734,6 +5073,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/scripts\/swiftype.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scripts\/swiftype.js",
+		"outputAbbreviatedPath": "\/assets\/scripts\/min\/swiftype-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/scripts\/vendor\/jquery.cookie.js": {
@@ -4923,11 +5273,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-bugherd.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-bugherd.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-email-marketing-demo.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-email-marketing-demo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-enterprise.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-enterprise.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-entrepreneur.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-entrepreneur.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4986,6 +5363,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-full-pricing.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-full-pricing.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-growth.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-growth.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-help.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5031,6 +5426,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-pricing.bak.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-pricing.bak.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-pricing.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5049,6 +5453,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-shoes-of-prey.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-shoes-of-prey.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-smart-newsletters.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5063,6 +5476,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-triggered-emails.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-wooga.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-wooga.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages-shared\/custom-footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages-shared\/custom-footer.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
