@@ -22,12 +22,3 @@ jQuery(document).one('scroll', () ->
 
   return
 )
-
-jQuery(document).on "scroll", ->
-  first_heading_from_top = jQuery(".spacer.big").first().offset().top
-  first_heading_from_top = first_heading_from_top + jQuery(".spacer.big").first().outerHeight(true)
-  if jQuery(document).scrollTop() > first_heading_from_top
-    jQuery("#sidebar").show()  
-  else
-    jQuery("#sidebar").hide()  
-  return
