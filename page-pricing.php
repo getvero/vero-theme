@@ -88,9 +88,9 @@ include 'pages-shared/static-header.php';
       </li>
   </section>
 
-  <section id="annual">
+  <!--<section id="annual">
     <p><strong>Go annual</strong> and get two months free. Our annual plans include a two month (or 15%) discount.</p>
-  </section>
+  </section>-->
   
   <section id="trusted-by">
     <div class="inner center-text">
