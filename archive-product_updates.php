@@ -63,7 +63,7 @@ add_action( 'genesis_before_loop', 'add_table_open');
 function add_table_open() {
   ?>
   <h1>Here's what we've been working on at Vero</h1>
-  <table>
+  <table class="no-highlight">
     <tr>
       <th>Date</th>
       <th>Who</th>
