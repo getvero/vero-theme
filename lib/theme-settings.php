@@ -13,6 +13,7 @@ function post_type_defaults( $defaults ) {
   $defaults['help_docs'] = false;
   $defaults['jobs'] = false;
   $defaults['campaigns'] = false;
+  $defaults['product_updates'] = false;
  
   return $defaults;
 }
@@ -29,7 +30,8 @@ function register_post_type_sanitzation_filters() {
       'help_docs',
       'kb',
       'jobs',
-      'campaigns'
+      'campaigns',
+      'product_updates'
     ) 
   );
 }
@@ -63,6 +65,9 @@ function post_types_box() {
 
   <p><?php _e( 'Campaigns:', 'be-genesis-child' );?>
   <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[campaigns]" value='1' <?php checked(1, genesis_get_option('campaigns') ); ?> /> </p>
+
+  <p><?php _e( 'Product updates:', 'be-genesis-child' );?>
+  <input type="checkbox" name="<?php echo GENESIS_SETTINGS_FIELD; ?>[product_updates]" value='1' <?php checked(1, genesis_get_option('product_updates') ); ?> /> </p>
 
   <?php
 }

@@ -187,6 +187,9 @@ function genesischild_theme_setup() {
   //Add and customise jobs
   add_action( 'init', 'create_jobs_post_type' );
 
+  //Add product updates
+  add_action( 'init', 'create_product_updates_post_type' );
+
   //Add and customise resources page
   create_sidebars_blog_resources();
 

@@ -6,6 +6,7 @@ include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/campaigns.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );
+include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' );
 
 //
 //Tweaks to Genesis
@@ -249,7 +250,7 @@ function add_blue_navbar_logic() {
       'container_class' => 'blue-nav-menu right' 
     ) );
     echo "</div><div class='spacer'></div>";
-  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns') || is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') ) {
+  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns') || is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') || is_post_type_archive('product_updates')) {
     wp_nav_menu( array(
       'theme_location' => 'third-menu-docs',
       'container_class' => 'blue-nav-menu left'
