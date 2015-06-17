@@ -106,6 +106,37 @@ function get_custom_excerpt($length=55,$text='') { // Fakes an excerpt if needed
   return $text;
 }
 
+function add_post_tracking_code() {
+  global $post;
+  $tgtPersona         = get_post_meta($post->ID, 'tgtPersona', true); 
+  $tgtJob             = get_post_meta($post->ID, 'tgtJob', true); 
+  $premContMetaFormat = get_post_meta($post->ID, 'premContMetaFormat', true); 
+  $premContMetaDesc   = get_post_meta($post->ID, 'premContMetaDesc', true); 
+  $premCont           = get_post_meta($post->ID, 'premCont', true); 
+  $stage              = get_post_meta($post->ID, 'stage', true); 
+  $contType           = get_post_meta($post->ID, 'contType', true); 
+  ?>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+          'tgtPersona': "<?php echo $tgtPersona ?>",
+          'tgtJob': "<?php echo $tgtJob; ?>",
+          'premContMeta': "<?php echo $premContMetaFormat; echo $premContMetaDesc; ?>",
+          'premCont': "<?php 
+            if($premCont) {
+              echo get_the_title();
+            } else {
+              echo "None";
+            }
+          ?>",
+          'stage': "<?php echo $stage; ?>",
+          'contType': "<?php echo $contType; ?>",
+          'event': 'postView'
+        });
+    </script>
+  <?php
+}
+
 function get_custom_excerpt_with_text($length=55,$text='') { // Fakes an excerpt if needed
   $text = str_replace(']]>', ']]>', $text);
   $text = strip_tags($text,'<p>');
@@ -256,27 +287,6 @@ function add_blue_navbar_logic() {
       'container_class' => 'blue-nav-menu left'
     ) );
   }
-}
-
-function add_blog_data_layer() {
-  global $post;
-
-  $persona_values = get_post_meta( $post->ID, 'persona' ); 
-  $job_values = get_post_meta( $post->ID, 'job' ); 
-  $stage = get_post_meta( $post->ID, 'stage' ); 
-  $premcont = get_post_meta( $post->ID, 'premcont' );
-  ?>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-        'tgtPersona': '<?php echo $persona_values; ?>',
-        'tgtJob': '<?php echo $job_vaules; ?>',
-        'premCont': <?php echo $premcont; ?>,
-        'stage': <?php echo $stage; ?>,
-        'event': 'postView'
-    });
-  </script>
-  <?php 
 }
 
 function additional_active_item_classes($classes = array(), $menu_item = false){
@@ -559,7 +569,7 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
     add_action( 'genesis_before_entry_content', 'do_post_type' );
     add_action( 'genesis_after', 'scrolls_for_blog_posts');
-    add_action( 'genesis_after_footer', 'add_blog_data_layer');
+    add_action( 'genesis_after_footer', 'add_post_tracking_code');
     $post_style = get_post_meta($post->ID, 'post_style', true); 
     if ( $post_style == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
@@ -570,6 +580,8 @@ function fix_blog_navs_and_header () {
       add_action( 'genesis_after_header', 'cta_before_content' );
       add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     }
+  } else if ( is_singular('guides') ) {
+    add_action( 'genesis_after_footer', 'add_post_tracking_code');
   } else if ( is_singular('resources') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
