@@ -25,12 +25,12 @@ include 'pages-shared/static-header.php';
   <p>Vero helps you send every email, to each individual,
     at exactly the right time.</p>
   <ul class="menu list-unstyled list-inline">
-    <li><a href="#">Features</a></li>
-    <li><a href="#">Pricing</a></li>
-    <li><a href="#">Help</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Enterprise Demo</a></li>
-    <li><a href="#">Login</a></li>
+    <li><a href="/features">Features</a></li>
+    <li><a href="/pricing">Pricing</a></li>
+    <li><a href="/help">Help</a></li>
+    <li><a href="http://blog.getvero.com" target="_blank">Blog</a></li>
+    <li><a href="/email-marketing-demo">Enterprise Demo</a></li>
+    <li><a href="https://app.getvero.com/login">Login</a></li>
 </section>
 <section id="right">
   <h3>Become a smart marketer and join Vero.</h3>
