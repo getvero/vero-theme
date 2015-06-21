@@ -1,5 +1,4 @@
 <?php
-
 include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );
@@ -916,5 +915,17 @@ function add_class_to_small_images( $content ) {
   }
   $content = $dom->saveHTML();
   return $content;
+}
+
+//Gravity forms submit to Vero
+function post_to_vero( $entry, $form ) {
+  $post_url = 'https://app.getvero.com/forms/71789091b958b7b1683654756aca7391';
+  $body = array(
+    'email'           => rgar( $entry, '1' ), 
+    'event[industry]' => rgar( $entry, '2' ),
+  );
+  
+  $request = new WP_Http();
+  $response = $request->post( $post_url, array( 'body' => $body ) );
 }
 ?>

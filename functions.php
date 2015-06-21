@@ -208,5 +208,8 @@ function genesischild_theme_setup() {
   function remove_default_menu(){
     unregister_nav_menu('secondary');
   }
+
+  //Gravity forms
+  add_action( 'gform_after_submission', 'post_to_vero', 10, 2 );
 }
 ?>
