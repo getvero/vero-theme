@@ -110,8 +110,8 @@ function add_post_tracking_code() {
   global $post;
   $tgtPersona         = get_post_meta($post->ID, 'tgtPersona', true); 
   $tgtJob             = get_post_meta($post->ID, 'tgtJob', true); 
-  $premContMetaFormat = get_post_meta($post->ID, 'premContMetaFormat', true); 
-  $premContMetaDesc   = get_post_meta($post->ID, 'premContMetaDesc', true); 
+  $contMetaFormat = get_post_meta($post->ID, 'premContMetaFormat', true); 
+  $contMetaDesc   = get_post_meta($post->ID, 'premContMetaDesc', true); 
   $premCont           = get_post_meta($post->ID, 'premCont', true); 
   $stage              = get_post_meta($post->ID, 'stage', true); 
   $contType           = get_post_meta($post->ID, 'contType', true); 
@@ -121,7 +121,9 @@ function add_post_tracking_code() {
         dataLayer.push({
           'tgtPersona': "<?php echo $tgtPersona ?>",
           'tgtJob': "<?php echo $tgtJob; ?>",
-          'premContMeta': "<?php echo $premContMetaFormat; echo $premContMetaDesc; ?>",
+          'contType': "<?php echo $contType; ?>",
+          'contMetaFormat': "<?php echo $contMetaFormat; ?>",
+          'contMetaDesc': "<?php echo $contMetaDesc; ?>",
           'premCont': "<?php 
             if($premCont) {
               echo get_the_title();
@@ -130,11 +132,33 @@ function add_post_tracking_code() {
             }
           ?>",
           'stage': "<?php echo $stage; ?>",
+          'event': 'postView'
+        });
+    </script>
+  <?php
+}
+
+function add_page_tracking_code($contType) {
+  global $post;
+  ?>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
           'contType': "<?php echo $contType; ?>",
           'event': 'postView'
         });
     </script>
   <?php
+}
+
+function add_help_pages_tracking_code() {
+  global $post;
+  add_page_tracking_code("HelpPage");
+}
+
+function add_home_page_tracking_code() {
+  global $post;
+  add_page_tracking_code("BlogHome");
 }
 
 function get_custom_excerpt_with_text($length=55,$text='') { // Fakes an excerpt if needed
@@ -595,6 +619,7 @@ function fix_blog_navs_and_header () {
     remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
     remove_action( 'genesis_footer', 'genesis_do_footer' );
     remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
+    add_action( 'genesis_after_footer', 'add_help_pages_tracking_code');
   } else if ( is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -611,6 +636,9 @@ function fix_blog_navs_and_header () {
     if (is_post_type_archive('post') || is_home() ){
       add_action('genesis_after_header', 'add_big_cta');
     }
+    if (is_post_type_archive('post')){
+      add_action( 'genesis_after_footer', 'add_home_page_tracking_code');
+    }
   } else if ( is_singular('help_docs') ) {
     remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
     remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -619,6 +647,7 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_entry_content', 'add_help_docs_breadcrumbs');
     add_action( 'genesis_before_footer', 'add_help_docs_footer');
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
+    add_action( 'genesis_after_footer', 'add_help_pages_tracking_code');
   }
 }
 

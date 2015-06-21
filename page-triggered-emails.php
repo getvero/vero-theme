@@ -86,4 +86,5 @@
 <?php 
   custom_footer_static_wrap();
   wp_footer();
+  add_page_tracking_code("ProductPage");
 ?>

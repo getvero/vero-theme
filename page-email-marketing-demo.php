@@ -58,4 +58,5 @@ include 'pages-shared/static-header.php';
 </section>
 <?php 
   no_menus_genesis_footer();
+  add_page_tracking_code("ActionPage");
 ?>
