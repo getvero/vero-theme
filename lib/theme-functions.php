@@ -658,7 +658,7 @@ function do_post_type($color,$line=true,$latest=false,$temp_title=nil,$comments=
       <div class="the-date"><?php if($latest==true){ echo 'Latest'; } else {the_date('d M Y');} ?></div>
       <div class="circle"><img src="/wp-content/themes/vero/assets/images/post-types/<?php get_the_desc_for_post_type(get_post_type($post),$temp_title) ?><?php echo $color ?>.png"></div>
       <div class="tag"><?php get_the_desc_for_post_type( get_post_type($post),$temp_title)?></div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="getvero">Tweet</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="getvero">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </div>
     <?php if($line == true){
