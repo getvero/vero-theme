@@ -108,4 +108,5 @@ include 'pages-shared/static-header.php';
 </div>
 <?php 
   custom_footer_static_wrap();
+  wp_footer();
 ?>
