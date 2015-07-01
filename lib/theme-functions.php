@@ -36,6 +36,22 @@ function add_popup_area() {
   <?php
 }
 
+function hide_easy_slide_form() {
+  ?>
+  <script>
+  function getCookie(name) {
+    var re = new RegExp(name + "=([^;]+)");
+    var value = re.exec(document.cookie);
+    return (value != null) ? unescape(value[1]) : null;
+  }
+
+  if(getCookie("v_userId")){
+    jQuery('#esi-slide_in').css("display", "none");
+  } 
+  </script>
+  <?php
+}
+
 function custom_footer_static() {
   if( !is_singular('api_docs') ){
     ?>
@@ -412,18 +428,6 @@ function add_js() {
   wp_enqueue_script('homepage');
 }
 
-function add_gtm_identify() {
-  $email = urldecode($_GET['vero_e']);
-  if($_GET['vero_e'] != "") {
-  ?>
-    <script type="text/javascript" charset="utf-8">
-      dataLayer = []
-      dataLayer.push({'current_user_email': '<?php echo $email?>'});
-    </script>
-  <?php
-  }
-}
-
 function read_more_link() {
   return '<p><a class="more-link btn btn-success" href="' . get_permalink() . '">Read more &rarr;</a></p>';
 }
@@ -647,6 +651,8 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_footer', 'add_help_docs_footer');
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     add_action( 'genesis_after_footer', 'add_help_pages_tracking_code');
+  } else {
+    add_action( 'genesis_after_footer', 'hide_easy_slide_form');
   }
 }
 
