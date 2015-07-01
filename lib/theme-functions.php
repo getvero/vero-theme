@@ -651,9 +651,8 @@ function fix_blog_navs_and_header () {
     add_action( 'genesis_before_footer', 'add_help_docs_footer');
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
     add_action( 'genesis_after_footer', 'add_help_pages_tracking_code');
-  } else {
-    add_action( 'genesis_after_footer', 'hide_easy_slide_form');
-  }
+  } 
+  add_action( 'genesis_after_footer', 'hide_easy_slide_form');
 }
 
 function do_post_type($color,$line=true,$latest=false,$temp_title=nil,$comments=false) {
