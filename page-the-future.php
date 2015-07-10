@@ -21,9 +21,9 @@ include 'pages-shared/static-header.php';
     Vero
   </div>
   <h1>Stop monkeying around.</h1>
-  <p>Traditional email platforms let you send a single email, to everyone, at the same time.</p>
-  <p>Vero helps you send every email, to each individual,
-    at exactly the right time.</p>
+  <p>Traditional email marketing platforms let you send a <em>single email</em>, to <em>everyone</em>, at the <em>same time</em>.</p>
+  <p>Vero helps you send the same email, to <em>each individual</em>,
+    right when they're <em>likely to convert</em>.</p>
   <ul class="menu list-unstyled list-inline">
     <li><a href="/features">Features</a></li>
     <li><a href="/pricing">Pricing</a></li>
@@ -33,9 +33,9 @@ include 'pages-shared/static-header.php';
     <li><a href="https://app.getvero.com/login">Login</a></li>
 </section>
 <section id="right">
-  <h3>Become a smart marketer and join Vero.</h3>
-  <p>Start a 14 day free trial and automate and target your email marketing like never before.</p>
-  <form accept-charset="UTF-8" action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="S3k+XA/z6JGtjq2XSHysm6qjuj2HoIe29xBGNsoF6WA="></div>
+  <h3>Become a smart marketer.</h3>
+  <p>It's simple, if you use the same tools as your competitors, you’ll get the same results. Get Vero.</p>
+  <form accept-charset="UTF-8" action="https://app.getvero.com/users" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="S3k+XA/z6JGtjq2XSHysm6qjuj2HoIe29xBGNsoF6WA="></div>
     <div class="form-group">
       <label>Full Name</label>
       <input autofocus="autofocus" class="form-control" id="user_name" name="user[name]" placeholder="Tyrion Lannister" type="text">
