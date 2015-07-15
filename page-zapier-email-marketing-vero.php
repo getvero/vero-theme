@@ -36,7 +36,8 @@
       <h1>Vero + Zapier</h1>
       <p>Vero helps you use everything you know about your customers to send more personal emails. With Zapier, you can now use more data than ever before to power your personalisation.</p>
       <p>Create your first Zap with Vero now, or check out some popular examples below.</p>
-      <a href="https://zapier.com" class="btn btn-large btn-outline btn-white">Create a Zap now &rarr;</a>
+      <a href="https://zapier.com" class="btn btn-large btn-primary">Create a free Vero account &rarr;</a>
+      <p class="small">Test Vero with Zapier on Vero's 14 day free trial</p>
     </div>
   </div>
 </section>
@@ -59,7 +60,7 @@
         </div>
         <p class="body">
           Trigger an email when someone has sent your help desk five separate support tickets with an offer to give them a call, or asking for feedback.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
       <li class="center-text">
@@ -74,7 +75,7 @@
         </div>
         <p class="body">
           Trigger an email when someone has sent your help desk five separate support tickets with an offer to give them a call, or asking for feedback.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
       <li class="center-text">
@@ -89,7 +90,7 @@
         </div>
         <p class="body">
           Trigger a series of emails when you create a new deal, or remove customers from a series when they enter your pipeline.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
       <li class="center-text">
@@ -104,7 +105,7 @@
         </div>
         <p class="body">
           Send a series of emails to a lead that downloads an ebook or enters a contest.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
       <li class="center-text">
@@ -119,7 +120,7 @@
         </div>
         <p class="body">
           When someone subscribes at the end of your video, send them the perfect message based on what they just watched.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
       <li class="center-text">
@@ -134,7 +135,7 @@
         </div>
         <p class="body">
           Track replies to your emails and remove customers from automated email flows. No more pesky double-ups that bother your customers.
-          <a href="#" class="btn btn-warning">Create this Zap</a>
+          <a href="#" class="btn btn-warning">Create this Zap in Zapier</a>
         </p>
       </li>
     </ul>
