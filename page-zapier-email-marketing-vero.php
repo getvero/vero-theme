@@ -18,7 +18,7 @@
   <div id="integrations">
     <ul class="list-unstyled list-inline">
       <?php 
-        $integrations = ['wistia','stripe','zendesk','salesforce','hellosign','helpscout','pipedrive','unbounce','freshdesk','closeio','leadpages','slack','recurly'];
+        $integrations = ['wistia','stripe','zendesk','salesforce','vero','helpscout','pipedrive','unbounce','freshdesk','closeio','leadpages','slack','recurly'];
         $i = 9;
         while ($i > 0) {
           foreach($integrations as $integration) {
@@ -167,6 +167,7 @@ jQuery(document).ready(function() {
       }          
       jQuery('#integrations .integration').random().addClass('active');
       jQuery('#integrations .integration').random().addClass('active');
+      jQuery('#integrations .vero').random().addClass('active');
       jQuery('#integrations .integration').random().addClass('active');
     }, 
   1500);
