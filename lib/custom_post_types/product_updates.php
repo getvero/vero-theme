@@ -14,6 +14,7 @@ function create_product_updates_post_type () {
       'labels' => $labels,
       'public' => true,
       'has_archive' => true,
+      'with_front' => false,
       'rewrite' => array('slug' => 'product-updates'),
       'supports' => array( 'title', 'editor', 'thumbnail' )
       );

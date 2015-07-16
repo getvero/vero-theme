@@ -16,6 +16,7 @@ function register_help_post_type () {
     'menu_icon' => '/wp-content/themes/vero/assets/images/icons/api.png',
     'has_archive' => true,
     'hierarchical' => false,
+    'with_front' => false,
     'taxonomies' => array( 'help_docs_categories'),
     'capability_type' => 'post',
     'query_var' => true,

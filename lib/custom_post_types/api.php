@@ -16,6 +16,7 @@ function register_api_post_type () {
     'menu_icon' => '/wp-content/themes/vero/assets/images/icons/api.png',
     'has_archive' => true,
     'hierarchical' => true,
+    'with_front' => false,
     'rewrite' => array('slug' => 'api')
   );
 

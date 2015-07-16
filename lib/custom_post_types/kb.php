@@ -29,6 +29,7 @@ function register_kb_post_type () {
     'labels' => $labels,
     'menu_icon' => '/wp-content/themes/vero/assets/images/icons/lightbulb.png',
     'public' => true,
+    'with_front' => false,
     'has_archive' => 'knowledge-base',
     'rewrite' => array(
       //'slug' => "knowledge-base", 
