@@ -16,7 +16,7 @@ function create_jobs_post_type () {
       'menu_icon' => '/wp-content/themes/vero/assets/images/icons/jobs.png',
       'has_archive' => true,
       'with_front' => false,
-      'rewrite' => array('slug' => 'jobs'),
+      'rewrite' => array('slug' => 'jobs', 'with_front' => false),
       'supports' => array( 'title', 'editor', 'thumbnail' )
       );
 
