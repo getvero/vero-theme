@@ -144,7 +144,7 @@ function genesischild_theme_setup() {
 	add_action( 'get_header', 'all_docs_sidebar_logic' );
   //add_action( 'get_header', 'help_docs_sidebar_logic' );
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
-  add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
+  //add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
 
   //Add and customise campaigns
   add_action( 'init', 'create_campaigns_post_type' );
