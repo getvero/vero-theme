@@ -89,7 +89,8 @@ include 'pages-shared/static-header.php';
   
   <p class="heading" id="transactional"><b>What is a transactional email?</b></p>
   <p>A transactional email is a type of triggered email that users <b>cannot</b> unsubscribe from. For this reason, they should be used very carefully. Receipts, invoices and account statements are examples of transactional email. They are required, so users cannot opt out.</p>
-  <p>We recommend that you invest time making your transactionals mobile-responsive and consistent with your brand since they are opened at up to 8x the rate as promotional emails. We created the <a href="http://blog.getvero.com/guides/the-complete-guide-to-transactional-email/">Complete Guide to Transactional Email</a> to give marketers inspiration for making better use of these emails.</p>
+  <p>We recommend that you invest time making your transactionals mobile-responsive and consistent with your brand since they are opened at up to 8x the rate as promotional emails. We created the <a href="http://www.getvero.com/articles
+/guides/the-complete-guide-to-transactional-email/">Complete Guide to Transactional Email</a> to give marketers inspiration for making better use of these emails.</p>
   
   <p class="heading" id="behavioral"><b>What is a behavioural email?</b></p>
   <p>A behavioural email is also triggered by an event or action but is designed to serve a marketing purpose. These emails <b>must</b> include an option to unsubscribe.</p>
