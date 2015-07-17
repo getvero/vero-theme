@@ -79,6 +79,9 @@ function genesischild_theme_setup() {
           return $nextlink;
   }
   
+  //Fix post archive page for custom subdirectory
+  add_action('init', 'fix_archive_resources');
+
   //Cookies
   add_action('init', 'set_cookies');
   

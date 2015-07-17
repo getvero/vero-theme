@@ -8,6 +8,29 @@ include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );
 include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' );
 
 //
+//Fix Archive
+//----------------------
+function objectToArray($object){
+   if( !is_object( $object ) && !is_array( $object ) ) {
+      return $object;
+   }
+   if( is_object( $object ) ) {
+      $object = get_object_vars( $object );
+   }
+   return array_map('objectToArray', $object);
+}
+
+function fix_archive_resources() {
+   $args = objectToArray( get_post_type_object('post') );
+   $args['has_archive'] = 'news';
+   $args['rewrite'] = array(
+      'slug' => 'resources',
+      'with_front' => FALSE,
+   );
+   register_post_type('post', $args);
+}
+
+//
 //Tweaks to Genesis
 //----------------------
 function custom_load_custom_style_sheet() {
