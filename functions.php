@@ -3,9 +3,9 @@
 add_action('genesis_setup','genesischild_theme_setup', 15); 
 function genesischild_theme_setup() { 
 
-	//Define child theme version
-	define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
-	
+  //Define child theme version
+  define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
+  
   // Custom stylesheet
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
@@ -78,9 +78,6 @@ function genesischild_theme_setup() {
           $nextlink = 'Next Posts &raquo;';
           return $nextlink;
   }
-  
-  //Fix post archive page for custom subdirectory
-  add_action('init', 'fix_archive_resources');
 
   //Cookies
   add_action('init', 'set_cookies');
@@ -89,17 +86,17 @@ function genesischild_theme_setup() {
   add_action( 'wp_enqueue_scripts', 'add_js' );  
   
   //HTML5 support
-	remove_action( 'genesis_entry_footer', 'optimized_counters_html5', 1 );
+  remove_action( 'genesis_entry_footer', 'optimized_counters_html5', 1 );
 
-	//Add support for HTML5 markup
-	add_theme_support( 'html5' );
-	//Add viewport metatag
-	add_theme_support( 'genesis-responsive-viewport' );
+  //Add support for HTML5 markup
+  add_theme_support( 'html5' );
+  //Add viewport metatag
+  add_theme_support( 'genesis-responsive-viewport' );
 
-	//Remove header
-	remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
-	remove_action( 'genesis_header', 'genesis_do_header' );
-	remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
+  //Remove header
+  remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
+  remove_action( 'genesis_header', 'genesis_do_header' );
+  remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
 
   //Remove Digg Digg where required
   add_filter('genesis_before', 'remove_digg_digg');
@@ -107,24 +104,24 @@ function genesischild_theme_setup() {
   //Add popups
   add_filter('genesis_after_content', 'custom_popups');
 
-	//Remove 'filed under' & info
-	remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-	add_filter( 'genesis_post_info', 'remove_post_info' );
+  //Remove 'filed under' & info
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+  add_filter( 'genesis_post_info', 'remove_post_info' );
 
-	//Remove the edit link
-	add_filter ( 'genesis_edit_post_link' , '__return_false' );
+  //Remove the edit link
+  add_filter ( 'genesis_edit_post_link' , '__return_false' );
 
-	//Custom footer
-	add_filter( 'genesis_footer_output', 'child_output_filter', 10, 3 );
+  //Custom footer
+  add_filter( 'genesis_footer_output', 'child_output_filter', 10, 3 );
 
-	//Custom body classes
+  //Custom body classes
   add_filter( 'body_class', 'add_body_classes' );
 
   //Add video
   //add_filter('genesis_before', 'add_videos');
 
-	//Add and customise FAQ and api docs
-	add_action( 'init', 'create_all_docs_post_type' );
+  //Add and customise FAQ and api docs
+  add_action( 'init', 'create_all_docs_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
   add_filter('post_type_link', 'filter_help_docs_link', 10, 2);
@@ -141,7 +138,7 @@ function genesischild_theme_setup() {
   //) );
 
   register_nav_menu('blog-api_docs_language_bar-nav-menu' , __( 'API Docs Languages'));
-	add_action( 'get_header', 'all_docs_sidebar_logic' );
+  add_action( 'get_header', 'all_docs_sidebar_logic' );
   //add_action( 'get_header', 'help_docs_sidebar_logic' );
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
   //add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite');
@@ -155,7 +152,7 @@ function genesischild_theme_setup() {
   ) );
   add_action( 'get_header', 'campaigns_sidebar_logic' );
 
-	//Customize blog posts
+  //Customize blog posts
   add_action( 'genesis_before', 'fix_blog_navs_and_header' );
   //add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
@@ -183,8 +180,8 @@ function genesischild_theme_setup() {
   ) );
   add_action( 'genesis_after_content', 'add_guides_sidebar' );
 
-	//Add and customise resources
-	add_action( 'init', 'create_resources_post_type' );
+  //Add and customise resources
+  add_action( 'init', 'create_resources_post_type' );
 
   //Add and customise jobs
   add_action( 'init', 'create_jobs_post_type' );
