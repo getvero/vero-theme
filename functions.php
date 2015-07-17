@@ -19,7 +19,7 @@ function genesischild_theme_setup() {
   add_theme_support( 'genesis-responsive-viewport' );
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer_static' );
-
+  
   //Popup
   //add_action( 'genesis_after_footer', 'add_popup_area' );
   

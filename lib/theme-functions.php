@@ -10,25 +10,25 @@ include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' );
 //
 //Fix Archive
 //----------------------
-function objectToArray($object){
-   if( !is_object( $object ) && !is_array( $object ) ) {
-      return $object;
-   }
-   if( is_object( $object ) ) {
-      $object = get_object_vars( $object );
-   }
-   return array_map('objectToArray', $object);
-}
+//function objectToArray($object){
+//   if( !is_object( $object ) && !is_array( $object ) ) {
+//      return $object;
+//   }
+//   if( is_object( $object ) ) {
+//      $object = get_object_vars( $object );
+//   }
+//   return array_map('objectToArray', $object);
+//}
 
-function fix_archive_resources() {
-   $args = objectToArray( get_post_type_object('post') );
-   $args['has_archive'] = 'articles';
-   $args['rewrite'] = array(
-      'slug' => 'articles',
-      'with_front' => false,
-   );
-   register_post_type('post', $args);
-}
+//function fix_archive_resources() {
+//   $args = objectToArray( get_post_type_object('post') );
+//   $args['has_archive'] = 'articles';
+//   $args['rewrite'] = array(
+//      'slug' => 'articles',
+//      'with_front' => false,
+//   );
+//   register_post_type('post', $args);
+//}
 
 //
 //Tweaks to Genesis
