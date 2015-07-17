@@ -22,10 +22,10 @@ function objectToArray($object){
 
 function fix_archive_resources() {
    $args = objectToArray( get_post_type_object('post') );
-   $args['has_archive'] = 'resources';
+   $args['has_archive'] = 'articles';
    $args['rewrite'] = array(
-      'slug' => 'resources',
-      'with_front' => FALSE,
+      'slug' => 'articles',
+      'with_front' => false,
    );
    register_post_type('post', $args);
 }
