@@ -799,7 +799,7 @@ function add_big_cta() {
     $item = $items[0];
         setup_postdata( $item );
         $img = wp_get_attachment_url( get_post_thumbnail_id($item->ID) );
-        $img = preg_replace( "http:", "https:", $img ); 
+        $img = preg_replace("/^http:/i", "https:", $img ); 
         ?>
           <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($item)) ?>' style="background:url('<?php echo $img; ?>') no-repeat center center fixed;">
           <div class="shade">
