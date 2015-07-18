@@ -15,7 +15,7 @@
       <li><a href="/faq">Help Documentation</a></li>
       <li><a href="/idea-lab">Email Recipe Lab</a></li>
       <li><a href="/api">API Reference</a></li>
-      <li><a href="http://www.getvero.com/articles
+      <li><a href="http://www.getvero.com/resources
 " target="_blank">Blog</a></li>
     </ul>
     <ul class="col">

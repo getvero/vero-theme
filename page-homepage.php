@@ -77,7 +77,7 @@
   <h2 class="center-text">See how businesses around the world use Vero to grow</h2>
   <h3 class="center-text">We asked some of our best customers how Vero has helped their businesses make more money</h3>
   <div class="feature-story contact-monkey">
-    <a href="http://www.getvero.com/articles
+    <a href="http://www.getvero.com/resources
 /contactmonkey" target="_blank">
         <p class="h3">ContactMonkey</p>
         <p>ContactMonkey use Vero to convert their SaaS customers into engaged, paying customers fast. Read this step-by-step, detailed case study on how they do it.</p>

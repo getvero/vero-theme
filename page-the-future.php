@@ -28,7 +28,7 @@ include 'pages-shared/static-header.php';
     <li><a href="/features">Features</a></li>
     <li><a href="/pricing">Pricing</a></li>
     <li><a href="/help">Help</a></li>
-    <li><a href="http://www.getvero.com/articles
+    <li><a href="http://www.getvero.com/resources
 " target="_blank">Blog</a></li>
     <li><a href="/email-marketing-demo">Enterprise Demo</a></li>
     <li><a href="https://app.getvero.com/login">Login</a></li>
