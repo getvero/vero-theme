@@ -105,12 +105,12 @@ function guides_featured_title () {
       $title = get_the_title($parent);
       $img = wp_get_attachment_image_src(get_post_thumbnail_id($parent->ID), 'large');
       $img = $img[0];   
-      $img = preg_replace( "^http:", "https:", $img ); 
       //$img = genesis_get_image( array( 'format' => 'url', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
     } else {
       $title = get_the_title();
       $img = genesis_get_image( array( 'format' => 'url', 'size' => genesis_get_option( 'image_size' ), 'attr' => array( 'class' => 'post-image' ) ) );
     }
+    $img = preg_replace( "http:", "https:", $img ); 
     $what_is_it = get_post_meta($post->ID, 'what_is_it', true); 
     $sub_title = get_post_meta($post->ID, 'sub_title', true); 
     $author_id = get_queried_object()->post_author;
