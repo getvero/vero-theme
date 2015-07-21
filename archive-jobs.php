@@ -7,8 +7,10 @@ Template Name: Jobs Archive
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 add_filter( 'body_class', 'metro_add_body_class' );
 function metro_add_body_class( $classes ) {
-   $classes[] = 'full-width jobs';
-   return $classes;
+  $blacklist = array( 'blog' );
+  $classes[] = 'full-width jobs';
+  $classes = array_diff( $classes, $blacklist );
+  return $classes;
 }
 
 //Remove header
@@ -53,54 +55,74 @@ function add_jobs_featured() {
   ?>
   <section id="top" class="center-text">
     <div class="inner">
-      <h1>Helping online businesses everywhere<br>send emails their customers actually <em>want</em>.</h1>
+      <h1>Helping online businesses everywhere<br>create experiences their customers <em>love</em>.</h1>
     <div id="values" class="center-text">
       <div class="inner">
         <h2>Our values</h2>
         <ul class="list-unstyled list-inline">
           <li>
-            <img src="/wp-content/themes/vero/assets/images/jobs/magnify.png"/>
+            <img src="/wp-content/themes/vero/assets/images/jobs/magnify-color.png"/>
             <p>Less is more.</p>
           </li>
           <li>
-            <img src="/wp-content/themes/vero/assets/images/jobs/bulb.png"/>
+            <img src="/wp-content/themes/vero/assets/images/jobs/bulb-color.png"/>
             <p>Technology can make the world a better place.</p>
           </li>
           <li>
-            <img src="/wp-content/themes/vero/assets/images/jobs/books.png"/>
+            <img src="/wp-content/themes/vero/assets/images/jobs/books-color.png"/>
             <p>Knowledge is empowering. Never stop learning.</p>
           </li>
           <li>
-            <img src="/wp-content/themes/vero/assets/images/jobs/heart.png"/>
+            <img src="/wp-content/themes/vero/assets/images/jobs/heart-color.png"/>
             <p>Don't defer your life plan. Live passionately now.</p>
           </li>
           <li>
-            <img src="/wp-content/themes/vero/assets/images/jobs/tick.png"/>
+            <img src="/wp-content/themes/vero/assets/images/jobs/tick-color.png"/>
             <p>"Great artists ship". Action over intention.</p>
           </li>
       </div>
     </div>
   </section>
 
+  <section id="vero-growth" class="center-text">
+    <div class="inner">
+      <h2>Last Monday, we sent 16 million emails.</h2>
+      <p class="h3">Since launch in mid-2012, Vero has grown exponentially, and our journey has only just begun. Join Vero and you'll be part of our next wave of growth. Read more <a href="https://www.getvero.com/resources/guides/future-of-vero/" target="_blank">about our growth</a>.</p>
+      <ul class="list-unstyled stats list-inline">
+        <li>
+          <div class="number center-text">8B+</div><p>Data points tracked</p>
+        </li>
+        <li>
+          <div class="number center-text">900+</div><p>Campaigns created last week</p>
+        </li>
+        <li>
+          <div class="number center-text">85K+</div><p>Monthly blog readers</p>
+        </li>
+      </ul>
+      <p class="companies">Here are some of the amazing companies we are inspired to work with every single day.
+      <img src="/wp-content/themes/vero/assets/images/customers/all-grey-more.png"></p>
+
+    </div>
+  </section>
 
   <section id="love-work" class="center-text">
     <div class="inner">
       <h2>Make work a part of a life you love</h2>
-      <div class="video">
-        <div id="wistia_t7pcnzijhg" class="wistia_embed" style="width:640px;height:360px;"><div itemprop="video" itemscope itemtype="http://schema.org/VideoObject"><meta itemprop="name" content="Vero Kuala" /><meta itemprop="duration" content="PT1M30S" /><meta itemprop="thumbnailUrl" content="https://embed-ssl.wistia.com/deliveries/1d9486ddcd2fdec83d595bff694d97a0fdc7bcd8.bin" /><meta itemprop="contentURL" content="https://embed-ssl.wistia.com/deliveries/0985588df395c1e3845ede26c1c9d4b0cba49c33.bin" /><meta itemprop="embedURL" content="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04&autoPlay=false&banner=false&controlsVisibleOnLoad=true&customColor=00c3e4&endVideoBehavior=default&fullscreenDisabled=true&hdUrl%5B2pass%5D=true&hdUrl%5Bext%5D=flv&hdUrl%5Bheight%5D=720&hdUrl%5Bsize%5D=29950032&hdUrl%5Btype%5D=hdflv&hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Ff278e4bacf8cdc99c88e2d2d253cb0ee9a02ab95.bin&hdUrl%5Bwidth%5D=1280&mediaDuration=90.084&playButtonVisible=true&showPlayButton=true&showPlaybar=true&showVolume=true&stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F1d9486ddcd2fdec83d595bff694d97a0fdc7bcd8.bin%3Fimage_crop_resized%3D640x360&unbufferedSeek=false&videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F0985588df395c1e3845ede26c1c9d4b0cba49c33.bin" /><meta itemprop="uploadDate" content="2014-11-12T22:38:37Z" /><object id="wistia_t7pcnzijhg_seo" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" style="display:block;height:360px;position:relative;width:640px;"><param name="movie" value="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04"></param><param name="allowfullscreen" value="true"></param><param name="bgcolor" value="#000000"></param><param name="wmode" value="opaque"></param><param name="flashvars" value="autoPlay=false&banner=false&controlsVisibleOnLoad=true&customColor=00c3e4&endVideoBehavior=default&fullscreenDisabled=true&hdUrl%5B2pass%5D=true&hdUrl%5Bext%5D=flv&hdUrl%5Bheight%5D=720&hdUrl%5Bsize%5D=29950032&hdUrl%5Btype%5D=hdflv&hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Ff278e4bacf8cdc99c88e2d2d253cb0ee9a02ab95.bin&hdUrl%5Bwidth%5D=1280&mediaDuration=90.084&playButtonVisible=true&showPlayButton=true&showPlaybar=true&showVolume=true&stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F1d9486ddcd2fdec83d595bff694d97a0fdc7bcd8.bin%3Fimage_crop_resized%3D640x360&unbufferedSeek=false&videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F0985588df395c1e3845ede26c1c9d4b0cba49c33.bin"></param><embed src="https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?2013-10-04" allowfullscreen="true" bgcolor=#000000 flashvars="autoPlay=false&banner=false&controlsVisibleOnLoad=true&customColor=00c3e4&endVideoBehavior=default&fullscreenDisabled=true&hdUrl%5B2pass%5D=true&hdUrl%5Bext%5D=flv&hdUrl%5Bheight%5D=720&hdUrl%5Bsize%5D=29950032&hdUrl%5Btype%5D=hdflv&hdUrl%5Burl%5D=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Ff278e4bacf8cdc99c88e2d2d253cb0ee9a02ab95.bin&hdUrl%5Bwidth%5D=1280&mediaDuration=90.084&playButtonVisible=true&showPlayButton=true&showPlaybar=true&showVolume=true&stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F1d9486ddcd2fdec83d595bff694d97a0fdc7bcd8.bin%3Fimage_crop_resized%3D640x360&unbufferedSeek=false&videoUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F0985588df395c1e3845ede26c1c9d4b0cba49c33.bin" name="wistia_t7pcnzijhg_html" style="display:block;height:100%;position:relative;width:100%;" type="application/x-shockwave-flash" wmode="opaque"></embed></object><noscript itemprop="description">Vero Kuala</noscript></div></div>
-        <div class="below-video"><p><strong>Vero Team Expedition 2014</strong> in Kuala Lumpur, Malaysia<p></div>
-      </div>
-      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
-      <script>
-      wistiaEmbed = Wistia.embed("t7pcnzijhg");
-      </script>
-      <script charset="ISO-8859-1" src="//fast.wistia.com/embed/medias/t7pcnzijhg/metadata.js"></script>
+      <p class="h3">Check out the Vero Team Expedition to Kuala Lumpur, Malaysia in 2014.</p>
     </div>
   </section>
 
+  <section id="video">
+    <iframe src="//fast.wistia.net/embed/iframe/t7pcnzijhg?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="800" height="450"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
+  </section>
+
+  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
+  <script>wistiaEmbed = Wistia.embed("t7pcnzijhg");</script>
+  <script charset="ISO-8859-1" src="//fast.wistia.com/embed/medias/t7pcnzijhg/metadata.js"></script>
+
   <section id="jobs" class="center-text">
     <div class="inner">
-      <h2>Open positions</h2>
+      <h2>Current positions</h2>
   <?php 
 }
 
@@ -108,6 +130,6 @@ function add_jobs_featured() {
 add_action( 'genesis_after_content', 'jobs_do_close' );
 function jobs_do_close() {
   echo "</div></section>";
-}
+} ?>
 
-genesis(); ?>
+<?php genesis(); ?>
