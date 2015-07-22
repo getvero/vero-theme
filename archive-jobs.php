@@ -86,7 +86,7 @@ function add_jobs_featured() {
 
   <section id="vero-growth" class="center-text">
     <div class="inner">
-      <h2>Last Monday, we sent 16 million emails.</h2>
+      <h2>Last Monday alone, we sent 16 million emails.</h2>
       <p class="h3">Since launch in mid-2012, Vero has grown exponentially, and our journey has only just begun. Join Vero and you'll be part of our next wave of growth. Read more <a href="https://www.getvero.com/resources/guides/future-of-vero/" target="_blank">about our growth</a>.</p>
       <ul class="list-unstyled stats list-inline">
         <li>
@@ -113,7 +113,9 @@ function add_jobs_featured() {
   </section>
 
   <section id="video">
-    <iframe src="//fast.wistia.net/embed/iframe/t7pcnzijhg?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="800" height="450"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
+    <div id="video-container">
+      <iframe src="//fast.wistia.net/embed/iframe/t7pcnzijhg?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="800" height="450"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
+    </div>
   </section>
 
   <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
