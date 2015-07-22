@@ -13,6 +13,11 @@ function metro_add_body_class( $classes ) {
   return $classes;
 }
 
+add_filter('wp_title', 'my_custom_title');
+function my_custom_title($title) {
+    return 'Start your next job at Vero';
+}
+
 //Remove header
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
