@@ -628,7 +628,7 @@ function fix_blog_navs_and_header () {
       add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
     if (is_singular()){
-      add_action( 'genesis_after_header', 'cta_before_content' );
+      //add_action( 'genesis_after_header', 'cta_before_content' );
       add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     }
   } else if ( is_singular('guides') ) {
