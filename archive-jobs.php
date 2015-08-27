@@ -135,8 +135,25 @@ function add_jobs_featured() {
 
 //Close jobs at bottom
 add_action( 'genesis_after_content', 'jobs_do_close' );
-function jobs_do_close() {
-  echo "</div></section>";
-} ?>
+function jobs_do_close() { ?>
+  <div class="subscribe">
+      <h3>Your dream job not currently open? Stay in the loop on new postings!</h3>
+      <form class="form-inline" action='https://app.getvero.com/forms/ba9cc7c0671db8a8e27d7c7de1311da1' method='post'>
+        <input name='redirect_on_success' type='hidden' value='https://www.getvero.com/jobs?thanks=yourock' />
+        <div class="form-group">
+          <label for='email'>Your email</label>
+          <input name='email' type='email' class="form-control"/>
+        </div>
+        <div class="form-group">
+          <label for='user_first_name'>Your (first) name</label>
+          <input name='user[first_name]' type='text'  class="form-control"/>
+        </div>
+        <div class="form-group"><input type='submit' value='Keep me updated' class="btn btn-success" /></div>
+    </form>
+  </div>
+  
+  </div></section>
+<?php } ?>
+
 
 <?php genesis(); ?>
