@@ -4,6 +4,17 @@
 //Custom settings
 //----------------------
 
+function my_attributes_dropdown_pages_args($dropdown_args) {
+  $dropdown_args['post_status'] = array('publish','draft');
+  return $dropdown_args;
+}
+
+function add_categories_to_pages(){
+  add_meta_box(   'categorydiv', __('Categories'), 'post_categories_meta_box', 
+        'page', 'side', 'core');
+  register_taxonomy_for_object_type('category', 'page');
+}
+
 function post_type_defaults( $defaults ) {
  
   $defaults['resources'] = false;

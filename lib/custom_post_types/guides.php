@@ -203,4 +203,5 @@ function add_custom_elements_to_guides() {
     </div>";
   }
 }
+
 ?>

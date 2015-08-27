@@ -20,9 +20,6 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer_static' );
   
-  //Popup
-  //add_action( 'genesis_after_footer', 'add_popup_area' );
-  
   //Move
   add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
 
@@ -47,12 +44,6 @@ function genesischild_theme_setup() {
   
   //Add categories to pages
   add_filter( 'admin_init', 'add_categories_to_pages');
-
-  //Filter text on static pages
-  //add_filter( 'admin_head', 'filter_text_on_static_pages');
-
-  //Adjust sidebar in admin
-  add_action( 'admin_menu', 'set_admin_menu_separator');
 
   //Add support for post formats
   add_theme_support( 'post-formats', array(
@@ -97,10 +88,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
   remove_action( 'genesis_header', 'genesis_do_header' );
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
-
-  //Remove Digg Digg where required
-  add_filter('genesis_before', 'remove_digg_digg');
-
+  
   //Add popups
   add_filter('genesis_after_content', 'custom_popups');
 
@@ -153,10 +141,8 @@ function genesischild_theme_setup() {
   add_action( 'get_header', 'campaigns_sidebar_logic' );
 
   //Customize blog posts
-  add_action( 'genesis_before', 'fix_blog_navs_and_header' );
-  //add_action( 'genesis_after_header', 'add_blog_navbar_logic' ); 
+  add_action( 'genesis_before', 'customize_blog' );
   register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
-  add_action( 'genesis_entry_footer', 'add_how_to_do_this_area', 14 );
 
   //Add guides
   add_action( 'init', 'create_guides_post_type' );

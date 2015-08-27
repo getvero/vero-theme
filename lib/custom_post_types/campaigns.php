@@ -97,3 +97,5 @@ function campaigns_sidebar_logic() {
 function get_campaigns_sidebar() {
   genesis_widget_area( 'campaigns_sidebar' );
 }
+
+?>

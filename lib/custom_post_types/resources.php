@@ -24,4 +24,15 @@ function create_resources_post_type () {
   }
 }
 
+//
+// Add and customise blog resources page
+//----------------------
+function create_sidebars_blog_resources() {
+  genesis_register_sidebar( array(
+    'id'      => 'resources-featured-full',
+    'name'      => __( 'Resources Featured Full', 'CHILD_THEME_NAME' ),
+    'description' => __( 'This is the featured area if you want full width.', 'CHILD_THEME_NAME' ),
+  ) );
+}
+
 ?>

@@ -47,3 +47,5 @@ function remove_post_info($post_info) {
     return $post_info;
   }
 }
+
+?>
