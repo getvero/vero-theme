@@ -38,7 +38,6 @@ function customize_blog () {
 
     remove_titles();
     add_action( 'genesis_before_entry_content', 'genesis_do_post_title', 9 );
-    add_action( 'genesis_before_entry_content', 'do_post_type' );
     add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     add_action( 'genesis_after_footer', 'add_post_tracking_code');
     add_action( 'genesis_after', 'scrolls_for_blog_posts');
