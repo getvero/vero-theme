@@ -78,48 +78,6 @@ function scrolls_for_blog_posts () {
   <?php 
 }
 
-// Add big image at top of the blog homepage
-function add_big_cta() {
-  $args = array(
-    'posts_per_page' => 1,
-    'post_parent' => 0, 
-    'post_type' => array(
-      'post', 'guides'
-    )
-  );
-
-  if(!is_paged() ) { 
-    $counter = 0;
-    echo "<div class='big-cta-area'>";
-
-    $the_query = new WP_Query( $args );
-    $items = $the_query->get_posts();
-
-    $item = $items[0];
-        setup_postdata( $item );
-        $img = wp_get_attachment_url( get_post_thumbnail_id($item->ID) );
-        $img = preg_replace("/^http:/i", "https:", $img ); 
-        ?>
-          <div class='big-bg <?php echo get_the_desc_for_post_type(get_post_type($item)) ?>' style="background:url('<?php echo $img; ?>') no-repeat center center fixed;">
-          <div class="shade">
-          <div class="wrap">
-            <div class="post-type-line-top"></div>
-            <?php 
-              //$type = get_the_desc_for_post_type(get_post_type($item)); 
-              do_post_type('white',false,true); 
-            ?>
-            <h1><a href="<?php echo get_the_permalink($item) ?>"><?php echo get_the_title($item) ?></a></h1>
-            <p><?php echo get_custom_excerpt(110); ?></p>
-            <p>
-              <a class="more-link btn btn-success" href="<?php echo get_the_permalink($item); ?>">Read more &rarr;</a>
-            </p>
-            </div>
-          </div>
-          </div>
-        <?php
-    echo "</div>";
-  }
-}
 
 // Add sign up form above content
 function cta_before_content() {

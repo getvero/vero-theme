@@ -17,9 +17,9 @@ function custom_load_custom_style_sheet() {
   }
 
   if ( is_singular('post') || is_singular('guides') || is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
-    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'custom-stylesheet', $base_url."/app.css", array(), PARENT_THEME_VERSION );
   } else {
-    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
+    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
   }
 }
 

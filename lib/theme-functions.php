@@ -75,10 +75,9 @@ function customize_blog () {
 
   } else if (is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
 
-    add_action( 'genesis_before_entry_content', 'do_post_type' );
-    if (is_post_type_archive('post') || is_home() ){
-      add_action('genesis_after_header', 'add_big_cta');
-    }
+    remove_titles();
+    add_action( 'genesis_before_entry_content', 'genesis_do_post_title' );
+    // add_action( 'genesis_before_entry_content', 'do_post_type' );
     if (is_post_type_archive('post')){
       add_action( 'genesis_after_footer', 'add_home_page_tracking_code');
     }
