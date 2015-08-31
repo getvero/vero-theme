@@ -42,12 +42,13 @@ function customize_blog () {
     add_action( 'genesis_after_entry_content', 'subscribe_after_content' );
     add_action( 'genesis_after_footer', 'add_post_tracking_code');
     add_action( 'genesis_after', 'scrolls_for_blog_posts');
+    
     if ( get_post_meta($post->ID, 'post_style', true) == 'centered' ) {
       add_action( 'genesis_before_content', 'blog_post_featured_image', 8);
     } else {
       add_action( 'genesis_before_entry_content', 'blog_post_featured_image', 15);
     }
-    
+
   } else if (is_singular('resources')) {
 
     remove_titles();

@@ -10,15 +10,15 @@ function remove_cssjs_ver( $src ) {
 function custom_load_custom_style_sheet() {
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
-    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
-    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
   } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" ) {
     $base_url = "http://static.getvero.com.s3.amazonaws.com";
-    wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.css", array(), PARENT_THEME_VERSION );
-    wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.css", array(), PARENT_THEME_VERSION );
   } else {
     $base_url = "https://d3qxef4rp70elm.cloudfront.net";
+  }
+
+  if ( is_singular('post') || is_singular('guides') || is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
     wp_enqueue_style( 'custom-stylesheet', $base_url."/blog.min.css", array(), PARENT_THEME_VERSION );
+  } else {
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.min.css", array(), PARENT_THEME_VERSION );
   }
 }
