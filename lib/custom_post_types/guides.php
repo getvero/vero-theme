@@ -73,17 +73,6 @@ function change_guide_slugs() {
   }
 }
 
-function custom_header_for_guides () {
-  if (genesis_get_option('guides') == true) {
-    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-    remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
-    remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-    add_action( 'genesis_before_content', 'guides_featured_title', 9 );
-    add_action( 'genesis_entry_header', 'guides_chapter_headers', 9);
-  }
-}
-
 function guides_before_footer () {
     if ( ! is_singular( 'guides' ) )
       return;

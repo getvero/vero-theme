@@ -49,7 +49,6 @@ function genesischild_theme_setup() {
   add_filter( 'get_the_content_more_link', 'read_more_link' );
   add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-  add_filter( 'genesis_post_info', 'remove_post_info' );
   function gt_review_prev_link_text() {
           $prevlink = '&laquo; Previous Posts';
           return $prevlink;
@@ -107,7 +106,7 @@ function genesischild_theme_setup() {
   ) );
   add_filter('genesis_site_layout', 'help_docs_layout');
   register_nav_menu('blog-api_docs_language_bar-nav-menu' , __( 'API Docs Languages'));
-  add_action( 'get_header', 'all_docs_sidebar_logic' );
+  //add_action( 'get_header', 'all_docs_sidebar_logic' );
   add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
 
   //Add and customise campaigns
@@ -126,7 +125,6 @@ function genesischild_theme_setup() {
   //Add guides
   add_action( 'init', 'create_guides_post_type' );
   add_filter( 'genesis_site_layout', 'guides_layout' );
-  add_action( 'genesis_before', 'custom_header_for_guides' ); 
   add_action( 'genesis_before', 'fix_guide_navs' );
   add_action( 'wp_enqueue_scripts', 'add_guides_scripts');
   add_action( 'genesis_after_entry_content', 'guides_before_footer');
