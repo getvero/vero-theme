@@ -106,8 +106,6 @@ function genesischild_theme_setup() {
   ) );
   add_filter('genesis_site_layout', 'help_docs_layout');
   register_nav_menu('blog-api_docs_language_bar-nav-menu' , __( 'API Docs Languages'));
-  //add_action( 'get_header', 'all_docs_sidebar_logic' );
-  add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
 
   //Add and customise campaigns
   add_action( 'init', 'create_campaigns_post_type' );
