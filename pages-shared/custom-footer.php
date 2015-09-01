@@ -7,7 +7,7 @@
       <li><a href="/triggered-emails">Triggered emails</li>
       <li><a href="/smart-newsletters">Smart newsletters</li>
       <li><a href="/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
-      <li><a href="/external-attributes">External Attributes</li>
+      <li><a href="/external-attributes">External Attributes</a></li>
     </ul>
     <ul class="col">
       <li class="header">Resources</li>
