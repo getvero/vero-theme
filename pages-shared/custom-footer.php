@@ -4,8 +4,8 @@
     <ul class="col">
       <li class="header">Features</li>
       <li><a href="/features">Start the tour &rarr;</a></li>
-      <li><a href="/triggered-emails">Triggered emails</li>
-      <li><a href="/smart-newsletters">Smart newsletters</li>
+      <li><a href="/triggered-emails">Triggered emails</a></li>
+      <li><a href="/smart-newsletters">Smart newsletters</a></li>
       <li><a href="/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
       <li><a href="/external-attributes">External Attributes</a></li>
     </ul>

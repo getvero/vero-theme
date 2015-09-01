@@ -14,10 +14,10 @@ function custom_footer_static() {
     <ul class="col">
       <li class="header">Features</li>
       <li><a href="http://www.getvero.com/features">Start the tour &rarr;</a></li>
-      <li><a href="http://www.getvero.com/triggered-emails">Triggered emails</li>
-      <li><a href="http://www.getvero.com/smart-newsletters">Smart newsletters</li>
+      <li><a href="http://www.getvero.com/triggered-emails">Triggered emails</a></li>
+      <li><a href="http://www.getvero.com/smart-newsletters">Smart newsletters</a></li>
       <li><a href="http://www.getvero.com/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
-      <li><a href="http://www.getvero.com/external-attributes">External Attributes</li>
+      <li><a href="http://www.getvero.com/external-attributes">External Attributes</a></li>
     </ul>
     <ul class="col">
       <li class="header">Resources</li>
