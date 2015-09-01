@@ -96,41 +96,5 @@ function read_more_link() {
   return '<p><a class="more-link btn btn-success" href="' . get_permalink() . '">Read more &rarr;</a></p>';
 }
 
-// Custom popup functions
-function custom_popups() {
-  $post = get_post();
-  $with_scroll = (get_post_meta($post->ID, 'percent', true));
-  $percent = (get_post_meta($post->ID, 'percent_down', true));
-  $popup_value = (do_shortcode(get_post_meta($post->ID, 'popup_value', true)));
-  
-  $url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-  $parsed_url = parse_url($url);
-  
-  $has_cookie = $_COOKIE[str_replace('/', '_', $parsed_url['path'])];
-
-  if (!empty($popup_value) && empty($has_cookie)){
-  ?>
-    <div id="blog-popup" style="display:none;"><?php echo $popup_value ?></div>
-  <?php if ($with_scroll == false) { ?>
-    <script>jQuery(document).ready(function(){
-      jQuery("#blog-popup").loadLeanModal();
-    });</script>
-  <?php } else { ?>
-    <script>
-      var body = document.body,
-      html = document.documentElement;
-      var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                           html.clientHeight, html.scrollHeight, html.offsetHeight );
-
-      var interval = setInterval(function() {
-          if (jQuery(window).scrollTop() >= (height * (<?php echo intval($percent)/100; ?>))) {
-            jQuery("#blog-popup").loadLeanModal();
-            clearInterval(interval);
-          }
-      }, 250);
-    </script>
-  <?php }
-  }
-}
 
 ?>

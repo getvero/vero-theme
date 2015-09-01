@@ -1,10 +1,6 @@
 <?php
 
-//
-// Add Help docs
-//----------------------
-function register_help_post_type () {
-  // Help docs
+function create_help_docs_post_type() {
   $labels = array(
     'name' => __( 'Help Docs' ),
     'singular_name' => __( 'Help Doc' )
@@ -27,13 +23,6 @@ function register_help_post_type () {
   add_post_type_support( 'help_docs', 'genesis-layouts' );
 }
 
-function create_help_docs_post_type() {
-  if(genesis_get_option('help_docs') == true){
-    register_help_post_type();
-  }
-}
-
-// Custom Taxonomy
 function add_help_docs_taxonomies() {
 
   register_taxonomy('help_docs_categories', 'help_docs', array(
@@ -140,10 +129,6 @@ function add_help_docs_page_sidebar(){
   <?php
 }
 
-
-//
-// Help docs categories
-//--------
 function set_posts_per_docs_category( $query ) {
   if (!is_main_query() || !is_tax('help_docs_categories') )
     return;

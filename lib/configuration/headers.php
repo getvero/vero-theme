@@ -84,16 +84,4 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
     return $classes;
 }
 
-// Blog navbar
-function add_blog_navbar_logic() {
-  if ( is_singular('post') || is_author() || is_search() || is_singular('guides') || is_post_type_archive('post') || is_category() || is_home() || is_singular('resources') ) {
-    echo '<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"><div class="wrap">';
-    wp_nav_menu( array(
-      'theme_location' => 'blog-secondary-nav-menu',
-      'container_class' => 'menu-primary'
-    ) );
-    echo '</div></nav>';
-  }
-}
-
 ?>

@@ -122,6 +122,5 @@
   </div>
 </section>
 <?php 
-custom_footer_static_wrap();
 wp_footer();
 ?>

@@ -1,9 +1,6 @@
 <?php
 
-//
-// Add and customize Jobs
-//----------------------
-function create_jobs_post_type () {
+function create_jobs_post_type() {
   if (genesis_get_option('jobs') == true) {
      $labels = array(
       'name' => __( 'Jobs' ),
