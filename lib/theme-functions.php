@@ -1,10 +1,10 @@
 <?php
 
 # Add in custom resources and the like
-include_once( CHILD_DIR . '/lib/custom_post_types/guides.php' );          # Guides pages
-include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );       # Help docs archive and pages
-include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );            # Jobs archive and pages
-include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );             # API archive and pages
+include_once( CHILD_DIR . '/lib/post_types/guides.php' );          # Guides pages
+include_once( CHILD_DIR . '/lib/post_types/help_docs.php' );       # Help docs archive and pages
+include_once( CHILD_DIR . '/lib/post_types/jobs.php' );            # Jobs archive and pages
+include_once( CHILD_DIR . '/lib/post_types/api.php' );             # API archive and pages
 
 # include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' ); # NEW Product updates
 
