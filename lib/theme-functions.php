@@ -6,9 +6,7 @@ include_once( CHILD_DIR . '/lib/custom_post_types/help_docs.php' );       # Help
 include_once( CHILD_DIR . '/lib/custom_post_types/jobs.php' );            # Jobs archive and pages
 include_once( CHILD_DIR . '/lib/custom_post_types/api.php' );             # API archive and pages
 
-include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' ); # NEW Product updates
-include_once( CHILD_DIR . '/lib/custom_post_types/campaigns.php' );       # DEPRECATED Campaigns archive and pages 
-include_once( CHILD_DIR . '/lib/custom_post_types/resources.php' );       # DEPRECATED Resources 
+# include_once( CHILD_DIR . '/lib/custom_post_types/product_updates.php' ); # NEW Product updates
 
 # Custom configurations
 include_once( CHILD_DIR . '/lib/configuration/support.php' );
