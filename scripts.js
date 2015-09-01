@@ -166,7 +166,4 @@
     }
   });
 
-  //Typekit
-  try{Typekit.load({ async: true });}catch(e){}
-
 }).call(this);
