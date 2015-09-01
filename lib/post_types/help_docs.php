@@ -1,6 +1,6 @@
 <?php
 
-function create_help_docs_post_type() {
+function create_help_docs_post_type () {
   $labels = array(
     'name' => __( 'Help Docs' ),
     'singular_name' => __( 'Help Doc' )
@@ -9,7 +9,6 @@ function create_help_docs_post_type() {
   $args = array(
     'labels' => $labels,
     'public' => true,
-    'menu_icon' => '/wp-content/themes/vero/assets/images/icons/api.png',
     'has_archive' => true,
     'hierarchical' => false,
     'with_front' => false,
@@ -55,15 +54,17 @@ function add_help_docs_taxonomies() {
 
 function filter_help_docs_link( $link, $post) {
     if ( $post->post_type != 'help_docs' )
-        return $link;
+      return $link;
 
     if ( $cats = get_the_terms( $post->ID, 'help_docs_categories' ) )
-        $link = str_replace( '%help_docs_categories%', array_pop($cats)->slug, $link );
-    return $link;
+      $link = str_replace( '%help_docs_categories%', array_pop($cats)->slug, $link );
+      return $link;
 }
 
 function add_help_docs_breadcrumbs(){
-  global $post;
+  if ( $post->post_type != 'help_docs' ) {
+
+  } else {
   $terms = wp_get_post_terms( $post->ID, 'help_docs_categories'); 
   $term = $terms[0];
   $title = $term->name;
@@ -79,34 +80,11 @@ function add_help_docs_breadcrumbs(){
     </ul>
   </div>
   <?php 
+  }
 }
 
-function add_help_docs_footer(){
-  if(is_singular('help_docs'))
-    return;
-  ?>
-  <section id="bottom">
-    <div class="inner center-text">
-      <h1>Need more help?</h1>
-      <h2 class="h5">If you can't find the answer you're after, click the button below to shoot our super support team an email.</h2>
-      <a href="mailto:support@getvero.com" class="btn btn-large btn-primary">Email Us</a>
-    </div>
-  </section>
-  <?php
-}
-/** Force full width layout on single posts only*/
-add_filter( 'genesis_pre_get_option_site_layout', 'help_docs_layout' );
-function help_docs_layout( $opt ) {
-if (is_singular('help_docs')) {
-    $opt = 'content-sidebar'; 
-    return $opt;
- 
-    } 
-}
-
-add_action('get_header','change_help_docs_sidebar');
 function change_help_docs_sidebar() {
-  if (is_singular('help_docs')) { 
+  if (is_singular('help_docs') || is_tax('help_docs_categories')) { 
     remove_action( 'genesis_sidebar', 'genesis_do_sidebar' ); 
     add_action( 'genesis_sidebar', 'add_help_docs_page_sidebar' ); 
   }
@@ -128,13 +106,5 @@ function add_help_docs_page_sidebar(){
   </section>
   <?php
 }
-
-function set_posts_per_docs_category( $query ) {
-  if (!is_main_query() || !is_tax('help_docs_categories') )
-    return;
-
-  $query->set( 'posts_per_page', -1 );
-  return $query;
-} 
 
 ?>

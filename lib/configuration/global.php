@@ -5,7 +5,11 @@ function custom_favicon( $favicon_url ) {
 }
 
 function is_blog() {
-  is_singular('post');
+  return ( is_singular('post') || is_home() );
+}
+
+function is_blog_archive() {
+  return ( is_home() || is_category() || is_search() );
 }
 
 function add_body_classes($classes) {

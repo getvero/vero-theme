@@ -26,17 +26,17 @@ function add_blue_navbar_logic() {
   if ( is_singular('api_docs')  ) {
     echo "<div id='blue-holder'><div class='spacer'></div>";
     wp_nav_menu( array(
-      'theme_location' => 'third-menu-docs',
+      'theme_location' => 'blue-nav-left',
       'container_class' => 'blue-nav-menu left'
     ) );
     wp_nav_menu( array( 
-      'menu' => 'api-docs-languages',
+      'theme_location' => 'api-languages',
       'container_class' => 'blue-nav-menu right' 
     ) );
     echo "</div><div class='spacer'></div>";
-  } else if (is_page('faq') || is_singular('campaigns') || is_post_type_archive('campaigns') || is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') || is_post_type_archive('product_updates')) {
+  } else if ( is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') ) {
     wp_nav_menu( array(
-      'theme_location' => 'third-menu-docs',
+      'theme_location' => 'blue-nav-left',
       'container_class' => 'blue-nav-menu left'
     ) );
   }

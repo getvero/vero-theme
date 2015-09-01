@@ -8,11 +8,7 @@
  * @copyright (c)2014, Neil Gee
  */
  
-no_content_genesis_no_content();
- 
-function no_content_genesis_no_content() {
-  no_content_genesis_header();
-}
+no_content_genesis_header();
  
 //Customised Genesis Header
 function no_content_genesis_header() {

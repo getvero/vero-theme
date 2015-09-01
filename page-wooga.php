@@ -87,6 +87,5 @@
 </section>
 
 <?php 
-custom_footer_static_wrap();
-wp_footer();
+  no_content_genesis_footer();
 ?>

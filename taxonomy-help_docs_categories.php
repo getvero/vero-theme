@@ -44,24 +44,4 @@ function add_help_docs_categories_breadcrumbs(){
   <?php 
 }
 
-remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
-add_action( 'genesis_sidebar', 'add_help_docs_categories_sidebar' );
-function add_help_docs_categories_sidebar(){
-  ?>
-  <section class="widget-first widget widget_text">
-    <div class="widget-first">
-      <h4 class="widget-title widgettitle">Need more help?</h4>
-      <div class="textwidget">
-        <p>We offer free email support for all Vero trial and paying customers.</p>
-        <p>If you have any questions or issues, feel free to get in touch with us via email below.</p>
-        <p>Vero support works from 9am Monday in Sydney (AEST) until 5pm Friday in San Francisco (PST).</p>
-        <p>Please get in touch, we're here to help!</p>
-        <br/>
-        <a href="mailto:support@getvero.com" class="btn btn-primary">Email Support</a>
-      </div>
-    </div>
-  </section>
-  <?php
-}
-
 genesis(); ?>

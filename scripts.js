@@ -169,4 +169,9 @@
   //Typekit
   try{Typekit.load({ async: true });}catch(e){}
 
+  //Highlight.js
+  jQuery(function() {
+    hljs.initHighlightingOnLoad();
+  });
+  
 }).call(this);

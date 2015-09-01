@@ -4,7 +4,8 @@ function custom_footer() {
   if( is_singular('api_docs') ){
     // Do nothing
   } else if( is_blog() ){
-    // Do nothing too
+    blog_cta();
+    custom_footer_html_with_wrap();
   } else {
     custom_footer_html_with_wrap();
   }
@@ -21,7 +22,6 @@ function custom_footer_html_with_wrap() {
 }
 
 function custom_footer_html() {
-  
   ?>
   <ul class="col">
     <li class="header">Features</li>
@@ -35,7 +35,6 @@ function custom_footer_html() {
     <li class="header">Resources</li>
     <li><a href="http://www.getvero.com/pricing">Pricing</a></li>
     <li><a href="http://www.getvero.com/faq">Help Documentation</a></li>
-    <li><a href="http://www.getvero.com/idea-lab">Email Recipe Lab</a></li>
     <li><a href="http://www.getvero.com/api">API Reference</a></li>
     <li><a href="http://www.getvero.com/resources
 " target="_blank">Blog</a></li>
@@ -58,4 +57,13 @@ function custom_footer_html() {
   <?php
 }
 
+function blog_cta() {
+  ?>
+  <div id="blog-cta">
+    <h5>Increase conversions with Vero</h5>
+    <p>Data driven email marketing service.</p>
+    <a href="#">14 day free trial</a>
+  </div>
+  <?php
+}
 ?>
