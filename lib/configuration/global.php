@@ -25,30 +25,10 @@ function add_body_classes($classes) {
     return $classes;
   } 
   else if ( is_singular('help_docs') ) {
-    $classes[] = 'help-docs sidebar-content';
-    return $classes;
-  } else if ( is_singular('post') ) {
-    $post_style = get_post_meta($post->ID, 'post_style', true); 
-    if ( $post_style == 'centered' ) {
-      $classes[] = 'blog centered';
-    } else {
-      $classes[] = 'blog';
-    }
+    $classes[] = 'help-docs';
     return $classes;
   } else if ( is_singular('api_docs') ) {
-    $classes[] = 'api-docs sidebar-content';
-    return $classes;
-  } else if ( is_singular('campaigns') ) {
-    $classes[] = 'campaigns sidebar-content';
-    return $classes;
-  } else if ( is_singular('guides') ) {
-    $classes[] = 'blog guides sidebar-content';
-    return $classes;
-  } else if ( is_home('post') || is_archive('post') ) {
-    $classes[] = 'blog archive';
-    return $classes;
-  } else if (is_search()){
-    $classes[] = 'blog';
+    $classes[] = 'api-docs';
     return $classes;
   } else {
     return $classes;

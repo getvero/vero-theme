@@ -52,6 +52,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_footer', 'custom_footer');
 
   // Add featured posts, search and category bar to posts archive
+  add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   add_action( 'genesis_before_content_sidebar_wrap', 'add_blog_search' );
   add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_menu' );

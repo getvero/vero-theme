@@ -1,5 +1,12 @@
 <?php
 
+function force_full_width_on_posts( $options ) {
+  if( is_singular('post') ) {
+    $options = 'full-width-content'; 
+    return $options;
+  }
+}
+
 function add_blog_post_back_button() {
   if( is_singular('post') ){ ?>
     <a href="/articles">Back to Blog</a>
