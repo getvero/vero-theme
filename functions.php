@@ -68,7 +68,6 @@ function genesischild_theme_setup() {
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
   add_action( 'get_header', 'change_help_docs_sidebar' );
   add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
-  add_filter( 'genesis_site_layout', 'help_docs_layout' );
 
   // Customise API docs
   add_action( 'genesis_before', 'remove_contents_for_api' );
