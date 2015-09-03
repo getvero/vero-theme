@@ -54,10 +54,15 @@ function genesischild_theme_setup() {
   // Add featured posts, search and category bar to posts archive
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   add_action( 'genesis_before_content', 'add_blog_post_back_button' );
-  add_action( 'genesis_before_content_sidebar_wrap', 'add_blog_search' );
-  add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_menu' );
+  add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_and_search' );
   add_action( 'genesis_before_content_sidebar_wrap', 'add_featured_posts' );
-  add_action( 'genesis_entry_header', 'add_shares_before_meta_data' );
+  add_action( 'genesis_before_loop', 'add_latest_title' );
+  
+  // Entry post structure
+  add_filter( 'get_the_content_more_link', 'remove_read_more_link' ); 
+  add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
+  add_action( 'genesis_entry_footer', 'add_shares' );
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 
   // Custom help pages
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
