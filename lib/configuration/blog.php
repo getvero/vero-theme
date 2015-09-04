@@ -29,7 +29,7 @@ function add_custom_read_more_link() {
 
 function add_custom_category_entry_content() {
   ?>
-  <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
+  <p><?php echo wp_trim_words(get_the_content(), 25); ?></p>
   <?php
 }
 
