@@ -64,6 +64,12 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_shares' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 
+  // Category page
+  add_action( 'genesis_entry_header', 'category_setup', 8);
+
+  // Post Page
+  remove_action( 'genesis_entry_footer', 'post_remove_footer' );
+
   // Custom help pages
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
   add_action( 'get_header', 'change_help_docs_sidebar' );

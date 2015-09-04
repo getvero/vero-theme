@@ -60,10 +60,14 @@ function custom_footer_html() {
 function blog_cta() {
   ?>
   <div id="blog-cta">
-    <h5>Increase conversions with Vero</h5>
-    <p>Data driven email marketing service.</p>
-    <a href="#">14 day free trial</a>
+    <div class="blog-cta-content">
+      <h2>Increase conversions with Vero</h2>
+      <p>Data driven email marketing service.</p>
+      <a class="btn btn-success" href="#">14 day free trial</a>
+    </div>
+    <div class="blog-cta-image"><img src="/wp-content/themes/vero/assets/images/blog-cta@2x.png"></div>
   </div>
+
   <?php
 }
 ?>

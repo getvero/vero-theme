@@ -27,6 +27,30 @@ function add_custom_read_more_link() {
   <?php }
 }
 
+function category_setup() {
+  if( is_category() || is_search() ){
+    if(has_post_thumbnail()){
+      ?>
+        <div class='category-image' style='background:url("<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>"); background-size: cover'><a href='<?php the_permalink(); ?>'></a></div>
+      <?php
+    }
+    else {
+      ?>
+        <div class='category-image'><a href='<?php the_permalink(); ?>'></a></div>
+      <?php
+    }
+    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+    remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
+    remove_action( 'genesis_entry_footer', 'add_shares' );
+  }
+}
+
+function post_remove_footer() {
+  if( is_single() ){
+    remove_action( 'genesis_entry_footer', 'add_shares' );
+  }
+}
+
 function add_latest_title() {
   if( is_home() ){ ?>
     <h2 class="section-title">Latest</h2>
