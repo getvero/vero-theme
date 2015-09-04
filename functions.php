@@ -65,7 +65,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 
   // Category page
-  add_action( 'genesis_entry_header', 'category_setup', 8);
+  add_action( 'genesis_entry_header', 'category_setup', 8); 
 
   // Post Page
   remove_action( 'genesis_entry_footer', 'post_remove_footer' );

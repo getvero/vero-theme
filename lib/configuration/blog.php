@@ -27,6 +27,12 @@ function add_custom_read_more_link() {
   <?php }
 }
 
+function add_custom_category_entry_content() {
+  ?>
+  <p><?php echo wp_trim_words(get_the_content(), 20); ?></p>
+  <?php
+}
+
 function category_setup() {
   if( is_category() || is_search() ){
     if(has_post_thumbnail()){
@@ -39,9 +45,18 @@ function category_setup() {
         <div class='category-image'><a href='<?php the_permalink(); ?>'></a></div>
       <?php
     }
+
+    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' ); 
     remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
     remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
     remove_action( 'genesis_entry_footer', 'add_shares' );
+  }
+}
+
+function change_excerpt_length() {
+  if( is_category() || is_search() ){
+    return 20;
   }
 }
 
