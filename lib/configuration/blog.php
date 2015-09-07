@@ -67,7 +67,7 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="more-link" href="' . get_permalink() . '">Read&nbsp;More</a>
+    <a class="more-link" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
   <?php }
 }
 
@@ -205,7 +205,8 @@ function change_post_info($post_meta) {
 }
 
 function add_subscribe_form() {
-  ?>
+  if(is_singular('post')){
+    ?>
     <div class='subscribe-form'>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
           <label>Your email</label><input name='email' type='email'></input>
@@ -213,6 +214,7 @@ function add_subscribe_form() {
       </form>
     </div>
   <?php
+  }
 }
 
 function add_author_bio() {
