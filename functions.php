@@ -54,6 +54,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
   add_filter( 'wp_nav_menu_items', 'add_logo_to_navbar', 10, 2 );
+  add_filter('get_search_form', 'change_search_form_type');
 
   // Add featured posts, search and category bar to posts archive
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
@@ -70,10 +71,20 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_shares' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
-  add_action( 'genesis_entry_header', 'add_shares', 13 );
+  add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
+  add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
   add_filter( 'genesis_after_entry_content', 'add_author_bio' );
-  add_filter('the_content', 'add_class_to_small_images');
+  add_filter( 'the_content', 'add_class_to_small_images');
+  add_filter( 'the_content', 'add_blue_signup_boxes' );
+
+  // Custom sidebar for post
+  genesis_register_sidebar( array(
+    'id'            => 'post-sidebar',
+    'name'          => __( 'Post Sidebar', 'vero' ),
+    'description'   => __( 'This widget are floats next to blog posts and guides', 'vero' ),
+  ) );
+  add_action( 'genesis_after_content', 'add_post_sidebar' );
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8); 

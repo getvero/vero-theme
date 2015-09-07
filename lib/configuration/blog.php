@@ -40,12 +40,25 @@ function add_blog_post_back_button() {
 }
 
 function add_shares() {
-  ?>
-    <div class='total-shares'>
-      <?php echo do_shortcode('[pssc_all]'); ?>
-    </div>
-  <?php
-  echo naked_social_share_buttons();
+  if( !is_category() && !is_singular('post') ){
+    ?>
+      <div class='total-shares'>
+        <?php echo do_shortcode('[pssc_all]'); ?>
+      </div>
+    <?php
+    echo naked_social_share_buttons();
+  }
+}
+
+function add_shares_to_post() {
+  if( is_singular('post') ){
+    ?>
+      <div class='total-shares'>
+        <?php echo do_shortcode('[pssc_all]'); ?>
+      </div>
+    <?php
+    echo naked_social_share_buttons();
+  }
 }
 
 function remove_read_more_link() {
@@ -141,6 +154,11 @@ function add_categories_and_search() {
   <?php }
 }
 
+function change_search_form_type($form) {
+  $form = str_replace( 'type="search"', 'type="text"', $form ); 
+  return $form;
+}
+
 function add_featured_posts() {
   if( is_home() && !is_paged() ){
     ?>
@@ -184,6 +202,17 @@ function change_post_info($post_meta) {
       Jimmy Daly
     </span> 
   <?php 
+}
+
+function add_subscribe_form() {
+  ?>
+    <div class='subscribe-form'>
+      <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
+          <label>Your email</label><input name='email' type='email'></input>
+          <input type='submit' value='Submit form' />
+      </form>
+    </div>
+  <?php
 }
 
 function add_author_bio() {
@@ -252,6 +281,32 @@ function add_class_to_small_images( $content ) {
 
   $content = $dom->saveHTML();
   return $content;
+}
+
+function add_post_sidebar() {
+  if ( is_singular( 'post' ) ) {
+    genesis_widget_area( 'post-sidebar' );
+  }
+}
+
+function add_blue_signup_boxes( $content ) {
+  global $post;
+  $index = 5;
+
+  $dom = new DOMDocument();
+  @$dom->loadHTML( $content );
+  $dom->preserveWhiteSpace = false;
+
+  $tags = $dom->getElementsByTagName('p');
+  $total_p_tags = $tags->length;
+
+  $div = $dom->createElement( 'h1', 'Content here!' ); 
+  $div->setAttribute( "class","blue-signup" );
+
+  $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
+  $index_p->parentNode->insertBefore( $div, $index_p );  
+
+  return $dom->saveHTML();
 }
 
 ?>
