@@ -1,5 +1,12 @@
 <?php
 
+function append_query_string( $url, $post, $leavename ) {
+  if ( strtotime( $post->post_date) > strtotime('2015-08-01') ){
+    $url = str_replace( home_url() . '/resources', 'http://blog.getvero.com', $url ); 
+  }
+  return $url;
+}
+
 function custom_favicon( $favicon_url ) {
   return '/wp-content/themes/vero/assets/images/favicon.png';
 }

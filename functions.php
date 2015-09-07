@@ -5,6 +5,7 @@ include_once( 'lib/configuration/assets.php' );
 include_once( 'lib/configuration/blog.php' );
 include_once( 'lib/configuration/global.php' );
 include_once( 'lib/configuration/headers.php' );
+include_once( 'lib/configuration/tracking.php' );
 include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
@@ -44,12 +45,15 @@ function genesischild_theme_setup() {
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
 
+  add_filter( 'post_link', 'append_query_string', 10, 3 );
+
   // Navbars and footers
   register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
   register_nav_menu('api-languages' , __( 'API Languages'));
   add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
+  add_filter( 'wp_nav_menu_items', 'add_logo_to_navbar', 10, 2 );
 
   // Add featured posts, search and category bar to posts archive
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
@@ -57,18 +61,28 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_and_search' );
   add_action( 'genesis_before_content_sidebar_wrap', 'add_featured_posts' );
   add_action( 'genesis_before_loop', 'add_latest_title' );
-  
+  add_filter( 'genesis_prev_link_text', 'prev_link_text' );
+  add_filter( 'genesis_next_link_text', 'next_link_text' );
+
   // Entry post structure
   add_filter( 'get_the_content_more_link', 'remove_read_more_link' ); 
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
   add_action( 'genesis_entry_footer', 'add_shares' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+  add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
+  add_action( 'genesis_entry_header', 'add_shares', 13 );
+  add_filter( 'genesis_post_info', 'change_post_info' );
+  add_filter( 'genesis_after_entry_content', 'add_author_bio' );
+  add_filter('the_content', 'add_class_to_small_images');
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8); 
 
   // Post Page
-  remove_action( 'genesis_entry_footer', 'post_remove_footer' );
+  add_action( 'genesis_entry_footer', 'post_remove_footer' );
+
+  // Search page
+  add_action ('genesis_before', 'remove_search_title');
 
   // Custom help pages
   add_action( 'init', 'add_help_docs_taxonomies', 0 );

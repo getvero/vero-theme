@@ -1,5 +1,31 @@
 <?php
 
+function prev_link_text() {
+        $prevlink = 'Previous';
+        return $prevlink;
+}
+function next_link_text() {
+        $nextlink = 'Next';
+        return $nextlink;
+}
+
+function remove_search_title() {
+  if ( is_search() ) {
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+    remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+    remove_action( 'genesis_before_loop', 'genesis_do_search_title' );
+  }
+}
+
+function add_feature_image_to_posts() {
+  if ( is_singular('post') ){
+    global $post;
+    ?>
+      <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>">
+    <?php
+  }
+}
+
 function force_full_width_on_posts( $options ) {
   if( is_singular('post') ) {
     $options = 'full-width-content'; 
@@ -14,6 +40,11 @@ function add_blog_post_back_button() {
 }
 
 function add_shares() {
+  ?>
+    <div class='total-shares'>
+      <?php echo do_shortcode('[pssc_all]'); ?>
+    </div>
+  <?php
   echo naked_social_share_buttons();
 }
 
@@ -67,23 +98,40 @@ function post_remove_footer() {
 }
 
 function add_latest_title() {
-  if( is_home() ){ ?>
+  if( is_home() && !is_paged() ){ ?>
     <h2 class="section-title">Latest</h2>
+  <?php }
+  else if( is_home() && is_paged() ){ 
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
+    <h2 class="section-title">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if( is_category() ){ ?>
     <h2 class="section-title"><?php single_cat_title() ?></h2>
   <?php }
+  else if( is_search() ) { ?>
+    <h2 class="section-title">Search results for: <?php echo get_search_query(); ?></h2>
+  <?php }
+}
+
+function is_active($page) {
+  if( $page == 'all' && is_home() ) {
+    return 'active';
+  } else if( in_category($page) ) {
+    return 'active';
+  } else {
+    return '';
+  }
 }
 
 function add_categories_and_search() {
   if( is_blog_archive() ){ ?>
     <div id="blog-sub-menu">
       <ul id="categories-menu">
-        <li><a href="/articles">All</a></li>
-        <li><a href="/articles/category/articles">Articles</a></li>
-        <li><a href="/articles/category/tips">Tips</a></li>
-        <li><a href="/articles/category/product">Product</a></li>
-        <li><a href="/articles/category/case-studies">Case Studies</a></li>
+        <li class="<?php echo is_active('all'); ?>"><a href="/articles">All</a></li>
+        <li class="<?php echo is_active('articles'); ?>"><a href="/articles/category/articles">Articles</a></li>
+        <li class="<?php echo is_active('tips'); ?>"><a href="/articles/category/tips">Tips</a></li>
+        <li class="<?php echo is_active('product'); ?>"><a href="/articles/category/product">Product</a></li>
+        <li class="<?php echo is_active('case-studies'); ?>"><a href="/articles/category/case-studies">Case Studies</a></li>
       </ul>
       <?php
         get_search_form(true);
@@ -94,7 +142,7 @@ function add_categories_and_search() {
 }
 
 function add_featured_posts() {
-  if( is_home() ){
+  if( is_home() && !is_paged() ){
     ?>
     <div class='featured-posts'>
     <?php
@@ -117,6 +165,93 @@ function add_featured_posts() {
     </div>
     <?php
   }
+}
+
+function change_post_info($post_meta) {
+  global $post;
+  $categories = get_the_category();
+  //$categories = get_the_category($post->ID);
+  $category = $categories[0]->cat_name;
+  ?>
+  <p class="entry-meta">
+    <a href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+    Written On
+    <time class="entry-time" itemprop="datePublished" datetime="2015-05-06T06:33:11+00:00">
+      <?php echo the_time('j F, Y'); ?>
+    </time> 
+    by 
+    <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+      Jimmy Daly
+    </span> 
+  <?php 
+}
+
+function add_author_bio() {
+  if( is_singular('post') ){
+    global $post;
+    ?>
+    <div class='author-bio'>
+      <div class='author-image'><?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?></div>
+      <div class='author-details'>
+        <p class='author-name'><?php echo get_the_author_meta( 'display_name' ); ?></p>
+        <p class='author-description'><?php echo get_the_author_meta( 'description' ); ?></p>
+      </div>
+    </div>
+    <?php
+  }
+}
+
+function add_class_to_small_images( $content ) {
+  global $post;
+
+  $dom = new DOMDocument();
+  @$dom->loadHTML( $content );
+  $dom->preserveWhiteSpace = false;
+  
+  $images = $dom->getElementsByTagName('img');
+  foreach ($images as $image) {
+    $parent = $image->parentNode;
+    if ($parent->nodeName == 'a') {
+      $parent = $parent->parentNode;
+    }
+    // get the widths of each image
+    $width = $image->getAttribute('width');
+    $child_classes = $image->getAttribute('class');
+    // the existing classes already on the images
+    $existing_classes = $parent->getAttribute('class');
+    $existing_styles = $parent->getAttribute('style');
+    
+    if( $width < 628) {
+      // the class we're adding
+      $new_class = ' small-image';
+      $new_style = $width .'px';
+      // the existing classes plus the new class
+      $class_names_to_add = $existing_classes . $new_class;
+      $parent->setAttribute('class', $class_names_to_add);
+      // add width as a style
+      $styles_to_add = $existing_styles . $new_style;
+      $parent->setAttribute('style', $styles_to_add);
+    }
+  }
+
+  $iframes = $dom->getElementsByTagName('iframe');
+  foreach ($iframes as $iframe) {
+    $parent = $iframe->parentNode;
+    if ($parent->nodeName == 'a') {
+      $parent = $parent->parentNode;
+    }
+    // the existing classes already on the images
+    $existing_classes = $parent->getAttribute('class');
+    // the class we're adding
+    $new_class = ' aspect-ratio';
+    // the existing classes plus the new class
+    $class_names_to_add = $existing_classes . $new_class;
+    // if iframe is less than 480px, add their old classes back in plus our new class
+    $parent->setAttribute('class', $class_names_to_add);
+  }
+
+  $content = $dom->saveHTML();
+  return $content;
 }
 
 ?>

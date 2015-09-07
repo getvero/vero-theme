@@ -4,6 +4,7 @@ function custom_footer() {
   if( is_singular('api_docs') ){
     // Do nothing
   } else if( is_blog() ){
+    blog_related_posts();
     blog_cta();
     custom_footer_html_with_wrap();
   } else {
@@ -69,5 +70,29 @@ function blog_cta() {
   </div>
 
   <?php
+}
+
+function blog_related_posts() {
+  global $post;
+  $categories = get_the_category();
+  $category = $categories[0]->cat_name;?>
+  <div class='related-posts'>
+    <?php
+    $custom_query = new WP_Query('cat='.$categories[0]->cat_id.'&showposts=3');
+    while( $custom_query->have_posts() ){
+      $custom_query->the_post(); 
+      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
+      $category = get_the_category(); ?>
+      <div class='related-post' style='background:url("<?php echo $featured_image; ?>"); background-size: cover'> 
+        <div class='related-image-overlay'></div>
+        <div class="related-titles">
+          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        </div>
+        <a class='related-link-overlay' href="<?php the_permalink(); ?>"></a>
+      </div>
+    <?php 
+    }
+    wp_reset_postdata(); ?>
+  </div> <?php
 }
 ?>
