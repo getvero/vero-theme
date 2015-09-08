@@ -77,6 +77,7 @@ function blog_related_posts() {
     $categories = get_the_category();
     $category = $categories[0]->cat_name;?>
     <div class='related-posts'>
+      <h3 class="section-title">Related posts</h3>
       <?php
       $custom_query = new WP_Query('cat='.$categories[0]->cat_id.'&showposts=3');
       while( $custom_query->have_posts() ){
