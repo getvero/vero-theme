@@ -42,22 +42,26 @@ function add_blog_post_back_button() {
 function add_shares() {
   if( !is_category() && !is_singular('post') ){
     ?>
-      <div class='total-shares'>
-        <?php echo do_shortcode('[pssc_all]'); ?>
+      <div class='shares-block'>
+        <div class='total-shares'>
+          <span><?php echo do_shortcode('[pssc_all]'); ?></span>Shares
+        </div>
+        <?php echo naked_social_share_buttons(); ?>
       </div>
     <?php
-    echo naked_social_share_buttons();
   }
 }
 
 function add_shares_to_post() {
   if( is_singular('post') ){
     ?>
-      <div class='total-shares'>
-        <?php echo do_shortcode('[pssc_all]'); ?>
+      <div class='shares-block'>
+        <div class='total-shares'>
+          <span><?php echo do_shortcode('[pssc_all]'); ?></span>Shares
+        </div>
+        <?php echo naked_social_share_buttons(); ?>
       </div>
     <?php
-    echo naked_social_share_buttons();
   }
 }
 
@@ -207,10 +211,11 @@ function change_post_info($post_meta) {
 function add_subscribe_form() {
   if(is_singular('post')){
     ?>
-    <div class='subscribe-form'>
+    <div class='subscribe-form center-block'>
+      <h2>Receive marketing tips in your inbox!</h2>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
-          <label>Your email</label><input name='email' type='email'></input>
-          <input type='submit' value='Submit form' />
+          <input name='email' type='email' class="form-control" placeholder="email@address.com"></input>
+          <input type='submit' value='Submit form' class="btn btn-success"/>
       </form>
     </div>
   <?php
@@ -222,6 +227,7 @@ function add_author_bio() {
     global $post;
     ?>
     <div class='author-bio'>
+      <div class='author-title'>Written by</div>
       <div class='author-image'><?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?></div>
       <div class='author-details'>
         <p class='author-name'><?php echo get_the_author_meta( 'display_name' ); ?></p>

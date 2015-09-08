@@ -73,8 +73,8 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
-  add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
   add_filter( 'genesis_after_entry_content', 'add_author_bio' );
+  add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
 
@@ -91,6 +91,7 @@ function genesischild_theme_setup() {
 
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
+  add_action( 'genesis_before_footer', 'blog_related_posts');
 
   // Search page
   add_action ('genesis_before', 'remove_search_title');
