@@ -215,7 +215,7 @@ function add_subscribe_form() {
       <h2>Receive marketing tips in your inbox!</h2>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
           <input name='email' type='email' class="form-control" placeholder="email@address.com"></input>
-          <input type='submit' value='Submit form' class="btn btn-success"/>
+          <input type='submit' value='Subscribe' class="btn btn-success"/>
       </form>
     </div>
   <?php
