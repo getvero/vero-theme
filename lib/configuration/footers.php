@@ -13,9 +13,9 @@ function custom_footer() {
 
 function custom_footer_html_with_wrap() {
   ?>
-    <div class="main-footer">
-      <?php echo custom_footer_html(); ?>
-    </div>
+  <div class="main-footer">
+    <?php echo custom_footer_html(); ?>
+  </div>
 <?php
 }
 
