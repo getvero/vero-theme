@@ -182,15 +182,19 @@
 
   //Waypoints
 
-  var sticky = new Waypoint.Inview({
+  var sharesInView = new Waypoint({
     element: jQuery('.single .shares-block')[0],
-    exited: function(){
-      jQuery('.single .widget-area').addClass('show');
-    },
-    entered: function(){
-      jQuery('.single .widget-area').removeClass('show');
+    handler: function(){
+      jQuery('.single .widget-area').toggleClass('show');
     }
+  });
 
+  var subscribeInView = new Waypoint({
+    element: jQuery('.single .subscribe-form')[0],
+    handler: function(){
+      jQuery('.single .widget-area').toggleClass('show');
+    },
+    offset: '100%'
   });
   
 }).call(this);
