@@ -45,6 +45,8 @@ function add_js() {
   wp_register_script('vero-blog-angular-any', get_stylesheet_directory_uri() . '/assets/scripts/angular/any.js', array('jquery'), NULL, true);
   wp_register_script('webfonts', 'http://fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, true);
   wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', array('jquery'), NULL, true);
+  wp_register_script('stickyway', get_stylesheet_directory_uri() . '/assets/scripts/vendor/sticky.min.js', array('jquery'), NULL, true);
+  wp_register_script('inview', get_stylesheet_directory_uri() . '/assets/scripts/vendor/inview.min.js', array('jquery'), NULL, true);
 
   wp_enqueue_script('cross-domain');
   wp_enqueue_script('vmodal');
@@ -53,6 +55,7 @@ function add_js() {
   wp_enqueue_script('lead_modal');
   wp_enqueue_script('lodash');
   wp_enqueue_script('scrollwatch');
+  wp_enqueue_script('sticky');
   wp_enqueue_script('greensock');
   wp_enqueue_script('draggable');
   wp_enqueue_script('scrollmagic');
@@ -60,7 +63,8 @@ function add_js() {
   wp_enqueue_script('responsive-menu');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('waypoints');
-  wp_enqueue_script('sticky');
+  wp_enqueue_script('stickyway');
+  wp_enqueue_script('inview');
 
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);

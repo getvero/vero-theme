@@ -182,8 +182,15 @@
 
   //Waypoints
 
-  var sticky = new Waypoint.Sticky({
-    element: jQuery('.single .widget-area')[0]
+  var sticky = new Waypoint.Inview({
+    element: jQuery('.single .shares-block')[0],
+    exited: function(){
+      jQuery('.single .widget-area').addClass('show');
+    },
+    entered: function(){
+      jQuery('.single .widget-area').removeClass('show');
+    }
+
   });
   
 }).call(this);
