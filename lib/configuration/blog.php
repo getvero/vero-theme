@@ -308,8 +308,11 @@ function add_blue_signup_boxes( $content ) {
   $tags = $dom->getElementsByTagName('p');
   $total_p_tags = $tags->length;
 
-  $div = $dom->createElement( 'h1', 'Content here!' ); 
+  $div = $dom->createElement( 'div', '' ); 
   $div->setAttribute( "class","blue-signup" );
+  $frag = $dom->createDocumentFragment(); 
+  $frag->appendXML( "<h1>Test</h1>" ); 
+  $div->appendChild($frag); 
 
   $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
   $index_p->parentNode->insertBefore( $div, $index_p );  

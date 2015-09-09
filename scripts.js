@@ -179,5 +179,11 @@
   jQuery(function() {
     hljs.initHighlightingOnLoad();
   });
+
+  //Waypoints
+
+  var sticky = new Waypoint.Sticky({
+    element: jQuery('.single .widget-area')[0]
+  });
   
 }).call(this);
