@@ -297,6 +297,10 @@ function add_post_sidebar() {
   }
 }
 
+function blue_signup_box_content() {
+  return "<h1>Test</h1>";
+}
+
 function add_blue_signup_boxes( $content ) {
   global $post;
   $index = 5;
@@ -308,10 +312,13 @@ function add_blue_signup_boxes( $content ) {
   $tags = $dom->getElementsByTagName('p');
   $total_p_tags = $tags->length;
 
-  $div = $dom->createElement( 'div', '' ); 
-  $div->setAttribute( "class","blue-signup" );
+  $content = blue_signup_box_content();
   $frag = $dom->createDocumentFragment(); 
-  $frag->appendXML( "<h1>Test</h1>" ); 
+  $frag->appendXML( $content ); 
+
+  $div = $dom->createElement( 'div', '' ); 
+  $div->setAttribute( "class", "blue-signup" );
+  
   $div->appendChild($frag); 
 
   $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
