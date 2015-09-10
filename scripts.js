@@ -182,6 +182,23 @@
     });
   });
 
+  jQuery(document).ready( function(){
+    jQuery( 'nav' ).before( '<button class="menu-toggle" role="button" aria-pressed="false"></button>' ); // Add toggles to menus
+    jQuery( 'nav .sub-menu' ).before( '<button class="sub-menu-toggle" role="button" aria-pressed="false"></button>' ); // Add toggles to sub menus
+
+    // Show/hide the navigation
+    jQuery( '.menu-toggle, .sub-menu-toggle' ).on( 'click', function() {
+      var $this = jQuery( this );
+      $this.attr( 'aria-pressed', function( index, value ) {
+      return 'false' === value ? 'true' : 'false';
+    });
+
+    $this.toggleClass( 'activated' );
+    $this.next( 'nav, .sub-menu' ).slideToggle( 'fast' );
+
+    });
+  });
+  
   //Waypoints
 
   var sharesInView = new Waypoint({
@@ -198,5 +215,6 @@
     },
     offset: '100%'
   });
+
   
 }).call(this);

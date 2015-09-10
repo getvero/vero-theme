@@ -24,7 +24,10 @@ function add_featured_posts() {
     ?>
     <div class='featured-posts'>
     <?php
-    $custom_query = new WP_Query('featured=yes');
+    $custom_query = new WP_Query(array(
+      'post_type' => array('post', 'guides'),
+      'featured' => 'yes'
+    ));
     while( $custom_query->have_posts() ) : $custom_query->the_post(); 
       $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
       $category = get_the_category(); ?>
@@ -73,8 +76,9 @@ function change_excerpt_length() {
 function category_setup() {
   if( is_category() || is_search() ){
     if(has_post_thumbnail()){
+      $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       ?>
-        <div class='category-image' style='background:url("<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>"); background-size: cover'><a href='<?php the_permalink(); ?>'></a></div>
+        <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
       <?php
     }
     else {
