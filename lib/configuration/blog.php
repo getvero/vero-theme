@@ -143,6 +143,7 @@ function is_active($page) {
 function add_categories_and_search() {
   if( is_blog_archive() ){ ?>
     <div id="blog-sub-menu">
+      <div class="category-button"><div class="category-current">All<span class='fa fa-angle-down'></span></div></div>
       <ul id="categories-menu">
         <li class="<?php echo is_active('all'); ?>"><a href="/articles">All</a></li>
         <li class="<?php echo is_active('articles'); ?>"><a href="/articles/category/articles">Articles</a></li>
@@ -298,7 +299,7 @@ function add_post_sidebar() {
 }
 
 function blue_signup_box_content() {
-  return "<h1>Test</h1>";
+  return "<div class='interstitial'><h1>Increase Conversion with Vero</h1><p>Data Driven Email Marketing Software</p><a class='btn btn-success' href='#'>14 Day Free Trial</a><img src='#'/></div>";
 }
 
 function add_blue_signup_boxes( $content ) {
