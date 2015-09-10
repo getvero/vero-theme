@@ -2,7 +2,10 @@
 
 # Custom config files
 include_once( 'lib/configuration/assets.php' );
+include_once( 'lib/configuration/archive.php' );
 include_once( 'lib/configuration/blog.php' );
+include_once( 'lib/configuration/posts.php' );
+include_once( 'lib/configuration/search.php' );
 include_once( 'lib/configuration/global.php' );
 include_once( 'lib/configuration/headers.php' );
 include_once( 'lib/configuration/tracking.php' );

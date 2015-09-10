@@ -13,6 +13,7 @@ function create_help_docs_post_type () {
     'hierarchical' => false,
     'with_front' => false,
     'taxonomies' => array( 'help_docs_categories'),
+    'exclude_from_search' => true,
     'capability_type' => 'post',
     'query_var' => true,
     'rewrite' => array('slug' => 'help/%help_docs_categories%', 'with_front' => FALSE)

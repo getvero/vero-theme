@@ -19,6 +19,10 @@ function is_blog_archive() {
   return ( is_home() || is_category() || is_search() );
 }
 
+function is_blog_post_or_guide() {
+  return ( is_singular('post') || is_singular('guides') );
+}
+
 function add_body_classes($classes) {
   global $post;
   $useragent=$_SERVER['HTTP_USER_AGENT'];
