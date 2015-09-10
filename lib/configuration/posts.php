@@ -3,9 +3,12 @@
 function add_feature_image_to_posts() {
   if ( is_blog_post_or_guide() ){
     global $post;
+    $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+    if( $image != '' ){
     ?>
-      <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>">
+      <img src="<?php echo $image; ?>">
     <?php
+    }
   }
 }
 
@@ -18,7 +21,7 @@ function force_full_width_on_posts( $options ) {
 
 function add_blog_post_back_button() {
   if( is_blog_post_or_guide() ){ ?>
-    <a href="/articles" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
+    <a href="/resources" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
   <?php }
 }
 
@@ -138,26 +141,28 @@ function add_blue_signup_boxes( $content ) {
   @$dom->loadHTML( $content );
   $dom->preserveWhiteSpace = false;
 
-  $tags = $dom->getElementsByTagName('p');
-  $total_p_tags = $tags->length;
+  if ( is_blog_post_or_guide() ) {
+    $tags = $dom->getElementsByTagName('p');
+    $total_p_tags = $tags->length;
 
-  $content = blue_signup_box_content();
-  $frag = $dom->createDocumentFragment(); 
-  $frag->appendXML( $content ); 
+    $content = blue_signup_box_content();
+    $frag = $dom->createDocumentFragment(); 
+    $frag->appendXML( $content ); 
 
-  $div = $dom->createElement( 'div', '' ); 
-  $div->setAttribute( "class", "blue-signup" );
-  
-  $div->appendChild($frag); 
+    $div = $dom->createElement( 'div', '' ); 
+    $div->setAttribute( "class", "blue-signup" );
+    
+    $div->appendChild($frag); 
 
-  $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
-  $index_p->parentNode->insertBefore( $div, $index_p );  
+    $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
+    $index_p->parentNode->insertBefore( $div, $index_p );  
+  }
 
   return $dom->saveHTML();
 }
 
 function blue_signup_box_content() {
-  return "<div class='interstitial'><div class='interstitial-left'><h1>Increase Conversion with Vero</h1><p>Data Driven Email Marketing Software</p><a class='btn btn-success' href='#'>14 Day Free Trial</a></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/images/blog-cta@2x.png'/></div></div>";
+  return "<div class='interstitial'><div class='interstitial-left'><h1>Increase Conversion with Vero</h1><p>Data Driven Email Marketing Software</p><a class='btn btn-success' target='_blank' href='https://app.getvero.com/signup'>14 Day Free Trial</a></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/images/blog-cta@2x.png'/></div></div>";
 }
 
 ?>

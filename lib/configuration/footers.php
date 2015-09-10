@@ -48,7 +48,7 @@ function custom_footer_html() {
   <ul class="col">
     <li class="header">Say Hello</li>
     <li><a href="mailto:support@getvero.com">Email Support</a></li>
-    <li><a href="http://www.getvero.com/email-marketing-demo">Contact Sales</a></li>
+    <li><a href="http://www.getvero.com/email-marketing-demo">High volume sender?</a></li>
     <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
   </ul>
@@ -61,7 +61,7 @@ function blog_cta() {
     <div class="blog-cta-content">
       <h2>Increase conversions with Vero</h2>
       <p>Data driven email marketing service.</p>
-      <a class="btn btn-success" href="#">14 day free trial</a>
+      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">14 day free trial</a>
     </div>
     <div class="blog-cta-image"><img src="/wp-content/themes/vero/assets/images/blog-cta@2x.png"></div>
   </div>
