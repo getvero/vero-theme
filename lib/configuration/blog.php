@@ -299,7 +299,7 @@ function add_post_sidebar() {
 }
 
 function blue_signup_box_content() {
-  return "<div class='interstitial'><h1>Increase Conversion with Vero</h1><p>Data Driven Email Marketing Software</p><a class='btn btn-success' href='#'>14 Day Free Trial</a><img src='#'/></div>";
+  return "<div class='interstitial'><div class='interstitial-left'><h1>Increase Conversion with Vero</h1><p>Data Driven Email Marketing Software</p><a class='btn btn-success' href='#'>14 Day Free Trial</a></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/images/blog-cta@2x.png'/></div></div>";
 }
 
 function add_blue_signup_boxes( $content ) {
