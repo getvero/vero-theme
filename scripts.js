@@ -176,8 +176,10 @@
   MTIConfig.EnableCustomFOUTHandler = true // true = prevent FOUT
 
   //Highlight.js
-  jQuery(function() {
-    hljs.initHighlightingOnLoad();
+  jQuery(document).ready(function() {
+    jQuery('pre').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
   });
 
   //Waypoints
