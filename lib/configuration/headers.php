@@ -1,6 +1,29 @@
 <?php
 
-function add_logo_to_navbar($menu, $args) {
+function add_logo_and_menu_toggle_to_navbar($menu, $args) {
+  $args = (array)$args;
+  $useragent=$_SERVER['HTTP_USER_AGENT'];
+  
+  if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
+    return $menu;
+  
+  ob_start();
+  ?>
+  <ul id="menu-marketing-navbar-left" class="menu">
+    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>
+    <li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Sweet ass emails!</span></li>
+  </ul>
+  <?php $logo = ob_get_clean();
+
+  ob_start();
+  ?>
+  <div><a id="nav-menu-toggle" href="#">Menu</a></div>
+  <?php $responsive_toggle = ob_get_clean();
+
+  return $logo . $menu . $responsive_toggle;
+}
+
+function add_responsive_menu_toggle_to_navbar($menu, $args) {
   $args = (array)$args;
   $useragent=$_SERVER['HTTP_USER_AGENT'];
   

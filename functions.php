@@ -56,7 +56,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
-  add_filter( 'wp_nav_menu', 'add_logo_to_navbar', 10, 2 );
+  add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
   add_filter('get_search_form', 'change_search_form_type');
 
   // Add featured posts, search and category bar to posts archive
