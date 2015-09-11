@@ -17,7 +17,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div><a id="nav-menu-toggle" href="#">Menu</a></div>
+  <div class="nav-menu-toggle"><a href="#">Menu</a></div>
   <?php $responsive_toggle = ob_get_clean();
 
   return $logo . $menu . $responsive_toggle;

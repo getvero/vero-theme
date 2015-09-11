@@ -114,13 +114,16 @@ function add_latest_title() {
 function add_categories_and_search() {
   if( is_blog_archive() ){ ?>
     <div id="blog-sub-menu">
-      <ul id="categories-menu">
-        <li class="<?php echo is_active('all'); ?>"><a href="/articles">All</a></li>
-        <li class="<?php echo is_active('articles'); ?>"><a href="/articles/category/articles">Articles</a></li>
-        <li class="<?php echo is_active('tips'); ?>"><a href="/articles/category/tips">Tips</a></li>
-        <li class="<?php echo is_active('product'); ?>"><a href="/articles/category/product">Product</a></li>
-        <li class="<?php echo is_active('case-studies'); ?>"><a href="/articles/category/case-studies">Case Studies</a></li>
-      </ul>
+      <div class="categories">
+        <div class="category-button">Current Category<span class="fa fa-angle-down"></span></div>
+        <ul id="categories-menu">
+          <li class="<?php echo is_active('all'); ?>"><a href="/articles">All</a></li>
+          <li class="<?php echo is_active('articles'); ?>"><a href="/articles/category/articles">Articles</a></li>
+          <li class="<?php echo is_active('tips'); ?>"><a href="/articles/category/tips">Tips</a></li>
+          <li class="<?php echo is_active('product'); ?>"><a href="/articles/category/product">Product</a></li>
+          <li class="<?php echo is_active('case-studies'); ?>"><a href="/articles/category/case-studies">Case Studies</a></li>
+        </ul>
+      </div>
       <?php
         get_search_form(true);
       ?>
