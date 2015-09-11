@@ -31,7 +31,7 @@ function add_featured_posts() {
     while( $custom_query->have_posts() ) : $custom_query->the_post(); 
       $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
       $category = get_the_category(); ?>
-      <div class='featured-post' style='background:url("<?php echo $featured_image; ?>"); background-size: cover'> 
+      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover'<?php } ?>> 
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
           <div class="shares-label twitter"><span class="fa fa-twitter"></span><?php echo do_shortcode('[pssc_twitter]'); ?></div>
