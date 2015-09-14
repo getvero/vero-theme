@@ -59,10 +59,10 @@ function blog_cta() {
   ?>
   <div id="blog-cta">
     <div class="blog-cta-content">
-      <h2>Vero is email software for product companies</h2>
-      <p>Personalize. Segment. Automate.</p>
-      <p>Extend your product into the inbox. Try it free for 14 days.</p>
-      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">Start a free trial</a>
+      <h2>Send awesome emails with Vero</h2>
+      <p>Behavioural Emails. User Segments. Automated Newsletters.</p>
+      <p>Get a Free 14 day Trial today!</p>
+      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">Start Free Trial</a>
     </div>
     <div class="blog-cta-image"><img src="/wp-content/themes/vero/assets/images/blog-cta@2x.png"></div>
   </div>
