@@ -48,10 +48,11 @@ function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
     <div class='subscribe-form center-block'>
-      <h2>Receive marketing tips in your inbox!</h2>
+      <h2>We dissect email for a living.</h2>
+      <p>More than 10,000 marketers, developers and product managers enjoy our newsletter every week.</p>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
           <input name='email' type='email' class="form-control" placeholder="email@address.com"></input>
-          <input type='submit' value='Subscribe' class="btn btn-success"/>
+          <input type='submit' value='Join us' class="btn btn-success"/>
       </form>
     </div>
   <?php
