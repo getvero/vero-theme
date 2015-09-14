@@ -16,6 +16,7 @@ function change_post_info($post_meta) {
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
       Jimmy Daly
     </span> 
+  </p>
   <?php 
 }
 
