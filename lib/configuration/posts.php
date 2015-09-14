@@ -155,11 +155,24 @@ function add_blue_signup_boxes( $content ) {
     
     $div->appendChild($frag); 
 
-    $index_p = $tags->item( ( ($total_p_tags/2)-1 ) );
-    $index_p->parentNode->insertBefore( $div, $index_p );  
+    $insertion_point = get_element($tags, (($total_p_tags/2)-1));
+    $insertion_point->insertBefore( $div, $index_p );  
   }
 
   return $dom->saveHTML();
+}
+
+function get_element($tags, $i) {
+  $index_p = $tags->item( $i );
+  $non_objects = array('h1','h2','h3','h4');
+
+  if( $index_p->parentNode->tagName == 'blockquote' ) {
+    $index_p = get_element($tags, $i + 1);
+  } else if ( in_array($index_p->previousSibling->tagName, $non_objects) ) {
+    $index_p = get_element($tags, $i + 1);
+  } 
+
+  return $index_p;
 }
 
 function blue_signup_box_content() {
