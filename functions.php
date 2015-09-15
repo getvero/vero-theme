@@ -36,6 +36,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_header', 'genesis_do_header' );
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
   add_filter( 'body_class', 'add_body_classes' );
+  add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
 
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
@@ -48,7 +49,7 @@ function genesischild_theme_setup() {
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
-  add_filter( 'post_link', 'change_url', 10, 3 );
+  // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
   register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));

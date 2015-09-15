@@ -1,5 +1,9 @@
 <?php
 
+function my_wp_get_attachment_url_ssl($url, $id) {
+  return (is_ssl()) ? (str_replace('http://', 'https://', $url)) : ($url);
+}
+
 function change_url( $url, $post, $leavename ) {
   global $post;
 
