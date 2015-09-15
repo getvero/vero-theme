@@ -134,6 +134,13 @@ function add_post_sidebar() {
   }
 }
 
+function post_is_long() {
+  $content = get_the_content();
+  $length  = sizeof( explode(" ", $content) );
+
+  return $length > 950;
+}
+
 function add_blue_signup_boxes( $content ) {
   global $post;
   $index = 5;
@@ -142,7 +149,7 @@ function add_blue_signup_boxes( $content ) {
   @$dom->loadHTML( $content );
   $dom->preserveWhiteSpace = false;
 
-  if ( is_blog_post_or_guide() ) {
+  if ( is_blog_post_or_guide() && post_is_long() ) {
     $tags = $dom->getElementsByTagName('p');
     $total_p_tags = $tags->length;
 
@@ -170,7 +177,9 @@ function get_element($tags, $i) {
     $index_p = get_element($tags, $i + 1);
   } else if ( in_array($index_p->previousSibling->tagName, $non_objects) ) {
     $index_p = get_element($tags, $i + 1);
-  } 
+  } else if ( $index_p->nextSibling->tagName == 'img' ) {
+    $index_p = get_element($tags, $i + 1);
+  }
 
   return $index_p;
 }

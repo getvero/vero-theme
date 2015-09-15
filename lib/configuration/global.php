@@ -12,7 +12,7 @@ function custom_favicon( $favicon_url ) {
 }
 
 function is_blog() {
-  return ( is_singular('post') || is_home() );
+  return ( is_singular('post') || is_singular('guides') || is_home() || is_category() );
 }
 
 function is_blog_archive() {

@@ -7,8 +7,8 @@ function change_post_info($post_meta) {
   $category = $categories[0]->cat_name;
   ?>
   <p class="entry-meta">
-    <?php if( $category == 'Uncategorized' || $category == '') { ?>
-      <a href="/resources">Article</a>
+    <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
+      <a href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
     <?php } else { ?>
       <a href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
     <?php } ?>
