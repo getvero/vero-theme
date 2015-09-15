@@ -128,10 +128,9 @@ function add_categories_and_search() {
         <div class="category-button"><?php get_category_title(); ?><span class="fa fa-angle-down"></span></div>
         <ul id="categories-menu">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
-          <li class="<?php echo is_active('articles'); ?>"><a href="/resources/category/articles">Articles</a></li>
-          <li class="<?php echo is_active('tips'); ?>"><a href="/resources/category/tips">Tips</a></li>
-          <li class="<?php echo is_active('product'); ?>"><a href="/resources/category/product">Product</a></li>
+          <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
           <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
+          <!-- <li class="<?php echo is_active('product-updates'); ?>"><a href="/resources/category/case-studies">Product Updates</a></li> -->
         </ul>
       </div>
       <?php

@@ -7,7 +7,11 @@ function change_post_info($post_meta) {
   $category = $categories[0]->cat_name;
   ?>
   <p class="entry-meta">
-    <a href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+    <?php if( $category == 'Uncategorized' || $category == '') { ?>
+      <a href="/resources">Article</a>
+    <?php } else { ?>
+      <a href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+    <?php } ?>
     Written On
     <time class="entry-time" itemprop="datePublished" datetime="2015-05-06T06:33:11+00:00">
       <?php echo the_time('j F, Y'); ?>
@@ -21,9 +25,9 @@ function change_post_info($post_meta) {
 }
 
 function is_active($page) {
-  if( $page == 'all' && is_home() ) {
+  if( is_category($page) ) {
     return 'active';
-  } else if( in_category($page) ) {
+  } else if ( $page == 'all' && is_home() ) {
     return 'active';
   } else {
     return '';
