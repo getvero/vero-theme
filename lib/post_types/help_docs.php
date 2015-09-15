@@ -42,7 +42,6 @@ function add_help_docs_taxonomies() {
       'new_item_name' => __( 'New Docs-Category Name' ),
       'menu_name' => __( 'Docs Categories' ),
     ),
-
     'query_var'     => true,
 
     // Control the slugs used for this taxonomy
@@ -64,6 +63,7 @@ function filter_help_docs_link( $link, $post) {
 
 function add_help_docs_breadcrumbs(){
   if ( is_singular('help_docs') ) {
+    global $post;
     $terms = wp_get_post_terms( $post->ID, 'help_docs_categories'); 
     $term = $terms[0];
     $title = $term->name;
@@ -73,7 +73,7 @@ function add_help_docs_breadcrumbs(){
       <ul class="list-unstyled list-inline">
         <li><a href="/help">Help</a></li>
         &#10095;
-        <li><a href="/help/<?php echo $slug ?>"><?php echo $title; ?></a></li>
+        <li><a href="/help/<?php echo $slug ?>"><?php echo $title ?></a></li>
         &#10095;
         <li class="active"><?php echo get_the_title(); ?></li>
       </ul>
