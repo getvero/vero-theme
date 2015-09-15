@@ -1,6 +1,7 @@
 <?php
 
 function add_feature_image_to_posts() {
+  
   if ( is_blog_post_or_guide() ){
     global $post;
     $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );

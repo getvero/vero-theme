@@ -48,7 +48,7 @@ function genesischild_theme_setup() {
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
-  //add_filter( 'post_link', 'append_query_string', 10, 3 );
+  add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
   register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));

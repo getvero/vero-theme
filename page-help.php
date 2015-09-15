@@ -14,7 +14,7 @@
       return 'Vero Customer Support and Help Desk';
   }
 
-  add_action( 'genesis_before_footer', 'add_swiftype');
+  add_action( 'genesis_after_header', 'add_swiftype');
   function add_swiftype() {
     ?>
     <script type="text/javascript">
