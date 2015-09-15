@@ -11,7 +11,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ?>
   <ul id="menu-marketing-navbar-left" class="menu">
     <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>
-    <li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Sweet ass emails!</span></li>
   </ul>
   <?php $logo = ob_get_clean();
 

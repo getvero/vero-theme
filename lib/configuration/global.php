@@ -11,8 +11,17 @@ function custom_favicon( $favicon_url ) {
   return '/wp-content/themes/vero/assets/images/favicon.png';
 }
 
+function is_help() {
+  return ( is_singular('help_docs') || is_singular('api_docs') );
+}
+
 function is_blog() {
   return ( is_singular('post') || is_singular('guides') || is_home() || is_category() );
+}
+
+function is_child_guide() {
+  global $post;
+  return ( is_singular('guides') && $post->post_parent );
 }
 
 function is_blog_archive() {

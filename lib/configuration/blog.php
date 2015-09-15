@@ -1,6 +1,10 @@
 <?php
 
 function change_post_info($post_meta) {
+  if ( !is_blog() ) {
+    return '';
+  }
+
   global $post;
   $categories = get_the_category();
   //$categories = get_the_category($post->ID);
@@ -18,7 +22,7 @@ function change_post_info($post_meta) {
     </time> 
     by 
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-      Jimmy Daly
+      <?php echo get_the_author(); ?>
     </span> 
   </p>
   <?php 

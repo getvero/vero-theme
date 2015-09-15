@@ -101,6 +101,7 @@ function genesischild_theme_setup() {
 
   // Custom help pages
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
+  add_action( 'genesis_before_entry_header', 'add_help_docs_breadcrumbs');
   add_action( 'get_header', 'change_help_docs_sidebar' );
   add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
 

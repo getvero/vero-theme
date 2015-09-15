@@ -20,7 +20,11 @@ function force_full_width_on_posts( $options ) {
 }
 
 function add_blog_post_back_button() {
-  if( is_blog_post_or_guide() ){ ?>
+  global $post;
+  
+  if( is_child_guide() ){?>
+    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Table of Contents</a>
+  <?php } else if( is_blog_post_or_guide() ){ ?>
     <a href="/resources" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
   <?php }
 }

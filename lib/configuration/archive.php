@@ -55,7 +55,7 @@ function add_custom_category_entry_content() {
 }
 
 function add_shares() {
-  if( !is_category() && !is_blog_post_or_guide() ){
+  if( is_blog_archive() ){
     ?>
       <div class='shares-block'>
         <div class='total-shares'>

@@ -63,24 +63,22 @@ function filter_help_docs_link( $link, $post) {
 }
 
 function add_help_docs_breadcrumbs(){
-  if ( $post->post_type != 'help_docs' ) {
-
-  } else {
-  $terms = wp_get_post_terms( $post->ID, 'help_docs_categories'); 
-  $term = $terms[0];
-  $title = $term->name;
-  $slug = $term->slug;
-  ?>
-  <div class="help-docs-crumbs">
-    <ul class="list-unstyled list-inline">
-      <li><a href="/help">Help</a></li>
-      &#10095;
-      <li><a href="/help/<?php echo $slug ?>"><?php echo $title; ?></a></li>
-      &#10095;
-      <li class="active"><?php echo get_the_title(); ?></li>
-    </ul>
-  </div>
-  <?php 
+  if ( is_singular('help_docs') ) {
+    $terms = wp_get_post_terms( $post->ID, 'help_docs_categories'); 
+    $term = $terms[0];
+    $title = $term->name;
+    $slug = $term->slug;
+    ?>
+    <div class="help-docs-crumbs">
+      <ul class="list-unstyled list-inline">
+        <li><a href="/help">Help</a></li>
+        &#10095;
+        <li><a href="/help/<?php echo $slug ?>"><?php echo $title; ?></a></li>
+        &#10095;
+        <li class="active"><?php echo get_the_title(); ?></li>
+      </ul>
+    </div>
+    <?php 
   }
 }
 
@@ -107,5 +105,12 @@ function add_help_docs_page_sidebar(){
   </section>
   <?php
 }
+
+function set_posts_per_docs_category( $query ) {
+  if (!is_main_query() || !is_tax('help_docs_categories') )
+    return;
+  $query->set( 'posts_per_page', -1 );
+  return $query;
+} 
 
 ?>
