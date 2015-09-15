@@ -8,15 +8,17 @@ remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
 remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8);
+remove_action( 'genesis_post_content', 'genesis_do_post_image' );
 
 add_action( 'genesis_before_loop', 'add_crumbs_and_header' );
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'custom_help_doc_loop' );
 remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 add_action( 'genesis_entry_content', 'custom_excerpt');
+remove_action( 'genesis_entry_content', 'genesis_do_post_title');
 
 function custom_excerpt() {
-  $post = get_post();
   ?>
       <p>
         <a href="<?php echo get_permalink(); ?>" class="well job">
