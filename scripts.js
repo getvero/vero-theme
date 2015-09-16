@@ -212,22 +212,27 @@
       jQuery( '#menu-marketing-navbar-right').removeAttr('style');
     }
   });
+
   //Waypoints
 
-  var sharesInView = new Waypoint({
-    element: jQuery('.single .shares-block')[0],
-    handler: function(){
-      jQuery('.single .widget-area').toggleClass('show');
-    }
-  });
+  if( jQuery('.single .shares-block')[0] != undefined ) {
+    var sharesInView = new Waypoint({
+      element: jQuery('.single .shares-block')[0],
+      handler: function(){
+        jQuery('.single .widget-area').toggleClass('show');
+      }
+    });
+  }
 
-  var subscribeInView = new Waypoint({
-    element: jQuery('.single .subscribe-form')[0],
-    handler: function(){
-      jQuery('.single .widget-area').toggleClass('show');
-    },
-    offset: '100%'
-  });
+  if( jQuery('.single .subscribe-form')[0] != undefined ) {
+    var subscribeInView = new Waypoint({
+      element: jQuery('.single .subscribe-form')[0],
+      handler: function(){
+        jQuery('.single .widget-area').toggleClass('show');
+      },
+      offset: '100%'
+    });
+  }
 
   
 }).call(this);

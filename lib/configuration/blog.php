@@ -1,5 +1,19 @@
 <?php
 
+function add_custom_types( $query ) {
+  global $wp_the_query;
+
+  if( ( is_post_type_archive('post') || is_home() || is_archive() ) && $query === $wp_the_query && !is_admin() ) {
+    $query->set( 'post_type', array(
+      'post', 'guides'
+    ));
+    
+    $query->set( 'post_parent', 0 );
+    
+    return $query;
+  }
+}
+
 function change_post_info($post_meta) {
   if ( !is_blog() ) {
     return '';

@@ -36,6 +36,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_header', 'genesis_do_header' );
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
   add_filter( 'body_class', 'add_body_classes' );
+  add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
 
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
@@ -47,8 +48,8 @@ function genesischild_theme_setup() {
   add_action( 'init', 'create_api_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
-
-  //add_filter( 'post_link', 'append_query_string', 10, 3 );
+  add_filter( 'pre_get_posts', 'add_custom_types' );
+  // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
   register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
@@ -100,10 +101,11 @@ function genesischild_theme_setup() {
   add_action ('genesis_before', 'remove_search_title');
 
   // Custom help pages
+  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
-  add_action( 'genesis_before_entry_header', 'add_help_docs_breadcrumbs');
   add_action( 'get_header', 'change_help_docs_sidebar' );
   add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
+  add_action( 'genesis_entry_header', 'add_help_docs_breadcrumbs', 8 );
 
   // Customise API docs
   add_action( 'genesis_before', 'remove_contents_for_api' );

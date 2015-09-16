@@ -1,7 +1,13 @@
 <?php
 
-function append_query_string( $url, $post, $leavename ) {
-  if ( strtotime( $post->post_date) > strtotime('2015-08-01') ){
+function my_wp_get_attachment_url_ssl($url, $id) {
+  return (is_ssl()) ? (str_replace('http://', 'https://', $url)) : ($url);
+}
+
+function change_url( $url, $post, $leavename ) {
+  global $post;
+
+  if ( strtotime( $post->post_date ) < strtotime('2015-08-01') ){
     $url = str_replace( home_url() . '/resources', 'http://blog.getvero.com', $url ); 
   }
   return $url;
