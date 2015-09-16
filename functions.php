@@ -28,7 +28,7 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' ) 
   ) );
 
-  add_action( 'wp_enqueue_scripts', 'add_js' );  
+  add_action( 'wp_enqueue_scripts', 'add_js' ); 
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
