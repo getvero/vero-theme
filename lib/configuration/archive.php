@@ -48,17 +48,6 @@ function get_highest_shares() {
 
 function add_featured_posts() {
   if( is_home() && !is_paged() ){
-    $result = get_highest_shares();
-    if( $result['shares'] < 30 ) {
-      $result['platform'] = "none";
-      $result['shares'] = "Editor's Pick";
-    } else if( $result['platform'] == 'all' ) {
-      $result['platform'] = 'share';
-      $result['shares'] = number_format($result['shares']);
-    } else {
-      $result['shares'] = number_format($result['shares']);
-    }
-
     ?>
     <div class='featured-posts'>
     <?php
@@ -68,7 +57,18 @@ function add_featured_posts() {
     ));
     while( $custom_query->have_posts() ) : $custom_query->the_post(); 
       $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
-      $category = get_the_category(); ?>
+      $category = get_the_category(); 
+      $result = get_highest_shares();
+      if( $result['shares'] < 30 ) {
+        $result['platform'] = "none";
+        $result['shares'] = "Editor's Pick";
+      } else if( $result['platform'] == 'all' ) {
+        $result['platform'] = 'share';
+        $result['shares'] = number_format($result['shares']);
+      } else {
+        $result['shares'] = number_format($result['shares']);
+      }
+      ?>
       <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover'<?php } ?>> 
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
