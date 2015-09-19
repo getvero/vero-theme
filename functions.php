@@ -13,9 +13,9 @@ include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
 include_once( 'lib/post_types/api.php' );             # API archive and pages
+include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
 include_once( 'lib/post_types/guides.php' );          # Guides pages
 include_once( 'lib/post_types/help_docs.php' );       # Help docs archive and pages
-include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
 function genesischild_theme_setup() { 
