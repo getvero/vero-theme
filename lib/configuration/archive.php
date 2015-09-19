@@ -35,6 +35,7 @@ function get_highest_shares() {
   if ( $shares[3] > 500 ) {
     $max = 3;
   } else {
+    unset($shares[3]);
     $max = array_keys($shares, max($shares))[0];
   }
 
