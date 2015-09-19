@@ -19,8 +19,45 @@ function add_custom_read_more_link() {
   <?php }
 }
 
+function get_highest_shares() {
+  $options = array('twitter', 'facebook', 'linkedin', 'all');
+  $shares = array();
+  $i = -1;
+
+  foreach ( $options as &$option ) {
+    $i++;
+
+    $string = '[pssc_'.$option.']';
+    $score = do_shortcode($string);
+    $shares[$i] = intval($score);
+  }
+
+  if ( $shares[3] > 500 ) {
+    $max = 3;
+  } else {
+    $max = array_keys($shares, max($shares))[0];
+  }
+
+  $result = array();
+  $result['platform'] = $options[$max];
+  $result['shares'] = $shares[$max];
+
+  return $result;
+}
+
 function add_featured_posts() {
   if( is_home() && !is_paged() ){
+    $result = get_highest_shares();
+    if( $result['shares'] < 30 ) {
+      $result['platform'] = "none";
+      $result['shares'] = "Editor's Pick";
+    } else if( $result['platform'] == 'all' ) {
+      $result['platform'] = 'share';
+      $result['shares'] = number_format($result['shares']);
+    } else {
+      $result['shares'] = number_format($result['shares']);
+    }
+
     ?>
     <div class='featured-posts'>
     <?php
@@ -34,7 +71,7 @@ function add_featured_posts() {
       <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover'<?php } ?>> 
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
-          <div class="shares-label twitter"><span class="fa fa-twitter"></span><?php echo do_shortcode('[pssc_twitter]'); ?></div>
+          <div class="shares-label <?php echo $result['platform']; ?>"><span class="fa fa-<?php echo $result['platform']; ?>"></span><?php echo $result['shares']; ?></div>
           <div class="category"><?php echo $category[0]->cat_name; ?></div>
           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         </div>
