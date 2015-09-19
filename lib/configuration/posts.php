@@ -156,7 +156,7 @@ function add_blue_signup_boxes( $content ) {
 
   $insert_blue_box = get_field('insert_blue_box');
 
-  if ( is_blog_post_or_guide() && post_is_long() && $insert_blue_box != false ) {
+  if ( is_blog_post_or_guide() && post_is_long() && ( isset($insert_blue_box) && $insert_blue_box ) ) {
     $tags = $dom->getElementsByTagName('p');
     $total_p_tags = $tags->length;
 
