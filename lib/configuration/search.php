@@ -13,4 +13,8 @@ function change_search_form_type($form) {
   return $form;
 }
 
+function change_search_form_placeholder( $text ) {
+	return esc_attr( 'Search the blog...' );
+}
+
 ?>

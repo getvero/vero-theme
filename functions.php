@@ -99,6 +99,7 @@ function genesischild_theme_setup() {
 
   // Search page
   add_action ('genesis_before', 'remove_search_title');
+  add_filter ('genesis_search_text', 'change_search_form_placeholder');
 
   // Custom help pages
   add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
