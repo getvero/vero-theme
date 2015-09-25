@@ -20,14 +20,14 @@ function add_custom_read_more_link() {
 }
 
 function get_highest_shares() {
-  $options = array('twitter', 'facebook', 'linkedin', 'all');
+  $options = array('twitter', 'facebook', 'total');
   $shares = array();
   $i = -1;
 
   foreach ( $options as &$option ) {
     $i++;
 
-    $string = '[pssc_'.$option.']';
+    $string = '[scc_share_count_'.$option.']';
     $score = do_shortcode($string);
     $shares[$i] = intval($score);
   }
@@ -62,7 +62,7 @@ function add_featured_posts() {
       if( $result['shares'] < 30 ) {
         $result['platform'] = "none";
         $result['shares'] = "Editor's Pick";
-      } else if( $result['platform'] == 'all' ) {
+      } else if( $result['platform'] == 'total' ) {
         $result['platform'] = 'share';
         $result['shares'] = number_format($result['shares']);
       } else {
@@ -97,7 +97,7 @@ function add_shares() {
     ?>
       <div class='shares-block'>
         <div class='total-shares'>
-          <span><?php echo do_shortcode('[pssc_all]'); ?></span>Shares
+          <span><?php echo do_shortcode('[scc_share_count_total]'); ?></span>Shares
         </div>
         <?php echo naked_social_share_buttons(); ?>
       </div>
