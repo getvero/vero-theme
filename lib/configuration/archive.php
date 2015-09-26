@@ -20,6 +20,7 @@ function add_custom_read_more_link() {
 }
 
 function get_highest_shares() {
+  global $post;
   $options = array('twitter', 'facebook', 'total');
   $shares = array();
   $i = -1;
@@ -27,8 +28,11 @@ function get_highest_shares() {
   foreach ( $options as &$option ) {
     $i++;
 
-    $string = '[scc_share_count_'.$option.']';
-    $score = do_shortcode($string);
+    $string = 'scc_share_count_'.$option.'';
+    $score = get_post_meta($post->ID, $string, true); 
+    if($score < 0 || $score == '' || $score == null) {
+      $score = 0;
+    }
     $shares[$i] = intval($score);
   }
 
@@ -94,10 +98,15 @@ function add_custom_category_entry_content() {
 
 function add_shares() {
   if( is_blog_archive() ){
+    global $post;
+    $score = get_post_meta($post->ID, 'scc_share_count_total', true);
+    if($score < 0 || $score == '' || $score == null) {
+      $score = 0;
+    }
     ?>
       <div class='shares-block'>
         <div class='total-shares'>
-          <span><?php echo do_shortcode('[scc_share_count_total]'); ?></span>Shares
+          <span><?php echo $score; ?></span>Shares
         </div>
         <?php echo naked_social_share_buttons(); ?>
       </div>

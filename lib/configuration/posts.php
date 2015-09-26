@@ -31,11 +31,16 @@ function add_blog_post_back_button() {
 }
 
 function add_shares_to_post() {
+  global $post;
+  $score = get_post_meta($post->ID, 'scc_share_count_total', true);
+  if($score < 0 || $score == '' || $score == null) {
+    $score = 0;
+  }
   if( is_blog_post_or_guide() ){
     ?>
       <div class='shares-block'>
         <div class='total-shares'>
-          <span><?php echo do_shortcode('[pssc_all]'); ?></span>Shares
+          <span><?php echo $score; ?></span>Shares
         </div>
         <?php echo naked_social_share_buttons(); ?>
       </div>
@@ -56,7 +61,7 @@ function add_subscribe_form() {
       <h2>We dissect email for a living.</h2>
       <p>More than 10,000 marketers, developers and product managers enjoy our newsletter every week.</p>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
-          <input name='email' type='email' class="form-control" placeholder="email@address.com"></input>
+          <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
           <input type='submit' value='Join us' class="btn btn-success"/>
       </form>
     </div>
