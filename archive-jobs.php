@@ -1,11 +1,18 @@
 <?php
-/*
-Template Name: Jobs Archive
-*/
-
-//Force full width layout
-add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+add_filter('wp_title', 'my_custom_title');
 add_filter( 'body_class', 'metro_add_body_class' );
+add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+
+add_action( 'genesis_before_content', 'add_jobs_featured' );
+add_action( 'genesis_entry_content', 'custom_excerpt');
+add_action( 'genesis_after_content', 'jobs_do_close' );
+
 function metro_add_body_class( $classes ) {
   $blacklist = array( 'blog' );
   $classes[] = 'full-width jobs';
@@ -13,25 +20,10 @@ function metro_add_body_class( $classes ) {
   return $classes;
 }
 
-add_filter('wp_title', 'my_custom_title');
 function my_custom_title($title) {
     return 'Start your next job at Vero';
 }
 
-//Remove header
-remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
-remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-
-//Remove footer
-//remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
-//remove_action( 'genesis_footer', 'genesis_do_footer' );
-//remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
-
-//Custom post format
-remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-add_action( 'genesis_entry_content', 'custom_excerpt');
 function custom_excerpt() {
   $post = get_post();
   ?>
@@ -54,8 +46,6 @@ function string_limit_words($string, $word_limit)
   echo implode(' ', $words); }
 }
 
-//Add featured sections at the top
-add_action( 'genesis_before_content', 'add_jobs_featured' );
 function add_jobs_featured() {
   ?>
   <section id="top" class="center-text">
@@ -133,8 +123,6 @@ function add_jobs_featured() {
   <?php 
 }
 
-//Close jobs at bottom
-add_action( 'genesis_after_content', 'jobs_do_close' );
 function jobs_do_close() { ?>
   <div class="subscribe">
       <h3>Your dream job not currently open? Stay in the loop on new postings!</h3>
@@ -153,7 +141,6 @@ function jobs_do_close() { ?>
   </div>
   
   </div></section>
-<?php } ?>
+<?php } 
 
-
-<?php genesis(); ?>
+genesis(); ?>

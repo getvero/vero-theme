@@ -166,4 +166,73 @@
     }
   });
 
+
+  //Highlight.js
+  jQuery(document).ready(function() {
+    jQuery('pre').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+  });
+
+  jQuery(document).ready( function(){
+    jQuery( 'nav' ).before( '<button class="menu-toggle" role="button" aria-pressed="false"></button>' ); // Add toggles to menus
+    jQuery( 'nav .sub-menu' ).before( '<button class="sub-menu-toggle" role="button" aria-pressed="false"></button>' ); // Add toggles to sub menus
+
+    // Show/hide the navigation
+    jQuery( '.menu-toggle, .sub-menu-toggle' ).on( 'click', function() {
+      var $this = jQuery( this );
+      $this.attr( 'aria-pressed', function( index, value ) {
+      return 'false' === value ? 'true' : 'false';
+    });
+
+    $this.toggleClass( 'activated' );
+    $this.next( 'nav, .sub-menu' ).slideToggle( 'fast' );
+
+    });
+  });
+  
+  //Responsive Header
+  jQuery(document).ready( function(){
+    jQuery( '.nav-menu-toggle' ).on( 'click', function() {
+      var textcont =  jQuery( '.nav-menu-toggle' ).text();
+      if(textcont == 'Menu'){
+        jQuery( '#menu-marketing-navbar-right' ).slideDown();
+        jQuery( '.nav-menu-toggle a' ).text('Close');
+      }
+      else if(textcont == 'Close'){
+        jQuery( '#menu-marketing-navbar-right' ).slideUp();
+        jQuery( '.nav-menu-toggle a' ).text('Menu');
+        jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
+      }
+    });
+  });
+
+  jQuery(window).resize(function(){
+    if (jQuery('.nav-menu-toggle a').text() === 'Menu'){
+      jQuery( '#menu-marketing-navbar-right').removeAttr('style');
+    }
+  });
+
+  //Waypoints
+
+  if( jQuery('.single .shares-block')[0] != undefined ) {
+    var sharesInView = new Waypoint({
+      element: jQuery('.single .shares-block')[0],
+      handler: function(){
+        jQuery('.single .widget-area').toggleClass('show');
+      }
+    });
+  }
+
+  if( jQuery('.single .subscribe-form')[0] != undefined ) {
+    var subscribeInView = new Waypoint({
+      element: jQuery('.single .subscribe-form')[0],
+      handler: function(){
+        jQuery('.single .widget-area').toggleClass('show');
+      },
+      offset: '100%'
+    });
+  }
+
+  
 }).call(this);

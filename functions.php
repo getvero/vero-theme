@@ -1,159 +1,121 @@
 <?php
-// Start the engine the other way
-add_action('genesis_setup','genesischild_theme_setup', 15); 
-function genesischild_theme_setup() { 
 
-  //Define child theme version
+# Custom config files
+include_once( 'lib/configuration/assets.php' );
+include_once( 'lib/configuration/archive.php' );
+include_once( 'lib/configuration/blog.php' );
+include_once( 'lib/configuration/posts.php' );
+include_once( 'lib/configuration/search.php' );
+include_once( 'lib/configuration/global.php' );
+include_once( 'lib/configuration/headers.php' );
+include_once( 'lib/configuration/tracking.php' );
+include_once( 'lib/configuration/footers.php' );
+
+# Add in custom resources and the like
+include_once( 'lib/post_types/api.php' );             # API archive and pages
+include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
+include_once( 'lib/post_types/guides.php' );          # Guides pages
+include_once( 'lib/post_types/help_docs.php' );       # Help docs archive and pages
+
+add_action('genesis_setup','genesischild_theme_setup', 15);
+function genesischild_theme_setup() { 
   define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
   
-  // Custom stylesheet
+  add_theme_support( 'html5' );
+  add_theme_support( 'xhtml' );
+  add_theme_support( 'genesis-responsive-viewport' );
+  add_theme_support( 'genesis-menus', array( 
+    'primary' => __( 'Navigation Menu', 'genesis' ) 
+  ) );
+
+  add_action( 'wp_enqueue_scripts', 'add_js' ); 
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
-  //Setup theme functions
-  include_once( CHILD_DIR . '/lib/theme-functions.php' );
-  include_once( CHILD_DIR . '/lib/theme-settings.php' );
+  add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
+  remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
+  remove_action( 'genesis_header', 'genesis_do_header' );
+  remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
+  add_filter( 'body_class', 'add_body_classes' );
+  add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
 
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
   unregister_sidebar( 'header-right' );
-  add_theme_support( 'genesis-responsive-viewport' );
-  remove_action( 'genesis_footer', 'genesis_do_footer' );
-  add_action( 'genesis_footer', 'custom_footer_static' );
-  
-  add_action('init', 'set_cookies');
-  add_theme_support( 'html5' );
-  add_theme_support( 'genesis-responsive-viewport' );
-  remove_action( 'genesis_entry_footer', 'optimized_counters_html5', 1 );
-  add_action( 'wp_enqueue_scripts', 'add_js' );  
-  add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
-  add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
+  unregister_nav_menu( 'header-right' );
 
-  add_filter( 'admin_init', 'add_categories_to_pages');
-  add_filter('page_attributes_dropdown_pages_args', 'my_attributes_dropdown_pages_args', 1, 1);
-  add_theme_support( 'post-formats', array(
-    'aside',
-    'audio',
-    'chat',
-    'gallery',
-    'image',
-    'link',
-    'quote',
-    'status',
-    'video'
-  ) );
-
-  add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
-  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
-  add_filter('the_content', 'add_class_to_small_images');
-  add_filter( 'the_content_more_link', 'read_more_link' );
-  add_filter( 'get_the_content_more_link', 'read_more_link' );
-  add_filter( 'genesis_prev_link_text', 'gt_review_prev_link_text' );
-  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-  add_filter( 'genesis_post_info', 'remove_post_info' );
-  function gt_review_prev_link_text() {
-          $prevlink = '&laquo; Previous Posts';
-          return $prevlink;
-  }
-  add_filter( 'genesis_next_link_text', 'gt_review_next_link_text' );
-  function gt_review_next_link_text() {
-          $nextlink = 'Next Posts &raquo;';
-          return $nextlink;
-  }
-
-  add_filter( 'body_class', 'add_body_classes' );
-  add_filter( 'genesis_footer_output', 'child_output_filter', 10, 3 );
-  
-  //Custom blue navigation on blog posts and docs
-  register_nav_menu('third-menu-blog' , __( '(Blog) Blue Navigation Menu'));
-  register_nav_menu('third-menu-docs' , __( '(Docs) Blue Navigation Menu'));
-  register_nav_menu('api-docs-languages' , __( '(Docs) Languages Menu'));
-  add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
-  add_filter( 'nav_menu_css_class', 'additional_active_item_classes', 10, 2 );
-
-  //Add logo to primary nav bar
-  add_filter( 'genesis_nav_items', 'add_logo_to_navbar', 10, 2 );
-  add_filter( 'wp_nav_menu_items', 'add_logo_to_navbar', 10, 2 );
-  remove_action('genesis_after_header', 'genesis_do_subnav');
-  add_action( 'after_setup_theme', 'remove_default_menu', 11 );
-  function remove_default_menu(){
-    unregister_nav_menu('secondary');
-  }
-
-  //Remove header
-  remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
-  remove_action( 'genesis_header', 'genesis_do_header' );
-  remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
-  
-  //Add popups
-  add_filter('genesis_after_content', 'custom_popups');
-
-  //Gravity forms
-  add_action( 'gform_after_submission', 'post_to_vero', 10, 2 );
-  
-  //Remove 'filed under' & info
-
-  //Remove the edit link
-  add_filter ( 'genesis_edit_post_link' , '__return_false' );
-
-  //Add and customise FAQ and api docs
-  add_action( 'init', 'create_all_docs_post_type' );
+  // Add custom types
+  add_action( 'init', 'create_jobs_post_type' );
+  add_action( 'init', 'create_api_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
+  add_action( 'init', 'create_guides_post_type' );
+  add_filter( 'pre_get_posts', 'add_custom_types' );
+  // add_filter( 'post_link', 'change_url', 10, 3 );
+
+  // Navbars and footers
+  register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
+  register_nav_menu('api-languages' , __( 'API Languages'));
+  add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
+  remove_action( 'genesis_footer', 'genesis_do_footer' );
+  add_action( 'genesis_footer', 'custom_footer');
+  add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
+  add_filter('get_search_form', 'change_search_form_type');
+
+  // Add featured posts, search and category bar to posts archive
+  add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
+  add_action( 'genesis_before_content', 'add_blog_post_back_button' );
+  add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_and_search' );
+  add_action( 'genesis_before_content_sidebar_wrap', 'add_featured_posts' );
+  add_action( 'genesis_before_loop', 'add_latest_title' );
+  add_filter( 'genesis_prev_link_text', 'prev_link_text' );
+  add_filter( 'genesis_next_link_text', 'next_link_text' );
+
+  // Entry post structure
+  add_filter( 'get_the_content_more_link', 'remove_read_more_link' ); 
+  add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
+  add_action( 'genesis_entry_footer', 'add_shares' );
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+  add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
+  add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
+  add_filter( 'genesis_post_info', 'change_post_info' );
+  add_filter( 'genesis_after_entry_content', 'add_author_bio' );
+  add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
+  add_filter( 'the_content', 'add_class_to_small_images');
+  add_filter( 'the_content', 'add_blue_signup_boxes' );
+
+  // Custom sidebar for post
+  genesis_register_sidebar( array(
+    'id'            => 'post-sidebar',
+    'name'          => __( 'Post Sidebar', 'vero' ),
+    'description'   => __( 'This widget are floats next to blog posts and guides', 'vero' ),
+  ) );
+  add_action( 'genesis_after_content', 'add_post_sidebar' );
+
+  // Category page
+  add_action( 'genesis_entry_header', 'category_setup', 8); 
+
+  // Post Page
+  add_action( 'genesis_entry_footer', 'post_remove_footer' );
+  add_action( 'genesis_before_footer', 'blog_related_posts');
+
+  // Search page
+  add_action ('genesis_before', 'remove_search_title');
+  add_filter ('genesis_search_text', 'change_search_form_placeholder');
+
+  // Custom help pages
+  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
   add_action( 'init', 'add_help_docs_taxonomies', 0 );
-  add_filter('post_type_link', 'filter_help_docs_link', 10, 2);
+  add_action( 'get_header', 'change_help_docs_sidebar' );
+  add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
+  add_action( 'genesis_entry_header', 'add_help_docs_breadcrumbs', 8 );
+
+  // Customise API docs
+  add_action( 'genesis_before', 'remove_contents_for_api' );
+  add_action( 'get_header', 'change_api_sidebar' );
   genesis_register_sidebar( array(
     'id' => 'api_docs_sidebar',
     'name' => 'API Docs Sidebar',
     'description' => 'This is a column for the API docs sidebar.',
   ) );
-  add_filter('genesis_site_layout', 'help_docs_layout');
-  register_nav_menu('blog-api_docs_language_bar-nav-menu' , __( 'API Docs Languages'));
-  add_action( 'get_header', 'all_docs_sidebar_logic' );
-  add_filter( 'manage_taxonomies_for_kb_columns', 'kb_topic_columns' );
-
-  //Add and customise campaigns
-  add_action( 'init', 'create_campaigns_post_type' );
-  genesis_register_sidebar( array(
-    'id' => 'campaigns_sidebar',
-    'name' => 'Campaigns Sidebar',
-    'description' => 'This is a column for the campaigns sidebar.',
-  ) );
-  add_action( 'get_header', 'campaigns_sidebar_logic' );
-
-  //Customize blog posts
-  add_action( 'genesis_before', 'customize_blog' );
-  register_nav_menu('blog-secondary-nav-menu' , __( '(Blog) Primary Navigation Menu'));
-
-  //Add guides
-  add_action( 'init', 'create_guides_post_type' );
-  add_filter( 'genesis_site_layout', 'guides_layout' );
-  add_action( 'genesis_before', 'custom_header_for_guides' ); 
-  add_action( 'genesis_before', 'fix_guide_navs' );
-  add_action( 'wp_enqueue_scripts', 'add_guides_scripts');
-  add_action( 'genesis_after_entry_content', 'guides_before_footer');
-  add_action( 'genesis_after_entry', 'add_custom_elements_to_guides');
-  add_filter( 'user_can_richedit', 'disable_for_cpt' );
-  genesis_register_sidebar( array(
-    'id'        => 'guides-sidebar-widget',
-    'name'      => __( 'Guides sidebar' ),
-    'description' => __( 'This is the code for registering a new widget in your functions file.' )
-  ) );
-  genesis_register_sidebar( array(
-    'id'        => '20-tips-sidebar-widget',
-    'name'      => __( '20 Tips About Email sidebar' ),
-    'description' => __( 'This is the code for registering a new widget in your functions file.' )
-  ) );
-  add_action( 'genesis_after_content', 'add_guides_sidebar' );
-
-  //Add and customise resources
-  add_action( 'init', 'create_resources_post_type' );
-
-  //Add and customise jobs
-  add_action( 'init', 'create_jobs_post_type' );
-
-  //Add product updates
-  add_action( 'init', 'create_product_updates_post_type' );
-
-  //Add and customise resources page
-  create_sidebars_blog_resources();
 }
+
 ?>

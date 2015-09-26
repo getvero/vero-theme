@@ -148,7 +148,6 @@ include 'pages-shared/static-header.php';
   </section>
 </div>
 <?php 
-  custom_footer_static_wrap();
-  wp_footer();
+  no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
 ?>
