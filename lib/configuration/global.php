@@ -1,6 +1,6 @@
 <?php
 
-function my_wp_get_attachment_url_ssl($url, $id) {
+function my_wp_get_attachment_url_ssl($url) {
   return (is_ssl()) ? (str_replace('http://', 'https://', $url)) : ($url);
 }
 

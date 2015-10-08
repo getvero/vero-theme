@@ -21,32 +21,32 @@ function add_custom_read_more_link() {
 
 function get_highest_shares() {
   global $post;
-  $options = array('twitter', 'facebook', 'total');
+  $options = array('twitter', 'facebook', 'linkedin', 'all');
   $shares = array();
   $i = -1;
 
   foreach ( $options as &$option ) {
     $i++;
-
-    $string = 'scc_share_count_'.$option.'';
-    $score = get_post_meta($post->ID, $string, true); 
-    if($score < 0 || $score == '' || $score == null) {
-      $score = 0;
+    //$share_obj = new Naked_Social_Share_Buttons($post);
+    $shares_array = get_field('naked_shares_count')['shares']; 
+    
+    if($option == 'all') {
+      $score = $shares_array['facebook'] + $shares_array['twitter'] + $shares_array['linkedin'];
+    } else {
+      $score = $shares_array[$option];
     }
+
     $shares[$i] = intval($score);
   }
-
   if ( $shares[3] > 500 ) {
     $max = 3;
   } else {
     unset($shares[3]);
     $max = array_keys($shares, max($shares))[0];
   }
-
   $result = array();
   $result['platform'] = $options[$max];
   $result['shares'] = $shares[$max];
-
   return $result;
 }
 
@@ -66,7 +66,7 @@ function add_featured_posts() {
       if( $result['shares'] < 30 ) {
         $result['platform'] = "none";
         $result['shares'] = "Editor's Pick";
-      } else if( $result['platform'] == 'total' ) {
+      } else if( $result['platform'] == 'all' ) {
         $result['platform'] = 'share';
         $result['shares'] = number_format($result['shares']);
       } else {
@@ -97,16 +97,16 @@ function add_custom_category_entry_content() {
 }
 
 function add_shares() {
+  global $post;
   if( is_blog_archive() ){
-    global $post;
-    $score = get_post_meta($post->ID, 'scc_share_count_total', true);
-    if($score < 0 || $score == '' || $score == null) {
-      $score = 0;
-    }
     ?>
       <div class='shares-block'>
         <div class='total-shares'>
-          <span><?php echo $score; ?></span>Shares
+          <span><?php 
+            //$share_obj = new Naked_Social_Share_Buttons($post);
+            $shares = get_field('naked_shares_count')['shares'];
+            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
+          ?></span>Shares
         </div>
         <?php echo naked_social_share_buttons(); ?>
       </div>

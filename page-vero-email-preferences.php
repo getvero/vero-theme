@@ -100,8 +100,8 @@ if(isset($_GET['v_id'])) {
         </ul>
 
         <script>
-          _veroq.push(['user', {id: "<?php echo $id ?>"}]);
           jQuery(document).ready(function(){
+            _veroq.push(['user', {id: "<?php echo $id ?>"}]);
             jQuery("input[type='checkbox']").on('change', function(e){
               tag = jQuery(this).attr('id');
               if(jQuery(this).is(':checked')){
@@ -130,7 +130,6 @@ if(isset($_GET['v_id'])) {
 </div>
 
 <?php 
-  custom_footer_static_wrap();
   wp_footer();
   add_page_tracking_code("PreferencePage");
 ?>
