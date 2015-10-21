@@ -150,6 +150,9 @@ function add_latest_title() {
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
     <h2 class="section-title">All – Page <?php echo $paged; ?></h2>
   <?php }
+  else if( is_post_type_archive('changelogs') ){ ?>
+    <h2 class="section-title">Changelog</h2>
+  <?php }
   else if( is_category() ){ ?>
     <h2 class="section-title"><?php single_cat_title() ?></h2>
   <?php }

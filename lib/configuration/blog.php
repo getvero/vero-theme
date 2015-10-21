@@ -3,7 +3,7 @@
 function add_custom_types( $query ) {
   global $wp_the_query;
 
-  if( ( is_post_type_archive('post') || is_home() || is_archive() ) && $query === $wp_the_query && !is_admin() && !is_post_type_archive('jobs') ) {
+  if( ( is_post_type_archive('post') || is_home() || is_archive() ) && $query === $wp_the_query && !is_admin() && !is_post_type_archive('jobs') && !is_post_type_archive('changelogs') ) {
     $query->set( 'post_type', array(
       'post', 'guides'
     ));

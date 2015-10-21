@@ -22,7 +22,7 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
 
-  if ( is_singular('post') || is_singular('guides') || is_post_type_archive('post') || is_home() || is_category() || is_search() || is_author() ) {
+  if ( is_singular('post') || is_singular('guides') || is_singular('changelogs') || is_post_type_archive('post') || is_post_type_archive('changelogs') || is_home() || is_category() || is_search() || is_author() ) {
     wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
   } else {
     wp_enqueue_style( 'marketing-stylesheet', $base_url."/marketing.".$suffix, array(), PARENT_THEME_VERSION );

@@ -33,6 +33,7 @@ if(isset($_GET['v_id'])) {
     }
   }
   $response = get_user($id);
+  print_r($response['body']);
   if(isset($response['body']) && $no_error){
     $customer = json_decode($response['body']);
     $email = $customer->customer->email;

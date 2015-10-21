@@ -16,6 +16,7 @@ include_once( 'lib/post_types/api.php' );             # API archive and pages
 include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
 include_once( 'lib/post_types/guides.php' );          # Guides pages
 include_once( 'lib/post_types/help_docs.php' );       # Help docs archive and pages
+include_once( 'lib/post_types/changelogs.php' );       # Changelogs
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
 function genesischild_theme_setup() { 
@@ -45,6 +46,8 @@ function genesischild_theme_setup() {
 
   // Add custom types
   add_action( 'init', 'create_jobs_post_type' );
+  add_action( 'init', 'create_changelogs_post_type' );
+  add_action( 'init', 'create__post_type' );
   add_action( 'init', 'create_api_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
@@ -79,6 +82,7 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_post_info', 'change_post_info' );
   add_filter( 'genesis_after_entry_content', 'add_author_bio' );
   add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
+  add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
 

@@ -25,6 +25,8 @@ function add_blog_post_back_button() {
   
   if( is_child_guide() ){?>
     <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Table of Contents</a>
+  <?php } else if ( is_singular('changelogs') ) { ?>
+    <a href="/changelog" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Changelog</a>
   <?php } else if( is_blog_post_or_guide() ){ ?>
     <a href="/resources" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
   <?php }
@@ -52,6 +54,25 @@ function post_remove_footer() {
   if( is_blog_post_or_guide() ){
     remove_action( 'genesis_entry_footer', 'add_shares' );
   }
+}
+
+function add_contributors() {
+  if( is_singular('changelogs') ){
+    global $post;
+    $contributors = get_post_meta($post->ID, 'contributors', true);
+    ?>
+    <div class='contributor-bio'>
+      <div class='contributor-title'>Who helped out</div>
+      <ul class='contributor-details unstyled-list'>
+      <?php foreach($contributors as $contributor) { ?>
+        <li>
+          <div class="contributor-image"><?php echo get_avatar( get_the_author_meta( 'ID', $contributor ) ); ?></div>
+          <div class='contributor-name'><a href="https://twitter.com/<?php echo get_the_author_meta( 'twitter', $contributor ); ?>" target="_blank">@<?php echo get_the_author_meta( 'twitter', $contributor ); ?></a></div>
+        </li>
+      <?php } ?>
+      </ul>
+    </div>
+  <?php }
 }
 
 function add_subscribe_form() {

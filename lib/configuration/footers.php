@@ -23,27 +23,27 @@ function custom_footer_html() {
   ?>
   <ul class="col">
     <li class="header">Features</li>
-    <li><a href="http://www.getvero.com/features">Start the tour &rarr;</a></li>
-    <li><a href="http://www.getvero.com/triggered-emails">Triggered emails</a></li>
-    <li><a href="http://www.getvero.com/smart-newsletters">Smart newsletters</a></li>
-    <li><a href="http://www.getvero.com/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
-    <li><a href="http://www.getvero.com/external-attributes">External Attributes</a></li>
+    <li><a href="https://www.getvero.com/features">Start the tour &rarr;</a></li>
+    <li><a href="https://www.getvero.com/triggered-emails">Triggered emails</a></li>
+    <li><a href="https://www.getvero.com/smart-newsletters">Smart newsletters</a></li>
+    <li><a href="https://www.getvero.com/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
+    <li><a href="https://www.getvero.com/external-attributes">External Attributes</a></li>
   </ul>
   <ul class="col">
     <li class="header">Resources</li>
-    <li><a href="http://www.getvero.com/pricing">Pricing</a></li>
-    <li><a href="http://www.getvero.com/faq">Help Documentation</a></li>
-    <li><a href="http://www.getvero.com/api">API Reference</a></li>
-    <li><a href="http://www.getvero.com/resources
+    <li><a href="https://www.getvero.com/pricing">Pricing</a></li>
+    <li><a href="http://help.getvero.com">Help Documentation</a></li>
+    <li><a href="https://www.getvero.com/api">API Reference</a></li>
+    <li><a href="https://www.getvero.com/resources
 " target="_blank">Blog</a></li>
   </ul>
   <ul class="col">
     <li class="header">Company</li>
     <!--<li>About</li>-->
-    <li><a href="http://www.getvero.com/jobs">Jobs</a></li>
+    <li><a href="https://www.getvero.com/jobs">Jobs</a></li>
     <li><a href="http://status.getvero.com">Status</a></li>
-    <li><a href="http://www.getvero.com/terms-of-service">Terms of Service</a></li>
-    <li><a href="http://www.getvero.com/privacy">Privacy Policy</a></li>
+    <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
+    <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
   </ul>
   <ul class="col">
     <li class="header">Say Hello</li>
