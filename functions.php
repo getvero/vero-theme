@@ -123,7 +123,6 @@ function genesischild_theme_setup() {
 
   // Customise changelog
   add_action( 'genesis_before', 'remove_elements_changelog' );
-  add_filter( 'genesis_pre_get_option_site_layout', 'changelog_full_width' );
   add_action( 'template_redirect', 'single_changelog_redirect' );
 }
 

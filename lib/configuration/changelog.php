@@ -24,7 +24,6 @@
     }
   }
 
-
   function single_changelog_redirect() {
     if ( is_singular('changelogs') ) {
       wp_redirect( '/changelog', 301 );
