@@ -3,7 +3,7 @@
   function changelog_title(){
     ?>
     <h2 class="entry-title" itemprop="headline">
-      <?php echo the_title(); ?>
+      <?php //echo the_title(); ?>
       <time class="entry-time" itemprop="datePublished" datetime="<?php echo the_time('c'); ?>">
         <?php echo the_time('j F Y'); ?>
       </time> 
