@@ -24,12 +24,6 @@
     }
   }
 
-  function changelog_full_width( $opt ) {
-    if ( is_post_type_archive('changelogs') ) { 
-      $opt = 'full-width-content'; 
-      return $opt;
-    }
-  }
 
   function single_changelog_redirect() {
     if ( is_singular('changelogs') ) {
