@@ -4,6 +4,7 @@
 include_once( 'lib/configuration/assets.php' );
 include_once( 'lib/configuration/archive.php' );
 include_once( 'lib/configuration/blog.php' );
+include_once( 'lib/configuration/changelog.php' );
 include_once( 'lib/configuration/posts.php' );
 include_once( 'lib/configuration/search.php' );
 include_once( 'lib/configuration/global.php' );
@@ -47,7 +48,6 @@ function genesischild_theme_setup() {
   // Add custom types
   add_action( 'init', 'create_jobs_post_type' );
   add_action( 'init', 'create_changelogs_post_type' );
-  add_action( 'init', 'create__post_type' );
   add_action( 'init', 'create_api_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
@@ -120,6 +120,11 @@ function genesischild_theme_setup() {
     'name' => 'API Docs Sidebar',
     'description' => 'This is a column for the API docs sidebar.',
   ) );
+
+  // Customise changelog
+  add_action( 'genesis_before', 'remove_elements_changelog' );
+  add_filter( 'genesis_pre_get_option_site_layout', 'changelog_full_width' );
+  add_action( 'template_redirect', 'single_changelog_redirect' );
 }
 
 ?>

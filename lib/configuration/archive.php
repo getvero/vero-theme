@@ -151,7 +151,8 @@ function add_latest_title() {
     <h2 class="section-title">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if( is_post_type_archive('changelogs') ){ ?>
-    <h2 class="section-title">Changelog</h2>
+    <img class="section-title-image" src="/wp-content/themes/vero/assets/images/changelog/workinghard@2x.png"/>
+    <h1 class="section-title">Changelog</h1>
   <?php }
   else if( is_category() ){ ?>
     <h2 class="section-title"><?php single_cat_title() ?></h2>
