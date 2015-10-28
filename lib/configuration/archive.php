@@ -26,10 +26,19 @@ function get_highest_shares() {
   $i = -1;
 
   foreach ( $options as &$option ) {
+    global $post;
     $i++;
     //$share_obj = new Naked_Social_Share_Buttons($post);
-    $shares_array = get_field('naked_shares_count')['shares']; 
-    
+    //$shares_array = get_field('naked_shares_count')['shares']; 
+    $final_shares = get_field('naked_shares_count');
+    if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
+      $shares = get_field('naked_shares_count')['shares'];
+    } else {
+      $share_obj = new Naked_Social_Share_Buttons($post);
+      $shares = $share_obj->get_share_numbers['shares'];
+    }
+    $shares_array = $shares;
+
     if($option == 'all') {
       $score = $shares_array['facebook'] + $shares_array['twitter'] + $shares_array['linkedin'];
     } else {

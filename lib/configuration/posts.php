@@ -40,7 +40,13 @@ function add_shares_to_post() {
         <div class='total-shares'>
           <span><?php 
             //$share_obj = new Naked_Social_Share_Buttons($post);
-            $shares = get_field('naked_shares_count')['shares'];
+            //$final_shares = get_field('naked_shares_count');
+            //if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
+            //  $shares = get_field('naked_shares_count')['shares'];
+            //} else {
+              $share_obj = new Naked_Social_Share_Buttons();
+              $shares = $share_obj->get_share_numbers['shares'];
+            //}
             echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
           ?></span>Shares
         </div>
