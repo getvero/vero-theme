@@ -75,10 +75,10 @@ function genesischild_theme_setup() {
   // Entry post structure
   add_filter( 'get_the_content_more_link', 'remove_read_more_link' ); 
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-  //add_action( 'genesis_entry_footer', 'add_shares' );
+  add_action( 'genesis_entry_footer', 'add_shares' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
-  //add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
+  add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
   add_filter( 'genesis_after_entry_content', 'add_author_bio' );
   add_filter( 'genesis_after_entry_content', 'add_subscribe_form' );
