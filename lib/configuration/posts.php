@@ -37,7 +37,7 @@ function add_shares_to_post() {
   if( is_blog_post_or_guide() ){
     ?>
       <div class='shares-block'>
-        <div class='total-shares'>
+        <!-- <div class='total-shares'>
           <span><?php 
             //$share_obj = new Naked_Social_Share_Buttons($post);
             //$final_shares = get_field('naked_shares_count');
@@ -49,7 +49,7 @@ function add_shares_to_post() {
             //}
             echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
           ?></span>Shares
-        </div>
+        </div> -->
         <?php echo naked_social_share_buttons(); ?>
       </div>
     <?php

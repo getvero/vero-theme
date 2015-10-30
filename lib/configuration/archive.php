@@ -30,14 +30,8 @@ function get_highest_shares() {
     $i++;
     //$share_obj = new Naked_Social_Share_Buttons($post);
     //$shares_array = get_field('naked_shares_count')['shares']; 
-    $final_shares = get_field('naked_shares_count');
-    if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
-      $shares = get_field('naked_shares_count')['shares'];
-    } else {
-      $share_obj = new Naked_Social_Share_Buttons($post);
-      $shares = $share_obj->get_share_numbers['shares'];
-    }
-    $shares_array = $shares;
+    $nssb = new Naked_Social_Share_Buttons; 
+    $shares_array = $nssb->share_numbers['shares'];
 
     if($option == 'all') {
       $score = $shares_array['facebook'] + $shares_array['twitter'] + $shares_array['linkedin'];
@@ -83,6 +77,7 @@ function add_featured_posts() {
       }
       ?>
       <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover'<?php } ?>> 
+        <?php $nssb = new Naked_Social_Share_Buttons; echo $nssb->share_numbers['shares']; ?>
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
           <div class="shares-label <?php echo $result['platform']; ?>"><span class="fa fa-<?php echo $result['platform']; ?>"></span><?php echo $result['shares']; ?></div>
@@ -110,13 +105,13 @@ function add_shares() {
   if( is_blog_archive() ){
     ?>
       <div class='shares-block'>
-        <div class='total-shares'>
+        <!-- <div class='total-shares'>
           <span><?php 
             //$share_obj = new Naked_Social_Share_Buttons($post);
             $shares = get_field('naked_shares_count')['shares'];
             echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
           ?></span>Shares
-        </div>
+        </div> -->
         <?php echo naked_social_share_buttons(); ?>
       </div>
     <?php
