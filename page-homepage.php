@@ -2,110 +2,115 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="top">
-  <div class="t1"></div><div class="t2"></div><div class="t3"></div><div class="t4"></div><div class="t5"></div><div class="t6"></div>
-  <div class="center-text">
-    <h1>Customer engagement made easy.</h1>
-    <h2>Customers, users, subscribers...they are all <em>people</em>.<br/>Vero helps you get to know them.</h2>
-    <ul id="blocks" class="inner list-unstyled">
+<section id="hero">
+  <div class="content">
+    <h1> <span class="emphesis emphesis-primary">Advanced Email<br></span> for <span class="emphesis emphesis-secondary">Product Companies</span></h1>
+    <p>Get your messages past all the noise.<br/>Its time to make sure you're sending the <i>right</i> message, to the <i>right</i> people, at the <i>right</i> time.</p>
+    <form class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
+      <input class="btn btn-success" type="submit" value="Start your free trial">
+    </form>
+  </div>
+  <div class="image">
+    <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero@2x.png"/>
+  </div>
+</section>
+<section id="logos" class="full-width">
+  <ul class="list-unstyled list-inline">
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/freelancer@2x.png" alt="Freelancer"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/oneill@2x.png" alt="O'Neill"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/canva@2x.png" alt="Canva"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/tidal@2x.png" alt="TIDAL"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/aboutme@2x.png" alt="about.me"></li>
+    <li><img src="/wp-content/themes/vero/assets/images/home/logos/sphero@2x.png" alt="Sphero"></li>
+  </ul>
+</section>
+<section id="features-summary">
+  <div class="inner center-text">
+    <h5 class="section-label">What is Vero?</h5>
+    <h2>Your single place to manage, test and send all your teams marketing or product emails</h2>
+    <ul class="list-unstyled list-inline feature-list">
       <li>
-        <p class="h5">1 - Record</p>
-        <p>Track behavior such as in-app engagement and pageviews.</p>
+        <img src="/wp-content/themes/vero/assets/images/home/feature-email.png"/>
+        <h3 class="feature-title">Deliver useful email experiences</h3>
+        <p class="feature-desc">Engage your customers with messages perfectly tailored to them beased on their activity in your application or on your website.</p>
+        <a href="/features/email">Learn More</a>
       </li>
       <li>
-        <p class="h5">2 – Segment</p>
-        <p>Create dynamic segments based on behavior, user attributes and custom tags.</p>
+        <img src="/wp-content/themes/vero/assets/images/home/feature-target.png"/>
+        <h3 class="feature-title">Intelligently target your customers</h3>
+        <p class="feature-desc">Capture scattered meta data in one tool, not three or more, and segment in real time, using a visual rule builder.</p>
+        <a href="/features/customers">Learn More</a>
       </li>
       <li>
-        <p class="h5">3 – Automate</p>
-        <p>Send simple, targeted messages at the right time, every time.</p>
+        <img src="/wp-content/themes/vero/assets/images/home/feature-data.png"/>
+        <h3 class="feature-title">Spend less time in the code</h3>
+        <p class="feature-desc">Track data accross any platform with Vero and empower your entire team with hassle free user insights and campaign creation.</p>
+        <a href="/features/data">Learn More</a>
       </li>
     </ul>
   </div>
-  <p class="center-text">
-    <a href="/features" class="btn btn-warning btn-large">Learn more about Vero</a> 
-    <a href="http://www.getvero.com/pricing" class="btn btn-outline btn-white btn-large">Create my free account</a>
-    </p>
-  </div>
 </section>
-<section id="trusted-by">
-  <div class="inner center-text">
-    <h4>Trusted by market-leading companies like these</h4>
-    <img src="/wp-content/themes/vero/assets/images/customers/all-grey-more.png">
-  </div>
-</section>
-<section id="features" class="center-text">
-  <div class="inner center-text">
-    <p class="h2">Things you never knew you could do <br>with email, you can do with Vero.</p>
-    <ul class="list-unstyled list-inline">
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/browser.png"/>
-        <p>Track and insert meta-data with on-site events.</p>
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/phone.png"/>
-        <p>Track what customers do in your mobile application.</p>
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/developers.png"/>
-        <p>Send transactional emails without coding.</p>
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/database.png"/>
-        <p>Customise emails with data you track in Vero, or data from your own APIs.</p>
-      </li>
-    </ul>
-    <p>
-      <a href="/features" class="btn btn-warning btn-large">Start the tour &rarr;</a>
-    </p>
-  </div>
-</section>
-<section id="stories">
-  <h2 class="center-text">See how businesses around the world use Vero to grow</h2>
-  <h3 class="center-text">We asked some of our best customers how Vero has helped their businesses make more money</h3>
-  <div class="feature-story contact-monkey">
-    <a href="http://www.getvero.com/resources
-/contactmonkey" target="_blank">
-        <p class="h3">ContactMonkey</p>
-        <p>ContactMonkey use Vero to convert their SaaS customers into engaged, paying customers fast. Read this step-by-step, detailed case study on how they do it.</p>
-        <span class="btn btn-primary">Read the full story &rarr;</span>
-      </a>
-  </div>
-  <div>
-    <div class="story wooga">
-      <a href="/case-studies/wooga">
-        <p>Learn how Wooga measure complex campaigns with ease.</p><span class="btn btn-primary">Read success story</span>
-      </a>
+<section class="features" id="features-detail">
+  <div class="feature">
+    <div class="content">
+      <h2>Email marketing meets CRM</h2>
+      <p>Every customer has a central record in Vero. All of their data is stored and organised so you can email them like the <strong>people</strong> they are.</p>
+      <a href="/features/customers">Find out more</a>
     </div>
-    <div class="story sop">
-      <a href="/case-studies/shoes-of-prey">
-        <p>Learn how Shoes of Prey send truly personalised content each and every time</p>
-        <span class="btn btn-primary">Read success story</span>
-      </a>
+    <div class="image">
+      <img src="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png"/>
     </div>
-    <div class="story bugherd">
-      <a href="/case-studies/bugherd">
-        <p>Learn how Bugherd increased their activation rates by 35%</p>
-        <span class="btn btn-primary">Read success story</span>
-      </a>
+  </div>
+  <div class="feature">
+    <div class="content">
+      <h2>Email marketing meets CRM</h2>
+      <p>Whether you are a team of one or 300, managing your campaigns is no problem. Easily run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one place.</p>
+      <a href="/features/email">Find out more</a>
+    </div>
+    <div class="image">
+      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types@2x.png"/>
     </div>
   </div>
 </section>
-<section id="reliable" class="reliable">
-  <canvas id="dots"></canvas>
-  <div class="inner center-text">
-    <p class="h2">Rock-solid Infrastructure.</h1>
-    <p class="h3">Billions of data points. Millions of emails. Awesome support.</p>
-    <p>Vero has tracked billions of customer interactions and sent millions of emails for over 350 customers around the world.</p>
-    <p>Our product-first approach is backed by fast, practical support from experienced engineers <br/>and marketers to help you deliver emails that convert.</p>
+<section id="testimonial" class="full-width">
+  <div class="inner">
+    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company2x.png">
+    <h1 class="quote">"This fit perfectly with my business and made us more money too!"</h1>
+    <h4 class="quote-name">Jaimie Jameson</h4>
+    <h5 class="quote-job-title">Marketing Manager</h5>
+  </div>
+</section>
+<section id="blocks" class="full-width">
+  <div class="support block">
+    <h3>98.5% of customers love our support 100% of the time!</h3>
+    <p><strong>24/7</strong>, mission critical, teams in in <strong>San Fransisco</strong> and <strong>Sydney</strong>. Enterprise support too.</p>
+    <div class="btn btn-outline btn-warning">View the Help Docs</div>
+  </div>
+  <div class="developers block">
+    <h3>A platform engineers can rely on</h3>
+    <p>Reliable, API-based, gets out of your way and gives you the power to work like hundreds of businesses that  track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails sent every months. libraries in Ruby, Python and more. </p>
+    <div class="btn btn-outline btn-warning">Read the API Docs</div>
+  </div>
+</section>
+<section id="twitter">
+  <div class="inner">
+    <h5 class="section-label center-text">What people are saying about Vero</h5>
+    <div class="tweet"></div>
+    <div class="tweet"></div>
+    <div class="tweet"></div>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <p class="h1">Ready to send smarter emails?</p>
-    <a href="/features" class="btn btn-warning">Learn more about Vero</a>
-    <a href="/pricing" class="btn btn-outline btn-primary">Create my free account</a>
-    <p class="small">Free trial • No credit card required</p>
+    <h1>Send your first email today</h1>
+    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
+    <p class="small">No credit card required</p>
+    <form class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
+      <input class="btn btn-success" type="submit" value="Start your free trial">
+    </form>
   </div>
 </section>
 <?php 
