@@ -8,6 +8,9 @@ function remove_cssjs_ver( $src ) {
 
 // Load various stylesheets based on environment
 function custom_load_custom_style_sheet() {
+  //register styles
+  wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700,700italic');
+
   //wp_enqueue_style( 'highlight-css', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css', NULL, PARENT_THEME_VERSION );
   wp_enqueue_style( 'highlight-css', '/wp-content/themes/vero/assets/stylesheets/tomorrow-night-bright.css', NULL, PARENT_THEME_VERSION );
 
@@ -22,6 +25,7 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
+  wp_enqueue_style( 'googlefont_merriweather');
 }
 
 // Add JS
@@ -48,6 +52,7 @@ function add_js() {
   wp_register_script('stickyway', get_stylesheet_directory_uri() . '/assets/scripts/vendor/sticky.min.js', array('jquery'), NULL, true);
   wp_register_script('inview', get_stylesheet_directory_uri() . '/assets/scripts/vendor/inview.min.js', array('jquery'), NULL, true);
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/scripts/dev_message.js', NULL, NULL, true);
+
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
