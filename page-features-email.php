@@ -13,8 +13,14 @@
 
 <section id="email-hero">
   <div class="inner center-text">
-    <h1>Write, Test and Trigger <span class="emphesis emphesis-secondary">all</span> your emails in one place</h1>
-    <img src="/wp-content/themes/vero/assets/images/home/features/email/email-hero@2x.png" width="830">
+    <h1 class="hero-title">Write, Test and Trigger <span class="emphesis emphesis-secondary">all</span> your emails in one place</h1>
+    <img class="bg1" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605">
+    <img class="bg2" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605">
+    <img class="fore"src="/wp-content/themes/vero/assets/images/home/features/email/email-hero@2x.png" width="830">
+  </div>
+</section>
+<section id="email-types">
+  <div class="inner center-text">
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/email/email-newsletters@2x.png" width="100" />
@@ -142,7 +148,7 @@
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
-    <h3 class="sub-heading">14 days free, send up to 2500 emails, no obligation</h3>
+    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
     <form class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Start your free trial">

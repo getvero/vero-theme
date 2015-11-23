@@ -11,48 +11,49 @@
   include 'pages-shared/feature-menu.php';
 ?>
 <section id="data-hero">
+  <div class="inner center-text vertical">
+    <h1 class="hero-title">An API-Driven platform built with engineers in mind</h1>
+    <p class="large">“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>
+    <img src="/wp-content/themes/vero/assets/images/home/features/data/data-code@2x.png" width="697">
+  </div>
+</section>
+<section id="data-libraries">
   <div class="inner center-text">
-    <h1>An API-Driven platform built with engineers in mind</h1>
-    <p>“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>
-    <div class="content">
-      <h4>Install on any code base</h4>
-      <p>We have libraries for almost every platform, There are even third party ones you can use. Check out our Developer Portal.</p>
-      <ul class="unstyled-list inline-list">
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png" width="82">
-          <p>Javascript</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby@2x.png" width="82">
-          <p>Ruby</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php@2x.png" width="82">
-          <p>PHP</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python@2x.png" width="82">
-          <p>Python</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs@2x.png" width="82">
-          <p>NodeJS</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple@2x.png" width="82">
-          <p>iOS</p>
-        </li>
-      </ul>
-    </div>
-    <div class="image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/data/data-code@2x.png" width="697">
-    </div>
+    <h4>Install on any code base</h4>
+    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="#">Check out our Developer Portal</a>.</p>
+    <ul id="library-list" class="unstyled-list inline-list">
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png" width="72">
+        <p>Javascript</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby@2x.png" width="72">
+        <p>Ruby</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php@2x.png" width="72">
+        <p>PHP</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python@2x.png" width="72">
+        <p>Python</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs@2x.png" width="72">
+        <p>NodeJS</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple@2x.png" width="72">
+        <p>iOS</p>
+      </li>
+    </ul>
+    <p><a href="#">All Libraries</a></p>
   </div>
 </section>
 <section id="data-integrations">
   <div class="inner center-text">
     <h2>Works with the tools you already use</h2>
-    <ul class="unstyled-list inline-list feature-list thirds">
+    <ul class="unstyled-list inline-list integrations-list feature-list thirds">
       <li class="hover-box">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
@@ -126,7 +127,7 @@
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
-    <h3 class="sub-heading">14 days free, send up to 2500 emails, no obligation</h3>
+    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
     <form class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Start your free trial">
