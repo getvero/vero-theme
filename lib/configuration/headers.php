@@ -10,7 +10,11 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <ul id="menu-marketing-navbar-left" class="menu">
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>
+    <?php if(is_page('homepage')): ?>
+    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104"></a></li>
+    <?php else: ?>
+    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104"></a></li>
+    <?php endif ?>
   </ul>
   <?php $logo = ob_get_clean();
 

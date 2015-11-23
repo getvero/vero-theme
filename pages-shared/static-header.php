@@ -21,6 +21,7 @@ function no_content_genesis_header() {
   
   <meta name="google-site-verification" content="AkIiiyFL03lKnauhmJxy0yvCx-iyt8zAvsjfzQVrakA" />
   </head>
+  
   <?php
   genesis_markup( array(
     'html5'   => '<body %s>',

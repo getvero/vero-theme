@@ -8,6 +8,7 @@
   }
   
   include 'pages-shared/static-header.php';
+  include 'pages-shared/feature-menu.php';
 ?>
 <section id="data-hero">
   <div class="inner center-text">
@@ -18,33 +19,33 @@
       <p>We have libraries for almost every platform, There are even third party ones you can use. Check out our Developer Portal.</p>
       <ul class="unstyled-list inline-list">
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png" width="82">
           <p>Javascript</p>
         </li>
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby@2x.png" width="82">
           <p>Ruby</p>
         </li>
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php@2x.png" width="82">
           <p>PHP</p>
         </li>
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python@2x.png" width="82">
           <p>Python</p>
         </li>
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs@2x.png" width="82">
           <p>NodeJS</p>
         </li>
         <li>
-          <img src="#">
+          <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple@2x.png" width="82">
           <p>iOS</p>
         </li>
       </ul>
     </div>
     <div class="image">
-      <img src="#" width="500">
+      <img src="/wp-content/themes/vero/assets/images/home/features/data/data-code@2x.png" width="697">
     </div>
   </div>
 </section>
@@ -53,27 +54,27 @@
     <h2>Works with the tools you already use</h2>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="hover-box">
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
     </ul>
@@ -91,17 +92,17 @@
     <h5 class="section-label center-text">You're in control</h5>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-events@2x.png" width="100" />
         <h4 class="feature-title">Track Any Event Big or Small</h4>
         <p class="feature-desc">Track data accross any platform with Vero and empower your entire team with hassle free user insights and campaign creation.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks@2x.png" width="100" />
         <h4 class="feature-title">Forward Your Data with Webhooks</h4>
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-csv@2x.png" width="100" />
         <h4 class="feature-title">Import historical data via CSV</h4>
         <p class="feature-desc">Hit the ground running by importing all your historical event and customer data using the CSV importer.</p>
       </li>
@@ -119,6 +120,9 @@
     </div>
   </div>
 </section>
+
+<?php include 'pages-shared/feature-menu.php'; ?>
+
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>

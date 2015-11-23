@@ -8,12 +8,13 @@
   }
   
   include 'pages-shared/static-header.php';
+  include 'pages-shared/feature-menu.php';
 ?>
 <section id="people-hero">
   <div class="inner center-text">
     <h1>Get to know your customers so you can send them useful, targeted content they’l love.</h1>
     <p>Sending useful emails can be tricky if all of your customer data is in multiple systems. Vero helps you move away from troublesome static lists by building an individual profile for each person. By gathering data as they engage with your application, you will always have an accurate and up to date profile for each of your customers.</p>
-    <img src="/wp-content/themes/vero/assets/images/home/email-hero@2x.png" width="830">
+    <img src="/wp-content/themes/vero/assets/images/home/features/people/people-hero@2x.png" width="1040">
   </div>
   <div class="inner center-text">
     <ul class="unstyled-list inline-list feature-list halfs">
@@ -51,17 +52,17 @@
     <h5 class="section-label center-text">And more...</h5>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-unlimited@2x.png" width="100" />
         <h4 class="feature-title">Unlimited Storage</h4>
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-tags@2x.png" width="100" />
         <h4 class="feature-title">Extra Control with Custom Tags</h4>
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-importexport@2x.png" width="100" />
         <h4 class="feature-title">Import and Export Your Data</h4>
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
@@ -79,6 +80,9 @@
     </div>
   </div>
 </section>
+
+<?php include 'pages-shared/feature-menu.php'; ?>
+
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>

@@ -57,8 +57,8 @@
     </ul>
   </div>
 </section>
-<section class="features" id="features-detail">
-  <div id="feature-crm" class="inner">
+<section class="feature light-section" id="feature-crm">
+  <div class="inner">
     <div class="image">
       <img src="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png" width="471"/>
     </div>
@@ -68,7 +68,9 @@
       <a href="/features/customers">Find out more</a>
     </div>
   </div>
-  <div id="feature-email-types" class="inner">
+</section>
+<section class="feature" id="feature-email-types">
+  <div class="inner">
     <div class="content">
       <h2 class="content-title">No-limit emails for the whole team</h2>
       <p>Whether you are a team of one or 300, managing your campaigns is no problem. Easily run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one place.</p>

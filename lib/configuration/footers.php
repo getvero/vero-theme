@@ -22,23 +22,17 @@ function custom_footer_html_with_wrap() {
 function custom_footer_html() {
   ?>
   <ul class="col">
-    <li class="header">Features</li>
-    <li><a href="https://www.getvero.com/features">Start the tour &rarr;</a></li>
-    <li><a href="https://www.getvero.com/triggered-emails">Triggered emails</a></li>
-    <li><a href="https://www.getvero.com/smart-newsletters">Smart newsletters</a></li>
-    <li><a href="https://www.getvero.com/individual-contact-profiles">Individual contact profiles (CRM)</a></li>
-    <li><a href="https://www.getvero.com/external-attributes">External Attributes</a></li>
+    <li id="logo"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104"></a></li>
   </ul>
   <ul class="col">
-    <li class="header">Resources</li>
+    <li class="header">Product</li>
     <li><a href="https://www.getvero.com/pricing">Pricing</a></li>
     <li><a href="http://help.getvero.com">Help Documentation</a></li>
     <li><a href="https://www.getvero.com/api">API Reference</a></li>
-    <li><a href="https://www.getvero.com/resources
-" target="_blank">Blog</a></li>
+    <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
   </ul>
   <ul class="col">
-    <li class="header">Company</li>
+    <li class="header">Resources</li>
     <!--<li>About</li>-->
     <li><a href="https://www.getvero.com/jobs">Jobs</a></li>
     <li><a href="http://status.getvero.com">Status</a></li>
