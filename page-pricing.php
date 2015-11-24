@@ -10,96 +10,115 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<div class="inner">
-  <section id="top">
-    <h1 class="center-text">Communicate better and grow your business.</h1>
-    <h2 class="center-text">Join 300+ other businesses that send smarter emails and increase engagement.</h2>
-  </section>
-  <section id="pricing">
-    <ul class="list-inline list-unstyled">
-      <li class="well light">
-        <h5 class="light">Light</h5>
-        <p class="price">$99<span>/month</span></p>
-        <ul class="limits list-unstyled">
-          <li>25,000 subscribers</li>
-          <li>75,000 emails</li>
+<section id="pricing-hero">
+  <div class="inner center-text">
+    <h1 class="hero-title">Simple pricing, no matter how many emails you send</h1>
+    <p class="medium">14 day trial, no strings attached, just great emails!</p>
+    <ul class="plan-tabs unstyled-list inline-list">
+      <li class="active">Monthly</li>
+      <li>Annually</li>
+    </ul>
+    <ul class="inline-list unstyled-list center-text plans-list">
+      <li class="plan starter">
+        <h5 class="section-label center-text">Starter</h5>
+        <p class="price">$99</p>
+        <p class="price-label small">per month</p>
+        <ul class="limits unstyled-list">
+          <li>25,000 <span>customers</span></li>
+          <li>75,000 <span>emails/month</span></li>
         </ul>
-        <ul class="list-unstyled">
-          <li>Email support</li>
-          <li>&nbsp;</li>
-          <li>&nbsp;</li>
-          <li>&nbsp;</li>
-        </ul>
-        <p>
-          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
-        </p>
       </li>
-      <li class="well growth">
-        <div class="recommended">Recommended</div>
-        <h5 class="growth">Growth</h5>
-        <p class="price">$299<span>/month</span></p>
-        <ul class="limits list-unstyled">
-          <li>100,000 subscribers</li>
-          <li>250,000 emails</li>
+      <li class="plan growth">
+        <h5 class="section-label center-text">Growth</h5>
+        <p class="price">$299</p>
+        <p class="price-label small">per month</p>
+        <ul class="limits unstyled-list">
+          <li class="most-popular">Most Popular</li>
+          <li>100,000 <span>customers</span></li>
+          <li>250,000 <span>emails/month</span></li>
         </ul>
-        <ul class="list-unstyled">
-          <li>A/B testing</li>
-          <li>Email support</li>
-          <li>Unlimited environments</li>
-          <li>&nbsp;</li>
-        </ul>
-        <p>
-          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
-        </p>
       </li>
-      <li class="well pro">
-        <h5 class="pro">PRO</h5>
-        <p class="price">$549<span>/month</span></p>
-        <ul class="limits list-unstyled">
-          <li>200,000 subscribers</li>
-          <li>500,000 emails</li>
+      <li class="plan pro">
+        <h5 class="section-label center-text">Pro</h5>
+        <p class="price">$599</p>
+        <p class="price-label small">per month</p>
+        <ul class="limits unstyled-list">
+          <li>200,000 <span>customers</span></li>
+          <li>500,000 <span>emails/month</span></li>
         </ul>
-        <ul class="list-unstyled">
-          <li>A/B testing</li>
-          <li>Email support</li>
-          <li>Unlimited environments</li>
-          <li>Phone support</li>
-        </ul>
-        <p>
-          <a href="https://app.getvero.com/signup" class="btn btn-primary">Start for free</a>
-        </p>
       </li>
-      <li class="well enterprise">
-        <h5>Enterprise</h5>
-        <p class="price">$1,049+<span>/month</span></p>
-        <ul class="limits list-unstyled">
-          <li>Unlimited subscribers</li>
-          <li>Unlimited emails</li>
+      <li class="plan starter">
+        <h5 class="section-label center-text">Enterprise</h5>
+        <p class="price">$1,049+</p>
+        <p class="price-label small">per month</p>
+        <ul class="limits unstyled-list">
+          <li>Unlimited <span>customers</span></li>
+          <li>Unlimited <span>emails/month</span></li>
+          <li class="demo-link">Request a Demo</li>
         </ul>
-        <ul class="list-unstyled">
-          <li>A/B testing</li>
-          <li>Unlimited environments</li>
-          <li>Success Manager</li>
-          <li><em>External Attributes</em> access</li>
-        </ul>
-        <p>
-          <a href="/email-marketing-demo" class="btn btn-primary">Get a demo</a>
-        </p>
       </li>
-  </section>
-
-  <!--<section id="annual">
-    <p><strong>Go annual</strong> and get two months free. Our annual plans include a two month (or 15%) discount.</p>
-  </section>-->
-  
-  <section id="trusted-by">
-    <div class="inner center-text">
-      <h4>Trusted by market-leading companies like these</h4>
-      <img src="/wp-content/themes/vero/assets/images/customers/all-grey-more.png">
+    </ul>
+    <div class="pricing-cta center-text">
+      <div class="btn btn-success btn-large">Start your 14 day free trail</div>
+      <p class="small">No credit card required,  send up to 2500 emails</p>
     </div>
-  </section>
-
-  <section id="faq">
+  </div>
+</section>
+<section id="pricing-included">
+  <div class="inner center-text">
+    <h5 class="section-label">Included with every plan</h5>
+    <ul class="unstyled-list inline-list">
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png" width="46">
+        <p>All the Vero <a href="#">Features</a></p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png" width="46">
+        <p>World Class Support</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png" width="46">
+        <p>Unlimited Projects</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="pricing-validation">
+  <div class="full-width halfs">
+    <div class="left">
+      <span class="quotemark quote">&ldquo;</span>
+      <blockquote class="quote">This fit perfectly with my business and made us more money too!</blockquote>
+      <img class="quote-image" src="#">
+      <p class="quote-name">Awesome Customer</p>
+      <p class="quote-company">Name of Company</p> 
+    </div>
+    <div class="right">
+      <ul class="unstyled-list inline-list pricing-logos">
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png" width="118">
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer@2x.png" width="118">
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint@2x.png" width="118">
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero@2x.png" width="118">
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill@2x.png" width="118">
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa@2x.png" width="118">
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="pricing-faq">
+  <div class="inner halfs">
+    <h2 class="center-text">Frequently Asked Questions</h2>
     <div class="left">
       <h3>What are projects?</h3>
       <p>
@@ -145,8 +164,19 @@ include 'pages-shared/static-header.php';
         We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week. If you think we’ve done a great job, or if we could do better next time, please email us an let us know.
       </p>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+<section id="call-to-action" class="center-text">
+  <div class="inner center-text">
+    <h1 class="cta-title">Send your first email today</h1>
+    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
+    <form class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
+      <input class="btn btn-success" type="submit" value="Start your free trial">
+    </form>
+    <p class="small">No credit card required</p>
+  </div>
+</section>
 <?php 
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
