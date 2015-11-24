@@ -54,7 +54,7 @@ include 'pages-shared/static-header.php';
         <ul class="limits unstyled-list">
           <li>Unlimited <span>customers</span></li>
           <li>Unlimited <span>emails/month</span></li>
-          <li class="demo-link">Request a Demo</li>
+          <li class="demo-link"><a href="#">Request a Demo</a></li>
         </ul>
       </li>
     </ul>
@@ -84,36 +84,31 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-validation">
-  <div class="full-width halfs">
-    <div class="left">
-      <span class="quotemark quote">&ldquo;</span>
-      <blockquote class="quote">This fit perfectly with my business and made us more money too!</blockquote>
-      <img class="quote-image" src="#">
-      <p class="quote-name">Awesome Customer</p>
-      <p class="quote-company">Name of Company</p> 
-    </div>
-    <div class="right">
-      <ul class="unstyled-list inline-list pricing-logos">
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png" width="118">
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer@2x.png" width="118">
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint@2x.png" width="118">
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero@2x.png" width="118">
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill@2x.png" width="118">
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa@2x.png" width="118">
-        </li>
-      </ul>
-    </div>
+  <div class="inner center-text">
+    <img class="quote-image" src="#">
+    <blockquote class="quote">This fit perfectly with my business and made us more money too!</blockquote>
+    <p class="large">Awesome Customer</p>
+    <p>Name of Company</p>
+    <ul class="unstyled-list inline-list pricing-logos center-text">
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png" width="118">
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer@2x.png" width="118">
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint@2x.png" width="118">
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero@2x.png" width="118">
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill@2x.png" width="118">
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa@2x.png" width="118">
+      </li>
+    </ul>
   </div>
 </section>
 <section id="pricing-faq">
