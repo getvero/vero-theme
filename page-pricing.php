@@ -4,13 +4,13 @@ add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
-  $classes[] = 'pricing old-pricing';
+  $classes[] = 'pricing';
   return $classes;  
 }
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="pricing-hero">
+<section id="pricing-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">Simple pricing, no matter how many emails you send</h1>
     <p class="medium">14 day trial, no strings attached, just great emails!</p>

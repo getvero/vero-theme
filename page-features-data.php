@@ -3,14 +3,14 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'features';
+    $classes[] = 'features feature-data';
     return $classes;  
   }
   
   include 'pages-shared/static-header.php';
   include 'pages-shared/feature-menu.php';
 ?>
-<section id="data-hero">
+<section id="data-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">An API-Driven platform built with engineers in mind</h1>
     <p class="large">“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>

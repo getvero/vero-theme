@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'features';
+    $classes[] = 'features feature-email';
     return $classes;  
   }
   
@@ -11,7 +11,7 @@
   include 'pages-shared/feature-menu.php';
 ?>
 
-<section id="email-hero">
+<section id="email-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">Write, Test and Trigger <span class="emphesis emphesis-secondary">all</span> your emails in one place</h1>
     <img class="bg1" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605">

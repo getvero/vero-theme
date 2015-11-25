@@ -2,7 +2,12 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="hero">
+<section id="hero" class="hero ocean">
+  <?php 
+  do_action( 'genesis_before_header' );
+  do_action( 'genesis_header' );
+  do_action( 'genesis_after_header' );
+?>
   <div class="inner clean-padding">
     <div class="content">
       <h1>The <span class="emphesis emphesis-primary">Email Platform</span> for <br><span class="emphesis emphesis-secondary">B2C Businesses</span></h1>
@@ -22,12 +27,13 @@
   <div class="inner clean-padding full-width">
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/freelancer@2x.png" alt="Freelancer"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/oneill@2x.png" alt="O'Neill"></li>
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/canva@2x.png" alt="Canva"></li>
-      <li class="logo tidal"><img src="/wp-content/themes/vero/assets/images/home/logos/tidal@2x.png" alt="TIDAL"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/aboutme@2x.png" alt="about.me"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/sphero@2x.png" alt="Sphero"></li>
+      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/freelancer@2x.png" alt="Freelancer" width="130"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/oneill@2x.png" alt="O'Neill" width="130"></li>
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/canva@2x.png" alt="Canva" width="130"></li>
+      <li class="logo tidal"><img src="/wp-content/themes/vero/assets/images/home/logos/tidal@2x.png" alt="TIDAL" width="130"></li>
+      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/aboutme@2x.png" alt="about.me" width="130"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/sphero@2x.png" alt="Sphero" width="130"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/sitepoint@2x.png" alt="Sitepoint" width="130"></li>
     </ul>
   </div>
 </section>
@@ -35,7 +41,7 @@
   <div class="inner center-text">
     <h5 class="section-label">What is Vero?</h5>
     <h2>Your single place to manage, test and send all your teams marketing or product emails</h2>
-    <ul class="unstyled-list inline-list feature-list thirds">
+    <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
         <div class="list-inner">
           <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
@@ -115,13 +121,13 @@
   <div class="inner">
       <h5 class="section-label center-text">What people are saying about Vero</h5>
       <div class="tweet">
-        <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Looking for a new <a href="https://twitter.com/hashtag/email?src=hash">#email</a> client? <a href="https://twitter.com/getvero">@getvero</a> is the bees knees. Co-founder <a href="https://twitter.com/chexton">@chexton</a> delivers a new standard for quality and customer service.</p>&mdash; Paris Rouzati (@parisrouz) <a href="https://twitter.com/parisrouz/status/593558485087846400">April 29, 2015</a></blockquote>
+        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Looking for a new <a href="https://twitter.com/hashtag/email?src=hash">#email</a> client? <a href="https://twitter.com/getvero">@getvero</a> is the bees knees. Co-founder <a href="https://twitter.com/chexton">@chexton</a> delivers a new standard for quality and customer service.</p>&mdash; Paris Rouzati (@parisrouz) <a href="https://twitter.com/parisrouz/status/593558485087846400">April 29, 2015</a></blockquote>
       </div>
       <div class="tweet">
-        <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
+        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
       </div>
       <div class="tweet">
-        <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Just sent an email to the <a href="https://twitter.com/getvero">@getvero</a> team that started with &quot;omg&quot; and ended with &quot;thank you thank you thank you&quot;. They are my favourite.</p>&mdash; Ophelie Lechat (@OphelieLechat) <a href="https://twitter.com/OphelieLechat/status/646560855128080384">September 23, 2015</a></blockquote>
+        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Just sent an email to the <a href="https://twitter.com/getvero">@getvero</a> team that started with &quot;omg&quot; and ended with &quot;thank you thank you thank you&quot;. They are my favourite.</p>&mdash; Ophelie Lechat (@OphelieLechat) <a href="https://twitter.com/OphelieLechat/status/646560855128080384">September 23, 2015</a></blockquote>
       </div>
   </div>
 </section>
