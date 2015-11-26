@@ -71,13 +71,13 @@
 </section>
 <section class="feature light-section" id="feature-crm">
   <div class="inner">
-    <div class="image">
-      <img src="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png" width="471"/>
-    </div>
     <div class="content">
       <h2>Email marketing meets CRM</h2>
       <p>Every customer has a central record in Vero. All of their data is stored and organised so you treat everyone like the <strong>real people</strong> they are.</p>
       <a href="/features/customers">Find out more</a>
+    </div>
+    <div class="image">
+      <img src="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png" width="471"/>
     </div>
   </div>
 </section>

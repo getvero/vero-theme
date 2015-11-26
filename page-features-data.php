@@ -54,27 +54,27 @@
   <div class="inner center-text">
     <h2>Works with the tools you already use</h2>
     <ul class="unstyled-list inline-list integrations-list feature-list thirds">
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li class="hover-box">
+      <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
