@@ -10,7 +10,7 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="pricing-hero" class="hero">
+<section id="pricing-hero" class="hero light-section">
   <div class="inner center-text">
     <h1 class="hero-title">Simple pricing, no matter how many emails you send</h1>
     <p class="medium">14 day trial, no strings attached, just great emails!</p>

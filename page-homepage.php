@@ -2,23 +2,23 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="hero" class="hero ocean">
+<section id="hero" class="hero">
   <?php 
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
   <div class="inner clean-padding">
-    <div class="content">
-      <h1>The <span class="emphesis emphesis-primary">Email Platform</span> for <br><span class="emphesis emphesis-secondary">B2C Businesses</span></h1>
-      <p>Get your messages past all the noise.<br/>Its time to make sure you're sending the <strong>right</strong> message, to the <strong>right</strong> people, at the <strong>right</strong> time.</p>
-      <form class="horizontal-signup-form">
+    <div class="content center-text">
+      <h1>The <span class="emphesis emphesis-primary">Email Platform</span> for <span class="emphesis emphesis-secondary"> smart B2C Businesses</span></h1>
+<!--       <p>Get your messages past all the noise. Its time to make sure you're sending the <strong>right</strong> message, to the <strong>right</strong> people, at the <strong>right</strong> time.</p>
+ -->     <form class="horizontal-signup-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success" type="submit" value="Start your free trial">
       </form>
       <p class="small">No credit card required</p>
     </div>
-    <div class="image">
+    <div class="image center-text">
       <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero@2x.png"/>
     </div>
   </div>
@@ -27,13 +27,13 @@
   <div class="inner clean-padding full-width">
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/freelancer@2x.png" alt="Freelancer" width="130"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/oneill@2x.png" alt="O'Neill" width="130"></li>
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/canva@2x.png" alt="Canva" width="130"></li>
-      <li class="logo tidal"><img src="/wp-content/themes/vero/assets/images/home/logos/tidal@2x.png" alt="TIDAL" width="130"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/aboutme@2x.png" alt="about.me" width="130"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/sphero@2x.png" alt="Sphero" width="130"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/sitepoint@2x.png" alt="Sitepoint" width="130"></li>
+      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-freelancer@2x.png" alt="Freelancer" width="130"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-oneill@2x.png" alt="O'Neill" width="130"></li>
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-canva@2x.png" alt="Canva" width="130"></li>
+      <li class="logo tidal"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-tidal@2x.png" alt="TIDAL" width="130"></li>
+      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-aboutme@2x.png" alt="about.me" width="130"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-sphero@2x.png" alt="Sphero" width="130"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-sitepoint@2x.png" alt="Sitepoint" width="130"></li>
     </ul>
   </div>
 </section>

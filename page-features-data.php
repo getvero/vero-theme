@@ -54,27 +54,27 @@
   <div class="inner center-text">
     <h2>Works with the tools you already use</h2>
     <ul class="unstyled-list inline-list integrations-list feature-list thirds">
-      <li>
+      <li class="zapier">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li>
+      <li class="segment">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li>
+      <li class="ga">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li>
+      <li class="mailgun">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li>
+      <li class="sendgrid">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
-      <li>
+      <li class="mandrill">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill@2x.png" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
@@ -85,10 +85,10 @@
   <div class="inner center-text">
     <h2>See every single tracked event or activity, live</h1>
     <p>With logs, you get a running commentary of every user event, email sent, delivery or segment change, so you can see every customer interaction from their perpective.</p>
-    <img src="#">
+    <img src="/wp-content/themes/vero/assets/images/home/features/data/data-logs@2x.png" width="1028">
   </div>
 </section>
-<section id="data-features">
+<section id="data-features" class="top-border-light">
   <div class="inner center-text">
     <h5 class="section-label center-text">You're in control</h5>
     <ul class="unstyled-list inline-list feature-list thirds">
