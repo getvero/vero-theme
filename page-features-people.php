@@ -72,13 +72,16 @@
   </div>
 </section>
 <section id="people-case-study" class="case-study">
-  <div class="inner full-width">
+  <div class="inner">
     <div class="case-study-box">
-      <img src="/wp-content/themes/vero/assets/images/home/case-study-tidal-logo@2x.png" width="100" class="case-study-logo">
+      <h5 class="section-label">Customer Profile</h5>
       <h2 class="case-study-name">Some Guy</h2>
       <h3 class="case-study-job-title">Marketing Manager</h3>
       <p class="case-study-desc">BeenVerified store onsite activity, email interactions and backend user data in Vero so that everyone on their team can use it at any time.</p>
-      <a href="#" title="Read more about how BeenVerified uses Vero">Read more about how BeenVerified uses Vero</a>
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png" width="234" class="case-study-logo">
+    </div>
+    <div class="case-study-image">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo@2x.png">
     </div>
   </div>
 </section>

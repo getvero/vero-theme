@@ -44,7 +44,7 @@
     <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-email2@2x.png" width="180" />
+          <img src="/wp-content/themes/vero/assets/images/home/feature-email@2x.png" width="180" />
           <h4 class="feature-title">Deliver useful email experiences</h4>
           <p class="feature-desc">Engage your customers with messages perfectly tailored to them beased on their activity in your application or on your website.</p>
           <a href="/features/email">Learn More</a>
@@ -52,7 +52,7 @@
       </li>
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-target2@2x.png" width="180"/>
+          <img src="/wp-content/themes/vero/assets/images/home/feature-target@2x.png" width="180"/>
           <h4 class="feature-title">Intelligently target your customers</h4>
           <p class="feature-desc">Capture scattered meta data in one tool, not three or more, and segment in real time, using a visual rule builder.</p>
           <a href="/features/customers">Learn More</a>
@@ -60,7 +60,7 @@
       </li>
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-data2@2x.png" width="180"/>
+          <img src="/wp-content/themes/vero/assets/images/home/feature-data@2x.png" width="180"/>
           <h4 class="feature-title">Spend less time in the code</h4>
           <p class="feature-desc">Track data accross any platform with Vero and empower your entire team with hassle free user insights and campaign creation.</p>
           <a href="/features/data">Learn More</a>
