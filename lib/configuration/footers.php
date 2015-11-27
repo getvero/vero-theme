@@ -28,7 +28,7 @@ function custom_footer_html() {
     <li class="header">Product</li>
     <li><a href="/features">Features</a></li>
     <li><a href="http://help.getvero.com">Help &amp; Support</a></li>
-    <li><a href="/pricing">API Reference</a></li>
+    <li><a href="/pricing">Pricing</a></li>
     <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
     <li><a href="https://app.getvero.com/signup" target="_blank">Signup</a></li>
     <li><a href="https://app.getvero.com/" target="_blank">Login</a></li>
@@ -39,12 +39,11 @@ function custom_footer_html() {
     <li><a href="https://www.getvero.com/api">API Reference</a></li>
     <li><a href="http://www.getvero.com/changelog">Changelog</a></li>
     <li><a href="https://www.getvero.com/jobs">Jobs</a></li>
-    <li><a href="https://www.getvero.com/email-marketing-demo/">Request a Demo</a></li>
+    <li><a href="http://status.getvero.com/">Status</a></li>
   </ul>
   <ul class="col">
     <li class="header">Company</li>
     <li><a href="mailto:support@getvero.com">Email Support</a></li>
-    <li><a href="http://status.getvero.com/">Status</a></li>
     <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
     <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
     <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>

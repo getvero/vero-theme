@@ -10,13 +10,13 @@
 ?>
   <div class="inner clean-padding">
     <div class="content center-text">
-      <h1>The <span class="emphesis emphesis-primary">Email Platform</span> for <span class="emphesis emphesis-secondary"> smart B2C Businesses</span></h1>
-<!--       <p>Get your messages past all the noise. Its time to make sure you're sending the <strong>right</strong> message, to the <strong>right</strong> people, at the <strong>right</strong> time.</p>
- -->     <form class="horizontal-signup-form">
+      <h1>The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern, online businesses</span></h1>
+      <p>It's not 2004. Automated workflows, a real time API for tracking and segmentation using all of your data.</p>
+     <form class="horizontal-signup-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success" type="submit" value="Start your free trial">
+        <input class="btn btn-success" type="submit" value="Create your account">
       </form>
-      <p class="small">No credit card required</p>
+      <p class="small">No credit card required, only pay when you start sending live emails.</p>
     </div>
     <div class="image center-text">
       <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero@2x.png"/>
@@ -40,13 +40,13 @@
 <section id="features-summary">
   <div class="inner center-text">
     <h5 class="section-label">What is Vero?</h5>
-    <h2>Your single place to manage, test and send all your teams marketing or product emails</h2>
+    <h2>A single place to create, test and send all of your teams' product and marketing emails</h2>
     <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
         <div class="list-inner">
           <img src="/wp-content/themes/vero/assets/images/home/feature-email@2x.png" width="180" />
           <h4 class="feature-title">Deliver useful email experiences</h4>
-          <p class="feature-desc">Engage your customers with messages perfectly tailored to them beased on their activity in your application or on your website.</p>
+          <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
           <a href="/features/email">Learn More</a>
         </div>
       </li>
@@ -54,7 +54,7 @@
         <div class="list-inner">
           <img src="/wp-content/themes/vero/assets/images/home/feature-target@2x.png" width="180"/>
           <h4 class="feature-title">Intelligently target your customers</h4>
-          <p class="feature-desc">Capture scattered meta data in one tool, not three or more, and segment in real time, using a visual rule builder.</p>
+          <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
           <a href="/features/customers">Learn More</a>
         </div>
       </li>
@@ -62,7 +62,7 @@
         <div class="list-inner">
           <img src="/wp-content/themes/vero/assets/images/home/feature-data@2x.png" width="180"/>
           <h4 class="feature-title">Spend less time in the code</h4>
-          <p class="feature-desc">Track data accross any platform with Vero and empower your entire team with hassle free user insights and campaign creation.</p>
+          <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
           <a href="/features/data">Learn More</a>
         </div>
       </li>
@@ -72,8 +72,8 @@
 <section class="feature light-section" id="feature-crm">
   <div class="inner">
     <div class="content">
-      <h2>Email marketing meets CRM</h2>
-      <p>Every customer has a central record in Vero. All of their data is stored and organised so you treat everyone like the <strong>real people</strong> they are.</p>
+      <h2>Email meets CRM</h2>
+      <p>Bye, bye lists. Every customer has a central, single record in Vero. All of their data is stored and organised to help you treat every user like the <strong>real person</strong> they are.</p>
       <a href="/features/customers">Find out more</a>
     </div>
     <div class="image">
@@ -84,8 +84,8 @@
 <section class="feature" id="feature-email-types">
   <div class="inner">
     <div class="content">
-      <h2>No-limit emails for the whole team</h2>
-      <p>Whether you are a team of one or 300, managing your campaigns is no problem. Easily run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one place.</p>
+      <h2>Email for the whole team</h2>
+      <p>Whether you are a team of one or 100, managing your product and marketing campaigns is made easier with Vero. Run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one, single UI and benefit from shared data, knowledge and collaboration.</p>
       <a href="/features/email">Find out more</a>
     </div>
     <div class="image">
@@ -104,15 +104,15 @@
 <section id="blocks">
   <div class="support block center-text">
     <div class="inner-block">
-      <h3 class="block-title">98.5% of customers love our support 100% of the time!</h3>
-      <p class="block-desc"><strong>24/7</strong>, mission critical, teams in in <strong>San Fransisco</strong> and <strong>Sydney</strong>. Enterprise support too.</p>
+      <h3 class="block-title">98.5% of the time, our customers love our support every time!</h3>
+      <p class="block-desc">Email is mission critical. With team members spread around the world, Vero offers fast, reliable support <strong>24/7</strong> – we're real humans.</p>
       <div class="btn btn-outline btn-warning">View the Help Docs</div>
     </div>
   </div>
   <div class="developers block center-text">
     <div class="inner-block">
       <h3 class="block-title">A platform engineers can rely on</h3>
-      <p class="block-desc">Reliable, API-based, gets out of your way and gives you the power to work like hundreds of businesses that  track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails sent every months. libraries in Ruby, Python and more. </p>
+      <p class="block-desc">Realiable and built around an API, Vero gets out of your way and gives you the power to work like the hundreds of other businesses that track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails every month with Vero. Libraries in Ruby, Python and more. </p>
       <div class="btn btn-primary btn-outline">Read the API Docs</div>
     </div>
   </div>
@@ -134,10 +134,10 @@
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <h1 class="cta-title">Send your first email today</h1>
-    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
+    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
     <form class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Start your free trial">
+      <input class="btn btn-success" type="submit" value="Create your account">
     </form>
     <p class="small">No credit card required</p>
   </div>
