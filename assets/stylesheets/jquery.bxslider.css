@@ -22,8 +22,9 @@
 }
 
 .bx-wrapper img {
-	max-width: 100%;
-	display: block;
+	width: 94%;
+	display: inline-block;
+	max-width: 640px;
 }
 
 /** THEME
