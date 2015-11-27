@@ -204,4 +204,18 @@
     }).setTween(dataScroll).addTo(controller);
   };
 
+
+
 }).call(this);
+
+
+jQuery(document).ready(function(){
+  jQuery('.bxslider').bxSlider({
+    mode: 'fade',
+    adaptiveHeight: true,
+    responsive: true,
+    infiniteLoop: false,
+    hideControlOnEnd: true,
+    pager: false
+  });
+});

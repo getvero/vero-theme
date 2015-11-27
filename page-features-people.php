@@ -13,7 +13,7 @@
 <section id="people-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">Get to know your customers so you can send them useful, targeted content they’l love.</h1>
-    <img src="/wp-content/themes/vero/assets/images/home/features/people/people-hero@2x.png" width="900">
+    <img src="/wp-content/themes/vero/assets/images/home/features/people/people-hero@2x.png">
   </div>
 </section>
 <section id="people-summary">
@@ -42,7 +42,7 @@
         <li>Users in America</li>
       </ul>
     </div>
-    <div class="image">
+    <div class="image bxslider">
       <img id="condition-image-1" src="#" width="500">
       <img id="condition-image-1" src="#" width="500">
       <img id="condition-image-1" src="#" width="500">
