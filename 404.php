@@ -1,7 +1,22 @@
 <?php
-  add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-?>
+  add_filter( 'body_class', 'add_class' );
+  function add_class($classes) {
+    global $post;
 
-<h1>404</h1>
-<p>Email Marketing Blog Homepage.</p>
-<p>Written by the team behind Vero, providers of really good messaging.</p>
+    $classes[] = '404 page';
+    return $classes;  
+  }
+  
+  include 'pages-shared/static-header.php';
+?>
+<section id="fourohfour" class="hero">
+  <div class="inner center-text">
+    <img src="/wp-content/themes/vero/assets/images/home/404/404@2x.png" width="340">
+    <h1 class="hero-title">Uh oh! You got stung!</h1>
+    <p>If you’re looking for email marketing that doesn’t hurt… check out the <a href="http://www.getvero.com">homepage</a></p>
+  </div>
+</section>
+
+<?php 
+  no_content_genesis_footer();
+?>

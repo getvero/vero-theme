@@ -16,7 +16,7 @@
     <h1 class="hero-title">Write, test and trigger <span class="emphesis emphesis-secondary">all</span> your emails in one place</h1>
 <!--     <img class="bg1" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605">
     <img class="bg2" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605"> -->
-    <img class="fore"src="/wp-content/themes/vero/assets/images/home/features/email/email-hero@2x.png" width="830">
+    <img class="fore"src="/wp-content/themes/vero/assets/images/home/features/email/email-hero@2x.png">
   </div>
 </section>
 <section id="email-types">
@@ -44,32 +44,13 @@
   <div class="inner center-text">
     <h2>Visually configure when to trigger your campaigns</h2>
     <p>Stop email fatigue by targeting customers using detailed conditions including useful frequency filters. Deliver relevant emails to your customers and make sure they don’t get overlapping emails or more emails than you want.</p>
-    <div class="content">
-      <ul class="unstyled-list">
-        <li>
-          <h5>Onboarding Welcome Email</h5>
-          <p>Welcome your users after they've signed up</p>
-        </li>
-        <li>
-          <h5>Onboarding Welcome Email</h5>
-          <p>Welcome your users after they've signed up</p>
-        </li>
-        <li>
-          <h5>Onboarding Welcome Email</h5>
-          <p>Welcome your users after they've signed up</p>
-        </li>
-        <li>
-          <h5>Onboarding Welcome Email</h5>
-          <p>Welcome your users after they've signed up</p>
-        </li>
-      </ul>
-    </div>
-    <div class="image">
-      <img id="condition-image-1" src="#" width="500">
-      <img id="condition-image-1" src="#" width="500">
-      <img id="condition-image-1" src="#" width="500">
-      <img id="condition-image-1" src="#" width="500">
-    </div>
+    
+    <ul class="image bxslider">
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-welcome@2x.png"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-order@2x.png"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-special@2x.png"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-weekly@2x.png"></li>
+    </ul>
   </div>
 </section>
 <section id="email-templates" class="dark-box">

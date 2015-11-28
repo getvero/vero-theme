@@ -42,7 +42,7 @@
         <li>Users in America</li>
       </ul>
     </div>
-    <div class="image">
+    <div class="image bxslider">
       <img id="condition-image-1" src="#" width="500">
       <img id="condition-image-1" src="#" width="500">
       <img id="condition-image-1" src="#" width="500">
