@@ -118,7 +118,7 @@
       <h5 class="section-label">Customer Profile</h5>
       <h2 class="case-study-name">Daniel Black</h2>
       <h3 class="case-study-job-title">Marketing Manager</h3>
-      <p class="case-study-desc">BeenVerified store onsite activity, email interactions and backend user data in Vero so that everyone on their team can use it at any time.</p>
+      <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
       <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png" width="234" class="case-study-logo">
     </div>
     <div class="case-study-image">
