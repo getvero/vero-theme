@@ -77,11 +77,11 @@
       <h5 class="section-label">Customer Profile</h5>
       <h2 class="case-study-name">Michał Pękała</h2>
       <h3 class="case-study-job-title">VP Growth</h3>
-      <p class="case-study-desc">"Vero helps us keep the customer data we want to use to personalize our emails in one place – organised and collaborative.  From custom newsletters to transactional emails, Vero continually helps us do more."</p>
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png" width="234" class="case-study-logo">
+      <p class="case-study-desc">"Vero help us speak to 7 million DocPlanner users more personally - referring to their experience and interests. And it makes us sure we don't spam them."</p>
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/docplanner-logo@2x.png" width="234" class="case-study-logo">
     </div>
     <div class="case-study-image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo@2x.png">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/docplanner-photo@2x.png">
     </div>
   </div>
 </section>
