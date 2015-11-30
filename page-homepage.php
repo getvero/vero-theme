@@ -10,7 +10,7 @@
 ?>
   <div class="inner clean-padding">
     <div class="content center-text">
-      <h1>The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern, online businesses</span></h1>
+      <h1 class="home-hero">The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern, online businesses</span></h1>
       <p>It's not 2004. Automated workflows, a real time API for tracking and segmentation using all of your data.</p>
      <form class="horizontal-signup-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
@@ -19,7 +19,7 @@
       <p class="small">No credit card required, only pay when you start sending live emails.</p>
     </div>
     <div class="image center-text">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero@2x.png"/>
+      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero.png"/>
     </div>
   </div>
 </section>
@@ -27,13 +27,13 @@
   <div class="inner clean-padding full-width">
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-freelancer@2x.png" alt="Freelancer" width="130"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-oneill@2x.png" alt="O'Neill" width="130"></li>
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-canva@2x.png" alt="Canva" width="130"></li>
-      <li class="logo tidal"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-tidal@2x.png" alt="TIDAL" width="130"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-aboutme@2x.png" alt="about.me" width="130"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-sphero@2x.png" alt="Sphero" width="130"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/pricing-sitepoint@2x.png" alt="Sitepoint" width="130"></li>
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" alt="Canva" height="76"></li>
+      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/home-freelancer.png" alt="Freelancer" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint.png" alt="Sitepoint" height="76"></li>
+      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-alexa.png" alt="Alexa" height="76"></li>
+      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" alt="about.me" height="76"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" alt="O'Neill" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" alt="Sphero" height="76"></li> 
     </ul>
   </div>
 </section>
@@ -44,7 +44,7 @@
     <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-email@2x.png" width="180" />
+          <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" width="180" />
           <h4 class="feature-title">Deliver useful email experiences</h4>
           <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
           <a href="/features-email">Learn More</a>
@@ -52,7 +52,7 @@
       </li>
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-target@2x.png" width="180"/>
+          <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" width="180"/>
           <h4 class="feature-title">Intelligently target your customers</h4>
           <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
           <a href="/features-people">Learn More</a>
@@ -60,7 +60,7 @@
       </li>
       <li class="hover-box">
         <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-data@2x.png" width="180"/>
+          <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" width="180"/>
           <h4 class="feature-title">Spend less time in the code</h4>
           <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
           <a href="/features-data">Learn More</a>
@@ -77,7 +77,7 @@
       <a href="/features/customers">Find out more</a>
     </div>
     <div class="image">
-      <img src="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png" width="471"/>
+      <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" width="471"/>
     </div>
   </div>
 </section>
@@ -89,13 +89,13 @@
       <a href="/features/email">Find out more</a>
     </div>
     <div class="image">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types@2x.png" width="578"/>
+      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" width="578"/>
     </div>
   </div>
 </section>
 <section id="testimonial">
   <div class="inner center-text">
-    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo@2x.png" width="180">
+    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo.png" width="180">
     <blockquote class="quote">&ldquo;This fit perfectly with my business and made us more money too!&rdquo;</blockquote> 
     <h4 class="quote-name">Jaimie Jameson</h4>
     <h5 class="quote-job-title">Marketing Manager</h5>
