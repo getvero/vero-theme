@@ -13,7 +13,7 @@
 <section id="people-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">Collect and organise customer data from multiple sources so you can send emails that resonate.</h1>
-    <img src="/wp-content/themes/vero/assets/images/home/features/people/people-hero@2x.png" width="900">
+    <img src="/wp-content/themes/vero/assets/images/home/features/people/people-hero.png" width="900">
   </div>
 </section>
 <section id="people-summary">
@@ -54,17 +54,17 @@
     <h5 class="section-label center-text">Tools to help you be more relevant</h5>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-unlimited@2x.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-unlimited.png" width="100" />
         <h4 class="feature-title">Unlimited Storage</h4>
         <p class="feature-desc">We don't charge you for tracking data in Vero. Track as many users and as many actions as you want every month. From one to 1 billion, we've got you covered.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-tags@2x.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-tags.png" width="100" />
         <h4 class="feature-title">Extra Control with Custom Tags</h4>
         <p class="feature-desc">When properties and actions can't get the job, you can manually tag users one user at a time, or via a batch import to send to a set, static group of customers.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-importexport@2x.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/people/people-importexport.png" width="100" />
         <h4 class="feature-title">Import and Export Your Data</h4>
         <p class="feature-desc">We believe data is power. You can export customers in any segment, at any time and add user properties and action history to Vero using CSV imports.</p>
       </li>
@@ -75,13 +75,13 @@
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <h2 class="case-study-name">Michał Pękała</h2>
-      <h3 class="case-study-job-title">VP Growth</h3>
-      <p class="case-study-desc">"Vero helps us keep the customer data we want to use to personalize our emails in one place – organised and collaborative.  From custom newsletters to transactional emails, Vero continually helps us do more."</p>
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png" width="234" class="case-study-logo">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo.png" class="case-study-logo">
+      <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
+      <h2 class="case-study-name">Daniel Black</h2>
+      <h3 class="case-study-job-title">Marketing Manager</h3>
     </div>
     <div class="case-study-image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo@2x.png">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo.png">
     </div>
   </div>
 </section>

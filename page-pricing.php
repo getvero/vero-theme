@@ -69,15 +69,15 @@ include 'pages-shared/static-header.php';
     <h5 class="section-label">Included with every plan</h5>
     <ul class="unstyled-list inline-list">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features.png" width="46">
         <p>All the Vero <a href="#">Features</a></p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" width="46">
         <p>World Class Support</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.png" width="46">
         <p>Unlimited Projects</p>
       </li>
     </ul>
@@ -91,22 +91,22 @@ include 'pages-shared/static-header.php';
     <p>Name of Company</p>
     <ul class="unstyled-list inline-list pricing-logos center-text">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva.png" width="118">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer.png" width="118">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint.png" width="118">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero.png" width="118">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill.png" width="118">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa@2x.png" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa.png" width="118">
       </li>
     </ul>
   </div>
