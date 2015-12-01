@@ -75,13 +75,13 @@
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo.png" class="case-study-logo">
-      <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
-      <h2 class="case-study-name">Daniel Black</h2>
-      <h3 class="case-study-job-title">Marketing Manager</h3>
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/docplanner-logo@2x.png" width="234" class="case-study-logo">
+      <p class="case-study-desc">"Vero help us speak to 7 million DocPlanner users more personally - referring to their experience and interests. And it makes us sure we don't spam them."</p>
+      <h2 class="case-study-name">Michał Pękała</h2>
+      <h3 class="case-study-job-title">VP Growth</h3>
     </div>
     <div class="case-study-image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo.png">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/docplanner-photo@2x.png">
     </div>
   </div>
 </section>

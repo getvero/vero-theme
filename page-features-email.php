@@ -137,7 +137,7 @@
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">No credit card required</p>
+    <p class="small">No credit card required, only pay when you start sending live emails.</p>
   </div>
 </section>
 <?php 
