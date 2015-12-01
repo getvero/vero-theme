@@ -39,6 +39,7 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
   add_filter( 'body_class', 'add_body_classes' );
   add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
+  add_filter ( 'genesis_edit_post_link' , '__return_false' );
 
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );

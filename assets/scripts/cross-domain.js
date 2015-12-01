@@ -1,1 +1,0 @@
-document.domain = 'getvero.com';
