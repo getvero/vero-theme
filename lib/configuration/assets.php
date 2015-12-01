@@ -54,12 +54,11 @@ function add_js() {
   wp_register_script('inview', get_stylesheet_directory_uri() . '/assets/scripts/vendor/inview.min.js', array('jquery'), NULL, true);
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/scripts/dev_message.js', NULL, NULL, true);
   wp_register_script('bxslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.bxslider.min.js', NULL, NULL, true);
-  wp_register_script('retina', get_stylesheet_directory_uri() . '/assets/scripts/vendor/retina.min.js', NULL, NULL, true);
+  wp_register_script('retina', get_stylesheet_directory_uri() . '/assets/scripts/vendor/retina-hidden-fix.js', NULL, NULL, true);
   wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/scripts/vendor/prism.js', NULL, NULL, true);
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
-  wp_enqueue_script('retina');
   wp_enqueue_script('cross-domain');
   wp_enqueue_script('vmodal');
   wp_enqueue_script('numeral');
@@ -79,6 +78,7 @@ function add_js() {
   wp_enqueue_script('dev_message');
   wp_enqueue_script('bxslider');
   wp_enqueue_script('prism');
+  wp_enqueue_script('retina');
 
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);

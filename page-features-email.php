@@ -46,10 +46,10 @@
     <p>Stop email fatigue by targeting customers using detailed conditions including useful frequency filters. Deliver relevant emails to your customers and make sure they don’t get overlapping emails or more emails than you want.</p>
     
     <ul class="image bxslider">
-      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-welcome.png" width="480"></li>
-      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-order.png" width="480"></li>
-      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-special.png" width="480"></li>
-      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-weekly.png" width="480"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-welcome.png" width="480" height="447"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-order.png" width="480" height="369"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-special.png" width="480" height="408"></li>
+      <li><img id="condition-image-1" src="/wp-content/themes/vero/assets/images/home/features/email/conditions/conditions-weekly.png" width="480" height="470"></li>
     </ul>
   </div>
 </section>
