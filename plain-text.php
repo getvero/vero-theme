@@ -14,10 +14,11 @@
 ?>
 
 <section class="plain-text-body">
-  <?php do_action( 'genesis_loop' ); ?>
+  <div class="inner">
+    <?php do_action( 'genesis_loop' ); ?>
+  </div>
 </section>
 
 <?php 
   no_content_genesis_footer();
-  add_page_tracking_code("ProductPage");
 ?>
