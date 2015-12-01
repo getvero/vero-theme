@@ -203,9 +203,7 @@
       duration: 300
     }).setTween(dataScroll).addTo(controller);
   };
-
-
-
+  jQuery('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });
 }).call(this);
 
 /// Sliders for the email/data/pricing page
@@ -250,4 +248,6 @@ jQuery(document).ready(function(){
       return false;
     }
   });
+
+
 });

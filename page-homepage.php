@@ -43,28 +43,34 @@
     <h2>A single place to create, test and send all of your teams' product and marketing emails</h2>
     <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
-        <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" width="180" />
-          <h4 class="feature-title">Deliver useful email experiences</h4>
-          <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
-          <a href="/features-email">Learn More</a>
-        </div>
+        <a href="/features-email">
+          <div class="list-inner">
+            <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" width="180" />
+            <h4 class="feature-title">Deliver useful email experiences</h4>
+            <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
+            <a href="/features-email">Learn More</a>
+          </div>
+        </a>
       </li>
       <li class="hover-box">
-        <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" width="180"/>
-          <h4 class="feature-title">Intelligently target your customers</h4>
-          <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
-          <a href="/features-people">Learn More</a>
-        </div>
+        <a href="/features-people">
+          <div class="list-inner">
+            <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" width="180"/>
+            <h4 class="feature-title">Intelligently target your customers</h4>
+            <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
+            <a href="/features-people">Learn More</a>
+          </div>
+        </a>
       </li>
       <li class="hover-box">
-        <div class="list-inner">
-          <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" width="180"/>
-          <h4 class="feature-title">Spend less time in the code</h4>
-          <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
-          <a href="/features-data">Learn More</a>
-        </div>
+        <a href="/features-data">
+          <div class="list-inner">
+            <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" width="180"/>
+            <h4 class="feature-title">Spend less time in the code</h4>
+            <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
+            <a href="/features-data">Learn More</a>
+          </div>
+        </a>
       </li>
     </ul>
   </div>
@@ -74,7 +80,7 @@
     <div class="content">
       <h2>Email meets CRM</h2>
       <p>Bye, bye lists. Every customer has a central, single record in Vero. All of their data is stored and organised to help you treat every user like the <strong>real person</strong> they are.</p>
-      <a href="/features/customers">Find out more</a>
+      <a href="/features-people">Find out more</a>
     </div>
     <div class="image">
       <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" width="471"/>
@@ -86,7 +92,7 @@
     <div class="content">
       <h2>Email for the whole team</h2>
       <p>Whether you are a team of one or 100, managing your product and marketing campaigns is made easier with Vero. Run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one, single UI and benefit from shared data, knowledge and collaboration.</p>
-      <a href="/features/email">Find out more</a>
+      <a href="/features-email">Find out more</a>
     </div>
     <div class="image">
       <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" width="528"/>
