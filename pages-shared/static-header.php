@@ -14,7 +14,6 @@ if(is_page('homepage')){
 else {
   no_content_genesis_header();
 }
-
  
 //Customised Genesis Header
 function no_content_genesis_header() {
