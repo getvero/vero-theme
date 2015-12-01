@@ -15,46 +15,92 @@ include 'pages-shared/static-header.php';
     <h1 class="hero-title">Simple pricing, no matter how many emails you send</h1>
     <p class="medium">14 day trial, no strings attached, just great emails!</p>
     <ul class="plan-tabs unstyled-list inline-list">
-      <li class="active">Monthly</li>
-      <li>Annually</li>
+      <li id="slider-monthly" class="active">Monthly</li>
+      <li id="slider-yearly">Annually</li>
     </ul>
-    <ul class="inline-list unstyled-list center-text plans-list">
-      <li class="plan starter">
-        <h5 class="section-label center-text">Starter</h5>
-        <p class="price">$99</p>
-        <p class="price-label small">per month</p>
-        <ul class="limits unstyled-list">
-          <li>25,000 <span>customers</span></li>
-          <li>75,000 <span>emails/month</span></li>
+    <ul id="pricing-slider">
+      <li>
+        <ul id="monthly" class="inline-list unstyled-list center-text plans-list">
+          <li class="plan starter">
+            <h5 class="section-label center-text">Starter</h5>
+            <p class="price">$99</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li>25,000 <span>customers</span></li>
+              <li>75,000 <span>emails/month</span></li>
+            </ul>
+          </li>
+          <li class="plan growth">
+            <h5 class="section-label center-text">Growth</h5>
+            <p class="price">$299</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li class="most-popular">Most Popular</li>
+              <li>100,000 <span>customers</span></li>
+              <li>250,000 <span>emails/month</span></li>
+            </ul>
+          </li>
+          <li class="plan pro">
+            <h5 class="section-label center-text">Pro</h5>
+            <p class="price">$599</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li>200,000 <span>customers</span></li>
+              <li>500,000 <span>emails/month</span></li>
+            </ul>
+          </li>
+          <li class="plan starter">
+            <h5 class="section-label center-text">Enterprise</h5>
+            <p class="price">$1,049+</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li>Unlimited <span>customers</span></li>
+              <li>Unlimited <span>emails/month</span></li>
+              <li class="demo-link"><a href="#">Request a Demo</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
-      <li class="plan growth">
-        <h5 class="section-label center-text">Growth</h5>
-        <p class="price">$299</p>
-        <p class="price-label small">per month</p>
-        <ul class="limits unstyled-list">
-          <li class="most-popular">Most Popular</li>
-          <li>100,000 <span>customers</span></li>
-          <li>250,000 <span>emails/month</span></li>
-        </ul>
-      </li>
-      <li class="plan pro">
-        <h5 class="section-label center-text">Pro</h5>
-        <p class="price">$599</p>
-        <p class="price-label small">per month</p>
-        <ul class="limits unstyled-list">
-          <li>200,000 <span>customers</span></li>
-          <li>500,000 <span>emails/month</span></li>
-        </ul>
-      </li>
-      <li class="plan starter">
-        <h5 class="section-label center-text">Enterprise</h5>
-        <p class="price">$1,049+</p>
-        <p class="price-label small">per month</p>
-        <ul class="limits unstyled-list">
-          <li>Unlimited <span>customers</span></li>
-          <li>Unlimited <span>emails/month</span></li>
-          <li class="demo-link"><a href="#">Request a Demo</a></li>
+        <li>
+          <ul id="yearly" class="inline-list unstyled-list center-text plans-list">
+            <li class="plan starter">
+              <h5 class="section-label center-text">Starter</h5>
+              <p class="price">$990</p>
+              <p class="price-label small">per year (2 months free)</p>
+              <ul class="limits unstyled-list">
+                <li>25,000 <span>customers</span></li>
+                <li>75,000 <span>emails/month</span></li>
+              </ul>
+            </li>
+            <li class="plan growth">
+              <h5 class="section-label center-text">Growth</h5>
+              <p class="price">$2990</p>
+              <p class="price-label small">per year (2 months free)</p>
+              <ul class="limits unstyled-list">
+                <li class="most-popular">Most Popular</li>
+                <li>100,000 <span>customers</span></li>
+                <li>250,000 <span>emails/month</span></li>
+              </ul>
+            </li>
+            <li class="plan pro">
+              <h5 class="section-label center-text">Pro</h5>
+              <p class="price">$5990</p>
+              <p class="price-label small">per year (2 months free)</p>
+              <ul class="limits unstyled-list">
+                <li>200,000 <span>customers</span></li>
+                <li>500,000 <span>emails/month</span></li>
+              </ul>
+            </li>
+            <li class="plan starter">
+              <h5 class="section-label center-text">Enterprise</h5>
+              <p class="price">$10,490+</p>
+              <p class="price-label small">per year (2 months free)</p>
+              <ul class="limits unstyled-list">
+                <li>Unlimited <span>customers</span></li>
+                <li>Unlimited <span>emails/month</span></li>
+                <li class="demo-link"><a href="#">Request a Demo</a></li>
+              </ul>
+          </li>
         </ul>
       </li>
     </ul>

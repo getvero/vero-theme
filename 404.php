@@ -11,7 +11,7 @@
 ?>
 <section id="fourohfour" class="hero">
   <div class="inner center-text">
-    <img src="/wp-content/themes/vero/assets/images/home/404/404@2x.png" width="340">
+    <img src="/wp-content/themes/vero/assets/images/home/404/404.png" width="340">
     <h1 class="hero-title">Uh oh, you got stung!</h1>
     <p>If you're looking for email marketing that doesn't hurt…check out the <a href="http://www.getvero.com">homepage</a>.</p>
   </div>
