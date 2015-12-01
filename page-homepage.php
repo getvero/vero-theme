@@ -19,7 +19,7 @@
       <p class="small">No credit card required, only pay when you start sending live emails.</p>
     </div>
     <div class="image center-text">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/hero.png"/>
+      <img src="/wp-content/themes/vero/assets/images/home/hero.png"/>
     </div>
   </div>
 </section>
@@ -89,7 +89,7 @@
       <a href="/features/email">Find out more</a>
     </div>
     <div class="image">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" width="578"/>
+      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" width="528"/>
     </div>
   </div>
 </section>
