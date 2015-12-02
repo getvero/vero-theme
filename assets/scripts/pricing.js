@@ -5,13 +5,12 @@ jQuery(document).ready(function(){
     var hash = window.location.hash.substring(1); 
     if(hash == 'demo') {
       jQuery('#demo-trigger').click(); 
-    }
+    } 
   }
 
-  jQuery('#request-demo').click(function(e) {
+  jQuery("#high-volume-sender-form").submit(function(e) {
     e.preventDefault();
-    console.log("Pushed button");
-    requestDemo();
+    requestDemo(e);
     return false;
   });
 
@@ -60,13 +59,21 @@ jQuery(document).ready(function(){
     return ret;
   };
 
-  requestDemo = function() {
+  requestDemo = function(e) {
     console.log("Trying to validate");
     if (validateForm()) {
-      console.log("Valid!");
-      jQuery("#high-volume-sender-form").submit();
-      jQuery("#high-volume > .inner").addClass('center-text').html("<h3 style='color:#222;font-weight:bold;'>Thanks for your request!</h3><h4 style='color:#222;padding-bottom:100px;'>We will contact you shortly.</h4>");
-      return console.log('success');
+      var url = jQuery("#high-volume-sender-form").attr('action');
+      jQuery.ajax({
+        type: "POST",
+        url: url,
+        data: jQuery("#high-volume-sender-form").serialize(), 
+        success: function(data)
+        {
+           console.log('Demo sent!');
+           jQuery("#high-volume-sender-form").hide();
+           jQuery("#thanks").show();
+        }
+      });
     }
   };
 });

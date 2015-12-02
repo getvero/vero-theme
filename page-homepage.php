@@ -12,7 +12,7 @@
     <div class="content center-text">
       <h1 class="home-hero">The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern, online businesses</span></h1>
       <p>It's not 2004. Automated workflows, a real time API for tracking and segmentation using all of your data.</p>
-     <form class="horizontal-signup-form">
+     <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success" type="submit" value="Create your account">
       </form>
@@ -141,7 +141,7 @@
   <div class="inner">
     <h1 class="cta-title">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <form class="horizontal-signup-form">
+    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>

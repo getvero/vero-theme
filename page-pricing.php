@@ -105,7 +105,7 @@ include 'pages-shared/static-header.php';
       </li>
     </ul>
     <div class="pricing-cta center-text">
-      <div class="btn btn-success btn-large">Create your free account</div>
+      <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your free account</a>
       <p class="small">No credit card required, no contracts to lock you in</p>
     </div>
   </div>
@@ -210,10 +210,10 @@ include 'pages-shared/static-header.php';
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
-    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
-    <form class="horizontal-signup-form">
+    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
+    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Start your free trial">
+      <input class="btn btn-success" type="submit" value="Create your account">
     </form>
     <p class="small">No credit card required</p>
   </div>
@@ -232,7 +232,11 @@ include 'pages-shared/static-header.php';
       <h2>Request a personal demo of the future of email.</h2>
       <p class="medium">One of our Customer Success engineers will get in touch and show you around Vero, so you can see the full power of behavioral email.</p>
     </div>
-    <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
+    <div id="thanks">
+      <h3>Thanks!</h3>
+      <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
+    </div>
+    <form id="high-volume-sender-form" action='http://localhost:3000/demos' method='post'>
       <div class="half">
         <div class="form-group"><label>Name: <span>*</span></label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
         <div class="form-group"><label>Email: <span>*</span></label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
