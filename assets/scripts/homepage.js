@@ -1,7 +1,5 @@
-// Sliders for the email/data/pricing page
+// Sliders for the email/data pages
 jQuery(document).ready(function(){
-  jQuery('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });
-
   jQuery('.bxslider').bxSlider({
     mode: 'fade',
     adaptiveHeight: true,
