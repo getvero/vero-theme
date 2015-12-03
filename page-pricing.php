@@ -131,10 +131,11 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-validation">
   <div class="inner center-text">
-    <img class="quote-image" src="#">
-    <blockquote class="quote">This fit perfectly with my business and made us more money too!</blockquote>
-    <p class="large">Awesome Customer</p>
-    <p>Name of Company</p>
+    <img class="quote-image" src="/wp-content/themes/vero/assets/images/home/pricing/jan.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/jan@2x.png 2x">
+    <blockquote class="quote">&ldquo;Vero makes it easy for us to deploy, manage and measure complex campaigns with ease. Our marketing team would waste hours without it.&rdquo;</blockquote>
+    <div class="clearfix"></div>
+    <p class="large">Jan Miczaika, COO</p>
+    <p>Wooga</p>
     <ul class="unstyled-list inline-list pricing-logos center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png 2x" width="118">
