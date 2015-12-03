@@ -3,17 +3,17 @@
 function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   $args = (array)$args;
   $useragent=$_SERVER['HTTP_USER_AGENT'];
-  
+
   if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
     return $menu;
-  
+
   ob_start();
   ?>
   <ul id="menu-marketing-navbar-left" class="menu">
     <?php if(is_page('homepage')): ?>
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104"></a></li>
+    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104" height="36"></a></li>
     <?php else: ?>
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104"></a></li>
+    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104" height="36"></a></li>
     <?php endif ?>
   </ul>
   <?php $logo = ob_get_clean();
@@ -29,10 +29,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 function add_responsive_menu_toggle_to_navbar($menu, $args) {
   $args = (array)$args;
   $useragent=$_SERVER['HTTP_USER_AGENT'];
-  
+
   if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
     return $menu;
-  
+
   ob_start();
   ?>
   <ul id="menu-marketing-navbar-left" class="menu">
@@ -52,9 +52,9 @@ function add_blue_navbar_logic() {
       'theme_location' => 'blue-nav-left',
       'container_class' => 'blue-nav-menu left'
     ) );
-    wp_nav_menu( array( 
+    wp_nav_menu( array(
       'theme_location' => 'api-languages',
-      'container_class' => 'blue-nav-menu right' 
+      'container_class' => 'blue-nav-menu right'
     ) );
     echo "</div><div class='spacer'></div>";
   } else if ( is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') ) {
@@ -103,7 +103,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'blog' && (array_shift(explode(".",$_SERVER['HTTP_HOST'])) == 'blog') ) {
       $classes[] = 'current-menu-item';
-    } 
+    }
     return $classes;
 }
 
