@@ -58,17 +58,17 @@
     <h2>Everything your team needs to collaborate and create a consistent message, look and feel for every email</h1>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-templates.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-templates2@2x.png 2x" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-templates2.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-templates2@2x.png 2x" />
         <h4 class="feature-title">All your templates in one place</h4>
         <p class="feature-desc">Upload your fully responsive email designs to your <strong>Template Gallery</strong> and use them in all your Newsletter, Behavioral and Transactional emails.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-liquid.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-liquid2@2x.png 2x" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-liquid2.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-liquid2@2x.png 2x" />
         <h4 class="feature-title">Personalize emails with Liquid</h4>
         <p class="feature-desc">With <strong>Liquid Tags</strong> you can personalise every email by dynamically adding  customer properties.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-editable.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-editable2@2x.png 2x" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/email/email-editable2.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-editable2@2x.png 2x" />
         <h4 class="feature-title">Easily edit template content</h4>
         <p class="feature-desc">Setup your emails to use <strong>Editable Tags</strong> and the whole team can edit email content without touching the HTML.</p>
       </li>
