@@ -50,7 +50,7 @@ function add_js() {
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
   wp_enqueue_script('bxslider');
-  wp_enqueue_script('retina');
+  // wp_enqueue_script('retina');
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');

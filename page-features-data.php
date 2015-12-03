@@ -1,10 +1,10 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'features feature-data';
-    return $classes;  
+    return $classes;
   }
   include 'pages-shared/static-header.php';
   include 'pages-shared/feature-menu.php';
@@ -16,17 +16,17 @@
    <ul class="bxslider">
      <li id="data-code-block">
         <pre class="language-javascript line-numbers"><code>//Javascript for adding a user with user properties
-_veroq.push(['user', {    
+_veroq.push(['user', {
   id: 'CUSTOMER_ID',
   email: 'CUSTOMER_EMAIL',
-  first_name: 'CUSTOMER_NAME',    
-  last_name: 'CUSTOMER_LAST_NAME'  
+  first_name: 'CUSTOMER_NAME',
+  last_name: 'CUSTOMER_LAST_NAME'
 }]);
 
 //Javascript for tracking an event with event properties
-_veroq.push(['track', 'viewed product', {      
-  product_name: 'Red T-shirt',    
-  product_url: 'http://www.yourdomain.com/products/red-t-shirt'  
+_veroq.push(['track', 'viewed product', {
+  product_name: 'Red T-shirt',
+  product_url: 'http://www.yourdomain.com/products/red-t-shirt'
 }])</code></pre>
       </li>
     </ul>
@@ -38,27 +38,27 @@ _veroq.push(['track', 'viewed product', {
     <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="#">Check out our Developer Portal</a>.</p>
     <ul id="library-list" class="unstyled-list inline-list">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png 2x">
         <p>Javascript</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-ruby@2x.png 2x">
         <p>Ruby</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-php@2x.png 2x">
         <p>PHP</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-python@2x.png 2x">
         <p>Python</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-nodejs@2x.png 2x">
         <p>NodeJS</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple.png">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-apple@2x.png 2x">
         <p>iOS</p>
       </li>
     </ul>
@@ -70,27 +70,27 @@ _veroq.push(['track', 'viewed product', {
     <h2>Works with the tools you already use</h2>
     <ul class="unstyled-list inline-list integrations-list feature-list thirds">
       <li class="zapier">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="segment">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="ga">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="mailgun">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="sendgrid">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li class="mandrill">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill.png" height="68" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill@2x.png 2x" height="68" />
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
     </ul>
@@ -100,7 +100,7 @@ _veroq.push(['track', 'viewed product', {
   <div class="inner center-text">
     <h2>See every single tracked event or activity, live</h1>
     <p>With logs, you get a running commentary of every user event, email sent, delivery or segment change, so you can see every customer interaction from their perpective.</p>
-    <img src="/wp-content/themes/vero/assets/images/home/features/data/data-logs.png" width="1028">
+    <img src="/wp-content/themes/vero/assets/images/home/features/data/data-logs.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-logs@2x.png 2x" width="1028">
   </div>
 </section>
 <section id="data-features" class="top-border-light">
@@ -108,17 +108,17 @@ _veroq.push(['track', 'viewed product', {
     <h5 class="section-label center-text">You're in control</h5>
     <ul class="unstyled-list inline-list feature-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-events.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-events.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-events@2x.png 2x" width="100" />
         <h4 class="feature-title">Track Any Event Big or Small</h4>
         <p class="feature-desc">Track data accross any platform with Vero and empower your entire team with hassle free user insights and campaign creation.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks@2x.png 2x" width="100" />
         <h4 class="feature-title">Forward Your Data with Webhooks</h4>
         <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-csv.png" width="100" />
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/data-csv.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-csv@2x.png 2x" width="100" />
         <h4 class="feature-title">Import historical data via CSV</h4>
         <p class="feature-desc">Hit the ground running by importing all your historical event and customer data using the CSV importer.</p>
       </li>
@@ -129,20 +129,20 @@ _veroq.push(['track', 'viewed product', {
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo.png" class="case-study-logo">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo.png" srcset="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png 2x" class="case-study-logo">
       <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
       <h2 class="case-study-name">Daniel Black</h2>
       <h3 class="case-study-job-title">Marketing Manager</h3>
     </div>
     <div class="case-study-image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo.png">
+      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo.png" srcset="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo@2x.png 2x">
     </div>
   </div>
 </section>
 
-<?php 
+<?php
   $bottom_class= 'bottom-menu';
-  include 'pages-shared/feature-menu.php'; 
+  include 'pages-shared/feature-menu.php';
 ?>
 
 <section id="call-to-action" class="center-text">
@@ -156,7 +156,7 @@ _veroq.push(['track', 'viewed product', {
     <p class="small">No credit card required</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>

@@ -1,9 +1,9 @@
-<?php 
+<?php
   include 'pages-shared/static-header.php';
 ?>
 
 <section id="hero" class="hero">
-  <?php 
+  <?php
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
@@ -19,7 +19,7 @@
       <p class="small">No credit card required, only pay when you start sending live emails.</p>
     </div>
     <div class="image center-text">
-      <img src="/wp-content/themes/vero/assets/images/home/hero.png"/>
+      <img src="/wp-content/themes/vero/assets/images/home/hero.png" srcset="/wp-content/themes/vero/assets/images/home/hero@2x.png 2x"/>
     </div>
   </div>
 </section>
@@ -27,13 +27,13 @@
   <div class="inner clean-padding full-width">
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" alt="Canva" height="76"></li>
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/home-freelancer.png" alt="Freelancer" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint.png" alt="Sitepoint" height="76"></li>
-      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-alexa.png" alt="Alexa" height="76"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" alt="about.me" height="76"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" alt="O'Neill" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" alt="Sphero" height="76"></li> 
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
+      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint@2x.png 2x" alt="Sitepoint" height="76"></li>
+      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-alexa.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-alexa@2x.png 2x" alt="Alexa" height="76"></li>
+      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
     </ul>
   </div>
 </section>
@@ -45,7 +45,7 @@
       <li class="hover-box">
         <a href="/features-email">
           <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" width="180" />
+            <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email@2x.png 2x" width="180" />
             <h4 class="feature-title">Deliver useful email experiences</h4>
             <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
             <a href="/features-email">Learn More</a>
@@ -55,7 +55,7 @@
       <li class="hover-box">
         <a href="/features-people">
           <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" width="180"/>
+            <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" srcset="/wp-content/themes/vero/assets/images/home/feature-target@2x.png 2x" width="180"/>
             <h4 class="feature-title">Intelligently target your customers</h4>
             <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
             <a href="/features-people">Learn More</a>
@@ -65,7 +65,7 @@
       <li class="hover-box">
         <a href="/features-data">
           <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" width="180"/>
+            <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" srcset="/wp-content/themes/vero/assets/images/home/feature-data@2x.png 2x" width="180"/>
             <h4 class="feature-title">Spend less time in the code</h4>
             <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
             <a href="/features-data">Learn More</a>
@@ -83,7 +83,7 @@
       <a href="/features-people">Find out more</a>
     </div>
     <div class="image">
-      <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" width="471"/>
+      <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" srcset="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png 2x" width="471"/>
     </div>
   </div>
 </section>
@@ -95,14 +95,14 @@
       <a href="/features-email">Find out more</a>
     </div>
     <div class="image">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" width="528"/>
+      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email-types@2x.png 2x" width="528"/>
     </div>
   </div>
 </section>
 <section id="testimonial">
   <div class="inner center-text">
-    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo.png" width="180">
-    <blockquote class="quote">&ldquo;This fit perfectly with my business and made us more money too!&rdquo;</blockquote> 
+    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo.png" srcset="/wp-content/themes/vero/assets/images/home/company-logo@2x.png 2x" width="180">
+    <blockquote class="quote">&ldquo;This fit perfectly with my business and made us more money too!&rdquo;</blockquote>
     <h4 class="quote-name">Jaimie Jameson</h4>
     <h5 class="quote-job-title">Marketing Manager</h5>
   </div>
@@ -148,6 +148,6 @@
     <p class="small">No credit card required</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
 ?>
