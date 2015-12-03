@@ -148,10 +148,10 @@ _veroq.push(['track', 'viewed product', {
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
-    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
-    <form class="horizontal-signup-form">
+    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
+    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Start your free trial">
+      <input class="btn btn-success" type="submit" value="Create your account">
     </form>
     <p class="small">No credit card required</p>
   </div>

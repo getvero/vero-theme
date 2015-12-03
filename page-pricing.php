@@ -12,8 +12,8 @@ include 'pages-shared/static-header.php';
 ?>
 <section id="pricing-hero" class="hero light-section">
   <div class="inner center-text">
-    <h1 class="hero-title">Simple pricing, no matter how many emails you send</h1>
-    <p class="medium">14 day trial, no strings attached, just great emails!</p>
+    <h1 class="hero-title">Our pricing scales with you</h1>
+    <p class="medium">Sign up, track data and send unlimited test emails for free. Only pay when you start emailing customers.</p>
     <ul class="plan-tabs unstyled-list inline-list">
       <li id="slider-monthly" class="active">Monthly</li>
       <li id="slider-yearly">Annually</li>
@@ -74,7 +74,7 @@ include 'pages-shared/static-header.php';
             </li>
             <li class="plan growth">
               <h5 class="section-label center-text">Growth</h5>
-              <p class="price">$2990</p>
+              <p class="price">$2,990</p>
               <p class="price-label small">per year (2 months free)</p>
               <ul class="limits unstyled-list">
                 <li class="most-popular">Most Popular</li>
@@ -84,7 +84,7 @@ include 'pages-shared/static-header.php';
             </li>
             <li class="plan pro">
               <h5 class="section-label center-text">Pro</h5>
-              <p class="price">$5990</p>
+              <p class="price">$5,990</p>
               <p class="price-label small">per year (2 months free)</p>
               <ul class="limits unstyled-list">
                 <li>200,000 <span>customers</span></li>
@@ -105,8 +105,8 @@ include 'pages-shared/static-header.php';
       </li>
     </ul>
     <div class="pricing-cta center-text">
-      <div class="btn btn-success btn-large">Start your 14 day free trail</div>
-      <p class="small">No credit card required,  send up to 2500 emails</p>
+      <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your free account</a>
+      <p class="small">No credit card required, no contracts to lock you in</p>
     </div>
   </div>
 </section>
@@ -210,10 +210,10 @@ include 'pages-shared/static-header.php';
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
-    <p class="sub-heading">14 days free, send up to 2500 emails, no obligation</p>
-    <form class="horizontal-signup-form">
+    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
+    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Start your free trial">
+      <input class="btn btn-success" type="submit" value="Create your account">
     </form>
     <p class="small">No credit card required</p>
   </div>
@@ -232,12 +232,16 @@ include 'pages-shared/static-header.php';
       <h2>Request a personal demo of the future of email.</h2>
       <p class="medium">One of our Customer Success engineers will get in touch and show you around Vero, so you can see the full power of behavioral email.</p>
     </div>
-    <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
+    <div id="thanks">
+      <h3>Thanks!</h3>
+      <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
+    </div>
+    <form id="high-volume-sender-form" action='http://localhost:3000/demos' method='post'>
       <div class="half">
-        <div class="form-group"><label>Name:</label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
-        <div class="form-group"><label>Email:</label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
+        <div class="form-group"><label>Name: <span>*</span></label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
+        <div class="form-group"><label>Email: <span>*</span></label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
         <div class="form-group"><label>Phone:</label><input id="sender_phone" class="form-control" name="phone" type="text" /></div>
-        <div class="form-group"><label>Company name:</label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
+        <div class="form-group"><label>Company name: <span>*</span></label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
       </div>
       <div class="half">
         <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="subscribers">
@@ -250,7 +254,6 @@ include 'pages-shared/static-header.php';
           <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
           <option value="more">10,000,000+ subscribers</option></select></div>
         <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="monthly_emails">
-          <option value="250000">0 - 250,000 emails</option>
           <option value="1000000">250,000 - 1,000,000 emails</option>
           <option value="1000000">500,000 - 1,000,000 emails</option>
           <option value="1000000">1,000,000 - 5,000,000 emails</option>
