@@ -116,13 +116,13 @@
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/bv-logo.png" srcset="/wp-content/themes/vero/assets/images/home/features/people/bv-logo@2x.png 2x" class="case-study-logo">
+      <img src="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo@2x.png 2x" class="case-study-logo">
       <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
       <h2 class="case-study-name">Daniel Black</h2>
       <h3 class="case-study-job-title">Marketing Manager</h3>
     </div>
     <div class="case-study-image">
-      <img src="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo.png" srcset="/wp-content/themes/vero/assets/images/home/features/people/beenverified-photo@2x.png 2x">
+      <img src="/wp-content/themes/vero/assets/images/home/case-studies/beenverified-photo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/beenverified-photo@2x.png 2x">
     </div>
   </div>
 </section>
