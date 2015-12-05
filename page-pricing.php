@@ -131,11 +131,11 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-validation">
   <div class="inner center-text">
-    <img class="quote-image" src="/wp-content/themes/vero/assets/images/home/pricing/jan.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/jan@2x.png 2x">
-    <blockquote class="quote">&ldquo;Vero makes it easy for us to deploy, manage and measure complex campaigns with ease. Our marketing team would waste hours without it.&rdquo;</blockquote>
+    <img class="quote-image" src="/wp-content/themes/vero/assets/images/home/pricing/sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/sphero@2x.png 2x">
+    <blockquote class="quote">&ldquo;Vero is an essential tool for us at Sphero. We use Vero for newsletter, behavioral and transaction email campaigns. Our relationship with Vero enables Sphero to communicate in a dynamic and personalized medium.&rdquo;</blockquote>
     <div class="clearfix"></div>
-    <p class="large">Jan Miczaika, COO</p>
-    <p>Wooga</p>
+    <p class="large">Paul Rahn, Director of Ecommerce</p>
+    <p>Sphero</p>
     <ul class="unstyled-list inline-list pricing-logos center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png 2x" width="118">
