@@ -34,6 +34,7 @@
       <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
       <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
+      <li class="logo rjmetrics"><img src="/wp-content/themes/vero/assets/images/home/logos/home-rjmetrics.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-rjmetrics@2x.png 2x" alt="RJMetrics" height="76"></li>
     </ul>
   </div>
 </section>
@@ -101,10 +102,10 @@
 </section>
 <section id="testimonial">
   <div class="inner center-text">
-    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo.png" srcset="/wp-content/themes/vero/assets/images/home/company-logo@2x.png 2x" width="180">
-    <blockquote class="quote">&ldquo;This fit perfectly with my business and made us more money too!&rdquo;</blockquote>
-    <h4 class="quote-name">Jaimie Jameson</h4>
-    <h5 class="quote-job-title">Marketing Manager</h5>
+    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo-canva.png" srcset="/wp-content/themes/vero/assets/images/home/company-logo-canva@2x.png 2x" width="106">
+    <blockquote class="quote">&ldquo;Vero is the centre of our personalised product and marketing email campaigns.&rdquo;</blockquote>
+    <h4 class="quote-name">Kris Howard</h4>
+    <h5 class="quote-job-title">Engineering Coordinator and Developer Relations</h5>
   </div>
 </section>
 <section id="blocks">
