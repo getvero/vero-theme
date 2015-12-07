@@ -116,7 +116,7 @@ include 'pages-shared/static-header.php';
     <ul class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png 2x" width="46">
-        <p>All the Vero <a href="#">Features</a></p>
+        <p>All the Vero <a href="/features/email">Features</a></p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">

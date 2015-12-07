@@ -35,7 +35,7 @@ _veroq.push(['track', 'viewed product', {
 <section id="data-libraries">
   <div class="inner center-text">
     <h4>Install on any code base</h4>
-    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="#">Check out our Developer Portal</a>.</p>
+    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="http://developers.getvero.com">Check out our Developer Portal</a>.</p>
     <ul id="library-list" class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png 2x">
@@ -62,7 +62,7 @@ _veroq.push(['track', 'viewed product', {
         <p>iOS</p>
       </li>
     </ul>
-    <p><a href="#">All Libraries</a></p>
+    <p><a href="http://developers.getvero.com" target="_blank">All Libraries</a></p>
   </div>
 </section>
 <section id="data-integrations">
@@ -153,7 +153,7 @@ _veroq.push(['track', 'viewed product', {
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">No credit card required</p>
+    <p class="small">No credit card required, only pay when you start sending live emails.</p>
   </div>
 </section>
 <?php

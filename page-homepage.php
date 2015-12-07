@@ -44,32 +44,32 @@
     <h2>A single place to create, test and send all of your teams' product and marketing emails</h2>
     <ul class="unstyled-list inline-list feature-list thirds flex">
       <li class="hover-box">
-        <a href="/features-email">
+        <a href="/features/email">
           <div class="list-inner">
             <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email@2x.png 2x" width="180" />
             <h4 class="feature-title">Deliver useful email experiences</h4>
             <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
-            <a href="/features-email">Learn More</a>
+            <a href="/features/email">Learn More</a>
           </div>
         </a>
       </li>
       <li class="hover-box">
-        <a href="/features-people">
+        <a href="/features/people">
           <div class="list-inner">
             <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" srcset="/wp-content/themes/vero/assets/images/home/feature-target@2x.png 2x" width="180"/>
             <h4 class="feature-title">Intelligently target your customers</h4>
             <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
-            <a href="/features-people">Learn More</a>
+            <a href="/features/people">Learn More</a>
           </div>
         </a>
       </li>
       <li class="hover-box">
-        <a href="/features-data">
+        <a href="/features/data">
           <div class="list-inner">
             <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" srcset="/wp-content/themes/vero/assets/images/home/feature-data@2x.png 2x" width="180"/>
             <h4 class="feature-title">Spend less time in the code</h4>
             <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
-            <a href="/features-data">Learn More</a>
+            <a href="/features/data">Learn More</a>
           </div>
         </a>
       </li>
@@ -81,7 +81,7 @@
     <div class="content">
       <h2>Email meets CRM</h2>
       <p>Bye, bye lists. Every customer has a central, single record in Vero. All of their data is stored and organised to help you treat every user like the <strong>real person</strong> they are.</p>
-      <a href="/features-people">Find out more</a>
+      <a href="/features/people">Find out more</a>
     </div>
     <div class="image">
       <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" srcset="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png 2x" width="471"/>
@@ -93,7 +93,7 @@
     <div class="content">
       <h2>Email for the whole team</h2>
       <p>Whether you are a team of one or 100, managing your product and marketing campaigns is made easier with Vero. Run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one, single UI and benefit from shared data, knowledge and collaboration.</p>
-      <a href="/features-email">Find out more</a>
+      <a href="/features/email">Find out more</a>
     </div>
     <div class="image">
       <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email-types@2x.png 2x" width="528"/>
@@ -113,14 +113,14 @@
     <div class="inner-block">
       <h3 class="block-title">98.5% of the time, our customers love our support every time!</h3>
       <p class="block-desc">Email is mission critical. With team members spread around the world, Vero offers fast, reliable support <strong>24/7</strong> – we're real humans.</p>
-      <div class="btn btn-outline btn-warning">View the Help Docs</div>
+      <a href="http://help.getvero.com" target="_blank" class="btn btn-outline btn-warning">View the Help Docs</a>
     </div>
   </div>
   <div class="developers block center-text">
     <div class="inner-block">
       <h3 class="block-title">A platform engineers can rely on</h3>
       <p class="block-desc">Realiable and built around an API, Vero gets out of your way and gives you the power to work like the hundreds of other businesses that track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails every month with Vero. Libraries in Ruby, Python and more. </p>
-      <div class="btn btn-primary btn-outline">Read the API Docs</div>
+      <a href="http://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
   </div>
 </section>
