@@ -14,7 +14,7 @@ function change_url( $url, $post, $leavename ) {
 }
 
 function custom_favicon( $favicon_url ) {
-  return '/wp-content/themes/vero/assets/images/favicon.png';
+  return '/wp-content/themes/vero/assets/images/home/favicon/64.png';
 }
 
 function is_help() {
