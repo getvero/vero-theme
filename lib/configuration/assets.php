@@ -35,6 +35,7 @@ function add_js() {
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
   wp_register_script('pricing', get_stylesheet_directory_uri() . '/assets/scripts/pricing.js', array('jquery'), NULL, true);
+  wp_register_script('blog', get_stylesheet_directory_uri() . '/assets/scripts/blog.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/scripts/fout.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/scripts/dev_message.js', NULL, NULL, true);
@@ -59,6 +60,7 @@ function add_js() {
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('homepage');
   wp_enqueue_script('pricing');
+  wp_enqueue_script('blog');
 
   if(is_blog()){
     wp_enqueue_script('highlight-js');

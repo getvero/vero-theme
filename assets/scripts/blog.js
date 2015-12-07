@@ -18,4 +18,4 @@ if( jQuery('.single .subscribe-form')[0] != undefined ) {
     offset: '100%'
   });
 }
-};
+});
