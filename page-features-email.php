@@ -133,8 +133,8 @@
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <form class="horizontal-signup-form">
-      <input action="https://app.getvero.com/pre_signups" method='post' class="form-control" type="email" placeholder="Email Address" name="email">
+    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
     <p class="small">No credit card required, only pay when you start sending live emails.</p>
