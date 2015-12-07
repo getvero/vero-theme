@@ -45,7 +45,9 @@ function add_js() {
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
+  wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', NULL, NULL, true);
 
+  wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
