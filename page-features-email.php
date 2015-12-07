@@ -116,7 +116,7 @@
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo@2x.png 2x" class="case-study-logo">
+      <a href="http://www.beenverified.com" target="_blank"><img src="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/bv-logo@2x.png 2x" class="case-study-logo"></a>
       <p class="case-study-desc">"Vero thinks about email in an exciting way and enables us to create and manage our email content in one place like we haven't been able to before. It's the centre of our email nervous system."</p>
       <h2 class="case-study-name">Daniel Black</h2>
       <h3 class="case-study-job-title">Marketing Manager</h3>
