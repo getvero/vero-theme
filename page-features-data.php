@@ -129,7 +129,7 @@ _veroq.push(['track', 'viewed product', {
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/case-studies/bugherd-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/bugherd-logo@2x.png 2x" width="87" class="case-study-logo">
+      <a href="http://www.bugherd.com" target="_blank"><img src="/wp-content/themes/vero/assets/images/home/case-studies/bugherd-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/bugherd-logo@2x.png 2x" width="87" class="case-study-logo"></a>
       <p class="case-study-desc">"From day one we’ve sent emails to our customers to increase user engagement and activity. Vero helps us ensure our emails are even more targeted with very little effort."</p>
       <h2 class="case-study-name">Alan Downie</h2>
       <h3 class="case-study-job-title">CEO and Founder</h3>

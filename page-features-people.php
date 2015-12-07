@@ -80,7 +80,7 @@
   <div class="inner">
     <div class="case-study-box">
       <h5 class="section-label">Customer Profile</h5>
-      <img src="/wp-content/themes/vero/assets/images/home/case-studies/docplanner-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/docplanner-logo@2x.png 2x" width="196" class="case-study-logo">
+      <a href="http://www.docplanner.com" target="_blank"><img src="/wp-content/themes/vero/assets/images/home/case-studies/docplanner-logo.png" srcset="/wp-content/themes/vero/assets/images/home/case-studies/docplanner-logo@2x.png 2x" width="196" class="case-study-logo"></a>
       <p class="case-study-desc">"Vero help us speak to 7 million DocPlanner users more personally - referring to their experience and interests. And it makes us sure we don't spam them."</p>
       <h2 class="case-study-name">Michał Pękała</h2>
       <h3 class="case-study-job-title">VP Growth</h3>
