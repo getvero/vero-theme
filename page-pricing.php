@@ -26,8 +26,8 @@ include 'pages-shared/static-header.php';
             <p class="price">$99</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
-              <li>25,000 <span>customers</span></li>
-              <li>75,000 <span>emails/month</span></li>
+              <li>12,500 <span>customers</span></li>
+              <li>25,000 <span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan growth">
@@ -45,8 +45,8 @@ include 'pages-shared/static-header.php';
             <p class="price">$599</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
-              <li>200,000 <span>customers</span></li>
-              <li>500,000 <span>emails/month</span></li>
+              <li>175,000 <span>customers</span></li>
+              <li>400,000 <span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan starter">
@@ -54,9 +54,9 @@ include 'pages-shared/static-header.php';
             <p class="price">$1,049+</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
-              <li>Unlimited <span>customers</span></li>
-              <li>Unlimited <span>emails/month</span></li>
-              <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Request a Demo</a></li>
+              <li>175,000+ <span>customers</span></li>
+              <li>400,000+ <span>emails/month</span></li>
+              <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Talk to our Success Team</a></li>
             </ul>
           </li>
         </ul>
@@ -68,8 +68,8 @@ include 'pages-shared/static-header.php';
               <p class="price">$990</p>
               <p class="price-label small">per year (2 months free)</p>
               <ul class="limits unstyled-list">
-                <li>25,000 <span>customers</span></li>
-                <li>900,000 <span>emails/year</span></li>
+                <li>12,500 <span>customers</span></li>
+                <li>300,000 <span>emails/year</span></li>
               </ul>
             </li>
             <li class="plan growth">
@@ -87,8 +87,8 @@ include 'pages-shared/static-header.php';
               <p class="price">$5,990</p>
               <p class="price-label small">per year (2 months free)</p>
               <ul class="limits unstyled-list">
-                <li>200,000 <span>customers</span></li>
-                <li>6,000,000 <span>emails/year</span></li>
+                <li>175,000 <span>customers</span></li>
+                <li>4,800,000 <span>emails/year</span></li>
               </ul>
             </li>
             <li class="plan starter">
@@ -96,9 +96,9 @@ include 'pages-shared/static-header.php';
               <p class="price">$10,490+</p>
               <p class="price-label small">per year (2 months free)</p>
               <ul class="limits unstyled-list">
-                <li>Unlimited <span>customers</span></li>
-                <li>Unlimited <span>emails/year</span></li>
-                <li class="demo-link"><a rel="leanModal" href="#demo">Request a Demo</a></li>
+                <li>175,000+ <span>customers</span></li>
+                <li>4,800,000+ <span>emails/year</span></li>
+                <li class="demo-link"><a rel="leanModal" href="#demo">Talk to our Success Team</a></li>
               </ul>
           </li>
         </ul>
@@ -116,7 +116,7 @@ include 'pages-shared/static-header.php';
     <ul class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png 2x" width="46">
-        <p>All the Vero <a href="#">Features</a></p>
+        <p>All the Vero <a href="/features/email">Features</a></p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
@@ -162,48 +162,48 @@ include 'pages-shared/static-header.php';
   <div class="inner halfs">
     <h2 class="center-text">Frequently Asked Questions</h2>
     <div class="left">
-      <h3>What are projects?</h3>
-      <p>
-        Projects are essentially Vero sub-accounts. Each project has a separate database, API keys and campaigns. In other words, it’s like having two Vero accounts in one.
-      </p>
-      <p>
-        You can have up to three projects on our base plan, and many more on our higher plans. Every account gets a free ’Test’ project: designed to make it safe for you to test your campaign ideas without emailing any real customers.
-      </p>
-      <p>
-        If you’re an agency, you may also use projects to manage multiple clients.
-      </p>
-
       <h3>What happens if I go over my subscription limit?</h3>
       <p>
-        Vero will send you an email when you cross the subscriber or email thresholds over a 30-day period. You will automatically be upgraded to the appropriate plan.
+        Vero will send you an email when you cross the subscriber or email threshold of your current plan during a billing period. You will automatically be upgraded to the appropriate plan.
       </p>
       <p>
-        You can downgrade at any time and, if your usage fluctuates, can minimize your spend each and every month.
+        As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.
+      </p>
+
+      <h3>What support does Vero provide?</h3>
+      <p>
+        We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week. 
+      </p>
+      <p>
+        We provide 24 hour support via email. We are proud of our support and our internal SLA is to provide a response to every ticket within three hours. Our aim is to understand and work with you closely on any specific marketing or technical questions or issues and ensure your problems are solved to the best of our abilities.
+      </p>
+      <p>
+        We also provide phone and emergency support for customers on our $1,049/month Enterprise plans. Please request a demo above for more information or if you have questions about this process.
       </p>
 
       <h3>Does the data I send Vero belong to me?</h3>
       <p>
-        Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored  as required to deliver the Vero service you require. At any time you can export or request to remove your data – it is entirely yours.
+        Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.
       </p>
       <p>
-        Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for full details.
+        Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.
       </p>
     </div>
     <div class="right">
-      <h3>What happens if I pay annually?</h3>
+      <h3>Can I pay annually?</h3>
       <p>
-        By choosing to pay annually,  you get two months of Vero free each year.
+        You can elect to pay annual. Customers that pay annual get two months of Vero free each year.
       </p>
       <p>
-        Paying annually also means your email limits are spread out across the year. For example, if you are on our $149/month plan and can send up to 175,000 emails per month, on our annual plan you can send up to 2,100,000 emails per year. This means that seasonal spikes in email volume will not require you to go up a plan, saving you even more.
+        Paying annually also means your email limits are spread out across the year. For example, if you are on our $99/month plan and can send up to 25,000 emails per month, on our annual plan you can send up to 300,000 emails <strong>per year</strong>. This means that monthly spikes in email volume will not require you to move up a plan, saving you even more.
       </p>
-
-      <h3>How do we handle support?</h3>
+      
+      <h3>What are projects?</h3>
       <p>
-        We use email as our primary support channel. Our aim is to respond to all tickets within a few hours and work with you closely on any specific or technical issues.
+        Projects are individual instances of Vero. Each project has it's own subscriber database, API keys and campaigns. In other words, it’s like having two or more Vero accounts in one.
       </p>
       <p>
-        We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week. If you think we’ve done a great job, or if we could do better next time, please email us an let us know.
+        If you’re an agency, you may also use projects to manage multiple clients.
       </p>
     </div>
   </div>
@@ -212,11 +212,11 @@ include 'pages-shared/static-header.php';
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
+    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">No credit card required</p>
+    <p class="small">No credit card required, only pay when you start sending live emails.</p>
   </div>
 </section>
 <?php
@@ -230,14 +230,14 @@ include 'pages-shared/static-header.php';
       <p class="large">Hang tight, one of our Customer Success engineers will be in touch soon.</p>
     <?php } else { ?>
     <div class="center-text">
-      <h2>Request a personal demo of the future of email.</h2>
-      <p class="medium">One of our Customer Success engineers will get in touch and show you around Vero, so you can see the full power of behavioral email.</p>
+      <h2>Great product, at any scale.</h2>
+      <p class="medium">Email is mission-critical. Talk directly to our product Success Team and learn how Vero ensures mission-critical sends of 100s of millions of emails for companies at scale.</p>
     </div>
     <div id="thanks">
       <h3>Thanks!</h3>
       <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
     </div>
-    <form id="high-volume-sender-form" action='http://localhost:3000/demos' method='post'>
+    <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
       <div class="half">
         <div class="form-group"><label>Name: <span>*</span></label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
         <div class="form-group"><label>Email: <span>*</span></label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
@@ -246,17 +246,14 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="half">
         <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="subscribers">
-          <option value="10000">0 - 10,000 subscribers</option>
-          <option value="100000">10,000 - 100,000 subscribers</option>
-          <option value="250000">100,000 - 250,000 subscribers</option>
+          <option value="250000">175,000 - 250,000 subscribers</option>
           <option value="500000">250,000 - 500,000 subscribers</option>
           <option value="1000000">500,000 - 1,000,000 subscribers</option>
           <option value="5000000">1,000,000 - 5,000,000 subscribers</option>
           <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
           <option value="more">10,000,000+ subscribers</option></select></div>
         <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="monthly_emails">
-          <option value="1000000">250,000 - 1,000,000 emails</option>
-          <option value="1000000">500,000 - 1,000,000 emails</option>
+          <option value="1000000">400,000 - 1,000,000 emails</option>
           <option value="1000000">1,000,000 - 5,000,000 emails</option>
           <option value="10000000">5,000,000 - 10,000,000 emails</option>
           <option value="50000000">10,000,000 - 50,000,000 emails</option>

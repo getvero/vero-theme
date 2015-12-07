@@ -35,7 +35,7 @@ _veroq.push(['track', 'viewed product', {
 <section id="data-libraries">
   <div class="inner center-text">
     <h4>Install on any code base</h4>
-    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="#">Check out our Developer Portal</a>.</p>
+    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="http://developers.getvero.com">Check out our Developer Portal</a>.</p>
     <ul id="library-list" class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png 2x">
@@ -62,36 +62,36 @@ _veroq.push(['track', 'viewed product', {
         <p>iOS</p>
       </li>
     </ul>
-    <p><a href="#">All Libraries</a></p>
+    <p><a href="http://developers.getvero.com" target="_blank">All Libraries</a></p>
   </div>
 </section>
 <section id="data-integrations">
   <div class="inner center-text">
     <h2>Works with the tools you already use</h2>
     <ul class="unstyled-list inline-list integrations-list feature-list thirds">
-      <li class="zapier">
-        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
-      </li>
       <li class="segment">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/segment@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc">Plug and play tracking of your users and their activity via <a href="http://segment.com" target="_blank">Segment's</a> platform and libraries. Stream data in minutes.</p>
+      </li>
+      <li class="zapier">
+        <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/zapier@2x.png 2x" height="68" />
+        <p class="feature-desc">Create automated workflows triggered by over the 250+ apps in <a href="http://zapier.com" target="_blank">Zapier's</a> library using Vero's Zapier integration.</p>
       </li>
       <li class="ga">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc">Vero plays nice with Google Analytics and other common analytics tools by automatically appending UTM tracking tags to the URLs in your emails. Get the full picture.</p>
       </li>
       <li class="mailgun">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc">We'll manage your outgoing emails for you but, if you want, you can plugin your own <a href="http://mailgun.com" target="_blank">Mailgun</a> account for more fine-grained control.</p>
       </li>
       <li class="sendgrid">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/sendgrid@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc"><a href="http://sendgrid.com" target="_blank">Sendgrid</a> is one of the world's largest sending and deliverability platforms. Take control of your email timing and content with Vero.</p>
       </li>
       <li class="mandrill">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/mandrill@2x.png 2x" height="68" />
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc">If you use and love <a href="http://mandrill.com" target="_blank">Mandrill</a> then you can plugin and continue to use their platform with Vero in minutes. Get more control with Vero.</p>
       </li>
     </ul>
   </div>
@@ -115,7 +115,7 @@ _veroq.push(['track', 'viewed product', {
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-webhooks@2x.png 2x" width="100" />
         <h4 class="feature-title">Forward Your Data with Webhooks</h4>
-        <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel sodales diam, a sodales diam. Sed gravid.</p>
+        <p class="feature-desc">Webhooks give you the power to data warehouse every email that is sent and every interaction that is taken inside Vero.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/data-csv.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-csv@2x.png 2x" width="100" />
@@ -149,11 +149,11 @@ _veroq.push(['track', 'viewed product', {
   <div class="inner center-text">
     <h1 class="cta-title">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <form action="https://app.getvero.com/signup" method="get" class="horizontal-signup-form">
+    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">No credit card required</p>
+    <p class="small">No credit card required, only pay when you start sending live emails.</p>
   </div>
 </section>
 <?php

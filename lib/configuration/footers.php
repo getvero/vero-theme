@@ -26,7 +26,7 @@ function custom_footer_html() {
   </ul>
   <ul class="col">
     <li class="header">Product</li>
-    <li><a href="/features">Features</a></li>
+    <li><a href="/features/email">Features</a></li>
     <li><a href="http://help.getvero.com">Help &amp; Support</a></li>
     <li><a href="/pricing">Pricing</a></li>
     <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
@@ -36,10 +36,10 @@ function custom_footer_html() {
   <ul class="col">
     <li class="header">Resources</li>
     <!--<li>About</li>-->
-    <li><a href="https://www.getvero.com/api">API Reference</a></li>
+    <li><a href="http://developers.getvero.com">API Reference</a></li>
     <li><a href="http://www.getvero.com/changelog">Changelog</a></li>
-    <li><a href="https://www.getvero.com/jobs">Jobs</a></li>
-    <li><a href="http://status.getvero.com/">Status</a></li>
+    <!-- <li><a href="https://www.getvero.com/jobs">Jobs</a></li> -->
+    <li><a href="http://status.getvero.com/" target="_blank">Status</a></li>
   </ul>
   <ul class="col">
     <li class="header">Company</li>
