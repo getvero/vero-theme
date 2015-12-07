@@ -190,7 +190,7 @@
 
     });
   });
-  
+
   //Responsive Header
   jQuery(document).ready( function(){
     jQuery( '.nav-menu-toggle' ).on( 'click', function() {
@@ -213,26 +213,4 @@
     }
   });
 
-  //Waypoints
-
-  if( jQuery('.single .shares-block')[0] != undefined ) {
-    var sharesInView = new Waypoint({
-      element: jQuery('.single .shares-block')[0],
-      handler: function(){
-        jQuery('.single .widget-area').toggleClass('show');
-      }
-    });
-  }
-
-  if( jQuery('.single .subscribe-form')[0] != undefined ) {
-    var subscribeInView = new Waypoint({
-      element: jQuery('.single .subscribe-form')[0],
-      handler: function(){
-        jQuery('.single .widget-area').toggleClass('show');
-      },
-      offset: '100%'
-    });
-  }
-
-  
 }).call(this);
