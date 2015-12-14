@@ -119,7 +119,7 @@
   <div class="developers block center-text">
     <div class="inner-block">
       <h3 class="block-title">A platform engineers can rely on</h3>
-      <p class="block-desc">Realiable and built around an API, Vero gets out of your way and gives you the power to work like the hundreds of other businesses that track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails every month with Vero. Libraries in Ruby, Python and more. </p>
+      <p class="block-desc">Reliable and built around an API, Vero gets out of your way and gives you the power to work like the hundreds of other businesses that track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails every month using Vero. Libraries in Ruby, Python and more. </p>
       <a href="http://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
   </div>
