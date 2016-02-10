@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function custom_footer() {
   if( is_singular('api_docs') ){
@@ -58,8 +58,8 @@ function blog_cta() {
     <div class="blog-cta-content">
       <h2>Send awesome emails with Vero</h2>
       <p>Behavioural Emails. User Segments. Automated Newsletters.</p>
-      <p>Get a Free 14 day Trial today!</p>
-      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">Start Free Trial</a>
+      <p>No obligation, only pay when you go live.</p>
+      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">Create your account</a>
     </div>
     <div class="blog-cta-image"><img src="/wp-content/themes/vero/assets/images/blog-cta@2x.png"></div>
   </div>
@@ -77,21 +77,21 @@ function blog_related_posts() {
       <?php
       $custom_query = new WP_Query('cat='.$categories[0]->cat_id.'&showposts=3');
       while( $custom_query->have_posts() ){
-        $custom_query->the_post(); 
-        $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
+        $custom_query->the_post();
+        $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
         $category = get_the_category(); ?>
-        <div class='related-post' style='background:url("<?php echo $featured_image; ?>"); background-size: cover'> 
+        <div class='related-post' style='background:url("<?php echo $featured_image; ?>"); background-size: cover'>
           <div class='related-image-overlay'></div>
           <div class="related-titles">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
           </div>
           <a class='related-link-overlay' href="<?php the_permalink(); ?>"></a>
         </div>
-      <?php 
+      <?php
       }
       wp_reset_postdata(); ?>
     </div> <?php
   }
-  
+
 }
 ?>

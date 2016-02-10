@@ -29,8 +29,8 @@ function get_highest_shares() {
     global $post;
     $i++;
     //$share_obj = new Naked_Social_Share_Buttons($post);
-    //$shares_array = get_field('naked_shares_count')['shares']; 
-    $nssb = new Naked_Social_Share_Buttons; 
+    //$shares_array = get_field('naked_shares_count')['shares'];
+    $nssb = new Naked_Social_Share_Buttons;
     $shares_array = $nssb->share_numbers['shares'];
 
     if($option == 'all') {
@@ -62,9 +62,9 @@ function add_featured_posts() {
       'post_type' => array('post', 'guides'),
       'featured' => 'yes'
     ));
-    while( $custom_query->have_posts() ) : $custom_query->the_post(); 
-      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
-      $category = get_the_category(); 
+    while( $custom_query->have_posts() ) : $custom_query->the_post();
+      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+      $category = get_the_category();
       $result = get_highest_shares();
       if( $result['shares'] < 30 ) {
         $result['platform'] = "none";
@@ -76,7 +76,7 @@ function add_featured_posts() {
         $result['shares'] = number_format($result['shares']);
       }
       ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover'<?php } ?>> 
+      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>> 
         <?php $nssb = new Naked_Social_Share_Buttons; echo $nssb->share_numbers['shares']; ?>
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
@@ -86,7 +86,7 @@ function add_featured_posts() {
         </div>
         <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
       </div>
-    <?php endwhile; 
+    <?php endwhile;
     wp_reset_postdata();
     ?>
     </div>
@@ -106,7 +106,7 @@ function add_shares() {
     ?>
       <div class='shares-block'>
         <!-- <div class='total-shares'>
-          <span><?php 
+          <span><?php
             //$share_obj = new Naked_Social_Share_Buttons($post);
             $shares = get_field('naked_shares_count')['shares'];
             echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
@@ -139,7 +139,7 @@ function category_setup() {
     }
 
     remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' ); 
+    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
     remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
     remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
     remove_action( 'genesis_entry_footer', 'add_shares' );
@@ -150,7 +150,7 @@ function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
     <h2 class="section-title">Latest</h2>
   <?php }
-  else if( is_home() && is_paged() ){ 
+  else if( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
     <h2 class="section-title">All – Page <?php echo $paged; ?></h2>
   <?php }
@@ -169,11 +169,11 @@ function add_latest_title() {
 }
 
 function get_category_title() {
-  if( is_home() ){ 
+  if( is_home() ){
     echo "All";
   } else if( is_category() ){
     echo single_cat_title();
-  } else if( is_search() ) { 
+  } else if( is_search() ) {
     echo "Search";
   }
 }
