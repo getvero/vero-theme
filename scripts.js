@@ -169,7 +169,7 @@
 
   //Highlight.js
   jQuery(document).ready(function() {
-    jQuery('pre').each(function(i, block) {
+    jQuery('code').each(function(i, block) {
       hljs.highlightBlock(block);
     });
   });
