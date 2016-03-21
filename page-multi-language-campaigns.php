@@ -29,7 +29,7 @@
       <ul class="steps unstyled-list">
         <li class="step"><span class="number">1</span><p class="step-title"><strong>Add a Language Variation</strong></p><p>Every campaign can have multiple content variations. Add as many as you need.</p></li>
         <li class="step"><span class="number">2</span><p class="step-title"><strong>Select a Language</strong></p><p>Choose the language that you want to send. Vero automatically checks every one of your customers for the ‘language’ property and sends the right variation to each individual.</p></li>
-        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML codeto the language variation, or use our rich text editor. You can change what ever you like in each variation and use liquid and <a href="http://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
+        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML codeto the language variation, or use our rich text editor. You can change what ever you like in each variation and use <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid</a> and <a href="http://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
         <li class="step"><span class="number">4</span><p class="step-title"><strong>There is no fourth step!</strong> Launch the campaign and the right variation will be sent to the right user when your email is sent.</p></li>
       </ul>
     </div>
@@ -54,8 +54,8 @@
 vero.users.track!({
     id: '123',
     email: 'damienb@getvero.com',
-    data: {
-      language: 'fr-FR'
+    {
+      language: 'fr_FR'
     }
   })</code></pre>
       </div>
