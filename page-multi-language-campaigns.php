@@ -41,7 +41,7 @@
 <section id="multi-language-how-it-works" class="center-text border-bottom">
   <div class="inner center-text">
     <h2>How does it work?</h2>
-    <p>Vero reserves the <code>language</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>language</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es-ES</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer.</p>
+    <p>Vero reserves the <code>language</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>language</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es_ES</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works@2x.png 2x">
   </div>
 </section>
