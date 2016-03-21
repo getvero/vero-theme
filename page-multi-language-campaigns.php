@@ -65,11 +65,7 @@ vero.users.track!({
       
   </div>
 </section>
-<section id="multi-language-coming-soon" class="coming-soon-banner">
-  <div class="inner">
-    <h3>Coming Soon</h3>
-  </div>
-</section>
+
 
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
@@ -78,6 +74,11 @@ vero.users.track!({
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Notify Me">
     </form>
+  </div>
+</section>
+<section id="multi-language-coming-soon" class="coming-soon-banner">
+  <div class="inner">
+    <h3>Coming Soon</h3>
   </div>
 </section>
 <?php
