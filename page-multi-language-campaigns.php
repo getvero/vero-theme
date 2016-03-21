@@ -74,7 +74,7 @@ vero.users.track!({
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
     <h2>Keep updated and get early access</h2>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+    <form action="https://app.getvero.com/forms/be673e13e65a86736e07c35dad12b7a1" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Notify Me">
     </form>
