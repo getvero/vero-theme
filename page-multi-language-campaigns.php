@@ -9,6 +9,11 @@
 
   include 'pages-shared/static-header.php';
 ?>
+<section id="multi-language-coming-soon" class="coming-soon-banner">
+  <div class="inner">
+    <h3>Coming Soon</h3>
+  </div>
+</section>
 <section id="multi-language-hero" class="hero border-bottom">
   <div class="inner center-text">
     <h1 class="hero-title">The simple way to send your multi language emails</h1>
