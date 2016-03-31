@@ -16,10 +16,10 @@
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/data-compliance-hero.svg">
   </div>
 </section>
-<section id="data-compliance-why" class="hero border-bottom flush-bottom">
+<section id="data-compliance-why" class="hero border-bottom">
   <div class="inner center-text">
     <h1>Peace of mind now and in the future</h1>
-    <p>North America, The European Economic Area, Australia and China all have unique and nuanced data requirements. Vero helps you store realtime data about your customers and their actions on an ongoing basis. Thanks to our experience tracking billions of datapoints for hundreds of global businesses, we're experts in data processing and movement and our <em>Vero Local</em> service lets you tap into this expertise to ensure current, and help protect against future changes in, global data storage laws and requirements.</p>
+    <p>North America, The European Economic Area, Australia and China all have unique and nuanced data requirements. Vero helps you store realtime data about your customers and their actions on an ongoing basis. Thanks to our experience tracking billions of datapoints for hundreds of global businesses, we're experts in data processing and movement and our <em>Vero Local</em> service lets you tap into this expertise to ensure current, and help protect against future changes in global data storage laws and requirements.</p>
   </div>
 </section>
 <section id="data-compliance-stats" class="dark-box">
@@ -78,13 +78,12 @@
 </section>
 <section id="data-compliance-customers" class="center-text border-bottom">
   <div class="inner center-text">
-    <h2>Some of Vero's International Enterprise Customers</h2>
     <p>We work with hundreds of large, international businesses. Here's just a couple.</p>
-    <ul>
-      <li>TIDAL, Norway (EEA)</li>
-      <li>Canva, Sydney (AU)</li>
-      <li>About.me, San Francisco (N.AMERICA)</li>
-      <li>Strikingly, Shanghai (CHINA)</li>
+    <ul class="center-text feature-list fourths">
+      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/tidal.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/tidal@2x.png 2x"><p><strong>Norway</strong> <span class="small-text">(EUROPE)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/canva.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/canva@2x.png 2x"><p><strong>Sydney</strong> <span class="small-text">(AUSTRALIA)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/aboutme.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/aboutme@2x.png 2x"><p><strong>San Francisco</strong><span class="small-text"> (N.AMERICA)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/strikingly.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/strikingly@2x.png 2x"><p><strong>Shanghai</strong><span class="small-text"> (CHINA)</span></p></li>
     </ul>
   </div>
 </section>
