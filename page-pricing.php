@@ -222,5 +222,5 @@ include 'pages-shared/static-header.php';
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
-  include("enquiry-form.php");
+  include("demo-enquiry-form.php");
 ?>

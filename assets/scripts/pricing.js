@@ -71,6 +71,7 @@ jQuery(document).ready(function(){
         {
            console.log('Demo sent!');
            jQuery("#high-volume-sender-form").hide();
+           jQuery("#enquire-intro").hide();
            jQuery("#thanks").show();
         }
       });
