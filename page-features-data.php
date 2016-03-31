@@ -79,7 +79,7 @@ _veroq.push(['track', 'viewed product', {
       </li>
       <li class="ga">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/ga@2x.png 2x" height="68" />
-        <p class="feature-desc">Vero plays nice with Google Analytics and other common analytics tools by automatically appending UTM tracking tags to the URLs in your emails. Get the full picture.</p>
+        <p class="feature-desc">Vero plays nice with Google Analytics and other common analytics tools by automatically appending UTM tags to the URLs in your emails. Get the full picture.</p>
       </li>
       <li class="mailgun">
         <img src="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/integrations/mailgun@2x.png 2x" height="68" />
