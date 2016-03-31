@@ -39,7 +39,7 @@
       <li>
         <h1 class="biggie">150+</h1>
         <h4 class="feature-title">International enterprise customers</h4>
-        <p class="feature-desc">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.</p>
+        <p class="feature-desc">Vero's customers are located all around the world. Working predominantly with large, B2C, online businesses that send millions of emails each month, we've got experience helping businesses the world over at scale.</p>
       </li>
     </ul>
   </div>
@@ -54,14 +54,14 @@
         <div class="region-deets">
           <h3>North America</h3>
           <p class="regions-deets">N. Virginia, Oregon</p>
-          <a href="" class="btn btn-success">Enquire</a>
+          <a rel="leanModal" href="#demo" class="btn btn-success">Enquire</a>
         </div>
       </li>
       <li>
         <div class="region-deets">
           <h3>Europe</h3>
           <p class="regions-deets">Ireland, Frankfurt</p>
-          <a href="" class="btn btn-success">Enquire</a>
+          <a rel="leanModal" href="#demo" class="btn btn-success">Enquire</a>
         </div>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/europe.svg" class="background-map">
       </li>
@@ -70,7 +70,7 @@
         <div class="region-deets">
           <h3>Asia Pacific</h3>
           <p class="regions-deets">Sydney, Beijing</p>
-          <a href="" class="btn btn-success">Enquire</a>
+          <a rel="leanModal" href="#demo" class="btn btn-success">Enquire</a>
         </div>
       </li>
     </ul>
@@ -91,4 +91,5 @@
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
+  include("enquiry-form.php");
 ?>
