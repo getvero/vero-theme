@@ -19,7 +19,7 @@
 <section id="data-compliance-why" class="hero border-bottom">
   <div class="inner center-text">
     <h1>Peace of mind now and in the future</h1>
-    <p>North America, The European Economic Area, Australia and China all have unique and nuanced data requirements. Vero helps you store realtime data about your customers and their actions on an ongoing basis. Thanks to our experience tracking billions of datapoints for hundreds of global businesses, we're experts in data processing and movement and our <em>Vero Local</em> service lets you tap into this expertise to ensure current, and help protect against future changes in global data storage laws and requirements.</p>
+    <p>North America, The European Economic Area, Australia and China all have unique and nuanced data requirements. Vero helps you store realtime data about your customers and their actions on an ongoing basis. Thanks to our experience tracking billions of datapoints for hundreds of global businesses, we're experts in data processing and storage. Our <em>Vero Local</em> service helps you tap into this expertise to ensure compliance with current global data laws and requirements as well as protecting aginst future changes.</p>
   </div>
 </section>
 <section id="data-compliance-stats" class="dark-box">
