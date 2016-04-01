@@ -62,7 +62,7 @@ function add_js() {
   wp_enqueue_script('pricing');
   wp_enqueue_script('blog');
 
-  if(is_blog()){
+  if(is_blog() || is_page('features-data') ){
     wp_enqueue_script('highlight-js');
   }
 }
