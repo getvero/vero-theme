@@ -41,7 +41,9 @@ jQuery(document).ready(function(){
     }
   });
 
-  jQuery('.menu-item-has-children > a').click(function(){
+  jQuery('.menu-item-has-children > a').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
     if(jQuery(this).siblings('.sub-menu').hasClass('show-sub-menu')) {
       jQuery(this).siblings('.sub-menu').removeClass('show-sub-menu');
       console.log('remove')
@@ -52,7 +54,7 @@ jQuery(document).ready(function(){
     }
   });
 
-  jQuery(document).mouseup(function (e){
+  jQuery(document).click(function (e){
     var sub_menu = jQuery(".menu-item-has-children > .sub-menu");
     var link = jQuery(".menu-item-has-children > a");
     console.log(sub_menu);
