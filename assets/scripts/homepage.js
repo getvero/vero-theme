@@ -44,23 +44,21 @@ jQuery(document).ready(function(){
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
     e.stopPropagation();
+
     if(jQuery(this).siblings('.sub-menu').hasClass('show-sub-menu')) {
       jQuery(this).siblings('.sub-menu').removeClass('show-sub-menu');
-      console.log('remove')
     }
     else {
+      jQuery('.sub-menu.show-sub-menu').removeClass('show-sub-menu');
       jQuery(this).siblings('.sub-menu').addClass('show-sub-menu');
-      console.log('add')
     }
   });
 
   jQuery(document).click(function (e){
     var sub_menu = jQuery(".menu-item-has-children > .sub-menu");
     var link = jQuery(".menu-item-has-children > a");
-    console.log(sub_menu);
     if (!sub_menu.is(e.target) && sub_menu.has(e.target).length === 0){
       sub_menu.removeClass('show-sub-menu');
-      console.log('outside-remove');
     }
   });
 });
