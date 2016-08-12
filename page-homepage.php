@@ -10,7 +10,7 @@
 ?>
   <div class="inner clean-padding">
     <div class="content center-text">
-      <h1 class="home-hero">The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern, online businesses</span></h1>
+      <h1 class="home-hero">The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern online businesses</span></h1>
       <p>Automated workflows, real time event tracking and segmentation on all of your data.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
