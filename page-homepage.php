@@ -34,7 +34,7 @@
       <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
       <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
-      <li class="logo rjmetrics"><img src="/wp-content/themes/vero/assets/images/home/logos/home-rjmetrics.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-rjmetrics@2x.png 2x" alt="RJMetrics" height="76"></li>
+      <li class="logo rjmetrics"><img src="/wp-content/themes/vero/assets/images/home/logos/home-udacity.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-udacity@2x.png 2x" alt="Udacity" height="76"></li>
     </ul>
   </div>
 </section>
