@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>rubix</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0365340359 19.7170427 37.7419604 0.210814576 75.4473867 19.7170427 75.4473867 64.3603994 37.7419604 84 0.0365340359 64.3603994"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75.4108527" height="83.7891854" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rubix">
+            <g id="Group-10">
+                <rect id="Rectangle-4" fill="#E8F7FB" x="0" y="0" width="100" height="100" rx="50"></rect>
+                <g id="Group-9" transform="translate(12.000000, 8.396216)" stroke="#0AA6D2">
+                    <use id="Rectangle-13" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <path d="M37.7419604,39.5674579 L37.7419604,81.9272716" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M25.3698674,33.6933321 L25.3698674,75.5971941" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M12.9977743,27.2317936 L12.9977743,69.3105709" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M50.1140534,33.6933321 L50.1140534,75.6814226" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M62.4861464,27.2317936 L62.4861464,69.2915279" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7054264,39.2979737 L1.91601562,20.5935304" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M50.0775194,32.8364353 L14.1120605,14.1059816" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M62.4496124,26.3748968 L26.6340332,7.70290542" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7054264,53.9832884 L1.53295898,35.1299074" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7054264,68.6686031 L1.66064453,49.8923585" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7419604,39.3553382 L73.7888201,20.5761964" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M25.3698674,32.8937998 L61.142088,14.2209718" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M12.9977743,26.4322613 L48.8020003,7.78444839" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7419604,54.1740254 L73.8815936,35.2358644" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M37.7419604,68.9681892 L73.9304217,49.9336183" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <polygon id="Path-2" fill-opacity="0.15" fill="#0AA6D2" points="25.2446289 50.0922852 37.590332 56.3710938 37.1069336 70.3959961 25.0922852 64.105957"></polygon>
+                <polygon id="Path-2" fill-opacity="0.201256793" fill="#0AA6D2" points="25.1523438 35 37.4980469 41.2788086 37.0146484 55.3037109 25 49.0136719"></polygon>
+                <polygon id="Path-2" fill-opacity="0.3" fill="#0AA6D2" points="13.1523438 44 25.4980469 50.2788086 25.0146484 64.3037109 13 58.0136719"></polygon>
+                <polygon id="Path-2" fill-opacity="0.3" fill="#0AA6D2" points="37.1523438 41 49.4980469 47.2788086 49.0146484 61.3037109 37 55.0136719"></polygon>
+                <polygon id="Path-2" fill-opacity="0.201256793" fill="#0AA6D2" points="37.2446289 71.0922852 49.590332 77.3710938 49.1069336 91.3959961 37.0922852 85.105957"></polygon>
+                <polygon id="Path-2" fill-opacity="0.4" fill="#0AA6D2" points="61.6293945 29 74.0351562 35.5610352 61.6293945 41.6123047 50 35.5610352"></polygon>
+                <polygon id="Path-2" fill-opacity="0.4" fill="#0AA6D2" points="74.3515625 49.7368164 74.3515625 64.4672852 62.5444336 70.8110352 61.828125 56.1137695"></polygon>
+                <polygon id="Path-2" fill-opacity="0.149399909" fill="#0AA6D2" points="86.5234375 58 86.5234375 72.7304688 74.7163086 79.0742188 74 64.3769531"></polygon>
+                <polygon id="Path-2" fill-opacity="0.149399909" fill="#0AA6D2" points="62.5234375 57 62.5234375 71.7304688 50.7163086 78.0742188 50 63.3769531"></polygon>
+                <polygon id="Path-2" fill-opacity="0.149399909" fill="#0AA6D2" points="74.5234375 35 74.5234375 49.7304688 62.7163086 56.0742188 62 41.3769531"></polygon>
+                <polygon id="Path-2" fill-opacity="0.146257926" fill="#0AA6D2" points="49.6293945 22.4249562 62.0351562 28.9859913 49.6293945 35.0372609 38 28.9859913"></polygon>
+                <polygon id="Path-2" fill-opacity="0.146257926" fill="#0AA6D2" points="49.6293945 9.42495618 62.0351562 15.9859913 49.6293945 22.0372609 38 15.9859913"></polygon>
+                <polygon id="Path-2" fill-opacity="0.4" fill="#0AA6D2" points="25.6293945 22 38.0351562 28.5610352 25.6293945 34.6123047 14 28.5610352"></polygon>
+                <polygon id="Path-2" fill-opacity="0.4" fill="#0AA6D2" points="61.6293945 16 74.0351562 22.5610352 61.6293945 28.6123047 50 22.5610352"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

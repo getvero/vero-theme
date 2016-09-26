@@ -9,8 +9,8 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="data-compliance-hero" class="hero border-bottom flush-bottom">
-  <div class="inner center-text">
+<section id="data-compliance-hero" class="hero border-bottom">
+  <div class="inner center-text flush-bottom">
     <h1>Go local. Host your data where you need to.</h1>
     <p>The world has gone global and your business has to move fast to keep up.<br><em>Vero Local</em> gives you peace of mind and helps you stay compliant with the data laws in your region.</p>
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/data-compliance-hero.svg">
