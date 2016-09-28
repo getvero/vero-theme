@@ -15,6 +15,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <?php else: ?>
     <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104" height="36"></a></li>
     <?php endif ?>
+    <li><a href="https://www.getvero.com/careers" class="hiring-pill">We're Hiring!</a></li>
   </ul>
   <?php $logo = ob_get_clean();
 

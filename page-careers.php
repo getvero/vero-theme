@@ -16,7 +16,7 @@
 ?>
   <div class="inner">
     <h1 class="hulk no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
-    <button class="btn btn-outline">Get amoungst it!</button>
+    <a class="btn btn-outline" href="#careers-job-listings">Get amoungst it!</a>
   </div>
 </section>
 <section id="careers-mission" class="double-padding">
@@ -30,7 +30,7 @@
     <h1 class="chunk font-brand-dark no-margin bottom-margin-large">Be empowered to do your best work</h1>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
-    <ul class="feature-list unstyled-list thirds">
+    <ul class="feature-list unstyled-list thirds sm-left-align">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/rubix.svg" class="bottom-margin-small">
         <p class="semi-bold">Work on the hard problems</p>
@@ -63,42 +63,51 @@
 </section>
 <section id="careers-profiles" class="double-padding">
   <ul class="bxslider" id="careers-profiles-slider">
-    <li id="reba">
+    <li class="reba">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
-        <p class="quote">
-          Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.
+        <p class="italic">
+          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s part of what drives me every day.</q>
         </p>
-        <h4>Reba Moyes</h4>
-        <p class="no-top-margin">Support</p>
+        <div class="top-margin-small">
+          <div class="pull-left reba small-profile-image"></div>
+          <h4>Reba Moyes</h4>
+          <p class="no-top-margin">Support</p>
+        </div>
       </div>
     </li>
-    <li id="andrew">
+    <li class="andrew">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
-        <p class="quote">
-          Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.
+        <p class="italic">
+          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
-        <h4>Andrew O'Brien</h4>
-        <p class="no-top-margin">Product Engineering</p>
+        <div class="top-margin-small">
+          <div class="pull-left andrew small-profile-image"></div>
+          <h4>Andrew O'Brien</h4>
+          <p class="no-top-margin">Product Engineering</p>
+        </div>
       </div>
     </li>
-    <li id="mitchell">
+    <li class="mitchell">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
-        <p class="quote">
-          Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.
+        <p class="italic">
+          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
-        <h4>Mitchell Quille</h4>
-        <p class="no-top-margin">Engineering</p>
+        <div class="top-margin-small">
+          <div class="pull-left mitchell small-profile-image"></div>
+          <h4>Mitchell Quille</h4>
+          <p class="no-top-margin">Engineering</p>
+        </div>
       </div>
     </li>
   </ul>
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
-  <div class="inner center-text blue-box">
-    <h1 class="center-text chunk font-brand-dark">Not just work life, real life</h1>
-    <ul class="feature-list unstyled-list thirds center-text">
+  <div class="inner blue-box">
+    <h1 class="chunk font-brand-dark md-center">Not just work life, real life</h1>
+    <ul class="feature-list unstyled-list thirds md-center sm-left-align">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
         <h4>Remote First</h4>
@@ -138,7 +147,7 @@
     <p class="medium regular">We embrace the fact that living and traveling to different countries is a part of life, thats why we are 100% remote friendly, infact, its encouraged! Our team is free to live and work wherever they want. While many of us are based in Sunny Sydney that doesn’t mean you have to be too. Here’s a list of the places our team members have lived while at Vero: </p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
-    <ul class="feature-list unstyled-list sixths center-text">
+    <ul class="feature-list unstyled-list flex center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x">
         <p class="semi-bold no-bottom-margin">Sydney</p>
