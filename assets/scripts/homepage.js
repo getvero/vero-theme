@@ -17,6 +17,20 @@ jQuery(document).ready(function(){
     hideControlOnEnd: true,
     pager: false
   });
+  var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
+    mode: 'fade',
+    adaptiveHeight: true,
+    responsive: true,
+    controls: false,
+    infiniteLoop: true,
+    hideControlOnEnd: false,
+    pager: false
+  });
+
+  jQuery('#careers-profiles-slider .bx-control').click(function(){
+    var slideNum = jQuery(this).data('bx');
+    careersSlider.goToSlide(slideNum);
+  });
 
   jQuery('#slider-monthly').click(function(){
     if(jQuery(this).hasClass('active')) {

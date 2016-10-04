@@ -62,7 +62,7 @@
   </div>
 </section>
 <section id="careers-profiles" class="double-padding">
-  <ul class="bxslider" id="careers-profiles-slider">
+  <ul class="" id="careers-profiles-slider">
     <li class="reba">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
@@ -73,6 +73,11 @@
           <div class="pull-left reba small-profile-image"></div>
           <h4>Reba Moyes</h4>
           <p class="no-top-margin">Support</p>
+        </div>
+        <div class="bx-controls">
+          <div class="bx-control bx-active" data-bx="0"></div>
+          <div class="bx-control" data-bx="1"></div>
+          <div class="bx-control" data-bx="2"></div>
         </div>
       </div>
     </li>
@@ -87,6 +92,11 @@
           <h4>Andrew O'Brien</h4>
           <p class="no-top-margin">Product Engineering</p>
         </div>
+        <div class="bx-controls">
+          <div class="bx-control" data-bx="0"></div>
+          <div class="bx-control bx-active" data-bx="1"></div>
+          <div class="bx-control" data-bx="2"></div>
+        </div>
       </div>
     </li>
     <li class="mitchell">
@@ -99,6 +109,11 @@
           <div class="pull-left mitchell small-profile-image"></div>
           <h4>Mitchell Quille</h4>
           <p class="no-top-margin">Engineering</p>
+        </div>
+        <div class="bx-controls">
+          <div class="bx-control" data-bx="0"></div>
+          <div class="bx-control" data-bx="1"></div>
+          <div class="bx-control bx-active" data-bx="2"></div>
         </div>
       </div>
     </li>
