@@ -34,7 +34,7 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/rubix.svg" class="bottom-margin-small">
         <p class="semi-bold">Work on hard problems</p>
-        <p class="regular">Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting, at scale.</p>
+        <p class="regular">Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/meteor.svg" class="bottom-margin-small">
@@ -126,7 +126,7 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
         <h4>Remote-First</h4>
-        <p>Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin the woods.</p>
+        <p>Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/hours.svg">
@@ -197,32 +197,20 @@
     <p class="medium regular">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="" class="semi-bold display-block vertical-padding-small">
-          Product & Support Engineer
+        <a href="https://getvero.workable.com/jobs/236418" class="semi-bold display-block vertical-padding-small">
+          Senior Backend Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       <li class="no-margin">
-        <a href="" class="semi-bold display-block vertical-padding-small">
+        <a href="https://getvero.workable.com/jobs/334709" class="semi-bold display-block vertical-padding-small">
           Site Reliability Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       <li class="no-margin">
-        <a href="" class="semi-bold display-block vertical-padding-small">
-          Senior Engineer
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
-        <a href="" class="semi-bold display-block vertical-padding-small">
-          Growth Manager
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
-        <a href="" class="semi-bold display-block vertical-padding-small">
-          Front End Engineer
+        <a href="https://getvero.workable.com/jobs/236426" class="semi-bold display-block vertical-padding-small">
+          Internal Product and Support Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
