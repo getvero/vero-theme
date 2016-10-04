@@ -22,7 +22,7 @@
 <section id="careers-mission" class="double-padding">
   <div class="inner small-inner flush-bottom">
     <h1 class="chunk font-brand-dark">We believe data is changing our world</h1>
-    <p class="medium regular">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
+    <p class="medium">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
   </div>
 </section>
 <section id="careers-why" class="double-padding">
@@ -34,17 +34,17 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/rubix.svg" class="bottom-margin-small">
         <p class="semi-bold">Work on hard problems</p>
-        <p class="regular">Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
+        <p class="">Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/meteor.svg" class="bottom-margin-small">
         <p class="semi-bold">Make an impact</p>
-        <p class="regular">We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
+        <p class="">We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/grow.svg" class="bottom-margin-small">
         <p class="semi-bold">Opportunities to grow</p>
-        <p class="regular">We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
+        <p class="">We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
       </li>
     </ul>
   </div>
@@ -52,7 +52,7 @@
 <section id="careers-vibe" class="double-padding">
   <div class="inner small-inner bottom-padding-medium">
     <h1 class="chunk font-brand-dark">Live to work, not the other way around</h1>
-    <p class="medium regular">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
+    <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
   <div class="inner flush-top large-inner vibe-images">
     <div class="vibe-image" id="glass"></div>
@@ -65,7 +65,7 @@
   <ul class="" id="careers-profiles-slider">
     <li class="reba">
       <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
+        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s part of what drives me every day.</q>
         </p>
@@ -83,7 +83,7 @@
     </li>
     <li class="andrew">
       <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
+        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
@@ -101,7 +101,7 @@
     </li>
     <li class="mitchell">
       <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
+        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
@@ -125,28 +125,28 @@
     <ul class="feature-list unstyled-list thirds md-center sm-left-align">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
-        <h4>Remote-First</h4>
-        <p>Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
+        <p class="semi-bold">Remote-First</p>
+        <p class="">Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/hours.svg">
-        <h4>Flexibility</h4>
-        <p>We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/health.svg">
-        <h4>Health Conscious</h4>
-        <p>We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
+        <p class="semi-bold">Flexibility</p>
+        <p class="">We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/vacation.svg">
-        <h4>Yearly Adventures</h4>
-        <p>Once a year we go on a team retreat somewhere exciting, challenging and inspiring. Last year we went to Thailand.</p>
+        <p class="semi-bold">Yearly Adventures</p>
+        <p class="">Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/careers/health.svg">
+        <p class="semi-bold">Health Conscious</p>
+        <p class="">We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/activities.svg">
-        <h4>Team Activities</h4>
-        <p>From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
+        <p class="semi-bold">Team Activities</p>
+        <p class="">From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
       </li>
     </ul>
   </div>
@@ -154,7 +154,7 @@
 <section id="careers-remote" class="double-padding">
   <div class="inner small-inner bottom-padding-small">
     <h1 class="chunk font-brand-dark">Be where you want to be</h1>
-    <p class="medium regular">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s a list of the places Vero team members reside:</p>
+    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s a list of the places Vero team members reside:</p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
     <ul class="feature-list unstyled-list flex center-text">
@@ -194,7 +194,7 @@
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
     <h1 class="chunk font-brand-dark">See where you fit in</h1>
-    <p class="medium regular">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
+    <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/236418" class="semi-bold display-block vertical-padding-small">
