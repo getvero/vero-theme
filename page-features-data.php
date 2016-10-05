@@ -13,9 +13,8 @@
   <div class="inner center-text">
     <h1 class="hero-title">An API-driven email platform built with engineers in mind</h1>
     <p class="large">“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>
-   <ul class="bxslider">
-     <li id="data-code-block">
-        <pre class="language-javascript line-numbers"><code>//Javascript for adding a user with user properties
+    <div id="data-code-block">
+      <pre class="language-javascript nohighlight no-highlight line-numbers"><code class="no-highlight nohighlight">//Javascript for adding a user with user properties
 _veroq.push(['user', {
   id: 'CUSTOMER_ID',
   email: 'CUSTOMER_EMAIL',
@@ -28,8 +27,7 @@ _veroq.push(['track', 'viewed product', {
   product_name: 'Red T-shirt',
   product_url: 'http://www.yourdomain.com/products/red-t-shirt'
 }])</code></pre>
-      </li>
-    </ul>
+    </div>
   </div>
 </section>
 <section id="data-libraries">

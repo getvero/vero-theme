@@ -170,8 +170,10 @@
   //Highlight.js
   jQuery(document).ready(function() {
     jQuery('pre code').each(function(i, block) {
-      if(typeof(hljs) != 'undefined') {
-        hljs.highlightBlock(block);
+      if(!jQuery(this).hasClass('nohighlight')){
+        if(typeof(hljs) != 'undefined') {
+          hljs.highlightBlock(block);
+        }
       }
     });
   });
