@@ -63,27 +63,27 @@
 </section>
 <section id="careers-profiles" class="double-padding">
   <ul class="" id="careers-profiles-slider">
-    <li class="reba">
+    <li class="rory">
       <div class="inner">
-        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
+        <h3>Do exceptional work with extraordinary people</h3>
         <p class="italic">
-          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s part of what drives me every day.</q>
+          <q>Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
         </p>
         <div class="top-margin-small">
           <div class="pull-left reba small-profile-image"></div>
-          <h4>Reba Moyes</h4>
-          <p class="no-top-margin">Support</p>
+          <h4>Rory Colsell</h4>
+          <p class="no-top-margin">Product Design</p>
         </div>
-        <div class="bx-controls">
+        <!-- <div class="bx-controls">
           <div class="bx-control bx-active" data-bx="0"></div>
           <div class="bx-control" data-bx="1"></div>
           <div class="bx-control" data-bx="2"></div>
-        </div>
+        </div> -->
       </div>
     </li>
-    <li class="andrew">
+    <!-- <li class="andrew">
       <div class="inner">
-        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
+        <h3>Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
@@ -101,7 +101,7 @@
     </li>
     <li class="mitchell">
       <div class="inner">
-        <h3 class="font-brand-dark">Do exceptional work with extraordinary people</h3>
+        <h3>Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
@@ -116,7 +116,7 @@
           <div class="bx-control bx-active" data-bx="2"></div>
         </div>
       </div>
-    </li>
+    </li> -->
   </ul>
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
