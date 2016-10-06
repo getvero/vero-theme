@@ -18,7 +18,7 @@ function custom_load_custom_style_sheet() {
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
   } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" ) {
-    $base_url = "//static.getvero.com.s3.amazonaws.com/staging";
+    $base_url = "https://s3.amazonaws.com/static-getvero-com/staging/app.css";
     $suffix   = "css";
   } else {
     $base_url = "https://d3qxef4rp70elm.cloudfront.net";
