@@ -14,18 +14,18 @@
     <h1 class="hero-title">An API-driven email platform built with engineers in mind</h1>
     <p class="large">“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>
     <div id="data-code-block">
-      <pre class="language-javascript nohighlight no-highlight line-numbers"><code class="no-highlight nohighlight">//Javascript for adding a user with user properties
+      <pre class="language-javascript line-numbers"><code class="nohighlight">//Javascript for adding a user with user properties
 _veroq.push(['user', {
-  id: 'CUSTOMER_ID',
-  email: 'CUSTOMER_EMAIL',
-  first_name: 'CUSTOMER_NAME',
-  last_name: 'CUSTOMER_LAST_NAME'
+id: 'CUSTOMER_ID',
+email: 'CUSTOMER_EMAIL',
+first_name: 'CUSTOMER_NAME',
+last_name: 'CUSTOMER_LAST_NAME'
 }]);
 
 //Javascript for tracking an event with event properties
 _veroq.push(['track', 'viewed product', {
-  product_name: 'Red T-shirt',
-  product_url: 'http://www.yourdomain.com/products/red-t-shirt'
+product_name: 'Red T-shirt',
+product_url: 'http://www.yourdomain.com/products/red-t-shirt'
 }])</code></pre>
     </div>
   </div>

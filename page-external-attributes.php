@@ -50,7 +50,7 @@
     </ul>
   </div>
 </section>
-<section id="external-attributes-tidal" class="darker-box floating-section double-padding flush-bottom">
+<section id="external-attributes-tidal" class="darker-box floating-section double-padding">
   <div class="inner">
     <div class="half">
       <img src="" title="Tidal">
@@ -67,7 +67,29 @@
     </div>
   </div>
 </section>
-
+<section id="external-attributes-extras" class="">
+  <div class="inner gradient-border-bottom gradient-border-top">
+    <ul class="feature-list unstyled-list halfs">
+      <li>
+        <img src="">
+        <p class="semi-bold">Access your data in real time</p>
+        <p>Spend less time normalizing your data and building push-based data pipelines. With Fusion, just access the data when you need it.</p>
+      </li>
+      <li>
+        <img src="">
+        <p class="semi-bold">Works with 3rd Party API’s too…</p>
+        <p>Delight your customers by enhancing your emails with information pulled from any number of openly available API’s.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="external-attributes-scale" class="double-padding">
+  <div class="inner center-text">
+    <h1 class="chunk no-bottom-margin">Built to Scale</h1>
+    <p class="medium">As your business grows, Vero automatically scales with it, so you can concentrate on sending emails your customers love. We send over <span>250,000,000 emails a month so you know you’re in good hands.</p>
+    <img src="">
+  </div>
+</section>
 <?php 
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
