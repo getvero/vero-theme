@@ -4,7 +4,7 @@
 include_once( 'lib/configuration/assets.php' );
 include_once( 'lib/configuration/archive.php' );
 include_once( 'lib/configuration/blog.php' );
-include_once( 'lib/configuration/changelog.php' );
+include_once( 'lib/configuration/release_notes.php' );
 include_once( 'lib/configuration/posts.php' );
 include_once( 'lib/configuration/search.php' );
 include_once( 'lib/configuration/global.php' );
@@ -17,7 +17,7 @@ include_once( 'lib/post_types/api.php' );             # API archive and pages
 include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
 include_once( 'lib/post_types/guides.php' );          # Guides pages
 include_once( 'lib/post_types/help_docs.php' );       # Help docs archive and pages
-include_once( 'lib/post_types/changelogs.php' );       # Changelogs
+include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
 function genesischild_theme_setup() { 
@@ -48,7 +48,7 @@ function genesischild_theme_setup() {
 
   // Add custom types
   add_action( 'init', 'create_jobs_post_type' );
-  add_action( 'init', 'create_changelogs_post_type' );
+  add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_api_post_type' );
   add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
@@ -122,9 +122,9 @@ function genesischild_theme_setup() {
     'description' => 'This is a column for the API docs sidebar.',
   ) );
 
-  // Customise changelog
-  add_action( 'genesis_before', 'remove_elements_changelog' );
-  add_action( 'template_redirect', 'single_changelog_redirect' );
+  // Customise Release Notes
+  add_action( 'genesis_before', 'remove_elements_release_notes' );
+  add_action( 'template_redirect', 'single_release_note_redirect' );
 }
 
 ?>
