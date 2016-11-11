@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fusion-secure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,18.0095636 C20,11.9291495 24.923532,7 31,7 C37.0751322,7 42,11.9248284 42,18.0095636 L42,35.9904364 C42,42.0708505 37.076468,47 31,47 C24.9248678,47 20,42.0751716 20,35.9904364 L20,18.0095636 Z M24.1904762,17.8074644 C24.1904762,14.0478056 27.2468563,11 31,11 C34.7607962,11 37.8095238,14.041655 37.8095238,17.8074644 L37.8095238,34.1925356 C37.8095238,37.9521944 34.7531437,41 31,41 C27.2392038,41 24.1904762,37.958345 24.1904762,34.1925356 L24.1904762,17.8074644 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="26" height="44">
+            <rect x="18" y="5" width="26" height="44" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-3" x="15" y="26" width="32" height="27" rx="3"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32" height="27" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M34,41.0003662 C35.2144467,40.0881599 36,38.6358178 36,37 C36,34.2385763 33.7614237,32 31,32 C28.2385763,32 26,34.2385763 26,37 C26,38.6358178 26.7855533,40.0881599 28,41.0003662 L28,42.9996703 C28,44.6513555 29.3431458,46 31,46 C32.6534829,46 34,44.6567066 34,42.9996703 L34,41.0003662 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="14" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blue-Version" transform="translate(-715.000000, -4504.000000)">
+            <g id="fusion-secure" transform="translate(715.000000, 4504.000000)">
+                <g id="Group-22" fill="#84D2E8" fill-opacity="0.150079257">
+                    <rect id="Rectangle-4" x="7.10542736e-15" y="7.10542736e-15" width="63" height="63" rx="31.5"></rect>
+                </g>
+                <g id="Combined-Shape">
+                    <use fill="#AEE1EF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+                <use id="Rectangle-32" stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <use id="Combined-Shape" stroke="#0AA6D2" mask="url(#mask-6)" stroke-width="4" fill="#EDF9FC" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

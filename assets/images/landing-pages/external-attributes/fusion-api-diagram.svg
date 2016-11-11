@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="668px" height="228px" viewBox="0 0 668 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fusion-api-diagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13.8327329" y="13.6823768" width="66.2769949" height="66.5777072" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="66.2769949" height="66.5777072" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M13.4094828,26.8545035 C6.01429421,26.8545035 -3.55271368e-15,20.8322397 -3.55271368e-15,13.4272517 C-3.55271368e-15,6.02226378 6.01429421,0 13.4094828,0 C20.8046713,0 26.8189655,6.02226378 26.8189655,13.4272517 C26.8189655,20.8322397 20.8046713,26.8545035 13.4094828,26.8545035 L13.4094828,26.8545035 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="30.8189655" height="30.8545035">
+            <rect x="-2" y="-2" width="30.8189655" height="30.8545035" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+        <path d="M12.9128352,25.8598922 C5.79154257,25.8598922 -3.55271368e-15,20.0606753 -3.55271368e-15,12.9299461 C-3.55271368e-15,5.79921697 5.79154257,0 12.9128352,0 C20.0341279,0 25.8256705,5.79921697 25.8256705,12.9299461 C25.8256705,20.0606753 20.0341279,25.8598922 12.9128352,25.8598922 L12.9128352,25.8598922 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="29.8256705" height="29.8598922">
+            <rect x="-2" y="-2" width="29.8256705" height="29.8598922" fill="white"></rect>
+            <use xlink:href="#path-5" fill="black"></use>
+        </mask>
+        <path d="M14.4094828,88.8545035 C7.01429421,88.8545035 1,82.8322397 1,75.4272517 C1,68.0222638 7.01429421,62 14.4094828,62 C21.8046713,62 27.8189655,68.0222638 27.8189655,75.4272517 C27.8189655,82.8322397 21.8046713,88.8545035 14.4094828,88.8545035 L14.4094828,88.8545035 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="30.8189655" height="30.8545035">
+            <rect x="-1" y="60" width="30.8189655" height="30.8545035" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+        <path d="M13.4094828,153.854503 C6.01429421,153.854503 0,147.83224 0,140.427252 C0,133.022264 6.01429421,127 13.4094828,127 C20.8046713,127 26.8189655,133.022264 26.8189655,140.427252 C26.8189655,147.83224 20.8046713,153.854503 13.4094828,153.854503 L13.4094828,153.854503 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="30.8189655" height="30.8545035">
+            <rect x="-2" y="125" width="30.8189655" height="30.8545035" fill="white"></rect>
+            <use xlink:href="#path-9" fill="black"></use>
+        </mask>
+        <path d="M0,3.00826887 C0,1.34684785 1.34207218,0 3.00478911,0 L179.995211,0 C181.65471,0 183,1.33895785 183,3.00826887 L183,224.991731 C183,226.653152 181.657928,228 179.995211,228 L3.00478911,228 C1.34528991,228 0,226.661042 0,224.991731 L0,3.00826887 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="183" height="228" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="42" y="85" width="100" height="30" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100033967 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blue-Version" transform="translate(-386.000000, -1612.000000)">
+            <g id="fusion-api-diagram" transform="translate(388.000000, 1612.000000)">
+                <text id="Fusion" font-family="AvenirNext-DemiBold, Avenir Next" font-size="18" font-weight="500" fill="#48BDDE">
+                    <tspan x="293.127444" y="159">Fusion</tspan>
+                </text>
+                <path d="M166.5,113 L281.5,113" id="Line" stroke="#0CA7D2" stroke-width="4" stroke-linecap="square" stroke-dasharray="4,10" opacity="0.229506341"></path>
+                <path d="M357.5,113 L472,113" id="Line" stroke="#0CA7D2" stroke-width="4" stroke-linecap="square" stroke-dasharray="4,10" opacity="0.229506341"></path>
+                <g id="Group-15" transform="translate(62.000000, 65.000000)">
+                    <use id="Rectangle-27" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" transform="translate(46.971230, 46.971230) rotate(-315.000000) translate(-46.971230, -46.971230) " xlink:href="#path-1"></use>
+                    <text id="API" font-family="AvenirNext-DemiBold, Avenir Next" font-size="22" font-weight="500" fill="#0AA6D2">
+                        <tspan x="30" y="55">API</tspan>
+                    </text>
+                </g>
+                <g id="Page-1" transform="translate(41.000000, 14.000000)">
+                    <g id="Fill-1">
+                        <use fill-opacity="0.201143569" fill="#84D2E8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M15.8742843,16.0007245 C16.6072031,15.2703037 17.1154724,14.3706391 17.2671108,13.8401933 C17.3658629,13.5008148 17.4355978,13.137386 17.4791236,12.8657051 C17.7903567,12.7249654 18.0295147,12.4813434 18.1610283,12.1753683 C18.345896,11.7313259 18.4465202,10.7799974 18.4483923,10.7399133 C18.5270196,9.98499671 18.249016,9.5516434 18.2232749,9.52892909 C18.5471445,6.47229623 17.5193733,5.86836294 16.8355966,5.76058134 C16.5926944,5.72227878 16.225299,5.63542997 16.0605561,5.46128696 C15.6786521,5.05955553 15.5082929,4.61239548 14.8465132,4.64713501 C14.6017389,4.66094174 14.270849,4.58789966 14.0827051,4.43691634 C13.8304425,4.23471449 13.4808319,4 13.221549,4 C12.9674143,4 12.6472889,4.22625229 12.413279,4.42444574 C12.2307514,4.58121898 11.9068818,4.65960561 11.6621075,4.64535349 C11.0003278,4.60883245 10.8299686,5.05777401 10.4480646,5.45950545 C10.2833217,5.63364845 9.91405416,5.72049727 9.67302405,5.75879982 C8.98924735,5.86658143 7.96194424,6.47051472 8.28534581,9.52714758 C8.25773265,9.55342491 7.98347314,9.98989587 8.06022836,10.7381318 C8.06397252,10.7782159 8.16272467,11.7313259 8.34759242,12.1735868 C8.47723386,12.4795619 8.718732,12.7231839 9.02949704,12.8639235 C9.07302287,13.137386 9.14462987,13.4990333 9.24150994,13.8384118 C9.39876454,14.3831097 9.91077803,15.2996987 10.6544612,16.0354641 L10.6399526,16.0354641 C10.552433,19.6020553 3.94493166,18.5251301 3,22.5963352 C5.4589752,25.3884132 9.14275779,27.1685912 13.2561824,27.1685912 C17.3696071,27.1685912 21.0552617,25.3884132 23.5086207,22.5981167 C22.5707093,18.5166679 15.9781847,19.5588536 15.8742843,16.0007245 L15.8742843,16.0007245 Z" id="Fill-2" fill-opacity="0.401154891" fill="#84D2E8"></path>
+                </g>
+                <g id="Page-1" transform="translate(50.000000, 179.000000)">
+                    <g id="Fill-1">
+                        <use fill-opacity="0.201143569" fill="#84D2E8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use stroke="#0AA6D2" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="bolt" transform="translate(56.000000, 183.000000)" fill="#BFE7F3">
+                    <path d="M13.559297,8.4885105 C13.947239,8.06353115 13.6394934,7.38888889 13.0576923,7.38888889 L8.72387215,7.38888886 L10.7381678,1.12171638 C10.9557227,0.44437111 10.077637,-0.0454973464 9.59454912,0.483711725 L0.440702962,10.5114895 C0.0527610174,10.9364689 0.360506649,11.6111111 0.942307692,11.6111111 L5.27326837,11.6111116 L3.26183224,17.8782836 C3.04427735,18.5556289 3.92236295,19.0454973 4.40545088,18.5162883 L13.559297,8.4885105 Z" id="Shape"></path>
+                </g>
+                <g id="Fill-1">
+                    <use fill-opacity="0.201143569" fill="#84D2E8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use stroke="#0AA6D2" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                </g>
+                <g id="Fill-1">
+                    <use fill-opacity="0.201143569" fill="#84D2E8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <use stroke="#0AA6D2" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+                </g>
+                <g id="Group-24" transform="translate(483.000000, 0.000000)">
+                    <g id="Group">
+                        <use id="Rectangle" stroke="#0AA6D2" mask="url(#mask-12)" stroke-width="4" fill="#E7F6FB" xlink:href="#path-11"></use>
+                        <rect id="Rectangle" fill="#D3EEF7" x="11.5689655" y="147.963048" width="51.5344828" height="46.8637413" rx="2"></rect>
+                        <rect id="Rectangle" fill="#D3EEF7" x="66.2586207" y="147.963048" width="51.5344828" height="46.8637413" rx="2"></rect>
+                        <rect id="Rectangle" fill="#D3EEF7" x="120.422414" y="147.963048" width="51.5344828" height="46.8637413" rx="2"></rect>
+                        <rect id="Rectangle-16" fill="#D8EFF7" x="2" y="2" width="179" height="19.482679" rx="3"></rect>
+                    </g>
+                    <g id="Page-1" transform="translate(78.000000, 61.000000)" fill="#84D2E8">
+                        <path d="M13.4094828,26.8545035 C6.01429421,26.8545035 -3.55271368e-15,20.8322397 -3.55271368e-15,13.4272517 C-3.55271368e-15,6.02226378 6.01429421,0 13.4094828,0 C20.8046713,0 26.8189655,6.02226378 26.8189655,13.4272517 C26.8189655,20.8322397 20.8046713,26.8545035 13.4094828,26.8545035 L13.4094828,26.8545035 Z" id="Fill-1" fill-opacity="0.201143569"></path>
+                        <path d="M16.0294567,16.2131957 C16.7623755,15.4827749 17.2706448,14.5831102 17.4222832,14.0526644 C17.5210353,13.713286 17.5907702,13.3498571 17.6342961,13.0781762 C17.9455291,12.9374366 18.1846872,12.6938145 18.3162007,12.3878395 C18.5010684,11.9437971 18.6016927,10.9924685 18.6035647,10.9523845 C18.682192,10.1974678 18.4041884,9.76411453 18.3784473,9.74140023 C18.7023169,6.68476736 17.6745458,6.08083407 16.9907691,5.97305247 C16.7478669,5.93474991 16.3804714,5.8479011 16.2157285,5.67375809 C15.8338245,5.27202666 15.6634654,4.82486661 15.0016856,4.85960614 C14.7569113,4.87341287 14.4260214,4.80037079 14.2378775,4.64938747 C13.9856149,4.44718562 13.6360043,4.21247113 13.3767214,4.21247113 C13.1225867,4.21247113 12.8024613,4.43872343 12.5684515,4.63691687 C12.3859238,4.79369012 12.0620542,4.87207674 11.8172799,4.85782462 C11.1555002,4.82130358 10.985141,5.27024514 10.603237,5.67197658 C10.4384941,5.84611959 10.0692266,5.9329684 9.82819646,5.97127095 C9.14441977,6.07905256 8.11711665,6.68298585 8.44051823,9.73961871 C8.41290507,9.76589604 8.13864556,10.202367 8.21540078,10.9506029 C8.21914493,10.990687 8.31789708,11.9437971 8.50276484,12.3860579 C8.63240628,12.692033 8.87390441,12.9356551 9.18466945,13.0763947 C9.22819528,13.3498571 9.29980229,13.7115045 9.39668235,14.0508829 C9.55393695,14.5955808 10.0659504,15.5121699 10.8096337,16.2479352 L10.795125,16.2479352 C10.7076054,19.8145265 4.10010407,18.7376012 3.15517241,22.8088063 C5.61414761,25.6008844 9.29793021,27.3810624 13.4113548,27.3810624 C17.5247795,27.3810624 21.2104341,25.6008844 23.6637931,22.8105879 C22.7258817,18.729139 16.1333571,19.7713248 16.0294567,16.2131957 L16.0294567,16.2131957 Z" id="Fill-2" fill-opacity="0.401154891"></path>
+                    </g>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="34.1810345" y="40.5450346" width="35.7586207" height="9.47806005" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#D3EEF7" x="56.2672414" y="113.050808" width="27.8706897" height="6.3187067" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="74.1465517" y="40.5450346" width="25.2413793" height="9.47806005" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="103.068966" y="40.5450346" width="45.75" height="9.47806005" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#D3EEF7" x="89.9224138" y="113.050808" width="36.8103448" height="6.3187067" rx="3"></rect>
+                    <g id="Rectangle-26">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    </g>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="64.6810345" y="96.3602771" width="27.8706897" height="8.42494226" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="96.2327586" y="96.3602771" width="22.612069" height="8.42494226" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="11.5689655" y="134.799076" width="27.8706897" height="6.3187067" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="11.5689655" y="199.039261" width="27.8706897" height="6.3187067" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="66.2586207" y="199.039261" width="27.8706897" height="6.3187067" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="120.422414" y="199.039261" width="27.8706897" height="6.3187067" rx="3"></rect>
+                    <rect id="Rectangle-14" fill="#D3EEF7" x="11.5689655" y="207.990762" width="16.8275862" height="5.26558891" rx="2.63279446"></rect>
+                    <rect id="Rectangle-14" fill="#D3EEF7" x="66.2586207" y="207.990762" width="16.8275862" height="5.26558891" rx="2.63279446"></rect>
+                    <rect id="Rectangle-14" fill="#D3EEF7" x="120.422414" y="207.990762" width="16.8275862" height="5.26558891" rx="2.63279446"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="23.6637931" y="7.26558891" width="27.8706897" height="3.15935335" rx="1"></rect>
+                    <rect id="Rectangle-14" fill="#B3E2F1" x="23.6637931" y="13.0577367" width="59.4224138" height="3.15935335" rx="1"></rect>
+                    <rect id="Rectangle-25" fill="#B3E2F1" x="5.78448276" y="7.26558891" width="13.1465517" height="8.95150115" rx="3"></rect>
+                    <path d="M8.14843124,10.0360303 C7.08598986,9.18495093 7.32404731,8.49501478 8.67747427,8.49501478 L16.0381255,8.49501478 C17.3927493,8.49501478 17.6381091,9.17814259 16.5671686,10.0360303 L14.2815202,11.866972 C13.2190788,12.7180514 11.5050202,12.7248597 10.4340796,11.866972 L8.14843124,10.0360303 Z" id="Rectangle-25" fill="#D7EFF7" opacity="0.569463315"></path>
+                    <text id="{{" font-family="AvenirNext-DemiBold, Avenir Next" font-size="18" font-weight="500" fill="#0CA7D2">
+                        <tspan x="49" y="105">{{</tspan>
+                    </text>
+                    <text id="}}" font-family="AvenirNext-DemiBold, Avenir Next" font-size="18" font-weight="500" fill="#0CA7D2">
+                        <tspan x="123" y="105">}}</tspan>
+                    </text>
+                </g>
+                <g id="Group-28" transform="translate(290.000000, 92.000000)">
+                    <rect id="Rectangle-27" fill="#48BDDE" style="mix-blend-mode: multiply;" transform="translate(20.765432, 20.344827) rotate(-315.000000) translate(-20.765432, -20.344827) " x="6.44444444" y="5.95886177" width="28.6419753" height="28.7719298" rx="5"></rect>
+                    <rect id="Rectangle-27" fill="#0AA6D2" style="mix-blend-mode: multiply;" transform="translate(37.298881, 20.298881) rotate(-315.000000) translate(-37.298881, -20.298881) " x="22.9778932" y="5.91291591" width="28.6419753" height="28.7719298" rx="5"></rect>
+                </g>
+                <rect id="Rectangle-28" fill="#BFE7F3" x="5" y="68" width="19" height="15" rx="1"></rect>
+                <polygon id="Rectangle-28" fill="#E7F6FB" points="11.4482422 76.8212891 15.125 78.8212891 19.4902344 74 22 77.8212891 22 81.4267578 7 81.4267578"></polygon>
+                <rect id="Rectangle-29" fill="#E7F6FB" x="9" y="71" width="3" height="3" rx="1.5"></rect>
+                <path d="M11.4462487,148.924477 C12.0019574,149.480186 12.7327417,149.748792 13.4614417,149.739673 C14.1898812,149.749834 14.9206654,149.480186 15.4774162,148.924477 L21.4604681,142.971907 C23.5131773,140.919198 23.5131773,137.591459 21.4604681,135.53875 C19.4088011,133.487083 16.0808017,133.487083 14.0291347,135.53875 L13.4968737,136.062935 L12.9708653,135.53875 C10.9191983,133.487083 7.59119891,133.487083 5.53953187,135.53875 C3.48682271,137.591459 3.48682271,140.918156 5.53953187,142.970865 L11.4462487,148.924477 Z" id="Page-1" fill="#BFE7F3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
