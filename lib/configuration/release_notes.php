@@ -19,7 +19,7 @@
       add_action( 'genesis_entry_header', 'release_notes_title' );
 
       remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-      remove_action( 'genesis_entry_content', 'genesis_do_post_image' );
+      remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
       add_action( 'genesis_entry_content', 'the_content' );
     }
   }
