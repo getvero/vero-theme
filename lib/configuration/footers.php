@@ -37,7 +37,7 @@ function custom_footer_html() {
     <li class="header">Resources</li>
     <!--<li>About</li>-->
     <li><a href="http://developers.getvero.com">API Reference</a></li>
-    <li><a href="http://www.getvero.com/changelog">Changelog</a></li>
+    <li><a href="http://www.getvero.com/release-notes">Release Notes</a></li>
     <li><a href="https://www.getvero.com/careers">Jobs</a><a href="https://www.getvero.com/careers" class="hiring-pill left-margin-tiny">We're Hiring!</a></li>
     <li><a href="http://status.getvero.com/" target="_blank">Status</a></li>
   </ul>
