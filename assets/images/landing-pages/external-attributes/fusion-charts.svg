@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="168px" viewBox="0 0 172 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fusion-charts</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="172" height="150" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="172" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blue-Version" transform="translate(-635.000000, -3059.000000)">
+            <g id="fusion-charts" transform="translate(635.000000, 3059.000000)">
+                <g id="Charts">
+                    <use id="Rectangle-4" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <rect id="Rectangle-5" fill="#A8DFEE" x="22" y="105" width="11" height="25" rx="3"></rect>
+                    <rect id="Rectangle-5" fill="#CEEDF6" x="40" y="72" width="11" height="58" rx="3"></rect>
+                    <rect id="Rectangle-5" fill="#A8DFEE" x="58" y="93" width="11" height="37" rx="3"></rect>
+                    <path d="M76,50.9912248 C76,49.339217 77.3488159,48 79.0057983,48 L83.9942017,48 C85.6542582,48 87,49.3379929 87,50.9912248 L87,127.008775 C87,128.660783 85.6511841,130 83.9942017,130 L79.0057983,130 C77.3457418,130 76,128.662007 76,127.008775 L76,50.9912248 Z" id="Rectangle-5" fill="#CEEDF6"></path>
+                    <path d="M94,34.0033731 C94,32.3446559 95.3488159,31 97.0057983,31 L101.994202,31 C103.654258,31 105,32.343165 105,34.0033731 L105,126.996627 C105,128.655344 103.651184,130 101.994202,130 L97.0057983,130 C95.3457418,130 94,128.656835 94,126.996627 L94,34.0033731 Z" id="Rectangle-5" fill="#A8DFEE"></path>
+                    <path d="M150.024875,39.7213794 C147.545443,44.4664578 142.577233,47.7051656 136.852583,47.7051656 C128.649728,47.7051656 122,41.0554378 122,32.8525828 C122,24.6497278 128.649728,18 136.852583,18 C136.973679,18 137.094438,18.0014492 137.214841,18.0043313 L137.214841,33.2148409 L150.024875,39.7213794 Z" id="Combined-Shape" fill="#A8DFEE"></path>
+                    <path d="M137.214841,63.0043313 C137.094438,63.0014492 136.973679,63 136.852583,63 C128.649728,63 122,69.6497278 122,77.8525828 C122,84.4823737 126.343836,90.0976073 132.340687,92.0074612 L137.214841,78.2148409 L137.214841,63.0043313 Z" id="Combined-Shape" fill="#CEEDF6"></path>
+                    <path d="M150.201872,108.333736 C151.164704,110.301725 151.705166,112.514038 151.705166,114.852583 C151.705166,123.055438 145.055438,129.705166 136.852583,129.705166 C128.649728,129.705166 122,123.055438 122,114.852583 C122,106.649728 128.649728,100 136.852583,100 C136.973679,100 137.094438,100.001449 137.214841,100.004331 L137.214841,115.214841 L150.201872,108.333736 Z" id="Combined-Shape" fill="#A8DFEE"></path>
+                </g>
+                <rect id="Rectangle-27" fill="#027BB6" transform="translate(86.298881, 149.298881) rotate(-315.000000) translate(-86.298881, -149.298881) " x="71.9778932" y="134.912916" width="28.6419753" height="28.7719298" rx="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

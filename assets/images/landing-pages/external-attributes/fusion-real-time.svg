@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fusion-real-time</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M25.2,56.4387097 C38.8690476,56.4387097 49.95,45.3180406 49.95,31.6 C49.95,17.8819594 38.8690476,6.76129032 25.2,6.76129032 C11.5309524,6.76129032 0.45,17.8819594 0.45,31.6 C0.45,45.3180406 11.5309524,56.4387097 25.2,56.4387097 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="49.5" height="49.6774194" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M28.7939924,5.4 L28.7917767,7.39160344 C28.7912215,7.8906003 28.3964139,8.32480034 27.8839173,8.35691566 C27.8839173,8.35691566 27.1749023,8.43508301 25.2,8.43508301 C23.2250977,8.43508301 22.4939915,8.539359 22.4939915,8.539359 C21.9977052,8.58382568 21.5956021,8.21568022 21.5958622,7.72986168 L21.5971094,5.4 L19.8061609,5.4 C19.3057021,5.4 18.9,4.99412234 18.9,4.50829983 L18.9,0.891700172 C18.9,0.399227766 19.3049539,0 19.8061609,0 L30.5938391,0 C31.0942979,0 31.5,0.405877662 31.5,0.891700172 L31.5,4.50829983 C31.5,5.00077223 31.0950461,5.4 30.5938391,5.4 L28.7939924,5.4 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.6" height="8.54300062" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="36.1958865" y="6.632485" width="5.85832478" height="5.87932236" rx="0.899999976"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.85832478" height="5.87932236" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <ellipse id="path-7" cx="25.2" cy="31.5" rx="3.6" ry="3.6"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.2" height="7.2" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blue-Version" transform="translate(-235.000000, -4340.000000)">
+            <g id="fusion-real-time" transform="translate(235.000000, 4340.000000)">
+                <rect id="Rectangle-4" fill-opacity="0.150079257" fill="#84D2E8" x="0" y="0" width="63" height="63" rx="31.5"></rect>
+                <g id="Group-21" transform="translate(6.300000, 0.000000)">
+                    <use id="Oval-5" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="3.5999999" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <path d="M36.0726044,14.8357659 C35.7381907,14.6219787 35.3967324,14.4183043 35.0486572,14.225172 L32.9647448,13.228763 C30.7460515,12.3288294 28.3213087,11.8333333 25.78125,11.8333333 C25.2306006,11.8333333 24.6853706,11.8566198 24.1464844,11.9022649 L24.1464844,33.047526 L36.0726044,14.8357659 Z" id="Combined-Shape" fill="#C4EAF5"></path>
+                    <path d="M25.1912018,31.7122396 L36.9,13.5" id="Path-3" stroke="#0AA6D2" stroke-width="1.79999995" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Group" transform="translate(1.800000, 30.600000)" stroke="#0AA6D2" stroke-width="1.79999995" stroke-linecap="round">
+                        <path d="M44.1,0.9 L46.35,0.9" id="Line"></path>
+                        <path d="M0,0.9 L2.25,0.9" id="Line"></path>
+                    </g>
+                    <g id="Group" transform="translate(25.100000, 31.600000) rotate(-270.000000) translate(-25.100000, -31.600000) translate(1.600000, 30.600000)" stroke="#0AA6D2" stroke-width="1.79999995" stroke-linecap="round">
+                        <path d="M44.1,0.9 L46.35,0.9" id="Line"></path>
+                        <path d="M-7.10542736e-15,0.9 L2.25,0.9" id="Line"></path>
+                    </g>
+                    <g id="Group" transform="translate(25.058579, 31.500000) rotate(-225.000000) translate(-25.058579, -31.500000) translate(1.558579, 30.500000)" stroke="#0AA6D2" stroke-width="1.79999995" stroke-linecap="round">
+                        <path d="M44.1,0.9 L46.35,0.9" id="Line"></path>
+                        <path d="M3.65929509e-13,0.9 L2.25,0.9" id="Line"></path>
+                    </g>
+                    <g id="Group" transform="translate(25.200000, 31.358579) rotate(-135.000000) translate(-25.200000, -31.358579) translate(1.700000, 30.358579)" stroke="#0AA6D2" stroke-width="1.79999995" stroke-linecap="round">
+                        <path d="M44.1,0.9 L46.35,0.9" id="Line"></path>
+                        <path d="M-1.49213975e-13,0.9 L2.25,0.9" id="Line"></path>
+                    </g>
+                    <use id="Combined-Shape" stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="3.5999999" fill="#84D2E8" xlink:href="#path-3"></use>
+                    <use id="Rectangle-20" stroke="#0AA6D2" mask="url(#mask-6)" stroke-width="3.5999999" fill="#84D2E8" transform="translate(39.125049, 9.572146) rotate(-330.000000) translate(-39.125049, -9.572146) " xlink:href="#path-5"></use>
+                    <use id="Oval-9" stroke="#0AA6D2" mask="url(#mask-8)" stroke-width="3.5999999" fill="#84D2E8" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

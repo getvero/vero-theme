@@ -13,7 +13,7 @@
   <div class="inner center-text">
     <h1 class="hero-title">An API-driven email platform built with engineers in mind</h1>
     <p class="large">“Do we have to install another marketing tool?” is a common refrain in most product teams. Vero is built for scale on top of an open API that empowers engineers to work more efficiently, not to fight with marketing and re-invent the wheel with every email send.</p>
-   <div id="data-code-block">
+    <div id="data-code-block">
       <pre class="language-javascript line-numbers"><code class="nohighlight">//Javascript for adding a user with user properties
 _veroq.push(['user', {
 id: 'CUSTOMER_ID',
