@@ -32,12 +32,6 @@ jQuery(document).ready(function(){
     careersSlider.goToSlide(slideNum);
   });
 
-  jQuery('.image-comparison-container').slider({
-    initialPosition: .5,
-    showInstruction: true,
-    instructiontext: "< >"
-  });
-
   jQuery('#slider-monthly').click(function(){
     if(jQuery(this).hasClass('active')) {
       return false;

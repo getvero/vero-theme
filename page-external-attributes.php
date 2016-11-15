@@ -12,14 +12,13 @@
 <section id="external-attributes-hero" class="double-padding border-bottom">
   <div class="inner center-text">
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-logo.svg" class="center-text bottom-margin-small">
-    <h1 class="no-bottom-margin center-text bottom-margin-small"><span class="light">Introducting</span> <span class="semi-bold underline-blue">Fusion</span></h1>
+    <h1 class="no-bottom-margin center-text bottom-margin-small"><span class="semi-bold underline-blue">Fusion</span></h1>
     <p class="medium light center-text grid-10 shift-1">Use external data to personalise your most effective emails yet. Fusion lets you <span class="semi-bold">pull data from your own api</span> into your campaigns so you can dynamically deliver accurate and relevant information to your customers.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text top-margin-medium">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text top-margin-medium responsive-image">
     <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/be673e13e65a86736e07c35dad12b7a1" method='post' class="centered-form">
-        <input class="form-control display-block" type="email" placeholder="Email Address" name="email">
-        <input class="form-control display-block top-margin-tiny" type="email" placeholder="Name" name="email">
-        <input class="btn btn-success display-block btn-submit top-margin-tiny" type="submit" value="Keep me updated">
+      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="centered-form">
+        <input class="form-control-large display-block" type="email" placeholder="Email Address" name="email">
+        <input class="btn btn-success display-block btn-submit top-margin-small" type="submit" value="Register for Early Access">
       </form>
     </div> 
   </div>
@@ -28,7 +27,7 @@
   <div class="inner center-text gradient-border-bottom">
     <h1 class="chunk no-bottom-margin">Plug straight into your API</h1>
     <p class="medium">Pull data out of your API and into your emails, where it belongs, in two simple steps.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-api-diagram.svg" class="center-text top-margin-medium">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-api-diagram.svg" class="center-text top-margin-medium responsive-image">
     <ul class="feature-list unstyled-list halfs top-margin-small">
       <li><p class="semi-bold medium">Connect your API endpoint</p><p class="light smallish">Add your external API url to a campaign email using the data inspector. To get specific user or event data, attatch a Vero property to the URL with Liquid.</p></li>
       <li><p class="semi-bold medium">Add data to emails using Liquid</p><p class="light smallish">Add liquid tags to insert the returned JSON properties or HTML to your email content. Just like this: {{external.user_region}}.</p></li>
@@ -40,7 +39,7 @@
     <div><p class="smallish semi-bold no-margin">Example API endpoint</p><p class="no-top-margin">http://api.example.com/friend/{event.new_friend_id}</p></div>
     <div class="ext-example">
       <div class="ext-example-json">
-        <pre class="top-margin-small" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
+        <pre class="top-margin-small okaidia" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
       </div>
       <div class="ext-example-html">
         <pre class="top-margin-small" data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
@@ -51,6 +50,7 @@
 <section id="external-attributes-examples" class="double-padding">
   <div class="inner center-text">
     <h1 class="chunk no-bottom-margin">Finally, email is a true extension of your product</h1>
+    <p class="medium">The exact same data powering your product on-site can now power interactions off-site.</p>
     <ul class="feature-list unstyled-list thirds sm-center top-margin-medium">
       <li class="center-text">
         <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-recommendations.svg">
@@ -128,25 +128,21 @@
   <div class="inner center-text flush-bottom">
     <h1 class="chunk no-bottom-margin">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero automatically scales with it, so you can concentrate on sending emails your customers love. We send over <span>250,000,000 emails a month so you know you’re in good hands.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block top-margin-large">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image top-margin-large">
   </div>
 </section>
 <section id="external-attributes-scale" class="double-padding border-bottom">
   <div class="inner halfs">
-    <p class="small semi-bold center-text">Fusion is just the beginning...</p>
-    <div class="half left">
+    <p class="semi-bold center-text">Fusion is just the beginning...</p>
+    <div class="center-text">
       <h1 class="chunk">We beleive marketing workflows are 10x better when you have a single unified view of your customer.</h1>
       <p class="medium">Fusion is the first step towards fully utilising the data you already have to create truly personalised customer experiences. Stop trying to manage mutliple versions of the same data in multiple apps. Go directly to the source…</p>
-    </div>
-    <div class="half right">
-      <img src="">
     </div> 
     <div class="clearfix"></div>
-    <div class="display-block margin-auto top-margin-medium">
-      <form action="https://app.getvero.com/forms/be673e13e65a86736e07c35dad12b7a1" method='post' class="horizontal-form">
-        <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="form-control" type="email" placeholder="Name" name="email">
-        <input class="btn btn-success btn-submit" type="submit" value="Keep me updated">
+    <div class="top-margin-medium">
+      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="centered-form">
+        <input class="form-control-large" type="email" placeholder="Email Address" name="email">
+        <input class="btn btn-success btn-submit top-margin-small" type="submit" value="Register for Early Access">
       </form> 
     </div> 
   </div>

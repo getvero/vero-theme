@@ -4,7 +4,6 @@
  * Based on dabblet (http://dabblet.com)
  * @author Lea Verou
  */
-
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
@@ -52,6 +51,7 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	border-radius: 0.3em;
 }
 
 :not(pre) > code[class*="language-"],
