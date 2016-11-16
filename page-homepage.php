@@ -11,8 +11,8 @@
   <div class="inner flush-bottom">
     <div class="content">
       <h1 class="chunk">An event driven email platform<br/> for your whole team</h1>
-      <p class="medium right-padding-large">Put your customer data first and enable your whole organisation<br/> to take customer interactions to their fullest potential.</p>
-     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-medium">
+      <p class="medium">Put your customer data first and enable your whole organisation<br/> to take customer interactions to their fullest potential.</p>
+     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-primary" type="submit" value="Get Started">
       </form>
