@@ -79,18 +79,18 @@
     <ul class="feature-list full-width thirds">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-data-first.png" srcset="/wp-content/themes/vero/assets/images/home/home-data-first@2x.png 2x">
-          <p class="semi-bold">Capture customer data & events</p>
-          <p class="light">Track and store your event stream in real time using our API and Segment integration.</p>
+          <p class="semi-bold">Data driven</p>
+          <p class="light">We think that data is at the heart of every great product experience. Vero gives your team the tools to store and model your data to create meaningful experiences.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-organisation.png" srcset="/wp-content/themes/vero/assets/images/home/home-organisation@2x.png 2x">
-          <p class="semi-bold">Model your customer data</p>
-          <p class="light">Enable your entire team to model your event data and generate segments without touching code.</p>
+          <p class="semi-bold">For the whole organisation</p>
+          <p class="light">We know the best products come from teams who are in sync. Thats why Vero is designed to allow the whole team to work better together.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-modern-stack.png" srcset="/wp-content/themes/vero/assets/images/home/home-modern-stack@2x.png 2x">
-          <p class="semi-bold">Manage your email workflows</p>
-          <p class="light">Craft the timing and filtering of your emails, collaborate on content and design robust email campaigns.</p>
+          <p class="semi-bold">Fits into the Modern Stack</p>
+          <p class="light">Built with the modern event stream in mind, Vero lets you stay in control by working in alignment with a multitide of forward thinking web technologies and applications.</p>
         </li>
       </ul>
   </div>
