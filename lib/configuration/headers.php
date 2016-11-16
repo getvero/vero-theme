@@ -113,7 +113,7 @@ function external_attributes_banner(){
     ?>
       <div class="homepage-banner">
         <a href="/external-attributes" class="negative">
-        <p class="regular medium inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular medium inline-block">Pull content from your API into your campaigns.</p><p class="pull-right medium regular"><a href="/external-attributes" class="negative underline-link-alt">Find out more</a></p></a>
+        <p class="regular inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular inline-block">Pull content from your API into your campaigns.</p><p class="pull-right regular"><a href="/external-attributes" class="negative underline-link-alt">Find out more</a></p></a>
       </div>
     <?php 
   }
