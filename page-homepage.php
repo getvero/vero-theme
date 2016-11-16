@@ -14,7 +14,7 @@
       <p class="medium">Put your customer data first and enable your whole organisation<br/> to take customer interactions to their fullest potential.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-primary" type="submit" value="Get Started">
+        <input class="btn btn-primary left-margin-tiny" type="submit" value="Get Started">
       </form>
       <p class="small light faded">No credit card required, only pay when your first campaign is live</p>
     </div>
@@ -23,9 +23,10 @@
     </div>
   </div>
 </section>
-<section id="logos">
+<section id="logos" class="border-bottom">
   <div class="inner full-width center-text">
-    <p class="regular faded no-margin">Our customers use Vero to build the products experiences of the future</p>
+    <h5 class="section-label center-text no-margin">Our customers use Vero to build the products experiences of the future</h5>
+    <!-- <p class="regular faded no-margin">Our customers use Vero to build the products experiences of the future</p> -->
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
       <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
