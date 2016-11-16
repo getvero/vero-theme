@@ -18,7 +18,7 @@
       </form>
       <p class="small light faded">No credit card required, only pay when your first campaign is live</p>
     </div>
-    <div class="image">
+    <div class="image center-text">
       <img src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
     </div>
   </div>
