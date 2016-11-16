@@ -10,7 +10,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <ul id="menu-marketing-navbar-left" class="menu">
-    <?php if(is_page('homepage') || is_page('careers')): ?>
+    <?php if(is_page('careers')): ?>
     <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104" height="36"></a></li>
     <?php else: ?>
     <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104" height="36"></a></li>
@@ -106,6 +106,17 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     }
     return $classes;
+}
+
+function external_attributes_banner(){
+  if(is_page('homepage')){
+    ?>
+      <div class="homepage-banner">
+        <a href="/external-attributes" class="negative">
+        <p class="regular medium inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular medium inline-block">Pull content from your API into your campaigns.</p><p class="pull-right medium regular"><a href="/external-attributes" class="negative underline-link-alt">Find out more</a></p></a>
+      </div>
+    <?php 
+  }
 }
 
 ?>

@@ -2,29 +2,30 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="hero" class="hero">
+<section id="hero" class="hero double-padding">
   <?php
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-  <div class="inner clean-padding">
-    <div class="content center-text">
-      <h1 class="home-hero">The <span class="emphesis emphesis-primary">email platform</span> for <span class="emphesis emphesis-secondary">modern online businesses</span></h1>
-      <p>Automated workflows, real time event tracking and segmentation on all of your data.</p>
-     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+  <div class="inner flush-bottom">
+    <div class="content">
+      <h1 class="chunk">An event driven email platform<br/> for your whole team</h1>
+      <p class="medium right-padding-large">Put your customer data first and enable your whole organisation<br/> to take customer interactions to their fullest potential.</p>
+     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-medium">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success" type="submit" value="Create your account">
+        <input class="btn btn-primary" type="submit" value="Get Started">
       </form>
-      <p class="small">No credit card required, only pay when you start sending live emails.</p>
+      <p class="small light faded">No credit card required, only pay when your first campaign is live</p>
     </div>
-    <div class="image center-text">
-      <img src="/wp-content/themes/vero/assets/images/home/hero.png" srcset="/wp-content/themes/vero/assets/images/home/hero@2x.png 2x"/>
+    <div class="image">
+      <img src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
     </div>
   </div>
 </section>
 <section id="logos">
-  <div class="inner clean-padding full-width">
+  <div class="inner full-width center-text">
+    <p class="regular small faded no-margin">Our customers use Vero to build the products experiences of the future</p>
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
       <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
@@ -34,70 +35,63 @@
       <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
       <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
-      <li class="logo rjmetrics"><img src="/wp-content/themes/vero/assets/images/home/logos/home-udacity.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-udacity@2x.png 2x" alt="Udacity" height="76"></li>
     </ul>
+    <p class="no-margin"><a href="/customers">See how they use Vero</a></p>
   </div>
 </section>
-<section id="features-summary">
+<section id="features-summary" class="border-bottom">
   <div class="inner center-text">
-    <h5 class="section-label">What is Vero?</h5>
-    <h2>A single place to create, test and send all of your teams' product and marketing emails</h2>
-    <ul class="unstyled-list inline-list feature-list thirds flex">
-      <li class="hover-box">
-        <a href="/features/email">
-          <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-email.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email@2x.png 2x" width="180" />
-            <h4 class="feature-title">Deliver useful email experiences</h4>
-            <p class="feature-desc">Engage your customers with automated messages tailored to them based on their activity in your application or on your website.</p>
-            <a href="/features/email">Learn More</a>
-          </div>
-        </a>
-      </li>
-      <li class="hover-box">
-        <a href="/features/people">
-          <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-target.png" srcset="/wp-content/themes/vero/assets/images/home/feature-target@2x.png 2x" width="180"/>
-            <h4 class="feature-title">Intelligently target your customers</h4>
-            <p class="feature-desc">Capture scattered user data from multiple sources in Vero and segment in real time using Vero's visual rule builder.</p>
-            <a href="/features/people">Learn More</a>
-          </div>
-        </a>
-      </li>
-      <li class="hover-box">
-        <a href="/features/data">
-          <div class="list-inner">
-            <img src="/wp-content/themes/vero/assets/images/home/feature-data.png" srcset="/wp-content/themes/vero/assets/images/home/feature-data@2x.png 2x" width="180"/>
-            <h4 class="feature-title">Spend less time in the code</h4>
-            <p class="feature-desc">Manage message content and templates with Vero and empower your entire team to collaborate on great product experiences.</p>
-            <a href="/features/data">Learn More</a>
-          </div>
-        </a>
-      </li>
-    </ul>
+    <h1 class="no-bottom-margin">The data-first way to manage your email experiences</h1>
+    <p class="medium">Follow a simple but powerful methodology for off site customer interactions</p>
+    <div class="methodology">
+      <div class="dotted-line"></div>
+      <ul class="feature-list full-width fourths">
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
+          <p class="semi-bold">Capture customer data & events</p>
+          <p class="light">Track and store your event stream in real time using our API and Segment integration.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-model.svg">
+          <p class="semi-bold">Model your customer data</p>
+          <p class="light">Enable your entire team to model your event data and generate segments without touching code.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-manage.svg">
+          <p class="semi-bold">Manage your email workflows</p>
+          <p class="light">Craft the timing and filtering of your emails, collaborate on content and design robust email campaigns.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-deploy.svg">
+          <p class="semi-bold">Deploy to Sendgrid, Mailgun & more</p>
+          <p class="light">Deploy your content and email schedule to 100+ million customers using your choice of email delivery platforms.</p>
+        </li>
+      </ul>
+    </div>
+    <p class="medium"><a href="/features/email">Find out more</a></p>
   </div>
 </section>
-<section class="feature light-section" id="feature-crm">
-  <div class="inner">
-    <div class="content">
-      <h2>Email meets CRM</h2>
-      <p>Bye, bye lists. Every customer has a central, single record in Vero. All of their data is stored and organised to help you treat every user like the <strong>real person</strong> they are.</p>
-      <a href="/features/people">Find out more</a>
-    </div>
-    <div class="image">
-      <img src="/wp-content/themes/vero/assets/images/home/feature-crm.png" srcset="/wp-content/themes/vero/assets/images/home/feature-crm@2x.png 2x" width="471"/>
-    </div>
-  </div>
-</section>
-<section class="feature" id="feature-email-types">
-  <div class="inner">
-    <div class="content">
-      <h2>Email for the whole team</h2>
-      <p>Whether you are a team of one or 100, managing your product and marketing campaigns is made easier with Vero. Run all of your <strong>promotional</strong>, <strong>product</strong> and <strong>transactional</strong> emails in one, single UI and benefit from shared data, knowledge and collaboration.</p>
-      <a href="/features/email">Find out more</a>
-    </div>
-    <div class="image">
-      <img class="stick-right" src="/wp-content/themes/vero/assets/images/home/feature-email-types.png" srcset="/wp-content/themes/vero/assets/images/home/feature-email-types@2x.png 2x" width="528"/>
-    </div>
+<section id="benefits">
+  <div class="inner center-text">
+    <h1 class="no-bottom-margin">Built for teams who put their product first</h1>
+    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> deployment process that enables <span class="semi-bold">teams</span> to move together to create interactions that are <span class="semi-bold">reliable</span>.</p>
+    <ul class="feature-list full-width thirds">
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-data-first.png" srcset="/wp-content/themes/vero/assets/images/home/home-data-first@2x.png 2x">
+          <p class="semi-bold">Capture customer data & events</p>
+          <p class="light">Track and store your event stream in real time using our API and Segment integration.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-organisation.png" srcset="/wp-content/themes/vero/assets/images/home/home-organisation@2x.png 2x">
+          <p class="semi-bold">Model your customer data</p>
+          <p class="light">Enable your entire team to model your event data and generate segments without touching code.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/home-modern-stack.png" srcset="/wp-content/themes/vero/assets/images/home/home-modern-stack@2x.png 2x">
+          <p class="semi-bold">Manage your email workflows</p>
+          <p class="light">Craft the timing and filtering of your emails, collaborate on content and design robust email campaigns.</p>
+        </li>
+      </ul>
   </div>
 </section>
 <section id="testimonial">

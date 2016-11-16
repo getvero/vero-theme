@@ -59,6 +59,7 @@ function genesischild_theme_setup() {
   register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
   register_nav_menu('api-languages' , __( 'API Languages'));
   add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
+  add_action( 'genesis_before_header', 'external_attributes_banner' ); 
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
