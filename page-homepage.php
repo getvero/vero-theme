@@ -25,7 +25,7 @@
 </section>
 <section id="logos">
   <div class="inner full-width center-text">
-    <p class="regular small faded no-margin">Our customers use Vero to build the products experiences of the future</p>
+    <p class="regular faded no-margin">Our customers use Vero to build the products experiences of the future</p>
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
       <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
@@ -36,7 +36,7 @@
       <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
     </ul>
-    <p class="no-margin"><a href="/customers">See how they use Vero</a></p>
+    <!-- <p class="no-margin"><a href="/customers">See how they use Vero</a></p> -->
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
