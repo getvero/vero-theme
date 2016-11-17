@@ -11,15 +11,19 @@
 ?>
 <section id="external-attributes-hero" class="double-padding border-bottom">
   <div class="inner center-text">
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-logo.svg" class="center-text bottom-margin-small">
-    <h1 class="no-bottom-margin center-text bottom-margin-small"><span class="semi-bold underline-blue">Fusion</span></h1>
-    <p class="medium light center-text grid-10 shift-1">Emails that can talk to APIs.<br>Load data from it's <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text top-margin-medium responsive-image">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-logo.svg" class="center-text bottom-margin-tiny">
+    <h1 class="no-bottom-margin center-text bottom-margin-medium"><span class="semi-bold underline-blue">Fusion</span></h1>
+    <h1 class="chunk center-text no-bottom-margin">Emails that can talk to APIs.</h1>
+    <p class="medium">Load data from it's <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
+    <div class="hero-image top-margin-medium">
+      <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
+    </div>
     <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="centered-form">
-        <input class="form-control-large display-block" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success display-block btn-submit top-margin-small" type="submit" value="Register for early access">
+      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="horizontal-form">
+        <input class="form-control-large input-width-medium" type="email" placeholder="Email Address" name="email">
+        <input class="btn btn-success left-margin-tiny btn-submit top-margin-small" type="submit" value="Register for early access">
       </form>
+      <p class="small faded regular no-bottom-margin">Fusion is being selectively rolled out due to high demand. Register your interest now. </p>
     </div> 
   </div>
 </section>
@@ -70,7 +74,7 @@
     </ul>
   </div>
 </section>
-<section id="external-attributes-tidal" class="floating-section double-padding light-border">
+<!-- <section id="external-attributes-tidal" class="floating-section light-border">
   <div class="inner">
     <div class="half left">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-tidal.png" src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-tidal@2x.png 2x" title="Tidal" class="bottom-margin-small">
@@ -82,22 +86,8 @@
         <p class="no-top-margin">Product Manager</p>
       </div>
     </div>
-    <div class="half right">
-      <div class="image-comparison-container slider">
-        <div class="slider responsive">
-          <div class="left image">
-            <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-tidal-email.png"/>
-          </div>
-        </div>
-        <div class="slider responsive">
-          <div class="right image">
-            <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-tidal-email-html.png"/>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-</section>
+</section> -->
 <section id="external-attributes-extras" class="">
   <div class="inner gradient-border-bottom gradient-border-top">
     <ul class="feature-list left-align unstyled-list halfs">
@@ -128,7 +118,7 @@
   <div class="inner center-text flush-bottom">
     <h1 class="chunk no-bottom-margin">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image top-margin-large">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image">
   </div>
 </section>
 <section id="external-attributes-scale" class="double-padding border-bottom">
