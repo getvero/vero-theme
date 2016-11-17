@@ -112,8 +112,8 @@ function external_attributes_banner(){
   if(is_page('homepage')){
     ?>
       <div class="homepage-banner">
-        <a href="/external-attributes" class="negative">
-        <p class="regular inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular inline-block">Pull content from your API into your campaigns.</p><p class="pull-right regular"><a href="/external-attributes" class="negative underline-link-alt">Find out more</a></p></a>
+        <a href="/fusion" class="negative">
+        <p class="regular inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular inline-block">Pull content from your API into your campaigns.</p><p class="pull-right regular"><a href="/fusion" class="negative underline-link-alt">Find out more</a></p></a>
       </div>
     <?php 
   }
