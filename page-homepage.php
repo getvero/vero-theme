@@ -46,24 +46,28 @@
     <p class="medium">Follow a simple but powerful methodology for off site customer interactions</p>
     <div class="methodology">
       <div class="dotted-line"></div>
-      <ul class="feature-list full-width fourths">
+      <ul class="feature-list full-width sm-halfs fourths">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
+          <p class="small uppercase font-brand-warning">Collection</p>
           <p class="semi-bold">Capture customer data & events</p>
           <p class="light">Track and store your event stream in real time using our API and Segment integration.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-model.svg">
+          <p class="small uppercase font-brand-success">Modelling</p>
           <p class="semi-bold">Model your customer data</p>
           <p class="light">Enable your entire team to model your event data and generate segments without touching code.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-manage.svg">
+          <p class="small uppercase font-brand-primary">Automation</p>
           <p class="semi-bold">Manage your email workflows</p>
           <p class="light">Craft the timing and filtering of your emails, collaborate on content and design robust email campaigns.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-deploy.svg">
+          <p class="small uppercase font-brand-error">Deployment</p>
           <p class="semi-bold">Deploy to Sendgrid, Mailgun & more</p>
           <p class="light">Deploy your content and email schedule to 100+ million customers using your choice of email delivery platforms.</p>
         </li>
