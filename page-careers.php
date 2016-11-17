@@ -21,13 +21,13 @@
 </section>
 <section id="careers-mission" class="double-padding">
   <div class="inner small-inner flush-bottom">
-    <h1 class="chunk font-brand-dark">We believe data is changing our world</h1>
+    <h1 class="chunk">We believe data is changing our world</h1>
     <p class="medium">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
   </div>
 </section>
 <section id="careers-why" class="double-padding">
   <div class="inner small-inner flush-bottom"">
-    <h1 class="chunk font-brand-dark no-margin bottom-margin-large">Be empowered to do your best work</h1>
+    <h1 class="chunk no-margin bottom-margin-large">Be empowered to do your best work</h1>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
     <ul class="feature-list unstyled-list thirds sm-left-align">
@@ -51,7 +51,7 @@
 </section>
 <section id="careers-vibe" class="double-padding">
   <div class="inner small-inner bottom-padding-medium">
-    <h1 class="chunk font-brand-dark">Live to work, not the other way around</h1>
+    <h1 class="chunk">Live to work, not the other way around</h1>
     <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
   <div class="inner flush-top large-inner vibe-images">
@@ -121,7 +121,7 @@
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
   <div class="inner blue-box">
-    <h1 class="chunk font-brand-dark md-center">Not just work life, real life</h1>
+    <h1 class="chunk md-center">Not just work life, real life</h1>
     <ul class="feature-list unstyled-list thirds md-center sm-left-align">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
@@ -153,7 +153,7 @@
 </section>
 <section id="careers-remote" class="double-padding">
   <div class="inner small-inner bottom-padding-small">
-    <h1 class="chunk font-brand-dark">Be where you want to be</h1>
+    <h1 class="chunk">Be where you want to be</h1>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s a list of the places Vero team members reside:</p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
@@ -193,7 +193,7 @@
 </section>
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
-    <h1 class="chunk font-brand-dark">See where you fit in</h1>
+    <h1 class="chunk">See where you fit in</h1>
     <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">

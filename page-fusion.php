@@ -126,7 +126,7 @@
     <p class="semi-bold center-text">Fusion is just the beginning...</p>
     <div class="center-text">
       <h1 class="chunk">Data is more actionable when it's complete and accurate.</h1>
-      <p class="medium">Fusion is the first step towards designing, deploying and testing personalised product experiences powered by all of the data you store. Fusion enables you to load data from its origin, delivery better accuracy without requiring you to invest in custom API, push-based synchronization code. Stay tuned.</p>
+      <p class="medium">Fusion is the first step towards designing, deploying and testing personalised product experiences powered by all of the data you store. Fusion enables you to load data from its origin, delivering better accuracy without requiring you to invest in custom API, push-based synchronization code. Stay tuned.</p>
     </div> 
     <div class="clearfix"></div>
     <div class="top-margin-medium">

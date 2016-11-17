@@ -156,8 +156,9 @@ function add_latest_title() {
   <?php }
   else if( is_post_type_archive('release-notes') ){ ?>
     <div class="full-width">
-      <img class="section-title-image" src="/wp-content/themes/vero/assets/images/changelog/workinghard@2x.png"/>
-      <h1 class="section-title">Release Notes</h1>
+      <img class="section-title-image" src="/wp-content/themes/vero/assets/images/changelog/release-notes.svg"/>
+      <h1 class="small-title">Release Notes</h1>
+      <p class="no-top-margin">Read about the latest features, updates and bug fixes.</p>
     </div>
   <?php }
   else if( is_category() ){ ?>

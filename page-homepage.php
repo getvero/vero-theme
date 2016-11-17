@@ -14,7 +14,7 @@
       <p class="medium">Data is everything. Vero enables engineering, product and marketing to collaborate on designing personalised customer interactions.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-primary left-margin-tiny" type="submit" value="Get Started">
+        <input class="btn btn-success left-margin-tiny" type="submit" value="Get Started">
       </form>
       <p class="small light faded">Import your data, setup and test Vero for free.</p>
     </div>
@@ -26,15 +26,13 @@
 <section id="logos" class="border-bottom">
   <div class="inner full-width center-text">
     <h5 class="section-label center-text no-margin">Our customers use Vero to build best-in-class product experiences</h5>
-    <!-- <p class="regular faded no-margin">Our customers use Vero to build the products experiences of the future</p> -->
     <ul class="unstyled-list inline-list">
-      <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
       <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sitepoint@2x.png 2x" alt="Sitepoint" height="76"></li>
-      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-alexa.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-alexa@2x.png 2x" alt="Alexa" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
+      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
       <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-oneill@2x.png 2x" alt="O'Neill" height="76"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
     </ul>
     <!-- <p class="no-margin"><a href="/customers">See how they use Vero</a></p> -->
@@ -51,7 +49,7 @@
           <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
           <p class="small uppercase font-brand-warning">Collection</p>
           <p class="semi-bold">Capture customer data & events</p>
-          <p class="light">Track and store your event stream in real time using our API and / or Segment integration.</p>
+          <p class="light">Track and store your event stream in real time using our API or Segment integration.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-model.svg">
@@ -73,7 +71,8 @@
         </li>
       </ul>
     </div>
-    <p class="medium"><a href="/features/email">Find out more</a></p>
+    <div class="clearfix"></div>
+    <p class="medium top-margin-medium"><a href="/features/email">See what Vero can do</a></p>
   </div>
 </section>
 <section id="benefits">
@@ -125,7 +124,7 @@
 </section>
 <section id="twitter">
   <div class="inner">
-      <h5 class="section-label center-text">What people are saying about Vero</h5>
+      <h5 class="section-label center-text">What people have said about Vero</h5>
       <div class="tweet">
         <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
       </div>
