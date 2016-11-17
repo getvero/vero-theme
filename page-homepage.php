@@ -10,13 +10,13 @@
 ?>
   <div class="inner flush-bottom">
     <div class="content">
-      <h1 class="chunk">An event driven email platform<br/> for your whole team</h1>
-      <p class="medium">Put your customer data first and enable your whole organisation<br/> to take customer interactions to their fullest potential.</p>
+      <h1 class="chunk">The event driven email platform<br/> for teams that put product first</h1>
+      <p class="medium">Data is everything. Vero enables engineering, product and marketing<br/> to collaborate on designing personalised customer interactions.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-primary left-margin-tiny" type="submit" value="Get Started">
       </form>
-      <p class="small light faded">No credit card required, only pay when your first campaign is live</p>
+      <p class="small light faded">Import your data, setup and test Vero for free.</p>
     </div>
     <div class="image center-text">
       <img src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
@@ -25,7 +25,7 @@
 </section>
 <section id="logos" class="border-bottom">
   <div class="inner full-width center-text">
-    <h5 class="section-label center-text no-margin">Our customers use Vero to build the products experiences of the future</h5>
+    <h5 class="section-label center-text no-margin">Our customers use Vero to build best-in-class product experiences</h5>
     <!-- <p class="regular faded no-margin">Our customers use Vero to build the products experiences of the future</p> -->
     <ul class="unstyled-list inline-list">
       <!-- <li class="logo pipedrive"><img src="/wp-content/themes/vero/assets/images/home/logos/pipedrive@2x.png" alt="Pipedrive"></li> -->
@@ -42,8 +42,8 @@
 </section>
 <section id="features-summary" class="border-bottom">
   <div class="inner center-text">
-    <h1 class="no-bottom-margin">The data-first way to manage your email experiences</h1>
-    <p class="medium">Follow a simple but powerful methodology for off site customer interactions</p>
+    <h1 class="no-bottom-margin">The data driven way to manage your email experiences</h1>
+    <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>
     <div class="methodology">
       <div class="dotted-line"></div>
       <ul class="feature-list full-width sm-halfs fourths">
@@ -51,7 +51,7 @@
           <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
           <p class="small uppercase font-brand-warning">Collection</p>
           <p class="semi-bold">Capture customer data & events</p>
-          <p class="light">Track and store your event stream in real time using our API and Segment integration.</p>
+          <p class="light">Track and store your event stream in real time using our API and / or Segment integration.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-model.svg">
@@ -63,13 +63,13 @@
           <img src="/wp-content/themes/vero/assets/images/home/home-manage.svg">
           <p class="small uppercase font-brand-primary">Automation</p>
           <p class="semi-bold">Manage your email workflows</p>
-          <p class="light">Craft the timing and filtering of your emails, collaborate on content and design robust email campaigns.</p>
+          <p class="light">Design and schedule advanced email workflows, collaborate on content and understand every interaction.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-deploy.svg">
           <p class="small uppercase font-brand-error">Deployment</p>
           <p class="semi-bold">Deploy to Sendgrid, Mailgun & more</p>
-          <p class="light">Deploy your content and email schedule to 100+ million customers using your choice of email delivery platforms.</p>
+          <p class="light">Deploy and track your campaigns at scale using your choice of email delivery provider.</p>
         </li>
       </ul>
     </div>
@@ -79,22 +79,22 @@
 <section id="benefits">
   <div class="inner center-text">
     <h1 class="no-bottom-margin">Built for teams who put their product first</h1>
-    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> deployment process that enables <span class="semi-bold">teams</span> to move together to create interactions that are <span class="semi-bold">reliable</span>.</p>
+    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> deployment process that enables <span class="semi-bold">teams</span> to work together to create customer interactions that are <span class="semi-bold">valuable</span> and <span class="semi-bold">reliable</span>.</p>
     <ul class="feature-list full-width thirds">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-data-first.png" srcset="/wp-content/themes/vero/assets/images/home/home-data-first@2x.png 2x">
-          <p class="semi-bold">Data driven</p>
-          <p class="light">We think that data is at the heart of every great product experience. Vero gives your team the tools to store and model your data to create meaningful experiences.</p>
+          <p class="semi-bold">Data is changing the world</p>
+          <p class="light">Organizations have more data than ever before. Using this data to deliver product experiences of value is critical to customer satisfaction.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-organisation.png" srcset="/wp-content/themes/vero/assets/images/home/home-organisation@2x.png 2x">
-          <p class="semi-bold">For the whole organisation</p>
-          <p class="light">We know the best products come from teams who are in sync. Thats why Vero is designed to allow the whole team to work better together.</p>
+          <p class="semi-bold">It takes a team</p>
+          <p class="light">Great products require alignment and collaboration between product, marketing and engineering. We believe in this truth and Vero reflects that.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-modern-stack.png" srcset="/wp-content/themes/vero/assets/images/home/home-modern-stack@2x.png 2x">
-          <p class="semi-bold">Fits into the Modern Stack</p>
-          <p class="light">Built with the modern event stream in mind, Vero lets you stay in control by working in alignment with a multitide of forward thinking web technologies and applications.</p>
+          <p class="semi-bold">Part of the modern stack</p>
+          <p class="light">Vero ingests your event stream, puts it to work and pushes interaction data back into it. Vero is critical in actioning your data, not just analysing it.</p>
         </li>
       </ul>
   </div>
@@ -118,7 +118,7 @@
   <div class="developers block center-text">
     <div class="inner-block">
       <h3 class="block-title">A platform engineers can rely on</h3>
-      <p class="block-desc">Reliable and built around an API, Vero gets out of your way and gives you the power to work like the hundreds of other businesses that track <strong>1B+</strong> customer actions and send <strong>200M+</strong> emails every month using Vero. Libraries in Ruby, Python and more. </p>
+      <p class="block-desc">Reliable and built on top of your event stream, Vero gets out of your way and gives you the power to create best-in-class product interactions like the hundreds of other businesses serving over <strong>500m</strong> customers on the Vero platform. Libraries in Ruby, Python and more.</p>
       <a href="http://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
   </div>
@@ -126,9 +126,6 @@
 <section id="twitter">
   <div class="inner">
       <h5 class="section-label center-text">What people are saying about Vero</h5>
-      <div class="tweet">
-        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Looking for a new <a href="https://twitter.com/hashtag/email?src=hash">#email</a> client? <a href="https://twitter.com/getvero">@getvero</a> is the bees knees. Co-founder <a href="https://twitter.com/chexton">@chexton</a> delivers a new standard for quality and customer service.</p>&mdash; Paris Rouzati (@parisrouz) <a href="https://twitter.com/parisrouz/status/593558485087846400">April 29, 2015</a></blockquote>
-      </div>
       <div class="tweet">
         <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
       </div>
@@ -139,13 +136,13 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Send your first email today</h1>
-    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
+    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">No credit card required, only pay when you start sending live emails.</p>
+    <p class="small">Import your data, setup and test Vero for free.</p>
   </div>
 </section>
 <?php
