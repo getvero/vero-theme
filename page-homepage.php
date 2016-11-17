@@ -19,7 +19,7 @@
       <p class="small light faded">Import your data, setup and test Vero for free.</p>
     </div>
     <div class="image center-text">
-      <img class="bottom-margin-medium" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
+      <img class="bottom-margin-large" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
     </div>
   </div>
 </section>
