@@ -10,8 +10,8 @@
 ?>
   <div class="inner flush-bottom">
     <div class="content">
-      <h1 class="chunk">The event driven email platform<br/> for teams that put product first</h1>
-      <p class="medium">Data is everything. Vero enables engineering, product and marketing<br/> to collaborate on designing personalised customer interactions.</p>
+      <h1 class="chunk">The event driven email platform <span class="break-at-large">for product focused teams</span></h1>
+      <p class="medium">Data is everything. Vero enables engineering, product and marketing to collaborate on designing personalised customer interactions.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-primary left-margin-tiny" type="submit" value="Get Started">
