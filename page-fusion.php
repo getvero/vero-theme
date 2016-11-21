@@ -23,7 +23,7 @@
         <input class="form-control-large input-width-medium" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success left-margin-tiny btn-submit top-margin-small" type="submit" value="Register for early access">
       </form>
-      <p class="small faded regular no-bottom-margin">Fusion is being selectively rolled out due to high demand. Register your interest now. </p>
+      <p class="small faded regular no-bottom-margin">We're rolling out Fusion in waves. Register your interest now.</p>
     </div> 
   </div>
 </section>
