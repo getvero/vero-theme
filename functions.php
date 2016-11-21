@@ -68,7 +68,7 @@ function genesischild_theme_setup() {
   // Add featured posts, search and category bar to posts archive
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   add_action( 'genesis_before_content', 'add_blog_post_back_button' );
-  add_action( 'genesis_before_content_sidebar_wrap', 'add_categories_and_search' );
+  add_action( 'genesis_after_header', 'add_categories_and_search' );
   add_action( 'genesis_before_content_sidebar_wrap', 'add_featured_posts' );
   add_action( 'genesis_before_loop', 'add_latest_title' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
