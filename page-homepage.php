@@ -25,15 +25,15 @@
 </section>
 <section id="logos" class="border-bottom">
   <div class="inner full-width center-text">
-    <h5 class="section-label center-text no-margin">Our customers use Vero to build best-in-class product experiences</h5>
+    <h5 class="section-label center-text no-margin">Used to build best-in-class product experiences</h5>
     <ul class="unstyled-list inline-list">
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-canva@2x.png 2x" alt="Canva" height="76"></li>
-      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
+      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
+      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva@2x.png 2x" alt="Canva" height="76"></li>
+      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
+      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
+      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
+      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
     </ul>
     <!-- <p class="no-margin"><a href="/customers">See how they use Vero</a></p> -->
   </div>
@@ -141,7 +141,7 @@
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small">Import your data, setup and test Vero for free.</p>
+    <p class="small faded">Import your data, setup and test Vero for free.</p>
   </div>
 </section>
 <?php
