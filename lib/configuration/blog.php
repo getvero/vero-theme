@@ -11,10 +11,13 @@ function add_custom_types( $query ) {
     $query->set( 'post_parent', 0 );
     
     return $query;
-  } else if ( is_search() ) {
-      $query->set('post_type', array(
+  } else if ( is_search() && $query === $wp_the_query && !is_admin()) {
+    $query->set('post_type', array(
       'post'
     ));
+
+    $query->set( 'post_parent', 0 );
+
     return $query;
   }
 }
