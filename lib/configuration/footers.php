@@ -54,16 +54,17 @@ function custom_footer_html() {
 
 function blog_cta() {
   ?>
-  <div id="blog-cta">
-    <div class="blog-cta-content">
-      <h2>Send awesome emails with Vero</h2>
-      <p>Behavioural Emails. User Segments. Automated Newsletters.</p>
-      <p>No obligation, only pay when you go live.</p>
-      <a class="btn btn-success" href="https://app.getvero.com/signup" target="_blank">Create your account</a>
+  <section id="call-to-action" class="center-text dark-box">
+    <div class="inner">
+      <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+      <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
+      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+        <input class="form-control" type="email" placeholder="Email Address" name="email">
+        <input class="btn btn-success" type="submit" value="Create your account">
+      </form>
+      <p class="small faded">Import your data, setup and test Vero for free.</p>
     </div>
-    <div class="blog-cta-image"><img src="/wp-content/themes/vero/assets/images/blog-cta@2x.png"></div>
-  </div>
-
+  </section>
   <?php
 }
 
@@ -80,17 +81,21 @@ function blog_related_posts() {
         $custom_query->the_post();
         $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
         $category = get_the_category(); ?>
-        <div class='related-post' style='background:url("<?php echo $featured_image; ?>"); background-size: cover'>
-          <div class='related-image-overlay'></div>
+        <div class='related-post <?php if($featured_image){ ?>has-image<?php } ?>'>
+          <?php if($featured_image){ ?>
+            <div class='related-image'><a class='related-image-link-overlay' href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>"</a></div>
+          <?php 
+          }
+          ?> 
           <div class="related-titles">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
           </div>
-          <a class='related-link-overlay' href="<?php the_permalink(); ?>"></a>
         </div>
       <?php
       }
       wp_reset_postdata(); ?>
-    </div> <?php
+    </div>
+    <?php
   }
 
 }

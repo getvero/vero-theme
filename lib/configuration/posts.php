@@ -85,11 +85,11 @@ function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
     <div class='subscribe-form center-block'>
-      <h2>We dissect email for a living.</h2>
-      <p>More than 10,000 marketers, developers and product managers enjoy our newsletter every week.</p>
+      <h2>Subscribe for updates</h2>
+      <p>Join the more than 10,000 product, engineering and  marketing team member who enjoy content from our blog on a regular basis.</p>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
           <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
-          <input type='submit' value='Join us' class="btn btn-success"/>
+          <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
       </form>
     </div>
   <?php
@@ -186,7 +186,7 @@ function add_blue_signup_boxes( $content ) {
   @$dom->loadHTML( $content );
   $dom->preserveWhiteSpace = false;
 
-  $insert_blue_box = get_field('insert_blue_box');
+  // $insert_blue_box = get_field('insert_blue_box');
 
   if ( is_blog_post_or_guide() && post_is_long() && ( isset($insert_blue_box) && $insert_blue_box ) ) {
     $tags = $dom->getElementsByTagName('p');
