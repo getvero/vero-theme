@@ -13,7 +13,7 @@ function add_custom_types( $query ) {
     return $query;
   } else if ( is_search() ) {
       $query->set('post_type', array(
-      'post', 'guides'
+      'post'
     ));
     return $query;
   }
