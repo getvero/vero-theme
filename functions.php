@@ -110,11 +110,11 @@ function genesischild_theme_setup() {
   add_filter ('genesis_search_text', 'change_search_form_placeholder');
 
   // Custom help pages
-  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
-  add_action( 'init', 'add_help_docs_taxonomies', 0 );
-  add_action( 'get_header', 'change_help_docs_sidebar' );
-  add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
-  add_action( 'genesis_entry_header', 'add_help_docs_breadcrumbs', 8 );
+  // add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
+  // add_action( 'init', 'add_help_docs_taxonomies', 0 );
+  // add_action( 'get_header', 'change_help_docs_sidebar' );
+  // add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
+  // add_action( 'genesis_entry_header', 'add_help_docs_breadcrumbs', 8 );
 
   // Customise API docs
   add_action( 'genesis_before', 'remove_contents_for_api' );

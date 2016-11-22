@@ -11,6 +11,11 @@ function add_custom_types( $query ) {
     $query->set( 'post_parent', 0 );
     
     return $query;
+  } else if ( is_search() ) {
+      $query->set('post_type', array(
+      'post', 'guides'
+    ));
+    return $query;
   }
 }
 
