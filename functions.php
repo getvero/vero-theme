@@ -101,6 +101,9 @@ function genesischild_theme_setup() {
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
   add_action( 'genesis_before_footer', 'blog_related_posts');
+  add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+  add_filter( 'excerpt_more', 'new_excerpt_more' );
+
 
   // Search page
   add_action ('genesis_before', 'remove_search_title');

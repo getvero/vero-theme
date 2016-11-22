@@ -89,6 +89,8 @@ function blog_related_posts() {
           ?> 
           <div class="related-titles">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <p><?php the_excerpt(); ?></p>
+            <p><a href="<?php the_permalink(); ?>" class="underline-link">Read more</a></p>
           </div>
         </div>
       <?php

@@ -178,6 +178,15 @@ function post_is_long() {
   return $length > 950;
 }
 
+// change excerpts
+function custom_excerpt_length( $length ) {
+  return 20;
+}
+function new_excerpt_more($more) {
+    return '...';
+}
+//
+
 function add_blue_signup_boxes( $content ) {
   global $post;
   $index = 5;
