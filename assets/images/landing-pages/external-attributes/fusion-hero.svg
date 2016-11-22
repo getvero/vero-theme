@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="819px" height="309px" viewBox="0 0 819 309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
     <title>Group 6</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -37,7 +37,7 @@
                     <rect id="Rectangle-27" fill="#CEEDF6" transform="translate(325.794080, 32.610279) rotate(-315.000000) translate(-325.794080, -32.610279) " x="302.958046" y="9.65923266" width="45.6720677" height="45.9020923" rx="5"></rect>
                     <rect id="Rectangle-27" fill="#CEEDF6" opacity="0.318670743" transform="translate(328.550516, 35.368084) rotate(-315.000000) translate(-328.550516, -35.368084) " x="305.714482" y="12.4170382" width="45.6720677" height="45.9020923" rx="5"></rect>
                     <text id="API" font-family="AvenirNext-DemiBold, Avenir Next" font-size="15" font-weight="500" fill="#0AA6D2">
-                        <tspan x="314.750578" y="40.3849232">API</tspan>
+                        <tspan x="313.750578" y="37.3849232">API</tspan>
                     </text>
                 </g>
                 <g id="Group-24" transform="translate(330.000000, 93.000000)">
