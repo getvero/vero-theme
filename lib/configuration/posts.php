@@ -86,7 +86,7 @@ function add_subscribe_form() {
     ?>
     <div class='subscribe-form center-block'>
       <h2>Subscribe for updates</h2>
-      <p>Join the more than 10,000 product, engineering and  marketing team member who enjoy content from our blog on a regular basis.</p>
+      <p>Join the more than 10,000 product, engineering and  marketing team members who enjoy content from our blog on a regular basis.</p>
       <form action='https://app.getvero.com/forms/d18fad198e3fb6d5d641d602ba7006f1' method='post'>
           <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
           <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
