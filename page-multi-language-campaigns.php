@@ -9,11 +9,6 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="multi-language-coming-soon" class="coming-soon-banner">
-  <div class="inner">
-    <h3>Coming Soon</h3>
-  </div>
-</section>
 <section id="multi-language-hero" class="hero border-bottom">
   <div class="inner center-text">
     <h1 class="hero-title">The simple way to send your multi language emails</h1>
@@ -33,8 +28,8 @@
       <h2>Just add content, we do the rest.</h2>
       <ul class="steps unstyled-list">
         <li class="step"><span class="number">1</span><p class="step-title"><strong>Add a Language Variation</strong></p><p>Every campaign can have multiple content variations. Add as many as you need.</p></li>
-        <li class="step"><span class="number">2</span><p class="step-title"><strong>Select a Language</strong></p><p>Choose the language that you want to send. Vero automatically checks every one of your customers for the ‘language’ property and sends the right variation to each individual.</p></li>
-        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML codeto the language variation, or use our rich text editor. You can change what ever you like in each variation and use <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid</a> and <a href="http://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
+        <li class="step"><span class="number">2</span><p class="step-title"><strong>Select a Language</strong></p><p>Choose the language that you want to send. Vero automatically checks every one of your customers for the ‘locale’ property and sends the right variation to each individual.</p></li>
+        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML code to the language variation, or use our rich text editor. You can change what ever you like in each variation and use <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid</a> and <a href="http://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
         <li class="step"><span class="number">4</span><p class="step-title"><strong>There is no fourth step!</strong> Launch the campaign and the right variation will be sent to the right user when your email is sent.</p></li>
       </ul>
     </div>
@@ -46,7 +41,7 @@
 <section id="multi-language-how-it-works" class="center-text border-bottom">
   <div class="inner center-text">
     <h2>How does it work?</h2>
-    <p>Vero reserves the <code>language</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>language</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es-ES</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer.</p>
+    <p>Vero reserves the <code>locale</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>locale</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer. Read our <a href="http://help.getvero.com/articles/create-a-multi-language-campaign.html" target="_blank">multi language campaigns help doc</a>.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works@2x.png 2x">
   </div>
 </section>
@@ -60,7 +55,7 @@ vero.users.track!({
     id:    '123',
     email: 'damienb@getvero.com',
     data:  {
-      language: 'fr-FR'
+      locale: 'fr-FR'
     }
   })</code></pre>
       </div>
@@ -73,17 +68,14 @@ vero.users.track!({
 
 
 <section id="call-to-action" class="center-text">
-  <div class="inner center-text">
-    <h2>Keep updated and get early access</h2>
-    <form action="https://app.getvero.com/forms/be673e13e65a86736e07c35dad12b7a1" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Notify Me">
-    </form>
-  </div>
-</section>
-<section id="multi-language-coming-soon" class="coming-soon-banner">
   <div class="inner">
-    <h3>Coming Soon</h3>
+    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
+    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
+      <input class="btn btn-success" type="submit" value="Create your account">
+    </form>
+    <p class="small faded">Import your data, setup and test Vero for free.</p>
   </div>
 </section>
 <?php
