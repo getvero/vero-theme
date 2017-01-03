@@ -36,6 +36,7 @@ function add_js() {
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
+  wp_register_script('features', get_stylesheet_directory_uri() . '/assets/scripts/features.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/scripts/landing-pages.js', array('jquery'), NULL, true);
   wp_register_script('pricing', get_stylesheet_directory_uri() . '/assets/scripts/pricing.js', array('jquery'), NULL, true);
   wp_register_script('blog', get_stylesheet_directory_uri() . '/assets/scripts/blog.js', array('jquery'), NULL, true);
@@ -63,6 +64,7 @@ function add_js() {
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('homepage');
+  wp_enqueue_script('features');
   wp_enqueue_script('pricing');
   wp_enqueue_script('blog');
   wp_enqueue_script('imgslider');

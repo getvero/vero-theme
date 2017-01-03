@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>templates</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5" y="5" width="21" height="8" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="21" height="8" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="5" y="15" width="10" height="10" rx="1"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-705.000000, -4893.000000)">
+            <g id="templates" transform="translate(705.000000, 4893.000000)">
+                <path d="M0.295978495,0.289877905 C0.475940099,0.110686291 0.722378842,0 0.990777969,0 L5.00922203,0 C5.55641359,0 6,0.443864822 6,1 C6,1.55228475 5.54902482,2 5.00922203,2 L2,2 L2,5.00922203 C2,5.55641359 1.55613518,6 1,6 C0.44771525,6 -4.4408921e-16,5.54902482 -4.4408921e-16,5.00922203 L4.4408921e-16,0.990777969 C4.4408921e-16,0.718690398 0.109746165,0.472219338 0.288470888,0.293163503 Z" id="Combined-Shape" fill="#FFC111"></path>
+                <path d="M30.7068284,0.288462852 C30.5277733,0.109742875 30.2813055,0 30.009222,0 L25.990778,0 C25.4509752,0 25,0.44771525 25,1 C25,1.55613518 25.4435864,2 25.990778,2 L29,2 L29,5.00922203 C29,5.54902482 29.4477153,6 30,6 C30.5561352,6 31,5.55641359 31,5.00922203 L31,0.990777969 C31,0.722375058 30.8893106,0.47593315 30.7101145,0.295970883 Z" id="Combined-Shape" fill="#FFC111"></path>
+                <path d="M0.295978495,24.2898779 C0.475940099,24.1106863 0.722378842,24 0.990777969,24 L5.00922203,24 C5.55641359,24 6,24.4438648 6,25 C6,25.5522847 5.54902482,26 5.00922203,26 L2,26 L2,29.009222 C2,29.5564136 1.55613518,30 1,30 C0.44771525,30 -4.4408921e-16,29.5490248 -4.4408921e-16,29.009222 L4.4408921e-16,24.990778 C4.4408921e-16,24.7186904 0.109746165,24.4722193 0.288470888,24.2931635 Z" id="Combined-Shape" fill="#FFC111" transform="translate(3.000000, 27.000000) scale(1, -1) translate(-3.000000, -27.000000) "></path>
+                <rect id="Rectangle-23" fill="#FFC111" x="29" y="8" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" x="29" y="19" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" x="29" y="13" width="2" height="4" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" x="0" y="8" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" x="0" y="19" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" x="0" y="13" width="2" height="4" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(21.500000, 1.000000) rotate(-270.000000) translate(-21.500000, -1.000000) " x="20.5" y="-0.5" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(9.500000, 1.000000) rotate(-270.000000) translate(-9.500000, -1.000000) " x="8.5" y="-0.5" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(15.500000, 1.000000) rotate(-270.000000) translate(-15.500000, -1.000000) " x="14.5" y="-1.5" width="2" height="5" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#6FD350" transform="translate(21.500000, 16.000000) rotate(-270.000000) translate(-21.500000, -16.000000) " x="20.5" y="11.5" width="2" height="9" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#6FD350" transform="translate(21.500000, 20.000000) rotate(-270.000000) translate(-21.500000, -20.000000) " x="20.5" y="15.5" width="2" height="9" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#6FD350" transform="translate(21.500000, 24.000000) rotate(-270.000000) translate(-21.500000, -24.000000) " x="20.5" y="19.5" width="2" height="9" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(21.500000, 29.000000) rotate(-270.000000) translate(-21.500000, -29.000000) " x="20.5" y="27.5" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(9.500000, 29.000000) rotate(-270.000000) translate(-9.500000, -29.000000) " x="8.5" y="27.5" width="2" height="3" rx="1"></rect>
+                <rect id="Rectangle-23" fill="#FFC111" transform="translate(15.500000, 29.000000) rotate(-270.000000) translate(-15.500000, -29.000000) " x="14.5" y="26.5" width="2" height="5" rx="1"></rect>
+                <path d="M30.7068284,24.2884629 C30.5277733,24.1097429 30.2813055,24 30.009222,24 L25.990778,24 C25.4509752,24 25,24.4477153 25,25 C25,25.5561352 25.4435864,26 25.990778,26 L29,26 L29,29.009222 C29,29.5490248 29.4477153,30 30,30 C30.5561352,30 31,29.5564136 31,29.009222 L31,24.990778 C31,24.7223751 30.8893106,24.4759332 30.7101145,24.2959709 Z" id="Combined-Shape" fill="#FFC111" transform="translate(28.000000, 27.000000) scale(1, -1) translate(-28.000000, -27.000000) "></path>
+                <use id="Rectangle-38" stroke="#6FD350" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                <use id="Rectangle-38" stroke="#6FD350" mask="url(#mask-4)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

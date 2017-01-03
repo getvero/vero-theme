@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>reports</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="0" width="27" height="21" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27" height="21" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-705.000000, -4649.000000)">
+            <g id="reports" transform="translate(705.000000, 4649.000000)">
+                <path d="M15.5,20.5 L15.5,23.5" id="Line" stroke="#FFC111" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M22.0226805,29.0226805 L15.5,23.5" id="Line" stroke="#FFC111" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M8.97731949,29.0226805 L15.5,23.5" id="Line" stroke="#FFC111" stroke-width="2" stroke-linecap="round"></path>
+                <use id="Rectangle-17" stroke="#FFC111" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <rect id="Rectangle-34" fill="#FFC111" x="0" y="0" width="31" height="3.5" rx="1.75"></rect>
+                <polyline id="Path-5" stroke="#6FD350" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="7 16 12.95 9.45454545 18.05 12.7272727 24 7"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
