@@ -136,7 +136,7 @@
       </ul>
       <ul class="button-list unstyled-list">
         <li>
-          <img src="" class="pull-left">
+          <img src="/wp-content/themes/vero/assets/images/home/features/deployment/64.png" width="32" class="pull-left left-margin-medium">
           <p class="small"><span class="semi-bold">Don’t have your own email provider?</span> No problem, Vero sends your emails using our managed infrastructure by default.</p>
         </li>
       </ul>
@@ -145,6 +145,7 @@
 </section>
 <section id="features-more" class="double-padding border-bottom">
   <div class="inner large-inner">
+    <p class="semi-bold center-text small uppercase font-brand-gray bottom-margin-medium">and more...</p>
     <ul class="feature-list unstyled-list thirds center-text">
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/newsletter.svg"><p class="semi-bold">Newsletter Blasts</p><p class="light smallish">Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodal.</p></li>
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/reports.svg"><p class="semi-bold">Detailed Reporting</p><p class="light smallish">Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodal.</p></li>
