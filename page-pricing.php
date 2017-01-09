@@ -10,7 +10,7 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="pricing-hero" class="hero light-section">
+<section id="pricing-hero" class="hero">
   <div class="inner center-text">
     <h1 class="hero-title">Our pricing scales with you</h1>
     <p class="medium">Sign up, track data and send unlimited test emails for free. Only pay when you start emailing customers.</p>
@@ -129,7 +129,7 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section id="pricing-validation">
+<section id="pricing-validation" class="dark-box">
   <div class="inner center-text">
     <img class="quote-image" src="/wp-content/themes/vero/assets/images/home/pricing/sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/sphero@2x.png 2x">
     <blockquote class="quote">&ldquo;Vero is an essential tool for us at Sphero. We use Vero for newsletter, behavioral and transaction email campaigns. Our relationship with Vero enables Sphero to communicate in a dynamic and personalized medium.&rdquo;</blockquote>
@@ -138,22 +138,22 @@ include 'pages-shared/static-header.php';
     <p>Sphero</p>
     <ul class="unstyled-list inline-list pricing-logos center-text">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-canva@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva@2x.png 2x" height="76">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-freelancer@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-freelancer@2x.png 2x" height="76">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sitepoint@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-strikingly@2x.png 2x" height="76">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-sphero@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-sphero@2x.png 2x" height="76">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-oneill@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-pipedrive@2x.png 2x" height="76">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-alexa@2x.png 2x" width="118">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-tidal@2x.png 2x" height="76">
       </li>
     </ul>
   </div>
@@ -180,14 +180,6 @@ include 'pages-shared/static-header.php';
       <p>
         We also provide phone and emergency support for customers on our $1,049/month Enterprise plans. Please request a demo above for more information or if you have questions about this process.
       </p>
-
-      <h3>Does the data I send Vero belong to me?</h3>
-      <p>
-        Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.
-      </p>
-      <p>
-        Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.
-      </p>
     </div>
     <div class="right">
       <h3>Can I pay annually?</h3>
@@ -204,6 +196,14 @@ include 'pages-shared/static-header.php';
       </p>
       <p>
         If you’re an agency, you may also use projects to manage multiple clients.
+      </p>
+      
+      <h3>Does the data I send Vero belong to me?</h3>
+      <p>
+        Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.
+      </p>
+      <p>
+        Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.
       </p>
     </div>
   </div>
