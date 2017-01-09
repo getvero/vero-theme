@@ -28,7 +28,7 @@
 
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small">
-          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment.png">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
           <p class="no-margin top-margin-tiny">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
@@ -58,7 +58,7 @@
       <p class="smallish top-margin-medium no-bottom-margin">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via our own libraries, upload adhoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalisation, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="top-margin-large no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment.png">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
           <p class="semi-bold smallish no-margin">Works with Segment</p><p class="light">If you’re already using segment, hooking event data into Vero is as simple as flipping a switch.</p>
         </li>
         <li>
