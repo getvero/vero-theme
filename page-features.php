@@ -28,7 +28,7 @@
 
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small">
-          <img src="/wp-content/themes/vero/assets/images/home/features/segment.png">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment.png">
           <p class="no-margin top-margin-tiny">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
