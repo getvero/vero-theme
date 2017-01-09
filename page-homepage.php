@@ -44,7 +44,7 @@
     <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>
     <div class="methodology">
       <div class="dotted-line"></div>
-      <ul class="feature-list full-width sm-halfs fourths">
+      <ul class="feature-list full-width fourths">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
           <p class="small uppercase font-brand-warning">Collection</p>
