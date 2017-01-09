@@ -52,6 +52,7 @@ function add_js() {
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
   wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', NULL, NULL, true);
   wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
+  wp_register_script('smooth-scroll', get_stylesheet_directory_uri() . '/assets/scripts/vendor/smooth-scroll.min.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -63,6 +64,7 @@ function add_js() {
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
+  wp_enqueue_script('smooth-scroll');
   wp_enqueue_script('homepage');
   wp_enqueue_script('features');
   wp_enqueue_script('pricing');
