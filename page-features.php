@@ -91,12 +91,12 @@
       <img class="feature-image active-feature top-margin-small feature-swapper-option image-shadow responsive-image" id="feature-image-segments" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/>
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
         <li class="active top-margin-small">
-          <a href="#crm" class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
             <p class="semi-bold small no-margin">Segmentation</p>
           </a>
         </li>
         <li class="top-margin-small">
-          <a href="#crm" class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
             <p class="semi-bold small no-margin">Customer Profiles</p>
           </a>
         </li>
@@ -114,12 +114,12 @@
         <img class="pull-right no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature feature-swapper-option" id="feature-image-manage" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
         <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
           <li class="active top-margin-small">
-            <a href="#crm" class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
+            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
               <p class="semi-bold small no-margin">Automation</p>
             </a>
           </li>
           <li class="top-margin-small">
-            <a href="#crm" class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
+            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
               <p class="semi-bold small no-margin">Manage Content</p>
             </a>
           </li>
