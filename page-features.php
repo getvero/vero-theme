@@ -14,10 +14,10 @@
     <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
     <ul class="feature-list feature-menu-list unstyled-list full-width">
-      <li class="no-top-margin"><a href="#features-collection"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
-      <li class="no-top-margin"><a href="#features-modelling"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
-      <li class="no-top-margin"><a href="#features-automation"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
-      <li class="no-top-margin"><a href="#features-deployment"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
+      <li class="no-top-margin"><a href="#features-collection" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
+      <li class="no-top-margin"><a href="#features-modelling" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
+      <li class="no-top-margin"><a href="#features-automation" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
+      <li class="no-top-margin"><a href="#features-deployment" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
     </ul>
   </div>
 </section>
@@ -107,7 +107,7 @@
 </section>
 <section id="features-automation" class="feature-section double-padding border-bottom">
   <div class="inner halfs large-inner feature-swapper">
-    <p class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Design</p>
+    <p class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</p>
     <div class="clearfix">
       <div class="left primary">
         <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">

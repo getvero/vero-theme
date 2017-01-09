@@ -10,3 +10,5 @@ jQuery(document).ready(function(){
     parentSwapper.find(featureId).removeClass('inactive-feature').addClass('active-feature');
   });
 });
+
+smoothScroll.init();
