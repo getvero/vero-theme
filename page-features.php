@@ -10,14 +10,14 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="features-menu" class="border-bottom">
-  <div class="inner large-inner top-padding-large center-text">
+  <div class="inner large-inner center-text">
     <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero's helps engineers, marketers and product teams move faster to design valuable customer experiences.</p>
     <ul class="feature-list feature-menu-list unstyled-list full-width">
-      <li class="no-top-margin"><a href="#features-collection"><img src="/wp-content/themes/vero/assets/images/home/features/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
-      <li class="no-top-margin"><a href="#features-modelling"><img src="/wp-content/themes/vero/assets/images/home/features/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
-      <li class="no-top-margin"><a href="#features-automation"><img src="/wp-content/themes/vero/assets/images/home/features/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
-      <li class="no-top-margin"><a href="#features-deployment"><img src="/wp-content/themes/vero/assets/images/home/features/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
+      <li class="no-top-margin"><a href="#features-collection"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
+      <li class="no-top-margin"><a href="#features-modelling"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
+      <li class="no-top-margin"><a href="#features-automation"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
+      <li class="no-top-margin"><a href="#features-deployment"><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
     </ul>
   </div>
 </section>
@@ -58,11 +58,11 @@
       <p class="smallish top-margin-medium no-bottom-margin">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via our own libraries, upload adhoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalisation, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="top-margin-large no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/images/home/features/segment.png">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment.png">
           <p class="semi-bold smallish no-margin">Works with Segment</p><p class="light">If you’re already using segment, hooking event data into Vero is as simple as flipping a switch.</p>
         </li>
         <li>
-          <img src="/wp-content/themes/vero/assets/images/home/features/logs.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/logs.svg">
           <p class="semi-bold smallish top-margin-medium no-bottom-margin">Understand users and events</p><p class="light">Vero understands data about users and their actions ("events", in the industry). We cache this data to enable powerful segmentation and automation.</p>
         </li>
       </ul>
@@ -99,9 +99,9 @@
           </a>
         </li>
       </ul>
-      <img class="feature-image active-feature top-margin-small image-shadow responsive-image feature-swapper-option" id="feature-image-profiles" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
-      <img class="feature-image inactive-feature top-margin-small feature-swapper-option image-shadow responsive-image" id="feature-image-segments" src="/wp-content/themes/vero/assets/images/home/features/feature-automation.png" srcset="/wp-content/themes/vero/assets/images/home/features/feature-automation@2x.png 2x"/>
-      <p class="small faded top-margin-small inline-block">Description</p>
+      <img class="feature-image inactive-feature top-margin-small image-shadow responsive-image feature-swapper-option" id="feature-image-profiles" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
+      <img class="feature-image active-feature top-margin-small feature-swapper-option image-shadow responsive-image" id="feature-image-segments" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/>
+      <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
     </div>
   </div>
 </section>
@@ -122,9 +122,9 @@
             </a>
           </li>
         </ul>
-        <img class="pull-right no-margin top-margin-small feature-image active-feature image-shadow responsive-image feature-swapper-option " id="feature-image-automate" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
-        <img class="pull-right no-margin top-margin-small feature-image inactive-feature feature-swapper-option" id="feature-image-manage" src="/wp-content/themes/vero/assets/images/home/features/automation/Automate.png" srcset="/wp-content/themes/vero/assets/images/home/features/feature-modelling@2x.png 2x"/>
-        <p class="small faded top-margin-small inline-block">Description</p>
+        <img class="pull-right no-margin top-margin-small feature-image active-feature image-shadow responsive-image feature-swapper-option " id="feature-image-automate" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+        <img class="pull-right no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature feature-swapper-option" id="feature-image-manage" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+        <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
       </div>
       <div class="right secondary">
         <h1 class="tubs regular no-bottom-margin">Complete template manangement. Advanced scheduling design.</h1>
@@ -142,12 +142,10 @@
         </ul>
       </div>
     </div>
-    <ul class="button-list top-margin-medium unstyled-list">
-      <li class="padding-small">
-        <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block">
-        <div class="inline-block"><p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally</p><p class="light">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack.</p></div>
-      </li>
-    </ul>
+    <div class="outlined-box top-margin-medium">
+      <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block right-margin-medium">
+      <div class="inline-block"><p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally</p><p class="light">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack. <a href="http://www.getvero.com/fusion">Read more about Fusion</a></p></div>
+    </div>
   </div>
 </section>
 <section id="features-deployment" class="feature-section double-padding border-bottom">
@@ -171,25 +169,17 @@
     </div>
     <div class="right primary">
       <ul class="button-list mail-services unstyled-list">
-        <li>
-          <a href="#crm" class="unstyled center-text">
-            <img src="/wp-content/themes/vero/assets/images/home/features/deployment/sendgrid.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/sendgrid@2x.png 2x" class="responsive-image">
-          </a>
+        <li class="center-text padding-small">
+          <img src="/wp-content/themes/vero/assets/images/home/features/deployment/sendgrid.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/sendgrid@2x.png 2x" class="responsive-image">
         </li>
-        <li>
-          <a href="#crm" class="unstyled center-text">
-            <img src="/wp-content/themes/vero/assets/images/home/features/deployment/mailgun.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/mailgun@2x.png 2x" class="responsive-image">
-          </a>
+        <li class="center-text padding-small">
+          <img src="/wp-content/themes/vero/assets/images/home/features/deployment/mailgun.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/mailgun@2x.png 2x" class="responsive-image">
         </li>
-        <li>
-          <a href="#crm" class="unstyled center-text">
-            <img src="/wp-content/themes/vero/assets/images/home/features/deployment/mailjet.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/mailjet@2x.png 2x" class="responsive-image">
-          </a>
+        <li class="center-text padding-small">
+          <img src="/wp-content/themes/vero/assets/images/home/features/deployment/mailjet.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/mailjet@2x.png 2x" class="responsive-image">
         </li>
-        <li>
-          <a href="#crm" class="unstyled center-text">
-            <img src="/wp-content/themes/vero/assets/images/home/features/deployment/dyn.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/dyn@2x.png 2x" class="responsive-image">
-          </a>
+        <li class="center-text padding-small">
+          <img src="/wp-content/themes/vero/assets/images/home/features/deployment/dyn.png" srcset="/wp-content/themes/vero/assets/images/home/features/deployment/dyn@2x.png 2x" class="responsive-image">
         </li>
       </ul>
       <ul class="button-list unstyled-list">
