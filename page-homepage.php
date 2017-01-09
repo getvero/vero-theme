@@ -24,7 +24,7 @@
   </div>
 </section>
 <section id="logos" class="border-bottom">
-  <div class="inner large-inner full-width center-text">
+  <div class="inner full-width center-text">
     <h5 class="section-label center-text no-margin">Used to build best-in-class product experiences</h5>
     <ul class="unstyled-list inline-list">
       <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
