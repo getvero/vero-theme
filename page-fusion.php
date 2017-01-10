@@ -121,7 +121,7 @@
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image">
   </div>
 </section>
-<section id="external-attributes-future" class="double-padding light-box border-bottom">
+<section id="external-attributes-future" class="double-padding border-bottom">
   <div class="inner halfs">
     <p class="semi-bold center-text">Fusion is just the beginning...</p>
     <div class="center-text">

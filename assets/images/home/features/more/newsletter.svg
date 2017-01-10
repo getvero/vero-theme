@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>newsletter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,3.9947834 C6,1.78852545 7.79793835,0 10.0028165,0 L26.9971835,0 C29.207878,0 31,1.78679466 31,3.9992748 L31,24.001155 C31,27.3142256 28.3133742,30 25.0029381,30 L9,30 L3,30 L6,18 L6,3.9947834 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="30" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M0,9.00281647 C0,6.79212198 1.79535615,5 4,5 L8,5 L8,25.9971835 C8,28.207878 6.20464385,30 4,30 L4,30 C1.790861,30 0,28.2020617 0,25.9971835 L0,9.00281647 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="25" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-353.000000, -4649.000000)">
+            <g id="newsletter" transform="translate(353.000000, 4649.000000)">
+                <g id="multi-providers" stroke="#6FD350" stroke-width="4" fill="#FFFFFF">
+                    <use id="Rectangle-33" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    <use id="Rectangle-33" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                </g>
+                <rect id="Rectangle-35" fill="#6FD350" x="11" y="6" width="9" height="2" rx="1"></rect>
+                <rect id="Rectangle-35" fill="#6FD350" x="11" y="10" width="9" height="2" rx="1"></rect>
+                <rect id="Rectangle-35" fill="#6FD350" x="22" y="6" width="4" height="6" rx="1"></rect>
+                <rect id="Rectangle-35" fill="#6FD350" x="11" y="22" width="15" height="2" rx="1"></rect>
+                <rect id="Rectangle-35" fill="#6FD350" x="11" y="14" width="15" height="2" rx="1"></rect>
+                <rect id="Rectangle-35" fill="#6FD350" x="11" y="18" width="15" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

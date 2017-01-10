@@ -7,7 +7,7 @@
 
 code.okaidia[class*="language-"],
 pre.okaidia[class*="language-"] {
-	color: #f8f8f2;
+	color: white;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -16,7 +16,8 @@ pre.okaidia[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-	line-height: 1.5;
+	line-height: 1.6;
+	font-weight: 600;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -33,12 +34,13 @@ pre.okaidia[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
-	border-radius: 0.3em;
+	border-radius: 10px;
+	background: #202F5B;
 }
 
 :not(pre) > code.okaidia[class*="language-"],
 pre.okaidia[class*="language-"] {
-	background: #272822;
+	background: #202F5B;
 }
 
 /* Inline code */
@@ -52,11 +54,11 @@ pre.okaidia[class*="language-"] {
 .okaidia .token.prolog,
 .okaidia .token.doctype,
 .okaidia .token.cdata {
-	color: slategray;
+	color: #8F97AD;
 }
 
 .okaidia .token.punctuation {
-	color: #f8f8f2;
+	color: white;
 }
 
 .okaidia .namespace {
@@ -68,12 +70,12 @@ pre.okaidia[class*="language-"] {
 .okaidia .token.constant,
 .okaidia .token.symbol,
 .okaidia .token.deleted {
-	color: #f92672;
+	color: #48BDDE;
 }
 
 .okaidia .token.boolean,
 .okaidia .token.number {
-	color: #ae81ff;
+	color: #FFC111;
 }
 
 .okaidia .token.selector,
@@ -82,7 +84,7 @@ pre.okaidia[class*="language-"] {
 .okaidia .token.char,
 .okaidia .token.builtin,
 .okaidia .token.inserted {
-	color: #a6e22e;
+	color: #6FD350;
 }
 
 .okaidia .token.operator,
@@ -91,23 +93,23 @@ pre.okaidia[class*="language-"] {
 .okaidia .language-css .token.string,
 .okaidia .style .token.string,
 .okaidia .token.variable {
-	color: #f8f8f2;
+	color: white;
 	background: transparent;
 }
 
 .okaidia .token.atrule,
 .okaidia .token.attr-value,
 .okaidia .token.function {
-	color: #e6db74;
+	color: #48BDDE;
 }
 
 .okaidia .token.keyword {
-	color: #66d9ef;
+	color: #FFC111;
 }
 
 .okaidia .token.regex,
 .okaidia .token.important {
-	color: #fd971f;
+	color: #9A56FC;
 }
 
 .okaidia .token.important,

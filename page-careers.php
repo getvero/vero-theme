@@ -70,7 +70,7 @@
           <q>Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
         </p>
         <div class="top-margin-small">
-          <div class="pull-left reba small-profile-image"></div>
+          <div class="pull-left rory small-profile-image"></div>
           <h4>Rory Colsell</h4>
           <p class="no-top-margin">Product Design</p>
         </div>

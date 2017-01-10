@@ -36,6 +36,7 @@ function add_js() {
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
+  wp_register_script('features', get_stylesheet_directory_uri() . '/assets/scripts/features.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/scripts/landing-pages.js', array('jquery'), NULL, true);
   wp_register_script('pricing', get_stylesheet_directory_uri() . '/assets/scripts/pricing.js', array('jquery'), NULL, true);
   wp_register_script('blog', get_stylesheet_directory_uri() . '/assets/scripts/blog.js', array('jquery'), NULL, true);
@@ -51,6 +52,7 @@ function add_js() {
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
   wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', NULL, NULL, true);
   wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
+  wp_register_script('smooth-scroll', get_stylesheet_directory_uri() . '/assets/scripts/vendor/smooth-scroll.min.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -62,7 +64,9 @@ function add_js() {
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
+  wp_enqueue_script('smooth-scroll');
   wp_enqueue_script('homepage');
+  wp_enqueue_script('features');
   wp_enqueue_script('pricing');
   wp_enqueue_script('blog');
   wp_enqueue_script('imgslider');

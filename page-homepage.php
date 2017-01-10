@@ -8,9 +8,9 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-  <div class="inner flush-bottom">
+  <div class="inner large-inner flush-bottom">
     <div class="content">
-      <h1 class="chunk">The event driven email platform <span class="break-at-large">for product focused teams</span></h1>
+      <h1 class="biggie">The event driven email platform <span class="break-at-large">for product focused teams</span></h1>
       <p class="medium">Data is everything. Vero enables engineering, product and marketing to collaborate on designing personalised customer interactions.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
@@ -39,12 +39,12 @@
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <h1 class="no-bottom-margin">The data driven way to manage your email experiences</h1>
     <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>
     <div class="methodology">
       <div class="dotted-line"></div>
-      <ul class="feature-list full-width sm-halfs fourths">
+      <ul class="feature-list full-width fourths">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
           <p class="small uppercase font-brand-warning">Collection</p>
@@ -76,7 +76,7 @@
   </div>
 </section>
 <section id="benefits">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <h1 class="no-bottom-margin">Built for teams who put their product first</h1>
     <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> deployment process that enables <span class="semi-bold">teams</span> to work together to create customer interactions that are <span class="semi-bold">valuable</span> and <span class="semi-bold">reliable</span>.</p>
     <ul class="feature-list full-width thirds">

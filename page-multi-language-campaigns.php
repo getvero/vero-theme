@@ -34,7 +34,7 @@
       </ul>
     </div>
     <div class="right">
-      <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-ui.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-ui@2x.png 2x">
+      <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages@2x.png 2x">
     </div>
   </div>
 </section>
@@ -70,7 +70,7 @@ vero.users.track!({
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <h1 class="cta-title">Put your data first and craft better product experiences</h1>
-    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
+    <p class="sub-heading">Create a free account and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">

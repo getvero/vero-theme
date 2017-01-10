@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="165px" viewBox="0 0 168 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>home-deploy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5693631,27.5074984 C16.0688603,27.2118875 16.8783633,27.211685 17.3782027,27.5074984 L32.5728145,36.4999248 C33.0723118,36.7955357 33.072654,37.2746131 32.5728145,37.5704265 L17.3782027,46.5628529 C16.8787054,46.8584638 16.0692025,46.8586663 15.5693631,46.5628529 L0.374751295,37.5704265 C-0.124745989,37.2748156 -0.125088179,36.7957382 0.374751295,36.4999248 L15.5693631,27.5074984 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32.9475658" height="19.4989227" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M15.5693631,18.8824984 C16.0688603,18.5868875 16.8783633,18.586685 17.3782027,18.8824984 L32.5728145,27.8749248 C33.0723118,28.1705357 33.072654,28.6496131 32.5728145,28.9454265 L17.3782027,37.9378529 C16.8787054,38.2334638 16.0692025,38.2336663 15.5693631,37.9378529 L0.374751295,28.9454265 C-0.124745989,28.6498156 -0.125088179,28.1707382 0.374751295,27.8749248 L15.5693631,18.8824984 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32.9475658" height="19.4989227" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M15.5693631,9.94592204 C16.0688603,9.65031116 16.8783633,9.65010865 17.3782027,9.94592204 L32.5728145,18.9383485 C33.0723118,19.2339593 33.072654,19.7130368 32.5728145,20.0088502 L17.3782027,29.0012766 C16.8787054,29.2968874 16.0692025,29.29709 15.5693631,29.0012766 L0.374751295,20.0088502 C-0.124745989,19.7132393 -0.125088179,19.2341619 0.374751295,18.9383485 L15.5693631,9.94592204 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32.9475658" height="19.4989227" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M15.5693631,1.12264618 C16.0688603,0.827035298 16.8783633,0.826832784 17.3782027,1.12264618 L32.5728145,10.1150726 C33.0723118,10.4106835 33.072654,10.8897609 32.5728145,11.1855743 L17.3782027,20.1780007 C16.8787054,20.4736116 16.0692025,20.4738141 15.5693631,20.1780007 L0.374751295,11.1855743 C-0.124745989,10.8899634 -0.125088179,10.410886 0.374751295,10.1150726 L15.5693631,1.12264618 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32.9475658" height="19.4989227" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="11" y="14" width="50" height="50" rx="5"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50" height="50" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="17" y="14" width="50" height="50" rx="5"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50" height="50" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="23" y="14" width="50" height="50" rx="5"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50" height="50" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customers" transform="translate(-1131.000000, -201.000000)">
+            <g id="Group-3" transform="translate(1059.000000, 197.000000)">
+                <g id="home-deploy" transform="translate(68.000000, 0.000000)">
+                    <rect id="Rectangle-3" fill-opacity="0.098901721" fill="#84D2E8" transform="translate(85.000000, 85.000000) rotate(45.000000) translate(-85.000000, -85.000000) " x="25" y="25" width="120" height="120" rx="10"></rect>
+                    <g id="stack" transform="translate(139.000000, 122.000000)" stroke-width="1.5999999">
+                        <use id="Rectangle" stroke="#F5867B" mask="url(#mask-2)" fill="#FBD3CF" xlink:href="#path-1"></use>
+                        <use id="Rectangle" stroke="#D5D5D5" mask="url(#mask-4)" fill-opacity="0.849807518" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <use id="Rectangle" stroke="#D5D5D5" mask="url(#mask-6)" fill="#FFFFFF" xlink:href="#path-5"></use>
+                        <use id="Rectangle" stroke="#D5D5D5" mask="url(#mask-8)" fill-opacity="0.849807518" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Group-7" transform="translate(25.000000, 47.000000)">
+                        <path d="M58.5,39 L111.509433,39" id="Line" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4"></path>
+                        <polyline id="Rectangle-6" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(104.500000, 39.500000) rotate(-45.000000) translate(-104.500000, -39.500000) " points="110 34 110 45 99 45"></polyline>
+                        <path d="M50.0312229,20.14035 L103.040656,20.14035" id="Line" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4" transform="translate(76.531223, 20.140350) rotate(-45.000000) translate(-76.531223, -20.140350) "></path>
+                        <polyline id="Rectangle-6" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(90.380465, 6.412428) rotate(-90.000000) translate(-90.380465, -6.412428) " points="95.8804653 0.912427894 95.8804653 11.9124279 84.8804653 11.9124279"></polyline>
+                        <path d="M50.0312229,58.5545635 L103.040656,58.5545635" id="Line" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,4" transform="translate(76.531223, 58.554564) scale(1, -1) rotate(-45.000000) translate(-76.531223, -58.554564) "></path>
+                        <polyline id="Rectangle-6" stroke="#48BDDE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(90.380465, 72.282486) scale(1, -1) rotate(-90.000000) translate(-90.380465, -72.282486) " points="95.8804653 66.7824856 95.8804653 77.7824856 84.8804653 77.7824856"></polyline>
+                        <use id="Rectangle-4" stroke="#84D2E8" mask="url(#mask-10)" stroke-width="4" fill="#FFFFFF" opacity="0.501075634" transform="translate(36.000000, 39.000000) rotate(-315.000000) translate(-36.000000, -39.000000) " xlink:href="#path-9"></use>
+                        <use id="Rectangle-4" stroke="#84D2E8" mask="url(#mask-12)" stroke-width="4" fill="#FFFFFF" transform="translate(42.000000, 39.000000) rotate(-315.000000) translate(-42.000000, -39.000000) " xlink:href="#path-11"></use>
+                        <use id="Rectangle-4" stroke="#48BDDE" mask="url(#mask-14)" stroke-width="4" fill="#FFFFFF" transform="translate(48.000000, 39.000000) rotate(-315.000000) translate(-48.000000, -39.000000) " xlink:href="#path-13"></use>
+                        <g id="Group-13" transform="translate(33.000000, 30.000000)" stroke="#48BDDE" stroke-width="2">
+                            <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="30" height="18" rx="1"></rect>
+                            <polyline id="Path-6" points="0 0 15 12 30 0"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
