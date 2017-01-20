@@ -14,10 +14,10 @@ include 'pages-shared/static-header.php';
   <div class="inner center-text">
     <h1 class="hero-title">Our pricing scales with you</h1>
     <p class="medium">Sign up, track data and send unlimited test emails for free. Only pay when you start emailing customers.</p>
-    <ul class="plan-tabs unstyled-list inline-list">
+    <!-- <ul class="plan-tabs unstyled-list inline-list">
       <li id="slider-monthly" class="active">Monthly</li>
       <li id="slider-yearly">Annually</li>
-    </ul>
+    </ul> -->
     <ul id="pricing-slider">
       <li>
         <ul id="monthly" class="inline-list unstyled-list center-text plans-list">
@@ -42,7 +42,7 @@ include 'pages-shared/static-header.php';
           </li>
           <li class="plan pro">
             <h5 class="section-label center-text">Pro</h5>
-            <p class="price">$599</p>
+            <p class="price">$549</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li>175,000 <span>customers</span></li>
@@ -61,49 +61,50 @@ include 'pages-shared/static-header.php';
           </li>
         </ul>
       </li>
-        <li>
-          <ul id="yearly" class="inline-list unstyled-list center-text plans-list">
-            <li class="plan starter">
-              <h5 class="section-label center-text">Starter</h5>
-              <p class="price">$990</p>
-              <p class="price-label small">per year (2 months free)</p>
-              <ul class="limits unstyled-list">
-                <li>12,500 <span>customers</span></li>
-                <li>300,000 <span>emails/year</span></li>
-              </ul>
-            </li>
-            <li class="plan growth">
-              <h5 class="section-label center-text">Growth</h5>
-              <p class="price">$2,990</p>
-              <p class="price-label small">per year (2 months free)</p>
-              <ul class="limits unstyled-list">
-                <li class="most-popular">Most Popular</li>
-                <li>100,000 <span>customers</span></li>
-                <li>3,000,000 <span>emails/year</span></li>
-              </ul>
-            </li>
-            <li class="plan pro">
-              <h5 class="section-label center-text">Pro</h5>
-              <p class="price">$5,990</p>
-              <p class="price-label small">per year (2 months free)</p>
-              <ul class="limits unstyled-list">
-                <li>175,000 <span>customers</span></li>
-                <li>4,800,000 <span>emails/year</span></li>
-              </ul>
-            </li>
-            <li class="plan starter">
-              <h5 class="section-label center-text">Enterprise</h5>
-              <p class="price">$10,490+</p>
-              <p class="price-label small">per year (2 months free)</p>
-              <ul class="limits unstyled-list">
-                <li>175,000+ <span>customers</span></li>
-                <li>4,800,000+ <span>emails/year</span></li>
-                <li class="demo-link"><a rel="leanModal" href="#demo">Talk to our Success Team</a></li>
-              </ul>
+      <!-- <li>
+        <ul id="yearly" class="inline-list unstyled-list center-text plans-list">
+          <li class="plan starter">
+            <h5 class="section-label center-text">Starter</h5>
+            <p class="price">$990</p>
+            <p class="price-label small">per year (2 months free)</p>
+            <ul class="limits unstyled-list">
+              <li>12,500 <span>customers</span></li>
+              <li>300,000 <span>emails/year</span></li>
+            </ul>
+          </li>
+          <li class="plan growth">
+            <h5 class="section-label center-text">Growth</h5>
+            <p class="price">$2,990</p>
+            <p class="price-label small">per year (2 months free)</p>
+            <ul class="limits unstyled-list">
+              <li class="most-popular">Most Popular</li>
+              <li>100,000 <span>customers</span></li>
+              <li>3,000,000 <span>emails/year</span></li>
+            </ul>
+          </li>
+          <li class="plan pro">
+            <h5 class="section-label center-text">Pro</h5>
+            <p class="price">$5,990</p>
+            <p class="price-label small">per year (2 months free)</p>
+            <ul class="limits unstyled-list">
+              <li>175,000 <span>customers</span></li>
+              <li>4,800,000 <span>emails/year</span></li>
+            </ul>
+          </li>
+          <li class="plan starter">
+            <h5 class="section-label center-text">Enterprise</h5>
+            <p class="price">$10,490+</p>
+            <p class="price-label small">per year (2 months free)</p>
+            <ul class="limits unstyled-list">
+              <li>175,000+ <span>customers</span></li>
+              <li>4,800,000+ <span>emails/year</span></li>
+              <li class="demo-link"><a rel="leanModal" href="#demo">Talk to our Success Team</a></li>
+            </ul>
           </li>
         </ul>
-      </li>
+      </li> -->
     </ul>
+    <p>Want to pay annually? <a href="http://help.getvero.com/articles/what-happens-if-you-elect-to-pay-annually.html">Read about reserved pricing.</a></p>
     <div class="pricing-cta center-text">
       <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your free account</a>
       <p class="small">No credit card required, no contracts to lock you in</p>
