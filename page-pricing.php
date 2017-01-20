@@ -104,7 +104,7 @@ include 'pages-shared/static-header.php';
         </ul>
       </li> -->
     </ul>
-    <p>Want to pay annually? <a href="http://help.getvero.com/articles/what-happens-if-you-elect-to-pay-annually.html">Read about reserved pricing.</a></p>
+    <p>Want to pay annually? <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">Read about lock-in pricing.</a></p>
     <div class="pricing-cta center-text">
       <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your free account</a>
       <p class="small">No credit card required, no contracts to lock you in</p>
