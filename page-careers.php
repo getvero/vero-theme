@@ -197,20 +197,14 @@
     <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/236418" class="semi-bold display-block vertical-padding-small">
-          Senior Backend Engineer
+        <a href="https://getvero.workable.com/jobs/409750" class="semi-bold display-block vertical-padding-small">
+          Marketing Manager
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/334709" class="semi-bold display-block vertical-padding-small">
-          Site Reliability Engineer
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/236426" class="semi-bold display-block vertical-padding-small">
-          Internal Product and Support Engineer
+        <a href="https://getvero.workable.com/jobs/409713" class="semi-bold display-block vertical-padding-small">
+          Technical Support Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
