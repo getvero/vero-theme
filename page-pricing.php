@@ -11,7 +11,7 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section id="pricing-hero" class="hero">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <h1 class="hero-title">Our pricing scales with you</h1>
     <p class="medium">Sign up, track data and send unlimited test emails for free. Only pay when you start emailing customers.</p>
     <!-- <ul class="plan-tabs unstyled-list inline-list">
@@ -57,6 +57,16 @@ include 'pages-shared/static-header.php';
               <li>175,000+ <span>customers</span></li>
               <li>400,000+ <span>emails/month</span></li>
               <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Talk to our Success Team</a></li>
+            </ul>
+          </li>
+          <li class="plan byo">
+            <h5 class="section-label center-text">Self Hosted</h5>
+            <p class="price">$5,000</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li>Unlimited <span>customers</span></li>
+              <li>Unlimited <span>emails/month</span></li>
+              <li class="demo-link"><a href="mailto:success@getvero.com?subject=Self Hosted Pricing Plan"">Talk to our Success Team</a></li>
             </ul>
           </li>
         </ul>
