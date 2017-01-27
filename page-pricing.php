@@ -185,10 +185,7 @@ include 'pages-shared/static-header.php';
     <div class="right">
       <h3>Can I pay annually?</h3>
       <p>
-        You can elect to pay annual. Customers that pay annual get two months of Vero free each year.
-      </p>
-      <p>
-        Paying annually also means your email limits are spread out across the year. For example, if you are on our $99/month plan and can send up to 25,000 emails per month, on our annual plan you can send up to 300,000 emails <strong>per year</strong>. This means that monthly spikes in email volume will not require you to move up a plan, saving you even more.
+        <p>Yes, <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
       </p>
       
       <h3>What are projects?</h3>
