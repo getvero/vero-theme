@@ -2,8 +2,8 @@
 <div id="demo">
   <div class="inner">
     <div id="enquire-intro" class="center-text">
-      <h2>Great product, at any scale.</h2>
-      <p class="medium">Email is mission-critical. Talk directly to our product Success Team and learn how Vero ensures mission-critical sends of 100s of millions of emails for companies at scale.</p>
+      <h2>We're here to answer your questions</h2>
+      <p class="medium">Fill out the form below and our Success Team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
     </div>
     <div id="thanks" class="center-text">
       <h2>Thanks!</h2>
@@ -34,12 +34,12 @@
           <option value="10000000">5,000,000 - 10,000,000 emails</option>
           <option value="50000000">10,000,000 - 50,000,000 emails</option>
           <option value="more">50,000,000+ emails</option></select></div>
-        <div class="form-group"><label>Select data region you're interested in:</label><select id="sender_region" class="form-control" name="monthly_emails">
+        <!-- <div class="form-group"><label>Select data region you're interested in:</label><select id="sender_region" class="form-control" name="monthly_emails">
           <option value="not-important">Not important (agnostic)</option>
           <option value="usa">North America</option>
           <option value="eea">Europe (EEA)</option>
           <option value="au">Australia</option>
-          <option value="china">China</option></select></div>
+          <option value="china">China</option></select></div> -->
         <div class="radio-group">
           <label>Preferred contact method:</label><br>
           <input id="email" checked="checked" name="contact_method" type="radio" value="email" />

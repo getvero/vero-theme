@@ -40,6 +40,19 @@ jQuery(document).ready(function(){
       slider.goToSlide(2);
       jQuery(this).addClass('active')
       jQuery('#slider-yearly').removeClass('active')
+      jQuery('#slider-self-hosted').removeClass('active')
+      return false;
+    }
+  });
+  jQuery('#slider-self-hosted').click(function(){
+    if(jQuery(this).hasClass('active')) {
+      return false;
+    }
+    else {
+      slider.goToSlide(1);
+      jQuery(this).addClass('active')
+      jQuery('#slider-monthly').removeClass('active')
+      jQuery('#slider-yearly').removeClass('active')
       return false;
     }
   });
@@ -48,9 +61,10 @@ jQuery(document).ready(function(){
       return false;
     }
     else {
-      slider.goToSlide(1);
+      slider.goToSlide(3);
       jQuery(this).addClass('active')
       jQuery('#slider-monthly').removeClass('active')
+      jQuery('#slider-self-hosted').removeClass('active')
       return false;
     }
   });

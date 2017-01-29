@@ -12,17 +12,22 @@ include 'pages-shared/static-header.php';
 ?>
 <section id="pricing-hero" class="hero">
   <div class="inner large-inner center-text">
-    <h1 class="hero-title">Our pricing scales with you</h1>
-    <p class="medium">Sign up, track data and send unlimited test emails for free. Only pay when you start emailing customers.</p>
+    <h1 class="hero-title">Send one email, or 100 million.</h1>
+    <p class="medium">Vero is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p>
     <!-- <ul class="plan-tabs unstyled-list inline-list">
       <li id="slider-monthly" class="active">Monthly</li>
       <li id="slider-yearly">Annually</li>
     </ul> -->
+    <ul class="plan-tabs unstyled-list inline-list">
+      <li id="slider-monthly" class="active">Cloud</li>
+      <li id="slider-self-hosted">Self-hosted</li>
+    </ul>
     <ul id="pricing-slider">
       <li>
         <ul id="monthly" class="inline-list unstyled-list center-text plans-list">
           <li class="plan starter">
-            <h5 class="section-label center-text">Starter</h5>
+            <h5 class="section-label center-text">Starter 🆕</h5>
+            <p class="small">&nbsp;</p>
             <p class="price">$99</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
@@ -31,7 +36,8 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan growth">
-            <h5 class="section-label center-text">Growth</h5>
+            <h5 class="section-label center-text">Growth 🌱</h5>
+            <p class="small">&nbsp;</p>
             <p class="price">$299</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
@@ -41,7 +47,8 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan pro">
-            <h5 class="section-label center-text">Pro</h5>
+            <h5 class="section-label center-text">Pro ⛳</h5>
+            <p class="small">&nbsp;</p>
             <p class="price">$549</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
@@ -49,18 +56,41 @@ include 'pages-shared/static-header.php';
               <li>400,000 <span>emails/month</span></li>
             </ul>
           </li>
-          <li class="plan starter">
-            <h5 class="section-label center-text">Enterprise</h5>
-            <p class="price">$1,049+</p>
+          <li class="plan scale">
+            <h5 class="section-label center-text">Scale 🚀</h5>
+            <p class="small">&nbsp;</p>
+            <p class="price">$749</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
-              <li>175,000+ <span>customers</span></li>
-              <li>400,000+ <span>emails/month</span></li>
+              <li>300,000<span>customers</span></li>
+              <li>700,000<span>emails/month</span></li>
+            </ul>
+          </li>
+          <li class="plan scale">
+            <h5 class="section-label center-text">Enterprise 📈</h5>
+            <p class="small">Starts at</p>
+            <p class="price">$1,049</p>
+            <p class="price-label small">per month</p>
+            <ul class="limits unstyled-list">
+              <li>500,000+ <span>customers</span></li>
+              <li>1,000,000+ <span>emails/month</span></li>
               <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Talk to our Success Team</a></li>
             </ul>
           </li>
+        </ul>
+        <p>Pay up front and save on email volume with our <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
+        <div class="pricing-cta center-text">
+          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your trial account</a>
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large">Talk to our success team</a>
+          <p></p>
+        </div>
+        <p>Have questions? See the list of <a href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
+      </li>
+      <li>
+        <ul id="self-hosted" class="inline-list unstyled-list center-text plans-list">
           <li class="plan byo">
-            <h5 class="section-label center-text">Self Hosted</h5>
+            <h5 class="section-label center-text">Self-Hosted 💻</h5>
+            <p class="small">Starts at</p>
             <p class="price">$5,000</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
@@ -69,7 +99,20 @@ include 'pages-shared/static-header.php';
               <li class="demo-link"><a href="mailto:success@getvero.com?subject=Self Hosted Pricing Plan"">Talk to our Success Team</a></li>
             </ul>
           </li>
+          <li>
+            <p>
+            <ul>
+              <li>Data Center-Ready: Deploys via a single binary with either PostgreSQL or Redshift/Cassandra. Deploy on one node or in a cluster with high availability for horizontal scaling.</li>
+              <li>Own your data: Your data never leaves your environment. Get the full functionality of Vero, including our API and GUI, without synchronising your data to a third-party cloud.</li>
+              <li>Centralised updates: Get access to the latest version of Vero, every time. You deploy the same codebase as our cloud offering so all changes are available in your instance as they are made.</li>
+            </ul>
+          </li>
         </ul>
+        <p>If you're interested in trialing the self-hosted version of Vero, get in touch. We'll help you get up and running.</p>
+        <div class="pricing-cta center-text">
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large">Talk to our success team</a>
+          <p></p>
+        </div>
       </li>
       <!-- <li>
         <ul id="yearly" class="inline-list unstyled-list center-text plans-list">
@@ -114,28 +157,65 @@ include 'pages-shared/static-header.php';
         </ul>
       </li> -->
     </ul>
-    <p>Want to pay annually? <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">Read about lock-in pricing.</a></p>
-    <div class="pricing-cta center-text">
-      <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your free account</a>
-      <p class="small">No credit card required, no contracts to lock you in</p>
-    </div>
   </div>
 </section>
 <section id="pricing-included">
   <div class="inner center-text">
-    <h5 class="section-label">Included with every plan</h5>
+    <h5 class="section-label">Features included on every plan</h5>
+    <ul>
+    <li><h4>Data capture and storage</h4></li>
+    <li><a href="http://developers.getvero.com" target="_blank">Full API</a> and <li><span>✅</span> libraries to track customer behavior</li>
+    <li><span>✅</span>Support for Segment.com data tracking</li>
+    <li><span>✅</span>Create HTML web forms.</li>
+    <li><span>✅</span>Import and export customer data via CSV.</li>
+
+    <li><h4>Segmentation</h4></li>
+    <li><span>✅</span>No static lists.</li>
+    <li><span>✅</span>Store and update customers using a custom, unique ID.</li>
+    <li><span>✅</span>Dynamic segmentation using all historical data and customer activity.</li>
+    <li><span>✅</span>Full data retention.</li>
+    <li><span>✅</span>Reusable and nested segments.</li>
+
+    <li><h4>Email design and automation</h4></li>
+    <li><span>✅</span>Newsletter / ad-hoc / one-to-many emails.</li>
+    <li><span>✅</span>Transactional emails.</li>
+    <li><span>✅</span>Triggered / multi-step / drip email streams.</li>
+    <li><span>✅</span>Dynamic filters based on customer data and activity.</li>
+    <li><span>✅</span>Email personalization using <a href="http://help.getvero.com/articles/inserting-merge-tags-using-liquid-in-my-emails.html" target="_blank">Liquid</a>.</li>
+    <li><span>✅</span>Reusable, point-and-click edit templates.</li>
+    <li><span>✅</span>A/B testing all campaigns.</li>
+    <li><span>✅</span>Unlimited email aliases / "from addresses".</li>
+
+
+    <li><h4>Email deployment</h4></li>
+    <li><span>✅</span>Full open and click tracking.</li>
+    <li><span>✅</span>Email conversion reporting using customer activity.</li>
+    <li><span>✅</span>(Optional) integrations with popular provider providers Mailgun, Sendgrid, Dyn and Mandrill.</li>
+    <li><span>✅</span>Centralised unsubscribe management.</li>
+    <li><span>✅</span>Reporting dashboards.</li>
+    <li><span>✅</span>Webhooks to dump email interaction activity.</li>
+    <li><span>✅</span>Support for Segment.com <em>Sources</em> to dump email interaction activity.</li>
+
+    <li><h4>Email deployment</h4></li>
+    <li><span>✅</span>24/7 customer support.</li>
+    <li><span>✅</span>Fully encrypted data transfer.</li>
+    <li><span>✅</span>Unlimited "Projects" (separate Vero environments).</li>
+    <li><span>✅</span>Individual team access.</li>
+
+</li>
+</ul>
     <ul class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png 2x" width="46">
-        <p>All the Vero <a href="/features/email">Features</a></p>
+        <p>Read more about our <a href="/features/features">features</a></p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
-        <p>World Class Support</p>
+        <p>We pride ourselves on support</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png 2x" width="46">
-        <p>Unlimited Projects</p>
+        <p>We're built to scale</p>
       </li>
     </ul>
   </div>
