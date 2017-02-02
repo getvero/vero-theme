@@ -96,7 +96,7 @@ include 'pages-shared/static-header.php';
             <ul class="limits unstyled-list">
               <li>Unlimited <span>customers</span></li>
               <li>Unlimited <span>emails/month</span></li>
-              <li class="demo-link"><a href="mailto:success@getvero.com?subject=Self Hosted Pricing Plan"">Talk to our Success Team</a></li>
+              <li class="demo-link"><a rel="leanModal" href="#self-hosted-form">Talk to our Success Team</a></li>
             </ul>
           </li>
           <li class="byo-solid">
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
         </ul>
         <p>If you're interested in trialing the self-hosted version of Vero, get in touch. We'll help you get up and running.</p>
         <div class="pricing-cta center-text">
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large">Talk to our success team</a>
+          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large">Talk to our success team</a>
           <p></p>
         </div>
       </li>
@@ -286,4 +286,5 @@ include 'pages-shared/static-header.php';
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
   include("demo-enquiry-form.php");
+  include("hosted-enquiry-form.php");
 ?>

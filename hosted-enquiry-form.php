@@ -1,4 +1,4 @@
-<div id="demo">
+<div id="self-hosted-form">
   <div class="inner">
     <div id="enquire-intro" class="center-text">
       <h2>We're here to answer your questions</h2>
@@ -6,11 +6,11 @@
     </div>
     <div id="thanks" class="center-text">
       <h2>Thanks!</h2>
-      <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
+      <p>One of our Customer Success engineers will be in touch soon.</p>
     </div>
     <div id="thanks">
       <h3>Thanks!</h3>
-      <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
+      <p>One of our Customer Success engineers will be in touch soon.</p>
     </div>
     <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
       <div class="half">
@@ -20,13 +20,7 @@
         <div class="form-group"><label>Company name: <span>*</span></label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
       </div>
       <div class="half">
-        <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="subscribers">
-          <option value="250000">175,000 - 250,000 subscribers</option>
-          <option value="500000">250,000 - 500,000 subscribers</option>
-          <option value="1000000">500,000 - 1,000,000 subscribers</option>
-          <option value="5000000">1,000,000 - 5,000,000 subscribers</option>
-          <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
-          <option value="more">10,000,000+ subscribers</option></select></div>
+        <hidden id="sender_subscribers" class="form-control" name="subscribers" value="self-hosted">
         <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="monthly_emails">
           <option value="1000000">400,000 - 1,000,000 emails</option>
           <option value="1000000">1,000,000 - 5,000,000 emails</option>
