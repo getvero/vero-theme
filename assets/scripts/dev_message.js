@@ -9,5 +9,5 @@ var string = "\n\
 Come help us tackle the challenge of sending hundreds of millions of \n\
 emails every month, for customers around the globe.\n\
 \n\
-Start here: www.getvero.com/jobs";                  
+Start here: www.getvero.com/careers";                  
 console.log('%c ' + string, 'color:#00C3E4;')
