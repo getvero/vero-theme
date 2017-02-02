@@ -39,12 +39,12 @@ jQuery(document).ready(function(){
     else {
       slider.goToSlide(2);
       jQuery(this).addClass('active')
-      jQuery('#slider-yearly').removeClass('active')
+      jQuery('#slider-self-hosted').removeClass('active')
       return false;
     }
   });
-  jQuery('#slider-yearly').click(function(){
-    if(jQuery(this).hasClass('active')){
+  jQuery('#slider-self-hosted').click(function(){
+    if(jQuery(this).hasClass('active')) {
       return false;
     }
     else {
@@ -54,6 +54,18 @@ jQuery(document).ready(function(){
       return false;
     }
   });
+  // jQuery('#slider-yearly').click(function(){
+  //   if(jQuery(this).hasClass('active')){
+  //     return false;
+  //   }
+  //   else {
+  //     slider.goToSlide(3);
+  //     jQuery(this).addClass('active')
+  //     jQuery('#slider-monthly').removeClass('active')
+  //     jQuery('#slider-yearly').removeClass('active')
+  //     return false;
+  //   }
+  // });
 
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();

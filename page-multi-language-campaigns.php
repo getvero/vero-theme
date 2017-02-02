@@ -16,12 +16,12 @@
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates@2x.png 2x">
   </div>
 </section>
-<section id="multi-language-services" class="border-bottom">
+<!-- <section id="multi-language-services" class="border-bottom">
   <div class="inner center-text">
     <h2>Designed to work in conjunction with the translation services you already use.</h2>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-services-logos.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-services-logos@2x.png 2x">
   </div>
-</section>
+</section> -->
 <section id="multi-language-steps" class="border-bottom">
   <div class="inner full-width halfs">
     <div class="left">
