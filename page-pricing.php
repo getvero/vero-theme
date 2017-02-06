@@ -80,8 +80,8 @@ include 'pages-shared/static-header.php';
         </ul>
         <p>Pay up front and save on email volume with our <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
         <div class="pricing-cta center-text">
-          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Create your trial account</a>
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large">Talk to our success team</a>
+          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large bottom-margin-tiny">Create your trial account</a>
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our success team</a>
           <p></p>
         </div>
         <p>Have questions? See the list of <a href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
@@ -109,9 +109,8 @@ include 'pages-shared/static-header.php';
           </li>
         </ul>
         <p>If you're interested in trialing the self-hosted version of Vero, get in touch. We'll help you get up and running.</p>
-        <div class="pricing-cta center-text">
-          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large">Talk to our success team</a>
-          <p></p>
+        <div class="pricing-cta center-text bottom-padding-tiny">
+          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large display-inline bottom-margin-tiny">Talk to our success team</a>
         </div>
       </li>
     </ul>
@@ -167,7 +166,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
     <p class="regular medium center-text bottom-margin-medium top-margin-large">And heaps more...</p>
-    <ul class="unstyled-list feature-list thirds inline-list center-text">
+    <ul class="unstyled-list feature-list flex inline-list center-text">
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
         <p>24/7 Customer Support</a></p>
