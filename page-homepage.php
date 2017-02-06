@@ -12,9 +12,9 @@
     <div class="content">
       <h1 class="biggie">The event driven email platform <span class="break-at-large">for product focused teams</span></h1>
       <p class="medium">Data is everything. Vero enables engineering, product and marketing to collaborate on designing personalised customer interactions.</p>
-     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form top-margin-large">
+     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success left-margin-tiny" type="submit" value="Get Started">
+        <input class="btn btn-success" type="submit" value="Get Started">
       </form>
       <p class="small light faded">Import your data, setup and test Vero for free.</p>
     </div>
