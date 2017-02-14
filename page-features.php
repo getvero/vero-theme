@@ -87,8 +87,8 @@
       </ul>
     </div>
     <div class="right primary">
-      <img class="feature-image inactive-feature top-margin-small image-shadow responsive-image feature-swapper-option" id="feature-image-profiles" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
-      <img class="feature-image active-feature top-margin-small feature-swapper-option image-shadow responsive-image" id="feature-image-segments" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/>
+      <img class="feature-image inactive-feature top-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
+      <img class="feature-image active-feature top-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/></a>
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
         <li class="active top-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
@@ -110,8 +110,8 @@
     <p class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</p>
     <div class="clearfix">
       <div class="left primary">
-        <img class="pull-right no-margin top-margin-small feature-image active-feature image-shadow responsive-image feature-swapper-option " id="feature-image-automate" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
-        <img class="pull-right no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature feature-swapper-option" id="feature-image-manage" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+        <img class="pull-right no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+        <img class="pull-right no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
         <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
           <li class="active top-margin-small">
             <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
