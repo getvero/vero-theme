@@ -11,10 +11,12 @@ function custom_load_custom_style_sheet() {
   //register styles
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700,700italic');
   wp_register_style('bxslider-style', '/wp-content/themes/vero/assets/stylesheets/jquery.bxslider.css');
+  wp_register_style('featherlight-style', '//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css');
   wp_enqueue_style( 'highlight-css', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css', NULL, PARENT_THEME_VERSION );
   wp_enqueue_style( 'prism', '/wp-content/themes/vero/assets/stylesheets/prism.css', NULL, PARENT_THEME_VERSION );
   wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/stylesheets/prism-okaidia.css', NULL, PARENT_THEME_VERSION );
   wp_enqueue_style( 'imgslider-style', '/wp-content/themes/vero/assets/stylesheets/imgslider-2.0.1-min.css', NULL, PARENT_THEME_VERSION );
+
 
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
@@ -29,6 +31,7 @@ function custom_load_custom_style_sheet() {
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
   wp_enqueue_style( 'googlefont_merriweather');
   wp_enqueue_style( 'bxslider-style');
+  wp_enqueue_style( 'featherlight-style');
 }
 
 // Add JS
@@ -53,6 +56,7 @@ function add_js() {
   wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', NULL, NULL, true);
   wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
   wp_register_script('smooth-scroll', get_stylesheet_directory_uri() . '/assets/scripts/vendor/smooth-scroll.min.js', NULL, NULL, true);
+  wp_register_script('featherlight', get_stylesheet_directory_uri() . '/assets/scripts/vendor/featherlight.min.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -60,6 +64,7 @@ function add_js() {
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
   wp_enqueue_script('bxslider');
+  wp_enqueue_script('featherlight');
   wp_enqueue_script('picturefill');
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
