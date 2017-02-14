@@ -1,4 +1,5 @@
-// Put this code above the body tag on every page to identify customers
+// Javascript
+// Place above the body tag on each page
 _veroq.push(['user', {
   id: 'CUSTOMER_ID',
   email: 'CUSTOMER_EMAIL',
