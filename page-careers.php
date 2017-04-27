@@ -198,13 +198,25 @@
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/409750" class="semi-bold display-block vertical-padding-small">
-          Marketing Manager
+          Head of Growth
+          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+        </a>
+      </li>
+      <li class="no-margin">
+        <a href="https://getvero.workable.com/jobs/472586" class="semi-bold display-block vertical-padding-small">
+          Head of Finance
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/409713" class="semi-bold display-block vertical-padding-small">
-          Technical Support Engineer
+          Internal Product and Support Engineer
+          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+        </a>
+      </li>
+      <li class="no-margin">
+        <a href="https://getvero.workable.com/jobs/409733" class="semi-bold display-block vertical-padding-small">
+          Account Manager
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
