@@ -25,7 +25,7 @@ function custom_load_custom_style_sheet() {
     $base_url = "https://s3.amazonaws.com/static-getvero-com/staging";
     $suffix   = "css";
   } else {
-    $base_url = "https://d3qxef4rp70elm.cloudfront.net";
+    $base_url = "https://cdn.getvero.com";
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
