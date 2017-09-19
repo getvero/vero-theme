@@ -127,7 +127,7 @@
         <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
       </div>
       <div class="right secondary">
-        <h1 class="tubs regular no-bottom-margin">Complete template manangement. Advanced scheduling design.</h1>
+        <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
        <!--  <p class="smallish top-margin-medium no-bottom-margin">Manage templates for every email in your stack, centrally. Upload base templates and empower marketing and product teams to reuse and safely adjust content.</p> -->
         <p class="smallish top-margin-medium no-bottom-margin">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
         <ul class="feature-list left-image unstyled-list">
