@@ -197,12 +197,6 @@
     <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/409750" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Head of Growth
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/236418" target="_blank" class="semi-bold display-block vertical-padding-small">
           Senior Full Stack Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
@@ -211,12 +205,6 @@
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/510637" target="_blank" class="semi-bold display-block vertical-padding-small">
           Backend Engineer
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/409713" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Internal Product and Support Engineer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
