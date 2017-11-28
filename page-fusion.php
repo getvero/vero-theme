@@ -14,7 +14,7 @@
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-logo.svg" class="center-text bottom-margin-tiny">
     <h1 class="no-bottom-margin center-text bottom-margin-medium"><span class="semi-bold underline-blue">Fusion</span></h1>
     <h1 class="chunk center-text no-bottom-margin">Emails that can talk to APIs.</h1>
-    <p class="medium">Load data from it's <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
+    <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
     </div>
