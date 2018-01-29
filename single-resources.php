@@ -32,7 +32,7 @@ function generate_resource_header() {
       </script>
       <?php optimized_counters_html5() ?>
     <?php } else { ?>
-      <form action="https://app.getvero.com/forms/da1218dec1e57d5a9f9364a3ae8c0061" method="post" class="download-subscribe-form form-inline">
+      <form action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post" class="download-subscribe-form form-inline">
         <div class="form-group">
           <input name="email" type="email" placeholder="Enter your email" class="form-control"></div>
         <input name="event[resource_name]" type="hidden" value="<?php echo get_the_title() ?>">

@@ -19,7 +19,8 @@
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
     </div>
     <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="horizontal-form">
+      <form action="https://app.getvero.com/forms/7c91152d4e79ca2e950a179e33e33577" method='post' class="horizontal-form">
+        <input type="hidden" name="event[feature]" value="Fusion">
         <input class="form-control-large input-width-medium" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success left-margin-tiny btn-submit top-margin-small" type="submit" value="Register for early access">
       </form>
@@ -130,7 +131,8 @@
     </div> 
     <div class="clearfix"></div>
     <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/f05320d522ab0c6aba97cc5d7145a841" method='post' class="centered-form">
+      <form action="https://app.getvero.com/forms/7c91152d4e79ca2e950a179e33e33577" method='post' class="centered-form">
+        <input type="hidden" name="event[feature]" value="Fusion">
         <input class="form-control-large" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success btn-submit top-margin-small" type="submit" value="Register for early access">
       </form> 
