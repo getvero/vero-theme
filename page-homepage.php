@@ -131,6 +131,14 @@
       <div class="tweet">
         <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Just sent an email to the <a href="https://twitter.com/getvero">@getvero</a> team that started with &quot;omg&quot; and ended with &quot;thank you thank you thank you&quot;. They are my favourite.</p>&mdash; Ophelie Lechat (@OphelieLechat) <a href="https://twitter.com/OphelieLechat/status/646560855128080384">September 23, 2015</a></blockquote>
       </div>
+      <div class="tweet">
+          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Heck, <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a>’s support is exceptional. 👏🏼</p>&mdash; Nathan Field (@nathfield) <a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw">September 19, 2017</a></blockquote>
+      </div>
+      <div class="tweet">
+        <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Four amazing services that make <a href="https://twitter.com/unsplash?ref_src=twsrc%5Etfw">@unsplash</a> possible with a small team: <a href="https://twitter.com/heroku?ref_src=twsrc%5Etfw">@heroku</a>, <a href="https://twitter.com/getstream_io?ref_src=twsrc%5Etfw">@getstream_io</a>, <a href="https://twitter.com/imgix?ref_src=twsrc%5Etfw">@imgix</a>, &amp; <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a> <a href="https://t.co/emjLUHgMnc">https://t.co/emjLUHgMnc</a> <a href="https://t.co/WjzqVE8Zos">pic.twitter.com/WjzqVE8Zos</a></p>&mdash; Luke Chesser (@lukechesser) <a href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw">August 1, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <!-- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
   </div>
 </section>
 <section id="call-to-action" class="center-text">
