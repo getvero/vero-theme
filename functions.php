@@ -13,10 +13,7 @@ include_once( 'lib/configuration/tracking.php' );
 include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
-include_once( 'lib/post_types/api.php' );             # API archive and pages
-include_once( 'lib/post_types/jobs.php' );            # Jobs archive and pages
 include_once( 'lib/post_types/guides.php' );          # Guides pages
-include_once( 'lib/post_types/help_docs.php' );       # Help docs archive and pages
 include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
@@ -47,18 +44,12 @@ function genesischild_theme_setup() {
   unregister_nav_menu( 'header-right' );
 
   // Add custom types
-  add_action( 'init', 'create_jobs_post_type' );
   add_action( 'init', 'create_release_notes_post_type' );
-  add_action( 'init', 'create_api_post_type' );
-  add_action( 'init', 'create_help_docs_post_type' );
   add_action( 'init', 'create_guides_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
-  register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
-  register_nav_menu('api-languages' , __( 'API Languages'));
-  add_action( 'genesis_after_header', 'add_blue_navbar_logic' ); 
   add_action( 'genesis_before_header', 'external_attributes_banner' ); 
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
@@ -103,26 +94,9 @@ function genesischild_theme_setup() {
   add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
-
   // Search page
   add_action ('genesis_before', 'remove_search_title');
   add_filter ('genesis_search_text', 'change_search_form_placeholder');
-
-  // Custom help pages
-  add_action( 'pre_get_posts',  'set_posts_per_docs_category'  );
-  add_action( 'init', 'add_help_docs_taxonomies', 0 );
-  add_action( 'get_header', 'change_help_docs_sidebar' );
-  add_filter( 'post_type_link', 'filter_help_docs_link', 10, 2 );
-  add_action( 'genesis_entry_header', 'add_help_docs_breadcrumbs', 8 );
-
-  // Customise API docs
-  add_action( 'genesis_before', 'remove_contents_for_api' );
-  add_action( 'get_header', 'change_api_sidebar' );
-  genesis_register_sidebar( array(
-    'id' => 'api_docs_sidebar',
-    'name' => 'API Docs Sidebar',
-    'description' => 'This is a column for the API docs sidebar.',
-  ) );
 
   // Customise Release Notes
   add_action( 'genesis_before', 'remove_elements_release_notes' );

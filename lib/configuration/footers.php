@@ -1,9 +1,7 @@
 <?php
 
 function custom_footer() {
-  if( is_singular('api_docs') ){
-    // Do nothing
-  } else if( is_blog() ){
+  if( is_blog() ){
     blog_cta();
     custom_footer_html_with_wrap();
   } else {
