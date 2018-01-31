@@ -96,22 +96,6 @@ function add_subscribe_form() {
   }
 }
 
-function add_author_bio() {
-  if( is_blog_post_or_guide() ){
-    global $post;
-    ?>
-    <div class='author-bio'>
-      <div class='author-title'>Written by</div>
-      <div class='author-image'><?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?></div>
-      <div class='author-details'>
-        <p class='author-name'><?php echo get_the_author_meta( 'display_name' ); ?></p>
-        <p class='author-description'><?php echo get_the_author_meta( 'description' ); ?></p>
-      </div>
-    </div>
-    <?php
-  }
-}
-
 function add_class_to_small_images( $content ) {
   global $post;
 

@@ -128,7 +128,7 @@
       <div class="tweet">
         <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
       </div>
-      <div class="tweet">
+      <div class="tweet" style="margin-right: 0px;">
         <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Just sent an email to the <a href="https://twitter.com/getvero">@getvero</a> team that started with &quot;omg&quot; and ended with &quot;thank you thank you thank you&quot;. They are my favourite.</p>&mdash; Ophelie Lechat (@OphelieLechat) <a href="https://twitter.com/OphelieLechat/status/646560855128080384">September 23, 2015</a></blockquote>
       </div>
       <div class="tweet">
