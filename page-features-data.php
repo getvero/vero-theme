@@ -33,7 +33,7 @@ product_url: 'http://www.yourdomain.com/products/red-t-shirt'
 <section id="data-libraries">
   <div class="inner center-text">
     <h4>Install on any code base</h4>
-    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="http://developers.getvero.com">Check out our Developer Portal</a>.</p>
+    <p>We have libraries for almost every platform, There are even third party ones you can use. <a href="https://developers.getvero.com">Check out our Developer Portal</a>.</p>
     <ul id="library-list" class="unstyled-list inline-list">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/libraries/data-js@2x.png 2x">
@@ -60,7 +60,7 @@ product_url: 'http://www.yourdomain.com/products/red-t-shirt'
         <p>iOS</p>
       </li>
     </ul>
-    <p><a href="http://developers.getvero.com" target="_blank">All Libraries</a></p>
+    <p><a href="https://developers.getvero.com" target="_blank">All Libraries</a></p>
   </div>
 </section>
 <section id="data-integrations">

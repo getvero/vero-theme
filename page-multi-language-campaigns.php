@@ -29,7 +29,7 @@
       <ul class="steps unstyled-list">
         <li class="step"><span class="number">1</span><p class="step-title"><strong>Add a Language Variation</strong></p><p>Every campaign can have multiple content variations. Add as many as you need.</p></li>
         <li class="step"><span class="number">2</span><p class="step-title"><strong>Select a Language</strong></p><p>Choose the language that you want to send. Vero automatically checks every one of your customers for the ‘locale’ property and sends the right variation to each individual.</p></li>
-        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML code to the language variation, or use our rich text editor. You can change what ever you like in each variation and use <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid</a> and <a href="http://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
+        <li class="step"><span class="number">3</span><p class="step-title"><strong>Add HTML</strong></p><p>Paste in your translated HTML code to the language variation, or use our rich text editor. You can change what ever you like in each variation and use <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid</a> and <a href="https://help.getvero.com/articles/what-are-external-attributes.html" target="_blank">External Attributes</a> just like normal.</p></li>
         <li class="step"><span class="number">4</span><p class="step-title"><strong>There is no fourth step!</strong> Launch the campaign and the right variation will be sent to the right user when your email is sent.</p></li>
       </ul>
     </div>
@@ -41,7 +41,7 @@
 <section id="multi-language-how-it-works" class="center-text border-bottom">
   <div class="inner center-text">
     <h2>How does it work?</h2>
-    <p>Vero reserves the <code>locale</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>locale</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer. Read our <a href="http://help.getvero.com/articles/create-a-multi-language-campaign.html" target="_blank">multi language campaigns help doc</a>.</p>
+    <p>Vero reserves the <code>locale</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>locale</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer. Read our <a href="https://help.getvero.com/articles/create-a-multi-language-campaign.html" target="_blank">multi language campaigns help doc</a>.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works@2x.png 2x">
   </div>
 </section>
@@ -61,7 +61,7 @@ vero.users.track!({
       </div>
       <div class="clearfix"></div>
     </div>
-    <p>Learn more about tracking events and adding new customers at <a href="http://developers.getvero.com/?javascript" target="_blank">developers.getvero.com</a>.</p>
+    <p>Learn more about tracking events and adding new customers at <a href="https://developers.getvero.com/?javascript" target="_blank">developers.getvero.com</a>.</p>
       
   </div>
 </section>

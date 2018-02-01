@@ -111,14 +111,14 @@
     <div class="inner-block">
       <h3 class="block-title">98.5% of the time, our customers love our support every time!</h3>
       <p class="block-desc">Email is mission critical. With team members spread around the world, Vero offers fast, reliable support <strong>24/7</strong> – we're real humans.</p>
-      <a href="http://help.getvero.com" target="_blank" class="btn btn-outline btn-warning">View the Help Docs</a>
+      <a href="https://help.getvero.com" target="_blank" class="btn btn-outline btn-warning">View the Help Docs</a>
     </div>
   </div>
   <div class="developers block center-text">
     <div class="inner-block">
       <h3 class="block-title">A platform engineers can rely on</h3>
       <p class="block-desc">Reliable and built on top of your event stream, Vero gets out of your way and gives you the power to create best-in-class product interactions like the hundreds of other businesses serving over <strong>500m</strong> customers on the Vero platform. Libraries in Ruby, Python and more.</p>
-      <a href="http://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
+      <a href="https://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
   </div>
 </section>
