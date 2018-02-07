@@ -78,12 +78,12 @@
 <section id="benefits">
   <div class="inner large-inner center-text">
     <h1 class="no-bottom-margin">Design emails that delight your customers</h1>
-    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> deployment process that enables <span class="semi-bold">teams</span> to work together to create data-driven communications.</p>
+    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> process that enables <span class="semi-bold">teams</span> to work together to create data-driven communications.</p>
     <ul class="feature-list full-width thirds">
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-data-first.png" srcset="/wp-content/themes/vero/assets/images/home/home-data-first@2x.png 2x">
           <p class="semi-bold">Harness your data</p>
-          <p class="light">Using your data is critical in delivering communications that engage customers and drive revenue - Vero allow you to collect, model and automate real-time data.</p>
+          <p class="light">Using your data is critical in delivering communications that engage customers and drive revenue - Vero allows you to collect, model and automate real-time data.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/home-organisation.png" srcset="/wp-content/themes/vero/assets/images/home/home-organisation@2x.png 2x">
