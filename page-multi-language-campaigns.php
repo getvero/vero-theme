@@ -11,7 +11,7 @@
 ?>
 <section id="multi-language-hero" class="hero border-bottom">
   <div class="inner center-text">
-    <h1 class="hero-title">The simple way to send your multi language emails</h1>
+    <h1 class="hero-title">The simple way to send your multi-language emails</h1>
     <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates@2x.png 2x">
   </div>
