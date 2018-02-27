@@ -63,7 +63,7 @@
   </div>
   <div class="inner medium-inner flush-bottom">
     <h1 class="bottom-margin-small">Generate insights from a complete view of your customer data</h1>
-    <p class="no-top-margin medium">Using a BI tool, like Mode Analytics, you can query <strong>all</strong> your <strong>customer</strong> data and build custom reports that can give you the insights important to your specific business.</p>
+    <p class="no-top-margin medium">Using a BI tool, like Mode Analytics, you can query all your customer data and build custom reports that can give you the insights important to your specific business.</p>
     <div class="center-text top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-third-party-tools.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-third-party-tools@2x.png 2x" class="center-text responsive-image align-middle">
     </div>
