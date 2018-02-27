@@ -13,7 +13,7 @@
 
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
-    <p class="semi-bold center-text small uppercase font-brand-primary center-text no-top-margin bottom-margin-medium">Reporting</p>
+    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Reporting</p>
     <h1 class="biggie bottom-margin-small">Track the true performance of <span class="large-display-block">your email campaigns</span></h1>
     <p class="no-top-margin large">Understand which of your email campaigns engage <span class="large-display-block">customers and drive revenue.</span></p>
   </div>
@@ -49,22 +49,17 @@
 <section id="reports-webhooks" class="double-padding dark-box-flat">
   <div class="inner small-inner center-text flush-bottom">
     <h1 class="bottom-margin-small">Access the insights important to your business</h1>
-    <p class="no-top-margin large">Vero webhooks enables you to join your email data with other customer data, such as payment information, to get a more specific picture of the results your campaigns drive.</p>
+    <p class="no-top-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
   </div>
-  <div class="inner small-inner center-text flush-top">
+  <div class="inner small-inner center-text flush-top flush-bottom">
     <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-webhooks.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-webhooks@2x.png 2x" class="center-text top-margin-medium bottom-margin-medium responsive-image">
-     <p class="no-top-margin medium">Vero webhooks enables you to join your email data with other customer data, such as payment information, to get a more specific picture of the results your campaigns drive.</p>
+     <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
-<section id="report-webhook-data" class="double-padding dark-box-flat">
-  <div class="inner halfs medium-inner">
-    <div class="left primary">
-      <h1 class="tubs regular no-bottom-margin top-margin-large">Send a webhook for all of the data that originates from a Vero campaign</h1>
-      <p class="medium top-margin-medium no-bottom-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="right secondary">
-      <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image pull-right top-margin-large">
-    </div>
+<section id="report-webhook-data" class="dark-box-flat">
+  <div class="inner medium-inner center-text">
+    <h1 class="tubs regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h1>
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image top-margin-large">
   </div>
   <div class="inner medium-inner flush-bottom">
     <h1 class="bottom-margin-small">Connect and report on Vero data in third party tools</h1>
