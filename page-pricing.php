@@ -78,7 +78,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
         </ul>
-        <p>Pay up front and save on email volume with our <a href="https://helps.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
+        <p>Pay up front and save on email volume with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
         <div class="pricing-cta center-text">
           <a href="https://app.getvero.com/signup" class="btn btn-success btn-large bottom-margin-tiny">Create your trial account</a>
           <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our success team</a>
