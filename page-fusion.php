@@ -9,11 +9,10 @@
   
   include 'pages-shared/static-header.php';
 ?>
-<section id="external-attributes-hero" class="double-padding border-bottom">
+<section id="external-attributes-hero" class="border-bottom">
   <div class="inner center-text">
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-logo.svg" class="center-text bottom-margin-tiny">
-    <h1 class="no-bottom-margin center-text bottom-margin-medium"><span class="semi-bold underline-blue">Fusion</span></h1>
-    <h1 class="chunk center-text no-bottom-margin">Emails that can talk to APIs.</h1>
+    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
+    <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
