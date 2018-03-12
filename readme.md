@@ -45,6 +45,9 @@ Note that you can login to the local WP instance as an administrator at [http://
 ## Staging and deployment
 
 Staging
+
+[Here's a video](https://drive.google.com/open?id=1KunESEKMii-SH3WbUc6MP7cHxxNdArgv) of how to deploy to staging.
+
 [![buddy pipeline](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918/badge.svg?token=bdea566d3feff8982be762737eab5f0fef4d9a282dc247160d737981285dde41 "buddy pipeline")](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918)
 
 Production
