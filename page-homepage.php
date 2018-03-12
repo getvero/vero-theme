@@ -10,7 +10,7 @@
 ?>
   <div class="inner large-inner flush-bottom">
     <div class="content">
-      <h1 class="biggie">The email platform for<br>customer-focused teams</span></h1>
+      <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
       <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">

@@ -108,15 +108,4 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
     return $classes;
 }
 
-function external_attributes_banner(){
-  if(is_page('homepage')){
-    ?>
-      <div class="homepage-banner">
-        <a href="/fusion" class="negative">
-        <p class="regular inline-block right-margin-medium">Introducing <span class="bold">Fusion</span></p><p class="regular banner-sub-heading inline-block">Pull content from your API into your campaigns.</p><p class="pull-right regular"><a href="/fusion" class="negative underline-link-alt">Find out more</a></p></a>
-      </div>
-    <?php 
-  }
-}
-
 ?>
