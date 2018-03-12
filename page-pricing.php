@@ -78,7 +78,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
         </ul>
-        <p>Pay up front and save on email volume with our <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
+        <p>Pay up front and save on email volume with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
         <div class="pricing-cta center-text">
           <a href="https://app.getvero.com/signup" class="btn btn-success btn-large bottom-margin-tiny">Create your trial account</a>
           <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our success team</a>
@@ -123,7 +123,7 @@ include 'pages-shared/static-header.php';
       <div class="list top-margin-small">
         <p class="regular medium semi-bold">Data capture and storage</p>
         <ul class="unstyled-list tick-list top-border-light">
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image"><a href="http://developers.getvero.com" target="_blank">Full API libraries</a> to track customer behavior</li>
+          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image"><a href="https://developers.getvero.com" target="_blank">Full API libraries</a> to track customer behavior</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Support for Segment.com data tracking</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Create HTML web forms</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Import and export customer data via CSV</li>
@@ -146,7 +146,7 @@ include 'pages-shared/static-header.php';
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Transactional emails</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Triggered / multi-step / drip email streams</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Dynamic filters based on customer data and activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Email personalization using <a href="http://help.getvero.com/articles/inserting-merge-tags-using-liquid-in-my-emails.html" target="_blank">Liquid</a></li>
+          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Email personalization using <a href="https://help.getvero.com/articles/inserting-merge-tags-using-liquid-in-my-emails.html" target="_blank">Liquid</a></li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Reusable, point-and-click edit templates</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">A/B testing all campaigns</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Unlimited email aliases / "from addresses"</li>
@@ -249,7 +249,7 @@ include 'pages-shared/static-header.php';
     <div class="right">
       <h3>Can I pay annually?</h3>
       <p>
-        <p>Yes, <a href="http://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
+        <p>Yes, <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
       </p>
       
       <h3>What are projects?</h3>

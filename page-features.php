@@ -51,7 +51,7 @@
         <li><a href="#js" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-apple@2x.png 2x"></a></li>
       </ul>
 
-      <p class="small">Visit our <a class="" href="http://developers.getvero.com">developer center</a> for API documentation and details.</p>
+      <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
     </div>
     <div class="right secondary">
       <h1 class="tubs regular no-bottom-margin">Get your data into Vero</h1>
@@ -144,7 +144,7 @@
     </div>
     <div class="outlined-box top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block right-margin-medium">
-      <div class="inline-block"><p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p><p class="light">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="http://www.getvero.com/fusion">Read more about Fusion</a></p></div>
+      <div class="inline-block"><p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p><p class="light">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p></div>
     </div>
   </div>
 </section>
