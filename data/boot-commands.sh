@@ -6,3 +6,4 @@ mv /var/www/html/wp-content/themes/vero/data/genesis /var/www/html/wp-content/th
 wp theme update --all --allow-root
 wp option update siteurl $SANDBOX_BASE_URL --allow-root
 wp option update home $SANDBOX_BASE_URL --allow-root
+mysql --host mysql -u root -proot db -e "update wp_posts set post_content = replace(post_content,'/wp-content/themes/vero/','/wp-content/themes/mytheme/')";
