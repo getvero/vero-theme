@@ -10,21 +10,13 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="external-attributes-hero" class="border-bottom">
-  <div class="inner center-text">
+  <div class="inner center-text flush-bottom">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
     <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
     </div>
-    <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/7c91152d4e79ca2e950a179e33e33577" method='post' class="horizontal-form">
-        <input type="hidden" name="event[feature]" value="Fusion">
-        <input class="form-control-large input-width-medium" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success left-margin-tiny btn-submit top-margin-small" type="submit" value="Register for early access">
-      </form>
-      <p class="small faded regular no-bottom-margin">We're rolling out Fusion in waves. Register your interest now.</p>
-    </div> 
   </div>
 </section>
 <section id="external-attributes-howitworks" class="double-padding flush-bottom">
@@ -121,21 +113,15 @@
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image">
   </div>
 </section>
-<section id="external-attributes-future" class="double-padding border-bottom">
-  <div class="inner halfs">
-    <p class="semi-bold center-text">Fusion is just the beginning...</p>
-    <div class="center-text">
-      <h1 class="chunk">Data is more actionable when it's complete and accurate.</h1>
-      <p class="medium">Fusion is the first step towards designing, deploying and testing personalised product experiences powered by all of the data you store. Fusion enables you to load data from its origin, delivering better accuracy without requiring you to invest in custom API, push-based synchronization code. Stay tuned.</p>
-    </div> 
-    <div class="clearfix"></div>
-    <div class="top-margin-medium">
-      <form action="https://app.getvero.com/forms/7c91152d4e79ca2e950a179e33e33577" method='post' class="centered-form">
-        <input type="hidden" name="event[feature]" value="Fusion">
-        <input class="form-control-large" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success btn-submit top-margin-small" type="submit" value="Register for early access">
-      </form> 
-    </div> 
+<section id="call-to-action" class="center-text">
+  <div class="inner">
+    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
+    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
+      <input class="form-control" type="email" placeholder="Email Address" name="email">
+      <input class="btn btn-success" type="submit" value="Create your account">
+    </form>
+    <p class="small faded">Import your data, setup and test Vero for free.</p>
   </div>
 </section>
 <?php 
