@@ -29,21 +29,21 @@ function custom_footer_html() {
     <li><a href="/features/email">Features</a></li>
     <li><a href="https://help.getvero.com">Help &amp; Support</a></li>
     <li><a href="/pricing">Pricing</a></li>
-    <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
     <li><a href="https://app.getvero.com/signup" target="_blank">Signup</a></li>
     <li><a href="https://app.getvero.com/" target="_blank">Login</a></li>
   </ul>
   <ul class="col">
     <li class="header">Resources</li>
     <!--<li>About</li>-->
+    <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
     <li><a href="https://developers.getvero.com">API Reference</a></li>
     <li><a href="https://www.getvero.com/release-notes">Release Notes</a></li>
-    <li><a href="https://www.getvero.com/careers">Careers</a><a href="https://www.getvero.com/careers" class="hiring-pill left-margin-tiny">We're Hiring!</a></li>
     <li><a href="https://status.getvero.com/" target="_blank">Status</a></li>
   </ul>
   <ul class="col">
     <li class="header">Company</li>
     <li><a href="mailto:support@getvero.com">Email Support</a></li>
+    <li><a href="https://www.getvero.com/careers">Careers</a><a href="https://www.getvero.com/careers" class="hiring-pill left-margin-tiny">We're Hiring!</a></li>
     <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
     <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
     <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
