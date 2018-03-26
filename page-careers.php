@@ -197,20 +197,8 @@
     <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/236418" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Senior Full Stack Engineer
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/510637" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Backend Engineer
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/409733" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Account Manager
+          Account Manager / Inside Sales
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
