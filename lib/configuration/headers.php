@@ -45,27 +45,6 @@ function add_responsive_menu_toggle_to_navbar($menu, $args) {
   return $logo . $menu;
 }
 
-function add_blue_navbar_logic() {
-  global $wp_query;
-  if ( is_singular('api_docs')  ) {
-    echo "<div id='blue-holder'><div class='spacer'></div>";
-    wp_nav_menu( array(
-      'theme_location' => 'blue-nav-left',
-      'container_class' => 'blue-nav-menu left'
-    ) );
-    wp_nav_menu( array(
-      'theme_location' => 'api-languages',
-      'container_class' => 'blue-nav-menu right'
-    ) );
-    echo "</div><div class='spacer'></div>";
-  } else if ( is_singular('help_docs') || is_tax('help_docs_categories') || is_page('help') ) {
-    wp_nav_menu( array(
-      'theme_location' => 'blue-nav-left',
-      'container_class' => 'blue-nav-menu left'
-    ) );
-  }
-}
-
 function additional_active_item_classes($classes = array(), $menu_item = false){
     if(is_singular('kb')) {
       $post = get_post();
@@ -84,15 +63,7 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       }
     }
     //global $wp_query;
-    if ( strtolower($menu_item->title) == 'docs' && ( is_post_type_archive('help_docs') || is_singular('help_docs') ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'knowledge base' && ( is_post_type_archive('kb') || is_singular('kb') || is_tax('topic') ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'api docs' && ( is_post_type_archive('api_docs') || is_singular('api_docs') ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'help' && ( is_singular('help_docs') || is_singular('help_docs_categories') || is_tax('help_docs_categories') || is_page('help')  ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'tour' && ( is_page('features') || is_page('triggered-emails') || is_page('smart-newsletters') || is_page('external-attributes') || is_page('individual-contact-profiles')  ) ) {
+    if ( strtolower($menu_item->title) == 'tour' && ( is_page('features') || is_page('triggered-emails') || is_page('smart-newsletters') || is_page('external-attributes') || is_page('individual-contact-profiles')  ) ) {
       $classes[] = 'current-menu-item';
     } else if ( strtolower($menu_item->title) == 'idea lab' && ( is_singular('campaigns') || is_post_type_archive('campaigns')) ) {
       $classes[] = 'current-menu-item';
