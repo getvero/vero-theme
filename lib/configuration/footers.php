@@ -1,9 +1,7 @@
 <?php
 
 function custom_footer() {
-  if( is_singular('api_docs') ){
-    // Do nothing
-  } else if( is_blog() ){
+  if( is_blog() ){
     blog_cta();
     custom_footer_html_with_wrap();
   } else {
@@ -46,7 +44,7 @@ function custom_footer_html() {
     <li><a href="https://www.getvero.com/careers">Careers</a><a href="https://www.getvero.com/careers" class="hiring-pill left-margin-tiny">We're Hiring!</a></li>
     <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
     <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
-    <li><a href="https://www.getvero.com/gdpr" target="_blank">GDPR</a></li>
+    <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
     <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
   </ul>
