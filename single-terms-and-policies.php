@@ -18,7 +18,7 @@ remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 add_action( 'genesis_sidebar', 'generate_terms_menu' );
 function generate_terms_menu() {
   wp_nav_menu(array(
-    'menu' => 56
+    'menu' => 'Policies'
   ));
 }
 
