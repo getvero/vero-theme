@@ -8,7 +8,7 @@ add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_cont
 
 add_filter( 'body_class', 'metro_add_body_class' );
 function metro_add_body_class( $classes ) {
-   $classes[] = 'terms-and-policies';
+   $classes[] = 'left-menu';
    return $classes;
 }
 
