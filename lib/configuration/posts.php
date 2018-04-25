@@ -85,11 +85,11 @@ function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
     <div class='subscribe-form center-block'>
-      <h2>Subscribe for updates</h2>
-      <p>Join the more than 10,000 product, engineering and  marketing team members who enjoy content from our blog on a regular basis.</p>
+      <h2>Get our latest blog posts, news and tips straight to your inbox.</h2>
       <form action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
           <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
           <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
+          <p class="mini">By subscribing, you consent to let Vero send you messages regarding marketing and product. You can learn more in our <a href="https://www.getvero.com/privacy" target="_blank">Privacy Notice</a>, and you can opt out and change your consent at any time.</p>
       </form>
     </div>
   <?php
