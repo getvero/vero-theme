@@ -88,6 +88,7 @@ function add_subscribe_form() {
       <h2>Get our latest blog posts,<br>product news and tips straight to your inbox.</h2>
       <form action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
           <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
+          <input name='redirect_on_success' type='hidden' value='https://veropublic.wpengine.com/subscribed-to-the-blog/' />
           <input name='user[consent_marketing]' type='hidden' value='true' />
           <input name='user[consent_product_updates]' type='hidden' value='true' />
           <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
