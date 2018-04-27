@@ -51,8 +51,7 @@ function genesischild_theme_setup() {
 
   // Navbars and footers
 
-  register_nav_menu('blue-nav-left' , __( 'Blue Navbar'));
-  register_nav_menu('api-languages' , __( 'API Languages'));
+  register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
