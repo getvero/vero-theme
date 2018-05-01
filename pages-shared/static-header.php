@@ -20,7 +20,6 @@ function no_content_genesis_header() {
   do_action( 'genesis_doctype' );
   do_action( 'genesis_title' );
   do_action( 'genesis_meta' );
-  ?><script src="//cdn.optimizely.com/js/2654110240.js"></script><?php
   wp_head(); 
   ?>
   
