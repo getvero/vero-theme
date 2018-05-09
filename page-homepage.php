@@ -14,9 +14,9 @@
       <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
      <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form">
         <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success" type="submit" value="Get Started">
+        <input class="btn btn-success" type="submit" value="Start free trial">
       </form>
-      <p class="small light faded">Import your data, setup and test Vero for free.</p>
+      <p class="small light faded">In order to provide our service to you, we store the personal information you provide to us. By creating a trial account with Vero you agree to our <a href="/privacy">Privacy Notice</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
     </div>
     <div class="image center-text">
       <img class="bottom-margin-large" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
@@ -149,7 +149,7 @@
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small faded">Import your data, setup and test Vero for free.</p>
+    <p class="small light faded center-text">In order to provide our service to you, we store the personal information <br>you provide to us. By creating a trial account with Vero you agree <br>to our <a href="/privacy">Privacy Notice</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
   </div>
 </section>
 <?php

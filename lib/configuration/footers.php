@@ -61,7 +61,7 @@ function blog_cta() {
         <input class="form-control" type="email" placeholder="Email Address" name="email">
         <input class="btn btn-success" type="submit" value="Create your account">
       </form>
-      <p class="small faded">Import your data, setup and test Vero for free.</p>
+      <p class="small light faded center-text">In order to provide our service to you, we store the personal information <br>you provide to us. By creating a trial account with Vero you agree <br>to our <a href="/privacy">Privacy Notice</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
     </div>
   </section>
   <?php
