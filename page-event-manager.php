@@ -65,7 +65,7 @@
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="small light faded center-text">In order to provide our service to you, we store the personal information <br>you provide to us. By creating a trial account with Vero you agree <br>to our <a href="/privacy">Privacy Notice</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
+    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we store the personal information you provide to us. By creating a trial account with Vero you agree to our <a href="/privacy">Privacy Notice</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
   </div>
 </section>
 <?php 
