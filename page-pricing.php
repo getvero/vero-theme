@@ -18,10 +18,10 @@ include 'pages-shared/static-header.php';
       <li id="slider-monthly" class="active">Monthly</li>
       <li id="slider-yearly">Annually</li>
     </ul> -->
-    <ul class="plan-tabs unstyled-list inline-list">
+    <!-- <ul class="plan-tabs unstyled-list inline-list">
       <li id="slider-monthly" class="active">Cloud</li>
       <li id="slider-self-hosted">Self-hosted</li>
-    </ul>
+    </ul> -->
     <ul id="pricing-slider">
       <li>
         <ul id="monthly" class="inline-list unstyled-list center-text plans-list">
