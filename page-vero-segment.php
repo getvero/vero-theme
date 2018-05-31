@@ -50,7 +50,7 @@
       <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/customer-data.svg"><div class="right"><p class="medium regular no-top-margin">Automatically ingest customer data</p><p class="light">When you use Segment to connect to Vero, all your customer data from identify and track calls will show up in Vero automatically, and with no additional coding required from you. 
 </p></div></li>
       <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sdks.svg"><div class="right"><p class="medium regular no-top-margin">Segment SDKs</p><p class="light">With Segment’s wide range of libraries and mobile SDKs you can get data into Vero quickly from all the places your customers interact with your product.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg"><div class="right"><p class="medium regular no-top-margin">Data Manager</p><p class="light">See all the data Segment sends to Vero, giving your team complete visibility of the events and properties being tracked, when the event was last tracked, and which customers triggered it. </p></div></li>
+      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg"><div class="right"><p class="medium regular no-top-margin">Event Management</p><p class="light">Complete visibility of the events and properties being tracked in Vero, including when each event was last tracked, which customers triggered an event and the campaigns that triggered.</p></div></li>
     </ul>
   </div>
 </section>
