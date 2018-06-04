@@ -23,7 +23,7 @@
         <img src="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo@2x.png 2x" class="">
       </div>
     </div>
-    <p class="no-top-margin no-bottom-margin large">Use <strong>Stitch</strong> to replicate your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse at the click of a button.</p>
+    <p class="no-top-margin no-bottom-margin large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
     <a href="http://app.getvero.com" class="btn btn-primary btn-large top-margin-large btn-wide">Try Vero</a>
     <div class="learn-more"><p>Learn More</p><img src="/wp-content/themes/vero/assets/images/integrations/learn-more-carat.svg"></div>
   </div>
@@ -46,8 +46,8 @@
   <div class="inner medium-inner top-padding-medium">
     <h2 class="center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list halfs">
-      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/stitch/combine.svg"><div class="right"><p class="medium regular no-top-margin">Stitch data together</p><p class="light"><p class="light">Vero's <a href="">email campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together. Combine data to get better insights.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/stitch/custom.svg"><div class="right"><p class="medium regular no-top-margin">Custom reporting</p>By using Vero and Stitch together, you can use popular charting tools like Mode Analytics, Looker and Periscope Data to create custom internal and external reports.</p></div></li>
+      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/stitch/combine.svg"><div class="right"><p class="medium regular no-top-margin">Stitch data together</p><p class="light"><p class="light">Vero's <a href="/reporting">email campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together. Combine data to get better insights.</p></div></li>
+      <li><img src="/wp-content/themes/vero/assets/images/integrations/stitch/custom.svg"><div class="right"><p class="medium regular no-top-margin">Custom reporting</p>Send data via Stitch to your data warehouse and create custom internal and external reports with popular charting tools like Mode Analytics, Looker and Periscope Data.</p></div></li>
       <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/stitch/history.svg"><div class="right"><p class="medium regular no-top-margin">A historical record</p><p class="light">By warehousing the email interactions that originate in Vero you can backup and store a gospel record of important customer interactions.</p></div></li>
       <li><img src="/wp-content/themes/vero/assets/images/integrations/stitch/middleware.svg"><div class="right"><p class="medium regular no-top-margin">Don’t write your own ETL scripts.</p><p class="light">Writing middleware to capture webhooks and load data into your warehouse is complex and time-consuming. Stitch handles the hard work for you, enabling you to get up and warehousing faster.</p></div></li>
     </ul>
