@@ -67,7 +67,7 @@
     </div>
   </div>
 </section>
-<section id="vero-segment-quote" class="feature-section">
+<section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
       <h1 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h1>
