@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Plain Sidebar + Hero 
+Template Name: Plain Sidebar Hero 
 */
 
 //* Force sidebar-content layout
@@ -11,7 +11,6 @@ function metro_add_body_class( $classes ) {
    $classes[] = 'left-menu plain-sidebar-hero';
    return $classes;
 }
-
 remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
 remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 
@@ -25,16 +24,13 @@ function generate_sidebar() {
 add_action( 'genesis_after_header', 'hero', 10, 2  );
 function hero() {
   $color = get_field('header_color');
+  if(empty($color)) {
+    $color = '#ffffff'; // default to white
+  }
   $image = get_field('image_header');
-  if( !empty($color) ) {
-    echo '<div class="plain-sidebar-hero" style="background-color:' . get_field('header_color') . ';"><div class="site-inner">';
-  } else {
-    echo '<div class="plain-sidebar-hero"><div class="site-inner">';
-  }
   if( !empty($image) ) {
-    echo '<img src="' . $image['url'] . '" width="100%"/>';
+    echo '<div class="hero" style="backgorund-color:'. $color . '; background-image: url(' . $image['url'] . ');"></div>';
   }
-  echo '</div></div>';
 }
 
 genesis(); ?>
