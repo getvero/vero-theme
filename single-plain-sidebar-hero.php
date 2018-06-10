@@ -8,17 +8,21 @@ add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_cont
 
 add_filter( 'body_class', 'metro_add_body_class' );
 function metro_add_body_class( $classes ) {
-   $classes[] = 'left-menu plain-sidebar-hero';
-   return $classes;
+  if(get_field('custom_sidebar')){
+    $classes[] = 'left-menu plain-template';
+  } else {
+    $classes[] = 'plain-template';
+  }
+  return $classes;
 }
 remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
 remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 
-add_action( 'genesis_sidebar', 'generate_sidebar' );
+if(get_field('custom_sidebar')){
+  add_action( 'genesis_sidebar', 'generate_sidebar' );
+}
 function generate_sidebar() {
-  if(get_field('custom_sidebar')){ //if the field is not empty
-    echo '<p>' . get_field('custom_sidebar') . '</p>'; //display it
-  }
+  echo '<p>' . get_field('custom_sidebar') . '</p>'; //display it
 }
 
 add_action( 'genesis_after_header', 'hero', 10, 2  );
