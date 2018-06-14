@@ -198,7 +198,7 @@
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/409733" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Account Manager / Inside Sales
+          Business Development Manager
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
