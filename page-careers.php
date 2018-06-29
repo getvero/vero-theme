@@ -15,7 +15,7 @@
   do_action( 'genesis_after_header' );
 ?>
   <div class="inner">
-    <h1 class="hulk no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
+    <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
     <a class="btn btn-outline" href="#careers-job-listings">Get amongst it!</a>
   </div>
 </section>
