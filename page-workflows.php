@@ -17,7 +17,7 @@
       <p class="semi-bold smallish font-brand-primary introducing">Introducing</p>
       <h1 class="hulk bottom-margin-small semi-bold">Workflows</h1>
       <p class="no-top-margin bottom-margin-medium largest">A visual way to build your automated campaigns</p>
-      <a href="http://app.getvero.com/signup" class="btn btn-primary btn-large btn-wide">Try it out</a>
+      <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Try it out</a>
     </div>
     <div class="workflows-hero-bg">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/zig.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/zig@2x.png 2x" class="zig" data-parallax='{"y" : 230}'>
@@ -53,6 +53,7 @@
       <div class="right secondary">
         <h2 class="biggie">Everything you need to build effective automated marketing campaigns</h2>
         <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="pill pill-medium pill-primary top-margin-small"><a href="#">Read the documentation</a></p>
       </div>
     </div>
   </div>
@@ -74,14 +75,14 @@
 <section id="workflows-reasons" class="feature-section double-padding gray-section">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie">Design campaigns without restriction</h2>
-    <p class="large bottom-margin-large">Reaching your goals has never been easier with Workflow’s, here’s a few examples…</p>
+    <p class="large bottom-margin-large">Reaching your goals has never been easier...</p>
   </div>
   <div class="inner large-inner halfs flush-top">
     <div class="left secondary">
       <ul class="feature-list left-align unstyled-list">
-        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/onboarding.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Onboard new users</h2><p class="medium desc">Start your workflows with a customer action</p></div></li>
-        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/engagement.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Drive engagement</h2><p class="medium desc">Take customers down different paths</p></div></li>
-        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/recapture.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Recapture attention</h2><p class="medium desc">Experiment with timing and find out what works</p></div></li>
+        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/onboarding.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Onboard new users</h2><p class="medium desc">Get your new customers started in the best possible way.</p></div></li>
+        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/engagement.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Drive engagement</h2><p class="medium desc">Point people in the right direction at exactly the right moment.</p></div></li>
+        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/recapture.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Recapture attention</h2><p class="medium desc">Get back on the radar when customers have been inactive.</p></div></li>
       </ul>
     </div>
     <div class="right primary">
@@ -106,9 +107,9 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better customer experiences</h1>
-    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
-    <a href="http://app.getvero.com/signup" class="btn btn-primary btn-large btn-wide">Get Started</a>
+    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <p class="sub-heading">Create a free account, build your first workflow and see how Vero can help your team.</p>
+    <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get Started</a>
   </div>
 </section>
 
