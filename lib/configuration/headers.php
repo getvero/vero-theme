@@ -79,4 +79,21 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
     return $classes;
 }
 
+function workflows_banner(){
+  if(is_page('homepage')){
+    ?>
+      <div class="homepage-banner">
+        <a href="/workflows" class="unstyled">
+          <p class="large banner-heading inline-block right-margin-medium">Introducing <span class="bold">Workflows</span></p>
+          <p class="regular banner-sub-heading inline-block">A visual way to build your campaigns.</p>
+          <p class="regular banner-button inline-block">Find out more</p>
+          <p class="regular banner-arrow inline-block">
+            <svg height="19" viewBox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg"><path d="m6.328 14.263c-.407.373-.435 1.006-.061 1.413.373.407 1.006.435 1.413.061l5.998-5.498c.432-.396.432-1.078 0-1.474l-5.998-5.502c-.407-.373-1.04-.346-1.413.061s-.346 1.04.061 1.413l5.194 4.764z" fill="#d8d8d8"/></svg>
+          </p>
+        </a>
+      </div>
+    <?php 
+  }
+}
+
 ?>
