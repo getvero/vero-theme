@@ -80,10 +80,8 @@
     <div class="left secondary">
       <ul class="feature-list left-align unstyled-list">
         <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/onboarding.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Onboard new users</h2><p class="medium desc">Welcome, engage and help your customers gain value from your offering.</p></div></li>
-        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/engagement.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Increase engagement</h2><p class="medium desc">Use real-time data to send your customers helpful messages, at exactly the right moment.
-</p></div></li>
-        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/recapture.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Improve customer retention</h2><p class="medium desc">Deliver your customers valuable content and reasons to engage with your product.
-</p></div></li>
+        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/engagement.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Increase engagement</h2><p class="medium desc">Use real-time data to send your customers helpful messages, at exactly the right moment.</p></div></li>
+        <li><img class="padding-tiny" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/recapture.svg" width="50" height="50"><div><h2 class="title bottom-margin-tiny">Improve customer retention</h2><p class="medium desc">Deliver your customers valuable content and reasons to engage with your product.</p></div></li>
       </ul>
     </div>
     <div class="right primary">
