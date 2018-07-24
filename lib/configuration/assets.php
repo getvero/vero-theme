@@ -57,6 +57,8 @@ function add_js() {
   wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
   wp_register_script('smooth-scroll', get_stylesheet_directory_uri() . '/assets/scripts/vendor/smooth-scroll.min.js', NULL, NULL, true);
   wp_register_script('featherlight', get_stylesheet_directory_uri() . '/assets/scripts/vendor/featherlight.min.js', NULL, NULL, true);
+  wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
+  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -66,6 +68,8 @@ function add_js() {
   wp_enqueue_script('bxslider');
   wp_enqueue_script('featherlight');
   wp_enqueue_script('picturefill');
+  // wp_enqueue_script('jquery-easing');
+  wp_enqueue_script('jquery-parallax');
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
