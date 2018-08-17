@@ -157,7 +157,7 @@ include 'pages-shared/static-header.php';
         <ul class="unstyled-list tick-list top-border-light">
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Full open and click tracking</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Email conversion reporting using customer activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Integrations with popular provider providers Mailgun, Sendgrid, Dyn and Mandrill. (Optional)</li>
+          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Integrations with popular providers Mailgun, Sendgrid, Dyn and Mandrill. (Optional)</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Centralised unsubscribe management</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Reporting dashboards</li>
           <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Webhooks to dump email interaction activity</li>

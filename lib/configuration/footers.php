@@ -25,6 +25,7 @@ function custom_footer_html() {
   <ul class="col">
     <li class="header">Product</li>
     <li><a href="/features/email">Features</a></li>
+    <li><a href="/workflows">Workflows</a></li>
     <li><a href="/event-manager">Event Management</a></li>
     <li><a href="/fusion">Fusion</a></li>
     <li><a href="/multi-language-campaigns">Multi-language</a></li>

@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'careers transparent-header';
+    $classes[] = 'careers';
     return $classes;
   }
   include 'pages-shared/static-header.php';
@@ -16,7 +16,7 @@
 ?>
   <div class="inner">
     <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
-    <a class="btn btn-outline" href="#careers-job-listings">Get amongst it!</a>
+    <a class="btn btn-outline" href="#careers-job-listings">View current openings</a>
   </div>
 </section>
 <section id="careers-mission" class="double-padding">
@@ -55,7 +55,7 @@
     <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
   <div class="inner flush-top large-inner vibe-images">
-    <div class="vibe-image" id="glass"></div>
+    <div class="vibe-image" id="beach"></div>
     <div class="vibe-image" id="cafe"></div>
     <div class="vibe-image" id="bar"></div>
     <div class="vibe-image" id="boat"></div>
@@ -63,6 +63,24 @@
 </section>
 <section id="careers-profiles" class="double-padding">
   <ul class="" id="careers-profiles-slider">
+    <!-- <li class="linda">
+      <div class="inner">
+        <h3>Do exceptional work with extraordinary people</h3>
+        <p class="italic">
+          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
+        </p>
+        <div class="top-margin-small">
+          <div class="pull-left linda small-profile-image"></div>
+          <h4>Linda Grant</h4>
+          <p class="no-top-margin">Marketing</p>
+        </div>
+        <div class="bx-controls">
+          <div class="bx-control bx-active" data-bx="0"></div>
+          <div class="bx-control" data-bx="1"></div>
+          <div class="bx-control" data-bx="2"></div>
+        </div>
+      </div>
+    </li> -->
     <li class="rory">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
@@ -75,40 +93,22 @@
           <p class="no-top-margin">Product Design</p>
         </div>
         <!-- <div class="bx-controls">
-          <div class="bx-control bx-active" data-bx="0"></div>
-          <div class="bx-control" data-bx="1"></div>
+          <div class="bx-control" data-bx="0"></div>
+          <div class="bx-control bx-active" data-bx="1"></div>
           <div class="bx-control" data-bx="2"></div>
         </div> -->
       </div>
     </li>
-    <!-- <li class="andrew">
+    <!-- <li class="reba">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
         <p class="italic">
           <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
         </p>
         <div class="top-margin-small">
-          <div class="pull-left andrew small-profile-image"></div>
-          <h4>Andrew O'Brien</h4>
-          <p class="no-top-margin">Product Engineering</p>
-        </div>
-        <div class="bx-controls">
-          <div class="bx-control" data-bx="0"></div>
-          <div class="bx-control bx-active" data-bx="1"></div>
-          <div class="bx-control" data-bx="2"></div>
-        </div>
-      </div>
-    </li>
-    <li class="mitchell">
-      <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
-        <p class="italic">
-          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
-        </p>
-        <div class="top-margin-small">
-          <div class="pull-left mitchell small-profile-image"></div>
-          <h4>Mitchell Quille</h4>
-          <p class="no-top-margin">Engineering</p>
+          <div class="pull-left reba small-profile-image"></div>
+          <h4>Reba Moyes</h4>
+          <p class="no-top-margin">Support</p>
         </div>
         <div class="bx-controls">
           <div class="bx-control" data-bx="0"></div>
@@ -116,7 +116,7 @@
           <div class="bx-control bx-active" data-bx="2"></div>
         </div>
       </div>
-    </li> -->
+    </li> --> 
   </ul>
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
@@ -154,7 +154,7 @@
 <section id="careers-remote" class="double-padding">
   <div class="inner small-inner bottom-padding-small">
     <h1 class="chunk">Be where you want to be</h1>
-    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s a list of the places Vero team members reside:</p>
+    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
     <ul class="feature-list unstyled-list flex center-text">
@@ -164,8 +164,8 @@
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/sanfran.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sanfran@2x.png 2x">
-        <p class="semi-bold no-bottom-margin">San Fransisco</p>
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/florida.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/florida@2x.png 2x">
+        <p class="semi-bold no-bottom-margin">Florida</p>
         <p class="no-margin small">USA</p>
       </li>
       <li>
@@ -179,14 +179,14 @@
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/berlin.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/berlin@2x.png 2x">
-        <p class="semi-bold no-bottom-margin">Berlin</p>
-        <p class="no-margin small">Germany</p>
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/edinburgh@2x.png 2x">
+        <p class="semi-bold no-bottom-margin">Edinburgh</p>
+        <p class="no-margin small">United Kingdom</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/goldcoast.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/goldcoast@2x.png 2x">
-        <p class="semi-bold no-bottom-margin">Gold Coast</p>
-        <p class="no-margin small">Australia</p>
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/amsterdam@2x.png 2x">
+        <p class="semi-bold no-bottom-margin">Amsterdam</p>
+        <p class="no-margin small">Netherlands</p>
       </li>
     </ul>
   </div>
