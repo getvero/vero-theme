@@ -16,7 +16,7 @@
 ?>
   <div class="inner">
     <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
-    <a class="btn btn-outline" href="#careers-job-listings">View current openings</a>
+    <a class="btn btn-outline-white" href="#careers-job-listings">View current openings</a>
   </div>
 </section>
 <section id="careers-mission" class="double-padding">
@@ -92,18 +92,18 @@
           <h4>Rory Colsell</h4>
           <p class="no-top-margin">Product Design</p>
         </div>
-        <!-- <div class="bx-controls">
-          <div class="bx-control" data-bx="0"></div>
-          <div class="bx-control bx-active" data-bx="1"></div>
-          <div class="bx-control" data-bx="2"></div>
-        </div> -->
+        <div class="bx-controls">
+          <div class="bx-control bx-active" data-bx="0"></div>
+          <div class="bx-control" data-bx="1"></div>
+          <!-- <div class="bx-control" data-bx="2"></div> -->
+        </div>
       </div>
     </li>
-    <!-- <li class="reba">
+    <li class="reba">
       <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
+        <h3>Solve challenging problems for interesting customers</h3>
         <p class="italic">
-          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
+          <q>There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
         </p>
         <div class="top-margin-small">
           <div class="pull-left reba small-profile-image"></div>
@@ -112,11 +112,11 @@
         </div>
         <div class="bx-controls">
           <div class="bx-control" data-bx="0"></div>
-          <div class="bx-control" data-bx="1"></div>
-          <div class="bx-control bx-active" data-bx="2"></div>
+          <div class="bx-control bx-active" data-bx="1"></div>
+          <!-- <div class="bx-control bx-active" data-bx="2"></div> -->
         </div>
       </div>
-    </li> --> 
+    </li> 
   </ul>
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
