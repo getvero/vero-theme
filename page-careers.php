@@ -211,7 +211,7 @@
       </li>
         <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/774998" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Web Designer / Engineer
+          Digital Designer
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
