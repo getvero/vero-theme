@@ -50,7 +50,7 @@ function genesischild_theme_setup() {
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
-  // add_action( 'genesis_before_header', 'workflows_banner' ); 
+  add_action( 'genesis_before_header', 'workflows_banner' ); 
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');

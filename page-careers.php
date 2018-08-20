@@ -208,6 +208,27 @@
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
+      </li>
+        <li class="no-margin">
+        <a href="https://getvero.workable.com/jobs/774998" target="_blank" class="semi-bold display-block vertical-padding-small">
+          Web Designer / Engineer
+          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+        </a>
+      </li>
+      </li>
+        <li class="no-margin">
+        <a href="https://getvero.workable.com/jobs/774996" target="_blank" class="semi-bold display-block vertical-padding-small">
+          Senior Engineer - Cloud Infrastructure (AWS)
+          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+        </a>
+      </li>
+      </li>
+        <li class="no-margin">
+        <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold display-block vertical-padding-small">
+          Customer Support Manager - Europe
+          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+        </a>
+      </li>
     </ul>
     <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
   </div>
