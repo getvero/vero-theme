@@ -204,14 +204,14 @@
       </li>
         <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Content Manager
+          Content Manager (UK)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       </li>
         <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/774998" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Digital Designer
+          Digital Designer (Europe)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
@@ -225,7 +225,7 @@
       </li>
         <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Customer Support Manager - Europe
+          Customer Support Manager (Europe)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
