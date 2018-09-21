@@ -1,4 +1,6 @@
 <?php
+
+include_once( 'lib/configuration/footers.php' );
 /*
 Template Name: Plain Sidebar Hero 
 */
@@ -35,6 +37,22 @@ function hero() {
   if( !empty($image) ) {
     echo '<div class="hero" style="backgorund-color:'. $color . '; background-image: url(' . $image['url'] . ');"></div>';
   }
+}
+
+if(get_field('social')){
+  add_action( 'genesis_entry_header', 'social' );
+}
+if(get_field('footer_cta')){
+  add_action( 'genesis_before_footer', 'blog_cta' );
+}
+
+function social() {
+  $share_obj = new Naked_Social_Share_Buttons();
+  ?>
+  <div class='shares-block'>
+    <?php echo naked_social_share_buttons(); ?>
+  </div>
+  <?php
 }
 
 genesis(); ?>
