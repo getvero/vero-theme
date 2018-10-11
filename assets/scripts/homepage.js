@@ -128,7 +128,7 @@ var scrollTop     = jQuery(window).scrollTop(),
     stickySidebarWidth = jQuery('.sidebar-primary').width();
 
 jQuery(window).scroll(function(){
-  if (jQuery(window).scrollTop() > heroDistance - 90) {
+  if (jQuery(window).scrollTop() > heroDistance - 89) {
     jQuery('.sidebar-scroll').addClass('sticky');
   } else {
     jQuery('.sidebar-scroll').removeClass('sticky');
