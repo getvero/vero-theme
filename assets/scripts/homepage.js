@@ -124,10 +124,11 @@ jQuery(window).scroll(function(){
 // Liquid guide sticky sidebar
 var scrollTop     = jQuery(window).scrollTop(),
     stickySidebarDistance = jQuery('.sidebar-scroll').offset().top,
+    heroDistance = jQuery('.content-sidebar-wrap').offset().top,
     stickySidebarWidth = jQuery('.sidebar-primary').width();
 
 jQuery(window).scroll(function(){
-  if (jQuery(window).scrollTop() > stickySidebarDistance) {
+  if (jQuery(window).scrollTop() > heroDistance - 90) {
     jQuery('.sidebar-scroll').addClass('sticky');
   } else {
     jQuery('.sidebar-scroll').removeClass('sticky');
