@@ -120,3 +120,21 @@ jQuery(window).scroll(function(){
     console.log('unstick');
   }
 });
+
+// Liquid guide sticky sidebar
+var scrollTop     = jQuery(window).scrollTop(),
+    stickySidebarDistance = jQuery('.sidebar-scroll').offset().top,
+    stickySidebarWidth = jQuery('.sidebar-primary').width();
+
+jQuery(window).scroll(function(){
+  if (jQuery(window).scrollTop() > stickySidebarDistance) {
+    jQuery('.sidebar-scroll').addClass('sticky');
+  } else {
+    jQuery('.sidebar-scroll').removeClass('sticky');
+  }
+
+  if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 900) ) {
+    //you are at bottom
+    jQuery('.sidebar-scroll').removeClass('sticky');
+  }
+});
