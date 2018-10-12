@@ -1,30 +1,30 @@
 // Sliders for the email/data pages
 jQuery(document).ready(function(){
   jQuery('.bxslider').bxSlider({
-    mode: 'fade',
-    adaptiveHeight: true,
-    responsive: true,
-    infiniteLoop: false,
+    mode            : 'fade',
+    adaptiveHeight  : true,
+    responsive      : true,
+    infiniteLoop    : false,
     hideControlOnEnd: true,
-    pager: false
+    pager           : false
   });
   var slider = jQuery('#pricing-slider').bxSlider({
-    mode: 'fade',
-    adaptiveHeight: true,
-    responsive: true,
-    controls: false,
-    infiniteLoop: false,
+    mode            : 'fade',
+    adaptiveHeight  : true,
+    responsive      : true,
+    controls        : false,
+    infiniteLoop    : false,
     hideControlOnEnd: true,
-    pager: false
+    pager           : false
   });
   var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
-    mode: 'fade',
-    adaptiveHeight: true,
-    responsive: true,
-    controls: false,
-    infiniteLoop: true,
+    mode            : 'fade',
+    adaptiveHeight  : true,
+    responsive      : true,
+    controls        : false,
+    infiniteLoop    : true,
     hideControlOnEnd: false,
-    pager: false
+    pager           : false
   });
 
   jQuery('#careers-profiles-slider .bx-control').click(function(){
@@ -82,15 +82,15 @@ jQuery(document).ready(function(){
 
   jQuery(document).click(function (e){
     var sub_menu = jQuery(".menu-item-has-children > .sub-menu");
-    var link = jQuery(".menu-item-has-children > a");
+    var link     = jQuery(".menu-item-has-children > a");
     if (!sub_menu.is(e.target) && sub_menu.has(e.target).length === 0){
       sub_menu.removeClass('show-sub-menu');
     }
   });
 });
 
-var h = jQuery(".nav-primary .wrap");
-var stuck = false;
+var h          = jQuery(".nav-primary .wrap");
+var stuck      = false;
 var stickPoint = getDistance();
 
 function getDistance() {
@@ -104,9 +104,9 @@ function getHeight() {
 }
 
 jQuery(window).scroll(function(){
-  var height = getHeight();
+  var height   = getHeight();
   var distance = getDistance() - jQuery(window).scrollTop();
-  var offset = jQuery(window).scrollTop();
+  var offset   = jQuery(window).scrollTop();
   console.log('scroll');
   if ( (distance <= 0) && !stuck) {
     jQuery(".nav-primary").addClass('sticky');
@@ -121,21 +121,20 @@ jQuery(window).scroll(function(){
   }
 });
 
+// Use position: sticky instead
 // Liquid guide sticky sidebar
-var scrollTop     = jQuery(window).scrollTop(),
-    stickySidebarDistance = jQuery('.sidebar-scroll').offset().top,
-    heroDistance = jQuery('.content-sidebar-wrap').offset().top,
-    stickySidebarWidth = jQuery('.sidebar-primary').width();
+// var stickySidebarWidth = jQuery('.sidebar-primary').width(),
+//     heroDistance       = jQuery('.content-sidebar-wrap').offset().top;
 
-jQuery(window).scroll(function(){
-  if (jQuery(window).scrollTop() > heroDistance - 89) {
-    jQuery('.sidebar-scroll').addClass('sticky');
-  } else {
-    jQuery('.sidebar-scroll').removeClass('sticky');
-  }
+// jQuery(window).scroll(function(){
+//   if (jQuery(window).scrollTop() > heroDistance - 89) {
+//     jQuery('.sidebar-sticky').addClass('sticky');
+//   } else {
+//     jQuery('.sidebar-sticky').removeClass('sticky');
+//   }
 
-  if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 900) ) {
-    //you are at bottom
-    jQuery('.sidebar-scroll').removeClass('sticky');
-  }
-});
+//   if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 900) ) {
+//     //you are at bottom
+//     jQuery('.sidebar-sticky').removeClass('sticky');
+//   }
+// });
