@@ -2,7 +2,7 @@
 
 include_once( 'lib/configuration/footers.php' );
 /*
-Template Name: Plain Sidebar Hero 
+Template Name: Plain Sidebar Hero
 */
 
 //* Force sidebar-content layout
@@ -23,8 +23,22 @@ remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 if(get_field('custom_sidebar')){
   add_action( 'genesis_sidebar', 'generate_sidebar' );
 }
+
 function generate_sidebar() {
   echo '<p>' . get_field('custom_sidebar') . '</p>'; //display it
+}
+
+// Add sticky class if true
+if(get_field('sticky')){
+  add_filter( 'genesis_attr_sidebar-primary', 'themeprefix_add_css_attr' );
+  function themeprefix_add_css_attr( $attributes ) {
+
+    // add original plus extra CSS classes
+    $attributes['class'] .= ' sticky';
+
+    // return the attributes
+    return $attributes;
+  }
 }
 
 add_action( 'genesis_after_header', 'hero', 10, 2  );
