@@ -25,16 +25,25 @@ if(get_field('custom_sidebar')){
 }
 
 function generate_sidebar() {
-  echo '<p>' . get_field('custom_sidebar') . '</p>'; //display it
+  echo get_field('custom_sidebar'); //display it
 }
 
 // Add sticky class if true
 if(get_field('sticky')){
   add_filter( 'genesis_attr_sidebar-primary', 'themeprefix_add_css_attr' );
-  function themeprefix_add_css_attr( $attributes ) {
+  add_filter( 'genesis_attr_content-sidebar-wrap', 'themeprefix_content_sidebar_wrap' );
 
+  function themeprefix_add_css_attr( $attributes ) {
     // add original plus extra CSS classes
-    $attributes['class'] .= ' sticky';
+    $attributes['class'] .= ' sidebar-sticky sidebar-gradient';
+
+    // return the attributes
+    return $attributes;
+  }
+
+  function themeprefix_content_sidebar_wrap( $attributes ) {
+    // add original plus extra CSS classes
+    $attributes['class'] .= ' relative';
 
     // return the attributes
     return $attributes;
