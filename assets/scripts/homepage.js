@@ -132,8 +132,10 @@ jQuery(window).scroll(function(){
     jQuery('.sidebar-sticky').removeClass('sticky');
   }
 
+  // At bottom
   if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
-    //you are at bottom
-    jQuery('.sidebar-sticky').removeClass('sticky');
+    jQuery('.sidebar-sticky').addClass('bottom');
+  } else {
+    jQuery('.sidebar-sticky').removeClass('bottom');
   }
 });
