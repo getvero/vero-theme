@@ -121,20 +121,19 @@ jQuery(window).scroll(function(){
   }
 });
 
-// Use position: sticky instead
 // Liquid guide sticky sidebar
-// var stickySidebarWidth = jQuery('.sidebar-primary').width(),
-//     heroDistance       = jQuery('.content-sidebar-wrap').offset().top;
+var stickySidebarWidth = jQuery('.sidebar-primary').width(),
+    heroDistance       = jQuery('.content-sidebar-wrap').offset().top;
 
-// jQuery(window).scroll(function(){
-//   if (jQuery(window).scrollTop() > heroDistance - 89) {
-//     jQuery('.sidebar-sticky').addClass('sticky');
-//   } else {
-//     jQuery('.sidebar-sticky').removeClass('sticky');
-//   }
+jQuery(window).scroll(function(){
+  if (jQuery(window).scrollTop() > heroDistance - 89) {
+    jQuery('.sidebar-sticky').addClass('sticky');
+  } else {
+    jQuery('.sidebar-sticky').removeClass('sticky');
+  }
 
-//   if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 900) ) {
-//     //you are at bottom
-//     jQuery('.sidebar-sticky').removeClass('sticky');
-//   }
-// });
+  if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
+    //you are at bottom
+    jQuery('.sidebar-sticky').removeClass('sticky');
+  }
+});
