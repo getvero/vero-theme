@@ -5,7 +5,7 @@ include_once( 'lib/configuration/footers.php' );
 Template Name: Plain Sidebar Hero
 */
 
-//* Force sidebar-content layout
+// Force sidebar-content layout
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_content' );
 
 add_filter( 'body_class', 'metro_add_body_class' );
