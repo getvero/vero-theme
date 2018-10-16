@@ -30,10 +30,19 @@ function generate_sidebar() {
 
 // Add sticky class if true
 if(get_field('sticky')){
-  add_filter( 'genesis_attr_sidebar-primary', 'themeprefix_add_css_attr' );
-  add_filter( 'genesis_attr_content-sidebar-wrap', 'themeprefix_content_sidebar_wrap' );
+  add_filter( 'genesis_attr_sidebar-primary', 'sidebar_primary_add_css_attr' );
+  add_filter( 'genesis_attr_content-sidebar-wrap', 'content_sidebar_wrap_css_attr' );
+  add_filter( 'genesis_attr_content', 'content_add_css_attr' );
 
-  function themeprefix_add_css_attr( $attributes ) {
+  function content_add_css_attr( $attributes ) {
+    // add original plus extra CSS classes
+    $attributes['class'] .= ' content-liquid';
+
+    // return the attributes
+    return $attributes;
+  }
+
+  function sidebar_primary_add_css_attr( $attributes ) {
     // add original plus extra CSS classes
     $attributes['class'] .= ' sidebar-sticky sidebar-gradient';
 
@@ -41,7 +50,7 @@ if(get_field('sticky')){
     return $attributes;
   }
 
-  function themeprefix_content_sidebar_wrap( $attributes ) {
+  function content_sidebar_wrap_css_attr( $attributes ) {
     // add original plus extra CSS classes
     $attributes['class'] .= ' relative';
 
