@@ -38,6 +38,7 @@ function custom_footer_html() {
     <li class="header">Resources</li>
     <!--<li>About</li>-->
     <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
+    <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
     <li><a href="https://help.getvero.com" target="_blank">Help Center</a></li>
     <li><a href="https://developers.getvero.com" target="_blank">API Reference</a></li>
     <li><a href="https://releasenotes.getvero.com" target="_blank">Release Notes</a></li>
@@ -87,9 +88,9 @@ function blog_related_posts() {
         <div class='related-post <?php if($featured_image){ ?>has-image<?php } ?>'>
           <?php if($featured_image){ ?>
             <div class='related-image'><a class='related-image-link-overlay' href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>"</a></div>
-          <?php 
+          <?php
           }
-          ?> 
+          ?>
           <div class="related-titles">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p><?php the_excerpt(); ?></p>
