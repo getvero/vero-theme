@@ -1,12 +1,12 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'features';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
 <section id="features-menu" class="border-bottom">
@@ -197,7 +197,7 @@
     <ul class="feature-list unstyled-list thirds center-text">
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/newsletter.svg"><p class="semi-bold">Scheduled Newsletters</p><p class="light">Send one-off campaigns to individual segments – instantly, or at a scheduled time in the future.</p></li>
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/reports.svg"><p class="semi-bold">Detailed Reporting</p><p class="light">Get aggregate and day-by-day breakdowns of every email campaign sent through Vero. Plays nice with data warehouses too.</p></li>
-      <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/liquid.svg"><p class="semi-bold">Liquid Content</p><p class="light">Personalise every email using the <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers" target="_blank">Liquid templating language</a> and utilise your customer data.</p></li>
+      <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/liquid.svg"><p class="semi-bold">Liquid Content</p><p class="light">Personalise every email using the <a href="https://www.getvero.com/email-personalization-liquid-guide">Liquid templating language</a> and utilise your customer data.</p></li>
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/templates.svg"><p class="semi-bold">Manage HTML templates</p><p class="light">Upload, organise and edit your fully responsive email designs and reuse them in all of your campaigns.</p></li>
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/editables.svg"><p class="semi-bold">Visual Editor</p><p class="light">Define areas of your email content that the whole team can edit in Vero's point-and-click content editor.</p></li>
       <li class="bottom-margin-medium"><img src="/wp-content/themes/vero/assets/images/home/features/more/timezones.svg"><p class="semi-bold">Send per Timezone</p><p class="light">Schedule your emails at the right time for every customer, no matter where in the world they are.</p></li>
@@ -218,7 +218,7 @@
     <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>
