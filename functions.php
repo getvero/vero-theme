@@ -17,17 +17,17 @@ include_once( 'lib/post_types/guides.php' );          # Guides pages
 include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
-function genesischild_theme_setup() { 
+function genesischild_theme_setup() {
   define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
-  
+
   add_theme_support( 'html5' );
   add_theme_support( 'xhtml' );
   add_theme_support( 'genesis-responsive-viewport' );
-  add_theme_support( 'genesis-menus', array( 
-    'primary' => __( 'Navigation Menu', 'genesis' ) 
+  add_theme_support( 'genesis-menus', array(
+    'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
-  add_action( 'wp_enqueue_scripts', 'add_js' ); 
+  add_action( 'wp_enqueue_scripts', 'add_js' );
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
@@ -50,7 +50,7 @@ function genesischild_theme_setup() {
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
-  add_action( 'genesis_before_header', 'workflows_banner' ); 
+  add_action( 'genesis_before_header', 'workflows_banner' );
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action( 'genesis_footer', 'custom_footer');
@@ -66,7 +66,7 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
   // Entry post structure
-  add_filter( 'get_the_content_more_link', 'remove_read_more_link' ); 
+  add_filter( 'get_the_content_more_link', 'remove_read_more_link' );
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
   add_action( 'genesis_entry_footer', 'add_shares' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
@@ -87,7 +87,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_content', 'add_post_sidebar' );
 
   // Category page
-  add_action( 'genesis_entry_header', 'category_setup', 8); 
+  add_action( 'genesis_entry_header', 'category_setup', 8);
 
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
