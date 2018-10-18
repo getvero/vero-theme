@@ -197,28 +197,8 @@
     <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
     <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/409733" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Business Development Manager
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-        <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold display-block vertical-padding-small">
           Content Manager (UK)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      </li>
-        <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/774998" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Digital Designer (Europe)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      </li>
-        <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/774996" target="_blank" class="semi-bold display-block vertical-padding-small">
-          Senior Engineer - Cloud Infrastructure (AWS)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
