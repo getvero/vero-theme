@@ -15,7 +15,7 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="more-link" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+    <a class="btn btn-default" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
   <?php }
 }
 
@@ -76,7 +76,7 @@ function add_featured_posts() {
         $result['shares'] = number_format($result['shares']);
       }
       ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>> 
+      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
         <?php $nssb = new Naked_Social_Share_Buttons; echo $nssb->share_numbers['shares']; ?>
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
