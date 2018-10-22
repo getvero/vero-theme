@@ -180,7 +180,8 @@ function get_category_title() {
 }
 
 function add_categories_and_search() {
-  if( is_blog_archive() ){ ?>
+  if( is_blog_archive() || is_single() ){ ?>
+
     <div id="blog-sub-menu" class="bottom-border-light">
       <div class="categories">
         <div class="category-button"><?php get_category_title(); ?><span class="fa fa-angle-down"></span></div>
