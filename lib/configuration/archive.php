@@ -15,7 +15,7 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="btn btn-default" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+    <a class="btn btn-default btn-small" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
   <?php }
 }
 
