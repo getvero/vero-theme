@@ -36,24 +36,50 @@
           <blockquote>
             <p class="medium semi-bold">Heck! Vero's support is exceptional!</p>
 
-            <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-            <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Drawboard</span></p>
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Luke Chesser">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
+                <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Drawboard</span></p>
+              </div>
+            </div>
           </blockquote>
         </div>
+
         <div class="customer-quote">
           <blockquote>
             <p class="medium semi-bold">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
-            <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-            <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Helloprint</span></p>
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Luke Chesser">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Julien Catan (@lukechesser)</h2>
+                <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Helloprint</span></p>
+              </div>
+            </div>
           </blockquote>
         </div>
+
         <div class="customer-quote">
           <blockquote>
             <p class="medium semi-bold">Four amazing services that make <a href="https://twitter.com/unsplash?ref_src=twsrc%5Etfw">@unsplash</a> possible with a small team: <a href="https://twitter.com/heroku?ref_src=twsrc%5Etfw">@heroku</a>, <a href="https://twitter.com/getstream_io?ref_src=twsrc%5Etfw">@getstream_io</a>, <a href="https://twitter.com/imgix?ref_src=twsrc%5Etfw">@imgix</a>, &amp; <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a>.</p>
 
-            <h2 class="customer-quote-name small semi-bold">Luke Chesser (@lukechesser)</h2>
-            <p class="customer-quote-title small">Cofounder <span class="semi-bold">Unsplash</span></p>
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Luke Chesser (@lukechesser)</h2>
+                <p class="customer-quote-title small">Cofounder <span class="semi-bold">Unsplash</span></p>
+              </div>
+            </div>
           </blockquote>
         </div>
       </section>
