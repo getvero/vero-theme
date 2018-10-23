@@ -10,23 +10,56 @@
 ?>
   <div class="inner large-inner flush-bottom">
     <div class="content">
-      <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
-      <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
-     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-form">
-        <input class="form-control" type="email" placeholder="Email Address" name="email">
-        <input class="btn btn-success" type="submit" value="Start free trial">
-      </form>
-      <p class="mini light faded">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
+      <div class="hero-body">
+        <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
+
+        <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
+      </div>
+
+      <div class="hero-footer">
+        <a class="btn btn-success btn-large" href="https://app.getvero.com/pre_signups">Get Started</a>
+
+        <a class="medium" href="/features">Learn more</a>
+      </div>
     </div>
     <div class="image center-text">
       <img class="bottom-margin-large" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
     </div>
   </div>
 </section>
-<section id="logos" class="border-bottom">
-  <div class="inner full-width center-text">
-    <h5 class="section-label center-text no-margin">Used to build best-in-class customer experiences</h5>
-    <ul class="unstyled-list inline-list">
+<section id="logos" class="logos border-bottom">
+  <div class="full-width">
+    <div class="inner large-inner">
+      <section class="customer-quotes">
+        <h5 class="section-label center-text">What people have said about Vero</h5>
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium semi-bold">Heck! Vero's support is exceptional!</p>
+
+            <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
+            <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Drawboard</span></p>
+          </blockquote>
+        </div>
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium semi-bold">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+
+            <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
+            <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Helloprint</span></p>
+          </blockquote>
+        </div>
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium semi-bold">Four amazing services that make <a href="https://twitter.com/unsplash?ref_src=twsrc%5Etfw">@unsplash</a> possible with a small team: <a href="https://twitter.com/heroku?ref_src=twsrc%5Etfw">@heroku</a>, <a href="https://twitter.com/getstream_io?ref_src=twsrc%5Etfw">@getstream_io</a>, <a href="https://twitter.com/imgix?ref_src=twsrc%5Etfw">@imgix</a>, &amp; <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a>.</p>
+
+            <h2 class="customer-quote-name small semi-bold">Luke Chesser (@lukechesser)</h2>
+            <p class="customer-quote-title small">Cofounder <span class="semi-bold">Unsplash</span></p>
+          </blockquote>
+        </div>
+      </section>
+    </div>
+
+    <ul class="unstyled-list inline-list center-text">
       <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
       <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva@2x.png 2x" alt="Canva" height="76"></li>
@@ -35,7 +68,6 @@
       <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
       <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
     </ul>
-    <!-- <p class="no-margin"><a href="/customers">See how they use Vero</a></p> -->
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
@@ -112,25 +144,6 @@
       <p class="block-desc">Reliable and built on top of your event stream, Vero gets out of your way and gives you the power to create best-in-class product interactions like the hundreds of other businesses serving over <strong>500m</strong> customers on the Vero platform. Libraries in Ruby, Python and more.</p>
       <a href="https://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
-  </div>
-</section>
-<section id="twitter">
-  <div class="inner">
-      <h5 class="section-label center-text">What people have said about Vero</h5>
-      <div class="tweet">
-        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/veroapp">@veroapp</a> is like being a kid in a candy shop for email marketing!</p>&mdash; Sana N Choudary (@SanaOnGames) <a href="https://twitter.com/SanaOnGames/status/509888242619924481">September 11, 2014</a></blockquote>
-      </div>
-      <div class="tweet" style="margin-right: 0px;">
-        <blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">Just sent an email to the <a href="https://twitter.com/getvero">@getvero</a> team that started with &quot;omg&quot; and ended with &quot;thank you thank you thank you&quot;. They are my favourite.</p>&mdash; Ophelie Lechat (@OphelieLechat) <a href="https://twitter.com/OphelieLechat/status/646560855128080384">September 23, 2015</a></blockquote>
-      </div>
-      <div class="tweet">
-          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Heck, <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a>’s support is exceptional. 👏🏼</p>&mdash; Nathan Field (@nathfield) <a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw">September 19, 2017</a></blockquote>
-      </div>
-      <div class="tweet">
-        <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Four amazing services that make <a href="https://twitter.com/unsplash?ref_src=twsrc%5Etfw">@unsplash</a> possible with a small team: <a href="https://twitter.com/heroku?ref_src=twsrc%5Etfw">@heroku</a>, <a href="https://twitter.com/getstream_io?ref_src=twsrc%5Etfw">@getstream_io</a>, <a href="https://twitter.com/imgix?ref_src=twsrc%5Etfw">@imgix</a>, &amp; <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a> <a href="https://t.co/emjLUHgMnc">https://t.co/emjLUHgMnc</a> <a href="https://t.co/WjzqVE8Zos">pic.twitter.com/WjzqVE8Zos</a></p>&mdash; Luke Chesser (@lukechesser) <a href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw">August 1, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-      <!-- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
   </div>
 </section>
 <section id="call-to-action" class="center-text">
