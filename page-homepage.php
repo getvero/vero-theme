@@ -83,17 +83,16 @@
           </blockquote>
         </div>
       </section>
-    </div>
 
-    <ul class="unstyled-list inline-list center-text">
-      <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
-      <li class="logo canva"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-canva@2x.png 2x" alt="Canva" height="76"></li>
-      <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
-      <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
-      <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
-      <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
-    </ul>
+      <ul class="unstyled-list inline-list center-text">
+        <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
+        <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
+        <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
+        <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
+        <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
+        <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
+      </ul>
+    </div>
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
