@@ -98,14 +98,6 @@
       </ul>
   </div>
 </section>
-<section id="testimonial">
-  <div class="inner center-text">
-    <img class="quote-logo" src="/wp-content/themes/vero/assets/images/home/company-logo-canva.png" srcset="/wp-content/themes/vero/assets/images/home/company-logo-canva@2x.png 2x" width="106">
-    <blockquote class="quote">&ldquo;Vero is the centre of our personalised product and marketing email campaigns.&rdquo;</blockquote>
-    <h4 class="quote-name">Kris Howard</h4>
-    <h5 class="quote-job-title">Engineering Coordinator and Developer Relations</h5>
-  </div>
-</section>
 <section id="blocks">
   <div class="support block center-text">
     <div class="inner-block">
