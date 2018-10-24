@@ -33,7 +33,7 @@
       <h5 class="section-label center-text">What people have said about Vero</h5>
       <div class="customer-quote">
         <blockquote>
-          <p class="medium semi-bold">Heck! Vero's support is exceptional! 👏 👏🏿</p>
+          <p class="medium semi-bold">Heck! Vero's support is exceptional!</p>
 
           <div class="customer-footer">
             <div class="customer-avatar">
