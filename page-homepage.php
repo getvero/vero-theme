@@ -19,7 +19,7 @@
       <div class="hero-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Get Started</a>
 
-        <a class="medium" href="/features">Learn more</a>
+        <a href="/features">Learn more</a>
       </div>
     </div>
     <div class="image center-text">
