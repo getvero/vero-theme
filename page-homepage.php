@@ -29,73 +29,17 @@
 </section>
 <section id="logos" class="logos border-bottom">
   <div class="inner large-inner">
-    <section class="customer-quotes">
-      <h5 class="section-label center-text">What people have said about Vero</h5>
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium semi-bold">Heck! Vero's support is exceptional!</p>
+    <h5 class="section-label center-text no-bottom-margin">Used to build best-in-class customer experiences</h5>
 
-          <div class="customer-footer">
-            <div class="customer-avatar">
-              <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Nathan Field</h2>
-              <p class="customer-quote-title small"> Head of Marketing at <span class="semi-bold">Drawboard</span></p>
-            </div>
-          </div>
-        </blockquote>
-      </div>
-
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium semi-bold">Four amazing services that make <a href="https://twitter.com/unsplash?ref_src=twsrc%5Etfw">@unsplash</a> possible with a small team: <a href="https://twitter.com/heroku?ref_src=twsrc%5Etfw">@heroku</a>, <a href="https://twitter.com/getstream_io?ref_src=twsrc%5Etfw">@getstream_io</a>, <a href="https://twitter.com/imgix?ref_src=twsrc%5Etfw">@imgix</a>, &amp; <a href="https://twitter.com/getvero?ref_src=twsrc%5Etfw">@getvero</a>.</p>
-
-          <div class="customer-footer">
-            <div class="customer-avatar">
-              <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Luke Chesser</h2>
-              <p class="customer-quote-title small">Cofounder at <span class="semi-bold">Unsplash</span></p>
-            </div>
-          </div>
-        </blockquote>
-      </div>
-
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium semi-bold">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
-
-          <div class="customer-footer">
-            <div class="customer-avatar">
-              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-              <p class="customer-quote-title small">Head of CRM at <span class="semi-bold">Helloprint</span></p>
-            </div>
-          </div>
-        </blockquote>
-      </div>
-    </section>
-  </div>
-
-  <div class="full-width bg-gray-lighter">
-    <div class="inner large-inner">
-      <ul class="unstyled-list logos-list">
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
-        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
-      </ul>
-    </div>
+    <ul class="unstyled-list logos-list">
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
+      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
+    </ul>
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
@@ -132,7 +76,66 @@
       </ul>
     </div>
     <div class="clearfix"></div>
+
     <p class="medium top-margin-medium"><a href="/features/email">See what Vero can do</a></p>
+
+    <div class="inner large-inner">
+      <h5 class="section-label center-text">What people have said about Vero</h5>
+
+      <div class="customer-quotes">
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium">&ldquo;Heck! Vero's support is exceptional!</p>
+
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Nathan Field</h2>
+                <p class="customer-quote-title small"> Head of Marketing at <span class="semi-bold">Drawboard</span></p>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Luke Chesser</h2>
+                <p class="customer-quote-title small">Cofounder at <span class="semi-bold">Unsplash</span></p>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+
+        <div class="customer-quote">
+          <blockquote>
+            <p class="medium">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+
+            <div class="customer-footer">
+              <div class="customer-avatar">
+                <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+              </div>
+
+              <div class="customer-meta">
+                <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
+                <p class="customer-quote-title small">Head of CRM at <span class="semi-bold">Helloprint</span></p>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 <section id="benefits">
