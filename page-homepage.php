@@ -87,13 +87,13 @@
   <div class="full-width bg-gray-lighter">
     <div class="inner large-inner">
       <ul class="unstyled-list logos-list">
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
-        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
       </ul>
     </div>
   </div>
