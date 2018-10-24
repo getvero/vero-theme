@@ -33,33 +33,16 @@
       <h5 class="section-label center-text">What people have said about Vero</h5>
       <div class="customer-quote">
         <blockquote>
-          <p class="medium semi-bold">Heck! Vero's support is exceptional!</p>
+          <p class="medium semi-bold">Heck! Vero's support is exceptional! 👏 👏🏿</p>
 
           <div class="customer-footer">
             <div class="customer-avatar">
-              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Luke Chesser">
+              <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
             </div>
 
             <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-              <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Drawboard</span></p>
-            </div>
-          </div>
-        </blockquote>
-      </div>
-
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium semi-bold">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
-
-          <div class="customer-footer">
-            <div class="customer-avatar">
-              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Luke Chesser">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Julien Catan (@lukechesser)</h2>
-              <p class="customer-quote-title small">Head of CRM <span class="semi-bold">Helloprint</span></p>
+              <h2 class="customer-quote-name small semi-bold">Nathan Field</h2>
+              <p class="customer-quote-title small"> Head of Marketing at <span class="semi-bold">Drawboard</span></p>
             </div>
           </div>
         </blockquote>
@@ -75,8 +58,25 @@
             </div>
 
             <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Luke Chesser (@lukechesser)</h2>
-              <p class="customer-quote-title small">Cofounder <span class="semi-bold">Unsplash</span></p>
+              <h2 class="customer-quote-name small semi-bold">Luke Chesser</h2>
+              <p class="customer-quote-title small">Cofounder at <span class="semi-bold">Unsplash</span></p>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+
+      <div class="customer-quote">
+        <blockquote>
+          <p class="medium semi-bold">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+
+          <div class="customer-footer">
+            <div class="customer-avatar">
+              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+            </div>
+
+            <div class="customer-meta">
+              <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
+              <p class="customer-quote-title small">Head of CRM at <span class="semi-bold">Helloprint</span></p>
             </div>
           </div>
         </blockquote>
