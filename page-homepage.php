@@ -84,13 +84,14 @@
         </div>
       </section>
 
-      <ul class="unstyled-list inline-list center-text">
-        <li class="logo freelancer"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer@2x.png 2x" alt="Freelancer" height="76"></li>
-        <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal@2x.png 2x" alt="Tidal" height="76"></li>
-        <li class="logo alexa"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive@2x.png 2x" alt="Pipedrive" height="76"></li>
-        <li class="logo aboutme"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme@2x.png 2x" alt="about.me" height="76"></li>
-        <li class="logo oneill"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-strikingly@2x.png 2x" alt="Strikingly" height="76"></li>
-        <li class="logo sphero"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/logos/v4/home-sphero@2x.png 2x" alt="Sphero" height="76"></li>
+      <ul class="unstyled-list logos-list">
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
+        <li class="logos-list-item"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
       </ul>
     </div>
   </div>
@@ -169,17 +170,6 @@
       <p class="block-desc">Reliable and built on top of your event stream, Vero gets out of your way and gives you the power to create best-in-class product interactions like the hundreds of other businesses serving over <strong>500m</strong> customers on the Vero platform. Libraries in Ruby, Python and more.</p>
       <a href="https://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
     </div>
-  </div>
-</section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
-    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
 <?php
