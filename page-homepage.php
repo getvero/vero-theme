@@ -78,7 +78,7 @@
     </div>
     <div class="clearfix"></div>
 
-    <p class="medium top-margin-medium"><a href="/features/email">See what Vero can do</a></p>
+    <a class="display-block medium top-margin-medium" href="/features/email">See what Vero can do</a>
   </div>
 </section>
 <section class="bg-gray-lighter">
@@ -96,7 +96,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at <strong>Drawboard</strong></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at Drawboard</p>
           </div>
         </div>
       </blockquote>
@@ -111,7 +111,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at <strong>Unsplash</strong></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at Unsplash</p>
           </div>
         </div>
       </blockquote>
@@ -126,7 +126,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at <strong>Helloprint</strong></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at Helloprint</p>
           </div>
         </div>
       </blockquote>
