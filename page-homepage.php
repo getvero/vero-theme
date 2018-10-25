@@ -27,22 +27,20 @@
     </div>
   </div>
 </section>
-<section id="logos" class="logos border-bottom">
+<section id="logos" class="logos border-bottom center-text">
   <div class="inner large-inner">
-    <h5 class="section-label center-text bottom-margin-small">Used to build best-in-class customer experiences</h5>
+    <h5 class="section-label bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
-    <div class="logos-hover">
-      <a class="btn btn-primary" data-scroll href="#customers">See what our customers say</a>
+    <ul class="unstyled-list logos-list">
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="https://unsplash.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://tidal.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://monzo.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://pipedrive.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://about.me"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://helloprint.co.uk"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></a></li>
+    </ul>
 
-      <ul class="unstyled-list logos-list">
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="Unsplash" height="76"></li>
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
-        <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></li>
-      </ul>
-    </div>
+    <a class="display-block medium top-margin-medium" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
@@ -98,7 +96,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at <a class="semi-bold" href="https://www.drawboard.com" target="_blank">Drawboard</a></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at <strong>Drawboard</strong></p>
           </div>
         </div>
       </blockquote>
@@ -113,7 +111,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at <a class="semi-bold" href="http://unsplash.com">Unsplash</a></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at <strong>Unsplash</strong></p>
           </div>
         </div>
       </blockquote>
@@ -128,7 +126,7 @@
 
           <div class="customer-meta">
             <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at <a class="semi-bold" href="https://www.helloprint.co.uk">Helloprint</a></p>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at <strong>Helloprint</strong></p>
           </div>
         </div>
       </blockquote>
