@@ -29,17 +29,23 @@
 </section>
 <section id="logos" class="logos border-bottom">
   <div class="inner large-inner">
-    <h5 class="section-label center-text no-bottom-margin">Used to build best-in-class customer experiences</h5>
+    <h5 class="section-label center-text bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
-    <ul class="unstyled-list logos-list">
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="unsplash" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
-      <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Strikingly" height="76"></li>
-    </ul>
+    <div class="logos-hover">
+      <div class="logos-cta">
+        <a class="btn btn-primary" href="#customers">See what our customers say</a>
+      </div>
+
+      <ul class="unstyled-list logos-list">
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="Unsplash" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-freelancer.svg"  alt="Freelancer" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></li>
+        <li class="logos-list-item center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></li>
+      </ul>
+    </div>
   </div>
 </section>
 <section id="features-summary" class="border-bottom">
@@ -80,7 +86,7 @@
     <p class="medium top-margin-medium"><a href="/features/email">See what Vero can do</a></p>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" id="customers">
   <div class="inner large-inner center-text">
     <h5 class="section-label">What people have said about Vero</h5>
 
