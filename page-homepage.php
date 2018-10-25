@@ -87,7 +87,7 @@
     <div class="customer-quotes">
       <div class="customer-quote">
         <blockquote>
-          <p class="medium">&ldquo;Heck! Vero's support is exceptional!</p>
+          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Heck! Vero's support is exceptional!</p>
 
           <div class="customer-footer">
             <div class="customer-avatar bottom-margin-tiny">
@@ -96,7 +96,7 @@
 
             <div class="customer-meta">
               <h2 class="customer-quote-name small semi-bold">Nathan Field</h2>
-              <p class="customer-quote-title small"> Head of Marketing at <span class="semi-bold">Drawboard</span></p>
+              <p class="customer-quote-title small"> Head of Marketing at <a class="semi-bold" href="https://www.drawboard.com">Drawboard</a></p>
             </div>
           </div>
         </blockquote>
@@ -104,7 +104,7 @@
 
       <div class="customer-quote">
         <blockquote>
-          <p class="medium">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
           <div class="customer-footer">
             <div class="customer-avatar bottom-margin-tiny">
@@ -113,7 +113,7 @@
 
             <div class="customer-meta">
               <h2 class="customer-quote-name small semi-bold">Luke Chesser</h2>
-              <p class="customer-quote-title small">Cofounder at <span class="semi-bold">Unsplash</span></p>
+              <p class="customer-quote-title small">Cofounder at <a class="semi-bold" href="http://unsplash.com">Unsplash</a></p>
             </div>
           </div>
         </blockquote>
@@ -121,7 +121,7 @@
 
       <div class="customer-quote">
         <blockquote>
-          <p class="medium">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="customer-footer">
             <div class="customer-avatar bottom-margin-tiny">
@@ -130,7 +130,7 @@
 
             <div class="customer-meta">
               <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-              <p class="customer-quote-title small">Head of CRM at <span class="semi-bold">Helloprint</span></p>
+              <p class="customer-quote-title small">Head of CRM at <a class="semi-bold" href="https://www.helloprint.co.uk">Helloprint</a></p>
             </div>
           </div>
         </blockquote>
