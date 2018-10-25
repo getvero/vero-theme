@@ -32,7 +32,7 @@
     <h5 class="section-label center-text bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
     <div class="logos-hover">
-      <a class="btn btn-primary" href="#customers">See what our customers say</a>
+      <a class="btn btn-primary" data-scroll href="#customers">See what our customers say</a>
 
       <ul class="unstyled-list logos-list">
         <li class="logos-list-item no-top-margin no-bottom-margin center-text"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg"  alt="Unsplash" height="76"></li>
