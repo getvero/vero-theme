@@ -86,9 +86,9 @@
     <p class="medium top-margin-medium"><a href="/features/email">See what Vero can do</a></p>
   </div>
 </section>
-<section class="bg-gray-lighter" id="customers">
+<section class="bg-gray-lighter">
   <div class="inner large-inner center-text">
-    <h5 class="section-label">What people have said about Vero</h5>
+    <h5 class="section-label jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="customer-quotes">
       <blockquote class="customer-quote relative">
