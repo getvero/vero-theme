@@ -91,56 +91,51 @@
     <h5 class="section-label">What people have said about Vero</h5>
 
     <div class="customer-quotes">
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Heck! Vero's support is exceptional!</p>
+      <blockquote class="customer-quote relative">
+        <p class="medium no-top-margin bottom-margin-small">Heck! Vero's support is exceptional!</p>
 
-          <div class="customer-footer">
-            <div class="customer-avatar bottom-margin-tiny">
-              <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
-              <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at <a class="semi-bold" href="https://www.drawboard.com" target="_blank">Drawboard</a></p>
-            </div>
+        <div class="customer-footer">
+          <div class="customer-avatar bottom-margin-tiny">
+            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
           </div>
-        </blockquote>
-      </div>
 
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
-
-          <div class="customer-footer">
-            <div class="customer-avatar bottom-margin-tiny">
-              <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
-              <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at <a class="semi-bold" href="http://unsplash.com">Unsplash</a></p>
-            </div>
+          <div class="customer-meta">
+            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at <a class="semi-bold" href="https://www.drawboard.com" target="_blank">Drawboard</a></p>
           </div>
-        </blockquote>
-      </div>
+        </div>
+      </blockquote>
 
-      <div class="customer-quote">
-        <blockquote>
-          <p class="medium"><span class="customer-quotation-mark large">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+      <blockquote class="customer-quote relative">
+        <p class="medium no-top-margin bottom-margin-small">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
-          <div class="customer-footer">
-            <div class="customer-avatar bottom-margin-tiny">
-              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
-            </div>
-
-            <div class="customer-meta">
-              <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
-              <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at <a class="semi-bold" href="https://www.helloprint.co.uk">Helloprint</a></p>
-            </div>
+        <div class="customer-footer">
+          <div class="customer-avatar bottom-margin-tiny">
+            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
           </div>
-        </blockquote>
-      </div>
+
+          <div class="customer-meta">
+            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at <a class="semi-bold" href="http://unsplash.com">Unsplash</a></p>
+          </div>
+        </div>
+      </blockquote>
+
+      <blockquote class="customer-quote relative">
+        <p class="medium no-top-margin bottom-margin-small">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+
+        <div class="customer-footer">
+          <div class="customer-avatar bottom-margin-tiny">
+            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+          </div>
+
+          <div class="customer-meta">
+            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
+            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at <a class="semi-bold" href="https://www.helloprint.co.uk">Helloprint</a></p>
+          </div>
+        </div>
+      </blockquote>
+
     </div>
   </div>
 </section>
