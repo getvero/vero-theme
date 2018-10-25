@@ -95,8 +95,7 @@
             </div>
 
             <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Nathan Field</h2>
-              https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw
+              <h2 class="customer-quote-name small semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
               <p class="customer-quote-title small"> Head of Marketing at <a class="semi-bold" href="https://www.drawboard.com" target="_blank">Drawboard</a></p>
             </div>
           </div>
@@ -113,8 +112,7 @@
             </div>
 
             <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Luke Chesser</h2>
-              https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw
+              <h2 class="customer-quote-name small semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
               <p class="customer-quote-title small">Cofounder at <a class="semi-bold" href="http://unsplash.com">Unsplash</a></p>
             </div>
           </div>
@@ -131,8 +129,7 @@
             </div>
 
             <div class="customer-meta">
-              <h2 class="customer-quote-name small semi-bold">Julien Catan</h2>
-              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/
+              <h2 class="customer-quote-name small semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
               <p class="customer-quote-title small">Head of CRM at <a class="semi-bold" href="https://www.helloprint.co.uk">Helloprint</a></p>
             </div>
           </div>
