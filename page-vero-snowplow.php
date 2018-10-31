@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="vero-segment-heading">
+<section id="vero-integration-heading">
   <div class="inner small-inner center-text bottom-padding-large">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Snowplow Integration</p>
     <div class="integration-logos bottom-margin-large">
@@ -19,8 +19,8 @@
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg">
       </div>
-      <div class="right logo-container segment">
-        <img src="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo@2x.png 2x" class="">
+      <div class="right logo-container snowplow">
+        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo@2x.png 2x" class="">
       </div>
     </div>
     <p class="no-top-margin no-bottom-margin large">Sync real-time email and push interaction data (deliveries, opens, clicks and unsubscribes) with the rest of your customer data, using <strong>Snowplow</strong>. With all your data in one place, you can ask any question of your data using your preferred analytics tool.</p>

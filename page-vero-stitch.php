@@ -1,15 +1,15 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'integration-page stitch-integration';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
-<section id="vero-stitch-heading">
+<section id="vero-integration-heading">
   <div class="inner small-inner center-text bottom-padding-large">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Stitch Integration</p>
     <div class="integration-logos bottom-margin-large">
@@ -58,7 +58,7 @@
     <div class="left">
       <h2 class="tubs regular no-bottom-margin">Data Warehousing</h2>
       <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
-      Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns. 
+      Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
       </p>
     </div>
     <div class="right">
@@ -84,7 +84,7 @@
     <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>
