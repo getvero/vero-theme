@@ -35,7 +35,7 @@
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg">
         <div class="right">
           <p class="medium regular no-top-margin">Build custom reports</p>
-          <p class="light">Send data via Snowplow to your data warehouse and create custom reports with popular charting and BI tools like Mode Analytics, Looker and Periscope Data.</p>
+          <p class="light">Send data via Snowplow to your data warehouse and create custom reports with popular charting and BI tools like <a href="https://modeanalytics.com">Mode Analytics</a>, <a href="https://looker.com">Looker</a> and <a href="https://www.periscopedata.com">Periscope Data</a>.</p>
         </div>
       </li>
       <li>
@@ -99,8 +99,9 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title bottom-margin-medium">Start a free trial of Vero and connect your data with Segment</h1>
-    <a class="btn btn-success" type="submit" value="Create your account">Get started</a>
+    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <p class="sub-heading">Create a Vero account and connect to Snowplow in minutes</p>
+    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <?php
