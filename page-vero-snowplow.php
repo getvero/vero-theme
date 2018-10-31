@@ -23,19 +23,42 @@
         <img src="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo@2x.png 2x" class="">
       </div>
     </div>
-    <p class="no-top-margin no-bottom-margin large">Send all the email-related events generated in Vero to your data warehouse, alongside your data from other sources such as Zendesk and Stripe.</p>
+    <p class="no-top-margin no-bottom-margin large">Sync real-time email and push interaction data (deliveries, opens, clicks and unsubscribes) with the rest of your customer data, using <strong>Snowplow</strong>. With all your data in one place, you can ask any question of your data using your preferred analytics tool.</p>
     <a href="http://app.getvero.com" class="btn btn-primary btn-large top-margin-large btn-wide">Try Vero</a>
-    <div class="learn-more"><p>Learn More</p><img src="/wp-content/themes/vero/assets/images/integrations/learn-more-carat.svg"></div>
   </div>
 </section>
 <section id="features-more" class="border-bottom">
   <div class="inner medium-inner top-padding-medium">
-    <h2 class="center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
+    <h2 class="center-text bottom-margin-large">Connect Vero and Snowplow to make smarter decisions, faster</h2>
     <ul class="feature-list left-align unstyled-list halfs">
-      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg"><div class="right"><p class="medium regular no-top-margin">Access to 200+ data sources</p><p class="light">Capture data from 200+ sources, using Segment and it will translate and load your real-time data to Vero and automatically trigger personalized emails.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/customer-data.svg"><div class="right"><p class="medium regular no-top-margin">Automatically ingest customer data</p><p class="light">When you use Segment to connect to Vero, all your customer data from identify and track calls will show up in Vero automatically, and with no additional coding required from you.</p></div></li>
-      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sdks.svg"><div class="right"><p class="medium regular no-top-margin">Segment SDKs</p><p class="light">With Segment’s wide range of libraries and mobile SDKs you can get data into Vero quickly from all the places your customers interact with your product.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg"><div class="right"><p class="medium regular no-top-margin">Event Management</p><p class="light">Complete visibility of the events and properties being tracked in Vero, including when each event was last tracked, which customers triggered an event and the campaigns that triggered.</p></div></li>
+      <li>
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg">
+        <div class="right">
+          <p class="medium regular no-top-margin">Build custom reports</p>
+          <p class="light">Send data via Snowplow to your data warehouse and create custom reports with popular charting and BI tools like Mode Analytics, Looker and Periscope Data.</p>
+        </div>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/integrations/segment/customer-data.svg">
+        <div class="right">
+          <p class="medium regular no-top-margin">Gain better insights</p>
+          <p class="light">Vero's <a href="https://www.getvero.com/reporting/">campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together.</p>
+        </div>
+      </li>
+      <li>
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sdks.svg">
+          <div class="right">
+            <p class="medium regular no-top-margin">Move faster</p>
+            <p class="light">Writing middleware to capture webhooks and load data into your warehouse is complex and time-consuming. Snowplow handles the hard work for you.</p>
+          </div>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg">
+        <div class="right">
+          <p class="medium regular no-top-margin">Backup important data</p>
+          <p class="light">By warehousing the email interactions that originate in Vero you can backup and store a record of important customer interactions and insights.</p>
+        </div>
+      </li>
     </ul>
   </div>
 </section>
@@ -77,11 +100,7 @@
 <section id="call-to-action" class="center-text">
   <div class="inner">
     <h1 class="cta-title bottom-margin-medium">Start a free trial of Vero and connect your data with Segment</h1>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
+    <a class="btn btn-success" type="submit" value="Create your account">Get started</a>
   </div>
 </section>
 <?php
