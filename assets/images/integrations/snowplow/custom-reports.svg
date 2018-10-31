@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="58" viewBox="0 0 56 58">
+  <g fill="none" fill-rule="evenodd" transform="translate(11 8)">
+    <path fill="#6FD350" fill-rule="nonzero" d="M31,4 L32,4 C33.6568542,4 35,5.34314575 35,7 L35,39 C35,40.6568542 33.6568542,42 32,42 L9,42 C7.34314575,42 6,40.6568542 6,39 L28,39 C29.6568542,39 31,37.6568542 31,36 L31,4 Z" opacity=".4"/>
+    <path fill="#6FD350" fill-rule="nonzero" d="M3,0 L26,0 C27.6568542,-3.04359188e-16 29,1.34314575 29,3 L29,34 C29,35.6568542 27.6568542,37 26,37 L3,37 C1.34314575,37 2.02906125e-16,35.6568542 0,34 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z M3,2 C2.44771525,2 2,2.44771525 2,3 L2,34 C2,34.5522847 2.44771525,35 3,35 L26,35 C26.5522847,35 27,34.5522847 27,34 L27,3 C27,2.44771525 26.5522847,2 26,2 L3,2 Z"/>
+    <path stroke="#6FD350" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18.5L23 18.5M6 23.5L23 23.5M6 28.5L23 28.5" opacity=".4"/>
+    <polyline stroke="#6FD350" stroke-linecap="round" stroke-linejoin="round" points="6.5 12 11.5 8 17 12 22 8" opacity=".4"/>
+    <circle cx="17" cy="12" r="2" fill="#6FD350" stroke="#FFF"/>
+    <circle cx="22" cy="8" r="2" fill="#6FD350" stroke="#FFF"/>
+    <circle cx="11.5" cy="8" r="2" fill="#6FD350" stroke="#FFF"/>
+    <circle cx="6.5" cy="12" r="2" fill="#6FD350" stroke="#FFF"/>
+  </g>
+</svg>
