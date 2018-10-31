@@ -29,8 +29,22 @@
 </section>
 <section class="double-padding dark-box-flat">
   <div class="inner small-inner center-text">
-    <h1 class="bottom-margin-small">Access the insights important to your business</h1>
+    <h1 class="bottom-margin-small">How the Snowplow inegrations works</h1>
     <p class="no-top-margin to-bottom-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
+  </div>
+</section>
+<section id="vero-segment-info">
+  <div class="inner large-inner flush-bottom">
+    <div class="integration-platform-info segment">
+      <div class="left">
+        <p class="medium regular no-top-margin">What is Snowplow?</h2>
+        <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and unifies that data into a single data stream. You can use Snowplow to drive data-differentiated product features or loads your data into Amazon Redshift or Snowflake data warehouses. </p>
+      </div>
+      <div class="right">
+        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
+      </div>
+    </div>
   </div>
 </section>
 <section id="features-more" class="border-bottom">
@@ -68,38 +82,22 @@
     </ul>
   </div>
 </section>
-<section id="vero-integration-quote" class="feature-section border-bottom">
-  <div class="inner small-inner center-text">
-    <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
-      <h1 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h1>
-      <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
-    </div>
-  </div>
-</section>
 <section id="vero-segment-test-event" class="feature-section border-bottom">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
-      <h2 class="tubs regular no-bottom-margin">Data Warehousing</h2>
-      <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
-      Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
-      </p>
+      <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
+      <p class="medium top-margin-medium no-bottom-margin">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right">
       <img src="/wp-content/themes/vero/assets/images/integrations/segment/data-warehouse.svg" class="pull-right responsive-image hide-on-medium">
     </div>
   </div>
 </section>
-<section id="vero-segment-info" class="">
-  <div class="inner large-inner top-padding-small bottom-padding-large">
-    <div class="integration-platform-info segment">
-      <div class="left">
-        <p class="medium regular no-top-margin">What is Snowplow?</h2>
-        <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and unifies that data into a single data stream. You can use Snowplow to drive data-differentiated product features or loads your data into Amazon Redshift or Snowflake data warehouses. </p>
-      </div>
-      <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
-      </div>
+<section id="vero-integration-quote" class="feature-section">
+  <div class="inner small-inner center-text">
+    <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
+      <h1 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h1>
+      <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
     </div>
   </div>
 </section>
