@@ -31,7 +31,6 @@
 <section class="double-padding dark-box-flat">
   <div class="inner small-inner center-text">
     <h2 class="h1 bottom-margin-small">How the Snowplow integrations works</h2>
-    <p class="no-top-margin to-bottom-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
   </div>
 </section>
 <section class="integration-overlap">
