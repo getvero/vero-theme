@@ -11,8 +11,8 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text">
-    <p class="semi-bold smallish font-brand-primary no-top-margin">Integrations</p>
-    <h1 class="biggie bottom-margin-large">Connect Vero and Snowplow</h1>
+    <p class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-tiny">Integrations</p>
+    <h1 class="semi-bold bottom-margin-large">Connect Vero and Snowplow</h1>
     <div class="integration-logos bottom-margin-large">
       <div class="left logo-container vero">
         <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x" class="">
@@ -50,7 +50,7 @@
 </section>
 <section id="features-more" class="border-bottom">
   <div class="inner medium-inner top-padding-huge">
-    <h2 class="center-text bottom-margin-large">Connect Vero and Snowplow to make smarter decisions, faster</h2>
+    <h2 class="tubs center-text bottom-margin-large">Connect Vero and Snowplow to make smarter decisions, faster</h2>
     <ul class="feature-list left-align unstyled-list halfs">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/snowplow/custom-reports.svg">
