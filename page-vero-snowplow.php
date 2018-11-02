@@ -28,9 +28,12 @@
     <a href="http://app.getvero.com" class="btn btn-success btn-large top-margin-large btn-wide">Try Vero</a>
   </div>
 </section>
-<section class="double-padding dark-box-flat">
-  <div class="inner small-inner center-text">
+<section class="double-padding gray-section">
+  <div class="inner small-inner center-text flush-bottom">
     <h2 class="h1 bottom-margin-small">How the Snowplow integrations works</h2>
+  </div>
+  <div class="inner small-inner flush-top">
+    <img class="responsive-image top-margin-medium bottom-margin-large" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section class="integration-overlap">
@@ -83,13 +86,13 @@
   </div>
 </section>
 <section id="vero-segment-test-event" class="feature-section border-bottom">
-  <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
+  <div class="inner halfs large-inner small-reverse">
     <div class="left">
       <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
       <p class="medium top-margin-medium no-bottom-margin">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right">
-      <img src="/wp-content/themes/vero/assets/images/integrations/segment/data-warehouse.svg" class="pull-right responsive-image hide-on-medium">
+      <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" class="pull-right responsive-image hide-on-medium">
     </div>
   </div>
 </section>
