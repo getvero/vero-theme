@@ -30,8 +30,9 @@ function custom_footer_html() {
     <li><a href="/fusion">Fusion</a></li>
     <li><a href="/multi-language-campaigns">Multi-language</a></li>
     <li><a href="/reporting">Reporting</a></li>
-    <li><a href="/integrations/vero-segment">Vero + Segment</a></li>
-    <li><a href="/integrations/vero-stitch">Vero + Stitch</a></li>
+    <li><a href="/integrations/vero-segment">Vero &plus; Segment</a></li>
+    <li><a href="/integrations/vero-stitch">Vero &plus; Stitch</a></li>
+    <li><a href="/integrations/vero-snowplow">Vero &plus; Snowplow</a></li>
     <li><a href="/pricing">Pricing</a></li>
   </ul>
   <ul class="col">

@@ -36,7 +36,7 @@
     <img class="responsive-image bottom-margin-large" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
-<section class="integration-overlap">
+<section>
   <div class="inner large-inner flush-top flush-bottom">
     <div class="integration-platform-info">
       <div class="left">
