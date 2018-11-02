@@ -32,7 +32,7 @@
   <div class="inner large-inner top-padding-small bottom-padding-large">
     <div class="integration-platform-info segment">
       <div class="left">
-        <p class="medium regular no-top-margin">What is Segment?</h2>
+        <h2 class="medium regular bottom-margin-tiny">What is Segment?</h2>
         <p class="medium no-bottom-margin">Segment is a customer data platform that connects over 200 sources and destinations to empower your team to use their favorite tools to personalize campaigns, analyze product usage, and more.</p>
       </div>
       <div class="right">
@@ -44,13 +44,37 @@
 </section>
 <section id="features-more" class="border-bottom">
   <div class="inner medium-inner top-padding-medium">
-    <h2 class="center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
+    <h2 class="tubs center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list left-align unstyled-list halfs">
-      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg"><div class="right"><p class="medium regular no-top-margin">Access to 200+ data sources</p><p class="light">Capture data from 200+ sources, using Segment and it will translate and load your real-time data to Vero and automatically trigger personalized emails.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/customer-data.svg"><div class="right"><p class="medium regular no-top-margin">Automatically ingest customer data</p><p class="light">When you use Segment to connect to Vero, all your customer data from identify and track calls will show up in Vero automatically, and with no additional coding required from you.
-</p></div></li>
-      <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sdks.svg"><div class="right"><p class="medium regular no-top-margin">Segment SDKs</p><p class="light">With Segment’s wide range of libraries and mobile SDKs you can get data into Vero quickly from all the places your customers interact with your product.</p></div></li>
-      <li><img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg"><div class="right"><p class="medium regular no-top-margin">Event Management</p><p class="light">Complete visibility of the events and properties being tracked in Vero, including when each event was last tracked, which customers triggered an event and the campaigns that triggered.</p></div></li>
+      <li>
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg">
+          <div class="right">
+            <h3 class="medium regular">Access to 200+ data sources</h3>
+            <p class="light">Capture data from 200+ sources, using Segment and it will translate and load your real-time data to Vero and automatically trigger personalized emails.</p>
+          </div>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/integrations/segment/customer-data.svg">
+          <div class="right">
+            <h3 class="medium regular">Automatically ingest customer data</h3>
+            <p class="light">When you use Segment to connect to Vero, all your customer data from identify and track calls will show up in Vero automatically, and with no additional coding required from you.
+          </p>
+          </div>
+      </li>
+      <li>
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sdks.svg">
+        <div class="right">
+          <h3 class="medium regular">Segment SDKs</h3>
+          <p class="light">With Segment’s wide range of libraries and mobile SDKs you can get data into Vero quickly from all the places your customers interact with your product.</p>
+        </div>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg">
+        <div class="right">
+          <h3 class="medium regular">Event Management</h3>
+          <p class="light">Complete visibility of the events and properties being tracked in Vero, including when each event was last tracked, which customers triggered an event and the campaigns that triggered.</p>
+        </div>
+      </li>
     </ul>
   </div>
 </section>
@@ -77,12 +101,9 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title bottom-margin-medium">Start a free trial of Vero and connect your data with Segment</h1>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
+    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <p class="sub-heading">Create a Vero account and connect to Segment in minutes</p>
+    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <?php

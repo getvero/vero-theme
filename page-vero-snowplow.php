@@ -40,7 +40,7 @@
   <div class="inner large-inner flush-top flush-bottom">
     <div class="integration-platform-info">
       <div class="left">
-        <h2 class="medium regular no-top-margin bottom-margin-tiny">What is Snowplow?</h2>
+        <h2 class="medium regular bottom-margin-tiny">What is Snowplow?</h2>
         <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and unifies that data into a single data stream. You can use Snowplow to drive data-differentiated product features or loads your data into Amazon Redshift or Snowflake data warehouses. </p>
       </div>
       <div class="right">
