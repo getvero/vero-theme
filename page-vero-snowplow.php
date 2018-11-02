@@ -30,10 +30,10 @@
 </section>
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text flush-bottom">
-    <h2 class="h1 bottom-margin-small">How the Snowplow integrations works</h2>
+    <h2 class="h1 bottom-margin-large">How the Snowplow integrations works</h2>
   </div>
   <div class="inner small-inner flush-top">
-    <img class="responsive-image top-margin-medium bottom-margin-large" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
+    <img class="responsive-image bottom-margin-large" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section class="integration-overlap">
