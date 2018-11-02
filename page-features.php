@@ -110,8 +110,8 @@
     <p class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</p>
     <div class="clearfix">
       <div class="left primary">
-        <img class="pull-right no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
-        <img class="pull-right no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+        <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+        <img class="no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
         <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
           <li class="active top-margin-small">
             <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
@@ -144,7 +144,10 @@
     </div>
     <div class="outlined-box top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block right-margin-medium">
-      <div class="inline-block"><p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p><p class="light">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p></div>
+      <div class="inline-block">
+        <p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p>
+        <p class="light no-bottom-margin">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p>
+      </div>
     </div>
   </div>
 </section>
@@ -191,7 +194,7 @@
     </div>
   </div>
 </section>
-<section id="features-more" class="double-padding border-bottom">
+<section id="features-more" class="double-padding">
   <div class="inner large-inner">
     <h2 class="semi-bold center-text bottom-margin-medium no-top-margin">Here's a complete list of our most popular features</h2>
     <ul class="feature-list unstyled-list thirds center-text">
