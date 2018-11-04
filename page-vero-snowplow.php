@@ -28,26 +28,12 @@
     <a href="http://app.getvero.com" class="btn btn-success btn-large top-margin-large btn-wide">Try Vero</a>
   </div>
 </section>
-<section class="double-padding gray-section">
+<section class="double-padding gray-section bottom-margin-small">
   <div class="inner small-inner center-text flush-bottom">
-    <h2 class="h1 bottom-margin-large">How the Snowplow integrations works</h2>
+    <h2 class="h1 bottom-margin-large">Join up your data and make smarter decisions</h2>
   </div>
   <div class="inner small-inner flush-top">
     <img class="responsive-image bottom-margin-large" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
-  </div>
-</section>
-<section>
-  <div class="inner large-inner flush-top flush-bottom">
-    <div class="integration-platform-info">
-      <div class="left">
-        <h2 class="medium regular bottom-margin-tiny">What is Snowplow?</h2>
-        <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and unifies that data into a single data stream. You can use Snowplow to drive data-differentiated product features or loads your data into Amazon Redshift or Snowflake data warehouses. </p>
-      </div>
-      <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
-      </div>
-    </div>
   </div>
 </section>
 <section id="features-more" class="border-bottom">
@@ -83,6 +69,18 @@
         </div>
       </li>
     </ul>
+  </div>
+  <div class="inner medium-inner flush-top">
+    <div class="integration-platform-info">
+      <div class="left">
+        <h2 class="medium regular bottom-margin-tiny">What is Snowplow?</h2>
+        <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and unifies that data into a single data stream. You can use Snowplow to drive data-differentiated product features or loads your data into Amazon Redshift or Snowflake data warehouses. </p>
+      </div>
+      <div class="right">
+        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
+      </div>
+    </div>
   </div>
 </section>
 <section id="vero-segment-test-event" class="feature-section border-bottom">
