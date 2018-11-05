@@ -14,13 +14,13 @@
     <p class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</p>
 
     <div class="integration-logos bottom-margin-large">
-      <a class="left logo-container vero" href="https://www.getvero.com/integrations/vero-segment/">
+      <a class="logo-container vero" href="https://www.getvero.com/">
        <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x"></a>
       </>
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg">
       </div>
-      <a class="right logo-container snowplow" href="https://snowplowanalytics.com/products/">
+      <a class="logo-container snowplow" href="https://snowplowanalytics.com/products/">
         <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo@2x.png 2x">
       </a>
     </div>
