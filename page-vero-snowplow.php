@@ -26,7 +26,7 @@
     </div>
 
     <h1 class="biggie semi-bold">Connect Vero and Snowplow</h1>
-    <p class="no-top-margin bottom-margin-large large">Sync all your email and push interaction data (including deliveries, opens, clicks and unsubscribes) with the rest of your customer data, using <strong>Snowplow</strong>. With all your data in one place, you can perform any analysis and ask any question of your data, using your preferred analytics tool.</p>
+    <p class="no-top-margin bottom-margin-large large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Snowplow in minutes</p>
     <a href="http://app.getvero.com" class="btn btn-success btn-large btn-wide">Get started</a>
@@ -34,8 +34,8 @@
 </section>
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text">
-    <h2 class="h1 bottom-margin-medium">All your data and insights in one place</h2>
-
+    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
+    <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
