@@ -14,15 +14,15 @@
     <p class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</p>
 
     <div class="integration-logos bottom-margin-large">
-      <div class="left logo-container vero">
-        <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x" class="">
-      </div>
+      <a class="left logo-container vero" href="https://www.getvero.com/integrations/vero-segment/">
+       <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x"></a>
+      </>
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg">
       </div>
-      <div class="right logo-container snowplow">
-        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo@2x.png 2x" class="">
-      </div>
+      <a class="right logo-container snowplow" href="https://snowplowanalytics.com/products/">
+        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo@2x.png 2x">
+      </a>
     </div>
 
     <h1 class="semi-bold bottom-margin-smal">Connect Vero and Snowplow</h1>
@@ -34,7 +34,7 @@
 </section>
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text">
-    <h2 class="h1 bottom-margin-medium">Join up your data and make smarter decisions</h2>
+    <h2 class="h1 bottom-margin-medium">All your data and insights in one place</h2>
 
     <img class="responsive-image" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
@@ -47,8 +47,8 @@
         <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and loads your data into your data warehouse (such as Amazon Redshift or Snowflake).</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://snowplowanalytics.com/" target="_blank">Website</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://snowplowanalytics.com/products/" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>
