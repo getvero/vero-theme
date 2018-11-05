@@ -33,8 +33,8 @@
   </div>
 </section>
 <section class="double-padding gray-section">
-  <div class="inner small-inner bottom-padding-large center-text">
-    <h2 class="h1 bottom-margin-large">Join up your data and make smarter decisions</h2>
+  <div class="inner small-inner center-text">
+    <h2 class="h1 bottom-margin-medium">Join up your data and make smarter decisions</h2>
 
     <img class="responsive-image" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
@@ -88,7 +88,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section border-bottom">
+<section id="vero-segment-test-event" class="feature-section">
   <div class="inner halfs large-inner small-reverse">
     <div class="left">
       <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -96,14 +96,6 @@
     </div>
     <div class="right">
       <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" class="pull-right responsive-image hide-on-medium">
-    </div>
-  </div>
-</section>
-<section id="vero-integration-quote" class="feature-section">
-  <div class="inner small-inner center-text">
-    <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
-      <h1 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h1>
-      <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
     </div>
   </div>
 </section>
