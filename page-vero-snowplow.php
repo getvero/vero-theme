@@ -30,7 +30,7 @@
     <p class="no-top-margin bottom-margin-large large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Snowplow in minutes</p>
-    <a href="http://app.getvero.com" class="btn btn-success btn-large btn-wide">Get started</a>
+    <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
 <section class="double-padding gray-section">

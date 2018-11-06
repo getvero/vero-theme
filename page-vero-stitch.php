@@ -30,7 +30,7 @@
     <p class="no-top-margin bottom-margin-large large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Stitch in minutes</p>
-    <a href="http://app.getvero.com" class="btn btn-success btn-large btn-wide">Get started</a>
+    <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
 <section class="double-padding gray-section">
@@ -92,13 +92,13 @@
 <section id="vero-stitch-test-event" class="feature-section border-bottom">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
-      <h2 class="tubs regular no-bottom-margin">Data Warehousing</h2>
+      <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
       <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
       Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
       </p>
     </div>
     <div class="right">
-      <img src="/wp-content/themes/vero/assets/images/integrations/stitch/data-warehouse.svg" class="pull-right responsive-image hide-on-medium">
+      <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" class="pull-right responsive-image hide-on-medium">
     </div>
   </div>
 </section>
