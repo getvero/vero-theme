@@ -36,7 +36,7 @@
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text">
     <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
-    <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
+    <p class="large no-top-margin bottom-margin-large">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/assets/images/integrations/stitch/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
