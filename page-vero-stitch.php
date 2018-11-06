@@ -35,7 +35,7 @@
 </section>
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text">
-    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
+    <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/assets/images/integrations/stitch/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
@@ -56,7 +56,7 @@
 </section>
 <section id="features-more" class="border-bottom">
   <div class="inner medium-inner">
-    <h2 class="tubs center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
+    <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list halfs">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/stitch/combine.svg">
@@ -92,7 +92,7 @@
 <section id="vero-stitch-test-event" class="feature-section border-bottom">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
-      <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
+      <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
       <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.<br><br>
 
       Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>

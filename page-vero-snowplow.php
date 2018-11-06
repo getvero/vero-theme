@@ -35,7 +35,7 @@
 </section>
 <section class="double-padding gray-section">
   <div class="inner small-inner center-text">
-    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
+    <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
@@ -56,7 +56,7 @@
 </section>
 <section id="features-more" class="border-bottom">
   <div class="inner medium-inner">
-    <h2 class="h1 center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
+    <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list halfs">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/snowplow/custom-reports.svg">
@@ -92,7 +92,7 @@
 <section id="vero-segment-test-event" class="feature-section">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
-      <h2 class="h1 regular bottom-margin-medium">Meaningful and actionable insights</h2>
+      <h2 class="chunk regular bottom-margin-medium">Meaningful and actionable insights</h2>
       <p class="medium no-top-margin bottom-margin-small">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
       <p class="medium no-bottom-margin">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
