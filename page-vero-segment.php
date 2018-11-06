@@ -49,7 +49,7 @@
       </div>
       <div class="right">
         <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/docs/sources/" target="_blank">Documentation</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-segment.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>
@@ -95,7 +95,7 @@
     <div class="left">
       <h2 class="h1 regular no-bottom-margin">Meaningful and actionable insights</h2>
       <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
-      Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
+      Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
       </p>
     </div>
     <div class="right">

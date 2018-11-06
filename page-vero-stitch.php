@@ -49,7 +49,7 @@
       </div>
       <div class="right">
         <p class="pill pill-medium pill-primary"><a href="https://www.stitchdata.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://www.stitchdata.com/integrations/vero/" target="_blank">Documentation</a></p>
+        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>
@@ -93,9 +93,9 @@
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
       <h2 class="tubs regular no-bottom-margin">Meaningful and actionable insights</h2>
-      <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
-      Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
-      </p>
+      <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.<br><br>
+
+      Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right">
       <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" class="pull-right responsive-image hide-on-medium">
