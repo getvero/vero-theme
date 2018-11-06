@@ -11,25 +11,37 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text bottom-padding-large">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Stitch Integration</p>
+    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
+
     <div class="integration-logos bottom-margin-large">
-      <div class="left logo-container vero">
-        <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x" class="">
+      <div class="logo-container vero">
+        <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x">
       </div>
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg">
       </div>
-      <div class="right logo-container stitch">
-        <img src="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo@2x.png 2x" class="">
+      <div class="logo-container stitch">
+        <img src="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/stitch-logo@2x.png 2x">
       </div>
     </div>
-    <p class="no-top-margin no-bottom-margin large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
-    <a href="http://app.getvero.com" class="btn btn-primary btn-large top-margin-large btn-wide">Try Vero</a>
-    <div class="learn-more"><p>Learn More</p><img src="/wp-content/themes/vero/assets/images/integrations/learn-more-carat.svg"></div>
+
+    <h1 class="biggie semi-bold">Connect Vero and Stitch</h1>
+
+    <p class="no-top-margin bottom-margin-large large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
+
+    <p class="no-top-margin faded">Create a Vero account and connect Stitch in minutes</p>
+    <a href="http://app.getvero.com" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
-<section id="vero-stitch-info" class="">
-  <div class="inner large-inner top-padding-small bottom-padding-large">
+<section class="double-padding gray-section">
+  <div class="inner small-inner center-text">
+    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
+    <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
+    <img class="responsive-image" src="/wp-content/assets/images/integrations/stitch/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/stitch/data-pipeline@2x.png" alt="Data Pipeline">
+  </div>
+</section>
+<section id="vero-stitch-info">
+  <div class="inner medium-inner bottom-padding-small">
     <div class="integration-platform-info stitch">
       <div class="left">
         <h2 class="medium regular bottom-margin-tiny">What is Stitch?</h2>
@@ -43,7 +55,7 @@
   </div>
 </section>
 <section id="features-more" class="border-bottom">
-  <div class="inner medium-inner top-padding-medium">
+  <div class="inner medium-inner">
     <h2 class="tubs center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list halfs">
       <li>
@@ -93,7 +105,7 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <div><img src="/wp-content/themes/vero/assets/images/integrations/stitch/quote-vero.jpg" class="quote-image">
-      <h1 class="tubs italic regular">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class”.</h1>
+      <h2 class="tubs italic regular">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class”.</h2>
       <p class="faded large regular">Chris Hexton, CEO Vero</p>
     </div>
   </div>

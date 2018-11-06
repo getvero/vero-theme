@@ -11,25 +11,37 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text bottom-padding-large">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Segment Integration</p>
+    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
+
     <div class="integration-logos bottom-margin-large">
-      <div class="left logo-container vero">
+      <div class="logo-container vero">
         <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x" class="">
       </div>
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg">
       </div>
-      <div class="right logo-container segment">
+      <div class="logo-container segment">
         <img src="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/segment/segment-logo@2x.png 2x" class="">
       </div>
     </div>
-    <p class="no-top-margin no-bottom-margin large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
-    <a href="http://app.getvero.com" class="btn btn-primary btn-large top-margin-large btn-wide">Try Vero</a>
-    <div class="learn-more"><p>Learn More</p><img src="/wp-content/themes/vero/assets/images/integrations/learn-more-carat.svg"></div>
+
+    <h1 class="biggie semi-bold">Connect Vero and Segment</h1>
+
+    <p class="no-top-margin bottom-margin-large large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
+
+    <p class="no-top-margin faded">Create a Vero account and connect Segment in minutes</p>
+    <a href="http://app.getvero.com" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
-<section id="vero-segment-info" class="">
-  <div class="inner large-inner top-padding-small bottom-padding-large">
+<section class="double-padding gray-section">
+  <div class="inner small-inner center-text">
+    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
+    <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
+    <img class="responsive-image" src="/wp-content/assets/images/integrations/segment/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/segment/data-pipeline@2x.png" alt="Data Pipeline">
+  </div>
+</section>
+<section id="vero-segment-info">
+  <div class="inner medium-inner bottom-padding-small">
     <div class="integration-platform-info segment">
       <div class="left">
         <h2 class="medium regular bottom-margin-tiny">What is Segment?</h2>
@@ -43,8 +55,8 @@
   </div>
 </section>
 <section id="features-more" class="border-bottom">
-  <div class="inner medium-inner top-padding-medium">
-    <h2 class="tubs center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
+  <div class="inner medium-inner">
+    <h2 class="h1 center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list left-align unstyled-list halfs">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/segment/sources.svg">
@@ -81,7 +93,7 @@
 <section id="vero-segment-test-event" class="feature-section border-bottom">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
-      <h2 class="tubs regular no-bottom-margin">Data Warehousing</h2>
+      <h2 class="h1 regular no-bottom-margin">Data Warehousing</h2>
       <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery. <br><br>
       Joining up your email data with the rest of your customer data will give you access to meaningful and actionable insights, for example by combining your data from payment apps like Stripe with your email data from Vero you can analyze conversions and revenue from email campaigns.
       </p>
@@ -94,7 +106,7 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
-      <h1 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h1>
+      <h2 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h2>
       <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
     </div>
   </div>

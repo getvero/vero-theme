@@ -11,7 +11,7 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text">
-    <p class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</p>
+    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
 
     <div class="integration-logos bottom-margin-large">
       <a class="logo-container vero" href="https://www.getvero.com/">
@@ -26,6 +26,7 @@
     </div>
 
     <h1 class="biggie semi-bold">Connect Vero and Snowplow</h1>
+
     <p class="no-top-margin bottom-margin-large large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Snowplow in minutes</p>
@@ -89,10 +90,11 @@
   </div>
 </section>
 <section id="vero-segment-test-event" class="feature-section">
-  <div class="inner halfs large-inner small-reverse">
+  <div class="inner halfs medium-inner small-reverse">
     <div class="left">
-      <h2 class="h1 regular no-bottom-margin">Meaningful and actionable insights</h2>
-      <p class="medium top-margin-medium no-bottom-margin">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
+      <h2 class="h1 regular bottom-margin-medium">Meaningful and actionable insights</h2>
+      <p class="medium no-top-margin bottom-margin-small">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
+      <p class="medium no-bottom-margin">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right">
       <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" class="pull-right responsive-image hide-on-medium">
