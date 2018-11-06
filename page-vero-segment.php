@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="vero-integration-heading">
-  <div class="inner small-inner center-text bottom-padding-large">
+  <div class="inner small-inner flush-bottom center-text">
     <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
 
     <div class="integration-logos bottom-margin-large">
@@ -31,13 +31,6 @@
 
     <p class="no-top-margin faded">Create a Vero account and connect Segment in minutes</p>
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
-  </div>
-</section>
-<section class="double-padding gray-section">
-  <div class="inner small-inner center-text">
-    <h2 class="h1 bottom-margin-small">All your data and insights in one place</h2>
-    <p class="large no-top-margin bottom-margin-large">Segment delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
-    <img class="responsive-image" src="/wp-content/assets/images/integrations/segment/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/segment/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section id="vero-segment-info">
