@@ -237,7 +237,7 @@ include 'pages-shared/static-header.php';
 
       <h3>What support does Vero provide?</h3>
       <p>
-        We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week. 
+        We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week.
       </p>
       <p>
         We provide 24 hour support via email. We are proud of our support and our internal SLA is to provide a response to every ticket within three hours. Our aim is to understand and work with you closely on any specific marketing or technical questions or issues and ensure your problems are solved to the best of our abilities.
@@ -251,7 +251,7 @@ include 'pages-shared/static-header.php';
       <p>
         <p>Yes, <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
       </p>
-      
+
       <h3>What are projects?</h3>
       <p>
         Projects are individual instances of Vero. Each project has it's own subscriber database, API keys and campaigns. In other words, it’s like having two or more Vero accounts in one.
@@ -259,7 +259,7 @@ include 'pages-shared/static-header.php';
       <p>
         If you’re an agency, you may also use projects to manage multiple clients.
       </p>
-      
+
       <h3>Does the data I send Vero belong to me?</h3>
       <p>
         Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.
@@ -271,14 +271,10 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="call-to-action" class="center-text">
-  <div class="inner center-text">
+  <div class="inner">
     <h1 class="cta-title">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="small">No credit card required, only pay when you start sending live emails.</p>
+    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <?php
