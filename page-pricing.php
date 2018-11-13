@@ -11,9 +11,11 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section id="pricing-hero" class="hero">
-  <div class="inner large-inner center-text">
-    <h1 class="hero-title">Send one email, or 100 million.</h1>
-    <p class="medium">Vero is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p>
+  <div class="inner small-inner flush-bottom center-text">
+    <h1 class="hulk semi-bold">Get started with Vero</h1>
+    <p class="large no-bottom-margin"><strong>Vero</strong> is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p>
+  </div>
+  <div class="inner large-inner top-padding-medium center-text">
     <!-- <ul class="plan-tabs unstyled-list inline-list">
       <li id="slider-monthly" class="active">Monthly</li>
       <li id="slider-yearly">Annually</li>
@@ -28,7 +30,7 @@ include 'pages-shared/static-header.php';
           <li class="plan starter">
             <p class="regular medium uppercase center-text bottom-margin-tiny">Starter <span class="left-margin-tiny">🆕</span></p>
             <p class="small">&nbsp;</p>
-            <p class="price">$99</p>
+            <p class="semi-bold price">$99</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li>12,500 <span>customers</span></li>
@@ -38,7 +40,7 @@ include 'pages-shared/static-header.php';
           <li class="plan growth">
             <p class="regular medium uppercase center-text bottom-margin-tiny">Growth <span class="left-margin-tiny">🌱</span></p>
             <p class="small">&nbsp;</p>
-            <p class="price">$299</p>
+            <p class="semi-bold price">$299</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li class="most-popular">Most Popular</li>
@@ -49,7 +51,7 @@ include 'pages-shared/static-header.php';
           <li class="plan pro">
             <p class="regular medium uppercase center-text bottom-margin-tiny">Pro <span class="left-margin-tiny">⛳</span></p>
             <p class="small">&nbsp;</p>
-            <p class="price">$549</p>
+            <p class="semi-bold price">$549</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li>175,000 <span>customers</span></li>
@@ -59,7 +61,7 @@ include 'pages-shared/static-header.php';
           <li class="plan scale">
             <p class="regular medium uppercase center-text bottom-margin-tiny">Scale <span class="left-margin-tiny">🚀</span></p>
             <p class="small">&nbsp;</p>
-            <p class="price">$749</p>
+            <p class="semi-bold price">$749</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li>300,000<span>customers</span></li>
@@ -69,22 +71,22 @@ include 'pages-shared/static-header.php';
           <li class="plan scale">
             <p class="regular medium uppercase center-text bottom-margin-tiny">Enterprise <span class="left-margin-tiny">📈</span></p>
             <p class="small">Starts at</p>
-            <p class="price">$1,049</p>
+            <p class="semi-bold price">$1,049</p>
             <p class="price-label small">per month</p>
             <ul class="limits unstyled-list">
               <li>500,000+ <span>customers</span></li>
               <li>1,000,000+ <span>emails/month</span></li>
-              <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Talk to our Success Team</a></li>
+              <li class="demo-link"><a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a></li>
             </ul>
           </li>
         </ul>
         <p>Pay up front and save on email volume with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
         <div class="pricing-cta center-text">
           <a href="https://app.getvero.com/signup" class="btn btn-success btn-large bottom-margin-tiny">Create your trial account</a>
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our success team</a>
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our sales team</a>
           <p></p>
         </div>
-        <p>Have questions? See the list of <a href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
+        <p>Have questions? See the list of <a data-scroll href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
       </li>
       <li>
         <ul id="self-hosted" class="inline-list unstyled-list center-text plans-list">
@@ -110,58 +112,104 @@ include 'pages-shared/static-header.php';
         </ul>
         <p>If you're interested in trialing the self-hosted version of Vero, get in touch. We'll help you get up and running.</p>
         <div class="pricing-cta center-text bottom-padding-tiny">
-          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large display-inline bottom-margin-tiny">Talk to our success team</a>
+          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large display-inline bottom-margin-tiny">Talk to our sales team</a>
         </div>
       </li>
     </ul>
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner">
-    <h2 class="center-text">Included with every plan</h2>
+  <div class="inner large-inner">
+    <h2 class="biggie center-text">Included with every plan</h2>
     <div class="lists-block">
       <div class="list top-margin-small">
-        <p class="regular medium semi-bold">Data capture and storage</p>
-        <ul class="unstyled-list tick-list top-border-light">
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image"><a href="https://developers.getvero.com" target="_blank">Full API libraries</a> to track customer behavior</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Support for Segment.com data tracking</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Create HTML web forms</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Import and export customer data via CSV</li>
+        <h3 class="chunk regular semi-bold">Data capture and storage</h3>
+        <ul class="unstyled-list tick-list">
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image"><a href="https://developers.getvero.com" target="_blank">Full API libraries</a> to track customer behavior
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Support for Segment.com data tracking
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Create HTML web forms
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Import and export customer data via CSV
+          </li>
         </ul>
       </div>
       <div class="list top-margin-small">
-        <p class="regular medium semi-bold">Segmentation</p>
-        <ul class="unstyled-list tick-list top-border-light">
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">A single record per customer. No more static lists</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Store and update customers using a custom, unique ID</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Dynamic segmentation using all historical data and customer activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Full data retention</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Reusable and nested segments</li>
+        <h3 class="chunk regular semi-bold">Segmentation</h3>
+        <ul class="unstyled-list tick-list">
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">A single record per customer. No more static lists
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Store and update customers using a custom, unique ID
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Dynamic segmentation using all historical data and customer activity</li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Full data retention
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Reusable and nested segments
+          </li>
         </ul>
       </div>
       <div class="list top-margin-small">
-        <p class="regular medium semi-bold">Email design and automation</p>
-        <ul class="unstyled-list tick-list top-border-light">
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Newsletter / ad-hoc / one-to-many emails</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Transactional emails</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Triggered / multi-step / drip email streams</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Dynamic filters based on customer data and activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Email personalization using <a href="https://help.getvero.com/articles/inserting-merge-tags-using-liquid-in-my-emails.html" target="_blank">Liquid</a></li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Reusable, point-and-click edit templates</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">A/B testing all campaigns</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Unlimited email aliases / "from addresses"</li>
+        <h3 class="chunk regular semi-bold">Email design and automation</h3>
+        <ul class="unstyled-list tick-list">
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Newsletter / ad-hoc / one-to-many emails
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Transactional emails</li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Triggered / multi-step / drip email streams
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Dynamic filters based on customer data and activity
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Email personalization using <a href="https://help.getvero.com/articles/inserting-merge-tags-using-liquid-in-my-emails.html" target="_blank">Liquid</a>
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Reusable, point-and-click edit templates
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">A/B testing all campaigns
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Unlimited email aliases / "from addresses"
+          </li>
         </ul>
       </div>
       <div class="list top-margin-small">
-        <p class="regular medium semi-bold">Email deployment</p>
-        <ul class="unstyled-list tick-list top-border-light">
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Full open and click tracking</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Email conversion reporting using customer activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Integrations with popular providers Mailgun, Sendgrid, Dyn and Mandrill. (Optional)</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Centralised unsubscribe management</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Reporting dashboards</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Webhooks to dump email interaction activity</li>
-          <li><img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="tick-list-image">Support for Segment.com <em>Sources</em> to dump email interaction activity</li>
+        <h3 class="chunk regular semi-bold">Email deployment</h3>
+        <ul class="unstyled-list tick-list">
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absoluste tick-list-image">Full open and click tracking
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absoluste tick-list-image">Email conversion reporting using customer activity
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Integrations with popular providers Mailgun, Sendgrid, Dyn and Mandrill. (Optional)
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Centralised unsubscribe management
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Reporting dashboards
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Webhooks to dump email interaction activity
+          </li>
+          <li class="relative">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Support for Segment.com <em>Sources</em> to dump email interaction activity
+          </li>
         </ul>
       </div>
     </div>
@@ -238,7 +286,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner halfs">
-    <h2 class="center-text">Frequently Asked Questions</h2>
+    <h2 class="biggie center-text jump-link">Frequently Asked Questions</h2>
     <div class="left">
       <h3>What happens if I go over my subscription limit?</h3>
       <p>
