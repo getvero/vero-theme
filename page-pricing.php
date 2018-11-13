@@ -200,7 +200,41 @@ include 'pages-shared/static-header.php';
     <blockquote class="quote">&ldquo;Vero is an essential tool for us at Sphero. We use Vero for newsletter, behavioral and transaction email campaigns. Our relationship with Vero enables Sphero to communicate in a dynamic and personalized medium.&rdquo;</blockquote>
     <div class="clearfix"></div>
     <p class="large">Paul Rahn, Director of Ecommerce</p>
-    <p>Sphero</p>
+    <p class="bottom-margin-large">Sphero</p>
+
+    <ul class="unstyled-list logos-list">
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="https://unsplash.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://tidal.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://monzo.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://pipedrive.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://about.me">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-aboutme.svg" alt="about.me" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://helloprint.co.uk">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
+        </a>
+      </li>
+    </ul>
+
     <ul class="unstyled-list inline-list pricing-logos center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva@2x.png 2x" height="76">
