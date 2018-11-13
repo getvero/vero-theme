@@ -234,27 +234,6 @@ include 'pages-shared/static-header.php';
         </a>
       </li>
     </ul>
-
-    <ul class="unstyled-list inline-list pricing-logos center-text">
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-canva@2x.png 2x" height="76">
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-freelancer.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-freelancer@2x.png 2x" height="76">
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-strikingly.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-strikingly@2x.png 2x" height="76">
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-sphero@2x.png 2x" height="76">
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-pipedrive.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-pipedrive@2x.png 2x" height="76">
-      </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/home-tidal.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/logos/home-tidal@2x.png 2x" height="76">
-      </li>
-    </ul>
   </div>
 </section>
 <section id="pricing-faq">
