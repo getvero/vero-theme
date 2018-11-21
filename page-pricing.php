@@ -214,7 +214,11 @@ include 'pages-shared/static-header.php';
     <h2 class="biggie regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-medium">
-      <h3 class="js-toggle h2 regular no-bottom-margin question">What happens if I go over my subscription limit?</h3>
+      <div class="js-toggle flexbox question">
+        <h3 class="h2 regular no-bottom-margin">What happens if I go over my subscription limit?</h3>
+
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+      </div>
       <div class="answer">
       <p>Vero will send you an email when you cross the subscriber or email threshold of your current plan during a billing period. You will automatically be upgraded to the appropriate plan.</p>
       <p>As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
@@ -222,7 +226,11 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <h3 class="js-toggle h2 regular no-bottom-margin question">What support does Vero provide?</h3>
+      <div class="js-toggle flexbox question">
+        <h3 class="h2 regular no-bottom-margin">What support does Vero provide?</h3>
+
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+      </div>
       <div class="answer">
         <p>We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week.
         </p>
@@ -233,14 +241,22 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <h3 class="js-toggle h2 regular no-bottom-margin question">Can I pay annually?</h3>
+      <div class="js-toggle flexbox question">
+        <h3 class="h2 regular no-bottom-margin">Can I pay annually?</h3>
+
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+      </div>
       <div class="answer">
       <p>Yes, <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
       </div>
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <h3 class="js-toggle h2 regular no-bottom-margin question">What are projects?</h3>
+      <div class="js-toggle flexbox question">
+        <h3 class="h2 regular no-bottom-margin">What are projects?</h3>
+
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+      </div>
       <div class="answer">
       <p>Projects are individual instances of Vero. Each project has it's own subscriber database, API keys and campaigns. In other words, it’s like having two or more Vero accounts in one.
       </p>
@@ -249,7 +265,11 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <h3 class="js-toggle h2 regular no-bottom-margin question">Does the data I send Vero belong to me?</h3>
+      <div class="js-toggle flexbox question">
+        <h3 class="h2 regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
+
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+      </div>
       <div class="answer">
       <p>Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.</p>
       <p>Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.</p>
