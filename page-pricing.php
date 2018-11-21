@@ -130,8 +130,8 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-included">
   <div class="inner medium-inner">
-    <h2 class="chunk bottom-margin-medium center-text">Included with every plan</h2>
-    <div class="lists-block">
+    <!-- <h2 class="chunk bottom-margin-medium center-text">Included with every plan</h2>
+    <div class="lists-block bottom-margin-large">
       <div class="list top-margin-small">
         <h3 class="bottom-margin-small">Data capture and storage</h3>
         <ul class="unstyled-list tick-list">
@@ -222,32 +222,23 @@ include 'pages-shared/static-header.php';
           </li>
         </ul>
       </div>
-    </div>
-    <p class="regular medium center-text bottom-margin-medium top-margin-large">And heaps more...</p>
+    </div> -->
     <ul class="unstyled-list feature-list flex inline-list center-text">
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
-        <p>24/7 Customer Support</a></p>
+        <h3 class="">24/7 support</h3 class="">
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt@2x.png 2x" width="46">
-        <p>Fully encrypted data transfer</p>
+        <h3 class="">Data security</h3 class="">
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png 2x" width="46">
-        <p>Unlimited Projects</p>
+        <h3 class="">Unlimited Projects</h3 class="">
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-team.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-team@2x.png 2x" width="46">
-        <p>Multiple team members</p>
-      </li>
-      <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-scale.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-scale@2x.png 2x" width="46">
-        <p>Built to scale</p>
-      </li>
-      <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-features.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-features@2x.png 2x" width="46">
-        <p>Read more about <a href="/features">features</a></p>
+        <h3 class="">Unlimited team members</h3 class="">
       </li>
     </ul>
   </div>
