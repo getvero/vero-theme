@@ -164,15 +164,15 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-validation" class="dark-box">
-  <div class="inner center-text">
+  <div class="inner bottom-padding-small center-text">
     <blockquote class="quote bottom-margin-small">
       <p class="no-top-margin no-bottom-margin">&ldquo;I’m in the midst of transitioning over to Vero for this reason. All the things I liked about Drip, plus their email workflows and templating engine can pull data directly from my app’s API. Game changer for me.&rdquo;</p>
     </blockquote>
 
-    <div class="flex">
+    <div class="flex bottom-margin-medium bottom-padding-large bottom-border-faded">
       <img class="quote-image bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace@2x.png 2x">
 
-      <p class="large no-top-margin bottom-margin-large">Ken Wallace, Founder of MastermindJam</p>
+      <p class="large no-top-margin no-bottom-margin">Ken Wallace, Founder of MastermindJam</p>
     </div>
 
     <ul class="unstyled-list logos-list">
