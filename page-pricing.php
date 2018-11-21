@@ -28,7 +28,7 @@ include 'pages-shared/static-header.php';
       <li>
         <ul id="monthly" class="inline-list unstyled-list center-text plans-list bottom-margin-medium">
           <li class="plan starter">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Starter</span> <span class="left-margin-tiny">🆕</span></h2>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Starter</span> <span>🆕</span></h2>
             <div class="top-margin-medium bottom-margin-medium">
               <p class="small no-bottom-margin">&nbsp;</p>
               <p class="semi-bold price">$99</p>
@@ -40,20 +40,20 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan growth">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Growth</span> <span class="left-margin-tiny">🌱</span></h2>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Growth</span> <span>🌱</span></h2>
             <div class="top-margin-medium bottom-margin-medium">
               <p class="small no-bottom-margin">&nbsp;</p>
               <p class="semi-bold price">$299</p>
               <p class="price-label small">per month</p>
             </div>
             <ul class="limits unstyled-list">
-              <li class="most-popular">Most Popular</li>
+              <!-- <li class="most-popular">Most Popular</li> -->
               <li>100,000 <span>customers</span></li>
               <li>250,000 <span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan pro">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Pro</span> <span class="left-margin-tiny">⛳</span></h2>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Pro</span> <span>⛳</span></h2>
             <div class="top-margin-medium bottom-margin-medium">
               <p class="small no-bottom-margin">&nbsp;</p>
               <p class="semi-bold price">$549</p>
@@ -65,7 +65,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan scale">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Scale</span> <span class="left-margin-tiny">🚀</span></h2>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Scale</span> <span>🚀</span></h2>
             <div class="top-margin-medium bottom-margin-medium">
               <p class="small no-bottom-margin">&nbsp;</p>
               <p class="semi-bold price">$749</p>
@@ -77,7 +77,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan scale">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Enterprise</span> <span class="left-margin-tiny">📈</span></h2>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Enterprise</span> <span>📈</span></h2>
             <div class="top-margin-medium bottom-margin-medium">
               <p class="small no-bottom-margin">Starts at</p>
               <p class="semi-bold price">$1,049</p>
@@ -91,9 +91,9 @@ include 'pages-shared/static-header.php';
           </li>
         </ul>
         <p>Pay up front and save on email volume with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
-        <div class="pricing-cta center-text">
+        <div class="pricing-cta bottom-margin-tiny center-text">
           <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide  bottom-margin-tiny">Create your trial account</a>
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large  btn-wide bottom-margin-tiny">Talk to our sales team</a>
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large btn-wide ">Talk to our sales team</a>
           <p></p>
         </div>
         <p>Have questions? See the list of <a data-scroll href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
