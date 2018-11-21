@@ -132,7 +132,7 @@ include 'pages-shared/static-header.php';
 <section class="gray-section">
   <div class="inner medium-inner center-text top-padding-large bottom-padding-large">
     <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-    <h3 class="chunk regular bottom-margin-tiny">Save with an annual plan</h3>
+    <h3 class="tubs regular bottom-margin-tiny">Save with an annual plan</h3>
     <p class="medium no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
   </div>
 </section>
@@ -211,7 +211,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner">
-    <h2 class="biggie regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
+    <h2 class="h1 regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
