@@ -119,11 +119,11 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner large-inner">
-    <h2 class="biggie center-text">Included with every plan</h2>
+  <div class="inner medium-inner">
+    <h2 class="chunk bottom-margin-medium center-text">Included with every plan</h2>
     <div class="lists-block">
       <div class="list top-margin-small">
-        <h3 class="chunk regular semi-bold">Data capture and storage</h3>
+        <h3 class="bottom-margin-small">Data capture and storage</h3>
         <ul class="unstyled-list tick-list">
           <li class="relative">
             <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image"><a href="https://developers.getvero.com" target="_blank">Full API libraries</a> to track customer behavior
@@ -140,7 +140,7 @@ include 'pages-shared/static-header.php';
         </ul>
       </div>
       <div class="list top-margin-small">
-        <h3 class="chunk regular semi-bold">Segmentation</h3>
+        <h3 class="bottom-margin-small">Segmentation</h3>
         <ul class="unstyled-list tick-list">
           <li class="relative">
             <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">A single record per customer. No more static lists
@@ -159,7 +159,7 @@ include 'pages-shared/static-header.php';
         </ul>
       </div>
       <div class="list top-margin-small">
-        <h3 class="chunk regular semi-bold">Email design and automation</h3>
+        <h3 class="bottom-margin-small">Email design and automation</h3>
         <ul class="unstyled-list tick-list">
           <li class="relative">
             <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Newsletter / ad-hoc / one-to-many emails
@@ -187,13 +187,13 @@ include 'pages-shared/static-header.php';
         </ul>
       </div>
       <div class="list top-margin-small">
-        <h3 class="chunk regular semi-bold">Email deployment</h3>
+        <h3 class="bottom-margin-small">Email deployment</h3>
         <ul class="unstyled-list tick-list">
           <li class="relative">
-            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absoluste tick-list-image">Full open and click tracking
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Full open and click tracking
           </li>
           <li class="relative">
-            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absoluste tick-list-image">Email conversion reporting using customer activity
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Email conversion reporting using customer activity
           </li>
           <li class="relative">
             <img src="/wp-content/themes/vero/assets/images/home/pricing/Tick.svg" class="absolute tick-list-image">Integrations with popular providers Mailgun, Sendgrid, Dyn and Mandrill. (Optional)
@@ -286,7 +286,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner halfs">
-    <h2 class="biggie center-text jump-link">Frequently Asked Questions</h2>
+    <h2 class="chunk center-text jump-link">Frequently Asked Questions</h2>
     <div class="left">
       <h3>What happens if I go over my subscription limit?</h3>
       <p>
