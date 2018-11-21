@@ -26,22 +26,26 @@ include 'pages-shared/static-header.php';
     </ul> -->
     <ul id="pricing-slider">
       <li>
-        <ul id="monthly" class="inline-list unstyled-list center-text plans-list">
+        <ul id="monthly" class="inline-list unstyled-list center-text plans-list bottom-margin-medium">
           <li class="plan starter">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Starter <span class="left-margin-tiny">🆕</span></p>
-            <p class="small">&nbsp;</p>
-            <p class="semi-bold price">$99</p>
-            <p class="price-label small">per month</p>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Starter</span> <span class="left-margin-tiny">🆕</span></h2>
+            <div class="top-margin-medium bottom-margin-medium">
+              <p class="small no-bottom-margin">&nbsp;</p>
+              <p class="semi-bold price">$99</p>
+              <p class="price-label small">per month</p>
+            </div>
             <ul class="limits unstyled-list">
               <li>12,500 <span>customers</span></li>
               <li>25,000 <span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan growth">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Growth <span class="left-margin-tiny">🌱</span></p>
-            <p class="small">&nbsp;</p>
-            <p class="semi-bold price">$299</p>
-            <p class="price-label small">per month</p>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Growth</span> <span class="left-margin-tiny">🌱</span></h2>
+            <div class="top-margin-medium bottom-margin-medium">
+              <p class="small no-bottom-margin">&nbsp;</p>
+              <p class="semi-bold price">$299</p>
+              <p class="price-label small">per month</p>
+            </div>
             <ul class="limits unstyled-list">
               <li class="most-popular">Most Popular</li>
               <li>100,000 <span>customers</span></li>
@@ -49,30 +53,36 @@ include 'pages-shared/static-header.php';
             </ul>
           </li>
           <li class="plan pro">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Pro <span class="left-margin-tiny">⛳</span></p>
-            <p class="small">&nbsp;</p>
-            <p class="semi-bold price">$549</p>
-            <p class="price-label small">per month</p>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Pro</span> <span class="left-margin-tiny">⛳</span></h2>
+            <div class="top-margin-medium bottom-margin-medium">
+              <p class="small no-bottom-margin">&nbsp;</p>
+              <p class="semi-bold price">$549</p>
+              <p class="price-label small">per month</p>
+            </div>
             <ul class="limits unstyled-list">
               <li>175,000 <span>customers</span></li>
               <li>400,000 <span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan scale">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Scale <span class="left-margin-tiny">🚀</span></p>
-            <p class="small">&nbsp;</p>
-            <p class="semi-bold price">$749</p>
-            <p class="price-label small">per month</p>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Scale</span> <span class="left-margin-tiny">🚀</span></h2>
+            <div class="top-margin-medium bottom-margin-medium">
+              <p class="small no-bottom-margin">&nbsp;</p>
+              <p class="semi-bold price">$749</p>
+              <p class="price-label small">per month</p>
+            </div>
             <ul class="limits unstyled-list">
               <li>300,000<span>customers</span></li>
               <li>700,000<span>emails/month</span></li>
             </ul>
           </li>
           <li class="plan scale">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Enterprise <span class="left-margin-tiny">📈</span></p>
-            <p class="small">Starts at</p>
-            <p class="semi-bold price">$1,049</p>
-            <p class="price-label small">per month</p>
+            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Enterprise</span> <span class="left-margin-tiny">📈</span></h2>
+            <div class="top-margin-medium bottom-margin-medium">
+              <p class="small no-bottom-margin">Starts at</p>
+              <p class="semi-bold price">$1,049</p>
+              <p class="price-label small">per month</p>
+            </div>
             <ul class="limits unstyled-list">
               <li>500,000+ <span>customers</span></li>
               <li>1,000,000+ <span>emails/month</span></li>
@@ -82,8 +92,8 @@ include 'pages-shared/static-header.php';
         </ul>
         <p>Pay up front and save on email volume with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">lock-in pricing.</a></p>
         <div class="pricing-cta center-text">
-          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large bottom-margin-tiny">Create your trial account</a>
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large bottom-margin-tiny">Talk to our sales team</a>
+          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide  bottom-margin-tiny">Create your trial account</a>
+          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large  btn-wide bottom-margin-tiny">Talk to our sales team</a>
           <p></p>
         </div>
         <p>Have questions? See the list of <a data-scroll href="#pricing-faq">Frequenty Asked Questions</a> below.</p>
@@ -244,11 +254,15 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-validation" class="dark-box">
   <div class="inner center-text">
-    <img class="quote-image" src="/wp-content/themes/vero/assets/images/home/pricing/sphero.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/sphero@2x.png 2x">
-    <blockquote class="quote">&ldquo;Vero is an essential tool for us at Sphero. We use Vero for newsletter, behavioral and transaction email campaigns. Our relationship with Vero enables Sphero to communicate in a dynamic and personalized medium.&rdquo;</blockquote>
-    <div class="clearfix"></div>
-    <p class="large">Paul Rahn, Director of Ecommerce</p>
-    <p class="bottom-margin-large">Sphero</p>
+    <blockquote class="quote bottom-margin-small">
+      <p class="larger no-bottom-margin">&ldquo;I’m in the midst of transitioning over to Vero for this reason. All the things I liked about Drip, plus their email workflows and templating engine can pull data directly from my app’s API. Game changer for me.&rdquo;</p>
+    </blockquote>
+
+    <div class="flex">
+      <img class="quote-image bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace@2x.png 2x">
+
+      <p class="large no-top-margin bottom-margin-large">Ken Wallace, Founder of MastermindJam</p>
+    </div>
 
     <ul class="unstyled-list logos-list">
       <li class="logos-list-item no-top-margin">
