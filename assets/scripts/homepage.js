@@ -8,15 +8,6 @@ jQuery(document).ready(function(){
     hideControlOnEnd: true,
     pager           : false
   });
-  // var slider = jQuery('#pricing-slider').bxSlider({
-  //   mode            : 'fade',
-  //   adaptiveHeight  : true,
-  //   responsive      : true,
-  //   controls        : false,
-  //   infiniteLoop    : false,
-  //   hideControlOnEnd: true,
-  //   pager           : false
-  // });
   var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
     mode            : 'fade',
     adaptiveHeight  : true,
@@ -87,6 +78,13 @@ jQuery(document).ready(function(){
       sub_menu.removeClass('show-sub-menu');
     }
   });
+
+  // Toggle FAQs
+  jQuery('.js-toggle').click(function(){
+    jQuery(this).parent().toggleClass('active');
+    jQuery(this).next().toggleClass('active');
+  });
+
 });
 
 var h          = jQuery(".nav-primary .wrap");
