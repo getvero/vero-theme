@@ -45,18 +45,6 @@ jQuery(document).ready(function(){
       return false;
     }
   });
-  // jQuery('#slider-yearly').click(function(){
-  //   if(jQuery(this).hasClass('active')){
-  //     return false;
-  //   }
-  //   else {
-  //     slider.goToSlide(3);
-  //     jQuery(this).addClass('active')
-  //     jQuery('#slider-monthly').removeClass('active')
-  //     jQuery('#slider-yearly').removeClass('active')
-  //     return false;
-  //   }
-  // });
 
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
@@ -78,6 +66,57 @@ jQuery(document).ready(function(){
       sub_menu.removeClass('show-sub-menu');
     }
   });
+
+  // Range slider
+  var rangeSlider = function(){
+    var slider = jQuery('.js-slider'),
+        range  = jQuery('.js-slider-range'),
+        price  = jQuery('.js-slider-price'),
+        value  = jQuery('.js-slider-value');
+
+    slider.each(function(){
+      value.each(function(){
+        var value = jQuery(this).prev().attr('value');
+        jQuery(this).html(value);
+      });
+
+      range.on('input', function(){
+        jQuery(this).next(value).html(this.value);
+
+        if (this.value <= 15000) {
+          jQuery(price).html('$125');
+
+          console.log('Less than 15000')
+        } else if (this.value >= 15001 && this.value <= 50000) {
+          jQuery(price).html('$199');
+
+          console.log('Less than 50000')
+        } else if (this.value >= 50001 && this.value <= 100000) {
+          jQuery(price).html('$399');
+
+          console.log('Less than 100000')
+        } else if (this.value >= 100001 && this.value <= 200000) {
+          jQuery(price).html('$749');
+
+          console.log('Less than 200000')
+        } else if (this.value >= 200001 && this.value <= 300000) {
+          jQuery(price).html('$1049');
+
+          console.log('Less than 300000')
+        } else if (this.value >= 300001 && this.value <= 400000) {
+          jQuery(price).html('$1399');
+
+          console.log('Less than 400000')
+        } else if (this.value >= 400001 &&this.value <= 500000) {
+          jQuery(price).html('$1749');
+
+          console.log('Less than 500000')
+        }
+      });
+    });
+  };
+
+  rangeSlider();
 
   // Toggle FAQs
   jQuery('.js-toggle').click(function(){
