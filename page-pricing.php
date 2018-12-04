@@ -12,8 +12,8 @@ include 'pages-shared/static-header.php';
 ?>
 <section id="pricing-hero" class="hero">
   <div class="inner small-inner flush-bottom center-text">
-    <h1 class="hulk semi-bold">Get started with Vero</h1>
-    <p class="large no-bottom-margin"><strong>Vero</strong> is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p>
+    <h1 class="biggie semi-bold">Get started with Vero</h1>
+    <!-- <p class="large no-bottom-margin"><strong>Vero</strong> is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p> -->
   </div>
   <div class="inner xlarge-inner top-padding-medium center-text">
     <!-- <ul class="plan-tabs unstyled-list inline-list">
@@ -26,70 +26,15 @@ include 'pages-shared/static-header.php';
     </ul> -->
     <ul id="pricing-slider">
       <li class="no-margin-bottom">
-        <ul id="monthly" class="inline-list unstyled-list center-text plans-list bottom-margin-large">
-          <li class="plan starter">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Starter</span> <span>🆕</span></h2>
-            <div class="top-margin-medium bottom-margin-medium">
-              <p class="small no-bottom-margin">&nbsp;</p>
-              <p class="semi-bold price">$99</p>
-              <p class="price-label small">monthly</p>
-            </div>
-            <ul class="limits unstyled-list">
-              <li><strong class="display-block">12,500</strong> <span class="small">customers</span></li>
-              <li><strong class="display-block">25,000</strong> <span class="small"<span class="small">emails monthly</span></li>
-            </span></ul>
-          </li>
-          <li class="plan growth">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Growth</span> <span>🌱</span></h2>
-            <div class="top-margin-medium bottom-margin-medium">
-              <p class="small no-bottom-margin">&nbsp;</p>
-              <p class="semi-bold price">$299</p>
-              <p class="price-label small">monthly</p>
-            </div>
-            <ul class="limits unstyled-list">
-              <!-- <li class="most-popular">Most Popular</li> -->
-              <li><strong class="display-block">100,000</strong> <span class="small">customers</</li>
-              <li><strong class="display-block">250,000</strong> <span class="small">emails monthly</span></li>
-            </ul>
-          </li>
-          <li class="plan pro">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Pro</span> <span>⛳</span></h2>
-            <div class="top-margin-medium bottom-margin-medium">
-              <p class="small no-bottom-margin">&nbsp;</p>
-              <p class="semi-bold price">$549</p>
-              <p class="price-label small">monthly</p>
-            </div>
-            <ul class="limits unstyled-list">
-              <li><strong class="display-block">175,000</strong> <span class="small">customers</</li>
-              <li><strong class="display-block">400,000</strong> <span class="small">emails monthly</span></li>
-            </ul>
-          </li>
-          <li class="plan scale">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Scale</span> <span>🚀</span></h2>
-            <div class="top-margin-medium bottom-margin-medium">
-              <p class="small no-bottom-margin">&nbsp;</p>
-              <p class="semi-bold price">$749</p>
-              <p class="price-label small">monthly</p>
-            </div>
-            <ul class="limits unstyled-list">
-              <li><strong class="display-block">300,000</strong> <span class="small">customers</</li>
-              <li><strong class="display-block">700,000</strong> <span class="small">emails monthly</span></li>
-            </ul>
-          </li>
-          <li class="plan scale">
-            <h2 class="small semi-bold uppercase center-text bottom-margin-tiny"><span class="faded">Enterprise</span> <span>📈</span></h2>
-            <div class="top-margin-medium bottom-margin-medium">
-              <p class="small no-bottom-margin">Starts at</p>
-              <p class="semi-bold price">$1,049</p>
-              <p class="price-label small">monthly</p>
-            </div>
-            <ul class="limits unstyled-list bottom-margin-small">
-              <li><strong class="display-block">500,000+</strong> <span class="small">customers</</li>
-              <li><strong class="display-block">1,000,000+</strong> <span class="small">emails monthly</span></li>
-            </ul>
-            <a class="btn btn-warning small demo-link" id="demo-trigger" href="#demo" rel="leanModal">Contact our sales team</a>
-          </li>
-        </ul>
+        <h2>How many are you sending too?</h2>
+
+        <div class="js-slider">
+          <input class="js-slider-range pricing-slider" type="range" value="20000" min="0" max="500000" step="10000">
+
+          <span class="js-slider-value">0</span>
+
+          <span class="js-slider-price">$0</span>
+        </div>
 
         <p class="no-top-margin no-bottom-margin">
         Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p>
@@ -99,41 +44,34 @@ include 'pages-shared/static-header.php';
           <a rel="leanModal" href="#demo" class="btn btn-warning btn-large btn-wide ">Contact our sales team</a>
         </div> -->
       </li>
-      <!-- <li>
-        <ul id="self-hosted" class="inline-list unstyled-list center-text plans-list">
-          <li class="plan byo">
-            <p class="regular medium uppercase center-text bottom-margin-tiny">Self-Hosted <span class="left-margin-tiny">💻</span></p>
-            <p class="small">Starts at</p>
-            <p class="price">$5,000</p>
-            <p class="price-label small">per month</p>
-            <ul class="limits unstyled-list">
-              <li>Unlimited <span>customers</span></li>
-              <li>Unlimited <span>emails/month</span></li>
-              <li class="demo-link"><a rel="leanModal" href="#self-hosted-form">Talk to our Success Team</a></li>
-            </ul>
-          </li>
-          <li class="byo-solid">
-            <p>
-            <ul class="unstyled-list">
-              <li><p class="regular semi-bold bottom-margin-tiny">Data Center-Ready</p><p class="no-top-margin bottom-margin-small">Deploys via a single binary with either PostgreSQL or Redshift/Cassandra. Deploy on one node or in a cluster with high availability for horizontal scaling.</p></li>
-              <li><p class="regular semi-bold bottom-margin-tiny">Own your data</p><p class="no-top-margin bottom-margin-small">Your data never leaves your environment. Get the full functionality of Vero, including our API and GUI, without synchronising your data to a third-party cloud.</p></li>
-              <li><p class="regular semi-bold bottom-margin-tiny">Centralised updates</p><p class="no-top-margin bottom-margin-small">Get access to the latest version of Vero, every time. You deploy the same codebase as our cloud offering so all changes are available in your instance as they are made.</p></li>
-            </ul>
-          </li>
-        </ul>
-        <p>If you're interested in trialing the self-hosted version of Vero, get in touch. We'll help you get up and running.</p>
-        <div class="pricing-cta center-text bottom-padding-tiny">
-          <a rel="leanModal" href="#self-hosted-form" class="btn btn-warning btn-large display-inline bottom-margin-tiny">Talk to our sales team</a>
-        </div>
-      </li> -->
     </ul>
   </div>
 </section>
 <section class="gray-section">
-  <div class="inner medium-inner center-text top-padding-large bottom-padding-large">
-    <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-    <h3 class="tubs regular bottom-margin-tiny">Save with an annual plan</h3>
-    <p class="medium no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
+  <div class="inner large-inner center-text top-padding-large bottom-padding-large">
+    <h2 class="tubs medium bottom-margin-medium">Addons</h2>
+    <div class="grid grid-third">
+      <div>
+        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
+        <h3 class="micro medium bottom-margin-tiny">Dedicated IP</h3>
+        <p class="no-top-margin no-bottom-margin">$79 per month</p>
+      </div>
+      <div>
+        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
+        <h3 class="micro medium bottom-margin-tiny">BYO email provider</h3>
+        <p class="no-top-margin no-bottom-margin">-10%</p>
+      </div>
+      <div>
+        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
+        <h3 class="micro medium bottom-margin-tiny">Save with an annual plan</h3>
+        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
+      </div>
+      <div>
+        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
+        <h3 class="micro medium bottom-margin-tiny">Save with an annual plan</h3>
+        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
+      </div>
+    </div>
   </div>
 </section>
 <section id="pricing-included">
@@ -142,23 +80,17 @@ include 'pages-shared/static-header.php';
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>
-        <p class="no-top-margin no-bottom-margin">Email, video call, slack. We’re there when you need us</p>
+        <p class="no-top-margin no-bottom-margin">Across EMEA, the US and APAC, dedicated support is here to help</p>
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt@2x.png 2x" width="46">
         <h3 class="regular bottom-margin-tiny">Data security</h3>
-        <p class="no-top-margin no-bottom-margin">Fully encrypted data transfer</p>
+        <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png 2x" width="46">
-        <h3 class="regular bottom-margin-tiny">Unlimited projects</h3>
-        <p class="no-top-margin no-bottom-margin">Add more projects, send more emails and invite more users</p>
-      </li>
-      <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-team.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-team@2x.png 2x" width="46">
-        <h3 class="regular bottom-margin-tiny">Unlimited members</h3>
-        <p class="no-top-margin no-bottom-margin">
-      Invite your whole team at no extra cost</p>
+        <h3 class="regular bottom-margin-tiny">Unlimited flexibility</h3>
+        <p class="no-top-margin no-bottom-margin">Multiple sub-accounts and unlimited users - we won’t charge you extra</p>
       </li>
     </ul>
   </div>
