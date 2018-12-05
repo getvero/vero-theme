@@ -60,7 +60,7 @@ include 'pages-shared/static-header.php';
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email provider</h3>
 
-          <span class="self-center">-10%</span>
+          <span class="self-center">10% off</span>
         </header>
 
         <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
@@ -69,7 +69,7 @@ include 'pages-shared/static-header.php';
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Pay up front</h3>
 
-          <span class="self-center">-10%</span>
+          <span class="self-center">10% off</span>
         </header>
 
         <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a></p>
