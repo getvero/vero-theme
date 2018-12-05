@@ -10,62 +10,60 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section id="pricing-hero" class="hero">
+<section class="hero" id="pricing-hero" >
   <div class="inner small-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold">Get started with Vero</h1>
+    <h1 class="biggie semi-bold">A plan that scales with your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
-    <h2>How many are you sending too?</h2>
+    <h2 class="micro medium">How many are you sending too?</h2>
 
     <div class="price-slider">
       <div id="js-price-slider"></div>
       <div id="js-price-pips-values"></div>
     </div>
 
-    <p class="no-top-margin no-bottom-margin">
-    Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p>
+
+    <!-- <p class="no-top-margin no-bottom-margin">Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p> -->
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
-  <div class="inner large-inner top-padding-medium bottom-padding-medium flexbox">
+  <div class="inner large-inner top-padding-small bottom-padding-small flexbox">
     <div>
-      <p class="no-top-margin no-bottom-margin"><span class="js-price-update" id="js-price-update">50000</span> customers</p>
+      <p class="no-top-margin no-bottom-margin"><strong class="js-price-update" id="js-price-update">50000</strong> customers</p>
       <p class="no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
     </div>
 
-    <div>
-      <div class="biggie price center-text" id="js-price">$199</div>
-    </div>
+    <div class="flexbox left-margin-auto">
+      <div class="right-text right-margin-small">
+        <span class="chunk price display-block" id="js-price">$199</span>
+        <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
+      </div>
 
-    <div class="flexbox pricing-cta ml-a">
-      <a href="https://app.getvero.com/signup" class="btn btn-success">Get started</a>
-      <a rel="leanModal" href="#demo" class="btn btn-warning ">Contact our sales team</a>
+      <div class="flexbox pricing-cta">
+        <a href="https://app.getvero.com/signup" class="btn btn-success right-margin-tiny">Get a trial</a>
+        <a rel="leanModal" href="#demo" class="btn btn-warning ">Contact our sales team</a>
+      </div>
     </div>
   </div>
 </section>
-<section class="gray-section">
+<section class="gray-section" id="pricing-addons">
   <div class="inner large-inner center-text top-padding-large bottom-padding-large">
     <h2 class="tubs medium bottom-margin-medium">Addons</h2>
     <div class="grid grid-third">
-      <div>
+      <div class="border-light bg-white padding-small">
         <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
         <h3 class="micro medium bottom-margin-tiny">Dedicated IP</h3>
-        <p class="no-top-margin no-bottom-margin">$79 per month</p>
+        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
       </div>
-      <div>
+      <div class="border-light bg-white padding-small">
         <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
         <h3 class="micro medium bottom-margin-tiny">BYO email provider</h3>
-        <p class="no-top-margin no-bottom-margin">-10%</p>
+        <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
       </div>
-      <div>
+      <div class="border-light bg-white padding-small">
         <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-        <h3 class="micro medium bottom-margin-tiny">Save with an annual plan</h3>
-        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
-      </div>
-      <div>
-        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-        <h3 class="micro medium bottom-margin-tiny">Save with an annual plan</h3>
-        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a>.</p>
+        <h3 class="micro medium bottom-margin-tiny">Pay up front</h3>
+        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a></p>
       </div>
     </div>
   </div>
