@@ -24,15 +24,15 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
-  <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third">
+  <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third items-center">
     <div class="left">
       <p class="no-top-margin no-bottom-margin"><strong class="js-price-update" id="js-price-update">50000</strong> customers</p>
-      <p class="no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
+      <p class="annotation no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
     </div>
 
     <div class="right flexbox">
       <div class="price right-margin-small">
-        <span class="chunk price display-block" id="js-price">$199</span>
+        <span class="chunk display-block" id="js-price">$199</span>
         <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
       </div>
 
