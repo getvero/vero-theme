@@ -31,13 +31,13 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="right flexbox">
-      <div class="right-margin-small">
+      <div class="price right-margin-small">
         <span class="chunk price display-block" id="js-price">$199</span>
         <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
       </div>
 
       <div class="flexbox pricing-cta">
-        <a class="btn btn-success" href="https://app.getvero.com/signup" >Get a trial</a>
+        <a class="btn btn-success" href="https://app.getvero.com/signup">Get a trial</a>
         <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
       </div>
     </div>
@@ -45,7 +45,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="gray-section" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
-    <h2 class="tubs medium">Addons</h2>
+    <h2 class="tubs">Addons</h2>
     <div class="grid grid-third">
       <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
         <header class="flexbox justify-center bottom-margin-tiny">
@@ -133,7 +133,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner">
-    <h2 class="h1 regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
+    <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
