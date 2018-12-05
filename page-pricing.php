@@ -12,65 +12,74 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
   <div class="inner small-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold">A plan that scales with your business</h1>
+    <h1 class="biggie semi-bold bottom-margin-large">A plan that scales with your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
-    <h2 class="micro medium">How many are you sending too?</h2>
-
     <div class="price-slider">
       <div id="js-price-slider"></div>
       <div id="js-price-pips-values"></div>
     </div>
 
-
-    <!-- <p class="no-top-margin no-bottom-margin">Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p> -->
+    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
-  <div class="inner large-inner top-padding-small bottom-padding-small flexbox">
-    <div>
+  <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third">
+    <div class="left">
       <p class="no-top-margin no-bottom-margin"><strong class="js-price-update" id="js-price-update">50000</strong> customers</p>
       <p class="no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
     </div>
 
-    <div class="flexbox left-margin-auto">
-      <div class="right-text right-margin-small">
+    <div class="right flexbox">
+      <div class="right-margin-small">
         <span class="chunk price display-block" id="js-price">$199</span>
         <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
       </div>
 
       <div class="flexbox pricing-cta">
-        <a href="https://app.getvero.com/signup" class="btn btn-success right-margin-tiny">Get a trial</a>
-        <a rel="leanModal" href="#demo" class="btn btn-warning ">Contact our sales team</a>
+        <a class="btn btn-success" href="https://app.getvero.com/signup" >Get a trial</a>
+        <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
       </div>
     </div>
   </div>
 </section>
 <section class="gray-section" id="pricing-addons">
-  <div class="inner large-inner center-text top-padding-large bottom-padding-large">
-    <h2 class="tubs medium bottom-margin-medium">Addons</h2>
+  <div class="inner xlarge-inner center-text">
+    <h2 class="tubs medium">Addons</h2>
     <div class="grid grid-third">
-      <div class="border-light bg-white padding-small">
-        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-        <h3 class="micro medium bottom-margin-tiny">Dedicated IP</h3>
-        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
+      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+        <header class="flexbox justify-center bottom-margin-tiny">
+          <h3 class="micro medium right-margin-tiny no-bottom-margin">Dedicated IP</h3>
+
+          <span class="self-center">$79 per month</span>
+        </header>
+
+        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla</p>
       </div>
-      <div class="border-light bg-white padding-small">
-        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-        <h3 class="micro medium bottom-margin-tiny">BYO email provider</h3>
+      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+        <header class="flexbox justify-center bottom-margin-tiny">
+          <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email provider</h3>
+
+          <span class="self-center">-10%</span>
+        </header>
+
         <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
       </div>
-      <div class="border-light bg-white padding-small">
-        <img class="quote-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-plans.svg">
-        <h3 class="micro medium bottom-margin-tiny">Pay up front</h3>
+      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+        <header class="flexbox justify-center bottom-margin-tiny">
+          <h3 class="micro medium right-margin-tiny no-bottom-margin">Pay up front</h3>
+
+          <span class="self-center">-10%</span>
+        </header>
+
         <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a></p>
       </div>
     </div>
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner large-inner">
-    <ul class="unstyled-list feature-list flex inline-list center-text">
+  <div class="inner small-inner">
+    <ul class="unstyled-list feature-list flex center-text">
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>
@@ -89,17 +98,9 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section id="pricing-validation" class="dark-box">
-  <div class="inner bottom-padding-small center-text">
-    <blockquote class="quote bottom-margin-small">
-      <p class="no-top-margin no-bottom-margin">&ldquo;I’m in the midst of transitioning over to Vero for this reason. All the things I liked about Drip, plus their email workflows and templating engine can pull data directly from my app’s API. Game changer for me.&rdquo;</p>
-    </blockquote>
-
-    <div class="flex bottom-margin-medium bottom-padding-large bottom-border-faded">
-      <img class="quote-image bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace@2x.png 2x">
-
-      <p class="large no-top-margin no-bottom-margin">Ken Wallace, Founder of MastermindJam</p>
-    </div>
+<section class="dark-box">
+  <div class="inner top-padding-large bottom-padding-medium center-text">
+    <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list">
       <li class="logos-list-item no-top-margin">
@@ -108,28 +109,23 @@ include 'pages-shared/static-header.php';
         </a>
       </li>
       <li class="logos-list-item no-top-margin">
-        <a class="display-block" href="http://tidal.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item no-top-margin">
         <a class="display-block" href="http://monzo.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
         </a>
       </li>
       <li class="logos-list-item no-top-margin">
-        <a class="display-block" href="http://pipedrive.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item no-top-margin">
-        <a class="display-block" href="http://about.me">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-aboutme.svg" alt="about.me" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item no-top-margin">
         <a class="display-block" href="http://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://tidal.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
+        </a>
+      </li>
+      <li class="logos-list-item no-top-margin">
+        <a class="display-block" href="http://pipedrive.com">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
         </a>
       </li>
     </ul>
@@ -158,11 +154,8 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>We want your experience with our support to be the best experience you’ve ever had, not just the best you’ve had with an online service, or the best you’ve had this week.
-        </p>
-        <p>We provide 24 hour support via email. We are proud of our support and our internal SLA is to provide a response to every ticket within three hours. Our aim is to understand and work with you closely on any specific marketing or technical questions or issues and ensure your problems are solved to the best of our abilities.
-        </p>
-        <p>We also provide phone and emergency support for customers on our $1,049/month Enterprise plans. Please request a demo above for more information or if you have questions about this process.</p>
+        <p>Our global support team is on hand to help 24 hours a day. Our email support has a satisfaction rating of over 98% and our internal SLA is to provide a response to every ticket within eight hours, regardless of where you are in the world.</p>
+        <p>We have dedicated support team members in Australia, Europe and the USA. We also provide urgent, emergency support for customers on our Pro Plans (contact sales to learn more.</p>
       </div>
     </div>
 
@@ -173,20 +166,19 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-      <p>Yes, <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">read about lock-in pricing on our help docs</a>.</p>
+        <p>You sure can. We offer a 10% discount when you subscribe to an annual plan. You can get the full details <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">here</a>.</p>
       </div>
     </div>
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">What are projects?</h3>
+        <h3 class="h2 regular no-bottom-margin">Can I use sub-accounts??</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-      <p>Projects are individual instances of Vero. Each project has it's own subscriber database, API keys and campaigns. In other words, it’s like having two or more Vero accounts in one.
-      </p>
-      <p>If you’re an agency, you may also use projects to manage multiple clients.</p>
+        <p>In Vero, sub-accounts are called “Projects”. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as free <strong>sandboxes</strong>.</p>
+        <p>If you’re an agency, you may also use projects to manage multiple clients.</p>
       </div>
     </div>
 
@@ -197,15 +189,14 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-      <p>Absolutely. Vero is a platform designed to help you send better emails to your users. The data you send us is stored in order to deliver the best service we can for sending targeted emails. At any time you can export or request us to remove your data – it is entirely yours.</p>
-      <p>Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.</p>
+        <p>Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.</p>
       </div>
     </div>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Send your first email today</h1>
+    <h1 class="cta-title">Improve your customer experience today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

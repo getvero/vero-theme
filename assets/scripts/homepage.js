@@ -71,16 +71,22 @@ jQuery(document).ready(function(){
   var slider = document.getElementById('js-price-slider');
 
   noUiSlider.create(slider, {
-    start: 50000,
-    connect: [true, false],
-    tooltips: true,
-    range: {
+    start   : 50000,
+    connect : [true, false],
+    step    : 1000,
+    tooltips: wNumb({
+      decimals: 0,
+      mark    : '.',
+      thousand: ','
+    }),
+    range   : {
         'min': 0,
         'max': 500000
     },
     format: wNumb({
         decimals: 0,
-        thousands: '.'
+        mark    : '.',
+        thousand: ','
     }),
     pips: {
       mode: 'values',
