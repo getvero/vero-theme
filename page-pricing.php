@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
 <section class="fixed pricing-footer bg-gray-lighter">
   <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third items-center">
     <div class="left">
-      <p class="no-top-margin no-bottom-margin"><strong class="js-price-update" id="js-price-update">50000</strong> customers</p>
+      <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50000</strong> customers</p>
       <p class="annotation no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
     </div>
 

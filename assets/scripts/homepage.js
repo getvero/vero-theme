@@ -74,11 +74,7 @@ jQuery(document).ready(function(){
     start   : 50000,
     connect : [true, false],
     step    : 1000,
-    tooltips: wNumb({
-      decimals: 0,
-      mark    : '.',
-      thousand: ','
-    }),
+    tooltips: true,
     range   : {
         'min': 0,
         'max': 500000
@@ -101,26 +97,30 @@ jQuery(document).ready(function(){
     }
   });
 
-  var priceUpdate = document.getElementById('js-price-update'),
-      inputPrice  = document.getElementById('js-price');
+  var customerUpdate = document.getElementById('js-customer-update'),
+      priceUpdate    = document.getElementById('js-price');
 
   slider.noUiSlider.on('update', function (values, handle) {
-    priceUpdate.innerHTML = values[handle];
+    customerUpdate.innerHTML = values[handle];
 
-    if (values[handle] <= 15000) {
-      inputPrice.innerHTML = '$125';
-    } else if (values[handle] >= 15001 && values[handle] <= 50000) {
-      inputPrice.innerHTML = '$199';
-    } else if (values[handle] >= 50001 && values[handle] <= 100000) {
-      inputPrice.innerHTML = '$399';
-    } else if (values[handle] >= 100001 && values[handle] <= 200000) {
-      inputPrice.innerHTML = '$749';
-    } else if (values[handle] >= 200001 && values[handle] <= 300000) {
-      inputPrice.innerHTML = '$1049';
-    } else if (values[handle] >= 300001 && values[handle] <= 400000) {
-      inputPrice.innerHTML = '$1399';
-    } else if (values[handle] >= 400001 &&values[handle] <= 500000) {
-      inputPrice.innerHTML = '$1749';
+    // Strip comma from the values
+    var str = values[handle];
+    str = str.replace(/,/g, "");
+
+    if (parseInt(str) <= 15000) {
+      priceUpdate.innerHTML = '$125';
+    } else if (parseInt(str) >= 15001 && parseInt(str) <= 50000) {
+      priceUpdate.innerHTML = '$199';
+    } else if (parseInt(str) >= 50001 && parseInt(str) <= 100000) {
+      priceUpdate.innerHTML = '$399';
+    } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
+      priceUpdate.innerHTML = '$749';
+    } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
+      priceUpdate.innerHTML = '$1049';
+    } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
+      priceUpdate.innerHTML = '$1399';
+    } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
+      priceUpdate.innerHTML = '$1749';
     }
   });
 
@@ -130,17 +130,6 @@ jQuery(document).ready(function(){
     jQuery(this).next().toggleClass('active');
   });
 
-});
-
-var slider = document.getElementById('slider');
-
-noUiSlider.create(slider, {
-    start: [20, 80],
-    connect: true,
-    range: {
-        'min': 0,
-        'max': 100
-    }
 });
 
 var h          = jQuery(".nav-primary .wrap");
