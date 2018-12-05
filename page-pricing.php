@@ -13,38 +13,34 @@ include 'pages-shared/static-header.php';
 <section id="pricing-hero" class="hero">
   <div class="inner small-inner flush-bottom center-text">
     <h1 class="biggie semi-bold">Get started with Vero</h1>
-    <!-- <p class="large no-bottom-margin"><strong>Vero</strong> is built to scale. Whether you start small or big, our pricing is designed to scale as you do.</p> -->
   </div>
-  <div class="inner xlarge-inner top-padding-medium center-text">
-    <!-- <ul class="plan-tabs unstyled-list inline-list">
-      <li id="slider-monthly" class="active">Monthly</li>
-      <li id="slider-yearly">Annually</li>
-    </ul> -->
-    <!-- <ul class="plan-tabs unstyled-list inline-list">
-      <li id="slider-monthly" class="active">Cloud</li>
-      <li id="slider-self-hosted">Self-hosted</li>
-    </ul> -->
-    <ul id="pricing-slider">
-      <li class="no-margin-bottom">
-        <h2>How many are you sending too?</h2>
+  <div class="inner large-inner top-padding-medium center-text">
+    <h2>How many are you sending too?</h2>
 
-        <div class="js-slider">
-          <input class="js-slider-range pricing-slider" type="range" value="20000" min="0" max="500000" step="10000">
+    <div class="price-slider">
+      <div id="js-price-slider"></div>
+      <div id="js-price-pips-values"></div>
+    </div>
 
-          <span class="js-slider-value">0</span>
+    <p class="no-top-margin no-bottom-margin">
+    Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p>
+  </div>
+</section>
+<section class="fixed pricing-footer bg-gray-lighter">
+  <div class="inner large-inner top-padding-medium bottom-padding-medium flexbox">
+    <div>
+      <p class="no-top-margin no-bottom-margin"><span class="js-price-update" id="js-price-update">50000</span> customers</p>
+      <p class="no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
+    </div>
 
-          <span class="js-slider-price">$0</span>
-        </div>
+    <div>
+      <div class="biggie price center-text" id="js-price">$199</div>
+    </div>
 
-        <p class="no-top-margin no-bottom-margin">
-        Have questions? See the list of <a data-scroll href="#pricing-faq">Frequently Asked Questions</a> below.</p>
-
-        <!-- <div class="flexbox pricing-cta bottom-margin-medium center-text">
-          <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
-          <a rel="leanModal" href="#demo" class="btn btn-warning btn-large btn-wide ">Contact our sales team</a>
-        </div> -->
-      </li>
-    </ul>
+    <div class="flexbox pricing-cta ml-a">
+      <a href="https://app.getvero.com/signup" class="btn btn-success">Get started</a>
+      <a rel="leanModal" href="#demo" class="btn btn-warning ">Contact our sales team</a>
+    </div>
   </div>
 </section>
 <section class="gray-section">
