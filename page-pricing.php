@@ -83,7 +83,7 @@ include 'pages-shared/static-header.php';
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>
-        <p class="no-top-margin no-bottom-margin">Across EMEA, the US and APAC, dedicated support is here to help</p>
+        <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help</p>
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt@2x.png 2x" width="46">
