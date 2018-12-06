@@ -1,12 +1,12 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'external-attributes';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
 <section id="external-attributes-hero" class="border-bottom">
@@ -101,7 +101,7 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-secure.svg">
         <div class="right"><p class="medium semi-bold no-top-margin">Multiple Authentication Methods</p>
-        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold green-text top-padding-tiny inline-block">Coming Soon</span></p></div>
+        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny inline-block">Coming Soon</span></p></div>
       </li>
     </ul>
   </div>
@@ -124,7 +124,7 @@
     <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>
