@@ -87,13 +87,12 @@ jQuery(document).ready(function(){
       }),
       pips: {
         mode: 'values',
-        values: [0, 50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000, 500000],
+        values: [0, 100000, 200000, 300000, 400000, 500000],
         density: 10,
         format: wNumb({
-          encoder: function( value ){
-            return value / 1000;
-          },
-          suffix: 'k'
+          decimals: 0,
+          mark    : '.',
+          thousand: ','
         })
       }
     });
