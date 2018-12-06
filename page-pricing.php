@@ -15,6 +15,8 @@ include 'pages-shared/static-header.php';
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scales your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
+    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
+
     <div class="flexbox price-scale">
       <div class="price-slider">
         <div id="js-price-slider"></div>
@@ -23,8 +25,6 @@ include 'pages-shared/static-header.php';
 
       <a rel="leanModal" href="#demo">500k+ subscribers</a>
     </div>
-
-    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
@@ -52,7 +52,7 @@ include 'pages-shared/static-header.php';
     <h2 class="tubs">Addons</h2>
     <div class="grid grid-third">
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="IP">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Dedicated IP</h3>
@@ -63,7 +63,7 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla</p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="IP">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email provider</h3>
@@ -74,7 +74,7 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Discount">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Pay up front</h3>
