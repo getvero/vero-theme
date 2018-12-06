@@ -15,13 +15,13 @@ include 'pages-shared/static-header.php';
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scales your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
-    <div class="flexbox">
+    <div class="flexbox price-scale">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
       </div>
 
-      <a class="left-margin-auto" rel="leanModal" href="#demo">More than 500k?</a>
+      <a rel="leanModal" href="#demo">500k+ subscribers</a>
     </div>
 
     <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
