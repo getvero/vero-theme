@@ -67,69 +67,70 @@ jQuery(document).ready(function(){
     }
   });
 
-  // Price slider
-  var slider = document.getElementById('js-price-slider');
+  // Pricing Slider
+  if (jQuery('body').hasClass('pricing')) {
+    var slider = document.getElementById('js-price-slider');
 
-  noUiSlider.create(slider, {
-    start   : 50000,
-    connect : [true, false],
-    step    : 1000,
-    tooltips: true,
-    range   : {
-        'min': 0,
-        'max': 500000
-    },
-    format: wNumb({
-        decimals: 0,
-        mark    : '.',
-        thousand: ','
-    }),
-    pips: {
-      mode: 'values',
-      values: [0, 50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000, 500000],
-      density: 10,
+    noUiSlider.create(slider, {
+      start   : 50000,
+      connect : [true, false],
+      step    : 1000,
+      tooltips: true,
+      range   : {
+          'min': 0,
+          'max': 500000
+      },
       format: wNumb({
-        encoder: function( value ){
-          return value / 1000;
-        },
-        suffix: 'k'
-      })
-    }
-  });
+          decimals: 0,
+          mark    : '.',
+          thousand: ','
+      }),
+      pips: {
+        mode: 'values',
+        values: [0, 50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000, 500000],
+        density: 10,
+        format: wNumb({
+          encoder: function( value ){
+            return value / 1000;
+          },
+          suffix: 'k'
+        })
+      }
+    });
 
-  var customerUpdate = document.getElementById('js-customer-update'),
-      priceUpdate    = document.getElementById('js-price');
+    var customerUpdate = document.getElementById('js-customer-update'),
+    priceUpdate    = document.getElementById('js-price');
 
-  slider.noUiSlider.on('update', function (values, handle) {
-    customerUpdate.innerHTML = values[handle];
+    slider.noUiSlider.on('update', function (values, handle) {
+      customerUpdate.innerHTML = values[handle];
 
-    // Strip comma from the values
-    var str = values[handle];
-    str = str.replace(/,/g, "");
+      // Strip comma from the values
+      var str = values[handle];
+      str = str.replace(/,/g, "");
 
-    if (parseInt(str) <= 15000) {
-      priceUpdate.innerHTML = '$125';
-    } else if (parseInt(str) >= 15001 && parseInt(str) <= 50000) {
-      priceUpdate.innerHTML = '$199';
-    } else if (parseInt(str) >= 50001 && parseInt(str) <= 100000) {
-      priceUpdate.innerHTML = '$399';
-    } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
-      priceUpdate.innerHTML = '$749';
-    } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
-      priceUpdate.innerHTML = '$1049';
-    } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
-      priceUpdate.innerHTML = '$1399';
-    } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
-      priceUpdate.innerHTML = '$1749';
-    }
-  });
+      if (parseInt(str) <= 15000) {
+        priceUpdate.innerHTML = '$125';
+      } else if (parseInt(str) >= 15001 && parseInt(str) <= 50000) {
+        priceUpdate.innerHTML = '$199';
+      } else if (parseInt(str) >= 50001 && parseInt(str) <= 100000) {
+        priceUpdate.innerHTML = '$399';
+      } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
+        priceUpdate.innerHTML = '$749';
+      } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
+        priceUpdate.innerHTML = '$1049';
+      } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
+        priceUpdate.innerHTML = '$1399';
+      } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
+        priceUpdate.innerHTML = '$1749';
+      }
+    });
 
-  // Toggle FAQs
-  jQuery('.js-toggle').click(function(){
-    jQuery(this).parent().toggleClass('active');
-    jQuery(this).next().toggleClass('active');
-  });
-
+    // Toggle FAQs
+    jQuery('.js-toggle').click(function(){
+      jQuery(this).parent().toggleClass('active');
+      jQuery(this).next().toggleClass('active');
+    });
+  }
 });
 
 var h          = jQuery(".nav-primary .wrap");
@@ -165,19 +166,21 @@ jQuery(window).scroll(function(){
 });
 
 // Liquid guide sticky sidebar
-var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
+if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {
+  var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
 
-jQuery(window).scroll(function(){
-  if (jQuery(window).scrollTop() > heroDistance - 89) {
-    jQuery('.sidebar-sticky').addClass('sticky');
-  } else {
-    jQuery('.sidebar-sticky').removeClass('sticky');
-  }
+  jQuery(window).scroll(function(){
+    if (jQuery(window).scrollTop() > heroDistance - 89) {
+      jQuery('.sidebar-sticky').addClass('sticky');
+    } else {
+      jQuery('.sidebar-sticky').removeClass('sticky');
+    }
 
-  // At bottom
-  if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
-    jQuery('.sidebar-sticky').addClass('bottom');
-  } else {
-    jQuery('.sidebar-sticky').removeClass('bottom');
-  }
-});
+    // At bottom
+    if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
+      jQuery('.sidebar-sticky').addClass('bottom');
+    } else {
+      jQuery('.sidebar-sticky').removeClass('bottom');
+    }
+  });
+}
