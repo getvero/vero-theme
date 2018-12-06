@@ -11,12 +11,10 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
-  <div class="inner small-inner flush-bottom center-text">
+  <div class="inner large-inner flush-bottom center-text">
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scales your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
-    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
-
     <div class="flexbox price-scale">
       <div class="price-slider">
         <div id="js-price-slider"></div>
@@ -25,6 +23,8 @@ include 'pages-shared/static-header.php';
 
       <a rel="leanModal" href="#demo">500k+ subscribers</a>
     </div>
+
+    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
