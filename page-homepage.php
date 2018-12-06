@@ -28,7 +28,7 @@
   </div>
 </section>
 <section id="logos" class="logos border-bottom center-text">
-  <div class="inner large-inner">
+  <div class="inner medium-inner">
     <h5 class="section-label bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
     <ul class="unstyled-list logos-list">
