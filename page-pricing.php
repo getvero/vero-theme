@@ -137,7 +137,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">What happens if I go over my subscription limit?</h3>
+        <h3 class="micro regular no-bottom-margin">What happens if I go over my subscription limit?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -149,7 +149,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">What support does Vero provide?</h3>
+        <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -161,7 +161,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">Can I pay annually?</h3>
+        <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -172,7 +172,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">Can I use sub-accounts??</h3>
+        <h3 class="micro regular no-bottom-margin">Can I use sub-accounts??</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -184,7 +184,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="h2 regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
+        <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -198,7 +198,7 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <h1 class="cta-title">Improve your customer experience today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
+    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get a trial</a>
   </div>
 </section>
 <?php
