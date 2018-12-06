@@ -60,7 +60,7 @@ include 'pages-shared/static-header.php';
           <span class="self-center">$79 per month</span>
         </header>
 
-        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla</p>
+        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum</p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
@@ -71,7 +71,7 @@ include 'pages-shared/static-header.php';
           <span class="self-center">10% off</span>
         </header>
 
-        <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
+        <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis</p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
@@ -82,7 +82,7 @@ include 'pages-shared/static-header.php';
           <span class="self-center">10% off</span>
         </header>
 
-        <p class="no-top-margin no-bottom-margin">Save on your subscription with our <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">advanced-payment plans</a></p>
+        <p class="no-top-margin no-bottom-margin">Choose an Annual plan and get 10% off</p>
       </div>
     </div>
   </div>
