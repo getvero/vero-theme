@@ -12,9 +12,11 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
   <div class="inner large-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scales your business</h1>
+    <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
   </div>
-  <div class="inner large-inner top-padding-medium center-text">
+  <div class="inner large-inner flush-top center-text">
+    <p class="no-top-margin bottom-margin-large">How many subscribers do you have?</p>
+
     <div class="flexbox price-scale">
       <div class="price-slider">
         <div id="js-price-slider"></div>
@@ -23,15 +25,13 @@ include 'pages-shared/static-header.php';
 
       <a rel="leanModal" href="#demo">500k+ subscribers</a>
     </div>
-
-    <p class="no-top-margin no-bottom-margin">How many contacts do you have?</p>
   </div>
 </section>
 <section class="fixed pricing-footer bg-gray-lighter">
   <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third items-center">
     <div class="left">
       <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50000</strong> customers</p>
-      <p class="annotation no-top-margin no-bottom-margin">Vero's plans included <strong>unlimited</strong> email and push messages</p>
+      <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
     </div>
 
     <div class="right flexbox">
@@ -41,7 +41,7 @@ include 'pages-shared/static-header.php';
       </div>
 
       <div class="flexbox pricing-cta">
-        <a class="btn btn-success" href="https://app.getvero.com/signup">Get a trial</a>
+        <a class="btn btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
       </div>
     </div>
@@ -102,38 +102,38 @@ include 'pages-shared/static-header.php';
       </li>
       <li class="center-text">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46">
-        <h3 class="regular bottom-margin-tiny">Unlimited flexibility</h3>
-        <p class="no-top-margin no-bottom-margin">Multiple sub-accounts and unlimited users - we won’t charge you extra</p>
+        <h3 class="regular bottom-margin-tiny">Unlimited everything</h3>
+        <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
       </li>
     </ul>
   </div>
 </section>
 <section class="dark-box">
-  <div class="inner top-padding-large bottom-padding-medium center-text">
+  <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
     <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list">
-      <li class="logos-list-item no-top-margin">
+      <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://unsplash.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
         </a>
       </li>
-      <li class="logos-list-item no-top-margin">
+      <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://monzo.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
         </a>
       </li>
-      <li class="logos-list-item no-top-margin">
+      <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
         </a>
       </li>
-      <li class="logos-list-item no-top-margin">
+      <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://tidal.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
         </a>
       </li>
-      <li class="logos-list-item no-top-margin">
+      <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://pipedrive.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
         </a>
@@ -182,7 +182,7 @@ include 'pages-shared/static-header.php';
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="micro regular no-bottom-margin">Can I use sub-accounts??</h3>
+        <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
@@ -208,7 +208,7 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <h1 class="cta-title">Improve your customer experience today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
-    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get a trial</a>
+    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
   </div>
 </section>
 <?php
