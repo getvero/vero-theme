@@ -12,7 +12,7 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
   <div class="inner small-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold bottom-margin-large">A plan that scales with your business</h1>
+    <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scales your business</h1>
   </div>
   <div class="inner large-inner top-padding-medium center-text">
     <div class="price-slider">
@@ -47,7 +47,9 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs">Addons</h2>
     <div class="grid grid-third">
-      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+      <div class="border-light bg-white padding-small bottom-padding-medium">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="IP">
+
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Dedicated IP</h3>
 
@@ -56,7 +58,9 @@ include 'pages-shared/static-header.php';
 
         <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum facilisis leo vel fringilla</p>
       </div>
-      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+      <div class="border-light bg-white padding-small bottom-padding-medium">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="IP">
+
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email provider</h3>
 
@@ -65,7 +69,9 @@ include 'pages-shared/static-header.php';
 
         <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis leo vel fringilla est ullamcorper</p>
       </div>
-      <div class="border-light bg-white padding-small top-padding-medium bottom-padding-medium">
+      <div class="border-light bg-white padding-small bottom-padding-medium">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Discount">
+
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Pay up front</h3>
 
@@ -81,17 +87,17 @@ include 'pages-shared/static-header.php';
   <div class="inner small-inner">
     <ul class="unstyled-list feature-list flex center-text">
       <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-support@2x.png 2x" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>
         <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help</p>
       </li>
       <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt@2x.png 2x" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46">
         <h3 class="regular bottom-margin-tiny">Data security</h3>
         <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
       <li class="center-text">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited@2x.png 2x" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46">
         <h3 class="regular bottom-margin-tiny">Unlimited flexibility</h3>
         <p class="no-top-margin no-bottom-margin">Multiple sub-accounts and unlimited users - we won’t charge you extra</p>
       </li>
