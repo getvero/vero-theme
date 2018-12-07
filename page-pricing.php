@@ -28,21 +28,23 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="pricing-footer">
-  <div class="inner large-inner flush-top grid grid-thirds items-center">
-    <div class="left">
-      <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50,000</strong> customers</p>
-      <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
-    </div>
-
-    <div class="right flexbox">
-      <div class="price right-margin-small">
-        <span class="chunk display-block" id="js-price">$199</span>
-        <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
+  <div class="inner xlarge-inner flush-top">
+    <div class="border-light padding-medium grid grid-thirds">
+      <div class="left">
+        <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50,000</strong> customers</p>
+        <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
       </div>
 
-      <div class="flexbox pricing-cta">
-        <a class="btn btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
+      <div class="right flexbox">
+        <div class="price right-margin-small">
+          <span class="chunk display-block" id="js-price">$199</span>
+          <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
+        </div>
+
+        <div class="flexbox pricing-cta">
+          <a class="btn btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
+        </div>
       </div>
     </div>
   </div>
@@ -85,7 +87,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-included">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <ul class="unstyled-list feature-list grid-tiny justify-between center-text">
+    <ul class="unstyled-list feature-list grid grid-tiny center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>

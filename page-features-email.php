@@ -13,7 +13,7 @@
 
 <section id="email-hero" class="hero">
   <div class="inner center-text">
-    <h1 class="hero-title">Write, test and trigger <span class="emphesis emphesis-secondary">all</span> your emails in one place</h1>
+    <h1 class="hero-title">Write, test and trigger <span class="semi-bold emphesis-secondary">all</span> your emails in one place</h1>
 <!--     <img class="bg1" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605">
     <img class="bg2" src="/wp-content/themes/vero/assets/images/home/features/email/email-hero-bg@2x.png" width="605"> -->
     <img class="fore"src="/wp-content/themes/vero/assets/images/home/features/email/email-hero.png" srcset="/wp-content/themes/vero/assets/images/home/features/email/email-hero@2x.png 2x">
