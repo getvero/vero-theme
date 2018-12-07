@@ -23,12 +23,12 @@ include 'pages-shared/static-header.php';
         <div id="js-price-pips-values"></div>
       </div>
 
-      <a rel="leanModal" href="#demo">500k+ subscribers</a>
+      <a rel="leanModal" href="#demo">500,000 subscribers</a>
     </div>
   </div>
 </section>
-<section class="fixed pricing-footer bg-gray-lighter">
-  <div class="inner large-inner top-padding-small bottom-padding-small grid grid-third items-center">
+<section class="pricing-footer">
+  <div class="inner large-inner flush-top bottom-padding-medium grid grid-third items-center">
     <div class="left">
       <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50000</strong> customers</p>
       <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
@@ -52,37 +52,33 @@ include 'pages-shared/static-header.php';
     <h2 class="tubs">Addons</h2>
     <div class="grid grid-third">
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
         <header class="flexbox justify-center bottom-margin-tiny">
           <h3 class="micro medium right-margin-tiny no-bottom-margin">Dedicated IP</h3>
 
-          <span class="self-center">$79 per month</span>
+          <!-- <span class="self-center">$79 per month</span> -->
         </header>
 
-        <p class="no-top-margin no-bottom-margin">$79 per month. Enim praesent elementum</p>
+        <p class="no-top-margin no-bottom-margin">Send your emails from a dedicated server. <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a></p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email provider</h3>
-
-          <span class="self-center">10% off</span>
+          <h3 class="micro medium right-margin-tiny no-bottom-margin">BYO email platform</h3>
         </header>
 
-        <p class="no-top-margin no-bottom-margin">Enim praesent elementum facilisis</p>
+        <p class="no-margin">We'll track and centralize your reporting. <a href="https://help.getvero.com/articles/improving-deliverability" target="_blank" rel="noopener">Find out more</a></p>
       </div>
       <div class="border-light bg-white padding-small bottom-padding-medium">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium right-margin-tiny no-bottom-margin">Pay up front</h3>
-
-          <span class="self-center">10% off</span>
+          <h3 class="micro medium right-margin-tiny no-bottom-margin">Save 10%</h3>
         </header>
 
-        <p class="no-top-margin no-bottom-margin">Choose an Annual plan and get 10% off</p>
+        <p class="no-margin">Choose an Annual plan and get 10% off. <a href="https://help.getvero.com/articles/lock-in-your-pricing.html" target="_blank" rel="noopener">Find out more</a></p>
       </div>
     </div>
   </div>
