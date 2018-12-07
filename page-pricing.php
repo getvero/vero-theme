@@ -23,14 +23,14 @@ include 'pages-shared/static-header.php';
         <div id="js-price-pips-values"></div>
       </div>
 
-      <a rel="leanModal" href="#demo">500,000 subscribers</a>
+      <a rel="leanModal" href="#demo">500,000+ subscribers</a>
     </div>
   </div>
 </section>
 <section class="pricing-footer">
   <div class="inner large-inner flush-top bottom-padding-medium grid grid-third items-center">
     <div class="left">
-      <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50000</strong> customers</p>
+      <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50,000</strong> customers</p>
       <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
     </div>
 
