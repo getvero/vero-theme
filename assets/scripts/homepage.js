@@ -75,55 +75,77 @@ jQuery(document).ready(function(){
       start   : 50000,
       connect : [true, false],
       step    : 1000,
-      tooltips: true,
-      range   : {
+      tooltips: wNumb({
+        decimals: 0,
+        thousand: ',',
+        edit    : function(value) {
+          return parseInt(value.replace(/,/g, "")) == 500001 ? value + '+' : value;
+        }
+      }),
+      range: {
           'min': 0,
           'max': 500001
       },
       format: wNumb({
           decimals: 0,
-          mark    : '.',
           thousand: ','
       })
       // ,
       // pips: {
-      //   mode: 'values',
-      //   values: [0, 100000, 200000, 300000, 400000, 500000, 500001],
+      //   mode   : 'values',
+      //   values : [0, 100000, 200000, 300000, 400000, 500000, 500001],
       //   density: 10,
-      //   format: wNumb({
+      //   format : wNumb({
       //     decimals: 0,
-      //     mark    : '.',
       //     thousand: ','
       //   })
       // }
     });
 
     var customerUpdate = document.getElementById('js-customer-update'),
-        priceUpdate    = document.getElementById('js-price');
+        priceUpdate    = document.getElementById('js-price'),
+        trialBtn       = document.getElementById('js-trial-btn');
 
-    slider.noUiSlider.on('update', function (values, handle) {
+    slider.noUiSlider.on('update', function(values, handle) {
+      // Update customer value when sliding
       // customerUpdate.innerHTML = values[handle];
 
       // Strip comma from the values
       var str = values[handle];
-      str = str.replace(/,/g, "");
+          str = str.replace(/,/g, "");
 
       if (parseInt(str) <= 15000) {
         priceUpdate.innerHTML = '$125';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 15001 && parseInt(str) <= 50000) {
         priceUpdate.innerHTML = '$199';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 50001 && parseInt(str) <= 100000) {
         priceUpdate.innerHTML = '$399';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
         priceUpdate.innerHTML = '$749';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
         priceUpdate.innerHTML = '$1,049';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
         priceUpdate.innerHTML = '$1,399';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
         priceUpdate.innerHTML = '$1,749';
+
+        trialBtn.classList.remove('hide');
       } else if (parseInt(str) == 500001 ) {
-        priceUpdate.innerHTML = 'Contact us';
+        priceUpdate.innerHTML = 'High-volume pricing starts at $X';
+
+        trialBtn.classList.add('hide');
       }
     });
 
