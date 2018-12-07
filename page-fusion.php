@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="external-attributes-hero" class="border-bottom">
+<section id="external-attributes-hero" class="bottom-border-light">
   <div class="inner center-text flush-bottom">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
     <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
@@ -106,7 +106,7 @@
     </ul>
   </div>
 </section>
-<section id="external-attributes-scale" class="double-padding border-bottom">
+<section id="external-attributes-scale" class="double-padding bottom-border-light">
   <div class="inner center-text flush-bottom">
     <h1 class="chunk no-bottom-margin">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>

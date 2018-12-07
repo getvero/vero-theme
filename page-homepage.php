@@ -27,7 +27,7 @@
     </div>
   </div>
 </section>
-<section id="logos" class="logos border-bottom center-text">
+<section id="logos" class="logos bottom-border-light center-text">
   <div class="inner medium-inner">
     <h5 class="section-label bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
@@ -55,7 +55,7 @@
     <a class="display-block medium top-margin-medium" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
-<section id="features-summary" class="border-bottom">
+<section id="features-summary" class="bottom-border-light">
   <div class="inner large-inner center-text">
     <h1 class="no-bottom-margin">The data driven way to manage your email experiences</h1>
     <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>
