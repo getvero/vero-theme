@@ -14,7 +14,7 @@ include 'pages-shared/static-header.php';
   <div class="inner large-inner flush-bottom center-text">
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
   </div>
-  <div class="inner large-inner flush-top center-text">
+  <div class="inner large-inner flush-top bottom-padding-medium center-text">
     <p class="no-top-margin bottom-margin-large">How many subscribers do you have?</p>
 
     <div class="flexbox price-scale">
@@ -28,7 +28,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="pricing-footer">
-  <div class="inner large-inner flush-top bottom-padding-medium grid grid-third items-center">
+  <div class="inner large-inner flush-top grid grid-thirds items-center">
     <div class="left">
       <p class="no-top-margin no-bottom-margin"><strong id="js-customer-update">50,000</strong> customers</p>
       <p class="no-top-margin no-bottom-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
