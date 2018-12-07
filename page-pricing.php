@@ -23,7 +23,7 @@ include 'pages-shared/static-header.php';
         <div id="js-price-pips-values"></div>
       </div>
 
-      <a rel="leanModal" href="#demo">500,000+ subscribers</a>
+      <!-- <a rel="leanModal" href="#demo">500,000+ subscribers</a> -->
     </div>
 
     <div class="pricing-footer border-light border-radius padding-medium flexbox items-center">
