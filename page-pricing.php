@@ -14,10 +14,10 @@ include 'pages-shared/static-header.php';
   <div class="inner large-inner flush-bottom center-text">
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
   </div>
-  <div class="inner xlarge-inner flush-top bottom-padding-medium center-text">
-    <p class="no-top-margin bottom-margin-large">How many subscribers do you have?</p>
+  <div class="inner xlarge-inner flush-top">
+    <p class="no-top-margin bottom-margin-large center-text">How many subscribers do you have?</p>
 
-    <div class="flexbox price-scale top-margin-micro">
+    <div class="flexbox price-scale top-margin-micro bottom-margin-large center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
@@ -25,24 +25,21 @@ include 'pages-shared/static-header.php';
 
       <a rel="leanModal" href="#demo">500,000+ subscribers</a>
     </div>
-  </div>
-</section>
-<section class="pricing-footer">
-  <div class="inner xlarge-inner flush-top">
-    <div class="border-light border-radius padding-medium grid grid-thirds items-center">
+
+    <div class="pricing-footer border-light border-radius padding-medium flexbox items-center">
       <div class="left">
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
-        <p class="medium no-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
+        <p class="no-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
       </div>
 
       <div class="right flexbox">
         <div class="price right-margin-small">
-          <span class="chunk display-block" id="js-price">$199</span>
-          <p class="mini faded no-top-margin no-bottom-margin">monthly</p>
+          <span class="micro semi-bold" id="js-price">$199</span>
+          <p class="mini faded no-margin">monthly</p>
         </div>
 
         <div class="flexbox pricing-cta">
-          <a class="btn btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
           <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
         </div>
       </div>
@@ -79,7 +76,7 @@ include 'pages-shared/static-header.php';
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">Save 10%</h3>
+          <h3 class="micro medium no-bottom-margin">Save 15%</h3>
         </header>
 
         <p class="no-top-margin">Choose an annual plan and get <strong>15%</strong> off</p>
