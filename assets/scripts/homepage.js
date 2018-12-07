@@ -78,30 +78,31 @@ jQuery(document).ready(function(){
       tooltips: true,
       range   : {
           'min': 0,
-          'max': 500000
+          'max': 500001
       },
       format: wNumb({
           decimals: 0,
           mark    : '.',
           thousand: ','
-      }),
-      pips: {
-        mode: 'values',
-        values: [0, 100000, 200000, 300000, 400000, 500000],
-        density: 10,
-        format: wNumb({
-          decimals: 0,
-          mark    : '.',
-          thousand: ','
-        })
-      }
+      })
+      // ,
+      // pips: {
+      //   mode: 'values',
+      //   values: [0, 100000, 200000, 300000, 400000, 500000, 500001],
+      //   density: 10,
+      //   format: wNumb({
+      //     decimals: 0,
+      //     mark    : '.',
+      //     thousand: ','
+      //   })
+      // }
     });
 
     var customerUpdate = document.getElementById('js-customer-update'),
-    priceUpdate    = document.getElementById('js-price');
+        priceUpdate    = document.getElementById('js-price');
 
     slider.noUiSlider.on('update', function (values, handle) {
-      customerUpdate.innerHTML = values[handle];
+      // customerUpdate.innerHTML = values[handle];
 
       // Strip comma from the values
       var str = values[handle];
@@ -116,11 +117,13 @@ jQuery(document).ready(function(){
       } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
         priceUpdate.innerHTML = '$749';
       } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
-        priceUpdate.innerHTML = '$1049';
+        priceUpdate.innerHTML = '$1,049';
       } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
-        priceUpdate.innerHTML = '$1399';
+        priceUpdate.innerHTML = '$1,399';
       } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
-        priceUpdate.innerHTML = '$1749';
+        priceUpdate.innerHTML = '$1,749';
+      } else if (parseInt(str) == 500001 ) {
+        priceUpdate.innerHTML = 'Contact us';
       }
     });
 
