@@ -116,7 +116,7 @@
           <!-- <div class="bx-control bx-active" data-bx="2"></div> -->
         </div>
       </div>
-    </li> 
+    </li>
   </ul>
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
@@ -157,7 +157,7 @@
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
-    <ul class="feature-list unstyled-list flex center-text">
+    <ul class="feature-list grid grid-sixths unstyled-list center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x">
         <p class="semi-bold no-bottom-margin">Sydney</p>

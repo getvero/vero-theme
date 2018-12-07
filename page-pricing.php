@@ -50,7 +50,7 @@ include 'pages-shared/static-header.php';
 <section class="gray-section" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs">Addons</h2>
-    <div class="grid grid-third">
+    <div class="grid grid-thirds">
       <div class="border-light bg-white padding-small bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
@@ -84,19 +84,19 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner small-inner">
-    <ul class="unstyled-list feature-list flex center-text">
-      <li class="center-text">
+  <div class="inner medium-inner top-padding-large bottom-padding-large">
+    <ul class="unstyled-list feature-list grid-tiny justify-between center-text">
+      <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
         <h3 class="regular bottom-margin-tiny">24/7 support</h3>
         <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help</p>
       </li>
-      <li class="center-text">
+      <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46">
         <h3 class="regular bottom-margin-tiny">Data security</h3>
         <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
-      <li class="center-text">
+      <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46">
         <h3 class="regular bottom-margin-tiny">Unlimited everything</h3>
         <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
