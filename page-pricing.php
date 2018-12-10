@@ -28,15 +28,16 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-footer border-light border-radius padding-medium flexbox items-center">
       <div class="left">
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">/monthly</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
-        <p class="no-margin">Vero's plans include <strong>unlimited</strong> email and push messages</p>
+        <p class="no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
 
       <div class="right flexbox">
-        <div class="price right-margin-small">
+        <!-- <div class="price right-margin-small">
           <span class="micro semi-bold" id="js-price">$199</span>
           <p class="mini faded no-margin">monthly</p>
-        </div>
+        </div> -->
 
         <div class="flexbox pricing-cta">
           <a class="btn btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -79,7 +80,7 @@ include 'pages-shared/static-header.php';
           <h3 class="micro medium no-bottom-margin">Save 15%</h3>
         </header>
 
-        <p class="no-top-margin">Choose an annual plan and get <strong>15%</strong> off</p>
+        <p class="no-top-margin">Choose an annual plan and receive a discount</p>
         <a href="https://help.getvero.com/articles/lock-in-your-pricing.html" target="_blank" rel="noopener">Find out more</a>
       </div>
     </div>
@@ -204,8 +205,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Improve your customer experience today</h1>
-    <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
+    <h1 class="cta-title semi-bold semi-bold botton-margin-medium">Improve your customer experience today</h1>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
   </div>
 </section>

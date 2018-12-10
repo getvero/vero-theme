@@ -69,7 +69,7 @@ vero.users.track!({
 
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
     <p class="sub-heading">Create a free account and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
