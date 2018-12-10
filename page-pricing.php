@@ -205,7 +205,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold semi-bold botton-margin-medium">Improve your customer experience today</h1>
+    <h1 class="cta-title semi-bold semi-bold">Improve your customer experience today</h1>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
   </div>
 </section>
