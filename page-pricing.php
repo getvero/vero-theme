@@ -139,13 +139,13 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section id="pricing-faq">
+<section class="bg-gray-lighter" id="pricing-faq">
   <div class="inner">
     <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-medium">
       <div class="js-toggle flexbox question">
-        <h3 class="micro regular no-bottom-margin">What happens if I go over my subscription limit?</h3>
+        <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
