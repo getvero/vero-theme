@@ -135,7 +135,7 @@ jQuery(document).ready(function(){
 
         trialBtn.classList.remove('hide');
       } else if (parseInt(str) == 300001) {
-        priceUpdate.innerHTML = 'High-volume pricing starts at $X';
+        priceUpdate.innerHTML = 'High-volume pricing starts at $1,399';
 
         trialBtn.classList.add('hide');
       }
