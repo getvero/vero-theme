@@ -84,7 +84,7 @@ jQuery(document).ready(function(){
       }),
       range: {
           'min': 0,
-          'max': 500001
+          'max': 300001
       },
       format: wNumb({
           decimals: 0,
@@ -134,15 +134,7 @@ jQuery(document).ready(function(){
         priceUpdate.innerHTML = '$1,049';
 
         trialBtn.classList.remove('hide');
-      } else if (parseInt(str) >= 300001 && parseInt(str) <= 400000) {
-        priceUpdate.innerHTML = '$1,399';
-
-        trialBtn.classList.remove('hide');
-      } else if (parseInt(str) >= 400001 &&parseInt(str) <= 500000) {
-        priceUpdate.innerHTML = '$1,749';
-
-        trialBtn.classList.remove('hide');
-      } else if (parseInt(str) == 500001 ) {
+      } else if (parseInt(str) == 300001) {
         priceUpdate.innerHTML = 'High-volume pricing starts at $X';
 
         trialBtn.classList.add('hide');
