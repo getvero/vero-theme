@@ -79,7 +79,7 @@ jQuery(document).ready(function(){
         decimals: 0,
         thousand: ',',
         edit    : function(value) {
-          return parseInt(value.replace(/,/g, "")) == 500001 ? value + '+' : value;
+          return parseInt(value.replace(/,/g, "")) == 300001 ? value + '+' : value;
         }
       }),
       range: {
