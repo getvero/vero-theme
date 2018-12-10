@@ -15,33 +15,26 @@ include 'pages-shared/static-header.php';
     <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
   </div>
   <div class="inner xlarge-inner flush-top">
-    <p class="no-top-margin bottom-margin-large center-text">How many subscribers do you have?</p>
+    <h2 class="atomic regular bottom-margin-large center-text">How many subscribers do you have?</h2>
 
     <div class="flexbox price-scale top-margin-micro bottom-margin-large center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
       </div>
-
-      <!-- <a rel="leanModal" href="#demo">500,000+ subscribers</a> -->
     </div>
 
     <div class="pricing-footer border-light border-radius padding-medium flexbox items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">/monthly</span></p>
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">monthly</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
-        <p class="no-margin">Includes <strong>unlimited</strong> email and push messages</p>
+        <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
 
       <div class="right flexbox">
-        <!-- <div class="price right-margin-small">
-          <span class="micro semi-bold" id="js-price">$199</span>
-          <p class="mini faded no-margin">monthly</p>
-        </div> -->
-
         <div class="flexbox pricing-cta">
-          <a class="btn btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
+          <a class="btn btn-medium btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-medium btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
         </div>
       </div>
     </div>

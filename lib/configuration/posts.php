@@ -1,7 +1,7 @@
 <?php
 
 function add_feature_image_to_posts() {
-  
+
   if ( is_blog_post_or_guide() ){
     global $post;
     $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
@@ -15,14 +15,14 @@ function add_feature_image_to_posts() {
 
 function force_full_width_on_posts( $options ) {
   if( is_blog_post_or_guide() ) {
-    $options = 'full-width-content'; 
+    $options = 'full-width-content';
     return $options;
   }
 }
 
 function add_blog_post_back_button() {
   global $post;
-  
+
   if( is_child_guide() ){?>
     <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Table of Contents</a>
   <?php } else if ( is_singular('release-notes') ) { ?>
@@ -38,7 +38,7 @@ function add_shares_to_post() {
     ?>
       <div class='shares-block'>
         <!-- <div class='total-shares'>
-          <span><?php 
+          <span><?php
             //$share_obj = new Naked_Social_Share_Buttons($post);
             //$final_shares = get_field('naked_shares_count');
             //if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
@@ -105,7 +105,7 @@ function add_class_to_small_images( $content ) {
   $dom = new DOMDocument();
   @$dom->loadHTML( $content );
   $dom->preserveWhiteSpace = false;
-  
+
   $images = $dom->getElementsByTagName('img');
   foreach ($images as $image) {
     $parent = $image->parentNode;
@@ -118,7 +118,7 @@ function add_class_to_small_images( $content ) {
     // the existing classes already on the images
     $existing_classes = $parent->getAttribute('class');
     $existing_styles = $parent->getAttribute('style');
-    
+
     if( $width < 628) {
       // the class we're adding
       $new_class = ' small-image';
@@ -189,16 +189,16 @@ function add_blue_signup_boxes( $content ) {
     $total_p_tags = $tags->length;
 
     $content = blue_signup_box_content();
-    $frag = $dom->createDocumentFragment(); 
-    $frag->appendXML( $content ); 
+    $frag = $dom->createDocumentFragment();
+    $frag->appendXML( $content );
 
-    $div = $dom->createElement( 'div', '' ); 
+    $div = $dom->createElement( 'div', '' );
     $div->setAttribute( "class", "blue-signup" );
-    
-    $div->appendChild($frag); 
+
+    $div->appendChild($frag);
 
     $insertion_point = get_element($tags, (($total_p_tags/2)-1));
-    $insertion_point->insertBefore( $div, $index_p );  
+    $insertion_point->insertBefore( $div, $index_p );
   }
 
   return $dom->saveHTML();
