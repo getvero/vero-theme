@@ -144,8 +144,7 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-      <p>Vero will send you an email when you cross the subscriber threshold of your current plan and automatically upgrade you to a new plan for your next billing period.
-    </p>
+      <p>Vero will send you an email when you cross the subscriber threshold of your current plan. Your account will be automatically upgraded to a new plan, which will be reflected in your your next invoice.</p>
       <p>As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
       </div>
     </div>
@@ -157,8 +156,8 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>Our global support team is on hand to help 24 hours a day. Our email support has a customer satisfaction rating of over 98%.</p>
-        <p>We have dedicated support team members in Australia, Europe, and the USA. We also provide urgent, emergency support for customers on our High-volume plans - <a id="" rel="leanModal" href="#demo">talk to our sales team</a> to learn more.</p>
+        <p>Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
+        <p>We also provide urgent, emergency support for customers on our high-volume plans - <a rel="leanModal" href="#demo">talk to our sales team</a> to learn more.</p>
       </div>
     </div>
 
