@@ -34,7 +34,7 @@ include 'pages-shared/static-header.php';
       <div class="right flexbox">
         <div class="flexbox pricing-cta">
           <a class="btn btn-medium btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-medium btn-outline btn-primary" rel="leanModal" href="#demo" >Contact our sales team</a>
+          <a class="btn btn-medium btn-outline btn-primary" rel="leanModal" href="#demo">Contact our sales team</a>
         </div>
       </div>
     </div>
@@ -144,7 +144,8 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-      <p>Vero will send you an email when you cross the subscriber or email threshold of your current plan during a billing period. You will automatically be upgraded to the appropriate plan.</p>
+      <p>Vero will send you an email when you cross the subscriber threshold of your current plan and automatically upgrade you to a new plan for your next billing period.
+    </p>
       <p>As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
       </div>
     </div>
@@ -156,8 +157,8 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>Our global support team is on hand to help 24 hours a day. Our email support has a satisfaction rating of over 98% and our internal SLA is to provide a response to every ticket within eight hours, regardless of where you are in the world.</p>
-        <p>We have dedicated support team members in Australia, Europe and the USA. We also provide urgent, emergency support for customers on our Pro Plans (contact sales to learn more.</p>
+        <p>Our global support team is on hand to help 24 hours a day. Our email support has a customer satisfaction rating of over 98%.</p>
+        <p>We have dedicated support team members in Australia, Europe, and the USA. We also provide urgent, emergency support for customers on our High-volume plans - <a id="" rel="leanModal" href="#demo">talk to our sales team</a> to learn more.</p>
       </div>
     </div>
 
@@ -168,7 +169,7 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>You sure can. We offer a 10% discount when you subscribe to an annual plan. You can get the full details <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">here</a>.</p>
+        <p>You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">Find out more about annual plans</a>.</p>
       </div>
     </div>
 
@@ -179,7 +180,7 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>In Vero, sub-accounts are called “Projects”. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as free <strong>sandboxes</strong>.</p>
+        <p>In Vero, sub-accounts are called <strong>Projects</strong>. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as <strong>free sandboxes</strong>.</p>
         <p>If you’re an agency, you may also use projects to manage multiple clients.</p>
       </div>
     </div>
@@ -191,7 +192,7 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="/terms-of-service" target="blank">Terms of Service</a> for more details.</p>
+        <p>Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> for more details.</p>
       </div>
     </div>
   </div>
