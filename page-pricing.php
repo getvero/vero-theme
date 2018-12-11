@@ -84,8 +84,8 @@ include 'pages-shared/static-header.php';
     <ul class="unstyled-list feature-list grid grid-tiny center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
-        <h3 class="regular bottom-margin-tiny">24/7 support</h3>
-        <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help</p>
+        <h3 class="regular bottom-margin-tiny">24 hour support</h3>
+        <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help you</p>
       </li>
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46">
