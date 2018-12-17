@@ -91,6 +91,7 @@ function add_subscribe_form() {
           <input name='redirect_on_success' type='hidden' value='https://veropublic.wpengine.com/subscribed-to-the-blog/' />
           <input name='user[consent_marketing]' type='hidden' value='true' />
           <input name='user[consent_product_updates]' type='hidden' value='true' />
+          <input name='user[contact_by_fax_only]' type='checkbox' value='1' style='display:none !important' tabindex="-1" autocomplete="false" />
           <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
       </form>
       <p class="mini">By subscribing, you consent to let Vero send you messages regarding marketing and product. You can learn more in our <a href="https://www.getvero.com/privacy" target="_blank">Privacy Notice</a>, and you can opt out or change your consent at any time.</p>

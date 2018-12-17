@@ -18,8 +18,7 @@
 
       <div class="hero-footer">
         <a class="btn btn-success btn-large btn-wide" href="https://app.getvero.com/signup">Start a free trial</a>
-
-        <a href="/features">Learn more</a>
+        <a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
     <div class="image center-text">
@@ -187,4 +186,5 @@
 </section>
 <?php
   no_content_genesis_footer();
+  include("demo-enquiry-form.php");
 ?>

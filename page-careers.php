@@ -194,8 +194,8 @@
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
     <h1 class="chunk">See where you fit in</h1>
-    <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
-    <ul class="unstyled-list lined-list top-margin-medium">
+    <p class="medium">We’ll be adding new roles soon!</p>
+    <!-- <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
         <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold display-block vertical-padding-small">
           Content Manager (UK)
@@ -210,7 +210,7 @@
         </a>
       </li>
     </ul>
-    <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
+    <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p> -->
   </div>
 </section>
 <?php
