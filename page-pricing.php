@@ -74,7 +74,7 @@ include 'pages-shared/static-header.php';
         </header>
 
         <p class="no-top-margin">Choose an annual plan and receive a discount</p>
-        <a href="https://help.getvero.com/articles/lock-in-your-pricing.html" target="_blank" rel="noopener">Find out more</a>
+        <a href="https://help.getvero.com/articles/annual-plan-discount.html" target="_blank" rel="noopener">Find out more</a>
       </div>
     </div>
   </div>
