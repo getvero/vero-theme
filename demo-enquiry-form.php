@@ -1,8 +1,7 @@
 <div id="demo">
   <div class="inner">
     <div id="enquire-intro" class="center-text">
-      <h2>We're here to answer your questions</h2>
-      <p class="medium">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
+      <p class="regular">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
     </div>
     <div id="thanks" class="center-text">
       <h2>Thanks!</h2>
@@ -17,9 +16,9 @@
         <div class="form-group"><label>Name: <span>*</span></label><input id="sender_name" class="form-control" name="name" type="text" autofocus="autofocus" /></div>
         <div class="form-group"><label>Email: <span>*</span></label><input id="sender_email_address" class="form-control" name="email" type="text" /></div>
         <div class="form-group"><label>Phone:</label><input id="sender_phone" class="form-control" name="phone" type="text" /></div>
-        <div class="form-group"><label>Company name: <span>*</span></label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
       </div>
       <div class="half">
+        <div class="form-group"><label>Company name: <span>*</span></label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
         <div class="form-group"><label>How many subscribers do you have?</label>
           <select id="sender_subscribers" class="form-control" name="subscribers">
             <option value="250000">175,000 - 250,000 subscribers</option>
@@ -41,7 +40,7 @@
           <input name="contact_by_fax_only" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false" />
         </div>
       </div>
-      <div class="full-width center-text">
+      <div class="full-width top-padding-small center-text">
         <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock">
         <input type="submit" value="Get in touch" id="request-demo" class="btn btn-success">
       </div>
