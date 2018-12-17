@@ -2,7 +2,7 @@
   <div class="inner">
     <div id="enquire-intro" class="center-text">
       <h2>We're here to answer your questions</h2>
-      <p class="medium">Fill out the form below and our Success Team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
+      <p class="medium">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
     </div>
     <div id="thanks" class="center-text">
       <h2>Thanks!</h2>
