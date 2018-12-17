@@ -20,27 +20,18 @@
         <div class="form-group"><label>Company name: <span>*</span></label><input id="sender_company_name" class="form-control" name="company_name" type="text" /></div>
       </div>
       <div class="half">
-        <div class="form-group"><label>Current number of subscribers:</label><select id="sender_subscribers" class="form-control" name="subscribers">
-          <option value="250000">175,000 - 250,000 subscribers</option>
-          <option value="500000">250,000 - 500,000 subscribers</option>
-          <option value="1000000">500,000 - 1,000,000 subscribers</option>
-          <option value="5000000">1,000,000 - 5,000,000 subscribers</option>
-          <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
-          <option value="more">10,000,000+ subscribers</option></select></div>
-        <div class="form-group"><label>Current number of emails sent monthy:</label><select id="sender_emails" class="form-control" name="monthly_emails">
-          <option value="1000000">400,000 - 1,000,000 emails</option>
-          <option value="1000000">1,000,000 - 5,000,000 emails</option>
-          <option value="10000000">5,000,000 - 10,000,000 emails</option>
-          <option value="50000000">10,000,000 - 50,000,000 emails</option>
-          <option value="more">50,000,000+ emails</option></select></div>
-        <!-- <div class="form-group"><label>Select data region you're interested in:</label><select id="sender_region" class="form-control" name="monthly_emails">
-          <option value="not-important">Not important (agnostic)</option>
-          <option value="usa">North America</option>
-          <option value="eea">Europe (EEA)</option>
-          <option value="au">Australia</option>
-          <option value="china">China</option></select></div> -->
+        <div class="form-group"><label>How many subscribers do you have?</label>
+          <select id="sender_subscribers" class="form-control" name="subscribers">
+            <option value="250000">175,000 - 250,000 subscribers</option>
+            <option value="500000">250,000 - 500,000 subscribers</option>
+            <option value="1000000">500,000 - 1,000,000 subscribers</option>
+            <option value="5000000">1,000,000 - 5,000,000 subscribers</option>
+            <option value="10000000">5,000,000 - 10,000,000 subscribers</option>
+            <option value="more">10,000,000+ subscribers</option>
+          </select>
+        </div>
         <div class="radio-group">
-          <label>Preferred contact method:</label><br>
+          <label>How would you like us to contact you?</label><br>
           <input id="email" checked="checked" name="contact_method" type="radio" value="email" />
           <label class="method" for="email">Email</label>
           <input id="phone" name="contact_method" type="radio" value="phone" />
