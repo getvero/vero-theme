@@ -168,7 +168,7 @@ include 'pages-shared/static-header.php';
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
-        <p>You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/lock-in-your-pricing.html">Find out more about annual plans</a>.</p>
+        <p>You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/annual-plan-discount.html">Find out more about annual plans</a>.</p>
       </div>
     </div>
 
