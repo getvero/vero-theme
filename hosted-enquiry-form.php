@@ -40,6 +40,9 @@
           <input id="phone" name="contact_method" type="radio" value="phone" />
           <label class="method" for="phone">Phone</label>
         </div>
+        <div class="checkbox">
+          <input name="contact_by_fax_only" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false" />
+        </div>
       </div>
       <div class="full-width center-text">
         <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock">
