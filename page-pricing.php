@@ -64,7 +64,7 @@ include 'pages-shared/static-header.php';
         </header>
 
         <p class="no-top-margin">We'll track and centralize your reporting</p>
-        <a href="https://help.getvero.com/articles/improving-deliverability" target="_blank" rel="noopener">Find out more</a>
+        <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
       </div>
       <div class="border-light border-radius bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
