@@ -100,7 +100,7 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="dark-box">
+<section class="dark-box" id="pricing-logos">
   <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
     <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
 
