@@ -26,23 +26,35 @@
     </div>
   </div>
 </section>
-<section id="logos" class="logos border-bottom center-text">
-  <div class="inner large-inner">
+<section id="logos" class="logos bottom-border-light center-text">
+  <div class="inner medium-inner">
     <h5 class="section-label bottom-margin-small">Used to build best-in-class customer experiences</h5>
 
     <ul class="unstyled-list logos-list">
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="https://unsplash.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash" height="76"></a></li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://tidal.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></a></li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://monzo.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></a></li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://pipedrive.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></a></li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://about.me"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></a></li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://helloprint.co.uk"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></a></li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="https://unsplash.com">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash" height="76"></a>
+      </li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://tidal.com">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></a>
+      </li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://monzo.com">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></a>
+      </li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://pipedrive.com">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></a>
+      </li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://about.me">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></a>
+      </li>
+      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://helloprint.co.uk">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></a>
+      </li>
     </ul>
 
     <a class="display-block medium top-margin-medium" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
-<section id="features-summary" class="border-bottom">
+<section id="features-summary" class="bottom-border-light">
   <div class="inner large-inner center-text">
     <h1 class="no-bottom-margin">The data driven way to manage your email experiences</h1>
     <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>

@@ -59,6 +59,8 @@ function add_js() {
   wp_register_script('featherlight', get_stylesheet_directory_uri() . '/assets/scripts/vendor/featherlight.min.js', NULL, NULL, true);
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
   wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
+  wp_register_script('nouislider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/nouislider.min.js', NULL, NULL, true);
+  wp_register_script('wNumb', get_stylesheet_directory_uri() . '/assets/scripts/vendor/wNumb.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -74,6 +76,12 @@ function add_js() {
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('smooth-scroll');
+
+  if (is_page('pricing')) {
+    wp_enqueue_script('wNumb');
+    wp_enqueue_script('nouislider');
+  }
+
   wp_enqueue_script('homepage');
   wp_enqueue_script('features');
   wp_enqueue_script('pricing');
@@ -85,4 +93,5 @@ function add_js() {
     wp_enqueue_script('highlight-js');
   }
 }
+
 ?>

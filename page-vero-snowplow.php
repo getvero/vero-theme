@@ -54,7 +54,7 @@
     </div>
   </div>
 </section>
-<section id="features-more" class="border-bottom">
+<section id="features-more" class="bottom-border-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -103,7 +103,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Create a Vero account and connect to Snowplow in minutes</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

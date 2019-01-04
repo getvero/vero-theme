@@ -1,12 +1,12 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'more-page';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
 
@@ -109,14 +109,14 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Create a free account, build your first workflow and see how Vero can help your team.</p>
     <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get Started</a>
   </div>
 </section>
 
 
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>
