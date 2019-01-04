@@ -104,7 +104,7 @@ include 'pages-shared/static-header.php';
   <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
     <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
 
-    <ul class="unstyled-list logos-list">
+    <ul class="unstyled-list logos-list flexbox">
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class="display-block" href="https://unsplash.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
