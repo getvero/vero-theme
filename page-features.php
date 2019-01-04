@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="features-menu" class="border-bottom">
+<section id="features-menu" class="bottom-border-light">
   <div class="inner large-inner center-text">
     <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
@@ -21,7 +21,7 @@
     </ul>
   </div>
 </section>
-<section id="features-collection" class="feature-section double-padding border-bottom">
+<section id="features-collection" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper left-padding-large right-padding-large">
     <h2 class="semi-bold center-text small uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
     <div class="left primary">
@@ -43,12 +43,12 @@
       <pre class="vero-code okaidia inactive-feature" id="feature-collection-apple" data-src="/wp-content/themes/vero/snippets/features-collection-apple.m"></pre>
 
       <ul class="collection-code button-list unstyled-list center-text">
-        <li class="active"><a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-js@2x.png 2x"></a></li>
-        <li><a href="#js" title="PHP" class="feature-swapper-option" data-swap-to="feature-collection-php"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-php.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-php@2x.png 2x"></a></li>
-        <li><a href="#js" title="Ruby" class="feature-swapper-option" data-swap-to="feature-collection-ruby"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby@2x.png 2x"></a></li>
-        <li><a href="#js" title="Node.js" class="feature-swapper-option" data-swap-to="feature-collection-node"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs@2x.png 2x"></a></li>
-        <li><a href="#js" title="Python" class="feature-swapper-option" data-swap-to="feature-collection-python"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-python.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-python@2x.png 2x"></a></li>
-        <li><a href="#js" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple"><img src="/wp-content/themes/vero/assets/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-apple@2x.png 2x"></a></li>
+        <li class="active"><a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-js@2x.png 2x"></a></li>
+        <li><a href="#js" title="PHP" class="feature-swapper-option" data-swap-to="feature-collection-php"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-php.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-php@2x.png 2x"></a></li>
+        <li><a href="#js" title="Ruby" class="feature-swapper-option" data-swap-to="feature-collection-ruby"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby@2x.png 2x"></a></li>
+        <li><a href="#js" title="Node.js" class="feature-swapper-option" data-swap-to="feature-collection-node"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs@2x.png 2x"></a></li>
+        <li><a href="#js" title="Python" class="feature-swapper-option" data-swap-to="feature-collection-python"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-python.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-python@2x.png 2x"></a></li>
+        <li><a href="#js" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-apple@2x.png 2x"></a></li>
       </ul>
 
       <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
@@ -69,7 +69,7 @@
     </div>
   </div>
 </section>
-<section id="features-modelling" class="feature-section double-padding border-bottom">
+<section id="features-modelling" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper">
     <h2 class="semi-bold center-text small uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
     <div class="left secondary">
@@ -105,7 +105,7 @@
     </div>
   </div>
 </section>
-<section id="features-automation" class="feature-section double-padding border-bottom">
+<section id="features-automation" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper">
     <h2 class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
     <div class="clearfix">
@@ -151,7 +151,7 @@
     </div>
   </div>
 </section>
-<section id="features-deployment" class="feature-section double-padding border-bottom">
+<section id="features-deployment" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner">
     <h2 class="semi-bold center-text small uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
     <div class="left secondary">
@@ -212,7 +212,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better customer experiences</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
     <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

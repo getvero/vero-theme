@@ -8,15 +8,6 @@ jQuery(document).ready(function(){
     hideControlOnEnd: true,
     pager           : false
   });
-  var slider = jQuery('#pricing-slider').bxSlider({
-    mode            : 'fade',
-    adaptiveHeight  : true,
-    responsive      : true,
-    controls        : false,
-    infiniteLoop    : false,
-    hideControlOnEnd: true,
-    pager           : false
-  });
   var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
     mode            : 'fade',
     adaptiveHeight  : true,
@@ -54,18 +45,6 @@ jQuery(document).ready(function(){
       return false;
     }
   });
-  // jQuery('#slider-yearly').click(function(){
-  //   if(jQuery(this).hasClass('active')){
-  //     return false;
-  //   }
-  //   else {
-  //     slider.goToSlide(3);
-  //     jQuery(this).addClass('active')
-  //     jQuery('#slider-monthly').removeClass('active')
-  //     jQuery('#slider-yearly').removeClass('active')
-  //     return false;
-  //   }
-  // });
 
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
@@ -87,6 +66,87 @@ jQuery(document).ready(function(){
       sub_menu.removeClass('show-sub-menu');
     }
   });
+
+  // Pricing Slider
+  if (jQuery('body').hasClass('pricing')) {
+    var slider = document.getElementById('js-price-slider');
+
+    noUiSlider.create(slider, {
+      start   : 50000,
+      connect : [true, false],
+      step    : 1000,
+      tooltips: wNumb({
+        decimals: 0,
+        thousand: ',',
+        edit    : function(value) {
+          return parseInt(value.replace(/,/g, "")) == 300001 ? value + '+' : value;
+        }
+      }),
+      range: {
+          'min': 0,
+          'max': 300001
+      },
+      format: wNumb({
+          decimals: 0,
+          thousand: ','
+      })
+      // ,
+      // pips: {
+      //   mode   : 'values',
+      //   values : [0, 100000, 200000, 300000, 400000, 500000, 500001],
+      //   density: 10,
+      //   format : wNumb({
+      //     decimals: 0,
+      //     thousand: ','
+      //   })
+      // }
+    });
+
+    var customerUpdate = document.getElementById('js-customer-update'),
+        priceUpdate    = document.getElementById('js-price'),
+        trialBtn       = document.getElementById('js-trial-btn');
+
+    slider.noUiSlider.on('update', function(values, handle) {
+      // Update customer value when sliding
+      // customerUpdate.innerHTML = values[handle];
+
+      // Strip comma from the values
+      var str = values[handle];
+          str = str.replace(/,/g, "");
+
+      if (parseInt(str) <= 15000) {
+        priceUpdate.innerHTML = '$125';
+
+        trialBtn.classList.remove('hide');
+      } else if (parseInt(str) >= 15001 && parseInt(str) <= 50000) {
+        priceUpdate.innerHTML = '$199';
+
+        trialBtn.classList.remove('hide');
+      } else if (parseInt(str) >= 50001 && parseInt(str) <= 100000) {
+        priceUpdate.innerHTML = '$399';
+
+        trialBtn.classList.remove('hide');
+      } else if (parseInt(str) >= 100001 && parseInt(str) <= 200000) {
+        priceUpdate.innerHTML = '$749';
+
+        trialBtn.classList.remove('hide');
+      } else if (parseInt(str) >= 200001 && parseInt(str) <= 300000) {
+        priceUpdate.innerHTML = '$1,049';
+
+        trialBtn.classList.remove('hide');
+      } else if (parseInt(str) == 300001) {
+        priceUpdate.innerHTML = 'High-volume pricing starts at $1,399';
+
+        trialBtn.classList.add('hide');
+      }
+    });
+
+    // Toggle FAQs
+    jQuery('.js-toggle').click(function(){
+      jQuery(this).parent().toggleClass('active');
+      jQuery(this).next().toggleClass('active');
+    });
+  }
 });
 
 var h          = jQuery(".nav-primary .wrap");
@@ -122,19 +182,21 @@ jQuery(window).scroll(function(){
 });
 
 // Liquid guide sticky sidebar
-var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
+if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {
+  var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
 
-jQuery(window).scroll(function(){
-  if (jQuery(window).scrollTop() > heroDistance - 89) {
-    jQuery('.sidebar-sticky').addClass('sticky');
-  } else {
-    jQuery('.sidebar-sticky').removeClass('sticky');
-  }
+  jQuery(window).scroll(function(){
+    if (jQuery(window).scrollTop() > heroDistance - 89) {
+      jQuery('.sidebar-sticky').addClass('sticky');
+    } else {
+      jQuery('.sidebar-sticky').removeClass('sticky');
+    }
 
-  // At bottom
-  if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
-    jQuery('.sidebar-sticky').addClass('bottom');
-  } else {
-    jQuery('.sidebar-sticky').removeClass('bottom');
-  }
-});
+    // At bottom
+    if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
+      jQuery('.sidebar-sticky').addClass('bottom');
+    } else {
+      jQuery('.sidebar-sticky').removeClass('bottom');
+    }
+  });
+}

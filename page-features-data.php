@@ -145,7 +145,7 @@ product_url: 'http://www.yourdomain.com/products/red-t-shirt'
 
 <section id="call-to-action" class="center-text">
   <div class="inner center-text">
-    <h1 class="cta-title">Send your first email today</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Send your first email today</h1>
     <p class="sub-heading">No contracts to lock you in, only pay when you start sending live emails</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">

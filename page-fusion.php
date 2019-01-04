@@ -1,15 +1,15 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'external-attributes';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
-<section id="external-attributes-hero" class="border-bottom">
+<section id="external-attributes-hero" class="bottom-border-light">
   <div class="inner center-text flush-bottom">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
     <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
@@ -101,12 +101,12 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-secure.svg">
         <div class="right"><p class="medium semi-bold no-top-margin">Multiple Authentication Methods</p>
-        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold green-text top-padding-tiny inline-block">Coming Soon</span></p></div>
+        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny inline-block">Coming Soon</span></p></div>
       </li>
     </ul>
   </div>
 </section>
-<section id="external-attributes-scale" class="double-padding border-bottom">
+<section id="external-attributes-scale" class="double-padding bottom-border-light">
   <div class="inner center-text flush-bottom">
     <h1 class="chunk no-bottom-margin">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
@@ -115,16 +115,16 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better product experiences</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
     <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
+    <p class="mini faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>

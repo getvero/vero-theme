@@ -47,7 +47,7 @@
     </div>
   </div>
 </section>
-<section id="features-more" class="border-bottom">
+<section id="features-more" class="bottom-border-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -83,7 +83,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section border-bottom">
+<section id="vero-segment-test-event" class="feature-section bottom-border-light">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -106,7 +106,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Start building your best campaigns today</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Create a Vero account and connect to Segment in minutes</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

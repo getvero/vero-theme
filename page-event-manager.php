@@ -1,12 +1,12 @@
-<?php 
+<?php
   add_filter( 'body_class', 'add_class' );
   function add_class($classes) {
     global $post;
 
     $classes[] = 'more-page';
-    return $classes;  
+    return $classes;
   }
-  
+
   include 'pages-shared/static-header.php';
 ?>
 <section id="event-manager-heading">
@@ -59,16 +59,16 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title">Put your data first and craft better customer experiences</h1>
+    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
     <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
       <input class="btn btn-success" type="submit" value="Create your account">
     </form>
-    <p class="mini light faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
+    <p class="mini faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
   </div>
 </section>
-<?php 
+<?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
 ?>
