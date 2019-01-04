@@ -26,18 +26,42 @@
     </div>
   </div>
 </section>
-<section id="logos" class="logos border-bottom">
-  <div class="inner xlarge-inner">
+<section id="logos" class="logos">
+  <div class="inner xlarge-inner flush-top">
     <h2 class="section-label bottom-margin-small">Trusted worldwide</h2>
 
-    <div class="border-light border-radius-10 bg-white grid grid-half">
-      <ul class="unstyled-list logos-list grid bg-dark-blue">
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="https://unsplash.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash" height="76"></a></li>
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="http://tidal.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></a></li>
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="http://monzo.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></a></li>
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="http://pipedrive.com"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></a></li>
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="http://about.me"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></a></li>
-        <li class="logos-list-item no-top-margin"><a class="display-block" href="http://helloprint.co.uk"><img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></a></li>
+    <div class="border-light border-radius-10 bg-white grid grid-halfs">
+      <ul class="unstyled-list logos-list grid bg-dark-blue center-text">
+        <li class="logos-list-item no-margin">
+          <a class="display-block vertical-padding-tiny" href="https://unsplash.com">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
+          </a>
+        </li>
+        <li class="logos-list-item no-margin">
+          <a class="display-block vertical-padding-tiny" href="http://tidal.com">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
+          </a>
+        </li>
+        <li class="logos-list-item no-margin">
+          <a class="display-block vertical-padding-tiny" href="http://monzo.com">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
+          </a>
+        </li>
+        <li class="logos-list-item no-margin">
+          <a class="display-block vertical-padding-tiny" href="http://pipedrive.com">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
+          </a>
+        </li>
+        <li class="logos-list-item no-margin">
+          <a class="display-block vertical-padding-tiny" href="http://about.me">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-aboutme.svg" alt="about.me" height="76">
+          </a>
+        </li>
+        <li class="logos-list-item no-margin">
+          <a class="display-block" href="http://helloprint.co.uk">
+            <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
+          </a>
+        </li>
       </ul>
 
       <blockquote>
