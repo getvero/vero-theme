@@ -9,18 +9,17 @@
   do_action( 'genesis_after_header' );
 ?>
   <div class="inner large-inner flush-bottom">
-    <div class="content">
-      <div class="hero-body">
-        <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
+    <div class="hero-body">
+      <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
 
-        <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
-      </div>
-
-      <div class="hero-footer">
-        <a class="btn btn-success btn-large btn-wide" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
-      </div>
+      <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
     </div>
+
+    <div class="hero-footer">
+      <a class="btn btn-success btn-large btn-wide" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+    </div>
+
     <div class="image center-text">
       <img class="bottom-margin-large" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
     </div>
