@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120" viewBox="0 0 220 120">
+  <g fill="none" fill-rule="evenodd" transform="translate(9 27)">
+    <polygon fill="#6FD350" fill-opacity=".2" points="30.5 8 61 66 0 66"/>
+    <path stroke="#6FD350" stroke-width="2" d="M41.5,2.14854188 L12.6556987,57 L70.3443013,57 L41.5,2.14854188 Z"/>
+    <g transform="translate(130)">
+      <polygon fill="#6FD350" fill-opacity=".2" points="30.5 8 61 66 0 66"/>
+      <path stroke="#6FD350" stroke-width="2" d="M41.5,2.14854188 L12.6556987,57 L70.3443013,57 L41.5,2.14854188 Z"/>
+    </g>
+    <path stroke="#6FD350" stroke-dasharray="6 10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M47.2914987,35.5 L173,35.5"/>
+  </g>
+</svg>
