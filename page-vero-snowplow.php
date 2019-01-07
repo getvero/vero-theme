@@ -33,7 +33,7 @@
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
-<section class="double-padding gray-section">
+<section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
     <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>

@@ -40,7 +40,7 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="gray-section" id="pricing-addons">
+<section class="bg-offwhite" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs">Simple, flexible pricing options</h2>
     <div class="grid grid-thirds">

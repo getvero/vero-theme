@@ -44,7 +44,7 @@
         <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock">
         <input type="submit" value="Get in touch" id="request-demo" class="btn btn-success">
       </div>
-      <p class="small light faded center-text">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our  <a href="/privacy">Privacy Notice</a>.</p>
+      <p class="annotation light faded center-text">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our  <a href="/privacy">Privacy Notice</a>.</p>
     </form>
   </div>
   <div class="modal_close"><span class="fa fa-close"></span></div>

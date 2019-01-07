@@ -42,7 +42,7 @@
     </ul>
   </div>
 </section>
-<section id="workflows-ui-nodes" class="feature-section double-padding">
+<section id="workflows-ui-nodes" class="feature-section double-padding bg-offwhite">
   <div class="inner large-inner">
     <div class="flex-inner">
       <div class="left center-text primary">
@@ -89,7 +89,7 @@
     </div>
   </div>
 </section>
-<section id="workflows-details" class="feature-section double-padding gray-section">
+<section id="workflows-details" class="feature-section double-padding bg-offwhite">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie bottom-margin-large">We've got the details covered</h2>
   </div>

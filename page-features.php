@@ -14,16 +14,16 @@
     <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
     <ul class="feature-list feature-menu-list unstyled-list full-width">
-      <li class="no-top-margin"><a href="#features-collection" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
-      <li class="no-top-margin"><a href="#features-modelling" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
-      <li class="no-top-margin"><a href="#features-automation" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
-      <li class="no-top-margin"><a href="#features-deployment" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
+      <li class="no-top-margin"><a href="#features-collection" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold annotation uppercase font-brand-warning center-text">Collection</p></a></li>
+      <li class="no-top-margin"><a href="#features-modelling" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold annotation uppercase font-brand-success center-text">Modelling</p></a></li>
+      <li class="no-top-margin"><a href="#features-automation" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold annotation uppercase font-brand-primary center-text">Automation</p></a></li>
+      <li class="no-top-margin"><a href="#features-deployment" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold annotation uppercase font-brand-error center-text">Deployment</p></a></li>
     </ul>
   </div>
 </section>
 <section id="features-collection" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper left-padding-large right-padding-large">
-    <h2 class="semi-bold center-text small uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
+    <h2 class="semi-bold center-text annotation uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
     <div class="left primary">
 
       <ul class="button-list unstyled-list center-text">
@@ -71,7 +71,7 @@
 </section>
 <section id="features-modelling" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper">
-    <h2 class="semi-bold center-text small uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
+    <h2 class="semi-bold center-text annotation uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
     <div class="left secondary">
       <h1 class="tubs regular no-bottom-margin">View and model your customer data in one place</h1>
       <p class="smallish top-margin-medium no-bottom-margin">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
@@ -92,12 +92,12 @@
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
         <li class="active top-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
-            <p class="semi-bold small no-margin">Segmentation</p>
+            <p class="semi-bold annotation no-margin">Segmentation</p>
           </a>
         </li>
         <li class="top-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
-            <p class="semi-bold small no-margin">Customer Profiles</p>
+            <p class="semi-bold annotation no-margin">Customer Profiles</p>
           </a>
         </li>
       </ul>
@@ -107,7 +107,7 @@
 </section>
 <section id="features-automation" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner feature-swapper">
-    <h2 class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
+    <h2 class="semi-bold center-text annotation uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
     <div class="clearfix">
       <div class="left primary">
         <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
@@ -115,12 +115,12 @@
         <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
           <li class="active top-margin-small">
             <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
-              <p class="semi-bold small no-margin">Automation</p>
+              <p class="semi-bold annotation no-margin">Automation</p>
             </a>
           </li>
           <li class="top-margin-small">
             <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
-              <p class="semi-bold small no-margin">Manage Content</p>
+              <p class="semi-bold annotation no-margin">Manage Content</p>
             </a>
           </li>
         </ul>
@@ -153,7 +153,7 @@
 </section>
 <section id="features-deployment" class="feature-section double-padding bottom-border-light">
   <div class="inner halfs large-inner">
-    <h2 class="semi-bold center-text small uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
+    <h2 class="semi-bold center-text annotation uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
     <div class="left secondary">
       <h1 class="tubs regular no-bottom-margin">Scalability and centralised reporting</h1>
       <p class="smallish top-margin-medium">Deploy your email automation and content reliabily whether it's to one or 100+ million customers. Let us handle deliverability or BYO email infrastructure platform – we'll track and centralise your reporting.</p>

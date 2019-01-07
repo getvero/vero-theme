@@ -48,7 +48,7 @@
 </section>
 <section id="features-more" class="double-padding">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <p class="semi-bold center-text small uppercase font-brand-gray center-text no-top-margin bottom-margin-medium">AND MORE</p>
+    <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-medium">AND MORE</p>
     <ul class="feature-list left-align unstyled-list halfs">
       <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-error.svg"><div class="right"><p class="medium regular no-top-margin">See when data stops flowing</p><p class="light">See events that are no longer firing and the campaigns they're linked to. Debug and troubleshoot campaigns that are not working with greater clarity.</p></div></li>
       <li><img src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-detail.svg"><div class="right"><p class="medium regular no-top-margin">Troubleshoot every inch of data</p><p class="light">View recently fired events and their attached properties to make sure your data reflects the personalization in your emails.</p></div></li>
