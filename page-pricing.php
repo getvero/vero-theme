@@ -81,7 +81,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-included">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <ul class="unstyled-list feature-list grid grid-tiny center-text">
+    <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
         <h3 class="regular bottom-margin-tiny">24-hour support</h3>
