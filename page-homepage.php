@@ -61,8 +61,8 @@
         </li>
       </ul>
 
-      <blockquote class="bg-white">
-        <p class="medium no-top-margin bottom-margin-small">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
+      <blockquote class="bg-white padding-xsmall">
+        <p class="medium no-top-margin bottom-margin-xsmall">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
 
         <div class="flexbox">
           <div class="avatar-md right-margin-tiny">
@@ -89,7 +89,7 @@
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-automate.svg" alt="">
 
-        <h3 class="micro bottom-margin-tiny">Automate workflows</h3>
+        <h3 class="micro bottom-margin-tiny">Automate your software</h3>
 
         <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
 
@@ -98,7 +98,7 @@
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
-        <h3 class="micro bottom-margin-tiny">Engage your customers</h3>
+        <h3 class="micro bottom-margin-tiny">Engage customers</h3>
 
         <p class="no-top-margin">Design messages and personalise with your data to reach your customers with relevant information.</p>
 
