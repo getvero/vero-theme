@@ -147,19 +147,6 @@
     </div>
   </div>
 </section>
-<section class="double-padding bottom-border-light">
-  <div class="inner large-inner center-text">
-    <h2 class="chunk regular bottom-margin-large">Your tools, your data, your way</h2>
-
-    <div class="inline-block border-radius-100 shadow-sm">
-      <img src="/wp-content/themes/vero/assets/images/home/integrations/home-segment.svg" alt="Segment">
-    </div>
-
-    <div class="inline-block border-radius-100 shadow-sm">
-      <img src="/wp-content/themes/vero/assets/images/home/integrations/home-stitch.svg" alt="Segment">
-    </div>
-  </div>
-</section>
 <div class="bg-shapes bg-center">
   <section class="double-padding overflow-visible">
     <div class="inner large-inner">
