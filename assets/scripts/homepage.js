@@ -173,7 +173,7 @@ jQuery(window).scroll(function(){
     jQuery(".nav-primary").height(height);
     stuck = true;
     console.log('stick');
-  } else if (stuck && (offset <= stickPoint)){
+  } else if (stuck && (offset <= stickPoint)) {
     jQuery(".nav-primary").removeClass('sticky');
     jQuery(".nav-primary").css('height','auto');
     stuck = false;

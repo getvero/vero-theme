@@ -18,7 +18,7 @@
 
       <div class="hero-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="regular underline" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
   </div>
@@ -28,62 +28,62 @@
     <h2 class="section-label bottom-margin-small">Trusted worldwide</h2>
 
     <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
-      <ul class="unstyled-list logos-list grid center-text">
-        <li class="flexbox logos-list-item logos-list-item-top-cap no-margin">
+      <ul class="unstyled-list logo-list grid center-text">
+        <li class="flexbox logo-list-item logo-list-item-top-cap no-margin">
           <a class="flexbox self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
           </a>
         </li>
-        <li class="flexbox logos-list-item no-margin">
+        <li class="flexbox logo-list-item no-margin">
           <a class="flexbox self-stretch" href="http://tidal.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
           </a>
         </li>
-        <li class="flexbox logos-list-item no-margin">
+        <li class="flexbox logo-list-item no-margin">
           <a class="flexbox self-stretch" href="http://monzo.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
           </a>
         </li>
-        <li class="flexbox logos-list-item no-margin">
+        <li class="flexbox logo-list-item no-margin">
           <a class="flexbox self-stretch" href="http://pipedrive.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive">
           </a>
         </li>
-        <li class="flexbox logos-list-item logos-list-item-bottom-cap no-margin">
+        <li class="flexbox logo-list-item logo-list-item-bottom-cap no-margin">
           <a class="flexbox self-stretch" href="http://about.me">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
           </a>
         </li>
-        <li class="flexbox logos-list-item no-margin">
+        <li class="flexbox logo-list-item no-margin">
           <a class="flexbox self-stretch" href="http://helloprint.co.uk">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
           </a>
         </li>
       </ul>
 
-      <blockquote class="bg-white padding-medium">
-        <p class="large no-top-margin bottom-margin-small">I’m in the midst of transitioning over to Vero for this reason. All the things I liked about Drip, plus their email workflows and templating engine can pull data directly from my app’s API. Game changer for me.</p>
+      <blockquote class="bg-white">
+        <p class="medium no-top-margin bottom-margin-small">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
 
         <div class="flexbox">
-          <div class="avatar-md right-margin-small">
-            <img class="border-radius-100 responsive-image" src="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace.png" srcset="/wp-content/themes/vero/assets/images/home/pricing/ken-wallace@2x.png 2x" alt="">
+          <div class="avatar-md right-margin-tiny">
+            <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
           </div>
 
           <div class="customer-author">
-            <span class="annotation display-block"><strong>Ken Wallace</strong></span>
-            <span class="annotation display-block">Founder of Company</span>
+            <span class="annotation display-block"><strong>Luke Chesser</strong></span>
+            <span class="annotation display-block">Founder of Unsplash</span>
           </div>
         </div>
       </blockquote>
     </div>
 
-    <a class="display-block center-text" data-scroll href="#customers">See what our customers say</a>
+    <a class="regular underline display-block center-text" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
 <section class="bg-offwhite double-padding">
   <div class="inner xlarge-inner center-text">
     <header class="section-header">
-      <h2 class="chunk regular bottom-margin-large">Vero helps you to automate your software, message yours customers and to connect your customers with your team</h2>
+      <h2 class="chunk regular bottom-margin-large">Vero helps you to automate your software, message your customers and connect your customers with your team</h2>
     </header>
     <div class="grid grid-thirds">
       <div class="padding-medium border-light border-radius-10 bg-white">
@@ -93,25 +93,25 @@
 
         <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
 
-        <a href="#none">Learn more</a>
+        <a class="regular underline" href="#none">Learn more</a>
       </div>
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
         <h3 class="micro bottom-margin-tiny">Engage your customers</h3>
 
-        <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
+        <p class="no-top-margin">Design messages and personalise with your data to reach your customers with relevant information.</p>
 
-        <a href="#none">Learn more</a>
+        <a class="regular underline" href="#none">Learn more</a>
       </div>
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
 
         <h3 class="micro bottom-margin-tiny">Assist your customers</h3>
 
-        <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
+        <p class="no-top-margin">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
 
-        <a href="#none">Learn more</a>
+        <a class="regular underline" href="#none">Learn more</a>
       </div>
   </div>
 </section>
@@ -147,6 +147,19 @@
     </div>
   </div>
 </section>
+<section class="double-padding bottom-border-light">
+  <div class="inner large-inner center-text">
+    <h2 class="chunk regular bottom-margin-large">Your tools, your data, your way</h2>
+
+    <div class="inline-block border-radius-100 shadow-sm">
+      <img src="/wp-content/themes/vero/assets/images/home/integrations/home-segment.svg" alt="Segment">
+    </div>
+
+    <div class="inline-block border-radius-100 shadow-sm">
+      <img src="/wp-content/themes/vero/assets/images/home/integrations/home-stitch.svg" alt="Segment">
+    </div>
+  </div>
+</section>
 <div class="bg-shapes bg-center">
   <section class="double-padding overflow-visible">
     <div class="inner large-inner">
@@ -154,30 +167,9 @@
 
       <div class="flexbox items-center justify-center">
         <div class="customer-scroll flexbox overflow-x-scroll">
-          <blockquote class="flexbox customer-quote">
-            <div class="flexbox justify-center border-light border-radius-10 customer-company right-margin-medium">
-              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="90" alt="Unsplash">
-            </div>
-
-            <div>
-              <p class="medium no-top-margin bottom-margin-small">Heck! Vero's support is exceptional!</p>
-
-              <div class="customer-footer flexbox">
-                <div class="avatar-sm right-margin-tiny">
-                  <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-                </div>
-
-                <div class="customer-meta">
-                  <a class="display-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
-                  <span class="annotation">Head of Marketing at Drawboard</span>
-                </div>
-              </div>
-            </div>
-          </blockquote>
-
-          <blockquote class="flexbox customer-quote">
-            <div class="flexbox justify-center border-light border-radius-10 customer-company right-margin-medium">
-              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="90" alt="Unsplash">
+          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
+            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
+              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="100" alt="Unsplash">
             </div>
 
             <div>
@@ -196,10 +188,10 @@
             </div>
           </blockquote>
 
-          <blockquote class="flexbox customer-quote">
-            <div class="flexbox justify-center border-light border-radius-10 customer-company right-margin-medium">
+          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
+            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
               <img class="self-center"
-              src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="90" alt="Unsplash">
+              src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="100" alt="Unsplash">
             </div>
 
             <div>
@@ -213,6 +205,27 @@
                 <div class="customer-meta">
                   <a class="display-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a>
                   <span class="annotation">Head of CRM at Helloprint</span>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+
+          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
+            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
+              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="100" alt="Unsplash">
+            </div>
+
+            <div>
+              <p class="medium no-top-margin bottom-margin-small">Heck! Vero's support is exceptional!</p>
+
+              <div class="customer-footer flexbox">
+                <div class="avatar-sm right-margin-tiny">
+                  <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
+                </div>
+
+                <div class="customer-meta">
+                  <a class="display-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+                  <span class="annotation">Head of Marketing at Drawboard</span>
                 </div>
               </div>
             </div>
