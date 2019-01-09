@@ -116,33 +116,35 @@
   </div>
 </section>
 <section class="double-padding bottom-border-light">
-  <div class="inner xlarge-inner center-text">
-    <h2 class="chunk regular bottom-margin-large">Why you’ll love using Vero</h2>
+  <div class="inner large-inner">
+    <h2 class="section-label">Why you’ll love using Vero</h2>
 
-    <div class="grid grid-thirds">
-      <div>
-        <div>
-          <h3 class="micro bottom-margin-tiny">Beyond Messaging</h3>
-        </div>
-        <div>
+    <div class="grid grid-halfs bottom-margin-xlarge">
+      <img src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
 
-        </div>
+      <div class="left-margin-auto">
+        <h3 class="tubs regular bottom-margin-small">Beyond Messaging</h3>
+
+        <p class="multi-measure medium">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
+        <p class="multi-measure medium">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat. Porta non pulvinar neque laoreet. Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nunc congue nisi vitae suscipit tellus. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Odio aenean sed adipiscing diam donec adipiscing tristique.</p>
       </div>
-      <div>
-        <div>
-          <h3 class="micro bottom-margin-tiny">For marketers and engineers alike</h3>
+    </div>
+    <div class="grid grid-halfs bottom-margin-xlarge items-center">
+      <img src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
 
-          <p class="no-margin">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
-        </div>
-        <div></div>
+      <div class="left-margin-auto">
+        <h3 class="tubs regular bottom-margin-small">For marketers and engineers alike</h3>
+        <p class="no-margin medium multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
       </div>
-      <div>
-        <div>
-          <h3 class="micro bottom-margin-tiny">Works with your data, your way</h3>
-          <p class="no-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages. </p>
-        </div>
-        <div>
-        </div>
+    </div>
+    <div class="grid grid-halfs">
+      <img src="/wp-content/themes/vero/assets/images/home/home-data.svg" alt="Data">
+
+      <div class="left-margin-auto">
+        <h3 class="tubs regular bottom-margin-small">Works with your data, your way</h3>
+
+        <p class="multi-measure medium no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
+        <p class="multi-measure medium">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
       </div>
     </div>
   </div>
