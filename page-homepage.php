@@ -11,7 +11,7 @@
   <div class="inner xlarge-inner">
     <div class="grid intro">
       <div class="hero-body bottom-margin-medium">
-        <h1 class="biggie bottom-margin-small">Customer Operations: Tools to get the right message, person, or system on the job, every time</h1>
+        <h1 class="biggie bottom-margin-small">Tools to get the right message, person, or system on the job, every time</h1>
 
         <p class="medium no-margin">Vero helps you easily manage every touchpoint your customer has with your business. Customer Operations gets the right system, message or person on the job, every time. </p>
       </div>
@@ -80,37 +80,37 @@
   </div>
 </section>
 <section class="bg-offwhite double-padding">
-  <div class="inner xlarge-inner center-text">
+  <div class="inner xlarge-inner">
     <header class="section-header">
       <h2 class="chunk regular bottom-margin-large">Vero helps you to automate your software, message your customers and connect your customers with your team</h2>
     </header>
     <div class="grid grid-thirds">
-      <div class="padding-medium border-light border-radius-10 bg-white">
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-automate.svg" alt="">
 
-        <h3 class="micro semi-bold bottom-margin-tiny">Automate your software</h3>
+        <h3 class="micro semi-bold">Automate your software</h3>
 
-        <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
+        <p class="medium">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
 
-        <a class="regular underline-link" href="#none">Learn more</a>
+        <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
-      <div class="padding-medium border-light border-radius-10 bg-white">
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
-        <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
+        <h3 class="micro semi-bold">Engage customers</h3>
 
-        <p class="no-top-margin">Design messages and personalise with your data to reach your customers with relevant information.</p>
+        <p class="medium">Design messages and personalise with your data to reach your customers with relevant information.</p>
 
-        <a class="regular underline-link" href="#none">Learn more</a>
+        <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
-      <div class="padding-medium border-light border-radius-10 bg-white">
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
 
-        <h3 class="micro semi-bold bottom-margin-tiny">Assist your customers</h3>
+        <h3 class="micro semi-bold">Assist your customers</h3>
 
-        <p class="no-top-margin">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
+        <p class="medium">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
 
-        <a class="regular underline-link" href="#none">Learn more</a>
+        <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
     </div>
     <!-- <div class="inner large-inner flush-bottom center-text">
@@ -145,8 +145,8 @@
       <div class="md-order-1">
         <h3 class="tubs regular bottom-margin-small">Beyond Messaging</h3>
 
-        <p class="multi-measure">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
-        <p class="multi-measure no-margin">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat.</p>
+        <p class="medium multi-measure">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
+        <p class="medium multi-measure">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat.</p>
       </div>
     </div>
     <div class="grid grid-halfs bottom-margin-xlarge items-center">
@@ -154,7 +154,7 @@
 
       <div class="left-margin-auto">
         <h3 class="tubs regular bottom-margin-small">For marketers and engineers alike</h3>
-        <p class="no-margin multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
+        <p class="medium multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
       </div>
     </div>
     <div class="grid grid-halfs">
@@ -163,8 +163,8 @@
       <div class="md-order-1">
         <h3 class="tubs regular bottom-margin-small">Works with your data, your way</h3>
 
-        <p class="multi-measure no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
-        <p class="multi-measure no-margin">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
+        <p class="medium multi-measure">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
+        <p class="medium multi-measure">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
       </div>
     </div>
   </div>
