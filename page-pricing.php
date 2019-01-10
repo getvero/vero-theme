@@ -48,7 +48,7 @@ include 'pages-shared/static-header.php';
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">Dedicated IP</h3>
+          <h3 class="micro semi-bold medium no-bottom-margin">Dedicated IP</h3>
 
           <!-- <span class="self-center">$79 per month</span> -->
         </header>
@@ -60,7 +60,7 @@ include 'pages-shared/static-header.php';
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">BYO email platform</h3>
+          <h3 class="micro semi-bold medium no-bottom-margin">BYO email platform</h3>
         </header>
 
         <p class="no-top-margin">We'll track and centralize your reporting</p>
@@ -70,7 +70,7 @@ include 'pages-shared/static-header.php';
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">Save 15%</h3>
+          <h3 class="micro semi-bold medium no-bottom-margin">Save 15%</h3>
         </header>
 
         <p class="no-top-margin">Choose an annual plan and receive a discount</p>
@@ -198,7 +198,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold semi-bold">Improve your customer experience today</h1>
+    <h1 class="cta-title chunk semi-bold">Improve your customer experience today</h1>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
   </div>
 </section>
