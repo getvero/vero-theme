@@ -112,7 +112,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Start a free trial of Vero and warehouse your email data with Stitch</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

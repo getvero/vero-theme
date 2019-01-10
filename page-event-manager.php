@@ -20,7 +20,7 @@
   <div class="inner large-inner center-text flush-bottom flush-top">
     <!-- <h1 class="tubs no-bottom-margin">Manage your event schema</h1>
     <p class="medium bottom-padding-medium">The "event stream" has become an industry standard for tracking real-time customer activity. Vero's Event Manager enables you to clearly see the customer activity you are tracking and brings clarity to your overall data pipeline.</p> -->
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-hero@2x.png 2x" class="center-text display-block responsive-image small-cover-image-150">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-hero@2x.png 2x" class="center-text  d-block responsive-image small-cover-image-150">
   </div>
 </section>
 <section id="event-manager-add-event" class="feature-section double-padding">

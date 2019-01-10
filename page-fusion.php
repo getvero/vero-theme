@@ -101,7 +101,7 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-secure.svg">
         <div class="right"><p class="medium semi-bold no-top-margin">Multiple Authentication Methods</p>
-        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny inline-block">Coming Soon</span></p></div>
+        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny  d-inline-block">Coming Soon</span></p></div>
       </li>
     </ul>
   </div>
@@ -110,7 +110,7 @@
   <div class="inner center-text flush-bottom">
     <h1 class="chunk no-bottom-margin">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text  d-block responsive-image">
   </div>
 </section>
 <section id="call-to-action" class="center-text">

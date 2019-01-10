@@ -2,23 +2,22 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="hero" class="hero double-padding">
+<section class="double-padding" id="hero">
   <?php
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
   <div class="inner xlarge-inner">
-    <div class="content relative">
+    <div class="grid intro">
       <div class="hero-body bottom-margin-medium">
         <h1 class="biggie bottom-margin-small">Customer Operations: Tools to get the right message, person, or system on the job, every time</h1>
 
         <p class="medium no-margin">Vero helps you easily manage every touchpoint your customer has with your business. Customer Operations gets the right system, message or person on the job, every time. </p>
       </div>
-
       <div class="hero-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="regular underline" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
   </div>
@@ -70,14 +69,14 @@
           </div>
 
           <div class="customer-author">
-            <span class="annotation display-block"><strong>Luke Chesser</strong></span>
-            <span class="annotation display-block">Founder of Unsplash</span>
+            <span class="annotation  d-block"><strong>Luke Chesser</strong></span>
+            <span class="annotation  d-block">Founder of Unsplash</span>
           </div>
         </div>
       </blockquote>
     </div>
 
-    <a class="regular underline display-block center-text" data-scroll href="#customers">See what our customers say</a>
+    <a class="regular underline-link  d-block center-text" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
 <section class="bg-offwhite double-padding">
@@ -89,30 +88,51 @@
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-automate.svg" alt="">
 
-        <h3 class="micro bottom-margin-tiny">Automate your software</h3>
+        <h3 class="micro semi-bold bottom-margin-tiny">Automate your software</h3>
 
         <p class="no-top-margin">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
 
-        <a class="regular underline" href="#none">Learn more</a>
+        <a class="regular underline-link" href="#none">Learn more</a>
       </div>
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
-        <h3 class="micro bottom-margin-tiny">Engage customers</h3>
+        <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
 
         <p class="no-top-margin">Design messages and personalise with your data to reach your customers with relevant information.</p>
 
-        <a class="regular underline" href="#none">Learn more</a>
+        <a class="regular underline-link" href="#none">Learn more</a>
       </div>
       <div class="padding-medium border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
 
-        <h3 class="micro bottom-margin-tiny">Assist your customers</h3>
+        <h3 class="micro semi-bold bottom-margin-tiny">Assist your customers</h3>
 
         <p class="no-top-margin">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
 
-        <a class="regular underline" href="#none">Learn more</a>
+        <a class="regular underline-link" href="#none">Learn more</a>
       </div>
+    </div>
+    <!-- <div class="inner large-inner flush-bottom center-text">
+      <h2 class="section-label">Why you’ll love using Vero</h2>
+      <div class="grid grid-thirds">
+        <div class="horizontal-padding-small">
+          <h3 class="micro regular bottom-margin-tiny">Beyond Messaging</h3>
+
+          <p class="no-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
+        </div>
+        <div class="horizontal-padding-small">
+            <h3 class="micro regular bottom-margin-tiny">For marketers and engineers alike</h3>
+            <p class="no-margin">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
+        </div>
+        <div class="horizontal-padding-small">
+          <h3 class="micro regular bottom-margin-tiny">Works with your data, your way</h3>
+
+          <p class="no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
+          <p class="no-margin">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
+        </div>
+      </div>
+    </div> -->
   </div>
 </section>
 <section class="double-padding bottom-border-light">
@@ -120,13 +140,13 @@
     <h2 class="section-label">Why you’ll love using Vero</h2>
 
     <div class="grid grid-halfs bottom-margin-xlarge">
-      <img src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
+      <img class="md-order-2 left-margin-auto" src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
 
-      <div class="left-margin-auto">
+      <div class="md-order-1">
         <h3 class="tubs regular bottom-margin-small">Beyond Messaging</h3>
 
-        <p class="multi-measure medium">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
-        <p class="multi-measure medium">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat. Porta non pulvinar neque laoreet. Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris nunc congue nisi vitae suscipit tellus. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Odio aenean sed adipiscing diam donec adipiscing tristique.</p>
+        <p class="multi-measure">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
+        <p class="multi-measure no-margin">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat.</p>
       </div>
     </div>
     <div class="grid grid-halfs bottom-margin-xlarge items-center">
@@ -134,17 +154,17 @@
 
       <div class="left-margin-auto">
         <h3 class="tubs regular bottom-margin-small">For marketers and engineers alike</h3>
-        <p class="no-margin medium multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
+        <p class="no-margin multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
       </div>
     </div>
     <div class="grid grid-halfs">
-      <img src="/wp-content/themes/vero/assets/images/home/home-data.svg" alt="Data">
+      <img class="md-order-2 responsive-image" src="/wp-content/themes/vero/assets/images/home/home-data.svg" alt="Data">
 
-      <div class="left-margin-auto">
+      <div class="md-order-1">
         <h3 class="tubs regular bottom-margin-small">Works with your data, your way</h3>
 
-        <p class="multi-measure medium no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
-        <p class="multi-measure medium">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
+        <p class="multi-measure no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
+        <p class="multi-measure no-margin">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
       </div>
     </div>
   </div>
@@ -170,7 +190,7 @@
                 </div>
 
                 <div class="customer-meta">
-                  <a class="display-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+                  <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
                   <span class="annotation">Cofounder at Unsplash</span>
                 </div>
               </div>
@@ -192,7 +212,7 @@
                 </div>
 
                 <div class="customer-meta">
-                  <a class="display-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a>
+                  <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a>
                   <span class="annotation">Head of CRM at Helloprint</span>
                 </div>
               </div>
@@ -213,7 +233,7 @@
                 </div>
 
                 <div class="customer-meta">
-                  <a class="display-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+                  <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
                   <span class="annotation">Head of Marketing at Drawboard</span>
                 </div>
               </div>
@@ -233,19 +253,19 @@
       <div class="flexbox justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class="display-block annotation">Reba</span>
+          <span class=" d-block annotation">Reba</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class="display-block annotation">Reba</span>
+          <span class=" d-block annotation">Reba</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class="display-block annotation">Reba</span>
+          <span class=" d-block annotation">Reba</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class="display-block annotation">Reba</span>
+          <span class=" d-block annotation">Reba</span>
         </div>
       </div>
 

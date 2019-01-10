@@ -101,7 +101,7 @@
           </a>
         </li>
       </ul>
-      <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
+      <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
     </div>
   </div>
 </section>
@@ -124,7 +124,7 @@
             </a>
           </li>
         </ul>
-        <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
+        <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
       </div>
       <div class="right secondary">
         <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
@@ -143,8 +143,8 @@
       </div>
     </div>
     <div class="outlined-box top-margin-medium">
-      <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block right-margin-medium">
-      <div class="inline-block">
+      <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class=" d-inline-block right-margin-medium">
+      <div class=" d-inline-block">
         <p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p>
         <p class="light no-bottom-margin">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p>
       </div>

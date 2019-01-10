@@ -14,18 +14,18 @@
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Reporting</p>
-    <h1 class="biggie bottom-margin-small">Track the true performance of <span class="large-display-block">your email campaigns</span></h1>
-    <p class="no-top-margin large">Understand which of your email campaigns engage <span class="large-display-block">customers and drive revenue.</span></p>
+    <h1 class="biggie bottom-margin-small">Track the true performance of <span class="large- d-block">your email campaigns</span></h1>
+    <p class="no-top-margin large">Understand which of your email campaigns engage <span class="large- d-block">customers and drive revenue.</span></p>
   </div>
 </section>
 <section id="reports-hero-image" class="double-padding">
   <div class="inner large-inner center-text flush-bottom flush-top">
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-hero@2x.png 2x" class="center-text display-block responsive-image small-cover-image-200">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-hero@2x.png 2x" class="center-text  d-block responsive-image small-cover-image-200">
   </div>
 </section>
 <section id="reports-hero-features" class="double-padding">
   <div class="inner large-inner top-padding-large bottom-padding-large">
-    <h1 class="bottom-margin-medium center-text">View and analyze essential email results</h1>
+    <h1 class="chunk regular bottom-margin-medium center-text">View and analyze essential email results</h1>
     <ul class="feature-list left-align unstyled-list halfs">
       <li><img class="right-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-results.svg"><div class="right"><p class="medium regular no-top-margin">Monitor the overall results for key email campaign metrics</p></div></li>
       <li><img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-day.svg"><div class="right"><p class="medium regular no-top-margin">Chart and export day-by-day metrics for all your campaigns</p></div></li>
@@ -48,7 +48,7 @@
 </section>
 <section id="reports-webhooks" class="double-padding dark-box-flat">
   <div class="inner small-inner center-text flush-bottom">
-    <h1 class="bottom-margin-small">Access the insights important to your business</h1>
+    <h1 class="chunk regular bottom-margin-small">Access the insights important to your business</h1>
     <p class="no-top-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
   </div>
   <div class="inner small-inner center-text flush-top flush-bottom">
@@ -62,7 +62,7 @@
     <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image top-margin-large">
   </div>
   <div class="inner medium-inner flush-bottom">
-    <h1 class="bottom-margin-small">Generate insights from a complete view of your customer data</h1>
+    <h1 class="chunk regular bottom-margin-small">Generate insights from a complete view of your customer data</h1>
     <p class="no-top-margin medium">Using a BI tool, like Mode Analytics, you can query all your customer data and build custom reports that can give you the insights important to your specific business.</p>
     <div class="center-text top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-third-party-tools.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-third-party-tools@2x.png 2x" class="center-text responsive-image align-middle">
@@ -71,7 +71,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
     <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">
