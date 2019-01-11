@@ -51,51 +51,67 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner xlarge-inner">
-    <h2 class="chunk regular">Integrate</h2>
+  <div class="inner xlarge-inner flush-top">
+    <div class="bottom-margin-xlarge">
+      <h2 class="chunk regular">Integrate</h2>
 
-    <div class="grid grid-full bottom-margin-large">
-      <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
-    </div>
+      <div class="grid grid-full bottom-margin-large">
+        <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+      </div>
 
-    <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+      <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
 
-    <div class="js-feature-carousel variable-width feature-carousel">
-      <div class="feature-carousel-item" data-title="CDP integration">
-        <div>
+      <div class="js-feature-carousel variable-width feature-carousel">
+        <div class="feature-carousel-item" data-title="CDP integration">
           <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
         </div>
-      </div>
-      <div class="feature-carousel-item" data-title="Flexible API">
-        <div>
+        <div class="feature-carousel-item" data-title="Flexible API">
           <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="inner xlarge-inner">
-    <h2 class="chunk regular">Notify</h2>
+    <div class="bottom-margin-xlarge">
+      <h2 class="chunk regular">Notify</h2>
 
-    <div class="grid grid-full bottom-margin-large">
-      <p class="medium grid-span-8">Route messages to one or many users, immediately, after a delay or in response to a sequence of events. Get more context and be more proactive..</p>
-    </div>
+      <div class="grid grid-full bottom-margin-large">
+        <p class="medium grid-span-8">Route messages to one or many users, immediately, after a delay or in response to a sequence of events. Get more context and be more proactive..</p>
+      </div>
 
-    <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+      <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
 
-    <div class="js-feature-carousel variable-width feature-carousel">
-      <div class="feature-carousel-item" data-title="Custom branching">
-        <div>
+      <div class="js-feature-carousel variable-width feature-carousel">
+        <div class="feature-carousel-item" data-title="Custom branching">
           <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
         </div>
-      </div>
-      <div class="feature-carousel-item" data-title="Full customer history">
-        <div>
+        <div class="feature-carousel-item" data-title="Full customer history">
           <p class="medium">Vero not only lets you trigger workflows but remembers each of your customers and their data.</p>
         </div>
-      </div>
-      <div class="feature-carousel-item" data-title="Visualize your workflow">
-        <div>
+        <div class="feature-carousel-item" data-title="Visualize your workflow">
           <p class="medium">See your business workflow on a canvas from end-to-end.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="chunk regular">Reach</h2>
+
+      <div class="grid grid-full bottom-margin-large">
+        <p class="medium grid-span-8">Reach your team members where they are using email, Slack and SMS.</p>
+      </div>
+
+      <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+
+      <div class="js-feature-carousel variable-width feature-carousel">
+        <div class="feature-carousel-item" data-title="Multiple channels">
+          <p class="medium">Support for email and Slack out-of-the-box - use custom actions to reach your teammates anywhere.</p>
+        </div>
+        <div class="feature-carousel-item" data-title="Custom actions">
+          <p class="medium">Drive activity in any internal or SaaS product using our HTTP GET/POST functionality.</p>
+        </div>
+        <div class="feature-carousel-item" data-title="Track history of execution">
+          <p class="medium">See what has run, and why decisions were made using our Log history.</p>
+        </div>
+        <div class="feature-carousel-item" data-title="Run at huge scale">
+          <p class="medium">We work with customers who process 100s of millions of events each month to drive sophisticated workflows.</p>
         </div>
       </div>
     </div>
