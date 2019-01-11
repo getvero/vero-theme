@@ -47,18 +47,20 @@ jQuery(document).ready(function(){
 
   // Feature carousel
 
-  jQuery('.variable-width').slick({
-    dots         : true,
-    infinite     : true,
-    speed        : 300,
-    arrows       : false,
-    variableWidth: true,
-    appendDots   : jQuery('.feature-carousel-navigation'),
-    customPaging : function(slider, i) {
-      var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
+  jQuery('.js-feature-carousel').each(function() {
+    jQuery(this).slick( {
+      dots         : true,
+      infinite     : true,
+      speed        : 300,
+      arrows       : false,
+      variableWidth: true,
+      appendDots   : jQuery(this).siblings('.js-feature-carousel-navigation'),
+      customPaging: function(slider, i) {
+        var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
 
-      return title;
-    }
+        return title;
+      }
+    });
   });
 
   // Pricing Slider
