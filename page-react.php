@@ -58,10 +58,31 @@ include 'pages-shared/static-header.php';
       <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
     </div>
 
-    <div class="feature-carousel-navigation bottom-margin-xsmall border-bottom-light">
+    <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+
+    <div class="js-feature-carousel variable-width feature-carousel">
+      <div class="feature-carousel-item grid grid-full" data-title="CDP integration">
+        <div class="grid-span-4">
+          <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+        </div>
+      </div>
+      <div class="feature-carousel-item grid grid-full" data-title="Flexible API">
+        <div class="grid-span-4">
+          <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="inner xlarge-inner">
+    <h2 class="chunk regular">Notify</h2>
+
+    <div class="grid grid-full bottom-margin-large">
+      <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
     </div>
 
-    <div class="variable-width feature-carousel">
+    <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+
+    <div class="js-feature-carousel variable-width feature-carousel">
       <div class="feature-carousel-item grid grid-full" data-title="CDP integration">
         <div class="grid-span-4">
           <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
@@ -79,6 +100,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="border-radius-10 border-light vertical-padding-medium horizontal-padding-large">
       <h3 class="tubs">Send your customers helpful messages, at exactly the right time</h3>
+      <p class="medium">Let Vero help you manage every touchpoint your customer has with your business</p>
       <div class="btn btn-large btn-success">Start a free trial</div>
     </div>
   </div>
