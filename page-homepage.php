@@ -89,7 +89,7 @@
     </div>
     <div class="clearfix"></div>
 
-    <a class="display-block medium top-margin-medium" href="/features/email">See what Vero can do</a>
+    <a class="display-block medium top-margin-medium" href="/features">See what Vero can do</a>
   </div>
 </section>
 <section class="bg-gray-lighter">
