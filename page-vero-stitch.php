@@ -54,7 +54,7 @@
     </div>
   </div>
 </section>
-<section id="features-more" class="bottom-border-light">
+<section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -89,7 +89,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-stitch-test-event" class="feature-section bottom-border-light">
+<section id="vero-stitch-test-event" class="feature-section border-bottom-light">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>

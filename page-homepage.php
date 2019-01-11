@@ -135,7 +135,7 @@
     </div> -->
   </div>
 </section>
-<section class="double-padding bottom-border-light">
+<section class="double-padding border-bottom-light">
   <div class="inner large-inner">
     <h2 class="section-label">Why you’ll love using Vero</h2>
 

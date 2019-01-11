@@ -79,7 +79,7 @@ function workflows_banner(){
   if(is_page('homepage')){
     ?>
       <div class="homepage-banner">
-        <a class="flexbox items-center bottom-border-light" href="/workflows">
+        <a class="flexbox items-center border-bottom-light" href="/workflows">
           <p class="large banner-heading no-margin right-margin-medium">Introducing <span class="bold">Workflows</span></p>
           <p class="regular banner-sub-heading no-margin">A brand new way to design, visualize and manage your customer journeys!</p>
           <span class="regular banner-button">Find out more</span>

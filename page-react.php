@@ -61,7 +61,7 @@ include 'pages-shared/static-header.php';
 
     <p class="medium">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
 
-    <div class="feature-carousel-navigation">
+    <div class="feature-carousel-navigation border-bottom-light">
     </div>
 
     <div class="flexbox">

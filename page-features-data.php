@@ -101,7 +101,7 @@ product_url: 'http://www.yourdomain.com/products/red-t-shirt'
     <img src="/wp-content/themes/vero/assets/images/home/features/data/data-logs.png" srcset="/wp-content/themes/vero/assets/images/home/features/data/data-logs@2x.png 2x" width="1028">
   </div>
 </section>
-<section id="data-features" class="top-border-light">
+<section id="data-features" class="border-top-light">
   <div class="inner center-text">
     <h5 class="section-label center-text">You're in control</h5>
     <ul class="unstyled-list inline-list feature-list thirds">

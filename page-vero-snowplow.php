@@ -54,7 +54,7 @@
     </div>
   </div>
 </section>
-<section id="features-more" class="bottom-border-light">
+<section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list halfs">
