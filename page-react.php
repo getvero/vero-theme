@@ -61,13 +61,13 @@ include 'pages-shared/static-header.php';
     <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
 
     <div class="js-feature-carousel variable-width feature-carousel">
-      <div class="feature-carousel-item grid grid-full" data-title="CDP integration">
-        <div class="grid-span-4">
+      <div class="feature-carousel-item" data-title="CDP integration">
+        <div>
           <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
         </div>
       </div>
-      <div class="feature-carousel-item grid grid-full" data-title="Flexible API">
-        <div class="grid-span-4">
+      <div class="feature-carousel-item" data-title="Flexible API">
+        <div>
           <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
         </div>
       </div>
