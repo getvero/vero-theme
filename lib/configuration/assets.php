@@ -61,6 +61,7 @@ function add_js() {
   wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
   wp_register_script('nouislider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/nouislider.min.js', NULL, NULL, true);
   wp_register_script('wNumb', get_stylesheet_directory_uri() . '/assets/scripts/vendor/wNumb.js', NULL, NULL, true);
+  wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
   wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
@@ -70,12 +71,12 @@ function add_js() {
   wp_enqueue_script('bxslider');
   wp_enqueue_script('featherlight');
   wp_enqueue_script('picturefill');
-  // wp_enqueue_script('jquery-easing');
   wp_enqueue_script('jquery-parallax');
   wp_enqueue_script('prism');
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('smooth-scroll');
+  wp_enqueue_script('slick-carousel');
 
   if (is_page('pricing')) {
     wp_enqueue_script('wNumb');

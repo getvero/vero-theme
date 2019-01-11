@@ -1,4 +1,5 @@
 // Sliders for the email/data pages
+
 jQuery(document).ready(function(){
   jQuery('.bxslider').bxSlider({
     mode            : 'fade',
@@ -23,29 +24,6 @@ jQuery(document).ready(function(){
     careersSlider.goToSlide(slideNum);
   });
 
-  jQuery('#slider-monthly').click(function(){
-    if(jQuery(this).hasClass('active')) {
-      return false;
-    }
-    else {
-      slider.goToSlide(2);
-      jQuery(this).addClass('active')
-      jQuery('#slider-self-hosted').removeClass('active')
-      return false;
-    }
-  });
-  jQuery('#slider-self-hosted').click(function(){
-    if(jQuery(this).hasClass('active')) {
-      return false;
-    }
-    else {
-      slider.goToSlide(1);
-      jQuery(this).addClass('active')
-      jQuery('#slider-monthly').removeClass('active')
-      return false;
-    }
-  });
-
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
     e.stopPropagation();
@@ -67,7 +45,24 @@ jQuery(document).ready(function(){
     }
   });
 
+  // Feature carousel
+
+  jQuery('.variable-width').slick({
+    dots         : true,
+    infinite     : true,
+    speed        : 300,
+    arrows       : false,
+    variableWidth: true,
+    appendDots: jQuery('.feature-carousel-navigation'),
+    customPaging : function(slider, i) {
+      var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
+
+      return '<a class="pager__item"> ' + title + ' </a>';
+    }
+  });
+
   // Pricing Slider
+
   if (jQuery('body').hasClass('pricing')) {
     var slider = document.getElementById('js-price-slider');
 
@@ -180,6 +175,8 @@ jQuery(window).scroll(function(){
     console.log('unstick');
   }
 });
+
+
 
 // Liquid guide sticky sidebar
 if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {

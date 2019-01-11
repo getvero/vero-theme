@@ -4,7 +4,7 @@ add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
-  $classes[] = 'react';
+  $classes[] = 'jobs react-jobs';
   return $classes;
 }
 
@@ -54,14 +54,29 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <h2 class="chunk regular">Integrate</h2>
 
+
+    <div class="grid grid-full">
+      <p class="medium">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+    </div>
+
     <p class="medium">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+
+    <div class="feature-carousel-navigation">
+    </div>
 
     <div class="flexbox">
       <span class="tubs">CDP integration</span>
       <span class="tubs">Flexible API</span>
     </div>
 
-    <p class="medium">Connect with customer data platforms such as Segment, Snowplow Analytics, and other data pipelines and easily pull and push data to and from Vero.</p>
+    <div class="variable-width feature-carousel">
+      <div class="feature-carousel-item" data-title="CDP integration">
+        <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+      </div>
+      <div class="feature-carousel-item" data-title="Flexible API">
+        <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+      </div>
+    </div>
   </div>
 </section>
 <?php
