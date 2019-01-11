@@ -53,11 +53,11 @@ jQuery(document).ready(function(){
     speed        : 300,
     arrows       : false,
     variableWidth: true,
-    appendDots: jQuery('.feature-carousel-navigation'),
+    appendDots   : jQuery('.feature-carousel-navigation'),
     customPaging : function(slider, i) {
       var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
 
-      return '<a class="pager__item"> ' + title + ' </a>';
+      return title;
     }
   });
 

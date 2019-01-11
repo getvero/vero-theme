@@ -54,28 +54,32 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <h2 class="chunk regular">Integrate</h2>
 
-
-    <div class="grid grid-full">
-      <p class="medium">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+    <div class="grid grid-full bottom-margin-large">
+      <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
     </div>
 
-    <p class="medium">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
-
-    <div class="feature-carousel-navigation border-bottom-light">
-    </div>
-
-    <div class="flexbox">
-      <span class="tubs">CDP integration</span>
-      <span class="tubs">Flexible API</span>
+    <div class="feature-carousel-navigation bottom-margin-xsmall border-bottom-light">
     </div>
 
     <div class="variable-width feature-carousel">
-      <div class="feature-carousel-item" data-title="CDP integration">
-        <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+      <div class="feature-carousel-item grid grid-full" data-title="CDP integration">
+        <div class="grid-span-4">
+          <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+        </div>
       </div>
-      <div class="feature-carousel-item" data-title="Flexible API">
-        <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+      <div class="feature-carousel-item grid grid-full" data-title="Flexible API">
+        <div class="grid-span-4">
+          <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner xlarge-inner">
+    <div class="border-radius-10 border-light vertical-padding-medium horizontal-padding-large">
+      <h3 class="tubs">Send your customers helpful messages, at exactly the right time</h3>
+      <div class="btn btn-large btn-success">Start a free trial</div>
     </div>
   </div>
 </section>
