@@ -50,7 +50,7 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding border-bottom-light">
   <div class="inner xlarge-inner flush-top">
     <div class="bottom-margin-xlarge">
       <h2 class="chunk regular">Integrate</h2>
@@ -120,9 +120,15 @@ include 'pages-shared/static-header.php';
 <section class="double-padding">
   <div class="inner xlarge-inner">
     <div class="border-radius-10 border-light vertical-padding-medium horizontal-padding-large">
-      <h3 class="tubs">Send your customers helpful messages, at exactly the right time</h3>
-      <p class="medium">Let Vero help you manage every touchpoint your customer has with your business</p>
-      <div class="btn btn-large btn-success">Start a free trial</div>
+      <div class="grid grid-halfs">
+        <div>
+          <h3 class="tubs semi-bold bottom-margin-tiny">Send your customers helpful messages, at exactly the right time</h3>
+          <p>Let Vero help you manage every touchpoint your customer has with your business</p>
+        </div>
+        <div class="flexbox">
+          <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
