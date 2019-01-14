@@ -10,7 +10,7 @@
   ?>
   <div class="inner xlarge-inner">
     <div class="grid intro relative">
-      <h1 class="hulk bottom-margin-small">Build a better customer experience</h1>
+      <h1 class="hulk bottom-margin-small home-title">Build a better customer experience</h1>
 
       <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt="">
 
