@@ -52,7 +52,7 @@ jQuery(document).ready(function(){
       dots         : true,
       infinite     : true,
       speed        : 300,
-      arrows       : false,
+      arrows       : true,
       variableWidth: true,
       appendDots   : jQuery(this).siblings('.js-feature-carousel-navigation'),
       customPaging: function(slider, i) {
