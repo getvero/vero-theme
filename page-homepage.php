@@ -10,14 +10,13 @@
   ?>
   <div class="inner xlarge-inner">
     <div class="grid intro">
-      <div class="hero-body bottom-margin-medium">
-        <h1 class="biggie bottom-margin-small">Tools to get the right message, person, or system on the job, every time</h1>
+      <h1 class="hulk bottom-margin-small">Build a better customer experience</h1>
 
-        <p class="medium no-margin">Vero helps you easily manage every touchpoint your customer has with your business. Customer Operations gets the right system, message or person on the job, every time. </p>
-      </div>
-      <div class="hero-footer">
+      <p class="large bottom-margin-medium">Everything you need to co-ordinate customer emails, messages and personal follow-ups.</p>
+
+      <div class="hero-footer nav-intro">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
   </div>
@@ -27,7 +26,7 @@
     <h2 class="section-label bottom-margin-small">Trusted worldwide</h2>
 
     <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
-      <ul class="unstyled-list logo-list grid center-text">
+      <ul class="unstyled-list padding-small logo-list grid center-text">
         <li class="flexbox logo-list-item logo-list-item-top-cap no-margin">
           <a class="flexbox self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
@@ -88,7 +87,7 @@
       <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-automate.svg" alt="">
 
-        <h3 class="micro semi-bold">Automate your software</h3>
+        <h3 class="micro semi-bold">Co-ordinate</h3>
 
         <p class="medium">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
 
@@ -97,7 +96,7 @@
       <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
-        <h3 class="micro semi-bold">Engage customers</h3>
+        <h3 class="micro semi-bold">Engage</h3>
 
         <p class="medium">Design messages and personalise with your data to reach your customers with relevant information.</p>
 
@@ -106,7 +105,7 @@
       <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
 
-        <h3 class="micro semi-bold">Assist your customers</h3>
+        <h3 class="micro semi-bold">Connect</h3>
 
         <p class="medium">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
 
