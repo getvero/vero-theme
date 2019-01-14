@@ -38,6 +38,33 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner xlarge-inner">
+  <div class="bottom-margin-xlarge">
+      <h2 class="chunk regular">Connect</h2>
+
+      <div class="grid grid-full bottom-margin-large">
+        <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+      </div>
+
+      <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
+
+      <div class="js-feature-carousel variable-width feature-carousel">
+        <div class="feature-carousel-item" data-title="Your data">
+          <h3 class="tubs regular">Your data</h3>
+          <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+        </div>
+        <div class="feature-carousel-item" data-title="Native integrations">
+          <h3 class="tubs regular">Native integrations</h3>
+          <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+        </div>
+        <div class="feature-carousel-item" data-title="CDP integrations">
+          <h3 class="tubs regular">CDP integrations</h3>
+        </div>
+        <div class="feature-carousel-item" data-title="Segmentation">
+          <h3 class="tubs regular">Segmentation</h3>
+        </div>
+      </div>
+    </div>
+
     <div class="bottom-margin-xlarge">
       <h2 class="chunk regular">Co-ordinate</h2>
 

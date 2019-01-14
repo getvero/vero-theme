@@ -24,7 +24,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding logos" id="logos" >
+<section class="double-padding logos" id="logos">
   <div class="inner xlarge-inner flush-top">
     <h2 class="section-label bottom-margin-small">Trusted worldwide</h2>
 
@@ -88,15 +88,6 @@
     </header>
     <div class="grid grid-thirds">
       <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-automate.svg" alt="">
-
-        <h3 class="micro semi-bold">Co-ordinate</h3>
-
-        <p class="medium">Use these customer interactions to automate actions in your SaaS products and internal tools.</p>
-
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
 
         <h3 class="micro semi-bold">Engage</h3>
@@ -115,26 +106,6 @@
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
     </div>
-    <!-- <div class="inner large-inner flush-bottom center-text">
-      <h2 class="section-label">Why you’ll love using Vero</h2>
-      <div class="grid grid-thirds">
-        <div class="horizontal-padding-small">
-          <h3 class="micro regular bottom-margin-tiny">Beyond Messaging</h3>
-
-          <p class="no-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
-        </div>
-        <div class="horizontal-padding-small">
-            <h3 class="micro regular bottom-margin-tiny">For marketers and engineers alike</h3>
-            <p class="no-margin">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
-        </div>
-        <div class="horizontal-padding-small">
-          <h3 class="micro regular bottom-margin-tiny">Works with your data, your way</h3>
-
-          <p class="no-top-margin">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
-          <p class="no-margin">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
-        </div>
-      </div>
-    </div> -->
   </div>
 </section>
 <section class="double-padding border-bottom-light">
@@ -252,6 +223,10 @@
         <p class="medium no-margin">With team members spread around the world, Vero offers fast, reliable support 24/7&mdash;we're real humans.</p>
       </header>
 
+      <div class="bar">
+        <div class="bar"></div>
+      </div>
+
       <div class="flexbox justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
@@ -272,6 +247,14 @@
       </div>
 
       <a class="btn btn-default" href="mailto:">Contact us</a>
+    </div>
+  </section>
+  <section class="double-padding">
+    <div class="inner large-inner">
+      <div class="border-light border-radius-10 padding-large">
+        <h2 class="chunk bottom-margin-small">Vero is for #customerops</h2>
+        <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
+      </div>
     </div>
   </section>
 </div>
