@@ -13,14 +13,13 @@ include 'pages-shared/static-header.php';
 <section class="double-padding" id="hero">
   <div class="inner xlarge-inner">
     <div class="grid intro">
-      <div class="hero-body">
-        <span class=" d-block annotation uppercase regular faded bottom-margin-medium">Assist your customers</span>
+      <span class=" d-block annotation uppercase regular faded bottom-margin-medium">Assist your customers</span>
 
-        <h1 class="biggie semi-bold bottom-margin-small">Send alerts and relevant data to your team so they can offer better help, faster</h1>
+      <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and relevant data to your team so they can offer better help, faster</h1>
 
-        <p class="medium">Notify and alert your teams based on customer interactions. Learn faster, be more proactive and get the right people on your team on the job.</p>
-      </div>
-      <div class="hero-footer">
+      <p class="large bottom-margin-medium">Notify and alert your teams based on customer interactions. Learn faster, be more proactive and get the right people on your team on the job.</p>
+
+      <div class="intro-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>

@@ -16,7 +16,6 @@
 
       <p class="large bottom-margin-medium">Everything you need to co-ordinate customer emails, messages and personal follow-ups.</p>
 
-
       <div class="intro-footer nav-intro">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
@@ -26,10 +25,10 @@
 </section>
 <section class="double-padding logos" id="logos">
   <div class="inner xlarge-inner flush-top">
-    <h2 class="section-label bottom-margin-small">Trusted worldwide</h2>
+    <h2 class="section-label bottom-margin-xsmall">Trusted worldwide</h2>
 
     <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
-      <ul class="unstyled-list padding-small logo-list grid center-text">
+      <ul class="unstyled-list padding-xsmall logo-list grid center-text">
         <li class="flexbox logo-list-item logo-list-item-top-cap no-margin">
           <a class="flexbox self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
@@ -63,7 +62,7 @@
       </ul>
 
       <blockquote class="bg-white padding-xsmall">
-        <p class="medium no-top-margin bottom-margin-xsmall">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
+        <p class="medium no-top-margin bottom-margin-xsmall">"…moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
 
         <div class="flexbox">
           <div class="avatar-md right-margin-tiny">
@@ -79,6 +78,16 @@
     </div>
 
     <a class="regular underline-link  d-block center-text" data-scroll href="#customers">See what our customers say</a>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner xlarge-inner">
+    <div class="grid grid-halfs">
+      <ul class="unstyled-list">
+
+      </ul>
+    Native and CDP data integrations • Unique customer profiles • Workflows • Segmentation • Email  • iOS/Android Push • A/B testing • Reporting
+    </div>
   </div>
 </section>
 <section class="bg-offwhite double-padding">
