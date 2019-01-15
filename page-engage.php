@@ -54,7 +54,7 @@ include 'pages-shared/static-header.php';
       <h2 class="chunk regular">Powered by real-time customer data</h2>
 
       <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-8">Vero understands your customer data model, rather than forcing you to build around "Lists". With Vero, you can track your customer activity "as it happens", in real time. This tight integration with your core software, product or systems helps you centralise and co-ordinate all of your customer messages – helping you drive action whilst annoying customers less.</p>
+        <p class="medium grid-span-7">Vero understands your customer data model, rather than forcing you to build around "Lists". With Vero, you can track your customer activity "as it happens", in real time. This tight integration with your core software, product or systems helps you centralise and co-ordinate all of your customer messages – helping you drive action whilst annoying customers less.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
@@ -82,7 +82,7 @@ include 'pages-shared/static-header.php';
       <h2 class="chunk regular">Message the right customers, at exactly the right moment</h2>
 
       <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-8">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+        <p class="medium grid-span-7">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
@@ -106,7 +106,7 @@ include 'pages-shared/static-header.php';
       <h2 class="chunk regular">Deliver content that resonates</h2>
 
       <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-8">Take your email personalization a step further. Improve the impact of every message you send your customers by including helpful and relevant content in your messages.</p>
+        <p class="medium grid-span-7">Take your email personalization a step further. Improve the impact of every message you send your customers by including helpful and relevant content in your messages.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
@@ -127,7 +127,7 @@ include 'pages-shared/static-header.php';
       <h2 class="chunk regular">Optimize for growth</h2>
 
       <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-8">Reach your team members where they are using email, Slack and SMS.</p>
+        <p class="medium grid-span-7">Reach your team members where they are using email, Slack and SMS.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
