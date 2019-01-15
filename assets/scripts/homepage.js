@@ -47,15 +47,33 @@ jQuery(document).ready(function(){
 
   // Feature carousel
 
+  jQuery('.js-showcase-carousel').each(function() {
+    jQuery(this).slick( {
+      dots        : true,
+      dotsClass   : 'slick-dots showcase-carousel-list',
+      infinite    : true,
+      speed       : 400,
+      fade        : true,
+      appendDots  : jQuery(this).siblings('.js-showcase-carousel-navigation'),
+      customPaging: function(slider, i) {
+        var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
+        var desc  = jQuery(slider.$slides[i]).find('[data-desc]').data('desc');
+
+        return '<h2 class="atomic semi-bold">' + title + '</h2>' + '<p class="desc">' + desc + '</p>';
+      }
+    });
+  });
+
   jQuery('.js-feature-carousel').each(function() {
     jQuery(this).slick( {
       dots         : true,
+      dotsClass    : 'slick-dots feature-carousel-list',
       infinite     : true,
-      speed        : 300,
+      speed        : 400,
       arrows       : true,
       variableWidth: true,
       appendDots   : jQuery(this).siblings('.js-feature-carousel-navigation'),
-      customPaging: function(slider, i) {
+      customPaging : function(slider, i) {
         var title = jQuery(slider.$slides[i]).find('[data-title]').data('title');
 
         return title;

@@ -82,11 +82,67 @@
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid grid-halfs">
-      <ul class="unstyled-list">
+    <div class="flexbox flex-wrap">
+      <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
-      </ul>
-    Native and CDP data integrations • Unique customer profiles • Workflows • Segmentation • Email  • iOS/Android Push • A/B testing • Reporting
+      <div class="js-showcase-carousel showcase-carousel">
+        <div class="js-showcase-item"
+          data-title="Native and CDP data integrations"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">Native and CDP data integrations</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Unique customer profiles"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">Unique customer profiles</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Workflows"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">Workflows</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Segmentation"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">Segmentation</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Email"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">Email</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="iOS/Android push"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular">iOS/Android push</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="A/B testing"
+          data-desc="Lorem ipsum dolor sit, amett…"
+        >
+          <h2 class="tubs regular">A/B testing</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Reporting"
+          data-desc="Lorem ipsum dolor sit, amett…"
+        >
+          <h2 class="tubs regular">Reporting</h2>
+          <div class="bg-gray-lighter" style="height: 400px;"></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -232,8 +288,8 @@
         <p class="medium no-margin">With team members spread around the world, Vero offers fast, reliable support 24/7&mdash;we're real humans.</p>
       </header>
 
-      <div class="bar">
-        <div class="bar"></div>
+      <div class="border-radius-100 bar bg-gray-lighter">
+        <div class="bg-"></div>
       </div>
 
       <div class="flexbox justify-center bottom-margin-medium">
