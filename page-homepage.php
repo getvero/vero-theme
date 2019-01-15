@@ -82,7 +82,7 @@
   </div>
 </section>
 <section class="bg-offwhite double-padding">
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <header class="section-header">
       <h2 class="chunk regular bottom-margin-large">Vero helps you to automate your software, message your customers and connect your customers with your team</h2>
     </header>
