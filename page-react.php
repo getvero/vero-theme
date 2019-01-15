@@ -13,11 +13,11 @@ include 'pages-shared/static-header.php';
 <section class="double-padding" id="hero">
   <div class="inner xlarge-inner">
     <div class="grid intro">
-      <span class=" d-block annotation uppercase regular faded bottom-margin-medium">Assist your customers</span>
+      <span class=" d-block uppercase regular faded bottom-margin-medium">React</span>
 
-      <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and relevant data to your team so they can offer better help, faster</h1>
+      <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and information to your team so they can offer better help, faster</h1>
 
-      <p class="large bottom-margin-medium">Notify and alert your teams based on customer interactions. Learn faster, be more proactive and get the right people on your team on the job.</p>
+      <p class="large bottom-margin-medium">Notify and alert your team members about important customer activity. Learn faster, be more proactive and get the right team member on the job.</p>
 
       <div class="intro-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -31,18 +31,18 @@ include 'pages-shared/static-header.php';
     <h2 class=" d-block annotation uppercase regular faded bottom-margin-medium">How it works</h2>
 
     <div class="grid grid-thirds">
-      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-primary">
-        <h3 class="micro semi-bold">Integrate</h3>
+      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-10 offset-shadow-primary">
+        <h3 class="micro semi-bold">Be proactive</h3>
         <p class="medium">Collect real-time events and customer data from your website, app or systems.</p>
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
-      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-primary">
-        <h3 class="micro semi-bold">Notify</h3>
+      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-10 offset-shadow-primary">
+        <h3 class="micro semi-bold">The right help</h3>
         <p class="medium">Filter, branch, and route messages to the right team members.</p>
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
-      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-primary">
-        <h3 class="micro semi-bold">Reach</h3>
+      <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-10 offset-shadow-primary">
+        <h3 class="micro semi-bold">Never forgot</h3>
         <p class="medium">Reach your team members where they are using email, Slack and SMS.</p>
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
