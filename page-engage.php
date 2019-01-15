@@ -81,8 +81,8 @@ include 'pages-shared/static-header.php';
       <span class="d-block annotation regular uppercase faded bottom-margin-tiny">Co-ordinate</span>
       <h2 class="chunk regular">Message the right customers, at exactly the right moment</h2>
 
-      <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-7">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
+      <div class="bottom-margin-large">
+        <p class="medium measure">Your product or store is the core of your business. Respond to and learn from customer behavior, and offer customers a better experience.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
@@ -105,8 +105,8 @@ include 'pages-shared/static-header.php';
       <span class="d-block annotation regular uppercase faded bottom-margin-tiny">Personalize</span>
       <h2 class="chunk regular">Deliver content that resonates</h2>
 
-      <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-7">Take your email personalization a step further. Improve the impact of every message you send your customers by including helpful and relevant content in your messages.</p>
+      <div class="bottom-margin-large">
+        <p class="medium measure">Take your email personalization a step further. Improve the impact of every message you send your customers by including helpful and relevant content in your messages.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
@@ -126,8 +126,8 @@ include 'pages-shared/static-header.php';
       <span class="d-block annotation regular uppercase faded bottom-margin-tiny">Iterate</span>
       <h2 class="chunk regular">Optimize for growth</h2>
 
-      <div class="grid grid-full bottom-margin-large">
-        <p class="medium grid-span-7">Reach your team members where they are using email, Slack and SMS.</p>
+      <div class="bottom-margin-large">
+        <p class="medium measure">Reach your team members where they are using email, Slack and SMS.</p>
       </div>
 
       <div class="js-feature-carousel-navigation feature-carousel-navigation bottom-margin-xsmall border-bottom-light"></div>
