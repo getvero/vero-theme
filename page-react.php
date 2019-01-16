@@ -11,17 +11,33 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="double-padding" id="hero">
-  <div class="inner xlarge-inner">
-    <div class="grid intro">
-      <span class=" d-block uppercase regular faded bottom-margin-medium">React</span>
+  <div class="inner xlarge-inner flush-bottom">
+    <div class="grid intro intro-right">
+      <span class="intro-label d-block uppercase regular faded bottom-margin-medium">React to your customers</span>
 
       <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and information to your team so they can offer better help, faster</h1>
 
       <p class="large bottom-margin-medium">Notify and alert your team members about important customer activity. Learn faster, be more proactive and get the right team member on the job.</p>
 
+      <div>
+        <div class="border-light border-radius-10 padding-small bg-white">
+          <div>
+            <img src="/wp-content/themes/vero/assets/images/jobs/jobs-slack.svg" alt="Slack logo">
+          </div>
+
+          <p>Sorry for being late. Hate arriving late to a meeting.</p>
+        </div>
+      </div>
+
+
       <div class="intro-footer">
-        <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <form>
+          <div class="flex items-stretch form-control-large">
+            <input class="padding-small" type="text">
+            <button class="btn btn-success btn-large" type=submit>Register your interest</button>
+          </div>
+        </form>
+        <!-- <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a> -->
       </div>
     </div>
   </div>
@@ -38,12 +54,12 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-10 offset-shadow-primary">
         <h3 class="micro semi-bold">The right help</h3>
-        <p class="medium">Filter, branch, and route messages to the right team members.</p>
+        <p class="medium">Give your team members the information they need to take the next step, so they can better support your customers experience.</p>
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
       <div class="border-radius-10 border-primary padding-xsmall offset-shadow offset-shadow-10 offset-shadow-primary">
         <h3 class="micro semi-bold">Never forgot</h3>
-        <p class="medium">Reach your team members where they are using email, Slack and SMS.</p>
+        <p class="medium">Give your team members the information they need to take the next step, so they can better support your customers experience.</p>
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
     </div>
@@ -127,7 +143,7 @@ include 'pages-shared/static-header.php';
           <h3 class="tubs semi-bold bottom-margin-tiny">Send your customers helpful messages, at exactly the right time</h3>
           <p>Let Vero help you manage every touchpoint your customer has with your business</p>
         </div>
-        <div class="flexbox">
+        <div class="flex">
           <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
         </div>
       </div>

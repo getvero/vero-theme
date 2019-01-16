@@ -12,8 +12,8 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="double-padding" id="hero">
   <div class="inner xlarge-inner flush-bottom">
-    <div class="grid intro">
-      <span class=" d-block regular uppercase faded bottom-margin-medium">Assist your customers</span>
+    <div class="grid intro intro-left">
+      <span class=" d-block regular uppercase faded bottom-margin-medium">Engage your customers</span>
 
       <h1 class="biggie semi-bold bottom-margin-small job-title">Send messages that drive more action and less frustration</h1>
 
@@ -30,10 +30,10 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="border-radius-10 border-light padding-medium grid grid-halfs">
       <div>
-        <p class="medium">“Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI”</p>
+        <img src="/wp-content/themes/vero/assets/images/jobs/julien-catani.png" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani.png 2x" alt="A portrait of Julien Catani">
       </div>
       <div>
-        <p class="medium">“Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI”</p>
+        <p class="large">“Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue”</p>
       </div>
     </div>
   </div>
@@ -161,7 +161,7 @@ include 'pages-shared/static-header.php';
           <h3 class="tubs semi-bold bottom-margin-tiny">Send your customers helpful messages, at exactly the right time</h3>
           <p>Let Vero help you manage every touchpoint your customer has with your business</p>
         </div>
-        <div class="flexbox">
+        <div class="flex">
           <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
         </div>
       </div>

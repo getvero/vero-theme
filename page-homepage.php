@@ -9,7 +9,7 @@
     do_action( 'genesis_after_header' );
   ?>
   <div class="inner xlarge-inner">
-    <div class="grid intro relative">
+    <div class="grid intro intro-left relative">
       <h1 class="hulk bottom-margin-small home-title">Build a better customer experience</h1>
 
       <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt="">
@@ -29,33 +29,33 @@
 
     <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
       <ul class="unstyled-list padding-xsmall logo-list grid center-text">
-        <li class="flexbox logo-list-item logo-list-item-top-cap no-margin">
-          <a class="flexbox self-stretch" href="https://unsplash.com">
+        <li class="flex logo-list-item logo-list-item-top-cap no-margin">
+          <a class="flex self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
           </a>
         </li>
-        <li class="flexbox logo-list-item no-margin">
-          <a class="flexbox self-stretch" href="http://tidal.com">
+        <li class="flex logo-list-item no-margin">
+          <a class="flex self-stretch" href="http://tidal.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
           </a>
         </li>
-        <li class="flexbox logo-list-item no-margin">
-          <a class="flexbox self-stretch" href="http://monzo.com">
+        <li class="flex logo-list-item no-margin">
+          <a class="flex self-stretch" href="http://monzo.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
           </a>
         </li>
-        <li class="flexbox logo-list-item no-margin">
-          <a class="flexbox self-stretch" href="http://pipedrive.com">
+        <li class="flex logo-list-item no-margin">
+          <a class="flex self-stretch" href="http://pipedrive.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive">
           </a>
         </li>
-        <li class="flexbox logo-list-item logo-list-item-bottom-cap no-margin">
-          <a class="flexbox self-stretch" href="http://about.me">
+        <li class="flex logo-list-item logo-list-item-bottom-cap no-margin">
+          <a class="flex self-stretch" href="http://about.me">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
           </a>
         </li>
-        <li class="flexbox logo-list-item no-margin">
-          <a class="flexbox self-stretch" href="http://helloprint.co.uk">
+        <li class="flex logo-list-item no-margin">
+          <a class="flex self-stretch" href="http://helloprint.co.uk">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
           </a>
         </li>
@@ -64,7 +64,7 @@
       <blockquote class="bg-white padding-xsmall">
         <p class="large no-top-margin bottom-margin-xsmall">"…moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
 
-        <div class="flexbox">
+        <div class="flex">
           <div class="avatar-md right-margin-tiny">
             <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
           </div>
@@ -87,7 +87,7 @@
       <!-- <p class="large">Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.</p> -->
     </div>
 
-    <div class="flexbox flex-wrap">
+    <div class="flex flex-wrap">
       <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
       <div class="js-showcase-carousel showcase-carousel">
@@ -217,9 +217,9 @@
     <div class="inner large-inner">
       <h2 class="section-label uppercase bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
-      <div class="flexbox items-center justify-center">
-        <div class="customer-scroll flexbox overflow-x-scroll">
-          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote">
+      <div class="flex items-center justify-center">
+        <div class="customer-scroll flex overflow-x-scroll">
+          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
             <div class="right-margin-small">
               <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
             </div>
@@ -234,7 +234,7 @@
             </div>
           </blockquote>
 
-          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
+          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
             <div class="right-margin-small">
               <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
             </div>
@@ -250,7 +250,7 @@
             </div>
           </blockquote>
 
-          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
+          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
             <div class="right-margin-small">
               <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
             </div>
@@ -279,7 +279,7 @@
         <div class="bg-primary" style="height: 100%; width: 99%"></div>
       </div>
 
-      <div class="flexbox justify-center bottom-margin-medium">
+      <div class="flex justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
           <span class=" d-block annotation">Reba</span>
