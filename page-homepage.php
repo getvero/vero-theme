@@ -25,7 +25,7 @@
 </section>
 <section class="double-padding logos" id="logos">
   <div class="inner xlarge-inner flush-top">
-    <h2 class="section-label bottom-margin-xsmall">Trusted worldwide</h2>
+    <h2 class="section-label bottom-margin-medium">Trusted worldwide</h2>
 
     <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
       <ul class="unstyled-list padding-xsmall logo-list grid center-text">
@@ -62,7 +62,7 @@
       </ul>
 
       <blockquote class="bg-white padding-xsmall">
-        <p class="medium no-top-margin bottom-margin-xsmall">"…moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
+        <p class="large no-top-margin bottom-margin-xsmall">"…moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
 
         <div class="flexbox">
           <div class="avatar-md right-margin-tiny">
@@ -82,6 +82,11 @@
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
+    <div class="section-header center center-text bottom-margin-large">
+      <h2 class="chunk regular bottom-margin-tiny">Our features</h2>
+      <!-- <p class="large">Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.</p> -->
+    </div>
+
     <div class="flexbox flex-wrap">
       <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
@@ -147,9 +152,9 @@
   </div>
 </section>
 <section class="bg-offwhite double-padding">
-  <div class="inner large-inner">
-    <header class="section-header">
-      <h2 class="chunk regular bottom-margin-large">Vero helps you to automate your software, message your customers and connect your customers with your team</h2>
+  <div class="inner xlarge-inner">
+    <header class="section-header center center-text">
+      <h2 class="chunk regular bottom-margin-large">Vero is perfect for digital-first teams</h2>
     </header>
     <div class="grid grid-thirds">
       <div class="padding-xsmall border-light border-radius-10 bg-white">
@@ -174,8 +179,8 @@
   </div>
 </section>
 <section class="double-padding border-bottom-light">
-  <div class="inner large-inner">
-    <h2 class="section-label">Why you’ll love using Vero</h2>
+  <div class="inner">
+    <h2 class="section-label bottom-margin-medium">Why you’ll love using Vero</h2>
 
     <div class="grid grid-halfs bottom-margin-xlarge">
       <img class="md-order-2 left-margin-auto" src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
@@ -210,71 +215,53 @@
 <div class="bg-shapes bg-center">
   <section class="double-padding overflow-visible">
     <div class="inner large-inner">
-      <h2 class="section-label uppercase faded jump-link" id="customers">What people have said about Vero</h5>
+      <h2 class="section-label uppercase bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
       <div class="flexbox items-center justify-center">
         <div class="customer-scroll flexbox overflow-x-scroll">
-          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
-            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
-              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="100" alt="Unsplash">
+          <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote">
+            <div class="right-margin-small">
+              <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
             </div>
 
             <div>
-              <p class="medium no-top-margin bottom-margin-small">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+              <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-              <div class="customer-footer flexbox">
-                <div class="avatar-sm right-margin-tiny">
-                  <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-                </div>
+              <p class="bottom-margin-small">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
 
-                <div class="customer-meta">
-                  <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
-                  <span class="annotation">Cofounder at Unsplash</span>
-                </div>
-              </div>
+              <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+              <span class="annotation">Cofounder at Unsplash</span>
             </div>
           </blockquote>
 
           <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
-            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
+            <div class="right-margin-small">
+              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+            </div>
+
+            <div>
               <img class="self-center"
-              src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="100" alt="Unsplash">
-            </div>
+              src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
 
-            <div>
-              <p class="medium no-top-margin bottom-margin-small">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+              <p class="bottom-margin-small">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
 
-              <div class="customer-footer flexbox">
-                <div class="avatar-sm right-margin-tiny">
-                  <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
-                </div>
-
-                <div class="customer-meta">
-                  <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a>
-                  <span class="annotation">Head of CRM at Helloprint</span>
-                </div>
-              </div>
+              <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+              <span class="annotation">Head of CRM at Helloprint</span>
             </div>
           </blockquote>
 
           <blockquote class="padding-small border-radius-10 border-light flexbox customer-quote content-stretch">
-            <div class="flexbox justify-center border-radius-4 customer-company bg-gray-lighter">
-              <img class="self-center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="100" alt="Unsplash">
+            <div class="right-margin-small">
+              <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
             </div>
 
             <div>
-              <p class="medium no-top-margin bottom-margin-small">Heck! Vero's support is exceptional!</p>
+              <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-              <div class="customer-footer flexbox">
-                <div class="avatar-sm right-margin-tiny">
-                  <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-                </div>
+              <p class="bottom-margin-small">"Heck! Vero's support is exceptional!"</p>
 
-                <div class="customer-meta">
-                  <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
-                  <span class="annotation">Head of Marketing at Drawboard</span>
-                </div>
-              </div>
+              <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+              <span class="annotation">Head of Marketing at Drawboard</span>
             </div>
           </blockquote>
         </div>
@@ -283,13 +270,13 @@
   </section>
   <section class="double-padding" id="support">
     <div class="inner large-inner flush-top center-text">
-      <header class="section-header bottom-margin-medium">
-        <h2 class="chunk regular bottom-margin-tiny">Great support as standard</h2>
-        <p class="medium no-margin">With team members spread around the world, Vero offers fast, reliable support 24/7&mdash;we're real humans.</p>
+      <header class="section-header center bottom-margin-medium">
+        <h2 class="chunk regular bottom-margin-tiny">Great support 24/7</h2>
+        <p class="large">With team members spread around the world, Vero offers fast, reliable support 24/7&mdash;we're real humans.</p>
       </header>
 
-      <div class="border-radius-100 bar bg-gray-lighter">
-        <div class="bg-"></div>
+      <div class="bar bg-gray-lighter bottom-margin-medium">
+        <div class="bg-primary" style="height: 100%; width: 99%"></div>
       </div>
 
       <div class="flexbox justify-center bottom-margin-medium">

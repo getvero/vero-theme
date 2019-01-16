@@ -62,11 +62,11 @@ include 'pages-shared/static-header.php';
       <div class="js-feature-carousel variable-width feature-carousel">
         <div class="feature-carousel-item" data-title="Your data">
           <h3 class="tubs regular">Your data</h3>
-          <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+          <p class="medium measure">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
         </div>
         <div class="feature-carousel-item" data-title="Native integrations">
           <h3 class="tubs regular">Native integrations</h3>
-          <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+          <p class="medium measure">Track anything you want. Define the custom events to track from your software, store or platform.</p>
         </div>
         <div class="feature-carousel-item" data-title="CDP integrations">
           <h3 class="tubs regular">CDP integrations</h3>
@@ -90,11 +90,11 @@ include 'pages-shared/static-header.php';
       <div class="js-feature-carousel variable-width feature-carousel">
         <div class="feature-carousel-item" data-title="Newsletters">
           <h3 class="tubs regular">Newsletters</h3>
-          <p class="medium">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
+          <p class="medium measure">Connect with Segment, Snowplow Analytics, and other data pipelines to respond to data quickly.</p>
         </div>
         <div class="feature-carousel-item" data-title="Scheduling and logic">
           <h3 class="tubs regular">Scheduling and logic</h3>
-          <p class="medium">Track anything you want. Define the custom events to track from your software, store or platform.</p>
+          <p class="medium measure">Track anything you want. Define the custom events to track from your software, store or platform.</p>
         </div>
         <div class="feature-carousel-item" data-title="Multiple channels">
           <h3 class="tubs regular">Multiple channels</h3>
@@ -114,11 +114,11 @@ include 'pages-shared/static-header.php';
       <div class="js-feature-carousel variable-width feature-carousel">
         <div class="feature-carousel-item" data-title="Liquid">
           <h3 class="tubs regular">Liquid</h3>
-          <p class="medium">Use standard Liquid  syntax to display dynamic content in your email and push messages. Liquid can be easily added to your emails and push messages using code, or via our WYSIWYG Editor.</p>
+          <p class="medium measure">Use standard Liquid  syntax to display dynamic content in your email and push messages. Liquid can be easily added to your emails and push messages using code, or via our WYSIWYG Editor.</p>
         </div>
         <div class="feature-carousel-item" data-title="Load content from APIs">
           <h3 class="tubs regular">Loads content from APIs</h3>
-          <p class="medium">Pull content from your own APIs directly into your messages at send time. Fusion lets you send anything, from account usage updates and tailored product recommendations to weather forecasts wherever your customers are.</p>
+          <p class="medium measure">Pull content from your own APIs directly into your messages at send time. Fusion lets you send anything, from account usage updates and tailored product recommendations to weather forecasts wherever your customers are.</p>
         </div>
       </div>
     </div>
@@ -135,19 +135,19 @@ include 'pages-shared/static-header.php';
       <div class="js-feature-carousel variable-width feature-carousel">
         <div class="feature-carousel-item" data-title="A/B tests">
           <h3 class="tubs regular">A/B tests</h3>
-          <p class="medium">Vero makes A/B testing easy to manage while providing the level of accuracy required to ensure your tests are robust and confidently optimize the performance of your campaigns. You can choose metrics for your test and determine the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
+          <p class="medium measure">Vero makes A/B testing easy to manage while providing the level of accuracy required to ensure your tests are robust and confidently optimize the performance of your campaigns. You can choose metrics for your test and determine the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
         </div>
         <div class="feature-carousel-item" data-title="Reports">
           <h3 class="tubs regular">Reports</h3>
-          <p class="medium">Vero’s campaigns give you an at-a-glance view of your campaign performance making it easy to spot opportunities for improvement. You can also dig into the details further with Vero’s Reporting features and get the insights you need to build your hypothesis and start the analysis for your test.</p>
+          <p class="medium measure">Vero’s campaigns give you an at-a-glance view of your campaign performance making it easy to spot opportunities for improvement. You can also dig into the details further with Vero’s Reporting features and get the insights you need to build your hypothesis and start the analysis for your test.</p>
         </div>
         <div class="feature-carousel-item" data-title="Webhooks">
           <h3 class="tubs regular">Webhooks</h3>
-          <p class="medium">See what has run, and why decisions were made using our Log history.</p>
+          <p class="medium measure">See what has run, and why decisions were made using our Log history.</p>
         </div>
         <div class="feature-carousel-item" data-title="Integrations">
           <h3 class="tubs regular">Integrations</h3>
-          <p class="medium">We work with customers who process 100s of millions of events each month to drive sophisticated workflows.</p>
+          <p class="medium measure">We work with customers who process 100s of millions of events each month to drive sophisticated workflows.</p>
         </div>
       </div>
     </div>
