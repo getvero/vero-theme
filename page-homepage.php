@@ -24,12 +24,12 @@
   </div>
 </section>
 <section class="double-padding logos" id="logos">
-  <div class="inner xlarge-inner flush-top">
-    <h2 class="section-label bottom-margin-medium">Trusted by fast-growing teams, globally</h2>
+  <div class="inner xlarge-inner flush-top center-text">
+    <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
 
-    <div class="bg-offwhite border-light border-radius-10 bottom-margin-medium">
-      <ul class="unstyled-list padding-xsmall logo-list flex justify-between">
-        <li class="flex logo-list-item logo-list-item-top-cap no-margin">
+    <div class="grid grid-full">
+      <ul class="unstyled-list logo-list flex justify-around" style="grid-column: 2 / span 8;">
+        <li class="flex logo-list-item no-margin">
           <a class="flex self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
           </a>
@@ -45,11 +45,6 @@
           </a>
         </li>
         <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="http://pipedrive.com">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive">
-          </a>
-        </li>
-        <li class="flex logo-list-item logo-list-item-bottom-cap no-margin">
           <a class="flex self-stretch" href="http://about.me">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
           </a>
@@ -60,26 +55,23 @@
           </a>
         </li>
       </ul>
-
-      <blockquote class="bg-white padding-xsmall">
-        <p class="large no-top-margin bottom-margin-xsmall">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
-
-        <div class="flex">
-          <div class="avatar-md right-margin-tiny">
-            <img class="border-radius-100 responsive-image"src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-          </div>
-
-          <div class="customer-author">
-            <span class="annotation  d-block"><strong>Luke Chesser</strong></span>
-            <span class="annotation  d-block">Founder of Unsplash</span>
-          </div>
-        </div>
-      </blockquote>
     </div>
   </div>
 </section>
+<section class="bg-dark-blue" id="social-proof">
+  <div class="inner">
+    <blockquote class="grid grid-full relative font-white">
+      <div style="grid-column: 3 / span 8">
+        <p class="large">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
+
+        <span class="annotation d-block"><strong>Luke Chesser</strong></span>
+        <span class="annotation d-block">CPO and Co-founder at Unsplash</span>
+      </div>
+    </blockquote>
+  </div>
+</section>
 <section class="double-padding">
-  <div class="inner xlarge-inner flush-top">
+  <div class="inner xlarge-inner">
     <div class="flex flex-wrap">
       <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
@@ -152,27 +144,27 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite double-padding">
-  <div class="inner xlarge-inner">
+<section class="bg-offwhite">
+  <div class="inner large-inner">
     <header class="section-header center center-text">
       <h2 class="chunk regular bottom-margin-large">Design automated messages and improve human interactions</h2>
     </header>
     <div class="grid grid-thirds">
       <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
-        <h3 class="micro semi-bold">Engage</h3>
+        <h3 class="micro semi-bold">Engage customers</h3>
 
         <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
 
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
       <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-react.svg" alt="React logo">
 
-        <h3 class="micro semi-bold">Co-ordinate</h3>
+        <h3 class="micro semi-bold">Stay informed</h3>
 
-        <p class="medium">Manage customer experience.</p>
+        <p class="medium">Alert and notify team members with the information they need to help customers take the next step.</p>
 
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
@@ -242,9 +234,14 @@
         <p class="large">Our global team is on hand to help.</p>
       </header>
 
-      <div class="bar bg-gray-lighter bottom-margin-medium">
-        <div class="bg-primary flex items-center justify-center" style="height: 100%; width: 99%">87.5%</div>
+      <div class="bar bg-gray-lighter bottom-margin-small">
+        <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
+          <span class="d-block micro semi-bold font-white">97.5%</span>
+          <p class="d-block annotation font-white">Customer happiness rating</p>
+        </div>
       </div>
+
+      <p class="annotation faded bottom-margin-medium">Customer feedback gathered through Help Scout over the past 60 days.</p>
 
       <div class="flex justify-center bottom-margin-medium">
         <div>
