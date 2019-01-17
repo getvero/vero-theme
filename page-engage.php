@@ -15,9 +15,9 @@ include 'pages-shared/static-header.php';
     <div class="grid intro intro-left">
       <span class=" d-block regular uppercase faded bottom-margin-medium">Engage your customers</span>
 
-      <h1 class="biggie semi-bold bottom-margin-small job-title">Send messages that drive more action and less frustration</h1>
+      <h1 class="biggie semi-bold bottom-margin-small job-title">Engage customers and grow your business</h1>
 
-      <p class="large bottom-margin-medium">Built for digital teams, use your data to send emails and push messages that drive customer engagement and help your business grow.</p>
+      <p class="large bottom-margin-medium">Send real-time emails and push notifications that drive customer engagement and increase revenue.</p>
 
       <div class="intro-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>

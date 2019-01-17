@@ -13,15 +13,25 @@ include 'pages-shared/static-header.php';
 <section class="double-padding" id="hero">
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid intro intro-right">
-      <span class="intro-label d-block uppercase regular faded bottom-margin-medium">React to your customers</span>
+      <div class="intro-img">
+        <div class="border-light border-radius-10 padding-small bg-white flex">
+          <div class="right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/jobs/jobs-slack.svg" alt="Slack logo">
+          </div>
 
-      <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and information to your team so they can offer better help, faster</h1>
+          <p>Sorry for being late. Hate arriving late to a meeting.</p>
+        </div>
 
-      <p class="large bottom-margin-medium">Notify and alert your team members about important customer activity. Learn faster, be more proactive and get the right team member on the job.</p>
+        <div class="border-light border-radius-10 padding-small bg-white flex">
+          <div class="right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/jobs/jobs-slack.svg" alt="Slack logo">
+          </div>
 
-      <div>
-        <div class="border-light border-radius-10 padding-small bg-white">
-          <div>
+          <p>Sorry for being late. Hate arriving late to a meeting.</p>
+        </div>
+
+        <div class="border-light border-radius-10 padding-small bg-white flex">
+          <div class="right-margin-small">
             <img src="/wp-content/themes/vero/assets/images/jobs/jobs-slack.svg" alt="Slack logo">
           </div>
 
@@ -29,15 +39,21 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
 
+      <div class="intro-content">
+        <span class="intro-label d-block uppercase regular faded bottom-margin-medium">React to your customers</span>
 
-      <div class="intro-footer">
-        <form>
-          <div class="flex items-stretch form-control-large">
-            <input class="padding-small" type="text">
-            <button class="btn btn-success btn-large" type=submit>Register your interest</button>
-          </div>
-        </form>
-        <!-- <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a> -->
+        <h1 class="biggie semi-bold bottom-margin-small job-title">Send alerts and information to your team so they can offer better help, faster</h1>
+
+        <p class="large bottom-margin-medium">Notify and alert your team members about important customer activity. Learn faster, be more proactive and get the right team member on the job.</p>
+
+        <div class="intro-footer">
+          <form>
+            <div class="flex items-stretch form-control-large">
+              <input class="padding-small" type="text">
+              <button class="btn btn-success btn-large" type=submit>Register your interest</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>

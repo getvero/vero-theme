@@ -10,11 +10,11 @@
   ?>
   <div class="inner xlarge-inner">
     <div class="grid intro intro-left relative">
-      <h1 class="hulk bottom-margin-small home-title">Build a better customer experience</h1>
+      <h1 class="hulk bottom-margin-small home-title">Create a better customer experience</h1>
 
       <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt="">
 
-      <p class="large bottom-margin-medium">Everything you need to co-ordinate customer emails, messages and personal follow-ups.</p>
+      <p class="large bottom-margin-medium">Vero helps engineering, product, and marketing teams create and manage automated messages and improve human interactions.</p>
 
       <div class="intro-footer nav-intro">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -25,10 +25,10 @@
 </section>
 <section class="double-padding logos" id="logos">
   <div class="inner xlarge-inner flush-top">
-    <h2 class="section-label bottom-margin-medium">Trusted worldwide</h2>
+    <h2 class="section-label bottom-margin-medium">Trusted by fast-growing teams, globally</h2>
 
-    <div class="bg-offwhite border-light border-radius-10 grid grid-halfs bottom-margin-medium">
-      <ul class="unstyled-list padding-xsmall logo-list grid center-text">
+    <div class="bg-offwhite border-light border-radius-10 bottom-margin-medium">
+      <ul class="unstyled-list padding-xsmall logo-list flex justify-between">
         <li class="flex logo-list-item logo-list-item-top-cap no-margin">
           <a class="flex self-stretch" href="https://unsplash.com">
             <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
@@ -62,7 +62,7 @@
       </ul>
 
       <blockquote class="bg-white padding-xsmall">
-        <p class="large no-top-margin bottom-margin-xsmall">"…moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights."</p>
+        <p class="large no-top-margin bottom-margin-xsmall">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
         <div class="flex">
           <div class="avatar-md right-margin-tiny">
@@ -76,37 +76,30 @@
         </div>
       </blockquote>
     </div>
-
-    <a class="regular underline-link  d-block center-text" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner xlarge-inner">
-    <div class="section-header center center-text bottom-margin-large">
-      <h2 class="chunk regular bottom-margin-tiny">Our features</h2>
-      <!-- <p class="large">Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.</p> -->
-    </div>
-
+  <div class="inner xlarge-inner flush-top">
     <div class="flex flex-wrap">
       <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
       <div class="js-showcase-carousel showcase-carousel">
         <div class="js-showcase-item"
-          data-title="Native and CDP data integrations"
+          data-title="Workflows"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
           <h2 class="tubs regular">Native and CDP data integrations</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
-          data-title="Unique customer profiles"
+          data-title="Integrations"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
           <h2 class="tubs regular">Unique customer profiles</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
-          data-title="Workflows"
+          data-title="Customer profiles"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
           <h2 class="tubs regular">Workflows</h2>
@@ -120,22 +113,30 @@
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
-          data-title="Email"
+          data-title="Data management"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
           <h2 class="tubs regular">Email</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
-          data-title="iOS/Android push"
+          data-title="Email"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
           <h2 class="tubs regular">iOS/Android push</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
-          data-title="A/B testing"
+          data-title="Push notifications"
           data-desc="Lorem ipsum dolor sit, amett…"
+        >
+        </div>
+        <div class="js-showcase-item"
+          data-title="Personalization"
+        >
+        </div>
+        <div class="js-showcase-item"
+          data-title="A/B testing"
         >
           <h2 class="tubs regular">A/B testing</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
@@ -154,7 +155,7 @@
 <section class="bg-offwhite double-padding">
   <div class="inner xlarge-inner">
     <header class="section-header center center-text">
-      <h2 class="chunk regular bottom-margin-large">Vero is perfect for digital-first teams</h2>
+      <h2 class="chunk regular bottom-margin-large">Design automated messages and improve human interactions</h2>
     </header>
     <div class="grid grid-thirds">
       <div class="padding-xsmall border-light border-radius-10 bg-white">
@@ -162,52 +163,18 @@
 
         <h3 class="micro semi-bold">Engage</h3>
 
-        <p class="medium">Design messages and personalise with your data to reach your customers with relevant information.</p>
+        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
 
         <a class="medium regular underline-link" href="#none">Learn more</a>
       </div>
       <div class="padding-xsmall border-light border-radius-10 bg-white">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-assist.svg" alt="">
 
-        <h3 class="micro semi-bold">Connect</h3>
+        <h3 class="micro semi-bold">Co-ordinate</h3>
 
-        <p class="medium">Setup internal workflows and alerts tailored to your teams’ needs to help customers take the next step.</p>
+        <p class="medium">Manage customer experience.</p>
 
         <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="double-padding border-bottom-light">
-  <div class="inner">
-    <h2 class="section-label bottom-margin-medium">Why you’ll love using Vero</h2>
-
-    <div class="grid grid-halfs bottom-margin-xlarge">
-      <img class="md-order-2 left-margin-auto" src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
-
-      <div class="md-order-1">
-        <h3 class="tubs regular bottom-margin-small">Beyond Messaging</h3>
-
-        <p class="medium multi-measure">puisque id diam vel quam elementum pulvinar etiam non quam. Vitae congue eu consequat ac felis donec et. Eu sem integer vitae justo. Turpis egestas pretium aenean pharetra.</p>
-        <p class="medium multi-measure">Risus feugiat in ante metus dictum. Ipsum a arcu cursus vitae congue. Ac tincidunt vitae semper quis lectus nulla at volutpat.</p>
-      </div>
-    </div>
-    <div class="grid grid-halfs bottom-margin-xlarge items-center">
-      <img src="/wp-content/themes/vero/assets/images/home/home-everyone.png" srcset="/wp-content/themes/vero/assets/images/home/home-everyone@2x.png 2x" alt="Marketers and engineers">
-
-      <div class="left-margin-auto">
-        <h3 class="tubs regular bottom-margin-small">For marketers and engineers alike</h3>
-        <p class="medium multi-measure">Our tools are structured to help you get started quickly and scale as your team and company changes and grows.</p>
-      </div>
-    </div>
-    <div class="grid grid-halfs">
-      <img class="md-order-2 responsive-image" src="/wp-content/themes/vero/assets/images/home/home-data.svg" alt="Data">
-
-      <div class="md-order-1">
-        <h3 class="tubs regular bottom-margin-small">Works with your data, your way</h3>
-
-        <p class="medium multi-measure">Tight integration with your core customer data is critical to sending effective and customer-friendly marketing, success and sales messages.</p>
-        <p class="medium multi-measure">Vero was designed and built to shape around your customer data - to provide you with accuracy and flexibility.</p>
       </div>
     </div>
   </div>
@@ -271,12 +238,12 @@
   <section class="double-padding" id="support">
     <div class="inner large-inner flush-top center-text">
       <header class="section-header center bottom-margin-medium">
-        <h2 class="chunk regular bottom-margin-tiny">Great support 24/7</h2>
-        <p class="large">With team members spread around the world, Vero offers fast, reliable support 24/7&mdash;we're real humans.</p>
+        <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
+        <p class="large">Our global team is on hand to help.</p>
       </header>
 
       <div class="bar bg-gray-lighter bottom-margin-medium">
-        <div class="bg-primary" style="height: 100%; width: 99%"></div>
+        <div class="bg-primary flex items-center justify-center" style="height: 100%; width: 99%">87.5%</div>
       </div>
 
       <div class="flex justify-center bottom-margin-medium">
