@@ -59,13 +59,13 @@
   </div>
 </section>
 <section class="bg-dark-blue" id="social-proof">
-  <div class="inner">
+  <div class="inner large-inner">
     <blockquote class="grid grid-full relative font-white">
-      <div style="grid-column: 3 / span 8">
-        <p class="large">"We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
+      <div class="col-main">
+        <p class="large">&ldquo;We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.&rdquo;</p>
 
-        <span class="annotation d-block"><strong>Luke Chesser</strong></span>
-        <span class="annotation d-block">CPO and Co-founder at Unsplash</span>
+        <span class="medium d-block semi-bold">Luke Chesser</span>
+        <span class="medium d-block">CPO and Co-founder at Unsplash</span>
       </div>
     </blockquote>
   </div>
