@@ -24,7 +24,7 @@
   </div>
 </section>
 <section class="double-padding logos" id="logos">
-  <div class="inner xlarge-inner flush-top center-text">
+  <div class="inner xlarge-inner flush-top bottom-padding-medium center-text">
     <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
 
     <div class="grid grid-full">
@@ -234,15 +234,6 @@
         <p class="large">Our global team is on hand to help.</p>
       </header>
 
-      <div class="bar bg-gray-lighter bottom-margin-small">
-        <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
-          <span class="d-block micro semi-bold font-white">97.5%</span>
-          <p class="d-block annotation font-white">Customer happiness rating</p>
-        </div>
-      </div>
-
-      <p class="annotation faded bottom-margin-medium">Customer feedback gathered through Help Scout over the past 60 days.</p>
-
       <div class="flex justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
@@ -250,30 +241,49 @@
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Reba</span>
+          <span class=" d-block annotation">Ellis</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Reba</span>
+          <span class=" d-block annotation">Rae</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Reba</span>
+          <span class=" d-block annotation">Eric</span>
         </div>
       </div>
+
+      <div class="bar bg-gray-lighter bottom-margin-small">
+        <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
+          <span class="d-block micro semi-bold font-white">97.5%</span>
+          <p class="d-block annotation font-white">Customer happiness rating</p>
+        </div>
+      </div>
+
+      <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
 
       <a class="btn btn-default" href="mailto:">Contact us</a>
     </div>
   </section>
-  <section class="double-padding">
-    <div class="inner large-inner">
-      <div class="border-light border-radius-10 padding-large">
-        <h2 class="chunk bottom-margin-small">Vero is for #customerops</h2>
-        <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
-      </div>
-    </div>
-  </section>
 </div>
+<section class="double-padding">
+  <div class="inner xlarge-inner">
+    <div class="border-light border-radius-10 bg-white padding-large">
+      <h3 class="chunk regular bottom-margin-small">Put your data first and craft better customer experiences</h3>
+      <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
+      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+    </div>
+  </div>
+</section>
+<section class="double-padding bg-gray-light">
+  <div class="inner xlarge-inner">
+    <div class="">
+      <h3 class="chunk regular bottom-margin-small">Put your data first and craft better customer experiences</h3>
+      <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
+      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+    </div>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
   include("demo-enquiry-form.php");
