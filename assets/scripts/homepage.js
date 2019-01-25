@@ -67,7 +67,18 @@ jQuery(document).ready(function(){
     }
   });
 
+  // Form checker
+
+  jQuery('.js-subscribe-form').submit(function (e) {
+    //check at least 1 checkbox is checked
+    if (!jQuery('#horns').is(':checked')) {
+      //prevent the default form submit if it is not checked
+      e.preventDefault();
+    }
+  })
+
   // Pricing Slider
+
   if (jQuery('body').hasClass('pricing')) {
     var slider = document.getElementById('js-price-slider');
 
