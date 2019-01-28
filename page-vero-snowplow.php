@@ -37,7 +37,7 @@
   <div class="inner small-inner center-text">
     <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
-    <img class="responsive-image" src="/wp-content/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
+    <img class="responsive-image" src="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section>
