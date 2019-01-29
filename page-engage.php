@@ -125,24 +125,22 @@ include 'pages-shared/static-header.php';
         </a>
       </div>
       <div class="flex justify-center">
-        <div class="image-dots image-dots-4">
+        <div class="image-dots image-dots-3">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bg-gray-lighter">
   <div class="inner xlarge-inner">
-    <div class="border-radius-10 border-light vertical-padding-medium horizontal-padding-large">
-      <div class="grid grid-halfs">
-        <div>
-          <h3 class="tubs semi-bold bottom-margin-tiny">Send your customers helpful messages, at exactly the right time</h3>
-          <p>Let Vero help you manage every touchpoint your customer has with your business</p>
-        </div>
-        <div class="flex">
-          <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
-        </div>
+    <div class="grid grid-halfs">
+      <div>
+        <h3 class="chunk regular bottom-margin-tiny">Put your data first and craft better customer experiences</h3>
+        <p class="medium">Let Vero help you manage every touchpoint your customer has with your business.</p>
+      </div>
+      <div class="flex">
+        <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
       </div>
     </div>
   </div>
