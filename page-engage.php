@@ -17,9 +17,9 @@ include 'pages-shared/static-header.php';
 
       <p class="large bottom-margin-medium">Create, automate and send emails and push notifications that drive customer engagement and increase revenue.</p>
 
-      <div class="intro-footer">
-        <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+      <div class="flex items-center justify-center intro-footer">
+        <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
 
       <img src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage with arrow coming out">
