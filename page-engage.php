@@ -11,7 +11,7 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="double-padding" id="job-hero">
-  <div class="inner xlarge-inner flush-bottom">
+  <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers and grow your business</h1>
 
@@ -21,6 +21,8 @@ include 'pages-shared/static-header.php';
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
+
+      <img src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage with arrow coming out">
     </div>
   </div>
 </section>
@@ -34,7 +36,7 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <p class="large">“Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue”</p>
 
-        <p class="medium">Julien Cataini</p>
+        <a class="medium unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
         <p class="medium">Head of CRM at helloprint</p>
       </div>
     </div>
@@ -47,7 +49,10 @@ include 'pages-shared/static-header.php';
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
         <h2 class="chunk regular">Easily create and manage automated workflows</h2>
         <p class="medium">Workflows help you visualize the customer experience as you build it. Whether you’re creating short, long, simple or complex journeys, Vero makes it easy to manage.</p>
-        <a class="medium regular unstyled underline-link" href="">Streamline your workflows</a>
+        <a class="medium regular unstyled underline-link" href="">Streamline your workflows
+
+        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
       <div class="flex justify-center">
         <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Workflows with abstract shapes">
@@ -61,21 +66,29 @@ include 'pages-shared/static-header.php';
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Event Manager</span>
         <h2 class="chunk regular">Easily create and manage automated workflows</h2>
         <p class="medium">Vero tracks your customers’ actions, as they happen, and gives you a clear view of the data. Vero lets you easily select and add customer event data sent to create personalized messages.</p>
-        <a class="medium regular unstyled underline-link" href="">Get a clear view of your customer data</a>
+        <a class="medium regular unstyled underline-link" href="">Get a clear view of your customer data
+
+        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
     </div>
   </div>
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <div class="center-text">
+    <div class="section-header center-block center-text bottom-margin-medium">
       <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Personalization</span>
-      <h2 class="chunk regular">Impress with personalized emails and push notifications</h2>
+      <h2 class="chunk regular bottom-margin-tiny">Impress with personalized emails and push notifications</h2>
+      <p class="large">Improve the impact of every message you send your customers by including helpful and engaging content.</p>
     </div>
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
         <h2 class="atomic semi-bold">Liquid and data inspector</h2>
         <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
+        <a class="medium regular unstyled underline-link" href="">Personalize your content
+
+        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
       <div class="flex justify-center">
         <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
@@ -83,6 +96,29 @@ include 'pages-shared/static-header.php';
       <div>
         <h2 class="atomic semi-bold">Fusion</h2>
         <p class="medium">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
+        <a class="medium regular unstyled underline-link" href="">Load data from its source
+
+        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner xlarge-inner">
+    <div class="grid job-feature-left">
+      <div>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Reporting</span>
+        <h2 class="chunk regular">Optimize for growth</h2>
+        <p class="medium">Vero makes A/B testing easy to manage while providing the level of accuracy required to ensure your tests are robust so you can confidently optimize the performance of your campaigns.</p>
+        <p>Choose the metrics for your test and Vero can automatically calculate the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
+
+        <a class="medium regular unstyled underline-link" href="">Test and optimize your campaigns
+
+        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
+      </div>
+      <div>
       </div>
     </div>
   </div>
