@@ -55,12 +55,16 @@ include 'pages-shared/static-header.php';
         </a>
       </div>
       <div class="flex justify-center">
-        <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Workflows with abstract shapes">
+        <div class="image-dots image-dots-1">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Workflows with abstract shapes">
+        </div>
       </div>
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="flex justify-center">
-        <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="UI of Event Manager with abstract shapes">
+        <div class="image-dots image-dots-2">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="UI of Event Manager with abstract shapes">
+        </div>
       </div>
       <div>
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Event Manager</span>
@@ -91,7 +95,9 @@ include 'pages-shared/static-header.php';
         </a>
       </div>
       <div class="flex justify-center">
-        <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
+        <div class="image-dots image-dots-3">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
+        </div>
       </div>
       <div>
         <h2 class="atomic semi-bold">Fusion</h2>
@@ -118,7 +124,10 @@ include 'pages-shared/static-header.php';
         <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </a>
       </div>
-      <div>
+      <div class="flex justify-center">
+        <div class="image-dots image-dots-4">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
+        </div>
       </div>
     </div>
   </div>

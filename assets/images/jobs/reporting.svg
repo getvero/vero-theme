@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="659" height="509" viewBox="0 0 659 509">
+  <defs>
+    <path id="peporting-a" d="M7.6916556,-3.10752092e-16 L455.308344,3.10752092e-16 C457.982901,-1.80555915e-16 458.952759,0.278476833 459.930537,0.801398111 C460.908315,1.32431939 461.675681,2.09168511 462.198602,3.06946289 C462.721523,4.04724067 463,5.01709938 463,7.6916556 L463,353.308344 C463,355.982901 462.721523,356.952759 462.198602,357.930537 C461.675681,358.908315 460.908315,359.675681 459.930537,360.198602 C458.952759,360.721523 457.982901,361 455.308344,361 L7.6916556,361 C5.01709938,361 4.04724067,360.721523 3.06946289,360.198602 C2.09168511,359.675681 1.32431939,358.908315 0.801398111,357.930537 C0.278476833,356.952759 1.2037061e-16,355.982901 -2.07168062e-16,353.308344 L2.07168062e-16,7.6916556 C-1.2037061e-16,5.01709938 0.278476833,4.04724067 0.801398111,3.06946289 C1.32431939,2.09168511 2.09168511,1.32431939 3.06946289,0.801398111 C4.04724067,0.278476833 5.01709938,1.80555915e-16 7.6916556,-3.10752092e-16 Z"/>
+    <filter id="peporting-b" width="111.4%" height="114.7%" x="-5.7%" y="-6.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <linearGradient id="peporting-d" x1="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#EEE" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+    <path id="peporting-f" d="M7.6916556,-3.10752092e-16 L509.308344,3.10752092e-16 C511.982901,-1.80555915e-16 512.952759,0.278476833 513.930537,0.801398111 C514.908315,1.32431939 515.675681,2.09168511 516.198602,3.06946289 C516.721523,4.04724067 517,5.01709938 517,7.6916556 L517,93.3083444 C517,95.9829006 516.721523,96.9527593 516.198602,97.9305371 C515.675681,98.9083149 514.908315,99.6756806 513.930537,100.198602 C512.952759,100.721523 511.982901,101 509.308344,101 L7.6916556,101 C5.01709938,101 4.04724067,100.721523 3.06946289,100.198602 C2.09168511,99.6756806 1.32431939,98.9083149 0.801398111,97.9305371 C0.278476833,96.9527593 1.2037061e-16,95.9829006 -2.07168062e-16,93.3083444 L2.07168062e-16,7.6916556 C-1.2037061e-16,5.01709938 0.278476833,4.04724067 0.801398111,3.06946289 C1.32431939,2.09168511 2.09168511,1.32431939 3.06946289,0.801398111 C4.04724067,0.278476833 5.01709938,1.80555915e-16 7.6916556,-3.10752092e-16 Z"/>
+    <filter id="peporting-e" width="110.3%" height="152.5%" x="-5.1%" y="-22.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(16 12)">
+    <rect width="414" height="290" x="59" y="153" fill="#FFF3CF"/>
+    <g transform="translate(106)">
+      <mask id="peporting-c" fill="#fff">
+        <use xlink:href="#peporting-a"/>
+      </mask>
+      <use fill="#000" filter="url(#peporting-b)" xlink:href="#peporting-a"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#peporting-a"/>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" mask="url(#peporting-c)" opacity=".5">
+        <tspan x="12" y="155">500</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" mask="url(#peporting-c)" opacity=".5">
+        <tspan x="12" y="211">375</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" mask="url(#peporting-c)" opacity=".5">
+        <tspan x="12" y="267">250</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" mask="url(#peporting-c)" opacity=".5">
+        <tspan x="12" y="323">125</tspan>
+      </text>
+      <g mask="url(#peporting-c)">
+        <g transform="translate(12 12)">
+          <rect width="130" height="100" fill="#F4F4F4"/>
+          <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+            <tspan x="8" y="22">Sent</tspan>
+          </text>
+          <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="28">
+            <tspan x="8" y="54">2,505</tspan>
+          </text>
+          <g transform="translate(142 8)">
+            <rect width="130" height="50" y="42" fill="#F4F4F4"/>
+            <text fill="#01B2D0" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+              <tspan x="8" y="14">Delivered</tspan>
+            </text>
+            <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="28">
+              <tspan x="8" y="46">2,505</tspan>
+            </text>
+            <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" opacity=".5">
+              <tspan x="8" y="67">50%</tspan>
+            </text>
+          </g>
+          <g transform="translate(284 8)">
+            <rect width="130" height="50" y="42" fill="#F4F4F4"/>
+            <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+              <tspan x="8" y="14">Opened</tspan>
+            </text>
+            <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="28">
+              <tspan x="8" y="46">2,505</tspan>
+            </text>
+            <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" opacity=".5">
+              <tspan x="8" y="67">50%</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <polyline stroke="#01B2D0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="26 389.586 116 255.734 234.307 166.684 333.636 139.445 441.516 248.836" mask="url(#peporting-c)"/>
+      <polyline stroke="#FFC111" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="26 405.586 116 271.734 234.307 150.684 333.636 163.445 441.516 264.836" mask="url(#peporting-c)"/>
+      <polyline stroke="#6FD350" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="26 405.586 116 223.734 234.307 214.684 333.636 131.445 441.516 208.836" mask="url(#peporting-c)"/>
+      <rect width="157" height="361" x="306" fill="url(#peporting-d)" mask="url(#peporting-c)"/>
+    </g>
+    <g transform="translate(0 326)">
+      <use fill="#000" filter="url(#peporting-e)" xlink:href="#peporting-f"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#peporting-f"/>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="22" font-weight="500">
+        <tspan x="73" y="45">Customer onboarding</tspan>
+      </text>
+      <path fill="#01B2D0" d="M26,53 C27.1045695,53 28,53.8954305 28,55 L28,61 C28,62.1045695 27.1045695,63 26,63 C24.8954305,63 24,62.1045695 24,61 L24,55 C24,53.8954305 24.8954305,53 26,53 Z M33,48 C34.1045695,48 35,48.8954305 35,50 L35,61 C35,62.1045695 34.1045695,63 33,63 C31.8954305,63 31,62.1045695 31,61 L31,50 C31,48.8954305 31.8954305,48 33,48 Z M40,43 C41.1045695,43 42,43.8954305 42,45 L42,61 C42,62.1045695 41.1045695,63 40,63 C38.8954305,63 38,62.1045695 38,61 L38,45 C38,43.8954305 38.8954305,43 40,43 Z M47,38 C48.1045695,38 49,38.8954305 49,40 L49,61 C49,62.1045695 48.1045695,63 47,63 C45.8954305,63 45,62.1045695 45,61 L45,40 C45,38.8954305 45.8954305,38 47,38 Z"/>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" opacity=".5">
+        <tspan x="73" y="72">Showing report for </tspan> <tspan x="190.88" y="72" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">22nd Jan - 3rd Feb</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14">
+        <tspan x="368" y="56">Live</tspan>
+      </text>
+      <rect width="1" height="16" x="403" y="43" fill="#D8D8D8"/>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14">
+        <tspan x="414" y="56">Behavioural</tspan>
+      </text>
+    </g>
+    <g transform="rotate(-33 964.668 -742.456)">
+      <rect width="21" height="20.833" x=".791" y="3.967" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="19" height="18.833" x="4.64" y="1.376" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(38 -597.553 467.522)">
+      <rect width="19.32" height="19.167" x=".728" y="3.65" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="17.32" height="17.167" x="4.349" y="1.346" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(20 208.176 1689.22)">
+      <ellipse cx="22.223" cy="16.766" stroke="#FFC111" stroke-width="2" rx="14.955" ry="15.031"/>
+      <ellipse cx="16.842" cy="21.556" fill="#FFC111" opacity=".2" rx="15.955" ry="16.031"/>
+    </g>
+    <g transform="rotate(34 -156.74 95.65)">
+      <ellipse cx="22.223" cy="16.325" stroke="#FFC111" stroke-width="2" rx="14.955" ry="14.609"/>
+      <ellipse cx="16.842" cy="20.989" fill="#FFC111" opacity=".2" rx="15.955" ry="15.609"/>
+    </g>
+    <g transform="rotate(-30 653.947 -1041.043)">
+      <path fill="#6FD350" d="M16.5321914,12.4496462 L22.0600555,23.5053743 C23.0480125,25.4812882 22.2471151,27.8839804 20.2712011,28.8719374 C19.7157794,29.1496483 19.1033271,29.2942286 18.4823467,29.2942286 L7.42661863,29.2942286 C5.21747963,29.2942286 3.42661863,27.5033676 3.42661863,25.2942286 C3.42661863,24.6732483 3.57119899,24.060796 3.84890986,23.5053743 L9.37677391,12.4496462 C10.3647309,10.4737322 12.7674231,9.67283479 14.7433371,10.6607918 C15.5174467,11.0478466 16.1451366,11.6755366 16.5321914,12.4496462 Z" opacity=".2"/>
+      <path stroke="#6FD350" stroke-width="2" d="M20.8698151,7.83468193 C20.5795239,7.25409972 20.1087565,6.78333225 19.5281743,6.49304114 C18.0462388,5.7520734 16.2442197,6.35274644 15.5032519,7.83468193 L9.97538786,18.89041 C9.76710471,19.3069763 9.65866943,19.7663155 9.65866943,20.2320508 C9.65866943,21.8889051 11.0018152,23.2320508 12.6586694,23.2320508 L23.7143975,23.2320508 C24.1801328,23.2320508 24.639472,23.1236155 25.0560383,22.9153324 C26.5379738,22.1743646 27.1386468,20.3723455 26.3976791,18.89041 L20.8698151,7.83468193 Z"/>
+    </g>
+  </g>
+</svg>
