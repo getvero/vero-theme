@@ -10,14 +10,12 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" id="hero">
+<section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner flush-bottom">
-    <div class="grid intro intro-left">
-      <span class=" d-block regular uppercase faded bottom-margin-medium">Engage your customers</span>
+    <div class="hero-header center-text center-block">
+      <h1 class="biggie semi-bold bottom-margin-small">Engage customers and grow your business</h1>
 
-      <h1 class="biggie semi-bold bottom-margin-small job-title">Engage customers and grow your business</h1>
-
-      <p class="large bottom-margin-medium">Send real-time emails and push notifications that drive customer engagement and increase revenue.</p>
+      <p class="large bottom-margin-medium">Create, automate and send emails and push notifications that drive customer engagement and increase revenue.</p>
 
       <div class="intro-footer">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -26,25 +24,18 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner xlarge-inner">
-    <div class="border-radius-10 border-light padding-medium grid grid-halfs">
-      <div>
-        <img src="/wp-content/themes/vero/assets/images/jobs/julien-catani.png" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani.png 2x" alt="A portrait of Julien Catani">
-      </div>
-      <div>
-        <p class="large">“Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue”</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="double-padding bg-dots">
-  <div class="inner xlarge-inner center-text">
-    <div class="center">
-      <h2 class="regular chunk bottom-margin-small">Powered by real-time customer data</h2>
-    </div>
+<section class="double-padding job-quote">
+  <div class="inner large-inner">
+    <div class="flex">
+      <img class="avatar right-margin-small" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg 2x" alt="A portrait of Julien Catani">
 
-    <p class="medium measure center">Short summary of the below sections?</p>
+      <div class="col-main">
+        <p class="large">“Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue”</p>
+
+        <p class="medium">Julien Cataini</p>
+        <p class="medium">Head of CRM at helloprint</p>
+      </div>
+    </div>
   </div>
 </section>
 <section class="double-padding border-bottom-light">
