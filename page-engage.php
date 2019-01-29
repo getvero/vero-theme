@@ -72,7 +72,7 @@ include 'pages-shared/static-header.php';
       <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Personalization</span>
       <h2 class="chunk regular">Impress with personalized emails and push notifications</h2>
     </div>
-    <div class="grid job-feature job-feature-center">
+    <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
         <h2 class="atomic semi-bold">Liquid and data inspector</h2>
         <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
