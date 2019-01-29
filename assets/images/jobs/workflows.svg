@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="538" height="569" viewBox="0 0 538 569">
+  <defs>
+    <rect id="workflows-b" width="220" height="104" rx="10"/>
+    <filter id="workflows-a" width="124.1%" height="151%" x="-12%" y="-21.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <rect id="workflows-d" width="220" height="122" rx="10"/>
+    <filter id="workflows-c" width="124.1%" height="143.4%" x="-12%" y="-18.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <rect id="workflows-f" width="220" height="84" rx="10"/>
+    <filter id="workflows-e" width="124.1%" height="163.1%" x="-12%" y="-26.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <rect id="workflows-h" width="220" height="122" rx="10"/>
+    <filter id="workflows-g" width="124.1%" height="143.4%" x="-12%" y="-18.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <rect id="workflows-j" width="220" height="122" rx="10"/>
+    <filter id="workflows-i" width="124.1%" height="143.4%" x="-12%" y="-18.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(16 12)">
+    <rect width="342" height="382" x="73" y="66" fill="#FFF3CF"/>
+    <g transform="rotate(64 -46.035 511.692)">
+      <rect width="30.762" height="28.8" x=".687" y="6.547" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="28.762" height="26.8" x="7.401" y="1.85" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(-103 89.288 89.071)">
+      <rect width="21" height="20" x=".791" y="3.808" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="19" height="18" x="4.64" y="1.361" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(-55 340.88 -363.215)">
+      <path fill="#6FD350" d="M18.9634503,13.1490117 L26.9913143,29.2047398 C27.9792713,31.1806538 27.1783739,33.5833459 25.2024599,34.5713029 C24.6470382,34.8490138 24.0345859,34.9935942 23.4136056,34.9935942 L7.35787748,34.9935942 C5.14873848,34.9935942 3.35787748,33.2027332 3.35787748,30.9935942 C3.35787748,30.3726138 3.50245784,29.7601615 3.78016871,29.2047398 L11.8080328,13.1490117 C12.7959898,11.1730977 15.1986819,10.3722003 17.1745959,11.3601573 C17.9487055,11.7472121 18.5763955,12.3749021 18.9634503,13.1490117 Z" opacity=".2"/>
+      <path stroke="#6FD350" stroke-width="2" d="M24.8678151,7.61488533 C24.577524,7.03430313 24.1067565,6.56353565 23.5261743,6.27324455 C22.0442388,5.5322768 20.2422197,6.13294984 19.5012519,7.61488533 L11.4733879,23.6706134 C11.2651047,24.0871797 11.1566694,24.5465189 11.1566694,25.0122542 C11.1566694,26.6691085 12.4998152,28.0122542 14.1566694,28.0122542 L30.2123975,28.0122542 C30.6781328,28.0122542 31.137472,27.9038189 31.5540383,27.6955358 C33.0359738,26.954568 33.6366468,25.1525489 32.8956791,23.6706134 L24.8678151,7.61488533 Z"/>
+    </g>
+    <g transform="rotate(-126 56 23.116)">
+      <ellipse cx="15.955" cy="11.913" stroke="#FFC111" stroke-width="2" rx="10.455" ry="10.391"/>
+      <ellipse cx="12.091" cy="15.316" fill="#FFC111" opacity=".2" rx="11.455" ry="11.391"/>
+    </g>
+    <g transform="translate(141)">
+      <use fill="#000" filter="url(#workflows-a)" xlink:href="#workflows-b"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#workflows-b"/>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="16" y="64">Hello {{user.first_name}}!</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-RegularIt, Proxima Nova" font-size="14" font-style="italic" opacity=".5">
+        <tspan x="16" y="84">from </tspan> <tspan x="47.542" y="84" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">True Story</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500">
+        <tspan x="41" y="34">Welcome</tspan>
+      </text>
+      <path fill="#01B2D0" d="M2,5.99201702 C2,4.8918564 2.89339733,4 3.99188419,4 L15.0081158,4 C16.1082031,4 17,4.90017617 17,5.99201702 L17,13.007983 C17,14.1081436 16.1066027,15 15.0081158,15 L3.99188419,15 C2.89179693,15 2,14.0998238 2,13.007983 L2,5.99201702 Z M9.5,10.7956346 L4.35364752,5.64654076 C4.15843737,5.45122663 3.84185489,5.45114234 3.64654076,5.64635248 C3.45122663,5.84156263 3.45114234,6.15814511 3.64635248,6.35345924 L9.14635248,11.8563889 C9.34163614,12.0517766 9.65836386,12.0517766 9.85364752,11.8563889 L15.3536475,6.35345924 C15.5488577,6.15814511 15.5487734,5.84156263 15.3534592,5.64635248 C15.1581451,5.45114234 14.8415626,5.45122663 14.6463525,5.64654076 L9.5,10.7956346 Z" transform="translate(16 18)"/>
+    </g>
+    <g transform="translate(141 257)">
+      <use fill="#000" filter="url(#workflows-c)" xlink:href="#workflows-d"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#workflows-d"/>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="16" y="64">Has triggered an event</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" opacity=".5">
+        <tspan x="16" y="84">Purchased item greater than </tspan> <tspan x="16" y="102">or equal to 1 times over</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500">
+        <tspan x="41" y="34">Branch</tspan>
+      </text>
+      <path fill="#9AA0A9" d="M7,13 L7.89623853,13 C8.1723809,13 8.39623853,13.2238576 8.39623853,13.5 C8.39623853,13.6211109 8.35227992,13.7381052 8.27252825,13.8292507 L5.87443252,16.5699546 C5.69259236,16.7777737 5.37671114,16.7988338 5.16889207,16.6169936 C5.15218662,16.6023764 5.13647311,16.5866631 5.12185583,16.5699577 L2.72371978,13.8292539 C2.54187789,13.6214363 2.56293532,13.3055549 2.77075288,13.123713 C2.86189884,13.0439596 2.97889446,13 3.10000675,13 L4,13 L4,11 L4,10.25 C4,10.0926213 4.07409708,9.94442719 4.2,9.85 L7.8,7.15 C7.92590292,7.05557281 8,6.90737865 8,6.75 L8,2.5 C8,2.22385763 8.22385763,2 8.5,2 L10.5,2 C10.7761424,2 11,2.22385763 11,2.5 L11,6 L11.0015869,6 L11.0015869,6.75 C11.0015869,6.90737865 11.075684,7.05557281 11.2015869,7.15 L14.8015869,9.85 C14.9274898,9.94442719 15.0015869,10.0926213 15.0015869,10.25 L15.0015869,11 L15,11.000529 L15,13 L15.896239,13 C16.1723814,13 16.396239,13.2238576 16.396239,13.5 C16.396239,13.6211109 16.3522804,13.7381052 16.2725287,13.8292507 L13.874433,16.5699546 C13.6925928,16.7777737 13.3767116,16.7988338 13.1688925,16.6169936 C13.1521871,16.6023764 13.1364736,16.5866631 13.1218563,16.5699577 L10.7237203,13.8292539 C10.5418784,13.6214363 10.5629358,13.3055549 10.7707534,13.123713 C10.8618993,13.0439596 10.9788949,13 11.1000072,13 L12,13 L12,11.2101631 C11.9886391,11.0678588 11.9168065,10.9364147 11.8015869,10.85 L9.50079346,9.12440491 L7.2,10.85 C7.07409708,10.9444272 7,11.0926213 7,11.25 L7,12 L7,13 Z" transform="translate(16 18)"/>
+    </g>
+    <g transform="translate(141 137)">
+      <use fill="#000" filter="url(#workflows-e)" xlink:href="#workflows-f"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#workflows-f"/>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14">
+        <tspan x="16" y="64">Wait for </tspan> <tspan x="66.316" y="64" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">2 days</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500">
+        <tspan x="41" y="34">Delay</tspan>
+      </text>
+      <path fill="#9AA0A9" fill-rule="nonzero" d="M9.62707525,11.334182 L11.267767,12.9748737 C11.4630291,13.1701359 11.7796116,13.1701359 11.9748737,12.9748737 C12.1701359,12.7796116 12.1701359,12.4630291 11.9748737,12.267767 L10.334182,10.6270753 C10.3729782,10.3710239 10.2937913,10.1005486 10.0966213,9.90337865 C10.0660659,9.87282319 10.0337499,9.84510117 10,9.82021261 L10,6.5 C10,6.22385763 9.77614237,6 9.5,6 C9.22385763,6 9,6.22385763 9,6.5 L9,9.82021261 C8.96625007,9.84510117 8.93393412,9.87282319 8.90337865,9.90337865 C8.57387378,10.2328835 8.57387378,10.7671165 8.90337865,11.0966213 C9.10054863,11.2937913 9.37102391,11.3729782 9.62707525,11.334182 Z M9,4.01914112 L9,3 L8,3 C7.72385763,3 7.5,2.77614237 7.5,2.5 C7.5,2.22385763 7.72385763,2 8,2 L11,2 C11.2761424,2 11.5,2.22385763 11.5,2.5 C11.5,2.77614237 11.2761424,3 11,3 L10,3 L10,4.01914112 C11.4931291,4.13364385 12.9542536,4.76186545 14.0961941,5.90380592 C16.634602,8.44221382 16.634602,12.5577862 14.0961941,15.0961941 C11.5577862,17.634602 7.44221382,17.634602 4.90380592,15.0961941 C2.36539803,12.5577862 2.36539803,8.44221382 4.90380592,5.90380592 C6.0457464,4.76186545 7.50687086,4.13364385 9,4.01914112 Z" transform="translate(16 18)"/>
+    </g>
+    <g transform="translate(0 415)">
+      <use fill="#000" filter="url(#workflows-g)" xlink:href="#workflows-h"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#workflows-h"/>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="16" y="64">10% discount for you and your </tspan> <tspan x="16" y="82">friends</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-RegularIt, Proxima Nova" font-size="14" font-style="italic" opacity=".5">
+        <tspan x="16" y="102">from </tspan> <tspan x="47.542" y="102" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">True Story</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500">
+        <tspan x="43" y="34">Refer a friend offer</tspan>
+      </text>
+      <path fill="#01B2D0" d="M2,5.99201702 C2,4.8918564 2.89339733,4 3.99188419,4 L15.0081158,4 C16.1082031,4 17,4.90017617 17,5.99201702 L17,13.007983 C17,14.1081436 16.1066027,15 15.0081158,15 L3.99188419,15 C2.89179693,15 2,14.0998238 2,13.007983 L2,5.99201702 Z M9.5,10.7956346 L4.35364752,5.64654076 C4.15843737,5.45122663 3.84185489,5.45114234 3.64654076,5.64635248 C3.45122663,5.84156263 3.45114234,6.15814511 3.64635248,6.35345924 L9.14635248,11.8563889 C9.34163614,12.0517766 9.65836386,12.0517766 9.85364752,11.8563889 L15.3536475,6.35345924 C15.5488577,6.15814511 15.5487734,5.84156263 15.3534592,5.64635248 C15.1581451,5.45114234 14.8415626,5.45122663 14.6463525,5.64654076 L9.5,10.7956346 Z" transform="translate(16 18)"/>
+    </g>
+    <g transform="translate(286 415)">
+      <use fill="#000" filter="url(#workflows-i)" xlink:href="#workflows-j"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#workflows-j"/>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="16" y="64">10% discount for you and your </tspan> <tspan x="16" y="82">friends</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-RegularIt, Proxima Nova" font-size="14" font-style="italic" opacity=".5">
+        <tspan x="16" y="102">from </tspan> <tspan x="47.542" y="102" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">True Story</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500">
+        <tspan x="43" y="34">New customer offer</tspan>
+      </text>
+      <path fill="#01B2D0" d="M2,5.99201702 C2,4.8918564 2.89339733,4 3.99188419,4 L15.0081158,4 C16.1082031,4 17,4.90017617 17,5.99201702 L17,13.007983 C17,14.1081436 16.1066027,15 15.0081158,15 L3.99188419,15 C2.89179693,15 2,14.0998238 2,13.007983 L2,5.99201702 Z M9.5,10.7956346 L4.35364752,5.64654076 C4.15843737,5.45122663 3.84185489,5.45114234 3.64654076,5.64635248 C3.45122663,5.84156263 3.45114234,6.15814511 3.64635248,6.35345924 L9.14635248,11.8563889 C9.34163614,12.0517766 9.65836386,12.0517766 9.85364752,11.8563889 L15.3536475,6.35345924 C15.5488577,6.15814511 15.5487734,5.84156263 15.3534592,5.64635248 C15.1581451,5.45114234 14.8415626,5.45122663 14.6463525,5.64654076 L9.5,10.7956346 Z" transform="translate(16 18)"/>
+    </g>
+  </g>
+</svg>

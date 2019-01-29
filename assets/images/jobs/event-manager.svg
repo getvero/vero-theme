@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="574" height="513" viewBox="0 0 574 513">
+  <defs>
+    <rect id="event-manager-b" width="453" height="240" rx="6"/>
+    <filter id="event-manager-a" width="111.7%" height="122.1%" x="-5.8%" y="-9.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <rect id="event-manager-d" width="396" height="292" rx="6"/>
+    <filter id="event-manager-c" width="113.4%" height="118.2%" x="-6.7%" y="-7.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(16 12)">
+    <rect width="453" height="215" x="32" y="90" fill="#E1F5DB"/>
+    <use fill="#000" filter="url(#event-manager-a)" xlink:href="#event-manager-b"/>
+    <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#event-manager-b"/>
+    <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="11" font-weight="500" opacity=".5">
+      <tspan x="24" y="35">41 Events tracked</tspan>
+    </text>
+    <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12" font-weight="500" opacity=".5">
+      <tspan x="24" y="71">NAME</tspan>
+    </text>
+    <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12" font-weight="500" opacity=".5">
+      <tspan x="196" y="71">CAMPAIGNS</tspan>
+    </text>
+    <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12" font-weight="500" opacity=".5">
+      <tspan x="320" y="71">LAST SEEN</tspan>
+    </text>
+    <g transform="translate(36 188)">
+      <text fill="#01B2D0" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="23" y="14">Activated account</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="160" y="14">0</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="306" y="14">5 days ago</tspan>
+      </text>
+      <circle cx="288" cy="9" r="4" fill="#6FD350"/>
+      <path fill="#01B2D0" fill-opacity=".2" fill-rule="nonzero" d="M12.8331659,8.01477569 C13.2077336,7.60083171 12.9105975,6.94370779 12.348854,6.94370779 L8.16444183,6.94370776 L10.1092948,0.839273991 C10.3193495,0.179517246 9.47153582,-0.29763087 9.0051023,0.217836309 L0.166834064,9.98522431 C-0.207733621,10.3991683 0.0894025115,11.0562922 0.651146022,11.0562922 L4.83279727,11.0562927 L2.89070519,17.160726 C2.68065048,17.8204828 3.52846418,18.2976309 3.9948977,17.7821637 L12.8331659,8.01477569 Z"/>
+    </g>
+    <g transform="translate(24 138)">
+      <rect width="405" height="38" fill="#E1E1E1" fill-opacity=".1"/>
+      <g transform="translate(12 10)">
+        <text fill="#01B2D0" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+          <tspan x="23" y="14">Account created</tspan>
+        </text>
+        <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+          <tspan x="160" y="14">1</tspan>
+        </text>
+        <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+          <tspan x="306" y="14">a day ago</tspan>
+        </text>
+        <circle cx="288" cy="9" r="4" fill="#6FD350"/>
+        <path fill="#01B2D0" fill-opacity=".2" fill-rule="nonzero" d="M12.8331659,8.01477569 C13.2077336,7.60083171 12.9105975,6.94370779 12.348854,6.94370779 L8.16444183,6.94370776 L10.1092948,0.839273991 C10.3193495,0.179517246 9.47153582,-0.29763087 9.0051023,0.217836309 L0.166834064,9.98522431 C-0.207733621,10.3991683 0.0894025115,11.0562922 0.651146022,11.0562922 L4.83279727,11.0562927 L2.89070519,17.160726 C2.68065048,17.8204828 3.52846418,18.2976309 3.9948977,17.7821637 L12.8331659,8.01477569 Z"/>
+      </g>
+    </g>
+    <g transform="translate(36 108)">
+      <text fill="#01B2D0" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="23" y="14">Accepted invite</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="160" y="16">0</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+        <tspan x="306" y="16">3 days ago</tspan>
+      </text>
+      <circle cx="288" cy="11" r="4" fill="#6FD350"/>
+      <path fill="#01B2D0" fill-opacity=".2" fill-rule="nonzero" d="M12.8331659,8.01477569 C13.2077336,7.60083171 12.9105975,6.94370779 12.348854,6.94370779 L8.16444183,6.94370776 L10.1092948,0.839273991 C10.3193495,0.179517246 9.47153582,-0.29763087 9.0051023,0.217836309 L0.166834064,9.98522431 C-0.207733621,10.3991683 0.0894025115,11.0562922 0.651146022,11.0562922 L4.83279727,11.0562927 L2.89070519,17.160726 C2.68065048,17.8204828 3.52846418,18.2976309 3.9948977,17.7821637 L12.8331659,8.01477569 Z"/>
+    </g>
+    <g transform="translate(146 189)">
+      <use fill="#000" filter="url(#event-manager-c)" xlink:href="#event-manager-d"/>
+      <use fill="#FFF" stroke="#8D8D8D" stroke-opacity=".24" xlink:href="#event-manager-d"/>
+      <g transform="translate(23 99)">
+        <rect width="348" height="1" x="1" y="41" fill="#E1E1E1"/>
+        <g transform="translate(1)">
+          <path fill="#FFF" stroke="#E1E1E1" d="M0.5,41.5 L303.5,41.5 L303.5,4 C303.5,2.06700338 301.932997,0.5 300,0.5 L4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,41.5 Z"/>
+          <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+            <tspan x="12" y="26">Recent</tspan>
+          </text>
+          <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+            <tspan x="77" y="26">Properties</tspan>
+          </text>
+          <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+            <tspan x="163" y="26">Campaigns</tspan>
+          </text>
+          <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500">
+            <tspan x="255" y="26">Setup</tspan>
+          </text>
+        </g>
+        <rect width="66" height="1" y="41" fill="#FFF"/>
+        <rect width="1" height="42" x="65" fill="#D8D8D8"/>
+        <rect width="1" height="42" x="151" fill="#D8D8D8"/>
+        <rect width="1" height="42" x="243" fill="#D8D8D8"/>
+      </g>
+      <g font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500" transform="translate(24 163)">
+        <text fill="#384254" font-size="12" opacity=".5">
+          <tspan x="0" y="11">CAMPAIGN</tspan>
+        </text>
+        <text fill="#384254" font-size="12" opacity=".5">
+          <tspan x="244" y="11">TIMING</tspan>
+        </text>
+        <g font-size="14" transform="translate(0 30)">
+          <text fill="#01B2D0">
+            <tspan x="0" y="14">owels@bigbromail.com</tspan>
+          </text>
+          <text fill="#384254">
+            <tspan x="244" y="16">a day ago</tspan>
+          </text>
+        </g>
+        <g font-size="14" transform="translate(0 66)">
+          <text fill="#01B2D0">
+            <tspan x="0" y="14">ehemingham@marlinmail.com</tspan>
+          </text>
+          <text fill="#384254">
+            <tspan x="244" y="14">5 days ago</tspan>
+          </text>
+        </g>
+      </g>
+      <text fill="#384254" font-family="ProximaNova-Semibold, Proxima Nova" font-size="22" font-weight="500">
+        <tspan x="24" y="45">Account created</tspan>
+      </text>
+      <text fill="#384254" font-family="ProximaNova-Regular, Proxima Nova" font-size="14">
+        <tspan x="46" y="73">Last trigged a day ago</tspan>
+      </text>
+      <circle cx="28" cy="68" r="4" fill="#6FD350"/>
+    </g>
+    <g transform="rotate(-13 641.79 -1967.321)">
+      <rect width="18.48" height="17.5" x=".696" y="3.332" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="16.48" height="15.5" x="4.203" y="1.316" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(39 -469.662 657.076)">
+      <rect width="18.48" height="18.333" x=".696" y="3.491" fill="#01B2D0" opacity=".1" rx="3"/>
+      <rect width="16.48" height="16.333" x="4.203" y="1.331" stroke="#01B2D0" stroke-width="2" rx="3"/>
+    </g>
+    <g transform="rotate(112 271.95 198.988)">
+      <path fill="#6FD350" d="M21.5944411,14.0074966 L32.2191148,35.308862 C33.2051403,37.2857406 32.4018952,39.6876489 30.4250167,40.6736744 C29.8705056,40.9502529 29.2593193,41.0942191 28.6396595,41.0942191 L7.39031215,41.0942191 C5.18117315,41.0942191 3.39031215,39.3033581 3.39031215,37.0942191 C3.39031215,36.4745594 3.53427841,35.8633731 3.81085688,35.308862 L14.4355306,14.0074966 C15.4215561,12.0306181 17.8234644,11.227373 19.800343,12.2133985 C20.5772241,12.6008905 21.2069491,13.2306154 21.5944411,14.0074966 Z" opacity=".2"/>
+      <path stroke="#6FD350" stroke-width="2" d="M28.0780801,7.89492174 C27.7874611,7.31226085 27.3151673,6.83996714 26.7325065,6.54934813 C25.2498475,5.809829 23.4484163,6.41226283 22.7088972,7.89492174 L12.0842235,29.1962871 C11.8767896,29.6121704 11.7688149,30.0705602 11.7688149,30.535305 C11.7688149,32.1921592 13.1119607,33.535305 14.7688149,33.535305 L36.0181623,33.535305 C36.4829071,33.535305 36.9412969,33.4273303 37.3571802,33.2198964 C38.8398391,32.4803773 39.4422729,30.678946 38.7027538,29.1962871 L28.0780801,7.89492174 Z"/>
+    </g>
+    <g transform="rotate(-47 337.3 12.463)">
+      <path fill="#6FD350" d="M18.6584492,12.8291371 L26.4876424,28.4531851 C27.4773353,30.4282301 26.6785496,32.8316251 24.7035045,33.8213181 C24.1472653,34.1000489 23.5336749,34.2451826 22.911507,34.2451826 L7.25312048,34.2451826 C5.04398148,34.2451826 3.25312048,32.4543216 3.25312048,30.2451826 C3.25312048,29.6230147 3.39825417,29.0094243 3.67698503,28.4531851 L11.5061783,12.8291371 C12.4958712,10.854092 14.8992662,10.0553063 16.8743113,11.0449992 C17.6459305,11.4316567 18.2717917,12.0575179 18.6584492,12.8291371 Z" opacity=".2"/>
+      <path stroke="#6FD350" stroke-width="2" d="M23.9417665,7.81137471 C23.6517733,7.23266032 23.1823775,6.76326443 22.6036631,6.47327128 C21.1223793,5.73100159 19.319833,6.33009091 18.5775633,7.81137471 L10.7483701,23.4354226 C10.5393219,23.852602 10.4304716,24.3127948 10.4304716,24.7794208 C10.4304716,26.436275 11.7736174,27.7794208 13.4304716,27.7794208 L29.0888581,27.7794208 C29.5554841,27.7794208 30.0156769,27.6705705 30.4328563,27.4615224 C31.9141401,26.7192527 32.5132294,24.9167064 31.7709597,23.4354226 L23.9417665,7.81137471 Z"/>
+    </g>
+    <g transform="rotate(-35 516.071 119.84)">
+      <ellipse cx="18.234" cy="13.678" stroke="#FFC111" stroke-width="2" rx="12.091" ry="12.078"/>
+      <ellipse cx="13.819" cy="17.585" fill="#FFC111" opacity=".2" rx="13.091" ry="13.078"/>
+    </g>
+  </g>
+</svg>

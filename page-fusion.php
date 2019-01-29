@@ -47,7 +47,7 @@
   <div class="inner center-text">
     <h1 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h1>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
-    <ul class="feature-list unstyled-list thirds sm-center top-margin-medium">
+    <ul class="feature-list unstyled-list thirds sm-center-text top-margin-medium">
       <li class="center-text">
         <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-recommendations.svg">
         <p class="semi-bold medium">Recommendations</p>
