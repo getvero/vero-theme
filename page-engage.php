@@ -13,6 +13,8 @@ include 'pages-shared/static-header.php';
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers and grow your business</h1>
 
       <p class="large bottom-margin-medium">Create, automate and send emails and push notifications that drive customer engagement and increase revenue.</p>
@@ -21,8 +23,6 @@ include 'pages-shared/static-header.php';
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
-
-      <img src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage with arrow coming out">
     </div>
   </div>
 </section>
@@ -37,8 +37,8 @@ include 'pages-shared/static-header.php';
         <blockquote class="quotation-marks">
           <p class="large">Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue</p>
 
-          <a class="medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
-          <span class="medium">Head of CRM at helloprint</span>
+          <a class="d-block medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
+          <span class="d-block medium">Head of CRM at helloprint</span>
         </blockquote>
       </div>
     </div>
