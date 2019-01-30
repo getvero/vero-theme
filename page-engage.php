@@ -10,7 +10,7 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" id="job-hero">
+<section id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
