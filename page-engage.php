@@ -17,7 +17,7 @@ include 'pages-shared/static-header.php';
 
       <p class="large bottom-margin-medium">Create, automate and send emails and push notifications that drive customer engagement and increase revenue.</p>
 
-      <div class="flex items-center justify-center intro-footer">
+      <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
         <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
@@ -131,14 +131,14 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="double-padding bg-gray-lighter">
+<section class="bg-gray-lighter bg-dots bg-right">
   <div class="inner xlarge-inner">
-    <div class="grid grid-halfs">
-      <div>
-        <h3 class="chunk regular bottom-margin-tiny">Put your data first and craft better customer experiences</h3>
+    <div class="footer-cta flex flex-wrap">
+      <div class="col-aside">
+        <h3 class="tubs regular bottom-margin-tiny">Put your data first and craft better customer experiences</h3>
         <p class="medium">Let Vero help you manage every touchpoint your customer has with your business.</p>
       </div>
-      <div class="flex">
+      <div class="col-main flex">
         <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
       </div>
     </div>
