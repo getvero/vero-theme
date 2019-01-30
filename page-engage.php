@@ -120,6 +120,8 @@ include 'pages-shared/static-header.php';
         <h2 class="chunk regular">Optimize for growth</h2>
         <p class="medium">Test and optimize your customer journeys to drive more growth for your business. Roll out successful A/B tests in minutes. Analyze what brings the best results, iron out imperfections, and always release winning variations.</p>
 
+        <p class="medium">Choose the metrics for your test and Vero can automatically calculate the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
+
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
 
         <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
