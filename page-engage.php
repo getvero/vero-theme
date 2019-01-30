@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="double-padding bg-dots-left" id="job-quote">
+<section class="small-padding bg-dots-strip" id="job-quote">
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center items-center">
       <div class="col-aside">
@@ -34,10 +34,12 @@ include 'pages-shared/static-header.php';
       </div>
 
       <div class="col-main">
-        <p class="large">“Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue”</p>
+        <blockquote class="quotation-marks">
+          <p class="large">Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue</p>
 
-        <a class="medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
-        <p class="medium">Head of CRM at helloprint</p>
+          <a class="medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
+          <span class="medium">Head of CRM at helloprint</span>
+        </blockquote>
       </div>
     </div>
   </div>
@@ -131,9 +133,9 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="bg-gray-lighter bg-dots-right bg-right">
+<section class="double-padding footer-cta bg-dots-strip bg-right">
   <div class="inner xlarge-inner">
-    <div class="footer-cta flex flex-wrap">
+    <div class="flex flex-wrap">
       <div class="col-aside">
         <h3 class="tubs regular bottom-margin-tiny">Put your data first and craft better customer experiences</h3>
         <p class="medium">Let Vero help you manage every touchpoint your customer has with your business.</p>
