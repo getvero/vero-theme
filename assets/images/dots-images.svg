@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="312" height="268" viewBox="0 0 312 268">
-  <g fill="#E1E1E1" fill-rule="evenodd" opacity=".7">
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="290" viewBox="0 0 312 290">
+  <g fill="#E1E1E1" fill-rule="evenodd" opacity=".5">
     <rect width="4" height="4" x="308" y="88"/>
     <rect width="4" height="4" x="308" y="66"/>
     <rect width="4" height="4" x="308" y="44"/>
@@ -195,5 +195,10 @@
     <rect width="4" height="4" y="220"/>
     <rect width="4" height="4" y="242"/>
     <rect width="4" height="4" y="264"/>
+    <rect width="4" height="4" x="88" y="286"/>
+    <rect width="4" height="4" x="66" y="286"/>
+    <rect width="4" height="4" x="44" y="286"/>
+    <rect width="4" height="4" x="22" y="286"/>
+    <rect width="4" height="4" y="286"/>
   </g>
 </svg>
