@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="double-padding bg-dots" id="job-quote">
+<section class="double-padding bg-dots-left" id="job-quote">
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center items-center">
       <div class="col-aside">
@@ -131,7 +131,7 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="bg-gray-lighter bg-dots bg-right">
+<section class="bg-gray-lighter bg-dots-right bg-right">
   <div class="inner xlarge-inner">
     <div class="footer-cta flex flex-wrap">
       <div class="col-aside">
