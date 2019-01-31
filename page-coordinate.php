@@ -12,9 +12,9 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
-    <h1 class="biggie semi-bold bottom-margin-small center-text">Manage customer interactions across the entire lifecycle</h1>
-
     <div class="intro-header center-text center-block">
+      <h1 class="biggie semi-bold bottom-margin-small center-text">Manage customer interactions across the entire lifecycle</h1>
+
       <p class="large bottom-margin-medium">Design and manage your customer emails, push notifications and other channels on a single canvas so you can look world class and avoid customer fatigue.</p>
 
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
