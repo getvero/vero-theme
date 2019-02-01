@@ -13,7 +13,7 @@ include 'pages-shared/static-header.php';
 <section id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
       <h1 class="biggie semi-bold bottom-margin-small center-text">Cut coding and speed up your iteration</h1>
 
@@ -58,7 +58,7 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium">Quickly connect Vero withCustomer Data Platforms integrations, such as Segment and native libraries for Ruby, PHP, Python, and more.</p>
+        <p class="medium">Quickly connect Vero with Customer Data Platforms such as Segment and native libraries for Ruby, PHP, Python, and more.</p>
       </div>
       <div class="col flex justify-center">
         <div class="image-dots image-dots-1">
@@ -83,10 +83,12 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Confidently design, test and optimize campaigns with real-time data. Vero’s Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
+
+        <!-- <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        </a> -->
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-4">
@@ -104,12 +106,38 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Empower your team and move faster
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">A clear view of your data</a>
+
+        <!-- <a class="medium regular unstyled underline-link cta-arrow-link" href="">Empower your team and move faster
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        </a> -->
       </div>
       <div class="flex items-center">
+        <div class="image-dots image-dots-4">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Event Manager with abstract shapes">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="inner xlarge-inner">
+    <div class="border-faded border-radius-2 shadow-sm padding-medium flex justify-around center-text">
+      <div class="">
+        <h3 class="atomic semi-bold no-margin">Engage customers</h3>
+
+        <p>Engage customers and grow your business.</p>
+      </div>
+      <div class="">
+        <h3 class="atomic semi-bold no-margin">Empower customers</h3>
+
+        <p>Engage customers and grow your business.</p>
+      </div>
+      <div class="">
+        <h3 class="atomic semi-bold no-margin">Co-ordinate</h3>
+
+        <p>Cut coding and iterate faster.</p>
       </div>
     </div>
   </div>
