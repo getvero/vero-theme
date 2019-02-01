@@ -28,9 +28,9 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="small-padding bg-dots-strip" id="job-quote">
   <div class="inner large-inner">
-    <div class="flex flex-wrap justify-center items-center">
+    <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <img class="border-radius-4 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani@2x.jpg 2x" alt="A portrait of Julien Catani">
+        <img class="border-radius-1 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani@2x.jpg 2x" alt="A portrait of Julien Catani">
       </div>
 
       <div class="col-main">
@@ -51,44 +51,29 @@ include 'pages-shared/static-header.php';
 
       <h2 class="chunk regular bottom-margin-tiny">Seamlessly integrate Vero with your software</h2>
 
-      <p class="large">Improve the impact of every message you send your customers by including helpful and engaging content.</p>
+      <p class="medium bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p>
+
+      <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Connect Vero</a>
     </div>
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p>
+        <p class="medium">Quickly connect Vero withCustomer Data Platforms integrations, such as Segment and native libraries for Ruby, PHP, Python, and more.</p>
       </div>
       <div class="col flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Fusion with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/api.svg" alt="UI of customer profile with API integrations">
         </div>
       </div>
       <div class="col">
-        <p class="medium no-bottom-margin">Store, track and segment:</p>
-
-        <ul class="medium bottom-margin-small">
-          <li>customer properties (such as name, location, 	timezone); and</li>
-          <li>customer activity (checkouts, browsing 	behaviour, product interactions)</li>
-        </ul>
-
-        <p class="medium no-bottom-margin">Quickly connect Vero with:</p>
-
-        <ul class="medium bottom-margin-xsmall">
-          <li>Customer Data Platforms integrations, such 	as Segment</li>
-          <li>Native libraries for Ruby, PHP, Python, and	more</li>
-        </ul>
+        <p class="medium no-bottom-margin">Store, track and segment customer properties (such as name, location, timezone); and customer activity (checkouts, browsing behaviour, product interactions).</p>
       </div>
     </div>
-
-    <a class="medium regular unstyled underline-link cta-arrow-link" href="">Connect Vero
-
-      <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-    </a>
   </div>
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid job-feature-right bottom-margin-xlarge">
+    <div class="grid job-feature-left bottom-margin-xlarge">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 
@@ -109,7 +94,7 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
     </div>
-    <div class="grid job-feature-left">
+    <div class="grid job-feature-right">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 

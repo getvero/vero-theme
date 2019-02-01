@@ -262,7 +262,7 @@
 
       <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
 
-      <a class="btn btn-default" href="mailto:">Contact us</a>
+      <a class="btn btn-primary" href="mailto:">Contact us</a>
     </div>
   </section>
 </div>
