@@ -54,10 +54,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Workflows help you visualize the customer experience as you build it. Whether you’re creating short, long, simple or complex journeys, Vero makes it easy to manage.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Streamline your workflows
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Streamline your workflows</a>
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-1">
@@ -73,10 +70,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Vero tracks your customers’ actions, as they happen, and gives you a clear view of the data. Vero lets you easily select and add customer event data sent to create personalized messages.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Empower your marketing team
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Empower your marketing team</a>
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-2">
@@ -137,15 +131,52 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Choose the metrics for your test and Vero can automatically calculate the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
-
-        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="inner xlarge-inner">
+    <div class="border-faded border-radius-2 shadow-sm padding-medium flex flex-column md-flex-row justify-around center-text jobs-navigation">
+      <div>
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+
+        <h3 class="atomic semi-bold bottom-margin-tiny">Engage customers</h3>
+
+        <p>Engage customers and grow your business.</p>
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="/engage/">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
+      </div>
+      <div>
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
+
+        <h3 class="atomic semi-bold bottom-margin-tiny">Empower customers</h3>
+
+        <p>Cut coding and speed up your iteration.</p>
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="/empower/">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
+      </div>
+      <div>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate</h3>
+
+        <p>Cut coding and iterate faster.</p>
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
     </div>
   </div>

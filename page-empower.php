@@ -60,7 +60,7 @@ include 'pages-shared/static-header.php';
       <div class="col md-right-text">
         <p class="medium">Quickly connect Vero with Customer Data Platforms such as Segment and native libraries for Ruby, PHP, Python, and more.</p>
       </div>
-      <div class="col flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/api.svg" alt="UI of customer profile with API integrations">
         </div>
@@ -73,7 +73,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid job-feature-left bottom-margin-xlarge">
+    <div class="grid job-feature job-feature-left bottom-margin-xlarge">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 
@@ -84,19 +84,14 @@ include 'pages-shared/static-header.php';
         <p class="medium bottom-margin-xsmall">Confidently design, test and optimize campaigns with real-time data. Vero’s Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
 
         <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
-
-        <!-- <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a> -->
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes">
         </div>
       </div>
     </div>
-    <div class="grid job-feature-right">
+    <div class="grid job-feature job-feature-right">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 
@@ -107,13 +102,8 @@ include 'pages-shared/static-header.php';
         <p class="medium bottom-margin-xsmall">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
 
         <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">A clear view of your data</a>
-
-        <!-- <a class="medium regular unstyled underline-link cta-arrow-link" href="">Empower your team and move faster
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a> -->
       </div>
-      <div class="flex items-center">
+      <div class="col-aside flex items-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Event Manager with abstract shapes">
         </div>
@@ -127,21 +117,38 @@ include 'pages-shared/static-header.php';
       <div>
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 
-        <h3 class="atomic semi-bold no-margin">Engage customers</h3>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Engage customers</h3>
 
         <p>Engage customers and grow your business.</p>
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="/engage/">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
       <div>
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
-        <h3 class="atomic semi-bold no-margin">Empower customers</h3>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Empower customers</h3>
 
         <p>Cut coding and speed up your iteration.</p>
+
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="/empower/">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
       <div>
-        <h3 class="atomic semi-bold no-margin">Co-ordinate</h3>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate</h3>
 
         <p>Cut coding and iterate faster.</p>
+
+
+        <a class="regular unstyled underline-link cta-arrow-link" href="">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </a>
       </div>
     </div>
   </div>
