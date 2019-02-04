@@ -129,10 +129,9 @@ include 'pages-shared/static-header.php';
       <div>
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
-        <h3 class="atomic semi-bold bottom-margin-tiny">Empower customers</h3>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Empower your team</h3>
 
         <p>Cut coding and speed up your iteration.</p>
-
 
         <a class="regular unstyled underline-link cta-arrow-link" href="/empower/">Learn more
 
@@ -140,12 +139,11 @@ include 'pages-shared/static-header.php';
         </a>
       </div>
       <div>
-        <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate</h3>
+        <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
 
         <p>Cut coding and iterate faster.</p>
 
-
-        <a class="regular unstyled underline-link cta-arrow-link" href="">Learn more
+        <a class="regular unstyled underline-link cta-arrow-link" href="/coordinage/">Learn more
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </a>

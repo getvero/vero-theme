@@ -47,7 +47,7 @@ include 'pages-shared/static-header.php';
 <section class="double-padding">
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left bottom-margin-xlarge">
-      <div>
+      <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Easily create and manage automated workflows</h2>
@@ -72,7 +72,7 @@ include 'pages-shared/static-header.php';
 
         <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Empower your marketing team</a>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="UI of Event Manager with abstract shapes">
         </div>
@@ -101,7 +101,7 @@ include 'pages-shared/static-header.php';
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </a>
       </div>
-      <div class="col flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
         </div>
@@ -122,7 +122,7 @@ include 'pages-shared/static-header.php';
 <section class="double-padding">
   <div class="inner xlarge-inner">
     <div class="grid job-feature-left">
-      <div>
+      <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Reporting</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Optimize for growth</h2>
@@ -133,7 +133,7 @@ include 'pages-shared/static-header.php';
 
         <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
         </div>
@@ -143,7 +143,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section>
   <div class="inner xlarge-inner">
-    <div class="border-faded border-radius-2 shadow-sm padding-medium flex flex-column md-flex-row justify-around center-text jobs-navigation">
+    <div class="border-faded border-radius-2 shadow-sm horizontal-padding-medium flex flex-column md-flex-row justify-around center-text jobs-navigation">
       <div>
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 

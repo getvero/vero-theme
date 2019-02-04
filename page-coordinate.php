@@ -13,7 +13,7 @@ include 'pages-shared/static-header.php';
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <h1 class="biggie semi-bold bottom-margin-small center-text">Manage customer interactions across the entire lifecycle</h1>
+      <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate customer interactions across the entire lifecycle</h1>
 
       <p class="large bottom-margin-medium">Design and manage your customer emails, push notifications and other channels on a single canvas so you can look world class and avoid customer fatigue.</p>
 
@@ -26,22 +26,19 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="bg-offwhite">
+<section class="double-padding">
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
-      <div>
+      <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
         <h2 class="chunk regular">Unified messaging platform</h2>
         <p class="medium">Stop “hacking” tools together. Embrace all your messaging channels to design better customer experiences.</p>
 
         <p class="medium">A central command center for your customer messaging, Vero helps you limit customer frustration and messaging fatigue, and move faster with all the tools you need in one place.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Learn how our workflow can help
-
-        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Streamline your workflows</a>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Workflows with abstract shapes">
         </div>
@@ -65,7 +62,7 @@ include 'pages-shared/static-header.php';
         <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </a>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
         </div>
@@ -73,6 +70,7 @@ include 'pages-shared/static-header.php';
       <div>
         <h2 class="atomic semi-bold">Fusion</h2>
         <p class="medium">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
+
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Load data from its source
 
         <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
@@ -83,18 +81,17 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid job-feature-left">
-      <div>
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Reporting</span>
-        <h2 class="chunk regular">Optimize for growth</h2>
-        <p class="medium">Test and optimize your customer journeys to drive more growth for your business. Roll out successful A/B tests in minutes. Analyze what brings the best results, iron out imperfections, and always release winning variations.</p>
+    <div class="grid job-feature job-feature-left">
+      <div class="col-main">
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Webhook</span>
+        <h2 class="chunk regular">Trigger custom interactions anywhere</h2>
+        <p class="medium">Trigger a HTTP webhook to any software or service in your stack, enabling you to drive and manage customer interactions across the entire lifecycle.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Test and optimize your campaigns
+        <p class="medium">Combine email and mobile push with any channel you can dream up with Vero’s Workflows
 
-        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <p class="medium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
         </div>
