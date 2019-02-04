@@ -92,7 +92,7 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes">
         </div>
       </div>
     </div>
