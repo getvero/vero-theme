@@ -113,39 +113,47 @@ include 'pages-shared/static-header.php';
 </section>
 <section>
   <div class="inner xlarge-inner">
-    <div class="border-faded border-radius-2 shadow-sm padding-medium flex flex-column md-flex-row justify-around center-text jobs-navigation">
-      <div>
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+    <div class="shadow-1 border-light border-radius-2 padding-small flex flex-column md-flex-row justify-around center-text jobs-navigation">
+      <div class="block">
+        <a class="d-block unstyled cta-arrow-link" href="/engage/">
+          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 
-        <h3 class="atomic semi-bold bottom-margin-tiny">Engage customers</h3>
+          <h3 class="atomic semi-bold bottom-margin-tiny">Engage customers</h3>
 
-        <p>Engage customers and grow your business.</p>
+          <p>Engage customers and grow your business.</p>
 
-        <a class="regular unstyled underline-link cta-arrow-link" href="/engage/">Learn more
+          <span class="regular unstyled underline-link">Learn more
 
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+          </span>
         </a>
       </div>
-      <div>
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
+      <div class="block">
+        <a class="d-block unstyled cta-arrow-link" href="/empower/">
+          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
-        <h3 class="atomic semi-bold bottom-margin-tiny">Empower your team</h3>
+          <h3 class="atomic semi-bold bottom-margin-tiny">Empower your team</h3>
 
-        <p>Cut coding and speed up your iteration.</p>
+          <p>Cut coding and speed up your iteration.</p>
 
-        <a class="regular unstyled underline-link cta-arrow-link" href="/empower/">Learn more
+          <span class="regular unstyled underline-link cta-arrow-link">Learn more
 
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+          </span>
         </a>
       </div>
-      <div>
-        <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
+      <div class="block">
+        <a class="d-block unstyled cta-arrow-link" href="/coordinate/">
+          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
-        <p>Cut coding and iterate faster.</p>
+          <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
 
-        <a class="regular unstyled underline-link cta-arrow-link" href="/coordinage/">Learn more
+          <p>Cut coding and iterate faster.</p>
 
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+          <span class="regular unstyled underline-link cta-arrow-link">Learn more
+
+            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+          </span>
         </a>
       </div>
     </div>
