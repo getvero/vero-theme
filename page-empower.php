@@ -123,18 +123,22 @@ include 'pages-shared/static-header.php';
 </section>
 <section>
   <div class="inner xlarge-inner">
-    <div class="border-faded border-radius-2 shadow-sm padding-medium flex justify-around center-text">
-      <div class="">
+    <div class="border-faded border-radius-2 shadow-sm padding-medium flex flex-column md-flex-row justify-around center-text jobs-navigation">
+      <div>
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+
         <h3 class="atomic semi-bold no-margin">Engage customers</h3>
 
         <p>Engage customers and grow your business.</p>
       </div>
-      <div class="">
+      <div>
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
+
         <h3 class="atomic semi-bold no-margin">Empower customers</h3>
 
-        <p>Engage customers and grow your business.</p>
+        <p>Cut coding and speed up your iteration.</p>
       </div>
-      <div class="">
+      <div>
         <h3 class="atomic semi-bold no-margin">Co-ordinate</h3>
 
         <p>Cut coding and iterate faster.</p>
