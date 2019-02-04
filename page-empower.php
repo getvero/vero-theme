@@ -30,7 +30,7 @@ include 'pages-shared/static-header.php';
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <img class="border-radius-1 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani@2x.jpg 2x" alt="A portrait of Julien Catani">
+        <img class="border-radius-1 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/luke-chesser@2x.jpg 2x" alt="A portrait of Julien Catani">
       </div>
 
       <div class="col-main">
