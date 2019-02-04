@@ -100,7 +100,7 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
 
-        <h2 class="chunk regular bottom-margin-xsmall">Visualize your customers’ experience as you build it. </h2>
+        <h2 class="chunk regular bottom-margin-xsmall">Visibility and clarity, so you can move faster</h2>
 
         <p class="medium bottom-margin-xsmall">Vero bridges the gap between your engineering team and marketing team.</p>
 
