@@ -44,6 +44,8 @@ function custom_footer_html() {
     <li><a href="https://developers.getvero.com" target="_blank">API Reference</a></li>
     <li><a href="https://releasenotes.getvero.com" target="_blank">Release Notes</a></li>
     <li><a href="https://status.getvero.com/" target="_blank">Status</a></li>
+    <li><a href="https://feedback.getvero.com/" target="_blank">Product Roadmap</a></li>
+    <li><a href="https://feedback.getvero.com/feature-requests" target="_blank">Feature Requests</a></li>
   </ul>
   <ul class="col">
     <li class="header">Company</li>
