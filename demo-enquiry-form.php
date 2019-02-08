@@ -1,14 +1,10 @@
-<div id="demo">
+<div class="modal modal-demo" id="demo">
   <div class="inner">
     <div id="enquire-intro" class="center-text">
       <p class="regular">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
     </div>
     <div id="thanks" class="center-text">
-      <h2>Thanks!</h2>
-      <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
-    </div>
-    <div id="thanks">
-      <h3>Thanks!</h3>
+      <h3 class="atomic">Thanks!</h3>
       <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
     </div>
     <form id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
@@ -47,5 +43,7 @@
       <p class="small light faded center-text">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our  <a href="/privacy">Privacy Notice</a>.</p>
     </form>
   </div>
-  <div class="modal_close"><span class="fa fa-close"></span></div>
+  <div class="modal-close">
+    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
+  </div>
 </div>
