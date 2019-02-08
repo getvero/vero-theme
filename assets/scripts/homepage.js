@@ -182,8 +182,7 @@ jQuery(window).scroll(function(){
   var height   = getHeight();
   var distance = getDistance() - jQuery(window).scrollTop();
   var offset   = jQuery(window).scrollTop();
-  console.log('scroll');
-  if ( (distance <= 0) && !stuck) {
+  if ( (distance <= -1) && !stuck) {
     jQuery(".nav-primary").addClass('sticky');
     jQuery(".nav-primary").height(height);
     stuck = true;

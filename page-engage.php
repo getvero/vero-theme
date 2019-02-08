@@ -17,11 +17,12 @@ include 'pages-shared/static-header.php';
 
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers and grow your business</h1>
 
-      <p class="large bottom-margin-medium">Create, automate and send emails and push notifications that drive customer engagement and increase revenue.</p>
+      <p class="large bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+
+        <a class="btn btn-dark-blue btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
   </div>
@@ -37,7 +38,7 @@ include 'pages-shared/static-header.php';
         <blockquote class="quotation-marks">
           <p class="large quote">Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue.</p>
 
-          <a class="d-block medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Cataini</a>
+          <a class="d-block medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Catani</a>
           <span class="d-block medium">Head of CRM at helloprint</span>
         </blockquote>
       </div>
@@ -92,7 +93,7 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <h2 class="atomic semi-bold">Liquid and data inspector</h2>
+        <!-- <h2 class="atomic semi-bold">Liquid and data inspector</h2> -->
 
         <p class="medium bottom-margin-xsmall">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
 
@@ -107,7 +108,7 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="col">
-        <h2 class="atomic semi-bold">Fusion</h2>
+        <!-- <h2 class="atomic semi-bold">Fusion</h2> -->
 
         <p class="medium bottom-margin-xsmall">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
 
