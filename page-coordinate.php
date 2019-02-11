@@ -52,14 +52,12 @@ include 'pages-shared/static-header.php';
     <h2 class="chunk regular bottom-margin-tiny center-text">Reach customers on their preferred channel</h2>
     <div class="section-header center-block center-text bottom-margin-large">
       <p class="large">Your customers switch between mobile, email and the web regularly and rapidly.</p>
+
+      <a class="btn btn-medium btn-outline btn-primary" href="/workflows">CTA</a>
     </div>
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
         <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Personalize your content
-
-        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
@@ -68,11 +66,6 @@ include 'pages-shared/static-header.php';
       </div>
       <div>
         <p class="medium">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
-
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Load data from its source
-
-        <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
       </div>
     </div>
   </div>
@@ -82,7 +75,7 @@ include 'pages-shared/static-header.php';
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Webhook</span>
-        <h2 class="chunk regular">Trigger custom interactions anywhere <span class="btn btn-pill btn-small">Coming soon</span></h2>
+        <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline pill pill-tiny pill-primary">Coming soon</span></h2>
         <p class="medium">Trigger a HTTP webhook to any software or service in your stack, enabling you to drive and manage customer interactions across the entire lifecycle.</p>
 
         <p class="medium">Combine email and mobile push with any channel you can dream up with Vero’s Workflows
