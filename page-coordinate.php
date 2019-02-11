@@ -17,11 +17,11 @@ include 'pages-shared/static-header.php';
 
       <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate customer interactions across the entire lifecycle</h1>
 
-      <p class="large bottom-margin-medium">Design and manage your customer emails, push notifications and other channels on a single canvas so you can look world class and avoid customer fatigue.</p>
+      <p class="large bottom-margin-medium">Design and manage all your customer communications on a single canvas.</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
       </div>
     </div>
   </div>
@@ -55,7 +55,6 @@ include 'pages-shared/static-header.php';
     </div>
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
-        <h2 class="atomic semi-bold">Liquid and data inspector</h2>
         <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Personalize your content
 
@@ -68,7 +67,6 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div>
-        <h2 class="atomic semi-bold">Fusion</h2>
         <p class="medium">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
 
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Load data from its source
