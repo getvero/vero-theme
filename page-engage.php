@@ -22,7 +22,7 @@ include 'pages-shared/static-header.php';
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
       </div>
     </div>
   </div>
@@ -38,8 +38,8 @@ include 'pages-shared/static-header.php';
         <blockquote class="quotation-marks">
           <p class="large quote">Vero enables us to use real-time data to personalise our emails with relevant content to drive a higher revenue.</p>
 
-          <a class="d-block medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Julien Catani</a>
-          <span class="d-block medium">Head of CRM at helloprint</span>
+          <span class="d-block medium regular">Julien Catani</span>
+          <span class="d-block medium">Head of CRM at Helloprint</span>
         </blockquote>
       </div>
     </div>
