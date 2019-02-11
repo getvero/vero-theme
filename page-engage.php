@@ -96,9 +96,7 @@ include 'pages-shared/static-header.php';
       <div class="col md-right-text">
         <p class="medium bottom-margin-xsmall">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Personalize your content
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Personalize your content</a>
         </a>
       </div>
       <div class="col-aside flex justify-center">
