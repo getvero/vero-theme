@@ -202,7 +202,7 @@ function add_categories_and_search() {
         get_search_form(true);
       ?>
 
-      <a class="js-blog-subscribe-btn btn btn-primary" rel="leanModal" href="#blog">Subscribe to blog</a>
+      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe</a>
     </div>
 
     <div class="modal modal-blog" id="blog">
