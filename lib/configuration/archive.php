@@ -208,15 +208,14 @@ function add_categories_and_search() {
     <div class="modal modal-blog" id="blog">
       <div class="inner">
         <div id="enquire-intro" class="center-text">
-          <h3 class="atomic regular">Get our latest blog posts, product news and tips straight to your inbox.</h3>
+          <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
         </div>
         <div id="thanks" class="center-text">
           <h3 class="micro regular">Thanks!</h3>
           <p class="no-margin">Hang tight, one of our Customer Success engineers will be in touch soon.</p>
         </div>
         <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
-          <div class="form-group">
-            <label for="sender_email_address">Email:</label>
+          <div class="form-group bottom-margin-tiny">
             <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
             <input name="user[consent_marketing]" type="hidden" value="true">
             <input name="user[consent_product_updates]" type="hidden" value="true">
@@ -225,6 +224,7 @@ function add_categories_and_search() {
           <div class="form-group">
             <input class="btn btn-success" type="submit" value="Subscribe">
           </div>
+          <p class="small light faded center-text">We're committed to keeping your information safe. Read our <a href="/privacy">Privacy Policy</a></p>
         </form>
       </div>
       <div class="modal-close">
