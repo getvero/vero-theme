@@ -22,7 +22,7 @@ include 'pages-shared/static-header.php';
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="btn btn-dark-blue btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Workflows help you visualize the customer experience as you build it. Whether you’re creating short, long, simple or complex journeys, Vero makes it easy to manage.</p>
 
-        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Streamline your workflows</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Streamline your workflows</a>
       </div>
       <div class="flex justify-center">
         <div class="image-dots image-dots-1">
@@ -65,13 +65,13 @@ include 'pages-shared/static-header.php';
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Event Manager</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">data Management</span>
 
-        <h2 class="chunk regular bottom-margin-xsmall">Easily create and manage automated workflows</h2>
+        <h2 class="chunk regular bottom-margin-xsmall">Confidently send messages with real-time data</h2>
 
         <p class="medium bottom-margin-xsmall">Vero tracks your customers’ actions, as they happen, and gives you a clear view of the data. Vero lets you easily select and add customer event data sent to create personalized messages.</p>
 
-        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Empower your marketing team</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">See your customer data</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
@@ -93,8 +93,6 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <!-- <h2 class="atomic semi-bold">Liquid and data inspector</h2> -->
-
         <p class="medium bottom-margin-xsmall">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
 
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Personalize your content
@@ -108,8 +106,6 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="col">
-        <!-- <h2 class="atomic semi-bold">Fusion</h2> -->
-
         <p class="medium bottom-margin-xsmall">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
 
         <a class="medium regular unstyled underline-link cta-arrow-link" href="">Load data from its source
@@ -132,7 +128,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Choose the metrics for your test and Vero can automatically calculate the winning variant based on the biggest number or Statistical significance (95% confidence level).</p>
 
-        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns.html">Test and optimize your campaigns</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
