@@ -207,12 +207,12 @@ function add_categories_and_search() {
 
     <div class="modal modal-blog" id="blog">
       <div class="inner">
-        <div id="enquire-intro" class="center-text">
+        <div class="center-text" id="enquire-intro">
           <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
         </div>
-        <div id="thanks" class="center-text">
+        <div class="center-text" id="thanks">
           <h3 class="micro regular">Thanks!</h3>
-          <p class="no-margin">Hang tight, one of our Customer Success engineers will be in touch soon.</p>
+          <p class="no-margin">Almost there! We've sent you an email to confirm your subscription..</p>
         </div>
         <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
           <div class="form-group bottom-margin-tiny">
