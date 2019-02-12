@@ -61,7 +61,7 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/channels.svg" alt="Multi-channel with abstract shapes">
         </div>
       </div>
       <div>
