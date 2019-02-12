@@ -222,9 +222,9 @@ function add_categories_and_search() {
             <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
           </div>
           <div class="form-group">
-            <input class="btn btn-success" type="submit" value="Subscribe">
+            <input class="btn btn-success" type="submit" value="Subscribe to updates">
           </div>
-          <p class="small light faded center-text">We're committed to keeping your information safe. Read our <a href="/privacy">Privacy Policy</a></p>
+          <p class="small center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
         </form>
       </div>
       <div class="modal-close">
