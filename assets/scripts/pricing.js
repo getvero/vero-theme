@@ -10,12 +10,12 @@ jQuery(document).ready(function(){
     closeButton: '.modal-close'
   });
 
-  // if(window.location.hash) {
-  //   var hash = window.location.hash.substring(1);
-  //   if(hash == 'demo') {
-  //     jQuery('#demo-trigger').click();
-  //   }
-  // }
+  if(window.location.hash) {
+    var hash = window.location.hash.substring(1);
+    if(hash == 'demo') {
+      jQuery('#demo-trigger').click();
+    }
+  }
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
