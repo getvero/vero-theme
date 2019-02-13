@@ -99,6 +99,9 @@ function genesischild_theme_setup() {
   add_action ('genesis_before', 'remove_search_title');
   add_filter ('genesis_search_text', 'change_search_form_placeholder');
 
+  // Remove Genesis SEO Settings menu link
+  remove_theme_support('genesis-seo-settings-menu');
+
   // Customise Release Notes
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
