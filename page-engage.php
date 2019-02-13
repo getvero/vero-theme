@@ -94,7 +94,7 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium bottom-margin-xsmall">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
+        <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Personalize your content</a>
         </a>
@@ -105,12 +105,9 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="col">
-        <p class="medium bottom-margin-xsmall">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
+        <p class="medium">Pull content from APIs directly into your messages at send time. You can send account usage updates and tailored product recommendations to weather forecasts.</p>
 
-        <a class="medium regular unstyled underline-link cta-arrow-link" href="">Load data from its source
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Load data from it's source</a>
       </div>
     </div>
   </div>
