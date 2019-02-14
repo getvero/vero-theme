@@ -84,7 +84,7 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/webhook.svg" alt="Visualization of webhook integrations with abstract shapes">
         </div>
       </div>
     </div>
