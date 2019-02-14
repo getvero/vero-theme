@@ -21,7 +21,8 @@ include 'pages-shared/static-header.php';
 
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="medium regular unstyled underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+
+        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
       </div>
     </div>
   </div>
@@ -53,7 +54,7 @@ include 'pages-shared/static-header.php';
 
       <p class="medium bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p>
 
-      <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Connect Vero</a>
+      <a class="btn btn-medium btn-outline btn-primary" href="#none">Connect Vero</a>
     </div>
 
     <div class="grid job-feature job-feature-thirds items-center">
@@ -83,7 +84,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Confidently design, test and optimize campaigns with real-time data. Vero’s Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
 
-        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">Test and optimize your campaigns</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="#none">Empower your marketing team</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
@@ -101,7 +102,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium bottom-margin-xsmall">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
 
-        <a class="btn btn-medium btn-outline btn-dark-blue" href="#none">A clear view of your data</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team and move faster</a>
       </div>
       <div class="col-aside flex items-center">
         <div class="image-dots image-dots-4">

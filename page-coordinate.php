@@ -36,7 +36,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium">A central command center for your customer messaging, Vero helps you limit customer frustration and messaging fatigue, and move faster with all the tools you need in one place.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Learn how our workflow can help</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Learn more about workflows</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">

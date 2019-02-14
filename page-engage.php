@@ -31,7 +31,10 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+        <div class="border-light border-radius-2 bg-white padding-small">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+        </div>
+
         <!-- <img class="border-radius-1 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani@2x.jpg 2x" alt="A portrait of Julien Catani"> -->
       </div>
 
