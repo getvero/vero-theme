@@ -175,6 +175,8 @@ function get_category_title() {
     echo "All";
   } else if( is_category() ){
     echo single_cat_title();
+  } else if( is_single() ){
+    echo "All";
   } else if( is_search() ) {
     echo "Search";
   }
