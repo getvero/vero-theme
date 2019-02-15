@@ -139,19 +139,8 @@ include 'pages-shared/static-header.php';
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
+  include 'pages-shared/footer-cta.php';
 ?>
-<section class="double-padding footer-cta bg-dots-strip bg-right">
-  <div class="inner xlarge-inner">
-    <div class="flex flex-wrap">
-      <div class="col-aside">
-        <h3 class="biggie regular">Create better customer experiences</h3>
-      </div>
-      <div class="col-main flex">
-        <a class="btn btn-large btn-success self-center md-left-margin-auto" href="#none">Start a free trial</a>
-      </div>
-    </div>
-  </div>
-</section>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");

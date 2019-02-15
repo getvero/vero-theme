@@ -30,11 +30,12 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span>
         <h2 class="chunk regular">Unified messaging platform</h2>
+
         <p class="medium">Stop “hacking” tools together. Embrace all your messaging channels to design better customer experiences.</p>
 
-        <p class="medium">A central command center for your customer messaging, Vero helps you limit customer frustration and messaging fatigue, and move faster with all the tools you need in one place.</p>
+        <p class="medium bottom-margin-xsmall">A central command center for your customer messaging, Vero helps you limit customer frustration and messaging fatigue, and move faster with all the tools you need in one place.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Learn more about workflows</a>
       </div>
@@ -74,13 +75,14 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Webhook</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Webhook</span>
         <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline pill pill-tiny pill-primary">Coming soon</span></h2>
+
         <p class="medium">Trigger a HTTP webhook to any software or service in your stack, enabling you to drive and manage customer interactions across the entire lifecycle.</p>
 
         <p class="medium">Combine email and mobile push with any channel you can dream up with Vero’s Workflows
 
-        <p class="medium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
+        <p class="medium bottom-margin-xsmall">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
@@ -92,20 +94,8 @@ include 'pages-shared/static-header.php';
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
+  include 'pages-shared/footer-cta.php';
 ?>
-<section class="double-padding footer-cta bg-dots-strip bg-right">
-  <div class="inner xlarge-inner">
-    <div class="flex flex-wrap">
-      <div class="col-aside">
-        <h3 class="tubs regular bottom-margin-tiny">Put your data first and craft better customer experiences</h3>
-        <p class="medium">Let Vero help you manage every touchpoint your customer has with your business.</p>
-      </div>
-      <div class="col-main flex">
-        <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
-      </div>
-    </div>
-  </div>
-</section>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
