@@ -77,7 +77,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner xlarge-inner">
+  <div class="inner xlarge-inner bottom-padding-medium">
     <div class="grid job-feature job-feature-left bottom-margin-xlarge">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span> -->
@@ -112,54 +112,6 @@ include 'pages-shared/static-header.php';
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Event Manager with abstract shapes">
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="inner xlarge-inner">
-    <div class="shadow-1 border-light border-radius-2 padding-small flex flex-column md-flex-row justify-around center-text jobs-navigation">
-      <div class="block">
-        <a class="d-block unstyled cta-arrow-link" href="/engage/">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
-
-          <h3 class="atomic semi-bold bottom-margin-tiny">Engage customers</h3>
-
-          <p>Engage customers and grow your business.</p>
-
-          <span class="regular unstyled underline-link">Learn more
-
-            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-          </span>
-        </a>
-      </div>
-      <div class="block">
-        <a class="d-block unstyled cta-arrow-link" href="/empower/">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
-
-          <h3 class="atomic semi-bold bottom-margin-tiny">Empower your team</h3>
-
-          <p>Cut coding and speed up your iteration.</p>
-
-          <span class="regular unstyled underline-link cta-arrow-link">Learn more
-
-            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-          </span>
-        </a>
-      </div>
-      <div class="block">
-        <a class="d-block unstyled cta-arrow-link" href="/coordinate/">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
-
-          <h3 class="atomic semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
-
-          <p>Cut coding and iterate faster.</p>
-
-          <span class="regular unstyled underline-link cta-arrow-link">Learn more
-
-            <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-          </span>
-        </a>
       </div>
     </div>
   </div>
