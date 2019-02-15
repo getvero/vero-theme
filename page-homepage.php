@@ -10,11 +10,11 @@
   ?>
   <div class="inner xlarge-inner">
     <div class="grid intro intro-left relative">
-      <h1 class="hulk bottom-margin-small home-title">Create a better customer experience</h1>
+      <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
       <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt="">
 
-      <p class="large bottom-margin-medium">Vero helps engineering, product, and marketing teams create and manage automated messages and improve human interactions.</p>
+      <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
 
       <div class="intro-footer nav-intro">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -70,6 +70,7 @@
     </blockquote>
   </div>
 </section>
+<!--
 <section class="double-padding">
   <div class="inner xlarge-inner">
     <div class="flex flex-wrap">
@@ -144,6 +145,7 @@
     </div>
   </div>
 </section>
+-->
 <section class="bg-offwhite">
   <div class="inner large-inner">
     <header class="section-header center center-text">

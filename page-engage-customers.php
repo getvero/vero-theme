@@ -92,7 +92,7 @@ include 'pages-shared/static-header.php';
 
       <h2 class="chunk regular bottom-margin-small">Send personalized emails and push notifications</h2>
 
-      <p class="large">Improve the impact of every message you send your customers by including helpful and engaging content.</p>
+      <p class="large">Improve the impact of every message you send your customers by including helpful and engaging content</p>
     </div>
 
     <div class="grid job-feature job-feature-thirds items-center">
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
       <div class="col">
         <p class="medium">Pull data from APIs into messages at send time to give customers a truly personalized experience.</p>
 
-        <p class="medium bottom-margin-xsmall">Send customers: account usage updates, tailored product recommendations and more</p>
+        <p class="medium bottom-margin-xsmall">Send customers account usage updates, tailored product recommendations and more.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/fusion">Load data from it's source</a>
       </div>
