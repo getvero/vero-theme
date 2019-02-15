@@ -3,10 +3,10 @@
     <div class="shadow-1 border-light border-radius-2 padding-small flex flex-column md-flex-row justify-around center-text jobs-navigation">
       <?php if (!is_page('engage')): ?>
         <div class="block block-engage">
-          <a class="d-block unstyled cta-arrow-link" href="/engage/">
+          <a class="d-block unstyled cta-arrow-link" href="/engage-customers/">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 
-            <h3 class="micro semi-bold bottom-margin-tiny">Enage customers</h3>
+            <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
 
             <p>Engage customers and grow your business.</p>
 
@@ -37,7 +37,7 @@
 
       <?php if (!is_page('coordinate')): ?>
         <div class="block block-coordinate">
-          <a class="d-block unstyled cta-arrow-link" href="/coordinate/">
+          <a class="d-block unstyled cta-arrow-link" href="/coordinate-experiences/">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
             <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
