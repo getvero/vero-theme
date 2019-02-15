@@ -31,8 +31,8 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <div class="border-light border-radius-2 bg-white padding-small">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-xsmall">
+          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
         </div>
 
         <!-- <img class="border-radius-1 avatar responsive-image" src="/wp-content/themes/vero/assets/images/jobs/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/jobs/julien-catani@2x.jpg 2x" alt="A portrait of Julien Catani"> -->
@@ -53,7 +53,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left bottom-margin-xlarge">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Easily create and manage automated workflows</h2>
 
@@ -61,7 +61,7 @@ include 'pages-shared/static-header.php';
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Streamline your workflows</a>
       </div>
-      <div class="flex justify-center">
+      <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Workflows with abstract shapes">
         </div>
@@ -69,7 +69,7 @@ include 'pages-shared/static-header.php';
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">data Management</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">data Management</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Confidently send messages with real-time data</h2>
 
@@ -88,7 +88,7 @@ include 'pages-shared/static-header.php';
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
     <div class="section-header center-block center-text bottom-margin-large">
-      <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Personalization</span>
+      <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Personalization</span>
 
       <h2 class="chunk regular bottom-margin-small">Send personalized emails and push notifications</h2>
 
@@ -121,7 +121,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Reporting</span>
+        <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Reporting</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Optimize for growth</h2>
 
