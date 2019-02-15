@@ -1,7 +1,7 @@
 <section>
   <div class="inner xlarge-inner">
     <div class="shadow-1 border-light border-radius-2 padding-small flex flex-column md-flex-row justify-around center-text jobs-navigation">
-      <?php if (!is_page('engage')): ?>
+      <?php if (!is_page('engage-customers')): ?>
         <div class="block block-engage">
           <a class="d-block unstyled cta-arrow-link" href="/engage-customers/">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
@@ -35,7 +35,7 @@
         </div>
       <? endif; ?>
 
-      <?php if (!is_page('coordinate')): ?>
+      <?php if (!is_page('coordinate-experiences')): ?>
         <div class="block block-coordinate">
           <a class="d-block unstyled cta-arrow-link" href="/coordinate-experiences/">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
