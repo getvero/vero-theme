@@ -97,7 +97,7 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium">Add dynamic content to your email and push notifications using Liquid.</p>
+        <p class="medium bottom-margin-xsmall">Add dynamic content to your email and push notifications using Liquid.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/email-personalization-liquid-guide">Personalize your content</a>
         </a>
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
       <div class="col">
         <p class="medium">Pull data from APIs into messages at send time to give customers a truly personalized experience.</p>
 
-        <p class="medium">Send customers: account usage updates, tailored product recommendations and more</p>
+        <p class="medium bottom-margin-xsmall">Send customers: account usage updates, tailored product recommendations and more</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/fusion">Load data from it's source</a>
       </div>
@@ -119,13 +119,13 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid job-feature-left">
+    <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Reporting</span>
 
         <h2 class="chunk regular bottom-margin-xsmall">Optimize for growth</h2>
 
-        <p class="medium">Test and optimize your customer journeys to drive more growth for your business. Easily design and manage your A/B tests with Vero's flexible and powerful features.</p>
+        <p class="medium bottom-margin-xsmall">Test and optimize your customer journeys to drive more growth for your business. Easily design and manage your A/B tests with Vero's flexible and powerful features.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns">Robust A/B testing</a>
       </div>
