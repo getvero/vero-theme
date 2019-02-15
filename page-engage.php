@@ -144,11 +144,10 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="flex flex-wrap">
       <div class="col-aside">
-        <h3 class="tubs regular bottom-margin-tiny">Create better customer experiences</h3>
-        <p class="medium">Let Vero help you manage every touchpoint your customer has with your business.</p>
+        <h3 class="biggie regular">Create better customer experiences</h3>
       </div>
       <div class="col-main flex">
-        <a class="btn btn-large btn-success self-center left-margin-auto" href="#none">Start a free trial</a>
+        <a class="btn btn-large btn-success self-center md-left-margin-auto" href="#none">Start a free trial</a>
       </div>
     </div>
   </div>
