@@ -70,6 +70,42 @@
     </blockquote>
   </div>
 </section>
+<section class="bg-offwhite">
+  <div class="inner xlarge-inner">
+    <header class="section-header center center-text">
+      <h2 class="chunk regular bottom-margin-large">Design automated messages and improve human interactions</h2>
+    </header>
+    <div class="grid grid-thirds">
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
+
+        <h3 class="micro semi-bold">Engage customers</h3>
+
+        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
+
+        <a class="medium regular underline-link" href="#none">Learn more</a>
+      </div>
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
+
+        <h3 class="micro semi-bold">Co-ordinate experiences</h3>
+
+        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
+
+        <a class="medium regular underline-link" href="#none">Learn more</a>
+      </div>
+      <div class="padding-xsmall border-light border-radius-10 bg-white">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-react.svg" alt="React logo">
+
+        <h3 class="micro semi-bold">Empower your team</h3>
+
+        <p class="medium">Alert and notify team members with the information they need to help customers take the next step.</p>
+
+        <a class="medium regular underline-link" href="#none">Learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
 <!--
 <section class="double-padding">
   <div class="inner xlarge-inner">
@@ -146,33 +182,6 @@
   </div>
 </section>
 -->
-<section class="bg-offwhite">
-  <div class="inner large-inner">
-    <header class="section-header center center-text">
-      <h2 class="chunk regular bottom-margin-large">Design automated messages and improve human interactions</h2>
-    </header>
-    <div class="grid grid-thirds">
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
-
-        <h3 class="micro semi-bold">Engage customers</h3>
-
-        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
-
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-react.svg" alt="React logo">
-
-        <h3 class="micro semi-bold">Stay informed</h3>
-
-        <p class="medium">Alert and notify team members with the information they need to help customers take the next step.</p>
-
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-    </div>
-  </div>
-</section>
 <div class="bg-shapes bg-center">
   <section class="double-padding overflow-visible">
     <div class="inner large-inner">
