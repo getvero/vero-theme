@@ -42,7 +42,7 @@
     </filter>
   </defs>
   <g fill="none" fill-rule="evenodd" transform="translate(16 12)">
-    <rect width="323" height="373" x="104" y="100" fill="#FFF3CF"/>
+    <rect width="309" height="356" x="189" y="100" fill="#FFF3CF"/>
     <path stroke="#01B2D0" stroke-width="2" d="M273.5,83 L273.5,127.868678"/>
     <path stroke="#A96EFD" stroke-width="2" d="M273.5,203 L273.5,247.868678"/>
     <path stroke="#FFC111" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M217.5,405 L217.5,413.929687 C217.5,419.452535 213.022847,423.929687 207.5,423.929687 L134,423.929687 C128.477153,423.929687 124,428.40684 124,433.929687 L124,441.063991"/>
