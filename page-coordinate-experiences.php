@@ -31,6 +31,7 @@ include 'pages-shared/static-header.php';
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
+
         <h2 class="chunk regular">Stop hacking tools together</h2>
 
         <p class="medium">Manage all your messaging channels in one place and design a better customer experience.</p>
@@ -66,7 +67,7 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div>
-        <p class="medium">Mobile .</p>
+        <p class="medium">Mobile.</p>
       </div>
     </div>
   </div>
