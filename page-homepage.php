@@ -18,7 +18,8 @@
 
       <div class="intro-footer nav-intro">
         <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+
+        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
       </div>
     </div>
   </div>
@@ -58,11 +59,11 @@
     </div>
   </div>
 </section>
-<section class="bg-dark-blue" id="social-proof">
+<section class="bg-dark-blue small-padding" id="social-proof">
   <div class="inner large-inner">
     <blockquote class="grid grid-full relative font-white">
-      <div class="col-main">
-        <p class="large">&ldquo;We push all of our behavioural events to Vero, an email marketing and notification platform, that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.&rdquo;</p>
+      <div class="col-main quotation-marks">
+        <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
         <span class="medium d-block semi-bold">Luke Chesser</span>
         <span class="medium d-block">CPO and Co-founder at Unsplash</span>
@@ -277,24 +278,9 @@
     </div>
   </section>
 </div>
-<section class="double-padding">
-  <div class="inner xlarge-inner">
-    <div class="border-light border-radius-10 bg-white padding-large">
-      <h3 class="chunk regular bottom-margin-small">Put your data first and craft better customer experiences</h3>
-      <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
-      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
-    </div>
-  </div>
-</section>
-<section class="double-padding bg-gray-light">
-  <div class="inner xlarge-inner">
-    <div class="">
-      <h3 class="chunk regular bottom-margin-small">Put your data first and craft better customer experiences</h3>
-      <p class="medium">What is #customerops? Customer ops is about ensuring you always serve your customer the best way possible. In every interaction.</p>
-      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
-    </div>
-  </div>
-</section>
+<?php
+  include 'pages-shared/footer-cta.php';
+?>
 <?php
   no_content_genesis_footer();
   include("demo-enquiry-form.php");
