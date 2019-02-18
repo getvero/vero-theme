@@ -32,7 +32,7 @@ include 'pages-shared/static-header.php';
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-xsmall">
-          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Helloprint logo">
         </div>
       </div>
 
