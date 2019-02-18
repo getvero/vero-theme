@@ -27,7 +27,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner xlarge-inner">
+  <div class="inner flush-top xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
