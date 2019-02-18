@@ -96,7 +96,7 @@ include 'pages-shared/static-header.php';
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes">
 
-          <!-- Event mamanger event triggers -->
+          <!-- Event mananger event triggers -->
         </div>
       </div>
     </div>
