@@ -196,99 +196,97 @@
   </div>
 </section>
 -->
-<div class="bg-offwhite bg-shapes bg-center">
-  <section class="double-padding overflow-visible">
-    <div class="inner xlarge-inner">
-      <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
+<section class="double-padding bg-offwhite bg-shapes bg-center overflow-visible">
+  <div class="inner xlarge-inner">
+    <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
-      <div class="flex items-center justify-center">
-        <div class="customer-scroll flex overflow-x-scroll">
-          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
-            <div class="right-margin-small">
-              <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-            </div>
+    <div class="flex items-center justify-center">
+      <div class="customer-scroll flex overflow-x-scroll">
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
+          <div class="right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
+          </div>
 
-            <div>
-              <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
+          <div>
+            <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-              <p class="bottom-margin-small">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
+            <p class="bottom-margin-small">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
 
-              <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
-              <span class="annotation">Cofounder at Unsplash</span>
-            </div>
-          </blockquote>
+            <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+            <span class="annotation">Cofounder at Unsplash</span>
+          </div>
+        </blockquote>
 
-          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
-            <div class="right-margin-small">
-              <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
-            </div>
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
+          <div class="right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+          </div>
 
-            <div>
-              <img class="self-center"
-              src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
+          <div>
+            <img class="self-center"
+            src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
 
-              <p class="bottom-margin-small">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
+            <p class="bottom-margin-small">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
 
-              <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
-              <span class="annotation">Head of CRM at Helloprint</span>
-            </div>
-          </blockquote>
+            <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+            <span class="annotation">Head of CRM at Helloprint</span>
+          </div>
+        </blockquote>
 
-          <blockquote class="bg-white padding-small border-radius-10 border-light flex customer-quote">
-            <div class="right-margin-small">
-              <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-            </div>
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
+          <div class="right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
+          </div>
 
-            <div>
-              <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
+          <div>
+            <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-              <p class="bottom-margin-small">"Heck! Vero's support is exceptional!"</p>
+            <p class="bottom-margin-small">"Heck! Vero's support is exceptional!"</p>
 
-              <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
-              <span class="annotation">Head of Marketing at Drawboard</span>
-            </div>
-          </blockquote>
-        </div>
+            <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+            <span class="annotation">Head of Marketing at Drawboard</span>
+          </div>
+        </blockquote>
       </div>
     </div>
-  </section>
-  <section class="double-padding" id="support">
-    <div class="inner large-inner flush-top center-text">
-      <header class="section-header center bottom-margin-medium">
-        <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
-        <p class="large">Our global team is on hand to help</p>
-      </header>
+  </div>
+</section>
+<section class="double-padding" id="support">
+  <div class="inner large-inner center-text">
+    <header class="section-header center bottom-margin-medium">
+      <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
+      <p class="large">Our global team is on hand to help</p>
+    </header>
 
-      <div class="flex justify-center bottom-margin-medium">
-        <div>
-          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Reba</span>
-        </div>
-        <div>
-          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Ellis</span>
-        </div>
-        <div>
-          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-rae.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-rae@2x.png 2x" alt="Rae">
-          <span class=" d-block annotation">Rae</span>
-        </div>
-        <div>
-          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-          <span class=" d-block annotation">Eric</span>
-        </div>
+    <div class="flex justify-center bottom-margin-medium">
+      <div>
+        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
+        <span class=" d-block annotation">Reba</span>
       </div>
-
-      <div class="bar bg-gray-lighter bottom-margin-small">
-        <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
-          <span class="d-block micro semi-bold font-white">97.5%</span>
-          <p class="d-block annotation font-white">Customer happiness rating</p>
-        </div>
+      <div>
+        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
+        <span class=" d-block annotation">Ellis</span>
       </div>
-
-      <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
+      <div>
+        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-rae.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-rae@2x.png 2x" alt="Rae">
+        <span class=" d-block annotation">Rae</span>
+      </div>
+      <div>
+        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
+        <span class=" d-block annotation">Eric</span>
+      </div>
     </div>
-  </section>
-</div>
+
+    <div class="bar bg-gray-lighter bottom-margin-small">
+      <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
+        <span class="d-block micro semi-bold font-white">97.5%</span>
+        <p class="d-block annotation font-white">Customer happiness rating</p>
+      </div>
+    </div>
+
+    <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
+  </div>
+</section>
 <?php
   include 'pages-shared/footer-cta.php';
 ?>
