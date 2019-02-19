@@ -11,7 +11,7 @@
 ?>
 <section id="features-menu" class="border-bottom-light">
   <div class="inner large-inner center-text">
-    <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
+    <h1 class="chunk regular bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
     <ul class="feature-list feature-menu-list unstyled-list full-width">
       <li class="no-top-margin"><a href="#features-collection" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold annotation uppercase font-brand-warning center-text">Collection</p></a></li>
@@ -22,10 +22,9 @@
   </div>
 </section>
 <section id="features-collection" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs large-inner feature-swapper left-padding-large right-padding-large">
+  <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-large right-padding-large">
     <h2 class="semi-bold center-text annotation uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
     <div class="left primary">
-
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small disabled-button">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
@@ -70,7 +69,7 @@
   </div>
 </section>
 <section id="features-modelling" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs large-inner feature-swapper">
+  <div class="inner halfs flex-wrap large-inner feature-swapper">
     <h2 class="semi-bold center-text annotation uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
     <div class="left secondary">
       <h1 class="tubs regular no-bottom-margin">View and model your customer data in one place</h1>
@@ -106,42 +105,42 @@
   </div>
 </section>
 <section id="features-automation" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs large-inner feature-swapper">
+  <div class="inner halfs flex-wrap large-inner feature-swapper">
     <h2 class="semi-bold center-text annotation uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
-    <div class="clearfix">
-      <div class="left primary">
-        <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
-        <img class="no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
-        <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
-          <li class="active top-margin-small">
-            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
-              <p class="semi-bold annotation no-margin">Automation</p>
-            </a>
-          </li>
-          <li class="top-margin-small">
-            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
-              <p class="semi-bold annotation no-margin">Manage Content</p>
-            </a>
-          </li>
-        </ul>
-        <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
-      </div>
-      <div class="right secondary">
-        <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
-       <!--  <p class="smallish top-margin-medium no-bottom-margin">Manage templates for every email in your stack, centrally. Upload base templates and empower marketing and product teams to reuse and safely adjust content.</p> -->
-        <p class="smallish top-margin-medium no-bottom-margin">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
-        <ul class="feature-list left-image unstyled-list">
-          <li class="top-margin-large no-bottom-margin">
-            <img src="/wp-content/themes/vero/assets/images/home/features/automation/campaigns.svg">
-            <p class="semi-bold smallish top-margin-medium no-bottom-margin">Email scheduling and automation</p><p class="light">Send an ad hoc campaign or automate an entire series of emails with specific segmentation: Vero helps you deploy your email content and logic with total control.</p>
-          </li>
-          <li>
-            <img src="/wp-content/themes/vero/assets/images/home/features/automation/templates.svg">
-            <p class="semi-bold smallish top-margin-medium no-margin">Template management</p><p class="light">Store base templates centrally, add "editable" regions and empower your entire team to design campaigns safely.</p>
-          </li>
-        </ul>
-      </div>
+
+    <div class="left primary">
+      <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+      <img class="no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+      <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
+        <li class="active top-margin-small">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
+            <p class="semi-bold annotation no-margin">Automation</p>
+          </a>
+        </li>
+        <li class="top-margin-small">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
+            <p class="semi-bold annotation no-margin">Manage Content</p>
+          </a>
+        </li>
+      </ul>
+      <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
     </div>
+    <div class="right secondary">
+      <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
+     <!--  <p class="smallish top-margin-medium no-bottom-margin">Manage templates for every email in your stack, centrally. Upload base templates and empower marketing and product teams to reuse and safely adjust content.</p> -->
+      <p class="smallish top-margin-medium no-bottom-margin">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
+      <ul class="feature-list left-image unstyled-list">
+        <li class="top-margin-large no-bottom-margin">
+          <img src="/wp-content/themes/vero/assets/images/home/features/automation/campaigns.svg">
+          <p class="semi-bold smallish top-margin-medium no-bottom-margin">Email scheduling and automation</p><p class="light">Send an ad hoc campaign or automate an entire series of emails with specific segmentation: Vero helps you deploy your email content and logic with total control.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/features/automation/templates.svg">
+          <p class="semi-bold smallish top-margin-medium no-margin">Template management</p><p class="light">Store base templates centrally, add "editable" regions and empower your entire team to design campaigns safely.</p>
+        </li>
+      </ul>
+    </div>
+
     <div class="outlined-box top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class=" d-inline-block right-margin-medium">
       <div class=" d-inline-block">
@@ -152,7 +151,7 @@
   </div>
 </section>
 <section id="features-deployment" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs large-inner">
+  <div class="inner halfs flex-wrap large-inner">
     <h2 class="semi-bold center-text annotation uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
     <div class="left secondary">
       <h1 class="tubs regular no-bottom-margin">Scalability and centralised reporting</h1>
