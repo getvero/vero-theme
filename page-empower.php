@@ -28,7 +28,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="small-padding bg-dots-strip" id="job-quote">
-  <div class="inner">
+  <div class="inner xlarge-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-xsmall">
