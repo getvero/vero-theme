@@ -36,7 +36,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium">Manage all your messaging channels in one place and design a better customer experience.</p>
 
-        <p class="medium bottom-margin-xsmall">Create intuitive workflows to send delightful campaigns and simplify your sales funnel.</p>
+        <p class="medium bottom-margin-smedium">Create intuitive workflows to send delightful campaigns and simplify your sales funnel.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Workflows</a>
       </div>
@@ -82,7 +82,7 @@ include 'pages-shared/static-header.php';
 
         <p class="medium">Combine email and mobile push with any channel you can dream up with Vero’s Workflows.</p>
 
-        <p class="medium bottom-margin-xsmall">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
+        <p class="medium bottom-margin-smedium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">

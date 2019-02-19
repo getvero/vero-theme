@@ -31,7 +31,7 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-xsmall">
+        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
           <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
         </div>
       </div>
@@ -53,9 +53,9 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
 
-        <h2 class="chunk regular bottom-margin-xsmall">Easily create and manage automated workflows</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Easily create and manage automated workflows</h2>
 
-        <p class="medium bottom-margin-xsmall">Workflows help you visualize your customer experience as you build it. It makes even the most complex customer journeys easy to manage.</p>
+        <p class="medium bottom-margin-smedium">Workflows help you visualize your customer experience as you build it. It makes even the most complex customer journeys easy to manage.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Streamline your workflows</a>
       </div>
@@ -69,9 +69,9 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">data Management</span> -->
 
-        <h2 class="chunk regular bottom-margin-xsmall">Confidently send messages with real-time data</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Confidently send messages with real-time data</h2>
 
-        <p class="medium bottom-margin-xsmall">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
+        <p class="medium bottom-margin-smedium">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">See your customer data</a>
       </div>
@@ -95,7 +95,7 @@ include 'pages-shared/static-header.php';
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium bottom-margin-xsmall">Add dynamic content to your email and push notifications using Liquid.</p>
+        <p class="medium bottom-margin-smedium">Add dynamic content to your email and push notifications using Liquid.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/email-personalization-liquid-guide">Personalize your content</a>
         </a>
@@ -108,7 +108,7 @@ include 'pages-shared/static-header.php';
       <div class="col">
         <!-- <p class="medium">Pull data from APIs into messages at send time to give customers a truly personalized experience.</p> -->
 
-        <p class="medium bottom-margin-xsmall">Send customers account usage updates, tailored product recommendations and more.</p>
+        <p class="medium bottom-margin-smedium">Send customers account usage updates, tailored product recommendations and more.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/fusion">Load data from it's source</a>
       </div>
@@ -121,9 +121,9 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Reporting</span> -->
 
-        <h2 class="chunk regular bottom-margin-xsmall">Optimize for growth</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Optimize for growth</h2>
 
-        <p class="medium bottom-margin-xsmall">Test and optimize your customer journeys to drive more growth for your business. Easily design and manage your A/B tests with Vero's flexible and powerful features.</p>
+        <p class="medium bottom-margin-smedium">Test and optimize your customer journeys to drive more growth for your business. Easily design and manage your A/B tests with Vero's flexible and powerful features.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns">Robust A/B testing</a>
       </div>

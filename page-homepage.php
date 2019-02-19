@@ -27,7 +27,7 @@
   </div>
 </section>
 <section class="logos" id="logos">
-  <div class="inner large-inner flush-top bottom-padding-xsmall center-text">
+  <div class="inner large-inner flush-top bottom-padding-smedium center-text">
     <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
@@ -78,7 +78,7 @@
       <p class="large">Duis aute irure dolor in reprehenderit in. xxxxxx</p>
     </header>
     <div class="grid grid-thirds center-text">
-      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
+      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
         <h3 class="micro semi-bold">Engage customers</h3>
@@ -90,7 +90,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
+      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
         <h3 class="micro semi-bold">Co-ordinate experiences</h3>
@@ -102,7 +102,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
+      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
 
         <h3 class="micro semi-bold">Empower your team</h3>

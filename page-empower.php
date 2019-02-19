@@ -31,7 +31,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-xsmall">
+        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
           <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Helloprint logo">
         </div>
       </div>
@@ -54,9 +54,9 @@ include 'pages-shared/static-header.php';
 
       <h2 class="chunk regular bottom-margin-small">Seamlessly integrate Vero with your software</h2>
 
-      <!-- <p class="medium bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p> -->
+      <!-- <p class="medium bottom-margin-smedium">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p> -->
 
-      <p class="large bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
+      <p class="large bottom-margin-smedium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
       <a class="btn btn-medium btn-outline btn-primary" href="#none">Connect Vero</a>
     </div>
@@ -84,11 +84,11 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span> -->
 
-        <h2 class="chunk regular bottom-margin-xsmall">Code less, move faster</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Code less, move faster</h2>
 
         <p class="medium">Vero bridges the gap between your engineer team and marketing team.</p>
 
-        <p class="medium bottom-margin-xsmall">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
+        <p class="medium bottom-margin-smedium">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager/">Move faster</a>
       </div>
@@ -104,9 +104,9 @@ include 'pages-shared/static-header.php';
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span> -->
 
-        <h2 class="chunk regular bottom-margin-xsmall">Empower your team</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Empower your team</h2>
 
-        <p class="medium bottom-margin-xsmall">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
+        <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Workflows</a>
       </div>
