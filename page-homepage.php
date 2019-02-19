@@ -17,7 +17,7 @@
 
         <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
 
-        <div class="intro-footer nav-intro">
+        <div class="flex intro-footer nav-intro">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
@@ -29,11 +29,11 @@
     </div>
   </div>
 </section>
-<section class="double-padding logos" id="logos">
+<section class="logos" id="logos">
   <div class="inner xlarge-inner flush-top bottom-padding-xsmall center-text">
     <h2 class="micro regular faded bottom-margin-tiny">Trusted by fast-growing teams, globally</h2>
 
-    <ul class="unstyled-list logo-list flex justify-around" style="grid-column: 2 / span 8;">
+    <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex logo-list-item no-margin">
         <a class="flex self-stretch" href="https://unsplash.com">
           <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
@@ -64,7 +64,7 @@
 </section>
 <section class="bg-dark-blue small-padding" id="social-proof">
   <div class="inner xlarge-inner">
-    <blockquote class="grid grid-full relative font-white">
+    <blockquote class="flex relative font-white">
       <div class="col-main quotation-marks">
         <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
@@ -74,7 +74,7 @@
     </blockquote>
   </div>
 </section>
-<section class="bg-offwhite">
+<section class="double-padding">
   <div class="inner xlarge-inner">
     <header class="section-header bottom-margin-large center-text">
       <h2 class="chunk regular bottom-margin-tiny">Design automated messages and improve human interactions</h2>
@@ -196,7 +196,7 @@
   </div>
 </section>
 -->
-<div class="bg-shapes bg-center">
+<div class="bg-offwhite bg-shapes bg-center">
   <section class="double-padding overflow-visible">
     <div class="inner xlarge-inner">
       <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
@@ -256,10 +256,10 @@
     <div class="inner large-inner flush-top center-text">
       <header class="section-header center bottom-margin-medium">
         <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
-        <p class="large">Our global team is on hand to help.</p>
+        <p class="large">Our global team is on hand to help</p>
       </header>
 
-      <!-- <div class="flex justify-center bottom-margin-medium">
+      <div class="flex justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
           <span class=" d-block annotation">Reba</span>
@@ -269,14 +269,14 @@
           <span class=" d-block annotation">Ellis</span>
         </div>
         <div>
-          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
+          <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-rae.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-rae@2x.png 2x" alt="Rae">
           <span class=" d-block annotation">Rae</span>
         </div>
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
           <span class=" d-block annotation">Eric</span>
         </div>
-      </div> -->
+      </div>
 
       <div class="bar bg-gray-lighter bottom-margin-small">
         <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
@@ -286,8 +286,6 @@
       </div>
 
       <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
-
-      <a class="btn btn-primary" href="mailto:">Contact us</a>
     </div>
   </section>
 </div>
