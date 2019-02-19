@@ -1,7 +1,7 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" id="hero">
+<section class="double-padding overflow-hidden" id="hero">
   <?php
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
@@ -11,8 +11,6 @@
     <div class="flex flex-column md-flex-row">
       <div class="col-main">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
-
-        <!-- <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt=""> -->
 
         <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
 
@@ -29,33 +27,33 @@
   </div>
 </section>
 <section class="logos" id="logos">
-  <div class="inner xlarge-inner flush-top bottom-padding-xsmall center-text">
-    <h2 class="micro regular faded bottom-margin-tiny">Trusted by fast-growing teams, globally</h2>
+  <div class="inner large-inner flush-top bottom-padding-xsmall center-text">
+    <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex logo-list-item no-margin">
-        <a class="flex self-stretch" href="https://unsplash.com">
-          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
+        <a href="https://unsplash.com">
+          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
-        <a class="flex self-stretch" href="http://tidal.com">
-          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
+        <a href="http://tidal.com">
+          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
-        <a class="flex self-stretch" href="http://monzo.com">
-          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
+        <a href="http://monzo.com">
+          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
-        <a class="flex self-stretch" href="http://about.me">
-          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
+        <a href="http://about.me">
+          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
-        <a class="flex self-stretch" href="http://helloprint.co.uk">
-          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
+        <a href="http://helloprint.co.uk">
+          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
         </a>
       </li>
     </ul>
