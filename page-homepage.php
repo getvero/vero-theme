@@ -9,58 +9,61 @@
     do_action( 'genesis_after_header' );
   ?>
   <div class="inner xlarge-inner">
-    <div class="grid intro intro-left relative">
-      <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
+    <div class="flex flex-column md-flex-row">
+      <div class="col-main">
+        <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-      <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt="">
+        <!-- <img class="absolute responsive-image" src="/wp-content/themes/vero/assets/images/home/home-hero.svg" alt=""> -->
 
-      <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
+        <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
 
-      <div class="intro-footer nav-intro">
-        <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
+        <div class="intro-footer nav-intro">
+          <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+          <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+        </div>
+      </div>
+      <div class="col-aside">
+        <img class="" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero@2x.png 2x">
       </div>
     </div>
   </div>
 </section>
 <section class="double-padding logos" id="logos">
-  <div class="inner xlarge-inner flush-top bottom-padding-medium center-text">
-    <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
+  <div class="inner xlarge-inner flush-top bottom-padding-xsmall center-text">
+    <h2 class="micro regular faded bottom-margin-tiny">Trusted by fast-growing teams, globally</h2>
 
-    <div class="grid grid-full">
-      <ul class="unstyled-list logo-list flex justify-around" style="grid-column: 2 / span 8;">
-        <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="https://unsplash.com">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
-          </a>
-        </li>
-        <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="http://tidal.com">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
-          </a>
-        </li>
-        <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="http://monzo.com">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
-          </a>
-        </li>
-        <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="http://about.me">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
-          </a>
-        </li>
-        <li class="flex logo-list-item no-margin">
-          <a class="flex self-stretch" href="http://helloprint.co.uk">
-            <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul class="unstyled-list logo-list flex justify-around" style="grid-column: 2 / span 8;">
+      <li class="flex logo-list-item no-margin">
+        <a class="flex self-stretch" href="https://unsplash.com">
+          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
+        </a>
+      </li>
+      <li class="flex logo-list-item no-margin">
+        <a class="flex self-stretch" href="http://tidal.com">
+          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
+        </a>
+      </li>
+      <li class="flex logo-list-item no-margin">
+        <a class="flex self-stretch" href="http://monzo.com">
+          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
+        </a>
+      </li>
+      <li class="flex logo-list-item no-margin">
+        <a class="flex self-stretch" href="http://about.me">
+          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
+        </a>
+      </li>
+      <li class="flex logo-list-item no-margin">
+        <a class="flex self-stretch" href="http://helloprint.co.uk">
+          <img class="center" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
 <section class="bg-dark-blue small-padding" id="social-proof">
-  <div class="inner large-inner">
+  <div class="inner xlarge-inner">
     <blockquote class="grid grid-full relative font-white">
       <div class="col-main quotation-marks">
         <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
@@ -73,37 +76,47 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <header class="section-header center center-text">
-      <h2 class="chunk regular bottom-margin-large">Design automated messages and improve human interactions</h2>
+    <header class="section-header bottom-margin-large center-text">
+      <h2 class="chunk regular bottom-margin-tiny">Design automated messages and improve human interactions</h2>
+      <p class="large">Duis aute irure dolor in reprehenderit in. xxxxxx</p>
     </header>
-    <div class="grid grid-thirds">
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
+    <div class="grid grid-thirds center-text">
+      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
         <h3 class="micro semi-bold">Engage customers</h3>
 
-        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
+        <p>Send email and push notifications that drive customer engagement and increase revenue.</p>
 
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
+        <span class="semi-bold unstyled underline-link">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </span>
+      </a>
+      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
         <h3 class="micro semi-bold">Co-ordinate experiences</h3>
 
-        <p class="medium">Use real-time data to design and send personalized customer emails and push notifications.</p>
+        <p>Easily manage your customer journeys by unifying email and push notifications on a single canvas.</p>
 
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
-      <div class="padding-xsmall border-light border-radius-10 bg-white">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-react.svg" alt="React logo">
+        <span class="semi-bold unstyled underline-link">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </span>
+      </a>
+      <a class="d-block padding-xsmall border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
 
         <h3 class="micro semi-bold">Empower your team</h3>
 
-        <p class="medium">Alert and notify team members with the information they need to help customers take the next step.</p>
+        <p>Empower your marketing team to create and test customer experiences using real-time data.</p>
 
-        <a class="medium regular underline-link" href="#none">Learn more</a>
-      </div>
+        <span class="semi-bold unstyled underline-link">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </span>
+      </a>
     </div>
   </div>
 </section>
@@ -185,8 +198,8 @@
 -->
 <div class="bg-shapes bg-center">
   <section class="double-padding overflow-visible">
-    <div class="inner large-inner">
-      <h2 class="section-label uppercase bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
+    <div class="inner xlarge-inner">
+      <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
       <div class="flex items-center justify-center">
         <div class="customer-scroll flex overflow-x-scroll">
@@ -246,7 +259,7 @@
         <p class="large">Our global team is on hand to help.</p>
       </header>
 
-      <div class="flex justify-center bottom-margin-medium">
+      <!-- <div class="flex justify-center bottom-margin-medium">
         <div>
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
           <span class=" d-block annotation">Reba</span>
@@ -263,7 +276,7 @@
           <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
           <span class=" d-block annotation">Eric</span>
         </div>
-      </div>
+      </div> -->
 
       <div class="bar bg-gray-lighter bottom-margin-small">
         <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">

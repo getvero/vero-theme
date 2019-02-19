@@ -10,7 +10,7 @@
 
             <p>Engage customers and grow your business.</p>
 
-            <span class="regular unstyled underline-link cta-arrow-link">Learn more
+            <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
             </span>
@@ -27,7 +27,7 @@
 
             <p>Cut coding and speed up your iteration.</p>
 
-            <span class="regular unstyled underline-link cta-arrow-link">Learn more
+            <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
             </span>
@@ -44,7 +44,7 @@
 
             <p>Cut coding and iterate faster.</p>
 
-            <span class="regular unstyled underline-link cta-arrow-link">Learn more
+            <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
             </span>
