@@ -17,7 +17,7 @@ include 'pages-shared/static-header.php';
 
       <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate messaging across the entire customer lifecycle</h1>
 
-      <p class="large bottom-margin-medium">Easily manage your customer journeys by unifying email and push notifications on a single canvas.</p>
+      <p class="large bottom-margin-medium">Easily manage your customer journeys by unifying email and push notifications on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
