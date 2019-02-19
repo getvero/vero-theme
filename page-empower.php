@@ -52,11 +52,11 @@ include 'pages-shared/static-header.php';
     <div class="section-header center-block center-text bottom-margin-large">
       <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">API integration</span> -->
 
-      <h2 class="chunk regular bottom-margin-tiny">Seamlessly integrate Vero with your software</h2>
+      <h2 class="chunk regular bottom-margin-small">Seamlessly integrate Vero with your software</h2>
 
       <!-- <p class="medium bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p> -->
 
-      <p class="medium bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
+      <p class="large bottom-margin-xsmall">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
       <a class="btn btn-medium btn-outline btn-primary" href="#none">Connect Vero</a>
     </div>
