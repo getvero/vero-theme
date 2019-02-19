@@ -51,11 +51,10 @@ include 'pages-shared/static-header.php';
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
     <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium center-text">Multi-channel</span> -->
-    <h2 class="chunk regular bottom-margin-tiny center-text">Reach customers on the right channel</h2>
     <div class="section-header center-block center-text bottom-margin-large">
-      <p class="large">Your customers switch between mobile, email and the web regularly and rapidly</p>
+      <h2 class="chunk regular bottom-margin-small center-text">Reach customers on the right channel</h2>
 
-      <!-- <a class="btn btn-medium btn-outline btn-primary" href="/workflows">CTA</a> -->
+      <p class="large">Your customers switch between mobile, email and the web regularly and rapidly</p>
     </div>
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
