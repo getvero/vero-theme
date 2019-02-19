@@ -12,7 +12,7 @@
 <section id="event-manager-heading">
   <div class="inner small-inner center-text bottom-padding-medium">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Event Management</p>
-    <h1 class="bottom-margin-small biggie">Confidently send emails using real-time customer data</h1>
+    <h1 class="chunk regular bottom-margin-small biggie">Confidently send emails using real-time customer data</h1>
     <p class="no-top-margin medium">Vero's Event Manager gives marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns. </p>
   </div>
 </section>

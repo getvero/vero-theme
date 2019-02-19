@@ -1,7 +1,6 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
-
 <section class="double-padding" id="hero">
   <?php
     do_action( 'genesis_before_header' );
@@ -20,7 +19,7 @@
         <div class="flex intro-footer nav-intro">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+          <a class="btn btn-primary btn-outline btn-large md-left-margin-small" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
       </div>
       <div class="col-aside">
