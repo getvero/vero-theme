@@ -13,10 +13,12 @@
 
         <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
 
-        <div class="flex intro-footer nav-intro">
+        <div class="flex flex-wrap md-flex-nowrap items-center">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-primary btn-outline btn-large md-left-margin-small" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+          <span class="d-inline-block faded horizontal-margin-tiny hide md-show">or</span>
+
+          <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
       </div>
       <div class="col-aside relative">
@@ -30,31 +32,31 @@
   </div>
 </section>
 <section class="logos" id="logos">
-  <div class="inner flush-top bottom-padding-smedium center-text">
-    <h2 class="tubs regular faded">Trusted by</h2>
+  <div class="inner large-inner flush-top bottom-padding-smedium center-text">
+    <h2 class="micro regular faded bottom-margin-smedium">Trusted by companies globally</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
-      <li class="flex logo-list-item no-margin">
+      <li class="flex justify-center logo-list-item no-margin">
         <a href="https://unsplash.com">
           <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash logo">
         </a>
       </li>
-      <li class="flex logo-list-item no-margin">
+      <li class="flex justify-center logo-list-item no-margin">
         <a href="http://tidal.com">
           <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal logo">
         </a>
       </li>
-      <li class="flex logo-list-item no-margin">
+      <li class="flex justify-center logo-list-item no-margin">
         <a href="http://monzo.com">
           <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo logo">
         </a>
       </li>
-      <li class="flex logo-list-item no-margin">
+      <li class="flex justify-center logo-list-item no-margin">
         <a href="http://about.me">
           <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me logo">
         </a>
       </li>
-      <li class="flex logo-list-item no-margin">
+      <li class="flex justify-center logo-list-item no-margin">
         <a href="http://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
         </a>
@@ -196,9 +198,9 @@
   </div>
 </section>
 -->
-<section class="double-padding bg-offwhite bg-shapes bg-center overflow-visible">
+<section class="bg-offwhite bg-shapes bg-center overflow-visible">
   <div class="inner xlarge-inner">
-    <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
+    <h2 class="tubs regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="flex items-center justify-center">
       <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
@@ -252,41 +254,43 @@
   </div>
 </section>
 <section class="double-padding" id="our-support">
-  <div class="inner large-inner center-text">
+  <div class="inner medium-inner center-text">
     <header class="section-header center bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
       <p class="large">Our global team is on hand to help</p>
     </header>
 
-    <div class="flex justify-center bottom-margin-medium">
+    <!-- <div class="flex justify-center bottom-margin-medium">
       <div>
         <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class=" d-block annotation">Reba</span>
+        <span class="d-block">Reba</span>
       </div>
       <div>
         <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class=" d-block annotation">Ellis</span>
+        <span class="d-block">Ellis</span>
       </div>
       <div>
         <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-rae.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-rae@2x.png 2x" alt="Rae">
-        <span class=" d-block annotation">Rae</span>
+        <span class="d-block">Rae</span>
       </div>
       <div>
         <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class=" d-block annotation">Eric</span>
+        <span class="d-block">Eric</span>
       </div>
-    </div>
+    </div> -->
 
     <div class="bar border-light bg-gray-lighter flex bottom-margin-tiny">
       <div class="bar-item bg-error"></div>
       <div class="bar-item bg-warning"></div>
       <div class="bar-item bg-success flex flex-column items-center justify-center">
-        <span class="d-block micro semi-bold font-white">90</span>
-        <p class="d-block annotation font-white">Happiness score</p>
+        <span class="d-block tubs semi-bold font-white">91</span>
+        <p class="medium font-white">Happiness score</p>
       </div>
     </div>
 
-    <p class="faded">Based on last 6 months of support ratings</p>
+    <p class="medium no-margin"><span class="font-brand-success">Great (95%)</span> <span class="font-brand-warning">Okay (2%)</span> <span class="font-brand-error">Not Good (3%)</span></p>
+
+    <p class="annotation faded">Based on last 6 months of support ratings</p>
   </div>
 </section>
 <?php
