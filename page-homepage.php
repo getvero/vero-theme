@@ -20,14 +20,19 @@
         </div>
       </div>
       <div class="col-aside">
-        <img class="" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero@2x.png 2x">
+
+        <picture>
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-data.svg">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png 1x, /wp-content/themes/vero/assets/images/landing-pages/workflows/hero@2x.png 2x">
+          <img class="" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png" alt="Sreengrab of Workflows UI">
+        </picture>
       </div>
     </div>
   </div>
 </section>
 <section class="logos" id="logos">
-  <div class="inner large-inner flush-top bottom-padding-smedium center-text">
-    <h2 class="micro regular faded">Trusted by fast-growing teams, globally</h2>
+  <div class="inner flush-top bottom-padding-smedium center-text">
+    <h2 class="tubs regular faded">Trusted by</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex logo-list-item no-margin">
@@ -77,6 +82,18 @@
       <p class="large">Duis aute irure dolor in reprehenderit in. xxxxxx</p>
     </header>
     <div class="grid grid-thirds center-text">
+      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
+
+        <h3 class="micro semi-bold">Empower your team</h3>
+
+        <p>Empower your marketing team to create and test customer experiences using real-time data.</p>
+
+        <span class="semi-bold unstyled underline-link">Learn more
+
+          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
+        </span>
+      </a>
       <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
@@ -95,18 +112,6 @@
         <h3 class="micro semi-bold">Co-ordinate experiences</h3>
 
         <p>Easily manage your customer journeys by unifying email and push notifications on a single canvas.</p>
-
-        <span class="semi-bold unstyled underline-link">Learn more
-
-          <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </span>
-      </a>
-      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
-
-        <h3 class="micro semi-bold">Empower your team</h3>
-
-        <p>Empower your marketing team to create and test customer experiences using real-time data.</p>
 
         <span class="semi-bold unstyled underline-link">Learn more
 
