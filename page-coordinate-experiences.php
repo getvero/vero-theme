@@ -1,14 +1,13 @@
 <?php
+  add_filter( 'body_class', 'add_class' );
+  function add_class($classes) {
+    global $post;
 
-add_filter( 'body_class', 'add_class' );
-function add_class($classes) {
-  global $post;
+    $classes[] = 'jobs coordinate-jobs';
+    return $classes;
+  }
 
-  $classes[] = 'jobs coordinate-jobs';
-  return $classes;
-}
-
-include 'pages-shared/static-header.php';
+  include 'pages-shared/static-header.php';
 ?>
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">

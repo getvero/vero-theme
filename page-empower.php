@@ -1,14 +1,13 @@
 <?php
+  add_filter( 'body_class', 'add_class' );
+  function add_class($classes) {
+    global $post;
 
-add_filter( 'body_class', 'add_class' );
-function add_class($classes) {
-  global $post;
+    $classes[] = 'jobs empower-jobs';
+    return $classes;
+  }
 
-  $classes[] = 'jobs empower-jobs';
-  return $classes;
-}
-
-include 'pages-shared/static-header.php';
+  include 'pages-shared/static-header.php';
 ?>
 <section id="job-hero">
   <div class="inner xlarge-inner">
