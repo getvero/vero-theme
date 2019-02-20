@@ -252,7 +252,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding" id="support">
+<section class="double-padding" id="our-support">
   <div class="inner large-inner center-text">
     <header class="section-header center bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
@@ -278,14 +278,16 @@
       </div>
     </div>
 
-    <div class="bar bg-gray-lighter bottom-margin-small">
-      <div class="bg-primary flex flex-column items-center justify-center" style="height: 100%; width: 97.5%">
-        <span class="d-block micro semi-bold font-white">97.5%</span>
+    <div class="bar bg-gray-lighter flex bottom-margin-small">
+      <div class="bar-item bg-error"></div>
+      <div class="bar-item bg-warning"></div>
+      <div class="bar-item bg-success flex flex-column items-center justify-center">
+        <span class="d-block micro semi-bold font-white">96%</span>
         <p class="d-block annotation font-white">Customer happiness rating</p>
       </div>
     </div>
 
-    <p class="annotation faded">Customer feedback gathered through Help Scout over the past 60 days.</p>
+    <p class="faded">Based on last 6 months of support ratings</p>
   </div>
 </section>
 <?php
