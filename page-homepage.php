@@ -19,10 +19,9 @@
           <a class="btn btn-primary btn-outline btn-large md-left-margin-small" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
       </div>
-      <div class="col-aside">
-
+      <div class="col-aside relative">
         <picture>
-          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-data.svg">
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
           <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png 1x, /wp-content/themes/vero/assets/images/landing-pages/workflows/hero@2x.png 2x">
           <img class="" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png" alt="Sreengrab of Workflows UI">
         </picture>
@@ -278,12 +277,12 @@
       </div>
     </div>
 
-    <div class="bar bg-gray-lighter flex bottom-margin-small">
+    <div class="bar border-light bg-gray-lighter flex bottom-margin-tiny">
       <div class="bar-item bg-error"></div>
       <div class="bar-item bg-warning"></div>
       <div class="bar-item bg-success flex flex-column items-center justify-center">
-        <span class="d-block micro semi-bold font-white">96%</span>
-        <p class="d-block annotation font-white">Customer happiness rating</p>
+        <span class="d-block micro semi-bold font-white">90</span>
+        <p class="d-block annotation font-white">Happiness score</p>
       </div>
     </div>
 
