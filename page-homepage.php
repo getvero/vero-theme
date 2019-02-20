@@ -37,27 +37,27 @@
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex logo-list-item no-margin">
         <a href="https://unsplash.com">
-          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash logo">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
         <a href="http://tidal.com">
-          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal logo">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
         <a href="http://monzo.com">
-          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo logo">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
         <a href="http://about.me">
-          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me logo">
         </a>
       </li>
       <li class="flex logo-list-item no-margin">
         <a href="http://helloprint.co.uk">
-          <img class="faded" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
         </a>
       </li>
     </ul>
@@ -202,50 +202,50 @@
     <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="flex items-center justify-center">
-      <div class="customer-scroll flex overflow-x-scroll">
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
-          <div class="right-margin-small">
+      <div class="customer-scroll flex flex-wrap ms-flex-nowrap overflow-x-scroll">
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
             <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
           </div>
 
-          <div>
+          <div class="col-main">
             <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-            <p class="bottom-margin-small">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
+            <p class="medium">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
 
-            <a class=" d-block annotation semi-bold" href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
-            <span class="annotation">Cofounder at Unsplash</span>
+            <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+            <span>Cofounder at Unsplash</span>
           </div>
         </blockquote>
 
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
-          <div class="right-margin-small">
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
             <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
           </div>
 
-          <div>
+          <div class="col-main">
             <img class="self-center"
             src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
 
-            <p class="bottom-margin-small">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
+            <p class="medium">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
 
-            <a class=" d-block annotation semi-bold" href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
-            <span class="annotation">Head of CRM at Helloprint</span>
+            <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+            <span>Head of CRM at Helloprint</span>
           </div>
         </blockquote>
 
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex customer-quote">
-          <div class="right-margin-small">
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
             <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
           </div>
 
-          <div>
+          <div class="col-main">
             <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-            <p class="bottom-margin-small">"Heck! Vero's support is exceptional!"</p>
+            <p class="medium">"Heck! Vero's support is exceptional!"</p>
 
-            <a class=" d-block annotation semi-bold" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
-            <span class="annotation">Head of Marketing at Drawboard</span>
+            <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+            <span>Head of Marketing at Drawboard</span>
           </div>
         </blockquote>
       </div>
