@@ -32,7 +32,7 @@
   </div>
 </section>
 <section class="logos" id="logos">
-  <div class="inner large-inner flush-top bottom-padding-smedium center-text">
+  <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
     <h2 class="micro regular faded bottom-margin-smedium">Trusted by companies globally</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
@@ -62,18 +62,6 @@
         </a>
       </li>
     </ul>
-  </div>
-</section>
-<section class="bg-dark-blue small-padding" id="social-proof">
-  <div class="inner xlarge-inner">
-    <blockquote class="flex relative font-white">
-      <div class="col-main quotation-marks">
-        <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
-
-        <span class="medium d-block semi-bold">Luke Chesser</span>
-        <span class="medium d-block">CPO and Co-founder at Unsplash</span>
-      </div>
-    </blockquote>
   </div>
 </section>
 <section class="double-padding">
