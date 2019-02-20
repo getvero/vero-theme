@@ -202,7 +202,7 @@
     <h2 class="tubs regular bottom-margin-medium jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="flex items-center justify-center">
-      <div class="customer-scroll flex flex-wrap ms-flex-nowrap overflow-x-scroll">
+      <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
         <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
           <div class="col-aside right-margin-small">
             <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
