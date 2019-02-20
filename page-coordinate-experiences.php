@@ -14,9 +14,9 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
-      <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate messaging across the entire customer lifecycle</h1>
+      <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate messaging throughout the entire customer lifecycle</h1>
 
-      <p class="large bottom-margin-medium">Easily manage your customer journeys by unifying email and push notifications on a single canvas</p>
+      <p class="large bottom-margin-medium">Create and manage emails, push notifications and custom interactions, on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -31,13 +31,11 @@
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
 
-        <h2 class="chunk regular">Stop hacking tools together</h2>
+        <h2 class="chunk regular">Design a better customer experience</h2>
 
-        <p class="medium">Manage all your messaging channels in one place and design a better customer experience.</p>
+        <p class="medium">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
 
-        <p class="medium bottom-margin-smedium">Create intuitive workflows to send delightful campaigns and simplify your sales funnel.</p>
-
-        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Workflows</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive Workflows</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
@@ -51,13 +49,13 @@
   <div class="inner xlarge-inner">
     <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium center-text">Multi-channel</span> -->
     <div class="section-header center-block center-text bottom-margin-large">
-      <h2 class="chunk regular bottom-margin-small center-text">Reach customers on the right channel</h2>
+      <h2 class="chunk regular bottom-margin-small center-text">Right message, right time, right channel</h2>
 
-      <p class="large">Your customers switch between mobile, email and the web regularly and rapidly</p>
+      <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
     </div>
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="md-right-text">
-        <p class="medium">Vero supports Liquid so you can display dynamic content in your email and push messages.</p>
+        <p class="medium">Add dynamic content to your messages with Liquid or data pulled directly from APIs.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
@@ -65,7 +63,7 @@
         </div>
       </div>
       <div>
-        <p class="medium">Mobile.</p>
+        <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
       </div>
     </div>
   </div>

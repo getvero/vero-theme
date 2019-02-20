@@ -8,7 +8,7 @@
   ?>
   <div class="inner xlarge-inner">
     <div class="flex flex-column md-flex-row">
-      <div class="col-main">
+      <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
         <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
@@ -71,7 +71,7 @@
       <p class="large">Duis aute irure dolor in reprehenderit in. xxxxxx</p>
     </header>
     <div class="grid grid-thirds center-text">
-      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
+      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
 
         <h3 class="micro semi-bold">Empower your team</h3>
@@ -83,7 +83,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
+      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
         <h3 class="micro semi-bold">Engage customers</h3>
@@ -95,7 +95,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
+      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
         <h3 class="micro semi-bold">Co-ordinate experiences</h3>
@@ -187,7 +187,7 @@
 </section>
 -->
 <section class="bg-offwhite bg-shapes bg-center overflow-visible">
-  <div class="inner xlarge-inner">
+  <div class="inner xlarge-inner center-text md-left-text">
     <h2 class="tubs regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="flex items-center justify-center">
