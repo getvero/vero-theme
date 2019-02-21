@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="205" viewBox="0 0 205 205">
+  <g fill="none" fill-rule="evenodd" stroke-width="24" transform="translate(-25 -25)">
+    <circle cx="127.5" cy="127.5" r="90" stroke="#E1E1E1"/>
+    <path stroke="#6FD350" stroke-dasharray="502.4" stroke-linecap="round" stroke-linejoin="round" d="M127.5,217.5 C177.205627,217.5 217.5,177.205627 217.5,127.5 C217.5,77.7943725 177.205627,37.5 127.5,37.5 C77.7943725,37.5 37.5,77.7943725 37.5,127.5 C37.5,177.205627 77.7943725,217.5 127.5,217.5 Z" transform="rotate(137 127.5 127.5)"/>
+  </g>
+</svg>
