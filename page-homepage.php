@@ -23,7 +23,7 @@
       </div>
       <div class="col-aside relative">
         <picture>
-          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero-mobile.png 1x, /wp-content/themes/vero/assets/images/home/home-hero-mobile@2x.png 2x">
           <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
           <img class="" src="/wp-content/themes/vero/assets/images/home/home-hero.png" alt="Sreengrab of Workflows UI">
         </picture>
