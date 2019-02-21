@@ -4,8 +4,8 @@
       <div class="col-aside">
         <h3 class="biggie regular">Create better customer experiences</h3>
       </div>
-      <div class="col-main">
-        <a class="d-inline-block btn btn-large btn-success md-left-margin-auto" href="https://app.getvero.com/signup">Start a free trial</a>
+      <div class="col-main flex justify-center md-justify-end">
+        <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
       </div>
     </div>
   </div>
