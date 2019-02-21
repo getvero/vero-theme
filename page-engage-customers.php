@@ -14,9 +14,9 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 
-      <h1 class="biggie semi-bold bottom-margin-small">Engage customers and grow your business</h1>
+      <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
-      <p class="large bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue.</p>
+      <p class="large bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
 
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>

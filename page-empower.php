@@ -14,7 +14,7 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
-      <h1 class="biggie semi-bold bottom-margin-small center-text">Cut coding and speed up iteration</h1>
+      <h1 class="biggie semi-bold bottom-margin-small center-text">Empower your team</h1>
 
       <p class="large bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
 
@@ -57,7 +57,7 @@
 
       <p class="large bottom-margin-smedium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
-      <a class="btn btn-medium btn-outline btn-primary" href="#none">Connect Vero</a>
+      <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
     </div>
 
     <div class="grid job-feature job-feature-thirds items-center">
@@ -95,7 +95,7 @@
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes">
 
-          <!-- Event mananger event triggers -->
+          <!-- Event mananger imagery -->
         </div>
       </div>
     </div>
@@ -107,11 +107,13 @@
 
         <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Workflows</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Workflows</a>
       </div>
       <div class="col-aside flex items-center">
         <div class="image-dots image-dots-4">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Event Manager with abstract shapes">
+
+          <!-- -->
         </div>
       </div>
     </div>

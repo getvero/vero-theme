@@ -14,9 +14,9 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
-      <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate messaging throughout the entire customer lifecycle</h1>
+      <h1 class="biggie semi-bold bottom-margin-small center-text">Co-ordinate messaging</h1>
 
-      <p class="large bottom-margin-medium">Create and manage emails, push notifications and custom interactions, on a single canvas</p>
+      <p class="large bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -33,7 +33,7 @@
 
         <h2 class="chunk regular">Design a better customer experience</h2>
 
-        <p class="medium">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
+        <p class="medium bottom-margin-medium">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive Workflows</a>
       </div>

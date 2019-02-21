@@ -38,9 +38,11 @@ function custom_footer_html() {
           </ul>
           <ul class="unstyled-list footer-list semi-bold">
             <li class="header annotation uppercase faded">Integrations</li>
-            <li><a href="/integrations/vero-segment">Vero &plus; Segment</a></li>
-            <li><a href="/integrations/vero-stitch">Vero &plus; Stitch</a></li>
-            <li><a href="/integrations/vero-snowplow">Vero &plus; Snowplow</a></li>
+            <li><a href="/integrations/vero-segment">Segment</a></li>
+            <li><a href="/integrations/vero-stitch">Stitch</a></li>
+            <li><a href="/integrations/vero-snowplow">Snowplow</a></li>
+            <li><a href="/integrations/vero-snowplow">Zapier</a></li>
+            <li><a href="/integrations/vero-snowplow">Webhooks</a></li>
           </ul>
           <ul class="unstyled-list footer-list semi-bold">
             <li class="header annotation uppercase faded">Resources</li>

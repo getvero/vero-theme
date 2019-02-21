@@ -11,7 +11,7 @@
       <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="large bottom-margin-medium">Email and communication platform for marketering and engineering teams. xxxxxx</p>
+        <p class="large bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -33,7 +33,7 @@
 </section>
 <section class="logos" id="logos">
   <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
-    <h2 class="micro regular faded bottom-margin-smedium">Trusted by companies globally</h2>
+    <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex justify-center logo-list-item no-margin">
@@ -73,38 +73,38 @@
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
 
-        <h3 class="micro semi-bold">Empower your team</h3>
+        <h3 class="micro semi-bold bottom-margin-micro">Empower your team</h3>
 
         <p>Empower your marketing team to create and test customer experiences using real-time data.</p>
 
-        <span class="semi-bold unstyled underline-link">Learn more
+        <!-- <span class="semi-bold unstyled underline-link">Learn more
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </span>
+        </span> -->
       </a>
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
-        <h3 class="micro semi-bold">Engage customers</h3>
+        <h3 class="micro semi-bold bottom-margin-micro">Engage customers</h3>
 
         <p>Send email and push notifications that drive customer engagement and increase revenue.</p>
 
-        <span class="semi-bold unstyled underline-link">Learn more
+        <!-- <span class="semi-bold unstyled underline-link">Learn more
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </span>
+        </span> -->
       </a>
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
-        <h3 class="micro semi-bold">Co-ordinate messaging</h3>
+        <h3 class="micro semi-bold bottom-margin-micro">Co-ordinate messaging</h3>
 
         <p>Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
-        <span class="semi-bold unstyled underline-link">Learn more
+        <!-- <span class="semi-bold unstyled underline-link">Learn more
 
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-        </span>
+        </span> -->
       </a>
     </div>
   </div>
@@ -242,19 +242,22 @@
 </section>
 <section class="double-padding">
   <div class="inner medium-inner center-text">
-    <header class="section-header center bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
-      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
-    </header>
-
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
-      <span class="absolute biggie semi-bold font-brand-success">95%</span>
+      <div>
+        <span class="absolute biggie semi-bold font-brand-success">95%</span>
+        <span class="d-block">customer happiness rating</span>
+      </div>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
 
-    <p class="medium no-margin">We have a 95% customer happiness rating</p>
+    <!-- <p class="medium no-margin">95% customer happiness rating</p> -->
 
     <p class="annotation faded">Based on last 6 months of support ratings</p>
+
+    <header class="section-header center bottom-margin-medium">
+      <!-- <h2 class="chunk regular bottom-margin-tiny">24/7 support</h2> -->
+      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
+    </header>
   </div>
 </section>
 <?php

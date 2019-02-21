@@ -8,12 +8,12 @@
 
             <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
 
-            <p>Engage customers and grow your business.</p>
+            <p class="medium">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
-            <span class="regular unstyled underline-link">Learn more
+            <!-- <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-            </span>
+            </span> -->
           </a>
         </div>
       <? endif; ?>
@@ -25,12 +25,12 @@
 
             <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
 
-            <p>Cut coding and speed up your iteration.</p>
+            <p class="medium">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
-            <span class="regular unstyled underline-link">Learn more
+            <!-- <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-            </span>
+            </span> -->
           </a>
         </div>
       <? endif; ?>
@@ -42,12 +42,12 @@
 
             <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
 
-            <p>Cut coding and iterate faster.</p>
+            <p class="medium">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
-            <span class="regular unstyled underline-link">Learn more
+            <!-- <span class="regular unstyled underline-link">Learn more
 
               <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
-            </span>
+            </span> -->
           </a>
         </div>
       <? endif; ?>
