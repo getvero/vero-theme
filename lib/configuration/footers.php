@@ -59,12 +59,10 @@ function custom_footer_html() {
             <li class="header annotation uppercase faded">Company</li>
             <li><a href="https://www.getvero.com/careers">Careers</a></li>
             <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
+            <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
+            <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
             <li><a href="https://twitter.com/getvero" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @getvero</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-          </ul>
-          <ul class="unstyled-list footer-legal annotation">
-            <li class=" d-inline-block"><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
-            <li class=" d-inline-block"><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
           </ul>
         </div>
       </div>

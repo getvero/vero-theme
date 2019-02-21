@@ -241,21 +241,18 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner medium-inner center-text">
+  <div class="inner xlarge-inner center-text">
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
-        <span class="absolute biggie semi-bold font-brand-success">95%</span>
+        <span class="biggie semi-bold font-brand-success">95%</span>
         <span class="d-block">customer happiness rating</span>
       </div>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
 
-    <!-- <p class="medium no-margin">95% customer happiness rating</p> -->
-
-    <p class="annotation faded">Based on last 6 months of support ratings</p>
+    <p class="annotation bottom-margin-medium faded">Based on last 6 months of support ratings</p>
 
     <header class="section-header center bottom-margin-medium">
-      <!-- <h2 class="chunk regular bottom-margin-tiny">24/7 support</h2> -->
       <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
     </header>
   </div>

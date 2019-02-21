@@ -14,9 +14,9 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
 
-      <h1 class="biggie semi-bold bottom-margin-small center-text">Empower your team</h1>
+      <h1 class="hulk semi-bold bottom-margin-small">Empower your team</h1>
 
-      <p class="large bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
+      <p class="tubs light bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer bottom-margin-medium">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -93,7 +93,9 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="UI of Event Manager with abstract shapes">
+
+          <!-- <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/filter.svg" alt="UI of Event Manager with abstract shapes"> -->
 
           <!-- Event mananger imagery -->
         </div>
