@@ -244,15 +244,15 @@
   <div class="inner medium-inner center-text">
     <header class="section-header center bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
-      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. We have a 95% customer happiness rating</p>
+      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
     </header>
 
-    <div class="donut horizontal-margin-auto bottom-margin-small">
+    <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <span class="absolute biggie semi-bold font-brand-success">95%</span>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
 
-    <p class="medium no-margin"><span class="font-brand-success">Great (95%)</span> <span class="font-brand-warning">Okay (2%)</span> <span class="font-brand-error">Not Good (3%)</span></p>
+    <p class="medium no-margin">We have a 95% customer happiness rating</p>
 
     <p class="annotation faded">Based on last 6 months of support ratings</p>
   </div>
