@@ -40,7 +40,7 @@
           <a class="d-block unstyled cta-arrow-link" href="/coordinate-experiences/">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
-            <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate experiences</h3>
+            <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
 
             <p>Cut coding and iterate faster.</p>
 
