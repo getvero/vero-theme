@@ -67,8 +67,7 @@
 <section class="double-padding">
   <div class="inner xlarge-inner">
     <header class="section-header bottom-margin-large center-text">
-      <h2 class="chunk regular bottom-margin-tiny">Design automated messages and improve human interactions</h2>
-      <p class="large">Duis aute irure dolor in reprehenderit in. xxxxxx</p>
+      <h2 class="chunk regular bottom-margin-tiny">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/empower/">
@@ -98,9 +97,9 @@
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-experiences/">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
-        <h3 class="micro semi-bold">Co-ordinate experiences</h3>
+        <h3 class="micro semi-bold">Co-ordinate messaging</h3>
 
-        <p>Easily manage your customer journeys by unifying email and push notifications on a single canvas.</p>
+        <p>Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
         <span class="semi-bold unstyled underline-link">Learn more
 
@@ -241,39 +240,16 @@
     </div>
   </div>
 </section>
-<section class="double-padding" id="our-support">
+<section class="double-padding">
   <div class="inner medium-inner center-text">
     <header class="section-header center bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-tiny">24-hour support</h2>
-      <p class="large">Our global team is on hand to help</p>
+      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. We have a 95% customer happiness rating</p>
     </header>
 
-    <!-- <div class="flex justify-center bottom-margin-medium">
-      <div>
-        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class="d-block">Reba</span>
-      </div>
-      <div>
-        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class="d-block">Ellis</span>
-      </div>
-      <div>
-        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-rae.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-rae@2x.png 2x" alt="Rae">
-        <span class="d-block">Rae</span>
-      </div>
-      <div>
-        <img class="avatar avatar-lg border-radius-100" src="/wp-content/themes/vero/assets/images/home/support/home-reba.png" srcset="/wp-content/themes/vero/assets/images/home/support/home-reba@2x.png 2x" alt="Reba">
-        <span class="d-block">Eric</span>
-      </div>
-    </div> -->
-
-    <div class="bar border-light bg-gray-lighter flex bottom-margin-tiny">
-      <div class="bar-item bg-error"></div>
-      <div class="bar-item bg-warning"></div>
-      <div class="bar-item bg-success flex flex-column items-center justify-center">
-        <span class="d-block tubs semi-bold font-white">91</span>
-        <p class="medium font-white">Happiness score</p>
-      </div>
+    <div class="donut horizontal-margin-auto bottom-margin-small">
+      <span class="absolute biggie semi-bold font-brand-success">95%</span>
+      <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
 
     <p class="medium no-margin"><span class="font-brand-success">Great (95%)</span> <span class="font-brand-warning">Okay (2%)</span> <span class="font-brand-error">Not Good (3%)</span></p>
