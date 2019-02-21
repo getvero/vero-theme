@@ -24,8 +24,8 @@
       <div class="col-aside relative">
         <picture>
           <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
-          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png 1x, /wp-content/themes/vero/assets/images/landing-pages/workflows/hero@2x.png 2x">
-          <img class="" src="/wp-content/themes/vero/assets/images/landing-pages/workflows/hero.png" alt="Sreengrab of Workflows UI">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
+          <img class="" src="/wp-content/themes/vero/assets/images/home/home-hero.png" alt="Sreengrab of Workflows UI">
         </picture>
       </div>
     </div>
