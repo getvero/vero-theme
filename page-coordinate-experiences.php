@@ -53,17 +53,16 @@
 
       <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
     </div>
-    <div class="grid job-feature job-feature-thirds items-center">
-      <div class="md-right-text">
+    <div class="grid job-feature job-feature-right">
+      <div class="col-main">
         <p class="medium">Add dynamic content to your messages with Liquid or data pulled directly from APIs.</p>
+
+        <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/channels.svg" alt="Multi-channel with abstract shapes">
         </div>
-      </div>
-      <div>
-        <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
       </div>
     </div>
   </div>
