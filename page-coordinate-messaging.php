@@ -39,7 +39,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager-2.svg" alt="UI of Workflows with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="UI of Workflows with abstract shapes">
         </div>
       </div>
     </div>

@@ -229,16 +229,17 @@
   <div class="inner xlarge-inner center-text">
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
-        <span class="chunk semi-bold bottom-margin-micro font-brand-success">95%</span>
-        <span class="d-block annotation horizontal-margin-medium">customer happiness rating</span>
+        <span class="chunk semi-bold bottom-margin-micro font-brand-success">91</span>
+        <span class="d-block annotation horizontal-margin-medium semi-bold faded uppercase">Happiness score</span>
       </div>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
 
+    <span class="medium"><span class="font-brand-success">95% great</span> <span class="font-brand-warning">2% ok</span> <span class="font-brand-error">3% not good</span></span>
     <p class="annotation bottom-margin-medium faded">Based on last 6 months of support ratings</p>
 
     <header class="section-header center bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small">World class support</h2>
+      <h2 class="chunk regular bottom-margin-small">World-class support</h2>
 
       <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
     </header>
