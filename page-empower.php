@@ -83,13 +83,13 @@
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span> -->
 
-        <h2 class="chunk regular bottom-margin-smedium">Code less, move faster</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Visibility and clarity</h2>
 
         <p class="medium">Vero bridges the gap between your engineer team and marketing team.</p>
 
         <p class="medium bottom-margin-smedium">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager/">Move faster</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
