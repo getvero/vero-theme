@@ -19,7 +19,7 @@ function custom_footer_html() {
   ?>
   <footer class="footer">
     <div class="inner xlarge-inner">
-      <div class="flex">
+      <div class="flex flex-wrap">
         <div class="footer-aside">
           <a href="https://www.getvero.com">
             <img src="/wp-content/themes/vero/assets/images/home/logo/logo-white.svg" width="104">

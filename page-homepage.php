@@ -70,7 +70,7 @@
       <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
-      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="empower-your-team">
+      <a class="d-block shadow-1 padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="empower-your-team">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
 
         <h3 class="micro semi-bold bottom-margin-micro">Empower your team</h3>
@@ -82,7 +82,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span> -->
       </a>
-      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers">
+      <a class="d-block shadow-1 padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/engage-customers">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
 
         <h3 class="micro semi-bold bottom-margin-micro">Engage customers</h3>
@@ -94,7 +94,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span> -->
       </a>
-      <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-messaging">
+      <a class="d-block shadow-1 padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="/coordinate-messaging">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
 
         <h3 class="micro semi-bold bottom-margin-micro">Co-ordinate messaging</h3>
