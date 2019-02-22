@@ -27,7 +27,9 @@ function custom_footer_html() {
         </div>
         <div class="footer-main">
           <ul class="unstyled-list footer-list semi-bold">
-            <li class="header annotation uppercase faded">Product</li>
+            <li>
+              <h4 class="semi-bold annotation uppercase faded">Product</h4>
+            </li>
             <li><a href="/features">Features</a></li>
             <li><a href="/workflows">Workflows</a></li>
             <li><a href="/event-manager">Event Management</a></li>
@@ -37,7 +39,9 @@ function custom_footer_html() {
             <li><a href="/pricing">Pricing</a></li>
           </ul>
           <ul class="unstyled-list footer-list semi-bold">
-            <li class="header annotation uppercase faded">Integrations</li>
+            <li>
+              <h4 class="semi-bold annotation uppercase faded">Integrations</h4>
+            </li>
             <li><a href="/integrations/vero-segment">Segment</a></li>
             <li><a href="/integrations/vero-stitch">Stitch</a></li>
             <li><a href="/integrations/vero-snowplow">Snowplow</a></li>
@@ -45,7 +49,9 @@ function custom_footer_html() {
             <li><a href="https://help.getvero.com/articles/setting-up-veros-webhooks.html">Webhooks</a></li>
           </ul>
           <ul class="unstyled-list footer-list semi-bold">
-            <li class="header annotation uppercase faded">Resources</li>
+            <li>
+              <h4 class="semi-bold annotation uppercase faded">Resources</h4>
+            </li>
             <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
             <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
             <li><a href="https://help.getvero.com" target="_blank" rel="noopener">Help Center</a></li>
@@ -56,14 +62,16 @@ function custom_footer_html() {
             <li><a href="https://status.getvero.com/" target="_blank" rel="noopener">Status</a></li>
           </ul>
           <ul class="unstyled-list footer-list semi-bold">
-            <li class="header annotation uppercase faded">Company</li>
+            <li>
+              <h4 class="semi-bold annotation uppercase faded">Company</h4>
+            </li>
             <li><a href="https://www.getvero.com/careers">Careers</a></li>
             <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
             <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
             <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
           </ul>
-          <ul class="unstyled-list">
-            <li class="d-inline-block">
+          <ul class="unstyled-list" style="flex: 1 1 100%;">
+            <li class="d-inline-block right-margin-tiny">
               <a href="https://twitter.com/getvero">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="#FFF" d="M27.954 8.569a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482c-4.09-.193-7.715-2.157-10.141-5.126a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548l-.047-.02z" fill-rule="evenodd"/></svg>
               </a>
