@@ -34,7 +34,7 @@
 </section>
 <section id="workflows-hero-features" class="double-padding">
   <div class="inner medium-inner">
-    <ul class="feature-list left-align unstyled-list halfs">
+    <ul class="feature-list unstyled-list halfs">
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-waves.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-waves@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Flexibility</h2><p class="medium light no-top-margin">Steps can be moved around, so you can easily design and update the order of logic, delays, and emails in your customer journey.</p></div></li>
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-circles.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-circles@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Clarity</h2><p class="medium light no-top-margin">Configuration of each step in the workflow is immediately visible, giving you and your team confidence to quickly create and update journeys.</p></div></li>
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-dots.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-dots@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Visibility</h2><p class="medium light no-top-margin">Track customers who enter and exit your workflow, monitor email performance and view conversion goals - all in one place. </p></div></li>
@@ -51,7 +51,7 @@
         <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/smallish-dots.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/smallish-dots@2x.png 2x" class="dots" data-parallax='{"y" : 100}'>
       </div>
       <div class="right secondary">
-        <h2 class="biggie">All the tools you need to move quickly</h2>
+        <h2 class="biggie semi-bold">All the tools you need to move quickly</h2>
         <p class="large">Workflows help you visualize your customers’ email experience as you build it. With all the tools you need in one place, you and your team can quickly and confidently create and update complex customer journeys.</p>
         <p class="pill pill-medium pill-primary top-margin-small"><a href="https://help.getvero.com/articles/creating-a-new-workflow.html" target="_blank">Read the documentation</a></p>
       </div>
@@ -74,7 +74,7 @@
 </section> -->
 <section id="workflows-reasons" class="feature-section double-padding">
   <div class="inner medium-inner flush-bottom">
-    <h2 class="biggie">Build engaging campaigns and reach your goals!</h2>
+    <h2 class="biggie semi-bold bottom-margin-large">Build engaging campaigns and reach your goals!</h2>
   </div>
   <div class="inner large-inner halfs flush-top top-padding-medium">
     <div class="left secondary">
@@ -91,10 +91,10 @@
 </section>
 <section id="workflows-details" class="feature-section double-padding bg-offwhite">
   <div class="inner medium-inner flush-bottom">
-    <h2 class="biggie bottom-margin-large">We've got the details covered</h2>
+    <h2 class="biggie semi-bold bottom-margin-large">We've got the details covered</h2>
   </div>
   <div class="inner large-inner halfs flush-top">
-    <ul class="feature-list thirds left-align">
+    <ul class="unstyled-list feature-list thirds">
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Conversion Goals</h2><p class="desc top-margin-tiny bottom-margin-small">Set a goal and easily track the success of your workflow.
 </p></div></li>
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Insights</h2><p class="desc top-margin-tiny bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.

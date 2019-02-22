@@ -14,7 +14,7 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
 
-      <h1 class="hulk semi-bold bottom-margin-small">Engage customers</h1>
+      <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
       <p class="tubs light bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
 

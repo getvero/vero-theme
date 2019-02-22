@@ -37,7 +37,7 @@
 
       <?php if (!is_page('coordinate-messaging')): ?>
         <div class="block block-coordinate">
-          <a class="d-block unstyled cta-arrow-link" href="/coordinate-experiences/">
+          <a class="d-block unstyled cta-arrow-link" href="/coordinate-messaging">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
             <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>

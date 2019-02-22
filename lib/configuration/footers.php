@@ -28,7 +28,7 @@ function custom_footer_html() {
         <div class="footer-main">
           <ul class="unstyled-list footer-list semi-bold">
             <li class="header annotation uppercase faded">Product</li>
-            <li><a href="/features/email">Features</a></li>
+            <li><a href="/features">Features</a></li>
             <li><a href="/workflows">Workflows</a></li>
             <li><a href="/event-manager">Event Management</a></li>
             <li><a href="/fusion">Fusion</a></li>

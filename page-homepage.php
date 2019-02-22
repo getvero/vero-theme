@@ -11,7 +11,7 @@
       <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="large bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
+        <p class="tubs light bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>

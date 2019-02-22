@@ -14,7 +14,7 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
 
-      <h1 class="hulk semi-bold bottom-margin-small">Co-ordinate messaging</h1>
+      <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
       <p class="tubs light bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
