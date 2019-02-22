@@ -245,7 +245,7 @@
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
         <span class="biggie semi-bold font-brand-success">95%</span>
-        <span class="d-block">customer happiness rating</span>
+        <span class="d-block annotation md-horizontal-margin-smedium">Customer happiness rating</span>
       </div>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>
