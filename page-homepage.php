@@ -244,8 +244,8 @@
   <div class="inner xlarge-inner center-text">
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
-        <span class="biggie semi-bold font-brand-success">95%</span>
-        <span class="d-block annotation horizontal-margin-medium">Customer happiness rating</span>
+        <span class="chunk semi-bold bottom-margin-micro font-brand-success">95%</span>
+        <span class="d-block annotation horizontal-margin-medium">customer happiness rating</span>
       </div>
       <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
     </div>

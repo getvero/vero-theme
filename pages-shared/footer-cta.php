@@ -1,4 +1,4 @@
-<section class="footer-cta bg-dots-strip bg-right">
+<section class="double-padding footer-cta bg-dots-strip">
   <div class="inner xlarge-inner">
     <div class="flex flex-wrap center-text md-left-text">
       <div class="col-aside">

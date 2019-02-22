@@ -57,17 +57,9 @@
     </ul>
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title chunk semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
-    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
-  </div>
-</section>
+<?php
+  include 'pages-shared/footer-cta.php';
+?>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
