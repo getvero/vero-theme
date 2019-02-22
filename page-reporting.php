@@ -14,7 +14,7 @@
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Reporting</p>
-    <h1 class="biggie bottom-margin-small">Track the true performance of <span class="large- d-block">your email campaigns</span></h1>
+    <h1 class="biggie semi-bold bottom-margin-small">Track the true performance of <span class="large- d-block">your email campaigns</span></h1>
     <p class="no-top-margin large">Understand which of your email campaigns engage <span class="large- d-block">customers and drive revenue.</span></p>
   </div>
 </section>

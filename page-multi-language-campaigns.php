@@ -11,7 +11,7 @@
 ?>
 <section id="multi-language-hero" class="hero border-bottom-light">
   <div class="inner center-text">
-    <h1 class="chunk">The simple way to send your multi-language emails</h1>
+    <h1 class="chunk semi-bold">The simple way to send your multi-language emails</h1>
     <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates@2x.png 2x">
   </div>
@@ -65,17 +65,9 @@ vero.users.track!({
 
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="chunk semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
-    <p class="sub-heading">Create a free account and see how Vero can help your team.</p>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
-  </div>
-</section>
+<?php
+  include 'pages-shared/footer-cta.php';
+?>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");

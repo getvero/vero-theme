@@ -12,7 +12,7 @@
 <section id="external-attributes-hero" class="border-bottom-light">
   <div class="inner center-text flush-bottom">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
-    <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
+    <h1 class="biggie semi-bold center-text no-bottom-margin">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
