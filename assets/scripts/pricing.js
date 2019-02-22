@@ -1,11 +1,11 @@
 // Sliders for the email/data pages
 jQuery(document).ready(function(){
-  jQuery('a[rel*=leanModal]').leanModal({ top : 80, closeButton: ".modal_close" });
+  jQuery('a[rel*=leanModal]').leanModal({ top : 80, closeButton: ".modal-close" });
   if(window.location.hash) {
-    var hash = window.location.hash.substring(1); 
+    var hash = window.location.hash.substring(1);
     if(hash == 'demo') {
-      jQuery('#demo-trigger').click(); 
-    } 
+      jQuery('#demo-trigger').click();
+    }
   }
 
   jQuery("#high-volume-sender-form").submit(function(e) {
@@ -66,7 +66,7 @@ jQuery(document).ready(function(){
       jQuery.ajax({
         type: "POST",
         url: url,
-        data: jQuery("#high-volume-sender-form").serialize(), 
+        data: jQuery("#high-volume-sender-form").serialize(),
         success: function(data)
         {
            console.log('Demo sent!');

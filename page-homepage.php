@@ -66,8 +66,8 @@
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <header class="section-header bottom-margin-large center-text">
-      <h2 class="chunk regular bottom-margin-tiny">Design and manage automated messages throughout the entire customer lifecycle</h2>
+    <header class="section-header bottom-margin-medium center-text">
+      <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
       <a class="d-block padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled cta-arrow-link" href="empower-your-team">
@@ -185,7 +185,7 @@
   </div>
 </section>
 -->
-<section class="bg-offwhite bg-shapes bg-center overflow-visible">
+<section class="bg-offwhite overflow-visible">
   <div class="inner xlarge-inner center-text md-left-text">
     <h2 class="tubs regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
@@ -199,7 +199,7 @@
           <div class="col-main">
             <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-            <p class="medium">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero."</p>
+            <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
             <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
             <span>Cofounder at Unsplash</span>
@@ -215,7 +215,7 @@
             <img class="self-center"
             src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
 
-            <p class="medium">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI."</p>
+            <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
             <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
             <span>Head of CRM at Helloprint</span>
@@ -230,7 +230,7 @@
           <div class="col-main">
             <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
 
-            <p class="medium">"Heck! Vero's support is exceptional!"</p>
+            <p class="medium quote">"Heck! Vero's support is exceptional!</p>
 
             <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
             <span>Head of Marketing at Drawboard</span>
@@ -240,7 +240,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bg-shapes bg-center">
   <div class="inner xlarge-inner center-text">
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
@@ -253,6 +253,8 @@
     <p class="annotation bottom-margin-medium faded">Based on last 6 months of support ratings</p>
 
     <header class="section-header center bottom-margin-medium">
+      <h2 class="chunk regular bottom-margin-small">World class support</h2>
+
       <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
     </header>
   </div>
