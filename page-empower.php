@@ -53,8 +53,6 @@
 
       <h2 class="chunk regular bottom-margin-small">Seamlessly integrate Vero with your software</h2>
 
-      <!-- <p class="medium bottom-margin-smedium">Vero’s flexible API ensures seamless integration with your core software, allowing you to easily transfer and manage your customer data. Vero’s lets you define the user model to ensure it makes sense for your product and business.</p> -->
-
       <p class="large bottom-margin-smedium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
       <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
@@ -62,7 +60,7 @@
 
     <div class="grid job-feature job-feature-thirds items-center">
       <div class="col md-right-text">
-        <p class="medium">Quickly connect Vero with customer data platforms, such as Segment, and native libraries for Ruby, PHP, Python, and more.</p>
+        <p class="medium">Quickly connect Vero with customer data <strong>platforms like Segment</strong>, and native libraries for Ruby, PHP, Python, and more.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
@@ -105,17 +103,15 @@
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium">Workflows</span> -->
 
-        <h2 class="chunk regular bottom-margin-smedium">Empower your team</h2>
+        <h2 class="chunk regular bottom-margin-smedium">Create and iterate, faster</h2>
 
-        <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey.</p>
+        <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Workflows</a>
+        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
       </div>
       <div class="col-aside flex items-center">
-        <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows.svg" alt="UI of Event Manager with abstract shapes">
-
-          <!-- -->
+        <div class="image-dots image-dots-2">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/triggers.svg" alt="Event triggers with abstract shape">
         </div>
       </div>
     </div>
