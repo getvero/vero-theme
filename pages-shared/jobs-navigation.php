@@ -4,7 +4,7 @@
       <?php if (!is_page('empower-your-team')): ?>
         <div class="block block-empower">
           <a class="d-block unstyled cta-arrow-link" href="/empower-your-team">
-            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="Empower icon">
+            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
             <h3 class="tubs semi-bold bottom-margin-tiny">Empower your team</h3>
 
@@ -23,7 +23,7 @@
       <?php if (!is_page('engage-customers')): ?>
         <div class="block block-engage">
           <a class="d-block unstyled cta-arrow-link" href="/engage-customers/">
-            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
             <h3 class="tubs semi-bold bottom-margin-tiny">Engage customers</h3>
 
@@ -42,7 +42,7 @@
       <?php if (!is_page('coordinate-messaging')): ?>
         <div class="block block-coordinate">
           <a class="d-block unstyled cta-arrow-link" href="/coordinate-messaging">
-            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
+            <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
             <h3 class="tubs semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
 

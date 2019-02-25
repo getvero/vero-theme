@@ -23,9 +23,9 @@
       </div>
       <div class="col-aside relative">
         <picture>
-          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero-mobile.png 1x, /wp-content/themes/vero/assets/images/home/home-hero-mobile@2x.png 2x">
-          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/images/home/home-hero@2x.png 2x">
-          <img class="" src="/wp-content/themes/vero/assets/images/home/home-hero.png" alt="Sreengrab of Workflows UI">
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
+          <img src="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero.png" alt="Create better customer experiences with workflows in Vero">
         </picture>
       </div>
     </div>
@@ -38,27 +38,27 @@
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex justify-center logo-list-item no-margin">
         <a href="https://unsplash.com">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash logo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
         <a href="http://tidal.com">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal logo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
         <a href="http://monzo.com">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo logo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
         <a href="http://about.me">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me logo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/aboutme-logo-vero.svg" alt="About.me logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
         <a href="http://helloprint.co.uk">
-          <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
         </a>
       </li>
     </ul>
@@ -71,21 +71,21 @@
     </header>
     <div class="grid grid-thirds center-text">
       <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="empower-your-team">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-empower.svg" alt="React logo">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
 
         <p class="bottom-margin-smedium">Empower your marketing team to create and test customer experiences using real-time data.</p>
       </a>
       <a class="d-block job-card padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled" href="/engage-customers">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage logo">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
 
         <p class="bottom-margin-smedium">Send email and push notifications that drive customer engagement and increase revenue.</p>
       </a>
       <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/coordinate-messaging">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate logo">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
 
@@ -178,11 +178,11 @@
       <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
         <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
           <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
+            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser-vero testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser-vero testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
           </div>
 
           <div class="col-main">
-            <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
+            <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
 
             <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
@@ -193,12 +193,12 @@
 
         <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
           <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
+            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
           </div>
 
           <div class="col-main">
             <img class="self-center"
-            src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" height="70" alt="Helloprint">
+            src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
 
             <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
@@ -209,11 +209,11 @@
 
         <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
           <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
+            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
           </div>
 
           <div class="col-main">
-            <img src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" height="70" alt="Unsplash">
+            <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Drawboard">
 
             <p class="medium quote">"Heck! Vero's support is exceptional!</p>
 
@@ -232,7 +232,7 @@
         <span class="chunk semi-bold bottom-margin-micro font-brand-success">91</span>
         <span class="d-block annotation horizontal-margin-medium semi-bold faded uppercase">Happiness score</span>
       </div>
-      <img src="/wp-content/themes/vero/assets/images/home/donut.svg" alt="95% donut shape">
+      <img src="/wp-content/themes/vero/assets/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
     </div>
 
     <span class="medium"><span class="font-brand-success">95% great</span> <span class="font-brand-warning">2% ok</span> <span class="font-brand-error">3% not good</span></span>

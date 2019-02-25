@@ -12,7 +12,7 @@
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-coordinate.svg" alt="Co-ordinate icon">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
@@ -39,7 +39,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="UI of Workflows with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
     <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium center-text">Multi-channel</span> -->
-    <div class="section-header center-block center-text bottom-margin-large">
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small center-text">Right message, right time, right channel</h2>
 
       <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
@@ -61,7 +61,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/channels.svg" alt="Multi-channel with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/right-message-time-channel-vero.svg" alt="Right message right time with channel with Vero">
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/webhook.svg" alt="Visualization of webhook integrations with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/trigger-custom-interactions-vero.svg" alt="Trigger custom interactions anywhere with Vero">
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@
 <section id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/home-engage.svg" alt="Engage icon">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
@@ -31,7 +31,7 @@
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint logo">
+          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
         </div>
       </div>
 
@@ -60,7 +60,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="UI of Workflows with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="Create and manage automated Workflows with Vero">
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <div class="section-header center-block center-text bottom-margin-large">
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
       <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Personalization</span> -->
 
       <h2 class="chunk regular bottom-margin-small">Send personalized emails and push notifications</h2>
@@ -101,7 +101,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalization.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalized-emails-push-notifications-vero.svg" alt="Send personalized emails and push notifications with Vero">
         </div>
       </div>
       <div class="col">
@@ -128,7 +128,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/reporting.svg" alt="UI of Event Manager with abstract shapes">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/optimize-for-growth-vero.svg" alt="Optimize for growth with Vero">
         </div>
       </div>
     </div>
