@@ -6,7 +6,7 @@
           <a class="d-block unstyled cta-arrow-link" href="/empower-your-team">
             <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
-            <h3 class="tubs semi-bold bottom-margin-tiny">Empower your team</h3>
+            <h3 class="tubs regular semi-bold bottom-margin-tiny">Empower your team</h3>
 
             <p class="medium bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
@@ -25,7 +25,7 @@
           <a class="d-block unstyled cta-arrow-link" href="/engage-customers/">
             <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
-            <h3 class="tubs semi-bold bottom-margin-tiny">Engage customers</h3>
+            <h3 class="tubs regular semi-bold bottom-margin-tiny">Engage customers</h3>
 
             <p class="medium bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
@@ -44,7 +44,7 @@
           <a class="d-block unstyled cta-arrow-link" href="/coordinate-messaging">
             <img class="responsive-image bottom-margin-small" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
-            <h3 class="tubs semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
+            <h3 class="tubs regular semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
 
             <p class="medium bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 

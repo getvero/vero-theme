@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
@@ -42,7 +42,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="bg-offwhite" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
-    <h2 class="tubs">Simple, flexible pricing options</h2>
+    <h2 class="tubs regular">Simple, flexible pricing options</h2>
     <div class="grid grid-thirds">
       <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">

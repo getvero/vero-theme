@@ -53,7 +53,7 @@
       <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
     </div>
     <div class="right secondary">
-      <h1 class="tubs regular no-bottom-margin">Get your data into Vero</h1>
+      <h1 class="tubs regular regular no-bottom-margin">Get your data into Vero</h1>
       <p class="smallish top-margin-medium no-bottom-margin">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="top-margin-large no-bottom-margin">
@@ -72,7 +72,7 @@
   <div class="inner halfs flex-wrap large-inner feature-swapper">
     <h2 class="semi-bold center-text annotation uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
     <div class="left secondary">
-      <h1 class="tubs regular no-bottom-margin">View and model your customer data in one place</h1>
+      <h1 class="tubs regular regular no-bottom-margin">View and model your customer data in one place</h1>
       <p class="smallish top-margin-medium no-bottom-margin">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="top-margin-large no-bottom-margin">
@@ -126,7 +126,7 @@
       <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
     </div>
     <div class="right secondary">
-      <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
+      <h1 class="tubs regular regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
      <!--  <p class="smallish top-margin-medium no-bottom-margin">Manage templates for every email in your stack, centrally. Upload base templates and empower marketing and product teams to reuse and safely adjust content.</p> -->
       <p class="smallish top-margin-medium no-bottom-margin">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
       <ul class="feature-list left-image unstyled-list">
@@ -154,7 +154,7 @@
   <div class="inner halfs flex-wrap large-inner">
     <h2 class="semi-bold center-text annotation uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
     <div class="left secondary">
-      <h1 class="tubs regular no-bottom-margin">Scalability and centralised reporting</h1>
+      <h1 class="tubs regular regular no-bottom-margin">Scalability and centralised reporting</h1>
       <p class="smallish top-margin-medium">Deploy your email automation and content reliabily whether it's to one or 100+ million customers. Let us handle deliverability or BYO email infrastructure platform – we'll track and centralise your reporting.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="top-margin-medium no-bottom-margin">

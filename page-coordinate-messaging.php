@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
-      <p class="tubs light bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
+      <p class="larger bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>

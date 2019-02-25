@@ -58,7 +58,7 @@
 </section>
 <section id="report-webhook-data" class="dark-box-flat">
   <div class="inner medium-inner center-text">
-    <h1 class="tubs regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h1>
+    <h1 class="tubs regular regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h1>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image top-margin-large">
   </div>
   <div class="inner medium-inner flush-bottom">

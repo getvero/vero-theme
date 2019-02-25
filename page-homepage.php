@@ -11,7 +11,7 @@
       <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="tubs light bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
+        <p class="larger bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center">
           <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -105,42 +105,42 @@
           data-title="Workflows"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">Native and CDP data integrations</h2>
+          <h2 class="tubs regular regular">Native and CDP data integrations</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Integrations"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">Unique customer profiles</h2>
+          <h2 class="tubs regular regular">Unique customer profiles</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Customer profiles"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">Workflows</h2>
+          <h2 class="tubs regular regular">Workflows</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Segmentation"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">Segmentation</h2>
+          <h2 class="tubs regular regular">Segmentation</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Data management"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">Email</h2>
+          <h2 class="tubs regular regular">Email</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Email"
           data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         >
-          <h2 class="tubs regular">iOS/Android push</h2>
+          <h2 class="tubs regular regular">iOS/Android push</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
@@ -155,14 +155,14 @@
         <div class="js-showcase-item"
           data-title="A/B testing"
         >
-          <h2 class="tubs regular">A/B testing</h2>
+          <h2 class="tubs regular regular">A/B testing</h2>
           <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
         <div class="js-showcase-item"
           data-title="Reporting"
           data-desc="Lorem ipsum dolor sit, amett…"
         >
-          <h2 class="tubs regular">Reporting</h2>
+          <h2 class="tubs regular regular">Reporting</h2>
           <div class="bg-gray-lighter" style="height: 400px;"></div>
         </div>
       </div>
@@ -172,7 +172,7 @@
 -->
 <section class="bg-offwhite overflow-visible">
   <div class="inner xlarge-inner center-text md-left-text">
-    <h2 class="tubs regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
+    <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="flex items-center justify-center">
       <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
