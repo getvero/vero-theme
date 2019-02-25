@@ -41,8 +41,8 @@
         <p class="medium no-bottom-margin">Segment is a customer data platform that connects over 200 sources and destinations to empower your team to use their favorite tools to personalize campaigns, analyze product usage, and more.</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-segment.html" target="_blank">Documentation</a></p>
+        <p class="pill pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
+        <p class="pill pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-segment.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>

@@ -48,8 +48,8 @@
         <p class="medium no-bottom-margin">Stitch is a modern extract, transform and load (ETL) platform for rapidly moving data from it's origin source to data warehouses such as Amazon Redshift, Google BigQuery, Snowflake and others.</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://www.stitchdata.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a></p>
+        <p class="pill pill-primary"><a href="https://www.stitchdata.com/" target="_blank">Website</a></p>
+        <p class="pill pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>

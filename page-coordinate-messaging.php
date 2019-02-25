@@ -72,7 +72,8 @@
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Webhook</span> -->
-        <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline pill pill-tiny">Coming soon</span></h2>
+
+        <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline annotation pill pill-primary">Coming soon</span></h2>
 
         <p class="medium">Trigger a HTTP webhook to any software or service in your stack, enabling you to drive and manage customer interactions across the entire lifecycle.</p>
 
