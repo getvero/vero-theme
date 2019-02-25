@@ -12,7 +12,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <ul class="menu" id="menu-marketing-navbar-left">
     <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
       <a href="https://www.getvero.com">
-        <img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104" height="36">
+        <img data-no-retina src="/wp-content/themes/vero/assets/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     </li>
   </ul>
@@ -24,24 +24,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <?php $responsive_toggle = ob_get_clean();
 
   return $logo . $menu . $responsive_toggle;
-}
-
-function add_responsive_menu_toggle_to_navbar($menu, $args) {
-  $args = (array)$args;
-  $useragent=$_SERVER['HTTP_USER_AGENT'];
-
-  if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
-    return $menu;
-
-  ob_start();
-  ?>
-  <ul class="menu" id="menu-marketing-navbar-left">
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>
-    <li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Sweet ass emails!</span></li>
-  </ul>
-  <?php $logo = ob_get_clean();
-
-  return $logo . $menu;
 }
 
 function additional_active_item_classes($classes = array(), $menu_item = false){
