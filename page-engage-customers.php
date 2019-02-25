@@ -18,7 +18,7 @@
 
       <p class="larger bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
 
-      <div class="flex items-center justify-center intro-footer bottom-margin-medium">
+      <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
