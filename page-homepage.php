@@ -16,8 +16,6 @@
         <div class="flex flex-wrap md-flex-nowrap items-center">
           <a class="btn btn-success btn-large  md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <!-- <span class="d-inline-block faded vertical-margin-micro horizontal-margin-auto md-horizontal-margin-tiny hide md-show">or</span> -->
-
           <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
       </div>
