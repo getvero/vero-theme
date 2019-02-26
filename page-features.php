@@ -55,8 +55,8 @@
     <div class="right secondary">
       <h1 class="tubs regular regular no-bottom-margin">Get your data into Vero</h1>
       <p class="smallish top-margin-medium no-bottom-margin">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
-      <ul class="feature-list left-image unstyled-list">
-        <li class="top-margin-large no-bottom-margin">
+      <ul class="feature-list top-margin-large left-image unstyled-list">
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
           <p class="semi-bold smallish no-margin">Works with Segment</p><p class="light">If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
         </li>
@@ -74,8 +74,8 @@
     <div class="left secondary">
       <h1 class="tubs regular regular no-bottom-margin">View and model your customer data in one place</h1>
       <p class="smallish top-margin-medium no-bottom-margin">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
-      <ul class="feature-list left-image unstyled-list">
-        <li class="top-margin-large no-bottom-margin">
+      <ul class="feature-list top-margin-large left-image unstyled-list">
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.svg">
           <p class="semi-bold smallish no-margin">Powerful segmentation</p><p class="light">Create, save and deploy completely dynamic groups of your customers based on their attributes and actions.</p>
         </li>
@@ -86,15 +86,15 @@
       </ul>
     </div>
     <div class="right primary">
-      <img class="feature-image inactive-feature top-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
-      <img class="feature-image active-feature top-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/></a>
+      <img class="feature-image inactive-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
+      <img class="feature-image active-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/></a>
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
-        <li class="active top-margin-small">
+        <li class="active bottom-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
             <p class="semi-bold annotation no-margin">Segmentation</p>
           </a>
         </li>
-        <li class="top-margin-small">
+        <li>
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
             <p class="semi-bold annotation no-margin">Customer Profiles</p>
           </a>
@@ -109,8 +109,8 @@
     <h2 class="semi-bold center-text annotation uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
 
     <div class="left primary">
-      <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
-      <img class="no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+      <img class="no-margin top-margin-small  bottom-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+      <img class="no-margin top-margin-small  bottom-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
         <li class="active top-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
