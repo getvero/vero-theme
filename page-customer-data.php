@@ -54,7 +54,7 @@
 
         <p class="medium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
-        <p class="medium">Quickly connect Vero with customer data <strong>platforms like Segment</strong>, and native libraries for Ruby, PHP, Python, and more.</p>
+        <p class="medium">Quickly connect Vero with customer data platforms like Segment, and native libraries for Ruby, PHP, Python, and more.</p>
 
         <p class="medium bottom-margin-smedium">Easily store, track and segment customer properties and customer activity.</p>
 
