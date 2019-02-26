@@ -70,7 +70,7 @@
       <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
-      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/customer-data">
+      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/data-management">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
@@ -84,7 +84,7 @@
 
         <p class="bottom-margin-smedium">Send email and push notifications that drive customer engagement and increase revenue.</p>
       </a>
-      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/automate-customer-messages">
+      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/send-automated-messages">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
