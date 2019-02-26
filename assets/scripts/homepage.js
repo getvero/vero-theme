@@ -162,6 +162,7 @@ jQuery(window).scroll(function(){
 
 
 // Liquid guide sticky sidebar
+
 if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {
   var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
 
@@ -180,3 +181,7 @@ if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-
     }
   });
 }
+
+// Smooth scroll
+
+smoothScroll.init();
