@@ -14,11 +14,11 @@
         <p class="larger bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center">
-          <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large  md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <span class="d-inline-block faded vertical-margin-micro horizontal-margin-auto md-horizontal-margin-tiny hide md-show">or</span>
+          <!-- <span class="d-inline-block faded vertical-margin-micro horizontal-margin-auto md-horizontal-margin-tiny hide md-show">or</span> -->
 
-          <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+          <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
       </div>
       <div class="col-aside relative">
