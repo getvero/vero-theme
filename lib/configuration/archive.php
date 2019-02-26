@@ -105,7 +105,7 @@ function add_shares() {
   if( is_blog_archive() ){
     ?>
       <div class='shares-block'>
-        <small class="smaller right-margin-tiny">Share this</small>
+        <small class="annotation right-margin-tiny">Share this</small>
         <!-- <div class='total-shares'>
           <span><?php
             //$share_obj = new Naked_Social_Share_Buttons($post);
