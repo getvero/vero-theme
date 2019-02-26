@@ -146,16 +146,18 @@ jQuery(window).scroll(function(){
   var height   = getHeight();
   var distance = getDistance() - jQuery(window).scrollTop();
   var offset   = jQuery(window).scrollTop();
-  if ( (distance <= -1) && !stuck) {
-    jQuery(".nav-primary").addClass('sticky');
-    jQuery(".nav-primary").height(height);
+  if ((distance <= -5) && !stuck) {
+    jQuery('.nav-primary').addClass('sticky');
+    jQuery('.nav-primary').height(height);
+    jQuery('.js-blog-navigation').addClass('sticky');
     stuck = true;
-    console.log('stick');
-  } else if (stuck && (offset <= stickPoint)) {
-    jQuery(".nav-primary").removeClass('sticky');
-    jQuery(".nav-primary").css('height','auto');
+    // console.log('stick');
+  } else if (stuck && (offset <= stickPoint)){
+    jQuery('.nav-primary').removeClass('sticky');
+    jQuery('.nav-primary').css('height','auto');
+    jQuery('.js-blog-navigation').removeClass('sticky');
     stuck = false;
-    console.log('unstick');
+    // console.log('unstick');
   }
 });
 
