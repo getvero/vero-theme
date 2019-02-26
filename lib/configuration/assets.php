@@ -40,7 +40,7 @@ function add_js() {
   wp_register_script('features', get_stylesheet_directory_uri() . '/assets/scripts/features.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/scripts/landing-pages.js', array('jquery'), NULL, true);
   wp_register_script('pricing', get_stylesheet_directory_uri() . '/assets/scripts/pricing.js', array('jquery'), NULL, true);
-  wp_register_script('blog', get_stylesheet_directory_uri() . '/assets/scripts/blog.js', array('jquery'), NULL, true);
+  // wp_register_script('blog', get_stylesheet_directory_uri() . '/assets/scripts/blog.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/scripts/fout.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/scripts/dev_message.js', NULL, NULL, true);
@@ -50,7 +50,6 @@ function add_js() {
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
   wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
-  wp_register_script('waypoints', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.waypoints.min.js', NULL, NULL, true);
   wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
   wp_register_script('smooth-scroll', get_stylesheet_directory_uri() . '/assets/scripts/vendor/smooth-scroll.min.js', NULL, NULL, true);
   wp_register_script('featherlight', get_stylesheet_directory_uri() . '/assets/scripts/vendor/featherlight.min.js', NULL, NULL, true);
@@ -60,7 +59,6 @@ function add_js() {
   wp_register_script('wNumb', get_stylesheet_directory_uri() . '/assets/scripts/vendor/wNumb.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
-  wp_enqueue_script('waypoints');
   wp_enqueue_script('vero-js');
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
@@ -82,7 +80,6 @@ function add_js() {
   wp_enqueue_script('homepage');
   wp_enqueue_script('features');
   wp_enqueue_script('pricing');
-  wp_enqueue_script('blog');
   wp_enqueue_script('landing-pages');
 
   if(is_blog() || is_page('features-data') ){
