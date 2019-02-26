@@ -73,11 +73,11 @@
     <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Visibility and clarity</h2>
 
-      <p class="large">Vero bridges the gap between your engineer team and marketing team</p>
+      <p class="large">Vero bridges the gap between your engineering and marketing teams</p>
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <p class="medium bottom-margin-smedium">Empower your non-technical team members to use your customer data to create, test and optimize customer messages with ease. Help your team move faster.</p>
+        <p class="medium bottom-margin-smedium">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
