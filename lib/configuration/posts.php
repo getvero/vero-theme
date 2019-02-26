@@ -28,11 +28,11 @@ function add_blog_post_back_button() {
   global $post;
 
   if( is_child_guide() ){?>
-    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Table of Contents</a>
+    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog">Back to Table of Contents</a>
   <?php } else if ( is_singular('release-notes') ) { ?>
-    <a href="/release-notes" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Release Notes</a>
+    <a href="/release-notes" class="back-to-blog">Back to Release Notes</a>
   <?php } else if( is_blog_post_or_guide() ){ ?>
-    <a href="/resources" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
+    <a href="/resources" class="back-to-blog">Back to Blog</a>
   <?php }
 }
 

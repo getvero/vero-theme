@@ -105,7 +105,7 @@ function add_shares() {
   if( is_blog_archive() ){
     ?>
       <div class='shares-block'>
-        <small class="annotation right-margin-tiny">Share this</small>
+        <small class="annotation">Share this</small>
         <!-- <div class='total-shares'>
           <span><?php
             //$share_obj = new Naked_Social_Share_Buttons($post);
@@ -149,24 +149,17 @@ function category_setup() {
 
 function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
-    <h2 class="section-title">Latest</h2>
+    <h2 class="font-brand-gray-darker regular section-title">Latest</h2>
   <?php }
   else if( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h2 class="section-title">All – Page <?php echo $paged; ?></h2>
-  <?php }
-  else if( is_post_type_archive('release-notes') ){ ?>
-    <div class="full-width">
-      <img class="section-title-image" src="/wp-content/themes/vero/assets/images/changelog/release-notes.svg"/>
-      <h1 class="small-title">Release Notes</h1>
-      <p class="no-top-margin">Read about the latest features, updates and bug fixes.</p>
-    </div>
+    <h2 class="font-brand-gray-darker regular section-title">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if( is_category() ){ ?>
-    <h2 class="section-title"><?php single_cat_title() ?></h2>
+    <h2 class="font-brand-gray-darker regular section-title"><?php single_cat_title() ?></h2>
   <?php }
   else if( is_search() ) { ?>
-    <h2 class="section-title">Search results for: <?php echo get_search_query(); ?></h2>
+    <h2 class="font-brand-gray-darker regular section-title">Search results for: <?php echo get_search_query(); ?></h2>
   <?php }
 }
 
