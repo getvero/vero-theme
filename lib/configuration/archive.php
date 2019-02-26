@@ -199,27 +199,26 @@ function add_categories_and_search() {
     </div>
 
     <div class="modal modal-blog" id="blog">
-      <div class="inner">
-        <div class="center-text" id="enquire-intro">
-          <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
-        </div>
-        <div class="center-text" id="thanks">
-          <h3 class="atomic regular">Almost there!</h3>
-          <p class="no-margin">We've sent you an email to confirm your subscription.</p>
-        </div>
-        <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
-          <div class="form-group bottom-margin-tiny">
-            <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
-            <input name="user[consent_marketing]" type="hidden" value="true">
-            <input name="user[consent_product_updates]" type="hidden" value="true">
-            <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-          </div>
-          <div class="form-group">
-            <input class="btn btn-success" type="submit" value="Subscribe to updates">
-          </div>
-          <p class="small center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
-        </form>
+      <div class="center-text" id="enquire-intro">
+        <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
       </div>
+      <div class="center-text" id="thanks">
+        <h3 class="atomic regular">Almost there!</h3>
+        <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+      </div>
+      <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+        <div class="form-group bottom-margin-tiny">
+          <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
+          <input name="user[consent_marketing]" type="hidden" value="true">
+          <input name="user[consent_product_updates]" type="hidden" value="true">
+          <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+        </div>
+        <div class="form-group bottom-margin-tiny">
+          <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
+        </div>
+        <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+      </form>
+
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
       </div>
