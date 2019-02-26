@@ -21,7 +21,7 @@
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="btn btn-primary btn-outline btn-large" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+        <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
       </div>
     </div>
   </div>
@@ -31,7 +31,7 @@
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" alt="Unsplash logo Vero">
+          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/Unsplash-logo-vero.svg" alt="Unsplash logo Vero">
         </div>
       </div>
 
@@ -39,7 +39,7 @@
         <blockquote class="quotation-marks">
           <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
-          <a class="d-block medium regular unstyled underline-link no-bottom-margin" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/">Luke Chesser</a>
+          <span class="d-block medium regular unstyled">Luke Chesser</span>
           <span class="d-block medium">Founder at Unsplash</span>
         </blockquote>
       </div>
