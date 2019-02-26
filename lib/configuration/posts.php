@@ -4,10 +4,14 @@ function add_feature_image_to_posts() {
 
   if ( is_blog_post_or_guide() ){
     global $post;
-    $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+
+    $image_id  = get_post_thumbnail_id( $post->ID );
+    $image     = wp_get_attachment_url( $image_id );
+    $image_alt = get_post_meta( $image_id, '_wp_attachment_image_alt', true );
+
     if( $image != '' ){
     ?>
-      <img src="<?php echo $image; ?>">
+      <img src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
     }
   }
@@ -24,11 +28,11 @@ function add_blog_post_back_button() {
   global $post;
 
   if( is_child_guide() ){?>
-    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Table of Contents</a>
+    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog">Back to Table of Contents</a>
   <?php } else if ( is_singular('release-notes') ) { ?>
-    <a href="/release-notes" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Release Notes</a>
+    <a href="/release-notes" class="back-to-blog">Back to Release Notes</a>
   <?php } else if( is_blog_post_or_guide() ){ ?>
-    <a href="/resources" class="back-to-blog"><span class="fa fa-long-arrow-left"></span>Back to Blog</a>
+    <a href="/resources" class="back-to-blog">Back to Blog</a>
   <?php }
 }
 

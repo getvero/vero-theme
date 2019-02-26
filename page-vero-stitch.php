@@ -33,7 +33,7 @@
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
-<section class="double-padding gray-section">
+<section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
     <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
@@ -48,13 +48,13 @@
         <p class="medium no-bottom-margin">Stitch is a modern extract, transform and load (ETL) platform for rapidly moving data from it's origin source to data warehouses such as Amazon Redshift, Google BigQuery, Snowflake and others.</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://www.stitchdata.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a></p>
+        <p class="pill pill-primary"><a href="https://www.stitchdata.com/" target="_blank">Website</a></p>
+        <p class="pill pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>
 </section>
-<section id="features-more" class="bottom-border-light">
+<section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -89,7 +89,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-stitch-test-event" class="feature-section bottom-border-light">
+<section id="vero-stitch-test-event" class="feature-section border-bottom-light">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -105,14 +105,14 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <div><img src="/wp-content/themes/vero/assets/images/integrations/stitch/quote-vero.jpg" class="quote-image">
-      <h2 class="tubs italic regular">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class”.</h2>
+      <h2 class="tubs regular italic regular">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class”.</h2>
       <p class="faded large regular">Chris Hexton, CEO Vero</p>
     </div>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Start a free trial of Vero and warehouse your email data with Stitch</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

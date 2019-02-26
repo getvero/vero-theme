@@ -197,14 +197,14 @@
     <p class="medium">We’ll be adding new roles soon!</p>
     <!-- <ul class="unstyled-list lined-list top-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold display-block vertical-padding-small">
+        <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold  d-block vertical-padding-small">
           Content Manager (UK)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>
       </li>
       </li>
         <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold display-block vertical-padding-small">
+        <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold  d-block vertical-padding-small">
           Customer Support Manager (Europe)
           <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
         </a>

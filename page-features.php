@@ -9,23 +9,42 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="features-menu" class="bottom-border-light">
+<section id="features-menu" class="border-bottom-light">
   <div class="inner large-inner center-text">
-    <h1 class="bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
+    <h1 class="chunk regular bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
     <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
-    <ul class="feature-list feature-menu-list unstyled-list full-width">
-      <li class="no-top-margin"><a href="#features-collection" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg"><p class="semi-bold small uppercase font-brand-warning center-text">Collection</p></a></li>
-      <li class="no-top-margin"><a href="#features-modelling" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg"><p class="semi-bold small uppercase font-brand-success center-text">Modelling</p></a></li>
-      <li class="no-top-margin"><a href="#features-automation" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg"><p class="semi-bold small uppercase font-brand-primary center-text">Automation</p></a></li>
-      <li class="no-top-margin"><a href="#features-deployment" data-scroll><img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg"><p class="semi-bold small uppercase font-brand-error center-text">Deployment</p></a></li>
+    <ul class="no-bottom-margin feature-list feature-menu-list unstyled-list flex flex-wrap md-flex-nowrap justify-center">
+      <li class="no-top-margin">
+        <a href="#features-collection" data-scroll>
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg">
+          <p class="semi-bold annotation uppercase font-brand-warning center-text">Collection</p>
+        </a>
+      </li>
+      <li class="no-top-margin">
+        <a href="#features-modelling" data-scroll>
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg">
+          <p class="semi-bold annotation uppercase font-brand-success center-text">Modelling</p>
+        </a>
+      </li>
+      <li class="no-top-margin">
+        <a href="#features-automation" data-scroll>
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg">
+          <p class="semi-bold annotation uppercase font-brand-primary center-text">Automation</p>
+        </a>
+      </li>
+      <li class="no-top-margin">
+        <a href="#features-deployment" data-scroll>
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg">
+          <p class="semi-bold annotation uppercase font-brand-error center-text">Deployment</p>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
-<section id="features-collection" class="feature-section double-padding bottom-border-light">
-  <div class="inner halfs large-inner feature-swapper left-padding-large right-padding-large">
-    <h2 class="semi-bold center-text small uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
+<section id="features-collection" class="feature-section double-padding border-bottom-light">
+  <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-large right-padding-large">
+    <h2 class="semi-bold center-text annotation uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
     <div class="left primary">
-
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small disabled-button">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
@@ -54,10 +73,10 @@
       <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
     </div>
     <div class="right secondary">
-      <h1 class="tubs regular no-bottom-margin">Get your data into Vero</h1>
-      <p class="smallish top-margin-medium no-bottom-margin">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
+      <h1 class="tubs regular regular no-bottom-margin">Get your data into Vero</h1>
+      <p class="smallish top-margin-medium bottom-margin-medium">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
-        <li class="top-margin-large no-bottom-margin">
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
           <p class="semi-bold smallish no-margin">Works with Segment</p><p class="light">If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
         </li>
@@ -69,14 +88,14 @@
     </div>
   </div>
 </section>
-<section id="features-modelling" class="feature-section double-padding bottom-border-light">
-  <div class="inner halfs large-inner feature-swapper">
-    <h2 class="semi-bold center-text small uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
+<section id="features-modelling" class="feature-section double-padding border-bottom-light">
+  <div class="inner halfs flex-wrap large-inner feature-swapper">
+    <h2 class="semi-bold center-text annotation uppercase font-brand-success center-text bottom-margin-medium">Modelling</h2>
     <div class="left secondary">
-      <h1 class="tubs regular no-bottom-margin">View and model your customer data in one place</h1>
-      <p class="smallish top-margin-medium no-bottom-margin">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
+      <h1 class="tubs regular regular no-bottom-margin">View and model your customer data in one place</h1>
+      <p class="smallish top-margin-medium bottom-margin-medium">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
       <ul class="feature-list left-image unstyled-list">
-        <li class="top-margin-large no-bottom-margin">
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.svg">
           <p class="semi-bold smallish no-margin">Powerful segmentation</p><p class="light">Create, save and deploy completely dynamic groups of your customers based on their attributes and actions.</p>
         </li>
@@ -87,78 +106,79 @@
       </ul>
     </div>
     <div class="right primary">
-      <img class="feature-image inactive-feature top-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
-      <img class="feature-image active-feature top-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/></a>
+      <img class="feature-image inactive-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/profiles@2x.png 2x"/>
+      <img class="feature-image active-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/images/home/features/modelling/segmentation@2x.png 2x"/></a>
       <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
-        <li class="active top-margin-small">
+        <li class="active bottom-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
-            <p class="semi-bold small no-margin">Segmentation</p>
+            <p class="semi-bold annotation no-margin">Segmentation</p>
           </a>
         </li>
-        <li class="top-margin-small">
+        <li>
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
-            <p class="semi-bold small no-margin">Customer Profiles</p>
+            <p class="semi-bold annotation no-margin">Customer Profiles</p>
           </a>
         </li>
       </ul>
-      <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
+      <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
     </div>
   </div>
 </section>
-<section id="features-automation" class="feature-section double-padding bottom-border-light">
-  <div class="inner halfs large-inner feature-swapper">
-    <h2 class="semi-bold center-text small uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
-    <div class="clearfix">
-      <div class="left primary">
-        <img class="no-margin top-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
-        <img class="no-margin top-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
-        <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
-          <li class="active top-margin-small">
-            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
-              <p class="semi-bold small no-margin">Automation</p>
-            </a>
-          </li>
-          <li class="top-margin-small">
-            <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
-              <p class="semi-bold small no-margin">Manage Content</p>
-            </a>
-          </li>
-        </ul>
-        <!-- <p class="small faded top-margin-small inline-block">Description</p> -->
-      </div>
-      <div class="right secondary">
-        <h1 class="tubs regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
-       <!--  <p class="smallish top-margin-medium no-bottom-margin">Manage templates for every email in your stack, centrally. Upload base templates and empower marketing and product teams to reuse and safely adjust content.</p> -->
-        <p class="smallish top-margin-medium no-bottom-margin">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
-        <ul class="feature-list left-image unstyled-list">
-          <li class="top-margin-large no-bottom-margin">
-            <img src="/wp-content/themes/vero/assets/images/home/features/automation/campaigns.svg">
-            <p class="semi-bold smallish top-margin-medium no-bottom-margin">Email scheduling and automation</p><p class="light">Send an ad hoc campaign or automate an entire series of emails with specific segmentation: Vero helps you deploy your email content and logic with total control.</p>
-          </li>
-          <li>
-            <img src="/wp-content/themes/vero/assets/images/home/features/automation/templates.svg">
-            <p class="semi-bold smallish top-margin-medium no-margin">Template management</p><p class="light">Store base templates centrally, add "editable" regions and empower your entire team to design campaigns safely.</p>
-          </li>
-        </ul>
-      </div>
+<section id="features-automation" class="feature-section double-padding border-bottom-light">
+  <div class="inner halfs flex-wrap large-inner feature-swapper">
+    <h2 class="semi-bold center-text annotation uppercase font-brand-primary center-text bottom-margin-medium">Automation</h2>
+
+    <div class="left primary">
+      <img class="no-margin top-margin-small  bottom-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/campaign@2x.png 2x"/>
+      <img class="no-margin top-margin-small  bottom-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/images/home/features/automation/content@2x.png 2x"/>
+      <ul class="feature-list button-list pill-buttons left-image unstyled-list buttom-margin-small">
+        <li class="active top-margin-small">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
+            <p class="semi-bold annotation no-margin">Automation</p>
+          </a>
+        </li>
+        <li class="top-margin-small">
+          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
+            <p class="semi-bold annotation no-margin">Manage Content</p>
+          </a>
+        </li>
+      </ul>
+      <!-- <p class="small faded top-margin-small  d-inline-block">Description</p> -->
     </div>
+    <div class="right secondary">
+      <h1 class="tubs regular regular no-bottom-margin">Complete template management. Advanced scheduling design.</h1>
+
+      <p class="smallish top-margin-medium bottom-margin-medium">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
+      <ul class="feature-list left-image unstyled-list">
+        <li class="no-bottom-margin">
+          <img src="/wp-content/themes/vero/assets/images/home/features/automation/campaigns.svg">
+          <p class="semi-bold smallish top-margin-medium no-bottom-margin">Email scheduling and automation</p><p class="light">Send an ad hoc campaign or automate an entire series of emails with specific segmentation: Vero helps you deploy your email content and logic with total control.</p>
+        </li>
+        <li>
+          <img src="/wp-content/themes/vero/assets/images/home/features/automation/templates.svg">
+          <p class="semi-bold smallish top-margin-medium no-margin">Template management</p><p class="light">Store base templates centrally, add "editable" regions and empower your entire team to design campaigns safely.</p>
+        </li>
+      </ul>
+    </div>
+
     <div class="outlined-box top-margin-medium">
-      <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class="inline-block right-margin-medium">
-      <div class="inline-block">
+      <img src="/wp-content/themes/vero/assets/images/home/features/automation/fusion-logo.svg" class=" d-inline-block right-margin-medium">
+      <div class=" d-inline-block">
         <p class="semi-bold smallish no-bottom-margin no-top-margin"><span class="semi-bold">Fusion.</span> Load data externally.</p>
         <p class="light no-bottom-margin">Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p>
       </div>
     </div>
   </div>
 </section>
-<section id="features-deployment" class="feature-section double-padding bottom-border-light">
-  <div class="inner halfs large-inner">
-    <h2 class="semi-bold center-text small uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
+<section id="features-deployment" class="feature-section double-padding border-bottom-light">
+  <div class="inner halfs flex-wrap large-inner">
+    <h2 class="semi-bold center-text annotation uppercase font-brand-error center-text bottom-margin-medium">Deployment</h2>
     <div class="left secondary">
-      <h1 class="tubs regular no-bottom-margin">Scalability and centralised reporting</h1>
-      <p class="smallish top-margin-medium">Deploy your email automation and content reliabily whether it's to one or 100+ million customers. Let us handle deliverability or BYO email infrastructure platform – we'll track and centralise your reporting.</p>
+      <h1 class="tubs regular regular no-bottom-margin">Scalability and centralised reporting</h1>
+      <p class="smallish top-margin-medium bottom-margin-medium">Deploy your email automation and content reliabily whether it's to one or 100+ million customers. Let us handle deliverability or BYO email infrastructure platform – we'll track and centralise your reporting.</p>
+
       <ul class="feature-list left-image unstyled-list">
-        <li class="top-margin-medium no-bottom-margin">
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/deployment/multi-providers.svg">
           <p class="semi-bold smallish no-margin">BYO email infrastructure</p>
           <p class="light">Maintain your email reputation and control your deliverability by leveraging one or more of the most popular email infrastructure platforms.</p>

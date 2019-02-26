@@ -17,22 +17,22 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner flush-top">
     <h2 class="atomic regular bottom-margin-large center-text">How many subscribers do you have?</h2>
 
-    <div class="flexbox price-scale top-margin-micro bottom-margin-large center-text">
+    <div class="flex price-scale top-margin-micro bottom-margin-large center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
       </div>
     </div>
 
-    <div class="pricing-footer border-light border-radius padding-medium flexbox items-center">
+    <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
 
-      <div class="right flexbox">
-        <div class="flexbox pricing-cta">
+      <div class="right flex">
+        <div class="flex pricing-cta">
           <a class="btn btn-medium btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
           <a class="btn btn-medium btn-outline btn-primary" rel="leanModal" href="#demo">Contact our sales team</a>
         </div>
@@ -40,15 +40,15 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section class="gray-section" id="pricing-addons">
+<section class="bg-offwhite" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
-    <h2 class="tubs">Simple, flexible pricing options</h2>
+    <h2 class="tubs regular">Simple, flexible pricing options</h2>
     <div class="grid grid-thirds">
-      <div class="border-light border-radius bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
-        <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">Dedicated IP</h3>
+        <header class="flex justify-center bottom-margin-tiny">
+          <h3 class="micro semi-bold medium no-bottom-margin">Dedicated IP</h3>
 
           <!-- <span class="self-center">$79 per month</span> -->
         </header>
@@ -56,21 +56,21 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin">Send your emails from a dedicated server</p>
         <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
-        <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">BYO email platform</h3>
+        <header class="flex justify-center bottom-margin-tiny">
+          <h3 class="micro semi-bold medium no-bottom-margin">BYO email platform</h3>
         </header>
 
         <p class="no-top-margin">We'll track and centralize your reporting</p>
         <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
-        <header class="flexbox justify-center bottom-margin-tiny">
-          <h3 class="micro medium no-bottom-margin">Save 15%</h3>
+        <header class="flex justify-center bottom-margin-tiny">
+          <h3 class="micro semi-bold medium no-bottom-margin">Save 15%</h3>
         </header>
 
         <p class="no-top-margin">Choose an annual plan and receive a discount</p>
@@ -81,7 +81,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-included">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <ul class="unstyled-list feature-list grid grid-tiny center-text">
+    <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
         <h3 class="regular bottom-margin-tiny">24-hour support</h3>
@@ -100,33 +100,33 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="dark-box">
+<section class="dark-box" id="pricing-logos">
   <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
     <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
 
-    <ul class="unstyled-list logos-list">
+    <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="display-block" href="https://unsplash.com">
+        <a class=" d-block" href="https://unsplash.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="display-block" href="https://monzo.com">
+        <a class=" d-block" href="https://monzo.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="display-block" href="https://helloprint.co.uk">
+        <a class=" d-block" href="https://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="display-block" href="https://tidal.com">
+        <a class=" d-block" href="https://tidal.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="display-block" href="https://pipedrive.com">
+        <a class=" d-block" href="https://pipedrive.com">
           <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
         </a>
       </li>
@@ -138,7 +138,7 @@ include 'pages-shared/static-header.php';
     <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-medium">
-      <div class="js-toggle flexbox question">
+      <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
@@ -150,7 +150,7 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <div class="js-toggle flexbox question">
+      <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
@@ -162,7 +162,7 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <div class="js-toggle flexbox question">
+      <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
@@ -173,7 +173,7 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <div class="js-toggle flexbox question">
+      <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
@@ -185,7 +185,7 @@ include 'pages-shared/static-header.php';
     </div>
 
     <div class="question-block bottom-margin-medium">
-      <div class="js-toggle flexbox question">
+      <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
@@ -198,7 +198,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold semi-bold">Improve your customer experience today</h1>
+    <h1 class="cta-title chunk semi-bold">Improve your customer experience today</h1>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
   </div>
 </section>

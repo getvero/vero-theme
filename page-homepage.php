@@ -1,189 +1,250 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
-
-<section id="hero" class="hero double-padding">
+<section class="double-padding overflow-hidden" id="hero">
   <?php
-  do_action( 'genesis_before_header' );
-  do_action( 'genesis_header' );
-  do_action( 'genesis_after_header' );
-?>
-  <div class="inner large-inner flush-bottom">
-    <div class="content">
-      <div class="hero-body">
-        <h1 class="biggie">The email platform for <span class="medium-display-block">customer-focused teams</span></h1>
+    do_action( 'genesis_header' );
+    do_action( 'genesis_after_header' );
+  ?>
+  <div class="inner xlarge-inner">
+    <div class="flex flex-column md-flex-row">
+      <div class="col-main center-text md-left-text">
+        <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="medium">Vero enables engineering, product, and marketing teams to design data-driven communications for personalised customer experiences.</p>
-      </div>
+        <p class="larger bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
-      <div class="hero-footer">
-        <a class="btn btn-success btn-large btn-wide" href="https://app.getvero.com/signup">Start a free trial</a>
-        <a id="demo-trigger" rel="leanModal" href="#demo">Talk to our sales team</a>
+        <div class="flex flex-wrap md-flex-nowrap items-center">
+          <a class="btn btn-success btn-large  md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+
+          <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+        </div>
       </div>
-    </div>
-    <div class="image center-text">
-      <img class="bottom-margin-large" src="/wp-content/themes/vero/assets/images/home/home-hero.svg"/>
+      <div class="col-aside relative">
+        <picture>
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
+          <img src="/wp-content/themes/vero/assets/images/home/create-better-customer-experiences-workflows-vero.png" alt="Create better customer experiences with workflows in Vero">
+        </picture>
+      </div>
     </div>
   </div>
 </section>
-<section id="logos" class="logos bottom-border-light center-text">
-  <div class="inner medium-inner">
-    <h5 class="section-label bottom-margin-small">Used to build best-in-class customer experiences</h5>
+<section class="logos" id="logos">
+  <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
+    <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
 
-    <ul class="unstyled-list logos-list">
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="https://unsplash.com">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-unsplash.svg" alt="Unsplash" height="76"></a>
+    <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
+      <li class="flex justify-center logo-list-item no-margin">
+        <a href="https://unsplash.com">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo Vero">
+        </a>
       </li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://tidal.com">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-tidal.svg" alt="Tidal" height="76"></a>
+      <li class="flex justify-center logo-list-item no-margin">
+        <a href="http://tidal.com">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo Vero">
+        </a>
       </li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://monzo.com">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-monzo.svg" alt="Monzo" height="76"></a>
+      <li class="flex justify-center logo-list-item no-margin">
+        <a href="http://monzo.com">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo Vero">
+        </a>
       </li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://pipedrive.com">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-pipedrive.svg" salt="Pipedrive" height="76"></a>
+      <li class="flex justify-center logo-list-item no-margin">
+        <a href="http://about.me">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/aboutme-logo-vero.svg" alt="About.me logo Vero">
+        </a>
       </li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://about.me">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-aboutme.svg" alt="about.me" height="76"></a>
-      </li>
-      <li class="logos-list-item no-top-margin"><a class="display-block" href="http://helloprint.co.uk">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/logos/v4/home-helloprint.svg" alt="Helloprint" height="76"></a>
+      <li class="flex justify-center logo-list-item no-margin">
+        <a href="http://helloprint.co.uk">
+          <img src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
+        </a>
       </li>
     </ul>
-
-    <a class="display-block medium top-margin-medium" data-scroll href="#customers">See what our customers say</a>
   </div>
 </section>
-<section id="features-summary" class="bottom-border-light">
-  <div class="inner large-inner center-text">
-    <h1 class="no-bottom-margin">The data driven way to manage your email experiences</h1>
-    <p class="medium">Follow a powerful methodology for managing your off-site customer interactions</p>
-    <div class="methodology">
-      <div class="dotted-line"></div>
-      <ul class="feature-list full-width fourths">
-        <li>
-          <a href="/features/#features-collection"><img src="/wp-content/themes/vero/assets/images/home/home-capture.svg">
-          <p class="small uppercase font-brand-warning">Collection</p></a>
-          <p class="semi-bold">Capture customer data & events</p>
-          <p class="light">Track and store your event stream in real time using our API or Segment integration.</p>
-        </li>
-        <li>
-          <a href="/features/#features-modelling"><img src="/wp-content/themes/vero/assets/images/home/home-model.svg">
-          <p class="small uppercase font-brand-success">Modelling</p></a>
-          <p class="semi-bold">Model your customer data</p>
-          <p class="light">Enable your entire team to model your event data and generate segments without touching code.</p>
-        </li>
-        <li>
-          <a href="/features/#features-automation"><img src="/wp-content/themes/vero/assets/images/home/home-manage.svg">
-          <p class="small uppercase font-brand-primary">Automation</p></a>
-          <p class="semi-bold">Manage your email workflows</p>
-          <p class="light">Design and schedule advanced email workflows, collaborate on content and understand every interaction.</p>
-        </li>
-        <li>
-          <a href="/features/#features-deployment"><img src="/wp-content/themes/vero/assets/images/home/home-deploy.svg">
-          <p class="small uppercase font-brand-error">Deployment</p></a>
-          <p class="semi-bold">Deploy with Vero or BYO</p>
-          <p class="light">Deploy and track campaigns at scale using Vero or your choice of email delivery provider (Sendgrid, Mailgun and more).</p>
-        </li>
-      </ul>
+<section class="double-padding bg-dots-strip bg-left">
+  <div class="inner xlarge-inner">
+    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
+      <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
+    </header>
+    <div class="grid grid-thirds center-text">
+      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/data-management">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+
+        <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
+
+        <p class="bottom-margin-smedium">Empower your marketing team to create and test customer experiences using real-time data.</p>
+      </a>
+      <a class="d-block job-card padding-small md-padding-smedium border-light border-radius-2 bg-white unstyled" href="/customer-engagement">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
+
+        <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
+
+        <p class="bottom-margin-smedium">Send email and push notifications that drive customer engagement and increase revenue.</p>
+      </a>
+      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white unstyled" href="/send-automated-messages">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
+
+        <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
+
+        <p class="bottom-margin-smedium">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
+      </a>
     </div>
-    <div class="clearfix"></div>
-
-    <a class="display-block medium top-margin-medium" href="/features">See what Vero can do</a>
   </div>
 </section>
-<section class="bg-gray-lighter">
-  <div class="inner large-inner center-text">
-    <h5 class="section-label jump-link" id="customers">What people have said about Vero</h5>
+<!--
+<section class="double-padding">
+  <div class="inner xlarge-inner">
+    <div class="flex flex-wrap">
+      <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
 
-    <div class="customer-quotes">
-      <blockquote class="customer-quote relative">
-        <p class="medium no-top-margin bottom-margin-small">Heck! Vero's support is exceptional!</p>
-
-        <div class="customer-footer">
-          <div class="customer-avatar bottom-margin-tiny">
-            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field@2x.jpg 2x" alt="Nathan Field">
-          </div>
-
-          <div class="customer-meta">
-            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of Marketing at Drawboard</p>
-          </div>
+      <div class="js-showcase-carousel showcase-carousel">
+        <div class="js-showcase-item"
+          data-title="Workflows"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">Native and CDP data integrations</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
-      </blockquote>
-
-      <blockquote class="customer-quote relative">
-        <p class="medium no-top-margin bottom-margin-small">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
-
-        <div class="customer-footer">
-          <div class="customer-avatar bottom-margin-tiny">
-            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser@2x.jpg 2x" alt="Luke Chesser">
-          </div>
-
-          <div class="customer-meta">
-            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="            https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Cofounder at Unsplash</p>
-          </div>
+        <div class="js-showcase-item"
+          data-title="Integrations"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">Unique customer profiles</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
-      </blockquote>
-
-      <blockquote class="customer-quote relative">
-        <p class="medium no-top-margin bottom-margin-small">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
-
-        <div class="customer-footer">
-          <div class="customer-avatar bottom-margin-tiny">
-            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani@2x.jpg 2x" alt="Julien Catani">
-          </div>
-
-          <div class="customer-meta">
-            <h2 class="customer-quote-name small no-bottom-margin semi-bold"><a href="              https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catan</a></h2>
-            <p class="customer-quote-title small no-top-margin no-bottom-margin">Head of CRM at Helloprint</p>
-          </div>
+        <div class="js-showcase-item"
+          data-title="Customer profiles"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">Workflows</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
         </div>
-      </blockquote>
+        <div class="js-showcase-item"
+          data-title="Segmentation"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">Segmentation</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Data management"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">Email</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Email"
+          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        >
+          <h2 class="tubs regular regular">iOS/Android push</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Push notifications"
+          data-desc="Lorem ipsum dolor sit, amett…"
+        >
+        </div>
+        <div class="js-showcase-item"
+          data-title="Personalization"
+        >
+        </div>
+        <div class="js-showcase-item"
+          data-title="A/B testing"
+        >
+          <h2 class="tubs regular regular">A/B testing</h2>
+          <div class="bg-gray-lighter" style="height: 440px;"></div>
+        </div>
+        <div class="js-showcase-item"
+          data-title="Reporting"
+          data-desc="Lorem ipsum dolor sit, amett…"
+        >
+          <h2 class="tubs regular regular">Reporting</h2>
+          <div class="bg-gray-lighter" style="height: 400px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<section class="bg-offwhite overflow-visible">
+  <div class="inner xlarge-inner center-text md-left-text">
+    <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
+    <div class="flex items-center justify-center">
+      <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/luke-chesser-vero testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/luke-chesser-vero testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
+          </div>
+
+          <div class="col-main">
+            <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
+
+            <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+
+            <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+            <span>Cofounder at Unsplash</span>
+          </div>
+        </blockquote>
+
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
+          </div>
+
+          <div class="col-main">
+            <img class="self-center"
+            src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
+
+            <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+
+            <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+            <span>Head of CRM at Helloprint</span>
+          </div>
+        </blockquote>
+
+        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+          <div class="col-aside right-margin-small">
+            <img src="/wp-content/themes/vero/assets/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
+          </div>
+
+          <div class="col-main">
+            <img src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Drawboard">
+
+            <p class="medium quote">"Heck! Vero's support is exceptional!</p>
+
+            <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+            <span>Head of Marketing at Drawboard</span>
+          </div>
+        </blockquote>
+      </div>
     </div>
   </div>
 </section>
-<section id="benefits">
-  <div class="inner large-inner center-text">
-    <h1 class="no-bottom-margin">Design emails that delight your customers</h1>
-    <p class="medium">Vero encourages a <span class="semi-bold">collaborative</span> process that enables <span class="semi-bold">teams</span> to work together to create data-driven communications.</p>
-    <ul class="feature-list full-width thirds">
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/home-data-first.png" srcset="/wp-content/themes/vero/assets/images/home/home-data-first@2x.png 2x">
-          <p class="semi-bold">Harness your data</p>
-          <p class="light">Using your data is critical in delivering communications that engage customers and drive revenue - Vero allows you to collect, model and automate real-time data.</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/home-organisation.png" srcset="/wp-content/themes/vero/assets/images/home/home-organisation@2x.png 2x">
-          <p class="semi-bold">Bring your team together</p>
-          <p class="light">Great products and experiences require alignment - Vero enables collaboration between product, marketing and engineering teams.</p>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/images/home/home-modern-stack.png" srcset="/wp-content/themes/vero/assets/images/home/home-modern-stack@2x.png 2x">
-          <p class="semi-bold">Connect your data pipeline</p>
-          <p class="light">Vero ingests real-time event data from your website and platform, puts it to work and pushes interaction data back into it - and it's flexible to fit with your modern stack and data pipeline.</p>
-        </li>
-      </ul>
+<section class="double-padding bg-shapes bg-center">
+  <div class="inner small-inner center-text">
+    <header class="bottom-margin-medium">
+      <h2 class="chunk regular bottom-margin-small">World-class support</h2>
+
+      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
+    </header>
+
+    <div class="donut horizontal-margin-auto bottom-margin-small">
+      <div>
+        <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
+        <span class="d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
+      </div>
+      <img src="/wp-content/themes/vero/assets/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
+    </div>
+
+    <p class="medium md-horizontal-margin-xlarge faded">Customer happiness score based on last 6 months of support rating</p>
   </div>
 </section>
-<section id="blocks">
-  <div class="support block center-text">
-    <div class="inner-block">
-      <h3 class="block-title">98.5% of the time, our customers love our support every time!</h3>
-      <p class="block-desc">Email is mission critical. With team members spread around the world, Vero offers fast, reliable support <strong>24/7</strong> – we're real humans.</p>
-      <a href="https://help.getvero.com" target="_blank" class="btn btn-outline btn-warning">View the Help Docs</a>
-    </div>
-  </div>
-  <div class="developers block center-text">
-    <div class="inner-block">
-      <h3 class="block-title">A platform engineers can rely on</h3>
-      <p class="block-desc">Reliable and built on top of your event stream, Vero gets out of your way and gives you the power to create best-in-class product interactions like the hundreds of other businesses serving over <strong>500m</strong> customers on the Vero platform. Libraries in Ruby, Python and more.</p>
-      <a href="https://developers.getvero.com" target="_blank" class="btn btn-primary btn-outline">Read the API Docs</a>
-    </div>
-  </div>
-</section>
+<?php
+  include 'pages-shared/footer-cta.php';
+?>
 <?php
   no_content_genesis_footer();
   include("demo-enquiry-form.php");

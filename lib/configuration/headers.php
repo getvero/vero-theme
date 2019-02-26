@@ -9,9 +9,12 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <ul id="menu-marketing-navbar-left" class="menu">
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img data-no-retina src="/wp-content/themes/vero/assets/images/home/logo/logo-blue.svg" width="104" height="36"></a></li>
-    <li><a href="https://www.getvero.com/careers" class="hiring-pill">We're Hiring!</a></li>
+  <ul class="menu" id="menu-marketing-navbar-left">
+    <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
+      <a href="https://www.getvero.com">
+        <img data-no-retina src="/wp-content/themes/vero/assets/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+      </a>
+    </li>
   </ul>
   <?php $logo = ob_get_clean();
 
@@ -21,24 +24,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <?php $responsive_toggle = ob_get_clean();
 
   return $logo . $menu . $responsive_toggle;
-}
-
-function add_responsive_menu_toggle_to_navbar($menu, $args) {
-  $args = (array)$args;
-  $useragent=$_SERVER['HTTP_USER_AGENT'];
-
-  if ( 'primary' !== $args['theme_location'] && 'blog-secondary-nav-menu' !== $args['theme_location'] )
-    return $menu;
-
-  ob_start();
-  ?>
-  <ul id="menu-marketing-navbar-left" class="menu">
-    <li id="logo" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.getvero.com"><img src="/wp-content/themes/vero/assets/images/logo-blue.png">Vero</a></li>
-    <li id="what-is-vero" class="menu-item menu-item-type-custom menu-item-object-custom"><span>Sweet ass emails!</span></li>
-  </ul>
-  <?php $logo = ob_get_clean();
-
-  return $logo . $menu;
 }
 
 function additional_active_item_classes($classes = array(), $menu_item = false){
@@ -79,16 +64,16 @@ function workflows_banner(){
   if(is_page('homepage')){
     ?>
       <div class="homepage-banner">
-        <a href="/workflows" class="unstyled">
-          <p class="large banner-heading inline-block right-margin-medium">Introducing <span class="bold">Workflows</span></p>
-          <p class="regular banner-sub-heading inline-block">A brand new way to design, visualize and manage your customer journeys!</p>
-          <p class="regular banner-button inline-block">Find out more</p>
-          <p class="regular banner-arrow inline-block">
+        <a class="flex items-center border-bottom-light" href="/workflows">
+          <p class="large banner-heading no-margin right-margin-medium">Introducing <span class="bold">Workflows</span></p>
+          <p class="regular banner-sub-heading no-margin">A brand new way to design, visualize and manage your customer journeys!</p>
+          <span class="regular banner-button">Find out more</span>
+          <span class="regular banner-arrow">
             <svg height="19" viewBox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg"><path d="m6.328 14.263c-.407.373-.435 1.006-.061 1.413.373.407 1.006.435 1.413.061l5.998-5.498c.432-.396.432-1.078 0-1.474l-5.998-5.502c-.407-.373-1.04-.346-1.413.061s-.346 1.04.061 1.413l5.194 4.764z" fill="#d8d8d8"/></svg>
-          </p>
+          </span>
         </a>
       </div>
-    <?php 
+    <?php
   }
 }
 

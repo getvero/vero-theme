@@ -41,13 +41,14 @@
         <p class="medium no-bottom-margin">Segment is a customer data platform that connects over 200 sources and destinations to empower your team to use their favorite tools to personalize campaigns, analyze product usage, and more.</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://segment.com/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-segment.html" target="_blank">Documentation</a></p>
+        <a class="pill pill-primary" href="https://segment.com/" target="_blank">Website</a>
+
+        <a class="pill pill-primary" href="https://help.getvero.com/articles/integrations/integrate-vero-and-segment.html" target="_blank">Documentation</a>
       </div>
     </div>
   </div>
 </section>
-<section id="features-more" class="bottom-border-light">
+<section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -83,7 +84,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section bottom-border-light">
+<section id="vero-segment-test-event" class="feature-section border-bottom-light">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -99,14 +100,14 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
-      <h2 class="tubs italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h2>
+      <h2 class="tubs regular italic regular">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h2>
       <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
     </div>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Create a Vero account and connect to Segment in minutes</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

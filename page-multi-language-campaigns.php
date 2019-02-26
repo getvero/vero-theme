@@ -9,23 +9,23 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="multi-language-hero" class="hero bottom-border-light">
+<section id="multi-language-hero" class="hero border-bottom-light">
   <div class="inner center-text">
-    <h1 class="hero-title">The simple way to send your multi-language emails</h1>
+    <h1 class="chunk semi-bold">The simple way to send your multi-language emails</h1>
     <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates@2x.png 2x">
   </div>
 </section>
-<!-- <section id="multi-language-services" class="bottom-border-light">
+<!-- <section id="multi-language-services" class="border-bottom-light">
   <div class="inner center-text">
     <h2>Designed to work in conjunction with the translation services you already use.</h2>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-services-logos.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-services-logos@2x.png 2x">
   </div>
 </section> -->
-<section id="multi-language-steps" class="bottom-border-light">
+<section id="multi-language-steps" class="border-bottom-light">
   <div class="inner full-width halfs">
     <div class="left">
-      <h2>Just add content, we do the rest.</h2>
+      <h2 class="micro regular">Just add content, we do the rest.</h2>
       <ul class="steps unstyled-list">
         <li class="step"><span class="number">1</span><p class="step-title"><strong>Add a Language Variation</strong></p><p>Every campaign can have multiple content variations. Add as many as you need.</p></li>
         <li class="step"><span class="number">2</span><p class="step-title"><strong>Select a Language</strong></p><p>Choose the language that you want to send. Vero automatically checks every one of your customers for the ‘locale’ property and sends the right variation to each individual.</p></li>
@@ -38,16 +38,16 @@
     </div>
   </div>
 </section>
-<section id="multi-language-how-it-works" class="center-text bottom-border-light">
+<section id="multi-language-how-it-works" class="center-text border-bottom-light">
   <div class="inner center-text">
-    <h2>How does it work?</h2>
+    <h2 class="tubs regular regular">How does it work?</h2>
     <p>Vero reserves the <code>locale</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>locale</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer. Read our <a href="https://help.getvero.com/articles/create-a-multi-language-campaign.html" target="_blank">multi language campaigns help doc</a>.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works@2x.png 2x">
   </div>
 </section>
 <section id="multi-languages-code">
   <div class="inner center-text">
-    <h2 class="center-text">Track your customers language in Vero like this:</h2>
+    <h2 class="tubs regular regular center-text">Track your customers language in Vero like this:</h2>
     <div class="center-block">
       <div id="data-code-block">
           <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
@@ -65,19 +65,9 @@ vero.users.track!({
 
   </div>
 </section>
-
-
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
-    <p class="sub-heading">Create a free account and see how Vero can help your team.</p>
-    <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
-      <input class="form-control" type="email" placeholder="Email Address" name="email">
-      <input class="btn btn-success" type="submit" value="Create your account">
-    </form>
-    <p class="mini faded center-text mf-half center-block top-margin-small horizontal-padding-small">In order to provide our service to you, we must store your personal information. Any personal data that we collect will be handled in accordance with our <a href="/privacy">Privacy Notice</a>.</p>
-  </div>
-</section>
+<?php
+  include 'pages-shared/footer-cta.php';
+?>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");

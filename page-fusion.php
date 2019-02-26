@@ -9,10 +9,10 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="external-attributes-hero" class="bottom-border-light">
+<section id="external-attributes-hero" class="border-bottom-light">
   <div class="inner center-text flush-bottom">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
-    <h1 class="biggie center-text no-bottom-margin">Emails that can talk to APIs.</h1>
+    <h1 class="biggie semi-bold center-text no-bottom-margin">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image top-margin-medium">
       <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-hero.svg" class="center-text responsive-image">
@@ -21,7 +21,7 @@
 </section>
 <section id="external-attributes-howitworks" class="double-padding flush-bottom">
   <div class="inner center-text gradient-border-bottom">
-    <h1 class="chunk no-bottom-margin">Load data from its source</h1>
+    <h1 class="chunk semi-bold bottom-margin-small">Load data from its source</h1>
     <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-api-diagram.svg" class="center-text top-margin-medium responsive-image">
     <ul class="feature-list unstyled-list halfs top-margin-small">
@@ -45,9 +45,9 @@
 </section>
 <section id="external-attributes-examples" class="double-padding">
   <div class="inner center-text">
-    <h1 class="chunk no-bottom-margin">Email as a true extension of your product</h1>
+    <h1 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h1>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
-    <ul class="feature-list unstyled-list thirds sm-center top-margin-medium">
+    <ul class="feature-list unstyled-list thirds sm-center-text top-margin-medium">
       <li class="center-text">
         <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-recommendations.svg">
         <p class="semi-bold medium">Recommendations</p>
@@ -101,21 +101,21 @@
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-secure.svg">
         <div class="right"><p class="medium semi-bold no-top-margin">Multiple Authentication Methods</p>
-        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny inline-block">Coming Soon</span></p></div>
+        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny  d-inline-block">Coming Soon</span></p></div>
       </li>
     </ul>
   </div>
 </section>
-<section id="external-attributes-scale" class="double-padding bottom-border-light">
+<section id="external-attributes-scale" class="double-padding border-bottom-light">
   <div class="inner center-text flush-bottom">
-    <h1 class="chunk no-bottom-margin">Built to Scale</h1>
+    <h1 class="chunk semi-bold bottom-margin-tiny">Built to Scale</h1>
     <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text display-block responsive-image">
+    <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text  d-block responsive-image">
   </div>
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
     <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
     <form action="https://app.getvero.com/pre_signups" method='post' class="horizontal-signup-form">
       <input class="form-control" type="email" placeholder="Email Address" name="email">

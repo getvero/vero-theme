@@ -33,7 +33,7 @@
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
   </div>
 </section>
-<section class="double-padding gray-section">
+<section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
     <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
@@ -48,13 +48,13 @@
         <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and loads your data into your data warehouse (such as Amazon Redshift or Snowflake).</p>
       </div>
       <div class="right">
-        <p class="pill pill-medium pill-primary"><a href="https://snowplowanalytics.com/products/" target="_blank">Website</a></p>
-        <p class="pill pill-medium pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a></p>
+        <p class="pill pill-primary"><a href="https://snowplowanalytics.com/products/" target="_blank">Website</a></p>
+        <p class="pill pill-primary"><a href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a></p>
       </div>
     </div>
   </div>
 </section>
-<section id="features-more" class="bottom-border-light">
+<section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list halfs">
@@ -103,7 +103,7 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Start building your best campaigns today</h1>
+    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
     <p class="sub-heading">Create a Vero account and connect to Snowplow in minutes</p>
     <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
   </div>

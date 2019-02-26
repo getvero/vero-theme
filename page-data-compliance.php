@@ -9,14 +9,14 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="data-compliance-hero" class="hero bottom-border-light">
+<section id="data-compliance-hero" class="hero border-bottom-light">
   <div class="inner center-text flush-bottom">
     <h1>Go local. Host your data where you need to.</h1>
     <p>The world has gone global and your business has to move fast to keep up.<br><em>Vero Local</em> gives you peace of mind and helps you stay compliant with the data laws in your region.</p>
     <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/data-compliance-hero.svg">
   </div>
 </section>
-<section id="data-compliance-why" class="hero bottom-border-light">
+<section id="data-compliance-why" class="hero border-bottom-light">
   <div class="inner center-text">
     <h1>Peace of mind now and in the future</h1>
     <p>North America, The European Economic Area, Australia and China all have unique and nuanced data requirements. Vero helps you store realtime data about your customers and their actions on an ongoing basis. Thanks to our experience tracking billions of datapoints for hundreds of global businesses, we're experts in data processing and storage. Our <em>Vero Local</em> service helps you tap into this expertise to ensure compliance with current global data laws and requirements as well as protecting aginst future changes.</p>
@@ -44,7 +44,7 @@
     </ul>
   </div>
 </section>
-<section id="data-compliance-regions" class="center-text bottom-border-light">
+<section id="data-compliance-regions" class="center-text border-bottom-light">
   <div class="inner center-text">
     <h2>Where does your data need to be?</h2>
     <p>International data laws and requirements are constantly evolving. As part of <em>Vero Local</em> you can elect to have your data hosted in one of the following key international regions.</p>
@@ -76,7 +76,7 @@
     </ul>
   </div>
 </section>
-<section id="data-compliance-customers" class="center-text bottom-border-light">
+<section id="data-compliance-customers" class="center-text border-bottom-light">
   <div class="inner center-text">
     <p>We work with hundreds of large, international businesses. Here's just a couple.</p>
     <ul class="center-text feature-list fourths">

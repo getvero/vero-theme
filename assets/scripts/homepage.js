@@ -1,4 +1,5 @@
 // Sliders for the email/data pages
+
 jQuery(document).ready(function(){
   jQuery('.bxslider').bxSlider({
     mode            : 'fade',
@@ -23,29 +24,6 @@ jQuery(document).ready(function(){
     careersSlider.goToSlide(slideNum);
   });
 
-  jQuery('#slider-monthly').click(function(){
-    if(jQuery(this).hasClass('active')) {
-      return false;
-    }
-    else {
-      slider.goToSlide(2);
-      jQuery(this).addClass('active')
-      jQuery('#slider-self-hosted').removeClass('active')
-      return false;
-    }
-  });
-  jQuery('#slider-self-hosted').click(function(){
-    if(jQuery(this).hasClass('active')) {
-      return false;
-    }
-    else {
-      slider.goToSlide(1);
-      jQuery(this).addClass('active')
-      jQuery('#slider-monthly').removeClass('active')
-      return false;
-    }
-  });
-
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
     e.stopPropagation();
@@ -66,16 +44,6 @@ jQuery(document).ready(function(){
       sub_menu.removeClass('show-sub-menu');
     }
   });
-
-  // Form checker
-
-  // jQuery('.js-subscribe-form').submit(function (e) {
-  //   //check at least 1 checkbox is checked
-  //   if (!jQuery('#horns').is(':checked')) {
-  //     //prevent the default form submit if it is not checked
-  //     e.preventDefault();
-  //   }
-  // })
 
   // Pricing Slider
 
@@ -178,18 +146,16 @@ jQuery(window).scroll(function(){
   var height   = getHeight();
   var distance = getDistance() - jQuery(window).scrollTop();
   var offset   = jQuery(window).scrollTop();
-  if ((distance <= -5) && !stuck) {
-    jQuery('.nav-primary').addClass('sticky');
-    jQuery('.nav-primary').height(height);
-    jQuery('.js-blog-navigation').addClass('sticky');
+  if ( (distance <= -1) && !stuck) {
+    jQuery(".nav-primary").addClass('sticky');
+    jQuery(".nav-primary").height(height);
     stuck = true;
-    // console.log('stick');
-  } else if (stuck && (offset <= stickPoint)){
-    jQuery('.nav-primary').removeClass('sticky');
-    jQuery('.nav-primary').css('height','auto');
-    jQuery('.js-blog-navigation').removeClass('sticky');
+    console.log('stick');
+  } else if (stuck && (offset <= stickPoint)) {
+    jQuery(".nav-primary").removeClass('sticky');
+    jQuery(".nav-primary").css('height','auto');
     stuck = false;
-    // console.log('unstick');
+    console.log('unstick');
   }
 });
 
@@ -213,3 +179,23 @@ if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-
     }
   });
 }
+
+jQuery(document).ready(function(){
+
+  // Image swapper
+
+  jQuery('.feature-swapper-option').click(function(e){
+    var swapTo = jQuery(this).data('swap-to');
+    var parentSwapper = jQuery(this).parents('.feature-swapper');
+    parentSwapper.find('li.active').removeClass('active');
+    jQuery(this).parent('li').addClass('active');
+    parentSwapper.find('.active-feature').removeClass('active-feature').addClass('inactive-feature');
+    var featureId = '#' + swapTo
+    parentSwapper.find(featureId).removeClass('inactive-feature').addClass('active-feature');
+  });
+
+});
+
+// Smooth scroll
+
+smoothScroll.init();
