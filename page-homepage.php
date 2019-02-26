@@ -226,23 +226,22 @@
   </div>
 </section>
 <section class="double-padding bg-shapes bg-center">
-  <div class="inner xlarge-inner center-text">
-  <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
+  <div class="inner small-inner center-text">
+    <header class="bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">World-class support</h2>
 
       <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
     </header>
 
-    <div class="donut horizontal-margin-auto bottom-margin-tiny">
+    <div class="donut horizontal-margin-auto bottom-margin-small">
       <div>
-        <span class="chunk semi-bold bottom-margin-micro font-brand-success">91</span>
-        <span class="d-block annotation horizontal-margin-medium semi-bold faded uppercase">Happiness score</span>
+        <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
+        <span class="d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
       </div>
       <img src="/wp-content/themes/vero/assets/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
     </div>
 
-    <span class="medium"><span class="font-brand-success horizontal-margin-micro">95% great</span> <span class="font-brand-warning horizontal-margin-micro">2% ok</span> <span class="font-brand-error horizontal-margin-micro">3% not good</span></span>
-    <p class="annotation bottom-margin-medium faded">Based on last 6 months of support ratings</p>
+    <p class="medium md-horizontal-margin-xlarge faded">Customer happiness score based on last 6 months of support rating</p>
   </div>
 </section>
 <?php
