@@ -1,4 +1,4 @@
-<div id="demo">
+<div class="modal modal-demo" id="demo">
   <div id="enquire-intro" class="center-text">
     <p>Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
   </div>
