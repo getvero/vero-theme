@@ -199,10 +199,10 @@ function add_categories_and_search() {
     </div>
 
     <div class="modal modal-blog" id="blog">
-      <div class="center-text" id="enquire-intro">
-        <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
+      <div class="center-text bottom-margin-small" id="enquire-intro">
+        <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
       </div>
-      <div class="center-text" id="thanks">
+      <div class="center-text bottom-margin-small" id="thanks">
         <h3 class="atomic regular">Almost there!</h3>
         <p class="no-margin">We've sent you an email to confirm your subscription.</p>
       </div>
@@ -213,10 +213,12 @@ function add_categories_and_search() {
           <input name="user[consent_product_updates]" type="hidden" value="true">
           <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
         </div>
-        <div class="form-group bottom-margin-tiny">
+        <div class="form-group bottom-margin-small">
           <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
         </div>
-        <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+        <div class="inner flush-top flush-bottom">
+          <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+        </div>
       </form>
 
       <div class="modal-close">
