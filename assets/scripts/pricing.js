@@ -23,8 +23,13 @@ jQuery(document).ready(function(){
     return false;
   });
 
+  jQuery('.form-with-tracking').submit(function(e) {
+    ga('send', 'event', 'acquisition', 'blog_signups');
+  });
+
   jQuery('.js-blog-subscribe-form').submit(function(e) {
     e.preventDefault();
+    ga('send', 'event', 'acquisition', 'blog_signups');
     subscribeBlog(e);
     return false;
   });
