@@ -89,16 +89,16 @@ function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
     <div class='subscribe-form center-block'>
-      <h2 class="micro">Get our latest blog posts, product news and tips straight to your inbox.</h2>
-      <form action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+      <h2 class="micro center-text">Get our latest blog posts, product news and tips straight to your inbox</h2>
+      <form class="bottom-margin-small" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
         <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com">
         <input name='redirect_on_success' type='hidden' value='https://veropublic.wpengine.com/subscribed-to-the-blog/'>
         <input name='user[consent_marketing]' type='hidden' value='true'>
         <input name='user[consent_product_updates]' type='hidden' value='true'>
         <input name='user[contact_by_fax_only]' type='checkbox' value='1' style='display:none !important' tabindex="-1" autocomplete="false" />
-        <input type='submit' value='Subscribe' class="btn btn-success">
+        <input class="btn btn-success btn-medium" type='submit' value='Subscribe'>
       </form>
-      <p class="mini"><span class="faded">By subscribing, you consent to let Vero send you messages regarding marketing and product. You can learn more in our</span> <a href="https://www.getvero.com/privacy" target="_blank">Privacy Notice</a><span class="faded">, and you can opt out or change your consent at any time.</span></p>
+      <p class="annotation center-text"><span class="faded">By subscribing, you consent to let Vero send you messages regarding marketing and product. You can learn more in our</span> <a href="https://www.getvero.com/privacy" target="_blank">Privacy Notice</a><span class="faded">, and you can opt out or change your consent at any time.</span></p>
     </div>
   <?php
   }
