@@ -149,17 +149,17 @@ function category_setup() {
 
 function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
-    <h2 class="font-brand-gray-darker regular section-title">Latest</h2>
+    <h2 class="font-brand-gray-dark regular">Latest</h2>
   <?php }
   else if( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h2 class="font-brand-gray-darker regular section-title">All – Page <?php echo $paged; ?></h2>
+    <h2 class="font-brand-gray-dark regular">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if( is_category() ){ ?>
-    <h2 class="font-brand-gray-darker regular section-title"><?php single_cat_title() ?></h2>
+    <h2 class="font-brand-gray-dark regular"><?php single_cat_title() ?></h2>
   <?php }
   else if( is_search() ) { ?>
-    <h2 class="font-brand-gray-darker regular section-title">Search results for: <?php echo get_search_query(); ?></h2>
+    <h2 class="font-brand-gray-dark regular">Search results for: <?php echo get_search_query(); ?></h2>
   <?php }
 }
 
