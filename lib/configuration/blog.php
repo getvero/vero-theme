@@ -7,9 +7,9 @@ function add_custom_types( $query ) {
     $query->set( 'post_type', array(
       'post', 'guides'
     ));
-    
+
     $query->set( 'post_parent', 0 );
-    
+
     return $query;
   } else if ( is_search() && $query === $wp_the_query && !is_admin()) {
     $query->set('post_type', array(
@@ -32,7 +32,7 @@ function change_post_info($post_meta) {
   //$categories = get_the_category($post->ID);
   $category = $categories[0]->cat_name;
   ?>
-  <p class="entry-meta">
+  <p class="entry-meta semi-bold uppercase font-brand-gray-dark">
     <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
       <a href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
     <?php } else { ?>
@@ -41,13 +41,13 @@ function change_post_info($post_meta) {
     Written On
     <time class="entry-time" itemprop="datePublished" datetime="2015-05-06T06:33:11+00:00">
       <?php echo the_time('j F, Y'); ?>
-    </time> 
-    by 
+    </time>
+    by
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
       <?php echo get_the_author(); ?>
-    </span> 
+    </span>
   </p>
-  <?php 
+  <?php
 }
 
 function is_active($page) {
