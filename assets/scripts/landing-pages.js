@@ -3,12 +3,6 @@ jQuery(window).load(function(){
 });
 
 jQuery(document).ready(function(){
-  jQuery('.image-comparison-container').slider({
-    initialPosition: .5,
-    showInstruction: false,
-    instructiontext: "< >"
-  });
-
   jQuery('#workflows-ui-nodes li.hover-box').click(function(e){
     console.log('hello');
     var node = jQuery(this);
