@@ -15,8 +15,6 @@
 
 <section class="double-padding plain-text-body">
   <div class="inner">
-    <!-- <?php do_action( 'genesis_loop' ); ?> -->
-
     <h1 class="biggie regular"><?php single_post_title(); ?></h1>
 
     <?php the_content(); ?>
