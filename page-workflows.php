@@ -52,8 +52,9 @@
       </div>
       <div class="right secondary">
         <h2 class="biggie semi-bold">All the tools you need to move quickly</h2>
-        <p class="large">Workflows help you visualize your customers’ email experience as you build it. With all the tools you need in one place, you and your team can quickly and confidently create and update complex customer journeys.</p>
-        <p class="pill pill-primary top-margin-small"><a href="https://help.getvero.com/articles/creating-a-new-workflow.html" target="_blank">Read the documentation</a></p>
+        <p class="large bottom-margin-medium">Workflows help you visualize your customers’ email experience as you build it. With all the tools you need in one place, you and your team can quickly and confidently create and update complex customer journeys.</p>
+
+        <a class="medium pill pill-primary" href="https://help.getvero.com/articles/creating-a-new-workflow.html" target="_blank">Read the documentation</a></p>
       </div>
     </div>
   </div>
