@@ -149,17 +149,17 @@ function category_setup() {
 
 function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
-    <h2 class="font-brand-gray-darker regular section-title">Latest</h2>
+    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">Latest</h2>
   <?php }
   else if( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h2 class="font-brand-gray-darker regular section-title">All – Page <?php echo $paged; ?></h2>
+    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if( is_category() ){ ?>
-    <h2 class="font-brand-gray-darker regular section-title"><?php single_cat_title() ?></h2>
+    <h2 class="font-brand-gray-dark regular bottom-margin-smedium"><?php single_cat_title() ?></h2>
   <?php }
   else if( is_search() ) { ?>
-    <h2 class="font-brand-gray-darker regular section-title">Search results for: <?php echo get_search_query(); ?></h2>
+    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h2>
   <?php }
 }
 
@@ -176,10 +176,13 @@ function get_category_title() {
 function add_categories_and_search() {
   if( is_blog_archive() || is_single() ){ ?>
 
-    <div id="blog-sub-menu" class="border-bottom-light">
+    <div class="js-blog-navigation bottom-margin-medium bottom-border-light" id="blog-sub-menu">
       <div class="categories">
-        <div class="category-button"><?php get_category_title(); ?><span class="fa fa-angle-down"></span></div>
-        <ul id="categories-menu">
+        <div class="category-button items-center">
+          <?php get_category_title(); ?>
+          <svg class="left-margin-tiny" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
+        </div>
+        <ul class="semi-bold flex" id="categories-menu">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
           <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
@@ -187,9 +190,38 @@ function add_categories_and_search() {
           <!-- <li class="<?php echo is_active('product-updates'); ?>"><a href="/resources/category/case-studies">Product Updates</a></li> -->
         </ul>
       </div>
+
       <?php
         get_search_form(true);
       ?>
+
+      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe</a>
+    </div>
+
+    <div class="modal modal-blog" id="blog">
+      <div class="center-text" id="enquire-intro">
+        <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
+      </div>
+      <div class="center-text" id="thanks">
+        <h3 class="atomic regular">Almost there!</h3>
+        <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+      </div>
+      <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+        <div class="form-group bottom-margin-tiny">
+          <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
+          <input name="user[consent_marketing]" type="hidden" value="true">
+          <input name="user[consent_product_updates]" type="hidden" value="true">
+          <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+        </div>
+        <div class="form-group bottom-margin-tiny">
+          <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
+        </div>
+        <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+      </form>
+
+      <div class="modal-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
+      </div>
     </div>
 
   <?php }

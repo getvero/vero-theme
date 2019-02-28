@@ -1,6 +1,15 @@
 // Sliders for the email/data pages
 jQuery(document).ready(function(){
-  jQuery('a[rel*=leanModal]').leanModal({ top : 80, closeButton: ".modal-close" });
+  jQuery('a[rel*=leanModal]').leanModal({
+    top        : 80,
+    closeButton: '.modal-close'
+  });
+
+  jQuery('.js-blog-subscribe-btn').leanModal({
+    top        : 300,
+    closeButton: '.modal-close'
+  });
+
   if(window.location.hash) {
     var hash = window.location.hash.substring(1);
     if(hash == 'demo') {
@@ -8,9 +17,20 @@ jQuery(document).ready(function(){
     }
   }
 
-  jQuery("#high-volume-sender-form").submit(function(e) {
+  jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
     requestDemo(e);
+    return false;
+  });
+
+  jQuery('.form-with-tracking').submit(function(e) {
+    ga('send', 'event', 'acquisition', 'blog_signups');
+  });
+
+  jQuery('.js-blog-subscribe-form').submit(function(e) {
+    e.preventDefault();
+    ga('send', 'event', 'acquisition', 'blog_signups');
+    subscribeBlog(e);
     return false;
   });
 
@@ -20,11 +40,11 @@ jQuery(document).ready(function(){
   validateForm = function() {
     var company, email_addr, emails, name, subscribers, ret;
     ret = true;
-    name = jQuery("#sender_name");
-    email_addr = jQuery("#sender_email_address");
-    company = jQuery("#sender_company_name");
-    subscribers = jQuery("#sender_subscribers");
-    emails = jQuery("#sender_emails");
+    name = jQuery('#sender_name');
+    email_addr = jQuery('#sender_email_address');
+    company = jQuery('#sender_company_name');
+    subscribers = jQuery('#sender_subscribers');
+    emails = jQuery('#sender_emails');
 
     if (name.val() !== '') {
       name.removeClass('error');
@@ -71,6 +91,24 @@ jQuery(document).ready(function(){
         {
            console.log('Demo sent!');
            jQuery("#high-volume-sender-form").hide();
+           jQuery("#enquire-intro").hide();
+           jQuery("#thanks").show();
+        }
+      });
+    }
+  };
+
+  subscribeBlog = function(e) {
+    console.log("Trying to validate");
+    if (validateForm()) {
+      var url = jQuery('.js-blog-subscribe-form').attr('action');
+      jQuery.ajax({
+        type: "POST",
+        url: url,
+        data: jQuery('.js-blog-subscribe-form').serialize(),
+        success: function(data)
+        {
+           jQuery('.js-blog-subscribe-form').hide();
            jQuery("#enquire-intro").hide();
            jQuery("#thanks").show();
         }
