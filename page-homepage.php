@@ -13,8 +13,8 @@
 
         <p class="larger bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
-        <div class="flex flex-wrap md-flex-nowrap items-center">
-          <a class="btn btn-success btn-large  md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <div class="flex flex-wrap md-flex-nowrap items-center hero-footer">
+          <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
