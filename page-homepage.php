@@ -1,17 +1,17 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding overflow-hidden" id="hero">
+<section class="overflow-hidden" id="hero">
   <?php
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
   <div class="inner xlarge-inner">
-    <div class="flex flex-column md-flex-row">
+    <div class="flex flex-column md-flex-row md-items-center">
       <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="larger bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
+        <p class="larger md-bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center hero-footer">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
