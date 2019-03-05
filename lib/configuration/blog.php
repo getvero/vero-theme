@@ -55,6 +55,8 @@ function is_active($page) {
     return 'active';
   } else if ( $page == 'all' && is_home() ) {
     return 'active';
+  } else if ( in_category($page) && is_single() ) {
+    return 'active';
   } else {
     return '';
   }
