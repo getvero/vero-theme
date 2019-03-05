@@ -16,7 +16,7 @@
 ?>
   <div class="inner">
     <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
-    <a class="btn btn-outline-white" href="#careers-job-listings">View current openings</a>
+    <a class="btn btn-outline-white" href="#careers-job-listings" data-scroll>View current openings</a>
   </div>
 </section>
 <section id="careers-mission" class="double-padding">
