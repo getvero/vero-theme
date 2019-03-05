@@ -32,17 +32,17 @@
   <div class="inner large-inner flush-top flush-bottom">
     <ul class="feature-list unstyled-list thirds sm-left-align">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/rubix.svg" class="bottom-margin-small">
+        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/rubix.svg" alt="Work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>
         <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/meteor.svg" class="bottom-margin-small">
+        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/meteor.svg" alt="Make an impact">
         <h3 class="atomic semi-bold">Make an impact</h3>
         <p>We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/grow.svg" class="bottom-margin-small">
+        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/grow.svg" alt="Opportunities to grow">
         <h3 class="atomic semi-bold">Opportunities to grow</h3>
         <p>We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
       </li>
