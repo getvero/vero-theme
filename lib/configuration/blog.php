@@ -57,8 +57,6 @@ function is_active($page) {
     return 'active';
   } else if ( in_category($page) && is_single() ) {
     return 'active';
-  } else if ( $category == 'vero-updates' && $category == 'how-to' && $category == 'case-studies' && is_single() ) {
-    return 'active';
   } else {
     return '';
   }
