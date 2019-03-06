@@ -15,7 +15,7 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="btn btn-primary btn-small" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+    <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
   <?php }
 }
 
@@ -127,7 +127,7 @@ function change_excerpt_length() {
 
 function category_setup() {
   if( is_category() || is_search() ){
-    if(has_post_thumbnail()){
+    if( has_post_thumbnail() ){
       $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       ?>
         <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
