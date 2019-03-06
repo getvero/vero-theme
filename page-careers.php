@@ -84,7 +84,7 @@
     <li class="rory">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
-        <p class="italic">
+        <p>
           <q>Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
         </p>
         <div class="top-margin-small">
@@ -102,7 +102,7 @@
     <li class="reba">
       <div class="inner">
         <h3>Solve challenging problems for interesting customers</h3>
-        <p class="italic">
+        <p>
           <q>There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
         </p>
         <div class="top-margin-small">
