@@ -8,7 +8,7 @@
   }
   include 'pages-shared/static-header.php';
 ?>
-<section id="careers-hero" class="hero double-padding dark-box">
+<section class="hero double-padding dark-box" id="careers-hero">
   <?php
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
@@ -16,23 +16,23 @@
 ?>
   <div class="inner">
     <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
-    <a class="btn btn-outline-white" href="#careers-job-listings" data-scroll>View current openings</a>
+    <a class="btn btn-outline-white" data-scroll href="#careers-job-listings">View current openings</a>
   </div>
 </section>
 <section id="careers-mission" class="double-padding">
   <div class="inner small-inner flush-bottom">
-    <h1 class="chunk regular">We believe data is changing our world</h1>
+    <h2 class="chunk regular">We believe data is changing our world</h2>
     <p class="medium">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
   </div>
 </section>
-<section id="careers-why" class="double-padding">
+<section lass="double-padding" id="careers-why">
   <div class="inner small-inner flush-bottom">
-    <h1 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h1>
+    <h2 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h2>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
-    <ul class="feature-list unstyled-list thirds sm-left-align">
+    <ul class="feature-list unstyled-list grid sm-left-align">
       <li>
-        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/rubix.svg" alt="Work on hard problems">
+        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/rubix.svg" alt="work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>
         <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
@@ -51,7 +51,7 @@
 </section>
 <section id="careers-vibe" class="double-padding">
   <div class="inner small-inner bottom-padding-medium">
-    <h1 class="chunk regular">Live to work, not the other way around</h1>
+    <h2 class="chunk regular">Live to work, not the other way around</h2>
     <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
   <div class="inner flush-top large-inner vibe-images">
@@ -84,7 +84,7 @@
     <li class="rory">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
-        <p class="italic">
+        <p>
           <q>Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
         </p>
         <div class="top-margin-small">
@@ -102,7 +102,7 @@
     <li class="reba">
       <div class="inner">
         <h3>Solve challenging problems for interesting customers</h3>
-        <p class="italic">
+        <p>
           <q>There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
         </p>
         <div class="top-margin-small">
@@ -119,32 +119,32 @@
     </li>
   </ul>
 </section>
-<section id="careers-perks" class="double-padding floating-section light-box">
+<section class="double-padding bg-blue-light" id="careers-perks">
   <div class="inner blue-box">
-    <h1 class="chunk regular md-center">Not just work life, real life</h1>
-    <ul class="feature-list unstyled-list thirds md-center sm-left-align">
+    <h2 class="chunk regular md-center">Not just work life, real life</h2>
+    <ul class="feature-list unstyled-list grid sm-left-align">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/remote.svg" alt="Remote-first">
         <p class="semi-bold">Remote-First</p>
         <p class="">Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/hours.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/hours.svg" alt="Flexible hours">
         <p class="semi-bold">Flexibility</p>
         <p class="">We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/vacation.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/vacation.svg" alt="Yearly adventures">
         <p class="semi-bold">Yearly Adventures</p>
         <p class="">Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/health.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/health.svg" alt="Health conscious">
         <p class="semi-bold">Health Conscious</p>
         <p class="">We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/activities.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/activities.svg" alt="Team activities">
         <p class="semi-bold">Team Activities</p>
         <p class="">From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
       </li>
@@ -153,38 +153,38 @@
 </section>
 <section id="careers-remote" class="double-padding">
   <div class="inner small-inner bottom-padding-small">
-    <h1 class="chunk regular">Be where you want to be</h1>
+    <h2 class="chunk regular">Be where you want to be</h2>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>
   <div class="inner full-width flush-top flush-bottom">
     <ul class="feature-list grid grid-sixths unstyled-list center-text">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x" alt="Sydney, Australia">
         <p class="semi-bold no-bottom-margin">Sydney</p>
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/florida.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/florida@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/florida.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/florida@2x.png 2x" alt="Florida, USA">
         <p class="semi-bold no-bottom-margin">Florida</p>
         <p class="no-margin small">USA</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/beijing@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/beijing@2x.png 2x" alt="Beijing, China">
         <p class="semi-bold no-bottom-margin">Beijing</p>
         <p class="no-margin small">China</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/brisbane@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/brisbane@2x.png 2x" alt="Brisbane, Australia">
         <p class="semi-bold no-bottom-margin">Brisbane</p>
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/edinburgh@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/edinburgh@2x.png 2x" alt="Edinburgh, United Kingdom">
         <p class="semi-bold no-bottom-margin">Edinburgh</p>
         <p class="no-margin small">United Kingdom</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/amsterdam@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/amsterdam@2x.png 2x" alt="Amsterdam, Netherlands">
         <p class="semi-bold no-bottom-margin">Amsterdam</p>
         <p class="no-margin small">Netherlands</p>
       </li>
@@ -193,24 +193,8 @@
 </section>
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
-    <h1 class="chunk regular">See where you fit in</h1>
+    <h2 class="chunk regular">See where you fit in</h2>
     <p class="medium">We’ll be adding new roles soon!</p>
-    <!-- <ul class="unstyled-list lined-list top-margin-medium">
-      <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold  d-block vertical-padding-small">
-          Content Manager (UK)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      </li>
-        <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold  d-block vertical-padding-small">
-          Customer Support Manager (Europe)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-    </ul>
-    <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p> -->
   </div>
 </section>
 <?php
