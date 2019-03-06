@@ -32,7 +32,7 @@
   <div class="inner large-inner flush-top flush-bottom">
     <ul class="feature-list unstyled-list thirds sm-left-align">
       <li>
-        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/rubix.svg" alt="Work on hard problems">
+        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/images/careers/rubix.svg" alt="work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>
         <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
@@ -121,30 +121,30 @@
 </section>
 <section id="careers-perks" class="double-padding floating-section light-box">
   <div class="inner blue-box">
-    <h1 class="chunk regular md-center">Not just work life, real life</h1>
+    <h2 class="chunk regular md-center">Not just work life, real life</h2>
     <ul class="feature-list unstyled-list thirds md-center sm-left-align">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/remote.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/remote.svg" alt="Remote-first">
         <p class="semi-bold">Remote-First</p>
         <p class="">Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/hours.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/hours.svg" alt="Flexible hours">
         <p class="semi-bold">Flexibility</p>
         <p class="">We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/vacation.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/vacation.svg" alt="Yearly adventures">
         <p class="semi-bold">Yearly Adventures</p>
         <p class="">Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/health.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/health.svg" alt="Health conscious">
         <p class="semi-bold">Health Conscious</p>
         <p class="">We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/activities.svg">
+        <img src="/wp-content/themes/vero/assets/images/careers/activities.svg" alt="Team activities">
         <p class="semi-bold">Team Activities</p>
         <p class="">From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
       </li>
@@ -159,32 +159,32 @@
   <div class="inner full-width flush-top flush-bottom">
     <ul class="feature-list grid grid-sixths unstyled-list center-text">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/sydney@2x.png 2x" alt="Sydney, Australia">
         <p class="semi-bold no-bottom-margin">Sydney</p>
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/florida.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/florida@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/florida.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/florida@2x.png 2x" alt="Florida, USA">
         <p class="semi-bold no-bottom-margin">Florida</p>
         <p class="no-margin small">USA</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/beijing@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/beijing@2x.png 2x" alt="Beijing, China">
         <p class="semi-bold no-bottom-margin">Beijing</p>
         <p class="no-margin small">China</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/brisbane@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/brisbane@2x.png 2x" alt="Brisbane, Australia">
         <p class="semi-bold no-bottom-margin">Brisbane</p>
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/edinburgh@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/edinburgh@2x.png 2x" alt="Edinburgh, United Kingdom">
         <p class="semi-bold no-bottom-margin">Edinburgh</p>
         <p class="no-margin small">United Kingdom</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/amsterdam@2x.png 2x">
+        <img src="/wp-content/themes/vero/assets/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/images/careers/locations/amsterdam@2x.png 2x" alt="Amsterdam, Netherlands">
         <p class="semi-bold no-bottom-margin">Amsterdam</p>
         <p class="no-margin small">Netherlands</p>
       </li>
@@ -193,24 +193,8 @@
 </section>
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
-    <h1 class="chunk regular">See where you fit in</h1>
+    <h2 class="chunk regular">See where you fit in</h2>
     <p class="medium">We’ll be adding new roles soon!</p>
-    <!-- <ul class="unstyled-list lined-list top-margin-medium">
-      <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/760959" target="_blank" class="semi-bold  d-block vertical-padding-small">
-          Content Manager (UK)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-      </li>
-        <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/775000" target="_blank" class="semi-bold  d-block vertical-padding-small">
-          Customer Support Manager (Europe)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
-        </a>
-      </li>
-    </ul>
-    <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p> -->
   </div>
 </section>
 <?php
