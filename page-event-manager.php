@@ -53,28 +53,28 @@
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-error.svg" alt="See when data stops flowing">
         <div class="right">
-          <p class="medium regular no-top-margin">See when data stops flowing</p>
+          <h3 class="medium regular">See when data stops flowing</h3>
           <p>See events that are no longer firing and the campaigns they're linked to. Debug and troubleshoot campaigns that are not working with greater clarity.</p>
         </div>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-detail.svg" alt="Troubleshoot every inch of data">
         <div class="right">
-          <p class="medium regular no-top-margin">Troubleshoot every inch of data</p>
+          <h3 class="medium regular">Troubleshoot every inch of data</h3>
           <p>View recently fired events and their attached properties to make sure your data reflects the personalization in your emails.</p>
         </div>
       </li>
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-tidy.svg" alt="Keep your account clean">
         <div class="right">
-          <p class="medium regular no-top-margin">Keep your account clean</p>
+          <h3 class="medium regular">Keep your account clean</h3>
           <p>Rename events in plain English, record event descriptions and know which events you can remove due to inactivity to keep your Vero account in order.</p>
         </div>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-speed.svg" alt="Move faster">
         <div class="right">
-          <p class="medium regular no-top-margin">Move faster</p>
+          <h3 class="medium regular">Move faster</h3>
           <p>Set up your entire Vero account or any new email campaign, and design your ideal workflow before integrating code.</p>
         </div>
       </li>
