@@ -85,24 +85,23 @@
   </div>
 </section>
 <section id="vero-segment-test-event" class="feature-section border-bottom-light">
-  <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large">
+  <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular bottom-margin-medium">Meaningful and actionable insights</h2>
       <p class="medium">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.</p>
       <p class="medium">Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
       </p>
     </div>
-    <div class="right">
+    <div class="right flex md-justify-end">
       <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
     </div>
   </div>
 </section>
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
-    <div><img src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg" class="quote-image">
-      <p class="larger quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</h2>
-      <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
-    </div>
+    <img class="quote-image" src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg"  alt="Michael Heerkens, CTO Helloprint">
+    <p class="larger quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</p>
+    <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
   </div>
 </section>
 <section id="call-to-action" class="center-text">
