@@ -97,17 +97,18 @@
       <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
     </div>
     <div class="right secondary">
-      <h2 class="tubs regular regular no-bottom-margin">Get your data into Vero</h2>
-      <p class="smallish top-margin-medium bottom-margin-medium">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
+      <h2 class="tubs regular regular bottom-margin-medium">Get your data into Vero</h2>
+      <p class="medium bottom-margin-medium">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
-        <li class="no-bottom-margin">
+        <li class="bottom-margin-medium">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png" alt="Segment logo">
-          <h3 class="semi-bold smallish bottom-margin-micro">Works with Segment</h3>
+          <h3 class="semi-bold atomic bottom-margin-micro">Works with Segment</h3>
           <p>If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
         </li>
-        <li>
+        <li class="no-bottom-margin">
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/logs.svg">
-          <p class="semi-bold smallish top-margin-medium no-bottom-margin">Understand users and events</p><p class="light">Vero understands data about users and their actions ("events"). We cache this data to enable powerful segmentation and automation.</p>
+          <h3 class="semi-bold atomic bottom-margin-micro">Understand users and events</h3>
+          <p>Vero understands data about users and their actions ("events"). We cache this data to enable powerful segmentation and automation.</p>
         </li>
       </ul>
     </div>
