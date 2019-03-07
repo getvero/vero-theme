@@ -12,29 +12,29 @@
 <section id="features-menu" class="border-bottom-light">
   <div class="inner large-inner center-text">
     <h1 class="chunk regular bottom-margin-small">The definitive workflow for creating best-in-class email experiences</h1>
-    <p class="no-top-margin">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences.</p>
+    <p class="medium">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences</p>
     <ul class="no-bottom-margin feature-list feature-menu-list unstyled-list flex flex-wrap md-flex-nowrap justify-center">
       <li class="no-top-margin">
         <a href="#features-collection" data-scroll>
-          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-capture.svg" alt="Get your data into Vero">
           <p class="semi-bold annotation uppercase font-brand-warning center-text">Collection</p>
         </a>
       </li>
       <li class="no-top-margin">
         <a href="#features-modelling" data-scroll>
-          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-model.svg" alt="View and model your customer data in one place">
           <p class="semi-bold annotation uppercase font-brand-success center-text">Modelling</p>
         </a>
       </li>
       <li class="no-top-margin">
         <a href="#features-automation" data-scroll>
-          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-manage.svg" alt="Complete template management. Advanced scheduling design">
           <p class="semi-bold annotation uppercase font-brand-primary center-text">Automation</p>
         </a>
       </li>
       <li class="no-top-margin">
         <a href="#features-deployment" data-scroll>
-          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/feature-menu/home-deploy.svg" alt="Scalability and centralised reporting">
           <p class="semi-bold annotation uppercase font-brand-error center-text">Deployment</p>
         </a>
       </li>
@@ -43,11 +43,11 @@
 </section>
 <section id="features-collection" class="feature-section double-padding border-bottom-light">
   <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-large right-padding-large">
-    <h2 class="semi-bold center-text annotation uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
+    <h2 class="semi-bold annotation uppercase font-brand-warning center-text bottom-margin-medium">Collection</h2>
     <div class="left primary">
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small disabled-button">
-          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png" alt="Segment logo">
           <p class="no-margin top-margin-tiny">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
@@ -62,23 +62,48 @@
       <pre class="vero-code okaidia inactive-feature" id="feature-collection-apple" data-src="/wp-content/themes/vero/snippets/features-collection-apple.m"></pre>
 
       <ul class="collection-code button-list unstyled-list center-text">
-        <li class="active"><a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-js@2x.png 2x"></a></li>
-        <li><a href="#js" title="PHP" class="feature-swapper-option" data-swap-to="feature-collection-php"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-php.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-php@2x.png 2x"></a></li>
-        <li><a href="#js" title="Ruby" class="feature-swapper-option" data-swap-to="feature-collection-ruby"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby@2x.png 2x"></a></li>
-        <li><a href="#js" title="Node.js" class="feature-swapper-option" data-swap-to="feature-collection-node"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs@2x.png 2x"></a></li>
-        <li><a href="#js" title="Python" class="feature-swapper-option" data-swap-to="feature-collection-python"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-python.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-python@2x.png 2x"></a></li>
-        <li><a href="#js" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple"><img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-apple@2x.png 2x"></a></li>
+        <li class="active">
+          <a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-js@2x.png 2x" alt="Javascript">
+          </a>
+        </li>
+        <li>
+          <a href="#php" title="PHP" class="feature-swapper-option" data-swap-to="feature-collection-php">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-php.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-php@2x.png 2x" alt="PHP">
+          </a>
+        </li>
+        <li>
+          <a href="#ruby" title="Ruby" class="feature-swapper-option" data-swap-to="feature-collection-ruby">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-ruby@2x.png 2x" alt="Ruby">
+          </a>
+        </li>
+        <li>
+          <a href="#node" title="Node.js" class="feature-swapper-option" data-swap-to="feature-collection-node">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-nodejs@2x.png 2x" alt="Node.hs">
+          </a>
+        </li>
+        <li>
+          <a href="#python" title="Python" class="feature-swapper-option" data-swap-to="feature-collection-python">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-python.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-python@2x.png 2x" alt="Python">
+          </a>
+        </li>
+        <li>
+          <a href="#apple" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/images/home/features/collection/data-apple@2x.png 2x" alt="Objective C">
+          </a>
+        </li>
       </ul>
 
       <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
     </div>
     <div class="right secondary">
-      <h1 class="tubs regular regular no-bottom-margin">Get your data into Vero</h1>
+      <h2 class="tubs regular regular no-bottom-margin">Get your data into Vero</h2>
       <p class="smallish top-margin-medium bottom-margin-medium">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
       <ul class="feature-list left-image unstyled-list">
         <li class="no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png">
-          <p class="semi-bold smallish no-margin">Works with Segment</p><p class="light">If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/segment-logo.png" alt="Segment logo">
+          <h3 class="semi-bold smallish bottom-margin-micro">Works with Segment</h3>
+          <p>If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
         </li>
         <li>
           <img src="/wp-content/themes/vero/assets/images/home/features/collection/logs.svg">
