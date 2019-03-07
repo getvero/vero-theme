@@ -100,7 +100,7 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <img class="quote-image" src="/wp-content/themes/vero/assets/images/integrations/segment/quote-helloprint.jpg"  alt="Michael Heerkens, CTO Helloprint">
-    <p class="larger quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours”.</p>
+    <p class="larger quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours.”</p>
     <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
   </div>
 </section>
