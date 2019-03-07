@@ -85,31 +85,39 @@
     <ul class="feature-list left-align unstyled-list flex flex-wrap halfs">
       <li class="bottom-margin-medium">
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
-        <div class="right"><p class="medium semi-bold no-top-margin">Access live data</p>
-        <p class="smallish">Spend less time normalizing your data and building push-based data pipelines. With Fusion, you can access the most accurate data, when you need it.</p></div>
+        <div class="right">
+          <h3 class="atomic semi-bold">Access live data</h3>
+          <p class="smallish">Spend less time normalizing your data and building push-based data pipelines. With Fusion, you can access the most accurate data, when you need it.</p>
+        </div>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-manage-endpoints.svg" alt="Smart caching">
-        <div class="right"><p class="medium semi-bold no-top-margin">Smart caching</p>
-        <p class="smallish">Fusion caches content as efficiently as possible. It loads all the permutations and keeps them on hand for the duration of your send.</p></div>
+        <div class="right">
+          <h3 class="atomic semi-bold">Smart caching</h3>
+          <p class="smallish">Fusion caches content as efficiently as possible. It loads all the permutations and keeps them on hand for the duration of your send.</p>
+        </div>
       </li>
       <li class="bottom-margin-medium">
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-3rd-party.svg" alt="Works with third party APIs too">
-        <div class="right"><p class="medium semi-bold no-top-margin">Works with third party APIs too…</p>
-        <p class="smallish">Delight your customers by enriching your emails with data pulled from any number APIs.</p></div>
+        <div class="right">
+          <h3 class="atomic semi-bold">Works with third party APIs too…</h3>
+          <p class="smallish">Delight your customers by enriching your emails with data pulled from any number APIs.</p>
+        </div>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-secure.svg" alt="Multiple Authentication Methods">
-        <div class="right"><p class="medium semi-bold no-top-margin">Multiple Authentication Methods</p>
-        <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny  d-inline-block">Coming Soon</span></p></div>
+        <div class="right">
+          <h3 class="atomic semi-bold">Multiple Authentication Methods</h3>
+          <p class="smallish">Fusion supports several common authentication methods to give you fast and easy access to your APIs.<br/><span class="semi-bold font-brand-success top-padding-tiny  d-inline-block">Coming Soon</span></p>
+        </div>
       </li>
     </ul>
   </div>
 </section>
 <section id="external-attributes-scale" class="double-padding border-bottom-light">
   <div class="inner center-text flush-bottom">
-    <h1 class="chunk semi-bold bottom-margin-tiny">Built to Scale</h1>
-    <p class="medium bottom-padding-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
+    <h2 class="chunk semi-bold bottom-margin-tiny">Built to Scale</h2>
+    <p class="medium bottom-margin-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
     <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" class="center-text responsive-image" alt="Built to scale">
   </div>
 </section>
