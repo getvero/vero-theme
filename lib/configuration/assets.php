@@ -10,7 +10,6 @@ function remove_cssjs_ver( $src ) {
 function custom_load_custom_style_sheet() {
   //register styles
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700');
-  wp_register_style('bxslider-style', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css');
   wp_register_style('featherlight-style', '/wp-content/themes/vero/assets/stylesheets/featherlight.min.css');
   wp_enqueue_style( 'highlight-css', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css', NULL, PARENT_THEME_VERSION );
   wp_enqueue_style( 'prism', '/wp-content/themes/vero/assets/stylesheets/prism.css', NULL, PARENT_THEME_VERSION );
@@ -28,7 +27,6 @@ function custom_load_custom_style_sheet() {
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
   wp_enqueue_style( 'googlefont_merriweather');
-  wp_enqueue_style( 'bxslider-style');
   wp_enqueue_style( 'featherlight-style');
 }
 
