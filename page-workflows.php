@@ -140,7 +140,7 @@
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-large">We've got the details covered</h2>
   </div>
-  <div class="inner large-inner halfs flush-top">
+  <div class="inner large-inner flush-top">
     <ul class="unstyled-list feature-list grid grid-thirds-small">
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Conversion Goals">
@@ -154,22 +154,22 @@
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Drag and drop">
-        <h2 class="micro regular bottom-margin-tiny">Drag and Drop</h2>
+        <h3 class="micro regular bottom-margin-tiny">Drag and Drop</h3>
         <p class="desc top-margin-tiny bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Send at a preferred time">
-        <h2 class="micro regular bottom-margin-tiny">Send at a preferred time</h2>
+        <h3 class="micro regular bottom-margin-tiny">Send at a preferred time</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Transactional emails">
-        <h2 class="micro regular bottom-margin-tiny">Transactional Emails</h2>
+        <h3 class="micro regular bottom-margin-tiny">Transactional Emails</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="A/B teesting">
-        <h2 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h2>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="A/B testing">
+        <h3 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.</p>
       </li>
     </ul>
