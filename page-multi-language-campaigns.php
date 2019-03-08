@@ -42,19 +42,19 @@
 <section id="multi-languages-code">
   <div class="inner center-text">
     <h2 class="tubs regular regular center-text">Track your customers language in Vero like this:</h2>
-    <div class="center-block">
-      <div id="data-code-block">
-          <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
+
+    <div class="bottom-margin-tiny" id="data-code-block">
+        <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
 vero.users.track!({
-    id:    '123',
-    email: 'damienb@getvero.com',
-    data:  {
-      locale: 'fr-FR'
-    }
-  })</code></pre>
-      </div>
-      <div class="clearfix"></div>
+  id:    '123',
+  email: 'damienb@getvero.com',
+  data:  {
+    locale: 'fr-FR'
+  }
+})</code></pre>
     </div>
+    <div class="clearfix"></div>
+
     <p>Learn more about tracking events and adding new customers at <a href="https://developers.getvero.com/?javascript" target="_blank">developers.getvero.com</a>.</p>
 
   </div>
