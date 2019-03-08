@@ -80,9 +80,9 @@
     </div>
   </div>
 </section> -->
-<section id="external-attributes-extras" class="">
+<section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
-    <ul class="feature-list left-align unstyled-list flex flex-wrap halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li class="bottom-margin-medium">
         <img src="/wp-content/themes/vero/assets/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
         <div class="right">
