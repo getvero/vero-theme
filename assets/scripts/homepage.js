@@ -184,4 +184,4 @@ if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-
 
 // Smooth scroll
 
-smoothScroll.init();
+var scroll = new SmoothScroll('[data-scroll]');
