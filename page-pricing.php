@@ -83,17 +83,17 @@ include 'pages-shared/static-header.php';
   <div class="inner medium-inner top-padding-large bottom-padding-large">
     <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46" alt="24-hour support">
         <h3 class="regular bottom-margin-tiny">24-hour support</h3>
         <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help you</p>
       </li>
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46" alt="Data security">
         <h3 class="regular bottom-margin-tiny">Data security</h3>
         <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46" alt="Unlimited everything">
         <h3 class="regular bottom-margin-tiny">Unlimited everything</h3>
         <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
       </li>
@@ -107,27 +107,27 @@ include 'pages-shared/static-header.php';
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://unsplash.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://monzo.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://helloprint.co.uk">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://tidal.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://pipedrive.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
+          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" alt="Pipedrive logo" height="76">
         </a>
       </li>
     </ul>
