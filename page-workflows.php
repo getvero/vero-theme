@@ -34,7 +34,7 @@
 </section>
 <section id="workflows-hero-features" class="double-padding">
   <div class="inner medium-inner">
-    <ul class="feature-list unstyled-list halfs">
+    <ul class="feature-list unstyled-list grid grid-halfs">
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-waves.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-waves@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Flexibility</h2><p class="medium light no-top-margin">Steps can be moved around, so you can easily design and update the order of logic, delays, and emails in your customer journey.</p></div></li>
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-circles.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-circles@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Clarity</h2><p class="medium light no-top-margin">Configuration of each step in the workflow is immediately visible, giving you and your team confidence to quickly create and update journeys.</p></div></li>
       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-dots.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/small-dots@2x.png 2x"></div><div><h2 class="chunk semi-bold bottom-margin-small">Visibility</h2><p class="medium light no-top-margin">Track customers who enter and exit your workflow, monitor email performance and view conversion goals - all in one place. </p></div></li>
@@ -95,16 +95,37 @@
     <h2 class="biggie semi-bold bottom-margin-large">We've got the details covered</h2>
   </div>
   <div class="inner large-inner halfs flush-top">
-    <ul class="unstyled-list feature-list thirds">
-      <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Conversion Goals</h2><p class="desc top-margin-tiny bottom-margin-small">Set a goal and easily track the success of your workflow.
-</p></div></li>
-      <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Insights</h2><p class="desc top-margin-tiny bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.
-</p></div></li>
-      <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Drag and Drop</h2><p class="desc top-margin-tiny bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p></div></li>
-      <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Send at a preferred time</h2><p class="desc top-margin-tiny bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p></div></li>
-      <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">Transactional Emails</h2><p class="desc top-margin-tiny bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p></div></li>
-       <li><div><img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting@2x.png 2x" class=" d-block responsive-image bottom-margin-small"><h2 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h2><p class="desc top-margin-tiny bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.
-</p></div></li>
+    <ul class="unstyled-list feature-list grid grid-thirds-small">
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/conversion@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h3 class="micro regular bottom-margin-tiny">Conversion Goals</h3>
+        <p class="desc top-margin-tiny bottom-margin-small">Set a goal and easily track the success of your workflow.</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/insights@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h3 class="micro regular bottom-margin-tiny">Insights</h3>
+        <p class="desc top-margin-tiny bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/dragdrop@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h2 class="micro regular bottom-margin-tiny">Drag and Drop</h2>
+        <p class="desc top-margin-tiny bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/preferredtime@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h2 class="micro regular bottom-margin-tiny">Send at a preferred time</h2>
+        <p class="desc top-margin-tiny bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/transactionals@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h2 class="micro regular bottom-margin-tiny">Transactional Emails</h2>
+        <p class="desc top-margin-tiny bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p>
+      </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/workflows/abtesting@2x.png 2x" class=" d-block responsive-image bottom-margin-small">
+        <h2 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h2>
+        <p class="desc top-margin-tiny bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.</p>
+      </li>
     </ul>
   </div>
 </section>

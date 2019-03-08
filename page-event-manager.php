@@ -49,7 +49,7 @@
 <section id="features-more" class="double-padding">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
     <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-medium">AND MORE</p>
-    <ul class="feature-list left-align unstyled-list halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/landing-pages/event-manager/event-error.svg" alt="See when data stops flowing">
         <div class="right">
