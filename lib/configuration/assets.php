@@ -71,10 +71,6 @@ function add_js() {
 
   wp_enqueue_script('homepage');
   wp_enqueue_script('landing-pages');
-
-  if(is_blog() || is_page('features-data') ){
-    wp_enqueue_script('highlight-js');
-  }
 }
 
 ?>
