@@ -13,8 +13,7 @@ function custom_load_custom_style_sheet() {
   wp_register_style('featherlight-style', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css');
 
   wp_enqueue_style( 'highlight-css', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css', NULL, PARENT_THEME_VERSION );
-  wp_enqueue_style( 'prism', '/wp-content/themes/vero/assets/stylesheets/prism.css', NULL, PARENT_THEME_VERSION );
-  wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/stylesheets/prism-okaidia.css', NULL, PARENT_THEME_VERSION );
+  wp_enqueue_style( 'prism', '//cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css' );
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
