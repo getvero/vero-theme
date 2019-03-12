@@ -32,9 +32,9 @@ function custom_load_custom_style_sheet() {
 function add_js() {
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
-  wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.js', array('jquery'), NULL, true);
-  wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.js', array('jquery'), NULL, true);
-  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.js', array('jquery'), NULL, false);
+  wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.min.js', array('jquery'), NULL, true);
+  wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.min.js', array('jquery'), NULL, true);
+  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.min.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/dist/scripts/dev_message.js', NULL, NULL, true);
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
@@ -55,6 +55,7 @@ function add_js() {
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
+  wp_enqueue_script('bxslider');
 
   if (is_page('careers')) {
     wp_enqueue_script('bxslider');
