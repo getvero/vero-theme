@@ -1,18 +1,20 @@
 jQuery(document).ready(function() {
   // Slider for careers page
-  var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
-    mode            : 'fade',
-    adaptiveHeight  : true,
-    responsive      : true,
-    controls        : false,
-    infiniteLoop    : true,
-    hideControlOnEnd: false,
-    pager           : false
-  });
-  jQuery('#careers-profiles-slider .bx-control').click(function(){
-    var slideNum = jQuery(this).data('bx');
-    careersSlider.goToSlide(slideNum);
-  });
+  if (jQuery('body').hasClass('careers')) {
+    var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
+      mode            : 'fade',
+      adaptiveHeight  : true,
+      responsive      : true,
+      controls        : false,
+      infiniteLoop    : true,
+      hideControlOnEnd: false,
+      pager           : false
+    });
+    jQuery('#careers-profiles-slider .bx-control').click(function(){
+      var slideNum = jQuery(this).data('bx');
+      careersSlider.goToSlide(slideNum);
+    });
+  }
 
   jQuery('.menu-item-has-children > a').click(function(e){
     e.preventDefault();
