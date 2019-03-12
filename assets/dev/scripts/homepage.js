@@ -9,6 +9,7 @@ jQuery(document).ready(function(){
     hideControlOnEnd: true,
     pager           : false
   });
+
   var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
     mode            : 'fade',
     adaptiveHeight  : true,
