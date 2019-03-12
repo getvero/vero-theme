@@ -1,6 +1,7 @@
-var gulp     = require('gulp'),
-    del      = require('del'),
-    uglify   = require('gulp-uglify');
+var gulp   = require('gulp'),
+    del    = require('del'),
+    rename = require('gulp-rename'),
+    uglify = require('gulp-uglify');
 
 var paths = {
   scripts: {
@@ -25,8 +26,11 @@ gulp.task('scripts', function(done) {
 // Uglify scripts
 gulp.task('compress', function(done) {
   return gulp
-  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/dev_message.js', '!assets/dev/source'])
+  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/dev_message.js', '!assets/dev/scripts/source/'])
   .pipe(uglify())
+  .pipe(rename({
+    suffix: '.min'
+  }))
   .pipe(gulp.dest(paths.scripts.dest));
   done();
 });
