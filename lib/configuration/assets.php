@@ -32,26 +32,27 @@ function custom_load_custom_style_sheet() {
 function add_js() {
   # Below this line is stuff that is new and clean
   wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
-  wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/scripts/homepage.js', array('jquery'), NULL, true);
-  wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/scripts/landing-pages.js', array('jquery'), NULL, true);
-  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/scripts/fout.js', array('jquery'), NULL, false);
+  wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.js', array('jquery'), NULL, true);
+  wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.js', array('jquery'), NULL, true);
+  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
-  wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/scripts/dev_message.js', NULL, NULL, true);
+  wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/dist/scripts/dev_message.js', NULL, NULL, true);
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
   wp_register_script('prism', '//cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js', NULL, NULL, true);
-  wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
-  wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
+  wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
+  wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
-  wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/scripts/vendor/imgslider.min.js', NULL, NULL, true);
+  wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/imgslider.min.js', NULL, NULL, true);
   wp_register_script('smooth-scroll', '//cdnjs.cloudflare.com/ajax/libs/smooth-scroll/15.2.1/smooth-scroll.min.js', NULL, NULL, true);
   wp_register_script('featherlight', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js', NULL, NULL, true);
-  wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
-  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
+  wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
+  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
   wp_register_script('nouislider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.1/nouislider.min.js', NULL, NULL, true);
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
-  wp_enqueue_script('vero-js');
+  // wp_enqueue_script('vero-js');
+
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
@@ -62,7 +63,6 @@ function add_js() {
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('smooth-scroll');
-  // wp_enqueue_script('slick-carousel');
 
   if (is_page('pricing')) {
     wp_enqueue_script('wNumb');
