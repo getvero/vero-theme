@@ -1,14 +1,5 @@
-// Sliders for the email/data pages
-jQuery(document).ready(function(){
-  jQuery('.bxslider').bxSlider({
-    mode            : 'fade',
-    adaptiveHeight  : true,
-    responsive      : true,
-    infiniteLoop    : false,
-    hideControlOnEnd: true,
-    pager           : false
-  });
-
+jQuery(document).ready(function() {
+  // Slider for careers page
   var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
     mode            : 'fade',
     adaptiveHeight  : true,
