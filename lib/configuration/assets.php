@@ -39,14 +39,13 @@ function add_js() {
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/dist/scripts/dev_message.js', NULL, NULL, true);
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
   wp_register_script('prism', '//cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js', NULL, NULL, true);
-  wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.cookie.js', array('jquery'), NULL, true);
+  wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.cookie.min.js', array('jquery'), NULL, true);
   wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
-  wp_register_script('imgslider', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/imgslider.min.js', NULL, NULL, true);
   wp_register_script('smooth-scroll', '//cdnjs.cloudflare.com/ajax/libs/smooth-scroll/15.2.1/smooth-scroll.min.js', NULL, NULL, true);
   wp_register_script('featherlight', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js', NULL, NULL, true);
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
-  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.js', NULL, NULL, true);
+  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.min.js', NULL, NULL, true);
   wp_register_script('nouislider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.1/nouislider.min.js', NULL, NULL, true);
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
