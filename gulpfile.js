@@ -11,28 +11,25 @@ var paths = {
 };
 
 gulp.task('clean', function(done) {
-  del(paths.scripts.dest);
-  done();
+  return del(paths.scripts.dest);
 });
 
 // Move dev message JS to dist folder
-gulp.task('scripts', function(done) {
+gulp.task('scripts', function() {
   return gulp
   .src('assets/dev/scripts/dev_message.js')
   .pipe(gulp.dest(paths.scripts.dest));
-  done();
 });
 
 // Uglify scripts
-gulp.task('compress', function(done) {
+gulp.task('compress', function() {
   return gulp
-  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/dev_message.js', '!assets/dev/scripts/source/'])
+  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/source/', '!assets/dev/scripts/dev_message.js'])
   .pipe(uglify())
   .pipe(rename({
     suffix: '.min'
   }))
   .pipe(gulp.dest(paths.scripts.dest));
-  done();
 });
 
 gulp.task('watch', function() {
