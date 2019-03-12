@@ -51,8 +51,7 @@ function add_js() {
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
-  // wp_enqueue_script('vero-js');
-
+  wp_enqueue_script('vero-js');
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
@@ -61,9 +60,15 @@ function add_js() {
     wp_enqueue_script('bxslider');
   }
 
-  wp_enqueue_script('featherlight');
-  wp_enqueue_script('jquery-parallax');
-  wp_enqueue_script('prism');
+  if (is_page('features')) {
+    wp_enqueue_script('featherlight');
+    wp_enqueue_script('prism');
+  }
+
+  if (is_page('workflows')) {
+    wp_enqueue_script('jquery-parallax');
+  }
+
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
   wp_enqueue_script('smooth-scroll');
