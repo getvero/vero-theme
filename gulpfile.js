@@ -14,7 +14,7 @@ gulp.task('clean', function(done) {
   done();
 });
 
-// Move scripts to dist fodler
+// Move dev message JS to dist folder
 gulp.task('scripts', function(done) {
   return gulp
   .src('assets/dev/scripts/dev_message.js')
@@ -25,7 +25,7 @@ gulp.task('scripts', function(done) {
 // Uglify scripts
 gulp.task('compress', function(done) {
   return gulp
-  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/dev_message.js'])
+  .src(['assets/dev/scripts/**/*.js', '!assets/dev/scripts/dev_message.js', '!assets/dev/source'])
   .pipe(uglify())
   .pipe(gulp.dest(paths.scripts.dest));
   done();
