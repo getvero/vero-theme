@@ -1,9 +1,9 @@
-var gulp   = require('gulp'),
+const gulp   = require('gulp'),
     del    = require('del'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify');
 
-var paths = {
+const paths = {
   scripts: {
     src : 'assets/dev/scripts/**/*.js',
     dest: 'assets/dist/scripts/'
@@ -15,16 +15,12 @@ function clean() {
   return del(paths.scripts.dest);
 }
 
-exports.clean = clean;
-
 // Move dev message JS to dist folder
-function scripts() {
+function devMessage() {
   return gulp
   .src('assets/dev/scripts/dev_message.js')
   .pipe(gulp.dest(paths.scripts.dest));
 }
-
-exports.scripts = scripts;
 
 // Uglify scripts
 function compress() {
@@ -43,16 +39,12 @@ function compress() {
 
 function watch() {
   return gulp
-  .watch(paths.scripts.src, gulp.series('scripts'));
+  .watch(paths.scripts.src, gulp.series(compress));
 }
 
+const js    = gulp.series(devMessage, compress);
+const build = gulp.series(clean, gulp.parallel(js, watch));
+
+exports.compress = compress;
 exports.watch = watch
-
-gulp.task('build', gulp.series(clean,
-  gulp.parallel(
-    scripts,
-    compress,
-    watch)
-  ));
-
-gulp.task('default', gulp.series('build'));
+exports.default = build;
