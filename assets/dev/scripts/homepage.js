@@ -1,5 +1,4 @@
 // Sliders for the email/data pages
-
 jQuery(document).ready(function(){
   jQuery('.bxslider').bxSlider({
     mode            : 'fade',
@@ -47,7 +46,6 @@ jQuery(document).ready(function(){
   });
 
   // Pricing Slider
-
   if (jQuery('body').hasClass('pricing')) {
     var slider = document.getElementById('js-price-slider');
 
@@ -163,7 +161,6 @@ jQuery(window).scroll(function(){
 });
 
 // Liquid guide sticky sidebar
-
 if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {
   var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
 
@@ -184,5 +181,4 @@ if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-
 }
 
 // Smooth scroll
-
 var scroll = new SmoothScroll('[data-scroll]');
