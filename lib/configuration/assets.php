@@ -55,7 +55,6 @@ function add_js() {
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
-  wp_enqueue_script('bxslider');
 
   if (is_page('careers')) {
     wp_enqueue_script('bxslider');
