@@ -14,7 +14,7 @@ gulp.task('clean', function(done) {
   done();
 });
 
-gulp.task('scripts', function(done){
+gulp.task('scripts', function(){
   gulp
   .src(paths.scripts.src)
 	.pipe(uglify())
