@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="27px" viewBox="0 0 34 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>customers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="31" height="24" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31" height="24" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="3" y="3" width="31" height="24" rx="4"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31" height="24" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-213.000000, -2242.000000)">
+            <g id="customers" transform="translate(213.000000, 2242.000000)">
+                <use id="Rectangle-33" stroke="#6FD350" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <use id="Rectangle-33" stroke="#6FD350" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <rect id="Rectangle-18" fill="#6FD350" x="20" y="9" width="9" height="5" rx="1"></rect>
+                <rect id="Rectangle-18" fill="#6FD350" x="23" y="16" width="6" height="5" rx="1"></rect>
+                <path d="M18.4129576,18.0481506 C16.6928961,17.6507678 15.091559,17.3027373 15.8672667,15.83867 C18.2273509,11.3828549 16.492889,9 14.00032,9 C11.4583093,9 9.76704888,11.4748298 12.1333734,15.839311 C12.9321219,17.3115503 11.2707826,17.6595807 9.58768247,18.0487916 C8.19691282,18.3699025 8.01754642,19.0259047 8.00010579,20.1363333 C7.99258552,20.6131927 8.38699961,21 8.86333661,21 L19.1361834,21 C19.6130004,21 20.0074145,20.6125517 19.9998942,20.1363333 C19.9830936,19.0252637 19.8037272,18.3692616 18.4129576,18.0481506 L18.4129576,18.0481506 Z" id="Page-1" fill="#6FD350"></path>
+            </g>
+        </g>
+    </g>
+</svg>

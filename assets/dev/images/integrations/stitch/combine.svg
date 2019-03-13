@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>combine</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="combine" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(11.000000, 11.000000)" fill="#FFC111">
+            <path d="M9,11 L9,13 L5,13 C3.34314575,13 2,14.3431458 2,16 L2,31 C2,32.6568542 3.34314575,34 5,34 L20,34 C21.6568542,34 23,32.6568542 23,31 L23,27 L25,27 L25,31 C25,33.7614237 22.7614237,36 20,36 L5,36 C2.23857625,36 0,33.7614237 0,31 L0,16 C0,13.2385763 2.23857625,11 5,11 L9,11 Z" id="Rectangle-13" fill-rule="nonzero"></path>
+            <path d="M11,11 L20,11 C22.7614237,11 25,13.2385763 25,16 L25,25 L16,25 C13.2385763,25 11,22.7614237 11,20 L11,11 Z" id="Combined-Shape" opacity="0.398995536"></path>
+            <path d="M27,25 L27,16 C27,12.1340068 23.8659932,9 20,9 L11,9 L11,5 C11,2.23857625 13.2385763,5.07265313e-16 16,0 L31,0 C33.7614237,-5.07265313e-16 36,2.23857625 36,5 L36,20 C36,22.7614237 33.7614237,25 31,25 L27,25 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

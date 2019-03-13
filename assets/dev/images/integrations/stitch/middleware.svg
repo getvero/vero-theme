@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>middleware</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="middleware" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(11.000000, 11.000000)" fill="#F15242" fill-rule="nonzero" id="Combined-Shape">
+            <path d="M28.2501194,22 L32,22 C34.209139,22 36,23.790861 36,26 L36,32 C36,34.209139 34.209139,36 32,36 L26,36 C23.790861,36 22,34.209139 22,32 L22,28.2501194 C24.8576271,27.1341321 27.1341321,24.8576271 28.2501194,22 Z M14,7.74988063 C11.1423729,8.86586794 8.86586794,11.1423729 7.74988063,14 L4,14 C1.790861,14 0,12.209139 0,10 L0,4 C0,1.790861 1.790861,0 4,0 L10,0 C12.209139,0 14,1.790861 14,4 L14,7.74988063 Z M12,4 C12,2.8954305 11.1045695,2 10,2 L4,2 C2.8954305,2 2,2.8954305 2,4 L2,10 C2,11.1045695 2.8954305,12 4,12 L6.46487523,12 C7.6972858,9.63472071 9.63472071,7.6972858 12,6.46487523 L12,4 Z"></path>
+        </g>
+        <rect id="Rectangle-Copy" fill-opacity="0.402513587" fill="#F15242" x="24" y="24" width="10" height="10" rx="5"></rect>
+    </g>
+</svg>

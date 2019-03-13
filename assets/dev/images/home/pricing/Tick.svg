@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pricing-Copy-2" transform="translate(-748.000000, -1132.000000)" fill="#6FD350">
+            <g id="Tick" transform="translate(747.000000, 1127.000000)">
+                <path d="M14.062975,17.5757727 C14.0630298,17.5710424 14.0630573,17.5663054 14.0630573,17.561562 L14.0630573,1.98443175 C14.0630573,1.32955017 13.5288748,0.791982314 12.8699273,0.791982314 C12.2063858,0.791982314 11.6767974,1.32586011 11.6767974,1.98443175 L11.6767974,16.4256003 L7.05379884,16.4256003 C6.39338185,16.4256003 5.88159473,16.9468329 5.88159473,17.5898059 C5.88159473,18.2372616 6.40640838,18.7540115 7.05379884,18.7540115 L12.8908532,18.7540115 C13.5512702,18.7540115 14.0630573,18.2327789 14.0630573,17.5898059 C14.0630573,17.5851212 14.0630298,17.5804435 14.062975,17.5757727 Z" id="Rectangle" transform="translate(9.972326, 9.772997) rotate(-315.000000) translate(-9.972326, -9.772997) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="30px" viewBox="0 0 38 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>conversions</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="10" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="15" cy="15" r="10"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="15" cy="15" r="15"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M24.4226497,14 L15.0065578,14 C14.4496143,14 14,14.4477153 14,15 C14,15.5561352 14.4506513,16 15.0065578,16 L24.4226497,16 L25.283209,17.4905324 C25.564341,17.9774673 26.1731406,18.1365087 26.6514332,17.8603663 C27.1330604,17.5822987 27.2926166,16.9709284 27.0152598,16.4905324 L26.7320508,16 L28.4226497,16 L29.283209,17.4905324 C29.564341,17.9774673 30.1731406,18.1365087 30.6514332,17.8603663 C31.1330604,17.5822987 31.2926166,16.9709284 31.0152598,16.4905324 L30.7320508,16 L32.5080205,16 L33.3663533,17.486676 C33.6397072,17.9601388 34.2506406,18.1228761 34.7289332,17.8467337 C35.2105604,17.5686661 35.3726436,16.9616727 35.0984041,16.486676 L34.1973859,14.9260667 L35.0116714,13.5156829 C35.293083,13.0282638 35.1278117,12.4190916 34.6495191,12.1429492 C34.1678919,11.8648816 33.557902,12.0336854 33.2796206,12.5156829 L32.4226497,14 L30.7320508,14 L31.0135643,13.5124044 C31.2935023,13.0275375 31.1258975,12.422407 30.6476049,12.1462647 C30.1659777,11.8681971 29.5576923,12.0340486 29.2815135,12.5124044 L28.4226497,14 L26.7320508,14 L27.0135643,13.5124044 C27.2935023,13.0275375 27.1258975,12.422407 26.6476049,12.1462647 C26.1659777,11.8681971 25.5576923,12.0340486 25.2815135,12.5124044 L24.4226497,14 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="25.2315532" height="9.98658783">
+            <rect x="12" y="10.0088413" width="25.2315532" height="9.98658783" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-705.000000, -5138.000000)">
+            <g id="conversions" transform="translate(705.000000, 5138.000000)">
+                <use id="Path" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <use id="Path" stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                <use id="Path" stroke="#0AA6D2" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                <g id="Combined-Shape">
+                    <use fill="#6FD350" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>hours</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="32"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64" height="64" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="32" cy="32" r="28"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="56" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hours">
+            <rect id="Rectangle-4" fill-opacity="0.150079257" fill="#84D2E8" x="15" y="15" width="80" height="80" rx="40"></rect>
+            <g id="Group-17" transform="translate(23.000000, 23.000000)">
+                <use id="Oval-5" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" fill="#E0F4F9" xlink:href="#path-1"></use>
+                <use id="Oval-5" stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <rect id="Rectangle-16" fill="#0AA6D2" x="50.6666667" y="30.8333333" width="4.66666667" height="2.33333333" rx="1.16666667"></rect>
+                <rect id="Rectangle-16" fill="#0AA6D2" x="8.66666667" y="30.8333333" width="4.66666667" height="2.33333333" rx="1.16666667"></rect>
+                <rect id="Rectangle-16" fill="#0AA6D2" transform="translate(32.000000, 53.000000) rotate(-270.000000) translate(-32.000000, -53.000000) " x="29.6666667" y="51.8333333" width="4.66666667" height="2.33333333" rx="1.16666667"></rect>
+                <rect id="Rectangle-16" fill="#0AA6D2" transform="translate(32.000000, 12.166667) rotate(-270.000000) translate(-32.000000, -12.166667) " x="29.6666667" y="11" width="4.66666667" height="2.33333333" rx="1"></rect>
+                <circle id="Oval-6" fill="#0AA6D2" cx="32" cy="32" r="3.5"></circle>
+                <path d="M32,32.5833333 L32,12.6132168" id="Line" stroke="#0AA6D2" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M43.5494108,44.1327441 L31.587521,32.1708544" id="Line" stroke="#0AA6D2" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

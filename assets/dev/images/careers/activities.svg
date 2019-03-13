@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>activities</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="62" height="62"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="62" height="62" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="62" height="62"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="62" height="62" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="activities">
+            <rect id="Rectangle-4" fill-opacity="0.150079257" fill="#84D2E8" x="15" y="15" width="80" height="80" rx="40"></rect>
+            <g id="Group-19" transform="translate(24.000000, 24.000000)">
+                <use id="Rectangle-17" stroke="#0AA6D2" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M10.5,1.5 L10.5,61.5099983" id="Line" stroke="#54C1DF" stroke-linecap="square"></path>
+                <path d="M20.5,1.5 L20.5,61.5099983" id="Line" stroke="#54C1DF" stroke-linecap="square"></path>
+                <path d="M30.5,1.5 L30.5,61.5099983" id="Line" stroke="#54C1DF" stroke-linecap="square"></path>
+                <path d="M40.5,1.5 L40.5,61.5099983" id="Line" stroke="#54C1DF" stroke-linecap="square"></path>
+                <path d="M50.5,1.5 L50.5,61.5099983" id="Line" stroke="#54C1DF" stroke-linecap="square"></path>
+                <g id="Group-18" transform="translate(30.500000, 31.500000) rotate(-270.000000) translate(-30.500000, -31.500000) translate(9.000000, 1.000000)" stroke="#54C1DF" stroke-linecap="square">
+                    <path d="M1.5,0.5 L1.5,60.5099983" id="Line"></path>
+                    <path d="M11.5,0.5 L11.5,60.5099983" id="Line"></path>
+                    <path d="M21.5,0.5 L21.5,60.5099983" id="Line"></path>
+                    <path d="M31.5,0.5 L31.5,60.5099983" id="Line"></path>
+                    <path d="M41.5,0.5 L41.5,60.5099983" id="Line"></path>
+                </g>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="30" y="11" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="11" y="11" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="50" y="11" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="30" y="21" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="11" y="31" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="10" y="41" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="21" y="41" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="40" y="41" width="10" height="11"></rect>
+                <rect id="Rectangle-18" fill="#54C1DF" opacity="0.616721082" x="41" y="21" width="10" height="11"></rect>
+                <use id="Rectangle-17" stroke="#0AA6D2" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

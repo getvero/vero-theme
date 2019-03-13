@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="46" height="46"/>
+    <g transform="rotate(45 9.343 28.657)">
+      <circle cx="7.5" cy="7.5" r="7.5" fill="#F15242" opacity=".404"/>
+      <circle cx="22.5" cy="7.5" r="7.5" fill="#F15242" opacity=".404"/>
+      <circle cx="22.5" cy="22.5" r="7.5" fill="#F15242" opacity=".404"/>
+      <circle cx="7.5" cy="22.5" r="7.5" fill="#F15242" opacity=".404"/>
+      <circle cx="15" cy="15" r="14" fill="#FFF" stroke="#F15242" stroke-linejoin="square" stroke-width="2"/>
+      <circle cx="15" cy="15" r="15.5" stroke="#FFF"/>
+      <circle cx="15" cy="15" r="7" fill="#FFF" stroke="#F15242" stroke-width="2"/>
+      <path stroke="#F15242" stroke-linecap="square" d="M1.5 12.5L8.5 12.5M1.5 17.5L8.5 17.5M21.5 12.5L28.5 12.5M21.5 17.5L28.5 17.5M12.5 1.5L12.5 8.5M17.5 1.5L17.5 8.5M12.5 21.5L12.5 28.5M17.5 21.5L17.5 28.5"/>
+    </g>
+  </g>
+</svg>
