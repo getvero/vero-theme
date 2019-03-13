@@ -10,6 +10,7 @@ jQuery(document).ready(function() {
       hideControlOnEnd: false,
       pager           : false
     });
+
     jQuery('#careers-profiles-slider .bx-control').click(function(){
       var slideNum = jQuery(this).data('bx');
       careersSlider.goToSlide(slideNum);
