@@ -1,10 +1,10 @@
-<?php 
+<?php
 add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
   $classes[] = 'high-volume-senders';
-  return $classes;  
+  return $classes;
 }
 
 include 'pages-shared/static-header.php';
@@ -45,9 +45,9 @@ include 'pages-shared/static-header.php';
         <div class="form-group">
           <label>Preferred contact method:</label><br>
           <input id="email" checked="checked" name="contact_method" type="radio" value="email" />
-          <label class="method" for="email"><img src="/wp-content/themes/vero/assets/images/phone.png"></label>
+          <label class="method" for="email"><img src="/wp-content/themes/vero/assets/dist/images/phone.png"></label>
           <input id="phone" name="contact_method" type="radio" value="phone" />
-          <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/images/mail-white.png"></label>
+          <label class="method" for="phone"><img src="/wp-content/themes/vero/assets/dist/images/mail-white.png"></label>
         </div>
         <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock"
         <div class="form-group"><input type="submit" value="Get in touch" id="request-demo" class="btn btn-warning"></div>
@@ -56,7 +56,7 @@ include 'pages-shared/static-header.php';
     <?php } ?>
   </div>
 </section>
-<?php 
+<?php
   no_menus_genesis_footer();
   add_page_tracking_code("ActionPage");
 ?>

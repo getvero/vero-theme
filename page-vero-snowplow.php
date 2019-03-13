@@ -15,13 +15,13 @@
 
     <div class="integration-logos bottom-margin-large">
       <a class="logo-container vero" href="https://www.getvero.com/">
-       <img src="/wp-content/themes/vero/assets/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
+       <img src="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
       </a>
       <div class="plus">
-        <img src="/wp-content/themes/vero/assets/images/integrations/plus.svg" alt="Plus">
+        <img src="/wp-content/themes/vero/assets/dist/images/integrations/plus.svg" alt="Plus">
       </div>
       <a class="logo-container snowplow" href="https://snowplowanalytics.com/products/">
-        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/snowplow-logo@2x.png 2x" alt="Snowplow logo">
+        <img src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/snowplow-logo@2x.png 2x" alt="Snowplow logo">
       </a>
     </div>
 
@@ -37,7 +37,7 @@
   <div class="inner small-inner center-text">
     <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
-    <img class="responsive-image" src="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
+    <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section>
@@ -59,28 +59,28 @@
     <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/snowplow/custom-reports.svg" alt="Build custom reports">
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/custom-reports.svg" alt="Build custom reports">
         <div class="right">
           <h3 class="medium regular">Build custom reports</h3>
           <p>Send data via Snowplow to your data warehouse and create custom reports with popular charting and BI tools like <a href="https://modeanalytics.com">Mode Analytics</a>, <a href="https://looker.com">Looker</a> and <a href="https://www.periscopedata.com">Periscope Data</a>.</p>
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/better-insights.svg" alt="Gain better insights">
+        <img src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/better-insights.svg" alt="Gain better insights">
         <div class="right">
           <h3 class="medium regular">Gain better insights</h3>
           <p>Vero's <a href="https://www.getvero.com/reporting/">campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together.</p>
         </div>
       </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/images/integrations/snowplow/faster.svg" alt="Move faster">
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/faster.svg" alt="Move faster">
           <div class="right">
             <h3 class="medium regular">Move faster</h3>
             <p>Writing middleware to capture webhooks and load data into your warehouse is complex and time-consuming. Snowplow handles the hard work for you.</p>
           </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/integrations/snowplow/backup.svg" alt="Backup important data">
+        <img src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/backup.svg" alt="Backup important data">
         <div class="right">
           <h3 class="medium regular">Backup important data</h3>
           <p>By warehousing the email interactions that originate in Vero you can backup and store a record of important customer interactions and insights.</p>
@@ -97,7 +97,7 @@
       <p class="medium no-bottom-margin">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right flex md-justify-end">
-      <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
+      <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
     </div>
   </div>
 </section>

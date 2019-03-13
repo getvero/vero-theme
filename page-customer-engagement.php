@@ -12,7 +12,7 @@
 <section id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
@@ -31,7 +31,7 @@
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
+          <img class="full-image" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
         </div>
       </div>
 
@@ -60,7 +60,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="Create and manage automated Workflows with Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/workflows-2.svg" alt="Create and manage automated Workflows with Vero">
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/event-manager.svg" alt="Visibility and clarity with Vero customer data">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/event-manager.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/personalized-emails-push-notifications-vero.svg" alt="Send personalized emails and push notifications with Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/personalized-emails-push-notifications-vero.svg" alt="Send personalized emails and push notifications with Vero">
         </div>
       </div>
       <div class="col">
@@ -128,7 +128,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/optimize-for-growth-vero.svg" alt="Optimize for growth with Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/optimize-for-growth-vero.svg" alt="Optimize for growth with Vero">
         </div>
       </div>
     </div>

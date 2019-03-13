@@ -22,7 +22,7 @@ function custom_footer_html() {
       <div class="flex flex-wrap">
         <div class="footer-aside">
           <a href="https://www.getvero.com">
-            <img src="/wp-content/themes/vero/assets/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
+            <img src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
           </a>
         </div>
         <div class="footer-main">
