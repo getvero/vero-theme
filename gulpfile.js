@@ -2,6 +2,7 @@ const gulp     = require('gulp'),
       del      = require('del'),
       rename   = require('gulp-rename'),
       imagemin = require('gulp-imagemin'),
+      newer    = require('gulp-newer'),
       uglify   = require('gulp-uglify');
 
 const paths = {
@@ -30,7 +31,7 @@ function devMessage() {
 function images() {
   return gulp
   .src('assets/dev/images/**/*')
-  // .pipe(newer("./_site/assets/img"))
+  .pipe(newer(paths.images.dest))
   .pipe(
     imagemin([
       imagemin.gifsicle({ interlaced: true }),
@@ -46,7 +47,7 @@ function images() {
       })
     ])
   )
-  .pipe(gulp.dest('assets/dist/images'));
+  .pipe(gulp.dest(paths.images.dest));
 }
 
 // Uglify scripts
