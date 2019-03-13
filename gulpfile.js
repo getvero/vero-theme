@@ -47,5 +47,6 @@ const js    = gulp.series(devMessage, scripts);
 const build = gulp.series(clean, gulp.parallel(js, watch));
 
 exports.scripts = scripts;
-exports.watch = watch
+exports.watch   = watch
+exports.local   = build;
 exports.default = build;
