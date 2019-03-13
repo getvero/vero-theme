@@ -31,6 +31,7 @@ function devMessage() {
 function images() {
   return gulp
   .src('assets/dev/images/**/*')
+  // Piping the source files to newer before imagemin ensures that only those images that have changed are minified
   .pipe(newer(paths.images.dest))
   .pipe(
     imagemin([
