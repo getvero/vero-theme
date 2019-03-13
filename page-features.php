@@ -106,7 +106,7 @@
           <p>If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
         </li>
         <li class="no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/images/home/features/collection/logs.svg">
+          <img src="/wp-content/themes/vero/assets/images/home/features/collection/logs.svg" alt="Understand users and events">
           <h3 class="semi-bold atomic bottom-margin-micro">Understand users and events</h3>
           <p>Vero understands data about users and their actions ("events"). We cache this data to enable powerful segmentation and automation.</p>
         </li>
