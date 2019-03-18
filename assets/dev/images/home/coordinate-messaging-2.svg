@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="392" height="471" viewBox="0 0 392 471">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="455" viewBox="0 0 320 455">
   <g fill="none" fill-rule="evenodd" transform="translate(-8.244 -5.228)">
-    <g transform="rotate(68 133.043 197.608)">
+    <g transform="rotate(68 97.043 144.236)">
       <circle cx="14.525" cy="9.816" r="8.524" stroke="#FFC111" stroke-width="2"/>
       <circle cx="9.763" cy="14.578" r="9.524" fill="#FFC111" opacity=".2"/>
     </g>
-    <g transform="rotate(155 -28.271 238.157)">
+    <g transform="rotate(155 -26.497 230.157)">
       <circle cx="20.896" cy="13.616" r="12.5" stroke="#FFC111" stroke-width="2"/>
       <circle cx="14.374" cy="20.505" r="13.5" fill="#FFC111" opacity=".2"/>
     </g>
-    <g transform="rotate(15 -889.815 1559.485)">
+    <g transform="rotate(15 -925.815 1286.037)">
       <circle cx="18.94" cy="12.906" r="11" stroke="#FFC111" stroke-width="2"/>
       <circle cx="12.84" cy="18.888" r="12" fill="#FFC111" opacity=".2"/>
     </g>
