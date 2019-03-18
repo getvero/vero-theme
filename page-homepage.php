@@ -1,7 +1,7 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
-<section class="overflow-hidden" id="hero">
+<section class="double-padding overflow-hidden" id="hero">
   <?php
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
