@@ -113,7 +113,8 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite overflow-visible">
+<div class="bg-shapes bg-top">
+<section class="bg-offwhite-fade overflow-visible">
   <div class="inner xlarge-inner center-text md-left-text">
     <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
@@ -168,8 +169,8 @@
     </div>
   </div>
 </section>
-<section class="double-padding bg-shapes bg-center">
-  <div class="inner small-inner center-text">
+<section class="double-padding">
+  <div class="inner small-inner flush-top center-text">
     <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
         <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
@@ -187,6 +188,7 @@
     </header>
   </div>
 </section>
+</div>
 <?php
   include 'pages-shared/footer-cta.php';
 ?>
