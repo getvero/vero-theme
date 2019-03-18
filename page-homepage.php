@@ -22,7 +22,7 @@
       <div class="col-aside relative">
         <picture>
           <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
-          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/dist/images/home/home-hero@2x.png 2x">
           <img src="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png" alt="Create better customer experiences with workflows in Vero">
         </picture>
       </div>
@@ -107,82 +107,6 @@
     </div>
   </div>
 </section>
-<!--
-<section class="double-padding">
-  <div class="inner xlarge-inner">
-    <div class="flex flex-wrap">
-      <div class="js-showcase-carousel-navigation showcase-carousel-navigation"></div>
-
-      <div class="js-showcase-carousel showcase-carousel">
-        <div class="js-showcase-item"
-          data-title="Workflows"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">Native and CDP data integrations</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Integrations"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">Unique customer profiles</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Customer profiles"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">Workflows</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Segmentation"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">Segmentation</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Data management"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">Email</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Email"
-          data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-        >
-          <h2 class="tubs regular regular">iOS/Android push</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Push notifications"
-          data-desc="Lorem ipsum dolor sit, amett…"
-        >
-        </div>
-        <div class="js-showcase-item"
-          data-title="Personalization"
-        >
-        </div>
-        <div class="js-showcase-item"
-          data-title="A/B testing"
-        >
-          <h2 class="tubs regular regular">A/B testing</h2>
-          <div class="bg-gray-lighter" style="height: 440px;"></div>
-        </div>
-        <div class="js-showcase-item"
-          data-title="Reporting"
-          data-desc="Lorem ipsum dolor sit, amett…"
-        >
-          <h2 class="tubs regular regular">Reporting</h2>
-          <div class="bg-gray-lighter" style="height: 400px;"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
 <section class="bg-offwhite overflow-visible">
   <div class="inner xlarge-inner center-text md-left-text">
     <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
