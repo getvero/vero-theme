@@ -8,13 +8,13 @@ function change_url( $url, $post, $leavename ) {
   global $post;
 
   if ( strtotime( $post->post_date ) < strtotime('2015-08-01') ){
-    $url = str_replace( home_url() . '/resources', 'http://blog.getvero.com', $url ); 
+    $url = str_replace( home_url() . '/resources', 'http://blog.getvero.com', $url );
   }
   return $url;
 }
 
 function custom_favicon( $favicon_url ) {
-  return '/wp-content/themes/vero/assets/images/home/favicon/64.png';
+  return '/wp-content/themes/vero/assets/dist/images/home/favicon/64.png';
 }
 
 function is_blog() {
@@ -48,7 +48,7 @@ function add_body_classes($classes) {
     if ( is_post_type_archive('release-notes') ) {
       $classes[] = 'release-notes single';
       return $classes;
-    } 
+    }
 
     return $classes;
   } else {

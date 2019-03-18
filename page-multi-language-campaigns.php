@@ -13,7 +13,7 @@
   <div class="inner center-text">
     <h1 class="chunk semi-bold">The simple way to send your multi-language emails</h1>
     <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
-    <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
+    <img class="center-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
   </div>
 </section>
 <section id="multi-language-steps" class="border-bottom-light">
@@ -28,7 +28,7 @@
       </ul>
     </div>
     <div class="right">
-      <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages@2x.png 2x" alt="Just add content, we do the rest">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages@2x.png 2x" alt="Just add content, we do the rest">
     </div>
   </div>
 </section>
@@ -36,7 +36,7 @@
   <div class="inner center-text">
     <h2 class="tubs regular regular">How does it work?</h2>
     <p>Vero reserves the <code>locale</code> user property to keep track of each customer's language preference. This means you can easily define the version each customer will receive, simply by setting their <code>locale</code> using the <a href="https://en.wikipedia.org/wiki/IETF_language_tag" target="_blank">IETF language codes</a>. For example, Spanish would be <code>es</code>. When you send a campaign, we automatically make sure that each content variation is sent to the right customer. Read our <a href="https://help.getvero.com/articles/create-a-multi-language-campaign.html" target="_blank">multi language campaigns help doc</a>.</p>
-    <img src="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/i18n/languages-how-it-works@2x.png 2x" alt="How does it work?">
+    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works@2x.png 2x" alt="How does it work?">
   </div>
 </section>
 <section id="multi-languages-code">

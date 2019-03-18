@@ -12,7 +12,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <ul class="menu" id="menu-marketing-navbar-left">
     <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
       <a href="https://www.getvero.com">
-        <img data-no-retina src="/wp-content/themes/vero/assets/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+        <img data-no-retina src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     </li>
   </ul>
