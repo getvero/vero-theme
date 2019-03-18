@@ -40,22 +40,22 @@
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
-        <a href="http://tidal.com">
+        <a href="https://tidal.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
-        <a href="http://monzo.com">
+        <a href="https://monzo.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
-        <a href="http://about.me">
+        <a href="https://about.me">
           <img src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="About.me logo Vero">
         </a>
       </li>
       <li class="flex justify-center logo-list-item no-margin">
-        <a href="http://helloprint.co.uk">
+        <a href="https://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
         </a>
       </li>
@@ -170,13 +170,7 @@
 </section>
 <section class="double-padding bg-shapes bg-center">
   <div class="inner small-inner center-text">
-    <header class="bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small">World-class support</h2>
-
-      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
-    </header>
-
-    <div class="donut horizontal-margin-auto bottom-margin-small">
+    <div class="donut horizontal-margin-auto bottom-margin-tiny">
       <div>
         <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
         <span class="d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
@@ -184,7 +178,13 @@
       <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
     </div>
 
-    <p class="medium md-horizontal-margin-xlarge faded">Customer happiness score based on last 6 months of support rating</p>
+    <p class="annotation md-horizontal-margin-xlarge bottom-margin-medium faded">Customer happiness score based on last 6 months of support rating</p>
+
+    <header>
+      <h2 class="chunk regular bottom-margin-small">World-class support</h2>
+
+      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
+    </header>
   </div>
 </section>
 <?php
