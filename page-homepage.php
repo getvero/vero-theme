@@ -68,7 +68,7 @@
       <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
-      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
+      <a class="d-block job-card job-card-empower padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
@@ -80,7 +80,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block job-card padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
+      <a class="d-block job-card job-card-engage padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
@@ -92,7 +92,7 @@
           <svg width="16" height="11" xmlns="http://www.w3.org/2000/svg"><g stroke="#384254" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 5.5h14M10 1l5 4.5-5 4.5"/></g></svg>
         </span>
       </a>
-      <a class="d-block job-card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
+      <a class="d-block job-card job-card-coordinate padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
         <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
