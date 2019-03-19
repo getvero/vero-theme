@@ -113,81 +113,81 @@
     </div>
   </div>
 </section>
-<div class="bg-shapes bg-top">
-<section class="bg-offwhite-fade overflow-visible">
-  <div class="inner xlarge-inner center-text md-left-text">
-    <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
+<div class="bg-shapes bg-center-repeat">
+  <section class="bg-offwhite-fade overflow-visible">
+    <div class="inner xlarge-inner center-text md-left-text">
+      <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
-    <div class="flex items-center justify-center">
-      <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
-          <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
-          </div>
+      <div class="flex items-center justify-center">
+        <div class="customer-scroll flex flex-wrap smd-flex-nowrap overflow-x-scroll">
+          <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+            <div class="col-aside right-margin-small">
+              <img src="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
+            </div>
 
-          <div class="col-main">
-            <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
+            <div class="col-main">
+              <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
 
-            <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+              <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
-            <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
-            <span>Cofounder at Unsplash</span>
-          </div>
-        </blockquote>
+              <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+              <span>Cofounder at Unsplash</span>
+            </div>
+          </blockquote>
 
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
-          <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
-          </div>
+          <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+            <div class="col-aside right-margin-small">
+              <img src="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
+            </div>
 
-          <div class="col-main">
-            <img class="self-center"
-            src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
+            <div class="col-main">
+              <img class="self-center"
+              src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
 
-            <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+              <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
-            <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
-            <span>Head of CRM at Helloprint</span>
-          </div>
-        </blockquote>
+              <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+              <span>Head of CRM at Helloprint</span>
+            </div>
+          </blockquote>
 
-        <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
-          <div class="col-aside right-margin-small">
-            <img src="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
-          </div>
+          <blockquote class="bg-white padding-small border-radius-2 border-light flex flex-wrap md-flex-nowrap customer-quote">
+            <div class="col-aside right-margin-small">
+              <img src="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
+            </div>
 
-          <div class="col-main">
-            <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Drawboard">
+            <div class="col-main">
+              <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Drawboard">
 
-            <p class="medium quote">"Heck! Vero's support is exceptional!</p>
+              <p class="medium quote">"Heck! Vero's support is exceptional!</p>
 
-            <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
-            <span>Head of Marketing at Drawboard</span>
-          </div>
-        </blockquote>
+              <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+              <span>Head of Marketing at Drawboard</span>
+            </div>
+          </blockquote>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="double-padding">
-  <div class="inner small-inner flush-top center-text">
-    <div class="donut horizontal-margin-auto bottom-margin-tiny">
-      <div>
-        <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
-        <span class="d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
+  </section>
+  <section class="double-padding">
+    <div class="inner small-inner flush-top center-text">
+      <div class="donut horizontal-margin-auto bottom-margin-tiny">
+        <div>
+          <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
+          <span class="atomic d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
+        </div>
+        <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
       </div>
-      <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
+
+      <p class="annotation md-horizontal-margin-xlarge bottom-margin-medium faded">Customer happiness score based on last 6 months of support rating</p>
+
+      <header>
+        <h2 class="chunk regular bottom-margin-small">World-class support</h2>
+
+        <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
+      </header>
     </div>
-
-    <p class="annotation md-horizontal-margin-xlarge bottom-margin-medium faded">Customer happiness score based on last 6 months of support rating</p>
-
-    <header>
-      <h2 class="chunk regular bottom-margin-small">World-class support</h2>
-
-      <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
-    </header>
-  </div>
-</section>
+  </section>
 </div>
 <?php
   include 'pages-shared/footer-cta.php';
