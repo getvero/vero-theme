@@ -77,4 +77,14 @@ function workflows_banner(){
   }
 }
 
+// Add description to submenu
+function add_menu_description( $item_output, $item ) {
+  if ( !empty( $item->description ) ) {
+    $item_output = str_replace( $args->link_after . '</a>', '<div class="annotation light" style="flex: 1 1 100%">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
+  }
+
+  return $item_output;
+}
+add_filter( 'walker_nav_menu_start_el', 'add_menu_description', 10, 2 );
+
 ?>
