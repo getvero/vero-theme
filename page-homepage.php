@@ -181,7 +181,7 @@
 
       <p class="annotation md-horizontal-margin-xlarge bottom-margin-medium faded">Customer happiness score based on last 6 months of support rating</p>
 
-      <header class="bg-white">
+      <header class="bg-white-overlay">
         <h2 class="chunk regular bottom-margin-small">World-class support</h2>
 
         <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
