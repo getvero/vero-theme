@@ -31,7 +31,7 @@
 </section>
 <section class="home-logos logos" id="logos">
   <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
-    <h2 class="atomic regular faded bottom-margin-tiny">Trusted by leading brands</h2>
+    <h2 class="atomic regular faded bottom-margin-micro">Trusted by leading brands</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex justify-center logo-list-item no-margin">
