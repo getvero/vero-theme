@@ -114,7 +114,7 @@
   </div>
 </section>
 <div class="bg-shapes bg-center-repeat">
-  <section class="bg-offwhite-fade overflow-visible">
+  <section class="bg-gray-lighter-fade overflow-visible">
     <div class="inner xlarge-inner center-text md-left-text">
       <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
 
@@ -181,7 +181,7 @@
 
       <p class="annotation md-horizontal-margin-xlarge bottom-margin-medium faded">Customer happiness score based on last 6 months of support rating</p>
 
-      <header>
+      <header class="bg-white">
         <h2 class="chunk regular bottom-margin-small">World-class support</h2>
 
         <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
