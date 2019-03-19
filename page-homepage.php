@@ -22,7 +22,7 @@
       <div class="col-aside relative">
         <picture>
           <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
-          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/home/home-hero.png 1x, /wp-content/themes/vero/assets/dist/images/home/home-hero@2x.png 2x">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
           <img src="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png" alt="Create better customer experiences with workflows in Vero">
         </picture>
       </div>
@@ -31,7 +31,7 @@
 </section>
 <section class="home-logos logos" id="logos">
   <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
-    <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
+    <h2 class="micro regular faded bottom-margin-small">Trusted by leading brands</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex justify-center logo-list-item no-margin">
