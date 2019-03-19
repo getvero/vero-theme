@@ -11,7 +11,7 @@
       <div class="col-main center-text md-left-text">
         <h1 class="hulk bottom-margin-small home-title">Create better customer experiences</h1>
 
-        <p class="larger md-bottom-margin-medium">The messaging platform that helps you drive customer engagement and grow your business</p>
+        <p class="larger md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business</p>
 
         <div class="flex flex-wrap md-flex-nowrap items-center hero-footer">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -31,7 +31,7 @@
 </section>
 <section class="home-logos logos" id="logos">
   <div class="inner xlarge-inner flush-top bottom-padding-smedium center-text border-bottom-light">
-    <h2 class="atomic regular faded bottom-margin-small">Trusted by leading brands</h2>
+    <h2 class="atomic regular faded bottom-margin-tiny">Trusted by leading brands</h2>
 
     <ul class="unstyled-list logo-list flex flex-column md-flex-row justify-around">
       <li class="flex justify-center logo-list-item no-margin">
