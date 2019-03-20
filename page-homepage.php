@@ -37,11 +37,11 @@
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo Vero">
             </a>
           </li>
-          <li class="logo-list-item no-margin">
+          <!-- <li class="logo-list-item no-margin">
             <a href="https://about.me">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="About.me logo Vero">
             </a>
-          </li>
+          </li> -->
           <li class="logo-list-item no-margin">
             <a href="https://helloprint.co.uk">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
