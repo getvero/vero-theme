@@ -115,7 +115,7 @@
     </div>
   </div>
 </section>
-<div class="bg-shapes bg-center-repeat">
+<div class="bg-shapes bg-top-repeat">
   <section class="bg-gray-lighter-fade overflow-visible">
     <div class="inner xlarge-inner center-text md-left-text">
       <h2 class="tubs regular regular bottom-margin-smedium jump-link" id="customers">What people have said about Vero</h5>
@@ -171,7 +171,7 @@
       </div>
     </div>
   </section>
-  <section class="double-padding">
+  <section class="double-padding home-support">
     <div class="inner small-inner flush-top center-text">
       <div class="donut horizontal-margin-auto bottom-margin-tiny">
         <div>
@@ -188,12 +188,27 @@
 
         <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>
       </header>
+
+      <ul class="unstyled-list flex justify-around">
+        <li>
+          <img class="photo border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes@2x.jpg 2x" alt="">
+        </li>
+        <li>
+          <img class="photo border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack@2x.jpg 2x" alt="">
+        </li>
+        <li>
+          <img class="photo border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/eric-west.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/eric-west@2x.jpg 2x" alt="">
+        </li>
+        <li>
+          <img class="photo border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray@2x.jpg 2x" alt="">
+        </li>
+      </ul>
     </div>
   </section>
+  <?php
+    include 'pages-shared/footer-cta.php';
+  ?>
 </div>
-<?php
-  include 'pages-shared/footer-cta.php';
-?>
 <?php
   no_content_genesis_footer();
   include("demo-enquiry-form.php");
