@@ -186,7 +186,7 @@
       <header class="bg-white-overlay">
         <h2 class="chunk regular bottom-margin-small">World-class support</h2>
 
-        <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA</p>
+        <p class="large">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>
       </header>
     </div>
   </section>
