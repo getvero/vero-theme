@@ -177,7 +177,7 @@
         <div class="col-aside">
           <div class="donut bottom-margin-tiny">
             <div>
-              <span class="hulk semi-bold bottom-margin-micro font-brand-success">95%</span>
+              <span class="hulk semi-bold no-margin font-brand-success">95%</span>
               <span class="atomic d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
             </div>
             <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
@@ -193,18 +193,18 @@
             <p class="medium">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>
           </header>
 
-          <ul class="unstyled-list flex">
-            <li class="no-margin">
-              <img class="photo align-middle border-radius-100 bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes@2x.jpg 2x" alt="Reba Moyes">
+          <ul class="unstyled-list flex photos-list">
+            <li class="photo-list-item no-margin">
+              <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes@2x.jpg 2x" alt="Reba Moyes">
             </li>
-            <li class="no-margin">
-              <img class="photo align-middle border-radius-100 bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack@2x.jpg 2x" alt="Rae Mack">
+            <li class="photo-list-item no-margin">
+              <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/rae-mack@2x.jpg 2x" alt="Rae Mack">
             </li>
-            <li class="no-margin">
-              <img class="photo align-middle border-radius-100 bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/support/eric-west.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/eric-west@2x.jpg 2x" alt="Eric West">
+            <li class="photo-list-item no-margin">
+              <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/eric-west.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/eric-west@2x.jpg 2x" alt="Eric West">
             </li>
-            <li class="no-margin">
-              <img class="photo align-middle border-radius-100 bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray@2x.jpg 2x" alt="Ellis Gray">
+            <li class="photo-list-item no-margin">
+              <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray@2x.jpg 2x" alt="Ellis Gray">
             </li>
           </ul>
         </div>
