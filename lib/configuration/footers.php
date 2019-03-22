@@ -99,7 +99,7 @@ function blog_cta() {
   ?>
   <section id="call-to-action" class="center-text dark-box">
     <div class="inner">
-      <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
+      <h4 class="tubs semi-bold bottom-margin-small">Put your data first and craft better product experiences</h4>
       <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
       <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
     </div>
