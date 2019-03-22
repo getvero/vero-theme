@@ -61,7 +61,7 @@
       <pre class="vero-code okaidia inactive-feature" id="feature-collection-python" data-src="/wp-content/themes/vero/snippets/features-collection-python.py"></pre>
       <pre class="vero-code okaidia inactive-feature" id="feature-collection-apple" data-src="/wp-content/themes/vero/snippets/features-collection-apple.m"></pre>
 
-      <ul class="collection-code button-list unstyled-list center-text">
+      <ul class="collection-code button-list unstyled-list center-text bottom-margin-tiny">
         <li class="active">
           <a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js@2x.png 2x" alt="Javascript">
