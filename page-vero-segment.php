@@ -75,7 +75,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/integrations/segment/events.svg" alt="Event Management">
+        <img src="/wp-content/themes/vero/assets/dist/images/integrations/segment/events.svg" alt="Event Management">
         <div class="right">
           <h3 class="medium regular">Event Management</h3>
           <p>Complete visibility of the events and properties being tracked in Vero, including when each event was last tracked, which customers triggered an event and the campaigns that triggered.</p>
