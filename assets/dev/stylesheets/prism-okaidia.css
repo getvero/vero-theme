@@ -1,0 +1,126 @@
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code.okaidia[class*="language-"],
+pre.okaidia[class*="language-"] {
+	color: white;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.6;
+	font-weight: 600;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre.okaidia[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 10px;
+	background: #202F5B;
+}
+
+:not(pre) > code.okaidia[class*="language-"],
+pre.okaidia[class*="language-"] {
+	background: #202F5B;
+}
+
+/* Inline code */
+:not(pre) > code.okaidia[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.okaidia .token.comment,
+.okaidia .token.prolog,
+.okaidia .token.doctype,
+.okaidia .token.cdata {
+	color: #8F97AD;
+}
+
+.okaidia .token.punctuation {
+	color: white;
+}
+
+.okaidia .namespace {
+	opacity: .7;
+}
+
+.okaidia .token.property,
+.okaidia .token.tag,
+.okaidia .token.constant,
+.okaidia .token.symbol,
+.okaidia .token.deleted {
+	color: #48BDDE;
+}
+
+.okaidia .token.boolean,
+.okaidia .token.number {
+	color: #FFC111;
+}
+
+.okaidia .token.selector,
+.okaidia .token.attr-name,
+.okaidia .token.string,
+.okaidia .token.char,
+.okaidia .token.builtin,
+.okaidia .token.inserted {
+	color: #6FD350;
+}
+
+.okaidia .token.operator,
+.okaidia .token.entity,
+.okaidia .token.url,
+.okaidia .language-css .token.string,
+.okaidia .style .token.string,
+.okaidia .token.variable {
+	color: white;
+	background: transparent;
+}
+
+.okaidia .token.atrule,
+.okaidia .token.attr-value,
+.okaidia .token.function {
+	color: #48BDDE;
+}
+
+.okaidia .token.keyword {
+	color: #FFC111;
+}
+
+.okaidia .token.regex,
+.okaidia .token.important {
+	color: #9A56FC;
+}
+
+.okaidia .token.important,
+.okaidia .token.bold {
+	font-weight: bold;
+}
+.okaidia .token.italic {
+	font-style: italic;
+}
+
+.okaidia .token.entity {
+	cursor: help;
+}
+

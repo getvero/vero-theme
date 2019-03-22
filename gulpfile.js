@@ -2,10 +2,15 @@ const gulp     = require('gulp'),
       del      = require('del'),
       rename   = require('gulp-rename'),
       imagemin = require('gulp-imagemin'),
+      csso     = require('gulp-csso'),
       newer    = require('gulp-newer'),
       uglify   = require('gulp-uglify');
 
 const paths = {
+  css: {
+    src : 'assets/dev/stylesheets/**/*.css',
+    dest: 'assets/dist/stylesheets/'
+  },
   images: {
     src : 'assets/dev/images/**/*',
     dest: 'assets/dist/images/'
@@ -18,7 +23,7 @@ const paths = {
 
 // Clean dist folder
 function clean() {
-  return del('assets/dist/**/*');
+  return del('assets/dist/');
 }
 
 // Move dev message JS to dist folder
@@ -51,6 +56,18 @@ function images() {
   .pipe(gulp.dest(paths.images.dest));
 }
 
+function css() {
+  return gulp
+  .src(paths.css.src)
+  .pipe(csso({
+    comments : false
+  }))
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest(paths.css.dest));
+}
+
 // Uglify scripts
 function scripts() {
   return gulp
@@ -66,18 +83,17 @@ function scripts() {
   .pipe(gulp.dest(paths.scripts.dest));
 }
 
-// Watch scripts and uglify
+// Watch assets
 function watch() {
-  gulp.watch(paths.scripts.src, gulp.series(scripts))
+  gulp.watch(paths.css.src, css);
+  gulp.watch(paths.scripts.src, scripts);
   gulp.watch('assets/dev/images/**/*', images);
 }
 
 const js    = gulp.series(devMessage, scripts);
-const build = gulp.series(clean, gulp.parallel(images, js, watch));
+const build = gulp.series(clean, gulp.parallel(css, images, js, watch));
 
 exports.clean   = clean;
 exports.images  = images;
 exports.scripts = scripts;
-exports.watch   = watch
-exports.local   = build;
 exports.default = build;
