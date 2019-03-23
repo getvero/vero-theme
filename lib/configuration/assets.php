@@ -77,6 +77,10 @@ function add_js() {
     wp_enqueue_script('nouislider');
   }
 
+  if (is_blog()) {
+    wp_enqueue_script('prism');
+  }
+
   wp_enqueue_script('homepage');
   wp_enqueue_script('landing-pages');
 }
