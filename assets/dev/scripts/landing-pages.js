@@ -40,10 +40,13 @@ jQuery(document).ready(function(){
     return false;
   });
 
-  jQuery('.js-blog-subscribe-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlog(e);
-    return false;
+  // Loop through each .js-blog-subscribe-form
+  jQuery('.js-blog-subscribe-form').each(function() {
+    jQuery(this).on('submit', function(e) {
+        e.preventDefault();
+        subscribeBlog(e);
+        return false;
+    });
   });
 
   var validateForm;
