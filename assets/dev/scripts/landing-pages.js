@@ -40,13 +40,11 @@ jQuery(document).ready(function(){
     return false;
   });
 
-  // Loop through each .js-blog-subscribe-form
-  jQuery('.js-blog-subscribe-form').each(function() {
-    jQuery(this).on('submit', function(e) {
-        e.preventDefault();
-        subscribeBlog(e);
-        return false;
-    });
+  jQuery('.js-blog-subscribe-form').submit(function(e) {
+    console.log('Click subscribe form button');
+    e.preventDefault();
+    subscribeBlog(e);
+    return false;
   });
 
   var validateForm;
@@ -54,12 +52,12 @@ jQuery(document).ready(function(){
 
   validateForm = function() {
     var company, email_addr, emails, name, subscribers, ret;
-    ret = true;
-    name = jQuery('#sender_name');
-    email_addr = jQuery('#sender_email_address');
-    company = jQuery('#sender_company_name');
+    ret         = true;
+    name        = jQuery('#sender_name');
+    email_addr  = jQuery('#sender_email_address');
+    company     = jQuery('#sender_company_name');
     subscribers = jQuery('#sender_subscribers');
-    emails = jQuery('#sender_emails');
+    emails      = jQuery('#sender_emails');
 
     if (name.val() !== '') {
       name.removeClass('error');
@@ -95,39 +93,39 @@ jQuery(document).ready(function(){
   };
 
   requestDemo = function(e) {
-    console.log("Trying to validate");
+    console.log('Trying to validate');
     if (validateForm()) {
-      var url = jQuery("#high-volume-sender-form").attr('action');
+      var url = jQuery('#high-volume-sender-form').attr('action');
       jQuery.ajax({
-        type: "POST",
+        type: 'POST',
         url: url,
-        data: jQuery("#high-volume-sender-form").serialize(),
+        data: jQuery('#high-volume-sender-form').serialize(),
         success: function(data)
         {
            console.log('Demo sent!');
-           jQuery("#high-volume-sender-form").hide();
-           jQuery("#enquire-intro").hide();
-           jQuery("#thanks").show();
+           jQuery('#high-volume-sender-form').hide();
+           jQuery('#enquire-intro').hide();
+           jQuery('#thanks').show();
         }
       });
     }
   };
 
   subscribeBlog = function(e) {
-    console.log("Trying to validate");
-    if (validateForm()) {
-      var url = jQuery('.js-blog-subscribe-form').attr('action');
-      jQuery.ajax({
-        type: "POST",
-        url: url,
-        data: jQuery('.js-blog-subscribe-form').serialize(),
-        success: function(data)
-        {
-           jQuery('.js-blog-subscribe-form').hide();
-           jQuery("#enquire-intro").hide();
-           jQuery("#thanks").show();
-        }
-      });
-    }
+    console.log('Trying to validate');
+    var url = jQuery('.js-blog-subscribe-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-subscribe-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-enquire-info').hide();
+        jQuery('.js-thanks').show();
+      }
+    });
+
   };
+
 });
