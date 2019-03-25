@@ -212,7 +212,7 @@ function add_categories_and_search() {
           <input name="user[consent_product_updates]" type="hidden" value="true">
           <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
         </div>
-        <div class="form-group bottom-margin-small">
+        <div class="form-group bottom-margin-tiny">
           <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
         </div>
         <div class="inner flush-top flush-bottom">
