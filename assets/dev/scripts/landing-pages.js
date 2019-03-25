@@ -121,7 +121,7 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-enquire-info').hide();
+        jQuery('.js-enquire-intro').hide();
         jQuery('.js-thanks').show();
       }
     });
