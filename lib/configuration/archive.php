@@ -198,10 +198,10 @@ function add_categories_and_search() {
     </div>
 
     <div class="modal modal-blog" id="blog">
-      <div class="center-text bottom-margin-small" id="enquire-intro">
+      <div class="center-text bottom-margin-small js-enquire-info" id="enquire-intro">
         <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
       </div>
-      <div class="center-text" id="thanks">
+      <div class="center-text js-thanks" id="thanks">
         <h3 class="atomic regular">Almost there!</h3>
         <p class="no-margin">We've sent you an email to confirm your subscription.</p>
       </div>
