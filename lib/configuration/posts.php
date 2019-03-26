@@ -170,14 +170,16 @@ function post_is_long() {
   return $length > 950;
 }
 
-// change excerpts
-function custom_excerpt_length( $length ) {
-  return 20;
+// Change excerpts
+function custom_excerpt_length() {
+  if ( is_blog_archive() ){
+    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
+  }
 }
-function new_excerpt_more($more) {
-    return '...';
+function new_excerpt_more( $more ) {
+  return '…';
 }
-//
 
 function add_blue_signup_boxes( $content ) {
   global $post;
