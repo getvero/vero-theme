@@ -102,7 +102,7 @@ function add_custom_category_entry_content() {
 
 function add_shares() {
   global $post;
-  if( is_blog_archive() ){
+  if ( is_blog_archive() ){
     ?>
       <div class='shares-block'>
         <small class="annotation">Share this</small>
@@ -120,14 +120,14 @@ function add_shares() {
 }
 
 function change_excerpt_length() {
-  if( is_category() || is_search() ){
+  if ( is_category() || is_search() ){
     return 20;
   }
 }
 
 function category_setup() {
-  if( is_category() || is_search() ){
-    if( has_post_thumbnail() ){
+  if ( is_category() || is_search() ){
+    if ( has_post_thumbnail() ){
       $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       ?>
         <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
@@ -151,50 +151,54 @@ function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
     <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
   <?php }
-  else if( is_home() && is_paged() ){
+  else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
     <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h1>
   <?php }
-  else if( is_category() ){ ?>
+  else if ( is_category() ){ ?>
     <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium"><?php single_cat_title() ?></h1>
   <?php }
-  else if( is_search() ) { ?>
+  else if ( is_search() ) { ?>
     <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h1>
   <?php }
 }
 
 function get_category_title() {
-  if( is_home() ){
+  if ( is_home() ){
     echo "All";
-  } else if( is_category() ){
+  } else if ( is_category() ){
     echo single_cat_title();
-  } else if( is_search() ) {
+  } else if ( is_single() ){
+    echo get_the_category( $id )[0]->name;
+  } else if ( is_search() ) {
     echo "Search";
   }
 }
 
 function add_categories_and_search() {
-  if( is_blog_archive() || is_single() ){ ?>
+  if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-blog-navigation bottom-margin-medium bottom-border-light" id="blog-sub-menu">
-      <div class="categories">
-        <div class="category-button items-center">
+    <div class="js-blog-navigation nav-blog bottom-margin-medium border-bottom-light">
+      <div class="nav-blog-categories">
+        <div class="category-button flex items-center">
           <?php get_category_title(); ?>
-          <svg class="left-margin-tiny" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
+
+          <svg class="left-margin-micro" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
         </div>
-        <ul class="semi-bold flex" id="categories-menu">
+        <ul class="nav-blog-category-list semi-bold">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
           <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
           <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
+          <li>
+            <?php
+              get_search_form(true);
+            ?>
+          </li>
         </ul>
       </div>
 
-      <?php
-        get_search_form(true);
-      ?>
-
-      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe</a>
+      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe to updates</a>
     </div>
 
     <div class="modal modal-blog" id="blog">
