@@ -10,7 +10,7 @@ function next_link_text() {
 }
 
 function remove_read_more_link() {
-  return '...';
+  return '…';
 }
 
 function add_custom_read_more_link() {
@@ -100,26 +100,7 @@ function add_custom_category_entry_content() {
   <?php
 }
 
-function add_shares() {
-  global $post;
-  if ( is_blog_archive() ){
-    ?>
-      <div class='shares-block'>
-        <small class="annotation">Share this</small>
-        <!-- <div class='total-shares'>
-          <span><?php
-            //$share_obj = new Naked_Social_Share_Buttons($post);
-            $shares = get_field('naked_shares_count')['shares'];
-            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
-          ?></span>Shares
-        </div> -->
-        <?php echo naked_social_share_buttons(); ?>
-      </div>
-    <?php
-  }
-}
-
-function change_excerpt_length() {
+function change_excerpt_length( $length ) {
   if ( is_category() || is_search() ){
     return 20;
   }
