@@ -159,7 +159,7 @@
             </div>
 
             <div class="col-main">
-              <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Drawboard">
+              <img src="/wp-content/themes/vero/assets/dist/images/home/logos/drawboard-logo-vero.svg" height="70" alt="Drawboard logo">
 
               <p class="medium quote">"Heck! Vero's support is exceptional!</p>
 
