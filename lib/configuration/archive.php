@@ -129,8 +129,8 @@ function category_setup() {
 }
 
 function add_latest_title() {
-  if( is_home() && !is_paged() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular no-margin">Latest</h1>
+  if ( is_home() && !is_paged() ){ ?>
+    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
   <?php }
   else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
