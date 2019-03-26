@@ -1,12 +1,12 @@
 <?php
 
 function prev_link_text() {
-        $prevlink = 'Previous';
-        return $prevlink;
+  $prevlink = 'Previous';
+  return $prevlink;
 }
 function next_link_text() {
-        $nextlink = 'Next';
-        return $nextlink;
+  $nextlink = 'Next';
+  return $nextlink;
 }
 
 function remove_read_more_link() {
@@ -15,7 +15,7 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="d-block btn btn-outline btn-dark-blue" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+    <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
   <?php }
 }
 
@@ -130,7 +130,7 @@ function category_setup() {
 
 function add_latest_title() {
   if( is_home() && !is_paged() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
+    <h1 class="font-brand-gray-dark tubs regular no-margin">Latest</h1>
   <?php }
   else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
