@@ -9,7 +9,7 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="hulk bottom-margin-small home-title"><span class="d-block">Create better</span> customer experiences</h1>
+        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="d-block">Create better</span> customer experiences</h1>
 
         <p class="larger md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
 
