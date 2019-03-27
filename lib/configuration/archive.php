@@ -100,13 +100,6 @@ function add_featured_posts() {
   }
 }
 
-function is_first() {
-  global $post;
-  $loop = get_posts( 'numberposts=1&order=ASC' );
-  $first = $loop[0]->ID;
-  return ( $post->ID == $first ) ? true : false;
-}
-
 function add_custom_category_entry_content() {
   ?>
     <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
