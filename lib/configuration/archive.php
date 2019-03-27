@@ -15,7 +15,13 @@ function remove_read_more_link() {
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+
+    <?php if ( get_field('cta') ): ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('cta') ?></a>
+    <?php else: ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+    <?php endif ?>
+
   <?php }
 }
 
@@ -94,9 +100,16 @@ function add_featured_posts() {
   }
 }
 
+function is_first() {
+  global $post;
+  $loop = get_posts( 'numberposts=1&order=ASC' );
+  $first = $loop[0]->ID;
+  return ( $post->ID == $first ) ? true : false;
+}
+
 function add_custom_category_entry_content() {
   ?>
-  <p><?php echo wp_trim_words(get_the_content(), 25); ?></p>
+    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
   <?php
 }
 
