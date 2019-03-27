@@ -42,6 +42,7 @@ function change_post_info($post_meta) {
     <time class="entry-time" itemprop="datePublished" datetime="2015-05-06T06:33:11+00:00">
       <?php echo the_time('j M, Y'); ?>
     </time>
+    |
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
       <?php echo get_the_author(); ?>
     </span>
