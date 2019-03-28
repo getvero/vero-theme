@@ -19,7 +19,7 @@
           <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
 
-        <h2 class="micro regular faded bottom-margin-small">Trusted by leading brands</h2>
+        <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
 
         <ul class="unstyled-list logo-list grid">
           <li class="logo-list-item no-margin">
