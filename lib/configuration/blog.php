@@ -32,7 +32,7 @@ function change_post_info($post_meta) {
   //$categories = get_the_category($post->ID);
   $category = $categories[0]->cat_name;
   ?>
-  <p class="entry-meta semi-bold uppercase font-brand-gray-dark">
+  <p class="entry-meta semi-bold uppercase font-brand-gray-dark no-margin">
     <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
       <a href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
     <?php } else { ?>
