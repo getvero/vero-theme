@@ -1,7 +1,6 @@
 <?php
 
 function add_feature_image_to_posts() {
-
   if ( is_blog_post_or_guide() ){
     global $post;
 
@@ -14,6 +13,13 @@ function add_feature_image_to_posts() {
       <img src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
     }
+  }
+}
+
+function move_feature_image() {
+  if ( is_home() ){
+    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+    add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
   }
 }
 
