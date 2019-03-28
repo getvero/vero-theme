@@ -1,21 +1,27 @@
 <?php
 
 function prev_link_text() {
-        $prevlink = 'Previous';
-        return $prevlink;
+  $prevlink = 'Previous';
+  return $prevlink;
 }
 function next_link_text() {
-        $nextlink = 'Next';
-        return $nextlink;
+  $nextlink = 'Next';
+  return $nextlink;
 }
 
 function remove_read_more_link() {
-  return '...';
+  return '…';
 }
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+
+    <?php if ( get_field('cta') ): ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('cta') ?></a>
+    <?php else: ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+    <?php endif ?>
+
   <?php }
 }
 
@@ -96,30 +102,11 @@ function add_featured_posts() {
 
 function add_custom_category_entry_content() {
   ?>
-  <p><?php echo wp_trim_words(get_the_content(), 25); ?></p>
+    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
   <?php
 }
 
-function add_shares() {
-  global $post;
-  if ( is_blog_archive() ){
-    ?>
-      <div class='shares-block'>
-        <small class="annotation">Share this</small>
-        <!-- <div class='total-shares'>
-          <span><?php
-            //$share_obj = new Naked_Social_Share_Buttons($post);
-            $shares = get_field('naked_shares_count')['shares'];
-            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
-          ?></span>Shares
-        </div> -->
-        <?php echo naked_social_share_buttons(); ?>
-      </div>
-    <?php
-  }
-}
-
-function change_excerpt_length() {
+function change_excerpt_length( $length ) {
   if ( is_category() || is_search() ){
     return 20;
   }
@@ -148,7 +135,7 @@ function category_setup() {
 }
 
 function add_latest_title() {
-  if( is_home() && !is_paged() ){ ?>
+  if ( is_home() && !is_paged() ){ ?>
     <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
   <?php }
   else if ( is_home() && is_paged() ){

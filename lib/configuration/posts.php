@@ -1,7 +1,6 @@
 <?php
 
 function add_feature_image_to_posts() {
-
   if ( is_blog_post_or_guide() ){
     global $post;
 
@@ -14,6 +13,13 @@ function add_feature_image_to_posts() {
       <img src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
     }
+  }
+}
+
+function move_feature_image() {
+  if ( is_home() ){
+    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+    add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
   }
 }
 
@@ -170,14 +176,18 @@ function post_is_long() {
   return $length > 950;
 }
 
-// change excerpts
+// Change excerpt length
 function custom_excerpt_length( $length ) {
-  return 20;
+  return 25;
 }
-function new_excerpt_more($more) {
-    return '...';
+function new_excerpt_more( $more ) {
+  return '…';
 }
-//
+
+function custom_cta() {
+  if ( get_field('custom_cta') ) {
+  }
+}
 
 function add_blue_signup_boxes( $content ) {
   global $post;

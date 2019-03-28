@@ -9,17 +9,17 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="hulk bottom-margin-small home-title"><span class="d-block">Create better</span> customer experiences</h1>
+        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="d-block">Create better</span> customer experiences</h1>
 
         <p class="larger md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
-          <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
         </div>
 
-        <h2 class="micro regular faded bottom-margin-small">Trusted by leading brands</h2>
+        <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
 
         <ul class="unstyled-list logo-list grid">
           <li class="logo-list-item no-margin">
