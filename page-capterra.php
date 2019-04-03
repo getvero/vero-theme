@@ -90,49 +90,49 @@
   <div class="inner large-inner flush-top">
     <h2 class="atomic semi-bold faded uppercase center-text bottom-margin-medium">More feature</h2>
 
-    <ul class="unstyled-list grid grid-thirds center-text">
+    <ul class="unstyled-list grid center-text">
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/newsletter.svg" alt="Scheduled Newsletters">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/newsletter.svg" alt="Scheduled Newsletters">
         <h3 class="semi-bold atomic bottom-margin-micro">Scheduled Newsletters</h3>
         <p class="light">Send one-off campaigns to individual segments – instantly, or at a scheduled time in the future.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/reports.svg" alt="Detailed reporting">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/reports.svg" alt="Detailed reporting">
         <h3 class="semi-bold atomic bottom-margin-micro">Detailed Reporting</h3>
         <p class="light">Get aggregate and day-by-day breakdowns of every email campaign sent through Vero. Plays nice with data warehouses too.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/liquid.svg" alt="Liquid content">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/liquid.svg" alt="Liquid content">
         <h3 class="semi-bold atomic bottom-margin-micro">Liquid Content</h3>
         <p class="light">Personalise every email using the <a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid templating language</a> and utilise your customer data.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/templates.svg" alt="Manage HTML templates">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/templates.svg" alt="Manage HTML templates">
         <h3 class="semi-bold atomic bottom-margin-micro">Manage HTML templates</h3>
         <p class="light">Upload, organise and edit your fully responsive email designs and reuse them in all of your campaigns.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/editables.svg" alt="Visual editor">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/editables.svg" alt="Visual editor">
         <h3 class="semi-bold atomic bottom-margin-micro">Visual Editor</h3>
         <p class="light">Define areas of your email content that the whole team can edit in Vero's point-and-click content editor.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/timezones.svg" alt="Send per timezone">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/timezones.svg" alt="Send per timezone">
         <h3 class="semi-bold atomic bottom-margin-micro">Send per Timezone</h3>
         <p class="light">Schedule your emails at the right time for every customer, no matter where in the world they are.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/conversions.svg" alt="Track conversions">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/conversions.svg" alt="Track conversions">
         <h3 class="semi-bold atomic bottom-margin-micro">Track Conversions</h3>
         <p class="light">Go beyond just clicks and track the true success of each campaign using user actions as converion goals.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/abtesting.svg" alt="A/B Testing">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/abtesting.svg" alt="A/B Testing">
         <h3 class="semi-bold atomic bottom-margin-micro">A/B Testing</h3>
         <p class="light">Multi-variate test the subject, from address, content and template for any email campaign, including triggered workflows.</p>
       </li>
       <li class="no-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/features/more/csv.svg" alt="CSV Imports">
+        <img class="bottom-margin-small align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/more/csv.svg" alt="CSV Imports">
         <h3 class="semi-bold atomic bottom-margin-micro">CSV Imports</h3>
         <p class="light">Hit the ground running and import your customer attributes and actions using Vero's CSV import tools.</p>
       </li>
