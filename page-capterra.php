@@ -106,12 +106,12 @@
 <section class="tiny-padding capterra-support bg-dark-blue">
   <div class="inner">
     <div class="flex justify-center">
-      <h3 class="atomic regular font-white no-margin md-right-margin-small">24/7 Customer support</h3>
-      <h3 class="atomic regular font-white no-margin">95% Customer satisfaction</h3>
+      <h3 class="micro regular font-white no-margin md-right-margin-small">24/7 Customer support</h3>
+      <h3 class="micro regular font-white no-margin">95% Customer satisfaction</h3>
     </div>
   </div>
 </section>
-<section class="double-padding footer-cta footer-cta-capterra bg-dots">
+<section class="double-padding footer-cta bg-dots">
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center center-text md-left-text">
 
@@ -186,9 +186,9 @@
     <span>Cofounder of Unsplash</span>
   </div>
 </section>
-<section>
+<section class="double-padding footer-cta-capterra">
   <div class="inner small-inner center-text">
-    <h3 class="regular chunk bottom-margin-medium">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
+    <h3 class="regular chunk bottom-margin-smedium">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
 
     <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Try Vero for free</a>
   </div>
