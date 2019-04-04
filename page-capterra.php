@@ -60,7 +60,7 @@
     </div>
   </div>
 </section>
-<section class="capterra-event-manager double-padding">
+<section class="double-padding capterra-event-manager bg-center">
   <div class="inner center-text">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Confidently send messages with real-time data</h2>
@@ -68,12 +68,12 @@
     </header>
 
     <div class="image-dots image-dots-2">
-      <img src="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data@2x.png 2x" alt="Confidently send messages with real-time data">
+      <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data@2x.png 2x" alt="Confidently send messages with real-time data">
       <div class="background"></div>
     </div>
   </div>
 </section>
-<section class="capterra-fusion">
+<section class="capterra-fusion bg-center">
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
@@ -82,23 +82,23 @@
         <p class="medium bottom-margin-smedium">Send customers account usage updates, tailored product recommendations and more!</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
+        <div class="image-dots image-dots-3">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement.svg" alt="Personalize your emails to improve customer engagement">
           <div class="background"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="capterra-ab-testing bg-offwhite">
+<section class="capterra-ab-testing bg-offwhite bg-center">
   <div class="inner center-text">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>
 
-    <div class="image-dots image-dots-2">
-      <img src="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails@2x.png 2x" alt="Measure and optimize your emails">
+    <div class="image-dots image-dots-5">
+      <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails@2x.png 2x" alt="Measure and optimize your emails">
       <div class="background"></div>
     </div>
   </div>
@@ -111,7 +111,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding footer-cta footer-cta-capterra bg-dots-strip">
+<section class="double-padding footer-cta footer-cta-capterra bg-dots">
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center center-text md-left-text">
 
@@ -176,12 +176,21 @@
 </section>
 <section class="bg-offwhite capterra-quote">
   <div class="inner xlarge-inner">
-    <blockquote>
-      <p class="quote large">We push all of our behavioural events to Vero…  allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
+    <img class="align-middle bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" width="180" alt="Unsplash logo">
 
-      <span class="d-block semi-bold medium">Luke Chesser</span>
-      <span>Cofounder of Unsplash</span>
+    <blockquote class="quotation-marks bottom-margin-medium">
+      <p class="quote large">We push all of our behavioural events to Vero…  allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
+
+    <span class="d-block semi-bold medium">Luke Chesser</span>
+    <span>Cofounder of Unsplash</span>
+  </div>
+</section>
+<section>
+  <div class="inner small-inner center-text">
+    <h3 class="regular chunk bottom-margin-medium">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
+
+    <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Try Vero for free</a>
   </div>
 </section>
 <?php
