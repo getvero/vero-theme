@@ -73,7 +73,7 @@
     </div>
   </div>
 </section>
-<section>
+<section class="capterra-fusion">
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
@@ -84,12 +84,13 @@
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
+          <div class="background"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="capterra-event-manager bg-offwhite">
+<section class="capterra-ab-testing bg-offwhite">
   <div class="inner center-text">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Measure and optimize your emails</h2>
@@ -105,8 +106,8 @@
 <section class="tiny-padding capterra-support bg-dark-blue">
   <div class="inner">
     <div class="flex justify-center">
-      <h3 class="micro regular font-white no-margin">24/7 Customer support</h3>
-      <h3 class="micro regular font-white no-margin">95% Customer satisfaction</h3>
+      <h3 class="atomic regular font-white no-margin md-right-margin-small">24/7 Customer support</h3>
+      <h3 class="atomic regular font-white no-margin">95% Customer satisfaction</h3>
     </div>
   </div>
 </section>
