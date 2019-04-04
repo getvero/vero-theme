@@ -5,7 +5,7 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="d-block">Send emails that engage customers and drive growth</h1>
+        <h1 class="biggie semi-bold bottom-margin-small home-title"><span class="d-block ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
         <p class="larger md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
