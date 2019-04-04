@@ -9,7 +9,7 @@
 
         <p class="larger md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
-        <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-small">
+        <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-tiny">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
         </div>
 
