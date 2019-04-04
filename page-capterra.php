@@ -60,19 +60,53 @@
     </div>
   </div>
 </section>
-<section class="home-solutions double-padding">
-  <div class="inner xlarge-inner">
-    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
+<section class="capterra-event-manager double-padding">
+  <div class="inner center-text">
+    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Confidently send messages with real-time data</h2>
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
     </header>
+
+    <div class="image-dots image-dots-2">
+      <img src="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data@2x.png 2x" alt="Confidently send messages with real-time data">
+      <div class="background"></div>
+    </div>
   </div>
 </section>
-<section class="tiny-padding capterra-support bg-primary">
+<section>
+  <div class="inner xlarge-inner">
+    <div class="grid job-feature job-feature-right">
+      <div class="col-main">
+        <h2 class="chunk regular bottom-margin-smedium">Personalize your emails to improve customer engagement</h2>
+
+        <p class="medium bottom-margin-smedium">Send customers account usage updates, tailored product recommendations and more!</p>
+      </div>
+      <div class="col-aside flex justify-center">
+        <div class="image-dots image-dots-2">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="capterra-event-manager bg-offwhite">
+  <div class="inner center-text">
+    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
+      <h2 class="chunk regular bottom-margin-small">Measure and optimize your emails</h2>
+      <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
+    </header>
+
+    <div class="image-dots image-dots-2">
+      <img src="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/measure-and-optimize-your-emails@2x.png 2x" alt="Measure and optimize your emails">
+      <div class="background"></div>
+    </div>
+  </div>
+</section>
+<section class="tiny-padding capterra-support bg-dark-blue">
   <div class="inner">
     <div class="flex justify-center">
-      <h3 class="tubs regular font-white no-margin">24/7 Customer support</h3>
-      <h3 class="tubs regular font-white no-margin">95% Customer satisfaction</h3>
+      <h3 class="micro regular font-white no-margin">24/7 Customer support</h3>
+      <h3 class="micro regular font-white no-margin">95% Customer satisfaction</h3>
     </div>
   </div>
 </section>
