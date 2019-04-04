@@ -176,14 +176,12 @@
 </section>
 <section class="bg-offwhite capterra-quote">
   <div class="inner xlarge-inner">
-    <img class="align-middle bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" width="180" alt="Unsplash logo">
-
-    <blockquote class="quotation-marks bottom-margin-medium">
+    <blockquote class="quotation-marks bottom-margin-smedium">
       <p class="quote large">We push all of our behavioural events to Vero…  allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
 
-    <span class="d-block semi-bold medium">Luke Chesser</span>
-    <span>Cofounder of Unsplash</span>
+    <span class="d-block medium">Luke Chesser</span>
+    <img class="align-middle logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" width="160" alt="Unsplash logo">
   </div>
 </section>
 <section class="double-padding footer-cta-capterra">
