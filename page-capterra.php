@@ -7,7 +7,7 @@
       <div class="col-main center-text md-left-text bg-white-overlay">
         <h1 class="biggie semi-bold bottom-margin-small home-title"><span class="d-block ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
-        <p class="larger md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
+        <p class="large md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-tiny">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -62,7 +62,7 @@
 </section>
 <section class="double-padding capterra-event-manager bg-center">
   <div class="inner center-text">
-    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
+    <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Confidently send messages with real-time data</h2>
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
     </header>
@@ -74,7 +74,7 @@
   </div>
 </section>
 <section class="capterra-fusion bg-center">
-  <div class="inner xlarge-inner">
+  <div class="inner xlarge-inner flush-top">
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
         <h2 class="chunk regular bottom-margin-smedium">Personalize your emails to improve customer engagement</h2>
@@ -92,7 +92,7 @@
 </section>
 <section class="capterra-ab-testing bg-offwhite bg-center">
   <div class="inner center-text">
-    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium">
+    <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
       <h2 class="chunk regular bottom-margin-small">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>
@@ -106,8 +106,8 @@
 <section class="tiny-padding capterra-support bg-dark-blue">
   <div class="inner">
     <div class="flex justify-center">
-      <h3 class="micro regular font-white no-margin md-right-margin-small">24/7 Customer support</h3>
-      <h3 class="micro regular font-white no-margin">95% Customer satisfaction</h3>
+      <p class="medium regular font-white no-margin md-right-margin-small">24/7 Customer support</p>
+      <p class="medium regular font-white no-margin">95% Customer satisfaction</p>
     </div>
   </div>
 </section>
@@ -115,15 +115,15 @@
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center center-text md-left-text">
 
-      <h3 class="biggie regular right-margin-medium">Easily create and manage automated messages</h3>
+      <h3 class="chunk regular right-margin-medium">Easily create and manage automated messages</h3>
 
       <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
   </div>
 </section>
 <section class="capterra-features">
-  <div class="inner large-inner flush-top">
-    <h2 class="atomic semi-bold faded uppercase center-text bottom-margin-medium">More feature</h2>
+  <div class="inner large-inner">
+    <h2 class="annotation semi-bold faded uppercase center-text bottom-margin-medium">More features</h2>
 
     <ul class="unstyled-list grid center-text">
       <li class="no-margin">
@@ -177,7 +177,7 @@
 <section class="bg-offwhite capterra-quote">
   <div class="inner xlarge-inner">
     <blockquote class="quotation-marks bottom-margin-smedium">
-      <p class="quote large">We push all of our behavioural events to Vero…  allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
+      <p class="quote large">We push all of our behavioural events to Vero… allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
 
     <span class="d-block medium">Luke Chesser</span>
