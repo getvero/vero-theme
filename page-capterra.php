@@ -5,7 +5,7 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="biggie semi-bold bottom-margin-small home-title"><span class="d-block ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
+        <h1 class="biggie semi-bold bottom-margin-tiny home-title"><span class="d-block ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
         <p class="large md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
@@ -61,16 +61,18 @@
   </div>
 </section>
 <section class="double-padding capterra-event-manager bg-center">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small">Confidently send messages with real-time data</h2>
-      <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
+      <h2 class="chunk regular bottom-margin-tiny">Confidently send messages with real-time data</h2>
+      <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data.</p>
     </header>
 
-    <div class="image-dots image-dots-2">
+    <div class="image-dots image-dots-2 bottom-margin-smedium">
       <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data@2x.png 2x" alt="Confidently send messages with real-time data">
       <div class="background"></div>
     </div>
+
+    <p class="large">You can feel confident in sending the right message, at the right time.</p>
   </div>
 </section>
 <section class="capterra-fusion bg-center">
@@ -91,9 +93,9 @@
   </div>
 </section>
 <section class="capterra-ab-testing bg-offwhite bg-center">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small">Measure and optimize your emails</h2>
+      <h2 class="chunk regular bottom-margin-tiny">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>
 
@@ -105,15 +107,16 @@
 </section>
 <section class="tiny-padding capterra-support bg-dark-blue">
   <div class="inner">
-    <div class="flex justify-center">
-      <p class="medium regular font-white no-margin md-right-margin-small">24/7 Customer support</p>
+    <div class="flex justify-center items-center">
+      <p class="medium regular font-white no-margin">24/7 Customer support</p>
+      <span></span>
       <p class="medium regular font-white no-margin">95% Customer satisfaction</p>
     </div>
   </div>
 </section>
-<section class="double-padding footer-cta bg-dots">
+<section class="footer-cta bg-dots">
   <div class="inner large-inner">
-    <div class="flex flex-wrap justify-center center-text md-left-text">
+    <div class="flex flex-wrap justify-center items-center center-text md-left-text">
 
       <h3 class="chunk regular right-margin-medium">Easily create and manage automated messages</h3>
 
@@ -122,7 +125,7 @@
   </div>
 </section>
 <section class="capterra-features">
-  <div class="inner large-inner">
+  <div class="inner large-inner top-padding-smedium">
     <h2 class="annotation semi-bold faded uppercase center-text bottom-margin-medium">More features</h2>
 
     <ul class="unstyled-list grid center-text">
