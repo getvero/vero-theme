@@ -89,8 +89,6 @@
             <img class="card card-1 responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement-1.svg" alt="Personalize your emails to improve customer engagement 1">
             <img class="card card-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement-2.svg" alt="Personalize your emails to improve customer engagement 2">
           </div>
-
-          <!-- <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement.svg" alt="Personalize your emails to improve customer engagement"> -->
           <div class="background"></div>
         </div>
       </div>
@@ -110,20 +108,18 @@
     </div>
   </div>
 </section>
-<section class="tiny-padding capterra-support bg-dark-blue">
-  <div class="inner">
-    <div class="flex justify-center items-center">
-      <p class="medium regular font-white no-margin">24/7 Customer support</p>
-      <span></span>
-      <p class="medium regular font-white no-margin">95% Customer satisfaction</p>
-    </div>
+<section class="capterra-support bg-dark-blue">
+  <div class="flex flex-wrap md-flex-nowrap justify-center items-center center-text">
+    <p class="medium regular font-white no-margin">24/7 Customer support</p>
+    <span></span>
+    <p class="medium regular font-white no-margin">95% Customer satisfaction</p>
   </div>
 </section>
 <section class="footer-cta bg-dots">
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center items-center center-text md-left-text">
 
-      <h3 class="chunk regular right-margin-medium">Easily create and manage automated messages</h3>
+      <h3 class="chunk regular md-right-margin-medium">Easily create and manage automated messages</h3>
 
       <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
