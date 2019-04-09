@@ -85,7 +85,12 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement.svg" alt="Personalize your emails to improve customer engagement">
+          <div class="relative cards">
+            <img class="card card-1 responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement-1.svg" alt="Personalize your emails to improve customer engagement 1">
+            <img class="card card-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement-2.svg" alt="Personalize your emails to improve customer engagement 2">
+          </div>
+
+          <!-- <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/personalize-emails-to-improve-customer-engagement.svg" alt="Personalize your emails to improve customer engagement"> -->
           <div class="background"></div>
         </div>
       </div>
