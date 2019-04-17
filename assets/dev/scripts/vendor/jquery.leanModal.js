@@ -10,9 +10,9 @@
               closeButton: null
           }
 
-          var overlay = $("<div id='lean_overlay'></div>");
+          var overlay = $('<div class="lean-overlay" id="lean_overlay"></div>');
 
-          $("body").append(overlay);
+          $('body').append(overlay);
 
           options =  $.extend(defaults, options);
 
@@ -22,9 +22,9 @@
 
               $(this).click(function(e) {
 
-              var modal_id = $(this).attr("href");
+              var modal_id = $(this).attr('href');
 
-      $("#lean_overlay").click(function() {
+      $('.lean-overlay').click(function() {
                    close_modal(modal_id);
               });
 
@@ -35,9 +35,9 @@
               var modal_height = $(modal_id).outerHeight();
             var modal_width = $(modal_id).outerWidth();
 
-          $('#lean_overlay').css({ 'display' : 'block', opacity : 0 });
+          $('.lean-overlay').css({ 'display' : 'block', opacity : 0 });
 
-          $('#lean_overlay').fadeTo(200,o.overlay);
+          $('.lean-overlay').fadeTo(200,o.overlay);
 
           $(modal_id).css({
 
@@ -46,8 +46,8 @@
             'opacity' : 0,
             'z-index': 11000,
             'left' : 50 + '%',
-            'margin-left' : -(modal_width/2) + "px",
-            'top' : o.top + "px"
+            'margin-left' : -(modal_width/2) + 'px',
+            'top' : o.top + 'px'
 
           });
 
@@ -61,7 +61,7 @@
 
     function close_modal(modal_id){
 
-          $("#lean_overlay").fadeOut(200);
+          $('.lean-overlay').fadeOut(200);
 
           $(modal_id).css({ 'display' : 'none' });
 
