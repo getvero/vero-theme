@@ -34,6 +34,13 @@ jQuery(document).ready(function(){
     }
   }
 
+  // Show blog subscription form
+  jQuery(window).scroll(function () {
+    if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
+      jQuery('.js-overlay').show();
+    }
+  });
+
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
     requestDemo(e);
