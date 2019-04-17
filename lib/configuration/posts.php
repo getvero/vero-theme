@@ -101,6 +101,8 @@ function add_subscribe_form() {
         <input name='redirect_on_success' type='hidden' value='https://www.getvero.com/subscribed-to-the-blog/'>
         <input name='user[consent_marketing]' type='hidden' value='true'>
         <input name='user[consent_product_updates]' type='hidden' value='true'>
+        <input name="event[blog_footer]" type="hidden" value="true">
+        <input name='user[blog_footer]' type='hidden' value='true'>
         <input name='user[contact_by_fax_only]' type='checkbox' value='1' style='display:none !important' tabindex="-1" autocomplete="false" />
         <input class="btn btn-success btn-medium" type='submit' value='Subscribe'>
       </form>
