@@ -38,8 +38,18 @@ jQuery(document).ready(function(){
   jQuery(window).scroll(function () {
     if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
       jQuery('.js-overlay').show();
+      jQuery(window).off('scroll');
     }
   });
+
+  jQuery('.js-overlay').click(function(e) {
+    closeModal();
+    e.stopPropagation();
+  });
+
+  function closeModal() {
+    jQuery('.js-overlay').fadeOut(200);
+  }
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
