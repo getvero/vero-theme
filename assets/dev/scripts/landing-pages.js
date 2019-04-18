@@ -35,19 +35,29 @@ jQuery(document).ready(function(){
   }
 
   // Show blog subscription form
-  jQuery(window).scroll(function () {
+  jQuery(window).scroll(function() {
     if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
       jQuery('.js-overlay').show();
-      jQuery(window).off('scroll');
+      // jQuery(window).off('scroll');
     }
   });
 
-  jQuery('.js-overlay').click(function(e) {
+  jQuery('.js-overlay').on('click', function(e) {
+    if (e.target !== this)
+      return;
+
     closeModal();
-    e.stopPropagation();
   });
 
+  // jQuery('.js-overlay').click(function() {
+  //   closeModal();
+  // });
+  // jQuery('.js-overlay div').click(function(e) {
+  //   e.stopPropagation();
+  // });
+
   function closeModal() {
+    // jQuery('.js-modal-subscription').fadeOut(200);
     jQuery('.js-overlay').fadeOut(200);
   }
 

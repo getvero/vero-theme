@@ -95,7 +95,7 @@ function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
     <div class="js-overlay overlay">
-      <div class="flex items-center justify-center" style="height: 100%;">
+      <div class="js-modal-subscription flex items-center justify-center" style="height: 100%;">
         <div class="modal modal-subscription show">
           <div class="center-text bottom-margin-small js-enquire-intro" id="enquire-intro">
             <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
