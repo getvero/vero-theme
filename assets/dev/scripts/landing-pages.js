@@ -38,27 +38,23 @@ jQuery(document).ready(function(){
   jQuery(window).scroll(function() {
     if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
       jQuery('.js-overlay').show();
-      // jQuery(window).off('scroll');
+      jQuery('.js-newsletter').addClass('show');
+      jQuery(window).off('scroll');
     }
   });
 
-  jQuery('.js-overlay').on('click', function(e) {
-    if (e.target !== this)
-      return;
-
+  jQuery('.js-overlay').on('click', function() {
+    if (!jQuery(event.target).closest('.js-newsletter').length) {
+      closeModal();
+    }
+  });
+  jQuery('.js-newsletter-close').on('click', function() {
     closeModal();
   });
 
-  // jQuery('.js-overlay').click(function() {
-  //   closeModal();
-  // });
-  // jQuery('.js-overlay div').click(function(e) {
-  //   e.stopPropagation();
-  // });
-
   function closeModal() {
-    // jQuery('.js-modal-subscription').fadeOut(200);
     jQuery('.js-overlay').fadeOut(200);
+    jQuery('.js-newsletter').removeClass('show');
   }
 
   jQuery('#high-volume-sender-form').submit(function(e) {
