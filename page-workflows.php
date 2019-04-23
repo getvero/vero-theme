@@ -11,7 +11,7 @@
 ?>
 
 
-<section id="workflows-hero">
+<section class="overflow-hidden" id="workflows-hero">
   <div class="inner large-inner halfs bottom-padding-medium right-padding-medium left-padding-medium">
     <div class="left secondary">
       <p class="semi-bold smallish font-brand-primary introducing">Introducing</p>
