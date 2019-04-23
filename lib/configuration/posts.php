@@ -119,7 +119,7 @@ function add_subscribe_form() {
           <p class="medium faded">No spam, ever!</p>
         </form>
 
-        <p class="js-policy mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+        <p class="js-policy policy mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
       </div>
     </div>
 
