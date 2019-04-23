@@ -96,31 +96,29 @@ function add_subscribe_form() {
     ?>
     <div class="js-overlay overlay">
       <div class="js-newsletter newsletter center-text">
+        <div class="js-newsletter-close newsletter-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
+        </div>
+
         <div class="bottom-margin-small js-enquire-intro" id="enquire-intro">
-          <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
-          <p>Get our latest blog posts, news and tips straight to your inbox.</p>
+          <h3>Get our latest blog posts, news, and tips straight to your inbox</h3>
         </div>
         <div class="js-thanks" id="thanks">
           <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
           <p class="no-margin">We've sent you an email to confirm your subscription.</p>
         </div>
-        <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
-          <div class="flex justify-center items-stretch">
-            <input class="form-control large" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
+        <form class="js-blog-subscribe-form bottom-margin-smedium" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+          <div class="flex justify-center items-stretch bottom-margin-tiny">
+            <input class="form-control form-control-large" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
             <input name="user[consent_marketing]" type="hidden" value="true">
             <input name="user[consent_product_updates]" type="hidden" value="true">
             <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-            <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
+            <input class="btn btn-medium btn-success" type="submit" value="Subscribe">
           </div>
           <p class="medium faded">No spam, ever!</p>
-          <div class="inner flush-top flush-bottom">
-            <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
-          </div>
         </form>
 
-        <div class="js-newsletter-close newsletter-close">
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
-        </div>
+        <p class="js-policy mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
       </div>
     </div>
 

@@ -144,6 +144,7 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-policy').hide();
         jQuery('.js-enquire-intro').hide();
         jQuery('.js-thanks').show();
       }
