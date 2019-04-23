@@ -34,6 +34,29 @@ jQuery(document).ready(function(){
     }
   }
 
+  // Show blog subscription form
+  jQuery(window).scroll(function() {
+    if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
+      jQuery('.js-overlay').show();
+      jQuery('.js-newsletter').addClass('show');
+      jQuery(window).off('scroll');
+    }
+  });
+
+  jQuery('.js-overlay').on('click', function() {
+    if (!jQuery(event.target).closest('.js-newsletter').length) {
+      closeModal();
+    }
+  });
+  jQuery('.js-newsletter-close').on('click', function() {
+    closeModal();
+  });
+
+  function closeModal() {
+    jQuery('.js-overlay').fadeOut(200);
+    jQuery('.js-newsletter').removeClass('show');
+  }
+
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
     requestDemo(e);
@@ -121,6 +144,7 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-policy').hide();
         jQuery('.js-enquire-intro').hide();
         jQuery('.js-thanks').show();
       }
