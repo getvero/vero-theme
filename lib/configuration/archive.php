@@ -201,6 +201,7 @@ function add_categories_and_search() {
           <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
           <input name="user[consent_marketing]" type="hidden" value="true">
           <input name="user[consent_product_updates]" type="hidden" value="true">
+          <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
           <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
         </div>
         <div class="form-group bottom-margin-tiny">
