@@ -138,7 +138,7 @@ jQuery(window).scroll(function(){
   var height   = getHeight();
   var distance = getDistance() - jQuery(window).scrollTop();
   var offset   = jQuery(window).scrollTop();
-  if ((distance <= -5) && !stuck) {
+  if ((distance <= 8) && !stuck) {
     jQuery('.nav-primary').addClass('sticky');
     jQuery('.nav-primary').height(height);
     jQuery('.js-blog-navigation').addClass('sticky');
@@ -152,26 +152,6 @@ jQuery(window).scroll(function(){
     // console.log('unstick');
   }
 });
-
-// Liquid guide sticky sidebar
-if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-6474')) {
-  var heroDistance = jQuery('.content-sidebar-wrap').offset().top;
-
-  jQuery(window).scroll(function(){
-    if (jQuery(window).scrollTop() > heroDistance - 89) {
-      jQuery('.sidebar-sticky').addClass('sticky');
-    } else {
-      jQuery('.sidebar-sticky').removeClass('sticky');
-    }
-
-    // At bottom
-    if(jQuery(window).scrollTop() + jQuery(window).height() > (jQuery(document).height() - 950) ) {
-      jQuery('.sidebar-sticky').addClass('bottom');
-    } else {
-      jQuery('.sidebar-sticky').removeClass('bottom');
-    }
-  });
-}
 
 // Smooth scroll
 var scroll = new SmoothScroll('[data-scroll]');
