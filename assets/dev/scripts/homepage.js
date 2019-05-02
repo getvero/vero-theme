@@ -141,13 +141,11 @@ jQuery(window).scroll(function(){
   if ((distance <= 8) && !stuck) {
     jQuery('.nav-primary').addClass('sticky');
     jQuery('.nav-primary').height(height);
-    jQuery('.js-blog-navigation').addClass('sticky');
     stuck = true;
     // console.log('stick');
   } else if (stuck && (offset <= stickPoint)){
     jQuery('.nav-primary').removeClass('sticky');
     jQuery('.nav-primary').css('height','auto');
-    jQuery('.js-blog-navigation').removeClass('sticky');
     stuck = false;
     // console.log('unstick');
   }
