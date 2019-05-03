@@ -8,7 +8,7 @@
   }
   include 'pages-shared/static-header.php';
 ?>
-<section class="hero double-padding dark-box" id="careers-hero">
+<section class="hero double-padding font-white" id="careers-hero">
   <?php
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
