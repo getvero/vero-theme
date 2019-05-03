@@ -165,7 +165,7 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-blog-navigation nav-blog bottom-margin-medium border-bottom-light">
+    <div class="js-blog-navigation nav-blog bottom-margin-medium">
       <div class="nav-blog-categories">
         <div class="category-button flex items-center">
           <?php get_category_title(); ?>
