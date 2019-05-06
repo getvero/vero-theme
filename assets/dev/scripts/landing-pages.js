@@ -71,7 +71,6 @@ jQuery(document).ready(function(){
 
   // Blog header subscribe form
   jQuery('.js-blog-header-form').submit(function(e) {
-    console.log('Click blog header subscribe form button');
     e.preventDefault();
     subscribeBlogHeader(e);
     return false;
@@ -79,15 +78,14 @@ jQuery(document).ready(function(){
 
   // Blog inline subscribe form
   jQuery('.js-blog-subscribe-form').submit(function(e) {
-    console.log('Click blog header subscribe form button');
+    console.log('Click blog inline subscribe form button');
     e.preventDefault();
-    subscribeBlogHeader(e);
+    subscribeBlogInline(e);
     return false;
   });
 
   // Blog fullscreen popup subscribe form
   jQuery('.js-blog-popup-form').submit(function(e) {
-    console.log('Click blog popup subscribe form button');
     e.preventDefault();
     subscribeBlogFullscreen(e);
     return false;
@@ -155,7 +153,6 @@ jQuery(document).ready(function(){
   };
 
   subscribeBlogHeader = function(e) {
-    console.log('Trying to validate');
     var url = jQuery('.js-blog-header-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -164,7 +161,6 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-header-form').hide();
-        // jQuery('.js-policy').hide();
         jQuery('.js-enquire-intro').hide();
         jQuery('.js-thanks').show();
       }
@@ -172,7 +168,6 @@ jQuery(document).ready(function(){
   };
 
   subscribeBlogInline = function(e) {
-    console.log('Trying to validate');
     var url = jQuery('.js-blog-subscribe-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -181,9 +176,8 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
-        // jQuery('.js-policy').hide();
-        jQuery('.js-enquire-intro').hide();
-        jQuery('.js-thanks').show();
+        jQuery('.js-enquire-intro-3').hide();
+        jQuery('.js-thanks-3').show();
       }
     });
   };
