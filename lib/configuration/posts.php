@@ -100,14 +100,14 @@ function add_subscribe_form() {
           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
         </div>
 
-        <div class="bottom-margin-small js-enquire-intro" id="enquire-intro">
-          <h3>Get our latest blog posts, news, and tips straight to your inbox</h3>
+        <div class="js-enquire-intro-2 enquire-intro-2 bottom-margin-small">
+          <h3 class="no-margin">Get our latest blog posts, news, and tips straight to your inbox</h3>
         </div>
-        <div class="js-thanks" id="thanks">
+        <div class="js-thanks-2 thanks-2">
           <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
           <p class="no-margin">We've sent you an email to confirm your subscription.</p>
         </div>
-        <form class="js-blog-subscribe-form bottom-margin-smedium" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+        <form class="js-blog-popup-form bottom-margin-smedium" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
           <div class="flex justify-center items-stretch bottom-margin-tiny">
             <input class="form-control form-control-large" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
             <input name="user[consent_marketing]" type="hidden" value="true">
@@ -124,8 +124,10 @@ function add_subscribe_form() {
     </div>
 
     <div class='subscribe-form center-block'>
-      <h3 class="micro center-text">Get our latest blog posts, product news and tips straight to your inbox</h3>
-      <form class="bottom-margin-small" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+      <div class="bottom-margin-small">
+        <h3 class="micro center-text">Get our latest blog posts, product news and tips straight to your inbox</h3>
+      </div>
+      <form class="bottom-margin-small" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
         <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="name@mycompany.com">
         <input name='redirect_on_success' type='hidden' value='https://www.getvero.com/subscribed-to-the-blog/'>
         <input name='user[consent_marketing]' type='hidden' value='true'>
