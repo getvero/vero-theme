@@ -120,35 +120,20 @@ jQuery(document).ready(function() {
   }
 });
 
-var h          = jQuery(".nav-primary .wrap");
-var stuck      = false;
-var stickPoint = getDistance();
+jQuery(window).scroll(function() {
+  var header       = jQuery('.nav-primary');
+  var headerHeight = header.height();
+  var scroll       = jQuery(window).scrollTop();
 
-function getDistance() {
-  var topDist = h.offset().top;
-  return topDist;
-}
-
-function getHeight() {
-  var height = h.height();
-  return height;
-}
-
-jQuery(window).scroll(function(){
-  var height   = getHeight();
-  var distance = getDistance() - jQuery(window).scrollTop();
-  var offset   = jQuery(window).scrollTop();
-  if ((distance <= 8) && !stuck) {
-    jQuery('.nav-primary').addClass('sticky');
-    jQuery('.nav-primary').height(height);
-    stuck = true;
-    // console.log('stick');
-  } else if (stuck && (offset <= stickPoint)){
-    jQuery('.nav-primary').removeClass('sticky');
-    jQuery('.nav-primary').css('height','auto');
-    stuck = false;
-    // console.log('unstick');
+  if (scroll > 1) {
+    header.addClass('sticky');
+    console.log('Stick');
+  } else {
+    header.removeClass('sticky');
+    console.log('Unstick');
   }
+
+  console.log(headerHeight);
 });
 
 // Smooth scroll
