@@ -196,7 +196,7 @@ function add_categories_and_search() {
         <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
         <p class="no-margin">We've sent you an email to confirm your subscription.</p>
       </div>
-      <form class="js-blog-subscribe-form js-blog-header-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+      <form class="js-blog-header-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
         <div class="form-group bottom-margin-tiny">
           <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
           <input name="user[consent_marketing]" type="hidden" value="true">
