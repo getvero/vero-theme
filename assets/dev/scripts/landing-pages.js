@@ -2,6 +2,21 @@ jQuery(window).load(function(){
   jQuery('pre.okaidia').find('code').addClass('okaidia');
 });
 
+// Sticky header
+jQuery(window).scroll(function() {
+  var header       = jQuery('.nav-primary');
+  var headerOffset = header.offset().top;
+  var scroll       = jQuery(window).scrollTop();
+
+  if (scroll >= 10) {
+    header.addClass('sticky');
+    console.log('Stick');
+  } else {
+    header.removeClass('sticky');
+    console.log('Unstick');
+  }
+});
+
 jQuery(document).ready(function(){
   // Feature image switcher
   jQuery('.feature-swapper-option').click(function(e){
@@ -35,14 +50,6 @@ jQuery(document).ready(function(){
   }
 
   // Show blog subscription form
-  jQuery(window).scroll(function() {
-    if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-      jQuery('.js-overlay').show();
-      jQuery('.js-newsletter').addClass('show');
-      jQuery(window).off('scroll');
-    }
-  });
-
   jQuery('.js-overlay').on('click', function() {
     if (!jQuery(event.target).closest('.js-newsletter').length) {
       closeModal();
@@ -55,7 +62,18 @@ jQuery(document).ready(function(){
   function closeModal() {
     jQuery('.js-overlay').fadeOut(200);
     jQuery('.js-newsletter').removeClass('show');
+
+    sessionStorage['PopupShown'] = 'yes';
   }
+
+  jQuery(window).scroll(function() {
+    if(sessionStorage['PopupShown'] != 'yes') {
+      if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
+        jQuery('.js-overlay').show();
+        jQuery('.js-newsletter').addClass('show');
+      }
+    }
+  });
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();

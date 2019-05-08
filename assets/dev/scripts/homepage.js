@@ -120,21 +120,36 @@ jQuery(document).ready(function() {
   }
 });
 
-jQuery(window).scroll(function() {
-  var header       = jQuery('.nav-primary');
-  var headerHeight = header.height();
-  var scroll       = jQuery(window).scrollTop();
 
-  if (scroll > 1) {
-    header.addClass('sticky');
-    console.log('Stick');
-  } else {
-    header.removeClass('sticky');
-    console.log('Unstick');
-  }
+var h          = jQuery('.nav-primary');
+var stuck      = false;
+var stickPoint = getDistance();
 
-  console.log(headerHeight);
-});
+function getDistance() {
+  var topDist = h.offset().top;
+  return topDist;
+}
+
+function getHeight() {
+  var height = h.height();
+  return height;
+}
+
+// jQuery(window).scroll(function(){
+//   var height   = getHeight();
+//   var distance = getDistance() - jQuery(window).scrollTop();
+//   var offset   = jQuery(window).scrollTop();
+
+//   if ((distance <= 0) && !stuck) {
+//     jQuery('.nav-primary').addClass('sticky');
+//     stuck = true;
+//     console.log('stick');
+//   } else if (stuck && (offset <= stickPoint)){
+//     jQuery('.nav-primary').removeClass('sticky');
+//     stuck = false;
+//     console.log('unstick');
+//   }
+// });
 
 // Smooth scroll
 var scroll = new SmoothScroll('[data-scroll]');
