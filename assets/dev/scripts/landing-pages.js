@@ -35,19 +35,12 @@ jQuery(document).ready(function(){
   }
 
   // Show blog subscription form
-  jQuery(window).scroll(function() {
-    if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-      jQuery('.js-overlay').show();
-      jQuery('.js-newsletter').addClass('show');
-      jQuery(window).off('scroll');
-    }
-  });
-
   jQuery('.js-overlay').on('click', function() {
     if (!jQuery(event.target).closest('.js-newsletter').length) {
       closeModal();
     }
   });
+
   jQuery('.js-newsletter-close').on('click', function() {
     closeModal();
   });
@@ -55,7 +48,18 @@ jQuery(document).ready(function(){
   function closeModal() {
     jQuery('.js-overlay').fadeOut(200);
     jQuery('.js-newsletter').removeClass('show');
+
+    sessionStorage['PopupShown'] = 'yes';
   }
+
+  jQuery(window).scroll(function() {
+    if(sessionStorage['PopupShown'] != 'yes') {
+      if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
+        jQuery('.js-overlay').show();
+        jQuery('.js-newsletter').addClass('show');
+      }
+    }
+  });
 
   var validateForm;
   var requestDemo;
