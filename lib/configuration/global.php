@@ -18,7 +18,7 @@ function custom_favicon( $favicon_url ) {
 }
 
 function is_blog() {
-  return ( is_singular('post') || is_singular('guides') || is_home() || is_category() );
+  return ( is_singular('post') || is_singular('guides') || is_singular('tutorials') || is_home() || is_category() );
 }
 
 function is_child_guide() {
@@ -32,6 +32,10 @@ function is_blog_archive() {
 
 function is_blog_post_or_guide() {
   return ( is_singular('post') || is_singular('guides') );
+}
+
+function is_blog_post_or_guide_or_tutorial() {
+  return ( is_singular('post') || is_singular('guides') || is_singular('tutorials') );
 }
 
 function add_body_classes($classes) {

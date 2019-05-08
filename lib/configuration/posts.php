@@ -1,7 +1,7 @@
 <?php
 
 function add_feature_image_to_posts() {
-  if ( is_blog_post_or_guide() ){
+  if ( is_blog_post_or_guide_or_tutorial() ){
     global $post;
 
     $image_id  = get_post_thumbnail_id( $post->ID );
@@ -24,7 +24,7 @@ function move_feature_image() {
 }
 
 function force_full_width_on_posts( $options ) {
-  if( is_blog_post_or_guide() ) {
+  if( is_blog_post_or_guide_or_tutorial() ) {
     $options = 'full-width-content';
     return $options;
   }
@@ -37,8 +37,8 @@ function add_blog_post_back_button() {
     <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog">Back to Table of Contents</a>
   <?php } else if ( is_singular('release-notes') ) { ?>
     <a href="/release-notes" class="back-to-blog">Back to Release Notes</a>
-  <?php } else if( is_blog_post_or_guide() ){ ?>
-    <a href="/resources" class="back-to-blog">Back to Blog</a>
+  <?php } else if( is_blog_post_or_guide_or_tutorial() ){ ?>
+    <a href="/resources" class="back-to-blog">Back to <em>Resources</em></a>
   <?php }
 }
 
