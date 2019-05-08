@@ -12,7 +12,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <ul class="menu" id="menu-marketing-navbar-left">
     <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
       <a href="https://www.getvero.com">
-        <img data-no-retina src="/wp-content/themes/vero/assets/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+        <img data-no-retina src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     </li>
   </ul>
@@ -76,5 +76,15 @@ function workflows_banner(){
     <?php
   }
 }
+
+// Add description to submenu
+function add_menu_description( $item_output, $item ) {
+  if ( !empty( $item->description ) ) {
+    $item_output = str_replace( $args->link_after . '</a>', '<div class="annotation light" style="flex: 1 1 100%">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
+  }
+
+  return $item_output;
+}
+add_filter( 'walker_nav_menu_start_el', 'add_menu_description', 10, 2 );
 
 ?>

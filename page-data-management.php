@@ -12,7 +12,7 @@
 <section id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Empower your team</h1>
 
@@ -31,7 +31,7 @@
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
+          <img class="full-image" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
         </div>
       </div>
 
@@ -62,7 +62,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/integrate-vero-with-your-software.svg" alt="Seamlessly integrate Vero with your software">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/integrate-vero-with-your-software.svg" alt="Seamlessly integrate Vero with your software">
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-2">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/create-iterate-faster-with-workflows-vero.svg" alt="Create and iterate faster with Workflows in Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/create-iterate-faster-with-workflows-vero.svg" alt="Create and iterate faster with Workflows in Vero">
         </div>
       </div>
     </div>

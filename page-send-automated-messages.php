@@ -12,7 +12,7 @@
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
+      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
@@ -40,7 +40,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-1">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/workflows-2.svg" alt="Visibility and clarity with Vero customer data">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/workflows-2.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/right-message-time-channel-vero.svg" alt="Right message right time with channel with Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/right-message-time-channel-vero.svg" alt="Right message right time with channel with Vero">
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-4">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/images/jobs/trigger-custom-interactions-vero.svg" alt="Trigger custom interactions anywhere with Vero">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/trigger-custom-interactions-vero.svg" alt="Trigger custom interactions anywhere with Vero">
         </div>
       </div>
     </div>

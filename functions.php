@@ -71,9 +71,12 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
   // Entry post structure
-  add_filter( 'get_the_content_more_link', 'remove_read_more_link' );
+  add_filter( 'get_the_content_more_link', 'remove_read_more_link', 99 );
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-  add_action( 'genesis_entry_footer', 'add_shares' );
+
+  // Move featured image above title
+  add_action( 'genesis_before_content', 'move_feature_image' );
+
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
@@ -97,7 +100,7 @@ function genesischild_theme_setup() {
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_before_footer', 'blog_related_posts');
-  add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+  add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
   // Search page

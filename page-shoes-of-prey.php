@@ -1,4 +1,4 @@
-<?php 
+<?php
   //Remove the entry header markup (requires HTML5 theme support)
   remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
   remove_action( 'genesis_entry_header', 'genesis_do_post_title');
@@ -14,11 +14,11 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="top" style="background-image: url(/wp-content/themes/vero/assets/images/case-studies/shoesofprey/bg.png);"></section>
+<section id="top" style="background-image: url(/wp-content/themes/vero/assets/dist/images/case-studies/shoesofprey/bg.png);"></section>
 <section id="stripe">
   <div class="wrap">
     <div class="logo">
-      <img src="/wp-content/themes/vero/assets/images/case-studies/shoesofprey/logo.png">
+      <img src="/wp-content/themes/vero/assets/dist/images/case-studies/shoesofprey/logo.png">
     </div>
     <div class="testimonial">
       <div class="number">
@@ -39,7 +39,7 @@
     <p>Vero allows us to go beyond the standard ‘cart abandonment’ campaigns that you see. Our customers receive truly personalised content each and every time we email them based on their on-site interactions. You can’t beat that!</p>
     <div class="who">
       Joel Pinkham, Customer Acquisition Manager
-      <img src="/wp-content/themes/vero/assets/images/case-studies/shoesofprey/joel.jpg">
+      <img src="/wp-content/themes/vero/assets/dist/images/case-studies/shoesofprey/joel.jpg">
     </div>
   </div>
 </section>
@@ -73,15 +73,15 @@
         <h3>More case studies</h3>
       </li>
       <li>
-        <a href="/case-studies/wooga"><img src="/wp-content/themes/vero/assets/images/case-studies/wooga/logo.png"></a>
+        <a href="/case-studies/wooga"><img src="/wp-content/themes/vero/assets/dist/images/case-studies/wooga/logo.png"></a>
       </li>
       <li>
-        <a href="/case-studies/bugherd"><img src="/wp-content/themes/vero/assets/images/case-studies/bugherd/logo-sml.png"></a>
+        <a href="/case-studies/bugherd"><img src="/wp-content/themes/vero/assets/dist/images/case-studies/bugherd/logo-sml.png"></a>
       </li>
     </ul>
   </div>
 </section>
 
-<?php 
+<?php
   no_content_genesis_footer();
 ?>
