@@ -55,6 +55,7 @@ jQuery(document).ready(function(){
       closeModal();
     }
   });
+
   jQuery('.js-newsletter-close').on('click', function() {
     closeModal();
   });
