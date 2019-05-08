@@ -45,7 +45,7 @@ include 'pages-shared/static-header.php';
     <h2 class="tubs regular">Simple, flexible pricing options</h2>
     <div class="grid grid-thirds">
       <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
         <header class="flex justify-center bottom-margin-tiny">
           <h3 class="micro semi-bold medium no-bottom-margin">Dedicated IP</h3>
@@ -57,7 +57,7 @@ include 'pages-shared/static-header.php';
         <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a>
       </div>
       <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-email.svg" alt="BYO email provider">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
         <header class="flex justify-center bottom-margin-tiny">
           <h3 class="micro semi-bold medium no-bottom-margin">BYO email platform</h3>
@@ -67,7 +67,7 @@ include 'pages-shared/static-header.php';
         <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
       </div>
       <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/images/home/pricing/pricing-discount.svg" alt="Pay up front">
+        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flex justify-center bottom-margin-tiny">
           <h3 class="micro semi-bold medium no-bottom-margin">Save 15%</h3>
@@ -83,17 +83,17 @@ include 'pages-shared/static-header.php';
   <div class="inner medium-inner top-padding-large bottom-padding-large">
     <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-support.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-support.svg" width="46" alt="24-hour support">
         <h3 class="regular bottom-margin-tiny">24-hour support</h3>
         <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help you</p>
       </li>
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-encrypt.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-encrypt.svg" width="46" alt="Data security">
         <h3 class="regular bottom-margin-tiny">Data security</h3>
         <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
       <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/images/home/pricing/pricing-unlimited.svg" width="46">
+        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-unlimited.svg" width="46" alt="Unlimited everything">
         <h3 class="regular bottom-margin-tiny">Unlimited everything</h3>
         <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
       </li>
@@ -107,27 +107,27 @@ include 'pages-shared/static-header.php';
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://unsplash.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash" height="76">
+          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://monzo.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo" height="76">
+          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://helloprint.co.uk">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint" height="76">
+          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://tidal.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal" height="76">
+          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
         <a class=" d-block" href="https://pipedrive.com">
-          <img src="/wp-content/themes/vero/assets/images/home/pricing/logos/pricing-pipedrive.svg" salt="Pipedrive" height="76">
+          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-pipedrive.svg" alt="Pipedrive logo" height="76">
         </a>
       </li>
     </ul>
@@ -141,7 +141,7 @@ include 'pages-shared/static-header.php';
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
-        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
       <p>Vero will send you an email when you cross the subscriber threshold of your current plan. Your account will be automatically upgraded to a new plan, which will be reflected in your your next invoice.</p>
@@ -153,7 +153,7 @@ include 'pages-shared/static-header.php';
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
-        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
         <p>Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
@@ -165,7 +165,7 @@ include 'pages-shared/static-header.php';
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
-        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
         <p>You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/annual-plan-discount.html">Find out more about annual plans</a>.</p>
@@ -176,7 +176,7 @@ include 'pages-shared/static-header.php';
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
-        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
         <p>In Vero, sub-accounts are called <strong>Projects</strong>. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as <strong>free sandboxes</strong>.</p>
@@ -188,7 +188,7 @@ include 'pages-shared/static-header.php';
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
-        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/images/home/pricing/caret.svg" alt="">
+        <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
       </div>
       <div class="answer">
         <p>Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> for more details.</p>

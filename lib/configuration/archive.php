@@ -1,21 +1,27 @@
 <?php
 
 function prev_link_text() {
-        $prevlink = 'Previous';
-        return $prevlink;
+  $prevlink = 'Previous';
+  return $prevlink;
 }
 function next_link_text() {
-        $nextlink = 'Next';
-        return $nextlink;
+  $nextlink = 'Next';
+  return $nextlink;
 }
 
 function remove_read_more_link() {
-  return '...';
+  return '…';
 }
 
 function add_custom_read_more_link() {
   if( is_blog_archive() ){ ?>
-    <a class="btn btn-primary btn-small" href="<?php the_permalink(); ?>">Read&nbsp;More</a>
+
+    <?php if ( get_field('cta') ): ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('cta') ?></a>
+    <?php else: ?>
+      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+    <?php endif ?>
+
   <?php }
 }
 
@@ -96,38 +102,19 @@ function add_featured_posts() {
 
 function add_custom_category_entry_content() {
   ?>
-  <p><?php echo wp_trim_words(get_the_content(), 25); ?></p>
+    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
   <?php
 }
 
-function add_shares() {
-  global $post;
-  if( is_blog_archive() ){
-    ?>
-      <div class='shares-block'>
-        <small class="annotation">Share this</small>
-        <!-- <div class='total-shares'>
-          <span><?php
-            //$share_obj = new Naked_Social_Share_Buttons($post);
-            $shares = get_field('naked_shares_count')['shares'];
-            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
-          ?></span>Shares
-        </div> -->
-        <?php echo naked_social_share_buttons(); ?>
-      </div>
-    <?php
-  }
-}
-
-function change_excerpt_length() {
-  if( is_category() || is_search() ){
+function change_excerpt_length( $length ) {
+  if ( is_category() || is_search() ){
     return 20;
   }
 }
 
 function category_setup() {
-  if( is_category() || is_search() ){
-    if(has_post_thumbnail()){
+  if ( is_category() || is_search() ){
+    if ( has_post_thumbnail() ){
       $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       ?>
         <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
@@ -148,75 +135,81 @@ function category_setup() {
 }
 
 function add_latest_title() {
-  if( is_home() && !is_paged() ){ ?>
-    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">Latest</h2>
+  if ( is_home() && !is_paged() ){ ?>
+    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
   <?php }
-  else if( is_home() && is_paged() ){
+  else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h2>
+    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h1>
   <?php }
-  else if( is_category() ){ ?>
-    <h2 class="font-brand-gray-dark regular bottom-margin-smedium"><?php single_cat_title() ?></h2>
+  else if ( is_category() ){ ?>
+    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium"><?php single_cat_title() ?></h1>
   <?php }
-  else if( is_search() ) { ?>
-    <h2 class="font-brand-gray-dark regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h2>
+  else if ( is_search() ) { ?>
+    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h1>
   <?php }
 }
 
 function get_category_title() {
-  if( is_home() ){
+  if ( is_home() ){
     echo "All";
-  } else if( is_category() ){
+  } else if ( is_category() ){
     echo single_cat_title();
-  } else if( is_search() ) {
+  } else if ( is_single() ){
+    echo get_the_category( $id )[0]->name;
+  } else if ( is_search() ) {
     echo "Search";
   }
 }
 
 function add_categories_and_search() {
-  if( is_blog_archive() || is_single() ){ ?>
+  if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-blog-navigation bottom-margin-medium bottom-border-light" id="blog-sub-menu">
-      <div class="categories">
-        <div class="category-button items-center">
+    <div class="js-blog-navigation nav-blog bottom-margin-medium border-bottom-light">
+      <div class="nav-blog-categories">
+        <div class="category-button flex items-center">
           <?php get_category_title(); ?>
-          <svg class="left-margin-tiny" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
+
+          <svg class="left-margin-micro" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
         </div>
-        <ul class="semi-bold flex" id="categories-menu">
+        <ul class="nav-blog-category-list semi-bold">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
           <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
           <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
-          <!-- <li class="<?php echo is_active('product-updates'); ?>"><a href="/resources/category/case-studies">Product Updates</a></li> -->
+          <li>
+            <?php
+              get_search_form(true);
+            ?>
+          </li>
         </ul>
       </div>
 
-      <?php
-        get_search_form(true);
-      ?>
-
-      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe</a>
+      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe to updates</a>
     </div>
 
     <div class="modal modal-blog" id="blog">
-      <div class="center-text" id="enquire-intro">
-        <h3 class="atomic regular">Get our latest blog posts, news and tips straight to your inbox.</h3>
+      <div class="center-text bottom-margin-small js-enquire-intro enquire-intro">
+        <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
       </div>
-      <div class="center-text" id="thanks">
-        <h3 class="atomic regular">Almost there!</h3>
+      <div class="center-text js-thanks thanks">
+        <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
         <p class="no-margin">We've sent you an email to confirm your subscription.</p>
       </div>
-      <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+      <form class="js-blog-header-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
         <div class="form-group bottom-margin-tiny">
           <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
           <input name="user[consent_marketing]" type="hidden" value="true">
           <input name="user[consent_product_updates]" type="hidden" value="true">
+          <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
           <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
         </div>
         <div class="form-group bottom-margin-tiny">
           <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
         </div>
-        <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+        <div class="inner flush-top flush-bottom">
+          <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+        </div>
       </form>
 
       <div class="modal-close">

@@ -14,6 +14,7 @@ include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
 include_once( 'lib/post_types/guides.php' );          # Guides pages
+include_once( 'lib/post_types/tutorials.php' );          # Tutorials pages
 include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
@@ -46,6 +47,7 @@ function genesischild_theme_setup() {
   // Add custom types
   add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
+  add_action( 'init', 'create_tutorials_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
@@ -71,9 +73,12 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
   // Entry post structure
-  add_filter( 'get_the_content_more_link', 'remove_read_more_link' );
+  add_filter( 'get_the_content_more_link', 'remove_read_more_link', 99 );
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-  add_action( 'genesis_entry_footer', 'add_shares' );
+
+  // Move featured image above title
+  add_action( 'genesis_before_content', 'move_feature_image' );
+
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
@@ -97,7 +102,7 @@ function genesischild_theme_setup() {
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_before_footer', 'blog_related_posts');
-  add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+  add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
   // Search page

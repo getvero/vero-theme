@@ -13,7 +13,7 @@
   <div class="inner center-text flush-bottom">
     <h1>Go local. Host your data where you need to.</h1>
     <p>The world has gone global and your business has to move fast to keep up.<br><em>Vero Local</em> gives you peace of mind and helps you stay compliant with the data laws in your region.</p>
-    <img class="center-block" src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/data-compliance-hero.svg">
+    <img class="center-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/data-compliance-hero.svg">
   </div>
 </section>
 <section id="data-compliance-why" class="hero border-bottom-light">
@@ -50,7 +50,7 @@
     <p>International data laws and requirements are constantly evolving. As part of <em>Vero Local</em> you can elect to have your data hosted in one of the following key international regions.</p>
     <ul class="region-enquire-list feature-list unstyled-list thirds">
       <li>
-        <img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/north-america.svg" class="background-map">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/north-america.svg" class="background-map">
         <div class="region-deets">
           <h3>North America</h3>
           <p class="regions-deets">N. Virginia, Oregon</p>
@@ -63,10 +63,10 @@
           <p class="regions-deets">Ireland, Frankfurt</p>
           <a rel="leanModal" href="#demo" class="btn btn-success">Enquire</a>
         </div>
-        <img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/europe.svg" class="background-map">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/europe.svg" class="background-map">
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/asia-pacific.svg" class="background-map">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/asia-pacific.svg" class="background-map">
         <div class="region-deets">
           <h3>Asia Pacific</h3>
           <p class="regions-deets">Sydney, Beijing</p>
@@ -80,10 +80,10 @@
   <div class="inner center-text">
     <p>We work with hundreds of large, international businesses. Here's just a couple.</p>
     <ul class="center-text feature-list fourths">
-      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/tidal.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/tidal@2x.png 2x"><p><strong>Norway</strong> <span class="small-text">(EUROPE)</span></p></li>
-      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/canva.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/canva@2x.png 2x"><p><strong>Sydney</strong> <span class="small-text">(AUSTRALIA)</span></p></li>
-      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/aboutme.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/aboutme@2x.png 2x"><p><strong>San Francisco</strong><span class="small-text"> (N.AMERICA)</span></p></li>
-      <li><img src="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/strikingly.png" srcset="/wp-content/themes/vero/assets/images/landing-pages/data-compliance/strikingly@2x.png 2x"><p><strong>Shanghai</strong><span class="small-text"> (CHINA)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/tidal.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/tidal@2x.png 2x"><p><strong>Norway</strong> <span class="small-text">(EUROPE)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/canva.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/canva@2x.png 2x"><p><strong>Sydney</strong> <span class="small-text">(AUSTRALIA)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/aboutme.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/aboutme@2x.png 2x"><p><strong>San Francisco</strong><span class="small-text"> (N.AMERICA)</span></p></li>
+      <li><img src="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/strikingly.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/data-compliance/strikingly@2x.png 2x"><p><strong>Shanghai</strong><span class="small-text"> (CHINA)</span></p></li>
     </ul>
   </div>
 </section>

@@ -22,7 +22,7 @@ function custom_footer_html() {
       <div class="flex flex-wrap">
         <div class="footer-aside">
           <a href="https://www.getvero.com">
-            <img src="/wp-content/themes/vero/assets/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
+            <img src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
           </a>
         </div>
         <div class="footer-main">
@@ -99,7 +99,7 @@ function blog_cta() {
   ?>
   <section id="call-to-action" class="center-text dark-box">
     <div class="inner">
-      <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better product experiences</h1>
+      <h4 class="tubs semi-bold bottom-margin-small">Put your data first and craft better product experiences</h4>
       <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
       <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
     </div>

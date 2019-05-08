@@ -5,7 +5,7 @@ function add_custom_types( $query ) {
 
   if( ( is_post_type_archive('post') || is_home() || is_archive() ) && $query === $wp_the_query && !is_admin() && !is_post_type_archive('release-notes') ) {
     $query->set( 'post_type', array(
-      'post', 'guides'
+      'post', 'guides', 'tutorials'
     ));
 
     $query->set( 'post_parent', 0 );
@@ -32,7 +32,7 @@ function change_post_info($post_meta) {
   //$categories = get_the_category($post->ID);
   $category = $categories[0]->cat_name;
   ?>
-  <p class="entry-meta semi-bold uppercase font-brand-gray-dark">
+  <p class="entry-meta semi-bold uppercase font-brand-gray-dark no-margin">
     <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
       <a href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
     <?php } else { ?>
@@ -40,9 +40,9 @@ function change_post_info($post_meta) {
     <?php } ?>
     Written On
     <time class="entry-time" itemprop="datePublished" datetime="2015-05-06T06:33:11+00:00">
-      <?php echo the_time('j F, Y'); ?>
+      <?php echo the_time('j M, Y'); ?>
     </time>
-    by
+    |
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
       <?php echo get_the_author(); ?>
     </span>
@@ -54,6 +54,8 @@ function is_active($page) {
   if( is_category($page) ) {
     return 'active';
   } else if ( $page == 'all' && is_home() ) {
+    return 'active';
+  } else if ( in_category($page) && is_single() ) {
     return 'active';
   } else {
     return '';
