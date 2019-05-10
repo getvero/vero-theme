@@ -177,11 +177,6 @@ function add_categories_and_search() {
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
           <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
           <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
-          <li>
-            <?php
-              get_search_form(true);
-            ?>
-          </li>
         </ul>
       </div>
 
