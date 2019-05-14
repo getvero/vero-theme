@@ -69,30 +69,36 @@ function change_home_loop() {
 }
 
 function add_featured_posts() {
-  if( is_home() && !is_paged() ){
+  if ( is_home() && !is_paged() ) {
     ?>
-    <h2>Featured</h2>
-    <div class='featured-posts'>
-    <?php
-    $custom_query = new WP_Query(array(
-      'post_type' => array('post', 'guides'),
-      'tag' => 'featured'
-    ));
-    while( $custom_query->have_posts() ) : $custom_query->the_post();
-      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      $category = get_the_category();
+    <div class='featured-post'>
+      <h2 class="tubs regular">Featured</h2>
+      <?php
+      $custom_query = new WP_Query(array(
+        'post_type' => array('post', 'guides'),
+        'tag' => 'featured'
+      ));
+      while( $custom_query->have_posts() ) : $custom_query->the_post();
+        $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+        $category = get_the_category();
+        ?>
+        <img src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+
+
+
+        <div class="category"><?php echo $category[0]->cat_name; ?></div>
+        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+        <?php
+        add_filter( 'excerpt_length', 'sp_excerpt_length' );
+          function sp_excerpt_length( $length ) {
+            return 50; // pull first 50 words
+          }
+        ?>
+
+      <?php endwhile;
+        wp_reset_postdata();
       ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
-        <div class='featured-image-overlay'></div>
-        <div class="featured-titles">
-          <div class="category"><?php echo $category[0]->cat_name; ?></div>
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        </div>
-        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
-      </div>
-    <?php endwhile;
-    wp_reset_postdata();
-    ?>
     </div>
     <?php
   }
@@ -131,7 +137,7 @@ function add_news_and_updates_posts() {
 function add_evergreen_posts() {
   if( is_home() && !is_paged() ){
     ?>
-    <h2>Evergreen posts</h2>
+    <h2 class="regular">Evergreen posts</h2>
     <div class='evergreen-posts'>
     <?php
     $custom_query = new WP_Query(array(
@@ -192,8 +198,9 @@ function category_setup() {
 }
 
 function add_latest_title() {
-  if ( is_home() && !is_paged() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
+  if ( is_home() && !is_paged() ) {
+  ?>
+    <!-- <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1> -->
   <?php }
   else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>

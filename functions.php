@@ -97,10 +97,6 @@ function genesischild_theme_setup() {
   ) );
   add_action( 'genesis_after_content', 'add_post_sidebar' );
 
-  // Custon Blog landing page
-  // remove_action( 'genesis_loop', 'genesis_do_loop' );
-  // add_action( 'genesis_loop', 'custom_blog_loop' );
-
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8);
 
@@ -122,7 +118,7 @@ function genesischild_theme_setup() {
   add_action( 'template_redirect', 'single_release_note_redirect' );
 
   // Customise home page
-  add_action( 'genesis_before_loop', 'change_home_loop' ); 
+  add_action( 'genesis_before_loop', 'change_home_loop' );
 }
 
 ?>
