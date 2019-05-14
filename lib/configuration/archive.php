@@ -71,7 +71,7 @@ function change_home_loop() {
 function add_featured_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-    <div class='featured-post'>
+    <div class="featured-post">
       <h2 class="tubs regular">Featured</h2>
 
       <div class="flex post">
@@ -86,7 +86,7 @@ function add_featured_posts() {
           ?>
 
           <div class="post-image">
-            <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
           </div>
 
           <div class="post-body">
@@ -94,7 +94,7 @@ function add_featured_posts() {
 
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-            <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 200, '…');?></p>
+            <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
           </div>
 
         <?php endwhile;
@@ -107,64 +107,87 @@ function add_featured_posts() {
 }
 
 function add_news_and_updates_posts() {
-  if( is_home() && !is_paged() ){
+  if ( is_home() && !is_paged() ) {
     ?>
-    <h2>News and updates</h2>
-    <div class='news-and-updates-posts'>
-    <?php
-    $custom_query = new WP_Query(array(
-      'post_type' => array('post', 'guides'),
-      'tag' => 'news_and_updates'
-    ));
-    while( $custom_query->have_posts() ) : $custom_query->the_post();
-      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      $category = get_the_category();
-      ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
-        <div class='featured-image-overlay'></div>
-        <div class="featured-titles">
-          <div class="category"><?php echo $category[0]->cat_name; ?></div>
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <div class="news-and-updates-posts">
+      <h2 class="tubs regular">News and updates</h2>
+
+      <div class="flex">
+      <?php
+        $custom_query = new WP_Query(array(
+          'post_type' => array('post', 'guides'),
+          'tag' => 'news_and_updates'
+        ));
+
+        while( $custom_query->have_posts() ) : $custom_query->the_post();
+          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          $category = get_the_category();
+          ?>
+
+          <div class="post">
+            <div class="post-image">
+              <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            </div>
+
+            <div class="post-body">
+              <div class="category"><?php echo $category[0]->cat_name; ?></div>
+
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+              <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+            </div>
+          </div>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
         </div>
-        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
       </div>
-    <?php endwhile;
-    wp_reset_postdata();
-    ?>
     </div>
     <?php
   }
 }
 
 function add_evergreen_posts() {
-  if( is_home() && !is_paged() ){
+  if ( is_home() && !is_paged() ) {
     ?>
-    <h2 class="regular">Evergreen posts</h2>
-    <div class='evergreen-posts'>
-    <?php
-    $custom_query = new WP_Query(array(
-      'post_type' => array('post', 'guides'),
-      'tag' => 'evergreen'
-    ));
-    while( $custom_query->have_posts() ) : $custom_query->the_post();
-      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      $category = get_the_category();
-      ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
-        <div class='featured-image-overlay'></div>
-        <div class="featured-titles">
-          <div class="category"><?php echo $category[0]->cat_name; ?></div>
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        </div>
-        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
+    <div class="evergreen-posts">
+      <!-- <h2 class="tubs regular">Evergreen</h2> -->
+
+      <div class="flex">
+      <?php
+        $custom_query = new WP_Query(array(
+          'post_type' => array('post', 'guides'),
+          'tag' => 'evergreen'
+        ));
+        while( $custom_query->have_posts() ) : $custom_query->the_post();
+          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          $category = get_the_category();
+          ?>
+
+          <div class="post">
+            <div class="post-image">
+              <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            </div>
+
+            <div class="post-body">
+              <div class="category"><?php echo $category[0]->cat_name; ?></div>
+
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+              <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 10, '…');?></p>
+            </div>
+          </div>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
       </div>
-    <?php endwhile;
-    wp_reset_postdata();
-    ?>
     </div>
     <?php
   }
 }
+
 function add_custom_category_entry_content() {
   ?>
     <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
