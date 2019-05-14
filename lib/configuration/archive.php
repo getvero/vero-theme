@@ -122,7 +122,7 @@ function category_setup() {
     }
     else {
       ?>
-        <div class='category-image'><a href='<?php the_permalink(); ?>'></a></div>
+        <div class="category-image"><a href="<?php the_permalink(); ?>"></a></div>
       <?php
     }
 
@@ -165,14 +165,13 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-blog-navigation nav-blog bottom-margin-medium">
-      <div class="nav-blog-categories">
-        <div class="category-button flex items-center">
-          <?php get_category_title(); ?>
+    <div class="js-blog-navigation nav-blog">
+      <p class="bottom-margin-medium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
-          <svg class="left-margin-micro" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
-        </div>
-        <ul class="nav-blog-category-list semi-bold">
+      <div class="nav-blog-categories">
+        <h3 class="semi-bold annotation uppercase faded">Categories</h3>
+
+        <ul class="nav-blog-category-list">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
           <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
