@@ -120,6 +120,9 @@ function genesischild_theme_setup() {
   // Customise Release Notes
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
+
+  // Customise home page
+  add_action( 'genesis_before_loop', 'change_home_loop' ); 
 }
 
 ?>

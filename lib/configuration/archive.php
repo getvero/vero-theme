@@ -59,34 +59,32 @@ function get_highest_shares() {
   return $result;
 }
 
+function change_home_loop() {
+  if ( is_home() ) {
+  remove_action( 'genesis_loop', 'genesis_do_loop' );
+  add_action( 'genesis_loop', 'add_featured_posts' );
+  add_action( 'genesis_loop', 'add_news_and_updates_posts' );
+  add_action( 'genesis_loop', 'add_evergreen_posts' );
+  }
+}
+
 function add_featured_posts() {
   if( is_home() && !is_paged() ){
     ?>
+    <h2>Featured</h2>
     <div class='featured-posts'>
     <?php
     $custom_query = new WP_Query(array(
       'post_type' => array('post', 'guides'),
-      'featured' => 'yes'
+      'tag' => 'featured'
     ));
     while( $custom_query->have_posts() ) : $custom_query->the_post();
       $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       $category = get_the_category();
-      $result = get_highest_shares();
-      if( $result['shares'] < 30 ) {
-        $result['platform'] = "none";
-        $result['shares'] = "Editor's Pick";
-      } else if( $result['platform'] == 'all' ) {
-        $result['platform'] = 'share';
-        $result['shares'] = number_format($result['shares']);
-      } else {
-        $result['shares'] = number_format($result['shares']);
-      }
       ?>
       <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
-        <?php $nssb = new Naked_Social_Share_Buttons; echo $nssb->share_numbers['shares']; ?>
         <div class='featured-image-overlay'></div>
         <div class="featured-titles">
-          <div class="shares-label <?php echo $result['platform']; ?>"><span class="fa fa-<?php echo $result['platform']; ?>"></span><?php echo $result['shares']; ?></div>
           <div class="category"><?php echo $category[0]->cat_name; ?></div>
           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         </div>
@@ -100,6 +98,65 @@ function add_featured_posts() {
   }
 }
 
+function add_news_and_updates_posts() {
+  if( is_home() && !is_paged() ){
+    ?>
+    <h2>News and updates</h2>
+    <div class='news-and-updates-posts'>
+    <?php
+    $custom_query = new WP_Query(array(
+      'post_type' => array('post', 'guides'),
+      'tag' => 'news_and_updates'
+    ));
+    while( $custom_query->have_posts() ) : $custom_query->the_post();
+      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+      $category = get_the_category();
+      ?>
+      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
+        <div class='featured-image-overlay'></div>
+        <div class="featured-titles">
+          <div class="category"><?php echo $category[0]->cat_name; ?></div>
+          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        </div>
+        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
+      </div>
+    <?php endwhile;
+    wp_reset_postdata();
+    ?>
+    </div>
+    <?php
+  }
+}
+
+function add_evergreen_posts() {
+  if( is_home() && !is_paged() ){
+    ?>
+    <h2>Evergreen posts</h2>
+    <div class='evergreen-posts'>
+    <?php
+    $custom_query = new WP_Query(array(
+      'post_type' => array('post', 'guides'),
+      'tag' => 'evergreen'
+    ));
+    while( $custom_query->have_posts() ) : $custom_query->the_post();
+      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+      $category = get_the_category();
+      ?>
+      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
+        <div class='featured-image-overlay'></div>
+        <div class="featured-titles">
+          <div class="category"><?php echo $category[0]->cat_name; ?></div>
+          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        </div>
+        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
+      </div>
+    <?php endwhile;
+    wp_reset_postdata();
+    ?>
+    </div>
+    <?php
+  }
+}
 function add_custom_category_entry_content() {
   ?>
     <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
