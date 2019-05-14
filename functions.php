@@ -31,9 +31,12 @@ function genesischild_theme_setup() {
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
+
+  // Remove header
   remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
   remove_action( 'genesis_header', 'genesis_do_header' );
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
+
   add_filter( 'body_class', 'add_body_classes' );
   add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
   add_filter ( 'genesis_edit_post_link' , '__return_false' );
@@ -93,6 +96,10 @@ function genesischild_theme_setup() {
     'description'   => __( 'This widget are floats next to blog posts and guides', 'vero' ),
   ) );
   add_action( 'genesis_after_content', 'add_post_sidebar' );
+
+  // Custon Blog landing page
+  // remove_action( 'genesis_loop', 'genesis_do_loop' );
+  // add_action( 'genesis_loop', 'custom_blog_loop' );
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8);
