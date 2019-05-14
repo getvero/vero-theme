@@ -12,18 +12,27 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <ul class="menu" id="menu-marketing-navbar-left">
     <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
       <a href="https://www.getvero.com">
-        <img data-no-retina src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+        <img src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     </li>
   </ul>
   <?php $logo = ob_get_clean();
+
+
+  ob_start();
+	get_search_form();
+	$search = ob_get_clean();
 
   ob_start();
   ?>
   <div class="nav-menu-toggle"><a href="#">Menu</a></div>
   <?php $responsive_toggle = ob_get_clean();
 
-  return $logo . $menu . $responsive_toggle;
+  if ( is_blog_archive() || is_single() ) {
+    return $logo . '<div class="left-margin-auto">'.  $search . '</div>';
+  } else {
+    return $logo . $menu . $responsive_toggle;
+  }
 }
 
 function additional_active_item_classes($classes = array(), $menu_item = false){
