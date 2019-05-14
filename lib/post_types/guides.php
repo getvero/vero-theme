@@ -13,7 +13,7 @@ function create_guides_post_type() {
     'rewrite' => array('slug' => 'guides','with_front' => true),
     'hierarchical' => true,
     'supports' => array('title', 'author', 'comments', 'editor','page-attributes','thumbnail', 'excerpt', 'post-formats'),
-    'taxonomies' => array('category')
+    'taxonomies' => array('category', 'post_tag')
   );
 
   register_post_type( 'guides', $args);
