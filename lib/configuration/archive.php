@@ -61,10 +61,10 @@ function get_highest_shares() {
 
 function change_home_loop() {
   if ( is_home() ) {
-  remove_action( 'genesis_loop', 'genesis_do_loop' );
-  add_action( 'genesis_loop', 'add_featured_posts' );
-  add_action( 'genesis_loop', 'add_news_and_updates_posts' );
-  add_action( 'genesis_loop', 'add_evergreen_posts' );
+    remove_action( 'genesis_loop', 'genesis_do_loop' );
+    add_action( 'genesis_loop', 'add_featured_posts' );
+    add_action( 'genesis_loop', 'add_news_and_updates_posts' );
+    add_action( 'genesis_loop', 'add_evergreen_posts' );
   }
 }
 
@@ -73,32 +73,34 @@ function add_featured_posts() {
     ?>
     <div class='featured-post'>
       <h2 class="tubs regular">Featured</h2>
+
+      <div class="flex post">
       <?php
-      $custom_query = new WP_Query(array(
-        'post_type' => array('post', 'guides'),
-        'tag' => 'featured'
-      ));
-      while( $custom_query->have_posts() ) : $custom_query->the_post();
-        $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-        $category = get_the_category();
+        $custom_query = new WP_Query(array(
+          'post_type' => array('post', 'guides'),
+          'tag' => 'featured'
+        ));
+        while( $custom_query->have_posts() ) : $custom_query->the_post();
+          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          $category = get_the_category();
+          ?>
+
+          <div class="post-image">
+            <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+          </div>
+
+          <div class="post-body">
+            <div class="category"><?php echo $category[0]->cat_name; ?></div>
+
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+            <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 200, '…');?></p>
+          </div>
+
+        <?php endwhile;
+          wp_reset_postdata();
         ?>
-        <img src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-
-
-
-        <div class="category"><?php echo $category[0]->cat_name; ?></div>
-        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
-        <?php
-        add_filter( 'excerpt_length', 'sp_excerpt_length' );
-          function sp_excerpt_length( $length ) {
-            return 50; // pull first 50 words
-          }
-        ?>
-
-      <?php endwhile;
-        wp_reset_postdata();
-      ?>
+      </div>
     </div>
     <?php
   }
