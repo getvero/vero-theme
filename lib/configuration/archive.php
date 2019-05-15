@@ -124,12 +124,12 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="post">
-              <div class="post-image">
+              <div class="post-image bottom-margin-tiny">
                 <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
-                <div class="category"><?php echo $category[0]->cat_name; ?></div>
+                <div class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></div>
 
                 <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
@@ -163,12 +163,12 @@ function add_other_posts() {
           ?>
 
             <div class="post">
-              <div class="post-image">
+              <div class="post-image bottom-margin-tiny">
                 <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
-                <div class="category"><?php echo $category[0]->cat_name; ?></div>
+                <div class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></div>
 
                 <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               </div>
