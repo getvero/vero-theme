@@ -41,6 +41,7 @@ function genesischild_theme_setup() {
   add_filter('wp_get_attachment_url', 'my_wp_get_attachment_url_ssl');
   add_filter ( 'genesis_edit_post_link' , '__return_false' );
 
+  unregister_sidebar( 'sidebar' );
   unregister_sidebar( 'sidebar-alt' );
   unregister_sidebar( 'sidebar-footer' );
   unregister_sidebar( 'header-right' );
@@ -117,7 +118,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
 
-  // Customise home page
+  // Customise resouces home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
 }
 
