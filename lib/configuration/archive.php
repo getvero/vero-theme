@@ -62,13 +62,13 @@ function get_highest_shares() {
 function change_home_loop() {
   if ( is_home() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
-    add_action( 'genesis_loop', 'add_featured_posts' );
+    add_action( 'genesis_loop', 'add_featured_post' );
     add_action( 'genesis_loop', 'add_news_and_updates_posts' );
-    add_action( 'genesis_loop', 'add_evergreen_posts' );
+    add_action( 'genesis_loop', 'add_other_posts' );
   }
 }
 
-function add_featured_posts() {
+function add_featured_post() {
   if ( is_home() && !is_paged() ) {
     ?>
     <div class="featured-post">
@@ -109,81 +109,75 @@ function add_featured_posts() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-    <div class="news-and-updates-posts">
-      <h2 class="tubs regular">News and updates</h2>
+      <div class="news-and-updates-posts">
+        <h2 class="tubs regular">News and updates</h2>
 
-      <div class="flex">
-      <?php
-        $custom_query = new WP_Query(array(
-          'post_type' => array('post', 'guides'),
-          'tag' => 'news_and_updates'
-        ));
+        <div class="flex">
+        <?php
+          $custom_query = new WP_Query(array(
+            'post_type' => array('post', 'guides'),
+            'tag' => 'news_and_updates'
+          ));
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $category = get_the_category();
+            ?>
 
-        while( $custom_query->have_posts() ) : $custom_query->the_post();
-          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-          $category = get_the_category();
+            <div class="post">
+              <div class="post-image">
+                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              </div>
+
+              <div class="post-body">
+                <div class="category"><?php echo $category[0]->cat_name; ?></div>
+
+                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              </div>
+            </div>
+
+          <?php endwhile;
+            wp_reset_postdata();
           ?>
-
-          <div class="post">
-            <div class="post-image">
-              <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-            </div>
-
-            <div class="post-body">
-              <div class="category"><?php echo $category[0]->cat_name; ?></div>
-
-              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
-              <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
-            </div>
-          </div>
-
-        <?php endwhile;
-          wp_reset_postdata();
-        ?>
         </div>
       </div>
-    </div>
     <?php
   }
 }
 
-function add_evergreen_posts() {
+function add_other_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-    <div class="evergreen-posts">
-      <!-- <h2 class="tubs regular">Evergreen</h2> -->
+      <div class="evergreen-posts">
+        <div class="flex">
+        <?php
+          $custom_query = new WP_Query(array(
+            'post_type' => array('post', 'guides'),
+            'tag' => 'evergreen'
+          ));
 
-      <div class="flex">
-      <?php
-        $custom_query = new WP_Query(array(
-          'post_type' => array('post', 'guides'),
-          'tag' => 'evergreen'
-        ));
-        while( $custom_query->have_posts() ) : $custom_query->the_post();
-          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-          $category = get_the_category();
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $category = get_the_category();
           ?>
 
-          <div class="post">
-            <div class="post-image">
-              <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            <div class="post">
+              <div class="post-image">
+                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              </div>
+
+              <div class="post-body">
+                <div class="category"><?php echo $category[0]->cat_name; ?></div>
+
+                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              </div>
             </div>
 
-            <div class="post-body">
-              <div class="category"><?php echo $category[0]->cat_name; ?></div>
-
-              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-
-              <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 10, '…');?></p>
-            </div>
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
           </div>
-
-        <?php endwhile;
-          wp_reset_postdata();
-        ?>
+        </div>
       </div>
-    </div>
     <?php
   }
 }
