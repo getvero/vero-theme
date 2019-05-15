@@ -72,7 +72,7 @@ function add_featured_post() {
   if ( is_home() && !is_paged() ) {
     ?>
     <div class="resources-section featured-post">
-      <h2 class="tubs regular">Featured</h2>
+      <h2 class="micro regular">Featured</h2>
 
       <div class="grid post">
       <?php
@@ -92,7 +92,7 @@ function add_featured_post() {
           <div class="post-body">
             <div class="category"><?php echo $category[0]->cat_name; ?></div>
 
-            <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
             <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
           </div>
@@ -110,7 +110,7 @@ function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
       <div class="resources-section news-and-updates-posts">
-        <h2 class="tubs regular">News and updates</h2>
+        <h2 class="micro regular">News and updates</h2>
 
         <div class="grid">
         <?php
@@ -131,7 +131,7 @@ function add_news_and_updates_posts() {
               <div class="post-body">
                 <div class="category"><?php echo $category[0]->cat_name; ?></div>
 
-                <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
                 <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
               </div>
