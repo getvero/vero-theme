@@ -177,8 +177,8 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
-    <p class="sub-heading">Create a free account, build your first workflow and see how Vero can help your team.</p>
+    <h2 class="chunk semi-bold bottom-margin-small">Start building your best campaigns today</h2>
+    <p class="medium bottom-margin-smedium">Create a free account, build your first workflow and see how Vero can help your team.</p>
     <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get Started</a>
   </div>
 </section>
