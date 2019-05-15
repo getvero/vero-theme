@@ -71,10 +71,10 @@ function change_home_loop() {
 function add_featured_post() {
   if ( is_home() && !is_paged() ) {
     ?>
-    <div class="featured-post">
+    <div class="resources-section featured-post">
       <h2 class="tubs regular">Featured</h2>
 
-      <div class="flex post">
+      <div class="grid post">
       <?php
         $custom_query = new WP_Query(array(
           'post_type' => array('post', 'guides'),
@@ -92,7 +92,7 @@ function add_featured_post() {
           <div class="post-body">
             <div class="category"><?php echo $category[0]->cat_name; ?></div>
 
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
             <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
           </div>
@@ -109,10 +109,10 @@ function add_featured_post() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="news-and-updates-posts">
+      <div class="resources-section news-and-updates-posts">
         <h2 class="tubs regular">News and updates</h2>
 
-        <div class="flex">
+        <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
             'post_type' => array('post', 'guides'),
@@ -131,7 +131,9 @@ function add_news_and_updates_posts() {
               <div class="post-body">
                 <div class="category"><?php echo $category[0]->cat_name; ?></div>
 
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+                <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
               </div>
             </div>
 
@@ -147,8 +149,8 @@ function add_news_and_updates_posts() {
 function add_other_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="evergreen-posts">
-        <div class="flex">
+      <div class="resources-section evergreen-posts">
+        <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
             'post_type' => array('post', 'guides'),
@@ -168,7 +170,7 @@ function add_other_posts() {
               <div class="post-body">
                 <div class="category"><?php echo $category[0]->cat_name; ?></div>
 
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               </div>
             </div>
 
