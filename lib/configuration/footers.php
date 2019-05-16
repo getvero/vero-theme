@@ -97,11 +97,13 @@ function custom_footer_html() {
 
 function blog_cta() {
   ?>
-  <section class="center-text bg-dark-blue-gradient" id="call-to-action">
+  <section class="center-text bg-dark-blue-gradient">
     <div class="inner font-white">
-      <h4 class="tubs semi-bold bottom-margin-small">Put your data first and craft better product experiences</h4>
-      <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
-      <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
+      <h4 class="tubs semi-bold bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+      <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free tial</a>
+
+      <p>No credit card details required</p>
     </div>
   </section>
   <?php
