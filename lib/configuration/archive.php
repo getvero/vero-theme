@@ -74,7 +74,7 @@ function add_featured_post() {
     <div class="resources-section featured-post">
       <h2 class="micro regular">Featured</h2>
 
-      <div class="grid">
+      <div class="post post-hover">
       <?php
         $custom_query = new WP_Query(array(
           'post_type' => array('post', 'guides'),
@@ -85,27 +85,29 @@ function add_featured_post() {
           $category = get_the_category();
           ?>
 
-          <div class="post-image">
-            <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-          </div>
-
-          <div class="post-body">
-            <div class="post-header">
-              <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
-
-              <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <div class="grid">
+            <div class="post-image">
+              <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
             </div>
 
-            <div class="post-content bottom-margin-smedium">
-              <p class="medium"><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
-            </div>
+            <div class="post-body">
+              <div class="post-header">
+                <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-            <div class="flex post-meta">
-              <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+                <h3 class="chunk regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+              </div>
 
-              <div>
-                <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
+              <div class="post-content bottom-margin-smedium">
+                <p class="medium"><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+              </div>
+
+              <div class="flex post-meta">
+                <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+
+                <div>
+                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                  <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
+                </div>
               </div>
             </div>
           </div>
@@ -136,16 +138,16 @@ function add_news_and_updates_posts() {
             $category = get_the_category();
             ?>
 
-            <div class="post">
+            <div class="post post-hover">
               <div class="post-image bottom-margin-tiny">
-                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
                 <div class="post-header">
                   <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-                  <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="post-content bottom-margin-smedium">
@@ -156,8 +158,8 @@ function add_news_and_updates_posts() {
                   <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
 
                   <div>
-                    <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                    <?php echo get_the_author_meta('description'); ?>
+                    <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                    <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
                   </div>
                 </div>
               </div>
@@ -188,27 +190,29 @@ function add_other_posts() {
             $category = get_the_category();
           ?>
 
-            <div class="post">
+            <div class="post post-hover">
               <div class="post-image bottom-margin-tiny">
-                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
                 <div class="post-header">
                   <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-                  <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="post-content bottom-margin-smedium">
                   <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
                 </div>
 
-                <div class="post-meta">
-                  <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                  <?php echo get_the_author_meta('description'); ?>
-
+                <div class="flex post-meta">
                   <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+
+                  <div>
+                    <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                    <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
+                  </div>
                 </div>
               </div>
             </div>
