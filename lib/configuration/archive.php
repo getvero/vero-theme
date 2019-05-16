@@ -90,7 +90,7 @@ function add_featured_post() {
           </div>
 
           <div class="post-body">
-            <div class="category"><?php echo $category[0]->cat_name; ?></div>
+            <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
             <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
@@ -129,7 +129,7 @@ function add_news_and_updates_posts() {
               </div>
 
               <div class="post-body">
-                <div class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></div>
+                <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
                 <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
@@ -168,7 +168,7 @@ function add_other_posts() {
               </div>
 
               <div class="post-body">
-                <div class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></div>
+                <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
                 <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               </div>
@@ -250,21 +250,23 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-blog-navigation nav-blog">
-      <p class="bottom-margin-medium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+    <div class="resources-sidebar">
+      <div class="nav-resources wrap">
+        <p class="bottom-margin-medium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
-      <div class="nav-blog-categories">
-        <h3 class="semi-bold annotation uppercase faded">Categories</h3>
+        <div class="nav-blog-categories">
+          <h3 class="semi-bold annotation uppercase faded">Categories</h3>
 
-        <ul class="nav-blog-category-list">
-          <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
-          <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
-          <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
-          <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
-        </ul>
+          <ul class="nav-blog-category-list">
+            <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
+            <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
+            <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
+            <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
+          </ul>
+        </div>
+
+        <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe to updates</a>
       </div>
-
-      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe to updates</a>
     </div>
 
     <div class="modal modal-blog" id="blog">
