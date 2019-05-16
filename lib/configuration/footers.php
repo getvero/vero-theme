@@ -99,11 +99,13 @@ function blog_cta() {
   ?>
   <section class="center-text bg-dark-blue-gradient">
     <div class="inner font-white">
-      <h4 class="tubs semi-bold bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+      <div class="border-radius-2 bg-primary padding-medium">
+        <h4 class="chunk regular bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-      <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free tial</a>
+        <a class="btn btn-success btn-large bottom-margin-small" href="http://app.getvero.com/signup">Start a free tial</a>
 
-      <p>No credit card details required</p>
+        <p>No credit card details required</p>
+      </div>
     </div>
   </section>
   <?php

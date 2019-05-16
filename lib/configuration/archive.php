@@ -90,16 +90,22 @@ function add_featured_post() {
           </div>
 
           <div class="post-body">
-            <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
+            <div class="post-header">
+              <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-            <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            </div>
 
-            <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+            <div class="post-content">
+              <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+            </div>
 
-            <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-            <?php echo get_the_author_meta('description'); ?>
+            <div class="post-meta">
+              <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+              <?php echo get_the_author_meta('description'); ?>
 
-            <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+              <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+            </div>
           </div>
 
         <?php endwhile;
@@ -134,13 +140,24 @@ function add_news_and_updates_posts() {
               </div>
 
               <div class="post-body">
-                <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
+                <div class="post-header">
+                  <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-                <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                </div>
 
-                <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+                <div class="post-content bottom-margin-smedium">
+                  <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+                </div>
 
-                <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                <div class="flex post-meta">
+                  <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+
+                  <div>
+                    <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                    <?php echo get_the_author_meta('description'); ?>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -175,9 +192,22 @@ function add_other_posts() {
               </div>
 
               <div class="post-body">
-                <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
+                <div class="post-header">
+                  <span class="mini semi-bold bottom-margin-micro uppercase"><?php echo $category[0]->cat_name; ?></span>
 
-                <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                </div>
+
+                <div class="post-content bottom-margin-smedium">
+                  <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+                </div>
+
+                <div class="post-meta">
+                  <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                  <?php echo get_the_author_meta('description'); ?>
+
+                  <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+                </div>
               </div>
             </div>
 
