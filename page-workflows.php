@@ -74,8 +74,8 @@
   <div class="inner large-inner">
     <div class="flex-inner">
       <div class="left center-text primary">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig@2x.png 2x" class="zig" data-parallax='{"y" : -100}' alt=" ll the tools you need to move quickly 2">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
+        <!-- <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig@2x.png 2x" class="zig" data-parallax='{"y" : -100}' alt=" ll the tools you need to move quickly 2"> -->
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots@2x.png 2x" class="dots" data-parallax='{"y" : 100}' alt="All the tools you need to move quickly 3">
       </div>
       <div class="right secondary">
