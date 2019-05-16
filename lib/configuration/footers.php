@@ -1,7 +1,7 @@
 <?php
 
 function custom_footer() {
-  if( is_blog() ){
+  if( is_home() || is_singular('post') ){
     blog_cta();
     custom_footer_html_with_wrap();
   } else {
@@ -112,7 +112,7 @@ function blog_cta() {
 }
 
 function blog_related_posts() {
-  if( is_singular('post')){
+  if( is_singular('post') ) {
     global $post;
     $categories = get_the_category();
     $category = $categories[0]->cat_name;?>

@@ -65,6 +65,8 @@ function change_home_loop() {
     add_action( 'genesis_loop', 'add_featured_post' );
     add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     add_action( 'genesis_loop', 'add_other_posts' );
+
+    // genesis();
   }
 }
 
@@ -98,7 +100,7 @@ function add_featured_post() {
               </div>
 
               <div class="post-content bottom-margin-smedium">
-                <p class="medium"><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+                <?php echo the_excerpt_max_charlength(400); ?>
               </div>
 
               <div class="flex post-meta">
@@ -145,9 +147,8 @@ function add_news_and_updates_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
-
-                  <?php echo get_the_date( 'Y-m-d' ); ?>
+                  <span class="d-block mini semi-bold uppercase"><?php echo $category[0]->cat_name; ?></span>
+                  <span class="d-block annotation bottom-margin-tiny"><?php echo get_the_date( 'jS M Y' ); ?></span>
 
                   <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
@@ -227,6 +228,25 @@ function add_other_posts() {
       </div>
     <?php
   }
+}
+
+
+function the_excerpt_max_charlength($charlength) {
+	$excerpt = get_the_excerpt();
+	$charlength++;
+	if ( mb_strlen( $excerpt ) > $charlength ) {
+		$subex = mb_substr( $excerpt, 0, $charlength - 5 );
+		$exwords = explode( ' ', $subex );
+		$excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
+		if ( $excut < 0 ) {
+			echo mb_substr( $subex, 0, $excut );
+		} else {
+			echo $subex;
+		}
+		echo ' <br><a href="' . get_permalink() . '" class="more-link" title="Read More">Read More</a>';
+	} else {
+		echo $excerpt;
+	}
 }
 
 function add_custom_category_entry_content() {
