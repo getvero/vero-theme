@@ -95,6 +95,11 @@ function add_featured_post() {
             <h3 class="chunk regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
             <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+
+            <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+            <?php echo get_the_author_meta('description'); ?>
+
+            <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
           </div>
 
         <?php endwhile;
@@ -134,6 +139,8 @@ function add_news_and_updates_posts() {
                 <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
                 <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+
+                <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
               </div>
             </div>
 
@@ -251,7 +258,7 @@ function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
     <div class="resources-sidebar">
-      <div class="nav-resources wrap">
+      <div class="flex flex-column nav-resources wrap">
         <p class="bottom-margin-medium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
         <div class="nav-blog-categories">
@@ -265,20 +272,19 @@ function add_categories_and_search() {
           </ul>
         </div>
 
-        <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
+        <form class="js-blog-subscribe-form top-margin-auto" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
           <div class="form-group bottom-margin-tiny">
-            <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
+            <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
             <input name="user[consent_marketing]" type="hidden" value="true">
             <input name="user[consent_product_updates]" type="hidden" value="true">
             <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
             <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
           </div>
           <div class="form-group bottom-margin-tiny">
-            <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
+            <input class="btn btn-success" type="submit" value="Subscribe to updates">
           </div>
-          <div class="inner flush-top flush-bottom">
-            <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
-          </div>
+          <p class="mini"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+
         </form>
       </div>
     </div>
