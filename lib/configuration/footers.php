@@ -97,7 +97,7 @@ function custom_footer_html() {
 
 function blog_cta() {
   ?>
-  <section class="center-text bg-dark-blue-gradient">
+  <section class="resources-cta center-text bg-dark-blue-gradient">
     <div class="inner font-white">
       <div class="border-radius-2 bg-primary padding-medium">
         <h4 class="chunk regular bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
