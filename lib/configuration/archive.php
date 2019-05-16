@@ -71,7 +71,7 @@ function change_home_loop() {
 function add_featured_post() {
   if ( is_home() && !is_paged() ) {
     ?>
-    <div class="resources-section featured-post">
+    <div class="resources-section featured-post bottom-padding-large border-bottom">
       <h2 class="micro regular">Featured</h2>
 
       <div class="post post-hover">
@@ -87,7 +87,7 @@ function add_featured_post() {
 
           <div class="grid">
             <div class="post-image">
-              <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
             </div>
 
             <div class="post-body">
@@ -124,7 +124,7 @@ function add_featured_post() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section news-and-updates-posts">
+      <div class="resources-section news-and-updates-posts bottom-padding-large border-bottom">
         <h2 class="micro regular">News and updates</h2>
 
         <div class="grid">
@@ -139,13 +139,15 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="post post-hover">
-              <div class="post-image bottom-margin-tiny">
-                <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <div class="post-image bottom-margin-small">
+                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
                 <div class="post-header">
                   <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
+
+                  <?php echo get_the_date( 'Y-m-d' ); ?>
 
                   <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
@@ -191,8 +193,8 @@ function add_other_posts() {
           ?>
 
             <div class="post post-hover">
-              <div class="post-image bottom-margin-tiny">
-                <img class="border-radius01 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <div class="post-image bottom-margin-small">
+                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
 
               <div class="post-body">
