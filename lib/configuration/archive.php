@@ -289,7 +289,7 @@ function add_categories_and_search() {
         <p class="bottom-margin-medium bottom-padding-medium border-bottom">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
         <div class="resources-sidebar-categories">
-          <h3 class="semi-bold annotation uppercase faded">Categories</h3>
+          <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
 
           <ul class="resources-sidebar-categories-list">
             <li class="<?php echo is_active('all'); ?>"><a class="unstyled" href="/resources">All</a></li>
