@@ -29,11 +29,17 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="nav-menu-toggle"><a href="#">Menu</a></div>
+  <div class="js-nav-primary-toggle nav-primary-toggle border-radius-1 semi-bold">Menu</div>
   <?php $responsive_toggle = ob_get_clean();
 
+  ob_start();
+  ?>
+  <div class="js- category-menu-toggle"><a href="#">Menu</a></div>
+  <?php $category_toggle = ob_get_clean();
+
+
   if ( is_blog_archive() || is_single() ) {
-    return $logo . '<div class="left-margin-auto">'.  $search . '</div>';
+    return $logo . $category_toggle . '<div class="left-margin-auto">'.  $search . '</div>';
   } else {
     return $logo . $menu . $responsive_toggle;
   }
