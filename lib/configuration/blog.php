@@ -32,7 +32,7 @@ function change_post_info($post_meta) {
   //$categories = get_the_category($post->ID);
   $category = $categories[0]->cat_name;
   ?>
-  <p class="entry-meta semi-bold uppercase font-brand-gray-dark no-margin">
+  <div class="entry-meta semi-bold uppercase font-brand-gray-dark">
     <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
       <a href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
     <?php } else { ?>
@@ -46,7 +46,7 @@ function change_post_info($post_meta) {
     <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
       <?php echo get_the_author(); ?>
     </span>
-  </p>
+  </div>
   <?php
 }
 

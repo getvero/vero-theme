@@ -17,6 +17,7 @@ include_once( 'lib/post_types/guides.php' );          # Guides pages
 include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
+
 function genesischild_theme_setup() {
   define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
 
@@ -26,6 +27,8 @@ function genesischild_theme_setup() {
   add_theme_support( 'genesis-menus', array(
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
+
+  remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
 
   add_action( 'wp_enqueue_scripts', 'add_js' );
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
@@ -67,8 +70,9 @@ function genesischild_theme_setup() {
   add_filter('get_search_form', 'change_search_form_type');
 
   // Add featured posts, search and category bar to posts archive
-  add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
-  add_action( 'genesis_before_content', 'add_blog_post_back_button' );
+  add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+  // add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
+  // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   add_action( 'genesis_after_header', 'add_categories_and_search' );
   add_action( 'genesis_before_loop', 'add_latest_title' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
@@ -118,8 +122,36 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
 
-  // Customise resouces home page
+  // Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
+
+
+  // Customise post entry
+  // remove_action('genesis_entry_content', 'genesis_do_post_content');
+  add_action( 'genesis_before_loop', 'custom_entry_content' ); // Add custom loop
+
+  function custom_entry_content() {
+    if ( is_single()  ) {
+      //* Remove the entry header markup (requires HTML5 theme support)
+      remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+      remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+
+      //* Remove the entry title (requires HTML5 theme support)
+      remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+
+      //* Remove the entry meta in the entry header (requires HTML5 theme support)
+      // remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+
+      //* Remove the post format image (requires HTML5 theme support)
+      remove_action( 'genesis_entry_header', 'genesis_do_post_format_image', 4 );
+
+      ?>
+
+      <h1 class="titan regular bottom-margin-tiny"><?php the_title(); ?></h1>
+
+      <?php
+    }
+  }
 }
 
 ?>

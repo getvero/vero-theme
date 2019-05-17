@@ -12,7 +12,7 @@ function custom_footer() {
 function custom_footer_html_with_wrap() {
   ?>
     <?php echo custom_footer_html(); ?>
-<?php
+  <?php
 }
 
 function custom_footer_html() {

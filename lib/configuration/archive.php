@@ -60,6 +60,8 @@ function get_highest_shares() {
 }
 
 function change_home_loop() {
+  add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+
   if ( is_home() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'add_featured_post' );
@@ -71,8 +73,7 @@ function change_home_loop() {
 }
 
 function add_featured_post() {
-  if ( is_home() && !is_paged() ) {
-    ?>
+  if ( is_home() && !is_paged() ) { ?>
     <div class="resources-section featured-post bottom-padding-large border-bottom">
       <h2 class="micro regular">Featured</h2>
 
@@ -119,14 +120,13 @@ function add_featured_post() {
         ?>
       </div>
     </div>
-    <?php
-  }
+  <?php }
 }
 
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section news-and-updates-posts bottom-padding-large border-bottom">
+      <div class="resources-section resources-section-secondary news-and-updates-posts bottom-padding-large border-bottom">
         <h2 class="micro regular">News and updates</h2>
 
         <div class="grid">
@@ -180,7 +180,7 @@ function add_news_and_updates_posts() {
 function add_other_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section evergreen-posts">
+      <div class="resources-section resources-section-secondary evergreen-posts">
         <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
