@@ -25,40 +25,6 @@ function add_custom_read_more_link() {
   <?php }
 }
 
-function get_highest_shares() {
-  global $post;
-  $options = array('twitter', 'facebook', 'linkedin', 'all');
-  $shares = array();
-  $i = -1;
-
-  foreach ( $options as &$option ) {
-    global $post;
-    $i++;
-    //$share_obj = new Naked_Social_Share_Buttons($post);
-    //$shares_array = get_field('naked_shares_count')['shares'];
-    $nssb = new Naked_Social_Share_Buttons;
-    $shares_array = $nssb->share_numbers['shares'];
-
-    if($option == 'all') {
-      $score = $shares_array['facebook'] + $shares_array['twitter'] + $shares_array['linkedin'];
-    } else {
-      $score = $shares_array[$option];
-    }
-
-    $shares[$i] = intval($score);
-  }
-  if ( $shares[3] > 500 ) {
-    $max = 3;
-  } else {
-    unset($shares[3]);
-    $max = array_keys($shares, max($shares))[0];
-  }
-  $result = array();
-  $result['platform'] = $options[$max];
-  $result['shares'] = $shares[$max];
-  return $result;
-}
-
 function change_home_loop() {
   add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
@@ -145,8 +111,13 @@ function add_news_and_updates_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <span class="d-block mini semi-bold uppercase"><?php echo $category[0]->cat_name; ?></span>
-                  <span class="d-block mini bottom-margin-tiny"><?php echo get_the_date( 'jS M Y' ); ?></span>
+                  <div class="mini uppercase bottom-margin-small">
+                    <span class="semi-bold"><?php echo $category[0]->cat_name; ?></span>
+
+                    &mdash;
+
+                    <span class="regular"><?php echo get_the_date( 'j, M Y' ); ?></span>
+                  </div>
 
                   <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
@@ -337,9 +308,7 @@ function add_categories_and_search() {
               <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
               <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
             </div>
-            <div class="form-group bottom-margin-tiny">
-              <input class="btn btn-success" type="submit" value="Subscribe to updates">
-            </div>
+            <input class="btn btn-success input-width-full bottom-margin-tiny" type="submit" value="Subscribe to updates">
             <p class="mini"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
 
           </form>
