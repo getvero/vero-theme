@@ -34,12 +34,12 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="js- category-menu-toggle"><a href="#">Menu</a></div>
+  <div class="js-category-toggle category-toggle border-radius-1 semi-bold font-white">Menu</div>
   <?php $category_toggle = ob_get_clean();
 
 
   if ( is_blog_archive() || is_single() ) {
-    return $logo . $category_toggle . '<div class="left-margin-auto">'.  $search . '</div>';
+    return $logo . '<div class="left-margin-auto">'.  $search . '</div>' . $category_toggle;
   } else {
     return $logo . $menu . $responsive_toggle;
   }
