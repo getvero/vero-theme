@@ -197,22 +197,22 @@
 
   //Responsive Header
   jQuery(document).ready( function(){
-    jQuery( '.nav-menu-toggle' ).on( 'click', function() {
-      var textcont =  jQuery( '.nav-menu-toggle' ).text();
+    jQuery( '.js-nav-primary-toggle' ).on( 'click', function() {
+      var textcont =  jQuery( '.js-nav-primary-toggle' ).text();
       if(textcont == 'Menu'){
         jQuery( '#menu-marketing-navbar-right' ).slideDown();
-        jQuery( '.nav-menu-toggle a' ).text('Close');
+        jQuery( '.js-nav-primary-toggle' ).text('Close');
       }
       else if(textcont == 'Close'){
         jQuery( '#menu-marketing-navbar-right' ).slideUp();
-        jQuery( '.nav-menu-toggle a' ).text('Menu');
-        jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
+        jQuery( '.js-nav-primary-toggle' ).text('Menu');
+        jQuery( '#menu-marketing-navbar-right' ).addClass('slide');
       }
     });
   });
 
   jQuery(window).resize(function(){
-    if (jQuery('.nav-menu-toggle a').text() === 'Menu'){
+    if (jQuery('.js-nav-primary-toggle').text() === 'Menu'){
       jQuery( '#menu-marketing-navbar-right').removeAttr('style');
     }
   });
