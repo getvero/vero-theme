@@ -168,7 +168,10 @@ jQuery(document).ready(function(){
         jQuery('.js-thanks').show();
       }
     });
-
   };
+
+  jQuery('.js-category-toggle').on('click', function() {
+    alert('Click on category toggle');
+  });
 
 });
