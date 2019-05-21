@@ -35,18 +35,18 @@ jQuery(document).ready(function(){
   }
 
   // Show blog subscription form
-  jQuery('.js-overlay').on('click', function() {
-    if (!jQuery(event.target).closest('.js-newsletter').length) {
-      closeModal();
-    }
-  });
+  // jQuery('.js-overlay').on('click', function() {
+  //   if (!jQuery(event.target).closest('.js-newsletter').length) {
+  //     closeModal();
+  //   }
+  // });
 
   jQuery('.js-newsletter-close').on('click', function() {
     closeModal();
   });
 
   function closeModal() {
-    jQuery('.js-overlay').fadeOut(200);
+    // jQuery('.js-overlay').fadeOut(200);
     jQuery('.js-newsletter').removeClass('show');
 
     sessionStorage['PopupShown'] = 'yes';
@@ -55,7 +55,7 @@ jQuery(document).ready(function(){
   jQuery(window).scroll(function() {
     if(sessionStorage['PopupShown'] != 'yes') {
       if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-        jQuery('.js-overlay').show();
+        // jQuery('.js-overlay').show();
         jQuery('.js-newsletter').addClass('show');
       }
     }
@@ -89,9 +89,16 @@ jQuery(document).ready(function(){
   });
 
   // Blog fullscreen popup subscribe form
+  // jQuery('.js-blog-fs-popup-form').submit(function(e) {
+  //   e.preventDefault();
+  //   subscribeBlogFullscreen(e);
+  //   return false;
+  // });
+
+  // Blog popup subscribe form
   jQuery('.js-blog-popup-form').submit(function(e) {
     e.preventDefault();
-    subscribeBlogFullscreen(e);
+    subscribeBlogPopup(e);
     return false;
   });
 
@@ -171,23 +178,23 @@ jQuery(document).ready(function(){
     });
   };
 
-  subscribeBlogInline = function(e) {
-    var url = jQuery('.js-blog-subscribe-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-subscribe-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-enquire-intro-3').hide();
-        jQuery('.js-thanks-3').show();
-      }
-    });
-  };
+  // subscribeBlogFullscreen = function(e) {
+  //   var url = jQuery('.js-blog-fs-popup-form').attr('action');
+  //   jQuery.ajax({
+  //     type: 'POST',
+  //     url : url,
+  //     data: jQuery('.js-blog-fs-popup-form').serialize(),
+  //     success: function(data)
+  //     {
+  //       jQuery('.js-blog-fs-popup-form').hide();
+  //       jQuery('.js-policy').hide();
+  //       jQuery('.js-enquire-intro-2').hide();
+  //       jQuery('.js-thanks-2').show();
+  //     }
+  //   });
+  // };
 
-  subscribeBlogFullscreen = function(e) {
-    console.log('Trying to validate');
+  subscribeBlogPopup = function(e) {
     var url = jQuery('.js-blog-popup-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -199,6 +206,21 @@ jQuery(document).ready(function(){
         jQuery('.js-policy').hide();
         jQuery('.js-enquire-intro-2').hide();
         jQuery('.js-thanks-2').show();
+      }
+    });
+  };
+
+  subscribeBlogInline = function(e) {
+    var url = jQuery('.js-blog-subscribe-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-subscribe-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-enquire-intro-3').hide();
+        jQuery('.js-thanks-3').show();
       }
     });
   };
