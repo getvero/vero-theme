@@ -92,7 +92,7 @@ function add_contributors() {
 }
 
 function add_subscribe_form() {
-  if( is_blog_post_or_guide() ){
+  if( is_blog_post_or_guide_or_tutorial() ){
     ?>
     <div class="js-newsletter newsletter">
       <div class="js-newsletter-close newsletter-close">
