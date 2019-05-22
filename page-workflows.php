@@ -9,8 +9,6 @@
 
   include 'pages-shared/static-header.php';
 ?>
-
-
 <section class="overflow-hidden" id="workflows-hero">
   <div class="inner large-inner flex flex-column md-flex-row bottom-padding-medium">
     <div class="relative col-main secondary">
@@ -74,7 +72,6 @@
     <div class="flex-inner">
       <div class="left center-text primary">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
-        <!-- <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig@2x.png 2x" class="zig" data-parallax='{"y" : -100}' alt=" ll the tools you need to move quickly 2"> -->
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots@2x.png 2x" class="dots" data-parallax='{"y" : 100}' alt="All the tools you need to move quickly 3">
       </div>
       <div class="right secondary">
@@ -86,20 +83,6 @@
     </div>
   </div>
 </section>
-<!-- <section id="workflows-quotes" class="feature-section double-padding">
-  <div class="inner halfs left-padding-large right-padding-large">
-    <div class="left center-text">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/logo-example.png" srcset="" class=" d-inline-block bottom-margin-medium">
-      <h3 class="italic">&quot;Awesome quote about this awesome new feature&quot;</h3>
-      <p>Name, Position - Company</p>
-    </div>
-    <div class="right center-text">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/logo-example.png" srcset="" class=" d-inline-block bottom-margin-medium">
-      <h3 class="italic">&quot;Awesome quote about this awesome new feature&quot;</h3>
-      <p>Name, Position - Company</p>
-    </div>
-  </div>
-</section> -->
 <section id="workflows-reasons" class="feature-section double-padding">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-large">Build engaging campaigns and reach your goals!</h2>
