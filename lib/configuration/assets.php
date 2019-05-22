@@ -65,30 +65,33 @@ function add_js() {
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
 
-  if (is_page('careers')) {
+  if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
   }
 
-  if (is_page('features')) {
+  if ( is_page('features') ) {
     wp_enqueue_script('featherlight');
     wp_enqueue_script('prism');
   }
 
-  if (is_page('workflows')) {
+  if ( is_page('workflows') ) {
     wp_enqueue_script('jquery-parallax');
   }
 
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
-  wp_enqueue_script('smooth-scroll');
 
-  if (is_page('pricing')) {
+  if ( is_page('features') || is_blog() ) {
+    wp_enqueue_script('smooth-scroll');
+  }
+
+  if ( is_page('pricing') ) {
     wp_enqueue_script('wNumb');
     wp_enqueue_script('nouislider');
   }
 
   // Blog code highlighting
-  if (is_blog()) {
+  if ( is_blog() ) {
     wp_enqueue_script('highlight-js');
   }
 
