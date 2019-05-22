@@ -14,7 +14,7 @@
     <div class="relative col-main secondary">
       <h1 class="hulk bottom-margin-small semi-bold">Workflows</h1>
       <p class="no-top-margin bottom-margin-medium largest">A better way to design, manage and optimize email and push campaigns</p>
-      <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Try it out</a>
+      <a href="http://app.getvero.com/signup" class="btn btn-success btn-large">Try it out</a>
     </div>
     <div class="workflows-hero-bg">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig@2x.png 2x" class="zig" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">

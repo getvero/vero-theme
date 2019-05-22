@@ -34,7 +34,7 @@ function custom_load_custom_style_sheet() {
 // Add JS
 function add_js() {
   # Below this line is stuff that is new and clean
-  wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
+  // wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.min.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.min.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.min.js', array('jquery'), NULL, false);
