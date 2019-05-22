@@ -13,8 +13,9 @@ function custom_load_custom_style_sheet() {
   wp_register_style('featherlight-style', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css');
   wp_register_style( 'highlight-style', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css');
 
-
-  wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism-okaidia.min.css', NULL, PARENT_THEME_VERSION );
+  if ( is_page('features') ) {
+    wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism-okaidia.min.css', NULL, PARENT_THEME_VERSION );
+  }
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
@@ -26,9 +27,15 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
-  wp_enqueue_style( 'googlefont_merriweather');
-  wp_enqueue_style( 'featherlight-style');
-  wp_enqueue_style( 'highlight-style');
+  if ( !is_page('workflows') ) {
+    wp_enqueue_style( 'googlefont_merriweather');
+  }
+  if ( is_page('features') ) {
+    wp_enqueue_style( 'featherlight-style');
+  }
+  if ( is_blog() ) {
+    wp_enqueue_style( 'highlight-style');
+  }
 }
 
 // Add JS
@@ -58,30 +65,33 @@ function add_js() {
   wp_enqueue_script('webfonts');
   wp_enqueue_script('dev_message');
 
-  if (is_page('careers')) {
+  if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
   }
 
-  if (is_page('features')) {
+  if ( is_page('features') ) {
     wp_enqueue_script('featherlight');
     wp_enqueue_script('prism');
   }
 
-  if (is_page('workflows')) {
+  if ( is_page('workflows') ) {
     wp_enqueue_script('jquery-parallax');
   }
 
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
-  wp_enqueue_script('smooth-scroll');
 
-  if (is_page('pricing')) {
+  if ( is_page('features') || is_blog() ) {
+    wp_enqueue_script('smooth-scroll');
+  }
+
+  if ( is_page('pricing') ) {
     wp_enqueue_script('wNumb');
     wp_enqueue_script('nouislider');
   }
 
   // Blog code highlighting
-  if (is_blog()) {
+  if ( is_blog() ) {
     wp_enqueue_script('highlight-js');
   }
 
