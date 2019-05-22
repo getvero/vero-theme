@@ -18,17 +18,12 @@ jQuery(document).ready(function(){
 
 jQuery(document).ready(function(){
   // Lean Modal triggers
-  jQuery('a[rel*=leanModal]').leanModal({
-    top        : 80,
-    closeButton: '.modal-close'
-  });
-
-  // if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
-  //   jQuery('a[rel*=leanModal]').leanModal({
-  //     top        : 80,
-  //     closeButton: '.modal-close'
-  //   });
-  // }
+  if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
+    jQuery('a[rel*=leanModal]').leanModal({
+      top        : 80,
+      closeButton: '.modal-close'
+    });
+  }
 
   if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
     jQuery('.js-blog-subscribe-btn').leanModal({
