@@ -1,4 +1,9 @@
 jQuery(document).ready(function() {
+  // Smooth scroll
+  if ( jQuery('body.features').length > 0 ) {
+    var scroll = new SmoothScroll('[data-scroll]');
+  }
+
   // Responsive menu
   jQuery( '.nav-menu-toggle' ).on( 'click', function() {
     var textcont =  jQuery( '.nav-menu-toggle' ).text();
@@ -60,7 +65,7 @@ jQuery(document).ready(function() {
   });
 
   // Pricing Slider
-  if (jQuery('body').hasClass('pricing')) {
+  if ( jQuery('body').hasClass('pricing') ) {
     var slider = document.getElementById('js-price-slider');
 
     noUiSlider.create(slider, {
@@ -173,6 +178,3 @@ jQuery(window).scroll(function(){
     // console.log('unstick');
   }
 });
-
-// Smooth scroll
-var scroll = new SmoothScroll('[data-scroll]');

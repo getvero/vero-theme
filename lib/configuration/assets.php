@@ -81,7 +81,11 @@ function add_js() {
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
 
-  if ( is_page('features') || is_blog() ) {
+  if ( is_home() || is_page('pricing') || is_blog() ) {
+    // wp_enqueue_script('lean_modal');
+  }
+
+  if ( is_page('features') ) {
     wp_enqueue_script('smooth-scroll');
   }
 
