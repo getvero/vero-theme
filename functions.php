@@ -28,6 +28,15 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
+  // Conditionally load Disqus
+  function filter_dsq_can_load( $script_name ) {
+    if ( !is_single() && ( 'count' === $script_name || 'embed' === $script_name )) {
+      return false;
+    }
+    return true;
+  }
+  add_filter( 'dsq_can_load', 'filter_dsq_can_load' );
+
   add_action( 'wp_enqueue_scripts', 'add_js' );
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
 
