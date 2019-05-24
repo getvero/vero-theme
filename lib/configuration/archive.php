@@ -235,7 +235,7 @@ function category_setup() {
     if ( has_post_thumbnail() ){
       $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
       ?>
-        <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
+        <!-- <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div> -->
       <?php
     }
     else {
@@ -246,9 +246,14 @@ function category_setup() {
 
     remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
     add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
+
+    // Remove featured image from entry content
     remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+    // Add featured image above entry header.
+    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
+
     remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-    remove_action( 'genesis_entry_footer', 'add_shares' );
+    // remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
 

@@ -74,7 +74,7 @@ function genesischild_theme_setup() {
   // add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   add_action( 'genesis_after_header', 'add_categories_and_search' );
-  add_action( 'genesis_before_loop', 'add_latest_title' );
+  // add_action( 'genesis_before_loop', 'add_latest_title' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
@@ -105,6 +105,19 @@ function genesischild_theme_setup() {
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8);
+  add_action( 'genesis_before_entry', 'custom_relocate_featured_image' );
+  function custom_relocate_featured_image() {
+    // if this is not an archive, abort.
+    if ( is_singular() ) {
+        return;
+    }
+
+    // Remove featured image from entry content.
+    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+
+    // Add featured image above entry header.
+    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
+  }
 
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
