@@ -167,11 +167,13 @@ function add_categories_and_search() {
 
     <div class="js-blog-navigation nav-blog bottom-margin-medium border-bottom-light">
       <div class="nav-blog-categories">
-        <div class="category-button flex items-center">
-          <?php get_category_title(); ?>
+        <input class="" id="toggle" type="checkbox" name="toggle">
+        <label class="category-button flex items-center" for="toggle">
+          <span><?php get_category_title(); ?></span>
 
           <svg class="left-margin-micro" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
-        </div>
+        </label>
+
         <ul class="nav-blog-category-list semi-bold">
           <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
           <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
