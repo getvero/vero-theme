@@ -22,7 +22,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   </ul>
   <?php $logo = ob_get_clean();
 
-
   ob_start();
 	get_search_form();
 	$search = ob_get_clean();

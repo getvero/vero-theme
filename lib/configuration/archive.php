@@ -289,11 +289,11 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="resources-sidebar">
+    <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
         <p class="bottom-margin-medium bottom-padding-medium border-bottom">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
-        <div class="resources-sidebar-categories">
+        <div class="resources-sidebar-categories bottom-margin-small">
           <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
 
           <ul class="resources-sidebar-categories-list">
@@ -303,6 +303,8 @@ function add_categories_and_search() {
             <li class="<?php echo is_active('case-studies'); ?>"><a class="unstyled" href="/resources/category/case-studies">Case Studies</a></li>
           </ul>
         </div>
+
+        <?php echo get_search_form(); ?>
 
         <div class="top-margin-auto">
           <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
