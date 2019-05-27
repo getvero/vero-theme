@@ -4,15 +4,18 @@ jQuery(window).load(function(){
 
 // Sticky header
 jQuery(window).scroll(function() {
-  var header       = jQuery('.nav-primary');
-  var headerOffset = header.offset().top;
-  var scroll       = jQuery(window).scrollTop();
+  var header          = jQuery('.nav-primary');
+  var resourcesHeader = jQuery('.js-resources-sidebar');
+  var scroll          = jQuery(window).scrollTop();
 
   if (scroll >= 10) {
     header.addClass('sticky');
+    resourcesHeader.css('top', header.outerHeight());
     console.log('Stick');
+
   } else {
     header.removeClass('sticky');
+    resourcesHeader.css('top', 'auto');
     console.log('Unstick');
   }
 });
@@ -170,8 +173,17 @@ jQuery(document).ready(function(){
     });
   };
 
+  // Responsive resources menu
   jQuery('.js-category-toggle').on('click', function() {
-    alert('Click on category toggle');
+    var textCont =  jQuery(this).text();
+
+    if (textCont == 'Menu') {
+      jQuery('.js-resources-sidebar').addClass('show');
+      jQuery(this).text('Close');
+    } else {
+      jQuery('.js-resources-sidebar').removeClass('show');
+      jQuery(this).text('Menu');
+    }
   });
 
 });
