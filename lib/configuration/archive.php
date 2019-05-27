@@ -59,7 +59,7 @@ function add_featured_post() {
 
             <div class="post-body">
               <div class="post-header">
-                <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
+                <span class="d-inline-block mini border-light border-radius-1 padding-micro semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
 
                 <h3 class="chunk regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
               </div>
@@ -112,7 +112,7 @@ function add_news_and_updates_posts() {
               <div class="post-body">
                 <div class="post-header">
                   <div class="mini uppercase bottom-margin-small">
-                    <span class="semi-bold"><?php echo $category[0]->cat_name; ?></span>
+                    <a class="d-inline-block semi-bold border-light border-radius-1 padding-micro" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                     &mdash;
 
@@ -159,7 +159,7 @@ function add_other_posts() {
 
           while( $custom_query->have_posts() ) : $custom_query->the_post();
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-            $category = get_the_category();
+            $category       = get_the_category();
           ?>
 
             <div class="post post-hover">
@@ -169,7 +169,7 @@ function add_other_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <span class="d-block mini semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
+                  <a class="d-inline-block mini semi-bold border-light border-radius-1 padding-micro bottom-margin-tiny uppercase" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                   <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
