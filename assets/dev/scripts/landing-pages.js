@@ -2,7 +2,13 @@ jQuery(window).load(function(){
   jQuery('pre.okaidia').find('code').addClass('okaidia');
 });
 
-jQuery(document).ready(function(){
+jQuery(document).ready(function() {
+  // Load hljs
+  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
+    hljs.initHighlightingOnLoad();
+  }
+
+
   // Feature image switcher
   jQuery('.feature-swapper-option').click(function(e){
     var swapTo = jQuery(this).data('swap-to');
