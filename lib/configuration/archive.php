@@ -59,9 +59,9 @@ function add_featured_post() {
 
             <div class="post-body">
               <div class="post-header">
-                <span class="d-inline-block mini border-light border-radius-1 padding-micro semi-bold bottom-margin-tiny uppercase"><?php echo $category[0]->cat_name; ?></span>
+                <a class="unstyled border-dark-blue badge bottom-margin-tiny" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                <h3 class="chunk regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
               </div>
 
               <div class="post-content bottom-margin-smedium">
@@ -111,12 +111,12 @@ function add_news_and_updates_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <div class="mini uppercase bottom-margin-small">
-                    <a class="d-inline-block semi-bold border-light border-radius-1 padding-micro" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <div class="bottom-margin-tiny">
+                    <a class="unstyled uppercase annotation" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                     &mdash;
 
-                    <span class="regular"><?php echo get_the_date( 'j, M Y' ); ?></span>
+                    <span class="regular annotation uppercase"><?php echo get_the_date( 'j, M Y' ); ?></span>
                   </div>
 
                   <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
@@ -169,7 +169,7 @@ function add_other_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <a class="d-inline-block mini semi-bold border-light border-radius-1 padding-micro bottom-margin-tiny uppercase" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <a class="unstyled border-dark-blue badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                   <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
@@ -291,7 +291,7 @@ function add_categories_and_search() {
 
     <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
-        <p class="bottom-margin-medium bottom-padding-medium border-bottom">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+        <p class="hide md-show bottom-margin-medium bottom-padding-medium border-bottom">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
         <div class="resources-sidebar-categories bottom-margin-small">
           <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>

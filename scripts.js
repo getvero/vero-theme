@@ -195,7 +195,7 @@
     });
   });
 
-  //Responsive Header
+  // Responsive Header
   jQuery(document).ready( function(){
     jQuery( '.js-nav-primary-toggle' ).on( 'click', function() {
       var textcont =  jQuery( '.js-nav-primary-toggle' ).text();

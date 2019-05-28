@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
