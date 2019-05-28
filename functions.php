@@ -85,6 +85,8 @@ function genesischild_theme_setup() {
   // Move featured image above title
   add_action( 'genesis_before_content', 'move_feature_image' );
 
+  // Customise post entry
+  add_action( 'genesis_before_loop', 'custom_post_content' );
 
   add_action( 'genesis_after_header', 'add_subscribe_form' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
@@ -139,8 +141,6 @@ function genesischild_theme_setup() {
   // Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
 
-  // Customise post entry
-  add_action( 'genesis_before_loop', 'custom_entry_content' ); // Add custom loop
 }
 
 ?>
