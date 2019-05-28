@@ -52,7 +52,7 @@ function add_featured_post() {
           $category = get_the_category();
           ?>
 
-          <div class="grid">
+          <div class="grid md-items-center">
             <div class="post-image">
               <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
             </div>
@@ -112,7 +112,7 @@ function add_news_and_updates_posts() {
               <div class="post-body">
                 <div class="post-header">
                   <div class="flex items-center bottom-margin-small">
-                    <a class="unstyled badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                    <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                     <span class="badge"><?php echo get_the_date( 'j, M Y' ); ?></span>
                   </div>

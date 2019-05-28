@@ -1,5 +1,15 @@
 <?php
 
+function add_author() {
+  if ( is_single() ) {
+    ?>
+    <div class="medium bottom-margin-medium">
+      by <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
+    </div>
+    <?php
+  }
+}
+
 function add_feature_image_to_posts() {
   if ( is_blog_post_or_guide() ){
     global $post;
@@ -16,7 +26,7 @@ function add_feature_image_to_posts() {
   }
 }
 
-function move_feature_image() {
+function move_featured_image() {
   if ( is_home() ){
     remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
     add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
