@@ -27,7 +27,7 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
-  if ( !is_page('workflows') ) {
+  if ( is_front_page() || is_page('data-managemen') || is_page('customer-engagement') || is_page('vero-segment') || is_page('vero-stitch') ) {
     wp_enqueue_style( 'googlefont_merriweather');
   }
   if ( is_page('features') ) {
@@ -80,10 +80,6 @@ function add_js() {
 
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
-
-  if ( is_home() || is_page('pricing') || is_blog() ) {
-    // wp_enqueue_script('lean_modal');
-  }
 
   if ( is_page('features') ) {
     wp_enqueue_script('smooth-scroll');
