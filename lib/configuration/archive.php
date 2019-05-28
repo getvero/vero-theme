@@ -38,7 +38,7 @@ function change_home_loop() {
 
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
-    <div class="resources-section featured-post bottom-padding-large border-bottom">
+    <div class="resources-section featured-post bottom-padding-medium border-bottom">
       <h2 class="micro regular">Featured</h2>
 
       <div class="post post-hover">
@@ -59,7 +59,7 @@ function add_featured_post() {
 
             <div class="post-body">
               <div class="post-header">
-                <a class="unstyled border-dark-blue badge bottom-margin-tiny" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                <a class="unstyled badge bottom-margin-smedium" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                 <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
               </div>
@@ -90,7 +90,7 @@ function add_featured_post() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary news-and-updates-posts bottom-padding-large border-bottom">
+      <div class="resources-section resources-section-secondary news-and-updates-posts bottom-padding-medium border-bottom">
         <h2 class="micro regular">News and updates</h2>
 
         <div class="grid">
@@ -111,15 +111,13 @@ function add_news_and_updates_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <div class="bottom-margin-tiny">
-                    <a class="unstyled uppercase annotation" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <div class="flex items-center bottom-margin-small">
+                    <a class="unstyled badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                    &mdash;
-
-                    <span class="regular annotation uppercase"><?php echo get_the_date( 'j, M Y' ); ?></span>
+                    <span class="badge"><?php echo get_the_date( 'j, M Y' ); ?></span>
                   </div>
 
-                  <h3 class="micro regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="micro regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="post-content bottom-margin-smedium">
@@ -169,9 +167,9 @@ function add_other_posts() {
 
               <div class="post-body">
                 <div class="post-header">
-                  <a class="unstyled border-dark-blue badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="regular"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="micro regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="post-content bottom-margin-smedium">
@@ -316,7 +314,7 @@ function add_categories_and_search() {
               <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
             </div>
             <input class="btn btn-success input-width-full bottom-margin-tiny" type="submit" value="Subscribe to updates">
-            <p class="mini"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+            <p class="annotation"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
 
           </form>
         </div>
