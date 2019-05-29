@@ -41,7 +41,7 @@ function add_featured_post() {
     <div class="resources-section featured-post bottom-padding-medium border-bottom">
       <h2 class="micro regular">Featured</h2>
 
-      <div class="post post-hover">
+      <div class="entry entry-hover">
       <?php
         $custom_query = new WP_Query(array(
           'post_type' => array('post', 'guides'),
@@ -64,15 +64,15 @@ function add_featured_post() {
                 <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
               </div>
 
-              <div class="post-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-smedium">
                 <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
               </div>
 
-              <div class="flex items-center post-meta">
+              <div class="flex items-center entry-footer">
                 <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
 
                 <div>
-                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
                   <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function add_news_and_updates_posts() {
             $category = get_the_category();
             ?>
 
-            <div class="post post-hover">
+            <div class="entry entry-hover">
               <div class="post-image bottom-margin-small">
                 <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
@@ -120,11 +120,11 @@ function add_news_and_updates_posts() {
                   <h3 class="micro regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
-                <div class="post-content bottom-margin-smedium">
+                <div class="entry-content bottom-margin-smedium">
                   <p class="medium"><?php echo the_excerpt_max_charlength(400); ?><p>
                 </div>
 
-                <div class="flex items-center post-meta">
+                <div class="flex items-center entry-footer">
                   <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
 
                   <div>
@@ -160,7 +160,7 @@ function add_other_posts() {
             $category       = get_the_category();
           ?>
 
-            <div class="post post-hover">
+            <div class="entry entry-hover">
               <div class="post-image bottom-margin-small">
                 <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </div>
@@ -172,11 +172,11 @@ function add_other_posts() {
                   <h3 class="micro regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
-                <div class="post-content bottom-margin-smedium">
+                <div class="entry-content bottom-margin-smedium">
                   <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
                 </div>
 
-                <div class="flex items-center post-meta">
+                <div class="flex items-center entry-footer">
                   <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
 
                   <div>

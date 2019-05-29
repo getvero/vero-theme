@@ -101,7 +101,10 @@
 
   function custom_entry_footer() {
     if ( is_archive() ) {
-      echo get_the_author();
+      ?>
+        <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
+        <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
+      <?php
     }
   }
 
