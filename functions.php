@@ -28,7 +28,9 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
+  // Remove sidebars
   remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
+  remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 
   add_action( 'wp_enqueue_scripts', 'add_js' );
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
@@ -50,6 +52,8 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'header-right' );
   unregister_nav_menu( 'header-right' );
 
+
+
   // Add custom types
   add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
@@ -69,12 +73,12 @@ function genesischild_theme_setup() {
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
   add_filter('get_search_form', 'change_search_form_type');
 
-  // Add featured posts, search and category bar to posts archive
-  add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-  // add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
+  // Add categories and search
+  // add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+  add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   add_action( 'genesis_after_header', 'add_categories_and_search' );
-  // add_action( 'genesis_before_loop', 'add_latest_title' );
+  add_action( 'genesis_before_content', 'add_latest_title' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
@@ -93,7 +97,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
-  // Move author to after entry title
+  // Move author to after entry title on posts
   add_action( 'genesis_entry_header', 'add_author' );
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
@@ -110,19 +114,6 @@ function genesischild_theme_setup() {
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8);
-  add_action( 'genesis_before_entry', 'custom_relocate_featured_image' );
-  function custom_relocate_featured_image() {
-    // if this is not an archive, abort.
-    if ( is_singular() ) {
-        return;
-    }
-
-    // Remove featured image from entry content.
-    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-
-    // Add featured image above entry header.
-    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
-  }
 
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
@@ -131,8 +122,8 @@ function genesischild_theme_setup() {
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
   // Search page
-  add_action ('genesis_before', 'remove_search_title');
-  add_filter ('genesis_search_text', 'change_search_form_placeholder');
+  add_action( 'genesis_before', 'remove_search_title' );
+  add_filter( 'genesis_search_text', 'change_search_form_placeholder' );
 
   // Remove Genesis SEO Settings menu link
   remove_theme_support('genesis-seo-settings-menu');
