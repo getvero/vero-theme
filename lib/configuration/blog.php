@@ -32,7 +32,7 @@
   }
 
   function custom_post_content() {
-    if ( is_single() || is_archive() ) {
+    if ( is_single() || is_archive() || is_search() ) {
       // Position entry meta above title
       remove_action( 'genesis_entry_header', 'genesis_post_info', 12);
       add_action( 'genesis_entry_header', 'genesis_post_info', 9 );
@@ -62,7 +62,7 @@
 
   function change_post_info($post_meta) {
     if ( !is_blog() ) {
-      return '';
+      // return '';
     }
 
     global $post;
@@ -80,7 +80,7 @@
         <?php } ?>
       </div>
       <?php
-    } else {
+    } else if ( is_archive() ) {
       ?>
       <div class="entry-meta bottom-margin-small">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
@@ -92,11 +92,17 @@
         <time class="entry-time"><?php echo the_time('j M, Y'); ?></time>
       </div>
       <?php
+    } else {
+      ?>
+      <div class="entry-meta bottom-margin-small">
+        <a class="unstyled badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+      </div>
+      <?php
     }
   }
 
   function custom_entry_footer() {
-    if ( is_archive() ) {
+    if ( is_archive() || is_search() ) {
       ?>
         <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
         <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
