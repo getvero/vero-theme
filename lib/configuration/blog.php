@@ -99,6 +99,12 @@
     }
   }
 
+  function custom_entry_footer() {
+    if ( is_archive() ) {
+      echo get_the_author();
+    }
+  }
+
   function is_active($page) {
     if( is_category($page) ) {
       return 'active';

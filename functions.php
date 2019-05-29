@@ -98,6 +98,7 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
+  add_action( 'genesis_entry_footer', 'custom_entry_footer' );
 
   // Custom sidebar for post
   genesis_register_sidebar( array(
