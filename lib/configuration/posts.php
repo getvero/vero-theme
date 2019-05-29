@@ -44,7 +44,7 @@ function add_blog_post_back_button() {
 
 function add_shares_to_post() {
   global $post;
-  if( is_blog_post_or_guide() ){
+  if( is_blog_post_or_guide_or_tutorial() ){
     ?>
       <div class='shares-block'>
         <!-- <div class='total-shares'>
@@ -67,7 +67,7 @@ function add_shares_to_post() {
 }
 
 function post_remove_footer() {
-  if( is_blog_post_or_guide() ){
+  if( is_blog_post_or_guide_or_tutorial() ){
     remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
