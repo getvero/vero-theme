@@ -27,9 +27,16 @@ function add_feature_image_to_posts() {
 }
 
 function move_featured_image() {
-  if ( is_home() ){
+  if ( is_home() ) {
     remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
     add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
+  }
+
+  if ( is_category() || is_search() ) {
+    // Remove featured image from entry content
+    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+    // Add featured image above entry header.
+    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
   }
 }
 

@@ -197,7 +197,6 @@ function add_other_posts() {
   }
 }
 
-
 function the_excerpt_max_charlength($charlength) {
 	$excerpt = get_the_excerpt();
 	$charlength++;
@@ -218,40 +217,17 @@ function the_excerpt_max_charlength($charlength) {
 
 function add_custom_category_entry_content() {
   ?>
-    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
+    <p><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
   <?php
-}
-
-function change_excerpt_length( $length ) {
-  if ( is_category() || is_search() ){
-    return 20;
-  }
 }
 
 function category_setup() {
   if ( is_category() || is_search() ){
-    if ( has_post_thumbnail() ){
-      $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      ?>
-        <!-- <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div> -->
-      <?php
-    }
-    else {
-      ?>
-        <div class="category-image"><a href="<?php the_permalink(); ?>"></a></div>
-      <?php
-    }
-
     remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
     add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
 
-    // Remove featured image from entry content
-    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-    // Add featured image above entry header.
-    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
-
     remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-    // remove_action( 'genesis_entry_footer', 'add_shares' );
+    remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
 
@@ -262,13 +238,17 @@ function add_latest_title() {
   <?php }
   else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h1>
+    <h1 class="tubs regular no-bottom-margin">All – Page <?php echo $paged; ?></h1>
   <?php }
   else if ( is_category() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium"><?php single_cat_title() ?></h1>
+    <div class="archive-description">
+      <h1 class="tubs regular no-bottom-margin"><?php single_cat_title() ?></h1>
+    </div>
   <?php }
   else if ( is_search() ) { ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h1>
+    <div class="archive-description">
+      <h1 class="tubs regular no-bottom-margin">Search results for: <?php echo get_search_query(); ?></h1>
+    </div>
   <?php }
 }
 

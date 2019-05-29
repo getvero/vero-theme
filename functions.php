@@ -78,7 +78,7 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   add_action( 'genesis_after_header', 'add_categories_and_search' );
-  add_action( 'genesis_before_content', 'add_latest_title' );
+  add_action( 'genesis_before_loop', 'add_latest_title' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
@@ -87,10 +87,10 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
 
   // Move featured image above title
-  add_action( 'genesis_before_content', 'move_featured_image' );
+  add_action( 'genesis_entry_header', 'move_featured_image' );
 
   // Customise post entry
-  add_action( 'genesis_before_loop', 'custom_post_content' );
+  add_action( 'genesis_before_loop', 'change_post_structure' );
 
   add_action( 'genesis_after_header', 'add_subscribe_form' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
@@ -114,6 +114,7 @@ function genesischild_theme_setup() {
 
   // Category page
   add_action( 'genesis_entry_header', 'category_setup', 8);
+  remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 
   // Post Page
   add_action( 'genesis_entry_footer', 'post_remove_footer' );
