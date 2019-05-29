@@ -90,10 +90,6 @@
         <?php } ?>
 
         <time class="entry-time"><?php echo the_time('j M, Y'); ?></time>
-        |
-        <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-          <?php echo get_the_author(); ?>
-        </span>
       </div>
       <?php
     }
