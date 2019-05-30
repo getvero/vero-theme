@@ -47,19 +47,6 @@ function add_shares_to_post() {
   if( is_blog_post_or_guide_or_tutorial() ){
     ?>
       <div class='shares-block'>
-        <!-- <div class='total-shares'>
-          <span><?php
-            //$share_obj = new Naked_Social_Share_Buttons($post);
-            //$final_shares = get_field('naked_shares_count');
-            //if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
-            //  $shares = get_field('naked_shares_count')['shares'];
-            //} else {
-              $share_obj = new Naked_Social_Share_Buttons();
-              $shares = $share_obj->get_share_numbers['shares'];
-            //}
-            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
-          ?></span>Shares
-        </div> -->
         <?php echo naked_social_share_buttons(); ?>
       </div>
     <?php
