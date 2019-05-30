@@ -24,7 +24,11 @@
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots@2x.png 2x" class="dots hide-on-mobile" data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
     </div>
     <div class="relative col-aside primary">
-      <img class="center-text d-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x"  alt="Workflows - A visual way to build your automated campaigns 6">
+      <picture>
+        <source srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.webp, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.webp 2x" type="image/webp">
+        <source srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x" type="image/png">
+        <img class="center-text d-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x"  alt="Workflows - A visual way to build your automated campaigns 6">
+      </picture>
     </div>
   </div>
 
