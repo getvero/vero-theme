@@ -8,7 +8,6 @@ jQuery(document).ready(function() {
     hljs.initHighlightingOnLoad();
   }
 
-
   // Feature image switcher
   jQuery('.feature-swapper-option').click(function(e){
     var swapTo = jQuery(this).data('swap-to');

@@ -41,7 +41,6 @@ function custom_load_custom_style_sheet() {
 // Add JS
 function add_js() {
   # Below this line is stuff that is new and clean
-  // wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.min.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.min.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.min.js', array('jquery'), NULL, false);
@@ -60,9 +59,14 @@ function add_js() {
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
-  wp_enqueue_script('vero-js');
-  wp_enqueue_script('fout');
+  // wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
+  add_filter( 'script_loader_tag', function ( $tag, $handle ) {
+    if ( 'webfonts' !== $handle )
+        return $tag;
+
+    return str_replace( ' src', ' async src', $tag );
+  }, 10, 2 );
   wp_enqueue_script('dev_message');
 
   if ( is_page('careers') ) {
