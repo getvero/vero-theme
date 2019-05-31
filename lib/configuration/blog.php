@@ -89,7 +89,14 @@
           <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
         <?php } ?>
       </div>
-      <time class="entry-time"><?php echo the_time('j M, Y'); ?></time>
+      <?php
+    }
+  }
+
+  function add_date() {
+    if ( is_archive() || is_search() ) {
+      ?>
+        <time class="d-block regular bottom-margin-tiny" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
       <?php
     }
   }
