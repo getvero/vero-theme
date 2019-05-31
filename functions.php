@@ -107,7 +107,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
-  // Move author to after entry title on posts
+  // Move author to after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
