@@ -80,7 +80,7 @@
         <?php } ?>
       </div>
       <?php
-    } else if ( is_archive() ) {
+    } else if ( is_archive() || is_search() ) {
       ?>
       <div class="entry-meta bottom-margin-small">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
@@ -88,15 +88,8 @@
         <?php } else { ?>
           <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
         <?php } ?>
-
-        <time class="entry-time"><?php echo the_time('j M, Y'); ?></time>
       </div>
-      <?php
-    } else {
-      ?>
-      <div class="entry-meta bottom-margin-small">
-        <a class="unstyled badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
-      </div>
+      <time class="entry-time"><?php echo the_time('j M, Y'); ?></time>
       <?php
     }
   }
