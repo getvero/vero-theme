@@ -279,7 +279,6 @@ function add_categories_and_search() {
           </ul>
         </div>
 
-
         <?php echo get_search_form(); ?>
 
         <div class="top-margin-auto">
