@@ -29,6 +29,9 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
+  // Remove sidebars
+  remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
+  remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
   // Conditionally load Disqus
   function filter_dsq_can_load( $script_name ) {
     if ( !is_single() && ( 'count' === $script_name || 'embed' === $script_name )) {
