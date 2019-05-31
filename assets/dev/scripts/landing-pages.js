@@ -93,7 +93,7 @@ jQuery(document).ready(function(){
   var requestDemo;
   var subscribeBlogHeader;
   var subscribeBlogInline;
-  var subscribeBlogFullscreen;
+  // var subscribeBlogFullscreen;
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
