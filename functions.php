@@ -14,6 +14,7 @@ include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
 include_once( 'lib/post_types/guides.php' );          # Guides pages
+include_once( 'lib/post_types/tutorials.php' );          # Tutorials pages
 include_once( 'lib/post_types/release_notes.php' );   # Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
@@ -28,9 +29,14 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
-  // Remove sidebars
-  remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
-  remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
+  // Conditionally load Disqus
+  function filter_dsq_can_load( $script_name ) {
+    if ( !is_single() && ( 'count' === $script_name || 'embed' === $script_name )) {
+      return false;
+    }
+    return true;
+  }
+  add_filter( 'dsq_can_load', 'filter_dsq_can_load' );
 
   add_action( 'wp_enqueue_scripts', 'add_js' );
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
@@ -57,6 +63,7 @@ function genesischild_theme_setup() {
   // Add custom types
   add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
+  add_action( 'init', 'create_tutorials_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
   // add_filter( 'post_link', 'change_url', 10, 3 );
 

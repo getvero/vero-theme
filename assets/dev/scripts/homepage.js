@@ -1,4 +1,30 @@
 jQuery(document).ready(function() {
+  // Smooth scroll
+  if ( jQuery('body.features').length > 0 ) {
+    var scroll = new SmoothScroll('[data-scroll]');
+  }
+
+  // Responsive menu
+  jQuery( '.nav-menu-toggle' ).on( 'click', function() {
+    var textcont =  jQuery( '.nav-menu-toggle' ).text();
+    if(textcont == 'Menu'){
+      jQuery( '#menu-marketing-navbar-right' ).slideDown();
+      jQuery( '.nav-menu-toggle a' ).text('Close');
+    }
+    else if(textcont == 'Close'){
+      jQuery( '#menu-marketing-navbar-right' ).slideUp();
+      jQuery( '.nav-menu-toggle a' ).text('Menu');
+      jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
+    }
+  });
+
+
+  jQuery(window).resize(function(){
+    if (jQuery('.nav-menu-toggle a').text() === 'Menu'){
+      jQuery( '#menu-marketing-navbar-right').removeAttr('style');
+    }
+  });
+
   // Slider for careers page
   if (jQuery('body').hasClass('careers')) {
     var careersSlider = jQuery('#careers-profiles-slider').bxSlider({
@@ -39,7 +65,7 @@ jQuery(document).ready(function() {
   });
 
   // Pricing Slider
-  if (jQuery('body').hasClass('pricing')) {
+  if ( jQuery('body').hasClass('pricing') ) {
     var slider = document.getElementById('js-price-slider');
 
     noUiSlider.create(slider, {

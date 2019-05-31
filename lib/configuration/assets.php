@@ -13,8 +13,9 @@ function custom_load_custom_style_sheet() {
   wp_register_style('featherlight-style', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css');
   wp_register_style( 'highlight-style', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css');
 
-
-  wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism-okaidia.min.css', NULL, PARENT_THEME_VERSION );
+  if ( is_page('features') ) {
+    wp_enqueue_style( 'prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism-okaidia.min.css', NULL, PARENT_THEME_VERSION );
+  }
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
@@ -26,15 +27,20 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
-  wp_enqueue_style( 'googlefont_merriweather');
-  wp_enqueue_style( 'featherlight-style');
-  wp_enqueue_style( 'highlight-style');
+  if ( is_front_page() || is_page('data-managemen') || is_page('customer-engagement') || is_page('vero-segment') || is_page('vero-stitch') ) {
+    wp_enqueue_style( 'googlefont_merriweather');
+  }
+  if ( is_page('features') ) {
+    wp_enqueue_style( 'featherlight-style');
+  }
+  if ( is_blog() ) {
+    wp_enqueue_style( 'highlight-style');
+  }
 }
 
 // Add JS
 function add_js() {
   # Below this line is stuff that is new and clean
-  wp_register_script('vero-js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), NULL, true);
   wp_register_script('homepage', get_stylesheet_directory_uri() . '/assets/dist/scripts/homepage.min.js', array('jquery'), NULL, true);
   wp_register_script('landing-pages', get_stylesheet_directory_uri() . '/assets/dist/scripts/landing-pages.min.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/fout.min.js', array('jquery'), NULL, false);
@@ -53,35 +59,43 @@ function add_js() {
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
-  wp_enqueue_script('vero-js');
-  wp_enqueue_script('fout');
+  // wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
+  add_filter( 'script_loader_tag', function ( $tag, $handle ) {
+    if ( 'webfonts' !== $handle )
+        return $tag;
+
+    return str_replace( ' src', ' async src', $tag );
+  }, 10, 2 );
   wp_enqueue_script('dev_message');
 
-  if (is_page('careers')) {
+  if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
   }
 
-  if (is_page('features')) {
+  if ( is_page('features') ) {
     wp_enqueue_script('featherlight');
     wp_enqueue_script('prism');
   }
 
-  if (is_page('workflows')) {
+  if ( is_page('workflows') ) {
     wp_enqueue_script('jquery-parallax');
   }
 
   wp_enqueue_script('cookies');
   wp_enqueue_script('lean_modal');
-  wp_enqueue_script('smooth-scroll');
 
-  if (is_page('pricing')) {
+  if ( is_page('features') ) {
+    wp_enqueue_script('smooth-scroll');
+  }
+
+  if ( is_page('pricing') ) {
     wp_enqueue_script('wNumb');
     wp_enqueue_script('nouislider');
   }
 
   // Blog code highlighting
-  if (is_blog()) {
+  if ( is_blog() ) {
     wp_enqueue_script('highlight-js');
   }
 

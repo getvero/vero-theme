@@ -9,15 +9,12 @@
 
   include 'pages-shared/static-header.php';
 ?>
-
-
 <section class="overflow-hidden" id="workflows-hero">
-  <div class="inner large-inner halfs bottom-padding-medium right-padding-medium left-padding-medium">
-    <div class="left secondary">
-      <p class="semi-bold smallish font-brand-primary introducing">Introducing</p>
+  <div class="inner large-inner flex flex-column md-flex-row bottom-padding-medium">
+    <div class="relative col-main secondary">
       <h1 class="hulk bottom-margin-small semi-bold">Workflows</h1>
-      <p class="no-top-margin bottom-margin-medium largest">A visual way to build your automated campaigns</p>
-      <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Try it out</a>
+      <p class="no-top-margin bottom-margin-medium largest">A better way to design, manage and optimize email and push campaigns</p>
+      <a href="http://app.getvero.com/signup" class="btn btn-success btn-large">Try it out</a>
     </div>
     <div class="workflows-hero-bg">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig@2x.png 2x" class="zig" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
@@ -26,8 +23,14 @@
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines@2x.png 2x" class="lines" data-parallax='{"y" : -350}' alt="Workflows - A visual way to build your automated campaigns 4">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots@2x.png 2x" class="dots hide-on-mobile" data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
     </div>
-    <div class="right primary">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x" class="center-text d-block" alt="Workflows - A visual way to build your automated campaigns 6">
+    <div class="relative col-aside primary">
+      <picture>
+        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile.webp, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile@2x.webp 2x" type="image/webp">
+        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile.png, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile@2x.png 2x" type="image/png">
+        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.webp, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.webp 2x" type="image/webp">
+        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x" type="image/png">
+        <img class="center-text d-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x"  alt="Workflows - A visual way to build your automated campaigns 6">
+      </picture>
     </div>
   </div>
 
@@ -74,8 +77,7 @@
   <div class="inner large-inner">
     <div class="flex-inner">
       <div class="left center-text primary">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-zig@2x.png 2x" class="zig" data-parallax='{"y" : -100}' alt=" ll the tools you need to move quickly 2">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots@2x.png 2x" class="dots" data-parallax='{"y" : 100}' alt="All the tools you need to move quickly 3">
       </div>
       <div class="right secondary">
@@ -87,20 +89,6 @@
     </div>
   </div>
 </section>
-<!-- <section id="workflows-quotes" class="feature-section double-padding">
-  <div class="inner halfs left-padding-large right-padding-large">
-    <div class="left center-text">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/logo-example.png" srcset="" class=" d-inline-block bottom-margin-medium">
-      <h3 class="italic">&quot;Awesome quote about this awesome new feature&quot;</h3>
-      <p>Name, Position - Company</p>
-    </div>
-    <div class="right center-text">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/logo-example.png" srcset="" class=" d-inline-block bottom-margin-medium">
-      <h3 class="italic">&quot;Awesome quote about this awesome new feature&quot;</h3>
-      <p>Name, Position - Company</p>
-    </div>
-  </div>
-</section> -->
 <section id="workflows-reasons" class="feature-section double-padding">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-large">Build engaging campaigns and reach your goals!</h2>
@@ -177,8 +165,8 @@
 </section>
 <section id="call-to-action" class="center-text">
   <div class="inner">
-    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
-    <p class="sub-heading">Create a free account, build your first workflow and see how Vero can help your team.</p>
+    <h2 class="chunk semi-bold bottom-margin-small">Start building your best campaigns today</h2>
+    <p class="medium bottom-margin-smedium">Create a free account, build your first workflow and see how Vero can help your team.</p>
     <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get Started</a>
   </div>
 </section>

@@ -20,7 +20,12 @@ jQuery(window).scroll(function() {
   }
 });
 
-jQuery(document).ready(function(){
+jQuery(document).ready(function() {
+  // Load hljs
+  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
+    hljs.initHighlightingOnLoad();
+  }
+
   // Feature image switcher
   jQuery('.feature-swapper-option').click(function(e){
     var swapTo = jQuery(this).data('swap-to');
@@ -35,15 +40,20 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
-  jQuery('a[rel*=leanModal]').leanModal({
-    top        : 80,
-    closeButton: '.modal-close'
-  });
+  // Lean Modal triggers
+  if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
+    jQuery('a[rel*=leanModal]').leanModal({
+      top        : 80,
+      closeButton: '.modal-close'
+    });
+  }
 
-  jQuery('.js-blog-subscribe-btn').leanModal({
-    top        : 300,
-    closeButton: '.modal-close'
-  });
+  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
+    jQuery('.js-blog-subscribe-btn').leanModal({
+      top        : 300,
+      closeButton: '.modal-close'
+    });
+  }
 
   if(window.location.hash) {
     var hash = window.location.hash.substring(1);
@@ -53,18 +63,18 @@ jQuery(document).ready(function(){
   }
 
   // Show blog subscription form
-  jQuery('.js-overlay').on('click', function() {
-    if (!jQuery(event.target).closest('.js-newsletter').length) {
-      closeModal();
-    }
-  });
+  // jQuery('.js-overlay').on('click', function() {
+  //   if (!jQuery(event.target).closest('.js-newsletter').length) {
+  //     closeModal();
+  //   }
+  // });
 
   jQuery('.js-newsletter-close').on('click', function() {
     closeModal();
   });
 
   function closeModal() {
-    jQuery('.js-overlay').fadeOut(200);
+    // jQuery('.js-overlay').fadeOut(200);
     jQuery('.js-newsletter').removeClass('show');
 
     sessionStorage['PopupShown'] = 'yes';
@@ -73,11 +83,17 @@ jQuery(document).ready(function(){
   jQuery(window).scroll(function() {
     if(sessionStorage['PopupShown'] != 'yes') {
       if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-        jQuery('.js-overlay').show();
+        // jQuery('.js-overlay').show();
         jQuery('.js-newsletter').addClass('show');
       }
     }
   });
+
+  var validateForm;
+  var requestDemo;
+  var subscribeBlogHeader;
+  var subscribeBlogInline;
+  var subscribeBlogFullscreen;
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
@@ -85,15 +101,34 @@ jQuery(document).ready(function(){
     return false;
   });
 
-  jQuery('.js-blog-subscribe-form').submit(function(e) {
-    console.log('Click subscribe form button');
+  // Blog header subscribe form
+  jQuery('.js-blog-header-form').submit(function(e) {
     e.preventDefault();
-    subscribeBlog(e);
+    subscribeBlogHeader(e);
     return false;
   });
 
-  var validateForm;
-  var requestDemo;
+  // Blog inline subscribe form
+  jQuery('.js-blog-subscribe-form').submit(function(e) {
+    console.log('Click blog inline subscribe form button');
+    e.preventDefault();
+    subscribeBlogInline(e);
+    return false;
+  });
+
+  // Blog fullscreen popup subscribe form
+  // jQuery('.js-blog-fs-popup-form').submit(function(e) {
+  //   e.preventDefault();
+  //   subscribeBlogFullscreen(e);
+  //   return false;
+  // });
+
+  // Blog popup subscribe form
+  jQuery('.js-blog-popup-form').submit(function(e) {
+    e.preventDefault();
+    subscribeBlogPopup(e);
+    return false;
+  });
 
   validateForm = function() {
     var company, email_addr, emails, name, subscribers, ret;
@@ -156,8 +191,54 @@ jQuery(document).ready(function(){
     }
   };
 
-  subscribeBlog = function(e) {
-    console.log('Trying to validate');
+  subscribeBlogHeader = function(e) {
+    var url = jQuery('.js-blog-header-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-header-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-header-form').hide();
+        jQuery('.js-enquire-intro').hide();
+        jQuery('.js-thanks').show();
+      }
+    });
+  };
+
+  // subscribeBlogFullscreen = function(e) {
+  //   var url = jQuery('.js-blog-fs-popup-form').attr('action');
+  //   jQuery.ajax({
+  //     type: 'POST',
+  //     url : url,
+  //     data: jQuery('.js-blog-fs-popup-form').serialize(),
+  //     success: function(data)
+  //     {
+  //       jQuery('.js-blog-fs-popup-form').hide();
+  //       jQuery('.js-policy').hide();
+  //       jQuery('.js-enquire-intro-2').hide();
+  //       jQuery('.js-thanks-2').show();
+  //     }
+  //   });
+  // };
+
+  subscribeBlogPopup = function(e) {
+    var url = jQuery('.js-blog-popup-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-popup-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-popup-form').hide();
+        jQuery('.js-policy').hide();
+        jQuery('.js-enquire-intro-2').hide();
+        jQuery('.js-thanks-2').show();
+      }
+    });
+  };
+
+  subscribeBlogInline = function(e) {
     var url = jQuery('.js-blog-subscribe-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -166,9 +247,8 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-policy').hide();
-        jQuery('.js-enquire-intro').hide();
-        jQuery('.js-thanks').show();
+        jQuery('.js-enquire-intro-3').hide();
+        jQuery('.js-thanks-3').show();
       }
     });
   };
