@@ -54,25 +54,28 @@ function add_featured_post() {
 
           <div class="grid md-items-center">
             <div class="post-image">
-              <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <a href="<?php the_permalink(); ?>">
+                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              </a>
             </div>
 
             <div class="post-body">
-              <div class="post-header">
+              <div class="entry-header">
                 <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
               </div>
 
               <div class="entry-content bottom-margin-smedium">
                 <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
               </div>
 
+
               <div class="flex items-center entry-footer">
-                <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
+                <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                 <div>
-                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
+                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                 </div>
               </div>
             </div>
@@ -105,14 +108,16 @@ function add_news_and_updates_posts() {
 
             <div class="entry entry-hover">
               <div class="post-image bottom-margin-small">
-                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <a href="<?php the_permalink(); ?>">
+                  <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                </a>
               </div>
 
               <div class="post-body">
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="tubs regular bottom-margin-micro"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="tubs regular bottom-margin-micro"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
                   <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
                 </div>
 
@@ -120,12 +125,12 @@ function add_news_and_updates_posts() {
                   <p class="medium"><?php echo the_excerpt_max_charlength(400); ?><p>
                 </div>
 
+
                 <div class="flex items-center entry-footer">
-                  <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
+                  <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
                     <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                    <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
                   </div>
                 </div>
               </div>
@@ -158,26 +163,27 @@ function add_other_posts() {
 
             <div class="entry entry-hover">
               <div class="post-image bottom-margin-small">
-                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <a href="<?php the_permalink(); ?>">
+                  <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                </a>
               </div>
 
               <div class="post-body">
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="tubs regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="post-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="tubs regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
+                  <p><?php echo the_excerpt_max_charlength(400); ?></p>
                 </div>
 
                 <div class="flex items-center entry-footer">
-                  <img class="super-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
+                  <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
                     <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                    <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
                   </div>
                 </div>
               </div>
