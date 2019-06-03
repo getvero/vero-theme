@@ -20,7 +20,7 @@ function add_feature_image_to_posts() {
 
     if( $image != '' ){
     ?>
-      <img src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      <img class="border-radius-1 bottom-margin-medium" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
     }
   }
@@ -63,9 +63,7 @@ function add_shares_to_post() {
   global $post;
   if( is_blog_post_or_guide_or_tutorial() ){
     ?>
-      <div class='shares-block'>
-        <?php echo naked_social_share_buttons(); ?>
-      </div>
+      <?php echo naked_social_share_buttons(); ?>
     <?php
   }
 }
