@@ -73,7 +73,6 @@ function add_featured_post() {
 
                 <div>
                   <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
-                  <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
                 </div>
               </div>
             </div>
