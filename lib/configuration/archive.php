@@ -75,7 +75,7 @@ function add_featured_post() {
                 <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                 <div>
-                  <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                  <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ function add_news_and_updates_posts() {
                   <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
-                    <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                    <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                   </div>
                 </div>
               </div>
@@ -183,7 +183,7 @@ function add_other_posts() {
                   <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
-                    <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+                    <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                   </div>
                 </div>
               </div>
@@ -296,7 +296,7 @@ function add_categories_and_search() {
               <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
             </div>
             <input class="btn btn-success input-width-full bottom-margin-tiny" type="submit" value="Subscribe to updates">
-            <p class="annotation"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
+            <span class="d-block annotation"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</span>
           </form>
         </div>
       </div>
