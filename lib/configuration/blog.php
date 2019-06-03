@@ -105,7 +105,6 @@
     if ( is_archive() || is_search() ) {
       ?>
         <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
-        <span class="d-block annotation"><?php echo get_the_author_meta('description'); ?></span>
       <?php
     }
   }
