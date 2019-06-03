@@ -93,18 +93,10 @@ jQuery(document).ready(function(){
   var requestDemo;
   var subscribeBlogHeader;
   var subscribeBlogInline;
-  // var subscribeBlogFullscreen;
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
     requestDemo(e);
-    return false;
-  });
-
-  // Blog header subscribe form
-  jQuery('.js-blog-header-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlogHeader(e);
     return false;
   });
 
@@ -115,13 +107,6 @@ jQuery(document).ready(function(){
     subscribeBlogInline(e);
     return false;
   });
-
-  // Blog fullscreen popup subscribe form
-  // jQuery('.js-blog-fs-popup-form').submit(function(e) {
-  //   e.preventDefault();
-  //   subscribeBlogFullscreen(e);
-  //   return false;
-  // });
 
   // Blog popup subscribe form
   jQuery('.js-blog-popup-form').submit(function(e) {
@@ -190,37 +175,6 @@ jQuery(document).ready(function(){
       });
     }
   };
-
-  subscribeBlogHeader = function(e) {
-    var url = jQuery('.js-blog-header-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-header-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-header-form').hide();
-        jQuery('.js-enquire-intro').hide();
-        jQuery('.js-thanks').show();
-      }
-    });
-  };
-
-  // subscribeBlogFullscreen = function(e) {
-  //   var url = jQuery('.js-blog-fs-popup-form').attr('action');
-  //   jQuery.ajax({
-  //     type: 'POST',
-  //     url : url,
-  //     data: jQuery('.js-blog-fs-popup-form').serialize(),
-  //     success: function(data)
-  //     {
-  //       jQuery('.js-blog-fs-popup-form').hide();
-  //       jQuery('.js-policy').hide();
-  //       jQuery('.js-enquire-intro-2').hide();
-  //       jQuery('.js-thanks-2').show();
-  //     }
-  //   });
-  // };
 
   subscribeBlogPopup = function(e) {
     var url = jQuery('.js-blog-popup-form').attr('action');
