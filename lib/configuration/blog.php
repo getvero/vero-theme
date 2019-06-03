@@ -72,11 +72,11 @@
 
     if ( is_single() ) {
       ?>
-      <div class="entry-meta">
+      <div class="entry-meta bottom-margin-smedium">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
-          <a class="unstyled badge right-margin-micro" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
+          <a class="unstyled badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
         <?php } else { ?>
-          <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <a class="unstyled badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
         <?php } ?>
       </div>
       <?php
