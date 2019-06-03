@@ -169,7 +169,7 @@ function add_other_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php $content = get_the_content(); echo mb_strimwidth($content, 0, 100, '…');?></p>
+                  <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
                 </div>
 
                 <div class="flex items-center entry-footer">
