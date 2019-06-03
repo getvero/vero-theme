@@ -152,8 +152,8 @@ function add_other_posts() {
           ));
 
           while( $custom_query->have_posts() ) : $custom_query->the_post();
-            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-            $category       = get_the_category();
+            $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $category            = get_the_category();
           ?>
 
             <div class="entry entry-hover">
@@ -173,7 +173,7 @@ function add_other_posts() {
                 </div>
 
                 <div class="flex items-center entry-footer">
-                  <?php echo get_avatar( get_the_author_meta( 'ID' ), 40 ); ?>
+                  <img class="super-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
                     <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
