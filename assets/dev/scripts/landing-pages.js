@@ -2,8 +2,10 @@ jQuery(window).load(function(){
   jQuery('pre.okaidia').find('code').addClass('okaidia');
 });
 
-// Sticky header
+var isFixed         = false;
+
 jQuery(window).scroll(function() {
+  // Sticky header
   var header          = jQuery('.nav-primary');
   var resourcesHeader = jQuery('.js-resources-sidebar');
   var scroll          = jQuery(window).scrollTop();
@@ -11,12 +13,32 @@ jQuery(window).scroll(function() {
   if (scroll >= 10) {
     header.addClass('sticky');
     resourcesHeader.css('top', header.outerHeight());
-    console.log('Stick');
-
+    // console.log('Stick');
   } else {
     header.removeClass('sticky');
     resourcesHeader.css('top', 'auto');
-    console.log('Unstick');
+    // console.log('Unstick');
+  }
+
+  // Sticky table of contents
+  if ( jQuery('body.single').length > 0 ) {
+    var entryContentOffset = jQuery('.entry-content').offset().top;
+    var entryFooterOffset  = jQuery('.entry-footer').offset().top;
+    var toc                = jQuery('.table-of-contents');
+    var shouldBeFixed      = scroll + 100 > entryContentOffset;
+
+    console.log(entryFooterOffset);
+
+    if ( shouldBeFixed && !isFixed ) {
+      toc.addClass('is-visible')
+      isFixed = true;
+    } else if ( !shouldBeFixed && isFixed ) {
+      toc.removeClass('is-visible')
+      isFixed = false;
+    } else if ( scroll > entryFooterOffset && isFixed ) {
+      toc.removeClass('is-visible')
+      isFixed = false;
+    }
   }
 });
 
@@ -39,7 +61,7 @@ jQuery(document).ready(function() {
 
 });
 
-jQuery(document).ready(function(){
+jQuery(document).ready(function() {
   // Lean Modal triggers
   if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
     jQuery('a[rel*=leanModal]').leanModal({
