@@ -102,7 +102,7 @@ function genesischild_theme_setup() {
   // Customise post entry
   add_action( 'genesis_before_loop', 'change_post_structure' );
 
-  add_action( 'genesis_after_header', 'add_subscribe_form' );
+  add_action( 'genesis_after_content', 'add_subscribe_form' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_entry_header', 'add_feature_image_to_posts', 12 );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
