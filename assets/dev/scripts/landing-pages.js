@@ -21,25 +21,23 @@ jQuery(window).scroll(function() {
   }
 
   // Sticky table of contents
-  if ( jQuery('body.single').length > 0 ) {
-    var entryContentOffset = jQuery('.entry-content').offset().top;
-    var entryFooterOffset  = jQuery('.entry-footer').offset().top;
-    var toc                = jQuery('.table-of-contents');
-    var shouldBeFixed      = scroll + 100 > entryContentOffset;
+  // if ( jQuery('body.single').length > 0 ) {
+  //   var entryContentOffset = jQuery('.entry-content').offset().top;
+  //   var entryFooterOffset  = jQuery('.entry-footer').offset().top;
+  //   var toc                = jQuery('.table-of-contents');
+  //   var shouldBeFixed      = scroll + 100 > entryContentOffset;
 
-    console.log(entryFooterOffset);
-
-    if ( shouldBeFixed && !isFixed ) {
-      toc.addClass('is-visible')
-      isFixed = true;
-    } else if ( !shouldBeFixed && isFixed ) {
-      toc.removeClass('is-visible')
-      isFixed = false;
-    } else if ( scroll > entryFooterOffset && isFixed ) {
-      toc.removeClass('is-visible')
-      isFixed = false;
-    }
-  }
+  //   if ( shouldBeFixed && !isFixed ) {
+  //     toc.addClass('is-visible')
+  //     isFixed = true;
+  //   } else if ( !shouldBeFixed && isFixed ) {
+  //     toc.removeClass('is-visible')
+  //     isFixed = false;
+  //   } else if ( scroll > entryFooterOffset && isFixed ) {
+  //     toc.removeClass('is-visible')
+  //     isFixed = false;
+  //   }
+  // }
 });
 
 jQuery(document).ready(function() {
