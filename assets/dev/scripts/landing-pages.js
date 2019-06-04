@@ -84,36 +84,8 @@ jQuery(document).ready(function() {
     }
   }
 
-  // Show blog subscription form
-  // jQuery('.js-overlay').on('click', function() {
-  //   if (!jQuery(event.target).closest('.js-newsletter').length) {
-  //     closeModal();
-  //   }
-  // });
-
-  jQuery('.js-newsletter-close').on('click', function() {
-    closeModal();
-  });
-
-  function closeModal() {
-    // jQuery('.js-overlay').fadeOut(200);
-    jQuery('.js-newsletter').removeClass('show');
-
-    sessionStorage['PopupShown'] = 'yes';
-  }
-
-  jQuery(window).scroll(function() {
-    if(sessionStorage['PopupShown'] != 'yes') {
-      if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-        // jQuery('.js-overlay').show();
-        jQuery('.js-newsletter').addClass('show');
-      }
-    }
-  });
-
   var validateForm;
   var requestDemo;
-  var subscribeBlogHeader;
   var subscribeBlogInline;
 
   jQuery('#high-volume-sender-form').submit(function(e) {
@@ -127,13 +99,6 @@ jQuery(document).ready(function() {
     console.log('Click blog inline subscribe form button');
     e.preventDefault();
     subscribeBlogInline(e);
-    return false;
-  });
-
-  // Blog popup subscribe form
-  jQuery('.js-blog-popup-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlogPopup(e);
     return false;
   });
 
@@ -196,22 +161,6 @@ jQuery(document).ready(function() {
         }
       });
     }
-  };
-
-  subscribeBlogPopup = function(e) {
-    var url = jQuery('.js-blog-popup-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-popup-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-popup-form').hide();
-        jQuery('.js-policy').hide();
-        jQuery('.js-enquire-intro-2').hide();
-        jQuery('.js-thanks-2').show();
-      }
-    });
   };
 
   subscribeBlogInline = function(e) {
