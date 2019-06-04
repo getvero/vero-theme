@@ -10,7 +10,7 @@ function add_author() {
   }
 }
 
-function add_feature_image_to_posts() {
+function add_featured_image_to_post() {
   if ( is_blog_post_or_guide_or_tutorial() ){
     global $post;
 
