@@ -1,12 +1,7 @@
 <?php
 
   function custom_footer() {
-    if( is_home() || is_singular('post') ){
-      blog_cta();
-      custom_footer_html_with_wrap();
-    } else {
-      custom_footer_html_with_wrap();
-    }
+    custom_footer_html_with_wrap();
   }
 
   function custom_footer_html_with_wrap() {
@@ -17,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer">
+    <footer class="footer" <?php if ( is_blog() ) { ?> style="padding-top: 200px;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
           <div class="footer-aside">
@@ -95,18 +90,35 @@
     <?php
   }
 
+
+  function landing_blog_cta() {
+    if ( is_home() ) {
+      ?>
+        <?php echo blog_cta(); ?>
+      <?php
+    }
+  }
+
+  function post_blog_cta() {
+    if ( is_singular('post') ) {
+      ?>
+      <?php echo blog_cta(); ?>
+      <?php
+    }
+  }
+
   function blog_cta() {
     ?>
-    <section class="resources-cta center-text bg-dark-blue-gradient border-bottom-faded">
-      <div class="inner font-white">
-        <div class="border-radius-2 bg-primary padding-medium">
-          <h4 class="chunk regular bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <section class="resources-cta center-text">
 
-          <a class="btn btn-success btn-large bottom-margin-small" href="http://app.getvero.com/signup">Start a free tial</a>
+      <div class="border-radius-2 bg-primary padding-medium font-white">
+        <h4 class="chunk regular bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-          <p>No credit card details required</p>
-        </div>
+        <a class="btn btn-success btn-large bottom-margin-small" href="http://app.getvero.com/signup">Start a free tial</a>
+
+        <p>No credit card details required</p>
       </div>
+
     </section>
     <?php
   }
