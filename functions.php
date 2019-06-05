@@ -148,6 +148,22 @@ function genesischild_theme_setup() {
   // Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
 
+  // Add custom thumbnail size
+  add_action( 'after_setup_theme', 'add_inline_thumbnail' );
+  function add_inline_thumbnail() {
+    add_image_size( 'inline-thumbnail', 300, 240, array( 'center', 'top' ) );
+  }
+  add_filter( 'image_size_names_choose', 'rudr_new_image_sizes' );
+  function rudr_new_image_sizes( $sizes ) {
+    $addsizes = array(
+        'inline-thumbnail' => 'Inline thumbnail'
+    );
+
+    $newsizes = array_merge( $sizes, $addsizes );
+
+    return $newsizes;
+  }
+
 }
 
 ?>
