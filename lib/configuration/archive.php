@@ -38,8 +38,8 @@ function change_home_loop() {
 
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
-    <div class="resources-section featured-post bottom-padding-medium border-bottom">
-      <h2 class="micro regular">Featured</h2>
+    <div class="resources-section featured-post">
+      <h2 class="micro regular hide smd-show">Featured</h2>
 
       <div class="entry entry-hover">
       <?php
@@ -53,21 +53,15 @@ function add_featured_post() {
           ?>
 
           <div class="grid md-items-center">
-            <div class="post-image">
+            <div class="entry-image">
               <a href="<?php the_permalink(); ?>">
-                <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </a>
             </div>
 
             <div class="post-body">
               <div class="entry-header">
-                <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
-                  <a class="unstyled badge right-margin-micro" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
-                <?php } else { ?>
-                  <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
-                <?php } ?>
-
-                <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>">Test <?php echo $category[0]->cat_name; ?></a>
 
                 <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
               </div>
@@ -98,8 +92,8 @@ function add_featured_post() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary news-and-updates-posts bottom-padding-medium border-bottom">
-        <h2 class="micro regular">News and updates</h2>
+      <div class="resources-section resources-section-secondary news-and-updates-posts">
+        <h2 class="micro regular hide smd-show">News and updates</h2>
 
         <div class="grid">
         <?php
@@ -113,9 +107,9 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="entry entry-hover">
-              <div class="post-image">
+              <div class="entry-image">
                 <a href="<?php the_permalink(); ?>">
-                  <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                  <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
               </div>
 
@@ -123,7 +117,7 @@ function add_news_and_updates_posts() {
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="tubs regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
                   <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
                 </div>
 
@@ -168,9 +162,9 @@ function add_other_posts() {
           ?>
 
             <div class="entry entry-hover">
-              <div class="post-image">
+              <div class="entry-image">
                 <a href="<?php the_permalink(); ?>">
-                  <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                  <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
               </div>
 
@@ -178,7 +172,7 @@ function add_other_posts() {
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="tubs regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
