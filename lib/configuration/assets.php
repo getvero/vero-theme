@@ -10,7 +10,7 @@ function remove_cssjs_ver( $src ) {
 function custom_load_custom_style_sheet() {
   // Register styles
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700');
-  wp_register_style('featherlight-style', '//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css');
+  wp_register_style('featherlight-style', '/wp-content/themes/vero/assets/dist/stylesheets/featherlight.min.css', NULL, PARENT_THEME_VERSION );
   wp_register_style( 'highlight-style', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css');
 
   if ( is_page('features') ) {
@@ -30,7 +30,7 @@ function custom_load_custom_style_sheet() {
   if ( is_front_page() || is_page('data-managemen') || is_page('customer-engagement') || is_page('vero-segment') || is_page('vero-stitch') ) {
     wp_enqueue_style( 'googlefont_merriweather');
   }
-  if ( is_page('features') ) {
+  if ( is_page('features') || is_blog() ) {
     wp_enqueue_style( 'featherlight-style');
   }
   if ( is_blog() ) {
@@ -76,6 +76,10 @@ function add_js() {
   if ( is_page('features') ) {
     wp_enqueue_script('featherlight');
     wp_enqueue_script('prism');
+  }
+
+  if ( is_blog() ) {
+    wp_enqueue_script('featherlight');
   }
 
   if ( is_page('workflows') ) {
