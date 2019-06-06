@@ -43,7 +43,10 @@ function images() {
     imagemin([
       imagemin.gifsicle({ interlaced: true }),
       imagemin.jpegtran({ progressive: true }),
-      imageminPngquant({quality: [0.5, 0.5]}),
+      imageminPngquant({
+        speed: 1,
+        quality: [0.7, 0.8] //lossy settings
+      }),
       imagemin.svgo({
         plugins: [
           {
