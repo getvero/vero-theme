@@ -6,7 +6,9 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "imagemin-pngquant": "^8.0.0"
+  },
   "devDependencies": {
     "del": "^4.0.0",
     "gulp": "^4.0.0",

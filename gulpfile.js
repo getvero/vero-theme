@@ -1,10 +1,11 @@
-const gulp     = require('gulp'),
-      del      = require('del'),
-      rename   = require('gulp-rename'),
-      imagemin = require('gulp-imagemin'),
-      csso     = require('gulp-csso'),
-      newer    = require('gulp-newer'),
-      uglify   = require('gulp-uglify');
+const gulp             = require('gulp'),
+      del              = require('del'),
+      rename           = require('gulp-rename'),
+      imagemin         = require('gulp-imagemin'),
+      imageminPngquant = require('imagemin-pngquant'),
+      csso             = require('gulp-csso'),
+      newer            = require('gulp-newer'),
+      uglify           = require('gulp-uglify');
 
 const paths = {
   css: {
@@ -42,7 +43,7 @@ function images() {
     imagemin([
       imagemin.gifsicle({ interlaced: true }),
       imagemin.jpegtran({ progressive: true }),
-      imagemin.optipng({ optimizationLevel: 5 }),
+      imageminPngquant({quality: [0.5, 0.5]}),
       imagemin.svgo({
         plugins: [
           {
