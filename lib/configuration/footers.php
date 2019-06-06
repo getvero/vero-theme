@@ -12,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer" <?php if ( is_blog() ) { ?> style="padding-top: 200px;"<?php } ?>>
+    <footer class="footer" <?php if ( is_single() ) { ?> style="padding-top: 240px;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
           <div class="footer-aside">
@@ -109,16 +109,12 @@
 
   function blog_cta() {
     ?>
-    <section class="resources-cta center-text">
+    <section class="resources-cta border-dark-blue bg-white center-text <?php if ( is_home() ) { ?> resources-cta-primary <?php } else { ?> resources-cta-overlap <?php } ?>">
+      <h4 class="tubs regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-      <div class="border-radius-2 bg-primary padding-medium font-white">
-        <h4 class="chunk regular bottom-margin-small">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+      <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free tial</a>
 
-        <a class="btn btn-success btn-large bottom-margin-small" href="http://app.getvero.com/signup">Start a free tial</a>
-
-        <p>No credit card details required</p>
-      </div>
-
+      <span class="d-block annotation">No credit card details required</span>
     </section>
     <?php
   }
