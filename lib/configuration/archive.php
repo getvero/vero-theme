@@ -61,6 +61,12 @@ function add_featured_post() {
 
             <div class="post-body">
               <div class="entry-header">
+                <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
+                  <a class="unstyled badge right-margin-micro" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
+                <?php } else { ?>
+                  <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+                <?php } ?>
+
                 <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                 <h3 class="regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
@@ -107,7 +113,7 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="entry entry-hover">
-              <div class="post-image bottom-margin-small">
+              <div class="post-image">
                 <a href="<?php the_permalink(); ?>">
                   <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
@@ -117,7 +123,7 @@ function add_news_and_updates_posts() {
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="tubs regular bottom-margin-micro"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                  <h3 class="tubs regular bottom-margin-tiny"><a class="unstyled" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
                   <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
                 </div>
 
@@ -162,7 +168,7 @@ function add_other_posts() {
           ?>
 
             <div class="entry entry-hover">
-              <div class="post-image bottom-margin-small">
+              <div class="post-image">
                 <a href="<?php the_permalink(); ?>">
                   <img class="border-radius-1 responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
