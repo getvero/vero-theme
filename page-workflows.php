@@ -17,11 +17,11 @@
       <a href="http://app.getvero.com/signup" class="btn btn-success btn-large">Try it out</a>
     </div>
     <div class="workflows-hero-bg">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig@2x.png 2x" class="zig" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle@2x.png 2x" class="circle" data-parallax='{"y" : -100}' alt="Workflows - A visual way to build your automated campaigns 2">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves@2x.png 2x" class="waves" data-parallax='{"y" : -300}' alt="Workflows - A visual way to build your automated campaigns 3">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines@2x.png 2x" class="lines" data-parallax='{"y" : -350}' alt="Workflows - A visual way to build your automated campaigns 4">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots@2x.png 2x" class="dots hide-on-mobile" data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
+      <img class="zig" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.svg" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
+      <img class="circle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle.svg"  data-parallax='{"y" : -100}' alt="Workflows - A visual way to build your automated campaigns 2">
+      <img class="waves" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves.svg" data-parallax='{"y" : -300}' alt="Workflows - A visual way to build your automated campaigns 3">
+      <img class="lines" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines.svg"  data-parallax='{"y" : -350}' alt="Workflows - A visual way to build your automated campaigns 4">
+      <img class="dots hide-on-mobile" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.svg"  data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
     </div>
     <div class="relative col-aside primary">
       <picture>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="168" viewBox="0 0 168 168">
+  <defs>
+    <rect id="circle-a" width="168" height="168" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="circle-b" fill="#fff">
+      <use xlink:href="#circle-a"/>
+    </mask>
+    <rect width="159" height="159" x="3" y="6" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="79.5"/>
+    <rect width="193" height="193" x="-14" y="-11" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="96.5"/>
+    <path stroke="#B9EBD2" stroke-width="4" d="M82.5,-29 C19.2633961,-29 -32,22.2633961 -32,85.5 C-32,148.736604 19.2633961,200 82.5,200 C145.736604,200 197,148.736604 197,85.5 C197,22.2633961 145.736604,-29 82.5,-29 Z" mask="url(#circle-b)"/>
+    <rect width="123" height="123" x="21" y="24" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="61.5"/>
+    <rect width="87" height="87" x="39" y="42" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="43.5"/>
+    <rect width="51" height="51" x="57" y="60" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="25.5"/>
+    <rect width="15" height="15" x="75" y="78" stroke="#B9EBD2" stroke-width="4" mask="url(#circle-b)" rx="7.5"/>
+  </g>
+</svg>
