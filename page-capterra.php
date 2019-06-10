@@ -1,11 +1,18 @@
 <?php
+  add_filter( 'body_class', 'add_class' );
+  function add_class($classes) {
+    global $post;
+
+    $classes[] = 'capterra';
+    return $classes;
+  }
   include 'pages-shared/static-header.php';
 ?>
 <section class="home-hero overflow-hidden">
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="biggie semi-bold bottom-margin-tiny home-title"><span class="d-block ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
+        <h1 class="biggie semi-bold bottom-margin-tiny home-title"><span class="md-ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
         <p class="large md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
