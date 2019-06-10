@@ -39,7 +39,7 @@
   <div class="inner medium-inner">
     <ul class="feature-list unstyled-list grid grid-halfs">
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves@2x.png 2x" alt="Flexibility">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.svg" alt="Flexibility">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Flexibility</h3>
@@ -47,7 +47,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles@2x.png 2x" alt="Clarity">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles.svg" alt="Clarity">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Clarity</h3>
@@ -55,7 +55,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots@2x.png 2x" alt="Visibility">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots.svg" alt="Visibility">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Visibility</h3>
@@ -63,7 +63,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs@2x.png 2x" alt="Customization">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs.svg" alt="Customization">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Customization</h3>
