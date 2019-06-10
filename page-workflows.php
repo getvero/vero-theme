@@ -17,11 +17,11 @@
       <a href="http://app.getvero.com/signup" class="btn btn-success btn-large">Try it out</a>
     </div>
     <div class="workflows-hero-bg">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig@2x.png 2x" class="zig" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle@2x.png 2x" class="circle" data-parallax='{"y" : -100}' alt="Workflows - A visual way to build your automated campaigns 2">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves@2x.png 2x" class="waves" data-parallax='{"y" : -300}' alt="Workflows - A visual way to build your automated campaigns 3">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines@2x.png 2x" class="lines" data-parallax='{"y" : -350}' alt="Workflows - A visual way to build your automated campaigns 4">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots@2x.png 2x" class="dots hide-on-mobile" data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
+      <img class="zig" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.svg" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
+      <img class="circle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/circle.svg"  data-parallax='{"y" : -100}' alt="Workflows - A visual way to build your automated campaigns 2">
+      <img class="waves" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/waves.svg" data-parallax='{"y" : -300}' alt="Workflows - A visual way to build your automated campaigns 3">
+      <img class="lines" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/lines.svg"  data-parallax='{"y" : -350}' alt="Workflows - A visual way to build your automated campaigns 4">
+      <img class="dots hide-on-mobile" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dots.svg"  data-parallax='{"y" : 100}' alt="Workflows - A visual way to build your automated campaigns 5">
     </div>
     <div class="relative col-aside primary">
       <picture>
@@ -39,7 +39,7 @@
   <div class="inner medium-inner">
     <ul class="feature-list unstyled-list grid grid-halfs">
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves@2x.png 2x" alt="Flexibility">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.svg" alt="Flexibility">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Flexibility</h3>
@@ -47,7 +47,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles@2x.png 2x" alt="Clarity">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-circles.svg" alt="Clarity">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Clarity</h3>
@@ -55,7 +55,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots@2x.png 2x" alt="Visibility">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-dots.svg" alt="Visibility">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Visibility</h3>
@@ -63,7 +63,7 @@
         </div>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs@2x.png 2x" alt="Customization">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-zigs.svg" alt="Customization">
 
         <div>
           <h3 class="chunk semi-bold bottom-margin-small">Customization</h3>
@@ -77,8 +77,8 @@
   <div class="inner large-inner">
     <div class="flex-inner">
       <div class="left center-text primary">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide@2x.png 2x" class="responsive-image menu" alt="All the tools you need to move quickly 1">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots@2x.png 2x" class="dots" data-parallax='{"y" : 100}' alt="All the tools you need to move quickly 3">
+        <img class="responsive-image menu" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/add-menu-wide@2x.png 2x" alt="All the tools you need to move quickly 1">
+        <img class="dots" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/smallish-dots.svg" data-parallax='{"y" : 100}' alt="All the tools you need to move quickly 3">
       </div>
       <div class="right secondary">
         <h2 class="biggie semi-bold">All the tools you need to move quickly</h2>
