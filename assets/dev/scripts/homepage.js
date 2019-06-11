@@ -5,15 +5,15 @@ jQuery(document).ready(function() {
   }
 
   // Responsive menu
-  jQuery( '.nav-menu-toggle' ).on( 'click', function() {
-    var textcont =  jQuery( '.nav-menu-toggle' ).text();
+  jQuery( '.js-nav-primary-toggle' ).on( 'click', function() {
+    var textcont =  jQuery( '.nav-primary-toggle' ).text();
     if(textcont == 'Menu'){
       jQuery( '#menu-marketing-navbar-right' ).slideDown();
-      jQuery( '.nav-menu-toggle a' ).text('Close');
+      jQuery( '.nav-primary-toggle' ).text('Close');
     }
     else if(textcont == 'Close'){
       jQuery( '#menu-marketing-navbar-right' ).slideUp();
-      jQuery( '.nav-menu-toggle a' ).text('Menu');
+      jQuery( '.nav-primary-toggle' ).text('Menu');
       jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
     }
   });
