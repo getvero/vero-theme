@@ -20,7 +20,7 @@ function add_featured_image_to_post() {
 
     if( $image != '' ){
     ?>
-      <img class="border-radius-1 bottom-margin-medium" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      <img class="hero-image border-radius-1 bottom-margin-medium" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
     }
   }

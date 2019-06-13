@@ -72,7 +72,7 @@ function add_featured_post() {
 
 
               <div class="flex items-center entry-footer">
-                <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
+                <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                 <div>
                   <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
@@ -127,7 +127,7 @@ function add_news_and_updates_posts() {
 
 
                 <div class="flex items-center entry-footer">
-                  <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
+                  <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
                     <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
@@ -180,7 +180,7 @@ function add_other_posts() {
                 </div>
 
                 <div class="flex items-center entry-footer">
-                  <img src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
+                  <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
                   <div>
                     <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
