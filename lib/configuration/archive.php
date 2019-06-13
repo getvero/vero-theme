@@ -271,8 +271,6 @@ function add_categories_and_search() {
 
     <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
-        <p class="hide md-show bottom-margin-medium bottom-padding-medium border-bottom">Insights, tips and tools for creating better customer messaging and product experiences.</p>
-
         <div class="resources-sidebar-categories bottom-margin-small">
           <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
 
@@ -287,6 +285,8 @@ function add_categories_and_search() {
         <?php echo get_search_form(); ?>
 
         <div class="top-margin-auto">
+          <p class="hide md-show bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+
           <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
             <div class="form-group bottom-margin-micro">
               <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
