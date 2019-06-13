@@ -285,7 +285,7 @@ function add_categories_and_search() {
         <?php echo get_search_form(); ?>
 
         <div class="top-margin-auto">
-          <p class="hide md-show bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+          <p class="hide md-show bottom-margin-small">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
           <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
             <div class="form-group bottom-margin-micro">
