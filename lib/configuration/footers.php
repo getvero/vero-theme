@@ -15,12 +15,12 @@
     <footer class="footer" <?php if ( is_single() ) { ?> style="padding-top: 240px;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
-          <div class="footer-aside">
+          <div class="col-aside">
             <a href="https://www.getvero.com">
               <img src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
             </a>
           </div>
-          <div class="footer-main">
+          <div class="col-main">
             <ul class="unstyled-list footer-list semi-bold">
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Product</h4>
