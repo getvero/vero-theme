@@ -39,7 +39,7 @@ function change_home_loop() {
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
     <div class="resources-section featured-post">
-      <h2 class="micro regular hide md-show">Featured</h2>
+      <!-- <h2 class="micro regular hide md-show">Featured</h2> -->
 
       <div class="entry entry-hover">
       <?php
@@ -67,7 +67,7 @@ function add_featured_post() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
+                <p><?php echo the_excerpt_max_charlength(400); ?></p>
               </div>
 
               <div class="flex items-center entry-footer">
@@ -268,7 +268,7 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <div class="js-resources-sidebar resources-sidebar">
+    <!-- <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
         <div class="resources-sidebar-categories bottom-margin-small">
           <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
@@ -303,7 +303,7 @@ function add_categories_and_search() {
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
 
   <?php }
 }
