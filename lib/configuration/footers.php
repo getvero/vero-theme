@@ -100,7 +100,7 @@
   }
 
   function post_blog_cta() {
-    if ( is_singular('post') ) {
+    if ( is_blog_post_or_guide_or_tutorial() ) {
       ?>
       <?php echo blog_cta(); ?>
       <?php
@@ -138,15 +138,15 @@
           <div class="post <?php if($featured_image){ ?>has-image<?php } ?>">
             <?php if($featured_image) { ?>
               <div class="bottom-margin-small">
-                <a href="<?php the_permalink(); ?>">
-                  <img class="border-radius-1 align-middle responsive-image" src="<?php echo $featured_image; ?>">
+                <a class="d-block" href="<?php the_permalink(); ?>">
+                  <img class="border-radius-1" src="<?php echo $featured_image; ?>">
                 </a>
               </div>
             <?php } ?>
 
             <div class="post-body">
-              <span class="d-block mini semi-bold uppercase bottom-margin-tiny"><?php echo $category[0]->cat_name; ?></span>
-              <h5 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+              <span class="d-block badge bottom-margin-tiny"><?php echo $category[0]->cat_name; ?></span>
+              <h4 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             </div>
           </div>
         <?php
