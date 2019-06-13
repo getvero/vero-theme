@@ -39,7 +39,7 @@ function change_home_loop() {
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
     <div class="resources-section featured-post">
-      <h2 class="micro regular hide smd-show">Featured</h2>
+      <h2 class="micro regular hide md-show">Featured</h2>
 
       <div class="entry entry-hover">
       <?php
@@ -52,7 +52,7 @@ function add_featured_post() {
           $category = get_the_category();
           ?>
 
-          <div class="grid md-items-center">
+          <div class="grid">
             <div class="entry-image">
               <a href="<?php the_permalink(); ?>">
                 <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
@@ -69,7 +69,6 @@ function add_featured_post() {
               <div class="entry-content bottom-margin-smedium">
                 <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
               </div>
-
 
               <div class="flex items-center entry-footer">
                 <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
@@ -286,6 +285,10 @@ function add_categories_and_search() {
 
         <div class="top-margin-auto">
           <p class="hide md-show bottom-margin-small">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+
+          <div class="js-thanks-3 hide">
+            <p>Thanks for subscribing</p>
+          </div>
 
           <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
             <div class="form-group bottom-margin-micro">
