@@ -76,7 +76,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="js-category-toggle category-toggle left-margin-tiny border-radius-1 semi-bold font-white">Menu</div>
+  <div class="js-category-toggle category-toggle border-radius-1 semi-bold font-white">Menu</div>
   <?php $category_toggle = ob_get_clean();
 
   if ( is_blog_archive() || is_single() ) {
