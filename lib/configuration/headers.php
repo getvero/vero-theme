@@ -22,6 +22,21 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   </ul>
   <?php $logo = ob_get_clean();
 
+
+  ob_start();
+  ?>
+  <div class="js-resources-menu resources-menu">
+    <ul>
+      <li>
+        <a href="#none">Link</a>
+        <a href="#none">Link</a>
+        <a href="#none">Link</a>
+        <a href="#none">Link</a>
+      </li>
+    </li>
+  </div>
+  <?php $resources_menu = ob_get_clean();
+
   ob_start();
 	get_search_form();
 	$search = ob_get_clean();
@@ -37,7 +52,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <?php $category_toggle = ob_get_clean();
 
   if ( is_blog_archive() || is_single() ) {
-    return $logo . '<div class="flex items-center left-margin-auto">'.  $search . $category_toggle . '</div>';
+    return $logo . $resources_menu . '<div class="flex items-center left-margin-auto">'.  $search . $category_toggle . '</div>';
   } else {
     return $logo . $menu . $responsive_toggle;
   }
