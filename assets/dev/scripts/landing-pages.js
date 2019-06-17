@@ -92,9 +92,15 @@ jQuery(document).ready(function() {
     return false;
   });
 
-  // Blog inline subscribe form
+  // Main blog subscribe form
   jQuery('.js-blog-subscribe-form').submit(function(e) {
-    console.log('Click blog inline subscribe form button');
+    e.preventDefault();
+    subscribeBlog(e);
+    return false;
+  });
+
+  // Blog inline subscribe form
+  jQuery('.js-blog-inline-form').submit(function(e) {
     e.preventDefault();
     subscribeBlogInline(e);
     return false;
@@ -161,7 +167,7 @@ jQuery(document).ready(function() {
     }
   };
 
-  subscribeBlogInline = function(e) {
+  subscribeBlog = function(e) {
     var url = jQuery('.js-blog-subscribe-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -170,6 +176,21 @@ jQuery(document).ready(function() {
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-enquire-intro-menu').hide();
+        jQuery('.js-thanks-menu').show();
+      }
+    });
+  };
+
+  subscribeBlogInline = function(e) {
+    var url = jQuery('.js-blog-inline-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-inline-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-inline-form').hide();
         jQuery('.js-enquire-intro-3').hide();
         jQuery('.js-thanks-3').show();
       }
@@ -181,10 +202,10 @@ jQuery(document).ready(function() {
     var textCont =  jQuery(this).text();
 
     if (textCont == 'Menu') {
-      jQuery('.js-resources-sidebar').addClass('show');
+      jQuery('.js-resources-menu').addClass('is-visible');
       jQuery(this).text('Close');
     } else {
-      jQuery('.js-resources-sidebar').removeClass('show');
+      jQuery('.js-resources-menu').removeClass('is-visible');
       jQuery(this).text('Menu');
     }
   });

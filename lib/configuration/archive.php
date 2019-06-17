@@ -253,6 +253,14 @@ function add_latest_title() {
   <?php }
 }
 
+function add_featured_post_to_category() {
+  if ( is_category() ) {
+  ?>
+    <p>This is at the top</p>
+  <?php
+  }
+}
+
 function get_category_title() {
   if ( is_home() ){
     echo "All";
