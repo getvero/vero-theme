@@ -276,7 +276,7 @@ function get_category_title() {
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
 
-    <!-- <div class="js-resources-sidebar resources-sidebar">
+    <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
         <div class="resources-sidebar-categories bottom-margin-small">
           <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
@@ -311,7 +311,7 @@ function add_categories_and_search() {
           </form>
         </div>
       </div>
-    </div> -->
+    </div>
 
   <?php }
 }

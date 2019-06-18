@@ -46,12 +46,16 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </li>
     </ul>
 
-    <?php get_search_form(); ?>
+    <div class="md-lg-left-margin-auto">
+      <label class="search-toggle font-white" for="search-form">Search</label>
+      <input class="search-checkbox hide" id="search-form" type="checkbox">
+      <?php get_search_form(); ?>
+    </div>
 
     <div class="js-resources-menu-footer resources-menu-footer">
       <div class="resources-footer-wrap">
         <button class="js-resources-menu-footer-close resources-menu-footer-close">✕</button>
-        <div class="grid items-center">
+        <div class="grid md-lg-items-center">
           <div class="col-main">
             <div class="js-enquire-intro-menu enquire-intro-menu">
               <h3 class="no-margin">Insights, tips and tools for creating better customer messaging and product experiences</h3>
@@ -78,7 +82,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     </div>
 
-    <button class="js-open-subscribe-form btn btn-success hide md-lg-show left-margin-auto">Subscribe to updates</button>
+    <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
   </div>
   <?php $resources_menu = ob_get_clean();
 

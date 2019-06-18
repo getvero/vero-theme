@@ -83,13 +83,30 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_content_sidebar_wrap', 'post_blog_cta' );
   add_action( 'genesis_footer', 'custom_footer' );
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
-  add_filter('get_search_form', 'change_search_form_type');
+  add_filter( 'get_search_form', 'change_search_form_type' );
+
+  add_filter( 'search_form_format', 'wpse_259716_search_form_format', 99, 1 );
+  function wpse_259716_search_form_format( $format ) {
+    if( in_array( $format, array( 'html5' ) ) ) {
+      add_filter( 'get_search_form', "wpse_259716_get_search_form_$format", 99, 1 );
+    }
+    return $format;
+  }
+
+  function wpse_259716_get_search_form_html5( $form ) {
+    $search = '<input type="submit"';
+    $html5 = '<label class="search-toggle font-white" for="search-form">Search</label>
+    <input class="search-checkbox hide" id="search-form" type="checkbox">';
+    $replace = $html5 . $search;
+    return str_replace( $search, $replace, $form );
+  }
+
 
   // Add categories and search
   // add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
-  add_action( 'genesis_after_header', 'add_categories_and_search' );
+  // add_action( 'genesis_after_header', 'add_categories_and_search' );
   add_action( 'genesis_before_content', 'add_latest_title' );
   add_action( 'genesis_before_content', 'add_featured_post_to_category' );
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
