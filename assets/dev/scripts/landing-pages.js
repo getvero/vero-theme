@@ -6,7 +6,7 @@ var isFixed         = false;
 
 jQuery(window).scroll(function() {
   // Sticky header
-  var header          = jQuery('.nav-primary');
+  var header          = jQuery('.page .nav-primary');
   var resourcesHeader = jQuery('.js-resources-sidebar');
   var scroll          = jQuery(window).scrollTop();
 
@@ -203,11 +203,28 @@ jQuery(document).ready(function() {
 
     if (textCont == 'Menu') {
       jQuery('.js-resources-menu').addClass('is-visible');
+      jQuery(this).addClass('is-active');
       jQuery(this).text('Close');
     } else {
       jQuery('.js-resources-menu').removeClass('is-visible');
+      jQuery(this).removeClass('is-active');
       jQuery(this).text('Menu');
     }
   });
 
+  // Open subscribe form
+  var form       = jQuery('.js-resources-menu-footer');
+
+  jQuery('.js-open-subscribe-form').on('click', function() {
+    form.addClass('is-active');
+  });
+
+  jQuery('.js-resources-menu-footer-close').on('click', function() {
+    var formActive = jQuery('.js-resources-menu-footer.is-active');
+    var formOpen   = formActive.length > 0;
+
+    if (formOpen) {
+      form.removeClass('is-active');
+    }
+  });
 });

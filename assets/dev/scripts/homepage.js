@@ -176,6 +176,3 @@ function getHeight() {
 //     console.log('unstick');
 //   }
 // });
-
-// Smooth scroll
-var scroll = new SmoothScroll('[data-scroll]');

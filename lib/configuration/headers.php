@@ -10,20 +10,28 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <div id="logo">
-    <a href="https://www.getvero.com">
-      <?php if( is_blog_archive() || is_single() ) : ?>
-        <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation">
-      <?php else : ?>
+    <?php if( is_blog_archive() || is_single() ) : ?>
+      <div class="flex items-center">
+        <a href="/">
+          <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation">
+        </a>
+
+        <div class="divider"></div>
+
+        <a class="atomic negative" href="/resources">Resources</a>
+      </div>
+    <?php else : ?>
+      <a href="/">
         <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
-      <?php endif; ?>
-    </a>
+      </a>
+    <?php endif; ?>
   </div>
   <?php $logo = ob_get_clean();
 
   ob_start();
   ?>
-  <div class="js-resources-menu resources-menu flex flex-column smd-flex-row items-center">
-    <ul class="menu resources-categories flex flex-column smd-flex-row items-center" id="">
+  <div class="js-resources-menu resources-menu flex flex-column md-lg-flex-row items-center md-lg-items-stretch">
+    <ul class="menu resources-categories flex flex-column md-lg-flex-row items-center" id="">
       <li>
         <a href="#none">Link</a>
       </li>
@@ -40,26 +48,37 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
     <?php get_search_form(); ?>
 
-    <div class="resources-menu-footer">
-      <div class="js-enquire-intro-menu enquire-intro-menu bottom-margin-small smd-hide">
-        <h3 class="no-margin">Insights, tips and tools for creating better customer messaging and product experiences.</h3>
-      </div>
-      <div class="js-thanks-menu thanks-menu hide">
-        <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
-        <p class="no-margin">We've sent you an email to confirm your subscription.</p>
-      </div>
-      <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-        <div class="flex justify-center items-stretch">
-          <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
-          <input name="user[consent_marketing]" type="hidden" value="true">
-          <input name="user[consent_product_updates]" type="hidden" value="true">
-          <input name="event[blog_subscriber_source]" type="hidden" value="popup">
-          <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-          <input class="btn btn-success" type="submit" value="Subscribe to updates">
+    <div class="js-resources-menu-footer resources-menu-footer">
+      <div class="resources-footer-wrap">
+        <button class="js-resources-menu-footer-close resources-menu-footer-close">✕</button>
+        <div class="grid items-center">
+          <div class="col-main">
+            <div class="js-enquire-intro-menu enquire-intro-menu">
+              <h3 class="no-margin">Insights, tips and tools for creating better customer messaging and product experiences</h3>
+            </div>
+            <div class="js-thanks-menu thanks-menu hide">
+              <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
+              <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+            </div>
+          </div>
+          <div class="col-aside">
+            <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+              <div class="flex flex-column md-lg-flex-row justify-center items-stretch">
+                <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
+                <input name="user[consent_marketing]" type="hidden" value="true">
+                <input name="user[consent_product_updates]" type="hidden" value="true">
+                <input name="event[blog_subscriber_source]" type="hidden" value="popup">
+                <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+                <input class="btn btn-success btn-no-shadow" type="submit" value="Subscribe to updates">
+              </div>
+              <span class="annotation faded">We're committed to keeping your information safe. Read our Privacy Policy.</span>
+            </form>
+          </div>
         </div>
-        <span class="annotation faded smd-hide">We're committed to keeping your information safe. Read our Privacy Policy.</span>
-      </form>
+      </div>
     </div>
+
+    <button class="js-open-subscribe-form btn btn-success hide md-lg-show left-margin-auto">Subscribe to updates</button>
   </div>
   <?php $resources_menu = ob_get_clean();
 
@@ -76,11 +95,11 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="js-category-toggle category-toggle border-radius-1 semi-bold font-white">Menu</div>
+  <div class="js-category-toggle category-toggle border-radius-1 semi-bold">Menu</div>
   <?php $category_toggle = ob_get_clean();
 
   if ( is_blog_archive() || is_single() ) {
-    return $logo . $resources_menu . $category_toggle . '</div>';
+    return $logo . $resources_menu . $category_toggle;
   } else {
     return $logo . $menu . $responsive_toggle;
   }
