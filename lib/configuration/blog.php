@@ -40,8 +40,8 @@
 
     if ( is_single() ) {
       // Remove the entry header markup (requires HTML5 theme support)
-      remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-      remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+      // remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+      // remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
     }
 
     if ( is_single() ) {
