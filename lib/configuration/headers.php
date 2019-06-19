@@ -71,14 +71,16 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     </ul>
 
     <div class="flex items-center md-lg-left-margin-auto">
-      <label class="search-toggle hide md-lg-show font-white" for="search-form">Search</label>
+      <label class="search-toggle search-toggle search-toggle-open hide md-lg-show" for="search-form">
+        <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#fff" fill-rule="nonzero"/></svg>
+      </label>
       <input class="search-checkbox hide" id="search-form" type="checkbox">
       <?php get_search_form(); ?>
     </div>
 
     <div class="js-resources-menu-footer resources-menu-footer">
-      <div class="resources-footer-wrap">
-        <button class="js-resources-menu-footer-close resources-menu-footer-close">✕</button>
+      <div class="resources-menu-footer-wrap">
+        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close"></button>
         <div class="grid md-lg-items-center">
           <div class="col-main">
             <div class="js-enquire-intro-menu enquire-intro-menu">
@@ -123,7 +125,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <label class="md-lg-hide search-toggle font-white" for="search-form">Search</label>
+  <label class="md-lg-hide search-toggle ico ico-search" for="search-form"></label>
   <div class="js-category-toggle category-toggle border-radius-1 semi-bold">Menu</div>
   <?php $category_toggle = ob_get_clean();
 
