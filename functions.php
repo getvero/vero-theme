@@ -107,7 +107,7 @@ function genesischild_theme_setup() {
 
   // add_action( 'genesis_after_content', 'add_subscribe_form' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-  add_action( 'genesis_post_info', 'add_featured_image_to_post' );
+  add_action( 'genesis_before_entry', 'add_featured_image_to_post' );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
   // Add author after entry title on single posts
@@ -150,7 +150,7 @@ function genesischild_theme_setup() {
 
   function wpse_259716_get_search_form_html5( $form ) {
     $search = '<input type="submit"';
-    $html5 = '<label class="search-toggle" for="search-form">Close</label>
+    $html5 = '<label class="search-toggle search-toggle-close ico ico-close" for="search-form"></label>
     <input class="search-checkbox hide" id="search-form" type="checkbox">';
     $replace = $html5 . $search;
     return str_replace( $search, $replace, $form );
