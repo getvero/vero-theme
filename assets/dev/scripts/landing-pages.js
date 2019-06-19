@@ -38,6 +38,14 @@ jQuery(window).scroll(function() {
   //     isFixed = false;
   //   }
   // }
+
+  var postTitle           = jQuery('.js-post-title');
+  var resourcesCategories = jQuery('.js-resources-categories');
+
+  if ( jQuery('body.single').length > 0 ) {
+    // postTitle.show();
+    // resourcesCategories.hide();
+  }
 });
 
 jQuery(document).ready(function() {
@@ -213,7 +221,7 @@ jQuery(document).ready(function() {
   });
 
   // Open subscribe form
-  var form       = jQuery('.js-resources-menu-footer');
+  var form = jQuery('.js-resources-menu-footer');
 
   jQuery('.js-open-subscribe-form').on('click', function() {
     form.addClass('is-active');

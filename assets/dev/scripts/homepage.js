@@ -5,16 +5,17 @@ jQuery(document).ready(function() {
   }
 
   // Responsive menu
-  jQuery( '.js-nav-primary-toggle' ).on( 'click', function() {
+  jQuery('.js-nav-primary-toggle').on( 'click', function() {
     var textcont =  jQuery( '.nav-primary-toggle' ).text();
+
     if(textcont == 'Menu'){
-      jQuery( '#menu-marketing-navbar-right' ).slideDown();
-      jQuery( '.nav-primary-toggle' ).text('Close');
+      jQuery('#menu-marketing-navbar-right').slideDown();
+      jQuery('.nav-primary-toggle').text('Close');
     }
     else if(textcont == 'Close'){
-      jQuery( '#menu-marketing-navbar-right' ).slideUp();
-      jQuery( '.nav-primary-toggle' ).text('Menu');
-      jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
+      jQuery('#menu-marketing-navbar-right').slideUp();
+      jQuery('.nav-primary-toggle').text('Menu');
+      jQuery('#menu-marketing-navbar-right').addClass('slid');
     }
   });
 

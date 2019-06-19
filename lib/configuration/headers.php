@@ -30,24 +30,48 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="js-resources-menu resources-menu flex flex-column md-lg-flex-row items-center md-lg-items-stretch">
-    <ul class="menu resources-categories flex flex-column md-lg-flex-row items-center" id="">
-      <li>
-        <a href="#none">Link</a>
-      </li>
-      <li>
-        <a href="#none">Link</a>
-      </li>
-      <li>
-        <a href="#none">Link</a>
-      </li>
-      <li>
-        <a href="#none">Link</a>
-      </li>
+  <div class="js-resources-menu resources-menu">
+    <ul class="menu js-resources-categories resources-categories flex flex-column md-lg-flex-row items-center">
+      <?php
+        if ( is_blog_post_or_guide_or_tutorial() ) {
+          ?>
+          <li class="js-post-title font-white">
+            <?php
+              $category      = get_the_category();
+              $firstCategory = $category[0]->cat_name;
+            ?>
+            <a class="light" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
+          </li>
+
+          <li>
+            <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#fff" fill-rule="evenodd"/></svg>
+          </li>
+
+          <li class="font-white">
+            <?php echo get_the_title( $post_id ); ?>
+          </li>
+          <?
+        } else {
+          ?>
+            <li>
+              <a href="#none">Link</a>
+            </li>
+            <li>
+              <a href="#none">Link</a>
+            </li>
+            <li>
+              <a href="#none">Link</a>
+            </li>
+            <li>
+              <a href="#none">Link</a>
+            </li>
+          <?
+        }
+      ?>
     </ul>
 
-    <div class="md-lg-left-margin-auto">
-      <label class="search-toggle font-white" for="search-form">Search</label>
+    <div class="flex items-center md-lg-left-margin-auto">
+      <label class="search-toggle hide md-lg-show font-white" for="search-form">Search</label>
       <input class="search-checkbox hide" id="search-form" type="checkbox">
       <?php get_search_form(); ?>
     </div>
@@ -58,7 +82,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <div class="grid md-lg-items-center">
           <div class="col-main">
             <div class="js-enquire-intro-menu enquire-intro-menu">
-              <h3 class="no-margin">Insights, tips and tools for creating better customer messaging and product experiences</h3>
+              <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
             <div class="js-thanks-menu thanks-menu hide">
               <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
@@ -99,6 +123,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
+  <label class="md-lg-hide search-toggle font-white" for="search-form">Search</label>
   <div class="js-category-toggle category-toggle border-radius-1 semi-bold">Menu</div>
   <?php $category_toggle = ob_get_clean();
 
