@@ -54,13 +54,13 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         } else {
           ?>
             <li>
-              <a href="#none">Product News</a>
+              <a href="resources/category/product-news">Product News</a>
             </li>
             <li>
-              <a href="#none">Messaging &plus; Automation</a>
+              <a href="resources/category/messaging-automation">Messaging &plus; Automation</a>
             </li>
             <li>
-              <a href="#none">Data Management</a>
+              <a href="resources/category/data-management">Data Management</a>
             </li>
           <?
         }
