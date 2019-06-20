@@ -11,14 +11,14 @@ function add_author() {
 }
 
 function add_featured_image_to_post() {
-  if ( is_blog_post_or_guide_or_tutorial() ){
+  if ( is_blog_post_or_guide_or_tutorial() ) {
     global $post;
 
     $image_id  = get_post_thumbnail_id( $post->ID );
     $image     = wp_get_attachment_url( $image_id );
     $image_alt = get_post_meta( $image_id, '_wp_attachment_image_alt', true );
 
-    if( $image != '' ){
+    if ( $image != '' ) {
     ?>
       <img class="hero-image border-radius-1 bottom-margin-medium" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
     <?php
