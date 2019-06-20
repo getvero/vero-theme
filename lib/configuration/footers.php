@@ -111,11 +111,17 @@
     ?>
     <section class="resources-cta border-dark-blue bg-white center-text <?php if ( is_home() ) { ?> resources-cta-primary <?php } else { ?> resources-cta-overlap <?php } ?>">
       <div class="inner small-inner">
-        <h4 class="tubs regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+        <?php if( get_field('product') ): ?>
+          <h4 class="tubs regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-        <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free tial</a>
+          <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free tial</a>
 
-        <span class="d-block annotation">No credit card details required</span>
+          <span class="d-block annotation">No credit card details required</span>
+        <?php else: ?>
+          <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
+
+          <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Subscribe</a>
+        <?php endif; ?>
       </div>
     </section>
     <?php
