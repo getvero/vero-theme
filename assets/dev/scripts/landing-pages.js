@@ -220,16 +220,16 @@ jQuery(document).ready(function() {
 
   // Responsive resources menu
   jQuery('.js-category-toggle').on('click', function() {
-    var textCont =  jQuery(this).text();
+    var isActive  = jQuery('js-category-toggle.is-active').length > 0;
 
-    if (textCont == 'Menu') {
+    if (!isActive && !isFixed) {
       jQuery('.js-resources-menu').addClass('is-visible');
       jQuery(this).addClass('is-active');
-      jQuery(this).text('Close');
+      isFixed = true;
     } else {
       jQuery('.js-resources-menu').removeClass('is-visible');
       jQuery(this).removeClass('is-active');
-      jQuery(this).text('Menu');
+      isFixed = false;
     }
   });
 

@@ -125,7 +125,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <label class="md-lg-hide search-toggle search-toggle-open left-margin-auto" for="search-form">
     <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#fff" fill-rule="nonzero"/></svg>
   </label>
-  <div class="js-category-toggle category-toggle border-radius-1 semi-bold">Menu</div>
+  <div class="js-category-toggle category-toggle">
+    <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill="#fff" fill-rule="nonzero"/></svg>
+  </div>
   <?php $category_toggle = ob_get_clean();
 
   if ( is_blog_archive() || is_single() ) {
