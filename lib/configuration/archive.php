@@ -254,24 +254,34 @@ function add_latest_title() {
 }
 
 function add_featured_post_to_category() {
-  if ( get_field('featured_on_category_page') ) {
-    ?>
-      <p>This is at the top</p>
+  ?>
+  <?php query_posts(array(
+    'posts_per_page' => 1,
+    'post_type' => array('post', 'guides', 'tutorials'),
+    'orderby' => 'post_date',
+    'meta_key' => 'featured_on_category_page', // the name of the custom field
+    'meta_compare' => '=', // the comparison (e.g. equals, does not equal, etc...)
+    'meta_value' => 1, // the value to which the custom field is compared. In my case, 'featured_product' was a true/false checkbox. If you had a custom field called 'color' and wanted to show only those blue items, then the meta_value would be 'blue'
+    'paged' => $paged
+    )
+    ); ?>
+
+    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+    <div id="post-<?php the_ID(); ?>" class="cpt">
+    <h2><?php the_title(); ?></h2>
     <?php
-  }
+    if ( has_post_thumbnail() ) {
+        the_post_thumbnail('excerpt');
+    }
+    ?>
+    <?php the_excerpt(); ?>
+    </div>
 
-  if ( is_category() ) {
-    $loop = new WP_Query(
-    array(
-      'post_type'      => array('post', 'guides', 'tutorials'),
-      'posts_per_page' => 1,
-      'meta_key'       => 'featured_on_category_page',
-      'meta_value'     => '1' )
-    );
+    <?php endwhile; ?>
 
-    while ( $loop->have_posts() ) : $loop->the_post();
-    endwhile;
-  }
+    <?php wp_reset_query(); ?>
+    <?php
 }
 
 function get_category_title() {
