@@ -100,7 +100,7 @@
   }
 
   function post_blog_cta() {
-    if ( is_blog_post_or_guide_or_tutorial() ) {
+    if ( is_archive() || is_blog_post_or_guide_or_tutorial() ) {
       ?>
       <?php echo blog_cta(); ?>
       <?php
