@@ -254,34 +254,42 @@ function add_latest_title() {
 }
 
 function add_featured_post_to_category() {
+  if ( is_category() && !is_paged() ) {
   ?>
-  <?php query_posts(array(
-    'posts_per_page' => 1,
-    'post_type' => array('post', 'guides', 'tutorials'),
-    'orderby' => 'post_date',
-    'meta_key' => 'featured_on_category_page', // the name of the custom field
-    'meta_compare' => '=', // the comparison (e.g. equals, does not equal, etc...)
-    'meta_value' => 1, // the value to which the custom field is compared. In my case, 'featured_product' was a true/false checkbox. If you had a custom field called 'color' and wanted to show only those blue items, then the meta_value would be 'blue'
-    'paged' => $paged
-    )
-    ); ?>
+    <?php
+      $category = get_the_category();
+      $category = $category[0]->cat_ID;
+
+      query_posts(array(
+        'posts_per_page' => 1,
+        'post_type' => array('post', 'guides', 'tutorials'),
+        'orderby' => 'post_date',
+        'category__in' => $category,
+        'meta_key' => 'featured_on_category_page', // the name of the custom field
+        'meta_compare' => '=', // the comparison (e.g. equals, does not equal, etc...)
+        'meta_value' => 1, // the value to which the custom field is compared. In my case, 'featured_product' was a true/false checkbox. If you had a custom field called 'color' and wanted to show only those blue items, then the meta_value would be 'blue'
+        'paged' => $paged
+        )
+      );
+    ?>
 
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-    <div id="post-<?php the_ID(); ?>" class="cpt">
-    <h2><?php the_title(); ?></h2>
-    <?php
-    if ( has_post_thumbnail() ) {
+    <div class="cpt">
+      <h2 class="entry-title"><?php the_title(); ?></h2>
+      <?php
+      if ( has_post_thumbnail() ) {
         the_post_thumbnail('excerpt');
-    }
-    ?>
+      }
+      ?>
     <?php the_excerpt(); ?>
     </div>
 
     <?php endwhile; ?>
 
     <?php wp_reset_query(); ?>
-    <?php
+  <?php
+  }
 }
 
 function get_category_title() {
