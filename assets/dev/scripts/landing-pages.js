@@ -38,14 +38,6 @@ jQuery(window).scroll(function() {
   //     isFixed = false;
   //   }
   // }
-
-  var postTitle           = jQuery('.js-post-title');
-  var resourcesCategories = jQuery('.js-resources-categories');
-
-  if ( jQuery('body.single').length > 0 ) {
-    // postTitle.show();
-    // resourcesCategories.hide();
-  }
 });
 
 jQuery(document).ready(function() {

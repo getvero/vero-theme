@@ -119,9 +119,8 @@ function add_news_and_updates_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p class="medium"><?php echo the_excerpt_max_charlength(400); ?><p>
+                  <p><?php echo the_excerpt_max_charlength(400); ?><p>
                 </div>
-
 
                 <div class="flex items-center entry-footer">
                   <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">

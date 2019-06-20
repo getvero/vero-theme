@@ -111,7 +111,7 @@
     <section class="resources-cta border-dark-blue bg-white center-text <?php if ( is_home() ) { ?> resources-cta-primary <?php } else { ?> resources-cta-overlap <?php } ?>">
       <div class="resources-cta-wrap">
         <?php if( get_field('type_of_cta') == 'product' ): ?>
-          <h4 class="tubs regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+          <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
           <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
 
