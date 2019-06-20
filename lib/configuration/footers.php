@@ -90,7 +90,6 @@
     <?php
   }
 
-
   function landing_blog_cta() {
     if ( is_home() ) {
       ?>
