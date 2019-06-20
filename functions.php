@@ -110,7 +110,7 @@ function genesischild_theme_setup() {
   // Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
   // Add date after entry title on posts
-  add_action( 'genesis_entry_header', 'add_date' );
+  // add_action( 'genesis_entry_header', 'add_date' );
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
