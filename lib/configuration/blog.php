@@ -39,12 +39,6 @@
     }
 
     if ( is_single() ) {
-      // Remove the entry header markup (requires HTML5 theme support)
-      // remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-      // remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-    }
-
-    if ( is_single() ) {
       // Customise entry title markup
       add_filter( 'genesis_post_title_output', 'post_title_output', 15 );
       function post_title_output( $title ) {
