@@ -39,8 +39,6 @@ function change_home_loop() {
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
     <div class="resources-section featured-post">
-      <!-- <h2 class="micro regular hide md-show">Featured</h2> -->
-
       <div class="entry entry-hover">
       <?php
         $custom_query = new WP_Query(array(
@@ -53,13 +51,13 @@ function add_featured_post() {
           ?>
 
           <div class="grid">
-            <div class="entry-image">
+            <div class="entry-aside">
               <a href="<?php the_permalink(); ?>">
-                <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </a>
             </div>
 
-            <div class="post-body">
+            <div class="entry-body">
               <div class="entry-header">
                 <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
@@ -106,13 +104,13 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="entry entry-hover">
-              <div class="entry-image">
+              <div class="entry-aside">
                 <a href="<?php the_permalink(); ?>">
-                  <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                  <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
               </div>
 
-              <div class="post-body">
+              <div class="entry-body">
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
@@ -151,7 +149,7 @@ function add_other_posts() {
         <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
-            'post_type' => array('post', 'guides'),
+            'post_type' => array('post', 'guides', 'tutorials'),
             'tag' => 'evergreen'
           ));
 
@@ -161,13 +159,13 @@ function add_other_posts() {
           ?>
 
             <div class="entry entry-hover">
-              <div class="entry-image">
+              <div class="entry-aside">
                 <a href="<?php the_permalink(); ?>">
-                  <img class="responsive-image align-middle" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                  <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
                 </a>
               </div>
 
-              <div class="post-body">
+              <div class="entry-body">
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
@@ -239,16 +237,16 @@ function add_latest_title() {
   <?php }
   else if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h1 class="tubs regular no-bottom-margin">All – Page <?php echo $paged; ?></h1>
+    <h1 class="micro regular">All – Page <?php echo $paged; ?></h1>
   <?php }
   else if ( is_category() ){ ?>
     <div class="archive-description">
-      <h1 class="tubs regular no-bottom-margin"><?php single_cat_title() ?></h1>
+      <h1 class="micro regular"><?php single_cat_title() ?></h1>
     </div>
   <?php }
   else if ( is_search() ) { ?>
     <div class="archive-description">
-      <h1 class="tubs regular no-bottom-margin">Search results for: <?php echo get_search_query(); ?></h1>
+      <h1 class="micro regular">Search results for: <?php echo get_search_query(); ?></h1>
     </div>
   <?php }
 }
@@ -275,15 +273,21 @@ function add_featured_post_to_category() {
 
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-    <div class="cpt">
-      <h2 class="entry-title"><?php the_title(); ?></h2>
-      <?php
-      if ( has_post_thumbnail() ) {
-        the_post_thumbnail('excerpt');
-      }
-      ?>
-    <?php the_excerpt(); ?>
-    </div>
+      <article class="entry featured-post">
+        <div class="grid">
+          <div class="entry-aside">
+            <a href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo get_post_meta($post->ID, '_wp_attachment_image_alt', true); ?>">
+            </a>
+          </div>
+
+          <div class="entry-body">
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+            <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
+          </div>
+        </div>
+      </article>
 
     <?php endwhile; ?>
 
