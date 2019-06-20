@@ -61,8 +61,6 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'header-right' );
   unregister_nav_menu( 'header-right' );
 
-
-
   // Add custom types
   add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
@@ -71,7 +69,6 @@ function genesischild_theme_setup() {
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
   // Navbars and footers
-  // add_action( 'genesis_before_header', 'workflows_banner' );
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
 
   // Remove genesis footer
