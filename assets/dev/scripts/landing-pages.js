@@ -107,6 +107,12 @@ jQuery(document).ready(function() {
     return false;
   });
 
+  jQuery('.js-blog-subscribe-form-2').submit(function(e) {
+    e.preventDefault();
+    subscribeBlog2(e);
+    return false;
+  });
+
   // Blog inline subscribe form
   jQuery('.js-blog-inline-form').submit(function(e) {
     e.preventDefault();
@@ -184,8 +190,23 @@ jQuery(document).ready(function() {
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-enquire-intro-menu').hide();
+        jQuery('.js-enquire-menu').hide();
         jQuery('.js-thanks-menu').show();
+      }
+    });
+  };
+
+  subscribeBlog2 = function(e) {
+    var url = jQuery('.js-blog-subscribe-form-2').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-subscribe-form-2').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-subscribe-form-2').hide();
+        jQuery('.js-enquire-menu-2').hide();
+        jQuery('.js-thanks-menu-2').show();
       }
     });
   };
