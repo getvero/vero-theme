@@ -44,7 +44,7 @@ function add_featured_post() {
       <div class="entry entry-hover">
       <?php
         $custom_query = new WP_Query(array(
-          'post_type' => array('post', 'guides'),
+          'post_type' => array('post', 'guides', 'tutorials'),
           'tag' => 'featured'
         ));
         while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -254,10 +254,23 @@ function add_latest_title() {
 }
 
 function add_featured_post_to_category() {
+  if ( get_field('featured_on_category_page') ) {
+    ?>
+      <p>This is at the top</p>
+    <?php
+  }
+
   if ( is_category() ) {
-  ?>
-    <p>This is at the top</p>
-  <?php
+    $loop = new WP_Query(
+    array(
+      'post_type'      => array('post', 'guides', 'tutorials'),
+      'posts_per_page' => 1,
+      'meta_key'       => 'featured_on_category_page',
+      'meta_value'     => '1' )
+    );
+
+    while ( $loop->have_posts() ) : $loop->the_post();
+    endwhile;
   }
 }
 
