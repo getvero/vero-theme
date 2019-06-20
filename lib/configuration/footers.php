@@ -12,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer" <?php if ( is_blog() ) { ?> style="padding-top: 240px;"<?php } ?>>
+    <footer class="footer" <?php if ( is_blog() ) { ?> style="padding-top: 9%;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
           <div class="col-aside">
@@ -110,8 +110,8 @@
   function blog_cta() {
     ?>
     <section class="resources-cta border-dark-blue bg-white center-text <?php if ( is_home() ) { ?> resources-cta-primary <?php } else { ?> resources-cta-overlap <?php } ?>">
-      <div class="inner small-inner">
-        <?php if( get_field('product') ): ?>
+      <div class="resources-cta-wrap">
+        <?php if( get_field('type_of_cta') == 'product' ): ?>
           <h4 class="tubs regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
           <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free tial</a>
@@ -120,7 +120,7 @@
         <?php else: ?>
           <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
 
-          <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Subscribe</a>
+          <a class="btn btn-success btn-large" href="https://app.getvero.com/signup">Subscribe</a>
         <?php endif; ?>
       </div>
     </section>
