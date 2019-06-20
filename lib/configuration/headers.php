@@ -80,7 +80,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close"></button>
         <div class="grid md-lg-items-center">
           <div class="col-main">
-            <div class="js-enquire-intro-menu enquire-intro-menu">
+            <div class="js-enquire-menu enquire-menu">
               <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
             <div class="js-thanks-menu thanks-menu hide">
