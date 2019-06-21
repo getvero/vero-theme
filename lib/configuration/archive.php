@@ -9,6 +9,19 @@ function next_link_text() {
   return $nextlink;
 }
 
+function custom_excerpt() {
+  add_filter( 'excerpt_length', 'custom_excerpt_length' );
+  add_filter( 'excerpt_more', 'new_excerpt_more' );
+}
+
+// Change excerpt length
+function custom_excerpt_length( $length ) {
+  return 25;
+}
+function new_excerpt_more( $more ) {
+  return '';
+}
+
 function add_custom_read_more_link() {
   if ( is_archive() || is_search() ) { ?>
     <?php if ( get_field('cta') ): ?>
@@ -198,7 +211,10 @@ function the_excerpt_max_charlength($charlength) {
 
 function category_setup() {
   if ( is_category() || is_search() ){
-    remove_action( 'genesis_entry_footer', 'add_shares' );
+    // remove_action( 'genesis_entry_footer', 'add_shares' );
+    ?>
+    <p><?php echo the_excerpt_max_charlength(400); ?></p>
+    <?php
   }
 }
 
@@ -269,47 +285,6 @@ function move_featured_image() {
 
   # Add featured image above entry header.
   add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
-}
-
-function add_categories_and_search() {
-  if ( is_blog_archive() || is_single() ){ ?>
-    <div class="js-resources-sidebar resources-sidebar">
-      <div class="flex flex-column nav-resources wrap">
-        <div class="resources-sidebar-categories bottom-margin-small">
-          <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
-
-          <ul class="resources-sidebar-categories-list">
-            <li class="<?php echo is_active('all'); ?>"><a class="unstyled" href="/resources">All</a></li>
-            <li class="<?php echo is_active('vero-updates'); ?>"><a class="unstyled" href="/resources/category/vero-updates/">Vero Updates</a></li>
-            <li class="<?php echo is_active('how-to'); ?>"><a class="unstyled" href="/resources/category/how-to">How To's</a></li>
-            <li class="<?php echo is_active('case-studies'); ?>"><a class="unstyled" href="/resources/category/case-studies">Case Studies</a></li>
-          </ul>
-        </div>
-
-        <?php echo get_search_form(); ?>
-
-        <div class="top-margin-auto">
-          <p class="hide md-show bottom-margin-small">Insights, tips and tools for creating better customer messaging and product experiences.</p>
-
-          <div class="js-thanks-3 hide">
-            <p>Thanks for subscribing</p>
-          </div>
-
-          <form class="js-blog-subscribe-form" action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
-            <div class="form-group bottom-margin-micro">
-              <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
-              <input name="user[consent_marketing]" type="hidden" value="true">
-              <input name="user[consent_product_updates]" type="hidden" value="true">
-              <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
-              <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-            </div>
-            <input class="btn btn-success input-width-full bottom-margin-tiny" type="submit" value="Subscribe to updates">
-            <span class="d-block annotation"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</span>
-          </form>
-        </div>
-      </div>
-    </div>
-  <?php }
 }
 
 ?>

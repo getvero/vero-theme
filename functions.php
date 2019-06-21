@@ -123,8 +123,6 @@ function genesischild_theme_setup() {
 
   # Excerpt length for category/search page
   add_action( 'genesis_entry_content', 'custom_excerpt' );
-  // add_filter( 'excerpt_length', 'custom_excerpt_length' );
-  add_filter( 'excerpt_more', 'new_excerpt_more' );
 
   // Search page
   add_action( 'genesis_before', 'remove_search_title' );
