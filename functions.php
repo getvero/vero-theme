@@ -110,7 +110,7 @@ function genesischild_theme_setup() {
 
   # Category page
   // add_action( 'genesis_entry_header', 'category_setup', 8);
-  add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
+  add_action( 'genesis_entry_footer', 'add_custom_read_more_link', 9 );
 
   # Post Page
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
