@@ -9,19 +9,13 @@ function next_link_text() {
   return $nextlink;
 }
 
-function remove_read_more_link() {
-  return '…';
-}
-
 function add_custom_read_more_link() {
-  if( is_blog_archive() ){ ?>
-
+  if ( is_archive() || is_search() ) { ?>
     <?php if ( get_field('cta') ): ?>
       <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('cta') ?></a>
     <?php else: ?>
       <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
     <?php endif ?>
-
   <?php }
 }
 
@@ -202,19 +196,10 @@ function the_excerpt_max_charlength($charlength) {
 	}
 }
 
-function add_custom_category_entry_content() {
-  ?>
-    <p><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
-  <?php
-}
-
 function category_setup() {
   if ( is_category() || is_search() ){
-    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
-
-    remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-    remove_action( 'genesis_entry_footer', 'add_shares' );
+    // add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
+    // remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
 
@@ -274,21 +259,21 @@ function add_featured_post_to_category() {
   }
 }
 
-function get_category_title() {
-  if ( is_home() ){
-    echo "All";
-  } else if ( is_category() ){
-    echo single_cat_title();
-  } else if ( is_single() ){
-    echo get_the_category( $id )[0]->name;
-  } else if ( is_search() ) {
-    echo "Search";
+function move_featured_image() {
+   // if this is not an archive, abort.
+  if ( is_singular() ) {
+    // return;
   }
+
+  // Remove featured image from entry content.
+  remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+
+  // Add featured image above entry header.
+  add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
 }
 
 function add_categories_and_search() {
   if ( is_blog_archive() || is_single() ){ ?>
-
     <div class="js-resources-sidebar resources-sidebar">
       <div class="flex flex-column nav-resources wrap">
         <div class="resources-sidebar-categories bottom-margin-small">
@@ -325,7 +310,6 @@ function add_categories_and_search() {
         </div>
       </div>
     </div>
-
   <?php }
 }
 

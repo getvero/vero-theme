@@ -26,13 +26,6 @@ function add_featured_image_to_post() {
   }
 }
 
-function move_featured_image() {
-  if ( is_category() || is_search() ) {
-    // Add featured image above entry header.
-    add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
-  }
-}
-
 function force_full_width_on_posts( $options ) {
   if( is_blog_post_or_guide_or_tutorial() ) {
     $options = 'full-width-content';
@@ -191,11 +184,6 @@ function custom_excerpt_length( $length ) {
 }
 function new_excerpt_more( $more ) {
   return '…';
-}
-
-function custom_cta() {
-  if ( get_field('custom_cta') ) {
-  }
 }
 
 function add_blue_signup_boxes( $content ) {
