@@ -43,7 +43,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             <a class="light" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
           </li>
 
-          <li>
+          <li class="caret">
             <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#fff" fill-rule="evenodd"/></svg>
           </li>
 
@@ -98,7 +98,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
                 <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
                 <input class="btn btn-success btn-no-shadow" type="submit" value="Subscribe to updates">
               </div>
-              <span class="annotation faded">We're committed to keeping your information safe. Read our Privacy Policy.</span>
+              <span class="annotation faded">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
           </div>
         </div>
