@@ -108,14 +108,6 @@ function genesischild_theme_setup() {
   add_filter( 'the_content', 'add_blue_signup_boxes' );
   add_action( 'genesis_entry_footer', 'custom_entry_footer' );
 
-  # Custom sidebar for post
-  genesis_register_sidebar( array(
-    'id'            => 'post-sidebar',
-    'name'          => __( 'Post Sidebar', 'vero' ),
-    'description'   => __( 'This widget are floats next to blog posts and guides', 'vero' ),
-  ) );
-  add_action( 'genesis_after_content', 'add_post_sidebar' );
-
   # Category page
   // add_action( 'genesis_entry_header', 'category_setup', 8);
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
@@ -129,7 +121,9 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 
-  add_filter( 'excerpt_length', 'custom_excerpt_length' );
+  # Excerpt length for category/search page
+  add_action( 'genesis_entry_content', 'custom_excerpt' );
+  // add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
   // Search page

@@ -132,25 +132,11 @@ function add_class_to_small_images( $content ) {
   return $content;
 }
 
-function add_post_sidebar() {
-  if ( is_blog_post_or_guide() ) {
-    genesis_widget_area( 'post-sidebar' );
-  }
-}
-
 function post_is_long() {
   $content = get_the_content();
   $length  = sizeof( explode(" ", $content) );
 
   return $length > 950;
-}
-
-// Change excerpt length
-function custom_excerpt_length( $length ) {
-  return 25;
-}
-function new_excerpt_more( $more ) {
-  return '…';
 }
 
 function add_blue_signup_boxes( $content ) {
