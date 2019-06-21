@@ -10,7 +10,7 @@ function next_link_text() {
 }
 
 function custom_excerpt() {
-  remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+  // remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 
   if ( get_field('custom_excerpt') ) {
     ?>
@@ -30,9 +30,9 @@ function new_excerpt_more( $more ) {
 function add_custom_read_more_link() {
   if ( is_archive() || is_search() ) { ?>
     <?php if ( get_field('custom_read_more') ): ?>
-      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
     <?php else: ?>
-      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
     <?php endif ?>
   <?php }
 }
