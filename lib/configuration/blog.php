@@ -96,9 +96,14 @@
   }
 
   function custom_entry_footer() {
-    if ( is_archive() || is_search() ) {
+    if ( is_search() ) {
       ?>
-        <span class="d-block annotation semi-bold uppercase"><?php echo get_the_author(); ?></span>
+        <div class="flex items-center entry-footer">
+          <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
+
+          <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?>
+          </span>
+        </div>
       <?php
     }
   }
