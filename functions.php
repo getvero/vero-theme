@@ -99,7 +99,6 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before_loop', 'change_post_structure' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_post_info', 'add_featured_image_to_post' );
-  add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
@@ -113,6 +112,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link', 9 );
 
   # Post Page
+  add_action( 'genesis_before_loop', 'add_shares_to_post', 13 );
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_entry_footer', 'blog_related_posts');
 
@@ -124,7 +124,7 @@ function genesischild_theme_setup() {
   # Excerpt length for category/search page
   add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
-  add_action( 'genesis_entry_content', 'custom_excerpt' );
+  add_action( 'genesis_entry_content', 'custom_excerpt', 10 );
 
   // Search page
   add_action( 'genesis_before', 'remove_search_title' );
