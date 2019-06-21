@@ -199,9 +199,6 @@ function add_other_posts() {
 function category_setup() {
   if ( is_category() || is_search() ){
     // remove_action( 'genesis_entry_footer', 'add_shares' );
-    ?>
-    <p><?php echo the_excerpt_max_charlength(400); ?></p>
-    <?php
   }
 }
 
