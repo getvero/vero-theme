@@ -20,7 +20,9 @@ function add_featured_image_to_post() {
 
     if ( $image != '' ) {
     ?>
-      <img class="entry-image hero-image bottom-margin-medium" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      <div class="hero-aside">
+        <img class="entry-image hero-image responsive-image" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      </div>
     <?php
     }
   }
