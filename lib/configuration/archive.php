@@ -242,20 +242,14 @@ function add_featured_post_to_category() {
       $category = get_the_category();
       $category = $category[0]->cat_ID;
 
-      query_posts(array(
+      $custom_query = new WP_Query(array(
         'posts_per_page' => 1,
-        'post_type' => array('post', 'guides', 'tutorials'),
-        'orderby' => 'post_date',
-        'category__in' => $category,
-        'meta_key' => 'featured_on_category_page', // the name of the custom field
-        'meta_compare' => '=', // the comparison (e.g. equals, does not equal, etc...)
-        'meta_value' => 1, // the value to which the custom field is compared. In my case, 'featured_product' was a true/false checkbox. If you had a custom field called 'color' and wanted to show only those blue items, then the meta_value would be 'blue'
-        'paged' => $paged
-        )
-      );
-    ?>
+        'post_type'      => array('post', 'guides', 'tutorials'),
+        'tag'            => 'featured_on_category',
+        'category__in'   => $category
+      ));
 
-    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
       <article class="entry featured-post">
         <div class="grid">
@@ -273,9 +267,9 @@ function add_featured_post_to_category() {
         </div>
       </article>
 
-    <?php endwhile; ?>
-
-    <?php wp_reset_query(); ?>
+    <?php endwhile;
+      wp_reset_postdata();
+    ?>
   <?php
   }
 }
