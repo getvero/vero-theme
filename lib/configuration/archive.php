@@ -198,8 +198,7 @@ function the_excerpt_max_charlength($charlength) {
 
 function category_setup() {
   if ( is_category() || is_search() ){
-    // add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-    // remove_action( 'genesis_entry_footer', 'add_shares' );
+    remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
 
@@ -260,9 +259,9 @@ function add_featured_post_to_category() {
 }
 
 function move_featured_image() {
-   // if this is not an archive, abort.
+  // If this is not an archive, abort.
   if ( is_singular() ) {
-    // return;
+    return;
   }
 
   // Remove featured image from entry content.
