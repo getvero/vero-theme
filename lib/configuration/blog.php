@@ -74,7 +74,7 @@
         <?php } ?>
       </div>
       <?php
-    } else if ( is_archive() || is_search() ) {
+    } else if ( is_search() ) {
       ?>
       <div class="entry-meta bottom-margin-small">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
