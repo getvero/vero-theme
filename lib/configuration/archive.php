@@ -71,7 +71,7 @@ function add_featured_post() {
               <div class="entry-header">
                 <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                <h3 class="entry-title regular bottom-margin-tiny"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                <h2 class="entry-title regular bottom-margin-tiny"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-smedium">
@@ -120,7 +120,7 @@ function add_news_and_updates_posts() {
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                  <h2 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                   <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
                 </div>
 
@@ -170,8 +170,7 @@ function add_other_posts() {
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h3 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
-                  <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
+                  <h2 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
@@ -247,6 +246,12 @@ function add_featured_post_to_category() {
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
             <p class="medium"><?php echo the_excerpt() ?></p>
+
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
           </div>
         </div>
       </article>
