@@ -259,15 +259,15 @@ function add_featured_post_to_category() {
 }
 
 function move_featured_image() {
-  // If this is not an archive, abort.
+  # If this is not an archive, abort.
   if ( is_singular() ) {
     return;
   }
 
-  // Remove featured image from entry content.
+  # Remove featured image from entry content.
   remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 
-  // Add featured image above entry header.
+  # Add featured image above entry header.
   add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
 }
 

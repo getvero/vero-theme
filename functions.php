@@ -13,9 +13,9 @@ include_once( 'lib/configuration/tracking.php' );
 include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
-include_once( 'lib/post_types/guides.php' );          # Guides pages
-include_once( 'lib/post_types/tutorials.php' );          # Tutorials pages
-include_once( 'lib/post_types/release_notes.php' );   # Release Notes
+include_once( 'lib/post_types/guides.php' );         // Guides pages
+include_once( 'lib/post_types/tutorials.php' );      // Tutorials pages
+include_once( 'lib/post_types/release_notes.php' );  // Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
 
@@ -29,10 +29,11 @@ function genesischild_theme_setup() {
     'primary' => __( 'Navigation Menu', 'genesis' )
   ) );
 
-  // Remove sidebars
+  # Remove sidebars
   remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
   remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
-  // Conditionally load Disqus
+
+  # Conditionally load Disqus
   function filter_dsq_can_load( $script_name ) {
     if ( !is_single() && ( 'count' === $script_name || 'embed' === $script_name )) {
       return false;
@@ -46,7 +47,7 @@ function genesischild_theme_setup() {
 
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
 
-  // Remove header
+  # Remove header
   remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
   remove_action( 'genesis_header', 'genesis_do_header' );
   remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
@@ -61,17 +62,17 @@ function genesischild_theme_setup() {
   unregister_sidebar( 'header-right' );
   unregister_nav_menu( 'header-right' );
 
-  // Add custom types
+  # Add custom types
   add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
   add_action( 'init', 'create_tutorials_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
-  // Navbars and footers
+  # Navbars and footers
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
 
-  // Remove genesis footer
+  # Remove genesis footer
   remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
@@ -82,7 +83,7 @@ function genesischild_theme_setup() {
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
   add_filter( 'get_search_form', 'change_search_form_type' );
 
-  // Add categories and search
+  # Add categories and search
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   // add_action( 'genesis_after_header', 'add_categories_and_search' );
@@ -91,23 +92,23 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
-  // Move featured image above title
+  # Move featured image above title
   add_action( 'genesis_before_entry', 'move_featured_image' );
 
-  // Customise post entry
+  # Customise post entry
   add_action( 'genesis_before_loop', 'change_post_structure' );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
   add_action( 'genesis_post_info', 'add_featured_image_to_post' );
   add_action( 'genesis_entry_header', 'add_shares_to_post', 13 );
   add_filter( 'genesis_post_info', 'change_post_info' );
-  // Add author after entry title on single posts
+  # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
   add_action( 'genesis_entry_footer', 'custom_entry_footer' );
 
-  // Custom sidebar for post
+  # Custom sidebar for post
   genesis_register_sidebar( array(
     'id'            => 'post-sidebar',
     'name'          => __( 'Post Sidebar', 'vero' ),
@@ -115,15 +116,15 @@ function genesischild_theme_setup() {
   ) );
   add_action( 'genesis_after_content', 'add_post_sidebar' );
 
-  // Category page
-  add_action( 'genesis_entry_header', 'category_setup', 8);
+  # Category page
+  // add_action( 'genesis_entry_header', 'category_setup', 8);
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
 
-  // Post Page
+  # Post Page
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_entry_footer', 'blog_related_posts');
 
-  // Remove entry footer on post page
+  # Remove entry footer on post page
   remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
   remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
@@ -141,7 +142,6 @@ function genesischild_theme_setup() {
     }
     return $format;
   }
-
   function wpse_259716_get_search_form_html5( $form ) {
     $search = '<input type="submit"';
     $html5 = '<label class="search-toggle search-toggle-close ico ico-close" for="search-form"></label>
@@ -150,17 +150,17 @@ function genesischild_theme_setup() {
     return str_replace( $search, $replace, $form );
   }
 
-  // Remove Genesis SEO Settings menu link
+  # Remove Genesis SEO Settings menu link
   remove_theme_support('genesis-seo-settings-menu');
 
-  // Customise release notes
+  # Customise release notes
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
 
-  // Customise resources home page
+  # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
 
-  // Add custom thumbnail size
+  # Add custom thumbnail size
   add_action( 'after_setup_theme', 'add_inline_thumbnail' );
   function add_inline_thumbnail() {
     add_image_size( 'inline-thumbnail', 800, 600, array( 'center', 'top' ) );
@@ -175,7 +175,6 @@ function genesischild_theme_setup() {
 
     return $newsizes;
   }
-
 }
 
 ?>
