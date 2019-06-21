@@ -51,11 +51,9 @@ function add_featured_post() {
           ?>
 
           <div class="grid">
-            <div class="entry-aside">
-              <a href="<?php the_permalink(); ?>">
-                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-              </a>
-            </div>
+            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            </a>
 
             <div class="entry-body">
               <div class="entry-header">
@@ -71,9 +69,7 @@ function add_featured_post() {
               <div class="flex items-center entry-footer">
                 <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
-                <div>
-                  <span class="d-block"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                </div>
+                <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
               </div>
             </div>
           </div>
@@ -104,11 +100,9 @@ function add_news_and_updates_posts() {
             ?>
 
             <div class="entry entry-hover">
-              <div class="entry-aside">
-                <a href="<?php the_permalink(); ?>">
-                  <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-                </a>
-              </div>
+              <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              </a>
 
               <div class="entry-body">
                 <div class="post-header">
@@ -125,9 +119,7 @@ function add_news_and_updates_posts() {
                 <div class="flex items-center entry-footer">
                   <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
-                  <div>
-                    <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                  </div>
+                  <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                 </div>
               </div>
             </div>
@@ -149,7 +141,7 @@ function add_other_posts() {
         <?php
           $custom_query = new WP_Query(array(
             'post_type' => array('post', 'guides', 'tutorials'),
-            'tag' => 'evergreen'
+            'tag'       => 'evergreen'
           ));
 
           while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -158,29 +150,26 @@ function add_other_posts() {
           ?>
 
             <div class="entry entry-hover">
-              <div class="entry-aside">
-                <a href="<?php the_permalink(); ?>">
-                  <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-                </a>
-              </div>
+              <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              </a>
 
               <div class="entry-body">
                 <div class="post-header">
                   <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
                   <h3 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h3>
+                  <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php echo the_excerpt_max_charlength(400); ?></p>
+                  <p><?php echo the_excerpt_max_charlength(400); ?><p>
                 </div>
 
                 <div class="flex items-center entry-footer">
                   <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
 
-                  <div>
-                    <span class="d-block regular"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                  </div>
+                  <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
                 </div>
               </div>
             </div>
