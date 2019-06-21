@@ -107,8 +107,6 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_post_info', 'change_post_info' );
   // Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
-  // Add date after entry title on posts
-  // add_action( 'genesis_entry_header', 'add_date' );
   add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
@@ -143,7 +141,7 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_search_text', 'change_search_form_placeholder' );
   add_filter( 'search_form_format', 'wpse_259716_search_form_format', 99, 1 );
   function wpse_259716_search_form_format( $format ) {
-    if( in_array( $format, array( 'html5' ) ) ) {
+    if ( in_array( $format, array( 'html5' ) ) ) {
       add_filter( 'get_search_form', "wpse_259716_get_search_form_$format", 99, 1 );
     }
     return $format;
@@ -160,7 +158,7 @@ function genesischild_theme_setup() {
   // Remove Genesis SEO Settings menu link
   remove_theme_support('genesis-seo-settings-menu');
 
-  // Customise Release Notes
+  // Customise release notes
   add_action( 'genesis_before', 'remove_elements_release_notes' );
   add_action( 'template_redirect', 'single_release_note_redirect' );
 
