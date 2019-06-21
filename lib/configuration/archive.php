@@ -219,11 +219,7 @@ function category_setup() {
 }
 
 function add_latest_title() {
-  if ( is_home() && !is_paged() ) {
-  ?>
-    <!-- <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1> -->
-  <?php }
-  else if ( is_home() && is_paged() ){
+  if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
     <h1 class="micro regular">All – Page <?php echo $paged; ?></h1>
   <?php }
