@@ -10,13 +10,12 @@ function next_link_text() {
 }
 
 function custom_excerpt() {
-  if ( get_field('custom_excerpt') ) {
-    // remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+  remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 
+  if ( get_field('custom_excerpt') ) {
     ?>
       <p><?php the_field('custom_excerpt') ?></p>
     <?php
-  } else {
   }
 }
 
@@ -76,7 +75,7 @@ function add_featured_post() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <p><?php echo the_excerpt_max_charlength(400); ?></p>
+                <p><?php echo the_excerpt(); ?></p>
               </div>
 
               <div class="flex items-center entry-footer">
@@ -126,7 +125,7 @@ function add_news_and_updates_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php echo the_excerpt_max_charlength(400); ?><p>
+                  <p><?php echo the_excerpt() ?><p>
                 </div>
 
                 <div class="flex items-center entry-footer">
@@ -176,7 +175,7 @@ function add_other_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php echo the_excerpt_max_charlength(400); ?><p>
+                  <p><?php echo the_excerpt() ?><p>
                 </div>
 
                 <div class="flex items-center entry-footer">
@@ -195,24 +194,6 @@ function add_other_posts() {
       </div>
     <?php
   }
-}
-
-function the_excerpt_max_charlength($charlength) {
-	$excerpt = get_the_excerpt();
-	$charlength++;
-	if ( mb_strlen( $excerpt ) > $charlength ) {
-		$subex = mb_substr( $excerpt, 0, $charlength - 5 );
-		$exwords = explode( ' ', $subex );
-		$excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
-		if ( $excut < 0 ) {
-			echo mb_substr( $subex, 0, $excut );
-		} else {
-			echo $subex;
-		}
-		echo ' <br><a href="' . get_permalink() . '" class="more-link" title="Read More">Read More</a>';
-	} else {
-		echo $excerpt;
-	}
 }
 
 function category_setup() {
@@ -268,7 +249,7 @@ function add_featured_post_to_category() {
           <div class="entry-body">
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-            <p class="medium"><?php echo the_excerpt_max_charlength(400); ?></p>
+            <p class="medium"><?php echo the_excerpt() ?></p>
           </div>
         </div>
       </article>
