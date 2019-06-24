@@ -260,9 +260,11 @@ function add_featured_post_to_category() {
           </div>
 
           <div class="entry-body">
-            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <div class="entry-header">
+              <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            </div>
 
-            <p class="medium"><?php echo the_excerpt() ?></p>
+            <?php the_excerpt() ?>
 
             <?php if ( get_field('custom_read_more') ): ?>
               <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
