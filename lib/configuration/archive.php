@@ -71,8 +71,12 @@ function add_featured_post() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta bottom-margin-small">
+                <div class="entry-meta flex items-center bottom-margin-small">
                   <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+
+                  <span class="d-inline-block divider"></span>
+
+                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 
                 <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
@@ -181,8 +185,12 @@ function add_other_posts() {
 
               <div class="entry-body">
                 <div class="entry-header">
-                  <div class="entry-meta bottom-margin-small">
+                  <div class="entry-meta flex items-center bottom-margin-small">
                     <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+
+                    <span class="d-inline-block divider"></span>
+
+                    <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                   </div>
 
                   <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
