@@ -78,10 +78,12 @@ function add_featured_post() {
                 <p><?php echo the_excerpt(); ?></p>
               </div>
 
-              <div class="flex items-center entry-footer">
-                <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
-
-                <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
               </div>
             </div>
           </div>
@@ -128,11 +130,13 @@ function add_news_and_updates_posts() {
                   <p><?php echo the_excerpt() ?><p>
                 </div>
 
-                <div class="flex items-center entry-footer">
-                  <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
-
-                  <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                </div>
+                <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
               </div>
             </div>
 
@@ -177,11 +181,13 @@ function add_other_posts() {
                   <p><?php echo the_excerpt() ?><p>
                 </div>
 
-                <div class="flex items-center entry-footer">
-                  <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
-
-                  <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?></span>
-                </div>
+                <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
               </div>
             </div>
 
