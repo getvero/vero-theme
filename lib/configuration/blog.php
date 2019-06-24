@@ -66,7 +66,7 @@
 
     if ( is_single() ) {
       ?>
-      <div class="entry-meta bottom-margin-smedium">
+      <div class="entry-meta">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
           <a class="unstyled badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
         <?php } else { ?>

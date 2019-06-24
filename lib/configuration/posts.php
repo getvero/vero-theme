@@ -3,8 +3,8 @@
 function add_author() {
   if ( is_single() ) {
     ?>
-    <div class="medium bottom-margin-medium">
-      by <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
+    <div class="entry-author atomic">
+      by <span itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
     </div>
     <?php
   }
@@ -21,7 +21,7 @@ function add_featured_image_to_post() {
     if ( $image != '' ) {
     ?>
       <div class="hero-aside">
-        <img class="entry-image hero-image responsive-image" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+        <img class="entry-image hero-image" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
       </div>
     <?php
     }

@@ -30,17 +30,17 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <div class="js-resources-menu resources-menu">
-    <ul class="menu js-resources-categories resources-categories flex flex-column md-lg-flex-row items-stretch">
+  <div class="js-resources-menu resources-menu flex">
+    <ul class="menu js-resources-categories resources-categories flex">
       <?php
         if ( is_blog_post_or_guide_or_tutorial() ) {
           ?>
-          <li class="js-post-title font-white">
+          <li class="js-post-title">
             <?php
               $category      = get_the_category();
               $firstCategory = $category[0]->cat_name;
             ?>
-            <a class="light" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
+            <a href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
           </li>
 
           <li class="caret">
@@ -48,7 +48,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </li>
 
           <li class="font-white">
-            <?php echo get_the_title( $post_id ); ?>
+            <span class="light"><?php echo get_the_title( $post_id ); ?></span>
           </li>
           <?
         } else {
