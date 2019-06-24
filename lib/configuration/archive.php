@@ -28,13 +28,15 @@ function new_excerpt_more( $more ) {
 }
 
 function add_custom_read_more_link() {
-  if ( is_archive() || is_search() ) { ?>
-    <?php if ( get_field('custom_read_more') ): ?>
-      <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-    <?php else: ?>
-      <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-    <?php endif ?>
-  <?php }
+   if ( get_field('custom_read_more') ) {
+     ?>
+    <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+    <?php
+  } else {
+    ?>
+    <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+    <?php
+  }
 }
 
 function change_home_loop() {
@@ -69,13 +71,15 @@ function add_featured_post() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                <div class="entry-meta bottom-margin-small">
+                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                </div>
 
-                <h2 class="entry-title regular bottom-margin-tiny"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <p><?php echo the_excerpt(); ?></p>
+                <?php the_excerpt(); ?>
               </div>
 
               <div class="entry-footer">
@@ -119,15 +123,20 @@ function add_news_and_updates_posts() {
               </a>
 
               <div class="entry-body">
-                <div class="post-header">
-                  <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                <div class="entry-header">
+                  <div class="entry-meta flex items-center bottom-margin-small">
+                    <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
 
-                  <h2 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
-                  <span class="d-block regular bottom-margin-tiny"><?php echo get_the_date( 'j M, Y' ); ?></span>
+                    <span class="d-inline-block divider"></span>
+
+                    <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                  </div>
+
+                  <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php echo the_excerpt() ?><p>
+                  <?php the_excerpt() ?>
                 </div>
 
                 <div class="entry-footer">
@@ -171,14 +180,16 @@ function add_other_posts() {
               </a>
 
               <div class="entry-body">
-                <div class="post-header">
-                  <a class="unstyled badge bottom-margin-small" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                <div class="entry-header">
+                  <div class="entry-meta bottom-margin-small">
+                    <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  </div>
 
-                  <h2 class="entry-title regular bottom-margin-tiny"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                  <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <p><?php echo the_excerpt() ?><p>
+                  <?php the_excerpt() ?>
                 </div>
 
                 <div class="entry-footer">
