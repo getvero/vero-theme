@@ -18,7 +18,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
         <div class="divider"></div>
 
-        <a class="logo-resources negative" href="/resources">Resources</a>
+        <a class="logo-resources semi-bold negative" href="/resources">Resources</a>
       </div>
     <?php else : ?>
       <a href="/">
