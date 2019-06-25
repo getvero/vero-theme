@@ -78,7 +78,6 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
   add_action( 'genesis_after_content_sidebar_wrap', 'blog_cta' );
-  // add_action( 'genesis_after_content_sidebar_wrap', 'post_blog_cta' );
   add_action( 'genesis_footer', 'custom_footer' );
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
   add_filter( 'get_search_form', 'change_search_form_type' );

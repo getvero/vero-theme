@@ -56,10 +56,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         } else {
           ?>
             <li>
-              <a class="unstyled" href="/resources/category/product-news">Product News</a>
+              <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
             </li>
             <li>
-              <a class="unstyled" href="/resources/category/messaging-automation">Messaging &plus; Automation</a>
+              <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
             </li>
             <li>
               <a class="unstyled" href="/resources/category/data-management">Data Management</a>
