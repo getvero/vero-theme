@@ -76,33 +76,26 @@
       <?php
     } else if ( is_search() ) {
       ?>
-      <div class="entry-meta bottom-margin-small">
+      <div class="entry-meta flex items-center bottom-margin-small">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
-          <a class="unstyled badge right-margin-micro" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
+          <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
+
+          <span class="d-inline-block divider"></span>
+
+          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } else { ?>
-          <a class="unstyled badge right-margin-micro" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <a class="badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+
+          <span class="d-inline-block divider"></span>
+
+          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } ?>
       </div>
       <?php
-    }
-  }
-
-  function add_date() {
-    if ( is_archive() || is_search() ) {
+    } else {
       ?>
-        <time class="d-block regular bottom-margin-tiny" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-      <?php
-    }
-  }
-
-  function custom_entry_footer() {
-    if ( is_search() ) {
-      ?>
-        <div class="flex items-center entry-footer">
-          <img class="author-avatar" src="<?php echo get_avatar_url(get_the_author_meta( 'ID' )); ?>" alt="<?php the_author(); ?>">
-
-          <span class="author-name"><?php echo get_the_author_meta('display_name', $author_id); ?>
-          </span>
+        <div class="entry-meta bottom-margin-small">
+          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         </div>
       <?php
     }
