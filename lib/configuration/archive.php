@@ -49,6 +49,7 @@ function change_home_loop() {
     add_action( 'genesis_loop', 'add_featured_post' );
     add_action( 'genesis_loop', 'add_other_posts' );
     add_action( 'genesis_loop', 'add_news_and_updates_posts' );
+    add_action( 'genesis_loop', 'add_tutorials_posts' );
   }
 }
 
@@ -58,6 +59,7 @@ function add_featured_post() {
       <div class="entry entry-hover">
         <?php
           $custom_query = new WP_Query(array(
+            'posts_per_page' => 1,
             'post_type' => array('post', 'guides', 'tutorials'),
             'tag' => 'featured'
           ));
@@ -113,6 +115,7 @@ function add_other_posts() {
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
+              'posts_per_page' => 3,
               'post_type' => array('post', 'guides', 'tutorials'),
               'tag'       => 'evergreen'
             ));
@@ -171,6 +174,7 @@ function add_news_and_updates_posts() {
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
+              'posts_per_page' => 2,
               'post_type' => array('post', 'guides', 'tutorials'),
               'tag'       => 'news_and_updates'
             ));
@@ -179,6 +183,64 @@ function add_news_and_updates_posts() {
               $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $category            = get_the_category();
           ?>
+
+          <div class="entry entry-hover">
+            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+            </a>
+
+            <div class="entry-body">
+              <div class="entry-header">
+                <div class="entry-meta flex items-center bottom-margin-small">
+                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+
+                  <span class="d-inline-block divider"></span>
+
+                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                </div>
+
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              </div>
+
+              <div class="entry-content bottom-margin-smedium">
+                <?php the_excerpt() ?>
+              </div>
+
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
+            </div>
+          </div>
+
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
+        </div>
+      </div>
+    <?php
+  }
+}
+
+function add_tutorials_posts() {
+  if ( is_home() && !is_paged() ) {
+    ?>
+      <div class="resources-section resources-section-secondary test news-and-updates-posts">
+        <h2 class="micro regular hide smd-show">Tutorials</h2>
+        <div class="grid">
+          <?php
+            $custom_query = new WP_Query(array(
+              'posts_per_page' => 3,
+              'post_type' => 'tutorials',
+            ));
+
+            while( $custom_query->have_posts() ) : $custom_query->the_post();
+              $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              $category            = get_the_category();
+            ?>
 
           <div class="entry entry-hover">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
