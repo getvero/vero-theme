@@ -13,7 +13,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <?php if( is_blog_archive() || is_single() ) : ?>
       <div class="flex items-center">
         <a href="/">
-          <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation">
+          <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+
+          <!-- <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation"> -->
         </a>
 
         <div class="divider"></div>
