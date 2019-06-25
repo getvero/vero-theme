@@ -10,12 +10,14 @@ function next_link_text() {
 }
 
 function custom_excerpt() {
-  // remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+  remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 
   if ( get_field('custom_excerpt') ) {
     ?>
       <p><?php the_field('custom_excerpt') ?></p>
     <?php
+  } else {
+    the_excerpt();
   }
 }
 
@@ -90,7 +92,7 @@ function add_featured_post() {
                 <?php if ( get_field('custom_read_more') ): ?>
                   <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -269,6 +271,10 @@ function add_featured_post_to_category() {
 
           <div class="entry-body">
             <div class="entry-header">
+              <div class="entry-meta  bottom-margin-small">
+                <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+              </div>
+
               <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
