@@ -12,7 +12,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <div id="logo">
     <?php if( is_blog_archive() || is_single() ) : ?>
       <div class="flex items-center">
-        <a href="/">
+        <a class="d-block" href="/">
           <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
 
           <!-- <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation"> -->
@@ -20,10 +20,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
         <div class="divider"></div>
 
-        <a class="logo-resources semi-bold negative" href="/resources">Resources</a>
+        <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
       </div>
     <?php else : ?>
-      <a href="/">
+      <a class="d-block" href="/">
         <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     <?php endif; ?>
@@ -42,27 +42,27 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               $category      = get_the_category();
               $firstCategory = $category[0]->cat_name;
             ?>
-            <a href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
+            <a class="unstyled" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
           </li>
 
           <li class="caret">
             <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#fff" fill-rule="evenodd"/></svg>
           </li>
 
-          <li class="font-white">
+          <li>
             <span class="light"><?php echo get_the_title( $post_id ); ?></span>
           </li>
           <?
         } else {
           ?>
             <li>
-              <a href="/resources/category/product-news">Product News</a>
+              <a class="unstyled" href="/resources/category/product-news">Product News</a>
             </li>
             <li>
-              <a href="/resources/category/messaging-automation">Messaging &plus; Automation</a>
+              <a class="unstyled" href="/resources/category/messaging-automation">Messaging &plus; Automation</a>
             </li>
             <li>
-              <a href="/resources/category/data-management">Data Management</a>
+              <a class="unstyled" href="/resources/category/data-management">Data Management</a>
             </li>
           <?
         }
