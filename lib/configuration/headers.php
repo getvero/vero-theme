@@ -14,8 +14,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <div class="flex items-center">
         <a class="d-block" href="/">
           <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
-
-          <!-- <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white navigation"> -->
         </a>
 
         <div class="divider"></div>
@@ -63,6 +61,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             </li>
             <li>
               <a class="unstyled" href="/resources/category/data-management">Data Management</a>
+            </li>
+            <li>
+              <a class="unstyled" href="/resources/category/data-management">Tutorials</a>
             </li>
           <?
         }
