@@ -37,7 +37,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <?php
         if ( is_blog_post_or_guide_or_tutorial() ) {
           ?>
-          <li class="js-post-title">
+          <li class="post-category">
             <?php
               $category      = get_the_category();
               $firstCategory = $category[0]->cat_name;
@@ -49,7 +49,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#e1e1e1" fill-rule="nonzero"/></svg>
           </li>
 
-          <li>
+          <li class="post-title">
             <span class="light"><?php echo get_the_title( $post_id ); ?></span>
           </li>
           <?
@@ -70,7 +70,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     </ul>
 
     <div class="flex items-center md-lg-left-margin-auto">
-      <label class="search-toggle search-toggle search-toggle-open" for="search-form">
+      <label class="search-toggle search-toggle-open" for="search-form">
         <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
       </label>
       <input class="search-checkbox hide" id="search-form" type="checkbox">
@@ -105,6 +105,8 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
       </div>
+
+      <p class="smd-hide">Back to Vero</p>
     </div>
 
     <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
@@ -125,10 +127,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <label class="search-toggle search-toggle-open left-margin-auto md-lg-hide" for="search-form">
-    <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#fff" fill-rule="nonzero"/></svg>
+    <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
   </label>
   <div class="js-category-toggle category-toggle">
-    <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill="#fff" fill-rule="nonzero"/></svg>
+    <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
   </div>
   <?php $category_toggle = ob_get_clean();
 
