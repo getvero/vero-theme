@@ -55,7 +55,7 @@ function change_home_loop() {
 
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
-    <div class="resources-section featured-post">
+    <div class="resources-section resources-section-featured featured-post">
       <div class="entry entry-hover">
         <?php
           $custom_query = new WP_Query(array(
@@ -169,7 +169,7 @@ function add_other_posts() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary test news-and-updates-posts">
+      <div class="resources-section resources-section-secondary news-and-updates-posts">
         <h2 class="micro regular hide smd-show">News and updates</h2>
         <div class="grid">
           <?php
@@ -228,7 +228,7 @@ function add_news_and_updates_posts() {
 function add_tutorials_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary test news-and-updates-posts">
+      <div class="resources-section resources-section-secondary tutorials-posts">
         <h2 class="micro regular hide smd-show">Tutorials</h2>
         <div class="grid">
           <?php
@@ -250,10 +250,6 @@ function add_tutorials_posts() {
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-small">
-                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
-
-                  <span class="d-inline-block divider"></span>
-
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 
