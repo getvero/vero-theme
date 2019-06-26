@@ -63,7 +63,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               <a class="unstyled" href="/resources/category/data-management">Data Management</a>
             </li>
             <li>
-              <a class="unstyled" href="/resources/category/data-management">Tutorials</a>
+              <a class="unstyled" href="/resources/category/tutorials">Tutorials</a>
             </li>
           <?
         }
