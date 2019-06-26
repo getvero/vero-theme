@@ -5,16 +5,15 @@ jQuery(window).load(function(){
 // Sticky header
 jQuery(window).scroll(function() {
   var header          = jQuery('.page .nav-primary');
-  var resourcesHeader = jQuery('.js-resources-sidebar');
   var scroll          = jQuery(window).scrollTop();
 
-  if (scroll >= 10) {
+  if (scroll >= 0) {
     header.addClass('sticky');
-    resourcesHeader.css('top', header.outerHeight());
+    // resourcesHeader.css('top', header.outerHeight());
     // console.log('Stick');
   } else {
     header.removeClass('sticky');
-    resourcesHeader.css('top', 'auto');
+    // resourcesHeader.css('top', 'auto');
     // console.log('Unstick');
   }
 });
