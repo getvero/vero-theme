@@ -13,7 +13,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <?php if( is_blog_archive() || is_single() ) : ?>
       <div class="flex items-center">
         <a class="d-block" href="/">
-          <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
         </a>
 
         <div class="divider"></div>
@@ -22,7 +22,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     <?php else : ?>
       <a class="d-block" href="/">
-        <img class="full-image align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     <?php endif; ?>
   </div>
@@ -31,10 +31,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <div class="js-resources-menu resources-menu flex">
-    <ul class="menu js-resources-categories resources-categories flex">
-      <?php
-        if ( is_blog_post_or_guide_or_tutorial() ) {
-          ?>
+    <?php
+      if ( is_blog_post_or_guide_or_tutorial() ) {
+        ?>
+        <ul class="menu js-resources-categories resources-categories flex <?php if ( is_blog_archive() ) { ?>hide<? } ?>">
           <li class="post-category">
             <?php
               $category      = get_the_category();
@@ -50,24 +50,24 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           <li class="post-title">
             <span class="light"><?php echo get_the_title( $post_id ); ?></span>
           </li>
-          <?
-        } else {
-          ?>
-            <li>
-              <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
-            </li>
-            <li>
-              <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
-            </li>
-            <li>
-              <a class="unstyled" href="/resources/category/data-management">Data Management</a>
-            </li>
-            <li>
-              <a class="unstyled" href="/resources/category/tutorials">Tutorials</a>
-            </li>
-          <?
-        }
-      ?>
+        </ul>
+        <?
+      }
+    ?>
+
+    <ul class="menu js-resources-categories resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>smd-hide<? } ?>">
+      <li>
+        <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/data-management">Data Management</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/tutorials">Tutorials</a>
+      </li>
     </ul>
 
     <div class="flex items-center md-lg-left-margin-auto">
@@ -107,7 +107,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         </div>
       </div>
 
-      <p class="smd-hide">Back to Vero</p>
+      <a class="unstyled md-hide" href="/">Back to Vero</a>
     </div>
 
     <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
