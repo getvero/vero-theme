@@ -219,16 +219,20 @@ jQuery(document).ready(function() {
   };
 
   // Responsive resources menu
+  var menuClone = jQuery('.js-category-toggle').clone();
+
   jQuery('.js-category-toggle').on('click', function() {
     var isActive  = jQuery('js-category-toggle.is-active').length > 0;
 
     if (!isActive && !isFixed) {
       jQuery('.js-resources-menu').addClass('is-visible');
       jQuery(this).addClass('is-active');
+      jQuery(this).html('<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M9.414 8l5.657 5.657a1 1 0 0 1-1.414 1.414L8 9.414l-5.657 5.657A1 1 0 0 1 .93 13.657L6.586 8 .929 2.343A1 1 0 0 1 2.343.93L8 6.586 13.657.929a1 1 0 0 1 1.414 1.414L9.414 8z" fill="#9D9D9D" fill-rule="evenodd"/></svg>');
       isFixed = true;
     } else {
       jQuery('.js-resources-menu').removeClass('is-visible');
       jQuery(this).removeClass('is-active');
+      jQuery(this).html(menuClone);
       isFixed = false;
     }
   });
