@@ -87,7 +87,15 @@ function add_featured_post() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <?php the_excerpt(); ?>
+                <?php
+                if ( get_field('custom_excerpt') ) {
+                  ?>
+                    <p><?php the_field('custom_excerpt') ?></p>
+                  <?php
+                } else {
+                  the_excerpt();
+                }
+                ?>
               </div>
 
               <div class="entry-footer">
@@ -144,16 +152,24 @@ function add_other_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <?php the_excerpt() ?>
+                  <?php
+                  if ( get_field('custom_excerpt') ) {
+                    ?>
+                      <p><?php the_field('custom_excerpt') ?></p>
+                    <?php
+                  } else {
+                    the_excerpt();
+                  }
+                  ?>
                 </div>
 
                 <div class="entry-footer">
-                <?php if ( get_field('custom_read_more') ): ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-                <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-                <?php endif ?>
-              </div>
+                  <?php if ( get_field('custom_read_more') ): ?>
+                    <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <?php else: ?>
+                    <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <?php endif ?>
+                </div>
               </div>
             </div>
 
@@ -251,7 +267,15 @@ function add_tutorials_posts() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <?php the_excerpt() ?>
+                <?php
+                if ( get_field('custom_excerpt') ) {
+                  ?>
+                    <p><?php the_field('custom_excerpt') ?></p>
+                  <?php
+                } else {
+                  the_excerpt();
+                }
+                ?>
               </div>
 
               <div class="entry-footer">
@@ -329,7 +353,15 @@ function add_featured_post_to_category() {
               <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
-            <?php the_excerpt() ?>
+            <?php
+              if ( get_field('custom_excerpt') ) {
+                ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php
+              } else {
+                the_excerpt();
+              }
+            ?>
 
             <?php if ( get_field('custom_read_more') ): ?>
               <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
