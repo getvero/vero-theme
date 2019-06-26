@@ -105,9 +105,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             </form>
           </div>
         </div>
-      </div>
 
-      <a class="unstyled md-hide" href="/">Back to Vero</a>
+        <a class="d-block annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
+      </div>
     </div>
 
     <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
