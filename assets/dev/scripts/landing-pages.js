@@ -7,14 +7,10 @@ jQuery(window).scroll(function() {
   var header          = jQuery('.page .nav-primary');
   var scroll          = jQuery(window).scrollTop();
 
-  if (scroll >= 0) {
+  if (scroll > 0) {
     header.addClass('sticky');
-    // resourcesHeader.css('top', header.outerHeight());
-    // console.log('Stick');
   } else {
     header.removeClass('sticky');
-    // resourcesHeader.css('top', 'auto');
-    // console.log('Unstick');
   }
 });
 
