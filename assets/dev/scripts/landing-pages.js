@@ -2,10 +2,8 @@ jQuery(window).load(function(){
   jQuery('pre.okaidia').find('code').addClass('okaidia');
 });
 
-var isFixed         = false;
-
+// Sticky header
 jQuery(window).scroll(function() {
-  // Sticky header
   var header          = jQuery('.page .nav-primary');
   var resourcesHeader = jQuery('.js-resources-sidebar');
   var scroll          = jQuery(window).scrollTop();
@@ -19,25 +17,6 @@ jQuery(window).scroll(function() {
     resourcesHeader.css('top', 'auto');
     // console.log('Unstick');
   }
-
-  // Sticky table of contents
-  // if ( jQuery('body.single').length > 0 ) {
-  //   var entryContentOffset = jQuery('.entry-content').offset().top;
-  //   var entryFooterOffset  = jQuery('.entry-footer').offset().top;
-  //   var toc                = jQuery('.table-of-contents');
-  //   var shouldBeFixed      = scroll + 100 > entryContentOffset;
-
-  //   if ( shouldBeFixed && !isFixed ) {
-  //     toc.addClass('is-visible')
-  //     isFixed = true;
-  //   } else if ( !shouldBeFixed && isFixed ) {
-  //     toc.removeClass('is-visible')
-  //     isFixed = false;
-  //   } else if ( scroll > entryFooterOffset && isFixed ) {
-  //     toc.removeClass('is-visible')
-  //     isFixed = false;
-  //   }
-  // }
 });
 
 jQuery(document).ready(function() {
@@ -55,11 +34,8 @@ jQuery(document).ready(function() {
     parentSwapper.find('.active-feature').removeClass('active-feature').addClass('inactive-feature');
     var featureId = '#' + swapTo
     parentSwapper.find(featureId).removeClass('inactive-feature').addClass('active-feature');
-  });
+    });
 
-});
-
-jQuery(document).ready(function() {
   // Lean Modal triggers
   if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
     jQuery('a[rel*=leanModal]').leanModal({
@@ -219,6 +195,7 @@ jQuery(document).ready(function() {
   };
 
   // Responsive resources menu
+  var isFixed   = false;
   var menuClone = jQuery('.js-category-toggle').clone();
 
   jQuery('.js-category-toggle').on('click', function() {
