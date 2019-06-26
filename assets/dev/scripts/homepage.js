@@ -146,34 +146,3 @@ jQuery(document).ready(function() {
     });
   }
 });
-
-
-var h          = jQuery('.nav-primary');
-var stuck      = false;
-var stickPoint = getDistance();
-
-function getDistance() {
-  var topDist = h.offset().top;
-  return topDist;
-}
-
-function getHeight() {
-  var height = h.height();
-  return height;
-}
-
-// jQuery(window).scroll(function(){
-//   var height   = getHeight();
-//   var distance = getDistance() - jQuery(window).scrollTop();
-//   var offset   = jQuery(window).scrollTop();
-
-//   if ((distance <= 0) && !stuck) {
-//     jQuery('.nav-primary').addClass('sticky');
-//     stuck = true;
-//     console.log('stick');
-//   } else if (stuck && (offset <= stickPoint)){
-//     jQuery('.nav-primary').removeClass('sticky');
-//     stuck = false;
-//     console.log('unstick');
-//   }
-// });
