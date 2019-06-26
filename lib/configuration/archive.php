@@ -60,7 +60,7 @@ function add_featured_post() {
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
-            'post_type' => array('post', 'guides', 'tutorials'),
+            'post_type' => array('post', 'guides'),
             'tag' => 'featured'
           ));
           while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -116,7 +116,7 @@ function add_other_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
-              'post_type' => array('post', 'guides', 'tutorials'),
+              'post_type' => array('post', 'guides'),
               'tag'       => 'evergreen'
             ));
 
@@ -170,40 +170,34 @@ function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
       <div class="resources-section resources-section-secondary news-and-updates-posts">
-        <h2 class="micro regular hide smd-show">News and updates</h2>
+        <?php
+          $category = get_category_by_slug('news-updates');
+          $cat_name = $category->name;
+        ?>
+
+        <h2 class="blog-title"><?php echo $cat_name; ?></h2>
+
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 2,
-              'post_type' => array('post', 'guides', 'tutorials'),
+              'post_type' => array('post', 'guides'),
               'tag'       => 'news_and_updates'
             ));
 
-            while( $custom_query->have_posts() ) : $custom_query->the_post();
+            while ( $custom_query->have_posts() ) : $custom_query->the_post();
               $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $category            = get_the_category();
           ?>
 
           <div class="entry entry-hover">
-            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
-            </a>
-
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-small">
-                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
-
-                  <span class="d-inline-block divider"></span>
-
+                <div class="entry-meta flex items-center bottom-margin-tiny">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
-              </div>
-
-              <div class="entry-content bottom-margin-smedium">
-                <?php the_excerpt() ?>
               </div>
 
               <div class="entry-footer">
@@ -229,11 +223,11 @@ function add_tutorials_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
       <div class="resources-section resources-section-secondary tutorials-posts">
-        <h2 class="micro regular hide smd-show">Tutorials</h2>
+        <h2 class="blog-title">Tutorials</h2>
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
-              'posts_per_page' => 3,
+              'posts_per_page' => 4,
               'post_type' => 'tutorials',
             ));
 
@@ -288,16 +282,16 @@ function category_setup() {
 function add_latest_title() {
   if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h1 class="micro regular">All – Page <?php echo $paged; ?></h1>
+    <h1 class="blog-title">All – Page <?php echo $paged; ?></h1>
   <?php }
   else if ( is_category() ){ ?>
     <div class="archive-description">
-      <h1 class="micro regular"><?php single_cat_title() ?></h1>
+      <h1 class="blog-title"><?php single_cat_title() ?></h1>
     </div>
   <?php }
   else if ( is_search() ) { ?>
     <div class="archive-description">
-      <h1 class="micro regular">Search results for: <?php echo get_search_query(); ?></h1>
+      <h1 class="blog-title">Search results for: <?php echo get_search_query(); ?></h1>
     </div>
   <?php }
 }
@@ -327,12 +321,12 @@ function add_featured_post_to_category() {
           </div>
 
           <div class="entry-body">
-            <div class="entry-header">
+            <div class="entry-header bottom-margin-small">
               <div class="entry-meta  bottom-margin-small">
                 <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
               </div>
 
-              <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
             <?php the_excerpt() ?>
