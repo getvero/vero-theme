@@ -60,7 +60,7 @@ function add_featured_post() {
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
-            'post_type' => array('post', 'guides'),
+            'post_type' => array('post', 'guides', 'tutorials'),
             'tag' => 'featured'
           ));
           while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -116,7 +116,7 @@ function add_other_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
-              'post_type' => array('post', 'guides'),
+              'post_type' => array('post', 'guides', 'tutorials'),
               'tag'       => 'evergreen'
             ));
 
