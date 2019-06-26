@@ -120,9 +120,10 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 
   # Excerpt length for category/search page
+  remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
   add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
-  add_action( 'genesis_entry_content', 'custom_excerpt', 10 );
+  add_action( 'genesis_entry_content', 'custom_excerpt_text' );
 
   // Search page
   add_action( 'genesis_before', 'remove_search_title' );

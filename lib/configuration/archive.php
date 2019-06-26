@@ -9,9 +9,7 @@ function next_link_text() {
   return $nextlink;
 }
 
-function custom_excerpt() {
-  remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-
+function custom_excerpt_text() {
   if ( get_field('custom_excerpt') ) {
     ?>
       <p><?php the_field('custom_excerpt') ?></p>
