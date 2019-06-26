@@ -34,7 +34,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <?php
       if ( is_blog_post_or_guide_or_tutorial() ) {
         ?>
-        <ul class="menu js-resources-categories resources-categories flex <?php if ( is_blog_archive() ) { ?>hide<? } ?>">
+        <ul class="menu resources-categories resources-categories-single">
           <li class="post-category">
             <?php
               $category      = get_the_category();
@@ -55,7 +55,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       }
     ?>
 
-    <ul class="menu js-resources-categories resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>smd-hide<? } ?>">
+    <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>md-lg-hide<? } ?>">
       <li>
         <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
       </li>
