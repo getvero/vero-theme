@@ -9,13 +9,21 @@ function next_link_text() {
   return $nextlink;
 }
 
+function remove_archives_entry_content() {
+  if ( is_blog_archive() ) {
+    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+  }
+}
+
 function custom_excerpt_text() {
-  if ( get_field('custom_excerpt') ) {
-    ?>
-      <p><?php the_field('custom_excerpt') ?></p>
-    <?php
-  } else {
-    the_excerpt();
+  if ( is_blog_archive() ) {
+    if ( get_field('custom_excerpt') ) {
+      ?>
+        <p><?php the_field('custom_excerpt') ?></p>
+      <?php
+    } else {
+      the_excerpt();
+    }
   }
 }
 
@@ -28,14 +36,16 @@ function new_excerpt_more( $more ) {
 }
 
 function add_custom_read_more_link() {
-   if ( get_field('custom_read_more') ) {
-     ?>
-    <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-    <?php
-  } else {
-    ?>
-    <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
-    <?php
+  if ( is_category() || is_search() ) {
+    if ( get_field('custom_read_more') ) {
+      ?>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+      <?php
+    } else {
+      ?>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+      <?php
+    }
   }
 }
 
