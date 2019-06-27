@@ -127,7 +127,7 @@ function add_featured_post() {
 function add_other_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary evergreen-posts">
+      <div class="resources-section resources-section-secondary resources-section-thirds evergreen-posts">
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
@@ -193,7 +193,7 @@ function add_other_posts() {
 function add_news_and_updates_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary news-and-updates-posts">
+      <div class="resources-section resources-section-secondary resources-section-thirds news-and-updates-posts">
         <?php
           $category = get_category_by_slug('news-updates');
           $cat_name = $category->name;
@@ -224,6 +224,18 @@ function add_news_and_updates_posts() {
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
+              <div class="entry-content bottom-margin-smedium">
+                <?php
+                  if ( get_field('custom_excerpt') ) {
+                    ?>
+                      <p><?php the_field('custom_excerpt') ?></p>
+                    <?php
+                  } else {
+                    the_excerpt();
+                  }
+                ?>
+              </div>
+
               <div class="entry-footer">
                 <?php if ( get_field('custom_read_more') ): ?>
                   <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
@@ -246,7 +258,7 @@ function add_news_and_updates_posts() {
 function add_tutorials_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
-      <div class="resources-section resources-section-secondary tutorials-posts">
+      <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
         <h2 class="blog-title">Tutorials</h2>
         <div class="grid">
           <?php
