@@ -12,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer" <?php if ( is_blog_archive() || is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
+    <footer class="footer" <?php if ( is_blog() || is_search() || is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
           <div class="col-aside">
@@ -92,7 +92,7 @@
 
   function blog_cta() {
     ?>
-      <section class="resources-cta border-dark-blue bg-white center-text <?php if ( is_home() ) { ?> resources-cta-primary <?php } else { ?> resources-cta-overlap <?php } ?>">
+      <section class="resources-cta border-dark-blue bg-white center-text">
         <div class="resources-cta-wrap">
           <?php if( get_field('type_of_cta') == 'product' ) { ?>
             <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
