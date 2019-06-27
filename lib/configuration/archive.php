@@ -59,6 +59,11 @@ function change_home_loop() {
     add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     add_action( 'genesis_loop', 'add_tutorials_posts' );
   }
+
+  if ( is_category() ) {
+    remove_action( 'genesis_loop', 'genesis_do_loop' );
+    add_action( 'genesis_loop', 'be_custom_loop' );
+  }
 }
 
 function add_featured_post() {
@@ -397,6 +402,39 @@ function add_featured_post_to_category() {
     ?>
   <?php
   }
+}
+
+function be_custom_loop() {
+	?>
+    <?php
+      $category = get_the_category();
+      $category = $category[0]->cat_ID;
+
+      $custom_query = new WP_Query(array(
+        'posts_per_page' => 9,
+        'post_type'      => array('post', 'guides', 'tutorials'),
+        'category__in'   => $category,
+        'tag__not_in'    => '60'
+      ));
+
+    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+
+      <div class="entry-header bottom-margin-small">
+        <div class="entry-meta bottom-margin-small">
+          <h2><?php echo $tag_id ?></h2>
+
+          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+        </div>
+
+        <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      </div>
+
+    <?php endwhile;
+      wp_reset_postdata();
+    ?>
+
+    <?php do_action( 'genesis_after_endwhile' ); ?>
+  <?php
 }
 
 function move_featured_image() {
