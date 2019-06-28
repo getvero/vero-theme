@@ -84,14 +84,14 @@ function genesischild_theme_setup() {
 
   # Add categories and search
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
-  // add_action( 'genesis_before_content', 'add_blog_post_back_button' );
   // add_action( 'genesis_after_header', 'add_categories_and_search' );
   add_action( 'genesis_before_content', 'add_latest_title' );
   add_action( 'genesis_before_loop', 'add_featured_post_to_category' );
+
   add_filter( 'genesis_prev_link_text', 'prev_link_text' );
   add_filter( 'genesis_next_link_text', 'next_link_text' );
 
-  # Move featured image above title
+  # Move featured image above title on search
   add_action( 'genesis_before_entry', 'move_featured_image' );
 
   # Customise post entry
@@ -127,7 +127,7 @@ function genesischild_theme_setup() {
   add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
-  // Search page
+  # Search
   add_action( 'genesis_before', 'remove_search_title' );
   add_filter( 'genesis_search_text', 'change_search_form_placeholder' );
   add_filter( 'search_form_format', 'wpse_259716_search_form_format', 99, 1 );
@@ -136,6 +136,13 @@ function genesischild_theme_setup() {
       add_filter( 'get_search_form', "wpse_259716_get_search_form_$format", 99, 1 );
     }
     return $format;
+  }
+  function wpse_259716_get_search_form_xhtml( $form ) {
+    $search = '<input type="submit"';
+    $xhtml = '<label class="search-toggle search-toggle-close ico ico-close" for="search-form"></label>
+    <input class="search-checkbox hide" id="search-form" type="checkbox">';
+    $replace = $xhtml . $search;
+    return str_replace( $search, $replace, $form );
   }
   function wpse_259716_get_search_form_html5( $form ) {
     $search = '<input type="submit"';
