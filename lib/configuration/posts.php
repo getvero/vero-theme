@@ -35,18 +35,6 @@ function force_full_width_on_posts( $options ) {
   }
 }
 
-function add_blog_post_back_button() {
-  global $post;
-
-  if( is_child_guide() ){?>
-    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog">Back to Table of Contents</a>
-  <?php } else if ( is_singular('release-notes') ) { ?>
-    <a href="/release-notes" class="back-to-blog">Back to Release Notes</a>
-  <?php } else if( is_blog_post_or_guide_or_tutorial() ){ ?>
-    <a href="/resources" class="back-to-blog">Back to <em>Resources</em></a>
-  <?php }
-}
-
 function add_shares_to_post() {
   global $post;
   if( is_blog_post_or_guide_or_tutorial() ){
