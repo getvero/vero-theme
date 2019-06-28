@@ -76,12 +76,14 @@ function add_featured_post() {
           ));
           while( $custom_query->have_posts() ) : $custom_query->the_post();
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-            $category = get_the_category();
+            $image_id       = get_post_thumbnail_id();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', TRUE);
+            $category       = get_the_category();
           ?>
 
           <div class="grid">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
             </a>
 
             <div class="entry-body">
@@ -140,13 +142,15 @@ function add_other_posts() {
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();
-              $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-              $category            = get_the_category();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              $image_id       = get_post_thumbnail_id();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', TRUE);
+              $category       = get_the_category();
             ?>
 
             <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
               </a>
 
               <div class="entry-body">
@@ -213,8 +217,7 @@ function add_news_and_updates_posts() {
             ));
 
             while ( $custom_query->have_posts() ) : $custom_query->the_post();
-              $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-              $category            = get_the_category();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
           ?>
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
@@ -271,13 +274,15 @@ function add_tutorials_posts() {
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();
-              $featured_image      = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-              $category            = get_the_category();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              $image_id       = get_post_thumbnail_id();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+              $category       = get_the_category();
             ?>
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
             </a>
 
             <div class="entry-body">
@@ -343,6 +348,8 @@ function add_featured_post_to_category() {
     <?php
       $category = get_the_category();
       $category = $category[0]->cat_ID;
+      $image_id       = get_post_thumbnail_id();
+      $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
       $custom_query = new WP_Query(array(
         'posts_per_page' => 1,
@@ -357,7 +364,7 @@ function add_featured_post_to_category() {
         <div class="grid">
           <div class="entry-aside">
             <a href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo get_post_meta($post->ID, '_wp_attachment_image_alt', true); ?>">
+              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo $image_alt; ?>">
             </a>
           </div>
 
@@ -402,6 +409,8 @@ function custom_category_loop() {
     <?php
       $category = get_the_category();
       $category = $category[0]->cat_ID;
+      $image_id       = get_post_thumbnail_id();
+      $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
       $custom_query = new WP_Query(array(
         'posts_per_page' => 9,
@@ -414,7 +423,7 @@ function custom_category_loop() {
 
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo get_post_meta($post->ID, '_wp_attachment_image_alt', true); ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo $image_alt; ?>">
         </a>
 
         <div class="entry-body">
