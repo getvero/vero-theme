@@ -50,8 +50,6 @@ function add_custom_read_more_link() {
 }
 
 function change_home_loop() {
-  add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-
   if ( is_home() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'add_featured_post' );
@@ -62,14 +60,14 @@ function change_home_loop() {
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
-    add_action( 'genesis_loop', 'be_custom_loop' );
+    add_action( 'genesis_loop', 'custom_category_loop' );
   }
 }
 
 function add_featured_post() {
   if ( is_home() && !is_paged() ) { ?>
     <div class="resources-section resources-section-featured featured-post">
-      <div class="entry entry-hover">
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
@@ -124,7 +122,7 @@ function add_featured_post() {
         <?php endwhile;
           wp_reset_postdata();
         ?>
-      </div>
+      </article>
     </div>
   <?php }
 }
@@ -146,7 +144,7 @@ function add_other_posts() {
               $category            = get_the_category();
             ?>
 
-            <div class="entry entry-hover">
+            <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
                 <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
               </a>
@@ -184,7 +182,7 @@ function add_other_posts() {
                   <?php endif ?>
                 </div>
               </div>
-            </div>
+            </article>
 
             <?php endwhile;
               wp_reset_postdata();
@@ -219,7 +217,7 @@ function add_news_and_updates_posts() {
               $category            = get_the_category();
           ?>
 
-          <div class="entry entry-hover">
+          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-tiny">
@@ -249,7 +247,7 @@ function add_news_and_updates_posts() {
                 <?php endif ?>
               </div>
             </div>
-          </div>
+          </article>
 
           <?php endwhile;
             wp_reset_postdata();
@@ -277,7 +275,7 @@ function add_tutorials_posts() {
               $category            = get_the_category();
             ?>
 
-          <div class="entry entry-hover">
+          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
               <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
             </a>
@@ -311,7 +309,7 @@ function add_tutorials_posts() {
                 <?php endif ?>
               </div>
             </div>
-          </div>
+          </article>
 
           <?php endwhile;
             wp_reset_postdata();
@@ -361,7 +359,7 @@ function add_featured_post_to_category() {
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-      <article class="entry featured-post">
+      <article class="entry featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="grid">
           <div class="entry-aside">
             <a href="<?php the_permalink(); ?>">
@@ -404,7 +402,7 @@ function add_featured_post_to_category() {
   }
 }
 
-function be_custom_loop() {
+function custom_category_loop() {
 	?>
     <?php
       $category = get_the_category();
@@ -419,15 +417,45 @@ function be_custom_loop() {
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-      <div class="entry-header bottom-margin-small">
-        <div class="entry-meta bottom-margin-small">
-          <h2><?php echo $tag_id ?></h2>
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+          <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+        </a>
 
-          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-small">
+              <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+
+              <span class="d-inline-block divider"></span>
+
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+            </div>
+
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+          </div>
+
+          <div class="entry-content bottom-margin-smedium">
+            <?php
+            if ( get_field('custom_excerpt') ) {
+              ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php
+            } else {
+              the_excerpt();
+            }
+            ?>
+          </div>
+
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
         </div>
-
-        <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-      </div>
+      </article>
 
     <?php endwhile;
       wp_reset_postdata();
