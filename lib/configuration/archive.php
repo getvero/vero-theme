@@ -407,16 +407,19 @@ function custom_category_loop() {
 	?>
 
     <?php
-      $category = get_the_category();
-      $category = $category[0]->cat_ID;
-      $image_id       = get_post_thumbnail_id();
-      $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+      $category  = get_the_category();
+      $category  = $category[0]->cat_ID;
+
+      $image_id  = get_post_thumbnail_id();
+      $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+
+      $tag = get_term_by('name', 'featured_on_category', 'post_tag');
 
       $custom_query = new WP_Query(array(
         'posts_per_page' => 9,
         'post_type'      => array('post', 'guides', 'tutorials'),
         'category__in'   => $category,
-        'tag__not_in'    => '60'
+        'tag__not_in'    => $tag->term_id
       ));
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
