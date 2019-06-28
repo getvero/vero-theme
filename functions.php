@@ -106,7 +106,6 @@ function genesischild_theme_setup() {
   add_filter( 'the_content', 'add_blue_signup_boxes' );
 
   # Category page
-  // add_action( 'genesis_entry_header', 'category_setup', 8);
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
 
   # Post Page
@@ -130,9 +129,9 @@ function genesischild_theme_setup() {
   # Search
   add_action( 'genesis_before', 'remove_search_title' );
   add_filter( 'genesis_search_text', 'change_search_form_placeholder' );
-  add_filter( 'search_form_format', 'wpse_259716_search_form_format', 99, 1 );
-  function wpse_259716_search_form_format( $format ) {
-    if ( in_array( $format, array( 'html5' ) ) ) {
+  add_filter( 'search_form_format', 'add_close_to_search', 99, 1 );
+  function add_close_to_search( $format ) {
+    if( in_array( $format, array( 'xhtml', 'html5' ) ) ) {
       add_filter( 'get_search_form', "wpse_259716_get_search_form_$format", 99, 1 );
     }
     return $format;
