@@ -17,7 +17,7 @@
   }
 
   function change_search_form_placeholder( $text ) {
-    return esc_attr( 'Search the blog…' );
+    return esc_attr( 'Search the blog&hellip;' );
   }
 
 ?>
