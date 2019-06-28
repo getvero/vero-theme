@@ -86,9 +86,6 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before_content', 'add_latest_title' );
   add_action( 'genesis_before_loop', 'add_featured_post_to_category' );
 
-  add_filter( 'genesis_prev_link_text', 'prev_link_text' );
-  add_filter( 'genesis_next_link_text', 'next_link_text' );
-
   # Move featured image above title on search
   add_action( 'genesis_before_entry', 'move_featured_image' );
 
@@ -107,7 +104,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
 
   # Post Page
-  add_action( 'genesis_before_entry', 'add_shares_to_post', 13 );
+  add_action( 'genesis_entry_header', 'add_shares_to_post', 1 );
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_entry_footer', 'blog_related_posts');
 
