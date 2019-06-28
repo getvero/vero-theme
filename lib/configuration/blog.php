@@ -113,6 +113,12 @@
     }
   }
 
+  function category_setup() {
+    if ( is_category() || is_search() ){
+      // remove_action( 'genesis_entry_footer', 'add_shares' );
+    }
+  }
+
   function add_categories_and_search() {
     if ( is_blog_archive() || is_single() ){ ?>
       <div class="js-resources-sidebar resources-sidebar">

@@ -320,12 +320,6 @@ function add_tutorials_posts() {
   }
 }
 
-function category_setup() {
-  if ( is_category() || is_search() ){
-    // remove_action( 'genesis_entry_footer', 'add_shares' );
-  }
-}
-
 function add_latest_title() {
   if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
@@ -404,6 +398,7 @@ function add_featured_post_to_category() {
 
 function custom_category_loop() {
 	?>
+
     <?php
       $category = get_the_category();
       $category = $category[0]->cat_ID;
@@ -419,16 +414,12 @@ function custom_category_loop() {
 
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-          <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $featured_image; ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo get_post_meta($post->ID, '_wp_attachment_image_alt', true); ?>">
         </a>
 
         <div class="entry-body">
           <div class="entry-header">
             <div class="entry-meta flex items-center bottom-margin-small">
-              <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
-
-              <span class="d-inline-block divider"></span>
-
               <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
             </div>
 
