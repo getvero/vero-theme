@@ -139,7 +139,7 @@ function add_other_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
-              'post_type' => array('post', 'guides', 'tutorials'),
+              'post_type' => array('post', 'guides', 'tutorials', 'page'),
               'tag'       => 'evergreen'
             ));
 
