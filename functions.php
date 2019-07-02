@@ -97,6 +97,16 @@ function genesischild_theme_setup() {
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
 
+  # Add categories and tags to pages
+  function myplugin_settings() {
+    // Add tag metabox to page
+    register_taxonomy_for_object_type('post_tag', 'page');
+    // Add category metabox to page
+    register_taxonomy_for_object_type('category', 'page');
+  }
+  // Add to the admin_init hook of your theme functions.php file
+  add_action( 'init', 'myplugin_settings' );
+
   // Custom sidebar for post
   genesis_register_sidebar( array(
     'id'            => 'post-sidebar',
