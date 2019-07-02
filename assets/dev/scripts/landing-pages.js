@@ -2,7 +2,24 @@ jQuery(window).load(function(){
   jQuery('pre.okaidia').find('code').addClass('okaidia');
 });
 
-jQuery(document).ready(function(){
+// Sticky header
+jQuery(window).scroll(function() {
+  var header          = jQuery('.page .nav-primary');
+  var scroll          = jQuery(window).scrollTop();
+
+  if (scroll > 0) {
+    header.addClass('sticky');
+  } else {
+    header.removeClass('sticky');
+  }
+});
+
+jQuery(document).ready(function() {
+  // Load hljs
+  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
+    hljs.initHighlightingOnLoad();
+  }
+
   // Feature image switcher
   jQuery('.feature-swapper-option').click(function(e){
     var swapTo = jQuery(this).data('swap-to');
@@ -12,20 +29,22 @@ jQuery(document).ready(function(){
     parentSwapper.find('.active-feature').removeClass('active-feature').addClass('inactive-feature');
     var featureId = '#' + swapTo
     parentSwapper.find(featureId).removeClass('inactive-feature').addClass('active-feature');
-  });
+    });
 
-});
+  // Lean Modal triggers
+  if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
+    jQuery('a[rel*=leanModal]').leanModal({
+      top        : 80,
+      closeButton: '.modal-close'
+    });
+  }
 
-jQuery(document).ready(function(){
-  jQuery('a[rel*=leanModal]').leanModal({
-    top        : 80,
-    closeButton: '.modal-close'
-  });
-
-  jQuery('.js-blog-subscribe-btn').leanModal({
-    top        : 300,
-    closeButton: '.modal-close'
-  });
+  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
+    jQuery('.js-blog-subscribe-btn').leanModal({
+      top        : 300,
+      closeButton: '.modal-close'
+    });
+  }
 
   if(window.location.hash) {
     var hash = window.location.hash.substring(1);
@@ -34,38 +53,9 @@ jQuery(document).ready(function(){
     }
   }
 
-  // Show blog subscription form
-  // jQuery('.js-overlay').on('click', function() {
-  //   if (!jQuery(event.target).closest('.js-newsletter').length) {
-  //     closeModal();
-  //   }
-  // });
-
-  jQuery('.js-newsletter-close').on('click', function() {
-    closeModal();
-  });
-
-  function closeModal() {
-    // jQuery('.js-overlay').fadeOut(200);
-    jQuery('.js-newsletter').removeClass('show');
-
-    sessionStorage['PopupShown'] = 'yes';
-  }
-
-  jQuery(window).scroll(function() {
-    if(sessionStorage['PopupShown'] != 'yes') {
-      if (jQuery(window).scrollTop() > jQuery('body').height() / 4) {
-        // jQuery('.js-overlay').show();
-        jQuery('.js-newsletter').addClass('show');
-      }
-    }
-  });
-
   var validateForm;
   var requestDemo;
-  var subscribeBlogHeader;
   var subscribeBlogInline;
-  var subscribeBlogFullscreen;
 
   jQuery('#high-volume-sender-form').submit(function(e) {
     e.preventDefault();
@@ -73,32 +63,23 @@ jQuery(document).ready(function(){
     return false;
   });
 
-  // Blog header subscribe form
-  jQuery('.js-blog-header-form').submit(function(e) {
+  // Main blog subscribe form
+  jQuery('.js-blog-subscribe-form').submit(function(e) {
     e.preventDefault();
-    subscribeBlogHeader(e);
+    subscribeBlog(e);
+    return false;
+  });
+
+  jQuery('.js-blog-subscribe-form-2').submit(function(e) {
+    e.preventDefault();
+    subscribeBlog2(e);
     return false;
   });
 
   // Blog inline subscribe form
-  jQuery('.js-blog-subscribe-form').submit(function(e) {
-    console.log('Click blog inline subscribe form button');
+  jQuery('.js-blog-inline-form').submit(function(e) {
     e.preventDefault();
     subscribeBlogInline(e);
-    return false;
-  });
-
-  // Blog fullscreen popup subscribe form
-  // jQuery('.js-blog-fs-popup-form').submit(function(e) {
-  //   e.preventDefault();
-  //   subscribeBlogFullscreen(e);
-  //   return false;
-  // });
-
-  // Blog popup subscribe form
-  jQuery('.js-blog-popup-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlogPopup(e);
     return false;
   });
 
@@ -163,54 +144,7 @@ jQuery(document).ready(function(){
     }
   };
 
-  subscribeBlogHeader = function(e) {
-    var url = jQuery('.js-blog-header-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-header-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-header-form').hide();
-        jQuery('.js-enquire-intro').hide();
-        jQuery('.js-thanks').show();
-      }
-    });
-  };
-
-  // subscribeBlogFullscreen = function(e) {
-  //   var url = jQuery('.js-blog-fs-popup-form').attr('action');
-  //   jQuery.ajax({
-  //     type: 'POST',
-  //     url : url,
-  //     data: jQuery('.js-blog-fs-popup-form').serialize(),
-  //     success: function(data)
-  //     {
-  //       jQuery('.js-blog-fs-popup-form').hide();
-  //       jQuery('.js-policy').hide();
-  //       jQuery('.js-enquire-intro-2').hide();
-  //       jQuery('.js-thanks-2').show();
-  //     }
-  //   });
-  // };
-
-  subscribeBlogPopup = function(e) {
-    var url = jQuery('.js-blog-popup-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-popup-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-popup-form').hide();
-        jQuery('.js-policy').hide();
-        jQuery('.js-enquire-intro-2').hide();
-        jQuery('.js-thanks-2').show();
-      }
-    });
-  };
-
-  subscribeBlogInline = function(e) {
+  subscribeBlog = function(e) {
     var url = jQuery('.js-blog-subscribe-form').attr('action');
     jQuery.ajax({
       type: 'POST',
@@ -219,10 +153,75 @@ jQuery(document).ready(function(){
       success: function(data)
       {
         jQuery('.js-blog-subscribe-form').hide();
+        jQuery('.js-enquire-menu').hide();
+        jQuery('.js-thanks-menu').show();
+      }
+    });
+  };
+
+  subscribeBlog2 = function(e) {
+    var url = jQuery('.js-blog-subscribe-form-2').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-subscribe-form-2').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-subscribe-form-2').hide();
+        jQuery('.js-enquire-menu-2').hide();
+        jQuery('.js-thanks-menu-2').show();
+      }
+    });
+  };
+
+  subscribeBlogInline = function(e) {
+    var url = jQuery('.js-blog-inline-form').attr('action');
+    jQuery.ajax({
+      type: 'POST',
+      url : url,
+      data: jQuery('.js-blog-inline-form').serialize(),
+      success: function(data)
+      {
+        jQuery('.js-blog-inline-form').hide();
         jQuery('.js-enquire-intro-3').hide();
         jQuery('.js-thanks-3').show();
       }
     });
   };
 
+  // Responsive resources menu
+  var isFixed   = false;
+  var menuClone = jQuery('.js-category-toggle').clone();
+
+  jQuery('.js-category-toggle').on('click', function() {
+    var isActive  = jQuery('js-category-toggle.is-active').length > 0;
+
+    if (!isActive && !isFixed) {
+      jQuery('.js-resources-menu').addClass('is-visible');
+      jQuery(this).addClass('is-active');
+      jQuery(this).html('<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M9.414 8l5.657 5.657a1 1 0 0 1-1.414 1.414L8 9.414l-5.657 5.657A1 1 0 0 1 .93 13.657L6.586 8 .929 2.343A1 1 0 0 1 2.343.93L8 6.586 13.657.929a1 1 0 0 1 1.414 1.414L9.414 8z" fill="#9D9D9D" fill-rule="evenodd"/></svg>');
+      isFixed = true;
+    } else {
+      jQuery('.js-resources-menu').removeClass('is-visible');
+      jQuery(this).removeClass('is-active');
+      jQuery(this).html(menuClone);
+      isFixed = false;
+    }
+  });
+
+  // Open subscribe form
+  var form = jQuery('.js-resources-menu-footer');
+
+  jQuery('.js-open-subscribe-form').on('click', function() {
+    form.addClass('is-active');
+  });
+
+  jQuery('.js-resources-menu-footer-close').on('click', function() {
+    var formActive = jQuery('.js-resources-menu-footer.is-active');
+    var formOpen   = formActive.length > 0;
+
+    if (formOpen) {
+      form.removeClass('is-active');
+    }
+  });
 });

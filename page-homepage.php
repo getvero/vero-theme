@@ -1,11 +1,11 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
+<?php
+  do_action( 'genesis_header' );
+  do_action( 'genesis_after_header' );
+?>
 <section class="home-hero overflow-hidden">
-  <?php
-    do_action( 'genesis_header' );
-    do_action( 'genesis_after_header' );
-  ?>
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">

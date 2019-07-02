@@ -67,7 +67,7 @@ function hero() {
   }
   $image = get_field('image_header');
   if( !empty($image) ) {
-    echo '<div class="hero" style="backgorund-color:'. $color . '; background-image: url(' . $image['url'] . ');"></div>';
+    echo '<div class="hero" style="background-color:'. $color . '; background-image: url(' . $image['url'] . ');"></div>';
   }
 }
 

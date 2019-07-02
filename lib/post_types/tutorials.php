@@ -12,8 +12,8 @@ function create_tutorials_post_type() {
     'has_archive' => false,
     'rewrite' => array('slug' => 'tutorials','with_front' => false),
     'hierarchical' => true,
-    'supports' => array('title', 'author', 'comments', 'editor','page-attributes','thumbnail', 'excerpt', 'post-formats'),
-    'taxonomies' => array('category')
+    'supports' => array('title', 'author', 'comments', 'editor', 'thumbnail', 'excerpt', 'post-formats'),
+    'taxonomies' => array('category', 'post_tag')
   );
 
   register_post_type( 'tutorials', $args);

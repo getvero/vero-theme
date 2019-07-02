@@ -9,21 +9,137 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <ul class="menu" id="menu-marketing-navbar-left">
-    <li class="menu-item menu-item-type-custom menu-item-object-custom" id="logo" >
-      <a href="https://www.getvero.com">
-        <img data-no-retina src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+  <div id="logo">
+    <?php if( is_blog_archive() || is_single() ) : ?>
+      <div class="flex items-center">
+        <a class="d-block" href="/">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
+        </a>
+
+        <div class="divider"></div>
+
+        <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
+      </div>
+    <?php else : ?>
+      <a class="d-block" href="/">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
-    </li>
-  </ul>
+    <?php endif; ?>
+  </div>
   <?php $logo = ob_get_clean();
 
   ob_start();
   ?>
-  <div class="nav-menu-toggle"><a href="#">Menu</a></div>
+  <div class="js-resources-menu resources-menu flex">
+    <?php
+      if ( is_blog_post_or_guide_or_tutorial() ) {
+        ?>
+        <ul class="menu resources-categories resources-categories-single">
+          <li class="post-category">
+            <?php
+              $category      = get_the_category();
+              $firstCategory = $category[0]->cat_name;
+            ?>
+            <a class="unstyled" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
+          </li>
+
+          <li class="caret">
+            <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#e1e1e1" fill-rule="nonzero"/></svg>
+          </li>
+
+          <li class="post-title">
+            <span class="light"><?php echo get_the_title( $post_id ); ?></span>
+          </li>
+        </ul>
+        <?
+      }
+    ?>
+
+    <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>md-lg-hide<? } ?>">
+      <li>
+        <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/data-management">Data Management</a>
+      </li>
+      <li>
+        <a class="unstyled" href="/resources/category/tutorials">Tutorials <sup class="pill pill-primary pill-small left-margin-micro">New</sup></a>
+      </li>
+    </ul>
+
+    <div class="flex items-center md-lg-left-margin-auto">
+      <label class="search-toggle search-toggle-open" for="search-form">
+        <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
+      </label>
+      <input class="search-checkbox hide" id="search-form" type="checkbox">
+      <?php get_search_form(); ?>
+    </div>
+
+    <div class="js-resources-menu-footer resources-menu-footer">
+      <div class="resources-menu-footer-wrap">
+        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close hide md-lg-show"></button>
+        <div class="grid md-lg-items-center">
+          <div class="col-main">
+            <div class="js-enquire-menu enquire-menu">
+              <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
+            </div>
+            <div class="js-thanks-menu thanks-menu hide">
+              <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
+              <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+            </div>
+          </div>
+          <div class="col-aside">
+            <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+              <div class="flex flex-column md-lg-flex-row justify-center items-stretch">
+                <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
+                <input name="user[consent_marketing]" type="hidden" value="true">
+                <input name="user[consent_product_updates]" type="hidden" value="true">
+                <input name="event[blog_subscriber_source]" type="hidden" value="popup">
+                <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+                <input class="btn btn-success btn-no-shadow" type="submit" value="Subscribe to updates">
+              </div>
+              <span class="annotation faded">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+            </form>
+          </div>
+        </div>
+
+        <a class="d-block annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
+      </div>
+    </div>
+
+    <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
+  </div>
+  <?php $resources_menu = ob_get_clean();
+
+  ob_start();
+  ?>
+	  <div class="hide smd-show"><?php get_search_form(); ?></div>
+  <?
+	$search = ob_get_clean();
+
+  ob_start();
+  ?>
+  <div class="js-nav-primary-toggle nav-primary-toggle border-radius-1 semi-bold">Menu</div>
   <?php $responsive_toggle = ob_get_clean();
 
-  return $logo . $menu . $responsive_toggle;
+  ob_start();
+  ?>
+  <label class="search-toggle search-toggle-open left-margin-auto md-lg-hide" for="search-form">
+    <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
+  </label>
+  <div class="js-category-toggle category-toggle">
+    <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
+  </div>
+  <?php $category_toggle = ob_get_clean();
+
+  if ( is_blog_archive() || is_single() ) {
+    return $logo . $resources_menu . $category_toggle;
+  } else {
+    return $logo . $menu . $responsive_toggle;
+  }
 }
 
 function additional_active_item_classes($classes = array(), $menu_item = false){

@@ -2,8 +2,8 @@
   <div class="inner flush-top flush-bottom center-text bottom-margin-small" id="enquire-intro" >
     <p class="medium">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
   </div>
-  <div class="inner flush-top flush-bottom center-text bottom-margin-small" id="thanks">
-    <h2>Thanks!</h2>
+  <div class="inner flush-top flush-bottom center-text" id="thanks">
+    <h2 class="regular tubs bottom-margin-tiny">Thanks!</h2>
     <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
   </div>
   <form class="bottom-margin-small" id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>

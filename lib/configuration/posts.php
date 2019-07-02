@@ -1,25 +1,30 @@
 <?php
 
-function add_feature_image_to_posts() {
-  if ( is_blog_post_or_guide_or_tutorial() ){
+function add_author() {
+  if ( is_single() ) {
+    ?>
+    <div class="entry-author atomic">
+      by <span itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
+    </div>
+    <?php
+  }
+}
+
+function add_featured_image_to_post() {
+  if ( is_blog_post_or_guide_or_tutorial() ) {
     global $post;
 
     $image_id  = get_post_thumbnail_id( $post->ID );
     $image     = wp_get_attachment_url( $image_id );
     $image_alt = get_post_meta( $image_id, '_wp_attachment_image_alt', true );
 
-    if( $image != '' ){
+    if ( $image != '' ) {
     ?>
-      <img src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      <div class="hero-aside">
+        <img class="entry-image hero-image" src="<?php echo $image; ?>"  alt="<?php echo  $image_alt; ?>">
+      </div>
     <?php
     }
-  }
-}
-
-function move_feature_image() {
-  if ( is_home() ){
-    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-    add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
   }
 }
 
@@ -30,44 +35,17 @@ function force_full_width_on_posts( $options ) {
   }
 }
 
-function add_blog_post_back_button() {
-  global $post;
-
-  if( is_child_guide() ){?>
-    <a href="<?php echo get_permalink($post->post_parent); ?>" class="back-to-blog">Back to Table of Contents</a>
-  <?php } else if ( is_singular('release-notes') ) { ?>
-    <a href="/release-notes" class="back-to-blog">Back to Release Notes</a>
-  <?php } else if( is_blog_post_or_guide_or_tutorial() ){ ?>
-    <a href="/resources" class="back-to-blog">Back to <em>Resources</em></a>
-  <?php }
-}
-
 function add_shares_to_post() {
   global $post;
-  if( is_blog_post_or_guide() ){
+  if( is_blog_post_or_guide_or_tutorial() ){
     ?>
-      <div class='shares-block'>
-        <!-- <div class='total-shares'>
-          <span><?php
-            //$share_obj = new Naked_Social_Share_Buttons($post);
-            //$final_shares = get_field('naked_shares_count');
-            //if ( is_numeric( $final_shares['expire'] ) && $final_shares['expire'] > time() ) {
-            //  $shares = get_field('naked_shares_count')['shares'];
-            //} else {
-              $share_obj = new Naked_Social_Share_Buttons();
-              $shares = $share_obj->get_share_numbers['shares'];
-            //}
-            echo $shares['facebook'] + $shares['twitter'] + $shares['linkedin'];
-          ?></span>Shares
-        </div> -->
-        <?php echo naked_social_share_buttons(); ?>
-      </div>
+      <?php echo naked_social_share_buttons(); ?>
     <?php
   }
 }
 
 function post_remove_footer() {
-  if( is_blog_post_or_guide() ){
+  if( is_blog_post_or_guide_or_tutorial() ){
     remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
@@ -89,39 +67,6 @@ function add_contributors() {
       </ul>
     </div>
   <?php }
-}
-
-function add_subscribe_form() {
-  if( is_blog_post_or_guide_or_tutorial() ){
-    ?>
-    <div class="js-newsletter newsletter">
-      <div class="js-newsletter-close newsletter-close">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
-      </div>
-
-      <div class="js-enquire-intro-2 enquire-intro-2 bottom-margin-small">
-        <h3 class="no-margin">Get our latest blog posts, news, and tips straight to your inbox</h3>
-      </div>
-      <div class="js-thanks-2 thanks-2">
-        <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
-        <p class="no-margin">We've sent you an email to confirm your subscription.</p>
-      </div>
-      <form class="js-blog-popup-form bottom-margin-small" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-        <div class="flex justify-center items-stretch bottom-margin-tiny">
-          <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
-          <input name="user[consent_marketing]" type="hidden" value="true">
-          <input name="user[consent_product_updates]" type="hidden" value="true">
-          <input name="event[blog_subscriber_source]" type="hidden" value="popup">
-          <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-          <input class="btn btn-success" type="submit" value="Subscribe">
-        </div>
-        <p class="mini faded">No spam, ever!</p>
-      </form>
-
-      <p class="js-policy policy mini"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
-    </div>
-  <?php
-  }
 }
 
 function add_class_to_small_images( $content ) {
@@ -177,30 +122,11 @@ function add_class_to_small_images( $content ) {
   return $content;
 }
 
-function add_post_sidebar() {
-  if ( is_blog_post_or_guide() ) {
-    genesis_widget_area( 'post-sidebar' );
-  }
-}
-
 function post_is_long() {
   $content = get_the_content();
   $length  = sizeof( explode(" ", $content) );
 
   return $length > 950;
-}
-
-// Change excerpt length
-function custom_excerpt_length( $length ) {
-  return 25;
-}
-function new_excerpt_more( $more ) {
-  return '…';
-}
-
-function custom_cta() {
-  if ( get_field('custom_cta') ) {
-  }
 }
 
 function add_blue_signup_boxes( $content ) {
