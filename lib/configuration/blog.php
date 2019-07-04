@@ -33,9 +33,9 @@
       # Display category
       if ( !empty($category_display) ) {
         if ( $useCatLink == true && !empty($category_link) ){
-          echo '<a class="badge" href="'.$category_link.'">'.htmlspecialchars($category_display).'</a>';
+          echo '<a class="badge" href="'.$category_link.'">'.$category_display.'</a>';
         } else {
-          echo '<span class="badge">'.htmlspecialchars($category_display).'</span>';
+          echo '<span class="badge">'.$category_display.'</span>';
         }
       }
     }
