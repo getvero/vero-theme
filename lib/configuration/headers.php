@@ -57,7 +57,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
     <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>md-lg-hide<? } ?>">
       <li>
-        <a class="unstyled" href="/resources/category/product-news">News &amp; Updates</a>
+        <a class="unstyled" href="/resources/category/news-updates">News &amp; Updates</a>
       </li>
       <li>
         <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
