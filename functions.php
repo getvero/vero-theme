@@ -77,6 +77,9 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
+  add_filter ( 'genesis_prev_link_text' , 'custom_prev_page_link' );
+  add_filter ( 'genesis_next_link_text' , 'custom_next_page_link' );
+
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   add_action( 'genesis_after_content_sidebar_wrap', 'blog_cta' );
   add_action( 'genesis_footer', 'custom_footer' );

@@ -1,5 +1,12 @@
 <?php
 
+  function custom_prev_page_link ( $text ) {
+    return 'Prev';
+  }
+  function custom_next_page_link ( $text ) {
+    return 'Next';
+  }
+
   function get_primary_category() {
     # SHOW YOAST PRIMARY CATEGORY, OR FIRST CATEGORY
     $category = get_the_category();
