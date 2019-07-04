@@ -78,7 +78,6 @@ function add_featured_post() {
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
             $image_id       = get_post_thumbnail_id();
             $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-            $category       = get_the_category();
           ?>
 
           <div class="grid">
@@ -95,7 +94,7 @@ function add_featured_post() {
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-small">
-                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <?php get_primary_category(); ?>
 
                   <span class="d-inline-block divider"></span>
 
@@ -146,8 +145,7 @@ function add_other_posts() {
             while( $custom_query->have_posts() ) : $custom_query->the_post();
               $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $image_id       = get_post_thumbnail_id();
-              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', TRUE);
-              $category       = get_the_category();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
             ?>
 
             <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
@@ -164,7 +162,7 @@ function add_other_posts() {
               <div class="entry-body">
                 <div class="entry-header">
                   <div class="entry-meta flex items-center bottom-margin-small">
-                    <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                    <?php get_primary_category(); ?>
 
                     <span class="d-inline-block divider"></span>
 
@@ -277,7 +275,6 @@ function add_tutorials_posts() {
               $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $image_id       = get_post_thumbnail_id();
               $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-              $category       = get_the_category();
             ?>
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
