@@ -126,7 +126,7 @@
 
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } else { ?>
-          <a class="badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <?php get_primary_category(); ?>
 
           <span class="d-inline-block divider"></span>
 
