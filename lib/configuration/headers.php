@@ -31,29 +31,27 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <div class="js-resources-menu resources-menu flex">
-    <?php
-      if ( is_blog_post_or_guide_or_tutorial() ) {
-        ?>
-        <ul class="menu resources-categories resources-categories-single">
-          <li class="post-category">
-            <?php
-              $category      = get_the_category();
-              $firstCategory = $category[0]->cat_name;
-            ?>
-            <a class="unstyled" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
-          </li>
+    <?php if ( is_blog_post_or_guide_or_tutorial() ): ?>
+      <ul class="menu resources-categories resources-categories-single">
+        <li class="post-category">
+          <?php get_primary_category(); ?>
 
-          <li class="caret">
-            <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#e1e1e1" fill-rule="nonzero"/></svg>
-          </li>
+          <?php
+            $category      = get_the_category();
+            $firstCategory = $category[0]->cat_name;
+          ?>
+          <a class="unstyled" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
+        </li>
 
-          <li class="post-title">
-            <span class="light"><?php echo get_the_title( $post_id ); ?></span>
-          </li>
-        </ul>
-        <?
-      }
-    ?>
+        <li class="caret">
+          <svg width="6" height="9" xmlns="http://www.w3.org/2000/svg"><path d="M5.743 5.207L2.207 8.743A1 1 0 0 1 .793 7.329L3.62 4.5.793 1.672A1 1 0 1 1 2.207.258l3.536 3.535a1 1 0 0 1 0 1.414z" fill="#e1e1e1" fill-rule="nonzero"/></svg>
+        </li>
+
+        <li class="post-title">
+          <span class="light"><?php echo get_the_title( $post_id ); ?></span>
+        </li>
+      </ul>
+    <?php endif; ?>
 
     <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>md-lg-hide<? } ?>">
       <li>
