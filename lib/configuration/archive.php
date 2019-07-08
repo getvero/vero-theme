@@ -422,7 +422,7 @@ function custom_category_loop() {
     'post_type'      => array('post', 'guides', 'tutorials'),
     'category__in'   => $category,
     'tag__not_in'    => $tag->term_id,
-    'paged'          => get_query_var( 'paged' )
+    'paged'          => $paged
   ));
 
   # Pagination fix
@@ -472,11 +472,10 @@ function custom_category_loop() {
       </article>
       <?php
     endwhile;
+    genesis_posts_nav();
   endif;
 
   wp_reset_postdata();
-
-  do_action( 'genesis_after_endwhile' );
 
   # Reset main query object
   $wp_query = NULL;
