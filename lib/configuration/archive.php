@@ -408,7 +408,6 @@ function add_featured_post_to_category() {
 
 function custom_category_loop() {
 	?>
-
     <?php
       $category  = get_the_category();
       $category  = $category[0]->cat_ID;
@@ -417,6 +416,7 @@ function custom_category_loop() {
       $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
       $tag   = get_term_by('name', 'featured_on_category', 'post_tag');
+
       $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
       $custom_query = new WP_Query(array(
@@ -467,11 +467,12 @@ function custom_category_loop() {
         </div>
       </article>
 
-    <?php endwhile;
+    <?php endwhile; ?>
+
+    <?php
+      do_action( 'genesis_after_endwhile' );
       wp_reset_postdata();
     ?>
-
-    <?php do_action( 'genesis_after_endwhile' ); ?>
   <?php
 }
 
