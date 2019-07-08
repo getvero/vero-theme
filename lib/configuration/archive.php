@@ -422,7 +422,7 @@ function custom_category_loop() {
     'post_type'      => array('post', 'guides', 'tutorials'),
     'category__in'   => $category,
     'tag__not_in'    => $tag->term_id,
-    'paged'          => $paged
+    'paged'          => get_query_var( 'paged' )
   ));
 
   # Pagination fix
