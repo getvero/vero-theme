@@ -416,13 +416,15 @@ function custom_category_loop() {
       $image_id  = get_post_thumbnail_id();
       $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
-      $tag = get_term_by('name', 'featured_on_category', 'post_tag');
+      $tag   = get_term_by('name', 'featured_on_category', 'post_tag');
+      $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
       $custom_query = new WP_Query(array(
         'posts_per_page' => 9,
         'post_type'      => array('post', 'guides', 'tutorials'),
         'category__in'   => $category,
-        'tag__not_in'    => $tag->term_id
+        'tag__not_in'    => $tag->term_id,
+        'paged'          => $paged
       ));
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
