@@ -407,28 +407,32 @@ function add_featured_post_to_category() {
 }
 
 function custom_category_loop() {
-	?>
-    <?php
-      $category  = get_the_category();
-      $category  = $category[0]->cat_ID;
+  $category  = get_the_category();
+  $category  = $category[0]->cat_ID;
 
-      $image_id  = get_post_thumbnail_id();
-      $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+  $image_id  = get_post_thumbnail_id();
+  $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
-      $tag   = get_term_by('name', 'featured_on_category', 'post_tag');
+  $tag   = get_term_by('name', 'featured_on_category', 'post_tag');
 
-      $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
-      $custom_query = new WP_Query(array(
-        'posts_per_page' => 9,
-        'post_type'      => array('post', 'guides', 'tutorials'),
-        'category__in'   => $category,
-        'tag__not_in'    => $tag->term_id,
-        'paged'          => $paged
-      ));
+  $custom_query = new WP_Query(array(
+    'posts_per_page' => 9,
+    'post_type'      => array('post', 'guides', 'tutorials'),
+    'category__in'   => $category,
+    'tag__not_in'    => $tag->term_id,
+    'paged'          => get_query_var( 'paged' )
+  ));
 
-    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+  # Pagination fix
+  $temp_query = $wp_query;
+  $wp_query   = NULL;
+  $wp_query   = $custom_query;
 
+  if ( $custom_query->have_posts() ) :
+    while( $custom_query->have_posts() ) : $custom_query->the_post();
+      ?>
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
           <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
@@ -466,14 +470,17 @@ function custom_category_loop() {
           </div>
         </div>
       </article>
+      <?php
+    endwhile;
+  endif;
 
-    <?php endwhile; ?>
+  wp_reset_postdata();
 
-    <?php
-      do_action( 'genesis_after_endwhile' );
-      wp_reset_postdata();
-    ?>
-  <?php
+  do_action( 'genesis_after_endwhile' );
+
+  # Reset main query object
+  $wp_query = NULL;
+  $wp_query = $temp_query;
 }
 
 function move_featured_image() {
