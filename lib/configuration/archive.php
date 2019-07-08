@@ -9,217 +9,481 @@ function next_link_text() {
   return $nextlink;
 }
 
-function remove_read_more_link() {
-  return '…';
+function remove_archives_entry_content() {
+  if ( is_blog_archive() ) {
+    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+  }
+}
+
+function custom_excerpt_text() {
+  if ( is_blog_archive() ) {
+    if ( get_field('custom_excerpt') ) {
+      ?>
+        <p><?php the_field('custom_excerpt') ?></p>
+      <?php
+    } else {
+      the_excerpt();
+    }
+  }
+}
+
+// Change excerpt length
+function custom_excerpt_length( $length ) {
+  return 25;
+}
+function new_excerpt_more( $more ) {
+  return '';
 }
 
 function add_custom_read_more_link() {
-  if( is_blog_archive() ){ ?>
+  if ( is_category() || is_search() ) {
+    if ( get_field('custom_read_more') ) {
+      ?>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+      <?php
+    } else {
+      ?>
+      <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+      <?php
+    }
+  }
+}
 
-    <?php if ( get_field('cta') ): ?>
-      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>"><?php the_field('cta') ?></a>
-    <?php else: ?>
-      <a class="regular underline-link unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-    <?php endif ?>
+function change_home_loop() {
+  if ( is_home() ) {
+    remove_action( 'genesis_loop', 'genesis_do_loop' );
+    add_action( 'genesis_loop', 'add_featured_post' );
+    add_action( 'genesis_loop', 'add_other_posts' );
+    add_action( 'genesis_loop', 'add_news_and_updates_posts' );
+    add_action( 'genesis_loop', 'add_tutorials_posts' );
+  }
 
+  if ( is_category() ) {
+    remove_action( 'genesis_loop', 'genesis_do_loop' );
+    add_action( 'genesis_loop', 'custom_category_loop' );
+  }
+}
+
+function add_featured_post() {
+  if ( is_home() && !is_paged() ) { ?>
+    <div class="resources-section resources-section-featured featured-post">
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 1,
+            'post_type' => array('post', 'guides', 'tutorials'),
+            'tag' => 'featured'
+          ));
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $image_id       = get_post_thumbnail_id();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+          ?>
+
+          <div class="grid">
+            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
+            </a>
+
+            <div class="entry-body">
+              <div class="entry-header">
+                <div class="entry-meta flex items-center bottom-margin-small">
+                  <span class="badge"><?php get_primary_category(); ?></a>
+
+                  <span class="d-inline-block divider"></span>
+
+                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                </div>
+
+                <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              </div>
+
+              <div class="entry-content bottom-margin-smedium">
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
+              </div>
+
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+                <?php endif ?>
+              </div>
+            </div>
+          </div>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
+      </article>
+    </div>
   <?php }
 }
 
-function get_highest_shares() {
-  global $post;
-  $options = array('twitter', 'facebook', 'linkedin', 'all');
-  $shares = array();
-  $i = -1;
-
-  foreach ( $options as &$option ) {
-    global $post;
-    $i++;
-    //$share_obj = new Naked_Social_Share_Buttons($post);
-    //$shares_array = get_field('naked_shares_count')['shares'];
-    $nssb = new Naked_Social_Share_Buttons;
-    $shares_array = $nssb->share_numbers['shares'];
-
-    if($option == 'all') {
-      $score = $shares_array['facebook'] + $shares_array['twitter'] + $shares_array['linkedin'];
-    } else {
-      $score = $shares_array[$option];
-    }
-
-    $shares[$i] = intval($score);
-  }
-  if ( $shares[3] > 500 ) {
-    $max = 3;
-  } else {
-    unset($shares[3]);
-    $max = array_keys($shares, max($shares))[0];
-  }
-  $result = array();
-  $result['platform'] = $options[$max];
-  $result['shares'] = $shares[$max];
-  return $result;
-}
-
-function add_featured_posts() {
-  if( is_home() && !is_paged() ){
+function add_other_posts() {
+  if ( is_home() && !is_paged() ) {
     ?>
-    <div class='featured-posts'>
-    <?php
-    $custom_query = new WP_Query(array(
-      'post_type' => array('post', 'guides'),
-      'featured' => 'yes'
-    ));
-    while( $custom_query->have_posts() ) : $custom_query->the_post();
-      $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      $category = get_the_category();
-      $result = get_highest_shares();
-      if( $result['shares'] < 30 ) {
-        $result['platform'] = "none";
-        $result['shares'] = "Editor's Pick";
-      } else if( $result['platform'] == 'all' ) {
-        $result['platform'] = 'share';
-        $result['shares'] = number_format($result['shares']);
-      } else {
-        $result['shares'] = number_format($result['shares']);
-      }
-      ?>
-      <div class='featured-post' <?php if ( $featured_image != '' ) { ?>style='background:url("<?php echo $featured_image; ?>"); background-size: cover; background-position: center'<?php } ?>>
-        <?php $nssb = new Naked_Social_Share_Buttons; echo $nssb->share_numbers['shares']; ?>
-        <div class='featured-image-overlay'></div>
-        <div class="featured-titles">
-          <div class="shares-label <?php echo $result['platform']; ?>"><span class="fa fa-<?php echo $result['platform']; ?>"></span><?php echo $result['shares']; ?></div>
-          <div class="category"><?php echo $category[0]->cat_name; ?></div>
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+      <div class="resources-section resources-section-secondary resources-section-thirds evergreen-posts">
+        <div class="grid">
+          <?php
+            $custom_query = new WP_Query(array(
+              'posts_per_page' => 3,
+              'post_type' => array('post', 'guides', 'tutorials', 'page'),
+              'tag'       => 'evergreen'
+            ));
+
+            while( $custom_query->have_posts() ) : $custom_query->the_post();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              $image_id       = get_post_thumbnail_id();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+            ?>
+
+            <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+              <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                  <?php if ( $image_alt == ''): ?>
+                    <?php the_title(); ?>
+                  <?php else: ?>
+                    <?php echo $image_alt; ?>
+                  <?php endif ?>
+                ">
+              </a>
+
+              <div class="entry-body">
+                <div class="entry-header">
+                  <div class="entry-meta flex items-center bottom-margin-small">
+                    <span class="badge"><?php get_primary_category(); ?></a>
+
+                    <span class="d-inline-block divider"></span>
+
+                    <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                  </div>
+
+                  <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                </div>
+
+                <div class="entry-content bottom-margin-smedium">
+                  <?php if ( get_field('custom_excerpt') ): ?>
+                    <p><?php the_field('custom_excerpt') ?></p>
+                  <?php else: ?>
+                    <?php the_excerpt(); ?>
+                  <?php endif ?>
+                </div>
+
+                <div class="entry-footer">
+                  <?php if ( get_field('custom_read_more') ): ?>
+                    <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <?php else: ?>
+                    <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <?php endif ?>
+                </div>
+              </div>
+            </article>
+
+            <?php endwhile;
+              wp_reset_postdata();
+            ?>
         </div>
-        <a class='featured-link-overlay' href="<?php the_permalink(); ?>"></a>
       </div>
-    <?php endwhile;
-    wp_reset_postdata();
-    ?>
-    </div>
     <?php
   }
 }
 
-function add_custom_category_entry_content() {
-  ?>
-    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
-  <?php
-}
+function add_news_and_updates_posts() {
+  if ( is_home() && !is_paged() ) {
+    ?>
+      <div class="resources-section resources-section-secondary resources-section-thirds news-and-updates-posts">
+        <?php
+          $category = get_category_by_slug('news-updates');
+          $cat_name = $category->name;
+        ?>
 
-function change_excerpt_length( $length ) {
-  if ( is_category() || is_search() ){
-    return 20;
+        <h2 class="blog-title"><?php echo $cat_name; ?></h2>
+
+        <div class="grid">
+          <?php
+            $custom_query = new WP_Query(array(
+              'posts_per_page' => 2,
+              'post_type' => array('post', 'guides'),
+              'tag'       => 'news_and_updates'
+            ));
+
+            while ( $custom_query->have_posts() ) : $custom_query->the_post();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+          ?>
+
+          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="entry-body">
+              <div class="entry-header">
+                <div class="entry-meta flex items-center bottom-margin-tiny">
+                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                </div>
+
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              </div>
+
+              <div class="entry-content bottom-margin-smedium">
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
+              </div>
+
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
+            </div>
+          </article>
+
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
+        </div>
+      </div>
+    <?php
   }
 }
 
-function category_setup() {
-  if ( is_category() || is_search() ){
-    if ( has_post_thumbnail() ){
-      $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-      ?>
-        <div class='category-image' style='<?php if( $image != '' ) { ?>background:url("<?php echo $image; ?>"); background-size: cover'<?php } ?>><a href='<?php the_permalink(); ?>'></a></div>
-      <?php
-    }
-    else {
-      ?>
-        <div class='category-image'><a href='<?php the_permalink(); ?>'></a></div>
-      <?php
-    }
+function add_tutorials_posts() {
+  if ( is_home() && !is_paged() ) {
+    ?>
+      <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
+        <h2 class="blog-title">Tutorials</h2>
+        <div class="grid">
+          <?php
+            $custom_query = new WP_Query(array(
+              'posts_per_page' => 4,
+              'post_type' => 'tutorials',
+            ));
 
-    remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
-    add_action( 'genesis_entry_content', 'add_custom_category_entry_content' );
-    remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-    remove_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
-    remove_action( 'genesis_entry_footer', 'add_shares' );
+            while( $custom_query->have_posts() ) : $custom_query->the_post();
+              $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+              $image_id       = get_post_thumbnail_id();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+            ?>
+
+          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
+            </a>
+
+            <div class="entry-body">
+              <div class="entry-header">
+                <div class="entry-meta flex items-center bottom-margin-small">
+                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+                </div>
+
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              </div>
+
+              <div class="entry-content bottom-margin-smedium">
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
+              </div>
+
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
+            </div>
+          </article>
+
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
+        </div>
+      </div>
+    <?php
   }
 }
 
 function add_latest_title() {
-  if ( is_home() && !is_paged() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Latest</h1>
-  <?php }
-  else if ( is_home() && is_paged() ){
+  if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">All – Page <?php echo $paged; ?></h1>
+    <h1 class="blog-title">All – Page <?php echo $paged; ?></h1>
   <?php }
   else if ( is_category() ){ ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium"><?php single_cat_title() ?></h1>
+    <div class="archive-description">
+      <h1 class="blog-title"><?php single_cat_title() ?></h1>
+    </div>
   <?php }
   else if ( is_search() ) { ?>
-    <h1 class="font-brand-gray-dark tubs regular bottom-margin-smedium">Search results for: <?php echo get_search_query(); ?></h1>
+    <div class="archive-description">
+      <h1 class="blog-title">Search results for: <?php echo get_search_query(); ?></h1>
+    </div>
   <?php }
 }
 
-function get_category_title() {
-  if ( is_home() ){
-    echo "All";
-  } else if ( is_category() ){
-    echo single_cat_title();
-  } else if ( is_single() ){
-    echo get_the_category( $id )[0]->name;
-  } else if ( is_search() ) {
-    echo "Search";
+function add_featured_post_to_category() {
+  if ( is_category() && !is_paged() ) {
+  ?>
+    <?php
+      $category = get_the_category();
+      $category = $category[0]->cat_ID;
+      $image_id       = get_post_thumbnail_id();
+      $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+
+      $custom_query = new WP_Query(array(
+        'posts_per_page' => 1,
+        'post_type'      => array('post', 'guides', 'tutorials'),
+        'tag'            => 'featured_on_category',
+        'category__in'   => $category
+      ));
+
+    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+
+      <article class="entry featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="grid">
+          <div class="entry-aside">
+            <a href="<?php the_permalink(); ?>">
+              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
+            </a>
+          </div>
+
+          <div class="entry-body">
+            <div class="entry-header bottom-margin-small">
+              <div class="entry-meta  bottom-margin-small">
+                <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+              </div>
+
+              <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            </div>
+
+            <div class="entry-content">
+              <?php if ( get_field('custom_excerpt') ): ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php else: ?>
+                <?php the_excerpt(); ?>
+              <?php endif ?>
+            </div>
+
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
+        </div>
+      </article>
+
+    <?php endwhile;
+      wp_reset_postdata();
+    ?>
+  <?php
   }
 }
 
-function add_categories_and_search() {
-  if ( is_blog_archive() || is_single() ){ ?>
+function custom_category_loop() {
+	?>
 
-    <div class="js-blog-navigation nav-blog bottom-margin-medium border-bottom-light">
-      <div class="nav-blog-categories">
-        <input class="" id="toggle" type="checkbox" name="toggle">
-        <label class="category-button flex items-center" for="toggle">
-          <span><?php get_category_title(); ?></span>
+    <?php
+      $category  = get_the_category();
+      $category  = $category[0]->cat_ID;
 
-          <svg class="left-margin-micro" xmlns="http://www.w3.org/2000/svg" width="19" height="19"><g fill="none" fill-rule="evenodd"><path d="M0 0h19v19H0z"/><path fill="#384254" d="M9.5 13.036a.997.997 0 0 1-.707-.293L5.257 9.207a1 1 0 0 1 1.414-1.414L9.5 10.62l2.828-2.828a1 1 0 1 1 1.414 1.414l-3.535 3.536a.997.997 0 0 1-.707.293z"/></g></svg>
-        </label>
+      $image_id  = get_post_thumbnail_id();
+      $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
-        <ul class="nav-blog-category-list semi-bold">
-          <li class="<?php echo is_active('all'); ?>"><a href="/resources">All</a></li>
-          <li class="<?php echo is_active('vero-updates'); ?>"><a href="/resources/category/vero-updates/">Vero Updates</a></li>
-          <li class="<?php echo is_active('how-to'); ?>"><a href="/resources/category/how-to">How To's</a></li>
-          <li class="<?php echo is_active('case-studies'); ?>"><a href="/resources/category/case-studies">Case Studies</a></li>
-          <li>
-            <?php
-              get_search_form(true);
-            ?>
-          </li>
-        </ul>
-      </div>
+      $tag = get_term_by('name', 'featured_on_category', 'post_tag');
 
-      <a class="js-blog-subscribe-btn btn btn-outline btn-primary" rel="leanModal" href="#blog">Subscribe to updates</a>
-    </div>
+      $custom_query = new WP_Query(array(
+        'posts_per_page' => 9,
+        'post_type'      => array('post', 'guides', 'tutorials'),
+        'category__in'   => $category,
+        'tag__not_in'    => $tag->term_id
+      ));
 
-    <div class="modal modal-blog" id="blog">
-      <div class="center-text bottom-margin-small js-enquire-intro enquire-intro">
-        <h3>Get our latest blog posts, news and tips straight to your inbox.</h3>
-      </div>
-      <div class="center-text js-thanks thanks">
-        <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
-        <p class="no-margin">We've sent you an email to confirm your subscription.</p>
-      </div>
-      <form class="js-blog-header-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-        <div class="form-group bottom-margin-tiny">
-          <input class="form-control" id="sender_email_address" name="email" type="email" placeholder="email@address.com">
-          <input name="user[consent_marketing]" type="hidden" value="true">
-          <input name="user[consent_product_updates]" type="hidden" value="true">
-          <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
-          <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+            <?php if ( $image_alt == ''): ?>
+              <?php the_title(); ?>
+            <?php else: ?>
+              <?php echo $image_alt; ?>
+            <?php endif ?>
+          ">
+        </a>
+
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-small">
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+            </div>
+
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+          </div>
+
+          <div class="entry-content bottom-margin-smedium">
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
+          </div>
+
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
         </div>
-        <div class="form-group bottom-margin-tiny">
-          <input class="btn btn-medium btn-success" type="submit" value="Subscribe to updates">
-        </div>
-        <div class="inner flush-top flush-bottom">
-          <p class="mini center-text"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</p>
-        </div>
-      </form>
+      </article>
 
-      <div class="modal-close">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"><path fill="#384254" fill-rule="evenodd" d="M8.086 9.5L4.35 5.765a1 1 0 0 1 1.414-1.414L9.5 8.086l3.735-3.735a1 1 0 1 1 1.414 1.414L10.914 9.5l3.735 3.735a1 1 0 1 1-1.414 1.414L9.5 10.914 5.765 14.65a1 1 0 0 1-1.414-1.414L8.086 9.5z"/></svg>
-      </div>
-    </div>
+    <?php endwhile;
+      wp_reset_postdata();
+    ?>
 
-  <?php }
+    <?php do_action( 'genesis_after_endwhile' ); ?>
+  <?php
+}
+
+function move_featured_image() {
+  # If this is not an archive, abort.
+  if ( is_singular() ) {
+    return;
+  }
+
+  # Remove featured image from entry content.
+  remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+
+  # Add featured image above entry header.
+  add_action( 'genesis_entry_header', 'genesis_do_post_image', 3 );
 }
 
 ?>

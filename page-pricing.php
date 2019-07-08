@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="mini faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
@@ -100,9 +100,9 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="dark-box" id="pricing-logos">
+<section class="bg-dark-blue-gradient" id="pricing-logos">
   <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
-    <h3 class="section-label bottom-margin-small">Trusted by companies globally</h5>
+    <h3 class="section-label bottom-margin-small font-white">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">

@@ -66,7 +66,7 @@
     </div>
   </div>
 </section>
-<section id="reports-webhooks" class="double-padding dark-box-flat">
+<section  class="double-padding bg-dark-blue font-white" id="reports-webhooks">
   <div class="inner small-inner center-text flush-bottom">
     <h1 class="chunk regular bottom-margin-small">Access the insights important to your business</h1>
     <p class="no-top-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
@@ -76,7 +76,7 @@
      <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
-<section id="report-webhook-data" class="dark-box-flat">
+<section class="bg-dark-blue font-white" id="report-webhook-data">
   <div class="inner medium-inner center-text">
     <h1 class="tubs regular regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h1>
     <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image top-margin-large" alt="Send a webhook for all of the data that originates from a Vero campaign">

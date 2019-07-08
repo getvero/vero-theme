@@ -7,13 +7,12 @@
     return $classes;
   }
   include 'pages-shared/static-header.php';
-?>
-<section class="hero double-padding dark-box" id="careers-hero">
-  <?php
+
   do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
+<section class="hero double-padding font-white" id="careers-hero">
   <div class="inner">
     <h1 class="hulk bold no-margin-top">We've come far.<br/>With your help we’ll go further.</h1>
     <a class="btn btn-outline-white" data-scroll href="#careers-job-listings">View current openings</a>

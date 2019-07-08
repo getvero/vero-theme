@@ -56,8 +56,9 @@ html.with-featherlight {
 
 	/* dimensions: cut off images */
 	overflow: auto;
-	padding: 25px 25px 0;
-	border-bottom: 25px solid transparent;
+	padding: 0;
+	/* padding: 25px 25px 0; */
+	/* border-bottom: 25px solid transparent; */
 
 	/* dimensions: handling large content */
 	margin-left: 5%;
@@ -66,6 +67,7 @@ html.with-featherlight {
 
 	/* styling */
 	background: #fff;
+	border-radius: 4px;
 	cursor: auto;
 
 	/* reset white-space wrapping */
@@ -87,24 +89,26 @@ html.with-featherlight {
 
 .featherlight .featherlight-close-icon {
 	/* position: centering vertical and horizontal */
-	position: absolute;
+	position: fixed;
 	z-index: 9999;
-	top: 0;
-	right: 0;
+	top: 30px;
+	right: 30px;
 
-	/* dimensions: 25px x 25px */
-	line-height: 25px;
-	width: 25px;
+	/* dimensions: 32px x 32px */
+	height: 32px;
+	line-height: 32px;
+	width: 32px;
 
 	/* styling */
-	cursor: pointer;
-	text-align: center;
 	font-family: Arial, sans-serif;
-	background: #fff; /* Set the background in case it overlaps the content */
-	background: rgba(255, 255, 255, 0.3);
-	color: #000;
+	font-size: 16px;
+	background-color: #fff;
 	border: none;
+	border-radius: 32px;
+	color: #000;
+	cursor: pointer;
 	padding: 0;
+	text-align: center;
 }
 
 /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */

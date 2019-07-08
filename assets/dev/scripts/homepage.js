@@ -5,16 +5,17 @@ jQuery(document).ready(function() {
   }
 
   // Responsive menu
-  jQuery( '.nav-menu-toggle' ).on( 'click', function() {
-    var textcont =  jQuery( '.nav-menu-toggle' ).text();
+  jQuery('.js-nav-primary-toggle').on( 'click', function() {
+    var textcont =  jQuery( '.nav-primary-toggle' ).text();
+
     if(textcont == 'Menu'){
-      jQuery( '#menu-marketing-navbar-right' ).slideDown();
-      jQuery( '.nav-menu-toggle a' ).text('Close');
+      jQuery('#menu-marketing-navbar-right').slideDown();
+      jQuery('.nav-primary-toggle').text('Close');
     }
     else if(textcont == 'Close'){
-      jQuery( '#menu-marketing-navbar-right' ).slideUp();
-      jQuery( '.nav-menu-toggle a' ).text('Menu');
-      jQuery( '#menu-marketing-navbar-right' ).addClass('slid');
+      jQuery('#menu-marketing-navbar-right').slideUp();
+      jQuery('.nav-primary-toggle').text('Menu');
+      jQuery('#menu-marketing-navbar-right').addClass('slid');
     }
   });
 
@@ -143,38 +144,5 @@ jQuery(document).ready(function() {
       jQuery(this).parent().toggleClass('active');
       jQuery(this).next().toggleClass('active');
     });
-  }
-});
-
-var h          = jQuery(".nav-primary .wrap");
-var stuck      = false;
-var stickPoint = getDistance();
-
-function getDistance() {
-  var topDist = h.offset().top;
-  return topDist;
-}
-
-function getHeight() {
-  var height = h.height();
-  return height;
-}
-
-jQuery(window).scroll(function(){
-  var height   = getHeight();
-  var distance = getDistance() - jQuery(window).scrollTop();
-  var offset   = jQuery(window).scrollTop();
-  if ((distance <= 8) && !stuck) {
-    jQuery('.nav-primary').addClass('sticky');
-    jQuery('.nav-primary').height(height);
-    jQuery('.js-blog-navigation').addClass('sticky');
-    stuck = true;
-    // console.log('stick');
-  } else if (stuck && (offset <= stickPoint)){
-    jQuery('.nav-primary').removeClass('sticky');
-    jQuery('.nav-primary').css('height','auto');
-    jQuery('.js-blog-navigation').removeClass('sticky');
-    stuck = false;
-    // console.log('unstick');
   }
 });
