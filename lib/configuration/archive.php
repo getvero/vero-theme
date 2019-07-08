@@ -427,52 +427,52 @@ function custom_category_loop() {
         'paged'          => $paged
       ));
 
-    if ( have_posts() )
-      while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
+    while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-          <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-            <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
-              <?php if ( $image_alt == ''): ?>
-                <?php the_title(); ?>
-              <?php else: ?>
-                <?php echo $image_alt; ?>
-              <?php endif ?>
-            ">
-          </a>
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+            <?php if ( $image_alt == ''): ?>
+              <?php the_title(); ?>
+            <?php else: ?>
+              <?php echo $image_alt; ?>
+            <?php endif ?>
+          ">
+        </a>
 
-          <div class="entry-body">
-            <div class="entry-header">
-              <div class="entry-meta flex items-center bottom-margin-small">
-                <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-              </div>
-
-              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-small">
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
             </div>
 
-            <div class="entry-content bottom-margin-smedium">
-              <?php if ( get_field('custom_excerpt') ): ?>
-                <p><?php the_field('custom_excerpt') ?></p>
-              <?php else: ?>
-                <?php the_excerpt(); ?>
-              <?php endif ?>
-            </div>
-
-            <div class="entry-footer">
-              <?php if ( get_field('custom_read_more') ): ?>
-                <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-              <?php else: ?>
-                <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-              <?php endif ?>
-            </div>
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
           </div>
-        </article>
 
-      <?php endwhile; ?>
+          <div class="entry-content bottom-margin-smedium">
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
+          </div>
 
-      <?php do_action( 'genesis_after_endwhile' ); ?>
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
+        </div>
+      </article>
 
-    <?php wp_reset_postdata(); ?>
+    <?php endwhile; ?>
+
+    <?php
+      do_action( 'genesis_after_endwhile' );
+      wp_reset_postdata();
+    ?>
   <?php
 }
 
