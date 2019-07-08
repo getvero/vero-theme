@@ -94,13 +94,13 @@
     ?>
       <section class="resources-cta border-dark-blue bg-white center-text">
         <div class="resources-cta-wrap">
-          <?php if( get_field('type_of_cta') == 'product' ) { ?>
+          <?php if( get_field('type_of_cta') == 'product' ) : ?>
             <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
             <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
 
             <p class="annotation faded">No credit card details required</p>
-          <?php } else { ?>
+          <?php else : ?>
             <div class="js-enquire-menu-2 enquire-menu-2">
               <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
             </div>
@@ -120,7 +120,9 @@
               </div>
               <p class="annotation faded">We're committed to keeping your information safe. Read our <a class="unstyled underline-link" href="/privacy">Privacy Policy</a>.</p>
             </form>
-          <?php } ?>
+
+
+          <?php endif; ?>
         </div>
       </section>
     <?php

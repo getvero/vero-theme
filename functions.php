@@ -77,6 +77,9 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
+  add_filter ( 'genesis_prev_link_text' , 'custom_prev_page_link' );
+  add_filter ( 'genesis_next_link_text' , 'custom_next_page_link' );
+
   add_filter( 'genesis_pre_get_option_site_layout', 'force_full_width_on_posts' );
   add_action( 'genesis_after_content_sidebar_wrap', 'blog_cta' );
   add_action( 'genesis_footer', 'custom_footer' );
@@ -120,6 +123,16 @@ function genesischild_theme_setup() {
   # Excerpt length for category/search page
   add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+  # Add categories and tags to pages
+  function myplugin_settings() {
+    // Add tag metabox to page
+    register_taxonomy_for_object_type('post_tag', 'page');
+    // Add category metabox to page
+    register_taxonomy_for_object_type('category', 'page');
+  }
+  // Add to the admin_init hook of your theme functions.php file
+  add_action( 'init', 'myplugin_settings' );
 
   # Search
   add_action( 'genesis_before', 'remove_search_title' );

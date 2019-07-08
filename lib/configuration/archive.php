@@ -77,19 +77,24 @@ function add_featured_post() {
           while( $custom_query->have_posts() ) : $custom_query->the_post();
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
             $image_id       = get_post_thumbnail_id();
-            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', TRUE);
-            $category       = get_the_category();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           ?>
 
           <div class="grid">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
             </a>
 
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-small">
-                  <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                  <?php get_primary_category(); ?>
 
                   <span class="d-inline-block divider"></span>
 
@@ -100,15 +105,11 @@ function add_featured_post() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <?php
-                if ( get_field('custom_excerpt') ) {
-                  ?>
-                    <p><?php the_field('custom_excerpt') ?></p>
-                  <?php
-                } else {
-                  the_excerpt();
-                }
-                ?>
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
               </div>
 
               <div class="entry-footer">
@@ -137,26 +138,31 @@ function add_other_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
-              'post_type' => array('post', 'guides', 'tutorials'),
+              'post_type' => array('post', 'guides', 'tutorials', 'page'),
               'tag'       => 'evergreen'
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();
               $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $image_id       = get_post_thumbnail_id();
-              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', TRUE);
-              $category       = get_the_category();
+              $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
             ?>
 
             <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
+                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                  <?php if ( $image_alt == ''): ?>
+                    <?php the_title(); ?>
+                  <?php else: ?>
+                    <?php echo $image_alt; ?>
+                  <?php endif ?>
+                ">
               </a>
 
               <div class="entry-body">
                 <div class="entry-header">
                   <div class="entry-meta flex items-center bottom-margin-small">
-                    <a class="badge" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $category[0]->cat_name; ?></a>
+                    <?php get_primary_category(); ?>
 
                     <span class="d-inline-block divider"></span>
 
@@ -167,15 +173,11 @@ function add_other_posts() {
                 </div>
 
                 <div class="entry-content bottom-margin-smedium">
-                  <?php
-                  if ( get_field('custom_excerpt') ) {
-                    ?>
-                      <p><?php the_field('custom_excerpt') ?></p>
-                    <?php
-                  } else {
-                    the_excerpt();
-                  }
-                  ?>
+                  <?php if ( get_field('custom_excerpt') ): ?>
+                    <p><?php the_field('custom_excerpt') ?></p>
+                  <?php else: ?>
+                    <?php the_excerpt(); ?>
+                  <?php endif ?>
                 </div>
 
                 <div class="entry-footer">
@@ -231,15 +233,11 @@ function add_news_and_updates_posts() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <?php
-                  if ( get_field('custom_excerpt') ) {
-                    ?>
-                      <p><?php the_field('custom_excerpt') ?></p>
-                    <?php
-                  } else {
-                    the_excerpt();
-                  }
-                ?>
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
               </div>
 
               <div class="entry-footer">
@@ -277,12 +275,17 @@ function add_tutorials_posts() {
               $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
               $image_id       = get_post_thumbnail_id();
               $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-              $category       = get_the_category();
             ?>
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="<?php echo  $image_alt; ?>">
+              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
             </a>
 
             <div class="entry-body">
@@ -295,15 +298,11 @@ function add_tutorials_posts() {
               </div>
 
               <div class="entry-content bottom-margin-smedium">
-                <?php
-                if ( get_field('custom_excerpt') ) {
-                  ?>
-                    <p><?php the_field('custom_excerpt') ?></p>
-                  <?php
-                } else {
-                  the_excerpt();
-                }
-                ?>
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
               </div>
 
               <div class="entry-footer">
@@ -364,7 +363,13 @@ function add_featured_post_to_category() {
         <div class="grid">
           <div class="entry-aside">
             <a href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo $image_alt; ?>">
+              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+                <?php if ( $image_alt == ''): ?>
+                  <?php the_title(); ?>
+                <?php else: ?>
+                  <?php echo $image_alt; ?>
+                <?php endif ?>
+              ">
             </a>
           </div>
 
@@ -377,15 +382,13 @@ function add_featured_post_to_category() {
               <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
-            <?php
-              if ( get_field('custom_excerpt') ) {
-                ?>
-                  <p><?php the_field('custom_excerpt') ?></p>
-                <?php
-              } else {
-                the_excerpt();
-              }
-            ?>
+            <div class="entry-content">
+              <?php if ( get_field('custom_excerpt') ): ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php else: ?>
+                <?php the_excerpt(); ?>
+              <?php endif ?>
+            </div>
 
             <?php if ( get_field('custom_read_more') ): ?>
               <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
@@ -426,7 +429,13 @@ function custom_category_loop() {
 
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="<?php echo $image_alt; ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+            <?php if ( $image_alt == ''): ?>
+              <?php the_title(); ?>
+            <?php else: ?>
+              <?php echo $image_alt; ?>
+            <?php endif ?>
+          ">
         </a>
 
         <div class="entry-body">
@@ -439,15 +448,11 @@ function custom_category_loop() {
           </div>
 
           <div class="entry-content bottom-margin-smedium">
-            <?php
-            if ( get_field('custom_excerpt') ) {
-              ?>
-                <p><?php the_field('custom_excerpt') ?></p>
-              <?php
-            } else {
-              the_excerpt();
-            }
-            ?>
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
           </div>
 
           <div class="entry-footer">

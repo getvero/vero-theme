@@ -62,26 +62,26 @@ if(get_field('sticky')){
 add_action( 'genesis_after_header', 'hero', 10, 2  );
 function hero() {
   $color = get_field('header_color');
-  if(empty($color)) {
+  if (empty($color)) {
     $color = '#ffffff'; // default to white
   }
   $image = get_field('image_header');
-  if( !empty($image) ) {
+  if ( !empty($image) ) {
     echo '<div class="hero" style="background-color:'. $color . '; background-image: url(' . $image['url'] . ');"></div>';
   }
 }
 
-if(get_field('social')){
+if ( get_field('social') ) {
   add_action( 'genesis_entry_header', 'social' );
 }
-if(get_field('footer_cta')){
-  add_action( 'genesis_before_footer', 'blog_cta' );
+if ( get_field('footer_cta') ) {
+  add_action( 'genesis_after_content_sidebar_wrap', 'blog_cta' );
 }
 
 function social() {
   $share_obj = new Naked_Social_Share_Buttons();
   ?>
-  <div class='shares-block'>
+  <div class="shares-block">
     <?php echo naked_social_share_buttons(); ?>
   </div>
   <?php

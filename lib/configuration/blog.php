@@ -1,5 +1,54 @@
 <?php
 
+  function custom_prev_page_link ( $text ) {
+    return 'Prev';
+  }
+  function custom_next_page_link ( $text ) {
+    return 'Next';
+  }
+
+  function get_primary_category() {
+    # SHOW YOAST PRIMARY CATEGORY, OR FIRST CATEGORY
+    $category = get_the_category();
+    $useCatLink = true;
+
+    # If post has a category assigned.
+    if ($category) {
+      $category_display = '';
+      $category_link = '';
+      if ( class_exists('WPSEO_Primary_Term') )
+      {
+        # Show the post's 'Primary' category, if this Yoast feature is available, & one is set
+        $wpseo_primary_term = new WPSEO_Primary_Term( 'category', get_the_id() );
+        $wpseo_primary_term = $wpseo_primary_term->get_primary_term();
+        $term = get_term( $wpseo_primary_term );
+        if (is_wp_error($term)) {
+          # Default to first category (not Yoast) if an error is returned
+          $category_display = $category[0]->name;
+          $category_link = get_category_link( $category[0]->term_id );
+        } else {
+          # Yoast Primary category
+          $category_display = $term->name;
+          $category_link = get_category_link( $term->term_id );
+        }
+      }
+      else {
+        # Default, display the first category in WP's list of assigned categories
+        $category_display = $category[0]->name;
+        $category_link = get_category_link( $category[0]->term_id );
+      }
+      # Display category
+      if ( !empty($category_display) ) {
+        if ( $useCatLink == true && !empty($category_link) ){
+          echo '<a class="badge" href="'.$category_link.'">'.$category_display.'</a>';
+        } else {
+          echo '<span class="badge">'.$category_display.'</span>';
+        }
+      }
+    }
+
+  }
+
   function add_custom_types( $query ) {
     global $wp_the_query;
 
@@ -84,7 +133,7 @@
 
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } else { ?>
-          <a class="badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <?php get_primary_category(); ?>
 
           <span class="d-inline-block divider"></span>
 
