@@ -470,15 +470,9 @@ function custom_category_loop() {
 
       <?php endwhile; ?>
 
-      <?php
-        do_action( 'genesis_after_endwhile' );
-      ?>
+      <?php do_action( 'genesis_after_endwhile' ); ?>
 
     <?php wp_reset_postdata(); ?>
-
-    <?php
-      // do_action( 'genesis_after_endwhile' );
-    ?>
   <?php
 }
 
