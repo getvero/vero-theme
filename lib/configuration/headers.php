@@ -35,12 +35,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <ul class="menu resources-categories resources-categories-single">
         <li class="post-category">
           <?php get_primary_category(); ?>
-
-          <?php
-            $category      = get_the_category();
-            $firstCategory = $category[0]->cat_name;
-          ?>
-          <a class="unstyled" href="<?php echo get_category_link($category[0]->cat_ID); ?>"><?php echo $firstCategory; ?></a>
         </li>
 
         <li class="caret">

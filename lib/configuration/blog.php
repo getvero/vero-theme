@@ -9,7 +9,7 @@
 
   function get_primary_category() {
     # SHOW YOAST PRIMARY CATEGORY, OR FIRST CATEGORY
-    $category = get_the_category();
+    $category   = get_the_category();
     $useCatLink = true;
 
     # If post has a category assigned.
@@ -40,7 +40,7 @@
       # Display category
       if ( !empty($category_display) ) {
         if ( $useCatLink == true && !empty($category_link) ){
-          echo '<a class="badge" href="'.$category_link.'">'.$category_display.'</a>';
+          echo '<a class="unstyled" href="'.$category_link.'">'.$category_display.'</a>';
         } else {
           echo '<span class="badge">'.$category_display.'</span>';
         }
@@ -133,7 +133,7 @@
 
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } else { ?>
-          <?php get_primary_category(); ?>
+          <span class="badge"><?php get_primary_category(); ?></a>
 
           <span class="d-inline-block divider"></span>
 

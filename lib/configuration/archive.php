@@ -94,7 +94,7 @@ function add_featured_post() {
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-small">
-                  <?php get_primary_category(); ?>
+                  <span class="badge"><?php get_primary_category(); ?></a>
 
                   <span class="d-inline-block divider"></span>
 
@@ -162,7 +162,7 @@ function add_other_posts() {
               <div class="entry-body">
                 <div class="entry-header">
                   <div class="entry-meta flex items-center bottom-margin-small">
-                    <?php get_primary_category(); ?>
+                    <span class="badge"><?php get_primary_category(); ?></a>
 
                     <span class="d-inline-block divider"></span>
 
