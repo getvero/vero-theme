@@ -16,7 +16,7 @@
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="medium regular underline-link" id="demo-trigger" rel="leanModal" href="#demo">Talk to us</a>
+          <a class="medium regular underline-link typeform-share link" id="demo-trigger" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a> 
         </div>
 
         <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
