@@ -106,27 +106,27 @@ include 'pages-shared/static-header.php';
 
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class=" d-block" href="https://unsplash.com">
+        <a class="show" href="https://unsplash.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class=" d-block" href="https://monzo.com">
+        <a class="show" href="https://monzo.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class=" d-block" href="https://helloprint.co.uk">
+        <a class="show" href="https://helloprint.co.uk">
           <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class=" d-block" href="https://tidal.com">
+        <a class="show" href="https://tidal.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal logo" height="76">
         </a>
       </li>
       <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class=" d-block" href="https://pipedrive.com">
+        <a class="show" href="https://pipedrive.com">
           <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-pipedrive.svg" alt="Pipedrive logo" height="76">
         </a>
       </li>

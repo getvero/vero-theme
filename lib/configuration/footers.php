@@ -12,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer" <?php if ( is_blog() || is_search() || is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
+    <footer class="footer" <?php if ( is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
       <div class="inner xlarge-inner">
         <div class="flex flex-wrap">
           <div class="col-aside">
