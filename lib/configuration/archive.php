@@ -425,8 +425,7 @@ function custom_category_loop() {
     'category__in'        => $category,
     'tag__not_in'         => $tag->term_id,
     'ignore_sticky_posts' => true,
-    'paged'               => $paged,
-    'page'                => get_query_var('page')
+    'paged'               => get_query_var('paged')
   ));
 
   # Pagination fix
