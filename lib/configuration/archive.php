@@ -81,7 +81,7 @@ function add_featured_post() {
           ?>
 
           <div class="grid">
-            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+            <a class="show entry-aside" href="<?php the_permalink(); ?>">
               <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
                 <?php if ( $image_alt == ''): ?>
                   <?php the_title(); ?>
@@ -149,7 +149,7 @@ function add_other_posts() {
             ?>
 
             <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-              <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+              <a class="show entry-aside" href="<?php the_permalink(); ?>">
                 <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
                   <?php if ( $image_alt == ''): ?>
                     <?php the_title(); ?>
@@ -278,7 +278,7 @@ function add_tutorials_posts() {
             ?>
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+            <a class="show entry-aside" href="<?php the_permalink(); ?>">
               <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
                 <?php if ( $image_alt == ''): ?>
                   <?php the_title(); ?>
@@ -426,7 +426,7 @@ function custom_category_loop() {
     while( $custom_query->have_posts() ) : $custom_query->the_post();
       ?>
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+        <a class="show entry-aside" href="<?php the_permalink(); ?>">
           <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
             <?php if ( $image_alt == ''): ?>
               <?php the_title(); ?>

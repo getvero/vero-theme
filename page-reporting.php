@@ -14,13 +14,13 @@
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
     <p class="semi-bold smallish font-brand-primary bottom-margin-medium">Reporting</p>
-    <h1 class="biggie semi-bold bottom-margin-small">Track the true performance of <span class="large- d-block">your email campaigns</span></h1>
-    <p class="large">Understand which of your email campaigns engage <span class="large- d-block">customers and drive revenue.</span></p>
+    <h1 class="biggie semi-bold bottom-margin-small">Track the true performance of <span class="show">your email campaigns</span></h1>
+    <p class="large">Understand which of your email campaigns engage <span class="show">customers and drive revenue.</span></p>
   </div>
 </section>
 <section id="reports-hero-image" class="double-padding">
   <div class="inner large-inner center-text flush-bottom flush-top">
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-hero@2x.png 2x" class="center-text d-block responsive-image small-cover-image-200" alt="Track the true performance ofyour email campaigns">
+    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-hero@2x.png 2x" class="center-text show responsive-image small-cover-image-200" alt="Track the true performance ofyour email campaigns">
   </div>
 </section>
 <section id="reports-hero-features" class="double-padding">

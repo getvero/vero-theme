@@ -12,7 +12,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <div id="logo">
     <?php if( is_blog_archive() || is_single() ) : ?>
       <div class="flex items-center">
-        <a class="d-block" href="/">
+        <a class="show" href="/">
           <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
         </a>
 
@@ -21,7 +21,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
       </div>
     <?php else : ?>
-      <a class="d-block" href="/">
+      <a class="show" href="/">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     <?php endif; ?>
@@ -64,7 +64,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
     <div class="flex items-center md-lg-left-margin-auto">
       <label class="search-toggle search-toggle-open" for="search-form">
-        <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
+        <svg class="show" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
       </label>
       <input class="search-checkbox hide" id="search-form" type="checkbox">
       <?php get_search_form(); ?>
@@ -98,7 +98,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
 
-        <a class="d-block annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
+        <a class="show annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
       </div>
     </div>
 
@@ -120,7 +120,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <label class="search-toggle search-toggle-open left-margin-auto md-lg-hide" for="search-form">
-    <svg class="d-block" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
+    <svg class="show" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
   </label>
   <div class="js-category-toggle category-toggle">
     <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg"><path d="M1 0h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2zm0 6h18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill="#9D9D9D" fill-rule="nonzero"/></svg>

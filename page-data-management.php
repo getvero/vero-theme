@@ -21,7 +21,7 @@
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a> 
+        <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
     </div>
   </div>
@@ -39,8 +39,8 @@
         <blockquote class="quotation-marks">
           <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
-          <span class="d-block medium regular unstyled">Luke Chesser</span>
-          <span class="d-block medium">Founder at Unsplash</span>
+          <span class="show medium regular unstyled">Luke Chesser</span>
+          <span class="show medium">Founder at Unsplash</span>
         </blockquote>
       </div>
     </div>
