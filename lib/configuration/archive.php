@@ -407,6 +407,8 @@ function add_featured_post_to_category() {
 }
 
 function custom_category_loop() {
+  global $post;
+
   $category  = get_the_category();
   $category  = $category[0]->cat_ID;
 
@@ -422,7 +424,7 @@ function custom_category_loop() {
     'post_type'      => array('post', 'guides', 'tutorials'),
     'category__in'   => $category,
     'tag__not_in'    => $tag->term_id,
-    'paged'          => $paged
+    'paged'          => get_query_var( 'paged' )
   ));
 
   # Pagination fix
@@ -476,6 +478,10 @@ function custom_category_loop() {
   endif;
 
   wp_reset_postdata();
+
+  // Custom query loop pagination
+  previous_posts_link( 'Older Posts' );
+  next_posts_link( 'Newer Posts', $custom_query->max_num_pages );
 
   # Reset main query object
   $wp_query = NULL;
