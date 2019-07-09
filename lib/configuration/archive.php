@@ -60,8 +60,8 @@ function change_home_loop() {
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
-    // add_action( 'genesis_loop', 'custom_category_loop' );
-    add_action( 'genesis_loop', 'be_custom_loop' );
+    add_action( 'genesis_loop', 'custom_category_loop' );
+    // add_action( 'genesis_loop', 'be_custom_loop' );
   }
 }
 
@@ -410,8 +410,7 @@ function add_featured_post_to_category() {
 function custom_category_loop() {
   global $post;
 
-  $category = get_the_category();
-  $category = $category[0]->cat_ID;
+  $cat_id = get_query_var('cat');
 
   $image_id  = get_post_thumbnail_id();
   $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
@@ -423,7 +422,7 @@ function custom_category_loop() {
   $custom_query = new WP_Query(array(
     'posts_per_page'      => 9,
     'post_type'           => array('post', 'guides', 'tutorials'),
-    'category__in'        => $category,
+    'category__in'        => $cat_id,
     'tag__not_in'         => $tag->term_id,
     'paged'               => get_query_var('paged')
   ));
