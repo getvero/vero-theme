@@ -193,24 +193,24 @@
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
     <h2 class="chunk regular">See where you fit in</h2>
-    <p class="medium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
-    <ul class="unstyled-list lined-list top-margin-medium">
+    <p class="medium bottom-margin-smedium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
+    <ul class="unstyled-list lined-list medium bottom-margin-medium">
       <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/1068175" target="_blank" class="semi-bold display-block vertical-padding-small">
+        <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068175" target="_blank">
           Content Writer (Contract)
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
         </a>
       </li>
         <li class="no-margin">
-        <a href="https://getvero.workable.com/jobs/1068206" target="_blank" class="semi-bold display-block vertical-padding-small">
+        <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068206" target="_blank">
           Senior Content Manager
-          <img class="pull-right" src="/wp-content/themes/vero/assets/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
         </a>
       </li>
     </ul>
-    <p class="medium">We’ll be adding new roles soon!</p>
+
+    <p class="medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
   </div>
-  <p class="top-margin-medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
 </section>
 <?php
   no_content_genesis_footer();
