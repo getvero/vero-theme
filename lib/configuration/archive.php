@@ -345,8 +345,7 @@ function add_featured_post_to_category() {
   if ( is_category() && !is_paged() ) {
   ?>
     <?php
-      $category = get_the_category();
-      $category = $category[0]->cat_ID;
+      $cat_id = get_query_var('cat');
       $image_id       = get_post_thumbnail_id();
       $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
 
@@ -354,7 +353,7 @@ function add_featured_post_to_category() {
         'posts_per_page' => 1,
         'post_type'      => array('post', 'guides', 'tutorials'),
         'tag'            => 'featured_on_category',
-        'category__in'   => $category
+        'category__in'   => $cat_id
       ));
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
@@ -409,14 +408,11 @@ function add_featured_post_to_category() {
 function custom_category_loop() {
   global $post;
 
-  $cat_id = get_query_var('cat');
-
+  $cat_id    = get_query_var('cat');
   $image_id  = get_post_thumbnail_id();
   $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-
-  $tag = get_term_by('name', 'featured_on_category', 'post_tag');
-
-  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $tag       = get_term_by('name', 'featured_on_category', 'post_tag');
+  $paged     = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
   $custom_query = new WP_Query(array(
     'posts_per_page'      => 9,
