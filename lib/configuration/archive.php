@@ -425,14 +425,8 @@ function custom_category_loop() {
     'post_type'           => array('post', 'guides', 'tutorials'),
     'category__in'        => $category,
     'tag__not_in'         => $tag->term_id,
-    'ignore_sticky_posts' => true,
     'paged'               => get_query_var('paged')
   ));
-
-  # Pagination fix
-  $temp_query = $wp_query;
-  $wp_query   = NULL;
-  $wp_query   = $custom_query;
 
   if ( $custom_query->have_posts() ) :
     while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -480,49 +474,72 @@ function custom_category_loop() {
   endif;
 
   wp_reset_postdata();
-
-  // Custom query loop pagination
-  previous_posts_link( 'Older Posts' );
-  next_posts_link( 'Newer Posts', $custom_query->max_num_pages );
-
-  # Reset main query object
-  $wp_query = NULL;
-  $wp_query = $temp_query;
 }
 
 function be_custom_loop() {
-  global $paged;
-
   $category = get_the_category();
   $category = $category[0]->cat_ID;
 
+  $image_id  = get_post_thumbnail_id();
+  $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+
   $tag = get_term_by('name', 'featured_on_category', 'post_tag');
 
-  // Fix for the WordPress 3.0 "paged" bug.
-
-  $paged = 1;
-
-  if ( get_query_var( 'paged' ) ) {
-    $paged = get_query_var( 'paged' );
-  }
-
-  if ( get_query_var( 'page' ) ) {
-    $paged = get_query_var( 'page' );
-  }
-
-  $paged = intval( $paged );
-
-  // accepts any wp_query args.
-  $args = (array(
+	$args = array(
     'posts_per_page'      => 9,
     'post_type'           => array('post', 'guides', 'tutorials'),
     'category__in'        => $category,
     'tag__not_in'         => $tag->term_id,
-    'ignore_sticky_posts' => true,
-    'paged'               => $paged
-  ));
+    'paged'               => get_query_var('paged')
+	);
 
-  genesis_custom_loop( $args );
+	global $wp_query;
+	$wp_query = new WP_Query( $args );
+	if( $wp_query->have_posts() ):
+		while( $wp_query->have_posts() ): $wp_query->the_post(); global $post;
+			?>
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+            <?php if ( $image_alt == ''): ?>
+              <?php the_title(); ?>
+            <?php else: ?>
+              <?php echo $image_alt; ?>
+            <?php endif ?>
+          ">
+        </a>
+
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-small">
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+            </div>
+
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+          </div>
+
+          <div class="entry-content bottom-margin-smedium">
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
+          </div>
+
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
+        </div>
+      </article>
+			<?php
+		endwhile;
+		genesis_posts_nav();
+	endif;
+	wp_reset_query();
 }
 
 function move_featured_image() {
