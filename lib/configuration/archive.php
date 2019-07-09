@@ -60,7 +60,8 @@ function change_home_loop() {
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
-    add_action( 'genesis_loop', 'custom_category_loop' );
+    // add_action( 'genesis_loop', 'custom_category_loop' );
+    add_action( 'genesis_loop', 'be_custom_loop' );
   }
 }
 
@@ -487,6 +488,81 @@ function custom_category_loop() {
   # Reset main query object
   $wp_query = NULL;
   $wp_query = $temp_query;
+}
+
+function be_custom_loop() {
+  global $post;
+
+  $category = get_the_category();
+  $category = $category[0]->cat_ID;
+
+  $image_id  = get_post_thumbnail_id();
+  $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+
+  $tag = get_term_by('name', 'featured_on_category', 'post_tag');
+
+	// arguments, adjust as needed
+	$args = array(
+    'post_type'      => array('post', 'guides', 'tutorials'),
+    'posts_per_page' => 9,
+    'post_status'    => 'publish',
+    'paged'          => get_query_var( 'paged' ),
+    'category__in'   => $category,
+    'tag__not_in'    => $tag->term_id,
+	);
+	/*
+	Overwrite $wp_query with our new query.
+	The only reason we're doing this is so the pagination functions work,
+	since they use $wp_query. If pagination wasn't an issue,
+	use: https://gist.github.com/3218106
+	*/
+	global $wp_query;
+	$wp_query = new WP_Query( $args );
+	if ( have_posts() ) :
+		while ( have_posts() ) : the_post();
+      ?>
+      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
+          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
+            <?php if ( $image_alt == ''): ?>
+              <?php the_title(); ?>
+            <?php else: ?>
+              <?php echo $image_alt; ?>
+            <?php endif ?>
+          ">
+        </a>
+
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-small">
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+            </div>
+
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+          </div>
+
+          <div class="entry-content bottom-margin-smedium">
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
+          </div>
+
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
+        </div>
+      </article>
+      <?php
+		endwhile;
+		do_action( 'genesis_after_endwhile' );
+	endif;
+	wp_reset_query();
 }
 
 function move_featured_image() {
