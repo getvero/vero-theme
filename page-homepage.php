@@ -9,14 +9,14 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="d-block">Create better</span> customer experiences</h1>
+        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="show">Create better</span> customer experiences</h1>
 
         <p class="larger md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="medium regular underline-link typeform-share link" id="typef_orm_share" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a> 
+          <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
         </div>
 
         <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
@@ -71,7 +71,7 @@
     </header>
     <div class="grid grid-thirds center-text">
       <div class="block block-empower relative">
-        <a class="d-block card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
+        <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
           <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
           <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
@@ -85,7 +85,7 @@
         </a>
       </div>
       <div class="block block-engage relative">
-        <a class="d-block card padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
+        <a class="show card padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
           <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
           <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
@@ -99,7 +99,7 @@
         </a>
       </div>
       <div class="block block-coordinate relative">
-        <a class="d-block card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
+        <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
           <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
           <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
@@ -132,7 +132,7 @@
 
               <p class="medium quote">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
-              <a class="d-block semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
+              <a class="show semi-bold unstyled" href="https://twitter.com/lukechesser/status/892448177697292289?ref_src=twsrc%5Etfw" target="_blank">Luke Chesser</a>
               <span>Cofounder at Unsplash</span>
             </div>
           </blockquote>
@@ -148,7 +148,7 @@
 
               <p class="medium quote">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
-              <a class="d-block semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
+              <a class="show semi-bold unstyled" href="https://www.getvero.com/resources/driving-revenue-increasing-nps-personalised-email/" target="_blank">Julien Catani</a>
               <span>Head of CRM at Helloprint</span>
             </div>
           </blockquote>
@@ -163,7 +163,7 @@
 
               <p class="medium quote">"Heck! Vero's support is exceptional!</p>
 
-              <a class="d-block semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
+              <a class="show semi-bold unstyled" href="https://twitter.com/nathfield/status/909951597500817409?ref_src=twsrc%5Etfw" target="_blank">Nathan Field</a>
               <span>Head of Marketing at Drawboard</span>
             </div>
           </blockquote>
@@ -178,7 +178,7 @@
           <div class="donut bottom-margin-tiny">
             <div>
               <span class="hulk semi-bold no-margin font-brand-success">95%</span>
-              <span class="atomic d-block horizontal-margin-medium semi-bold faded uppercase">Great</span>
+              <span class="atomic show horizontal-margin-medium semi-bold faded uppercase">Great</span>
             </div>
             <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
           </div>

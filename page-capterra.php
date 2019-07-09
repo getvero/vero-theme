@@ -191,7 +191,7 @@
       <p class="quote large">We push all of our behavioural events to Vero… allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
 
-    <span class="d-block medium">Luke Chesser</span>
+    <span class="show medium">Luke Chesser</span>
     <img class="align-middle logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" width="160" alt="Unsplash logo">
   </div>
 </section>

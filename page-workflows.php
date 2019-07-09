@@ -29,7 +29,7 @@
         <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile.png, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero-mobile@2x.png 2x" type="image/png">
         <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.webp, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.webp 2x" type="image/webp">
         <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png, /wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x" type="image/png">
-        <img class="center-text d-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x"  alt="Workflows - A visual way to build your automated campaigns 6">
+        <img class="center-text show" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/hero@2x.png 2x"  alt="Workflows - A visual way to build your automated campaigns 6">
       </picture>
     </div>
   </div>
@@ -120,7 +120,7 @@
       </ul>
     </div>
     <div class="right primary">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/examples.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/examples@2x.png 2x" class="center-text d-block small-responsive-image" alt="Build engaging campaigns and reach your goals">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/examples.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/examples@2x.png 2x" class="center-text show small-responsive-image" alt="Build engaging campaigns and reach your goals">
     </div>
   </div>
 </section>
@@ -131,32 +131,32 @@
   <div class="inner large-inner flush-top">
     <ul class="unstyled-list feature-list grid grid-thirds-small">
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Conversion Goals">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Conversion Goals">
         <h3 class="micro regular bottom-margin-tiny">Conversion Goals</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Set a goal and easily track the success of your workflow.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Insights">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Insights">
         <h3 class="micro regular bottom-margin-tiny">Insights</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Drag and drop">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Drag and drop">
         <h3 class="micro regular bottom-margin-tiny">Drag and Drop</h3>
         <p class="desc top-margin-tiny bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Send at a preferred time">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Send at a preferred time">
         <h3 class="micro regular bottom-margin-tiny">Send at a preferred time</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="Transactional emails">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Transactional emails">
         <h3 class="micro regular bottom-margin-tiny">Transactional Emails</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting@2x.png 2x" class=" d-block responsive-image bottom-margin-small" alt="A/B testing">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting@2x.png 2x" class="show responsive-image bottom-margin-small" alt="A/B testing">
         <h3 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h3>
         <p class="desc top-margin-tiny bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.</p>
       </li>
