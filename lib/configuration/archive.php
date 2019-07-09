@@ -491,78 +491,38 @@ function custom_category_loop() {
 }
 
 function be_custom_loop() {
-  global $post;
+  global $paged;
 
   $category = get_the_category();
   $category = $category[0]->cat_ID;
 
-  $image_id  = get_post_thumbnail_id();
-  $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-
   $tag = get_term_by('name', 'featured_on_category', 'post_tag');
 
-	// arguments, adjust as needed
-	$args = array(
-    'post_type'      => array('post', 'guides', 'tutorials'),
-    'posts_per_page' => 9,
-    'post_status'    => 'publish',
-    'paged'          => get_query_var( 'paged' ),
-    'category__in'   => $category,
-    'tag__not_in'    => $tag->term_id,
-	);
-	/*
-	Overwrite $wp_query with our new query.
-	The only reason we're doing this is so the pagination functions work,
-	since they use $wp_query. If pagination wasn't an issue,
-	use: https://gist.github.com/3218106
-	*/
-	global $wp_query;
-	$wp_query = new WP_Query( $args );
-	if ( have_posts() ) :
-		while ( have_posts() ) : the_post();
-      ?>
-      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        <a class="d-block entry-aside" href="<?php the_permalink(); ?>">
-          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
-            <?php if ( $image_alt == ''): ?>
-              <?php the_title(); ?>
-            <?php else: ?>
-              <?php echo $image_alt; ?>
-            <?php endif ?>
-          ">
-        </a>
+  // Fix for the WordPress 3.0 "paged" bug.
 
-        <div class="entry-body">
-          <div class="entry-header">
-            <div class="entry-meta flex items-center bottom-margin-small">
-              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-            </div>
+  $paged = 1;
 
-            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
-          </div>
+  if ( get_query_var( 'paged' ) ) {
+    $paged = get_query_var( 'paged' );
+  }
 
-          <div class="entry-content bottom-margin-smedium">
-            <?php if ( get_field('custom_excerpt') ): ?>
-              <p><?php the_field('custom_excerpt') ?></p>
-            <?php else: ?>
-              <?php the_excerpt(); ?>
-            <?php endif ?>
-          </div>
+  if ( get_query_var( 'page' ) ) {
+    $paged = get_query_var( 'page' );
+  }
 
-          <div class="entry-footer">
-            <?php if ( get_field('custom_read_more') ): ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-            <?php else: ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-            <?php endif ?>
-          </div>
-        </div>
-      </article>
-      <?php
-		endwhile;
-		do_action( 'genesis_after_endwhile' );
-	endif;
-	wp_reset_query();
+  $paged = intval( $paged );
+
+  // accepts any wp_query args.
+  $args = (array(
+    'posts_per_page'      => 9,
+    'post_type'           => array('post', 'guides', 'tutorials'),
+    'category__in'        => $category,
+    'tag__not_in'         => $tag->term_id,
+    'ignore_sticky_posts' => true,
+    'paged'               => $paged
+  ));
+
+  genesis_custom_loop( $args );
 }
 
 function move_featured_image() {
