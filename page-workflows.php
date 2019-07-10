@@ -163,11 +163,13 @@
     </ul>
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h2 class="chunk semi-bold bottom-margin-small">Start building your best campaigns today</h2>
-    <p class="medium bottom-margin-smedium">Create a free account, build your first workflow and see how Vero can help your team.</p>
-    <a href="http://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get Started</a>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php
