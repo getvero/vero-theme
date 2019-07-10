@@ -104,11 +104,13 @@
     <p class="faded large regular">Michael Heerkens, CTO Helloprint</p>
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title chunk semi-bold bottom-margin-small">Start building your best campaigns today</h1>
-    <p class="sub-heading">Create a Vero account and connect to Segment in minutes</p>
-    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php
