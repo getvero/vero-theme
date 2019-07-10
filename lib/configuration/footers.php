@@ -92,8 +92,8 @@
 
   function blog_cta() {
     ?>
-      <section class="resources-cta border-dark-blue bg-white center-text">
-        <div class="resources-cta-wrap">
+      <section class="cta border-dark-blue bg-white center-text">
+        <div class="cta-wrap">
           <?php if( get_field('type_of_cta') == 'product' ) : ?>
             <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 

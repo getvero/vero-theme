@@ -133,7 +133,7 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter" id="pricing-faq">
+<section id="pricing-faq">
   <div class="inner">
     <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
@@ -196,10 +196,13 @@ include 'pages-shared/static-header.php';
     </div>
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title chunk semi-bold">Improve your customer experience today</h1>
-    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Start a free trial</a>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php
