@@ -121,10 +121,13 @@
     <img class="show responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" alt="Built to scale">
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h3 class="cta-title chunk semi-bold bottom-margin-small">Create better customer experiences</h3>
-    <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php

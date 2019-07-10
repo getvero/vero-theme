@@ -235,7 +235,6 @@
       </ul>
       <ul class="button-list unstyled-list">
         <li class="padding-small disabled-button">
-          <!-- <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/64.png" width="36" class="pull-left right-margin-small"> -->
           <p class="small"><span class="semi-bold">Don’t have your own email provider?</span> No problem, let us send your emails on our managed infrastructure. We partner with Mailgun and can support any custom configuration, including dedicated IPs and custom domains. <a href="mailto:support@getvero.com">Email our Support Team</a>.</p>
         </li>
       </ul>
@@ -294,11 +293,13 @@
     </ul>
   </div>
 </section>
-<section id="call-to-action" class="center-text">
-  <div class="inner">
-    <h1 class="cta-title semi-bold bottom-margin-small">Put your data first and craft better customer experiences</h1>
-    <p class="sub-heading">Create a free account, import your data and see how Vero can help your team.</p>
-    <a class="btn btn-success btn-large btn-wide" href="http://app.getvero.com/signup">Get started</a>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php

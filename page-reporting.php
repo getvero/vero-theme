@@ -76,7 +76,7 @@
      <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
-<section class="bg-dark-blue font-white" id="report-webhook-data">
+<section class="bg-dark-blue font-white bottom-margin-large" id="report-webhook-data">
   <div class="inner medium-inner center-text">
     <h1 class="tubs regular regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h1>
     <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-small small-responsive-image top-margin-large" alt="Send a webhook for all of the data that originates from a Vero campaign">
@@ -89,10 +89,15 @@
     </div>
   </div>
 </section>
-<?php
-  include 'pages-shared/footer-cta.php';
-?>
+<section class="cta border-dark-blue bg-white center-text">
+  <div class="cta-wrap">
+    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("ProductPage");
