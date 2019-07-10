@@ -10,7 +10,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   ob_start();
   ?>
   <div id="logo">
-    <?php if( is_blog_archive() || is_single() ) : ?>
+    <?php if( is_blog_archive() || is_single() ): ?>
       <div class="flex items-center">
         <a class="show" href="/">
           <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
@@ -18,9 +18,13 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
         <div class="divider"></div>
 
-        <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
+        <?php if( is_single() ): ?>
+          <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
+        <?php else: ?>
+          <h1 class="logo-resources no-margin"><a class="semi-bold unstyled" href="/resources">Resources</a></h1>
+        <?php endif; ?>
       </div>
-    <?php else : ?>
+    <?php else: ?>
       <a class="show" href="/">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
