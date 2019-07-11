@@ -406,8 +406,6 @@ function add_featured_post_to_category() {
 }
 
 function custom_category_loop() {
-  // global $post;
-
   $cat_id         = get_query_var('cat');
   $tag            = get_term_by('name', 'featured_on_category', 'post_tag');
   $paged          = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
