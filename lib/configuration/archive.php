@@ -406,13 +406,11 @@ function add_featured_post_to_category() {
 }
 
 function custom_category_loop() {
-  global $post;
+  // global $post;
 
-  $cat_id    = get_query_var('cat');
-  $image_id  = get_post_thumbnail_id();
-  $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
-  $tag       = get_term_by('name', 'featured_on_category', 'post_tag');
-  $paged     = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $cat_id         = get_query_var('cat');
+  $tag            = get_term_by('name', 'featured_on_category', 'post_tag');
+  $paged          = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
   $custom_query = new WP_Query(array(
     'posts_per_page'      => 9,
@@ -427,13 +425,14 @@ function custom_category_loop() {
       ?>
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="show entry-aside" href="<?php the_permalink(); ?>">
-          <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
-            <?php if ( $image_alt == ''): ?>
-              <?php the_title(); ?>
-            <?php else: ?>
-              <?php echo $image_alt; ?>
-            <?php endif ?>
-          ">
+          <?php if ( has_post_thumbnail() ): ?>
+            <?php
+              the_post_thumbnail('featured-podcast', array(
+                'class' => 'entry-image',
+                'alt'   => get_the_title()
+              ));
+            ?>
+          <?php endif; ?>
         </a>
 
         <div class="entry-body">
@@ -450,7 +449,7 @@ function custom_category_loop() {
               <p><?php the_field('custom_excerpt') ?></p>
             <?php else: ?>
               <?php the_excerpt(); ?>
-            <?php endif ?>
+            <?php endif; ?>
           </div>
 
           <div class="entry-footer">
@@ -458,7 +457,7 @@ function custom_category_loop() {
               <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
               <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-            <?php endif ?>
+            <?php endif; ?>
           </div>
         </div>
       </article>
