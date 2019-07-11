@@ -82,13 +82,20 @@ function add_featured_post() {
 
           <div class="grid">
             <a class="show entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
-                <?php if ( $image_alt == ''): ?>
-                  <?php the_title(); ?>
-                <?php else: ?>
-                  <?php echo $image_alt; ?>
-                <?php endif ?>
-              ">
+              <?php if ( has_post_thumbnail() ): ?>
+                <?php
+                  if( !empty($image_alt) ) {
+                    $alt_text = $image_alt;
+                  } else {
+                    $alt_text = get_the_title();
+                  }
+
+                  the_post_thumbnail('', array(
+                    'class' => 'entry-image',
+                    'alt'   => $alt_text
+                  ));
+                ?>
+              <?php endif; ?>
             </a>
 
             <div class="entry-body">
@@ -150,13 +157,20 @@ function add_other_posts() {
 
             <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               <a class="show entry-aside" href="<?php the_permalink(); ?>">
-                <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
-                  <?php if ( $image_alt == ''): ?>
-                    <?php the_title(); ?>
-                  <?php else: ?>
-                    <?php echo $image_alt; ?>
-                  <?php endif ?>
-                ">
+                <?php if ( has_post_thumbnail() ): ?>
+                  <?php
+                    if( !empty($image_alt) ) {
+                      $alt_text = $image_alt;
+                    } else {
+                      $alt_text = get_the_title();
+                    }
+
+                    the_post_thumbnail('', array(
+                      'class' => 'entry-image',
+                      'alt'   => $alt_text
+                    ));
+                  ?>
+                <?php endif; ?>
               </a>
 
               <div class="entry-body">
@@ -279,13 +293,20 @@ function add_tutorials_posts() {
 
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="show entry-aside" href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo $featured_image; ?>"  alt="
-                <?php if ( $image_alt == ''): ?>
-                  <?php the_title(); ?>
-                <?php else: ?>
-                  <?php echo $image_alt; ?>
-                <?php endif ?>
-              ">
+              <?php if ( has_post_thumbnail() ): ?>
+                <?php
+                  if( !empty($image_alt) ) {
+                    $alt_text = $image_alt;
+                  } else {
+                    $alt_text = get_the_title();
+                  }
+
+                  the_post_thumbnail('', array(
+                    'class' => 'entry-image',
+                    'alt'   => $alt_text
+                  ));
+                ?>
+              <?php endif; ?>
             </a>
 
             <div class="entry-body">
@@ -361,15 +382,20 @@ function add_featured_post_to_category() {
       <article class="entry featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="grid">
           <div class="entry-aside">
-            <a href="<?php the_permalink(); ?>">
-              <img class="entry-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>" alt="
-                <?php if ( $image_alt == ''): ?>
-                  <?php the_title(); ?>
-                <?php else: ?>
-                  <?php echo $image_alt; ?>
-                <?php endif ?>
-              ">
-            </a>
+            <?php if ( has_post_thumbnail() ): ?>
+              <?php
+                if( !empty($image_alt) ) {
+                  $alt_text = $image_alt;
+                } else {
+                  $alt_text = get_the_title();
+                }
+
+                the_post_thumbnail('', array(
+                  'class' => 'entry-image',
+                  'alt'   => $alt_text
+                ));
+              ?>
+            <?php endif; ?>
           </div>
 
           <div class="entry-body">
@@ -406,6 +432,8 @@ function add_featured_post_to_category() {
 }
 
 function custom_category_loop() {
+  $image_id       = get_post_thumbnail_id();
+  $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
   $cat_id         = get_query_var('cat');
   $tag            = get_term_by('name', 'featured_on_category', 'post_tag');
   $paged          = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
@@ -425,9 +453,15 @@ function custom_category_loop() {
         <a class="show entry-aside" href="<?php the_permalink(); ?>">
           <?php if ( has_post_thumbnail() ): ?>
             <?php
-              the_post_thumbnail('featured-podcast', array(
+              if( !empty($image_alt) ) {
+                $alt_text = $image_alt;
+              } else {
+                $alt_text = get_the_title();
+              }
+
+              the_post_thumbnail('', array(
                 'class' => 'entry-image',
-                'alt'   => get_the_title()
+                'alt'   => $alt_text
               ));
             ?>
           <?php endif; ?>
