@@ -110,6 +110,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_header', 'add_shares_to_post', 1 );
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
   // add_action( 'genesis_entry_footer', 'blog_related_posts');
+  add_filter( 'get_image_tag_class', '__return_empty_string' );
 
   # Remove entry footer on post page
   remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
