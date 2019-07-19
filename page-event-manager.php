@@ -38,7 +38,7 @@
 <section id="event-manager-test-event" class="feature-section double-padding">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large flush-bottom flush-top">
     <div class="left right-text">
-      <img class="pull-right small-responsive-image right-padding-medium md-max-hide" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
+      <img class="fl-r small-responsive-image right-padding-medium md-max-hide" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
     <div class="right">
       <h2 class="tubs regular bottom-margin-medium">Test and debug automated emails</h2>
