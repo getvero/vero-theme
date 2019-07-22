@@ -57,7 +57,7 @@
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
-    <ul class="feature-list left-align unstyled-list grid grid-halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-auto">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/combine.svg" alt="Stitch data together">
         <div class="right">

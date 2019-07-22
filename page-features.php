@@ -244,7 +244,7 @@
 <section class="double-padding" id="features-more">
   <div class="inner large-inner">
     <h2 class="semi-bold center-text bottom-margin-medium">Here's a complete list of our most popular features</h2>
-    <ul class="feature-list unstyled-list grid grid-thirds center-text">
+    <ul class="feature-list unstyled-list grid grid-auto center-text">
       <li class="bottom-margin-medium">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/features/more/newsletter.svg" alt="Scheduled Newsletters">
         <h3 class="semi-bold atomic bottom-margin-micro">Scheduled Newsletters</h3>
