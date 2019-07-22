@@ -35,7 +35,7 @@
 </section>
 <section id="event-manager-test-event" class="feature-section double-padding">
   <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large flush-bottom flush-top">
-    <div class="left right-text">
+    <div class="left">
       <img class="fl-r small-responsive-image right-padding-medium" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
     <div class="right">
@@ -49,7 +49,7 @@
     <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-medium">AND MORE</p>
     <ul class="feature-list left-align unstyled-list grid grid-auto">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-error.svg" alt="See when data stops flowing">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-error.svg" alt="See when data stops flowing">
         <div class="right">
           <h3 class="medium regular">See when data stops flowing</h3>
           <p>See events that are no longer firing and the campaigns they're linked to. Debug and troubleshoot campaigns that are not working with greater clarity.</p>
@@ -63,7 +63,7 @@
         </div>
       </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-tidy.svg" alt="Keep your account clean">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-tidy.svg" alt="Keep your account clean">
         <div class="right">
           <h3 class="medium regular">Keep your account clean</h3>
           <p>Rename events in plain English, record event descriptions and know which events you can remove due to inactivity to keep your Vero account in order.</p>
