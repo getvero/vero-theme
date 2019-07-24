@@ -119,7 +119,7 @@
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
           <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
         <?php } else { ?>
-          <a class="badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <span class="badge"><?php get_primary_category(); ?></span>
         <?php } ?>
       </div>
       <?php
