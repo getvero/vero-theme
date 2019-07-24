@@ -24,9 +24,9 @@
   </div>
 </section>
 <section id="reports-hero-features" class="double-padding">
-  <div class="inner large-inner top-padding-large bottom-padding-large">
+  <div class="inner medium-inner top-padding-large bottom-padding-large">
     <h1 class="chunk regular bottom-margin-medium center-text">View and analyze essential email results</h1>
-    <ul class="feature-list left-align unstyled-list grid grid-halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-auto">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-results.svg" alt="Monitor the overall results for key email campaign metrics">
         <div class="right">

@@ -57,7 +57,7 @@
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
-    <ul class="feature-list left-align unstyled-list grid grid-halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-auto">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/custom-reports.svg" alt="Build custom reports">
         <div class="right">

@@ -29,7 +29,7 @@
     <h2 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h2>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
-    <ul class="feature-list unstyled-list grid grid-thirds sm-left-align">
+    <ul class="feature-list unstyled-list grid grid-auto">
       <li>
         <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/rubix.svg" alt="work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>

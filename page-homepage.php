@@ -69,7 +69,7 @@
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
       <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
-    <div class="grid grid-thirds center-text">
+    <div class="grid grid-auto center-text">
       <div class="block block-empower relative">
         <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
           <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">

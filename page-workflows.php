@@ -37,7 +37,7 @@
 </section>
 <section id="workflows-hero-features" class="double-padding">
   <div class="inner medium-inner">
-    <ul class="feature-list unstyled-list grid grid-halfs">
+    <ul class="feature-list unstyled-list grid grid-auto">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.svg" alt="Flexibility">
 
@@ -129,7 +129,7 @@
     <h2 class="biggie semi-bold bottom-margin-large">We've got the details covered</h2>
   </div>
   <div class="inner large-inner flush-top">
-    <ul class="unstyled-list feature-list grid grid-thirds-small">
+    <ul class="unstyled-list feature-list grid grid-auto">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Conversion Goals">
         <h3 class="micro regular bottom-margin-tiny">Conversion Goals</h3>

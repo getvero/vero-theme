@@ -44,10 +44,10 @@
   </div>
 </section>
 <section id="external-attributes-examples" class="double-padding">
-  <div class="inner center-text">
+  <div class="inner large-inner center-text">
     <h1 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h1>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
-    <ul class="feature-list unstyled-list grid grid-thirds-small sm-center-text top-margin-medium">
+    <ul class="feature-list unstyled-list grid grid-auto top-margin-medium">
       <li class="center-text">
         <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
         <p class="semi-bold medium">Recommendations</p>
@@ -82,7 +82,7 @@
 </section> -->
 <section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
-    <ul class="feature-list left-align unstyled-list grid grid-halfs">
+    <ul class="feature-list left-align unstyled-list grid grid-auto">
       <li class="bottom-margin-medium">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
         <div class="right">

@@ -43,7 +43,7 @@ include 'pages-shared/static-header.php';
 <section class="bg-offwhite" id="pricing-addons">
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs regular">Simple, flexible pricing options</h2>
-    <div class="grid grid-thirds">
+    <div class="grid grid-auto">
       <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
         <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 

@@ -102,7 +102,6 @@
     }
   }
 
-
   function change_post_info($post_meta) {
     if ( !is_blog() ) {
       // return '';
@@ -119,8 +118,12 @@
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
           <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
         <?php } else { ?>
-          <a class="badge" href="<?php echo get_category_link( get_cat_ID( $category ) ); ?>"><?php echo $category; ?></a>
+          <span class="badge"><?php get_primary_category(); ?></span>
         <?php } ?>
+
+        <span class="d-inline-block divider"></span>
+
+        <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
       </div>
       <?php
     } else if ( is_search() ) {
@@ -128,17 +131,13 @@
       <div class="entry-meta flex items-center bottom-margin-small">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
           <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
-
-          <span class="d-inline-block divider"></span>
-
-          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } else { ?>
           <span class="badge"><?php get_primary_category(); ?></a>
-
-          <span class="d-inline-block divider"></span>
-
-          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         <?php } ?>
+
+        <span class="d-inline-block divider"></span>
+
+        <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
       </div>
       <?php
     } else {
