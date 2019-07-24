@@ -69,6 +69,8 @@ function genesischild_theme_setup() {
   add_filter( 'pre_get_posts', 'add_custom_types' );
   // add_filter( 'post_link', 'change_url', 10, 3 );
 
+  add_post_type_support( 'page', 'excerpt' );
+
   # Navbars and footers
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
 
