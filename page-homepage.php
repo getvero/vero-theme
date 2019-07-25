@@ -11,7 +11,7 @@
       <div class="col-main center-text md-left-text bg-white-overlay">
         <h1 class="titan semi-bold bottom-margin-small home-title"><span class="show">Create better</span> customer experiences</h1>
 
-        <p class="larger md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
+        <p class="tubs md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>

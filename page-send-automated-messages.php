@@ -16,12 +16,12 @@
 
       <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
-      <p class="larger bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
+      <p class="tubs bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a> 
+        <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
     </div>
   </div>
