@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
-      <p class="larger bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
+      <p class="tubs bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>

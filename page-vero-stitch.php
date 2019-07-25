@@ -105,7 +105,7 @@
 <section id="vero-integration-quote" class="feature-section">
   <div class="inner small-inner center-text">
     <img src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/quote-vero.jpg" class="quote-image" alt="Chris Hexton, CEO Vero">
-    <p class="larger quote">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class.”</p>
+    <p class="tubs quote">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class.”</p>
     <p class="faded large regular">Chris Hexton, CEO Vero</p>
   </div>
 </section>
