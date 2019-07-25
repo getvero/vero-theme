@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-small">Empower your team</h1>
 
-      <p class="larger bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
+      <p class="tubs bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
