@@ -148,9 +148,9 @@
         <p class="no-margin small">USA</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/beijing@2x.png 2x" alt="Beijing, China">
-        <p class="semi-bold no-bottom-margin">Beijing</p>
-        <p class="no-margin small">China</p>
+        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/hongkong.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/hongkong@2x.png 2x" alt="Hong Kong, Hong Kong">
+        <p class="semi-bold no-bottom-margin">Hong Kong</p>
+        <p class="no-margin small">Hong Kong</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/brisbane@2x.png 2x" alt="Brisbane, Australia">
