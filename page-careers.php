@@ -62,24 +62,6 @@
 </section>
 <section id="careers-profiles" class="double-padding">
   <ul class="" id="careers-profiles-slider">
-    <!-- <li class="linda">
-      <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
-        <p class="italic">
-          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
-        </p>
-        <div class="top-margin-small">
-          <div class="pull-left linda small-profile-image"></div>
-          <h4>Linda Grant</h4>
-          <p class="no-top-margin">Marketing</p>
-        </div>
-        <div class="bx-controls">
-          <div class="bx-control bx-active" data-bx="0"></div>
-          <div class="bx-control" data-bx="1"></div>
-          <div class="bx-control" data-bx="2"></div>
-        </div>
-      </div>
-    </li> -->
     <li class="rory">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
@@ -94,7 +76,6 @@
         <div class="bx-controls">
           <div class="bx-control bx-active" data-bx="0"></div>
           <div class="bx-control" data-bx="1"></div>
-          <!-- <div class="bx-control" data-bx="2"></div> -->
         </div>
       </div>
     </li>
@@ -112,7 +93,6 @@
         <div class="bx-controls">
           <div class="bx-control" data-bx="0"></div>
           <div class="bx-control bx-active" data-bx="1"></div>
-          <!-- <div class="bx-control bx-active" data-bx="2"></div> -->
         </div>
       </div>
     </li>
@@ -168,9 +148,9 @@
         <p class="no-margin small">USA</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/beijing.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/beijing@2x.png 2x" alt="Beijing, China">
-        <p class="semi-bold no-bottom-margin">Beijing</p>
-        <p class="no-margin small">China</p>
+        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/hongkong.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/hongkong@2x.png 2x" alt="Hong Kong, Hong Kong">
+        <p class="semi-bold no-bottom-margin">Hong Kong</p>
+        <p class="no-margin small">Hong Kong</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/brisbane.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/brisbane@2x.png 2x" alt="Brisbane, Australia">
@@ -198,13 +178,13 @@
       <li class="no-margin">
         <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068175" target="_blank">
           Content Writer (Contract)
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
         </a>
       </li>
         <li class="no-margin">
         <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068206" target="_blank">
           Senior Content Manager
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
         </a>
       </li>
     </ul>
