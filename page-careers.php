@@ -178,13 +178,13 @@
       <li class="no-margin">
         <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068175" target="_blank">
           Content Writer (Contract)
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
         </a>
       </li>
         <li class="no-margin">
         <a class="semi-bold vertical-padding-small flex" href="https://getvero.workable.com/jobs/1068206" target="_blank">
           Senior Content Manager
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg">
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
         </a>
       </li>
     </ul>
