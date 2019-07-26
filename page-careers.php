@@ -62,24 +62,6 @@
 </section>
 <section id="careers-profiles" class="double-padding">
   <ul class="" id="careers-profiles-slider">
-    <!-- <li class="linda">
-      <div class="inner">
-        <h3>Do exceptional work with extraordinary people</h3>
-        <p class="italic">
-          <q>Everyday I get the chance work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference, that’s what drives me every day.</q>
-        </p>
-        <div class="top-margin-small">
-          <div class="pull-left linda small-profile-image"></div>
-          <h4>Linda Grant</h4>
-          <p class="no-top-margin">Marketing</p>
-        </div>
-        <div class="bx-controls">
-          <div class="bx-control bx-active" data-bx="0"></div>
-          <div class="bx-control" data-bx="1"></div>
-          <div class="bx-control" data-bx="2"></div>
-        </div>
-      </div>
-    </li> -->
     <li class="rory">
       <div class="inner">
         <h3>Do exceptional work with extraordinary people</h3>
@@ -94,7 +76,6 @@
         <div class="bx-controls">
           <div class="bx-control bx-active" data-bx="0"></div>
           <div class="bx-control" data-bx="1"></div>
-          <!-- <div class="bx-control" data-bx="2"></div> -->
         </div>
       </div>
     </li>
@@ -112,7 +93,6 @@
         <div class="bx-controls">
           <div class="bx-control" data-bx="0"></div>
           <div class="bx-control bx-active" data-bx="1"></div>
-          <!-- <div class="bx-control bx-active" data-bx="2"></div> -->
         </div>
       </div>
     </li>
