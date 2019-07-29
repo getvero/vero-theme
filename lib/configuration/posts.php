@@ -50,23 +50,10 @@ function post_remove_footer() {
   }
 }
 
-function add_contributors() {
-  if( is_singular('release-notes') ){
-    global $post;
-    $contributors = get_post_meta($post->ID, 'contributors', true);
-    ?>
-    <div class='contributor-bio'>
-      <div class='contributor-title'>Who helped out</div>
-      <ul class='contributor-details unstyled-list'>
-      <?php foreach($contributors as $contributor) { ?>
-        <li>
-          <div class="contributor-image"><?php echo get_avatar( get_the_author_meta( 'ID', $contributor ) ); ?></div>
-          <div class='contributor-name'><a href="https://twitter.com/<?php echo get_the_author_meta( 'twitter', $contributor ); ?>" target="_blank">@<?php echo get_the_author_meta( 'twitter', $contributor ); ?></a></div>
-        </li>
-      <?php } ?>
-      </ul>
-    </div>
-  <?php }
+function remove_comments() {
+  if ( !in_category('news-updates') ) {
+    remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
+  }
 }
 
 function add_class_to_small_images( $content ) {
