@@ -51,7 +51,9 @@ function post_remove_footer() {
 }
 
 function remove_comments() {
-  remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
+  if ( !in_category('news-updates') ) {
+    remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
+  }
 }
 
 function add_class_to_small_images( $content ) {
