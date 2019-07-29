@@ -69,6 +69,10 @@ function add_contributors() {
   <?php }
 }
 
+function remove_comments() {
+  remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
+}
+
 function add_class_to_small_images( $content ) {
   global $post;
 
