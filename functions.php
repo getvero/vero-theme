@@ -101,7 +101,6 @@ function genesischild_theme_setup() {
   add_filter( 'genesis_post_info', 'change_post_info' );
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
-  add_filter( 'genesis_after_entry_content', 'add_contributors' );
   add_filter( 'the_content', 'add_class_to_small_images');
   add_filter( 'the_content', 'add_blue_signup_boxes' );
 
