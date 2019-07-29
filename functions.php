@@ -127,6 +127,12 @@ function genesischild_theme_setup() {
   add_filter( 'excerpt_length', 'custom_excerpt_length' );
   add_filter( 'excerpt_more', 'new_excerpt_more' );
 
+  # Remove comments
+  add_action( 'genesis_after_entry', 'rv_remove_comments_genesis', 0 );
+  function rv_remove_comments_genesis() {
+    remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
+  }
+
   # Add categories and tags to pages
   function myplugin_settings() {
     // Add tag metabox to page
