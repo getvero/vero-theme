@@ -348,16 +348,16 @@ function add_tutorials_posts() {
 function add_latest_title() {
   if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h1 class="blog-title">All – Page <?php echo $paged; ?></h1>
+    <h2 class="blog-title">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if ( is_category() ){ ?>
     <div class="archive-description">
-      <h1 class="blog-title"><?php single_cat_title() ?></h1>
+      <h2 class="blog-title"><?php single_cat_title() ?></h2>
     </div>
   <?php }
   else if ( is_search() ) { ?>
     <div class="archive-description">
-      <h1 class="blog-title">Search results for: <?php echo get_search_query(); ?></h1>
+      <h2 class="blog-title">Search results for: <?php echo get_search_query(); ?></h2>
     </div>
   <?php }
 }
