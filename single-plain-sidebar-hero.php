@@ -11,7 +11,7 @@ add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_sidebar_cont
 add_filter( 'body_class', 'metro_add_body_class' );
 function metro_add_body_class( $classes ) {
   if(get_field('custom_sidebar')){
-    $classes[] = 'left-menu plain-template';
+    $classes[] = 'left-menu';
   } else {
     $classes[] = 'plain-template';
   }
