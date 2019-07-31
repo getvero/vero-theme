@@ -222,7 +222,7 @@ function add_news_and_updates_posts() {
           $cat_name = $category->name;
         ?>
 
-        <h2 class="blog-title"><?php echo $cat_name; ?></h2>
+        <h2 class="blog-title"><a class="unstyled" href="/resources/category/news-updates"><?php echo $cat_name; ?></a></h2>
 
         <div class="grid">
           <?php
@@ -277,7 +277,7 @@ function add_tutorials_posts() {
   if ( is_home() && !is_paged() ) {
     ?>
       <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
-        <h2 class="blog-title">Tutorials</h2>
+        <h2 class="blog-title"><a class="unstyled" href="/resources/category/tutorials">Tutorials</a></h2>
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
