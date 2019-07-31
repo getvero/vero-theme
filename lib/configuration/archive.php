@@ -222,7 +222,7 @@ function add_news_and_updates_posts() {
           $cat_name = $category->name;
         ?>
 
-        <h2 class="blog-title"><a class="unstyled" href="/resources/category/tutorials"><?php echo $cat_name; ?></a></h2>
+        <h2 class="blog-title"><a class="unstyled" href="/resources/category/news-updates"><?php echo $cat_name; ?></a></h2>
 
         <div class="grid">
           <?php
