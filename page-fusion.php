@@ -45,7 +45,7 @@
 </section>
 <section id="external-attributes-examples" class="double-padding">
   <div class="inner large-inner center-text">
-    <h1 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h1>
+    <h2 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h2>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     <ul class="feature-list unstyled-list grid grid-auto top-margin-medium">
       <li class="center-text">
