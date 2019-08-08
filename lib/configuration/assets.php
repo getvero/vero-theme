@@ -9,7 +9,7 @@ function remove_cssjs_ver( $src ) {
 // Load various stylesheets based on environment
 function custom_load_custom_style_sheet() {
   // Register styles
-  wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700');
+  wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
   wp_register_style('featherlight-style', '/wp-content/themes/vero/assets/dist/stylesheets/featherlight.min.css', NULL, PARENT_THEME_VERSION );
   wp_register_style( 'highlight-style', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/tomorrow-night-bright.min.css');
 
