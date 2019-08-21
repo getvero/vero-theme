@@ -167,6 +167,11 @@
         <p class="semi-bold no-bottom-margin">Amsterdam</p>
         <p class="no-margin small">Netherlands</p>
       </li>
+      <li>
+        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/la.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/la@2x.png 2x" alt="Amsterdam, Netherlands">
+        <p class="semi-bold no-bottom-margin">Los Angeles</p>
+        <p class="no-margin small">USA</p>
+      </li>
     </ul>
   </div>
 </section>
