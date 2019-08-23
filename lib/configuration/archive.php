@@ -281,7 +281,7 @@ function add_tutorials_posts() {
         <div class="grid">
           <?php
             $custom_query = new WP_Query(array(
-              'posts_per_page' => 4,
+              'posts_per_page' => 3,
               'category_name'  => 'tutorials',
               'post_type'      => array('post', 'tutorials')
             ));
