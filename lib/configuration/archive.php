@@ -282,7 +282,8 @@ function add_tutorials_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 4,
-              'post_type' => 'tutorials',
+              'category_name' => 'tutorials',
+              'post_type' => array('post', 'tutorials')
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();
