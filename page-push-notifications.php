@@ -28,8 +28,8 @@
     <h2 class="chunk">Seamlessly edit and preview messages on iOS and Android</h2>
     <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
 
-    <div>
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle@2x.png 2x"  alt="Seamlessly edit and preview messages on iOS and Android">
+    <div class="d-inline-block bg-dots bg-dots-offset">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle@2x.png 2x"  alt="Seamlessly edit and preview messages on iOS and Android">
     </div>
   </div>
 </section>
@@ -39,7 +39,7 @@
     <h2 class="chunk">Create personalized content</h2>
     <p class="medium">Add Liquid templating language to deliver helpful push messages.</p>
 
-    <div>
+    <div class="d-inline-block bg-dots bg-dots-offset">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content.svg" alt="Create personalized content">
     </div>
   </div>
@@ -50,7 +50,9 @@
     <h2 class="chunk">Push messages at the right time</h2>
     <p class="medium">Schedule or trigger messages based on customer behavior.</p>
 
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x" alt="Push messages at the right time">
+    <div class="d-inline-block bg-dots bg-dots-offset">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x" alt="Push messages at the right time">
+    </div>
   </div>
 </section>
 <section>
@@ -59,7 +61,9 @@
     <h2 class="chunk">Test and optimize</h2>
     <p class="medium">A/B test campaigns to improve customer engagement</p>
 
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing@2x.png 2x" alt="Push messages at the right time">
+    <div class="d-inline-block bg-dots bg-dots-offset">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing@2x.png 2x" alt="Push messages at the right time">
+    </div>
   </div>
 </section>
 <section>
