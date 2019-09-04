@@ -17,7 +17,7 @@
     <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
   </div>
   <div class="inner flush-top smd-flush-bottom full-width">
-    <ul class="bg-dots bg-dots-offset unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
+    <ul class="bg-dots-offset unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
       <li class="no-margin">
         <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-1.svg" alt="Push notification 1">
       </li>
@@ -30,15 +30,13 @@
     </ul>
   </div>
 </section>
-<section class="bg-dark-blue bg-dots">
+<section class="bg-dark-blue">
   <div class="inner large-inner flush-bottom center-text">
-    <div class="bg-dots bg-dots-offset">
-      <picture>
-        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
-        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, 2x" alt="Workflow">
-      </picture>
-    </div>
+    <picture>
+      <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
+      <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, 2x" alt="Workflow">
+    </picture>
   </div>
   <div class="inner top-padding-smedium font-white center-text">
     <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
@@ -55,7 +53,7 @@
       </div>
 
       <div class="col-main flex justify-center">
-        <div class="bg-dots bg-dots-offset md-lg-left-margin-auto">
+        <div class="bg-dots-offset md-lg-left-margin-auto">
           <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle@2x.png 2x"  alt="Seamlessly edit and preview messages on iOS and Android">
         </div>
       </div>
@@ -72,7 +70,7 @@
       </div>
 
       <div class="col-main flex justify-center md-lg-justify-start md-lg-order-0">
-        <div class="d-inline-block bg-dots bg-dots-offset">
+        <div class="d-inline-block bg-dots-offset">
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-mobile.svg">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg">
@@ -93,14 +91,12 @@
       </div>
 
       <div class="col-main flex justify-center">
-        <div class="d-inline-block bg-dots bg-dots-offset md-lg-left-margin-auto">
+        <div class="d-inline-block bg-dots-offset md-lg-left-margin-auto">
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop@2x.png 2x">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Push messages at the right time">
           </picture>
-
-          <!-- <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x" alt="Push messages at the right time"> -->
         </div>
       </div>
     </div>
@@ -116,7 +112,7 @@
       </div>
 
       <div class="col-main flex justify-center md-lg-justify-start md-lg-order-0">
-        <div class="d-inline-block bg-dots bg-dots-offset">
+        <div class="d-inline-block bg-dots-offset">
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-mobile@2x.png 2x">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop@2x.png 2x">
