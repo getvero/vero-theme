@@ -11,12 +11,12 @@
 ?>
 <section id="push-notifications-hero">
   <div class="inner tiny-inner center-text">
-    <span class="show annotation semi-bold uppercase faded bottom-margin-small">Features</span>
+    <span class="show annotation semi-bold uppercase faded bottom-margin-small smd-bottom-margin-medium">Features</span>
     <h1 class="hulk bottom-margin-tiny">Mobile Push Notifications</h1>
     <p>Keep customers coming back with timely, personal, and actionable push notifications.</p>
-    <a class="btn btn-success btn-large bottom-margin-smedium full-width" href="https://app.getvero.com/signup">Get started</a>
+    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
   </div>
-  <div class="inner flush-top smd-flush-bottom full-width overflow-hidden">
+  <div class="inner flush-top smd-flush-bottom full-width">
     <ul class="bg-dots bg-dots-offset unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
       <li class="no-margin">
         <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-1.svg" alt="Push notification 1">
