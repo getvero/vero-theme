@@ -94,7 +94,13 @@
 
       <div class="col-main flex justify-center">
         <div class="d-inline-block bg-dots bg-dots-offset md-lg-left-margin-auto">
-          <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x" alt="Push messages at the right time">
+          <picture>
+            <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x">
+            <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop@2x.png 2x">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Push messages at the right time">
+          </picture>
+
+          <!-- <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x" alt="Push messages at the right time"> -->
         </div>
       </div>
     </div>
