@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="push-notifications-hero">
-  <div class="inner tiny-inner flush-bottom center-text">
+  <div class="inner tiny-inner center-text">
     <span class="show annotation semi-bold uppercase faded bottom-margin-small">Features</span>
     <h1 class="hulk bottom-margin-tiny">Mobile Push Notifications</h1>
     <p>Keep customers coming back with timely, personal, and actionable push notifications.</p>
@@ -31,8 +31,14 @@
   </div>
 </section>
 <section class="bg-dark-blue bg-dots">
-  <div class="inner large-inner flush-bottom center-text" style="outline: 1px solid red;">
-    <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/a-visual-way-to-build-your-automated-campaigns.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/a-visual-way-to-build-your-automated-campaigns@2x.png" alt="A visual way to build your automated campaigns">
+  <div class="inner large-inner flush-bottom center-text">
+    <div class="bg-dots bg-dots-offset">
+      <picture>
+        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
+        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, 2x" alt="Workflow">
+      </picture>
+    </div>
   </div>
   <div class="inner top-padding-smedium font-white center-text">
     <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
