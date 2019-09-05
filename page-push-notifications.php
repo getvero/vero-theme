@@ -9,38 +9,45 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="push-notifications-hero">
-  <div class="inner tiny-inner center-text">
-    <span class="show annotation semi-bold uppercase faded bottom-margin-small smd-bottom-margin-medium">Features</span>
-    <h1 class="hulk bottom-margin-tiny">Mobile Push Notifications</h1>
-    <p>Keep customers coming back with timely, personal, and actionable push notifications.</p>
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
-  </div>
-  <div class="inner flush-top smd-flush-bottom full-width">
-    <ul class="bg-dots-offset unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
-      <li class="no-margin">
-        <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-1.svg" alt="Push notification 1">
-      </li>
-      <li class="no-margin">
-        <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-2.svg" alt="Push notification 2">
-      </li>
-      <li class="no-margin">
-        <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-3.svg" alt="Push notification 3">
-      </li>
-    </ul>
-  </div>
+<section class="push-notifications-hero">
+  <section>
+    <div class="inner tiny-inner flush-bottom center-text">
+      <span class="show annotation semi-bold uppercase faded bottom-margin-small smd-bottom-margin-medium">Features</span>
+      <h1 class="hulk bottom-margin-tiny">Mobile Push Notifications</h1>
+      <p>Keep customers coming back with timely, personal, and actionable push notifications.</p>
+      <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
+    </div>
+  </section>
+  <section class="bg-dots tiny-padding">
+    <div class="inner smd-flush-bottom">
+      <ul class="unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
+          <li class="no-margin">
+            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-1.svg" alt="Push notification 1">
+          </li>
+          <li class="no-margin">
+            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-2.svg" alt="Push notification 2">
+          </li>
+          <li class="no-margin">
+            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-3.svg" alt="Push notification 3">
+          </li>
+        </ul>
+    </div>
+  </section>
 </section>
 <section class="bg-dark-blue">
-  <div class="inner large-inner flush-bottom center-text">
-    <picture>
-      <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
-      <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
-      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, 2x" alt="Workflow">
-    </picture>
-  </div>
-  <div class="inner top-padding-smedium font-white center-text">
-    <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
-    <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
+  <div class="inner large-inner center-text">
+    <div class="bg-dots-offset">
+      <picture class="show bottom-margin-smedium">
+        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
+        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
+      </picture>
+    </div>
+
+    <div class="font-white">
+      <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
+      <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
+    </div>
   </div>
 </section>
 <section>
