@@ -34,20 +34,19 @@
     </div>
   </section>
 </section>
-<section class="bg-dark-blue">
+<section class="bg-offwhite">
   <div class="inner large-inner center-text">
-    <div class="bg-dots-offset">
-      <picture class="show bottom-margin-smedium">
+    <div class="bottom-margin-smedium">
+      <picture class="d-inline-block bg-dots-offset">
         <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
         <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
       </picture>
     </div>
 
-    <div class="font-white">
-      <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
-      <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
-    </div>
+    <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
+    <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
+
   </div>
 </section>
 <section>
