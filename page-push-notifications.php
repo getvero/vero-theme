@@ -37,16 +37,20 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner large-inner center-text">
-    <div class="bottom-margin-smedium">
-      <picture class="d-inline-block bg-dots-offset">
-        <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
-        <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
-      </picture>
-    </div>
+    <div class="flex flex-column">
+      <div class="order-1 smd-order-0 smd-bottom-margin-smedium">
+        <picture class="d-inline-block bg-dots-offset">
+          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
+          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
+          <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
+        </picture>
+      </div>
 
-    <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
-    <p class="large">Easily manage and monitor complex customer journeys in one place.</p>
+      <div class="order-0 smd-order-1 bottom-margin-smedium smd-no-bottom-margin">
+        <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
+        <p class="large">Easily manage and monitor complex customer journeys in one place.</p>
+      </div>
+    </div>
   </div>
 </section>
 <section>
