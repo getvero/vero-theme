@@ -12,13 +12,14 @@
 <section class="push-notifications-hero">
   <section>
     <div class="inner tiny-inner flush-bottom center-text">
-      <span class="show annotation semi-bold uppercase faded bottom-margin-small smd-bottom-margin-medium">Features</span>
+      <span class="flex items-center justify-center feature-label bottom-margin-small smd-bottom-margin-medium"> Features
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Push Notifications</span>
       <h1 class="hulk bottom-margin-tiny">Mobile Push Notifications</h1>
-      <p>Keep customers coming back with timely, personal, and actionable push notifications.</p>
+      <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
       <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
-  <section class="bg-dots tiny-padding">
+  <section class="smd-bg-dots tiny-padding">
     <div class="inner smd-flush-bottom">
       <ul class="unstyled-list flex flex-column smd-flex-row justify-center items-center push-list">
           <li class="no-margin">
@@ -40,22 +41,21 @@
       <picture class="d-inline-block bg-dots-offset">
         <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-mobile@2x.png 2x">
         <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop@2x.png 2x">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/workflow-desktop.png" alt="Workflow">
       </picture>
     </div>
 
     <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">One workflow for email and push messages</h2>
-    <p class="medium">Easily manage and monitor complex customer journeys in one place.</p>
-
+    <p class="large">Easily manage and monitor complex customer journeys in one place.</p>
   </div>
 </section>
 <section>
-  <div class="inner flush-bottom">
+  <div class="inner">
     <div class="push-notifications-media center-text md-lg-left-text">
       <div class="col-aside">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.svg" alt="Seamlessly edit and preview messages on iOS and Android">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Seamlessly edit and preview messages on iOS and Android</h2>
-        <p>Easily manage and monitor complex customer journeys in one place.</p>
+        <p class="large">Toggle between platform views to quickly edit and view messages.</p>
       </div>
 
       <div class="col-main flex justify-center">
@@ -67,12 +67,12 @@
   </div>
 </section>
 <section>
-  <div class="inner flush-bottom">
+  <div class="inner">
     <div class="push-notifications-media center-text md-lg-left-text">
       <div class="col-aside md-lg-order-1">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/personalize.svg" alt="Create personalized content">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Create personalized content</h2>
-        <p>Add Liquid templating language to deliver helpful push messages.</p>
+        <p class="large">Add Liquid templating language to deliver helpful push messages.</p>
       </div>
 
       <div class="col-main flex justify-center md-lg-justify-start md-lg-order-0">
@@ -80,7 +80,7 @@
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-mobile.svg">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Create personalized content">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Create personalized content">
           </picture>
         </div>
       </div>
@@ -88,12 +88,12 @@
   </div>
 </section>
 <section>
-  <div class="inner flush-bottom">
+  <div class="inner">
     <div class="push-notifications-media center-text md-lg-left-text">
       <div class="col-aside">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.svg" alt="Push messages at the right time">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Push messages at the right time</h2>
-        <p>Schedule or trigger messages based on customer behavior.</p>
+        <p class="large">Schedule or trigger messages based on customer behavior.</p>
       </div>
 
       <div class="col-main flex justify-center">
@@ -101,7 +101,7 @@
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push@2x.png 2x">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-desktop@2x.png 2x">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Push messages at the right time">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/create-personalized-content-desktop.svg" alt="Push messages at the right time">
           </picture>
         </div>
       </div>
@@ -114,7 +114,7 @@
       <div class="col-aside md-lg-order-1">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing.svg" alt="Test and optimize">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Test and optimize</h2>
-        <p>A/B test campaigns to improve customer engagement.</p>
+        <p class="large">A/B test campaigns to improve customer engagement.</p>
       </div>
 
       <div class="col-main flex justify-center md-lg-justify-start md-lg-order-0">
@@ -122,7 +122,7 @@
           <picture>
             <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-mobile@2x.png 2x">
             <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop.png 1x, /wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop@2x.png 2x">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop.png" alt="Test and optimize">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing-desktop.png" alt="Test and optimize">
           </picture>
         </div>
       </div>
