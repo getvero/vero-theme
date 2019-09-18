@@ -31,7 +31,7 @@
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
+          <img class="full-width" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo Vero">
         </div>
       </div>
 
