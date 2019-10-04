@@ -120,10 +120,6 @@
         <?php } else { ?>
           <span class="badge"><?php get_primary_category(); ?></span>
         <?php } ?>
-
-        <span class="d-inline-block divider"></span>
-
-        <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
       </div>
       <?php
     } else if ( is_search() ) {
@@ -134,10 +130,6 @@
         <?php } else { ?>
           <span class="badge"><?php get_primary_category(); ?></a>
         <?php } ?>
-
-        <span class="d-inline-block divider"></span>
-
-        <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
       </div>
       <?php
     } else {
