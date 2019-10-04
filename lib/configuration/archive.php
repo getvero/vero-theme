@@ -304,10 +304,6 @@ function add_tutorials_posts() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-small">
-                  <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-                </div>
-
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
