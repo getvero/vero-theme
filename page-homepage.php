@@ -64,6 +64,16 @@
     </div>
   </div>
 </section>
+<section>
+  <div class="inner xlarge-inner">
+    <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
+    <p class="medium">Digital businesses never sleep.</p>
+
+    <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+
+    <p class="medium">Scale personalized messaging using our visual workflow tool.</p>
+  </div>
+</section>
 <section class="home-solutions double-padding bg-dots-strip bg-left">
   <div class="inner xlarge-inner">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
