@@ -83,7 +83,7 @@
 </section>
 <section class="home-process bg-offwhite double-padding">
   <div class="inner xlarge-inner center-text">
-    <div class="bottom-margin-smedium">
+    <div class="bottom-margin-medium">
       <h2 class="chunk semi-bold bottom-margin-micro">Go from idea to live faster</h2>
       <p class="large">Enable the full team to create, edit and test message ideas.</p>
     </div>
