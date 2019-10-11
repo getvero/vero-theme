@@ -9,9 +9,9 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="titan semi-bold bottom-margin-small home-title"><span class="show">Create better</span> customer experiences</h1>
+        <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer experiences</h1>
 
-        <p class="tubs md-bottom-margin-smedium">The messaging platform that helps you drive customer engagement and grow your business.</p>
+        <p class="large md-bottom-margin-smedium">Get from idea to live, faster. Ensure every customer has a personal experience.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -64,20 +64,74 @@
     </div>
   </div>
 </section>
-<section>
-  <div class="inner xlarge-inner">
-    <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
-    <p class="medium">Digital businesses never sleep.</p>
+<section class="home-media double-padding">
+  <div class="inner">
+    <div class="home-media grid grid-auto center-text md-left-text">
+      <div class="col-main">
+        <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
+        <p class="medium">Digital businesses never sleep.</p>
+        <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+        <p class="medium">Scale personalized messaging using our visual workflow tool.</p>
+      </div>
+      <div class="col-aside">
+        <div class="bg-dots-offset">
+          <img class="responsive-image bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/automation.svg" alt="Automation scales when you can’t">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="home-process bg-offwhite double-padding">
+  <div class="inner xlarge-inner center-text">
+    <div class="bottom-margin-smedium">
+      <h2 class="chunk semi-bold bottom-margin-micro">Go from idea to live faster</h2>
+      <p class="large">Enable the full team to create, edit and test message ideas.</p>
+    </div>
 
-    <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+    <ul class="unstyled-list process-list grid center-text">
+      <li class="no-margin">
+        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/centralize.svg" alt="Centralize your data">
+        <h3>Centralize your data.</h3>
+      </li>
 
-    <p class="medium">Scale personalized messaging using our visual workflow tool.</p>
+      <li class="no-margin">
+        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/segments.svg" alt="Create segments using a visual editor">
+        <h3>Create segments using a visual editor.</h3>
+      </li>
+
+      <li class="no-margin">
+        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/edit.svg" alt="Empower your team with Vero">
+        <h3>Create or edit email content.</h3>
+      </li>
+
+      <li class="no-margin">
+        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/tests.svg" alt="Empower your team with Vero">
+        <h3>Run A/B tests.</h3>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="double-padding border-bottom-light">
+  <div class="inner">
+    <div class="home-media grid grid-auto md-items-center center-text md-left-text">
+      <div class="col-main">
+        <h2 class="chunk semi-bold">Reach your customer</h2>
+        <p class="medium">Meet your customers where they are. Customers use all the channels.</p>
+
+        <p class="medium">Automate or send one-off messages via email, push, SMS (coming soon) and other channels.</p>
+      </div>
+      <div class="col-aside">
+        <div class="bg-dots-offset">
+          <img class="responsive-image bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/reach.svg" alt="Empower your team with Vero">
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <section class="home-solutions double-padding bg-dots-strip bg-left">
   <div class="inner xlarge-inner">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
-      <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
+      <h2 class="chunk semi-bold no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-auto center-text">
       <div class="block block-empower relative">
