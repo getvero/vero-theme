@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100">
+  <defs>
+    <rect id="segments-b" width="50" height="20" x="120" y="58" rx="4"/>
+    <filter id="segments-a" width="140%" height="200%" x="-20%" y="-40%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="segments-d" width="44" height="26" x="0" y="0" rx="4"/>
+    <filter id="segments-c" width="145.5%" height="176.9%" x="-22.7%" y="-30.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="segments-e" width="40" height="22" x="2" y="2" rx="2"/>
+    <filter id="segments-f" width="102.5%" height="104.5%" x="-1.2%" y="-2.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <rect id="segments-h" width="44" height="44" x="0" y="0" rx="4"/>
+    <filter id="segments-g" width="145.5%" height="145.5%" x="-22.7%" y="-18.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="segments-i" width="40" height="40" x="2" y="2" rx="2"/>
+    <filter id="segments-j" width="102.5%" height="102.5%" x="-1.2%" y="-1.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <rect id="segments-l" width="50" height="20" x="133" y="68" rx="4"/>
+    <filter id="segments-k" width="140%" height="200%" x="-20%" y="-40%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <path id="segments-n" d="M27,8 L27,35 L51.1545486,47.0779441 C46.7216501,55.9260017 37.5701542,62 27,62 C12.0883118,62 0,49.9116882 0,35 C0,20.0883118 12.0883118,8 27,8 L27,8 Z"/>
+    <filter id="segments-m" width="139.1%" height="137%" x="-19.5%" y="-14.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <path id="segments-p" d="M32,0 C46.9116882,0 59,12.0883118 59,27 C59,31.341534 57.975296,35.4437356 56.1545486,39.0779441 L32,27 Z"/>
+    <filter id="segments-o" width="174.1%" height="151.2%" x="-37%" y="-20.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#segments-a)" xlink:href="#segments-b"/>
+    <rect width="49" height="19" x="120.5" y="58.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    <g transform="translate(104 18)">
+      <use fill="#000" filter="url(#segments-c)" xlink:href="#segments-d"/>
+      <rect width="43" height="25" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#segments-e"/>
+      <use fill="#000" filter="url(#segments-f)" xlink:href="#segments-e"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(5 5)"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(23 5)"/>
+    </g>
+    <g transform="translate(17 13)">
+      <use fill="#000" filter="url(#segments-g)" xlink:href="#segments-h"/>
+      <rect width="43" height="43" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#segments-i"/>
+      <use fill="#000" filter="url(#segments-j)" xlink:href="#segments-i"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(5 5)"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(23 5)"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(23 23)"/>
+      <path fill="#1B2E5B" fill-opacity=".196" d="M12.4715971,11.0680364 C10.7026944,10.6593698 9.05588719,10.3014571 9.85362115,8.79581747 C12.2807201,4.21347913 10.4970081,1.76296296 7.93366243,1.76296296 C5.31947112,1.76296296 3.5801873,4.30806566 6.01370371,8.79647661 C6.83513274,10.3105202 5.1266196,10.668433 3.39572778,11.0686955 C1.96546713,11.3989244 1.78100761,12.0735538 1.76307176,13.2155131 C1.75533795,13.705913 2.16095145,14.1037037 2.65081407,14.1037037 L13.2153589,14.1037037 C13.7057152,14.1037037 14.1113287,13.7052538 14.1035949,13.2155131 C14.0863173,12.0728947 13.9018577,11.3982653 12.4715971,11.0680364 L12.4715971,11.0680364 Z" transform="translate(5 23)"/>
+    </g>
+    <use fill="#000" filter="url(#segments-k)" xlink:href="#segments-l"/>
+    <rect width="49" height="19" x="133.5" y="68.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    <g transform="translate(56 21)">
+      <use fill="#000" filter="url(#segments-m)" xlink:href="#segments-n"/>
+      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M26.5,8.50462256 C12.0951869,8.7711735 0.5,20.5314862 0.5,35 C0.5,49.6355459 12.3644541,61.5 27,61.5 C36.967225,61.5 45.9410924,55.9482749 50.4791776,47.299263 L26.5,35.3090093 L26.5,8.50462256 Z"/>
+      <use fill="#000" filter="url(#segments-o)" xlink:href="#segments-p"/>
+      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M32.5,0.504622564 L32.5,26.6909907 L55.9270832,38.4051819 C57.6124171,34.8762238 58.5,31.0020496 58.5,27 C58.5,12.5314862 46.9048131,0.771173498 32.5,0.504622564 Z"/>
+    </g>
+  </g>
+</svg>
