@@ -101,7 +101,7 @@
 
       <li class="no-margin">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/edit.svg" alt="Empower your team with Vero">
-        <h3>Create &amp; edit</h3>
+        <h3>Create and edit</h3>
       </li>
 
       <li class="no-margin">

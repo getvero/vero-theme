@@ -1,93 +1,153 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100">
   <defs>
-    <path id="centralize-b" d="M39.8994374,26.3328029 L71.1543228,40.1061423 C71.786058,40.384534 72.0724994,41.1223377 71.7941077,41.7540729 C71.668219,42.0397433 71.4399933,42.2679691 71.1543228,42.3938577 L39.8994374,56.1671971 C37.972547,57.0163352 35.777453,57.0163352 33.8505626,56.1671971 L2.59567716,42.3938577 C1.96394198,42.115466 1.67750055,41.3776623 1.95589233,40.7459271 C2.08178099,40.4602567 2.31000674,40.2320309 2.59567716,40.1061423 L33.8505626,26.3328029 C35.777453,25.4836648 37.972547,25.4836648 39.8994374,26.3328029 Z"/>
-    <filter id="centralize-a" width="131.6%" height="178.8%" x="-15.8%" y="-30.2%" filterUnits="objectBoundingBox">
+    <rect id="centralize-b" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-a" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-d" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-c" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-e" width="14" height="14" x="2" y="2" rx="2"/>
+    <filter id="centralize-f" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <rect id="centralize-h" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-g" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-j" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-i" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-l" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-k" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-n" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-m" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-o" width="14" height="14" x="2" y="2" rx="2"/>
+    <filter id="centralize-p" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <circle id="centralize-q" cx="57" cy="38" r="24"/>
+    <filter id="centralize-r" width="156.2%" height="156.2%" x="-28.1%" y="-21.9%" filterUnits="objectBoundingBox">
       <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <path id="centralize-d" d="M39.8994374,13.8328029 L71.1543228,27.6061423 C71.786058,27.884534 72.0724994,28.6223377 71.7941077,29.2540729 C71.668219,29.5397433 71.4399933,29.7679691 71.1543228,29.8938577 L39.8994374,43.6671971 C37.972547,44.5163352 35.777453,44.5163352 33.8505626,43.6671971 L2.59567716,29.8938577 C1.96394198,29.615466 1.67750055,28.8776623 1.95589233,28.2459271 C2.08178099,27.9602567 2.31000674,27.7320309 2.59567716,27.6061423 L33.8505626,13.8328029 C35.777453,12.9836648 37.972547,12.9836648 39.8994374,13.8328029 Z"/>
-    <filter id="centralize-c" width="131.6%" height="178.8%" x="-15.8%" y="-30.2%" filterUnits="objectBoundingBox">
-      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <path id="centralize-f" d="M39.8994374,1.33280292 L71.1543228,15.1061423 C71.786058,15.384534 72.0724994,16.1223377 71.7941077,16.7540729 C71.668219,17.0397433 71.4399933,17.2679691 71.1543228,17.3938577 L39.8994374,31.1671971 C37.972547,32.0163352 35.777453,32.0163352 33.8505626,31.1671971 L2.59567716,17.3938577 C1.96394198,17.115466 1.67750055,16.3776623 1.95589233,15.7459271 C2.08178099,15.4602567 2.31000674,15.2320309 2.59567716,15.1061423 L33.8505626,1.33280292 C35.777453,0.48366478 37.972547,0.48366478 39.8994374,1.33280292 Z"/>
-    <filter id="centralize-e" width="131.6%" height="178.8%" x="-15.8%" y="-30.2%" filterUnits="objectBoundingBox">
-      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <circle id="centralize-h" cx="125.5" cy="72.5" r="9.5"/>
-    <filter id="centralize-g" width="205.3%" height="205.3%" x="-52.6%" y="-42.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <circle id="centralize-j" cx="130.5" cy="67.5" r="9.5"/>
-    <filter id="centralize-i" width="205.3%" height="205.3%" x="-52.6%" y="-42.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <path id="centralize-l" d="M13.9142136,59.4142136 L23.5857864,69.0857864 C24.366835,69.866835 24.366835,71.133165 23.5857864,71.9142136 L13.9142136,81.5857864 C13.133165,82.366835 11.866835,82.366835 11.0857864,81.5857864 L1.41421356,71.9142136 C0.633164979,71.133165 0.633164979,69.866835 1.41421356,69.0857864 L11.0857864,59.4142136 C11.866835,58.633165 13.133165,58.633165 13.9142136,59.4142136 Z"/>
-    <filter id="centralize-k" width="173.4%" height="173.4%" x="-36.7%" y="-28.7%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <rect id="centralize-n" width="19" height="19" x="0" y="6" rx="2"/>
-    <filter id="centralize-m" width="205.3%" height="205.3%" x="-52.6%" y="-42.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <rect id="centralize-p" width="19" height="19" x="5" y="1" rx="2"/>
-    <filter id="centralize-o" width="205.3%" height="205.3%" x="-52.6%" y="-42.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
-    </filter>
-    <path id="centralize-r" d="M121.414214,3.41421356 L136.585786,18.5857864 C137.366835,19.366835 137.366835,20.633165 136.585786,21.4142136 C136.210714,21.7892863 135.702006,22 135.171573,22 L120,22 C118.895431,22 118,21.1045695 118,20 L118,4.82842712 C118,3.72385763 118.895431,2.82842712 120,2.82842712 C120.530433,2.82842712 121.039141,3.03914081 121.414214,3.41421356 Z"/>
-    <filter id="centralize-q" width="178.1%" height="178.1%" x="-45.5%" y="-23.5%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(29 10)">
-    <path stroke="#E1E1E1" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M20,11 L36.6777778,11 C40.2676287,11 43.1777778,13.9101491 43.1777778,17.5 C43.1777778,21.0898509 46.0879269,24 49.6777778,24 L54.3262153,24 L54.3262153,24"/>
-    <path stroke="#E1E1E1" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M87,11 L103.677778,11 C107.267629,11 110.177778,13.9101491 110.177778,17.5 C110.177778,21.0898509 113.087927,24 116.677778,24 L121.326215,24 L121.326215,24" transform="matrix(-1 0 0 1 208.326 0)"/>
-    <path stroke="#E1E1E1" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M87,57 L103.677778,57 C107.267629,57 110.177778,59.9101491 110.177778,63.5 C110.177778,67.0898509 113.087927,70 116.677778,70 L121.326215,70 L121.326215,70" transform="rotate(180 104.163 63.5)"/>
-    <path stroke="#E1E1E1" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M20,57 L36.6777778,57 C40.2676287,57 43.1777778,59.9101491 43.1777778,63.5 C43.1777778,67.0898509 46.0879269,70 49.6777778,70 L54.3262153,70 L54.3262153,70" transform="matrix(1 0 0 -1 0 127)"/>
-    <g transform="translate(35 11)">
+  <g fill="none" fill-rule="evenodd" transform="translate(43 12)">
+    <g transform="matrix(-1 0 0 1 116 0)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L46.3262153,9.4 C47.4307848,9.4 48.3262153,10.2954305 48.3262153,11.4 L48.3262153,22.4 L48.3262153,22.4"/>
       <use fill="#000" filter="url(#centralize-a)" xlink:href="#centralize-b"/>
-      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M39.6978082,26.790346 C37.8993772,25.9978171 35.8506228,25.9978171 34.0521918,26.790346 L2.79730632,40.5636854 C2.62590407,40.6392186 2.48896862,40.776154 2.41343542,40.9475563 C2.24640036,41.3265974 2.41826521,41.7692796 2.79730632,41.9363146 L34.0521918,55.709654 C35.8506228,56.5021829 37.8993772,56.5021829 39.6978082,55.709654 L70.9526937,41.9363146 C71.1240959,41.8607814 71.2610314,41.723846 71.3365646,41.5524437 C71.5035996,41.1734026 71.3317348,40.7307204 70.9526937,40.5636854 L39.6978082,26.790346 Z"/>
-      <use fill="#000" filter="url(#centralize-c)" xlink:href="#centralize-d"/>
-      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M39.6978082,14.290346 C37.8993772,13.4978171 35.8506228,13.4978171 34.0521918,14.290346 L2.79730632,28.0636854 C2.62590407,28.1392186 2.48896862,28.276154 2.41343542,28.4475563 C2.24640036,28.8265974 2.41826521,29.2692796 2.79730632,29.4363146 L34.0521918,43.209654 C35.8506228,44.0021829 37.8993772,44.0021829 39.6978082,43.209654 L70.9526937,29.4363146 C71.1240959,29.3607814 71.2610314,29.223846 71.3365646,29.0524437 C71.5035996,28.6734026 71.3317348,28.2307204 70.9526937,28.0636854 L39.6978082,14.290346 Z"/>
-      <use fill="#000" filter="url(#centralize-e)" xlink:href="#centralize-f"/>
-      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M39.6978082,1.79034601 C37.8993772,0.997817083 35.8506228,0.997817083 34.0521918,1.79034601 L2.79730632,15.5636854 C2.62590407,15.6392186 2.48896862,15.776154 2.41343542,15.9475563 C2.24640036,16.3265974 2.41826521,16.7692796 2.79730632,16.9363146 L34.0521918,30.709654 C35.8506228,31.5021829 37.8993772,31.5021829 39.6978082,30.709654 L70.9526937,16.9363146 C71.1240959,16.8607814 71.2610314,16.723846 71.3365646,16.5524437 C71.5035996,16.1734026 71.3317348,15.7307204 70.9526937,15.5636854 L39.6978082,1.79034601 Z"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <path fill="#1B2E5B" fill-opacity=".2" d="M9.35369781,8.30102728 C8.02702082,7.99452738 6.79191539,7.72609279 7.39021586,6.5968631 C9.21054011,3.16010935 7.87275605,1.32222222 5.95024682,1.32222222 C3.98960334,1.32222222 2.68514048,3.23104924 4.51027778,6.59735746 C5.12634956,7.73289016 3.8449647,8.00132476 2.54679583,8.30152164 C1.47410035,8.54919334 1.33575571,9.05516535 1.32230382,9.91163484 C1.31650346,10.2794347 1.62071358,10.5777778 1.98811055,10.5777778 L9.91151921,10.5777778 C10.2792864,10.5777778 10.5834965,10.2789404 10.5776962,9.91163484 C10.5647379,9.054671 10.4263933,8.54869898 9.35369781,8.30102728 L9.35369781,8.30102728 Z" transform="translate(3 3)"/>
     </g>
-    <use fill="#000" filter="url(#centralize-g)" xlink:href="#centralize-h"/>
-    <circle cx="125.5" cy="72.5" r="9" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square"/>
+    <g transform="rotate(180 58 37.5)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L44.3262153,9.4 C46.5353543,9.4 48.3262153,11.190861 48.3262153,13.4 L48.3262153,22.4 L48.3262153,22.4"/>
+      <use fill="#000" filter="url(#centralize-c)" xlink:href="#centralize-d"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#centralize-e"/>
+        <use fill="#000" filter="url(#centralize-f)" xlink:href="#centralize-e"/>
+      </g>
+    </g>
+    <g transform="rotate(180 58 23.5)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L43.3262153,9.4"/>
+      <use fill="#000" filter="url(#centralize-g)" xlink:href="#centralize-h"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    </g>
+    <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L44.3262153,9.4 C45.4307848,9.4 46.3262153,10.2954305 46.3262153,11.4 L46.3262153,22.4 L46.3262153,22.4"/>
     <use fill="#000" filter="url(#centralize-i)" xlink:href="#centralize-j"/>
-    <circle cx="130.5" cy="67.5" r="9" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square"/>
-    <use fill="#000" filter="url(#centralize-k)" xlink:href="#centralize-l"/>
-    <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M13.5606602,59.767767 C12.9748737,59.1819805 12.0251263,59.1819805 11.4393398,59.767767 L1.76776695,69.4393398 C1.18198052,70.0251263 1.18198052,70.9748737 1.76776695,71.5606602 L11.4393398,81.232233 C12.0251263,81.8180195 12.9748737,81.8180195 13.5606602,81.232233 L23.232233,71.5606602 C23.8180195,70.9748737 23.8180195,70.0251263 23.232233,69.4393398 L13.5606602,59.767767 Z"/>
-    <use fill="#000" filter="url(#centralize-m)" xlink:href="#centralize-n"/>
-    <rect width="18" height="18" x=".5" y="6.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
-    <use fill="#000" filter="url(#centralize-o)" xlink:href="#centralize-p"/>
-    <rect width="18" height="18" x="5.5" y="1.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
-    <use fill="#000" filter="url(#centralize-q)" xlink:href="#centralize-r"/>
-    <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M121.06066,3.76776695 C120.779356,3.48646239 120.397825,3.32842712 120,3.32842712 C119.171573,3.32842712 118.5,4 118.5,4.82842712 L118.5,20 C118.5,20.8284271 119.171573,21.5 120,21.5 L135.171573,21.5 C135.569398,21.5 135.950928,21.3419647 136.232233,21.0606602 C136.818019,20.4748737 136.818019,19.5251263 136.232233,18.9393398 L121.06066,3.76776695 Z"/>
+    <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    <path fill="#1B2E5B" fill-opacity=".2" d="M9.35369781,8.30102728 C8.02702082,7.99452738 6.79191539,7.72609279 7.39021586,6.5968631 C9.21054011,3.16010935 7.87275605,1.32222222 5.95024682,1.32222222 C3.98960334,1.32222222 2.68514048,3.23104924 4.51027778,6.59735746 C5.12634956,7.73289016 3.8449647,8.00132476 2.54679583,8.30152164 C1.47410035,8.54919334 1.33575571,9.05516535 1.32230382,9.91163484 C1.31650346,10.2794347 1.62071358,10.5777778 1.98811055,10.5777778 L9.91151921,10.5777778 C10.2792864,10.5777778 10.5834965,10.2789404 10.5776962,9.91163484 C10.5647379,9.054671 10.4263933,8.54869898 9.35369781,8.30102728 L9.35369781,8.30102728 Z" transform="translate(3 3)"/>
+    <g transform="matrix(1 0 0 -1 0 75)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L42.3262153,9.4 C44.5353543,9.4 46.3262153,11.190861 46.3262153,13.4 L46.3262153,22.4 L46.3262153,22.4"/>
+      <use fill="#000" filter="url(#centralize-k)" xlink:href="#centralize-l"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    </g>
+    <g transform="matrix(1 0 0 -1 0 47)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L43.3262153,9.4"/>
+      <use fill="#000" filter="url(#centralize-m)" xlink:href="#centralize-n"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#centralize-o"/>
+        <use fill="#000" filter="url(#centralize-p)" xlink:href="#centralize-o"/>
+      </g>
+    </g>
+    <mask id="centralize-s" fill="#fff">
+      <use xlink:href="#centralize-q"/>
+    </mask>
+    <use fill="#000" filter="url(#centralize-r)" xlink:href="#centralize-q"/>
+    <circle cx="57" cy="38" r="23" fill="#1B2E5B" stroke="#49587C" stroke-linejoin="square" stroke-width="2"/>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 42)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="9" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+        <rect width="4" height="2" x="16" rx="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 47)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 27)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <rect width="4" height="2" x="8" rx="1"/>
+        <circle cx="15" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(51 37)">
+        <circle cx="1" cy="1" r="1"/>
+        <rect width="4" height="2" x="4" rx="1"/>
+        <circle cx="11" cy="1" r="1"/>
+        <circle cx="15" cy="1" r="1"/>
+        <circle cx="19" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 32)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="9" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+        <circle cx="17" cy="1" r="1"/>
+        <circle cx="21" cy="1" r="1"/>
+      </g>
+    </g>
   </g>
 </svg>
