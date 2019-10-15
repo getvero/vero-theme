@@ -9,7 +9,7 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer experiences</h1>
+        <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer messages</h1>
 
         <p class="large md-bottom-margin-smedium">Get from idea to live, faster. Ensure every customer has a personal experience.</p>
 
@@ -91,22 +91,22 @@
     <ul class="unstyled-list process-list grid center-text">
       <li class="no-margin">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/centralize.svg" alt="Centralize your data">
-        <h3>Centralize your data.</h3>
+        <h3>Centralize your data</h3>
       </li>
 
       <li class="no-margin">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/segments.svg" alt="Create segments using a visual editor">
-        <h3>Create segments using a visual editor.</h3>
+        <h3>Segment your customers</h3>
       </li>
 
       <li class="no-margin">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/edit.svg" alt="Empower your team with Vero">
-        <h3>Create or edit email content.</h3>
+        <h3>Create &amp; edit</h3>
       </li>
 
       <li class="no-margin">
         <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/tests.svg" alt="Empower your team with Vero">
-        <h3>Run A/B tests.</h3>
+        <h3>Run A/B tests</h3>
       </li>
     </ul>
   </div>
@@ -128,7 +128,7 @@
     </div>
   </div>
 </section>
-<section class="home-solutions double-padding bg-dots-strip bg-left">
+<section class="home-solutions double-padding border-bottom-light">
   <div class="inner xlarge-inner">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
       <h2 class="chunk semi-bold no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
@@ -187,7 +187,7 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
 
-        <p class="medium quote bottom-margin-smedium">"Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+        <p class="medium quote bottom-margin-smedium">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
         <div class="flex">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
@@ -203,7 +203,7 @@
         <img class="self-center"
         src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
 
-        <p class="medium quote bottom-margin-smedium">"Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+        <p class="medium quote bottom-margin-smedium">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
         <div class="flex">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
@@ -219,7 +219,7 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/drawboard-logo-vero.svg" height="70" alt="Drawboard logo">
 
-        <p class="medium quote bottom-margin-smedium">"Heck! Vero's support is exceptional!</p>
+        <p class="medium quote bottom-margin-smedium">&ldquo;Heck! Vero's support is exceptional!</p>
 
         <div class="flex">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
