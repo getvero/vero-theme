@@ -24,23 +24,23 @@
     <p class="medium">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
   </div>
 </section>
-<section lass="double-padding" id="careers-why">
+<section class="double-padding" id="careers-why">
   <div class="inner small-inner flush-bottom">
     <h2 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h2>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
-    <ul class="feature-list unstyled-list grid grid-auto">
-      <li>
+    <ul class="unstyled-list grid grid-thirds">
+      <li class="no-margin">
         <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/rubix.svg" alt="work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>
         <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
-      <li>
+      <li class="no-margin">
         <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/meteor.svg" alt="Make an impact">
         <h3 class="atomic semi-bold">Make an impact</h3>
         <p>We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
       </li>
-      <li>
+      <li class="no-margin">
         <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/grow.svg" alt="Opportunities to grow">
         <h3 class="atomic semi-bold">Opportunities to grow</h3>
         <p>We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
