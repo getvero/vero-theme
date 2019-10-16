@@ -5,13 +5,13 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="home-hero overflow-hidden border-bottom-light">
+<section class="home-hero double-padding overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
         <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer messages</h1>
 
-        <p class="large md-bottom-margin-smedium">Get from idea to live, faster. Ensure every customer has a personal experience.</p>
+        <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-large">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -64,14 +64,18 @@
     </div>
   </div>
 </section>
-<section class="home-media double-padding border-bottom-light">
-  <div class="inner">
-    <div class="home-media center-text lg-left-text">
+<section class="double-padding border-bottom-light">
+  <div class="inner xlarge-inner">
+    <div class="home-media md-items-center center-text lg-left-text">
       <div class="col-main">
-        <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
-        <p class="medium">Digital businesses never sleep.</p>
-        <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
-        <p class="medium">Scale personalized messaging using our visual workflow tool.</p>
+        <div class="border-bottom-light bw2 bottom-margin-smedium bottom-padding-smedium">
+          <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
+          <p class="medium">Digital businesses never sleep.</p>
+          <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+        </div>
+        <!-- <p class="medium">Scale personalized messaging using our visual workflow tool.</p> -->
+
+        <p>We use customer data to personalize messages.</p>
       </div>
       <div class="col-aside flex">
         <div class="bg-dots-offset md-lg-left-margin-auto">
@@ -112,7 +116,7 @@
   </div>
 </section>
 <section class="double-padding border-bottom-light">
-  <div class="inner">
+  <div class="inner xlarge-inner">
     <div class="home-media md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Reach your customer</h2>
@@ -187,9 +191,9 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="70" alt="Unsplash logo Vero">
 
-        <p class="medium quote bottom-margin-smedium">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+        <p class="medium quote bottom-margin-smedium">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
-        <div class="flex">
+        <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
 
           <div>
@@ -203,9 +207,9 @@
         <img class="self-center"
         src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="70" alt="Helloprint logo Vero">
 
-        <p class="medium quote bottom-margin-smedium">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+        <p class="medium quote bottom-margin-smedium">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
-        <div class="flex">
+        <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
 
 
@@ -219,9 +223,9 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/drawboard-logo-vero.svg" height="70" alt="Drawboard logo">
 
-        <p class="medium quote bottom-margin-smedium">&ldquo;Heck! Vero's support is exceptional!</p>
+        <p class="medium quote bottom-margin-smedium">Heck! Vero's support is exceptional!</p>
 
-        <div class="flex">
+        <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
 
           <div>
@@ -239,7 +243,7 @@
       <div class="col-aside">
         <div class="donut bottom-margin-tiny">
           <div>
-            <span class="hulk semi-bold no-margin font-brand-success">95%</span>
+            <span class="hulk semi-bold no-margin font-brand-success">97%</span>
             <span class="atomic show horizontal-margin-medium semi-bold faded uppercase">Great</span>
           </div>
           <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
