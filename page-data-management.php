@@ -121,6 +121,5 @@
 </section>
 <?php
   no_content_genesis_footer();
-  // add_page_tracking_code("PricingPage");
   include("demo-enquiry-form.php");
 ?>
