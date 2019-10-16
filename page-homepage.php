@@ -7,7 +7,7 @@
 ?>
 <section class="home-hero double-padding overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column md-flex-row">
+    <div class="flex flex-column md-lg-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
         <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer messages</h1>
 
@@ -55,9 +55,9 @@
         </ul>
       </div>
       <div class="col-aside relative flex justify-center">
-        <picture>
-          <source media="(max-width: 768px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
-          <source media="(min-width: 769px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
+        <picture class="bg-dots-offset">
+          <source media="(max-width: 959px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero-mobile@2x.png 2x">
+          <source media="(min-width: 960px)" srcset="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png 1x, /wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero@2x.png 2x">
           <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/create-better-customer-experiences-workflows-vero.png" alt="Create better customer experiences with workflows in Vero">
         </picture>
       </div>
