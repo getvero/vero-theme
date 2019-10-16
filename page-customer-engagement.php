@@ -59,7 +59,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Streamline your workflows</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-1">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/workflows-2.svg" alt="Create and manage automated Workflows with Vero">
         </div>
       </div>
@@ -75,7 +75,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">See your customer data</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/event-manager.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
@@ -100,7 +100,7 @@
         </a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-3">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/personalized-emails-push-notifications-vero.svg" alt="Send personalized emails and push notifications with Vero">
         </div>
       </div>
@@ -127,7 +127,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns">Robust A/B testing</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-4">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/optimize-for-growth-vero.svg" alt="Optimize for growth with Vero">
         </div>
       </div>

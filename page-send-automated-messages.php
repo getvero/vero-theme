@@ -39,7 +39,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive Workflows</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-1">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/workflows-2.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
@@ -61,7 +61,7 @@
         <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-3">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/right-message-time-channel-vero.svg" alt="Right message right time with channel with Vero">
         </div>
       </div>
@@ -83,7 +83,7 @@
         <p class="medium bottom-margin-smedium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-4">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/trigger-custom-interactions-vero.svg" alt="Trigger custom interactions anywhere with Vero">
         </div>
       </div>

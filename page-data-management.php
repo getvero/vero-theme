@@ -61,7 +61,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-1">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/integrate-vero-with-your-software.svg" alt="Seamlessly integrate Vero with your software">
         </div>
       </div>
@@ -82,7 +82,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
@@ -100,7 +100,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/create-iterate-faster-with-workflows-vero.svg" alt="Create and iterate faster with Workflows in Vero">
         </div>
       </div>
