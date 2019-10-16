@@ -68,14 +68,10 @@
   <div class="inner xlarge-inner">
     <div class="home-media md-items-center center-text lg-left-text">
       <div class="col-main">
-        <div class="border-bottom-light bw2 bottom-margin-smedium bottom-padding-smedium">
-          <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
-          <p class="medium">Digital businesses never sleep.</p>
-          <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
-        </div>
-        <!-- <p class="medium">Scale personalized messaging using our visual workflow tool.</p> -->
-
-        <p>We use customer data to personalize messages.</p>
+        <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
+        <p class="medium">Digital businesses never sleep.</p>
+        <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+        <p class="medium">Use customer data to personalize messages.</p>
       </div>
       <div class="col-aside flex">
         <div class="bg-dots-offset md-lg-left-margin-auto">
