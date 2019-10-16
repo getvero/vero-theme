@@ -101,7 +101,7 @@
 <section class="double-padding bg-blue-light" id="careers-perks">
   <div class="inner blue-box">
     <h2 class="chunk regular md-center">Not just work life, real life</h2>
-    <ul class="feature-list unstyled-list grid sm-left-align">
+    <ul class="feature-list unstyled-list grid">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/careers/remote.svg" alt="Remote-first">
         <p class="semi-bold">Remote-First</p>
