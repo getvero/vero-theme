@@ -68,7 +68,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bottom-border-light">
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
@@ -92,8 +92,16 @@
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
-  include 'pages-shared/footer-cta.php';
 ?>
+<section class="bg-gray-lighter">
+  <div class="inner tiny-inner center-text">
+    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
   // add_page_tracking_code("PricingPage");

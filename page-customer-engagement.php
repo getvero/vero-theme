@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="job-hero">
+<section class="border-bottom-light" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
@@ -26,7 +26,7 @@
     </div>
   </div>
 </section>
-<section class="small-padding bg-dots-strip" id="job-quote">
+<section class="bg-offwhite small-padding job-quote border-bottom-light">
   <div class="inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
@@ -36,11 +36,11 @@
       </div>
 
       <div class="col-main">
-        <blockquote class="quotation-marks">
+        <blockquote class="quote-mark">
           <p class="large quote">Vero enables us to use real-time data to personalise our emails with relevant content to drive more revenue.</p>
 
-          <span class="show medium regular">Julien Catani</span>
-          <span class="show medium">Head of CRM at Helloprint</span>
+          <span class="show semi-bold">Julien Catani</span>
+          <span class="show">Head of CRM at Helloprint</span>
         </blockquote>
       </div>
     </div>
@@ -114,7 +114,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bottom-border-light">
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
@@ -136,8 +136,16 @@
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
-  include 'pages-shared/footer-cta.php';
 ?>
+<section class="bg-gray-lighter">
+  <div class="inner tiny-inner center-text">
+    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
   // add_page_tracking_code("PricingPage");
