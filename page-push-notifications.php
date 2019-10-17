@@ -55,7 +55,7 @@
 </section>
 <section>
   <div class="inner">
-    <div class="w-sidebar w-sidebar--default center-text md-lg-left-text">
+    <div class="w-sidebar w-sidebar--feature-default center-text md-lg-left-text">
       <div class="col-main">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.svg" alt="Seamlessly edit and preview messages on iOS and Android">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Seamlessly edit and preview messages on iOS and Android</h2>
@@ -72,7 +72,7 @@
 </section>
 <section>
   <div class="inner">
-    <div class="w-sidebar w-sidebar--default center-text md-left-text">
+    <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main md-lg-order-1">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/personalize.svg" alt="Create personalized content">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Create personalized content</h2>
@@ -93,7 +93,7 @@
 </section>
 <section>
   <div class="inner">
-    <div class="w-sidebar w-sidebar--default center-text md-left-text">
+    <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.svg" alt="Push messages at the right time">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Push messages at the right time</h2>
@@ -114,7 +114,7 @@
 </section>
 <section>
   <div class="inner">
-    <div class="w-sidebar w-sidebar--default center-text md-left-text">
+    <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main md-lg-order-1">
         <img class="align-middle bottom-margin-tiny smd-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing.svg" alt="Test and optimize">
         <h2 class="chunk bottom-margin-micro smd-bottom-margin-tiny">Test and optimize</h2>
