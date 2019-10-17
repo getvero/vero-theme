@@ -66,16 +66,16 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="home-media md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--xlarge md-items-center center-text md-lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
         <p class="medium">Digital businesses never sleep.</p>
         <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
         <p class="medium">Use customer data to personalize messages.</p>
       </div>
-      <div class="col-aside flex">
+      <div class="col-aside flex justify-center">
         <div class="bg-dots-offset md-lg-left-margin-auto">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/home/automation.svg" alt="Automation scales when you can’t">
+          <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/home/automation.svg" alt="Automation scales when you can’t">
         </div>
       </div>
     </div>
@@ -113,14 +113,13 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="home-media md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--xlarge md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Reach your customer</h2>
         <p class="medium">Meet your customers where they are. Customers use all the channels.</p>
-
         <p class="medium">Automate or send one-off messages via email, push, SMS (coming soon) and other channels.</p>
       </div>
-      <div class="col-aside flex">
+      <div class="col-aside flex justify-center">
         <div class="bg-dots-offset md-lg-left-margin-auto">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/home/reach.svg" alt="Empower your team with Vero">
         </div>
