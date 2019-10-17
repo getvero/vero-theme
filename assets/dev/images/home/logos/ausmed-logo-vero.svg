@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60">
   <defs>
     <polygon id="ausmed-logo-vero-a" points=".015 .173 45.833 .173 45.833 17.735 .015 17.735"/>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(4 21)">
+  <g fill="none" fill-rule="evenodd" transform="translate(13 21)">
     <g transform="translate(0 .25)">
       <mask id="ausmed-logo-vero-b" fill="#fff">
         <use xlink:href="#ausmed-logo-vero-a"/>
