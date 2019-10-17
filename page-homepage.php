@@ -70,7 +70,7 @@
       <div class="col-main">
         <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
         <p class="medium">Digital businesses never sleep.</p>
-        <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve go tone customer, or 10 million.</p>
+        <p class="medium">Our scheduling and Automation system ensures every customer has a personal experience. Whether you’ve got one customer, or 10 million.</p>
         <p class="medium">Use customer data to personalize messages.</p>
       </div>
       <div class="col-aside flex justify-center">
