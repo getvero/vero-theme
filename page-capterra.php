@@ -187,7 +187,7 @@
 </section>
 <section class="bg-offwhite capterra-quote">
   <div class="inner xlarge-inner">
-    <blockquote class="quotation-marks bottom-margin-smedium">
+    <blockquote class="quote-mark bottom-margin-smedium">
       <p class="quote large">We push all of our behavioural events to Vero… allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
 
