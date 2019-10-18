@@ -39,7 +39,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive Workflows</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-1">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/workflows-2.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
@@ -61,15 +61,15 @@
         <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-3">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/right-message-time-channel-vero.svg" alt="Right message right time with channel with Vero">
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner xlarge-inner bottom-padding-medium">
+<section class="double-padding bottom-border-light">
+  <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Webhook</span> -->
@@ -83,7 +83,7 @@
         <p class="medium bottom-margin-smedium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-4">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/trigger-custom-interactions-vero.svg" alt="Trigger custom interactions anywhere with Vero">
         </div>
       </div>
@@ -92,10 +92,17 @@
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
-  include 'pages-shared/footer-cta.php';
 ?>
+<section class="bg-gray-lighter">
+  <div class="inner tiny-inner center-text">
+    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
-  add_page_tracking_code("PricingPage");
   include("demo-enquiry-form.php");
 ?>

@@ -14,13 +14,13 @@
     ?>
     <footer class="footer" <?php if ( is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
       <div class="inner xlarge-inner">
-        <div class="flex flex-wrap">
-          <div class="col-aside">
+        <div class="w-sidebar">
+          <div class="col-main">
             <a href="https://www.getvero.com">
               <img src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
             </a>
           </div>
-          <div class="col-main">
+          <div class="col-aside">
             <ul class="unstyled-list footer-list semi-bold">
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Product</h4>

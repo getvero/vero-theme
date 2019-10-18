@@ -26,26 +26,26 @@
 <section id="reports-hero-features" class="double-padding">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
     <h2 class="chunk regular bottom-margin-medium center-text">View and analyze essential email results</h2>
-    <ul class="feature-list left-align unstyled-list grid grid-auto">
-      <li>
+    <ul class="unstyled-list grid grid-halfs">
+      <li class="no-margin flex flex-column md-lg-flex-row items-start">
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-results.svg" alt="Monitor the overall results for key email campaign metrics">
         <div class="right">
           <p class="medium regular no-top-margin">Monitor the overall results for key email campaign metrics</p>
         </div>
       </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-day.svg" alt="Chart and export day-by-day metrics for all your campaigns">
+      <li class="no-margin flex flex-column md-lg-flex-row items-start">
+        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-day.svg" alt="Chart and export day-by-day metrics for all your campaigns">
         <div class="right">
           <p class="medium regular no-top-margin">Chart and export day-by-day metrics for all your campaigns</p>
         </div>
       </li>
-      <li>
+      <li class="no-margin flex flex-column md-lg-flex-row items-start">
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-series.svg" alt="Understand how each email within a series drives different results">
         <div class="right">
           <p class="medium regular no-top-margin">Understand how each email within a series drives different results</p>
         </div>
       </li>
-      <li>
+      <li class="no-margin flex flex-column md-lg-flex-row items-start">
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-review.svg" alt="Review results from one campaign to the next, ensuring consistency and stability">
         <div class="right">
           <p class="medium regular no-top-margin">Review results from one campaign to the next, ensuring consistency and stability</p>

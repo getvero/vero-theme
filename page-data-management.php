@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="job-hero">
+<section class="border-bottom-light" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
@@ -26,21 +26,21 @@
     </div>
   </div>
 </section>
-<section class="small-padding bg-dots-strip" id="job-quote">
-  <div class="inner xlarge-inner">
+<section class="bg-offwhite small-padding job-quote border-bottom-light">
+  <div class="inner large-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
         <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
-          <img class="full-image" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
+          <img class="full-width" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
         </div>
       </div>
 
       <div class="col-main">
-        <blockquote class="quotation-marks">
-          <p class="large quote">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
+        <blockquote class="">
+          <p class="large quote quote-mark">We push all of our behavioural events to Vero… that moves email engagement out of our apps and into the hands of our non-developer teammates, allowing them to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
 
-          <span class="show medium regular unstyled">Luke Chesser</span>
-          <span class="show medium">Founder at Unsplash</span>
+          <span class="show semi-bold">Luke Chesser</span>
+          <span class="show">Founder at Unsplash</span>
         </blockquote>
       </div>
     </div>
@@ -61,7 +61,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-1">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/integrate-vero-with-your-software.svg" alt="Seamlessly integrate Vero with your software">
         </div>
       </div>
@@ -82,15 +82,15 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/visibility-and-clarity-vero-customer-data.svg" alt="Visibility and clarity with Vero customer data">
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner xlarge-inner bottom-padding-medium">
+<section class="double-padding bottom-border-light">
+  <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <h2 class="chunk regular bottom-margin-smedium">Create and iterate, faster</h2>
@@ -100,7 +100,7 @@
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="image-dots image-dots-2">
+        <div class="bg-dots-offset">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/jobs/create-iterate-faster-with-workflows-vero.svg" alt="Create and iterate faster with Workflows in Vero">
         </div>
       </div>
@@ -109,10 +109,17 @@
 </section>
 <?php
   include 'pages-shared/jobs-navigation.php';
-  include 'pages-shared/footer-cta.php';
 ?>
+<section class="bg-gray-lighter">
+  <div class="inner tiny-inner center-text">
+    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+
+    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+
+    <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
 <?php
   no_content_genesis_footer();
-  add_page_tracking_code("PricingPage");
   include("demo-enquiry-form.php");
 ?>
