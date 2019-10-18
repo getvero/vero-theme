@@ -7,13 +7,13 @@
 ?>
 <section class="home-hero double-padding overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column lg-flex-row">
-      <div class="col-main center-text lg-left-text bg-white-overlay">
-        <h1 class="hulk semi-bold bottom-margin-small home-title">Scale personalized customer messages</h1>
+    <div class="flex flex-column md-lg-flex-row">
+      <div class="col-main center-text md-lg-left-text bg-white-overlay">
+        <h1 class="hulk semi-bold home-title">Scale personalized customer messages</h1>
 
         <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
 
-        <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
+        <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center md-lg-justify-start items-center">
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
