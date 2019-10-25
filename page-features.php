@@ -55,7 +55,7 @@
       <div class="center-text padding-small">OR</div>
 
       <pre class="vero-code active-feature" id="feature-collection-js" data-src="/wp-content/themes/vero/snippets/features-collection-js.js"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-php"></pre>
+      <pre class="vero-code inactive-feature" id="feature-collection-php" data-src="/wp-content/themes/vero/snippets/features-collection-php.php"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-ruby" data-src="/wp-content/themes/vero/snippets/features-collection-ruby.rb"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-node" data-src="/wp-content/themes/vero/snippets/features-collection-node.js"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-python" data-src="/wp-content/themes/vero/snippets/features-collection-python.py"></pre>
