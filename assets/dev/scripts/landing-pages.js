@@ -17,7 +17,7 @@ jQuery(window).scroll(function() {
 jQuery(document).ready(function() {
   // Load hljs
   if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
-    hljs.initHighlightingOnLoad();
+    // hljs.initHighlightingOnLoad();
   }
 
   // Feature image switcher
