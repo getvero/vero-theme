@@ -51,7 +51,7 @@
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
-    <ul class="feature-list grid grid-auto left-align unstyled-list">
+    <ul class="feature-list grid grid-halfs left-align unstyled-list">
       <li>
         <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sources.svg" alt="Access to 200+ data sources">
           <div class="right">

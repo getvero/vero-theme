@@ -37,7 +37,7 @@
 </section>
 <section id="workflows-hero-features" class="double-padding">
   <div class="inner medium-inner">
-    <ul class="feature-list unstyled-list grid grid-auto">
+    <ul class="feature-list unstyled-list grid grid-halfs">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/small-waves.svg" alt="Flexibility">
 
