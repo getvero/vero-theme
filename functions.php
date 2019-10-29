@@ -74,6 +74,12 @@ function genesischild_theme_setup() {
   # Navbars and footers
   register_nav_menu('terms-and-policies' , __( 'Terms and Policies'));
 
+  # Remove Block Library styles
+  add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+  function wps_deregister_styles() {
+    wp_dequeue_style( 'wp-block-library' );
+  }
+
   # Remove genesis footer
   remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
   remove_action( 'genesis_footer', 'genesis_do_footer' );
