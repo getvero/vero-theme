@@ -17,6 +17,10 @@
           <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+
+          <script src="//fast.wistia.com/embed/medias/m8np1y7tnc.jsonp" async></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <span class="wistia_embed wistia_async_m8np1y7tnc popover=true popoverContent=link">Watch a video</span>
         </div>
 
         <h2 class="atomic regular faded bottom-margin-small">Trusted by leading brands</h2>
