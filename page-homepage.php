@@ -14,7 +14,7 @@
         <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide xs-show xs-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
@@ -25,7 +25,7 @@
 
         <h2 class="atomic regular faded bottom-margin-small">Trusted by leading brands</h2>
 
-        <ul class="unstyled-list logo-list grid  smd-justify-center">
+        <ul class="unstyled-list logo-list grid  xs-justify-center">
           <li class="logo-list-item no-margin">
             <a class="show" href="https://unsplash.com">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">

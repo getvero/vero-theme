@@ -102,7 +102,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
 
-        <a class="show annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
+        <a class="show annotation underline-link xs-hide top-margin-smedium" href="/">Back to Vero</a>
       </div>
     </div>
 
@@ -112,7 +112,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-	  <div class="hide smd-show"><?php get_search_form(); ?></div>
+	  <div class="hide xs-show"><?php get_search_form(); ?></div>
   <?
 	$search = ob_get_clean();
 
