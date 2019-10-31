@@ -111,7 +111,7 @@
             </div>
 
             <form class="js-blog-subscribe-form-2 blog-subscribe-form-2" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column md-lg-flex-row justify-center items-stretch bottom-margin-smedium">
+              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-smedium">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
                 <input name="user[consent_product_updates]" type="hidden" value="true">
