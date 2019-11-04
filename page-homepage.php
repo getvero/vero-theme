@@ -7,21 +7,31 @@
 ?>
 <section class="home-hero double-padding overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column md-lg-flex-row">
-      <div class="col-main center-text md-lg-left-text bg-white-overlay">
+    <div class="flex flex-column lg-flex-row">
+      <div class="col-main center-text lg-left-text bg-white-overlay">
         <h1 class="hulk semi-bold home-title">Scale personalized customer messages</h1>
 
         <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
 
-        <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center md-lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide smd-show smd-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
+          <a class="btn btn-success btn-large hide sm-show xs-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+        </div>
+
+        <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
+        <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="medium regular bottom-margin-large wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
+          <div class="flex items-center pointer dim">
+            <img class="align-middle right-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+
+            <span class="font-brand-gray-dark">Watch a video</span>
+          </div>
         </div>
 
         <h2 class="atomic regular faded bottom-margin-small">Trusted by leading brands</h2>
 
-        <ul class="unstyled-list logo-list grid  smd-justify-center">
+        <ul class="unstyled-list logo-list grid  xs-justify-center">
           <li class="logo-list-item no-margin">
             <a class="show" href="https://unsplash.com">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
@@ -66,7 +76,7 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="w-sidebar w-sidebar--feature-xlarge md-items-center center-text md-lg-left-text">
+    <div class="w-sidebar w-sidebar--feature-xlarge md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
         <p class="medium">Digital businesses never sleep.</p>
@@ -74,7 +84,7 @@
         <p class="medium">Use customer data to personalize messages.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="bg-dots-offset md-lg-left-margin-auto">
+        <div class="bg-dots-offset lg-left-margin-auto">
           <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/home/automation.svg" alt="Automation scales when you can’t">
         </div>
       </div>
@@ -120,7 +130,7 @@
         <p class="medium">Automate or send one-off messages via email, push, SMS (coming soon) and other channels.</p>
       </div>
       <div class="col-aside flex justify-center">
-        <div class="bg-dots-offset md-lg-left-margin-auto">
+        <div class="bg-dots-offset lg-left-margin-auto">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/home/reach.svg" alt="Empower your team with Vero">
         </div>
       </div>

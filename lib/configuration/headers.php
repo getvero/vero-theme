@@ -51,7 +51,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </ul>
     <?php endif; ?>
 
-    <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>md-lg-hide<? } ?>">
+    <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>lg-hide<? } ?>">
       <li>
         <a class="unstyled" href="/resources/category/news-updates">News &amp; Updates</a>
       </li>
@@ -66,7 +66,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </li>
     </ul>
 
-    <div class="flex items-center md-lg-left-margin-auto">
+    <div class="flex items-center lg-left-margin-auto">
       <label class="search-toggle search-toggle-open" for="search-form">
         <svg class="show" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
       </label>
@@ -76,8 +76,8 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
     <div class="js-resources-menu-footer resources-menu-footer">
       <div class="resources-menu-footer-wrap">
-        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close hide md-lg-show"></button>
-        <div class="grid md-lg-items-center">
+        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close hide lg-show"></button>
+        <div class="grid lg-items-center">
           <div class="col-main">
             <div class="js-enquire-menu enquire-menu">
               <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
@@ -89,7 +89,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
           <div class="col-aside">
             <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column md-lg-flex-row justify-center items-stretch">
+              <div class="flex flex-column lg-flex-row justify-center items-stretch">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
                 <input name="user[consent_product_updates]" type="hidden" value="true">
@@ -102,17 +102,17 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
 
-        <a class="show annotation underline-link smd-hide top-margin-smedium" href="/">Back to Vero</a>
+        <a class="show annotation underline-link xs-hide top-margin-smedium" href="/">Back to Vero</a>
       </div>
     </div>
 
-    <button class="js-open-subscribe-form btn btn-success hide md-lg-show">Subscribe to updates</button>
+    <button class="js-open-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
   </div>
   <?php $resources_menu = ob_get_clean();
 
   ob_start();
   ?>
-	  <div class="hide smd-show"><?php get_search_form(); ?></div>
+	  <div class="hide xs-show"><?php get_search_form(); ?></div>
   <?
 	$search = ob_get_clean();
 
@@ -123,7 +123,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   ob_start();
   ?>
-  <label class="search-toggle search-toggle-open left-margin-auto md-lg-hide" for="search-form">
+  <label class="search-toggle search-toggle-open left-margin-auto lg-hide" for="search-form">
     <svg class="show" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M13.079 14.49A8.001 8.001 0 0 1 2.515 2.516 8 8 0 0 1 14.49 13.079l.045.042 4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1.015 1.015 0 0 1-.042-.044zm-.665-2.076A6 6 0 1 0 3.93 3.93a6 6 0 0 0 8.485 8.485z" fill="#9D9D9D" fill-rule="nonzero"/></svg>
   </label>
   <div class="js-category-toggle category-toggle">
