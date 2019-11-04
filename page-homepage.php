@@ -16,16 +16,16 @@
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
           <a class="btn btn-success btn-large hide sm-show xs-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
-        </div>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link xs-right-margin-small" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
-        <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
-        <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-        <div class="medium regular bottom-margin-large wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
-          <div class="flex items-center pointer dim">
-            <img class="align-middle right-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <div class="regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
+            <div class="flex items-center pointer dim">
+              <img class="align-middle right-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
 
-            <span class="font-brand-gray-dark">Watch a video</span>
+              <span class="font-brand-gray-dark">Watch a video</span>
+            </div>
           </div>
         </div>
 
