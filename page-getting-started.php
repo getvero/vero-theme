@@ -32,8 +32,37 @@
 </section>
 <section class="jump-link" id="vero-basics">
   <div class="bg-offwhite">
-    <div class="inner large-inner center-text">
+    <div class="inner xlarge-inner center-text">
       <h2 class="chunk semi-bold">Vero Basics</h2>
+
+      <ul class="unstyled-list grid grid-halfs">
+        <li>
+          <script src="//fast.wistia.com/embed/medias/47fshhahqk.jsonp" async></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+              <div class="wistia_embed wistia_async_47fshhahqk seo=false videoFoam=true popover=true popoverAnimateThumbnail=true" style="height:100%;width:100%">&nbsp;</div>
+            </div>
+          </div>
+
+          <!-- <div class="wistia_embed wistia_async_47fshhahqk popover=true popoverAnimateThumbnail=true">&nbsp;</div> -->
+
+          <h3 class="atomic">Creating a workflow</h3>
+          https://getvero.wistia.com/medias/47fshhahqk
+        </li>
+        <li>
+        <script src="//fast.wistia.com/embed/medias/wmvd7zhzp1.jsonp" async></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+              <div class="wistia_embed wistia_async_wmvd7zhzp1 seo=false videoFoam=true popover=true popoverAnimateThumbnail=true" style="height:100%;width:100%">&nbsp;</div>
+            </div>
+          </div>
+
+          <h3 class="atomic">Creating a newsletter</h3>
+          https://getvero.wistia.com/medias/wmvd7zhzp1
+        </li>
+      </ul>
     </div>
   </div>
 </section>
