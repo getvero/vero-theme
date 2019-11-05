@@ -18,17 +18,31 @@
     <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
   </div>
 </section>
-<section class="bg-offwhite">
-  <div class="inner large-inner center-text">
-    <h2 class="chunk semi-bold">Vero Basics</h2>
+<section class="no-padding">
+  <div class="inner xlarge-inner">
+    <ul class="unstyled-list flex items-center justify-center">
+      <li>
+        <a href="#vero-basics">Vero Basics</a>
+      </li>
+      <li>
+        <a href="#tutorials">Tutorials</a>
+      </li>
+    </ul>
   </div>
 </section>
-<section>
+<section class="jump-link" id="vero-basics">
+  <div class="bg-offwhite">
+    <div class="inner large-inner center-text">
+      <h2 class="chunk semi-bold">Vero Basics</h2>
+    </div>
+  </div>
+</section>
+<section class="jump-link" id="tutorials">
   <div class="inner xlarge-inner">
-    <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
-      <h2 class="chunk semi-bold center-text">Tutorials</h2>
+    <div class="">
+      <h2 class="chunk semi-bold bottom-margin-small center-text">Tutorials</h2>
 
-      <div class="grid">
+      <div class="grid grid-thirds">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
@@ -42,7 +56,7 @@
             $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           ?>
 
-        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
           <a class="show entry-aside" href="<?php the_permalink(); ?>">
             <?php if ( has_post_thumbnail() ): ?>
               <?php
