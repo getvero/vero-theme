@@ -144,7 +144,7 @@
     <div class="right primary">
       <img class="feature-image inactive-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles@2x.png 2x" alt="Customer Account">
       <img class="feature-image active-feature top-margin-small bottom-margin-small image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation@2x.png 2x" alt="Customer Profiles Segmentation">
-      <ul class="feature-list button-list pill-buttons unstyled-list buttom-margin-small">
+      <ul class="feature-list button-list pill--buttons unstyled-list buttom-margin-small">
         <li class="active bottom-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
             <p class="semi-bold annotation no-margin">Segmentation</p>
@@ -166,7 +166,7 @@
     <div class="left primary">
       <img class="no-margin top-margin-small bottom-margin-small feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign@2x.png 2x" alt="Automation">
       <img class="no-margin top-margin-small  bottom-margin-small image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/automation/content@2x.png 2x" alt="Manage Content">
-      <ul class="feature-list button-list pill-buttons unstyled-list buttom-margin-small">
+      <ul class="feature-list button-list pill--buttons unstyled-list buttom-margin-small">
         <li class="active top-margin-small">
           <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
             <p class="semi-bold annotation no-margin">Automation</p>
