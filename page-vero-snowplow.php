@@ -48,8 +48,8 @@
         <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and loads your data into your data warehouse (such as Amazon Redshift or Snowflake).</p>
       </div>
       <div class="right">
-        <a class="pill pill--primary-light" href="https://snowplowanalytics.com/products/" target="_blank">Website</a>
-        <a class="pill pill--primary-light" href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a>
+        <a class="pill pill--primary md-bottom-margin-tiny" href="https://snowplowanalytics.com/products/" target="_blank">Website</a>
+        <a class="pill pill--primary" href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a>
       </div>
     </div>
   </div>
