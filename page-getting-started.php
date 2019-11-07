@@ -17,7 +17,7 @@
     <p class="large bottom-margin-medium">Learn how to send amazing marketing campaigns from the Vero team and get up to speed.</p>
 
     <ul class="unstyled-list flex items-center justify-center subnav">
-      <li class="subnav-item right-margin-smedium">
+      <li class="subnav-item right-margin-small">
         <a class="flex flex-column justify-center border-radius-2 border-light padding-small unstyled" href="#vero-basics">
           <img class="bottom-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/vero-basics.svg" alt="Centralize your data">
 
@@ -41,7 +41,7 @@
 
       <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 
-      <ul class="unstyled-list grid grid-halfs">
+      <ul class="unstyled-list grid grid-thirds">
         <li class="video-item">
           <script src="//fast.wistia.com/embed/medias/47fshhahqk.jsonp" async></script>
           <div class="video-ratio border-light bottom-margin-small">
@@ -62,7 +62,7 @@
             <div class="video-embed wistia_embed wistia_async_wmvd7zhzp1 seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
-          <h3 class="micro">Creating a newsletter</h3>
+          <h3 class="micro bottom-margin-micro">Creating a newsletter</h3>
           <!-- https://getvero.wistia.com/medias/wmvd7zhzp1 -->
 
           <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
@@ -73,7 +73,7 @@
             <div class="video-embed wistia_embed wistia_async_dndpvc0epi seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
-          <h3 class="micro">Creating a segment</h3>
+          <h3 class="micro bottom-margin-micro">Creating a segment</h3>
           <!-- https://getvero.wistia.com/medias/dndpvc0epi -->
 
           <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
@@ -84,7 +84,7 @@
             <div class="video-embed wistia_embed wistia_async_rvd9pidq6p seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
-          <h3 class="micro">Creating an event</h3>
+          <h3 class="micro bottom-margin-micro">Creating an event</h3>
           <!-- https://getvero.wistia.com/medias/rvd9pidq6p -->
 
           <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
