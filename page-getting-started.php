@@ -100,7 +100,6 @@
     <div class="grid grid-thirds">
       <?php
         $custom_query = new WP_Query(array(
-          'posts_per_page' => 3,
           'category_name'  => 'tutorials',
           'post_type'      => array('post', 'tutorials')
         ));
