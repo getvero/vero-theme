@@ -41,14 +41,14 @@
         <ul class="unstyled-list bottom-margin-smedium md-bottom-margin-xlarge">
           <li class="no-top-margin bottom-margin-tiny">
             <a class="flex items-center unstyled" href="#vero-basics">
-              <img class="align-middle right-margin-micro" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/video-basics.svg" alt="Centralize your data">
+              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/video-basics.svg" alt="Centralize your data">
 
               <span>Vero Basics</span>
             </a>
           </li>
           <li class="no-margin">
             <a class="flex items-center unstyled" href="#tutorials">
-              <img class="align-middle right-margin-micro" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/tutorials.svg" alt="Centralize your data">
+              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/tutorials.svg" alt="Centralize your data">
 
               <span>Tutorials</span>
             </a>
@@ -63,7 +63,7 @@
     </div>
     <div class="main md-top-margin-small">
       <div class="bottom-margin-medium bottom-padding-medium border-bottom-light" id="vero-basics">
-        <h2 class="tubs semi-bold bottom-margin-micro">Vero Basics</h2>
+        <h2 class="tubs semi-bold bottom-margin-xxs">Vero Basics</h2>
         <p class="medium bottom-margin-medium">Learn the basics of Vero through short videos.</p>
 
         <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
@@ -75,7 +75,7 @@
               <div class="video-embed wistia_embed wistia_async_47fshhahqk seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
-            <div class="wistia_embed wistia_async_47fshhahqk popover=true popoverBorderWidth=2 popoverContent=link bottom-margin-micro">
+            <div class="wistia_embed wistia_async_47fshhahqk popover=true popoverBorderWidth=2 popoverContent=link bottom-margin-xxs">
               <h3 class="atomic pointer no-margin">Creating a workflow</h3>
             </div>
 
@@ -89,7 +89,7 @@
               <div class="video-embed wistia_embed wistia_async_wmvd7zhzp1 seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
-            <h3 class="atomic bottom-margin-micro">Creating a newsletter</h3>
+            <h3 class="atomic bottom-margin-xxs">Creating a newsletter</h3>
             <!-- https://getvero.wistia.com/medias/wmvd7zhzp1 -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
@@ -100,7 +100,7 @@
               <div class="video-embed wistia_embed wistia_async_dndpvc0epi seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
-            <h3 class="atomic bottom-margin-micro">Creating a segment</h3>
+            <h3 class="atomic bottom-margin-xxs">Creating a segment</h3>
             <!-- https://getvero.wistia.com/medias/dndpvc0epi -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
@@ -111,7 +111,7 @@
               <div class="video-embed wistia_embed wistia_async_rvd9pidq6p seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
-            <h3 class="atomic bottom-margin-micro">Creating an event</h3>
+            <h3 class="atomic bottom-margin-xxs">Creating an event</h3>
             <!-- https://getvero.wistia.com/medias/rvd9pidq6p -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
@@ -120,7 +120,7 @@
       </div>
 
       <div id="tutorials">
-        <h2 class="tubs semi-bold bottom-margin-micro">Tutorials</h2>
+        <h2 class="tubs semi-bold bottom-margin-xxs">Tutorials</h2>
         <p class="medium bottom-margin-medium">Learn to master Vero through our tutorials.</p>
 
         <div class="grid grid-thirds">

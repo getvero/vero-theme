@@ -47,7 +47,7 @@
       </div>
 
       <div class="order-0 xs-order-1 bottom-margin-smedium xs-no-bottom-margin">
-        <h2 class="chunk bottom-margin-micro xs-bottom-margin-tiny">One workflow for email and push messages</h2>
+        <h2 class="chunk bottom-margin-xxs xs-bottom-margin-tiny">One workflow for email and push messages</h2>
         <p class="large">Easily manage and monitor complex customer journeys in one place.</p>
       </div>
     </div>
@@ -58,7 +58,7 @@
     <div class="w-sidebar w-sidebar--feature-default center-text lg-left-text">
       <div class="col-main">
         <img class="align-middle bottom-margin-tiny xs-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/toggle.svg" alt="Seamlessly edit and preview messages on iOS and Android">
-        <h2 class="chunk bottom-margin-micro xs-bottom-margin-tiny">Seamlessly edit and preview messages on iOS and Android</h2>
+        <h2 class="chunk bottom-margin-xxs xs-bottom-margin-tiny">Seamlessly edit and preview messages on iOS and Android</h2>
         <p class="large">Toggle between platform views to quickly edit and view messages.</p>
       </div>
 
@@ -75,7 +75,7 @@
     <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main lg-order-1">
         <img class="align-middle bottom-margin-tiny xs-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/personalize.svg" alt="Create personalized content">
-        <h2 class="chunk bottom-margin-micro xs-bottom-margin-tiny">Create personalized content</h2>
+        <h2 class="chunk bottom-margin-xxs xs-bottom-margin-tiny">Create personalized content</h2>
         <p class="large">Add Liquid templating language to deliver helpful push messages.</p>
       </div>
 
@@ -96,7 +96,7 @@
     <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main">
         <img class="align-middle bottom-margin-tiny xs-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push.svg" alt="Push messages at the right time">
-        <h2 class="chunk bottom-margin-micro xs-bottom-margin-tiny">Push messages at the right time</h2>
+        <h2 class="chunk bottom-margin-xxs xs-bottom-margin-tiny">Push messages at the right time</h2>
         <p class="large">Schedule or trigger messages based on customer behavior.</p>
       </div>
 
@@ -117,7 +117,7 @@
     <div class="w-sidebar w-sidebar--feature-default center-text md-left-text">
       <div class="col-main lg-order-1">
         <img class="align-middle bottom-margin-tiny xs-bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/ab-testing.svg" alt="Test and optimize">
-        <h2 class="chunk bottom-margin-micro xs-bottom-margin-tiny">Test and optimize</h2>
+        <h2 class="chunk bottom-margin-xxs xs-bottom-margin-tiny">Test and optimize</h2>
         <p class="large">A/B test campaigns to improve customer engagement.</p>
       </div>
 

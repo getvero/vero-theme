@@ -17,7 +17,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner flush-top">
     <h2 class="atomic regular bottom-margin-large center-text">How many subscribers do you have?</h2>
 
-    <div class="flex price-scale top-margin-micro bottom-margin-large center-text">
+    <div class="flex price-scale top-margin-xxs bottom-margin-large center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
@@ -26,7 +26,7 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-xxs"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>

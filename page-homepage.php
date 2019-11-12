@@ -22,7 +22,7 @@
           <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
           <div class="medium regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim">
-              <img class="align-middle right-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+              <img class="align-middle right-margin-xxs" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
 
               <span class="font-brand-gray-dark">Watch a video</span>
             </div>
@@ -94,28 +94,28 @@
 <section class="home-process bg-offwhite double-padding border-bottom-light">
   <div class="inner xlarge-inner center-text">
     <div class="bottom-margin-medium">
-      <h2 class="chunk semi-bold bottom-margin-micro">Go from idea to production faster</h2>
+      <h2 class="chunk semi-bold bottom-margin-xxs">Go from idea to production faster</h2>
       <p class="large">Enable the full team to create, edit and test message ideas.</p>
     </div>
 
     <ul class="unstyled-list process-list grid center-text">
       <li class="no-margin">
-        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/centralize.svg" alt="Centralize your data">
+        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/icon/centralize.svg" alt="Centralize your data">
         <h3>Centralize your data</h3>
       </li>
 
       <li class="no-margin">
-        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/segments.svg" alt="Create segments using a visual editor">
+        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/icon/segments.svg" alt="Create segments using a visual editor">
         <h3>Segment your customers</h3>
       </li>
 
       <li class="no-margin">
-        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/edit.svg" alt="Empower your team with Vero">
+        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/icon/edit.svg" alt="Empower your team with Vero">
         <h3>Create and edit</h3>
       </li>
 
       <li class="no-margin">
-        <img class="bottom-margin-micro" src="/wp-content/themes/vero/assets/dist/images/home/icon/tests.svg" alt="Empower your team with Vero">
+        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/icon/tests.svg" alt="Empower your team with Vero">
         <h3>Run A/B tests</h3>
       </li>
     </ul>
