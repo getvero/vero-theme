@@ -14,12 +14,12 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
-      <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
+      <h1 class="biggie semi-bold bottom-margin-sm">Co-ordinate messaging</h1>
 
       <p class="tubs bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -50,7 +50,7 @@
   <div class="inner xlarge-inner">
     <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium center-text">Multi-channel</span> -->
     <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small center-text">Right message, right time, right channel</h2>
+      <h2 class="chunk regular bottom-margin-sm center-text">Right message, right time, right channel</h2>
 
       <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
     </div>
@@ -95,9 +95,9 @@
 ?>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

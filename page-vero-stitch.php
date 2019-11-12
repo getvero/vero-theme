@@ -35,7 +35,7 @@
 </section>
 <section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
-    <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
+    <h2 class="chunk regular bottom-margin-sm">All your data and insights in one place</h2>
     <p class="large no-top-margin bottom-margin-large">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/data-pipeline.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/stitch/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
@@ -59,7 +59,7 @@
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/combine.svg" alt="Stitch data together">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/combine.svg" alt="Stitch data together">
         <div class="right">
           <h3 class="medium regular">Stitch data together</h3>
           <p>Vero's <a href="/reporting">email campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together. Combine data to get better insights.</p>
@@ -73,7 +73,7 @@
       </div>
         </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/history.svg" alt="A historical record">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/history.svg" alt="A historical record">
         <div class="right">
           <h3 class="medium regular">A historical record</h3>
           <p>By warehousing the email interactions that originate in Vero you can backup and store a gospel record of important customer interactions.</p>

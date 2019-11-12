@@ -100,7 +100,7 @@ function add_featured_post() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-small">
+                <div class="entry-meta flex items-center bottom-margin-sm">
                   <span class="badge"><?php get_primary_category(); ?></span>
                 </div>
 
@@ -171,7 +171,7 @@ function add_other_posts() {
 
               <div class="entry-body">
                 <div class="entry-header">
-                  <div class="entry-meta flex items-center bottom-margin-small">
+                  <div class="entry-meta flex items-center bottom-margin-sm">
                     <span class="badge"><?php get_primary_category(); ?></span>
                   </div>
 
@@ -388,9 +388,9 @@ function add_featured_post_to_category() {
           </div>
 
           <div class="entry-body">
-            <div class="entry-header bottom-margin-small">
+            <div class="entry-header bottom-margin-sm">
               <?php if ( is_category('news-updates') ): ?>
-                <div class="entry-meta  bottom-margin-small">
+                <div class="entry-meta  bottom-margin-sm">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
               <?php endif; ?>
@@ -461,7 +461,7 @@ function custom_category_loop() {
         <div class="entry-body">
           <div class="entry-header">
             <?php if ( is_category('news-updates') ): ?>
-              <div class="entry-meta flex items-center bottom-margin-small">
+              <div class="entry-meta flex items-center bottom-margin-sm">
                 <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
               </div>
             <?php endif; ?>

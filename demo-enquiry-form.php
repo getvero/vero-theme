@@ -1,13 +1,13 @@
 <div class="modal modal-demo" id="demo">
-  <div class="inner flush-top flush-bottom center-text bottom-margin-small" id="enquire-intro" >
+  <div class="inner flush-top flush-bottom center-text bottom-margin-sm" id="enquire-intro" >
     <p class="medium">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
   </div>
   <div class="inner flush-top flush-bottom center-text" id="thanks">
     <h2 class="regular tubs bottom-margin-xs">Thanks!</h2>
     <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
   </div>
-  <form class="bottom-margin-small" id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
-    <div class="grid halfs bottom-margin-small">
+  <form class="bottom-margin-sm" id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
+    <div class="grid halfs bottom-margin-sm">
       <div>
         <div class="form-group bottom-margin-xs">
           <label>Name: <span>*</span></label>
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="bottom-margin-small center-text">
+    <div class="bottom-margin-sm center-text">
       <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock">
       <input class="btn btn-medium btn-success" id="request-demo" type="submit" value="Get in touch">
     </div>

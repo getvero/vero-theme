@@ -83,7 +83,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
             <div class="js-thanks-menu thanks-menu hide">
-              <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
+              <h3 class="atomic regular bottom-margin-sm">Almost there!</h3>
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
           </div>

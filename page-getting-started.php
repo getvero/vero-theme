@@ -11,13 +11,13 @@
 ?>
 <section class="getting-started-hero border-bottom-light">
   <div class="inner xlarge-inner">
-    <span class="flex items-center feature-label bottom-margin-small xs-bottom-margin-medium"><a class="unstyled" href="/features">Resources</a>
+    <span class="flex items-center feature-label bottom-margin-sm xs-bottom-margin-medium"><a class="unstyled" href="/features">Resources</a>
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Getting Started</span>
-    <h1 class="hulk bottom-margin-small">Getting Started</h1>
+    <h1 class="hulk bottom-margin-sm">Getting Started</h1>
     <p class="large bottom-margin-medium">Learn how to master personalized messaging from the Vero Team..</p>
 
     <!-- <ul class="unstyled-list flex items-center justify-center subnav">
-      <li class="subnav-item right-margin-small">
+      <li class="subnav-item right-margin-sm">
         <a class="flex flex-column justify-center border-radius-2 border-light unstyled" href="#vero-basics">
           <img src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/vero-basics.svg" alt="Centralize your data">
 
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="main md-top-margin-small">
+    <div class="main md-top-margin-sm">
       <div class="bottom-margin-medium bottom-padding-medium border-bottom-light" id="vero-basics">
         <h2 class="tubs semi-bold bottom-margin-xxs">Vero Basics</h2>
         <p class="medium bottom-margin-medium">Learn the basics of Vero through short videos.</p>
@@ -71,7 +71,7 @@
         <ul class="unstyled-list grid grid-thirds">
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/47fshhahqk.jsonp" async></script>
-            <div class="video-ratio bottom-margin-small">
+            <div class="video-ratio bottom-margin-sm">
               <div class="video-embed wistia_embed wistia_async_47fshhahqk seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
@@ -85,7 +85,7 @@
           </li>
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/wmvd7zhzp1.jsonp" async></script>
-            <div class="video-ratio bottom-margin-small">
+            <div class="video-ratio bottom-margin-sm">
               <div class="video-embed wistia_embed wistia_async_wmvd7zhzp1 seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
@@ -96,7 +96,7 @@
           </li>
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/dndpvc0epi.jsonp" async></script>
-            <div class="video-ratio bottom-margin-small">
+            <div class="video-ratio bottom-margin-sm">
               <div class="video-embed wistia_embed wistia_async_dndpvc0epi seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
@@ -107,7 +107,7 @@
           </li>
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/rvd9pidq6p.jsonp" async></script>
-            <div class="video-ratio bottom-margin-small">
+            <div class="video-ratio bottom-margin-sm">
               <div class="video-embed wistia_embed wistia_async_rvd9pidq6p seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
@@ -137,7 +137,7 @@
             ?>
 
           <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="show bottom-margin-small" href="<?php the_permalink(); ?>">
+            <a class="show bottom-margin-sm" href="<?php the_permalink(); ?>">
               <?php if ( has_post_thumbnail() ): ?>
                 <?php
                   if( !empty($image_alt) ) {
@@ -172,9 +172,9 @@
 </section>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

@@ -14,12 +14,12 @@
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
-      <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
+      <h1 class="biggie semi-bold bottom-margin-sm">Engage customers</h1>
 
       <p class="tubs bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -87,7 +87,7 @@
     <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
       <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Personalization</span> -->
 
-      <h2 class="chunk regular bottom-margin-small">Send personalized emails and push notifications</h2>
+      <h2 class="chunk regular bottom-margin-sm">Send personalized emails and push notifications</h2>
 
       <p class="large">Improve the impact of every message you send your customers by including helpful and engaging content</p>
     </div>
@@ -139,9 +139,9 @@
 ?>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

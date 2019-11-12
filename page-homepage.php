@@ -14,9 +14,9 @@
         <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide sm-show xs-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-small" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-sm" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
           <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
           <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <h2 class="atomic regular faded bottom-margin-small">Trusted by leading brands</h2>
+        <h2 class="atomic regular faded bottom-margin-sm">Trusted by leading brands</h2>
 
         <ul class="unstyled-list logo-list grid  xs-justify-center">
           <li class="logo-list-item no-margin">
@@ -149,7 +149,7 @@
 
           <h3 class="micro semi-bold bottom-margin-xs">Empower your team</h3>
 
-          <p class="bottom-margin-small">Empower your marketing team to create and test customer experiences using real-time data.</p>
+          <p class="bottom-margin-sm">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
           <span class="regular unstyled underline-link">Learn more
 
@@ -163,7 +163,7 @@
 
           <h3 class="micro semi-bold bottom-margin-xs">Engage customers</h3>
 
-          <p class="bottom-margin-small">Send email and push notifications that drive customer engagement and increase revenue.</p>
+          <p class="bottom-margin-sm">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
           <span class="regular unstyled underline-link">Learn more
 
@@ -177,7 +177,7 @@
 
           <h3 class="micro semi-bold bottom-margin-xs">Co-ordinate messaging</h3>
 
-          <p class="bottom-margin-small">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
+          <p class="bottom-margin-sm">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
           <span class="regular unstyled underline-link">Learn more
 
@@ -196,7 +196,7 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="64" alt="Unsplash logo Vero">
 
-        <p class="quote bottom-margin-small">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+        <p class="quote bottom-margin-sm">Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
         <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/luke-chesser-vero-testimonial@2x.jpg 2x" alt="Luke Chesser Vero testimonial">
@@ -212,7 +212,7 @@
         <img class="self-center"
         src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="64" alt="Helloprint logo Vero">
 
-        <p class="quote bottom-margin-small">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+        <p class="quote bottom-margin-sm">Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
         <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/julien-catani-vero-testimonial@2x.jpg 2x" alt="Julien Catani Vero testimonial">
@@ -258,7 +258,7 @@
 
       <div class="col-main">
         <header class="bg-white-overlay bottom-margin-smedium">
-          <h2 class="chunk regular bottom-margin-small">World-class support</h2>
+          <h2 class="chunk regular bottom-margin-sm">World-class support</h2>
 
           <p class="medium">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>
         </header>
@@ -283,9 +283,9 @@
 </section>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

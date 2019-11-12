@@ -124,7 +124,7 @@
       <?php
     } else if ( is_search() ) {
       ?>
-      <div class="entry-meta flex items-center bottom-margin-small">
+      <div class="entry-meta flex items-center bottom-margin-sm">
         <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
           <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
         <?php } else { ?>
@@ -134,7 +134,7 @@
       <?php
     } else {
       ?>
-        <div class="entry-meta bottom-margin-small">
+        <div class="entry-meta bottom-margin-sm">
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         </div>
       <?php
@@ -157,8 +157,8 @@
     if ( is_blog_archive() || is_single() ){ ?>
       <div class="js-resources-sidebar resources-sidebar">
         <div class="flex flex-column nav-resources wrap">
-          <div class="resources-sidebar-categories bottom-margin-small">
-            <h3 class="semi-bold annotation uppercase faded bottom-margin-small">Categories</h3>
+          <div class="resources-sidebar-categories bottom-margin-sm">
+            <h3 class="semi-bold annotation uppercase faded bottom-margin-sm">Categories</h3>
 
             <ul class="resources-sidebar-categories-list">
               <li class="<?php echo is_active('all'); ?>"><a class="unstyled" href="/resources">All</a></li>
@@ -171,7 +171,7 @@
           <?php echo get_search_form(); ?>
 
           <div class="top-margin-auto">
-            <p class="hide md-show bottom-margin-small">Insights, tips and tools for creating better customer messaging and product experiences.</p>
+            <p class="hide md-show bottom-margin-sm">Insights, tips and tools for creating better customer messaging and product experiences.</p>
 
             <div class="js-thanks-3 hide">
               <p>Thanks for subscribing</p>

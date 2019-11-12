@@ -53,7 +53,7 @@
     <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list grid grid-halfs left-align unstyled-list">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sources.svg" alt="Access to 200+ data sources">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sources.svg" alt="Access to 200+ data sources">
           <div class="right">
             <h3 class="medium regular">Access to 200+ data sources</h3>
             <p>Capture data from 200+ sources, using Segment and it will translate and load your real-time data to Vero and automatically trigger personalized emails.</p>
@@ -68,7 +68,7 @@
           </div>
       </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sdks.svg" alt="Segment SDKs">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sdks.svg" alt="Segment SDKs">
         <div class="right">
           <h3 class="medium regular">Segment SDKs</h3>
           <p>With Segment’s wide range of libraries and mobile SDKs you can get data into Vero quickly from all the places your customers interact with your product.</p>

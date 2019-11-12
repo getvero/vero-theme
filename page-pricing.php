@@ -102,7 +102,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="bg-dark-blue-gradient" id="pricing-logos">
   <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
-    <h3 class="section-label bottom-margin-small font-white">Trusted by companies globally</h5>
+    <h3 class="section-label bottom-margin-sm font-white">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">

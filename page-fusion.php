@@ -21,10 +21,10 @@
 </section>
 <section class="double-padding" id="external-attributes-howitworks">
   <div class="inner center-text gradient-border-bottom">
-    <h2 class="chunk semi-bold bottom-margin-small">Load data from its source</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Load data from its source</h2>
     <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms</p>
     <img class="top-margin-medium responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
-    <ul class="feature-list unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs top-margin-small">
+    <ul class="feature-list unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs top-margin-sm">
       <li><p class="semi-bold medium">Connect an API endpoint</p><p class="light smallish">Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
       <li><p class="semi-bold medium">Add data to emails using Liquid</p><p class="light smallish">Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
     </ul>
@@ -35,10 +35,10 @@
     <div><p class="smallish semi-bold no-margin">Example API endpoint</p><p class="no-top-margin">https://api.yoursite.com/people-you-may-know/{{user.id}}</p></div>
     <div class="ext-example">
       <div class="ext-example-json">
-        <pre class="top-margin-small okaidia" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
+        <pre class="top-margin-sm okaidia" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
       </div>
       <div class="ext-example-html">
-        <pre class="top-margin-small" data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
+        <pre class="top-margin-sm" data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
       </div>
     </div>
   </div>
@@ -49,17 +49,17 @@
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     <ul class="feature-list unstyled-list grid grid-auto top-margin-medium">
       <li class="center-text">
-        <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
+        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
         <p class="semi-bold medium">Recommendations</p>
         <p class="light smallish">Access data models and insert dynamically calculated product recommendation emails tailored specifically to each customer.</p>
       </li>
       <li class="center-text">
-        <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
+        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
         <p class="semi-bold medium">Dynamic Data &amp; Charts</p>
         <p class="light smallish">Pull complex data structures or even fully rendered HTML charts to deliver unique weekly updates with usage details to each customer.</p>
       </li>
       <li class="center-text">
-        <img class="center-text top-margin-small" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
+        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
         <p class="semi-bold medium">Delightful Details</p>
         <p class="light smallish">Impress your users with personalised enriched data pulled from services like OpenWeather, Clearbit and more.</p>
       </li>
@@ -69,11 +69,11 @@
 <!-- <section id="external-attributes-tidal" class="floating-section light-border">
   <div class="inner">
     <div class="half left">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal@2x.png 2x" title="Tidal" class="bottom-margin-small">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal@2x.png 2x" title="Tidal" class="bottom-margin-sm">
       <p>Tidal helps millions of customers find new music. By leveraging their recommendation APIs with Fusion, Tidal has created a series of highly personalized emails that deliver the same quality on-site and in-app experience via email – ensuring each and every customer finds new music that results in both happier listeners and better engagement.</p>
       <q>We literally saved 100s of hours with external attributes. It just plugs in and works.</q>
       <div class="top-margin-medium">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile@2x.png 2x" width="53" height="53" class="pull-left right-margin-small">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile@2x.png 2x" width="53" height="53" class="pull-left right-margin-sm">
         <p class="semi-bold no-margin">Eskild</p>
         <p class="no-top-margin">Product Manager</p>
       </div>

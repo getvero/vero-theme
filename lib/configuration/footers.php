@@ -106,7 +106,7 @@
               <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
             </div>
             <div class="js-thanks-menu-2 thanks-menu-2 hide">
-              <h4 class="atomic regular bottom-margin-small">Almost there!</h4>
+              <h4 class="atomic regular bottom-margin-sm">Almost there!</h4>
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
 
@@ -147,7 +147,7 @@
           $category = get_the_category(); ?>
           <div class="post <?php if($featured_image){ ?>has-image<?php } ?>">
             <?php if($featured_image) { ?>
-              <div class="bottom-margin-small">
+              <div class="bottom-margin-sm">
                 <a class="d-block" href="<?php the_permalink(); ?>">
                   <img class="border-radius-1" src="<?php echo $featured_image; ?>">
                 </a>
