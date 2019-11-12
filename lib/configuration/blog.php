@@ -185,7 +185,7 @@
                 <input name="event[blog_subscriber_source]" type="hidden" value="blog_header">
                 <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
               </div>
-              <input class="btn btn-success input-width-full bottom-margin-tiny" type="submit" value="Subscribe to updates">
+              <input class="btn btn-success input-width-full bottom-margin-xs" type="submit" value="Subscribe to updates">
               <span class="d-block annotation"><span class="faded">We're committed to keeping your information safe. Read our</span> <a href="/privacy">Privacy Policy</a>.</span>
             </form>
           </div>

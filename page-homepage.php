@@ -145,9 +145,9 @@
     <div class="grid grid-thirds center-text">
       <div class="block block-empower relative">
         <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+          <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
-          <h3 class="micro semi-bold bottom-margin-tiny">Empower your team</h3>
+          <h3 class="micro semi-bold bottom-margin-xs">Empower your team</h3>
 
           <p class="bottom-margin-small">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
@@ -159,9 +159,9 @@
       </div>
       <div class="block block-engage relative">
         <a class="show card padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
+          <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
-          <h3 class="micro semi-bold bottom-margin-tiny">Engage customers</h3>
+          <h3 class="micro semi-bold bottom-margin-xs">Engage customers</h3>
 
           <p class="bottom-margin-small">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
@@ -173,9 +173,9 @@
       </div>
       <div class="block block-coordinate relative">
         <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
-          <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
+          <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
-          <h3 class="micro semi-bold bottom-margin-tiny">Co-ordinate messaging</h3>
+          <h3 class="micro semi-bold bottom-margin-xs">Co-ordinate messaging</h3>
 
           <p class="bottom-margin-small">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
@@ -245,7 +245,7 @@
   <div class="inner medium-inner">
     <div class="flex flex-wrap">
       <div class="col-aside">
-        <div class="donut bottom-margin-tiny">
+        <div class="donut bottom-margin-xs">
           <div>
             <span class="hulk semi-bold no-margin font-brand-success">97%</span>
             <span class="atomic show horizontal-margin-medium semi-bold faded uppercase">Great</span>

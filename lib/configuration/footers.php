@@ -67,7 +67,7 @@
               <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
             </ul>
             <ul class="unstyled-list" style="flex: 1 1 100%;">
-              <li class="d-inline-block right-margin-tiny">
+              <li class="d-inline-block right-margin-xs">
                 <a href="https://twitter.com/getvero">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
                     <title>Twitter icon footnote</title>
@@ -155,7 +155,7 @@
             <?php } ?>
 
             <div class="post-body">
-              <span class="d-block badge bottom-margin-tiny"><?php echo $category[0]->cat_name; ?></span>
+              <span class="d-block badge bottom-margin-xs"><?php echo $category[0]->cat_name; ?></span>
               <h4 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             </div>
           </div>

@@ -99,21 +99,21 @@
         <li>
           <img class="padding-tiny" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/onboarding.svg" width="50" height="50" alt="Onboard new users">
           <div>
-            <h2 class="micro regular bottom-margin-tiny">Onboard new users</h2>
+            <h2 class="micro regular bottom-margin-xs">Onboard new users</h2>
             <p class="medium desc">Welcome, engage and help your customers gain value from your offering.</p>
           </div>
         </li>
         <li>
           <img class="padding-tiny" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/engagement.svg" width="50" height="50" alt="Increase engagement">
           <div>
-            <h2 class="micro regular bottom-margin-tiny">Increase engagement</h2>
+            <h2 class="micro regular bottom-margin-xs">Increase engagement</h2>
             <p class="medium desc">Use real-time data to send your customers helpful messages, at exactly the right moment.</p>
           </div>
         </li>
         <li>
           <img class="padding-tiny" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/recapture.svg" width="50" height="50" alt="Improve customer retention">
           <div>
-            <h2 class="micro regular bottom-margin-tiny">Improve customer retention</h2>
+            <h2 class="micro regular bottom-margin-xs">Improve customer retention</h2>
             <p class="medium desc">Deliver your customers valuable content and reasons to engage with your product.</p>
           </div>
         </li>
@@ -132,33 +132,33 @@
     <ul class="unstyled-list feature-list grid grid-auto">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/conversion@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Conversion Goals">
-        <h3 class="micro regular bottom-margin-tiny">Conversion Goals</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">Set a goal and easily track the success of your workflow.</p>
+        <h3 class="micro regular bottom-margin-xs">Conversion Goals</h3>
+        <p class="desc top-margin-xs bottom-margin-small">Set a goal and easily track the success of your workflow.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/insights@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Insights">
-        <h3 class="micro regular bottom-margin-tiny">Insights</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.</p>
+        <h3 class="micro regular bottom-margin-xs">Insights</h3>
+        <p class="desc top-margin-xs bottom-margin-small">Monitor the performance of your workflow and quickly identify opportunities for optimization.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/dragdrop@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Drag and drop">
-        <h3 class="micro regular bottom-margin-tiny">Drag and Drop</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p>
+        <h3 class="micro regular bottom-margin-xs">Drag and Drop</h3>
+        <p class="desc top-margin-xs bottom-margin-small">All steps can be easily moved around, giving you full control over the order of logic, delays, and emails.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/preferredtime@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Send at a preferred time">
-        <h3 class="micro regular bottom-margin-tiny">Send at a preferred time</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p>
+        <h3 class="micro regular bottom-margin-xs">Send at a preferred time</h3>
+        <p class="desc top-margin-xs bottom-margin-small">Deliver emails at a specified time in the customer's timezone.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/transactionals@2x.png 2x" class="show responsive-image bottom-margin-small" alt="Transactional emails">
-        <h3 class="micro regular bottom-margin-tiny">Transactional Emails</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p>
+        <h3 class="micro regular bottom-margin-xs">Transactional Emails</h3>
+        <p class="desc top-margin-xs bottom-margin-small">Override unsubscribes for important account servicing messages, such as requested password reset emails.</p>
       </li>
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/abtesting@2x.png 2x" class="show responsive-image bottom-margin-small" alt="A/B testing">
-        <h3 class="micro regular bottom-margin-tiny">A/B Testing (coming soon)</h3>
-        <p class="desc top-margin-tiny bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.</p>
+        <h3 class="micro regular bottom-margin-xs">A/B Testing (coming soon)</h3>
+        <p class="desc top-margin-xs bottom-margin-small">Easily set up, monitor and roll out successful A/B tests in workflows.</p>
       </li>
     </ul>
   </div>

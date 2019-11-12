@@ -12,7 +12,7 @@
 <section class="double-padding" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
+      <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Co-ordinate messaging</h1>
 
@@ -30,7 +30,7 @@
   <div class="inner flush-top xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
+        <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-xs">Workflows</span> -->
 
         <h2 class="chunk regular">Design a better customer experience</h2>
 
@@ -72,7 +72,7 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-tiny">Webhook</span> -->
+        <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-xs">Webhook</span> -->
 
         <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline annotation pill pill--primary">Coming soon</span></h2>
 

@@ -12,7 +12,7 @@
 <section class="border-bottom-light" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
+      <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Engage customers</h1>
 
@@ -50,7 +50,7 @@
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left bottom-margin-xlarge">
       <div class="col-main">
-        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-tiny">Workflows</span> -->
+        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Workflows</span> -->
 
         <h2 class="chunk regular bottom-margin-smedium">Easily create and manage automated workflows</h2>
 
@@ -66,7 +66,7 @@
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-tiny">data Management</span> -->
+        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">data Management</span> -->
 
         <h2 class="chunk regular bottom-margin-smedium">Confidently send messages with real-time data</h2>
 
@@ -85,7 +85,7 @@
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
     <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
-      <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-tiny">Personalization</span> -->
+      <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Personalization</span> -->
 
       <h2 class="chunk regular bottom-margin-small">Send personalized emails and push notifications</h2>
 
@@ -118,7 +118,7 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-tiny">Reporting</span> -->
+        <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Reporting</span> -->
 
         <h2 class="chunk regular bottom-margin-smedium">Optimize for growth</h2>
 

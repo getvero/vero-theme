@@ -43,7 +43,7 @@
   <div class="inner center-text">
     <h2 class="tubs regular regular center-text">Track your customers language in Vero like this:</h2>
 
-    <div class="bottom-margin-tiny" id="data-code-block">
+    <div class="bottom-margin-xs" id="data-code-block">
         <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
 vero.users.track!({
   id:    '123',

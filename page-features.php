@@ -48,7 +48,7 @@
       <ul class="button-list unstyled-list center-text">
         <li class="padding-small disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/segment-logo.png" alt="Segment logo">
-          <p class="no-margin top-margin-tiny">Connect your data via <span class="semi-bold">Segment.com</span></p>
+          <p class="no-margin top-margin-xs">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
 
@@ -61,7 +61,7 @@
       <pre class="vero-code inactive-feature" id="feature-collection-python" data-src="/wp-content/themes/vero/snippets/features-collection-python.py"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-apple" data-src="/wp-content/themes/vero/snippets/features-collection-apple.m"></pre>
 
-      <ul class="collection-code button-list unstyled-list center-text bottom-margin-tiny">
+      <ul class="collection-code button-list unstyled-list center-text bottom-margin-xs">
         <li class="active">
           <a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js@2x.png 2x" alt="Javascript">

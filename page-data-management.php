@@ -12,7 +12,7 @@
 <section class="border-bottom-light" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+      <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
       <h1 class="biggie semi-bold bottom-margin-small">Empower your team</h1>
 

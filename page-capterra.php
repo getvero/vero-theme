@@ -12,11 +12,11 @@
   <div class="inner xlarge-inner border-bottom-light">
     <div class="flex flex-column md-flex-row">
       <div class="col-main center-text md-left-text bg-white-overlay">
-        <h1 class="biggie semi-bold bottom-margin-tiny home-title"><span class="md-ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
+        <h1 class="biggie semi-bold bottom-margin-xs home-title"><span class="md-ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
         <p class="large md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
 
-        <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-tiny">
+        <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-xs">
           <a class="btn btn-success btn-large hide xs-show xs-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
         </div>
 
@@ -70,7 +70,7 @@
 <section class="double-padding capterra-event-manager bg-center">
   <div class="inner large-inner center-text">
     <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-tiny">Confidently send messages with real-time data</h2>
+      <h2 class="chunk regular bottom-margin-xs">Confidently send messages with real-time data</h2>
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data.</p>
     </header>
 
@@ -105,7 +105,7 @@
 <section class="capterra-ab-testing bg-offwhite bg-center">
   <div class="inner large-inner center-text">
     <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-tiny">Measure and optimize your emails</h2>
+      <h2 class="chunk regular bottom-margin-xs">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>
 

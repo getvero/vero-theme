@@ -231,7 +231,7 @@ function add_news_and_updates_posts() {
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-tiny">
+                <div class="entry-meta flex items-center bottom-margin-xs">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 

@@ -44,11 +44,11 @@
   <div class="inner medium-inner bottom-padding-small">
     <div class="integration-platform-info stitch">
       <div class="left">
-        <h2 class="medium regular bottom-margin-tiny">What is Stitch?</h2>
+        <h2 class="medium regular bottom-margin-xs">What is Stitch?</h2>
         <p class="medium no-bottom-margin">Stitch is a modern extract, transform and load (ETL) platform for rapidly moving data from it's origin source to data warehouses such as Amazon Redshift, Google BigQuery, Snowflake and others.</p>
       </div>
       <div class="right">
-        <a class="pill pill--primary md-bottom-margin-tiny" href="https://www.stitchdata.com/" target="_blank">Website</a>
+        <a class="pill pill--primary md-bottom-margin-xs" href="https://www.stitchdata.com/" target="_blank">Website</a>
         <a class="pill pill--primary" href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a>
       </div>
     </div>

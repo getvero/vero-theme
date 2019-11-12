@@ -45,7 +45,7 @@
 </section>
 <section id="external-attributes-examples" class="double-padding">
   <div class="inner large-inner center-text">
-    <h2 class="chunk semi-bold bottom-margin-tiny">Email as a true extension of your product</h2>
+    <h2 class="chunk semi-bold bottom-margin-xs">Email as a true extension of your product</h2>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     <ul class="feature-list unstyled-list grid grid-auto top-margin-medium">
       <li class="center-text">
@@ -116,7 +116,7 @@
 </section>
 <section id="external-attributes-scale" class="double-padding border-bottom-light">
   <div class="inner center-text flush-bottom">
-    <h2 class="chunk semi-bold bottom-margin-tiny">Built to Scale</h2>
+    <h2 class="chunk semi-bold bottom-margin-xs">Built to Scale</h2>
     <p class="medium bottom-margin-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
     <img class="show responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" alt="Built to scale">
   </div>
