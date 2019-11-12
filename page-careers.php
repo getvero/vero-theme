@@ -26,7 +26,7 @@
 </section>
 <section class="double-padding" id="careers-why">
   <div class="inner small-inner flush-bottom">
-    <h2 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h2>
+    <h2 class="chunk regular no-margin bottom-margin-xl">Be empowered to do your best work</h2>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
     <ul class="unstyled-list grid grid-thirds">

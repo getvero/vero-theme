@@ -20,7 +20,7 @@
           <a class="btn btn-success btn-large hide xs-show xs-right-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
         </div>
 
-        <p class="faded bottom-margin-large">(No credit card details required)</p>
+        <p class="faded bottom-margin-xl">(No credit card details required)</p>
 
         <h2 class="micro regular faded bottom-margin-md">Trusted by leading brands</h2>
 

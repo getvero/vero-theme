@@ -36,7 +36,7 @@
 </section>
 <section class="jump-link getting-started-videos border-bottom-light" id="vero-basics">
   <div class="inner xlarge-inner w-sidebar w-sidebar--getting-started-videos">
-    <div class="aside md-right-margin-large">
+    <div class="aside md-right-margin-xl">
       <div class="subnav bg-white border-light border-radius-2">
         <ul class="unstyled-list bottom-margin-md md-bottom-margin-xlarge">
           <li class="no-top-margin bottom-margin-xs">

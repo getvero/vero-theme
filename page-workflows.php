@@ -91,7 +91,7 @@
 </section>
 <section id="workflows-reasons" class="feature-section double-padding">
   <div class="inner medium-inner flush-bottom">
-    <h2 class="biggie semi-bold bottom-margin-large">Build engaging campaigns and reach your goals!</h2>
+    <h2 class="biggie semi-bold bottom-margin-xl">Build engaging campaigns and reach your goals!</h2>
   </div>
   <div class="inner large-inner halfs flush-top top-padding-medium">
     <div class="left secondary">
@@ -126,7 +126,7 @@
 </section>
 <section id="workflows-details" class="feature-section double-padding bg-offwhite">
   <div class="inner medium-inner flush-bottom">
-    <h2 class="biggie semi-bold bottom-margin-large">We've got the details covered</h2>
+    <h2 class="biggie semi-bold bottom-margin-xl">We've got the details covered</h2>
   </div>
   <div class="inner large-inner flush-top">
     <ul class="unstyled-list feature-list grid grid-auto">

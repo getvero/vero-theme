@@ -13,7 +13,7 @@
   <div class="inner small-inner flush-bottom center-text">
     <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
-    <div class="integration-logos bottom-margin-large">
+    <div class="integration-logos bottom-margin-xl">
       <div class="logo-container vero">
         <img src="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
       </div>
@@ -27,7 +27,7 @@
 
     <h1 class="biggie semi-bold">Connect Vero and Segment</h1>
 
-    <p class="bottom-margin-large large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
+    <p class="bottom-margin-xl large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Segment in minutes</p>
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Get started</a>
@@ -50,7 +50,7 @@
 </section>
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
-    <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Segment helps your team move quickly</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl">Connecting Vero and Segment helps your team move quickly</h2>
     <ul class="feature-list grid grid-halfs left-align unstyled-list">
       <li>
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/sources.svg" alt="Access to 200+ data sources">

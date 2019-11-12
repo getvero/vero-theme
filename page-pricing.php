@@ -12,12 +12,12 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
   <div class="inner large-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
+    <h1 class="biggie semi-bold bottom-margin-xl">A pricing plan that helps you scale your business</h1>
   </div>
   <div class="inner xlarge-inner flush-top">
-    <h2 class="atomic regular bottom-margin-large center-text">How many subscribers do you have?</h2>
+    <h2 class="atomic regular bottom-margin-xl center-text">How many subscribers do you have?</h2>
 
-    <div class="flex price-scale top-margin-xxs bottom-margin-large center-text">
+    <div class="flex price-scale top-margin-xxs bottom-margin-xl center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
@@ -135,7 +135,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner">
-    <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl jump-link">Frequently Asked Questions</h2>
 
     <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">

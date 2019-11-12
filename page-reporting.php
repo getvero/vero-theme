@@ -76,10 +76,10 @@
      <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
-<section class="bg-dark-blue font-white bottom-margin-large" id="report-webhook-data">
+<section class="bg-dark-blue font-white bottom-margin-xl" id="report-webhook-data">
   <div class="inner medium-inner center-text">
-    <h2 class="tubs regular no-bottom-margin top-margin-large top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h2>
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-sm small-responsive-image top-margin-large" alt="Send a webhook for all of the data that originates from a Vero campaign">
+    <h2 class="tubs regular no-bottom-margin top-margin-xl top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h2>
+    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-sm small-responsive-image top-margin-xl" alt="Send a webhook for all of the data that originates from a Vero campaign">
   </div>
   <div class="inner medium-inner flush-bottom">
     <h2 class="chunk regular bottom-margin-sm">Generate insights from a complete view of your customer data</h2>
