@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-sm">Empower your team</h1>
 
-      <p class="tubs bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
+      <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -70,7 +70,7 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-sm">Visibility and clarity</h2>
 
       <p class="large">Vero bridges the gap between your engineering and marketing teams</p>

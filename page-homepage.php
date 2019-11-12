@@ -93,7 +93,7 @@
 </section>
 <section class="home-process bg-offwhite double-padding border-bottom-light">
   <div class="inner xlarge-inner center-text">
-    <div class="bottom-margin-medium">
+    <div class="bottom-margin-lg">
       <h2 class="chunk semi-bold bottom-margin-xxs">Go from idea to production faster</h2>
       <p class="large">Enable the full team to create, edit and test message ideas.</p>
     </div>
@@ -139,7 +139,7 @@
 </section>
 <section class="home-solutions double-padding border-bottom-light overflow-hidden">
   <div class="inner xlarge-inner">
-    <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
+    <header class="inner small-inner flush-top flush-bottom bottom-margin-lg center-text">
       <h2 class="chunk semi-bold no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
     </header>
     <div class="grid grid-thirds center-text">
@@ -248,12 +248,12 @@
         <div class="donut bottom-margin-xs">
           <div>
             <span class="hulk semi-bold no-margin font-brand-success">97%</span>
-            <span class="atomic show horizontal-margin-medium semi-bold faded uppercase">Great</span>
+            <span class="atomic show horizontal-margin-lg semi-bold faded uppercase">Great</span>
           </div>
           <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
         </div>
 
-        <p class="annotation bottom-margin-medium faded center-text">Customer happiness score based on last 6 months of support rating</p>
+        <p class="annotation bottom-margin-lg faded center-text">Customer happiness score based on last 6 months of support rating</p>
       </div>
 
       <div class="col-main">

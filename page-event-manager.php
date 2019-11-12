@@ -11,7 +11,7 @@
 ?>
 <section id="event-manager-heading">
   <div class="inner small-inner center-text bottom-padding-medium">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Event Management</p>
+    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-lg">Event Management</p>
     <h1 class="chunk regular bottom-margin-sm biggie">Confidently send emails using real-time customer data</h1>
     <p class="no-top-margin medium">Vero's Event Manager gives marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns. </p>
   </div>
@@ -24,7 +24,7 @@
 <section id="event-manager-add-event" class="feature-section double-padding">
   <div class="inner halfs medium-inner left-padding-large right-padding-large flush-bottom">
     <div class="left primary">
-      <h2 class="tubs regular bottom-margin-medium">Design email campaigns with placeholder events</h2>
+      <h2 class="tubs regular bottom-margin-lg">Design email campaigns with placeholder events</h2>
       <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.<br><br>
       Marketing teams can design personalized customer journeys and then collaborate with engineering to rapidly implement them.</p>
     </div>
@@ -39,14 +39,14 @@
       <img class="fl-r small-responsive-image right-padding-medium" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
     <div class="right">
-      <h2 class="tubs regular bottom-margin-medium">Test and debug automated emails</h2>
+      <h2 class="tubs regular bottom-margin-lg">Test and debug automated emails</h2>
       <p class="medium">Simulate user activity by triggering test events for any customer profile in your Vero account and have complete confidence that your customers will receive the right emails at the right time.<br><br>Trigger live, individual emails to customers and test basic or sophisticated email campaigns with ease.</p>
     </div>
   </div>
 </section>
 <section id="features-more" class="double-padding">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-medium">AND MORE</p>
+    <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-lg">AND MORE</p>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-error.svg" alt="See when data stops flowing">

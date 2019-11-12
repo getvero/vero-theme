@@ -11,10 +11,10 @@
 ?>
 <section id="external-attributes-hero" class="border-bottom-light">
   <div class="inner center-text flush-bottom">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-medium">Fusion</p>
+    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-lg">Fusion</p>
     <h1 class="biggie semi-bold center-text bottom-margin-xxs">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
-    <div class="hero-image center-text top-margin-medium">
+    <div class="hero-image center-text top-margin-lg">
       <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs ">
     </div>
   </div>
@@ -23,7 +23,7 @@
   <div class="inner center-text gradient-border-bottom">
     <h2 class="chunk semi-bold bottom-margin-sm">Load data from its source</h2>
     <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms</p>
-    <img class="top-margin-medium responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
+    <img class="top-margin-lg responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
     <ul class="feature-list unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs top-margin-sm">
       <li><p class="semi-bold medium">Connect an API endpoint</p><p class="light smallish">Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
       <li><p class="semi-bold medium">Add data to emails using Liquid</p><p class="light smallish">Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
@@ -47,7 +47,7 @@
   <div class="inner large-inner center-text">
     <h2 class="chunk semi-bold bottom-margin-xs">Email as a true extension of your product</h2>
     <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
-    <ul class="feature-list unstyled-list grid grid-auto top-margin-medium">
+    <ul class="feature-list unstyled-list grid grid-auto top-margin-lg">
       <li class="center-text">
         <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
         <p class="semi-bold medium">Recommendations</p>
@@ -72,7 +72,7 @@
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal@2x.png 2x" title="Tidal" class="bottom-margin-sm">
       <p>Tidal helps millions of customers find new music. By leveraging their recommendation APIs with Fusion, Tidal has created a series of highly personalized emails that deliver the same quality on-site and in-app experience via email – ensuring each and every customer finds new music that results in both happier listeners and better engagement.</p>
       <q>We literally saved 100s of hours with external attributes. It just plugs in and works.</q>
-      <div class="top-margin-medium">
+      <div class="top-margin-lg">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile@2x.png 2x" width="53" height="53" class="pull-left right-margin-sm">
         <p class="semi-bold no-margin">Eskild</p>
         <p class="no-top-margin">Product Manager</p>
@@ -83,7 +83,7 @@
 <section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
     <ul class="feature-list left-align unstyled-list grid grid-auto">
-      <li class="bottom-margin-medium">
+      <li class="bottom-margin-lg">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
         <div class="right">
           <h3 class="atomic semi-bold">Access live data</h3>
@@ -97,7 +97,7 @@
           <p class="smallish">Fusion caches content as efficiently as possible. It loads all the permutations and keeps them on hand for the duration of your send.</p>
         </div>
       </li>
-      <li class="bottom-margin-medium">
+      <li class="bottom-margin-lg">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-3rd-party.svg" alt="Works with third party APIs too">
         <div class="right">
           <h3 class="atomic semi-bold">Works with third party APIs too…</h3>
@@ -117,7 +117,7 @@
 <section id="external-attributes-scale" class="double-padding border-bottom-light">
   <div class="inner center-text flush-bottom">
     <h2 class="chunk semi-bold bottom-margin-xs">Built to Scale</h2>
-    <p class="medium bottom-margin-medium">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
+    <p class="medium bottom-margin-lg">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
     <img class="show responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" alt="Built to scale">
   </div>
 </section>

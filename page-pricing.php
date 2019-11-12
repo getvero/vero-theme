@@ -137,7 +137,7 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
@@ -149,7 +149,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
@@ -161,7 +161,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
@@ -172,7 +172,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
@@ -184,7 +184,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 

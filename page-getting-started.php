@@ -11,10 +11,10 @@
 ?>
 <section class="getting-started-hero border-bottom-light">
   <div class="inner xlarge-inner">
-    <span class="flex items-center feature-label bottom-margin-sm xs-bottom-margin-medium"><a class="unstyled" href="/features">Resources</a>
+    <span class="flex items-center feature-label bottom-margin-sm xs-bottom-margin-lg"><a class="unstyled" href="/features">Resources</a>
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Getting Started</span>
     <h1 class="hulk bottom-margin-sm">Getting Started</h1>
-    <p class="large bottom-margin-medium">Learn how to master personalized messaging from the Vero Team..</p>
+    <p class="large bottom-margin-lg">Learn how to master personalized messaging from the Vero Team..</p>
 
     <!-- <ul class="unstyled-list flex items-center justify-center subnav">
       <li class="subnav-item right-margin-sm">
@@ -62,9 +62,9 @@
       </div>
     </div>
     <div class="main md-top-margin-sm">
-      <div class="bottom-margin-medium bottom-padding-medium border-bottom-light" id="vero-basics">
+      <div class="bottom-margin-lg bottom-padding-medium border-bottom-light" id="vero-basics">
         <h2 class="tubs semi-bold bottom-margin-xxs">Vero Basics</h2>
-        <p class="medium bottom-margin-medium">Learn the basics of Vero through short videos.</p>
+        <p class="medium bottom-margin-lg">Learn the basics of Vero through short videos.</p>
 
         <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 
@@ -121,7 +121,7 @@
 
       <div id="tutorials">
         <h2 class="tubs semi-bold bottom-margin-xxs">Tutorials</h2>
-        <p class="medium bottom-margin-medium">Learn to master Vero through our tutorials.</p>
+        <p class="medium bottom-margin-lg">Learn to master Vero through our tutorials.</p>
 
         <div class="grid grid-thirds">
           <?php

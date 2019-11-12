@@ -8,7 +8,7 @@
 
             <h3 class="tubs regular semi-bold bottom-margin-xs">Empower your team</h3>
 
-            <p class="medium bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data.</p>
+            <p class="medium bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
             <!-- <svg width="8" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.328 11.263a1 1 0 0 0 1.352 1.474L7.677 7.24a1 1 0 0 0 0-1.474L1.68.263A1 1 0 1 0 .328 1.737L5.522 6.5.328 11.263z" fill="#9AA0A9" fill-rule="nonzero"/></svg> -->
 
@@ -27,7 +27,7 @@
 
             <h3 class="tubs regular semi-bold bottom-margin-xs">Engage customers</h3>
 
-            <p class="medium bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue.</p>
+            <p class="medium bottom-margin-lg">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
             <!-- <svg width="8" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.328 11.263a1 1 0 0 0 1.352 1.474L7.677 7.24a1 1 0 0 0 0-1.474L1.68.263A1 1 0 1 0 .328 1.737L5.522 6.5.328 11.263z" fill="#9AA0A9" fill-rule="nonzero"/></svg> -->
 
@@ -46,7 +46,7 @@
 
             <h3 class="tubs regular semi-bold bottom-margin-xs">Co-ordinate messaging</h3>
 
-            <p class="medium bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
+            <p class="medium bottom-margin-lg">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
             <!-- <svg width="8" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M.328 11.263a1 1 0 0 0 1.352 1.474L7.677 7.24a1 1 0 0 0 0-1.474L1.68.263A1 1 0 1 0 .328 1.737L5.522 6.5.328 11.263z" fill="#9AA0A9" fill-rule="nonzero"/></svg> -->
 

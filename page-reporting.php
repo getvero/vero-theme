@@ -13,7 +13,7 @@
 
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
-    <p class="semi-bold smallish font-brand-primary bottom-margin-medium">Reporting</p>
+    <p class="semi-bold smallish font-brand-primary bottom-margin-lg">Reporting</p>
     <h1 class="biggie semi-bold bottom-margin-sm">Track the true performance of <span class="show">your email campaigns</span></h1>
     <p class="large">Understand which of your email campaigns engage <span class="show">customers and drive revenue.</span></p>
   </div>
@@ -25,7 +25,7 @@
 </section>
 <section id="reports-hero-features" class="double-padding">
   <div class="inner medium-inner top-padding-large bottom-padding-large">
-    <h2 class="chunk regular bottom-margin-medium center-text">View and analyze essential email results</h2>
+    <h2 class="chunk regular bottom-margin-lg center-text">View and analyze essential email results</h2>
     <ul class="unstyled-list grid grid-halfs">
       <li class="no-margin flex flex-column lg-flex-row items-start">
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-results.svg" alt="Monitor the overall results for key email campaign metrics">
@@ -72,7 +72,7 @@
     <p class="no-top-margin large">Joining up your email campaign data with the rest of your customer data, such as internal application usage and payment information, will give you a more complete and specific picture of the results your campaigns drive.</p>
   </div>
   <div class="inner small-inner center-text flush-top flush-bottom">
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-webhooks.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-webhooks@2x.png 2x" class="center-text top-margin-medium bottom-margin-medium responsive-image" alt="Access the insights important to your business">
+    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-webhooks.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-webhooks@2x.png 2x" class="center-text top-margin-lg bottom-margin-lg responsive-image" alt="Access the insights important to your business">
      <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
@@ -84,7 +84,7 @@
   <div class="inner medium-inner flush-bottom">
     <h2 class="chunk regular bottom-margin-sm">Generate insights from a complete view of your customer data</h2>
     <p class="no-top-margin medium">Using a BI tool, like Mode Analytics, you can query all your customer data and build custom reports that can give you the insights important to your specific business.</p>
-    <div class="center-text top-margin-medium">
+    <div class="center-text top-margin-lg">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-third-party-tools.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-third-party-tools@2x.png 2x" class="center-text responsive-image align-middle" alt="Generate insights from a complete view of your customer data">
     </div>
   </div>

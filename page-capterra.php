@@ -69,7 +69,7 @@
 </section>
 <section class="double-padding capterra-event-manager bg-center">
   <div class="inner large-inner center-text">
-    <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
+    <header class="inner medium-inner flush-top flush-bottom bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-xs">Confidently send messages with real-time data</h2>
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data.</p>
     </header>
@@ -104,7 +104,7 @@
 </section>
 <section class="capterra-ab-testing bg-offwhite bg-center">
   <div class="inner large-inner center-text">
-    <header class="inner medium-inner flush-top flush-bottom bottom-margin-medium">
+    <header class="inner medium-inner flush-top flush-bottom bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-xs">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>
@@ -126,7 +126,7 @@
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center items-center center-text md-left-text">
 
-      <h3 class="chunk regular md-right-margin-medium">Easily create and manage automated messages</h3>
+      <h3 class="chunk regular md-right-margin-lg">Easily create and manage automated messages</h3>
 
       <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
@@ -134,7 +134,7 @@
 </section>
 <section class="capterra-features">
   <div class="inner large-inner top-padding-smedium">
-    <h2 class="annotation semi-bold faded uppercase center-text bottom-margin-medium">More features</h2>
+    <h2 class="annotation semi-bold faded uppercase center-text bottom-margin-lg">More features</h2>
 
     <ul class="unstyled-list grid center-text">
       <li class="no-margin">

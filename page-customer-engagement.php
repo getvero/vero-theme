@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-sm">Engage customers</h1>
 
-      <p class="tubs bottom-margin-medium">Send email and push notifications that drive customer engagement and increase revenue</p>
+      <p class="tubs bottom-margin-lg">Send email and push notifications that drive customer engagement and increase revenue</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -84,7 +84,7 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
       <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Personalization</span> -->
 
       <h2 class="chunk regular bottom-margin-sm">Send personalized emails and push notifications</h2>

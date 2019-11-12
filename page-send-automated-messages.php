@@ -16,7 +16,7 @@
 
       <h1 class="biggie semi-bold bottom-margin-sm">Co-ordinate messaging</h1>
 
-      <p class="tubs bottom-margin-medium">Create and manage emails, push notifications and custom interactions on a single canvas</p>
+      <p class="tubs bottom-margin-lg">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -34,7 +34,7 @@
 
         <h2 class="chunk regular">Design a better customer experience</h2>
 
-        <p class="medium bottom-margin-medium">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
+        <p class="medium bottom-margin-lg">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive Workflows</a>
       </div>
@@ -48,8 +48,8 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-medium center-text">Multi-channel</span> -->
-    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
+    <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-lg center-text">Multi-channel</span> -->
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-sm center-text">Right message, right time, right channel</h2>
 
       <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
