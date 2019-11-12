@@ -11,7 +11,7 @@
       <div class="col-main center-text lg-left-text bg-white-overlay">
         <h1 class="hulk semi-bold home-title">Scale personalized customer messages</h1>
 
-        <p class="large md-bottom-margin-smedium">The messaging platform to get you from idea to production, faster.</p>
+        <p class="large md-bottom-margin-md">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
           <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -190,7 +190,7 @@
 </section>
 <section class="home-quotes bg-offwhite border-bottom-light">
   <div class="inner xlarge-inner">
-    <h2 class="chunk semi-bold bottom-margin-smedium center-text jump-link" id="customers">What people have said about Vero</h5>
+    <h2 class="chunk semi-bold bottom-margin-md center-text jump-link" id="customers">What people have said about Vero</h5>
 
     <div class="grid grid-thirds items-stretch justify-center">
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
@@ -227,7 +227,7 @@
       <blockquote class="bg-white border-radius-2 border-light customer-quote">
         <img src="/wp-content/themes/vero/assets/dist/images/home/logos/drawboard-logo-vero.svg" height="64" alt="Drawboard logo">
 
-        <p class="quote bottom-margin-smedium">Heck! Vero's support is exceptional!</p>
+        <p class="quote bottom-margin-md">Heck! Vero's support is exceptional!</p>
 
         <div class="flex items-center">
           <img class="customer-profile" src="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial.jpg" srcset="/wp-content/themes/vero/assets/dist/images/customers/nathan-field-vero-testimonial@2x.jpg 2x" alt="Nathan Field Vero testimonial">
@@ -257,7 +257,7 @@
       </div>
 
       <div class="col-main">
-        <header class="bg-white-overlay bottom-margin-smedium">
+        <header class="bg-white-overlay bottom-margin-md">
           <h2 class="chunk regular bottom-margin-sm">World-class support</h2>
 
           <p class="medium">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>

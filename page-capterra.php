@@ -14,15 +14,15 @@
       <div class="col-main center-text md-left-text bg-white-overlay">
         <h1 class="biggie semi-bold bottom-margin-xs home-title"><span class="md-ws-nowrap">Send emails that engage customers</span> and drive growth</h1>
 
-        <p class="large md-bottom-margin-smedium">Unlimited messaging from $125/month.</p>
+        <p class="large md-bottom-margin-md">Unlimited messaging from $125/month.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-xs">
-          <a class="btn btn-success btn-large hide xs-show xs-right-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide xs-show xs-right-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
         </div>
 
         <p class="faded bottom-margin-large">(No credit card details required)</p>
 
-        <h2 class="micro regular faded bottom-margin-smedium">Trusted by leading brands</h2>
+        <h2 class="micro regular faded bottom-margin-md">Trusted by leading brands</h2>
 
         <ul class="unstyled-list logo-list grid">
           <li class="logo-list-item no-margin">
@@ -74,7 +74,7 @@
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data.</p>
     </header>
 
-    <div class="image-dots image-dots-2 bottom-margin-smedium">
+    <div class="image-dots image-dots-2 bottom-margin-md">
       <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data.png" srcset="/wp-content/themes/vero/assets/dist/images/capterra/send-messages-with-real-time-data@2x.png 2x" alt="Confidently send messages with real-time data">
       <div class="background"></div>
     </div>
@@ -86,9 +86,9 @@
   <div class="inner xlarge-inner flush-top">
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-smedium">Personalize your emails to improve customer engagement</h2>
+        <h2 class="chunk regular bottom-margin-md">Personalize your emails to improve customer engagement</h2>
 
-        <p class="medium bottom-margin-smedium">Send customers account usage updates, tailored product recommendations and more!</p>
+        <p class="medium bottom-margin-md">Send customers account usage updates, tailored product recommendations and more!</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="image-dots image-dots-3">
@@ -187,7 +187,7 @@
 </section>
 <section class="bg-offwhite capterra-quote">
   <div class="inner xlarge-inner">
-    <blockquote class="quote-mark bottom-margin-smedium">
+    <blockquote class="quote-mark bottom-margin-md">
       <p class="quote large">We push all of our behavioural events to Vero… allowing our non-developer teammates to build highly-personalized emails, based on complex event-based logic on their own insights.</p>
     </blockquote>
 
@@ -197,7 +197,7 @@
 </section>
 <section class="double-padding footer-cta-capterra">
   <div class="inner small-inner center-text">
-    <h3 class="regular chunk bottom-margin-smedium">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
+    <h3 class="regular chunk bottom-margin-md">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
 
     <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Try Vero for free</a>
   </div>

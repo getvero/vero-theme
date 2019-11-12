@@ -107,7 +107,7 @@ function add_featured_post() {
                 <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -178,7 +178,7 @@ function add_other_posts() {
                   <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                 </div>
 
-                <div class="entry-content bottom-margin-smedium">
+                <div class="entry-content bottom-margin-md">
                   <?php if ( get_field('custom_excerpt') ): ?>
                     <p><?php the_field('custom_excerpt') ?></p>
                   <?php else: ?>
@@ -238,7 +238,7 @@ function add_news_and_updates_posts() {
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -307,7 +307,7 @@ function add_tutorials_posts() {
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -469,7 +469,7 @@ function custom_category_loop() {
             <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
           </div>
 
-          <div class="entry-content bottom-margin-smedium">
+          <div class="entry-content bottom-margin-md">
             <?php if ( get_field('custom_excerpt') ): ?>
               <p><?php the_field('custom_excerpt') ?></p>
             <?php else: ?>

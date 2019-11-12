@@ -165,9 +165,9 @@
 </section>
 <section class="cta border-dark-blue bg-white center-text">
   <div class="cta-wrap">
-    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

@@ -80,7 +80,7 @@
 
         <p class="medium">Combine email and mobile push with any channel you can dream up with Vero’s Workflows.</p>
 
-        <p class="medium bottom-margin-smedium">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
+        <p class="medium bottom-margin-md">Add tasks to Pipedrive, trigger messages to Lambda, open tickets in HelpScout – if you can dream it up, you can build it with our webhooks.</p>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">

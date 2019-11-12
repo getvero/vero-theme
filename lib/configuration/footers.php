@@ -96,14 +96,14 @@
       <section class="cta border-dark-blue bg-white center-text">
         <div class="cta-wrap">
           <?php if( get_field('type_of_cta') == 'product' ) : ?>
-            <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+            <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-            <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+            <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
             <p class="annotation faded">No credit card details required</p>
           <?php else : ?>
             <div class="js-enquire-menu-2 enquire-menu-2">
-              <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
+              <h4 class="tubs regular bottom-margin-md">Insights, tips and tools for creating better customer messaging and product experiences</h4>
             </div>
             <div class="js-thanks-menu-2 thanks-menu-2 hide">
               <h4 class="atomic regular bottom-margin-sm">Almost there!</h4>
@@ -111,7 +111,7 @@
             </div>
 
             <form class="js-blog-subscribe-form-2 blog-subscribe-form-2" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-smedium">
+              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-md">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
                 <input name="user[consent_product_updates]" type="hidden" value="true">

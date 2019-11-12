@@ -102,7 +102,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
 
-        <a class="show annotation underline-link xs-hide top-margin-smedium" href="/">Back to Vero</a>
+        <a class="show annotation underline-link xs-hide top-margin-md" href="/">Back to Vero</a>
       </div>
     </div>
 

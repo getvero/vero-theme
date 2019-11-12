@@ -38,7 +38,7 @@
   <div class="inner xlarge-inner w-sidebar w-sidebar--getting-started-videos">
     <div class="aside md-right-margin-large">
       <div class="subnav bg-white border-light border-radius-2">
-        <ul class="unstyled-list bottom-margin-smedium md-bottom-margin-xlarge">
+        <ul class="unstyled-list bottom-margin-md md-bottom-margin-xlarge">
           <li class="no-top-margin bottom-margin-xs">
             <a class="flex items-center unstyled" href="#vero-basics">
               <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/video-basics.svg" alt="Centralize your data">
@@ -56,7 +56,7 @@
         </ul>
 
         <div class="bg-dark-blue-lighter border-radius-1 padding-smedium">
-          <p class="bottom-margin-smedium">Still can’t find what you’re not looking for? Check out our help docs.</p>
+          <p class="bottom-margin-md">Still can’t find what you’re not looking for? Check out our help docs.</p>
           <a class="btn btn-gray-darker btn-outline" href="">Help docs</a>
         </div>
       </div>

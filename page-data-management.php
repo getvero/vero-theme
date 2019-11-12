@@ -50,13 +50,13 @@
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-smedium">Seamlessly integrate Vero with your software</h2>
+        <h2 class="chunk regular bottom-margin-md">Seamlessly integrate Vero with your software</h2>
 
         <p class="medium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
         <p class="medium">Quickly connect Vero with customer data platforms like Segment, and native libraries for Ruby, PHP, Python, and more.</p>
 
-        <p class="medium bottom-margin-smedium">Easily store, track and segment customer properties and customer activity.</p>
+        <p class="medium bottom-margin-md">Easily store, track and segment customer properties and customer activity.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
       </div>
@@ -77,7 +77,7 @@
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <p class="medium bottom-margin-smedium">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
+        <p class="medium bottom-margin-md">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
@@ -93,9 +93,9 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-smedium">Create and iterate, faster</h2>
+        <h2 class="chunk regular bottom-margin-md">Create and iterate, faster</h2>
 
-        <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
+        <p class="medium bottom-margin-md">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
       </div>
