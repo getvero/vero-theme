@@ -24,7 +24,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
+    <div class="pricing-footer border-light border-radius-2 padding-lg flex items-center">
       <div class="left">
         <p class="no-top-margin bottom-margin-xxs"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
@@ -44,7 +44,7 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs regular">Simple, flexible pricing options</h2>
     <div class="grid grid-auto">
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
         <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
         <header class="flex justify-center bottom-margin-xs">
@@ -56,7 +56,7 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin">Send your emails from a dedicated server</p>
         <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
         <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
         <header class="flex justify-center bottom-margin-xs">
@@ -66,7 +66,7 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin">We'll track and centralize your reporting</p>
         <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
         <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
         <header class="flex justify-center bottom-margin-xs">
@@ -80,7 +80,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner medium-inner top-padding-large bottom-padding-large">
+  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-support.svg" width="46" alt="24-hour support">
@@ -101,7 +101,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="bg-dark-blue-gradient" id="pricing-logos">
-  <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
+  <div class="inner medium-inner top-padding-xl bottom-padding-lg center-text">
     <h3 class="section-label bottom-margin-sm font-white">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list flex">

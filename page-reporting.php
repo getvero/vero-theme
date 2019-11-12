@@ -12,7 +12,7 @@
 
 
 <section id="reports-hero">
-  <div class="inner small-inner center-text bottom-padding-medium right-padding-medium left-padding-medium">
+  <div class="inner small-inner center-text bottom-padding-lg right-padding-lg left-padding-lg">
     <p class="semi-bold smallish font-brand-primary bottom-margin-lg">Reporting</p>
     <h1 class="biggie semi-bold bottom-margin-sm">Track the true performance of <span class="show">your email campaigns</span></h1>
     <p class="large">Understand which of your email campaigns engage <span class="show">customers and drive revenue.</span></p>
@@ -24,7 +24,7 @@
   </div>
 </section>
 <section id="reports-hero-features" class="double-padding">
-  <div class="inner medium-inner top-padding-large bottom-padding-large">
+  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <h2 class="chunk regular bottom-margin-lg center-text">View and analyze essential email results</h2>
     <ul class="unstyled-list grid grid-halfs">
       <li class="no-margin flex flex-column lg-flex-row items-start">
@@ -55,7 +55,7 @@
   </div>
 </section>
 <section id="reports-hero-ui-features" class="feature-section double-padding">
-  <div class="inner halfs medium-inner left-padding-large right-padding-large flush-top">
+  <div class="inner halfs medium-inner left-padding-xl right-padding-xl flush-top">
     <div class="left center-text">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-content-breakdown.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-content-breakdown@2x.png 2x" class="bottom-margin-sm small-responsive-image" alt="Compare the results of A/B tests and different language variations.">
       <p class="medium regular">Compare the results of A/B tests and different language variations.</p>
@@ -78,7 +78,7 @@
 </section>
 <section class="bg-dark-blue font-white bottom-margin-xl" id="report-webhook-data">
   <div class="inner medium-inner center-text">
-    <h2 class="tubs regular no-bottom-margin top-margin-xl top-padding-medium">Send a webhook for all of the data that originates from a Vero campaign</h2>
+    <h2 class="tubs regular no-bottom-margin top-margin-xl top-padding-lg">Send a webhook for all of the data that originates from a Vero campaign</h2>
     <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-sm small-responsive-image top-margin-xl" alt="Send a webhook for all of the data that originates from a Vero campaign">
   </div>
   <div class="inner medium-inner flush-bottom">

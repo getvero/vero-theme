@@ -55,14 +55,14 @@
           </li>
         </ul>
 
-        <div class="bg-dark-blue-lighter border-radius-1 padding-smedium">
+        <div class="bg-dark-blue-lighter border-radius-1 padding-md">
           <p class="bottom-margin-md">Still can’t find what you’re not looking for? Check out our help docs.</p>
           <a class="btn btn-gray-darker btn-outline" href="">Help docs</a>
         </div>
       </div>
     </div>
     <div class="main md-top-margin-sm">
-      <div class="bottom-margin-lg bottom-padding-medium border-bottom-light" id="vero-basics">
+      <div class="bottom-margin-lg bottom-padding-lg border-bottom-light" id="vero-basics">
         <h2 class="tubs semi-bold bottom-margin-xxs">Vero Basics</h2>
         <p class="medium bottom-margin-lg">Learn the basics of Vero through short videos.</p>
 

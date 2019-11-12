@@ -30,7 +30,7 @@
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
+        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-md">
           <img class="full-width" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
         </div>
       </div>

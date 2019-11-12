@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="event-manager-heading">
-  <div class="inner small-inner center-text bottom-padding-medium">
+  <div class="inner small-inner center-text bottom-padding-lg">
     <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-lg">Event Management</p>
     <h1 class="chunk regular bottom-margin-sm biggie">Confidently send emails using real-time customer data</h1>
     <p class="no-top-margin medium">Vero's Event Manager gives marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns. </p>
@@ -22,7 +22,7 @@
   </div>
 </section>
 <section id="event-manager-add-event" class="feature-section double-padding">
-  <div class="inner halfs medium-inner left-padding-large right-padding-large flush-bottom">
+  <div class="inner halfs medium-inner left-padding-xl right-padding-xl flush-bottom">
     <div class="left primary">
       <h2 class="tubs regular bottom-margin-lg">Design email campaigns with placeholder events</h2>
       <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.<br><br>
@@ -34,9 +34,9 @@
   </div>
 </section>
 <section id="event-manager-test-event" class="feature-section double-padding">
-  <div class="inner halfs medium-inner small-reverse left-padding-large right-padding-large flush-bottom flush-top">
+  <div class="inner halfs medium-inner small-reverse left-padding-xl right-padding-xl flush-bottom flush-top">
     <div class="left">
-      <img class="fl-r small-responsive-image right-padding-medium" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
+      <img class="fl-r small-responsive-image right-padding-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
     <div class="right">
       <h2 class="tubs regular bottom-margin-lg">Test and debug automated emails</h2>
@@ -45,7 +45,7 @@
   </div>
 </section>
 <section id="features-more" class="double-padding">
-  <div class="inner medium-inner top-padding-large bottom-padding-large">
+  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <p class="semi-bold center-text annotation uppercase font-brand-gray center-text no-top-margin bottom-margin-lg">AND MORE</p>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>

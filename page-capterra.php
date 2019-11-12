@@ -133,7 +133,7 @@
   </div>
 </section>
 <section class="capterra-features">
-  <div class="inner large-inner top-padding-smedium">
+  <div class="inner large-inner top-padding-md">
     <h2 class="annotation semi-bold faded uppercase center-text bottom-margin-lg">More features</h2>
 
     <ul class="unstyled-list grid center-text">

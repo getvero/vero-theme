@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="vero-integration-heading">
-  <div class="inner small-inner center-text bottom-padding-large">
+  <div class="inner small-inner center-text bottom-padding-xl">
     <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
     <div class="integration-logos bottom-margin-xl">
@@ -41,7 +41,7 @@
   </div>
 </section>
 <section id="vero-stitch-info">
-  <div class="inner medium-inner bottom-padding-small">
+  <div class="inner medium-inner bottom-padding-xs">
     <div class="integration-platform-info stitch">
       <div class="left">
         <h2 class="medium regular bottom-margin-xs">What is Stitch?</h2>

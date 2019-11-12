@@ -34,7 +34,7 @@
   </div>
 </section>
 <section id="vero-segment-info">
-  <div class="inner medium-inner bottom-padding-small">
+  <div class="inner medium-inner bottom-padding-xs">
     <div class="integration-platform-info segment">
       <div class="left">
         <h2 class="medium regular bottom-margin-xs">What is Segment?</h2>

@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="overflow-hidden" id="workflows-hero">
-  <div class="inner large-inner flex flex-column md-flex-row bottom-padding-medium">
+  <div class="inner large-inner flex flex-column md-flex-row bottom-padding-lg">
     <div class="relative col-main secondary">
       <h1 class="hulk bottom-margin-sm semi-bold">Workflows</h1>
       <p class="no-top-margin bottom-margin-lg chunk">A better way to design, manage and optimize email and push campaigns</p>
@@ -93,7 +93,7 @@
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-xl">Build engaging campaigns and reach your goals!</h2>
   </div>
-  <div class="inner large-inner halfs flush-top top-padding-medium">
+  <div class="inner large-inner halfs flush-top top-padding-lg">
     <div class="left secondary">
       <ul class="feature-list left-align unstyled-list">
         <li>

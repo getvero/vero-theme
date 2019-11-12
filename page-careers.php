@@ -49,7 +49,7 @@
   </div>
 </section>
 <section id="careers-vibe" class="double-padding">
-  <div class="inner small-inner bottom-padding-medium">
+  <div class="inner small-inner bottom-padding-lg">
     <h2 class="chunk regular">Live to work, not the other way around</h2>
     <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
@@ -131,7 +131,7 @@
   </div>
 </section>
 <section id="careers-remote" class="double-padding">
-  <div class="inner small-inner bottom-padding-small">
+  <div class="inner small-inner bottom-padding-xs">
     <h2 class="chunk regular">Be where you want to be</h2>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>

@@ -144,7 +144,7 @@
     </header>
     <div class="grid grid-thirds center-text">
       <div class="block block-empower relative">
-        <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
+        <a class="show card padding-xs md-padding-md md-horizontal-padding-lg border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/data-management">
           <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
           <h3 class="micro semi-bold bottom-margin-xs">Empower your team</h3>
@@ -158,7 +158,7 @@
         </a>
       </div>
       <div class="block block-engage relative">
-        <a class="show card padding-small md-padding-smedium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
+        <a class="show card padding-xs md-padding-md border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/customer-engagement">
           <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
           <h3 class="micro semi-bold bottom-margin-xs">Engage customers</h3>
@@ -172,7 +172,7 @@
         </a>
       </div>
       <div class="block block-coordinate relative">
-        <a class="show card padding-small md-padding-smedium md-horizontal-padding-medium border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
+        <a class="show card padding-xs md-padding-md md-horizontal-padding-lg border-light border-radius-2 bg-white cta-arrow-link unstyled" href="/send-automated-messages">
           <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
           <h3 class="micro semi-bold bottom-margin-xs">Co-ordinate messaging</h3>

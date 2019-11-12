@@ -1,6 +1,6 @@
 <section>
   <div class="inner xlarge-inner">
-    <div class="shadow-1 border-light border-radius-2 padding-small flex flex-column md-flex-row justify-around center-text jobs-navigation">
+    <div class="shadow-1 border-light border-radius-2 padding-xs flex flex-column md-flex-row justify-around center-text jobs-navigation">
       <?php if (!is_page('data-management')): ?>
         <div class="block block-empower">
           <a class="show unstyled cta-arrow-link" href="/data-management">

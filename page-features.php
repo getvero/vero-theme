@@ -42,17 +42,17 @@
   </div>
 </section>
 <section id="features-collection" class="feature-section double-padding border-bottom-light">
-  <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-large right-padding-large">
+  <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-xl right-padding-xl">
     <h2 class="semi-bold annotation uppercase font-brand-warning center-text bottom-margin-lg">Collection</h2>
     <div class="left primary">
       <ul class="button-list unstyled-list center-text">
-        <li class="padding-small disabled-button">
+        <li class="padding-xs disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/segment-logo.png" alt="Segment logo">
           <p class="no-margin top-margin-xs">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
 
-      <div class="center-text padding-small">OR</div>
+      <div class="center-text padding-xs">OR</div>
 
       <pre class="vero-code active-feature" id="feature-collection-js" data-src="/wp-content/themes/vero/snippets/features-collection-js.js"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-php" data-src="/wp-content/themes/vero/snippets/features-collection-php.php"></pre>
@@ -236,21 +236,21 @@
     </div>
     <div class="right primary">
       <ul class="button-list mail-services unstyled-list">
-        <li class="center-text padding-small disabled-button">
+        <li class="center-text padding-xs disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/sendgrid.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/sendgrid@2x.png 2x" class="responsive-image" alt="Sendgrid logo">
         </li>
-        <li class="center-text padding-small disabled-button">
+        <li class="center-text padding-xs disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailgun.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailgun@2x.png 2x" class="responsive-image" alt="Mailgun logo">
         </li>
-        <li class="center-text padding-small disabled-button">
+        <li class="center-text padding-xs disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailjet.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailjet@2x.png 2x" class="responsive-image" alt="Mailjet logo">
         </li>
-        <li class="center-text padding-small disabled-button">
+        <li class="center-text padding-xs disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/dyn.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/dyn@2x.png 2x" class="responsive-image" alt="Dyn logo">
         </li>
       </ul>
       <ul class="button-list unstyled-list">
-        <li class="padding-small disabled-button">
+        <li class="padding-xs disabled-button">
           <p class="small"><span class="semi-bold">Don’t have your own email provider?</span> No problem, let us send your emails on our managed infrastructure. We partner with Mailgun and can support any custom configuration, including dedicated IPs and custom domains. <a href="mailto:support@getvero.com">Email our Support Team</a>.</p>
         </li>
       </ul>
