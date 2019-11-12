@@ -48,7 +48,7 @@
 </section>
 <section class="double-padding">
   <div class="inner xlarge-inner">
-    <div class="grid job-feature job-feature-left bottom-margin-xlarge">
+    <div class="grid job-feature job-feature-left bottom-margin-xxl">
       <div class="col-main">
         <!-- <span class="show annotation uppercase semi-bold faded bottom-margin-xs">Workflows</span> -->
 
