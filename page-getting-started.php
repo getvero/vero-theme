@@ -9,42 +9,43 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding getting-started-hero">
+<section class="getting-started-hero border-bottom-light">
   <div class="inner tiny-inner  center-text">
-    <!-- <span class="flex items-center justify-center feature-label bottom-margin-small xs-bottom-margin-medium"><a class="unstyled" href="/features">Resources</a>
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Push Notifications</span> -->
+    <span class="flex items-center justify-center feature-label bottom-margin-small xs-bottom-margin-medium"><a class="unstyled" href="/features">Resources</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Getting Started</span>
     <h1 class="hulk bottom-margin-small">Getting Started</h1>
     <p class="large bottom-margin-medium">Learn how to send amazing marketing campaigns from the Vero team and get up to speed.</p>
 
     <ul class="unstyled-list flex items-center justify-center subnav">
       <li class="subnav-item right-margin-small">
-        <a class="flex flex-column justify-center border-radius-2 border-light padding-small unstyled" href="#vero-basics">
-          <img class="bottom-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/vero-basics.svg" alt="Centralize your data">
+        <a class="flex flex-column justify-center border-radius-2 border-light unstyled" href="#vero-basics">
+          <img src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/vero-basics.svg" alt="Centralize your data">
 
-          <span class="atomic">Vero Basics</span>
+          <span class="semi-bold">Vero Basics</span>
         </a>
       </li>
       <li class="subnav-item">
-        <a class="flex flex-column justify-center border-radius-2 border-light padding-small unstyled" href="#tutorials">
-          <img class="bottom-margin-micro" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/tutorials.svg" alt="Centralize your data">
+        <a class="flex flex-column justify-center border-radius-2 border-light unstyled" href="#tutorials">
+          <img src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/tutorials.svg" alt="Centralize your data">
 
-          <span class="atomic">Tutorials</span>
+          <span class="semi-bold">Tutorials</span>
         </a>
       </li>
     </ul>
   </div>
 </section>
-<section class="jump-link getting-started-videos" id="vero-basics">
-  <div class="bg-offwhite">
+<section class="jump-link getting-started-videos border-bottom-light" id="vero-basics">
+  <div class="bg-dark-blue-lighter">
     <div class="inner xlarge-inner center-text">
-      <h2 class="chunk semi-bold bottom-margin-smedium">Vero Basics</h2>
+      <h2 class="chunk semi-bold bottom-margin-micro">Vero Basics</h2>
+      <p class="large bottom-margin-medium">Learn the basics of Vero through short videos.</p>
 
       <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 
       <ul class="unstyled-list grid grid-thirds">
         <li class="video-item">
           <script src="//fast.wistia.com/embed/medias/47fshhahqk.jsonp" async></script>
-          <div class="video-ratio border-light bottom-margin-small">
+          <div class="video-ratio bottom-margin-small">
             <div class="video-embed wistia_embed wistia_async_47fshhahqk seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
@@ -58,7 +59,7 @@
         </li>
         <li class="video-item">
           <script src="//fast.wistia.com/embed/medias/wmvd7zhzp1.jsonp" async></script>
-          <div class="video-ratio border-light bottom-margin-small">
+          <div class="video-ratio bottom-margin-small">
             <div class="video-embed wistia_embed wistia_async_wmvd7zhzp1 seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
@@ -69,7 +70,7 @@
         </li>
         <li class="video-item">
           <script src="//fast.wistia.com/embed/medias/dndpvc0epi.jsonp" async></script>
-          <div class="video-ratio border-light bottom-margin-small">
+          <div class="video-ratio bottom-margin-small">
             <div class="video-embed wistia_embed wistia_async_dndpvc0epi seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
@@ -80,7 +81,7 @@
         </li>
         <li class="video-item">
           <script src="//fast.wistia.com/embed/medias/rvd9pidq6p.jsonp" async></script>
-          <div class="video-ratio border-light bottom-margin-small">
+          <div class="video-ratio bottom-margin-small">
             <div class="video-embed wistia_embed wistia_async_rvd9pidq6p seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
           </div>
 
@@ -95,7 +96,8 @@
 </section>
 <section class="jump-link border-bottom-light" id="tutorials">
   <div class="inner xlarge-inner center-text">
-    <h2 class="chunk semi-bold bottom-margin-smedium center-text">Tutorials</h2>
+    <h2 class="chunk semi-bold bottom-margin-micro">Tutorials</h2>
+    <p class="large bottom-margin-medium">Learn to master Vero through our tutorials.</p>
 
     <div class="grid grid-thirds">
       <?php
@@ -143,11 +145,15 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-smedium">Design, manage and optimize your mobile push messages</h4>
+    <h4 class="chunk bottom-margin-smedium">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Get started</a>
+    <div class="bottom-margin-smedium">
+      <a class="btn btn-success btn-large right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
 
-    <p class="annotation faded">No credit card details required</p>
+      <a class="btn btn-primary btn-gray-darker btn-outline btn-large" href="">Talk to us</a>
+    </div>
+
+    <!-- <p class="annotation font-brand-gray-dark">Need more help? Check out our help docs</p> -->
   </div>
 </section>
 <?php
