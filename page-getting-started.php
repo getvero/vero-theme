@@ -39,14 +39,14 @@
         <ul class="unstyled-list bottom-margin-md md-bottom-margin-xxl">
           <li class="no-top-margin bottom-margin-xs">
             <a class="flex items-center unstyled" href="#vero-basics">
-              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/vero-basics.svg" alt="Centralize your data">
+              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/resources/getting-started/icon/vero-basics.svg" alt="Centralize your data">
 
               <span>Vero Basics</span>
             </a>
           </li>
           <li class="no-margin">
             <a class="flex items-center unstyled" href="#tutorials">
-              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/tutorials.svg" alt="Centralize your data">
+              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/resources/getting-started/icon/tutorials.svg" alt="Centralize your data">
 
               <span>Tutorials</span>
             </a>
