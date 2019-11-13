@@ -14,7 +14,7 @@
     <span class="flex items-center feature-label bottom-margin-sm xs-bottom-margin-lg"><a class="unstyled" href="/features">Resources</a>
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg> Getting Started</span>
     <h1 class="hulk bottom-margin-sm">Getting Started</h1>
-    <p class="large bottom-margin-lg">Learn how to master personalized messaging from the Vero Team..</p>
+    <p class="large bottom-margin-lg">Learn how to master personalized messaging from the Vero Team.</p>
 
     <!-- <ul class="unstyled-list flex items-center justify-center subnav">
       <li class="subnav-item right-margin-sm">
@@ -41,7 +41,7 @@
         <ul class="unstyled-list bottom-margin-md md-bottom-margin-xxl">
           <li class="no-top-margin bottom-margin-xs">
             <a class="flex items-center unstyled" href="#vero-basics">
-              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/video-basics.svg" alt="Centralize your data">
+              <img class="align-middle right-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/landing-pages/resources/getting-started/icon/vero-basics.svg" alt="Centralize your data">
 
               <span>Vero Basics</span>
             </a>
@@ -55,9 +55,9 @@
           </li>
         </ul>
 
-        <div class="bg-dark-blue-lighter border-radius-1 padding-md">
-          <p class="bottom-margin-md">Still can’t find what you’re not looking for? Check out our help docs.</p>
-          <a class="btn btn-gray-darker btn-outline" href="">Help docs</a>
+        <div class="subnav-help bg-dark-blue font-white border-radius-1 padding-md">
+          <p class="bottom-margin-md">Still can’t find what you’re looking for? Check out our help docs.</p>
+          <a class="btn btn-white btn-outline" href="">Help docs</a>
         </div>
       </div>
     </div>
@@ -121,7 +121,7 @@
 
       <div class="jump-link" id="tutorials">
         <h2 class="tubs semi-bold bottom-margin-xxs">Tutorials</h2>
-        <p class="medium bottom-margin-lg">Learn to master Vero through our tutorials.</p>
+        <p class="medium bottom-margin-lg">Learn to master Vero through our written tutorials.</p>
 
         <div class="grid grid-thirds">
           <?php
