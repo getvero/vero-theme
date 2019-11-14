@@ -46,13 +46,13 @@
     <h2 class="semi-bold annotation uppercase font-brand-warning center-text bottom-margin-lg">Collection</h2>
     <div class="left primary">
       <ul class="button-list unstyled-list center-text">
-        <li class="padding-xs disabled-button">
+        <li class="padding-md disabled-button">
           <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/segment-logo.png" alt="Segment logo">
           <p class="no-margin top-margin-xs">Connect your data via <span class="semi-bold">Segment.com</span></p>
         </li>
       </ul>
 
-      <div class="center-text padding-xs">OR</div>
+      <div class="center-text padding-md">OR</div>
 
       <pre class="vero-code active-feature" id="feature-collection-js" data-src="/wp-content/themes/vero/snippets/features-collection-js.js"></pre>
       <pre class="vero-code inactive-feature" id="feature-collection-php" data-src="/wp-content/themes/vero/snippets/features-collection-php.php"></pre>
@@ -250,7 +250,7 @@
         </li>
       </ul>
       <ul class="button-list unstyled-list">
-        <li class="padding-xs disabled-button">
+        <li class="padding-md disabled-button">
           <p class="small"><span class="semi-bold">Don’t have your own email provider?</span> No problem, let us send your emails on our managed infrastructure. We partner with Mailgun and can support any custom configuration, including dedicated IPs and custom domains. <a href="mailto:support@getvero.com">Email our Support Team</a>.</p>
         </li>
       </ul>
