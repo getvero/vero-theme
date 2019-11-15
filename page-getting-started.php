@@ -9,27 +9,10 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="getting-started-hero border-bottom-light">
-  <div class="inner xlarge-inner">
+<section class="getting-started-hero">
+  <div class="inner xlarge-inner flush-bottom">
     <h1 class="hulk bottom-margin-sm">Getting Started</h1>
     <p class="large bottom-margin-lg">Learn how to master personalized messaging from the Vero Team.</p>
-
-    <!-- <ul class="unstyled-list flex items-center justify-center subnav">
-      <li class="subnav-item right-margin-sm">
-        <a class="flex flex-column justify-center border-radius-2 border-light unstyled" href="#vero-basics">
-          <img src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/vero-basics.svg" alt="Centralize your data">
-
-          <span class="semi-bold">Vero Basics</span>
-        </a>
-      </li>
-      <li class="subnav-item">
-        <a class="flex flex-column justify-center border-radius-2 border-light unstyled" href="#tutorials">
-          <img src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/getting-started/tutorials.svg" alt="Centralize your data">
-
-          <span class="semi-bold">Tutorials</span>
-        </a>
-      </li>
-    </ul> -->
   </div>
 </section>
 <section class="getting-started-videos border-bottom-light">
@@ -53,7 +36,7 @@
           </li>
         </ul>
 
-        <div class="subnav-help bg-dark-blue font-white border-radius-1 padding-sm md-padding-md">
+        <div class="subnav-help bg-dark-blue font-white border-radius-1 padding-sm sm-padding-md">
           <p class="bottom-margin-md">Still can’t find what you’re looking for? Check out our help docs.</p>
           <a class="btn btn-white btn-outline" href="https://help.getvero.com">Help docs</a>
         </div>
