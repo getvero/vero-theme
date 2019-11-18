@@ -56,13 +56,9 @@
               <div class="video-embed wistia_embed wistia_async_47fshhahqk seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
             </div>
 
-            <div class="wistia_embed wistia_async_47fshhahqk popover=true popoverBorderWidth=2 popoverContent=link bottom-margin-xxs">
-              <h3 class="atomic pointer no-margin">Creating a workflow</h3>
-            </div>
+            <h3 class="atomic bottom-margin-xxs">Creating a workflow</h3>
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/creating-a-new-workflow.html">View help article</a>
-
-            <!-- https://getvero.wistia.com/medias/47fshhahqk -->
           </li>
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/wmvd7zhzp1.jsonp" async></script>
@@ -71,7 +67,6 @@
             </div>
 
             <h3 class="atomic bottom-margin-xxs">Creating a newsletter</h3>
-            <!-- https://getvero.wistia.com/medias/wmvd7zhzp1 -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/newsletter-email-campaigns.html">View help article</a>
           </li>
@@ -82,7 +77,6 @@
             </div>
 
             <h3 class="atomic bottom-margin-xxs">Creating a segment</h3>
-            <!-- https://getvero.wistia.com/medias/dndpvc0epi -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
           </li>
@@ -93,7 +87,6 @@
             </div>
 
             <h3 class="atomic bottom-margin-xxs">Creating an event</h3>
-            <!-- https://getvero.wistia.com/medias/rvd9pidq6p -->
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/adding-a-placeholder-event.html">View help article</a>
           </li>
