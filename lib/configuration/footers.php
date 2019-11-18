@@ -50,6 +50,7 @@
               </li>
               <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
               <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
+              <li><a href="/resources/getting-started">Getting Started</a></li>
               <li><a href="https://help.getvero.com" target="_blank" rel="noopener">Help Center</a></li>
               <li><a href="https://developers.getvero.com" target="_blank" rel="noopener">API Reference</a></li>
               <li><a href="https://releasenotes.getvero.com" target="_blank" rel="noopener">Release Notes</a></li>
