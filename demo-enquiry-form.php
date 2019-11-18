@@ -1,19 +1,19 @@
 <div class="modal modal-demo" id="demo">
-  <div class="inner flush-top flush-bottom center-text bottom-margin-small" id="enquire-intro" >
+  <div class="inner flush-top flush-bottom center-text bottom-margin-sm" id="enquire-intro" >
     <p class="medium">Fill out the form below and our sales team will get back to you promptly. We're keen to learn more about your needs and share if and how Vero can work for you.</p>
   </div>
   <div class="inner flush-top flush-bottom center-text" id="thanks">
-    <h2 class="regular tubs bottom-margin-tiny">Thanks!</h2>
+    <h2 class="regular tubs bottom-margin-xs">Thanks!</h2>
     <p>Hang tight, one of our Customer Success engineers will be in touch soon.</p>
   </div>
-  <form class="bottom-margin-small" id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
-    <div class="grid halfs bottom-margin-small">
+  <form class="bottom-margin-sm" id="high-volume-sender-form" action='https://app.getvero.com/demos' method='post'>
+    <div class="grid halfs bottom-margin-sm">
       <div>
-        <div class="form-group bottom-margin-tiny">
+        <div class="form-group bottom-margin-xs">
           <label>Name: <span>*</span></label>
           <input  class="form-control" id="sender_name" name="name" type="text" autofocus="autofocus">
         </div>
-        <div class="form-group bottom-margin-tiny">
+        <div class="form-group bottom-margin-xs">
           <label>Email: <span>*</span></label>
           <input  class="form-control" id="sender_email_address" name="email" type="text">
         </div>
@@ -23,11 +23,11 @@
         </div>
       </div>
       <div>
-        <div class="form-group bottom-margin-tiny">
+        <div class="form-group bottom-margin-xs">
           <label>Company name: <span>*</span></label>
           <input id="sender_company_name" class="form-control" name="company_name" type="text">
         </div>
-        <div class="form-group bottom-margin-tiny">
+        <div class="form-group bottom-margin-xs">
           <label>How many subscribers do you have?</label>
           <select id="sender_subscribers" class="form-control" name="subscribers">
             <option value="250000">175,000 - 250,000 subscribers</option>
@@ -39,7 +39,7 @@
           </select>
         </div>
         <div class="radio-group">
-          <label class="bottom-margin-tiny">How would you like us to contact you?</label>
+          <label class="bottom-margin-xs">How would you like us to contact you?</label>
 
           <div class="flex items-center">
             <div class="flex items-center">
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="bottom-margin-small center-text">
+    <div class="bottom-margin-sm center-text">
       <input type="hidden" name="redirect_on_success" value="https://www.getvero.com/email-marketing-demo/?thanks=yourock">
       <input class="btn btn-medium btn-success" id="request-demo" type="submit" value="Get in touch">
     </div>

@@ -67,7 +67,7 @@
               <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
             </ul>
             <ul class="unstyled-list" style="flex: 1 1 100%;">
-              <li class="d-inline-block right-margin-tiny">
+              <li class="d-inline-block right-margin-xs">
                 <a href="https://twitter.com/getvero">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
                     <title>Twitter icon footnote</title>
@@ -96,22 +96,22 @@
       <section class="cta border-dark-blue bg-white center-text">
         <div class="cta-wrap">
           <?php if( get_field('type_of_cta') == 'product' ) : ?>
-            <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+            <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-            <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+            <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
             <p class="annotation faded">No credit card details required</p>
           <?php else : ?>
             <div class="js-enquire-menu-2 enquire-menu-2">
-              <h4 class="tubs regular bottom-margin-smedium">Insights, tips and tools for creating better customer messaging and product experiences</h4>
+              <h4 class="tubs regular bottom-margin-md">Insights, tips and tools for creating better customer messaging and product experiences</h4>
             </div>
             <div class="js-thanks-menu-2 thanks-menu-2 hide">
-              <h4 class="atomic regular bottom-margin-small">Almost there!</h4>
+              <h4 class="atomic regular bottom-margin-sm">Almost there!</h4>
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
 
             <form class="js-blog-subscribe-form-2 blog-subscribe-form-2" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-smedium">
+              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-md">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
                 <input name="user[consent_product_updates]" type="hidden" value="true">
@@ -147,7 +147,7 @@
           $category = get_the_category(); ?>
           <div class="post <?php if($featured_image){ ?>has-image<?php } ?>">
             <?php if($featured_image) { ?>
-              <div class="bottom-margin-small">
+              <div class="bottom-margin-sm">
                 <a class="d-block" href="<?php the_permalink(); ?>">
                   <img class="border-radius-1" src="<?php echo $featured_image; ?>">
                 </a>
@@ -155,7 +155,7 @@
             <?php } ?>
 
             <div class="post-body">
-              <span class="d-block badge bottom-margin-tiny"><?php echo $category[0]->cat_name; ?></span>
+              <span class="d-block badge bottom-margin-xs"><?php echo $category[0]->cat_name; ?></span>
               <h4 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
             </div>
           </div>

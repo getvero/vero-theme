@@ -26,22 +26,22 @@
 </section>
 <section class="double-padding" id="careers-why">
   <div class="inner small-inner flush-bottom">
-    <h2 class="chunk regular no-margin bottom-margin-large">Be empowered to do your best work</h2>
+    <h2 class="chunk regular no-margin bottom-margin-xl">Be empowered to do your best work</h2>
   </div>
   <div class="inner large-inner flush-top flush-bottom">
     <ul class="unstyled-list grid grid-thirds">
       <li class="no-margin">
-        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/rubix.svg" alt="work on hard problems">
+        <img class="bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/careers/rubix.svg" alt="work on hard problems">
         <h3 class="atomic semi-bold">Work on hard problems</h3>
         <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
       </li>
       <li class="no-margin">
-        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/meteor.svg" alt="Make an impact">
+        <img class="bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/careers/meteor.svg" alt="Make an impact">
         <h3 class="atomic semi-bold">Make an impact</h3>
         <p>We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
       </li>
       <li class="no-margin">
-        <img class="bottom-margin-small" src="/wp-content/themes/vero/assets/dist/images/careers/grow.svg" alt="Opportunities to grow">
+        <img class="bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/careers/grow.svg" alt="Opportunities to grow">
         <h3 class="atomic semi-bold">Opportunities to grow</h3>
         <p>We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
       </li>
@@ -49,7 +49,7 @@
   </div>
 </section>
 <section id="careers-vibe" class="double-padding">
-  <div class="inner small-inner bottom-padding-medium">
+  <div class="inner small-inner bottom-padding-lg">
     <h2 class="chunk regular">Live to work, not the other way around</h2>
     <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
   </div>
@@ -68,7 +68,7 @@
         <p>
           <q>Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
         </p>
-        <div class="top-margin-small">
+        <div class="top-margin-sm">
           <div class="pull-left rory small-profile-image"></div>
           <h4>Rory Colsell</h4>
           <p class="no-top-margin">Product Design</p>
@@ -85,7 +85,7 @@
         <p>
           <q>There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
         </p>
-        <div class="top-margin-small">
+        <div class="top-margin-sm">
           <div class="pull-left reba small-profile-image"></div>
           <h4>Reba Moyes</h4>
           <p class="no-top-margin">Support</p>
@@ -131,7 +131,7 @@
   </div>
 </section>
 <section id="careers-remote" class="double-padding">
-  <div class="inner small-inner bottom-padding-small">
+  <div class="inner small-inner bottom-padding-xs">
     <h2 class="chunk regular">Be where you want to be</h2>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>

@@ -10,10 +10,10 @@
   include 'pages-shared/static-header.php';
 ?>
 <section id="vero-integration-heading">
-  <div class="inner small-inner center-text bottom-padding-large">
-    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
+  <div class="inner small-inner center-text bottom-padding-xl">
+    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
-    <div class="integration-logos bottom-margin-large">
+    <div class="integration-logos bottom-margin-xl">
       <div class="logo-container vero">
         <img src="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
       </div>
@@ -27,7 +27,7 @@
 
     <h1 class="biggie semi-bold">Connect Vero and Stitch</h1>
 
-    <p class="no-top-margin bottom-margin-large large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
+    <p class="no-top-margin bottom-margin-xl large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Stitch in minutes</p>
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
@@ -35,31 +35,31 @@
 </section>
 <section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
-    <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
-    <p class="large no-top-margin bottom-margin-large">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
+    <h2 class="chunk regular bottom-margin-sm">All your data and insights in one place</h2>
+    <p class="large no-top-margin bottom-margin-xl">Stitch delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/data-pipeline.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/stitch/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section id="vero-stitch-info">
-  <div class="inner medium-inner bottom-padding-small">
+  <div class="inner medium-inner bottom-padding-xs">
     <div class="integration-platform-info stitch">
       <div class="left">
-        <h2 class="medium regular bottom-margin-tiny">What is Stitch?</h2>
+        <h2 class="medium regular bottom-margin-xs">What is Stitch?</h2>
         <p class="medium no-bottom-margin">Stitch is a modern extract, transform and load (ETL) platform for rapidly moving data from it's origin source to data warehouses such as Amazon Redshift, Google BigQuery, Snowflake and others.</p>
       </div>
       <div class="right">
-        <a class="pill pill-primary-light" href="https://www.stitchdata.com/" target="_blank">Website</a>
-        <a class="pill pill-primary-light" href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a>
+        <a class="pill pill--primary md-bottom-margin-xs" href="https://www.stitchdata.com/" target="_blank">Website</a>
+        <a class="pill pill--primary" href="https://help.getvero.com/articles/integrations/integrate-vero-and-stitch-data.html" target="_blank">Documentation</a>
       </div>
     </div>
   </div>
 </section>
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
-    <h2 class="chunk regular center-text bottom-margin-large">Connecting Vero and Stitch helps your team make better decisions</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl">Connecting Vero and Stitch helps your team make better decisions</h2>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/combine.svg" alt="Stitch data together">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/combine.svg" alt="Stitch data together">
         <div class="right">
           <h3 class="medium regular">Stitch data together</h3>
           <p>Vero's <a href="/reporting">email campaign reporting</a> is powerful, but there are certain reports that can only be generated when you bring your data together. Combine data to get better insights.</p>
@@ -73,7 +73,7 @@
       </div>
         </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/history.svg" alt="A historical record">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/history.svg" alt="A historical record">
         <div class="right">
           <h3 class="medium regular">A historical record</h3>
           <p>By warehousing the email interactions that originate in Vero you can backup and store a gospel record of important customer interactions.</p>
@@ -93,7 +93,7 @@
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
-      <p class="medium top-margin-medium no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.<br><br>
+      <p class="medium top-margin-lg no-bottom-margin">Vero’s integration with Stitch allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.<br><br>
 
       Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
@@ -111,9 +111,9 @@
 </section>
 <section class="cta border-dark-blue bg-white center-text">
   <div class="cta-wrap">
-    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

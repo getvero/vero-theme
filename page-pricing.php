@@ -12,21 +12,21 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero" id="pricing-hero" >
   <div class="inner large-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold bottom-margin-large">A pricing plan that helps you scale your business</h1>
+    <h1 class="biggie semi-bold bottom-margin-xl">A pricing plan that helps you scale your business</h1>
   </div>
   <div class="inner xlarge-inner flush-top">
-    <h2 class="atomic regular bottom-margin-large center-text">How many subscribers do you have?</h2>
+    <h2 class="atomic regular bottom-margin-xl center-text">How many subscribers do you have?</h2>
 
-    <div class="flex price-scale top-margin-micro bottom-margin-large center-text">
+    <div class="flex price-scale top-margin-xxs bottom-margin-xl center-text">
       <div class="price-slider">
         <div id="js-price-slider"></div>
         <div id="js-price-pips-values"></div>
       </div>
     </div>
 
-    <div class="pricing-footer border-light border-radius-2 padding-medium flex items-center">
+    <div class="pricing-footer border-light border-radius-2 padding-lg flex items-center">
       <div class="left">
-        <p class="no-top-margin bottom-margin-micro"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
+        <p class="no-top-margin bottom-margin-xxs"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
         <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
         <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
       </div>
@@ -44,10 +44,10 @@ include 'pages-shared/static-header.php';
   <div class="inner xlarge-inner center-text">
     <h2 class="tubs regular">Simple, flexible pricing options</h2>
     <div class="grid grid-auto">
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
+        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
 
-        <header class="flex justify-center bottom-margin-tiny">
+        <header class="flex justify-center bottom-margin-xs">
           <h3 class="micro semi-bold medium no-bottom-margin">Dedicated IP</h3>
 
           <!-- <span class="self-center">$79 per month</span> -->
@@ -56,20 +56,20 @@ include 'pages-shared/static-header.php';
         <p class="no-top-margin">Send your emails from a dedicated server</p>
         <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-email.svg" alt="BYO email provider">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
+        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-email.svg" alt="BYO email provider">
 
-        <header class="flex justify-center bottom-margin-tiny">
+        <header class="flex justify-center bottom-margin-xs">
           <h3 class="micro semi-bold medium no-bottom-margin">BYO email platform</h3>
         </header>
 
         <p class="no-top-margin">We'll track and centralize your reporting</p>
         <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
       </div>
-      <div class="border-light border-radius-2 bg-white top-padding-small horizontal-padding-large bottom-padding-medium">
-        <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-discount.svg" alt="Pay up front">
+      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
+        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-discount.svg" alt="Pay up front">
 
-        <header class="flex justify-center bottom-margin-tiny">
+        <header class="flex justify-center bottom-margin-xs">
           <h3 class="micro semi-bold medium no-bottom-margin">Save 15%</h3>
         </header>
 
@@ -80,29 +80,29 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section id="pricing-included">
-  <div class="inner medium-inner top-padding-large bottom-padding-large">
+  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-support.svg" width="46" alt="24-hour support">
-        <h3 class="regular bottom-margin-tiny">24-hour support</h3>
+        <h3 class="regular bottom-margin-xs">24-hour support</h3>
         <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help you</p>
       </li>
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-encrypt.svg" width="46" alt="Data security">
-        <h3 class="regular bottom-margin-tiny">Data security</h3>
+        <h3 class="regular bottom-margin-xs">Data security</h3>
         <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
       </li>
       <li class="no-bottom-margin">
         <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-unlimited.svg" width="46" alt="Unlimited everything">
-        <h3 class="regular bottom-margin-tiny">Unlimited everything</h3>
+        <h3 class="regular bottom-margin-xs">Unlimited everything</h3>
         <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
       </li>
     </ul>
   </div>
 </section>
 <section class="bg-dark-blue-gradient" id="pricing-logos">
-  <div class="inner medium-inner top-padding-large bottom-padding-medium center-text">
-    <h3 class="section-label bottom-margin-small font-white">Trusted by companies globally</h5>
+  <div class="inner medium-inner top-padding-xl bottom-padding-lg center-text">
+    <h3 class="section-label bottom-margin-sm font-white">Trusted by companies globally</h5>
 
     <ul class="unstyled-list logos-list flex">
       <li class="logos-list-item logos-list-item-big no-top-margin">
@@ -135,9 +135,9 @@ include 'pages-shared/static-header.php';
 </section>
 <section id="pricing-faq">
   <div class="inner">
-    <h2 class="chunk regular center-text bottom-margin-large jump-link">Frequently Asked Questions</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl jump-link">Frequently Asked Questions</h2>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
@@ -149,7 +149,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
@@ -161,7 +161,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
@@ -172,7 +172,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
@@ -184,7 +184,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="question-block bottom-margin-medium">
+    <div class="question-block bottom-margin-lg">
       <div class="js-toggle flex question">
         <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
@@ -198,9 +198,9 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="cta border-dark-blue bg-white center-text">
   <div class="cta-wrap">
-    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

@@ -11,9 +11,9 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text">
-    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-medium">Integrations</h2>
+    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
-    <div class="integration-logos bottom-margin-large">
+    <div class="integration-logos bottom-margin-xl">
       <a class="logo-container vero" href="https://www.getvero.com/">
        <img src="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
       </a>
@@ -27,7 +27,7 @@
 
     <h1 class="biggie semi-bold">Connect Vero and Snowplow</h1>
 
-    <p class="no-top-margin bottom-margin-large large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
+    <p class="no-top-margin bottom-margin-xl large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Snowplow in minutes</p>
     <a href="https://app.getvero.com/signup" class="btn btn-success btn-large btn-wide">Get started</a>
@@ -35,31 +35,31 @@
 </section>
 <section class="double-padding bg-offwhite">
   <div class="inner small-inner center-text">
-    <h2 class="chunk regular bottom-margin-small">All your data and insights in one place</h2>
-    <p class="large no-top-margin bottom-margin-large">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
+    <h2 class="chunk regular bottom-margin-sm">All your data and insights in one place</h2>
+    <p class="large no-top-margin bottom-margin-xl">Snowplow delivers your data to your data warehouse. With all your data in one place, you can perform any analysis and ask any question of your data using your preferred analytics tool.</p>
     <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/data-pipeline.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/data-pipeline@2x.png" alt="Data Pipeline">
   </div>
 </section>
 <section>
-  <div class="inner medium-inner bottom-padding-small">
+  <div class="inner medium-inner bottom-padding-xs">
     <div class="integration-platform-info">
       <div class="left">
-        <h2 class="medium regular bottom-margin-tiny">What is Snowplow?</h2>
+        <h2 class="medium regular bottom-margin-xs">What is Snowplow?</h2>
         <p class="medium no-bottom-margin">Snowplow collects and processes data in batch or real-time configurations from multiple sources (including Vero, Stripe, and Zendesk) and loads your data into your data warehouse (such as Amazon Redshift or Snowflake).</p>
       </div>
       <div class="right">
-        <a class="pill pill-primary-light" href="https://snowplowanalytics.com/products/" target="_blank">Website</a>
-        <a class="pill pill-primary-light" href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a>
+        <a class="pill pill--primary md-bottom-margin-xs" href="https://snowplowanalytics.com/products/" target="_blank">Website</a>
+        <a class="pill pill--primary" href="https://help.getvero.com/articles/integrations/integrate-vero-and-snowplow.html" target="_blank">Documentation</a>
       </div>
     </div>
   </div>
 </section>
 <section id="features-more" class="border-bottom-light">
   <div class="inner medium-inner">
-    <h2 class="chunk regular center-text bottom-margin-large">Why connect Vero and Snowplow</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl">Why connect Vero and Snowplow</h2>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/custom-reports.svg" alt="Build custom reports">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/custom-reports.svg" alt="Build custom reports">
         <div class="right">
           <h3 class="medium regular">Build custom reports</h3>
           <p>Send data via Snowplow to your data warehouse and create custom reports with popular charting and BI tools like <a href="https://modeanalytics.com">Mode Analytics</a>, <a href="https://looker.com">Looker</a> and <a href="https://www.periscopedata.com">Periscope Data</a>.</p>
@@ -73,7 +73,7 @@
         </div>
       </li>
       <li>
-        <img class="right-margin-small" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/faster.svg" alt="Move faster">
+        <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/faster.svg" alt="Move faster">
           <div class="right">
             <h3 class="medium regular">Move faster</h3>
             <p>Writing middleware to capture webhooks and load data into your warehouse is complex and time-consuming. Snowplow handles the hard work for you.</p>
@@ -92,8 +92,8 @@
 <section id="vero-segment-test-event" class="feature-section">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
-      <h2 class="chunk regular bottom-margin-medium">Meaningful and actionable insights</h2>
-      <p class="medium no-top-margin bottom-margin-small">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
+      <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
+      <p class="medium no-top-margin bottom-margin-sm">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
       <p class="medium no-bottom-margin">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
     </div>
     <div class="right flex md-justify-end">
@@ -103,9 +103,9 @@
 </section>
 <section class="cta border-dark-blue bg-white center-text">
   <div class="cta-wrap">
-    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

@@ -26,7 +26,7 @@ add_action( 'genesis_before_content', 'generate_resource_header', 5 );
 function generate_resource_header() {
   global $post;
   ?>
-  <header class="entry-header bottom-margin-small">
+  <header class="entry-header bottom-margin-sm">
     <h2 class="micro regular no-margin">Terms and Policies</h2>
   </header>
   <?php

@@ -43,7 +43,7 @@
   <div class="inner center-text">
     <h2 class="tubs regular regular center-text">Track your customers language in Vero like this:</h2>
 
-    <div class="bottom-margin-tiny" id="data-code-block">
+    <div class="bottom-margin-xs" id="data-code-block">
         <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
 vero.users.track!({
   id:    '123',
@@ -61,9 +61,9 @@ vero.users.track!({
 </section>
 <section class="cta border-dark-blue bg-white center-text">
   <div class="cta-wrap">
-    <h4 class="regular bottom-margin-smedium">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-smedium" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
