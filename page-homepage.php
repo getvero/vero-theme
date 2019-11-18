@@ -22,7 +22,7 @@
           <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
           <div class="regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim">
-              <img class="align-middle right-margin-xxs" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+              <img class="align-middle" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
 
               <span class="font-brand-gray-dark">Watch a video</span>
             </div>
