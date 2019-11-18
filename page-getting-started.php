@@ -17,7 +17,7 @@
 </section>
 <section class="getting-started-videos border-bottom-light">
   <div class="inner xlarge-inner w-sidebar w-sidebar--getting-started-videos">
-    <div class="aside md-right-margin-xl">
+    <div class="aside">
       <div class="subnav bg-white border-light border-radius-2">
         <ul class="unstyled-list bottom-margin-md md-bottom-margin-xxl">
           <li class="no-top-margin bottom-margin-xs">
@@ -73,7 +73,7 @@
             <h3 class="atomic bottom-margin-xxs">Creating a newsletter</h3>
             <!-- https://getvero.wistia.com/medias/wmvd7zhzp1 -->
 
-            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
+            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/newsletter-email-campaigns.html">View help article</a>
           </li>
           <li class="video-item">
             <script src="//fast.wistia.com/embed/medias/dndpvc0epi.jsonp" async></script>
@@ -95,7 +95,7 @@
             <h3 class="atomic bottom-margin-xxs">Creating an event</h3>
             <!-- https://getvero.wistia.com/medias/rvd9pidq6p -->
 
-            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/create-a-segment.html">View help article</a>
+            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/adding-a-placeholder-event.html">View help article</a>
           </li>
         </ul>
       </div>
