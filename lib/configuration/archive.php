@@ -100,14 +100,14 @@ function add_featured_post() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-small">
+                <div class="entry-meta flex items-center bottom-margin-sm">
                   <span class="badge"><?php get_primary_category(); ?></span>
                 </div>
 
                 <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -171,14 +171,14 @@ function add_other_posts() {
 
               <div class="entry-body">
                 <div class="entry-header">
-                  <div class="entry-meta flex items-center bottom-margin-small">
+                  <div class="entry-meta flex items-center bottom-margin-sm">
                     <span class="badge"><?php get_primary_category(); ?></span>
                   </div>
 
                   <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
                 </div>
 
-                <div class="entry-content bottom-margin-smedium">
+                <div class="entry-content bottom-margin-md">
                   <?php if ( get_field('custom_excerpt') ): ?>
                     <p><?php the_field('custom_excerpt') ?></p>
                   <?php else: ?>
@@ -231,14 +231,14 @@ function add_news_and_updates_posts() {
           <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="entry-body">
               <div class="entry-header">
-                <div class="entry-meta flex items-center bottom-margin-tiny">
+                <div class="entry-meta flex items-center bottom-margin-xs">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -307,7 +307,7 @@ function add_tutorials_posts() {
                 <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
               </div>
 
-              <div class="entry-content bottom-margin-smedium">
+              <div class="entry-content bottom-margin-md">
                 <?php if ( get_field('custom_excerpt') ): ?>
                   <p><?php the_field('custom_excerpt') ?></p>
                 <?php else: ?>
@@ -388,9 +388,9 @@ function add_featured_post_to_category() {
           </div>
 
           <div class="entry-body">
-            <div class="entry-header bottom-margin-small">
+            <div class="entry-header bottom-margin-sm">
               <?php if ( is_category('news-updates') ): ?>
-                <div class="entry-meta  bottom-margin-small">
+                <div class="entry-meta  bottom-margin-sm">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
               <?php endif; ?>
@@ -461,7 +461,7 @@ function custom_category_loop() {
         <div class="entry-body">
           <div class="entry-header">
             <?php if ( is_category('news-updates') ): ?>
-              <div class="entry-meta flex items-center bottom-margin-small">
+              <div class="entry-meta flex items-center bottom-margin-sm">
                 <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
               </div>
             <?php endif; ?>
@@ -469,7 +469,7 @@ function custom_category_loop() {
             <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
           </div>
 
-          <div class="entry-content bottom-margin-smedium">
+          <div class="entry-content bottom-margin-md">
             <?php if ( get_field('custom_excerpt') ): ?>
               <p><?php the_field('custom_excerpt') ?></p>
             <?php else: ?>

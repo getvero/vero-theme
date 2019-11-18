@@ -62,7 +62,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <a class="unstyled" href="/resources/category/data-management">Data Management</a>
       </li>
       <li>
-        <a class="unstyled" href="/resources/category/tutorials">Tutorials <sup class="pill pill-primary pill-small left-margin-micro">New</sup></a>
+        <a class="unstyled" href="/resources/category/tutorials">Tutorials <sup class="pill pill--primary pill--small left-margin-xxs">New</sup></a>
       </li>
     </ul>
 
@@ -83,7 +83,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
             <div class="js-thanks-menu thanks-menu hide">
-              <h3 class="atomic regular bottom-margin-small">Almost there!</h3>
+              <h3 class="atomic regular bottom-margin-sm">Almost there!</h3>
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
           </div>
@@ -102,7 +102,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
         </div>
 
-        <a class="show annotation underline-link xs-hide top-margin-smedium" href="/">Back to Vero</a>
+        <a class="show annotation underline-link xs-hide top-margin-md" href="/">Back to Vero</a>
       </div>
     </div>
 
@@ -177,7 +177,7 @@ function workflows_banner(){
     ?>
       <div class="homepage-banner">
         <a class="flex items-center border-bottom-light" href="/workflows">
-          <p class="large banner-heading no-margin right-margin-medium">Introducing <span class="bold">Workflows</span></p>
+          <p class="large banner-heading no-margin right-margin-lg">Introducing <span class="bold">Workflows</span></p>
           <p class="regular banner-sub-heading no-margin">A brand new way to design, visualize and manage your customer journeys!</p>
           <span class="regular banner-button">Find out more</span>
           <span class="regular banner-arrow">

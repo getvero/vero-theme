@@ -12,14 +12,14 @@
 <section class="border-bottom-light" id="job-hero">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
-      <img class="bottom-margin-tiny" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+      <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
-      <h1 class="biggie semi-bold bottom-margin-small">Empower your team</h1>
+      <h1 class="biggie semi-bold bottom-margin-sm">Empower your team</h1>
 
-      <p class="tubs bottom-margin-medium">Empower your marketing team to create and test customer experiences using real-time data</p>
+      <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn-success btn-large md-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -30,7 +30,7 @@
   <div class="inner large-inner">
     <div class="flex flex-wrap justify-center">
       <div class="col-aside">
-        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-smedium">
+        <div class="border-light border-radius-2 bg-white vertical-padding-tiny horizontal-padding-md">
           <img class="full-width" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
         </div>
       </div>
@@ -50,13 +50,13 @@
   <div class="inner xlarge-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-smedium">Seamlessly integrate Vero with your software</h2>
+        <h2 class="chunk regular bottom-margin-md">Seamlessly integrate Vero with your software</h2>
 
         <p class="medium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
         <p class="medium">Quickly connect Vero with customer data platforms like Segment, and native libraries for Ruby, PHP, Python, and more.</p>
 
-        <p class="medium bottom-margin-smedium">Easily store, track and segment customer properties and customer activity.</p>
+        <p class="medium bottom-margin-md">Easily store, track and segment customer properties and customer activity.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
       </div>
@@ -70,14 +70,14 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner xlarge-inner">
-    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-medium">
-      <h2 class="chunk regular bottom-margin-small">Visibility and clarity</h2>
+    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
+      <h2 class="chunk regular bottom-margin-sm">Visibility and clarity</h2>
 
       <p class="large">Vero bridges the gap between your engineering and marketing teams</p>
     </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
-        <p class="medium bottom-margin-smedium">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
+        <p class="medium bottom-margin-md">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
       </div>
@@ -93,9 +93,9 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-smedium">Create and iterate, faster</h2>
+        <h2 class="chunk regular bottom-margin-md">Create and iterate, faster</h2>
 
-        <p class="medium bottom-margin-smedium">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
+        <p class="medium bottom-margin-md">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
 
         <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
       </div>
@@ -112,9 +112,9 @@
 ?>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-small">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-small" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
