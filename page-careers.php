@@ -178,29 +178,28 @@
 <section id="careers-job-listings" class="double-padding">
   <div class="inner small-inner">
     <h2 class="chunk regular">See where you fit in</h2>
-    <!-- <p class="medium">We’ll be adding new roles soon!</p> -->
 
-    <p class="medium bottom-margin-smedium">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>   
-      
-    <ul class="unstyled-list lined-list medium bottom-margin-medium"> 
-      <li class="no-margin">  
-        <a class="semi-bold vertical-padding-small flex" href="https://apply.workable.com/getvero/j/2A9CA0E8B3/" target="_blank">  
+    <p class="medium bottom-margin-md">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
+
+    <ul class="unstyled-list lined-list medium bottom-margin-md">
+      <li class="no-margin">
+        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/2A9CA0E8B3/" target="_blank">
           Product Marketing Manager
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow"> 
-        </a>  
-      </li> 
-      <li class="no-margin">  
-        <a class="semi-bold vertical-padding-small flex" href="https://apply.workable.com/getvero/j/C36A5B207A/" target="_blank">  
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
+        </a>
+      </li>
+      <li class="no-margin">
+        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/C36A5B207A/" target="_blank">
           Senior Engineer - Cloud Infrastructure (AWS)
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow"> 
-        </a>  
-      </li> 
-        <li class="no-margin">  
-        <a class="semi-bold vertical-padding-small flex" href="https://apply.workable.com/getvero/j/AF6008C71F/" target="_blank">  
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
+        </a>
+      </li>
+        <li class="no-margin">
+        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/AF6008C71F/" target="_blank">
           Front-end Developer (Ember.js)
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow"> 
-        </a>  
-      </li> 
+          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
+        </a>
+      </li>
     </ul>
 
     <p class="medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
