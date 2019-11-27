@@ -6,24 +6,44 @@
     $classes[] = 'glossary';
     return $classes;
   }
-
   include 'pages-shared/static-header.php';
 ?>
-<section class="getting-started-hero">
-  <div class="inner xlarge-inner flush-bottom">
+
+<section>
+  <div class="inner large-inner flush-bottom">
     <h1 class="hulk bottom-margin-sm">Glossary</h1>
-    <p class="large bottom-margin-lg">Learn how to master personalized messaging from the Vero Team.</p>
+    <p class="large bottom-margin-lg">Knowledge is power, and we'd like to help demystify all the jargon on your path to gaining email marketing prowess.</p>
   </div>
 </section>
-<section class="bg-gray-lighter">
-  <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Scale personalized customer messaging</h4>
-
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
-
-    <p class="annotation faded">No credit card details required</p>
+<section class="double-padding">
+  <div class="inner large-inner">
+    <div class="w-sidebar w-sidebar--glossary">
+      <div class="aside">
+        <ul class="unstyled-list">
+          <li>
+            <a href="#A">A</a>
+          </li>
+          <li>
+            <a href="#B">B</a>
+          </li>
+          <li>
+            <a href="#C">C</a>
+          </li>
+          <li>
+            <a href="#D">D</a>
+          </li>
+          <li>
+            <a href="#E">E</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <?php the_content(); ?>
+      </div>
+    </div>
   </div>
 </section>
+
 <?php
   no_content_genesis_footer();
 ?>
