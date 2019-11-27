@@ -90,6 +90,26 @@
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/adding-a-placeholder-event.html">View help article</a>
           </li>
+          <li class="video-item">
+            <script src="//fast.wistia.com/embed/medias/dzmad4seex.jsonp" async></script>
+            <div class="video-ratio bottom-margin-sm">
+              <div class="video-embed wistia_embed wistia_async_/dzmad4seex seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
+            </div>
+
+            <h3 class="atomic bottom-margin-xxs">Reporting</h3>
+
+            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/reports-overview-for-all-campaigns.html">View help article</a>
+          </li>
+          <li class="video-item">
+            <script src="//fast.wistia.com/embed/medias/apkgmrteqs.jsonp" async></script>
+            <div class="video-ratio bottom-margin-sm">
+              <div class="video-embed wistia_embed wistia_async_/apkgmrteqs seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
+            </div>
+
+            <h3 class="atomic bottom-margin-xxs">Importing Data</h3>
+
+            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/adding-a-placeholder-event.html">View help article</a>
+          </li>
         </ul>
       </div>
 
