@@ -108,7 +108,7 @@
 
             <h3 class="atomic bottom-margin-xxs">Importing Data</h3>
 
-            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/adding-a-placeholder-event.html">View help article</a>
+            <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/import-a-list-of-customers-via-csv.html">View help article</a>
           </li>
         </ul>
       </div>
