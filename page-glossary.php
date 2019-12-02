@@ -14,7 +14,7 @@
     <div class="flex flex-column md-flex-row items-center">
       <div class="aside">
         <h1 class="hulk bottom-margin-sm">Glossary</h1>
-        <p class="large bottom-margin-lg">Knowledge is power, and we'd like to help demystify all the jargon on your path to gaining email marketing prowess.</p>
+        <p class="large bottom-margin-lg">Knowledge is power. So let's demystify all the jargon you'll come across on your path to becoming a great email marketer.</p>
       </div>
 
       <div class="main">
