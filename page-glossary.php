@@ -9,16 +9,24 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section>
-  <div class="inner large-inner flush-bottom">
-    <h1 class="hulk bottom-margin-sm">Glossary</h1>
-    <p class="large bottom-margin-lg">Knowledge is power, and we'd like to help demystify all the jargon on your path to gaining email marketing prowess.</p>
+<section class="glossary-hero">
+  <div class="inner large-inner">
+    <div class="flex flex-column md-flex-row items-center">
+      <div class="aside">
+        <h1 class="hulk bottom-margin-sm">Glossary</h1>
+        <p class="large bottom-margin-lg">Knowledge is power, and we'd like to help demystify all the jargon on your path to gaining email marketing prowess.</p>
+      </div>
+
+      <div class="main">
+        <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/resources/glossary/hero.svg" alt="Glossary">
+      </div>
+    </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bg-dark-blue-lighter">
   <div class="inner large-inner">
     <div class="w-sidebar w-sidebar--glossary">
-      <div class="aside">
+      <div class="aside hide md-show">
         <ul class="unstyled-list glossary-alphabet">
           <li>
             <a href="#A">A</a>
@@ -36,59 +44,77 @@
             <a href="#E">E</a>
           </li>
           <li>
-            <a href="#E">F</a>
+            <a href="#F">F</a>
           </li>
           <li>
-            <a href="#E">G</a>
+            <a href="#G">G</a>
           </li>
           <li>
-            <a href="#E">H</a>
+            <a href="#H">H</a>
           </li>
           <li>
             <a href="#E">E</a>
           </li>
           <li>
-            <a href="#E">F</a>
+            <a href="#F">F</a>
           </li>
           <li>
-            <a href="#E">G</a>
+            <a href="#G">G</a>
           </li>
           <li>
-            <a href="#E">H</a>
+            <a href="#H">H</a>
           </li>
           <li>
-            <a href="#E">I</a>
+            <a href="#I">I</a>
           </li>
           <li>
-            <a href="#E">J</a>
+            <a href="#J">J</a>
           </li>
           <li>
-            <a href="#E">K</a>
+            <a href="#K">K</a>
           </li>
           <li>
-            <a href="#E">L</a>
+            <a href="#L">L</a>
           </li>
           <li>
-            <a href="#E">M</a>
+            <a href="#M">M</a>
           </li>
           <li>
-            <a href="#E">N</a>
+            <a href="#N">N</a>
           </li>
           <li>
-            <a href="#E">O</a>
+            <a href="O">O</a>
           </li>
           <li>
-            <a href="#E">P</a>
+            <a href="#P">P</a>
           </li>
           <li>
-            <a href="#E">Q</a>
+            <a href="#Q">Q</a>
           </li>
           <li>
-            <a href="#E">R</a>
+            <a href="#R">R</a>
           </li>
+          <li>
+            <a href="#S">S</a>
+          </li>
+          <li>
+            <a href="#T">T</a>
+          </li>
+          <li>
+            <a href="#U">U</a>
+          </li>
+          <li>
+            <a href="#V">V</a>
+          </li>
+          <li>
+            <a href="#E">W</a>
+          </li>
+          <li>X</li>
+          <li>Y</li>
+          <li>Z</li>
         </ul>
       </div>
-      <div class="main">
+      <div class="main glossary-list md-left-margin-xxl">
         <?php the_content(); ?>
       </div>
     </div>
