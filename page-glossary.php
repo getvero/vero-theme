@@ -82,15 +82,11 @@
           <li>
             <a href="#N">N</a>
           </li>
-          <li>
-            <a href="O">O</a>
-          </li>
+          <li class="faded">O</li>
           <li>
             <a href="#P">P</a>
           </li>
-          <li>
-            <a href="#Q">Q</a>
-          </li>
+          <li class="faded">Q</li>
           <li>
             <a href="#R">R</a>
           </li>
@@ -100,18 +96,14 @@
           <li>
             <a href="#T">T</a>
           </li>
+          <li class="faded">U</li>
+          <li class="faded">V</li>
           <li>
-            <a href="#U">U</a>
+            <a href="#W">W</a>
           </li>
-          <li>
-            <a href="#V">V</a>
-          </li>
-          <li>
-            <a href="#E">W</a>
-          </li>
-          <li>X</li>
-          <li>Y</li>
-          <li>Z</li>
+          <li class="faded">X</li>
+          <li class="faded">Y</li>
+          <li class="faded">Z</li>
         </ul>
       </div>
       <div class="main glossary-list md-left-margin-xxl">
