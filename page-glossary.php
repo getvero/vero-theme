@@ -10,7 +10,7 @@
 ?>
 
 <section class="glossary-hero">
-  <div class="inner large-inner">
+  <div class="inner large-inner top-padding-lg">
     <div class="flex flex-column md-flex-row items-center">
       <div class="aside">
         <h1 class="hulk bottom-margin-sm">Glossary</h1>
@@ -43,12 +43,8 @@
           <li>
             <a href="#E">E</a>
           </li>
-          <li>
-            <a href="#F">F</a>
-          </li>
-          <li>
-            <a href="#G">G</a>
-          </li>
+          <li>F</li>
+          <li>G</li>
           <li>
             <a href="#H">H</a>
           </li>
