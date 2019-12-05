@@ -110,6 +110,14 @@
 
             <a class="annotation pill pill--primary" href="https://help.getvero.com/articles/import-a-list-of-customers-via-csv.html">View help article</a>
           </li>
+          <li class="video-item">
+            <script src="//fast.wistia.com/embed/medias/m1nepxpzwg.jsonp" async></script>
+            <div class="video-ratio bottom-margin-sm">
+              <div class="video-embed wistia_embed wistia_async_/m1nepxpzwg seo=false videoFoam=true popover=true popoverAnimateThumbnail=true"></div>
+            </div>
+
+            <h3 class="atomic bottom-margin-xxs">Editing Content</h3>
+          </li>
         </ul>
       </div>
 
