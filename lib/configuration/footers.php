@@ -94,17 +94,17 @@
 
   function blog_cta() {
     ?>
-      <section class="cta border-dark-blue bg-white center-text">
-        <div class="cta-wrap">
+      <section class="cta bg-gray-lighter">
+        <div class="inner tiny-inner center-text">
           <?php if( get_field('type_of_cta') == 'product' ) : ?>
-            <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+            <h4 class="tubs semi-bold bottom-margin-md">Vero helps marketing and engineering teams to scale their personalized customer messaging</h4>
 
             <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
 
             <p class="annotation faded">No credit card details required</p>
           <?php else : ?>
             <div class="js-enquire-menu-2 enquire-menu-2">
-              <h4 class="tubs regular bottom-margin-md">Insights, tips and tools for creating better customer messaging and product experiences</h4>
+              <h4 class="tubs semi-bold bottom-margin-md">Insights, tips and tools for creating better customer messaging and product experiences</h4>
             </div>
             <div class="js-thanks-menu-2 thanks-menu-2 hide">
               <h4 class="atomic regular bottom-margin-sm">Almost there!</h4>

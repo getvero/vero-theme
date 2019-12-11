@@ -37,15 +37,23 @@ function force_full_width_on_posts( $options ) {
 
 function add_shares_to_post() {
   global $post;
-  if( is_blog_post_or_guide_or_tutorial() ){
+  if( is_blog_post_or_guide_or_tutorial() ) {
     ?>
       <?php echo naked_social_share_buttons(); ?>
     <?php
   }
 }
 
+function generate_table_of_contents() {
+  if( is_blog_post_or_guide_or_tutorial() ) {
+    if ( get_field( 'table_of_contents' ) ) {
+      the_field( 'table_of_contents' );
+    }
+  }
+}
+
 function post_remove_footer() {
-  if( is_blog_post_or_guide_or_tutorial() ){
+  if( is_blog_post_or_guide_or_tutorial() ) {
     remove_action( 'genesis_entry_footer', 'add_shares' );
   }
 }
