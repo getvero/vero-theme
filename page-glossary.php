@@ -43,35 +43,23 @@
           <li>
             <a href="#E">E</a>
           </li>
-          <li>F</li>
-          <li>G</li>
+          <li class="faded">F</li>
+          <li class="faded">G</li>
           <li>
             <a href="#H">H</a>
           </li>
           <li>
             <a href="#E">E</a>
           </li>
-          <li>
-            <a href="#F">F</a>
-          </li>
-          <li>
-            <a href="#G">G</a>
-          </li>
+          <li class="faded">F</li>
+          <li class="faded">G</li>
           <li>
             <a href="#H">H</a>
           </li>
-          <li>
-            <a href="#I">I</a>
-          </li>
-          <li>
-            <a href="#J">J</a>
-          </li>
-          <li>
-            <a href="#K">K</a>
-          </li>
-          <li>
-            <a href="#L">L</a>
-          </li>
+          <li class="faded">I</li>
+          <li class="faded">J</li>
+          <li class="faded">K</li>
+          <li class="faded">L</li>
           <li>
             <a href="#M">M</a>
           </li>
@@ -79,19 +67,13 @@
             <a href="#N">N</a>
           </li>
           <li class="faded">O</li>
-          <li>
-            <a href="#P">P</a>
-          </li>
+          <li class="faded">P</li>
           <li class="faded">Q</li>
-          <li>
-            <a href="#R">R</a>
-          </li>
+          <li class="faded">R</li>
           <li>
             <a href="#S">S</a>
           </li>
-          <li>
-            <a href="#T">T</a>
-          </li>
+          <li>T</li>
           <li class="faded">U</li>
           <li class="faded">V</li>
           <li>
