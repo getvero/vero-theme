@@ -76,7 +76,7 @@
      <p class="no-top-margin medium">Vero’s integrations with Stitch Data and Segment allow you to extract, transform and load (ETL) all of the data that Vero generates from your campaigns to Redshift, Google Big Query and other data stores with “one-click”.</p>
   </div>
 </section>
-<section class="bg-dark-blue font-white bottom-margin-xl" id="report-webhook-data">
+<section class="bg-dark-blue font-white" id="report-webhook-data">
   <div class="inner medium-inner center-text">
     <h2 class="tubs regular no-bottom-margin top-margin-xl top-padding-lg">Send a webhook for all of the data that originates from a Vero campaign</h2>
     <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-data@2x.png 2x" class="bottom-margin-sm small-responsive-image top-margin-xl" alt="Send a webhook for all of the data that originates from a Vero campaign">
@@ -89,16 +89,15 @@
     </div>
   </div>
 </section>
-<section class="cta border-dark-blue bg-white center-text">
-  <div class="cta-wrap">
-    <h4 class="regular bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+<section class="bg-gray-lighter">
+  <div class="inner tiny-inner center-text">
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
 <?php
   no_content_genesis_footer();
-  add_page_tracking_code("ProductPage");
 ?>
