@@ -114,9 +114,9 @@ function genesischild_theme_setup() {
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
 
   # Post Page
-  add_action( 'genesis_entry_header', 'add_shares_to_post', 1 );
+  add_action( 'genesis_before_content', 'generate_table_of_contents' );
+  add_action( 'genesis_after_content', 'add_shares_to_post', 1 );
   // add_action( 'genesis_entry_footer', 'post_remove_footer' );
-  // add_action( 'genesis_entry_footer', 'blog_related_posts');
   add_filter( 'get_image_tag_class', '__return_empty_string' );
 
   # Remove entry footer on post page
