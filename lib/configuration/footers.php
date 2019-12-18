@@ -111,7 +111,7 @@
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
 
-            <form class="js-blog-subscribe-form-2 blog-subscribe-form-2" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+            <form class="js-blog-subscribe-form-2 blog-subscribe-form-2 md-right-margin-md md-left-margin-md" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
               <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-md">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
@@ -122,7 +122,6 @@
               </div>
               <p class="annotation faded">We're committed to keeping your information safe. Read our <a class="unstyled underline-link" href="/privacy">Privacy Policy</a>.</p>
             </form>
-
 
           <?php endif; ?>
         </div>
