@@ -19,7 +19,7 @@
 <section class="double-padding">
   <div class="inner tiny-inner center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
-    <p class="medium">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
+    <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
   <div class="inner">
     <ul class="unstyled-list flex">
@@ -53,9 +53,9 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner">
+  <div class="inner tiny-inner center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
-    <p class="medium">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
+    <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
     <div class="w-sidebar w-sidebar--feature-default">
@@ -104,8 +104,8 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner center-text">
-    <h2 class="chunk semi-bold">A workflow the whole team can use to message customers</h2>
-    <p class="medium">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
+    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the whole team can use to message customers</h2>
+    <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
   </div>
   <div class="inner">
     <ul class="unstyled-list flex">
@@ -154,9 +154,9 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner">
-    <h2 class="chunk semi-bold">Iterate on and A/B test your messages</h2>
-    <p class="medium">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
+  <div class="inner tiny-inner center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
+    <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
   <div class="inner">
     <ul class="unstyled-list flex">
@@ -190,8 +190,8 @@
   </div>
 </section>
 <section>
-  <div class="inner tiny-inner">
-    <h2 class="chunk semi-bold">Reach your customer where they are</h2>
+  <div class="inner tiny-inner center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customer where they are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
@@ -232,9 +232,9 @@
   </div>
 </section>
 <section>
-  <div class="inner tiny-inner">
-    <h2 class="chunk semi-bold">Integrations</h2>
-    <p class="medium">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
+  <div class="inner tiny-inner center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
+    <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
 </section>
 <section class="bg-gray-lighter">
