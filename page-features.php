@@ -10,9 +10,9 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="border-bottom-light">
-  <div class="inner xlarge-inner">
-    <h1 class="hulk semi-bold bottom-margin-xs">How it works</h1>
-    <p class="large">The messaging platform that scales personalisation.</p>
+  <div class="inner xlarge-inner center-text">
+    <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
+    <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
     <a class="btn btn-large btn-success" href="">Start a trial</a>
   </div>
 </section>
@@ -110,7 +110,8 @@
   <div class="inner">
     <ul class="unstyled-list flex">
       <li><button>Templates</button></li>
-      <li><button>Recurring newsletter</button></li>
+      <li><button>Personalize</button></li>
+      <li><button>Multi-language</button></li>
     </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
@@ -123,6 +124,39 @@
         <p>Image</p>
       </div>
     </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main lg-order-2">
+        <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
+        <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
+        <p class="medium">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+      </div>
+      <div class="col-aside lg-order-1">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">Talk to customers in their language</h3>
+        <p class="medium">Create a variant in any language, for any message campaign.</p>
+
+        <p class="medium bottom-margin-lg">Vero automatically sends each customer the right language variant, wherever it's available.</p>
+
+        <a class="medium" href="/multi-language-campaigns">Learn more</a>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner tiny-inner">
+    <h2 class="chunk semi-bold">Iterate on and A/B test your messages</h2>
+    <p class="medium">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
 </section>
 <section class="bg-gray-lighter">
