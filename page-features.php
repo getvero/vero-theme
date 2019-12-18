@@ -13,6 +13,7 @@
   <div class="inner xlarge-inner">
     <h1 class="hulk semi-bold bottom-margin-xs">How it works</h1>
     <p class="large">The messaging platform that scales personalisation.</p>
+    <a class="btn btn-large btn-success" href="">Start a trial</a>
   </div>
 </section>
 <section class="double-padding">
@@ -21,12 +22,18 @@
     <p class="medium">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
   <div class="inner">
-    <h3 class="tubs">Workflows</h3>
+    <ul class="unstyled-list flex">
+      <li><button>Workflows</button></li>
+      <li><button>Recurring newsletter</button></li>
+    </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
       <div class="col-main">
-        <h3>Workflows</h3>
+        <h3 class="tubs semi-bold">Workflows</h3>
+
         <p class="medium">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
+
+        <a href="/worksflows">Learn more</a>
       </div>
       <div class="col-aside">
         <p>Image</p>
@@ -41,6 +48,79 @@
       </div>
       <div class="col-aside lg-order-1">
         <p class="medium">Image</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner tiny-inner">
+    <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
+    <p class="medium">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">Custom attributes</h3>
+
+        <p class="medium">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
+
+        <a href="/event-manager">Learn more</a>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main lg-order-1">
+        <p>Image</p>
+      </div>
+      <div class="col-aside lg-order-2">
+        <h3 class="tubs semi-bold">Activity Tracking</h3>
+
+        <p class="medium">Keep a record of what your customers do (and don't do) on both your site and in your product.</p>
+
+        <p class="medium">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
+
+        <a href="">Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">Dynamic newsfeed</h3>
+
+        <p class="medium">Pull data at the time your message is sent from your own, or public, APIs and personalize what your customers see at a whole new level.</p>
+
+        <a href="/fusion">Learn more</a>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner tiny-inner center-text">
+    <h2 class="chunk semi-bold">A workflow the whole team can use to message customers</h2>
+    <p class="medium">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
+  </div>
+  <div class="inner">
+    <ul class="unstyled-list flex">
+      <li><button>Templates</button></li>
+      <li><button>Recurring newsletter</button></li>
+    </ul>
+
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">Templates</h3>
+        <p class="medium">Manage email designs centrally and synchronise changes to automated campaigns instantly.</p>
+        <p class="medium">Include point-and-click regions to make creating and editing emails a safe and on-brand experience.</p>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
       </div>
     </div>
   </div>
