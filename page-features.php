@@ -14,6 +14,10 @@
     <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
     <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
     <a class="btn btn-large btn-success" href="">Start a trial</a>
+
+    <div class="flex items-center justify-center" style="background-color: red; height: 500px; width: 100%">
+      <span>Placeholder</span>
+    </div>
   </div>
 </section>
 <section class="double-padding">
