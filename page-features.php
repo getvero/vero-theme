@@ -158,6 +158,84 @@
     <h2 class="chunk semi-bold">Iterate on and A/B test your messages</h2>
     <p class="medium">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
+  <div class="inner">
+    <ul class="unstyled-list flex">
+      <li><button>AB testing</button></li>
+      <li><button>Reporting</button></li>
+    </ul>
+
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">A/B testing</h3>
+        <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main lg-order-2">
+        <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3>
+        <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
+        <p class="medium">Conversion tracking. Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
+        <p class="medium bottom-margin-lg">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
+        <a class="medium" href="/reporting">Learn more</a>
+      </div>
+      <div class="col-aside lg-order-1">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="inner tiny-inner">
+    <h2 class="chunk semi-bold">Reach your customer where they are</h2>
+    <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
+  </div>
+  <div class="inner">
+    <ul class="unstyled-list flex">
+      <li><button>Email</button></li>
+      <li><button>Push</button></li>
+      <li><button>SMS</button></li>
+    </ul>
+
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">Email</h3>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main lg-order-2">
+        <h3 class="tubs semi-bold">Push</h3>
+      </div>
+      <div class="col-aside lg-order-1">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+  <div class="inner">
+    <div class="w-sidebar w-sidebar--feature-default">
+      <div class="col-main">
+        <h3 class="tubs semi-bold">SMS</h3>
+      </div>
+      <div class="col-aside">
+        <p>Image</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="inner tiny-inner">
+    <h2 class="chunk semi-bold">Integrations</h2>
+    <p class="medium">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
+  </div>
 </section>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
