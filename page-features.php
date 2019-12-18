@@ -10,12 +10,14 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="border-bottom-light">
-  <div class="inner xlarge-inner center-text">
-    <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
-    <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
-    <a class="btn btn-large btn-success" href="">Start a trial</a>
+  <div class="inner xlarge-inner flush-bottom center-text">
+    <div class="bottom-margin-xl">
+      <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
+      <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
+      <a class="btn btn-large btn-success" href="">Start a trial</a>
+    </div>
 
-    <div class="flex items-center justify-center" style="background-color: red; height: 500px; width: 100%">
+    <div class="flex items-center justify-center" style="background-color: red; height: 560px; width: 100%">
       <span>Placeholder</span>
     </div>
   </div>
@@ -26,9 +28,13 @@
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex">
-      <li><button>Workflows</button></li>
-      <li><button>Recurring newsletter</button></li>
+    <ul class="unstyled-list flex justify-center feature-switcher">
+      <li>
+        <a class="feature-switcher-btn" href="#1a">Workflows</a>
+      </li>
+      <li>
+        <a class="feature-switcher-btn" href="#1b">Recurring newsletter</a>
+      </li>
     </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
@@ -62,6 +68,12 @@
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
+    <ul class="unstyled-list flex justify-center feature-switcher">
+      <li><a class="feature-switcher-btn" href="#2a">Custom attributes</a></li>
+      <li><a class="feature-switcher-btn" href="#2b">Activity tracking</a></li>
+      <li><a class="feature-switcher-btn" href="#2c">Dynamic newsfeed</a></li>
+    </ul>
+
     <div class="w-sidebar w-sidebar--feature-default">
       <div class="col-main">
         <h3 class="tubs semi-bold">Custom attributes</h3>
@@ -81,7 +93,7 @@
         <p>Image</p>
       </div>
       <div class="col-aside lg-order-2">
-        <h3 class="tubs semi-bold">Activity Tracking</h3>
+        <h3 class="tubs semi-bold">Activity tracking</h3>
 
         <p class="medium">Keep a record of what your customers do (and don't do) on both your site and in your product.</p>
 
@@ -112,10 +124,10 @@
     <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex">
-      <li><button>Templates</button></li>
-      <li><button>Personalize</button></li>
-      <li><button>Multi-language</button></li>
+    <ul class="unstyled-list flex justify-center feature-switcher">
+      <li><a class="feature-switcher-btn" href="#3a">Templates</a></li>
+      <li><a class="feature-switcher-btn" href="#3b">Personalize</a></li>
+      <li><a class="feature-switcher-btn" href="#3c">Multi-language</a></li>
     </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
@@ -163,9 +175,9 @@
     <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex">
-      <li><button>AB testing</button></li>
-      <li><button>Reporting</button></li>
+    <ul class="unstyled-list flex justify-center feature-switcher">
+      <li><a class="feature-switcher-btn" href="#4a">AB testing</a></li>
+      <li><a class="feature-switcher-btn" href="#4b">Reporting</a></li>
     </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
@@ -199,10 +211,10 @@
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex">
-      <li><button>Email</button></li>
-      <li><button>Push</button></li>
-      <li><button>SMS</button></li>
+    <ul class="unstyled-list flex justify-center feature-switcher">
+      <li><a class="feature-switcher-btn" href="#5a">Email</a></li>
+      <li><a class="feature-switcher-btn" href="#5b">Push</a></li>
+      <li><a class="feature-switcher-btn" href="#5c">SMS</a></li>
     </ul>
 
     <div class="w-sidebar w-sidebar--feature-default">
