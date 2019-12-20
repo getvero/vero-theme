@@ -22,7 +22,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding tabs">
+<section class="double-padding">
   <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
@@ -30,46 +30,50 @@
 
 
   <div class="inner">
-    <input class="automation-tab-radio--1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
-    <input class="automation-tab-radio--2" id="automation-tab-2" type="radio" name="automation-tabs">
+    <input class="hide automation-tab-radio--1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
+    <input class="hide automation-tab-radio--2" id="automation-tab-2" type="radio" name="automation-tabs">
 
-    <ul class="unstyled-list bottom-margin-md flex justify-center feature-tab-switcher">
+    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="automation-label--1 semi-bold atomic" for="automation-tab-1">Workflows</label>
+        <label class="feature-tab-label automation-label--1 semi-bold atomic" for="automation-tab-1">Workflows</label>
       </li>
       <li>
-        <label class="automation-label--2 semi-bold atomic" for="automation-tab-2">Recurring newsletter</label>
+        <label class="feature-tab-label automation-label--2 semi-bold atomic" for="automation-tab-2">Recurring newsletters</label>
       </li>
     </ul>
 
     <div class="automation-tab automation-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default" id="1a">
+      <div class="w-sidebar w-sidebar--feature-default items-center" id="1a">
         <div class="col-main">
-          <h3 class="tubs semi-bold">Workflows</h3>
+          <h3 class="tubs semi-bold bottom-margin-sm">Workflows</h3>
 
-          <p class="medium">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
+          <p class="medium bottom-margin-md">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
 
-          <a href="/worksflows">Learn more</a>
+          <!-- <a class="medium unstyled underline-link" href="/worksflows">Learn more</a> -->
+
+          <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
         </div>
-        <div class="col-aside">
-          <p>Image</p>
+        <div class="col-aside lg-right-text">
+          <img src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
         </div>
       </div>
     </div>
     <div class="automation-tab automation-tab--2">
       <div class="w-sidebar w-sidebar--feature-default" id="1b">
         <div class="col-main lg-order-2">
-          <h3 class="tubs semi-bold">Recurring newsletter</h3>
-          <p class="medium">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
+          <h3 class="tubs semi-bold">Recurring newsletters</h3>
+          <p class="medium bottom-margin-md">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
         </div>
         <div class="col-aside lg-order-1">
-          <p class="medium">Image</p>
+          <div class="d-inline-block bg-dots-offset">
+            <img src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bg-dark-blue-lighter">
   <div class="inner tiny-inner center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
