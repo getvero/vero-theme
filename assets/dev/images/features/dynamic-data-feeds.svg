@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350">
+  <defs>
+    <rect id="dynamic-data-feeds-b" width="220" height="316" x="0" y="0" rx="8"/>
+    <filter id="dynamic-data-feeds-a" width="110%" height="107%" x="-5%" y="-2.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <path id="dynamic-data-feeds-d" d="M8,0 L212,0 C216.418278,-8.11624501e-16 220,3.581722 220,8 L220,22 L220,22 L0,22 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z"/>
+    <filter id="dynamic-data-feeds-c" width="110%" height="200%" x="-5%" y="-40.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="dynamic-data-feeds-f" width="58" height="118" x="0" y="0" rx="8"/>
+    <filter id="dynamic-data-feeds-e" width="137.9%" height="118.6%" x="-19%" y="-7.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="dynamic-data-feeds-h" width="58" height="118" x="0" y="0" rx="8"/>
+    <filter id="dynamic-data-feeds-g" width="137.9%" height="118.6%" x="-19%" y="-7.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(6 21)">
+      <use fill="#000" filter="url(#dynamic-data-feeds-a)" xlink:href="#dynamic-data-feeds-b"/>
+      <rect width="221" height="317" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="220" height="1" y="50" fill="#E1E1E1"/>
+      <use fill="#000" filter="url(#dynamic-data-feeds-c)" xlink:href="#dynamic-data-feeds-d"/>
+      <path fill="#FFF" stroke="#E1E1E1" d="M8,-0.5 L212,-0.5 C216.69442,-0.5 220.5,3.30557963 220.5,8 L220.5,22.5 L-0.5,22.5 L-0.5,8 C-0.5,3.30557963 3.30557963,-0.5 8,-0.5 Z"/>
+      <rect width="94" height="4" x="16" y="34" fill="#F1F1F1" rx="2"/>
+      <circle cx="11" cy="11" r="4" fill="#F15242"/>
+      <circle cx="35" cy="11" r="4" fill="#6FD350"/>
+      <circle cx="23" cy="11" r="4" fill="#FFC111"/>
+      <rect width="94" height="4" x="110" y="68" fill="#F1F1F1" rx="2"/>
+      <rect width="94" height="4" x="110" y="82" fill="#F1F1F1" rx="2"/>
+      <rect width="94" height="4" x="110" y="96" fill="#F1F1F1" rx="2"/>
+      <rect width="94" height="4" x="110" y="110" fill="#F1F1F1" rx="2"/>
+      <rect width="94" height="4" x="110" y="124" fill="#F1F1F1" rx="2"/>
+      <rect width="94" height="4" x="110" y="138" fill="#F1F1F1" rx="2"/>
+      <rect width="188" height="4" x="16" y="167" fill="#F1F1F1" rx="2"/>
+      <rect width="188" height="4" x="16" y="181" fill="#F1F1F1" rx="2"/>
+      <rect width="188" height="4" x="16" y="195" fill="#F1F1F1" rx="2"/>
+      <rect width="77" height="87" x="16.5" y="67.5" fill="#FFC111" fill-opacity=".2" stroke="#FFC111" rx="4"/>
+      <rect width="187" height="88" x="16.5" y="211.5" fill="#01B2D0" fill-opacity=".2" stroke="#01B2D0" rx="4"/>
+    </g>
+    <path stroke="#FFC111" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M325,81 L169.014128,81 C162.108127,81 156.509707,86.59842 156.509707,93.504421 C156.509707,93.6696627 156.512982,93.8348882 156.519531,94 C156.80755,101.261569 162.7781,107 170.045378,107 L245.457031,107 C252.636733,107 258.457031,112.820298 258.457031,120 C258.457031,127.179702 252.636733,133 245.457031,133 L71.03125,133 L71.03125,133"/>
+    <path stroke="#01B2D0" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M410,217 L262.015625,217 C253.455211,217 246.515625,223.939586 246.515625,232.5 C246.515625,241.060414 253.455211,248 262.015625,248 L357.353508,248 C365.980094,248 372.975743,254.988652 372.984375,263.615234 C372.992996,272.230665 366.015798,279.22184 357.400367,279.230461 C357.395164,279.230466 357.389961,279.230469 357.384758,279.230469 L120.03125,279.230469 L120.03125,279.230469"/>
+    <g transform="translate(313 22)">
+      <use fill="#000" filter="url(#dynamic-data-feeds-e)" xlink:href="#dynamic-data-feeds-f"/>
+      <rect width="59" height="119" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="24" height="24" x="17" y="12" fill="#6FD350" rx="4"/>
+      <path fill="#FFAD3B" d="M30.7585839,85.2466165 L40.4006933,103.047434 C40.9267811,104.018673 40.5659147,105.232496 39.5946756,105.758584 C39.302172,105.917023 38.9747675,106 38.6421093,106 L19.3578907,106 C18.2533212,106 17.3578907,105.104569 17.3578907,104 C17.3578907,103.667342 17.4408673,103.339937 17.5993067,103.047434 L27.2414161,85.2466165 C27.7675039,84.2753774 28.9813272,83.914511 29.9525663,84.4405989 C30.2937354,84.6253988 30.573784,84.9054473 30.7585839,85.2466165 Z"/>
+      <circle cx="29" cy="62" r="12" fill="#6F0DFB"/>
+    </g>
+    <g transform="translate(389 158)">
+      <use fill="#000" filter="url(#dynamic-data-feeds-g)" xlink:href="#dynamic-data-feeds-h"/>
+      <rect width="59" height="119" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="24" height="24" x="17" y="82" fill="#F15242" rx="4"/>
+      <path fill="#01B2D0" d="M30.7585839,47.2466165 L40.4006933,65.0474337 C40.9267811,66.0186728 40.5659147,67.2324961 39.5946756,67.7585839 C39.302172,67.9170234 38.9747675,68 38.6421093,68 L19.3578907,68 C18.2533212,68 17.3578907,67.1045695 17.3578907,66 C17.3578907,65.6673418 17.4408673,65.3399373 17.5993067,65.0474337 L27.2414161,47.2466165 C27.7675039,46.2753774 28.9813272,45.914511 29.9525663,46.4405989 C30.2937354,46.6253988 30.573784,46.9054473 30.7585839,47.2466165 Z"/>
+      <circle cx="29" cy="24" r="12" fill="#FFC111"/>
+    </g>
+  </g>
+</svg>
