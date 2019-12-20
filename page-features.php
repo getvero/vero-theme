@@ -22,42 +22,49 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner tiny-inner center-text">
+<section class="double-padding tabs">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
+
+
   <div class="inner">
-    <ul class="unstyled-list flex justify-center feature-switcher">
+    <input class="automation-tab-radio--1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
+    <input class="automation-tab-radio--2" id="automation-tab-2" type="radio" name="automation-tabs">
+
+    <ul class="unstyled-list bottom-margin-md flex justify-center feature-tab-switcher">
       <li>
-        <a class="feature-switcher-btn" href="#1a">Workflows</a>
+        <label class="automation-label--1 semi-bold atomic" for="automation-tab-1">Workflows</label>
       </li>
       <li>
-        <a class="feature-switcher-btn" href="#1b">Recurring newsletter</a>
+        <label class="automation-label--2 semi-bold atomic" for="automation-tab-2">Recurring newsletter</label>
       </li>
     </ul>
 
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main">
-        <h3 class="tubs semi-bold">Workflows</h3>
+    <div class="automation-tab automation-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default" id="1a">
+        <div class="col-main">
+          <h3 class="tubs semi-bold">Workflows</h3>
 
-        <p class="medium">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
+          <p class="medium">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
 
-        <a href="/worksflows">Learn more</a>
-      </div>
-      <div class="col-aside">
-        <p>Image</p>
+          <a href="/worksflows">Learn more</a>
+        </div>
+        <div class="col-aside">
+          <p>Image</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main lg-order-2">
-        <h3 class="tubs semi-bold">Recurring newsletter</h3>
-        <p class="medium">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
-      </div>
-      <div class="col-aside lg-order-1">
-        <p class="medium">Image</p>
+    <div class="automation-tab automation-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default" id="1b">
+        <div class="col-main lg-order-2">
+          <h3 class="tubs semi-bold">Recurring newsletter</h3>
+          <p class="medium">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
+        </div>
+        <div class="col-aside lg-order-1">
+          <p class="medium">Image</p>
+        </div>
       </div>
     </div>
   </div>
