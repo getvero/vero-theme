@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="automation-tab automation-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default" id="1b">
+      <div class="w-sidebar w-sidebar--feature-default items-center" id="1b">
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Recurring newsletters</h3>
           <p class="medium bottom-margin-md">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
@@ -90,7 +90,7 @@
         <label class="feature-tab-label customers-label-2 semi-bold atomic" for="customers-tab-2">Activity tracking</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-3 semi-bold atomic" for="customers-tab-3">Dynamic newsfeed</label>
+        <label class="feature-tab-label customers-label-3 semi-bold atomic" for="customers-tab-3">Dynamic data feeds</label>
       </li>
     </ul>
 
@@ -180,14 +180,16 @@
     </div>
 
     <div class="something-tab something-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
           <p class="medium">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
         </div>
         <div class="col-aside lg-order-1">
-          <p>Image</p>
+          <div class="d-inline-block bg-dots-offset">
+            <img src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -203,7 +205,7 @@
           <a class="medium" href="/multi-language-campaigns">Learn more</a>
         </div>
         <div class="col-aside lg-right-text">
-          <img src="/wp-content/themes/vero/assets/dist/images/features/multi-language.svg" alt="">
+          <img src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
         </div>
       </div>
     </div>
