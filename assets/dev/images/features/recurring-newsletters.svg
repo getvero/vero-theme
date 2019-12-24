@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350">
   <defs>
-    <rect id="recurring-newsletters-b" width="180" height="250" x="58" y="42" rx="8"/>
+    <rect id="recurring-newsletters-b" width="180" height="250" x="0" y="0" rx="8"/>
     <filter id="recurring-newsletters-a" width="112.2%" height="108.8%" x="-6.1%" y="-3.6%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
@@ -8,8 +8,8 @@
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-d" width="180" height="250" x="28" y="62" rx="8"/>
-    <filter id="recurring-newsletters-c" width="112.2%" height="108.8%" x="-6.1%" y="-3.6%" filterUnits="objectBoundingBox">
+    <path id="recurring-newsletters-d" d="M0,0 L180,0 L180,10 C180,14.418278 176.418278,18 172,18 L8,18 C3.581722,18 5.41083001e-16,14.418278 0,10 L0,0 L0,0 Z"/>
+    <filter id="recurring-newsletters-c" width="112.2%" height="222.2%" x="-6.1%" y="-50%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
@@ -32,56 +32,88 @@
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-j" width="52" height="52" x="6" y="6" rx="4"/>
-    <filter id="recurring-newsletters-i" width="146.2%" height="146.2%" x="-23.1%" y="-19.2%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-j" width="180" height="250" x="0" y="0" rx="8"/>
+    <filter id="recurring-newsletters-i" width="112.2%" height="108.8%" x="-6.1%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <path id="recurring-newsletters-l" d="M0,0 L180,0 L180,10 C180,14.418278 176.418278,18 172,18 L8,18 C3.581722,18 5.41083001e-16,14.418278 0,10 L0,0 L0,0 Z"/>
+    <filter id="recurring-newsletters-k" width="112.2%" height="222.2%" x="-6.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="recurring-newsletters-n" width="180" height="250" x="0" y="0" rx="8"/>
+    <filter id="recurring-newsletters-m" width="112.2%" height="108.8%" x="-6.1%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <path id="recurring-newsletters-p" d="M0,0 L180,0 L180,10 C180,14.418278 176.418278,18 172,18 L8,18 C3.581722,18 5.41083001e-16,14.418278 0,10 L0,0 L0,0 Z"/>
+    <filter id="recurring-newsletters-o" width="112.2%" height="222.2%" x="-6.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="recurring-newsletters-r" width="52" height="52" x="6" y="6" rx="4"/>
+    <filter id="recurring-newsletters-q" width="146.2%" height="146.2%" x="-23.1%" y="-19.2%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-l" width="52" height="52" x="0" y="0" rx="4"/>
-    <filter id="recurring-newsletters-k" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-t" width="52" height="52" x="0" y="0" rx="4"/>
+    <filter id="recurring-newsletters-s" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-n" width="52" height="52" x="0" y="0" rx="4"/>
-    <filter id="recurring-newsletters-m" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-v" width="52" height="52" x="0" y="0" rx="4"/>
+    <filter id="recurring-newsletters-u" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-p" width="52" height="52" x="0" y="0" rx="4"/>
-    <filter id="recurring-newsletters-o" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-x" width="52" height="52" x="0" y="0" rx="4"/>
+    <filter id="recurring-newsletters-w" width="142.3%" height="142.3%" x="-21.2%" y="-17.3%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-r" width="54" height="70" x="0" y=".5" rx="2"/>
-    <filter id="recurring-newsletters-q" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-z" width="54" height="70" x="0" y=".5" rx="2"/>
+    <filter id="recurring-newsletters-y" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-t" width="54" height="70" x="0" y=".5" rx="2"/>
-    <filter id="recurring-newsletters-s" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-B" width="54" height="70" x="0" y=".5" rx="2"/>
+    <filter id="recurring-newsletters-A" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="recurring-newsletters-v" width="54" height="70" x="0" y="0" rx="2"/>
-    <filter id="recurring-newsletters-u" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
+    <rect id="recurring-newsletters-D" width="54" height="70" x="0" y="0" rx="2"/>
+    <filter id="recurring-newsletters-C" width="140.7%" height="131.4%" x="-20.4%" y="-12.9%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
@@ -89,12 +121,19 @@
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
   </defs>
-  <g fill="none" fill-rule="evenodd">
-    <use fill="#000" filter="url(#recurring-newsletters-a)" xlink:href="#recurring-newsletters-b"/>
-    <rect width="181" height="251" x="57.5" y="41.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
-    <use fill="#000" filter="url(#recurring-newsletters-c)" xlink:href="#recurring-newsletters-d"/>
-    <rect width="181" height="251" x="27.5" y="61.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
-    <g transform="translate(8 82)">
+  <g fill="none" fill-rule="evenodd" transform="translate(8 16)">
+    <g transform="translate(48 18)">
+      <use fill="#000" filter="url(#recurring-newsletters-a)" xlink:href="#recurring-newsletters-b"/>
+      <rect width="181" height="251" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#000" filter="url(#recurring-newsletters-c)" xlink:href="#recurring-newsletters-d"/>
+        <path fill="#FFF" stroke="#E1E1E1" d="M-0.5,-0.5 L180.5,-0.5 L180.5,10 C180.5,14.6944204 176.69442,18.5 172,18.5 L8,18.5 C3.30557963,18.5 -0.5,14.6944204 -0.5,10 L-0.5,-0.5 Z"/>
+      </g>
+      <circle cx="11" cy="9" r="3" fill="#F15242"/>
+      <circle cx="31" cy="9" r="3" fill="#6FD350"/>
+      <circle cx="21" cy="9" r="3" fill="#FFC111"/>
+    </g>
+    <g transform="translate(32 34)">
       <use fill="#000" filter="url(#recurring-newsletters-e)" xlink:href="#recurring-newsletters-f"/>
       <rect width="181" height="251" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
       <g transform="matrix(1 0 0 -1 0 18)">
@@ -104,6 +143,21 @@
       <circle cx="11" cy="9" r="3" fill="#F15242"/>
       <circle cx="31" cy="9" r="3" fill="#6FD350"/>
       <circle cx="21" cy="9" r="3" fill="#FFC111"/>
+    </g>
+    <g transform="translate(16 50)">
+      <use fill="#000" filter="url(#recurring-newsletters-i)" xlink:href="#recurring-newsletters-j"/>
+      <rect width="181" height="251" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#000" filter="url(#recurring-newsletters-k)" xlink:href="#recurring-newsletters-l"/>
+        <path fill="#FFF" stroke="#E1E1E1" d="M-0.5,-0.5 L180.5,-0.5 L180.5,10 C180.5,14.6944204 176.69442,18.5 172,18.5 L8,18.5 C3.30557963,18.5 -0.5,14.6944204 -0.5,10 L-0.5,-0.5 Z"/>
+      </g>
+      <circle cx="11" cy="9" r="3" fill="#F15242"/>
+      <circle cx="31" cy="9" r="3" fill="#6FD350"/>
+      <circle cx="21" cy="9" r="3" fill="#FFC111"/>
+    </g>
+    <g transform="translate(0 66)">
+      <use fill="#000" filter="url(#recurring-newsletters-m)" xlink:href="#recurring-newsletters-n"/>
+      <rect width="181" height="251" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
       <rect width="120" height="76" x="30" y="36" fill="#F1F1F1" rx="2"/>
       <rect width="120" height="2" x="30" y="144" fill="#F1F1F1" rx="1"/>
       <rect width="120" height="2" x="30" y="156" fill="#F1F1F1" rx="1"/>
@@ -113,9 +167,16 @@
       <rect width="120" height="2" x="30" y="192" fill="#F1F1F1" rx="1"/>
       <rect width="120" height="2" x="30" y="204" fill="#F1F1F1" rx="1"/>
       <rect width="120" height="2" x="30" y="216" fill="#F1F1F1" rx="1"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#000" filter="url(#recurring-newsletters-o)" xlink:href="#recurring-newsletters-p"/>
+        <path fill="#FFF" stroke="#E1E1E1" d="M-0.5,-0.5 L180.5,-0.5 L180.5,10 C180.5,14.6944204 176.69442,18.5 172,18.5 L8,18.5 C3.30557963,18.5 -0.5,14.6944204 -0.5,10 L-0.5,-0.5 Z"/>
+      </g>
+      <circle cx="11" cy="9" r="3" fill="#F15242"/>
+      <circle cx="31" cy="9" r="3" fill="#6FD350"/>
+      <circle cx="21" cy="9" r="3" fill="#FFC111"/>
     </g>
-    <g transform="translate(294 157)">
-      <use fill="#000" filter="url(#recurring-newsletters-i)" xlink:href="#recurring-newsletters-j"/>
+    <g transform="translate(286 141)">
+      <use fill="#000" filter="url(#recurring-newsletters-q)" xlink:href="#recurring-newsletters-r"/>
       <rect width="54" height="54" x="5" y="5" fill="#FFF" stroke="#1B2E5B" stroke-width="2" rx="4"/>
       <rect width="2" height="10" x="31" fill="#1B2E5B" rx="1"/>
       <rect width="2" height="10" x="31" y="54" fill="#1B2E5B" rx="1"/>
@@ -123,33 +184,33 @@
       <rect width="10" height="2" x="54" y="31" fill="#1B2E5B" rx="1"/>
       <path fill="#1B2E5B" fill-opacity=".2" d="M24.4896816,21.7335987 C21.0162,20.9311262 17.7824694,20.2283157 19.3489288,17.271787 C24.1148687,8.27374083 20.6123068,3.46181818 15.578828,3.46181818 C10.4455069,3.46181818 7.03018597,8.45947438 11.8087273,17.2730813 C13.4217152,20.2461124 10.0668167,20.948923 6.66797454,21.734893 C3.85946274,22.3833426 3.49725131,23.7080693 3.46203182,25.9504621 C3.44684543,26.9134291 4.24332284,27.6945455 5.2052349,27.6945455 L25.9501594,27.6945455 C26.9130408,27.6945455 27.7095182,26.9121348 27.6943318,25.9504621 C27.6604048,23.706775 27.2981934,22.3820482 24.4896816,21.7335987 L24.4896816,21.7335987 Z" transform="translate(16 16)"/>
       <g transform="translate(10 70)">
-        <use fill="#000" filter="url(#recurring-newsletters-k)" xlink:href="#recurring-newsletters-l"/>
+        <use fill="#000" filter="url(#recurring-newsletters-s)" xlink:href="#recurring-newsletters-t"/>
         <rect width="53" height="53" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="4"/>
         <path fill="#1B2E5B" fill-opacity=".2" d="M24.4896816,21.7335987 C21.0162,20.9311262 17.7824694,20.2283157 19.3489288,17.271787 C24.1148687,8.27374083 20.6123068,3.46181818 15.578828,3.46181818 C10.4455069,3.46181818 7.03018597,8.45947438 11.8087273,17.2730813 C13.4217152,20.2461124 10.0668167,20.948923 6.66797454,21.734893 C3.85946274,22.3833426 3.49725131,23.7080693 3.46203182,25.9504621 C3.44684543,26.9134291 4.24332284,27.6945455 5.2052349,27.6945455 L25.9501594,27.6945455 C26.9130408,27.6945455 27.7095182,26.9121348 27.6943318,25.9504621 C27.6604048,23.706775 27.2981934,22.3820482 24.4896816,21.7335987 L24.4896816,21.7335987 Z" transform="translate(10 10)"/>
       </g>
       <g transform="translate(70 70)">
-        <use fill="#000" filter="url(#recurring-newsletters-m)" xlink:href="#recurring-newsletters-n"/>
+        <use fill="#000" filter="url(#recurring-newsletters-u)" xlink:href="#recurring-newsletters-v"/>
         <rect width="53" height="53" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="4"/>
         <path fill="#1B2E5B" fill-opacity=".2" d="M24.4896816,21.7335987 C21.0162,20.9311262 17.7824694,20.2283157 19.3489288,17.271787 C24.1148687,8.27374083 20.6123068,3.46181818 15.578828,3.46181818 C10.4455069,3.46181818 7.03018597,8.45947438 11.8087273,17.2730813 C13.4217152,20.2461124 10.0668167,20.948923 6.66797454,21.734893 C3.85946274,22.3833426 3.49725131,23.7080693 3.46203182,25.9504621 C3.44684543,26.9134291 4.24332284,27.6945455 5.2052349,27.6945455 L25.9501594,27.6945455 C26.9130408,27.6945455 27.7095182,26.9121348 27.6943318,25.9504621 C27.6604048,23.706775 27.2981934,22.3820482 24.4896816,21.7335987 L24.4896816,21.7335987 Z" transform="translate(10 10)"/>
       </g>
       <g transform="translate(70 10)">
-        <use fill="#000" filter="url(#recurring-newsletters-o)" xlink:href="#recurring-newsletters-p"/>
+        <use fill="#000" filter="url(#recurring-newsletters-w)" xlink:href="#recurring-newsletters-x"/>
         <rect width="53" height="53" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="4"/>
         <path fill="#1B2E5B" fill-opacity=".2" d="M24.4896816,21.7335987 C21.0162,20.9311262 17.7824694,20.2283157 19.3489288,17.271787 C24.1148687,8.27374083 20.6123068,3.46181818 15.578828,3.46181818 C10.4455069,3.46181818 7.03018597,8.45947438 11.8087273,17.2730813 C13.4217152,20.2461124 10.0668167,20.948923 6.66797454,21.734893 C3.85946274,22.3833426 3.49725131,23.7080693 3.46203182,25.9504621 C3.44684543,26.9134291 4.24332284,27.6945455 5.2052349,27.6945455 L25.9501594,27.6945455 C26.9130408,27.6945455 27.7095182,26.9121348 27.6943318,25.9504621 C27.6604048,23.706775 27.2981934,22.3820482 24.4896816,21.7335987 L24.4896816,21.7335987 Z" transform="translate(10 10)"/>
       </g>
     </g>
-    <g transform="translate(274 16)">
-      <use fill="#000" filter="url(#recurring-newsletters-q)" xlink:href="#recurring-newsletters-r"/>
+    <g transform="translate(266)">
+      <use fill="#000" filter="url(#recurring-newsletters-y)" xlink:href="#recurring-newsletters-z"/>
       <rect width="55" height="71" x="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
       <rect width="24" height="24" x="15" y="24" fill="#F15242" rx="4"/>
     </g>
-    <g transform="translate(340 16)">
-      <use fill="#000" filter="url(#recurring-newsletters-s)" xlink:href="#recurring-newsletters-t"/>
+    <g transform="translate(332)">
+      <use fill="#000" filter="url(#recurring-newsletters-A)" xlink:href="#recurring-newsletters-B"/>
       <rect width="55" height="71" x="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
       <path fill="#01B2D0" d="M28.7585839,27.2466165 L38.4006933,45.0474337 C38.9267811,46.0186728 38.5659147,47.2324961 37.5946756,47.7585839 C37.302172,47.9170234 36.9747675,48 36.6421093,48 L17.3578907,48 C16.2533212,48 15.3578907,47.1045695 15.3578907,46 C15.3578907,45.6673418 15.4408673,45.3399373 15.5993067,45.0474337 L25.2414161,27.2466165 C25.7675039,26.2753774 26.9813272,25.914511 27.9525663,26.4405989 C28.2937354,26.6253988 28.573784,26.9054473 28.7585839,27.2466165 Z"/>
     </g>
-    <g transform="translate(406 16)">
-      <use fill="#000" filter="url(#recurring-newsletters-u)" xlink:href="#recurring-newsletters-v"/>
+    <g transform="translate(398)">
+      <use fill="#000" filter="url(#recurring-newsletters-C)" xlink:href="#recurring-newsletters-D"/>
       <rect width="55" height="71" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
       <ellipse cx="27" cy="35.482" fill="#FFC111" rx="12" ry="11.566"/>
     </g>
