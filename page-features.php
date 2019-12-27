@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="border-bottom-light">
+<section class="border-bottom-light features-hero">
   <div class="inner xlarge-inner flush-bottom center-text">
     <div class="bottom-margin-xl">
       <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
@@ -17,11 +17,11 @@
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
 
-    <ul class="unstyled-list relative">
-      <li>
+    <ul class="unstyled-list features-hero-gallery relative">
+      <li class="features-hero-gallery-item features-hero-gallery-item--1">
         <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
       </li>
-      <li class="absolute">
+      <li class="features-hero-gallery-item features-hero-gallery-item--2 absolute">
         <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
       </li>
     </ul>
@@ -189,7 +189,8 @@
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
-          <p class="medium">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <p class="medium bottom-margin-lg">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide"></a>
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
@@ -207,7 +208,7 @@
 
           <p class="medium bottom-margin-lg">Vero automatically sends each customer the right language variant, wherever it's available.</p>
 
-          <a class="medium" href="/multi-language-campaigns">Learn more</a>
+          <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
         </div>
         <div class="col-aside lg-right-text">
           <img src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
@@ -217,37 +218,53 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner tiny-inner center-text">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
     <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex justify-center feature-switcher">
-      <li><a class="feature-switcher-btn" href="#4a">AB testing</a></li>
-      <li><a class="feature-switcher-btn" href="#4b">Reporting</a></li>
+    <input class="hide testing-tab-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
+    <input class="hide testing-tab-radio-2" id="testing-tab-2" type="radio" name="testing-tabs">
+
+    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label something-label-1 semi-bold atomic" for="testing-tab-1">AB testing</label>
+      </li>
+      <li>
+        <label class="feature-tab-label something-label-2 semi-bold atomic" for="testing-tab-2">Reporting</label>
+      </li>
     </ul>
 
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main">
-        <h3 class="tubs semi-bold">A/B testing</h3>
-        <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
-      </div>
-      <div class="col-aside">
-        <p>Image</p>
+    <div class="testing-tab testing-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main">
+          <h3 class="tubs semi-bold">A/B testing</h3>
+          <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
+        </div>
+        <div class="col-aside lg-right-text">
+          <div class="d-inline-block bg-dots-offset">
+            <img src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main lg-order-2">
-        <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3>
-        <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
-        <p class="medium">Conversion tracking. Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
-        <p class="medium bottom-margin-lg">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
-        <a class="medium" href="/reporting">Learn more</a>
-      </div>
-      <div class="col-aside lg-order-1">
-        <p>Image</p>
+
+    <div class="testing-tab testing-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main lg-order-2">
+          <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
+          <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
+          <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
+          <!-- <p class="medium">Conversion tracking. Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p> -->
+          <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
+          <p class="medium bottom-margin-lg">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
+          <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
+        </div>
+        <div class="col-aside lg-order-1">
+          <div class="d-inline-block bg-dots-offset">
+            <img src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
