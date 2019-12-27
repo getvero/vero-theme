@@ -17,9 +17,14 @@
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
 
-    <div class="flex items-center justify-center" style="background-color: red; height: 560px; width: 100%">
-      <span>Placeholder</span>
-    </div>
+    <ul class="unstyled-list relative">
+      <li>
+        <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+      </li>
+      <li class="absolute">
+        <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+      </li>
+    </ul>
   </div>
 </section>
 <section class="double-padding">
@@ -29,8 +34,8 @@
   </div>
 
   <div class="inner">
-    <input class="automation-tab-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
-    <input class="automation-tab-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
+    <input class="hide automation-tab-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
+    <input class="hide automation-tab-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
 
     <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
