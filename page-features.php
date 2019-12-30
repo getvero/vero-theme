@@ -37,12 +37,12 @@
     <input class="hide automation-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
     <input class="hide automation-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
 
-    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label automation-label-1 semi-bold atomic" for="automation-tab-1">Workflows</label>
+        <label class="feature-tab-label automation-label-1 semi-bold" for="automation-tab-1">Workflows</label>
       </li>
       <li>
-        <label class="feature-tab-label automation-label-2 semi-bold atomic" for="automation-tab-2">Recurring newsletters</label>
+        <label class="feature-tab-label automation-label-2 semi-bold" for="automation-tab-2">Recurring newsletters</label>
       </li>
     </ul>
 
@@ -58,7 +58,7 @@
           <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
         </div>
         <div class="col-aside lg-right-text">
-          <img src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
           </div>
         </div>
       </div>
@@ -87,15 +87,15 @@
     <input class="hide customers-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
     <input class="hide customers-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
 
-    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label customers-label-1 semi-bold atomic" for="customers-tab-1">Custom attributes</label>
+        <label class="feature-tab-label customers-label-1 semi-bold" for="customers-tab-1">Custom attributes</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-2 semi-bold atomic" for="customers-tab-2">Activity tracking</label>
+        <label class="feature-tab-label customers-label-2 semi-bold" for="customers-tab-2">Activity tracking</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-3 semi-bold atomic" for="customers-tab-3">Dynamic data feeds</label>
+        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Dynamic data feeds</label>
       </li>
     </ul>
 
@@ -110,7 +110,7 @@
         </div>
         <div class="col-aside lg-right-text">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/custom-attributes.svg" alt="">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/custom-attributes.svg" alt="">
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@
 
           <p class="medium">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
 
-          <a href="">Learn more</a>
+          <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
         </div>
         <div class="col-aside lg-right-text">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
           </div>
         </div>
       </div>
@@ -159,15 +159,15 @@
     <input class="hide something-radio-2" id="something-tab-2" type="radio" name="something-tabs">
     <input class="hide something-radio-3" id="something-tab-3" type="radio" name="something-tabs">
 
-    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label something-label-1 semi-bold atomic" for="something-tab-1">Templates</label>
+        <label class="feature-tab-label something-label-1 semi-bold" for="something-tab-1">Templates</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-2 semi-bold atomic" for="something-tab-2">Personalize</label>
+        <label class="feature-tab-label something-label-2 semi-bold" for="something-tab-2">Personalize</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-3 semi-bold atomic" for="something-tab-3">Multi-language</label>
+        <label class="feature-tab-label something-label-3 semi-bold" for="something-tab-3">Multi-language</label>
       </li>
     </ul>
 
@@ -179,7 +179,7 @@
           <p class="medium">Include point-and-click regions to make creating and editing emails a safe and on-brand experience.</p>
         </div>
         <div class="col-aside lg-right-text">
-          <img src="/wp-content/themes/vero/assets/dist/images/features/templates.svg" alt="">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/templates.svg" alt="">
         </div>
       </div>
     </div>
@@ -194,7 +194,7 @@
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
           <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
         </div>
         <div class="col-aside lg-right-text">
-          <img src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
         </div>
       </div>
     </div>
@@ -226,12 +226,12 @@
     <input class="hide testing-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
     <input class="hide testing-radio-2" id="testing-tab-2" type="radio" name="testing-tabs">
 
-    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label testing-label-1 semi-bold atomic" for="testing-tab-1">AB testing</label>
+        <label class="feature-tab-label testing-label-1 semi-bold" for="testing-tab-1">AB testing</label>
       </li>
       <li>
-        <label class="feature-tab-label testing-label-2 semi-bold atomic" for="testing-tab-2">Reporting</label>
+        <label class="feature-tab-label testing-label-2 semi-bold" for="testing-tab-2">Reporting</label>
       </li>
     </ul>
 
@@ -262,15 +262,15 @@
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section>
-  <div class="inner tiny-inner center-text">
+<section class="double-padding">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Reach your customer where they are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
@@ -279,15 +279,15 @@
     <input class="hide multi-channel-radio-2" id="multi-channel-2" type="radio" name="multi-channels">
     <input class="hide multi-channel-radio-3" id="multi-channel-3" type="radio" name="multi-channels">
 
-    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label multi-channel-label-1 semi-bold atomic" for="multi-channel-1">Email</label>
+        <label class="feature-tab-label multi-channel-label-1 semi-bold" for="multi-channel-1">Email</label>
       </li>
       <li>
-        <label class="feature-tab-label multi-channel-label-2 semi-bold atomic" for="multi-channel-2">Push</label>
+        <label class="feature-tab-label multi-channel-label-2 semi-bold" for="multi-channel-2">Push</label>
       </li>
       <li>
-        <label class="feature-tab-label multi-channel-label-3 semi-bold atomic" for="multi-channel-3">SMS</label>
+        <label class="feature-tab-label multi-channel-label-3 semi-bold" for="multi-channel-3">SMS</label>
       </li>
     </ul>
 
@@ -306,6 +306,8 @@
       <div class="w-sidebar w-sidebar--feature-default">
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Push</h3>
+          <p class="medium bottom-margin-lg">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
+          <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
           <p>Image</p>
@@ -317,6 +319,9 @@
       <div class="w-sidebar w-sidebar--feature-default">
         <div class="col-main">
           <h3 class="tubs semi-bold">SMS</h3>
+          <p class="medium">Message your entire customer base as easily as if you were texting a friend.</p>
+
+          <p class="medium">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
         </div>
         <div class="col-aside">
           <p>Image</p>
@@ -325,13 +330,20 @@
     </div>
   </div>
 </section>
-<section>
-  <div class="inner tiny-inner center-text">
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
+  <div class="inner">
+    <div class="flex justify-center">
+      <p class="medium">Add or update data in Vero using</p>
+      <span>Vero</span>
+      <p class="medium">Copy all message activity from Vero to</p>
+    </div>
+  </div>
 </section>
-<section class="bg-gray-lighter">
+<section>
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
