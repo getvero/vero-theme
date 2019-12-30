@@ -34,8 +34,8 @@
   </div>
 
   <div class="inner">
-    <input class="hide automation-tab-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
-    <input class="hide automation-tab-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
+    <input class="hide automation-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
+    <input class="hide automation-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
 
     <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
@@ -83,9 +83,9 @@
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
-    <input class="hide customers-tab-radio-1" id="customers-tab-1" type="radio" name="customers-tabs" checked>
-    <input class="hide customers-tab-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
-    <input class="hide customers-tab-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
+    <input class="hide customers-radio-1" id="customers-tab-1" type="radio" name="customers-tabs" checked>
+    <input class="hide customers-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
+    <input class="hide customers-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
 
     <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
@@ -104,7 +104,7 @@
         <div class="col-main">
           <h3 class="tubs semi-bold bottom-margin-sm">Custom attributes</h3>
 
-          <p class="medium bottom-margin-md">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
+          <p class="medium bottom-margin-lg">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
@@ -155,9 +155,9 @@
     <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
   </div>
   <div class="inner">
-    <input class="hide something-tab-radio-1" id="something-tab-1" type="radio" name="something-tabs" checked>
-    <input class="hide something-tab-radio-2" id="something-tab-2" type="radio" name="something-tabs">
-    <input class="hide something-tab-radio-3" id="something-tab-3" type="radio" name="something-tabs">
+    <input class="hide something-radio-1" id="something-tab-1" type="radio" name="something-tabs" checked>
+    <input class="hide something-radio-2" id="something-tab-2" type="radio" name="something-tabs">
+    <input class="hide something-radio-3" id="something-tab-3" type="radio" name="something-tabs">
 
     <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
@@ -190,7 +190,7 @@
           <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
           <p class="medium bottom-margin-lg">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
-          <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide"></a>
+          <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
@@ -223,15 +223,15 @@
     <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
   <div class="inner">
-    <input class="hide testing-tab-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
-    <input class="hide testing-tab-radio-2" id="testing-tab-2" type="radio" name="testing-tabs">
+    <input class="hide testing-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
+    <input class="hide testing-radio-2" id="testing-tab-2" type="radio" name="testing-tabs">
 
     <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label something-label-1 semi-bold atomic" for="testing-tab-1">AB testing</label>
+        <label class="feature-tab-label testing-label-1 semi-bold atomic" for="testing-tab-1">AB testing</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-2 semi-bold atomic" for="testing-tab-2">Reporting</label>
+        <label class="feature-tab-label testing-label-2 semi-bold atomic" for="testing-tab-2">Reporting</label>
       </li>
     </ul>
 
@@ -250,7 +250,7 @@
     </div>
 
     <div class="testing-tab testing-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main lg-order-2">
           <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
           <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
@@ -262,7 +262,7 @@
         </div>
         <div class="col-aside lg-order-1">
           <div class="d-inline-block bg-dots-offset">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
+            <img src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
           </div>
         </div>
       </div>
@@ -275,38 +275,52 @@
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
-    <ul class="unstyled-list flex justify-center feature-switcher">
-      <li><a class="feature-switcher-btn" href="#5a">Email</a></li>
-      <li><a class="feature-switcher-btn" href="#5b">Push</a></li>
-      <li><a class="feature-switcher-btn" href="#5c">SMS</a></li>
+    <input class="hide multi-channel-radio-1" id="multi-channel-1" type="radio" name="multi-channels" checked>
+    <input class="hide multi-channel-radio-2" id="multi-channel-2" type="radio" name="multi-channels">
+    <input class="hide multi-channel-radio-3" id="multi-channel-3" type="radio" name="multi-channels">
+
+    <ul class="unstyled-list bottom-margin-lg flex justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label multi-channel-label-1 semi-bold atomic" for="multi-channel-1">Email</label>
+      </li>
+      <li>
+        <label class="feature-tab-label multi-channel-label-2 semi-bold atomic" for="multi-channel-2">Push</label>
+      </li>
+      <li>
+        <label class="feature-tab-label multi-channel-label-3 semi-bold atomic" for="multi-channel-3">SMS</label>
+      </li>
     </ul>
 
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main">
-        <h3 class="tubs semi-bold">Email</h3>
-      </div>
-      <div class="col-aside">
-        <p>Image</p>
-      </div>
-    </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main lg-order-2">
-        <h3 class="tubs semi-bold">Push</h3>
-      </div>
-      <div class="col-aside lg-order-1">
-        <p>Image</p>
+    <div class="multi-channel-tab multi-channel-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main">
+          <h3 class="tubs semi-bold">Email</h3>
+        </div>
+        <div class="col-aside">
+          <p>Image</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-default">
-      <div class="col-main">
-        <h3 class="tubs semi-bold">SMS</h3>
+
+    <div class="multi-channel-tab multi-channel-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main lg-order-2">
+          <h3 class="tubs semi-bold">Push</h3>
+        </div>
+        <div class="col-aside lg-order-1">
+          <p>Image</p>
+        </div>
       </div>
-      <div class="col-aside">
-        <p>Image</p>
+    </div>
+
+    <div class="multi-channel-tab multi-channel-tab--3">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main">
+          <h3 class="tubs semi-bold">SMS</h3>
+        </div>
+        <div class="col-aside">
+          <p>Image</p>
+        </div>
       </div>
     </div>
   </div>
