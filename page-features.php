@@ -12,6 +12,8 @@
 <section class="border-bottom-light features-hero">
   <div class="inner xlarge-inner flush-bottom center-text">
     <div class="bottom-margin-xl">
+      <span class="d-inline-block semi-bold bottom-margin-sm xs-bottom-margin-lg">Features</span>
+
       <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
       <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
       <a class="btn btn-large btn-success" href="">Start a trial</a>
@@ -337,9 +339,15 @@
   </div>
   <div class="inner center-text">
     <div class="flex flex-column md-flex-row justify-center feature-integrations">
-      <div>
-        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
-        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="">
+      <div class="flex flex-column md-flex-row">
+        <ul class="unstyled-list output">
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
+          </li>
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="">
+          </li>
+        </ul>
         <p class="medium">Add or update data in Vero using</p>
       </div>
       <div>
