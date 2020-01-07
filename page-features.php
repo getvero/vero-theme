@@ -335,11 +335,33 @@
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
-  <div class="inner">
-    <div class="flex justify-center">
-      <p class="medium">Add or update data in Vero using</p>
-      <span>Vero</span>
-      <p class="medium">Copy all message activity from Vero to</p>
+  <div class="inner center-text">
+    <div class="flex flex-column md-flex-row justify-center feature-integrations">
+      <div>
+        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
+        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="">
+        <p class="medium">Add or update data in Vero using</p>
+      </div>
+      <div>
+        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
+      </div>
+      <div>
+        <ul class="unstyled-list flex flex-row flex-wrap justify-center output">
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
+          </li>
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="">
+          </li>
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
+          </li>
+          <li>
+            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
+          </li>
+        </ul>
+        <p class="medium">Copy all message activity from Vero to</p>
+      </div>
     </div>
   </div>
 </section>
