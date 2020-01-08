@@ -9,28 +9,21 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="border-bottom-light features-hero">
+<section class="features-hero">
   <div class="inner xlarge-inner flush-bottom center-text">
     <div class="bottom-margin-xl">
-      <span class="d-inline-block semi-bold bottom-margin-sm xs-bottom-margin-lg">Features</span>
+      <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
       <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
       <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
 
-    <ul class="unstyled-list features-hero-gallery relative">
-      <li class="features-hero-gallery-item features-hero-gallery-item--1">
-        <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
-      </li>
-      <li class="features-hero-gallery-item features-hero-gallery-item--2 absolute">
-        <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
-      </li>
-    </ul>
+    <img class="border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+<section class="double-padding border-top-light">
+  <div class="inner tiny-inner flush-bottom top-margin-lg bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
