@@ -312,7 +312,7 @@
           <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
-          <p>Image</p>
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/push.svg" alt="">
         </div>
       </div>
     </div>
@@ -320,7 +320,7 @@
     <div class="multi-channel-tab multi-channel-tab--3">
       <div class="w-sidebar w-sidebar--feature-default">
         <div class="col-main">
-          <h3 class="tubs semi-bold">SMS</h3>
+          <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold">Coming soon</span></h3>
           <p class="medium">Message your entire customer base as easily as if you were texting a friend.</p>
 
           <p class="medium">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
@@ -369,10 +369,10 @@
         </ul>
       </div>
       <div class="order-2 md-order-0">
-        <p class="medium">Add or update data in Vero using</p>
+        <p>Add or update data in Vero using</p>
       </div>
       <div class="order-5 md-order-0">
-        <p class="medium">Copy all message activity from Vero to</p>
+        <p>Copy all message activity from Vero to</p>
       </div>
     </div>
   </div>
