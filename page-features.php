@@ -338,8 +338,8 @@
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
   <div class="inner center-text">
-    <div class="flex flex-column md-flex-row items-center justify-center feature-integrations">
-      <div class="flex flex-column">
+    <div class="grid items-center feature-integrations-diagram">
+      <div class="flex flex-column order-1 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
           <li>
             <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
@@ -349,10 +349,10 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="order-3 md-order-0">
         <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
       </div>
-      <div>
+      <div class="order-4 md-order-0">
         <ul class="unstyled-list grid justify-center output">
           <li>
             <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
@@ -368,10 +368,12 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div class="flex">
-      <p class="medium">Add or update data in Vero using</p>
-      <p class="medium">Copy all message activity from Vero to</p>
+      <div class="order-2 md-order-0">
+        <p class="medium">Add or update data in Vero using</p>
+      </div>
+      <div class="order-5 md-order-0">
+        <p class="medium">Copy all message activity from Vero to</p>
+      </div>
     </div>
   </div>
 </section>
