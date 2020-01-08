@@ -10,7 +10,6 @@ function remove_cssjs_ver( $src ) {
 function custom_load_custom_style_sheet() {
   // Register styles
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
-  wp_register_style('featherlight-style', '/wp-content/themes/vero/assets/dist/stylesheets/featherlight.min.css', NULL, PARENT_THEME_VERSION );
   wp_register_style('prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism.min.css', NULL, PARENT_THEME_VERSION );
 
   if ( is_page('features') || is_blog() ) {
@@ -65,11 +64,6 @@ function add_js() {
 
   if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
-  }
-
-  if ( is_page('features') ) {
-    wp_enqueue_script('featherlight');
-    wp_enqueue_script('prism');
   }
 
   if ( is_page('workflows') ) {
