@@ -106,7 +106,7 @@
         <div class="col-main">
           <h3 class="tubs semi-bold bottom-margin-sm">Custom attributes</h3>
 
-          <p class="medium bottom-margin-lg">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
+          <p class="medium bottom-margin-md">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
@@ -117,22 +117,24 @@
         </div>
       </div>
     </div>
+
     <div class="customers-tab customers-tab--2">
       <div class="w-sidebar w-sidebar--feature-default">
-        <div class="col-main lg-order-1">
-          <p>Image</p>
-        </div>
-        <div class="col-aside lg-order-2">
+        <div class="col-main">
           <h3 class="tubs semi-bold">Activity tracking</h3>
 
           <p class="medium">Keep a record of what your customers do (and don't do) on both your site and in your product.</p>
 
-          <p class="medium">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
+          <p class="medium bottom-margin-md">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
+        <div class="col-aside lg-right-text">
+          <img src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
+        </div>
       </div>
     </div>
+
     <div class="customers-tab customers-tab--3">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main">
@@ -191,7 +193,7 @@
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
-          <p class="medium bottom-margin-lg">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
           <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
@@ -208,7 +210,7 @@
           <h3 class="tubs semi-bold">Talk to customers in their language</h3>
           <p class="medium">Create a variant in any language, for any message campaign.</p>
 
-          <p class="medium bottom-margin-lg">Vero automatically sends each customer the right language variant, wherever it's available.</p>
+          <p class="medium bottom-margin-md">Vero automatically sends each customer the right language variant, wherever it's available.</p>
 
           <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
         </div>
@@ -259,7 +261,7 @@
           <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
           <!-- <p class="medium">Conversion tracking. Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p> -->
           <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
-          <p class="medium bottom-margin-lg">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
+          <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
@@ -305,10 +307,10 @@
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main lg-order-2">
           <h3 class="tubs semi-bold">Push</h3>
-          <p class="medium bottom-margin-lg">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
+          <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
           <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
         </div>
         <div class="col-aside lg-order-1">
@@ -318,15 +320,15 @@
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--3">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main">
-          <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold">Coming soon</span></h3>
+          <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
           <p class="medium">Message your entire customer base as easily as if you were texting a friend.</p>
 
           <p class="medium">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
         </div>
-        <div class="col-aside">
-          <p>Image</p>
+        <div class="col-aside lg-right-text">
+          <img class="d-inline-block responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/sms.png" srcset="/wp-content/themes/vero/assets/dist/images/features/sms@2x.png 2x" alt="">
         </div>
       </div>
     </div>
