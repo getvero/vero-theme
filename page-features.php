@@ -334,7 +334,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding bg-dark-blue-lighter">
+<section class="double-padding bg-dark-blue-lighter feature-integrations">
   <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
