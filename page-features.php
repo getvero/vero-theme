@@ -334,6 +334,12 @@
   </div>
   <div class="inner center-text">
     <div class="grid items-center feature-integrations-diagram">
+      <div>
+        <h3>Data in</h3>
+      </div>
+      <div>
+        <h3>Data out</h3>
+      </div>
       <div class="flex flex-column order-1 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
           <li class="test" data-label="Segment">
