@@ -336,10 +336,10 @@
     <div class="grid items-center feature-integrations-diagram">
       <div class="flex flex-column order-1 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
-          <li>
+          <li class="test" data-label="Segment">
             <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
           </li>
-          <li>
+          <li class="test" data-label="Zapier">
             <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="">
           </li>
         </ul>
