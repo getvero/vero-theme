@@ -55,7 +55,7 @@
       <path d="M159,293 C233.006156,293 293,233.006156 293,159 C293,84.9938435 233.006156,25 159,25 C84.9938435,25 25,84.9938435 25,159 C25,233.006156 84.9938435,293 159,293 Z"/>
       <path d="M159,268 C219.199038,268 268,219.199038 268,159 C268,98.8009623 219.199038,50 159,50 C98.8009623,50 50,98.8009623 50,159 C50,219.199038 98.8009623,268 159,268 Z"/>
     </g>
-    <g transform="translate(207 34)">
+    <g transform="translate(242 23)">
       <use fill="#000" filter="url(#templates-a)" xlink:href="#templates-b"/>
       <rect width="181" height="261" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
       <rect width="180" height="1" y="44" fill="#E1E1E1"/>
@@ -67,7 +67,7 @@
       <rect width="118" height="88" x="31" y="66" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" stroke-width="2" rx="4"/>
       <rect width="118" height="70" x="31" y="166" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" stroke-width="2" rx="4"/>
     </g>
-    <g transform="translate(107 54)">
+    <g transform="translate(142 43)">
       <use fill="#000" filter="url(#templates-e)" xlink:href="#templates-f"/>
       <rect width="181" height="261" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
       <rect width="180" height="1" y="44" fill="#E1E1E1"/>
@@ -80,7 +80,7 @@
       <rect width="28" height="101" x="121" y="66" fill="#F15242" fill-opacity=".2" stroke="#F15242" stroke-width="2" rx="4"/>
       <rect width="118" height="57" x="31" y="179" fill="#F15242" fill-opacity=".2" stroke="#F15242" stroke-width="2" rx="4"/>
     </g>
-    <g transform="translate(7 74)">
+    <g transform="translate(42 63)">
       <use fill="#000" filter="url(#templates-i)" xlink:href="#templates-j"/>
       <rect width="181" height="261" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
       <rect width="180" height="1" y="44" fill="#E1E1E1"/>
