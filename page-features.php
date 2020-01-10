@@ -334,45 +334,45 @@
   </div>
   <div class="inner center-text">
     <div class="grid items-center feature-integrations-diagram">
-      <div>
-        <h3>Data in</h3>
+      <div class="order 1 md-order-0">
+        <h3 class="atomic">Data in</h3>
       </div>
-      <div>
-        <h3>Data out</h3>
+      <div class="order-5 md-order-0">
+        <h3 class="atomic">Data out</h3>
       </div>
-      <div class="flex flex-column order-1 md-order-0">
+      <div class="order-2 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
-          <li class="test" data-label="Segment">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
+          <li class="tooltip" data-label="Segment">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
-          <li class="test" data-label="Zapier">
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="">
+          <li class="tooltip" data-label="Zapier">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="Zapier logo">
+          </li>
+        </ul>
+      </div>
+      <div class="order-4 md-order-0">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
+      </div>
+      <div class="order-6 md-order-0">
+        <ul class="unstyled-list grid justify-center output">
+          <li class="tooltip" data-label="Webhook">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
+          </li>
+          <li class="tooltip" data-label="Stitch">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="Stitch logo">
+          </li>
+          <li class="tooltip" data-label="Segment">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
+          </li>
+          <li class="tooltip" data-label="Snowplow">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Snowplow logo">
           </li>
         </ul>
       </div>
       <div class="order-3 md-order-0">
-        <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
-      </div>
-      <div class="order-4 md-order-0">
-        <ul class="unstyled-list grid justify-center output">
-          <li>
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
-          </li>
-          <li>
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="">
-          </li>
-          <li>
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
-          </li>
-          <li>
-            <img src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="">
-          </li>
-        </ul>
-      </div>
-      <div class="order-2 md-order-0">
         <p>Add or update data in Vero using</p>
       </div>
-      <div class="order-5 md-order-0">
+      <div class="order-7 md-order-0">
         <p>Copy all message activity from Vero to</p>
       </div>
     </div>
