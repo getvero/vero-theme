@@ -17,7 +17,7 @@
 </section>
 <section class="getting-started-videos border-bottom-light">
   <div class="inner xlarge-inner w-sidebar w-sidebar--getting-started-videos">
-    <div class="aside">
+    <div class="col-main">
       <div class="subnav bg-white border-light border-radius-2">
         <ul class="unstyled-list bottom-margin-md md-bottom-margin-xxl">
           <li class="no-top-margin bottom-margin-xs">
@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="main md-top-margin-sm">
+    <div class="col-aside md-top-margin-sm">
       <div class="jump-link bottom-margin-lg bottom-padding-lg border-bottom-light" id="vero-basics">
         <h2 class="tubs semi-bold bottom-margin-xxs">Vero Basics</h2>
         <p class="medium bottom-margin-lg">Learn the basics of Vero through short videos.</p>

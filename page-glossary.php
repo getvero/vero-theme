@@ -12,12 +12,12 @@
 <section class="glossary-hero">
   <div class="inner large-inner top-padding-lg">
     <div class="flex flex-column md-flex-row items-center">
-      <div class="aside">
+      <div class="col-main">
         <h1 class="hulk bottom-margin-sm">Glossary</h1>
         <p class="large bottom-margin-lg">Knowledge is power. So let's demystify all the jargon you'll come across on your path to becoming a great email marketer.</p>
       </div>
 
-      <div class="main">
+      <div class="col-aside">
         <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/resources/glossary/hero.svg" alt="Glossary">
       </div>
     </div>
@@ -26,7 +26,7 @@
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner large-inner">
     <div class="w-sidebar w-sidebar--glossary">
-      <div class="aside hide md-show">
+      <div class="col-main hide md-show">
         <ul class="unstyled-list glossary-alphabet">
           <li>
             <a href="#A">A</a>
@@ -84,7 +84,7 @@
           <li class="faded">Z</li>
         </ul>
       </div>
-      <div class="main glossary-list md-left-margin-xxl">
+      <div class="col-aside glossary-list md-left-margin-xxl">
         <?php the_content(); ?>
       </div>
     </div>
