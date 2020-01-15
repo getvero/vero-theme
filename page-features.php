@@ -255,7 +255,7 @@
   
           <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
 
-          <p class="medium">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
+          <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
           
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
