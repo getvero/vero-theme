@@ -252,21 +252,11 @@
           <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
           <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
           <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
-          <!-- <p class="medium">Conversion tracking. Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p> -->
-          <div class="flex">
-            <div>
-              <img src="/wp-content/themes/vero/assets/dist/images/features/icon/tracking.svg" alt="">
-            </div>
-            
-            <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
-          </div>
-          <div class="flex bottom-margin-md">
-            <div>
-              <img class="d-inline-block" src="/wp-content/themes/vero/assets/dist/images/features/icon/warehouse.svg" alt="">
-            </div>
+  
+          <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
+
+          <p class="medium">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
           
-            <p class="medium">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
-          </div>
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
         <div class="col-aside order-1 md-horizontal-padding-md center-text md-left-text">
@@ -308,7 +298,7 @@
 
           <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
         </div>
-        <div class="col-aside">
+        <div class="col-aside md-horizontal-padding-md center-text md-right-text">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/email.svg" alt="">
         </div>
       </div>
