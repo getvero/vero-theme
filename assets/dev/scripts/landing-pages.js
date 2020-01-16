@@ -15,32 +15,6 @@ jQuery(window).scroll(function() {
 });
 
 jQuery(document).ready(function() {
-  // Feature image switcher
-  jQuery('.feature-swapper-option').click(function(e){
-    var swapTo = jQuery(this).data('swap-to');
-    var parentSwapper = jQuery(this).parents('.feature-swapper');
-    parentSwapper.find('li.active').removeClass('active');
-    jQuery(this).parent('li').addClass('active');
-    parentSwapper.find('.active-feature').removeClass('active-feature').addClass('inactive-feature');
-    var featureId = '#' + swapTo
-    parentSwapper.find(featureId).removeClass('inactive-feature').addClass('active-feature');
-    });
-
-  // Lean Modal triggers
-  if ( jQuery('body.home').length > 0 || jQuery('body.pricing').length > 0 ) {
-    jQuery('a[rel*=leanModal]').leanModal({
-      top        : 80,
-      closeButton: '.modal-close'
-    });
-  }
-
-  if ( jQuery('body.blog').length > 0 || jQuery('body.single').length > 0 || jQuery('body.archive').length > 0 || jQuery('body.search').length > 0 ) {
-    jQuery('.js-blog-subscribe-btn').leanModal({
-      top        : 300,
-      closeButton: '.modal-close'
-    });
-  }
-
   if(window.location.hash) {
     var hash = window.location.hash.substring(1);
     if(hash == 'demo') {
