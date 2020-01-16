@@ -1,7 +1,3 @@
-jQuery(window).load(function(){
-  jQuery('pre.okaidia').find('code').addClass('okaidia');
-});
-
 // Sticky header
 jQuery(window).scroll(function() {
   var header          = jQuery('.page .nav-primary');
