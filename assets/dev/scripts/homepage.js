@@ -1,9 +1,4 @@
 jQuery(document).ready(function() {
-  // Smooth scroll
-  if ( jQuery('body.features').length > 0 ) {
-    var scroll = new SmoothScroll('[data-scroll]');
-  }
-
   // Responsive menu
   jQuery('.js-nav-primary-toggle').on( 'click', function() {
     var textcont =  jQuery( '.nav-primary-toggle' ).text();
