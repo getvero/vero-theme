@@ -108,7 +108,7 @@ function genesischild_theme_setup() {
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
   add_filter( 'the_content', 'add_class_to_small_images');
-  add_filter( 'the_content', 'add_blue_signup_boxes' );
+  // add_filter( 'the_content', 'add_blue_signup_boxes' );
 
   # Category page
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
@@ -180,145 +180,8 @@ function genesischild_theme_setup() {
 
   # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
-
-  add_action( 'genesis_after_content', 'sk_related_posts', 12 );
-  /**
-   * Outputs related posts with thumbnail.
-   *
-   * @author Nick the Geek
-   * @url http://designsbynickthegeek.com/tutorials/related-posts-genesis
-   * @global object $post
-   */
-  function sk_related_posts() {
-    global $do_not_duplicate;
-
-    // If we are not on a single post page, abort.
-    if ( ! is_singular( 'post' ) ) {
-      return;
-    }
-
-    global $count;
-    $count = 0;
-
-    $related = '';
-
-    $do_not_duplicate = array();
-    
-    // Get the categories for the current post.
-    $cats = get_the_terms( get_the_ID(), 'category' );
-
-    // If we have some categories and less than 3 posts, run the cat query.
-    if ( $cats && $count <= 2 ) {
-      $query    = sk_related_tax_query( $cats, $count, 'category' );
-      $related .= $query['related'];
-      $count    = $query['count'];
-    }
-
-    // End here if we don't have any related posts.
-    if ( ! $related ) {
-      return;
-    }
-
-    // Display the related posts section.
-    echo '<div class="related">';
-      echo '<h3 class="related-title">Related</h3>';
-      echo '<div class="related-posts">' . $related . '</div>';
-    echo '</div>';
-  }
-
-  /**
-   * The taxonomy query.
-   *
-   * @since  1.0.0
-   * 
-   * @param  array  $terms Array of the taxonomy's objects.
-   * @param  int    $count The number of posts.
-   * @param  string $type  The type of taxonomy, e.g: `tag` or `category`.
-   *
-   * @return string
-   */
-  function sk_related_tax_query( $terms, $count, $type ) {
-    global $do_not_duplicate;
-
-    // If the current post does not have any terms of the specified taxonomy, abort.
-    if ( ! $terms ) {
-      return;
-    }
-
-    // Array variable to store the IDs of the posts.
-    // Stores the current post ID to begin with.
-    $post_ids = array_merge( array( get_the_ID() ), $do_not_duplicate );
-
-    $term_ids = array();
-
-    // Array variable to store the IDs of the specified taxonomy terms.
-    foreach ( $terms as $term ) {
-        $term_ids[] = $term->term_id;
-    }
-
-    $tax_query = array(
-        array(
-            'taxonomy'  => 'post_format',
-            'field'     => 'slug',
-            'terms'     => array(
-                'post-format-link',
-                'post-format-status',
-                'post-format-aside',
-                'post-format-quote',
-            ),
-            'operator' => 'NOT IN',
-        ),
-    );
-
-    $showposts = 3 - $count;
-
-    $args = array(
-      $type . '__in'        => $term_ids,
-      'post__not_in'        => $post_ids,
-      'showposts'           => $showposts,
-      'ignore_sticky_posts' => 1,
-      'tax_query'           => $tax_query,
-    );
-
-    $related  = '';
-
-    $tax_query = new WP_Query($args);
-
-    if ( $tax_query->have_posts() ) {
-      while ( $tax_query->have_posts() ) {
-        $tax_query->the_post();
-
-        $do_not_duplicate[] = get_the_ID();
-
-        $count++;
-
-        $title = get_the_title();
-
-        $related .= '<div class="related-post">';
-
-        $related .= '<a href="' . get_permalink() . '" rel="bookmark" title="Permanent Link to ' . $title . '">' . genesis_get_image(array( 'size' => 'related', 'attr' => array( 'class' => 'related-post-image' ) )) . '</a>';
-
-        $related .= '<div class="related-post-info"><a class="related-post-title" href="' . get_permalink() . '" rel="bookmark" title="Permanent Link to ' . $title . '">' . $title . '</a>';
-
-        $related .= '<div class="related-post-date">' . do_shortcode( '[post_date]' ) . '</div>';
-
-        // $related .= '<div class="related-post-tags">' . do_shortcode( '[post_tags before="Tags: "]' ) . '</div>';
-
-        $related .= '<div class="related-post-categories">' . do_shortcode( '[post_categories before="Categories: "]' ) . '</div></div>';
-
-        $related .= '</div>';
-      }
-    }
-
-    wp_reset_postdata();
-
-    $output = array(
-        'related' => $related,
-        'count'   => $count,
-    );
-
-    return $output;
-  }
+  
+  add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
 }
 
 ?>
