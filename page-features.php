@@ -292,13 +292,13 @@
 
     <div class="multi-channel-tab multi-channel-tab--1">
       <div class="w-sidebar w-sidebar--feature-default">
-        <div class="col-main">
+        <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Email</h3>
           <p class="medium">Creating good looking email isn't easy. Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually.</p>
 
           <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
         </div>
-        <div class="col-aside md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 md-horizontal-padding-md center-text md-right-text">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/email.svg" alt="">
         </div>
       </div>
@@ -325,7 +325,7 @@
 
           <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 md-horizontal-padding-md center-text md-right-text">
           <img class="d-inline-block responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/sms.png" srcset="/wp-content/themes/vero/assets/dist/images/features/sms@2x.png 2x" alt="">
         </div>
       </div>
