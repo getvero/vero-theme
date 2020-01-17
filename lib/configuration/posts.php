@@ -173,33 +173,37 @@
     return "<div class='interstitial'><div class='interstitial-left'><div class='blog-cta-content'><h1>Create better customer experiences</h1><p>Send super targeted messages with Vero.</p><a class='btn btn-success' href='https://app.getvero.com/signup' target='_blank'>Start a free trial</a></div></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/dist/images/blog-cta@2x.png'/></div></div>";
   }
   
-   function be_related_posts_by_category() {
-     $categories = get_the_terms( get_the_ID(), 'category' );
-     $category = array_shift( $categories );
+  function be_related_posts_by_category() {
+    // If we are not on a single post/guide page, abort.
+    if ( !is_blog_post_or_guide() ) {
+      return;
+    }
      
-     $loop = new WP_Query( array(
-       'posts_per_page'  => 3,
-       'post_type'      => array('post', 'guides', 'tutorials'),
-       'category_name'   => $category->slug,
-       'post__not_in'    => array( get_the_ID() )
+    $categories = get_the_terms( get_the_ID(), 'category' );
+    $category = array_shift( $categories );
+     
+    $loop = new WP_Query( array(
+      'posts_per_page'  => 3,
+      'post_type'      => array('post', 'guides', 'tutorials'),
+      'category_name'   => $category->slug,
+      'post__not_in'    => array( get_the_ID() )
      ) );
      
-     if( $loop->have_posts() ):    
-       echo '<div class="inner xlarge-inner">';
-       echo '<h3>Latest</h3>';
-       echo '<div class="grid">';
-       while( $loop->have_posts() ): $loop->the_post();      
-         echo '<div class="entry">';
-         if( has_post_thumbnail() )
-           echo '<a class="entry-image-link" href="' . get_permalink() . '">' . get_the_post_thumbnail( get_the_ID(), 'medium' ) . '</a>';
-         echo '<h3 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
-         echo '</div>';
-     
-       endwhile;
-       echo '</div>';
-       echo '</div>';
-     endif;
-     wp_reset_postdata();
-   }
+    if( $loop->have_posts() ):    
+      echo '<div class="inner xlarge-inner">';
+      echo '<h3>Latest</h3>';
+      echo '<div class="grid">';
+      while( $loop->have_posts() ): $loop->the_post();      
+        echo '<div class="entry">';
+        if( has_post_thumbnail() )
+          echo '<a class="entry-image-link" href="' . get_permalink() . '">' . get_the_post_thumbnail( get_the_ID(), 'medium' ) . '</a>';
+          echo '<h3 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
+        echo '</div>';
+      endwhile;
+      echo '</div>';
+      echo '</div>';
+    endif;
+    wp_reset_postdata();
+  }
 
 ?>
