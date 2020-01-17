@@ -370,7 +370,7 @@
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
           <li class="tooltip" data-label="Snowplow">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Snowplow logo">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/snowplow.svg" alt="Snowplow logo">
           </li>
         </ul>
       </div>
