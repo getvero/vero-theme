@@ -191,14 +191,15 @@
      
     if( $loop->have_posts() ):    
       echo '<section class="related"><div class="inner xlarge-inner">';
-      echo '<h3 class="tubs">Latest</h3>';
+      echo '<h3 class="blog-title">Latest</h3>';
       echo '<div class="grid">';
       while( $loop->have_posts() ): $loop->the_post();      
         echo '<div class="entry">';
         if( has_post_thumbnail() )
           echo '<a class="show entry-aside" href="' . get_permalink() . '">' . the_post_thumbnail( get_the_ID(), array('class' => 'entry-image') ) . '</a>';
           echo '<h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
-        echo the_excerpt();
+        echo '<div class="bottom-margin-md">' . the_excerpt() . '</div>';
+        echo '<a class="unstyled underline-link" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';
