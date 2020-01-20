@@ -52,7 +52,7 @@
 
           <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
         </div>
       </div>
@@ -63,7 +63,7 @@
           <h3 class="tubs semi-bold">Recurring newsletters</h3>
           <p class="medium bottom-margin-md">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
         </div>
-        <div class="col-aside order-1 center-text md-left-text md-horizontal-padding-md">
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
           </div>
@@ -103,7 +103,7 @@
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/custom-attributes.svg" alt="">
           </div>
@@ -122,7 +122,7 @@
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
-        <div class="col-aside order-1 center-text md-left-text md-horizontal-padding-md">
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
         </div>
       </div>
@@ -137,7 +137,7 @@
 
           <a class="btn btn-primary btn--outline" href="/fusion">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
           </div>
@@ -175,7 +175,7 @@
           <p class="medium">Manage email designs centrally and synchronise changes to automated campaigns instantly.</p>
           <p class="medium">Include point-and-click regions to make creating and editing emails a safe and on-brand experience.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/templates.svg" alt="">
         </div>
       </div>
@@ -189,7 +189,7 @@
           <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
           <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
-        <div class="col-aside order-1 center-text md-left-text md-horizontal-padding-md">
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
           </div>
@@ -207,7 +207,7 @@
 
           <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text lg-right-text md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text lg-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
         </div>
       </div>
@@ -238,7 +238,7 @@
           <h3 class="tubs semi-bold">A/B testing</h3>
           <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
           </div>
@@ -259,7 +259,7 @@
           
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-horizontal-padding-md center-text md-left-text">
+        <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-left-text">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
           </div>
@@ -298,7 +298,7 @@
 
           <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/email.svg" alt="">
         </div>
       </div>
@@ -311,7 +311,7 @@
           <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
           <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
         </div>
-        <div class="col-aside order-1 center-text">
+        <div class="col-aside order-1 center-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/push.svg" alt="">
         </div>
       </div>
@@ -325,7 +325,7 @@
 
           <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
           <img class="d-inline-block responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/sms.png" srcset="/wp-content/themes/vero/assets/dist/images/features/sms@2x.png 2x" alt="">
         </div>
       </div>
