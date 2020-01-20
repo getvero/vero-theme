@@ -108,7 +108,7 @@ function genesischild_theme_setup() {
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
   add_filter( 'the_content', 'add_class_to_small_images');
-  add_filter( 'the_content', 'add_blue_signup_boxes' );
+  // add_filter( 'the_content', 'add_blue_signup_boxes' );
 
   # Category page
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
@@ -180,22 +180,8 @@ function genesischild_theme_setup() {
 
   # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
-
-  # Add custom thumbnail size
-  add_action( 'after_setup_theme', 'add_inline_thumbnail' );
-  function add_inline_thumbnail() {
-    add_image_size( 'inline-thumbnail', 800, 600, array( 'center', 'top' ) );
-  }
-  add_filter( 'image_size_names_choose', 'rudr_new_image_sizes' );
-  function rudr_new_image_sizes( $sizes ) {
-    $addsizes = array(
-        'inline-thumbnail' => 'Inline thumbnail'
-    );
-
-    $newsizes = array_merge( $sizes, $addsizes );
-
-    return $newsizes;
-  }
+  
+  add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
 }
 
 ?>
