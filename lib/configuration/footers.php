@@ -129,44 +129,4 @@
     <?php
   }
 
-  function blog_related_posts() {
-    if( is_singular('post') ) {
-      global $post;
-      $categories = get_the_category();
-      $category = $categories[0]->cat_name;?>
-
-      <h4 class="regular tubs">Related posts</h4>
-
-      <div class="grid">
-        <?php
-        $custom_query = new WP_Query('cat='.$categories[0]->cat_id.'&showposts=3');
-
-        while( $custom_query->have_posts() ) {
-          $custom_query->the_post();
-          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-          $category = get_the_category(); ?>
-          <div class="post <?php if($featured_image){ ?>has-image<?php } ?>">
-            <?php if($featured_image) { ?>
-              <div class="bottom-margin-sm">
-                <a class="d-block" href="<?php the_permalink(); ?>">
-                  <img class="border-radius-1" src="<?php echo $featured_image; ?>">
-                </a>
-              </div>
-            <?php } ?>
-
-            <div class="post-body">
-              <span class="d-block badge bottom-margin-xs"><?php echo $category[0]->cat_name; ?></span>
-              <h4 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-            </div>
-          </div>
-        <?php
-        }
-        wp_reset_postdata(); ?>
-
-      </div>
-
-      <?php
-    }
-  }
-
 ?>

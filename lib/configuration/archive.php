@@ -398,7 +398,7 @@ function add_featured_post_to_category() {
               <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
-            <div class="entry-content">
+            <div class="entry-content bottom-margin-md">
               <?php if ( get_field('custom_excerpt') ): ?>
                 <p><?php the_field('custom_excerpt') ?></p>
               <?php else: ?>
