@@ -293,7 +293,7 @@
     <div class="multi-channel-tab multi-channel-tab--1">
       <div class="w-sidebar w-sidebar--feature-default">
         <div class="col-main order-2 md-order-1">
-          <h3 class="tubs semi-bold">Email</h3>
+          <h3 class="tubs semi-bold flex items-center">Email <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
           <p class="medium">Creating good looking email isn't easy. Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually.</p>
 
           <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
