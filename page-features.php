@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="features-hero bg-dark-blue-lighter top-padding-xxl">
+<section class="features-hero bg-gray-lighter top-padding-xxl">
   <?php
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
@@ -24,10 +24,10 @@
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
 
-    <img class="border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+    <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
   </div>
 </section>
-<section class="double-padding border-top-light">
+<section class="double-padding">
   <div class="inner tiny-inner flush-bottom top-margin-lg bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
