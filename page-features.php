@@ -9,7 +9,12 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="features-hero">
+<section class="features-hero bg-dark-blue-lighter">
+  <?php
+    do_action( 'genesis_before_header' );
+    do_action( 'genesis_header' );
+    do_action( 'genesis_after_header' );
+  ?>
   <div class="inner xlarge-inner flush-bottom center-text">
     <div class="bottom-margin-xl">
       <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
