@@ -8,10 +8,9 @@
  * @copyright (c)2014, Neil Gee
  */
 
-if(is_page('homepage') || is_page("careers")){
+if (is_page('homepage') || is_page("careers") ) {
   no_content_no_header();
-}
-else {
+} else {
   no_content_genesis_header();
 }
  
