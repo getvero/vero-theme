@@ -9,307 +9,386 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="features-menu" class="border-bottom-light">
-  <div class="inner large-inner center-text">
-    <h1 class="chunk regular bottom-margin-sm">The definitive workflow for creating best-in-class email experiences</h1>
-    <p class="medium">Vero helps engineering, marketing and product teams move faster to design valuable customer experiences</p>
-    <ul class="no-bottom-margin feature-list feature-menu-list unstyled-list flex flex-wrap md-flex-nowrap justify-center">
-      <li class="no-top-margin">
-        <a href="#features-collection" data-scroll>
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/feature-menu/home-capture.svg" alt="Get your data into Vero">
-          <p class="semi-bold annotation uppercase font-brand-warning center-text">Collection</p>
-        </a>
+<section class="features-hero bg-gray-lighter top-padding-xxl">
+  <?php
+    do_action( 'genesis_before_header' );
+    do_action( 'genesis_header' );
+    do_action( 'genesis_after_header' );
+  ?>
+  <div class="inner xlarge-inner flush-bottom center-text">
+    <div class="bottom-margin-xl">
+      <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
+
+      <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
+      <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
+      <a class="btn btn-large btn-success" href="">Start a trial</a>
+    </div>
+
+    <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner tiny-inner flush-bottom top-margin-lg bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
+    <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
+  </div>
+
+  <div class="inner">
+    <input class="hide automation-radio-1" id="automation-tab-1" type="radio" name="automation-tabs" checked>
+    <input class="hide automation-radio-2" id="automation-tab-2" type="radio" name="automation-tabs">
+
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label automation-label-1 semi-bold" for="automation-tab-1">Workflows</label>
       </li>
-      <li class="no-top-margin">
-        <a href="#features-modelling" data-scroll>
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/feature-menu/home-model.svg" alt="View and model your customer data in one place">
-          <p class="semi-bold annotation uppercase font-brand-success center-text">Modelling</p>
-        </a>
-      </li>
-      <li class="no-top-margin">
-        <a href="#features-automation" data-scroll>
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/feature-menu/home-manage.svg" alt="Complete template management. Advanced scheduling design">
-          <p class="semi-bold annotation uppercase font-brand-primary center-text">Automation</p>
-        </a>
-      </li>
-      <li class="no-top-margin">
-        <a href="#features-deployment" data-scroll>
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/feature-menu/home-deploy.svg" alt="Scalability and centralised reporting">
-          <p class="semi-bold annotation uppercase font-brand-error center-text">Deployment</p>
-        </a>
+      <li>
+        <label class="feature-tab-label automation-label-2 semi-bold" for="automation-tab-2">Recurring newsletters</label>
       </li>
     </ul>
-  </div>
-</section>
-<section id="features-collection" class="feature-section double-padding border-bottom-light">
-  <div class="inner large-inner halfs flex-wrap feature-swapper left-padding-xl right-padding-xl">
-    <h2 class="semi-bold annotation uppercase font-brand-warning center-text bottom-margin-lg">Collection</h2>
-    <div class="left primary">
-      <ul class="button-list unstyled-list center-text">
-        <li class="padding-md disabled-button">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/segment-logo.png" alt="Segment logo">
-          <p class="no-margin top-margin-xs">Connect your data via <span class="semi-bold">Segment.com</span></p>
-        </li>
-      </ul>
 
-      <div class="center-text padding-md">OR</div>
+    <div class="automation-tab automation-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default items-center" id="1a">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold bottom-margin-sm">Workflows</h3>
 
-      <pre class="vero-code active-feature" id="feature-collection-js" data-src="/wp-content/themes/vero/snippets/features-collection-js.js"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-php" data-src="/wp-content/themes/vero/snippets/features-collection-php.php"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-ruby" data-src="/wp-content/themes/vero/snippets/features-collection-ruby.rb"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-node" data-src="/wp-content/themes/vero/snippets/features-collection-node.js"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-python" data-src="/wp-content/themes/vero/snippets/features-collection-python.py"></pre>
-      <pre class="vero-code inactive-feature" id="feature-collection-apple" data-src="/wp-content/themes/vero/snippets/features-collection-apple.m"></pre>
+          <p class="medium bottom-margin-md">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
 
-      <ul class="collection-code button-list unstyled-list center-text bottom-margin-xs">
-        <li class="active">
-          <a href="#js" title="Javascript" class="feature-swapper-option" data-swap-to="feature-collection-js">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-js@2x.png 2x" alt="Javascript">
-          </a>
-        </li>
-        <li>
-          <a href="#php" title="PHP" class="feature-swapper-option" data-swap-to="feature-collection-php">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-php.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-php@2x.png 2x" alt="PHP">
-          </a>
-        </li>
-        <li>
-          <a href="#ruby" title="Ruby" class="feature-swapper-option" data-swap-to="feature-collection-ruby">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-ruby.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-ruby@2x.png 2x" alt="Ruby">
-          </a>
-        </li>
-        <li>
-          <a href="#node" title="Node.js" class="feature-swapper-option" data-swap-to="feature-collection-node">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-nodejs.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-nodejs@2x.png 2x" alt="Node.hs">
-          </a>
-        </li>
-        <li>
-          <a href="#python" title="Python" class="feature-swapper-option" data-swap-to="feature-collection-python">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-python.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-python@2x.png 2x" alt="Python">
-          </a>
-        </li>
-        <li>
-          <a href="#apple" title="Apple - IOS" class="feature-swapper-option" data-swap-to="feature-collection-apple">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-apple.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/collection/data-apple@2x.png 2x" alt="Objective C">
-          </a>
-        </li>
-      </ul>
+          <!-- <a class="medium unstyled underline-link" href="/worksflows">Learn more</a> -->
 
-      <p class="small">Visit our <a class="" href="https://developers.getvero.com">developer center</a> for API documentation and details.</p>
+          <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
+        </div>
+      </div>
     </div>
-    <div class="right secondary">
-      <h2 class="tubs regular regular bottom-margin-lg">Get your data into Vero</h2>
-      <p class="medium bottom-margin-lg">Connect to your <span class="semi-bold">real time event stream</span> in Segment, push real time events via Vero's own libraries, upload ad hoc CSVs and pull in data from your own APIs. Data is critical for segmentation and email personalization, so when it comes to data we've got your back.</p>
-      <ul class="feature-list left-align unstyled-list">
-        <li class="bottom-margin-lg">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/segment-logo.png" alt="Segment logo">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Works with Segment</h3>
-            <p>If you’re already using segment, sending event data to Vero is as simple as flipping a switch.</p>
+    <div class="automation-tab automation-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default items-center" id="1b">
+        <div class="col-main lg-left-padding-md order-2">
+          <h3 class="tubs semi-bold">Recurring newsletters</h3>
+          <p class="medium bottom-margin-md">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
+        </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
           </div>
-        </li>
-        <li class="no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/collection/logs.svg" alt="Understand users and events">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Understand users and events</h3>
-            <p>Vero understands data about users and their actions ("events"). We cache this data to enable powerful segmentation and automation.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<section id="features-modelling" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs flex-wrap large-inner feature-swapper">
-    <h2 class="semi-bold center-text annotation uppercase font-brand-success center-text bottom-margin-lg">Modelling</h2>
-    <div class="left secondary">
-      <h2 class="tubs regular bottom-margin-lg">View and model your customer data in one place</h2>
-      <p class="medium bottom-margin-lg">We provide a scalable system to turn your customer data into meaningful segments. Forget "lists", forget manual maintenance of user states and remove scattered segmentation from your application and backend architecture. Use Vero to design segments via our UI and store them centrally in one place.</p>
-      <ul class="feature-list left-align unstyled-list">
-        <li class="bottom-margin-lg">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation.svg" alt="Powerful segmentation">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Powerful segmentation</h3>
-            <p>Create, save and deploy completely dynamic groups of your customers based on their attributes and actions.</p>
-          </div>
-        </li>
-        <li class="no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/customers.svg" alt="Customer profiles">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Customer profiles</h3>
-            <p>Troubleshoot, investigate and deep dive into your customer lifecycle. View all of the data Vero knows about each of your customers.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="right primary">
-      <img class="feature-image inactive-feature top-margin-sm bottom-margin-sm image-shadow responsive-image" id="feature-image-profiles" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/modelling/profiles@2x.png 2x" alt="Customer Account">
-      <img class="feature-image active-feature top-margin-sm bottom-margin-sm image-shadow responsive-image" id="feature-image-segments" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/modelling/segmentation@2x.png 2x" alt="Customer Profiles Segmentation">
-      <ul class="feature-list button-list pill--buttons unstyled-list buttom-margin-sm">
-        <li class="active bottom-margin-sm">
-          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-segments">
-            <p class="semi-bold annotation no-margin">Segmentation</p>
-          </a>
-        </li>
-        <li>
-          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-profiles">
-            <p class="semi-bold annotation no-margin">Customer Profiles</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<section class="feature-section double-padding border-bottom-light" id="features-automation">
-  <div class="inner halfs flex-wrap large-inner feature-swapper">
-    <h2 class="semi-bold center-text annotation uppercase font-brand-primary bottom-margin-lg">Automation</h2>
-
-    <div class="left primary">
-      <img class="no-margin top-margin-sm bottom-margin-sm feature-image active-feature image-shadow responsive-image" id="feature-image-automate" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaign@2x.png 2x" alt="Automation">
-      <img class="no-margin top-margin-sm  bottom-margin-sm image-shadow responsive-image feature-image inactive-feature" id="feature-image-manage" data-featherlight="/wp-content/themes/vero/assets/dist/images/home/features/automation/content@2x.png" src="/wp-content/themes/vero/assets/dist/images/home/features/automation/content.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/automation/content@2x.png 2x" alt="Manage Content">
-      <ul class="feature-list button-list pill--buttons unstyled-list buttom-margin-sm">
-        <li class="active top-margin-sm">
-          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-automate">
-            <p class="semi-bold annotation no-margin">Automation</p>
-          </a>
-        </li>
-        <li class="top-margin-sm">
-          <a class="unstyled feature-swapper-option" data-swap-to="feature-image-manage">
-            <p class="semi-bold annotation no-margin">Manage Content</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="right secondary">
-      <h2 class="tubs regular bottom-margin-lg">Complete template management. Advanced scheduling design.</h2>
-
-      <p class="medium bottom-margin-lg">Craft any email automation you can dream up using Vero's powerful tools: schedule one-off campaigns, recurring campaigns (hourly, daily or weekly), design drip and automated campaign workflows and trigger transactional emails, all in one place.
-      <ul class="feature-list left-align unstyled-list">
-        <li class="bottom-margin-lg">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/automation/campaigns.svg" alt="Email scheduling and automation">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-mirco">Email scheduling and automation</h3>
-            <p>Send an ad hoc campaign or automate an entire series of emails with specific segmentation: Vero helps you deploy your email content and logic with total control.</p>
-          </div>
-        </li>
-        <li>
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/automation/templates.svg" alt="Template management">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Template management</h3>
-            <p>Store base templates centrally, add "editable" regions and empower your entire team to design campaigns safely.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="outlined-box top-margin-lg">
-      <img class="right-margin-lg" src="/wp-content/themes/vero/assets/dist/images/home/features/automation/fusion-logo.svg" alt="Fusion. Load data externally ">
-      <div>
-        <h3 class="semi-bold smallish bottom-margin-xxs">Fusion. Load data externally.</h3>
-        <p>Fusion loads data from your APIs at send time, giving you more flexibility in your email workflow, and enabling you to use your full CMS, data and application stack with Vero. <a href="https://www.getvero.com/fusion">Read more about Fusion</a></p>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section id="features-deployment" class="feature-section double-padding border-bottom-light">
-  <div class="inner halfs flex-wrap large-inner">
-    <h2 class="semi-bold center-text annotation uppercase font-brand-error center-text bottom-margin-lg">Deployment</h2>
-    <div class="left secondary">
-      <h2 class="tubs regular regular bottom-margin-lg">Scalability and centralised reporting</h2>
-      <p class="medium bottom-margin-lg">Deploy your email automation and content reliabily whether it's to one or 100+ million customers. Let us handle deliverability or BYO email infrastructure platform – we'll track and centralise your reporting.</p>
-
-      <ul class="feature-list left-align unstyled-list">
-        <li class="bottom-margin-lg">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/multi-providers.svg" alt="BYO email infrastructure">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">BYO email infrastructure</h3>
-            <p>Maintain your email reputation and control your deliverability by leveraging one or more of the most popular email infrastructure platforms.</p>
-          </div>
-        </li>
-        <li class="no-bottom-margin">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/webhooks.svg" alt="Data warehouse every interaction">
-          <div class="right">
-            <h3 class="semi-bold atomic bottom-margin-xxs">Data warehouse every interaction</h3>
-            <p>Output data about every email interaction to your own API for data warehousing using webhooks. We also support <a href="https://segment.com/sources" target="_blank">Segment's Sources</a> to export data with a single click.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="right primary">
-      <ul class="button-list mail-services unstyled-list">
-        <li class="center-text padding-xs disabled-button">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/sendgrid.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/sendgrid@2x.png 2x" class="responsive-image" alt="Sendgrid logo">
-        </li>
-        <li class="center-text padding-xs disabled-button">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailgun.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailgun@2x.png 2x" class="responsive-image" alt="Mailgun logo">
-        </li>
-        <li class="center-text padding-xs disabled-button">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailjet.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/mailjet@2x.png 2x" class="responsive-image" alt="Mailjet logo">
-        </li>
-        <li class="center-text padding-xs disabled-button">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/features/deployment/dyn.png" srcset="/wp-content/themes/vero/assets/dist/images/home/features/deployment/dyn@2x.png 2x" class="responsive-image" alt="Dyn logo">
-        </li>
-      </ul>
-      <ul class="button-list unstyled-list">
-        <li class="padding-md disabled-button">
-          <p class="small"><span class="semi-bold">Don’t have your own email provider?</span> No problem, let us send your emails on our managed infrastructure. We partner with Mailgun and can support any custom configuration, including dedicated IPs and custom domains. <a href="mailto:support@getvero.com">Email our Support Team</a>.</p>
-        </li>
-      </ul>
-    </div>
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
+    <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
-</section>
-<section class="double-padding" id="features-more">
-  <div class="inner large-inner">
-    <h2 class="semi-bold center-text bottom-margin-lg">Here's a complete list of our most popular features</h2>
-    <ul class="unstyled-list grid grid-auto center-text">
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/newsletter.svg" alt="Scheduled Newsletters">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Scheduled Newsletters</h3>
-        <p class="light">Send one-off campaigns to individual segments – instantly, or at a scheduled time in the future.</p>
+  <div class="inner">
+    <input class="hide customers-radio-1" id="customers-tab-1" type="radio" name="customers-tabs" checked>
+    <input class="hide customers-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
+    <input class="hide customers-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
+
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label customers-label-1 semi-bold" for="customers-tab-1">Custom attributes</label>
       </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/reports.svg" alt="Detailed reporting">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Detailed Reporting</h3>
-        <p class="light">Get aggregate and day-by-day breakdowns of every email campaign sent through Vero. Plays nice with data warehouses too.</p>
+      <li>
+        <label class="feature-tab-label customers-label-2 semi-bold" for="customers-tab-2">Activity tracking</label>
       </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/liquid.svg" alt="Liquid content">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Liquid Content</h3>
-        <p class="light">Personalise every email using the <a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid templating language</a> and utilise your customer data.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/templates.svg" alt="Manage HTML templates">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Manage HTML templates</h3>
-        <p class="light">Upload, organise and edit your fully responsive email designs and reuse them in all of your campaigns.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/editables.svg" alt="Visual editor">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Visual Editor</h3>
-        <p class="light">Define areas of your email content that the whole team can edit in Vero's point-and-click content editor.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/timezones.svg" alt="Send per timezone">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Send per Timezone</h3>
-        <p class="light">Schedule your emails at the right time for every customer, no matter where in the world they are.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/conversions.svg" alt="Track conversions">
-        <h3 class="semi-bold atomic bottom-margin-xxs">Track Conversions</h3>
-        <p class="light">Go beyond just clicks and track the true success of each campaign using user actions as converion goals.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/abtesting.svg" alt="A/B Testing">
-        <h3 class="semi-bold atomic bottom-margin-xxs">A/B Testing</h3>
-        <p class="light">Multi-variate test the subject, from address, content and template for any email campaign, including triggered workflows.</p>
-      </li>
-      <li class="no-margin">
-        <img class="bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/features/more/csv.svg" alt="CSV Imports">
-        <h3 class="semi-bold atomic bottom-margin-xxs">CSV Imports</h3>
-        <p class="light">Hit the ground running and import your customer attributes and actions using Vero's CSV import tools.</p>
+      <li>
+        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Dynamic data feeds</label>
       </li>
     </ul>
+
+    <div class="customers-tab customers-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold bottom-margin-sm">Custom attributes</h3>
+
+          <p class="medium bottom-margin-md">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
+
+          <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/custom-attributes.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="customers-tab customers-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main order-2">
+          <h3 class="tubs semi-bold">Activity tracking</h3>
+
+          <p class="medium">Keep a record of what your customers do (and don't do) on both your site and in your product.</p>
+
+          <p class="medium bottom-margin-md">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
+
+          <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
+        </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="customers-tab customers-tab--3">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold bottom-margin-sm">Dynamic data feeds</h3>
+
+          <p class="medium bottom-margin-md">Pull data at the time your message is sent from your own, or public, APIs and personalize what your customers see at a whole new level.</p>
+
+          <a class="btn btn-primary btn--outline" href="/fusion">Learn more</a>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="double-padding">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the whole team can use to message customers</h2>
+    <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
+  </div>
+  <div class="inner">
+    <input class="hide something-radio-1" id="something-tab-1" type="radio" name="something-tabs" checked>
+    <input class="hide something-radio-2" id="something-tab-2" type="radio" name="something-tabs">
+    <input class="hide something-radio-3" id="something-tab-3" type="radio" name="something-tabs">
+
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label something-label-1 semi-bold" for="something-tab-1">Templates</label>
+      </li>
+      <li>
+        <label class="feature-tab-label something-label-2 semi-bold" for="something-tab-2">Personalize</label>
+      </li>
+      <li>
+        <label class="feature-tab-label something-label-3 semi-bold" for="something-tab-3">Multi-language</label>
+      </li>
+    </ul>
+
+    <div class="something-tab something-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold">Templates</h3>
+          <p class="medium">Manage email designs centrally and synchronise changes to automated campaigns instantly.</p>
+          <p class="medium">Include point-and-click regions to make creating and editing emails a safe and on-brand experience.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/templates.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="something-tab something-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2">
+          <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
+          <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
+          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
+        </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="something-tab something-tab--3">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold">Talk to customers in their language</h3>
+          <p class="medium">Create a variant in any language, for any message campaign.</p>
+
+          <p class="medium bottom-margin-md">Vero automatically sends each customer the right language variant, wherever it's available.</p>
+
+          <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text lg-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
+    <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
+  </div>
+  <div class="inner">
+    <input class="hide testing-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
+    <input class="hide testing-radio-2" id="testing-tab-2" type="radio" name="testing-tabs">
+
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label testing-label-1 semi-bold" for="testing-tab-1">AB testing</label>
+      </li>
+      <li>
+        <label class="feature-tab-label testing-label-2 semi-bold" for="testing-tab-2">Reporting</label>
+      </li>
+    </ul>
+
+    <div class="testing-tab testing-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold">A/B testing</h3>
+          <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testing-tab testing-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2">
+          <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
+          <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
+          <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
+  
+          <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
+
+          <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
+          
+          <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
+        </div>
+        <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-left-text">
+          <div class="d-inline-block bg-dots-offset">
+            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customer where they are</h2>
+    <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
+  </div>
+  <div class="inner">
+    <input class="hide multi-channel-radio-1" id="multi-channel-1" type="radio" name="multi-channels" checked>
+    <input class="hide multi-channel-radio-2" id="multi-channel-2" type="radio" name="multi-channels">
+    <input class="hide multi-channel-radio-3" id="multi-channel-3" type="radio" name="multi-channels">
+
+    <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
+      <li>
+        <label class="feature-tab-label multi-channel-label-1 semi-bold" for="multi-channel-1">Email</label>
+      </li>
+      <li>
+        <label class="feature-tab-label multi-channel-label-2 semi-bold" for="multi-channel-2">Push</label>
+      </li>
+      <li>
+        <label class="feature-tab-label multi-channel-label-3 semi-bold" for="multi-channel-3">SMS</label>
+      </li>
+    </ul>
+
+    <div class="multi-channel-tab multi-channel-tab--1">
+      <div class="w-sidebar w-sidebar--feature-default">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold flex items-center">Email <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
+          <p class="medium">Creating good looking email isn't easy. Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually.</p>
+
+          <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/email.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="multi-channel-tab multi-channel-tab--2">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2">
+          <h3 class="tubs semi-bold">Push</h3>
+          <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
+          <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
+        </div>
+        <div class="col-aside order-1 center-text bottom-margin-md md-no-bottom-margin">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/push.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="multi-channel-tab multi-channel-tab--3">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
+          <p class="medium">Message your entire customer base as easily as if you were texting a friend.</p>
+
+          <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+          <img class="d-inline-block responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/sms.png" srcset="/wp-content/themes/vero/assets/dist/images/features/sms@2x.png 2x" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding bg-dark-blue-lighter feature-integrations">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
+    <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
+  </div>
+  <div class="inner center-text">
+    <div class="grid items-center feature-integrations-diagram">
+      <div class="order 1 md-order-0">
+        <h3 class="atomic">Data in</h3>
+      </div>
+      <div class="order-5 md-order-0">
+        <h3 class="atomic">Data out</h3>
+      </div>
+      <div class="order-2 md-order-0">
+        <ul class="unstyled-list flex md-flex-column justify-center input">
+          <li class="tooltip" data-label="Segment">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
+          </li>
+          <li class="tooltip" data-label="Zapier">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="Zapier logo">
+          </li>
+        </ul>
+      </div>
+      <div class="order-4 md-order-0">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
+      </div>
+      <div class="order-6 md-order-0">
+        <ul class="unstyled-list grid justify-center output">
+          <li class="tooltip" data-label="Webhook">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
+          </li>
+          <li class="tooltip" data-label="Stitch">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="Stitch logo">
+          </li>
+          <li class="tooltip" data-label="Segment">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
+          </li>
+          <li class="tooltip" data-label="Snowplow">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/snowplow.svg" alt="Snowplow logo">
+          </li>
+        </ul>
+      </div>
+      <div class="order-3 md-order-0">
+        <p>Add or update data in Vero using</p>
+      </div>
+      <div class="order-7 md-order-0">
+        <p>Copy all message activity from Vero to</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 

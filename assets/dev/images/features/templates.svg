@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350">
+  <defs>
+    <rect id="templates-b" width="312" height="228" x="0" y="0" rx="8"/>
+    <filter id="templates-a" width="107.1%" height="109.6%" x="-3.5%" y="-3.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="templates-d" width="312" height="228" x="0" y="0" rx="8"/>
+    <filter id="templates-c" width="107.1%" height="109.6%" x="-3.5%" y="-3.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#E1E1E1" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(54 34)">
+      <path d="M159,318 C246.813275,318 318,246.813275 318,159 C318,71.1867248 246.813275,0 159,0 C71.1867248,0 0,71.1867248 0,159 C0,246.813275 71.1867248,318 159,318 Z"/>
+      <path d="M159,293 C233.006156,293 293,233.006156 293,159 C293,84.9938435 233.006156,25 159,25 C84.9938435,25 25,84.9938435 25,159 C25,233.006156 84.9938435,293 159,293 Z"/>
+      <path d="M159,268 C219.199038,268 268,219.199038 268,159 C268,98.8009623 219.199038,50 159,50 C98.8009623,50 50,98.8009623 50,159 C50,219.199038 98.8009623,268 159,268 Z"/>
+    </g>
+    <g transform="translate(143 10)">
+      <use fill="#000" filter="url(#templates-a)" xlink:href="#templates-b"/>
+      <rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="97" height="35" x="16.5" y="176.5" fill="#F15242" fill-opacity=".2" stroke="#F15242" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="16.5" fill="#01B2D0" fill-opacity=".2" stroke="#01B2D0" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="56.5" fill="#FFC111" fill-opacity=".2" stroke="#FFC111" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="96.5" fill="#6FD350" fill-opacity=".2" stroke="#6FD350" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="136.5" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" rx="4"/>
+      <rect width="2" height="196" x="130" y="16" fill="#F1F1F1"/>
+      <g fill="#F1F1F1" transform="translate(162 24)">
+        <rect width="120" height="94" rx="4"/>
+        <rect width="54" height="42" y="106" rx="4"/>
+        <rect width="58" height="2" x="62" y="116" rx="1"/>
+        <rect width="58" height="2" x="62" y="106" rx="1"/>
+        <rect width="120" height="2" y="156" rx="1"/>
+        <rect width="120" height="2" y="166" rx="1"/>
+        <rect width="120" height="2" y="176" rx="1"/>
+        <rect width="120" height="2" y="186" rx="1"/>
+        <rect width="58" height="2" x="62" y="126" rx="1"/>
+        <rect width="58" height="2" x="62" y="136" rx="1"/>
+        <rect width="58" height="2" x="62" y="146" rx="1"/>
+      </g>
+    </g>
+    <g transform="translate(10 112)">
+      <use fill="#000" filter="url(#templates-c)" xlink:href="#templates-d"/>
+      <rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="97" height="35" x="16.5" y="16.5" fill="#F15242" fill-opacity=".2" stroke="#F15242" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="136.5" fill="#01B2D0" fill-opacity=".2" stroke="#01B2D0" rx="4"/>
+      <rect width="2" height="196" x="130" y="16" fill="#F1F1F1"/>
+      <rect width="97" height="35" x="16.5" y="176.5" fill="#FFC111" fill-opacity=".2" stroke="#FFC111" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="56.5" fill="#6FD350" fill-opacity=".2" stroke="#6FD350" rx="4"/>
+      <rect width="97" height="35" x="16.5" y="96.5" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" rx="4"/>
+      <g fill="#F1F1F1" transform="translate(162 24)">
+        <rect width="120" height="80" rx="4"/>
+        <rect width="54" height="43" y="136" rx="4"/>
+        <rect width="54" height="43" x="66" y="136" rx="4"/>
+        <rect width="120" height="2" y="102" rx="1"/>
+        <rect width="120" height="2" y="92" rx="1"/>
+        <rect width="120" height="2" y="112" rx="1"/>
+        <rect width="120" height="2" y="122" rx="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
