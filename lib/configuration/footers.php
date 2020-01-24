@@ -111,7 +111,7 @@
               <p class="no-margin">We've sent you an email to confirm your subscription.</p>
             </div>
 
-            <form class="js-blog-subscribe-form-2 blog-subscribe-form-2" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+            <form class="js-blog-subscribe-form-2 blog-subscribe-form-2 md-right-margin-md md-left-margin-md" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
               <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-md">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
@@ -123,51 +123,10 @@
               <p class="annotation faded">We're committed to keeping your information safe. Read our <a class="unstyled underline-link" href="/privacy">Privacy Policy</a>.</p>
             </form>
 
-
           <?php endif; ?>
         </div>
       </section>
     <?php
-  }
-
-  function blog_related_posts() {
-    if( is_singular('post') ) {
-      global $post;
-      $categories = get_the_category();
-      $category = $categories[0]->cat_name;?>
-
-      <h4 class="regular tubs">Related posts</h4>
-
-      <div class="grid">
-        <?php
-        $custom_query = new WP_Query('cat='.$categories[0]->cat_id.'&showposts=3');
-
-        while( $custom_query->have_posts() ) {
-          $custom_query->the_post();
-          $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-          $category = get_the_category(); ?>
-          <div class="post <?php if($featured_image){ ?>has-image<?php } ?>">
-            <?php if($featured_image) { ?>
-              <div class="bottom-margin-sm">
-                <a class="d-block" href="<?php the_permalink(); ?>">
-                  <img class="border-radius-1" src="<?php echo $featured_image; ?>">
-                </a>
-              </div>
-            <?php } ?>
-
-            <div class="post-body">
-              <span class="d-block badge bottom-margin-xs"><?php echo $category[0]->cat_name; ?></span>
-              <h4 class="regular micro"><a class="unstyled" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-            </div>
-          </div>
-        <?php
-        }
-        wp_reset_postdata(); ?>
-
-      </div>
-
-      <?php
-    }
   }
 
 ?>
