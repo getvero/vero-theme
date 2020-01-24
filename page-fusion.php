@@ -114,7 +114,7 @@
     </ul>
   </div>
 </section>
-<section id="external-attributes-scale" class="double-padding border-bottom-light">
+<section id="external-attributes-scale" class="double-padding">
   <div class="inner center-text flush-bottom">
     <h2 class="chunk semi-bold bottom-margin-xs">Built to Scale</h2>
     <p class="medium bottom-margin-lg">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>

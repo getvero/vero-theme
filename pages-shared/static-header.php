@@ -8,14 +8,13 @@
  * @copyright (c)2014, Neil Gee
  */
 
-if(is_page('homepage') || is_page("careers")){
+if (is_page('homepage') || is_page("careers") ) {
   no_content_no_header();
-}
-else {
+} else {
   no_content_genesis_header();
 }
  
-//Customised Genesis Header
+# Customised Genesis Header
 function no_content_genesis_header() {
   do_action( 'genesis_doctype' );
   do_action( 'genesis_title' );
@@ -40,9 +39,12 @@ function no_content_genesis_header() {
     'context' => 'site-container',
   ) );
   
-  do_action( 'genesis_before_header' );
-  do_action( 'genesis_header' );
-  do_action( 'genesis_after_header' );
+  # Only show nav if not on features page
+  if (!is_page('features') ) {
+    do_action( 'genesis_before_header' );
+    do_action( 'genesis_header' );
+    do_action( 'genesis_after_header' ); 
+  }
 }
 
 function no_content_no_header() {
@@ -71,7 +73,7 @@ function no_content_no_header() {
 }
 
  
-//Customised Genesis Footer
+# Customised Genesis Footer
 function no_content_genesis_footer() {
   do_action( 'genesis_before_footer' );
   do_action( 'genesis_footer' );

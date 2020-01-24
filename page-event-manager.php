@@ -22,7 +22,7 @@
   </div>
 </section>
 <section id="event-manager-add-event" class="feature-section double-padding">
-  <div class="inner halfs medium-inner left-padding-xl right-padding-xl flush-bottom">
+  <div class="inner halfs medium-inner flush-bottom">
     <div class="left primary">
       <h2 class="tubs regular bottom-margin-lg">Design email campaigns with placeholder events</h2>
       <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.<br><br>
@@ -34,7 +34,7 @@
   </div>
 </section>
 <section id="event-manager-test-event" class="feature-section double-padding">
-  <div class="inner halfs medium-inner small-reverse left-padding-xl right-padding-xl flush-bottom flush-top">
+  <div class="inner halfs medium-inner small-reverse flush-bottom flush-top">
     <div class="left">
       <img class="fl-r small-responsive-image right-padding-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
