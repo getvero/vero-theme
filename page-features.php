@@ -86,6 +86,7 @@
     <input class="hide customers-radio-1" id="customers-tab-1" type="radio" name="customers-tabs" checked>
     <input class="hide customers-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
     <input class="hide customers-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
+    <input class="hide customers-radio-4" id="customers-tab-4" type="radio" name="customers-tabs">
 
     <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
@@ -95,7 +96,10 @@
         <label class="feature-tab-label customers-label-2 semi-bold" for="customers-tab-2">Activity tracking</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Dynamic data feeds</label>
+        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Segment</label>
+      </li>
+      <li>
+        <label class="feature-tab-label customers-label-4 semi-bold" for="customers-tab-4">Dynamic data feeds</label>
       </li>
     </ul>
 
@@ -132,8 +136,21 @@
         </div>
       </div>
     </div>
-
+    
     <div class="customers-tab customers-tab--3">
+      <div class="w-sidebar w-sidebar--feature-default items-center">
+        <div class="col-main order-2">
+          <h3 class="tubs semi-bold">Segment your customers</h3>
+
+          <p class="medium">Create, save and use dynamic groups of customers based on their attributes, web, product and email activity.</p>
+        </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="customers-tab customers-tab--4">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold bottom-margin-sm">Dynamic data feeds</h3>
