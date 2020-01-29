@@ -19,8 +19,7 @@
     <div class="bottom-margin-xl">
       <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
-      <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
-      <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
+      <h1 class="hulk semi-bold bottom-margin-sm">The messaging platform that scales personalisation</h1>
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
 
