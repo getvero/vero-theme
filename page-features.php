@@ -21,7 +21,7 @@
 
       <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
       <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
-      <a class="btn btn-large btn-success" href="">Start a trial</a>
+      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a trial</a>
     </div>
 
     <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
