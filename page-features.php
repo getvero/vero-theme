@@ -15,14 +15,15 @@
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
-  <div class="inner tiny-inner flush-bottom center-text">
-    <div class="bottom-margin-xl">
-      <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
+  <div class="inner tiny-inner flush-bottom bottom-margin-xxl center-text">
+    <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
-      <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
-      <a class="btn btn-large btn-success" href="">Start a trial</a>
-      
-      <a href="#none">Talk to us</a>
+    <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
+
+    <div class="flex items-center justify-center">
+      <a class="btn btn-large btn-success xs-right-margin-sm" href="https://app.getvero.com/signup">Start a trial</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
@@ -30,7 +31,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom top-margin-lg bottom-margin-lg center-text">
+  <div class="inner tiny-inner top-margin-lg bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
     <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
   </div>
@@ -80,7 +81,7 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
@@ -138,7 +139,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="customers-tab customers-tab--3">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2">
@@ -171,28 +172,28 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">A workflow the whole team can use to message customers</h2>
     <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
   </div>
   <div class="inner">
-    <input class="hide something-radio-1" id="something-tab-1" type="radio" name="something-tabs" checked>
-    <input class="hide something-radio-2" id="something-tab-2" type="radio" name="something-tabs">
-    <input class="hide something-radio-3" id="something-tab-3" type="radio" name="something-tabs">
+    <input class="hide workflow-radio-1" id="workflow-tab-1" type="radio" name="workflow-tabs" checked>
+    <input class="hide workflow-radio-2" id="workflow-tab-2" type="radio" name="workflow-tabs">
+    <input class="hide workflow-radio-3" id="workflow-tab-3" type="radio" name="workflow-tabs">
 
     <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label something-label-1 semi-bold" for="something-tab-1">Templates</label>
+        <label class="feature-tab-label workflow-label-1 semi-bold" for="workflow-tab-1">Templates</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-2 semi-bold" for="something-tab-2">Personalize</label>
+        <label class="feature-tab-label workflow-label-2 semi-bold" for="workflow-tab-2">Personalize</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-3 semi-bold" for="something-tab-3">Multi-language</label>
+        <label class="feature-tab-label workflow-label-3 semi-bold" for="workflow-tab-3">Multi-language</label>
       </li>
     </ul>
 
-    <div class="something-tab something-tab--1">
+    <div class="workflow-tab workflow-tab--1">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Templates</h3>
@@ -205,12 +206,12 @@
       </div>
     </div>
 
-    <div class="something-tab something-tab--2">
+    <div class="workflow-tab workflow-tab--2">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
-          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and <code class="language-liquid">case</code> statements to fully customise content or templates.</p>
           <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
@@ -221,7 +222,7 @@
       </div>
     </div>
 
-    <div class="something-tab something-tab--3">
+    <div class="workflow-tab workflow-tab--3">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Talk to customers in their language</h3>
@@ -239,7 +240,7 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
     <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
   </div>
@@ -273,14 +274,13 @@
     <div class="testing-tab testing-tab--2">
       <div class="w-sidebar w-sidebar--feature-default items-center">
         <div class="col-main order-2">
-          <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
-          <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
+          <h3 class="tubs semi-bold">Simple reporting that also lets you dive deep</h3>
           <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
-  
+
           <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
 
           <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
-          
+
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
         <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-left-text">
@@ -293,7 +293,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Reach your customer where they are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
@@ -357,7 +357,7 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter feature-integrations">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
@@ -411,7 +411,11 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <div class="flex items-center justify-center bottom-margin-md">
+      <a class="btn btn-success btn-large xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+    </div>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
