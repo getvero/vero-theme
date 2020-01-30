@@ -93,6 +93,10 @@
   }
 
   function blog_cta() {
+    if ( !is_blog() ) {
+      return '';
+    }
+
     ?>
       <section class="cta bg-gray-lighter">
         <div class="inner tiny-inner center-text">
