@@ -15,14 +15,15 @@
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
-  <div class="inner xlarge-inner flush-bottom center-text">
+  <div class="inner tiny-inner flush-bottom center-text">
     <div class="bottom-margin-xl">
       <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
-      <h1 class="hulk semi-bold bottom-margin-sm">The messaging platform that scales personalisation</h1>
+      <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
       <a class="btn btn-large btn-success" href="">Start a trial</a>
     </div>
-
+  </div>
+  <div class="inner xlarge-inner flush-bottom">
     <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
   </div>
 </section>
