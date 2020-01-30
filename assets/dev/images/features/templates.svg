@@ -26,10 +26,24 @@
     <g transform="translate(143 10)">
       <use fill="#000" filter="url(#templates-a)" xlink:href="#templates-b"/>
       <rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <rect width="30" height="4" x="16" y="16" fill="#F1F1F1" rx="2"/>
+      <rect width="44" height="4" x="54" y="16" fill="#F1F1F1" rx="2"/>
+      <rect width="24" height="4" x="16" y="24" fill="#F1F1F1" rx="2"/>
+      <rect width="60" height="4" x="48" y="24" fill="#F1F1F1" rx="2"/>
+      <rect width="88" height="4" x="28" y="32" fill="#F1F1F1" rx="2"/>
+      <rect width="24" height="4" x="16" y="40" fill="#F1F1F1" rx="2"/>
+      <rect width="60" height="4" x="48" y="40" fill="#F1F1F1" rx="2"/>
+      <rect width="24" height="4" x="16" y="48" fill="#F1F1F1" rx="2"/>
+      <rect width="40" height="4" x="48" y="48" fill="#F1F1F1" rx="2"/>
+      <rect width="16" height="4" x="16" y="56" fill="#F1F1F1" rx="2"/>
+      <rect width="40" height="4" x="40" y="56" fill="#F1F1F1" rx="2"/>
+      <rect width="16" height="4" x="16" y="64" fill="#F1F1F1" rx="2"/>
+      <rect width="70" height="4" x="40" y="64" fill="#F1F1F1" rx="2"/>
+      <rect width="16" height="4" x="16" y="72" fill="#F1F1F1" rx="2"/>
+      <rect width="70" height="4" x="40" y="72" fill="#F1F1F1" rx="2"/>
+      <rect width="40" height="4" x="16" y="80" fill="#F1F1F1" rx="2"/>
+      <rect width="40" height="4" x="64" y="80" fill="#F1F1F1" rx="2"/>
       <rect width="97" height="35" x="16.5" y="176.5" fill="#F15242" fill-opacity=".2" stroke="#F15242" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="16.5" fill="#01B2D0" fill-opacity=".2" stroke="#01B2D0" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="56.5" fill="#FFC111" fill-opacity=".2" stroke="#FFC111" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="96.5" fill="#6FD350" fill-opacity=".2" stroke="#6FD350" rx="4"/>
       <rect width="97" height="35" x="16.5" y="136.5" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" rx="4"/>
       <rect width="2" height="196" x="130" y="16" fill="#F1F1F1"/>
       <g fill="#F1F1F1" transform="translate(162 24)">
