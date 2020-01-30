@@ -21,6 +21,8 @@
 
       <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
       <a class="btn btn-large btn-success" href="">Start a trial</a>
+      
+      <a href="#none">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
