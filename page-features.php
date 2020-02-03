@@ -361,7 +361,10 @@
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
   </div>
-  <div class="inner center-text">
+  <div class="inner center-text relative">
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--1"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--2"></span>
+
     <div class="grid items-center feature-integrations-diagram">
       <div class="order 1 md-order-0">
         <h3 class="atomic">Data in</h3>
