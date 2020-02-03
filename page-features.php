@@ -27,7 +27,9 @@
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
-    <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+    <div class="features-hero-img">
+      <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+    </div>
   </div>
 </section>
 <section class="double-padding">
@@ -364,13 +366,15 @@
   <div class="inner center-text relative">
     <span class="absolute feature-integrations-pulse feature-integrations-pulse--1"></span>
     <span class="absolute feature-integrations-pulse feature-integrations-pulse--2"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--3"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--4"></span>
 
     <div class="grid items-center feature-integrations-diagram">
       <div class="order 1 md-order-0">
-        <h3 class="atomic">Data in</h3>
+        <h3 class="atomic no-margin">Data in</h3>
       </div>
       <div class="order-5 md-order-0">
-        <h3 class="atomic">Data out</h3>
+        <h3 class="atomic no-margin">Data out</h3>
       </div>
       <div class="order-2 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
@@ -382,7 +386,7 @@
           </li>
         </ul>
       </div>
-      <div class="order-4 md-order-0">
+      <div class="order-4 md-order-0 relative">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
       </div>
       <div class="order-6 md-order-0">
