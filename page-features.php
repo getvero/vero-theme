@@ -15,7 +15,7 @@
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
-  <div class="inner tiny-inner flush-bottom bottom-margin-xxl center-text">
+  <div class="inner tiny-inner flush-bottom center-text">
     <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
     <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
