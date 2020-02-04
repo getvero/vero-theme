@@ -150,7 +150,7 @@
           <p class="medium">Create, save and use dynamic groups of customers based on their attributes, web, product and email activity.</p>
         </div>
         <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
-          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/segment.svg" alt="Segment your customers">
         </div>
       </div>
     </div>
