@@ -128,8 +128,8 @@
       <rect width="97" height="35" x="16.5" y="136.5" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" mask="url(#templates-c)" rx="4"/>
       <g fill="#F1F1F1" mask="url(#templates-c)">
         <g transform="translate(178 37)">
-          <rect width="104" height="78" rx="4"/>
-          <rect width="50" height="42" y="90" rx="4"/>
+          <rect width="104" height="78"/>
+          <rect width="50" height="42" y="90"/>
           <rect width="45" height="2" x="59" y="100" rx="1"/>
           <rect width="45" height="2" x="59" y="90" rx="1"/>
           <rect width="104" height="2" y="140" rx="1"/>
@@ -192,9 +192,9 @@
         <rect width="16" height="4" x="15" y="11" fill="#6FD350" rx="2"/>
       </g>
       <g fill="#F1F1F1" transform="translate(162 38)">
-        <rect width="120" height="80" rx="4"/>
-        <rect width="54" height="34" y="136" rx="4"/>
-        <rect width="54" height="34" x="66" y="136" rx="4"/>
+        <rect width="120" height="80"/>
+        <rect width="54" height="34" y="136"/>
+        <rect width="54" height="34" x="66" y="136"/>
         <rect width="120" height="2" y="102" rx="1"/>
         <rect width="120" height="2" y="92" rx="1"/>
         <rect width="120" height="2" y="112" rx="1"/>
