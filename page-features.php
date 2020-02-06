@@ -101,7 +101,7 @@
         <label class="feature-tab-label customers-label-2 semi-bold" for="customers-tab-2">Activity tracking</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Segment</label>
+        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Segmentation</label>
       </li>
       <li>
         <label class="feature-tab-label customers-label-4 semi-bold" for="customers-tab-4">Dynamic data feeds</label>
@@ -188,7 +188,7 @@
         <label class="feature-tab-label workflow-label-1 semi-bold" for="workflow-tab-1">Templates</label>
       </li>
       <li>
-        <label class="feature-tab-label workflow-label-2 semi-bold" for="workflow-tab-2">Personalize</label>
+        <label class="feature-tab-label workflow-label-2 semi-bold" for="workflow-tab-2">Personalization</label>
       </li>
       <li>
         <label class="feature-tab-label workflow-label-3 semi-bold" for="workflow-tab-3">Multi-language</label>
