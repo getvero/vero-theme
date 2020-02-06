@@ -173,7 +173,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the <em>whole team</em> can use to message customers</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the <span class="font-brand-primary">whole team</span> can use to message customers</h2>
     <p class="large">Separate message design from message scheduling. An easy-to-use UI to create, edit and deploy messages to your customers.</p>
   </div>
   <div class="inner">
