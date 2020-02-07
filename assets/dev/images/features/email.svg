@@ -1,15 +1,87 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350">
   <defs>
-    <rect id="email-b" width="367" height="252" x="0" y="0" rx="8"/>
-    <filter id="email-a" width="106%" height="108.7%" x="-3%" y="-3.6%" filterUnits="objectBoundingBox">
+    <rect id="email-b" width="312" height="228" x="0" y="0" rx="8"/>
+    <filter id="email-a" width="107.1%" height="109.6%" x="-3.5%" y="-3.9%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
     </filter>
-    <rect id="email-d" width="32" height="32" x="0" y="0" rx="2"/>
-    <filter id="email-c" width="168.8%" height="168.8%" x="-34.4%" y="-28.1%" filterUnits="objectBoundingBox">
+    <path id="email-d" d="M8,0 L304,0 C308.418278,-8.11624501e-16 312,3.581722 312,8 L312,18 L312,18 L0,18 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z"/>
+    <filter id="email-c" width="107.1%" height="222.2%" x="-3.5%" y="-50%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-f" width="46" height="14" x="54" y="0" rx="2"/>
+    <filter id="email-e" width="147.8%" height="257.1%" x="-23.9%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-h" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-g" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-j" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-i" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-l" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-k" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-n" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-m" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-p" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-o" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-r" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-q" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-t" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-s" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-v" width="32" height="32" x="0" y="0" rx="2"/>
+    <filter id="email-u" width="168.8%" height="168.8%" x="-34.4%" y="-28.1%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
       <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
@@ -18,7 +90,7 @@
     </filter>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <g stroke="#E1E1E1" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(50 10)">
+    <g stroke="#E1E1E1" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(20 10)">
       <path d="M160,320 C248.36556,320 320,248.36556 320,160 C320,71.63444 248.36556,0 160,0 C71.63444,0 0,71.63444 0,160 C0,248.36556 71.63444,320 160,320 Z"/>
       <path d="M160,294 C234.006156,294 294,234.006156 294,160 C294,85.9938435 234.006156,26 160,26 C85.9938435,26 26,85.9938435 26,160 C26,234.006156 85.9938435,294 160,294 Z"/>
       <path d="M160,268 C219.646753,268 268,219.646753 268,160 C268,100.353247 219.646753,52 160,52 C100.353247,52 52,100.353247 52,160 C52,219.646753 100.353247,268 160,268 Z"/>
@@ -27,39 +99,75 @@
     <rect width="263" height="229" x="174" y="28" stroke="#E1E1E1" stroke-width="2" rx="8"/>
     <circle cx="174" cy="28" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/>
     <circle cx="437" cy="257" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/>
-    <g transform="translate(18 78)">
+    <g transform="translate(13 98)">
       <use fill="#000" filter="url(#email-a)" xlink:href="#email-b"/>
-      <rect width="368" height="253" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
-      <rect width="97" height="35" x="16.5" y="16.5" fill="#F15242" fill-opacity=".2" stroke="#F15242" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="62.5" fill="#01B2D0" fill-opacity=".2" stroke="#01B2D0" rx="4"/>
-      <rect width="2" height="220" x="130" y="16" fill="#F1F1F1"/>
-      <rect width="97" height="35" x="16.5" y="108.5" fill="#FFC111" fill-opacity=".2" stroke="#FFC111" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="154.5" fill="#6FD350" fill-opacity=".2" stroke="#6FD350" rx="4"/>
-      <rect width="97" height="35" x="16.5" y="200.5" fill="#6F0DFB" fill-opacity=".2" stroke="#6F0DFB" rx="4"/>
-      <g transform="translate(94 36)">
-        <use fill="#000" filter="url(#email-c)" xlink:href="#email-d"/>
-        <rect width="33" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
-        <g fill="#F1F1F1" transform="translate(12 3)">
-          <rect width="2" height="14" x="3" y="7"/>
-          <polygon points="4 0 8 7 0 7"/>
-          <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
-        </g>
-        <g fill="#F1F1F1" transform="rotate(90 8.5 20.5)">
-          <rect width="2" height="14" x="3" y="7"/>
-          <polygon points="4 0 8 7 0 7"/>
-          <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
-        </g>
+      <rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <use fill="#000" filter="url(#email-c)" xlink:href="#email-d"/>
+      <path fill="#FFF" stroke="#E1E1E1" d="M312.5,18.5 L-0.5,18.5 L-0.5,8 C-0.5,5.65278981 0.451394907,3.52778981 1.98959236,1.98959236 C3.52778981,0.451394907 5.65278981,-0.5 8,-0.5 L304,-0.5 C306.34721,-0.5 308.47221,0.451394907 310.010408,1.98959236 C311.548605,3.52778981 312.5,5.65278981 312.5,8 L312.5,18.5 Z"/>
+      <rect width="100" height="2" x="14" y="102" fill="#F1F1F1"/>
+      <g transform="translate(14 116)">
+        <use fill="#000" filter="url(#email-e)" xlink:href="#email-f"/>
+        <rect width="47" height="15" x="53.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="38" height="4" y="5" fill="#F1F1F1" rx="2"/>
       </g>
-      <g fill="#F1F1F1" transform="translate(184 25)">
-        <rect width="120" height="80" rx="4"/>
-        <rect width="54" height="43" y="154" rx="4"/>
-        <rect width="54" height="43" x="66" y="154" rx="4"/>
+      <g transform="translate(14 136)">
+        <use fill="#000" filter="url(#email-g)" xlink:href="#email-h"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <g transform="translate(14 156)">
+        <use fill="#000" filter="url(#email-i)" xlink:href="#email-j"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <g transform="translate(14 176)">
+        <use fill="#000" filter="url(#email-k)" xlink:href="#email-l"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <rect width="2" height="210" x="130" y="18" fill="#F1F1F1"/>
+      <g transform="translate(14 32)">
+        <use fill="#000" filter="url(#email-m)" xlink:href="#email-n"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#01B2D0" rx="2"/>
+      </g>
+      <g transform="translate(67 64)">
+        <use fill="#000" filter="url(#email-o)" xlink:href="#email-p"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#6F0DFB" rx="2"/>
+      </g>
+      <g transform="translate(67 32)">
+        <use fill="#000" filter="url(#email-q)" xlink:href="#email-r"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#F15242" rx="2"/>
+      </g>
+      <g transform="translate(14 64)">
+        <use fill="#000" filter="url(#email-s)" xlink:href="#email-t"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#6FD350" rx="2"/>
+      </g>
+      <g fill="#F1F1F1" transform="translate(162 38)">
+        <rect width="120" height="80"/>
+        <rect width="54" height="34" y="136"/>
+        <rect width="54" height="34" x="66" y="136"/>
         <rect width="120" height="2" y="102" rx="1"/>
         <rect width="120" height="2" y="92" rx="1"/>
         <rect width="120" height="2" y="112" rx="1"/>
         <rect width="120" height="2" y="122" rx="1"/>
-        <rect width="120" height="2" y="142" rx="1"/>
-        <rect width="120" height="2" y="132" rx="1"/>
+      </g>
+    </g>
+    <g transform="translate(112 141)">
+      <use fill="#000" filter="url(#email-u)" xlink:href="#email-v"/>
+      <rect width="33" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+      <g fill="#F1F1F1" transform="translate(12 3)">
+        <rect width="2" height="14" x="3" y="7"/>
+        <polygon points="4 0 8 7 0 7"/>
+        <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
+      </g>
+      <g fill="#F1F1F1" transform="rotate(90 8.5 20.5)">
+        <rect width="2" height="14" x="3" y="7"/>
+        <polygon points="4 0 8 7 0 7"/>
+        <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
       </g>
     </g>
   </g>
