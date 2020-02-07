@@ -156,7 +156,7 @@
         <rect width="120" height="2" y="122" rx="1"/>
       </g>
     </g>
-    <g transform="translate(112 141)">
+    <g transform="translate(119 144)">
       <use fill="#000" filter="url(#email-u)" xlink:href="#email-v"/>
       <rect width="33" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
       <g fill="#F1F1F1" transform="translate(12 3)">
