@@ -27,8 +27,18 @@
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
-    <div class="features-hero-img">
-      <img class="border border-radius-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+    <div class="features-hero-imgs relative center-text">
+      <div class="d-inline-block features-hero-img features-hero-img--1 relative">
+        <img class="features-hero-tooltip absolute align-middle" style="z-index: 9;" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
+
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png 2x" alt="">
+      </div>
+      <div class="features-hero-img features-hero-img--2">
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-2.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-2@2x.png 2x" alt="">
+      </div>
+      <div class="features-hero-img features-hero-img--3">
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-3.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-3@2x.png 2x" alt="">
+      </div>
     </div>
   </div>
 </section>
