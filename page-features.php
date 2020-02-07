@@ -20,8 +20,8 @@
 
     <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
 
-    <div class="flex items-center justify-center">
-      <a class="btn btn-large btn-success xs-right-margin-sm" href="https://app.getvero.com/signup">Start a trial</a>
+    <div class="flex flex-column xs-flex-row items-center justify-center">
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
       <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
@@ -29,7 +29,7 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="features-hero-imgs relative center-text">
       <div class="d-inline-block features-hero-img features-hero-img--1 relative">
-        <img class="features-hero-tooltip absolute align-middle" style="z-index: 9;" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
+        <img class="features-hero-tooltip absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
 
         <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png 2x" alt="">
       </div>
@@ -426,7 +426,7 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
-      <a class="btn btn-success btn-large xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
       <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
