@@ -44,7 +44,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner top-margin-lg bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Automation <span class="font-brand-primary">scales</span> when you can't</h2>
     <p class="large">Your customers never sleep &mdash; they're 24/7, 365 and global. Use automation to extend your team's reach and communicate with <em>all</em> of your customers, at any scale.</p>
   </div>
 
@@ -94,7 +94,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Customers</span>, not <strong>lists</strong></h2>
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
@@ -249,7 +249,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Iterate</span>  and A/B test your messages</h2>
     <p class="large">Don't guess what works: test it. Built-in tools to test manual and automated campaigns.</p>
   </div>
   <div class="inner">
@@ -300,7 +300,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <em>they</em> are</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <span class="font-brand-primary">they</span> are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
