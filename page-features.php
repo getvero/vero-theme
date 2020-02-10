@@ -393,7 +393,7 @@
           </li>
         </ul>
       </div>
-      <div class="order-4 md-order-0 relative">
+      <div class="hide md-show order-4 md-order-0 relative">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
       </div>
       <div class="order-6 md-order-0">
