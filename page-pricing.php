@@ -157,7 +157,8 @@ include 'pages-shared/static-header.php';
       </div>
       <div class="answer">
         <p>Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
-        <p>We also provide urgent, emergency support for customers on our high-volume plans - <a rel="leanModal" href="#demo">talk to our sales team</a> to learn more.</p>
+
+        <p>We also provide urgent, emergency support for customers on our high-volume plans - <a class="typeform-share"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">talk to our sales team</a> to learn more.</p>
       </div>
     </div>
 

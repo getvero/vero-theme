@@ -43,8 +43,8 @@
   <div class="inner center-text">
     <h2 class="tubs regular regular center-text">Track your customers language in Vero like this:</h2>
 
-    <div class="bottom-margin-xs" id="data-code-block">
-        <pre class="language-javascript line-numbers"><code>//Do this every time you update your customer data
+    <div class="bottom-margin-xs">
+      <pre><code class="language-javascript">// Do this every time you update your customer data
 vero.users.track!({
   id:    '123',
   email: 'damienb@getvero.com',
@@ -53,7 +53,6 @@ vero.users.track!({
   }
 })</code></pre>
     </div>
-    <div class="clearfix"></div>
 
     <p>Learn more about tracking events and adding new customers at <a href="https://developers.getvero.com/?javascript" target="_blank">developers.getvero.com</a>.</p>
 

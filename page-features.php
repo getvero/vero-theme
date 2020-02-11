@@ -15,22 +15,37 @@
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
   ?>
-  <div class="inner xlarge-inner flush-bottom center-text">
-    <div class="bottom-margin-xl">
-      <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
+  <div class="inner tiny-inner flush-bottom center-text">
+    <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
-      <h1 class="hulk semi-bold bottom-margin-sm">How it works</h1>
-      <p class="large bottom-margin-md">The messaging platform that scales personalisation.</p>
-      <a class="btn btn-large btn-success" href="https://app.getvero.com/signup">Start a trial</a>
+    <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalization</h1>
+
+    <div class="flex flex-column xs-flex-row items-center justify-center">
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
+  </div>
+  <div class="inner xlarge-inner flush-bottom">
+    <div class="features-hero-imgs relative center-text">
+      <div class="d-inline-block features-hero-img features-hero-img--1 relative">
+        <img class="features-hero-tooltip absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
 
-    <img class="features-hero-img border border-radius-2 shadow-2 responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png" alt="">
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png 2x" alt="">
+      </div>
+      <div class="features-hero-img features-hero-img--2">
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-2.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-2@2x.png 2x" alt="">
+      </div>
+      <div class="features-hero-img features-hero-img--3">
+        <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-3.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-3@2x.png 2x" alt="">
+      </div>
+    </div>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom top-margin-lg bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Automation scales when you can't</h2>
-    <p class="large">Your customers never sleep&mdash;they're 24/7, 365, global. Use automation to extend your team and help more customers, more often.</p>
+  <div class="inner tiny-inner top-margin-lg bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Automation <span class="font-brand-primary">scales</span> when you can't</h2>
+    <p class="large">Your customers never sleep &mdash; they're 24/7, 365 and global. Use automation to extend your team's reach and communicate with <em>all</em> of your customers, at any scale.</p>
   </div>
 
   <div class="inner">
@@ -47,28 +62,26 @@
     </ul>
 
     <div class="automation-tab automation-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default items-center" id="1a">
+      <div class="w-sidebar w-sidebar--feature-sm items-center" id="1a">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold bottom-margin-sm">Workflows</h3>
 
-          <p class="medium bottom-margin-md">Automatically trigger workflows based on customer activity, automate decisions and trigger messages across multiple channels, all with our beautiful drag-and-drop UI.</p>
-
-          <!-- <a class="medium unstyled underline-link" href="/worksflows">Learn more</a> -->
+          <p class="medium bottom-margin-md">Trigger workflows based on customer activity, automate decisions and send messages across multiple channels, all using a visual, drag-and-drop UI.</p>
 
           <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
         </div>
       </div>
     </div>
     <div class="automation-tab automation-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default items-center" id="1b">
+      <div class="w-sidebar w-sidebar--feature-sm items-center" id="1b">
         <div class="col-main lg-left-padding-md order-2">
           <h3 class="tubs semi-bold">Recurring newsletters</h3>
-          <p class="medium bottom-margin-md">Whether it's a weekly summary, a daily news feed or the latest products, use recurring newsletters in conjunction with dynamic segmentation for powerful results.</p>
+          <p class="medium bottom-margin-md">Power weekly summaries, daily news feeds, lists of your latest products and more using recurring newsletters and dynamic segmentation.</p>
         </div>
-        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/recurring-newsletters.svg" alt="">
           </div>
@@ -78,14 +91,15 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Customers, not <strong>lists</strong></h2>
+  <div class="inner tiny-inner bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Customers</span>, not <strong>lists</strong></h2>
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
     <input class="hide customers-radio-1" id="customers-tab-1" type="radio" name="customers-tabs" checked>
     <input class="hide customers-radio-2" id="customers-tab-2" type="radio" name="customers-tabs">
     <input class="hide customers-radio-3" id="customers-tab-3" type="radio" name="customers-tabs">
+    <input class="hide customers-radio-4" id="customers-tab-4" type="radio" name="customers-tabs">
 
     <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
@@ -95,20 +109,23 @@
         <label class="feature-tab-label customers-label-2 semi-bold" for="customers-tab-2">Activity tracking</label>
       </li>
       <li>
-        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Dynamic data feeds</label>
+        <label class="feature-tab-label customers-label-3 semi-bold" for="customers-tab-3">Segmentation</label>
+      </li>
+      <li>
+        <label class="feature-tab-label customers-label-4 semi-bold" for="customers-tab-4">Dynamic data feeds</label>
       </li>
     </ul>
 
     <div class="customers-tab customers-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold bottom-margin-sm">Custom attributes</h3>
 
-          <p class="medium bottom-margin-md">Use attributes to store customer inputs, demographic data, subscription preferences.</p>
+          <p class="medium bottom-margin-md">Attributes enable you to store customer inputs, demographic data, subscription preferences and more.</p>
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/custom-attributes.svg" alt="">
           </div>
@@ -117,7 +134,7 @@
     </div>
 
     <div class="customers-tab customers-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-sm">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Activity tracking</h3>
 
@@ -127,92 +144,101 @@
 
           <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
         </div>
-        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
         </div>
       </div>
     </div>
 
     <div class="customers-tab customers-tab--3">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
+          <h3 class="tubs semi-bold">Segment your customers</h3>
+
+          <p class="medium">Create, save and use dynamic groups of customers based on their attributes and web, product and email activity.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/segment.svg" alt="Segment your customers">
+        </div>
+      </div>
+    </div>
+
+    <div class="customers-tab customers-tab--4">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
+        <div class="col-main order-2">
           <h3 class="tubs semi-bold bottom-margin-sm">Dynamic data feeds</h3>
 
-          <p class="medium bottom-margin-md">Pull data at the time your message is sent from your own, or public, APIs and personalize what your customers see at a whole new level.</p>
+          <p class="medium bottom-margin-md">Pull data at the time your message is sent from internal or public APIs and personalize what your customers see at a whole new level.</p>
 
           <a class="btn btn-primary btn--outline" href="/fusion">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
-          <div class="d-inline-block bg-dots-offset">
-            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
-          </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
         </div>
       </div>
     </div>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the whole team can use to message customers</h2>
-    <p class="large">Separate message design from message code. An easy-to-use UI to create, edit and deploy messages to customers.</p>
+  <div class="inner tiny-inner bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the <span class="font-brand-primary">whole team</span> can use to message customers</h2>
+    <p class="large">Separate message design from message scheduling. An easy-to-use UI to create, edit and deploy messages to your customers.</p>
   </div>
   <div class="inner">
-    <input class="hide something-radio-1" id="something-tab-1" type="radio" name="something-tabs" checked>
-    <input class="hide something-radio-2" id="something-tab-2" type="radio" name="something-tabs">
-    <input class="hide something-radio-3" id="something-tab-3" type="radio" name="something-tabs">
+    <input class="hide workflow-radio-1" id="workflow-tab-1" type="radio" name="workflow-tabs" checked>
+    <input class="hide workflow-radio-2" id="workflow-tab-2" type="radio" name="workflow-tabs">
+    <input class="hide workflow-radio-3" id="workflow-tab-3" type="radio" name="workflow-tabs">
 
     <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label something-label-1 semi-bold" for="something-tab-1">Templates</label>
+        <label class="feature-tab-label workflow-label-1 semi-bold" for="workflow-tab-1">Message design</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-2 semi-bold" for="something-tab-2">Personalize</label>
+        <label class="feature-tab-label workflow-label-2 semi-bold" for="workflow-tab-2">Personalization</label>
       </li>
       <li>
-        <label class="feature-tab-label something-label-3 semi-bold" for="something-tab-3">Multi-language</label>
+        <label class="feature-tab-label workflow-label-3 semi-bold" for="workflow-tab-3">Localization</label>
       </li>
     </ul>
 
-    <div class="something-tab something-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+    <div class="workflow-tab workflow-tab--1">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
-          <h3 class="tubs semi-bold">Templates</h3>
-          <p class="medium">Manage email designs centrally and synchronise changes to automated campaigns instantly.</p>
-          <p class="medium">Include point-and-click regions to make creating and editing emails a safe and on-brand experience.</p>
+          <h3 class="tubs semi-bold">Message design</h3>
+          <p class="medium">Manage message designs centrally across any channel for both automated and manual campaigns.</p>
+          <p class="medium">Point-and-click email design makes creating emails a powerful and confident process.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/templates.svg" alt="">
         </div>
       </div>
     </div>
 
-    <div class="something-tab something-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+    <div class="workflow-tab workflow-tab--2">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2">
-          <h3 class="tubs semi-bold">Personalize emails with dynamic data and templating</h3>
-          <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your emails are personal.</p>
-          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and case` statements to fully customise content or templates.</p>
+          <h3 class="tubs semi-bold">Personalize messages with dynamic data and templating</h3>
+          <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your messages are personal.</p>
+          <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and <code class="language-liquid">case</code> statements to fully customise content or templates.</p>
           <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
-        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
-          <div class="d-inline-block bg-dots-offset">
-            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
-          </div>
+        <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
         </div>
       </div>
     </div>
 
-    <div class="something-tab something-tab--3">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+    <div class="workflow-tab workflow-tab--3">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Talk to customers in their language</h3>
-          <p class="medium">Create a variant in any language, for any message campaign.</p>
+          <p class="medium">Create a message variant in any language, for any campaign.</p>
 
-          <p class="medium bottom-margin-md">Vero automatically sends each customer the right language variant, wherever it's available.</p>
+          <p class="medium bottom-margin-md">Vero automatically sends each customer the right language variant wherever it's available.</p>
 
           <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text lg-right-text bottom-margin-md md-no-bottom-margin md-horizontal-padding-md">
+        <div class="col-aside order-1 md-order-2 center-text lg-right-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
         </div>
       </div>
@@ -220,9 +246,9 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Iterate on and A/B test your messages</h2>
-    <p class="large">Don't guess what works: test it. Built-in tools to test one-off and automated campaigns.</p>
+  <div class="inner tiny-inner bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Iterate</span>  and A/B test your messages</h2>
+    <p class="large">Don't guess what works: test it. Built-in tools to test manual and automated campaigns.</p>
   </div>
   <div class="inner">
     <input class="hide testing-radio-1" id="testing-tab-1" type="radio" name="testing-tabs" checked>
@@ -230,7 +256,7 @@
 
     <ul class="unstyled-list bottom-margin-lg justify-center feature-tab-switcher border-bottom">
       <li>
-        <label class="feature-tab-label testing-label-1 semi-bold" for="testing-tab-1">AB testing</label>
+        <label class="feature-tab-label testing-label-1 semi-bold" for="testing-tab-1">A/B testing</label>
       </li>
       <li>
         <label class="feature-tab-label testing-label-2 semi-bold" for="testing-tab-2">Reporting</label>
@@ -238,12 +264,12 @@
     </ul>
 
     <div class="testing-tab testing-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">A/B testing</h3>
           <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin center-text md-right-text">
           <div class="d-inline-block bg-dots-offset">
             <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/ab-testing.svg" alt="">
           </div>
@@ -252,30 +278,27 @@
     </div>
 
     <div class="testing-tab testing-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2">
-          <!-- <h3 class="tubs semi-bold">Reporting that gives you an overview, or lets you dive in deep</h3> -->
-          <h3 class="tubs semi-bold">Reporting that gives you a deep overview</h3>
+          <h3 class="tubs semi-bold">Simple reporting that also lets you dive deep</h3>
           <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
-  
+
           <p class="medium">Define the conversion activity for every campaign and track the number of customers that convert after seeing, receiving or clicking your campaign.</p>
 
           <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
-          
+
           <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
         </div>
-        <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-left-text">
-          <div class="d-inline-block bg-dots-offset">
-            <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
-          </div>
+        <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin center-text md-left-text">
+          <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
         </div>
       </div>
     </div>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customer where they are</h2>
+  <div class="inner tiny-inner bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <span class="font-brand-primary">they</span> are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
@@ -296,24 +319,27 @@
     </ul>
 
     <div class="multi-channel-tab multi-channel-tab--1">
-      <div class="w-sidebar w-sidebar--feature-default">
+      <div class="w-sidebar w-sidebar--feature-sm">
         <div class="col-main order-2 md-order-1">
-          <h3 class="tubs semi-bold flex items-center">Email <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
-          <p class="medium">Creating good looking email isn't easy. Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually.</p>
+          <h3 class="tubs semi-bold flex items-center">Email</h3>
+          <p class="medium bottom-margin-md">Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually. Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
 
-          <p class="medium">Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
+          <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Use our sending infrastructure or BYO via integrations with Sendgrid, Mailgun, Mandrill and Mailjet.</p>
+          <p class="medium"></p>
         </div>
-        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin center-text md-right-text">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/email.svg" alt="">
         </div>
       </div>
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--2">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Push</h3>
           <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
+
+          <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with AWS SNS and Twilio you can send messages to customers on any iOS or Android device.</p>
           <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text bottom-margin-md md-no-bottom-margin">
@@ -323,14 +349,14 @@
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--3">
-      <div class="w-sidebar w-sidebar--feature-default items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
-          <p class="medium">Message your entire customer base as easily as if you were texting a friend.</p>
+          <p class="medium bottom-margin-md">Message your entire customer base as easily as if you were texting a friend.</p>
 
           <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with Twilio, Messagebird and others you can send messages to customers anywhere in the world from one simple-to-use interface.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin md-horizontal-padding-md center-text md-right-text">
+        <div class="col-aside order-1 md-order-2 bottom-margin-md md-no-bottom-margin center-text md-right-text">
           <img class="d-inline-block responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/sms.png" srcset="/wp-content/themes/vero/assets/dist/images/features/sms@2x.png 2x" alt="">
         </div>
       </div>
@@ -338,17 +364,22 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter feature-integrations">
-  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
+  <div class="inner tiny-inner bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
-    <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data on the way in, and on the way out.</p>
+    <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data.</p>
   </div>
-  <div class="inner center-text">
+  <div class="inner center-text relative">
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--1"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--2"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--3"></span>
+    <span class="absolute feature-integrations-pulse feature-integrations-pulse--4"></span>
+
     <div class="grid items-center feature-integrations-diagram">
       <div class="order 1 md-order-0">
-        <h3 class="atomic">Data in</h3>
+        <h3 class="atomic no-margin">Data in</h3>
       </div>
       <div class="order-5 md-order-0">
-        <h3 class="atomic">Data out</h3>
+        <h3 class="atomic no-margin">Data out</h3>
       </div>
       <div class="order-2 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
@@ -360,7 +391,7 @@
           </li>
         </ul>
       </div>
-      <div class="order-4 md-order-0">
+      <div class="hide md-show order-4 md-order-0 relative">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/vero.svg" alt="">
       </div>
       <div class="order-6 md-order-0">
@@ -392,7 +423,11 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <div class="flex items-center justify-center bottom-margin-md">
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+    </div>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
