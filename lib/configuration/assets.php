@@ -12,7 +12,7 @@ function custom_load_custom_style_sheet() {
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
   wp_register_style('prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism.min.css', NULL, PARENT_THEME_VERSION );
 
-  if ( is_page('features') || is_blog() ) {
+  if ( is_page('features') || is_page('multi-language-campaigns') || is_blog() ) {
     wp_enqueue_style( 'prism-okaidia' );
   }
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
@@ -75,8 +75,7 @@ function add_js() {
     wp_enqueue_script('nouislider');
   }
 
-  // Blog code highlighting
-  if ( is_blog() ) {
+  if ( is_page('features') || is_page('multi-language-campaigns') || is_blog()  ) {
     wp_enqueue_script('prism');
   }
 
