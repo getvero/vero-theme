@@ -298,7 +298,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <span class="font-brand-primary">they</span> are</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers <span class="font-brand-primary">where they are</span></h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
