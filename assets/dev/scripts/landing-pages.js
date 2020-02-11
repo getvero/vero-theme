@@ -1,6 +1,6 @@
 // Sticky header
 jQuery(window).scroll(function() {
-  var header          = jQuery('.page .nav-primary');
+  var header          = jQuery('.nav-primary');
   var scroll          = jQuery(window).scrollTop();
 
   if (scroll > 0) {
