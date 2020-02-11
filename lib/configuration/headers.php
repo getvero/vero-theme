@@ -95,7 +95,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
                 <input name="user[consent_product_updates]" type="hidden" value="true">
                 <input name="event[blog_subscriber_source]" type="hidden" value="popup">
                 <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-                <input class="btn btn-success btn-no-shadow" type="submit" value="Subscribe to updates">
+                <input class="btn btn-success" type="submit" value="Subscribe to updates">
               </div>
               <span class="annotation faded">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>

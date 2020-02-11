@@ -18,7 +18,7 @@
   <div class="inner tiny-inner flush-bottom center-text">
     <span class="d-inline-block atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
 
-    <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalisation</h1>
+    <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalization</h1>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -44,7 +44,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner top-margin-lg bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Automation <span class="font-brand-success">scales</span> when you can't</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Automation <span class="font-brand-primary">scales</span> when you can't</h2>
     <p class="large">Your customers never sleep &mdash; they're 24/7, 365 and global. Use automation to extend your team's reach and communicate with <em>all</em> of your customers, at any scale.</p>
   </div>
 
@@ -67,8 +67,6 @@
           <h3 class="tubs semi-bold bottom-margin-sm">Workflows</h3>
 
           <p class="medium bottom-margin-md">Trigger workflows based on customer activity, automate decisions and send messages across multiple channels, all using a visual, drag-and-drop UI.</p>
-
-          <!-- <a class="medium unstyled underline-link" href="/worksflows">Learn more</a> -->
 
           <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
         </div>
@@ -94,7 +92,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-success">Customers</span>, not <strong>lists</strong></h2>
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Customers</span>, not <strong>lists</strong></h2>
     <p class="large">Create one, rich, central view of each customer. Reduce duplication, create audiences faster and have confidence in what your customers are seeing.</p>
   </div>
   <div class="inner">
@@ -183,7 +181,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the <span class="font-brand-success">whole team</span> can use to message customers</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">A workflow the <span class="font-brand-primary">whole team</span> can use to message customers</h2>
     <p class="large">Separate message design from message scheduling. An easy-to-use UI to create, edit and deploy messages to your customers.</p>
   </div>
   <div class="inner">
@@ -249,7 +247,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-success">Iterate</span>  and A/B test your messages</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm"><span class="font-brand-primary">Iterate</span>  and A/B test your messages</h2>
     <p class="large">Don't guess what works: test it. Built-in tools to test manual and automated campaigns.</p>
   </div>
   <div class="inner">
@@ -300,7 +298,7 @@
 </section>
 <section class="double-padding">
   <div class="inner tiny-inner bottom-margin-lg center-text">
-    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <span class="font-brand-success">they</span> are</h2>
+    <h2 class="chunk semi-bold bottom-margin-sm">Reach your customers where <span class="font-brand-primary">they</span> are</h2>
     <p class="large">Every customer and every message is different. Reach your customers via email, push and other channels to make sure your message is heard.</p>
   </div>
   <div class="inner">
