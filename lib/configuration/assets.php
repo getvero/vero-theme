@@ -12,7 +12,7 @@ function custom_load_custom_style_sheet() {
   wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
   wp_register_style('prism-okaidia', '/wp-content/themes/vero/assets/dist/stylesheets/prism.min.css', NULL, PARENT_THEME_VERSION );
 
-  if ( is_page('features') || is_blog() ) {
+  if ( is_page('features') || is_page('multi-language-campaigns') || is_blog() ) {
     wp_enqueue_style( 'prism-okaidia' );
   }
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
@@ -42,7 +42,7 @@ function add_js() {
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
   wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/prism.min.js', NULL, NULL, true);
   wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.cookie.min.js', array('jquery'), NULL, true);
-  wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
+  // wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   // wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
   wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.min.js', NULL, NULL, true);
@@ -69,15 +69,13 @@ function add_js() {
   }
 
   wp_enqueue_script('cookies');
-  wp_enqueue_script('lean_modal');
 
   if ( is_page('pricing') ) {
     wp_enqueue_script('wNumb');
     wp_enqueue_script('nouislider');
   }
 
-  // Blog code highlighting
-  if ( is_blog() ) {
+  if ( is_page('features') || is_page('multi-language-campaigns') || is_blog()  ) {
     wp_enqueue_script('prism');
   }
 
