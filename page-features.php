@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="features-hero bg-gray-lighter top-padding-xxl">
+<section class="features-hero bg-gray-lighter">
   <?php
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
