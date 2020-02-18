@@ -13,7 +13,11 @@
 
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-lg right-padding-lg left-padding-lg">
-    <p class="semi-bold smallish font-brand-primary bottom-margin-lg">Reporting</p>
+    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+      <a href="/features">Features</a>
+      <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+      Reporting
+    </span>
     <h1 class="biggie semi-bold bottom-margin-sm">Track the true performance of <span class="show">your email campaigns</span></h1>
     <p class="large">Understand which of your email campaigns engage <span class="show">customers and drive revenue.</span></p>
   </div>

@@ -11,7 +11,12 @@
 ?>
 <section id="event-manager-heading">
   <div class="inner small-inner center-text bottom-padding-lg">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-lg">Event Management</p>
+    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+      <a href="/features">Features</a>
+      <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+      Event Management
+    </span>
+
     <h1 class="chunk regular bottom-margin-sm biggie">Confidently send emails using real-time customer data</h1>
     <p class="no-top-margin medium">Vero's Event Manager gives marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns. </p>
   </div>
