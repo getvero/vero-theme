@@ -11,7 +11,12 @@
 ?>
 <section id="external-attributes-hero" class="border-bottom-light">
   <div class="inner center-text flush-bottom">
-    <p class="semi-bold center-text smallish font-brand-primary center-text no-top-margin bottom-margin-lg">Fusion</p>
+    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+      <a href="/features">Features</a>
+      <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+      Fusion
+    </span>
+
     <h1 class="biggie semi-bold center-text bottom-margin-xxs">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image center-text top-margin-lg">
