@@ -183,12 +183,6 @@
 
     <ul class="unstyled-list lined-list medium bottom-margin-md">
       <li class="no-margin">
-        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/2A9CA0E8B3/" target="_blank">
-          Product Marketing Manager
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
-        </a>
-      </li>
-      <li class="no-margin">
         <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/C36A5B207A/" target="_blank">
           Senior Engineer - Cloud Infrastructure (AWS)
           <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
