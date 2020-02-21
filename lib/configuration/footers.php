@@ -12,7 +12,7 @@
 
   function custom_footer_html() {
     ?>
-    <footer class="footer" <?php if ( is_page('email-personalization-liquid-guide') ) { ?> style="padding-top: 130px;"<?php } ?>>
+    <footer class="footer">
       <div class="inner xlarge-inner">
         <div class="w-sidebar">
           <div class="col-main">
