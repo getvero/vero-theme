@@ -7,7 +7,7 @@
 ?>
 <section class="home-hero overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column lg-flex-row items-center">
+    <div class="flex flex-column lg-flex-row items-stretch lg-items-center">
       <div class="col-main center-text lg-left-text">
         <h1 class="hulk semi-bold bottom-margin-sm">Scale personalized customer messages</h1>
 
