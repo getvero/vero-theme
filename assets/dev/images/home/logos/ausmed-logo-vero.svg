@@ -2,7 +2,7 @@
   <defs>
     <polygon id="ausmed-logo-vero-a" points=".015 .175 46.239 .175 46.239 17.892 .015 17.892"/>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(0 16)">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 15)">
     <g transform="translate(0 .252)">
       <mask id="ausmed-logo-vero-b" fill="#fff">
         <use xlink:href="#ausmed-logo-vero-a"/>
