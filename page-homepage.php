@@ -30,7 +30,7 @@
         </div>
 
         <div class="flex flex-column lg-flex-row items-center">
-          <img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="">
+          <a href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
 
           <p class="annotation regular font-brand-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
         </div>
