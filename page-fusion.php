@@ -20,7 +20,7 @@
     <h1 class="biggie semi-bold center-text bottom-margin-xxs">Emails that can talk to APIs.</h1>
     <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
     <div class="hero-image center-text top-margin-lg">
-      <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs ">
+      <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs">
     </div>
   </div>
 </section>
