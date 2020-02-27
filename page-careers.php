@@ -184,7 +184,7 @@
     <ul class="unstyled-list lined-list medium bottom-margin-md">
       <li class="no-margin">
         <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/C36A5B207A/" target="_blank">
-          Senior Engineer - Cloud Infrastructure (AWS)
+          Senior Platform Software Engineer
           <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
         </a>
       </li>
