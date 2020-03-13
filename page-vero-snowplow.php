@@ -14,15 +14,15 @@
     <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
     <div class="integration-logos bottom-margin-xl">
-      <a class="logo-container vero" href="https://www.getvero.com/">
+      <div class="logo-container vero">
        <img src="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/vero-logo@2x.png 2x" alt="Vero logo">
-      </a>
+      </div>
       <div class="plus">
         <img src="/wp-content/themes/vero/assets/dist/images/integrations/plus.svg" alt="Plus">
       </div>
-      <a class="logo-container snowplow" href="https://snowplowanalytics.com/products/">
+      <div class="logo-container snowplow">
         <img src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/snowplow-logo.png" srcset="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/snowplow-logo@2x.png 2x" alt="Snowplow logo">
-      </a>
+      </div>
     </div>
 
     <h1 class="biggie semi-bold">Connect Vero and Snowplow</h1>
