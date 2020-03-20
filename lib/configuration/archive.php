@@ -117,9 +117,9 @@ function add_featured_post() {
 
               <div class="entry-footer">
                 <?php if ( get_field('custom_read_more') ): ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -188,9 +188,9 @@ function add_other_posts() {
 
                 <div class="entry-footer">
                   <?php if ( get_field('custom_read_more') ): ?>
-                    <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                    <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                   <?php else: ?>
-                    <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                    <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
                   <?php endif ?>
                 </div>
               </div>
@@ -248,9 +248,9 @@ function add_news_and_updates_posts() {
 
               <div class="entry-footer">
                 <?php if ( get_field('custom_read_more') ): ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -317,9 +317,9 @@ function add_tutorials_posts() {
 
               <div class="entry-footer">
                 <?php if ( get_field('custom_read_more') ): ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -368,7 +368,7 @@ function add_featured_post_to_category() {
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-      <article class="entry featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="entry entry-hover featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="grid">
           <div class="entry-aside">
             <?php if ( has_post_thumbnail() ): ?>
@@ -479,9 +479,9 @@ function custom_category_loop() {
 
           <div class="entry-footer">
             <?php if ( get_field('custom_read_more') ): ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
             <?php endif; ?>
           </div>
         </div>
