@@ -90,32 +90,52 @@
 </section>
 <section class="bg-dark-blue-lighter drag-and-drop-more-features">
   <div class="inner large-inner">
-    <h2 class="chunk">And more features</h2>
+    <h2 class="chunk bottom-margin-lg">And more features</h2>
 
-    <div class="w-sidebar w-sidebar--feature-md">
+    <div class="w-sidebar w-sidebar--feature-lg">
       <div class="col-main">
         <ul class="unstyled-list">
-          <li>
-            <h3 class="micro bottom-margin-xs">Template defaults</h3>
-            <p class="medium">Keep your templates on brand by setting default colors and fonts.</p>
+          <li class="w-sidebar w-sidebar--icon">
+            <div class="col-main">
+              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
+            </div>
+            <div class="col-aside">
+              <h3 class="micro bottom-margin-xxs">Template defaults</h3>
+              <p class="medium">Keep your templates on brand by setting default colors and fonts.</p>
+            </div>
           </li>
-          <li>
-            <h3 class="micro bottom-margin-xs">Liquid data</h3>
-            <p class="medium">Easily personalise by inserting customer or event data into your templates with Liquid.</p>
+          <li class="w-sidebar w-sidebar--icon">
+            <div class="col-main">
+              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
+            </div>
+            <div class="col-aside">
+              <h3 class="micro bottom-margin-xxs">Liquid data</h3>
+              <p class="medium">Easily personalise by inserting customer or event data into your templates with Liquid.</p>
+            </div>
           </li>
-          <li>
-            <h3 class="micro bottom-margin-xs">Starting template</h3>
-            <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+          <li class="w-sidebar w-sidebar--icon">
+            <div class="col-main">
+              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
+            </div>
+            <div class="col-aside">
+              <h3 class="micro bottom-margin-xxs">Starting template</h3>
+              <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+            </div>
           </li>
-          <li>
-            <h3 class="micro bottom-margin-xs">WYSIWYG</h3>
-            <p class="medium">What you see is what you get. The content you're editing is exactly what your customers will see.</p>
+          <li class="w-sidebar w-sidebar--icon">
+            <div class="col-main">
+              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
+            </div>
+            <div class="col-aside">
+              <h3 class="micro bottom-margin-xxs">WYSIWYG</h3>
+              <p class="medium">What you see is what you get. The content you're editing is exactly what your customers will see.</p>
+            </div>
           </li>
         </ul>
       </div>
 
-      <div class="col-aside">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.svg" alt="">
+      <div class="col-aside drag-and-drop-more-features-img overflow-hidden">
+        <img class="align-middle md-left-margin-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.svg" alt="">
       </div>
     </div>
   </div>
@@ -125,14 +145,51 @@
     <div class="col-main">
       <h3>Coming soon</h3>
       <ul class="unstyled-list">
-        <li>
-          <h3 class="micro">Data inspector</h3>
-          <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
+        <li class="w-sidebar w-sidebar--icon">
+          <div class="col-main">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
+          </div>
+          <div class="col-aside">
+            <h3 class="micro bottom-margin-xxs">Data inspector</h3>
+            <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
+          </div>
+        </li>
+        <li class="w-sidebar w-sidebar--icon">
+          <div class="col-main">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
+          </div>
+          <div class="col-aside">
+            <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
+            <p class="medium">Creating a library of common snippets that can be placed in your templates on the fly.</p>
+          </div>
+        </li>
+        <li class="w-sidebar w-sidebar--icon">
+          <div class="col-main">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
+          </div>
+          <div class="col-aside">
+            <h3 class="micro bottom-margin-xxs">Exporting</h3>
+            <p class="medium">For more advanced control easily export and edit them in our HTML mode.</p>
+          </div>
+        </li>
+        <li class="w-sidebar w-sidebar--icon">
+          <div class="col-main">
+            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
+          </div>
+          <div class="col-aside">
+            <h3 class="micro bottom-margin-xxs">Importing</h3>
+            <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+          </div>
         </li>
       </ul>
     </div>
     <div class="col-aside">
     </div>
+  </div>
+</section>
+<section>
+  <div class="inner tiny-inner">
+    <h2 class="chunk"></h2>
   </div>
 </section>
 <?php
