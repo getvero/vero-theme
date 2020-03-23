@@ -28,15 +28,15 @@
       </div>
     </div>
     <div class="inner xlarge-inner">
-      <ul class="unstyled-list relative center-text drag-and-drop-hero-imgs">
+      <ul class="unstyled-list no-margin relative center-text drag-and-drop-hero-imgs">
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative">
-          <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.jpg 2x" alt="Vero's drag and drop editor main screen">
+          <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
         </li>
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
           <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
         </li>
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
-          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.jpg" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.jpg 2x" alt="">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.png 2x" alt="">
         </li>
       </ul>
     </div>
@@ -88,39 +88,51 @@
     </div>
   </div>
 </section>
-<section class="bg-dark-blue-lighter">
+<section class="bg-dark-blue-lighter drag-and-drop-more-features">
   <div class="inner large-inner">
     <h2 class="chunk">And more features</h2>
 
-    <ul class="unstyled-list">
-      <li>
-        <h3 class="micro bottom-margin-xs">Template defaults</h3>
-        <p class="medium">Keep your templates on brand by setting default colors and fonts.</p>
-      </li>
-      <li>
-        <h3 class="micro bottom-margin-xs">Liquid data</h3>
-        <p class="medium">Easily personalise by inserting customer or event data into your templates with Liquid.</p>
-      </li>
-      <li>
-        <h3 class="micro bottom-margin-xs">Starting template</h3>
-        <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
-      </li>
-      <li>
-        <h3 class="micro bottom-margin-xs">WYSIWYG</h3>
-        <p class="medium">What you see is what you get. The content you're editing is exactly what your customers will see.</p>
-      </li>
-    </ul>
+    <div class="w-sidebar w-sidebar--feature-md">
+      <div class="col-main">
+        <ul class="unstyled-list">
+          <li>
+            <h3 class="micro bottom-margin-xs">Template defaults</h3>
+            <p class="medium">Keep your templates on brand by setting default colors and fonts.</p>
+          </li>
+          <li>
+            <h3 class="micro bottom-margin-xs">Liquid data</h3>
+            <p class="medium">Easily personalise by inserting customer or event data into your templates with Liquid.</p>
+          </li>
+          <li>
+            <h3 class="micro bottom-margin-xs">Starting template</h3>
+            <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+          </li>
+          <li>
+            <h3 class="micro bottom-margin-xs">WYSIWYG</h3>
+            <p class="medium">What you see is what you get. The content you're editing is exactly what your customers will see.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-aside">
+        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.svg" alt="">
+      </div>
+    </div>
   </div>
 </section>
 <section>
   <div class="inner">
-    <h3>Coming soon</h3>
-    <ul class="unstyled-list">
-      <li>
-        <h3 class="micro">Data inspector</h3>
-        <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
-      </li>
-    </ul>
+    <div class="col-main">
+      <h3>Coming soon</h3>
+      <ul class="unstyled-list">
+        <li>
+          <h3 class="micro">Data inspector</h3>
+          <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-aside">
+    </div>
   </div>
 </section>
 <?php
