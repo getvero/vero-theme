@@ -32,8 +32,11 @@
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative">
           <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.jpg 2x" alt="Vero's drag and drop editor main screen">
         </li>
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2">
+        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
           <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
+        </li>
+        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.jpg" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.jpg 2x" alt="">
         </li>
       </ul>
     </div>
