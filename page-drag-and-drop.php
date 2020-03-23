@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'push-notifications';
+    $classes[] = '';
     return $classes;
   }
 
@@ -19,23 +19,16 @@
       </span>
 
       <h1 class="hulk bottom-margin-xs">Design beautiful emails</h1>
-      <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
-      <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Get started</a>
+      <p class="large">Our drag and drop editor uses <a class="underline-link-rev" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
+
+      <div class="flex flex-column xs-flex-row items-center justify-center">
+        <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+
+        <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      </div>
     </div>
-  </section>
-  <section class="xs-bg-dots tiny-padding">
-    <div class="inner xs-flush-bottom">
-      <ul class="unstyled-list flex flex-column xs-flex-row justify-center items-center push-list">
-          <li class="no-margin">
-            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-1.svg" alt="Push notification 1">
-          </li>
-          <li class="no-margin">
-            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-2.svg" alt="Push notification 2">
-          </li>
-          <li class="no-margin">
-            <img class="push border-radius-2 align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/push-notifications/push-message-3.svg" alt="Push notification 3">
-          </li>
-        </ul>
+    <div class="inner xlarge-inner">
+      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" alt="Vero's drag and drop editor main screen">
     </div>
   </section>
 </section>
