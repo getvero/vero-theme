@@ -28,21 +28,24 @@
       </div>
     </div>
     <div class="inner xlarge-inner">
-      <ul class="unstyled-list no-margin relative center-text drag-and-drop-hero-imgs">
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative">
-          <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
+      <ul class="unstyled-list relative drag-and-drop-hero-imgs">
+        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative md-center-text">
+          <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.jpg 2x" alt="Vero's drag and drop editor main screen">
         </li>
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
-          <img class="responsive-image align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
+          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
         </li>
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
           <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.png 2x" alt="">
+        </li>
+        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
+          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
         </li>
       </ul>
     </div>
   </section>
 </section>
-<section>
+<section class="double-padding bg-offwhite">
   <div class="inner">
     <div class="w-sidebar w-sidebar--feature-md">
       <div class="col-main order-2 md-order-1">
@@ -88,13 +91,13 @@
     </div>
   </div>
 </section>
-<section class="bg-dark-blue-lighter drag-and-drop-more-features">
+<section class="double-padding bg-dark-blue-lighter drag-and-drop-more-features">
   <div class="inner large-inner">
-    <h2 class="chunk bottom-margin-lg">And more features</h2>
+    <h2 class="chunk center-text bottom-margin-lg">And more features</h2>
 
     <div class="w-sidebar w-sidebar--feature-lg">
       <div class="col-main">
-        <ul class="unstyled-list">
+        <ul class="unstyled-list drag-and-drop-feature-list">
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
@@ -140,56 +143,58 @@
     </div>
   </div>
 </section>
-<section>
+<section class="double-padding">
   <div class="inner">
-    <div class="col-main">
-      <h3>Coming soon</h3>
-      <ul class="unstyled-list">
-        <li class="w-sidebar w-sidebar--icon">
-          <div class="col-main">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
-          </div>
-          <div class="col-aside">
-            <h3 class="micro bottom-margin-xxs">Data inspector</h3>
-            <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
-          </div>
-        </li>
-        <li class="w-sidebar w-sidebar--icon">
-          <div class="col-main">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
-          </div>
-          <div class="col-aside">
-            <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
-            <p class="medium">Creating a library of common snippets that can be placed in your templates on the fly.</p>
-          </div>
-        </li>
-        <li class="w-sidebar w-sidebar--icon">
-          <div class="col-main">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
-          </div>
-          <div class="col-aside">
-            <h3 class="micro bottom-margin-xxs">Exporting</h3>
-            <p class="medium">For more advanced control easily export and edit them in our HTML mode.</p>
-          </div>
-        </li>
-        <li class="w-sidebar w-sidebar--icon">
-          <div class="col-main">
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
-          </div>
-          <div class="col-aside">
-            <h3 class="micro bottom-margin-xxs">Importing</h3>
-            <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="col-aside">
-    </div>
+    <h3 class="micro font-brand-primary bottom-margin-lg center-text">Coming soon</h3>
+    <ul class="unstyled-list grid grid-halfs">
+      <li class="w-sidebar w-sidebar--icon">
+        <div class="col-main">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
+        </div>
+        <div class="col-aside">
+          <h3 class="micro bottom-margin-xxs">Data inspector</h3>
+          <p class="medium">Preview your campaigns with real data to see how exactly they'll look for your customers.</p>
+        </div>
+      </li>
+      <li class="w-sidebar w-sidebar--icon">
+        <div class="col-main">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
+        </div>
+        <div class="col-aside">
+          <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
+          <p class="medium">Creating a library of common snippets that can be placed in your templates on the fly.</p>
+        </div>
+      </li>
+      <li class="w-sidebar w-sidebar--icon">
+        <div class="col-main">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
+        </div>
+        <div class="col-aside">
+          <h3 class="micro bottom-margin-xxs">Exporting</h3>
+          <p class="medium">For more advanced control easily export and edit them in our HTML mode.</p>
+        </div>
+      </li>
+      <li class="w-sidebar w-sidebar--icon">
+        <div class="col-main">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
+        </div>
+        <div class="col-aside">
+          <h3 class="micro bottom-margin-xxs">Importing</h3>
+          <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>
-<section>
-  <div class="inner tiny-inner">
-    <h2 class="chunk"></h2>
+<section class="bg-offwhite drag-and-drop-cta">
+  <div class="inner tiny-inner center-text">
+    <h2 class="chunk">Start creating beautiful emails</h2>
+
+    <div class="flex flex-column xs-flex-row items-center justify-center">
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+    </div>
   </div>
 </section>
 <?php
