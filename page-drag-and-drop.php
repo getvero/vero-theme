@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = '';
+    $classes[] = 'drag-and-drop';
     return $classes;
   }
 
@@ -45,7 +45,7 @@
     </div>
   </section>
 </section>
-<section class="double-padding bg-offwhite">
+<section class="double-padding bg-dark-blue-lighter drag-and-drop-features">
   <div class="inner">
     <div class="w-sidebar w-sidebar--feature-md">
       <div class="col-main order-2 md-order-1">
@@ -57,14 +57,18 @@
       </div>
     </div>
   </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-md items-center">
+  <div class="inner" id="bio">
+    <div class="js-test w-sidebar w-sidebar--feature-md items-center">
       <div class="col-main order-2">
         <h2 class="chunk bottom-margin-sm">Keep your campaigns consistent</h2>
         <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
       </div>
       <div class="col-aside order-1">
-        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
+        <div class="d-inline-block relative drag-and-drop-feature-img" data-trigger>
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
+          <div class="circle circle--1 absolute lax" data-lax-preset="blurIn zoomIn" data-lax-anchor="#bio"></div>
+          <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 200 0" data-lax-anchor="#bio"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -91,7 +95,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding bg-dark-blue-lighter drag-and-drop-more-features">
+<section class="double-padding drag-and-drop-more-features">
   <div class="inner large-inner">
     <h2 class="chunk center-text bottom-margin-lg">And more features</h2>
 
@@ -143,13 +147,13 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding bg-dark-blue-lighter">
   <div class="inner">
     <h3 class="micro font-brand-primary bottom-margin-lg center-text">Coming soon</h3>
     <ul class="unstyled-list grid grid-halfs">
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/data-inspector.svg" alt="Data inspector">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Data inspector</h3>
@@ -186,9 +190,10 @@
     </ul>
   </div>
 </section>
-<section class="bg-offwhite drag-and-drop-cta">
+<section class="double-padding bg-offwhite relative drag-and-drop-cta">
   <div class="inner tiny-inner center-text">
-    <h2 class="chunk">Start creating beautiful emails</h2>
+    <span class="show font-brand-gray semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
+    <h2 class="chunk bottom-margin-md">Start creating beautiful emails</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
