@@ -189,4 +189,30 @@ jQuery(document).ready(function() {
       form.removeClass('is-active');
     }
   });
+
+  // if (jQuery('body').hasClass('drag-and-drop')) {
+  //   window.onload = function() {
+  //     lax.setup() // init
+
+  //     const updateLax = () => {
+  //       lax.update(window.scrollY)
+  //       window.requestAnimationFrame(updateLax)
+  //     }
+
+  //     window.requestAnimationFrame(updateLax)
+  //   }
+  // }
 });
+
+if (document.body.classList.contains('drag-and-drop')) {
+  window.onload = function() {
+    lax.setup() // init
+
+    const updateLax = () => {
+      lax.update(window.scrollY)
+      window.requestAnimationFrame(updateLax)
+    }
+
+    window.requestAnimationFrame(updateLax)
+  }
+}
