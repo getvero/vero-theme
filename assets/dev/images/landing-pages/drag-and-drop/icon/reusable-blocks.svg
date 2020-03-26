@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <rect id="reusable-blocks-b" width="40" height="40" x="0" y="0" rx="4"/>
+    <filter id="reusable-blocks-a" width="132.5%" height="132.5%" x="-16.2%" y="-13.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#1B2E5B" d="M16 0L16 2 2 2 2 16 0 16 0 0 16 0zM60 16L58 16 58 2 44 2 44 0 60 0 60 16zM44 60L44 58 58 58 58 44 60 44 60 60 44 60zM2 44L2 58 16 58 16 60 0 60 0 44 2 44z" transform="translate(2 2)"/>
+    <g transform="translate(12 12)">
+      <use fill="#000" filter="url(#reusable-blocks-a)" xlink:href="#reusable-blocks-b"/>
+      <rect width="39" height="39" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <rect width="24" height="2" x="8" y="16" fill="#01B2D0" rx="1"/>
+      <rect width="20" height="2" x="10" y="22" fill="#01B2D0" rx="1"/>
+    </g>
+  </g>
+</svg>
