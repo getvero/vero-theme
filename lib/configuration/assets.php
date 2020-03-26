@@ -49,7 +49,7 @@ function add_js() {
   wp_register_script('nouislider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.1/nouislider.min.js', NULL, NULL, true);
   wp_register_script('wNumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
-
+  wp_register_script('lax', '//cdn.jsdelivr.net/npm/lax.js', NULL, NULL, true);
   // wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   add_filter( 'script_loader_tag', function ( $tag, $handle ) {
@@ -59,6 +59,10 @@ function add_js() {
     return str_replace( ' src', ' async src', $tag );
   }, 10, 2 );
   wp_enqueue_script('dev_message');
+
+  if ( is_page('drag-and-drop') ) {
+    wp_enqueue_script('lax');
+  }
 
   if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
