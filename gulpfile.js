@@ -5,7 +5,7 @@ const gulp             = require('gulp'),
       imageminPngquant = require('imagemin-pngquant'),
       csso             = require('gulp-csso'),
       newer            = require('gulp-newer'),
-      uglify           = require('gulp-uglify');
+      terser           = require('gulp-terser'); // For minifying JS ES6
 
 const paths = {
   css: {
@@ -80,7 +80,8 @@ function scripts() {
     '!assets/dev/scripts/source/*',
     '!assets/dev/scripts/dev_message.js'
   ])
-  .pipe(uglify())
+  // .pipe(uglify())
+  .pipe(terser())
   .pipe(rename({
     suffix: '.min'
   }))
