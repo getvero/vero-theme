@@ -9,8 +9,6 @@
     </filter>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect width="100" height="100" fill="#01B2D0" fill-opacity=".1" rx="4"/>
-    <circle cx="435.5" cy="277.5" r="72.5" fill="#01B2D0" fill-opacity=".1"/>
     <g transform="translate(33 174)">
       <rect width="372" height="128" x="33" y="1" fill="#FFF" stroke="#384254" stroke-width="2"/>
       <path fill="#384254" d="M4,0 L32,0 L32,0 L32,80 L4,80 C1.790861,80 2.705415e-16,78.209139 0,76 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z"/>
