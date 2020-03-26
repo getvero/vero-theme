@@ -45,56 +45,73 @@
     </div>
   </section>
 </section>
-<section class="double-padding bg-dark-blue-lighter drag-and-drop-features">
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-md">
-      <div class="col-main order-2 md-order-1">
-        <h2 class="chunk bottom-margin-sm">Templates that work everywhere</h2>
-        <p class="large">Easily design and build templates that work across all major devices and clients responsively. With our drag and drop editor there's no need to know HTML and all it's quirks.</p>
-      </div>
-      <div class="col-aside order-1 md-order-2 center-text md-right-text">
-        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work@2x.png 2x" alt="Templates that work everywhere">
-      </div>
-    </div>
-  </div>
-  <div class="inner" id="bio">
-    <div class="js-test w-sidebar w-sidebar--feature-md items-center">
-      <div class="col-main order-2">
-        <h2 class="chunk bottom-margin-sm">Keep your campaigns consistent</h2>
-        <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
-      </div>
-      <div class="col-aside order-1">
-        <div class="d-inline-block relative drag-and-drop-feature-img" data-trigger>
-          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
-          <div class="circle circle--1 absolute lax" data-lax-preset="blurIn zoomIn" data-lax-anchor="#bio"></div>
-          <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 200 0" data-lax-anchor="#bio"></div>
+<div class="drag-and-drop-features bg-offwhite">
+  <section id="drag-and-drop-section-1">
+    <div class="inner">
+      <div class="w-sidebar w-sidebar--feature-md">
+        <div class="col-main order-2 md-order-1">
+          <h2 class="chunk bottom-margin-sm">Templates that work everywhere</h2>
+          <p class="large">Easily design and build templates that work across all major devices and clients responsively. With our drag and drop editor there's no need to know HTML and all it's quirks.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2 center-text md-right-text">
+          <div class="d-inline-block relative drag-and-drop-feature-img">
+            <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work@2x.png 2x" alt="Templates that work everywhere">
+            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 75 0 | offset=-140" data-lax-anchor="#drag-and-drop-section-1"></div>
+            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 75 0 | offset=20" data-lax-anchor="#drag-and-drop-section-1"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-md items-center">
-      <div class="col-main order-2 md-order-1">
-        <h2 class="chunk bottom-margin-sm">Content editing on the fly</h2>
-        <p class="large">Enable your team to build the content they need by creating a library of common snippets that can be placed in your templates on the fly.</p>
-      </div>
-      <div class="col-aside order-1 md-order-2">
-        <p>Image</p>
-      </div>
-    </div>
-  </div>
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--feature-md items-center">
-      <div class="col-main order-2">
-        <h2 class="chunk bottom-margin-sm">Easily personalize your messages</h2>
-        <p class="large">Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
-      </div>
-      <div class="col-aside order-1">
-        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/personalizing-your-messages.svg" alt="Personalizing your messages">
+  </section>
+  <section id="drag-and-drop-section-2">
+    <div class="inner">
+      <div class="js-test w-sidebar w-sidebar--feature-md items-center">
+        <div class="col-main order-2">
+          <h2 class="chunk bottom-margin-sm">Keep your campaigns consistent</h2>
+          <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
+        </div>
+        <div class="col-aside order-1">
+          <div class="d-inline-block relative drag-and-drop-feature-img">
+            <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
+            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 50 0 | offset=-300" data-lax-anchor="#drag-and-drop-section-2"></div>
+            <div class="circle circle--2 absolute lax" data-lax-scale="20 1, 100 0 | offset=-50" data-lax-anchor="#drag-and-drop-section-2"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  <section>
+    <div class="inner">
+      <div class="w-sidebar w-sidebar--feature-md items-center">
+        <div class="col-main order-2 md-order-1">
+          <h2 class="chunk bottom-margin-sm">Content editing on the fly</h2>
+          <p class="large">Enable your team to build the content they need by creating a library of common snippets that can be placed in your templates on the fly.</p>
+        </div>
+        <div class="col-aside order-1 md-order-2">
+          <p>Image</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="drag-and-drop-section-4">
+     <div class="inner">
+      <div class="w-sidebar w-sidebar--feature-md items-center">
+        <div class="col-main order-2">
+          <h2 class="chunk bottom-margin-sm">Easily personalize your messages</h2>
+          <p class="large">Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
+        </div>
+        <div class="col-aside order-1">
+          <div class="d-inline-block relative drag-and-drop-feature-img">
+            <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/personalizing-your-messages.svg" alt="Personalizing your messages">
+            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 50 0 | offset=-100" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="circle circle--2 absolute lax" data-lax-scale="50 1, 100 0" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="circle circle--3 absolute lax" data-lax-scale="0 1, 50 0 | offset=-200" data-lax-anchor="#drag-and-drop-section-4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 <section class="double-padding drag-and-drop-more-features">
   <div class="inner large-inner">
     <h2 class="chunk center-text bottom-margin-lg">And more features</h2>
@@ -162,7 +179,7 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/reusable-blocks.svg" alt="Reusable blocks">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
@@ -171,7 +188,7 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/exporting.svg" alt="Exporting">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Exporting</h3>
@@ -180,7 +197,7 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/importing.svg" alt="Importing">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Importing</h3>
@@ -191,9 +208,9 @@
   </div>
 </section>
 <section class="double-padding bg-offwhite relative drag-and-drop-cta">
-  <div class="inner tiny-inner center-text">
-    <span class="show font-brand-gray semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
-    <h2 class="chunk bottom-margin-md">Start creating beautiful emails</h2>
+  <div class="inner tiny-inner center-text relative z-1">
+    <span class="show font-brand-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
+    <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
