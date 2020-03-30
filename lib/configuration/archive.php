@@ -50,14 +50,12 @@ function add_custom_read_more_link() {
 }
 
 function change_home_loop() {
-  if ( is_home() ) {
+  if ( is_home() && !is_paged() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'add_featured_post' );
-    add_action( 'genesis_loop', 'add_other_posts' );
-    add_action( 'genesis_loop', 'add_news_and_updates_posts' );
-    add_action( 'genesis_loop', 'add_tutorials_posts' );
-
-    // $query->set( 'no_found_rows', true );
+    // add_action( 'genesis_loop', 'add_other_posts' );
+    // add_action( 'genesis_loop', 'add_news_and_updates_posts' );
+    // add_action( 'genesis_loop', 'add_tutorials_posts' );
   }
 
   if ( is_category() ) {
@@ -67,7 +65,7 @@ function change_home_loop() {
 }
 
 function add_featured_post() {
-  if ( is_home() && !is_paged() ) { ?>
+  ?>
     <div class="resources-section resources-section-featured featured-post">
       <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <?php
@@ -133,7 +131,193 @@ function add_featured_post() {
         ?>
       </article>
     </div>
-  <?php }
+
+    <div class="resources-section resources-section-secondary resources-section-thirds evergreen-posts">
+      <div class="grid">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 3,
+            'post_type'      => array('post', 'guides', 'tutorials', 'page'),
+            'tag'            => 'evergreen',
+            'no_found_rows'  => true
+          ));
+
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $image_id       = get_post_thumbnail_id();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+          ?>
+
+          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="show entry-aside" href="<?php the_permalink(); ?>">
+              <?php if ( has_post_thumbnail() ): ?>
+                <?php
+                  if( !empty($image_alt) ) {
+                    $alt_text = $image_alt;
+                  } else {
+                    $alt_text = get_the_title();
+                  }
+
+                  the_post_thumbnail('', array(
+                    'class' => 'entry-image',
+                    'alt'   => $alt_text
+                  ));
+                ?>
+              <?php endif; ?>
+            </a>
+
+            <div class="entry-body">
+              <div class="entry-header">
+                <div class="entry-meta flex items-center bottom-margin-sm">
+                  <span class="badge"><?php get_primary_category(); ?></span>
+                </div>
+
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              </div>
+
+              <div class="entry-content bottom-margin-md">
+                <?php if ( get_field('custom_excerpt') ): ?>
+                  <p><?php the_field('custom_excerpt') ?></p>
+                <?php else: ?>
+                  <?php the_excerpt(); ?>
+                <?php endif ?>
+              </div>
+
+              <div class="entry-footer">
+                <?php if ( get_field('custom_read_more') ): ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <?php else: ?>
+                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <?php endif ?>
+              </div>
+            </div>
+          </article>
+
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
+      </div>
+    </div>
+
+    <div class="resources-section resources-section-secondary resources-section-thirds news-and-updates-posts">
+      <?php
+        $category = get_category_by_slug('news-updates');
+        $cat_name = $category->name;
+      ?>
+
+      <h2 class="blog-title"><a class="unstyled" href="/resources/category/news-updates"><?php echo $cat_name; ?></a></h2>
+
+      <div class="grid">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 2,
+            'post_type'      => array('post', 'guides'),
+            'tag'            => 'news_and_updates',
+            'no_found_rows'  => true
+          ));
+
+          while ( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+        ?>
+
+        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="entry-body">
+            <div class="entry-header">
+              <div class="entry-meta flex items-center bottom-margin-xs">
+                <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+              </div>
+
+              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+            </div>
+
+            <div class="entry-content bottom-margin-md">
+              <?php if ( get_field('custom_excerpt') ): ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php else: ?>
+                <?php the_excerpt(); ?>
+              <?php endif ?>
+            </div>
+
+            <div class="entry-footer">
+              <?php if ( get_field('custom_read_more') ): ?>
+                <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <?php else: ?>
+                <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <?php endif ?>
+            </div>
+          </div>
+        </article>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
+      </div>
+    </div>
+
+    <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
+      <h2 class="blog-title"><a class="unstyled" href="/resources/category/tutorials">Tutorials</a></h2>
+      <div class="grid">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 3,
+            'category_name'  => 'tutorials',
+            'post_type'      => array('post', 'tutorials'),
+            'no_found_rows'  => true
+          ));
+
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $image_id       = get_post_thumbnail_id();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+          ?>
+
+        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <a class="show entry-aside" href="<?php the_permalink(); ?>">
+            <?php if ( has_post_thumbnail() ): ?>
+              <?php
+                if( !empty($image_alt) ) {
+                  $alt_text = $image_alt;
+                } else {
+                  $alt_text = get_the_title();
+                }
+
+                the_post_thumbnail('', array(
+                  'class' => 'entry-image',
+                  'alt'   => $alt_text
+                ));
+              ?>
+            <?php endif; ?>
+          </a>
+
+          <div class="entry-body">
+            <div class="entry-header">
+              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+            </div>
+
+            <div class="entry-content bottom-margin-md">
+              <?php if ( get_field('custom_excerpt') ): ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php else: ?>
+                <?php the_excerpt(); ?>
+              <?php endif ?>
+            </div>
+
+            <div class="entry-footer">
+              <?php if ( get_field('custom_read_more') ): ?>
+                <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <?php else: ?>
+                <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <?php endif ?>
+            </div>
+          </div>
+        </article>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
+      </div>
+    </div>
+  <?php
 }
 
 function add_other_posts() {
