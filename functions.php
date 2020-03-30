@@ -192,14 +192,14 @@ function genesischild_theme_setup() {
     }
   });
 
-  function wpa_parse_query( $query ){
-    if (  is_home() && is_paged() ) {
-      // wp_redirect( home_url() );
-      exit;
-      // die;
-    }
-  }
-  add_action( 'parse_query', 'wpa_parse_query' );
+  # Redirect archive subpages
+  // function wpa_parse_query( $query ){
+  //   if ( is_home() && is_paged() ) {
+  //     wp_redirect( home_url() );
+  //     exit;
+  //   }
+  // }
+  // add_action( 'parse_query', 'wpa_parse_query' );
 }
 
 ?>
