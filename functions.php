@@ -180,8 +180,26 @@ function genesischild_theme_setup() {
 
   # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
-  
+
   add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
+
+  # Noindex blog home subpages
+  add_filter( 'wpseo_robots', function($robots) {
+    if ( is_home() && is_paged() ) {
+      return 'noindex, follow';
+    } else {
+      return $robots;
+    }
+  });
+
+  # Redirect archive subpages
+  // function wpa_parse_query( $query ){
+  //   if ( is_home() && is_paged() ) {
+  //     wp_redirect( home_url() );
+  //     exit;
+  //   }
+  // }
+  // add_action( 'parse_query', 'wpa_parse_query' );
 }
 
 ?>
