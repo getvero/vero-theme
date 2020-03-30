@@ -56,6 +56,8 @@ function change_home_loop() {
     add_action( 'genesis_loop', 'add_other_posts' );
     add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     add_action( 'genesis_loop', 'add_tutorials_posts' );
+
+    // $query->set( 'no_found_rows', true );
   }
 
   if ( is_category() ) {
@@ -71,8 +73,9 @@ function add_featured_post() {
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
-            'post_type' => array('post', 'guides', 'tutorials'),
-            'tag' => 'featured'
+            'post_type'      => array('post', 'guides', 'tutorials'),
+            'tag'            => 'featured',
+            'no_found_rows'  => true
           ));
           while( $custom_query->have_posts() ) : $custom_query->the_post();
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
@@ -141,8 +144,9 @@ function add_other_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
-              'post_type' => array('post', 'guides', 'tutorials', 'page'),
-              'tag'       => 'evergreen'
+              'post_type'      => array('post', 'guides', 'tutorials', 'page'),
+              'tag'            => 'evergreen',
+              'no_found_rows'  => true
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -220,8 +224,9 @@ function add_news_and_updates_posts() {
           <?php
             $custom_query = new WP_Query(array(
               'posts_per_page' => 2,
-              'post_type' => array('post', 'guides'),
-              'tag'       => 'news_and_updates'
+              'post_type'      => array('post', 'guides'),
+              'tag'            => 'news_and_updates',
+              'no_found_rows'  => true
             ));
 
             while ( $custom_query->have_posts() ) : $custom_query->the_post();
@@ -275,7 +280,8 @@ function add_tutorials_posts() {
             $custom_query = new WP_Query(array(
               'posts_per_page' => 3,
               'category_name'  => 'tutorials',
-              'post_type'      => array('post', 'tutorials')
+              'post_type'      => array('post', 'tutorials'),
+              'no_found_rows'  => true
             ));
 
             while( $custom_query->have_posts() ) : $custom_query->the_post();

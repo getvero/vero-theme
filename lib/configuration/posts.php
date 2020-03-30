@@ -1,7 +1,7 @@
 <?php
 
   function add_author() {
-    if ( is_single() ) {
+    if ( is_single() && !is_singular('tutorials') ) {
       ?>
       <div class="entry-author atomic">
         by <span itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
