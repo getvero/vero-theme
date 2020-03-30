@@ -1,7 +1,7 @@
 <?php
 
   function add_author() {
-    if ( is_blog_post_or_guide() ) {
+    if ( is_blog_post_or_guide() && !in_category('tutorials') ) {
       ?>
       <div class="entry-author atomic">
         by <span itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><?php echo get_the_author(); ?></span>
