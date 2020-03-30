@@ -56,41 +56,12 @@ function change_home_loop() {
     // add_action( 'genesis_loop', 'add_other_posts' );
     // add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     // add_action( 'genesis_loop', 'add_tutorials_posts' );
-
-    // add_action( 'genesis_loop', 'multi_loop' );
   }
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'custom_category_loop' );
   }
-}
-
-function multi_loop() {
-
-	// Loop 1
-	$args1 = (array(
-            'posts_per_page' => 1,
-            'post_type'      => array('post', 'guides', 'tutorials'),
-            'tag'            => 'featured',
-            'no_found_rows'  => true
-	));
-
-	echo '<h2 class="loop-title">Featured</h2>';
-
-	genesis_custom_loop( $args1 );
-
-	// Loop 2
-	$args2 = (array(
-              'posts_per_page' => 3,
-              'post_type'      => array('post', 'guides', 'tutorials', 'page'),
-              'tag'            => 'evergreen',
-              'no_found_rows'  => true
-	));
-
-	echo '<h2 class="loop-title">Projects</h2>';
-
-	genesis_custom_loop( $args2 );
 }
 
 function add_featured_post() {
