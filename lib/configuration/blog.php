@@ -103,10 +103,6 @@
   }
 
   function change_post_info($post_meta) {
-    if ( !is_blog() ) {
-      // return '';
-    }
-
     global $post;
     $categories = get_the_category();
     //$categories = get_the_category($post->ID);
@@ -125,16 +121,14 @@
     } else if ( is_search() ) {
       ?>
       <div class="entry-meta flex items-center bottom-margin-sm">
-        <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
-          <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
-        <?php } else { ?>
-          <span class="badge"><?php get_primary_category(); ?></a>
-        <?php } ?>
+        <span class="badge"><?php get_primary_category(); ?></a>
       </div>
       <?php
     } else {
       ?>
-        <div class="entry-meta bottom-margin-sm">
+        <div class="entry-meta flex items-center bottom-margin-xs">
+          <span class="badge"><?php get_primary_category(); ?></a>
+
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         </div>
       <?php
