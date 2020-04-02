@@ -67,7 +67,7 @@ function change_home_loop() {
 function add_featured_post() {
   ?>
     <div class="resources-section resources-section-featured featured-post">
-      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="entry itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
@@ -105,7 +105,7 @@ function add_featured_post() {
                   <span class="badge"><?php get_primary_category(); ?></span>
                 </div>
 
-                <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                <h2 class="entry-title regular no-margin"><a class="" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-md">
@@ -148,7 +148,7 @@ function add_featured_post() {
             $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           ?>
 
-          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="entry " itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="show entry-aside" href="<?php the_permalink(); ?>">
               <?php if ( has_post_thumbnail() ): ?>
                 <?php
@@ -172,7 +172,7 @@ function add_featured_post() {
                   <span class="badge"><?php get_primary_category(); ?></span>
                 </div>
 
-                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-md">
@@ -187,7 +187,7 @@ function add_featured_post() {
                 <?php if ( get_field('custom_read_more') ): ?>
                   <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                  <a class="regular unstyled" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -220,14 +220,14 @@ function add_featured_post() {
             $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
         ?>
 
-        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
           <div class="entry-body">
             <div class="entry-header">
               <div class="entry-meta flex items-center bottom-margin-xs">
                 <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
               </div>
 
-              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
             <div class="entry-content bottom-margin-md">
@@ -271,7 +271,7 @@ function add_featured_post() {
             $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           ?>
 
-        <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
           <a class="show entry-aside" href="<?php the_permalink(); ?>">
             <?php if ( has_post_thumbnail() ): ?>
               <?php
@@ -291,7 +291,7 @@ function add_featured_post() {
 
           <div class="entry-body">
             <div class="entry-header">
-              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+              <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
             <div class="entry-content bottom-margin-md">
@@ -339,7 +339,7 @@ function add_other_posts() {
               $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
             ?>
 
-            <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
               <a class="show entry-aside" href="<?php the_permalink(); ?>">
                 <?php if ( has_post_thumbnail() ): ?>
                   <?php
@@ -363,7 +363,7 @@ function add_other_posts() {
                     <span class="badge"><?php get_primary_category(); ?></span>
                   </div>
 
-                  <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                  <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 </div>
 
                 <div class="entry-content bottom-margin-md">
@@ -417,14 +417,14 @@ function add_news_and_updates_posts() {
               $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
           ?>
 
-          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="entry-body">
               <div class="entry-header">
                 <div class="entry-meta flex items-center bottom-margin-xs">
                   <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
                 </div>
 
-                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-md">
@@ -474,7 +474,7 @@ function add_tutorials_posts() {
               $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
             ?>
 
-          <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="show entry-aside" href="<?php the_permalink(); ?>">
               <?php if ( has_post_thumbnail() ): ?>
                 <?php
@@ -494,7 +494,7 @@ function add_tutorials_posts() {
 
             <div class="entry-body">
               <div class="entry-header">
-                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+                <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
               </div>
 
               <div class="entry-content bottom-margin-md">
@@ -630,7 +630,7 @@ function custom_category_loop() {
   if ( $custom_query->have_posts() ) :
     while( $custom_query->have_posts() ) : $custom_query->the_post();
       ?>
-      <article class="entry entry-hover" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <a class="show entry-aside" href="<?php the_permalink(); ?>">
           <?php if ( has_post_thumbnail() ): ?>
             <?php
@@ -656,7 +656,7 @@ function custom_category_loop() {
               </div>
             <?php endif; ?>
 
-            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><span class="entry-underline"><?php the_title(); ?></span></a></h2>
+            <h2 class="entry-title regular no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           </div>
 
           <div class="entry-content bottom-margin-md">
