@@ -184,13 +184,13 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
 
   # Noindex blog home subpages
-  add_filter( 'wpseo_robots', function($robots) {
-    if ( is_home() && is_paged() ) {
-      return 'noindex, follow';
-    } else {
-      return $robots;
-    }
-  });
+  // add_filter( 'wpseo_robots', function($robots) {
+  //   if ( is_home() && is_paged() ) {
+  //     return 'noindex, follow';
+  //   } else {
+  //     return $robots;
+  //   }
+  // });
 }
 
 ?>
