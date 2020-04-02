@@ -120,7 +120,7 @@
       <?php
     } else if ( is_search() ) {
       ?>
-      <div class="entry-meta flex items-center bottom-margin-sm">
+      <div class="entry-meta flex items-center">
         <span class="badge"><?php get_primary_category(); ?></a>
       </div>
       <?php
