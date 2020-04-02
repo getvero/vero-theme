@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="drag-and-drop-hero">
+<div class="drag-and-drop-hero">
   <section>
     <div class="inner tiny-inner flush-bottom center-text">
       <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
@@ -19,7 +19,7 @@
       </span>
 
       <h1 class="hulk bottom-margin-xs">Design beautiful emails</h1>
-      <p class="large">Our drag and drop editor uses <a class="underline-link-rev" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
+      <p class="large">Our drag and drop editor uses <a class="underline-link" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
 
       <div class="flex flex-column xs-flex-row items-center justify-center">
         <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
@@ -44,33 +44,37 @@
       </ul>
     </div>
   </section>
-</section>
-<div class="drag-and-drop-features bg-offwhite">
-  <section>
+</div>
+<div class="drag-and-drop-features bg-dark-blue-lighter">
+  <section id="drag-and-drop-section-3">
     <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-md items-center">
-        <div class="col-main order-2 md-order-1">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
+        <div class="col-main order-2 sm-order-1">
           <h2 class="chunk bottom-margin-sm">Beautiful emails in minutes, from scratch</h2>
           <p class="large">Enable your team to build the content they need by creating a library of common snippets that can be placed in your templates on the fly.</p>
         </div>
-        <div class="col-aside order-1 md-order-2">
-          <p>Image</p>
+        <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
+          <div class="d-inline-block relative drag-and-drop-feature-img">
+            <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/beautiful-emails.svg" alt="Beautiful emails in minutes">
+            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-475" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-400" data-lax-anchor="#drag-and-drop-section-3"></div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section id="drag-and-drop-section-1">
     <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-md">
+      <div class="w-sidebar w-sidebar--feature-sm">
         <div class="col-main order-2">
           <h2 class="chunk bottom-margin-sm">Templates that work everywhere</h2>
           <p class="large">Easily design and build templates that work across all major devices and clients responsively. With our drag and drop editor there's no need to know HTML and all it's quirks.</p>
         </div>
-        <div class="col-aside order-1">
+        <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work@2x.png 2x" alt="Templates that work everywhere">
             <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-475" data-lax-anchor="#drag-and-drop-section-1"></div>
-            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-200" data-lax-anchor="#drag-and-drop-section-1"></div>
+            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-300" data-lax-anchor="#drag-and-drop-section-1"></div>
           </div>
         </div>
       </div>
@@ -78,12 +82,12 @@
   </section>
   <section id="drag-and-drop-section-2">
     <div class="inner">
-      <div class="js-test w-sidebar w-sidebar--feature-md items-center">
-        <div class="col-main order-2 md-order-1">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
+        <div class="col-main order-2 sm-order-1">
           <h2 class="chunk bottom-margin-sm">Keep your campaigns consistent</h2>
           <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
         </div>
-        <div class="col-aside order-1 md-order-2 center-text md-right-text">
+        <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
             <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 50 0 | offset=-350" data-lax-anchor="#drag-and-drop-section-2"></div>
@@ -95,12 +99,12 @@
   </section>
   <section id="drag-and-drop-section-4">
      <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-md items-center">
+      <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2">
           <h2 class="chunk bottom-margin-sm">Easily personalize your messages</h2>
-          <p class="large">Extend your personalisation with powerful <a href="">Liquid templating language</a>. Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
+          <p class="large">Extend your personalisation with powerful <a class="underline-link" href="">Liquid templating language</a>. Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
         </div>
-        <div class="col-aside order-1">
+        <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/personalizing-your-messages.svg" alt="Personalizing your messages">
             <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-350" data-lax-anchor="#drag-and-drop-section-4"></div>
@@ -117,10 +121,10 @@
 
     <div class="w-sidebar w-sidebar--feature-lg">
       <div class="col-main">
-        <ul class="unstyled-list drag-and-drop-feature-list">
+        <ul class="unstyled-list drag-and-drop-feature-list grid grid-halfs center-text lg-left-text">
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
+              <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">Template defaults</h3>
@@ -129,7 +133,7 @@
           </li>
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
+              <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">Liquid data</h3>
@@ -138,7 +142,7 @@
           </li>
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
+              <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">Starting template</h3>
@@ -147,7 +151,7 @@
           </li>
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
+              <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/wysiwyg.svg" alt="">
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">WYSIWYG</h3>
@@ -157,19 +161,19 @@
         </ul>
       </div>
 
-      <div class="col-aside drag-and-drop-more-features-img overflow-hidden">
+      <div class="col-aside hide sm-show drag-and-drop-more-features-img overflow-hidden">
         <img class="align-middle md-left-margin-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.svg" alt="">
       </div>
     </div>
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner">
-    <h3 class="micro font-brand-primary bottom-margin-lg center-text">Coming soon</h3>
+  <div class="inner center-text lg-left-text">
+    <h3 class="atomic font-brand-primary bottom-margin-lg center-text">Coming soon</h3>
     <ul class="unstyled-list grid grid-halfs">
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/data-inspector.svg" alt="Data inspector">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/data-inspector.svg" alt="Data inspector">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Data inspector</h3>
@@ -178,7 +182,7 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/reusable-blocks.svg" alt="Reusable blocks">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/reusable-blocks.svg" alt="Reusable blocks">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
@@ -187,7 +191,7 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/exporting.svg" alt="Exporting">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/exporting.svg" alt="Exporting">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Exporting</h3>
@@ -196,11 +200,11 @@
       </li>
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/importing.svg" alt="Importing">
+          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/importing.svg" alt="Importing">
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Importing</h3>
-          <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
+          <p class="medium">Any existing MGML templates you already have can be imported and edited.</p>
         </div>
       </li>
     </ul>

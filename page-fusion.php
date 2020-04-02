@@ -87,7 +87,7 @@
 </section> -->
 <section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
-    <ul class="feature-list left-align unstyled-list grid grid-auto">
+    <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li class="bottom-margin-lg">
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
         <div class="right">

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="508" height="350" viewBox="0 0 508 350">
+  <defs>
+    <rect id="beautiful-emails-b" width="254" height="290" x="0" y="0" rx="8"/>
+    <filter id="beautiful-emails-c" width="108.7%" height="107.6%" x="-4.3%" y="-3.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="beautiful-emails-e" width="154" height="96" x="0" y="0"/>
+    <rect id="beautiful-emails-a" width="154" height="40" x="0" y="0"/>
+    <mask id="beautiful-emails-g" width="154" height="40" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+      <use xlink:href="#beautiful-emails-a"/>
+    </mask>
+    <rect id="beautiful-emails-i" width="120" height="90" x="0" y="0" rx="4"/>
+    <filter id="beautiful-emails-h" width="118.3%" height="124.4%" x="-9.2%" y="-10%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="beautiful-emails-k" width="120" height="90" x="0" y="0" rx="4"/>
+    <filter id="beautiful-emails-j" width="118.3%" height="124.4%" x="-9.2%" y="-10%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="beautiful-emails-m" width="120" height="90" x="0" y="0" rx="4"/>
+    <filter id="beautiful-emails-l" width="118.3%" height="124.4%" x="-9.2%" y="-10%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(205 30)">
+      <mask id="beautiful-emails-d" fill="#fff">
+        <use xlink:href="#beautiful-emails-b"/>
+      </mask>
+      <use fill="#000" filter="url(#beautiful-emails-c)" xlink:href="#beautiful-emails-b"/>
+      <rect width="255" height="291" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <g mask="url(#beautiful-emails-d)">
+        <g transform="translate(50 122)">
+          <mask id="beautiful-emails-f" fill="#fff">
+            <use xlink:href="#beautiful-emails-e"/>
+          </mask>
+          <use fill="#6F0DFB" fill-opacity=".15" xlink:href="#beautiful-emails-e"/>
+          <circle cx="59" cy="65.234" r="16" fill="#6F0DFB" mask="url(#beautiful-emails-f)"/>
+          <rect width="26" height="26" x="80" y="20.385" fill="#6F0DFB" mask="url(#beautiful-emails-f)" transform="rotate(-45 93 33.385)"/>
+          <rect width="154" height="4" y="108" fill="#F1F1F1" rx="2"/>
+          <rect width="154" height="4" y="120" fill="#F1F1F1" rx="2"/>
+          <rect width="154" height="4" y="132" fill="#F1F1F1" rx="2"/>
+          <rect width="154" height="4" y="144" fill="#F1F1F1" rx="2"/>
+        </g>
+      </g>
+      <g mask="url(#beautiful-emails-d)">
+        <g transform="translate(50 70)">
+          <use stroke="#6FD350" stroke-dasharray="6 5" stroke-width="4" mask="url(#beautiful-emails-g)" xlink:href="#beautiful-emails-a"/>
+          <rect width="72" height="6" x="40" y="17" fill="#6FD350" rx="3"/>
+        </g>
+      </g>
+      <path stroke="#E1E1E1" stroke-width="2" d="M125,33 C121.107922,33 118.095392,34.3183768 115.955405,36.2290796 C113.319362,38.5826893 112,41.8206168 112,44.5 C112,46.8203837 113.440586,48.8826463 115.662006,50.3900386 C118.051807,52.0116893 121.356558,53 125,53 C128.643442,53 131.948193,52.0116893 134.337994,50.3900386 C136.559414,48.8826463 138,46.8203837 138,44.5 C138,41.8206168 136.680638,38.5826893 134.044595,36.2290796 C131.904608,34.3183768 128.892078,33 125,33 Z" mask="url(#beautiful-emails-d)"/>
+      <rect width="8" height="2" x="98" y="45" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1"/>
+      <rect width="8" height="2" x="101.081" y="33.5" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(30 105.081 34.5)"/>
+      <rect width="8" height="2" x="109.5" y="25.081" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(60 113.5 26.081)"/>
+      <rect width="8" height="2" x="121" y="22" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(90 125 23)"/>
+      <rect width="8" height="2" x="132.5" y="25.081" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(120 136.5 26.081)"/>
+      <rect width="8" height="2" x="140.919" y="33.5" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(150 144.919 34.5)"/>
+      <rect width="8" height="2" x="144" y="45" fill="#E1E1E1" mask="url(#beautiful-emails-d)" rx="1" transform="rotate(180 148 46)"/>
+    </g>
+    <g transform="translate(50 22)">
+      <use fill="#000" filter="url(#beautiful-emails-h)" xlink:href="#beautiful-emails-i"/>
+      <rect width="121" height="91" x="-.5" y="-.5" fill="#FFF" stroke="#01B2D0" rx="4"/>
+      <path fill="#384254" d="M24,6.4 L22.4048,6.4 C22.4048,3.2 19.2,2.4 15.2,2.4 L15.2,18.6336 C15.1999123,19.9420355 15.9964053,21.1187162 17.2112,21.6048 L19.2,22.4 L19.2,24 L4.8,24 L4.8,22.4 L6.7888,21.6048 C8.00359465,21.1187162 8.80008772,19.9420355 8.8,18.6336 L8.8,2.4 C4.8,2.4 1.6,3.2 1.6,6.4 L0,6.4 L0,0 L24,0 L24,6.4 Z" transform="translate(48 33)"/>
+    </g>
+    <g transform="translate(50 238)">
+      <use fill="#000" filter="url(#beautiful-emails-j)" xlink:href="#beautiful-emails-k"/>
+      <rect width="121" height="91" x="-.5" y="-.5" fill="#FFF" stroke="#01B2D0" rx="4"/>
+      <path fill="#1B2E5B" fill-rule="nonzero" d="M69.1764706,50.3529412 C71.2881476,50.3529412 73,52.0647936 73,54.1764706 C73,56.2881476 71.2881476,58 69.1764706,58 C67.0647936,58 65.3529412,56.2881476 65.3529412,54.1764706 C65.3529412,52.0647936 67.0647936,50.3529412 69.1764706,50.3529412 Z M58.9768235,46.8735294 L65.4049412,50.3774118 C64.6655122,51.1102903 64.1562654,52.0432006 63.9397647,53.0615294 L57.511647,49.5561176 C58.1845882,48.7929412 58.6923529,47.8798824 58.9768235,46.8735294 L58.9768235,46.8735294 Z M52.3529411,39.6470588 C54.2653628,39.6470588 56.0325134,40.6673236 56.9887242,42.3235294 C57.9449351,43.9797352 57.9449351,46.0202648 56.9887242,47.6764706 C56.0325134,49.3326764 54.2653628,50.3529412 52.3529411,50.3529412 C49.3965934,50.3529412 47,47.9563477 47,45 C47,42.0436523 49.3965934,39.6470588 52.3529411,39.6470588 L52.3529411,39.6470588 Z M63.9397647,36.9384706 C64.16,37.9769412 64.68,38.9037647 65.4064706,39.6241176 L58.9783529,43.128 C58.6969619,42.1342882 58.1951018,41.2168252 57.5101176,40.4438824 L63.9397647,36.9384706 Z M69.1764706,32 C71.2881476,32 73,33.7118524 73,35.8235294 C73,37.9352064 71.2881476,39.6470588 69.1764706,39.6470588 C67.0647936,39.6470588 65.3529412,37.9352064 65.3529412,35.8235294 C65.3529412,33.7118524 67.0647936,32 69.1764706,32 Z"/>
+    </g>
+    <g transform="translate(50 130)">
+      <use fill="#000" filter="url(#beautiful-emails-l)" xlink:href="#beautiful-emails-m"/>
+      <rect width="121" height="91" x="-.5" y="-.5" fill="#FFF" stroke="#01B2D0" rx="4"/>
+      <path fill="#384254" d="M70.7058824,33 C72.5258824,33 74,34.4883333 74,36.32 L74,54.68 C74,56.5133333 72.5341176,58 70.7058824,58 L49.2941176,58 C47.4741176,58 46,56.5116667 46,54.68 L46,36.32 C46,34.4866667 47.4658824,33 49.2941176,33 L70.7058824,33 Z M70.7058824,36.3333333 L49.2941176,36.3333333 L49.2941176,52.2783333 L57.592,46.355 L60.6407059,48.83 L67.4710588,42.5033333 L70.7058824,45.5233333 L70.7058824,36.3333333 Z M55.0588235,39.6666667 C56.4232917,39.6666667 57.5294118,40.7859548 57.5294118,42.1666667 C57.5294118,43.5473785 56.4232917,44.6666667 55.0588235,44.6666667 C53.6943553,44.6666667 52.5882353,43.5473785 52.5882353,42.1666667 C52.5882353,40.7859548 53.6943553,39.6666667 55.0588235,39.6666667 Z"/>
+    </g>
+    <g fill="#1B2E5B" transform="rotate(-30 403.43 -263.777)">
+      <rect width="2.8" height="19.6" x="5.6" y="8.4"/>
+      <polygon points="7 0 14 16.8 7 13.2 0 16.8"/>
+    </g>
+  </g>
+</svg>

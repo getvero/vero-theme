@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
   <defs>
-    <rect id="wysiwyg-b" width="54" height="54" x="0" y="0" rx="4"/>
-    <filter id="wysiwyg-a" width="124.1%" height="124.1%" x="-12%" y="-10.2%" filterUnits="objectBoundingBox">
+    <rect id="wysiwyg-b" width="50" height="50" x="3" y="3" rx="4"/>
+    <filter id="wysiwyg-a" width="126%" height="126%" x="-13%" y="-11%" filterUnits="objectBoundingBox">
       <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+  <g fill="none" fill-rule="evenodd">
     <use fill="#000" filter="url(#wysiwyg-a)" xlink:href="#wysiwyg-b"/>
-    <rect width="53" height="53" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
-    <g fill="#FFC111" transform="translate(23 13)">
-      <rect width="2" height="16" x="3" y="6"/>
-      <polygon points="4 0 8 7 0 7"/>
-      <polygon points="4 21 8 28 0 28" transform="matrix(1 0 0 -1 0 49)"/>
-    </g>
-    <g fill="#FFC111" transform="rotate(90 9 32)">
-      <rect width="2" height="16" x="3" y="6"/>
-      <polygon points="4 0 8 7 0 7"/>
-      <polygon points="4 21 8 28 0 28" transform="matrix(1 0 0 -1 0 49)"/>
+    <rect width="49" height="49" x="3.5" y="3.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    <g transform="translate(13 13)">
+      <rect width="27" height="29" x="1.5" y=".5" fill="#FFE69E" stroke="#FFC111"/>
+      <rect width="1" height="20" x="9" y="9" fill="#FFC111"/>
+      <rect width="28" height="1" x="1" y="8" fill="#FFC111"/>
     </g>
   </g>
 </svg>
