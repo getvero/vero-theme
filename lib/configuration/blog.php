@@ -121,13 +121,13 @@
     } else if ( is_search() ) {
       ?>
       <div class="entry-meta flex items-center">
-        <span class="badge"><?php get_primary_category(); ?></a>
+        <span class="badge"><?php get_primary_category(); ?></span>
       </div>
       <?php
     } else {
       ?>
-        <div class="entry-meta flex items-center bottom-margin-xs">
-          <span class="badge"><?php get_primary_category(); ?></a>
+        <div class="entry-meta flex items-center badge">
+          <?php get_primary_category(); ?>
 
           <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
         </div>
