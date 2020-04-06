@@ -56,11 +56,13 @@ function change_home_loop() {
     // add_action( 'genesis_loop', 'add_other_posts' );
     // add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     // add_action( 'genesis_loop', 'add_tutorials_posts' );
+    add_action( 'genesis_after_content', 'view_more_posts' );
   }
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'custom_category_loop' );
+    add_action( 'genesis_after_content', 'genesis_posts_nav', 9 );
   }
 }
 
@@ -312,9 +314,26 @@ function custom_home_loop() {
         ?>
       </div>
     </div>
+  <?php
+}
 
+function move_pagination() {
+  if ( is_home() && !is_paged() ) {
+    remove_action( 'genesis_after_endwhile', 'genesis_posts_nav' );
+  }
+
+  if ( is_paged() || is_search() ) {
+    remove_action( 'genesis_after_endwhile', 'genesis_posts_nav' );
+    add_action( 'genesis_after_content', 'genesis_posts_nav', 9 );
+  }
+}
+
+function view_more_posts() {
+  ?>
     <div class="resources-section resources-section--secondary center-text">
-      <a class="regular atomic" href="/resources/page/2">View more posts</a>
+      <div class="archive-pagination">
+        <a class="regular atomic underline-link-rev" href="/resources/page/2">View more posts</a>
+      </div>
     </div>
   <?php
 }
@@ -597,9 +616,9 @@ function add_featured_post_to_category() {
 
             <div class="entry-footer">
               <?php if ( get_field('custom_read_more') ): ?>
-                <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
               <?php else: ?>
-                <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
               <?php endif ?>
             </div>
           </div>
@@ -669,15 +688,15 @@ function custom_category_loop() {
 
         <div class="entry-footer">
           <?php if ( get_field('custom_read_more') ): ?>
-            <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
           <?php else: ?>
-            <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
           <?php endif; ?>
         </div>
       </article>
       <?php
     endwhile;
-    genesis_posts_nav();
+    // genesis_posts_nav();
   endif;
 
   wp_reset_postdata();

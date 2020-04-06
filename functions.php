@@ -195,6 +195,9 @@ function genesischild_theme_setup() {
   //     return $robots;
   //   }
   // });
+
+  # Move pagination
+  add_action ( 'genesis_after_entry', 'move_pagination' );
 }
 
 ?>
