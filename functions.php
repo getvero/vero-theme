@@ -111,8 +111,6 @@ function genesischild_theme_setup() {
 
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
-  add_filter( 'the_content', 'add_class_to_small_images');
-  // add_filter( 'the_content', 'add_blue_signup_boxes' );
 
   # Category page
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
