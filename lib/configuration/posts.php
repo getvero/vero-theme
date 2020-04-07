@@ -111,7 +111,7 @@
      ) );
 
     if( $loop->have_posts() ):
-      echo '<section class="related"><div class="inner xlarge-inner">';
+      echo '<section class="related"><div class="inner xlarge-inner" style="max-width: 1300px">';
       echo '<h3 class="blog-title">Latest posts</h3>';
       echo '<div class="grid">';
       while( $loop->have_posts() ): $loop->the_post();
