@@ -252,7 +252,7 @@ function custom_home_loop() {
       </div>
     </div>
 
-    <div class="resources-section resources-section--secondary resources-section-thirds">
+    <div class="resources-section resources-section--secondary resources-section--thirds">
       <h2 class="semi-bold atomic"><a class="unstyled" href="/resources/category/tutorials">Tutorials</a></h2>
 
       <div class="grid">
