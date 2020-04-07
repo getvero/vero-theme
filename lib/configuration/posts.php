@@ -126,8 +126,12 @@
               ?>
             </a>
           <?php
-          echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
-        echo '<div class="entry-content">' . the_excerpt() . '</div>';
+        echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
+        ?>
+          <div class="entry-content">
+            <?php the_excerpt() ?>
+          </div>
+        <?php
         echo '<a class="d-inline-block semi-bold underline-link-rev" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
