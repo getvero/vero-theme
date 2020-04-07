@@ -36,14 +36,14 @@ function new_excerpt_more( $more ) {
 }
 
 function add_custom_read_more_link() {
-  if ( is_category() || is_search() ) {
+  if ( is_paged() || is_search() ) {
     if ( get_field('custom_read_more') ) {
       ?>
-      <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+      <a class="d-inline-block regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
       <?php
     } else {
       ?>
-      <a class="regular underline-link" href="<?php the_permalink(); ?>">Read more</a>
+      <a class="d-inline-block regular underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
       <?php
     }
   }
