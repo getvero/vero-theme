@@ -68,94 +68,11 @@
     }
   }
 
-  function add_class_to_small_images( $content ) {
-    global $post;
-
-    $dom = new DOMDocument();
-    @$dom->loadHTML( $content );
-    $dom->preserveWhiteSpace = false;
-
-    $images = $dom->getElementsByTagName('img');
-    foreach ($images as $image) {
-      $parent = $image->parentNode;
-      if ($parent->nodeName == 'a') {
-        $parent = $parent->parentNode;
-      }
-      // get the widths of each image
-      $width = $image->getAttribute('width');
-      $child_classes = $image->getAttribute('class');
-      // the existing classes already on the images
-      $existing_classes = $parent->getAttribute('class');
-      $existing_styles = $parent->getAttribute('style');
-
-      if( $width < 628) {
-        // the class we're adding
-        $new_class = ' small-image';
-        $new_style = $width .'px';
-        // the existing classes plus the new class
-        $class_names_to_add = $existing_classes . $new_class;
-        $parent->setAttribute('class', $class_names_to_add);
-        // add width as a style
-        $styles_to_add = $existing_styles . $new_style;
-        $parent->setAttribute('style', $styles_to_add);
-      }
-    }
-
-    $iframes = $dom->getElementsByTagName('iframe');
-    foreach ($iframes as $iframe) {
-      $parent = $iframe->parentNode;
-      if ($parent->nodeName == 'a') {
-        $parent = $parent->parentNode;
-      }
-      // the existing classes already on the images
-      $existing_classes = $parent->getAttribute('class');
-      // the class we're adding
-      $new_class = ' aspect-ratio';
-      // the existing classes plus the new class
-      $class_names_to_add = $existing_classes . $new_class;
-      // if iframe is less than 480px, add their old classes back in plus our new class
-      $parent->setAttribute('class', $class_names_to_add);
-    }
-
-    $content = $dom->saveHTML();
-    return $content;
-  }
-
   function post_is_long() {
     $content = get_the_content();
     $length  = sizeof( explode(" ", $content) );
 
     return $length > 950;
-  }
-
-  function add_blue_signup_boxes( $content ) {
-    global $post;
-    $index = 5;
-
-    $dom = new DOMDocument();
-    @$dom->loadHTML( $content );
-    $dom->preserveWhiteSpace = false;
-
-    // $insert_blue_box = get_field('insert_blue_box');
-
-    if ( is_blog_post_or_guide() && post_is_long() && ( isset($insert_blue_box) && $insert_blue_box ) ) {
-      $tags = $dom->getElementsByTagName('p');
-      $total_p_tags = $tags->length;
-
-      $content = blue_signup_box_content();
-      $frag = $dom->createDocumentFragment();
-      $frag->appendXML( $content );
-
-      $div = $dom->createElement( 'div', '' );
-      $div->setAttribute( "class", "blue-signup" );
-
-      $div->appendChild($frag);
-
-      $insertion_point = get_element($tags, (($total_p_tags/2)-1));
-      $insertion_point->insertBefore( $div, $index_p );
-    }
-
-    return $dom->saveHTML();
   }
 
   function get_element($tags, $i) {
