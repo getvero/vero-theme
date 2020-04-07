@@ -52,22 +52,24 @@ function add_custom_read_more_link() {
 function change_home_loop() {
   if ( is_home() && !is_paged() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
-    add_action( 'genesis_loop', 'add_featured_post' );
+    add_action( 'genesis_loop', 'custom_home_loop' );
     // add_action( 'genesis_loop', 'add_other_posts' );
     // add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     // add_action( 'genesis_loop', 'add_tutorials_posts' );
+    add_action( 'genesis_after_content', 'view_more_posts' );
   }
 
   if ( is_category() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'custom_category_loop' );
+    add_action( 'genesis_after_content', 'genesis_posts_nav', 9 );
   }
 }
 
-function add_featured_post() {
+function custom_home_loop() {
   ?>
-    <div class="resources-section resources-section-featured featured-post">
-      <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="resources-section resources-section--featured">
+      <article class="entry entry--featured" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 1,
@@ -132,7 +134,7 @@ function add_featured_post() {
       </article>
     </div>
 
-    <div class="resources-section resources-section-secondary resources-section-thirds evergreen-posts">
+    <div class="resources-section resources-section--secondary resources-section--thirds">
       <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
@@ -148,7 +150,7 @@ function add_featured_post() {
             $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
           ?>
 
-          <article class="entry " itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="show entry-aside" href="<?php the_permalink(); ?>">
               <?php if ( has_post_thumbnail() ): ?>
                 <?php
@@ -197,7 +199,7 @@ function add_featured_post() {
       </div>
     </div>
 
-    <div class="resources-section resources-section-secondary resources-section-thirds news-and-updates-posts">
+    <div class="resources-section resources-section--secondary resources-section--thirds">
       <?php
         $category = get_category_by_slug('news-updates');
         $cat_name = $category->name;
@@ -250,8 +252,9 @@ function add_featured_post() {
       </div>
     </div>
 
-    <div class="resources-section resources-section-secondary resources-section-thirds tutorials-posts">
+    <div class="resources-section resources-section--secondary resources-section-thirds">
       <h2 class="semi-bold atomic"><a class="unstyled" href="/resources/category/tutorials">Tutorials</a></h2>
+
       <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
@@ -309,6 +312,27 @@ function add_featured_post() {
         <?php endwhile;
           wp_reset_postdata();
         ?>
+      </div>
+    </div>
+  <?php
+}
+
+function move_pagination() {
+  if ( is_home() && !is_paged() ) {
+    remove_action( 'genesis_after_endwhile', 'genesis_posts_nav' );
+  }
+
+  if ( is_paged() || is_search() ) {
+    remove_action( 'genesis_after_endwhile', 'genesis_posts_nav' );
+    add_action( 'genesis_after_content', 'genesis_posts_nav', 9 );
+  }
+}
+
+function view_more_posts() {
+  ?>
+    <div class="resources-section resources-section--secondary center-text">
+      <div class="archive-pagination">
+        <a class="regular atomic underline-link-rev" href="/resources/page/2">View more posts</a>
       </div>
     </div>
   <?php
@@ -552,7 +576,7 @@ function add_featured_post_to_category() {
 
     while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 
-      <article class="entry featured-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="entry entry--featured" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="grid items-center">
           <div class="entry-aside">
             <?php if ( has_post_thumbnail() ): ?>
@@ -579,7 +603,7 @@ function add_featured_post_to_category() {
                 </div>
               <?php endif; ?>
 
-              <h2 class="entry-title no-margin"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
             <div class="entry-content">
@@ -590,11 +614,13 @@ function add_featured_post_to_category() {
               <?php endif ?>
             </div>
 
-            <?php if ( get_field('custom_read_more') ): ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-            <?php else: ?>
-              <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-            <?php endif ?>
+            <div class="entry-footer">
+              <?php if ( get_field('custom_read_more') ): ?>
+                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <?php else: ?>
+                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <?php endif ?>
+            </div>
           </div>
         </div>
       </article>
@@ -662,15 +688,15 @@ function custom_category_loop() {
 
         <div class="entry-footer">
           <?php if ( get_field('custom_read_more') ): ?>
-            <a class="regular underline-link" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
           <?php else: ?>
-            <a class="regular underline-link" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
           <?php endif; ?>
         </div>
       </article>
       <?php
     endwhile;
-    genesis_posts_nav();
+    // genesis_posts_nav();
   endif;
 
   wp_reset_postdata();
