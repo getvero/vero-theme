@@ -97,15 +97,19 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before_content', 'add_latest_title' );
   add_action( 'genesis_before_loop', 'add_featured_post_to_category' );
 
-  # Move featured image above title on search
+  # Remove entry meta on articles
+  remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
+  # Move featured image above entry title on archives
   add_action( 'genesis_before_entry', 'move_featured_image' );
 
-  # Customise post entry
-  add_action( 'genesis_before_loop', 'change_post_structure' );
-  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-  add_action( 'genesis_post_info', 'add_featured_image_to_post' );
+  # Customize entry header
+  // add_action( 'genesis_before_loop', 'change_post_structure' );
+  // add_action( 'genesis_entry_header', 'change_post_structure' );
+  add_action( 'genesis_entry_header', 'add_featured_image_to_post', 3 );
 
-  remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+  # Customize entry meta
   add_action( 'genesis_entry_header', 'genesis_post_info', 9 );
   add_filter( 'genesis_post_info', 'change_post_info', 15 );
 

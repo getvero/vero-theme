@@ -120,9 +120,9 @@ function custom_home_loop() {
 
               <div class="entry-footer">
                 <?php if ( get_field('custom_read_more') ): ?>
-                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                  <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                 <?php else: ?>
-                  <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
+                  <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
                 <?php endif ?>
               </div>
             </div>
@@ -186,9 +186,9 @@ function custom_home_loop() {
 
             <div class="entry-footer">
               <?php if ( get_field('custom_read_more') ): ?>
-                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
               <?php else: ?>
-                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
               <?php endif ?>
             </div>
           </article>
@@ -239,9 +239,9 @@ function custom_home_loop() {
 
           <div class="entry-footer">
             <?php if ( get_field('custom_read_more') ): ?>
-              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
-              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
             <?php endif ?>
           </div>
         </article>
@@ -302,9 +302,9 @@ function custom_home_loop() {
 
           <div class="entry-footer">
             <?php if ( get_field('custom_read_more') ): ?>
-              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
-              <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
             <?php endif ?>
           </div>
         </article>
@@ -688,9 +688,9 @@ function custom_category_loop() {
 
         <div class="entry-footer">
           <?php if ( get_field('custom_read_more') ): ?>
-            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
           <?php else: ?>
-            <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
           <?php endif; ?>
         </div>
       </article>
@@ -704,9 +704,9 @@ function custom_category_loop() {
 
 function move_featured_image() {
   # If this is not an archive, abort.
-  if ( is_singular() ) {
-    return;
-  }
+  // if ( is_singular() ) {
+  //   return;
+  // }
 
   # Remove featured image from entry content.
   remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );

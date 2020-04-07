@@ -95,7 +95,7 @@
   }
 
   function be_related_posts_by_category() {
-    // If we are not on a single post/guide page, abort.
+    # If we are not on a single post/guide page, abort.
     if ( !is_blog_post_or_guide() ) {
       return;
     }
@@ -111,16 +111,28 @@
      ) );
 
     if( $loop->have_posts() ):
-      echo '<section class="related"><div class="inner xlarge-inner">';
-      echo '<h3 class="blog-title">Latest</h3>';
+      echo '<section class="related"><div class="inner xlarge-inner" style="max-width: 1300px">';
+      echo '<h3 class="blog-title">Latest posts</h3>';
       echo '<div class="grid">';
       while( $loop->have_posts() ): $loop->the_post();
         echo '<div class="entry">';
         if( has_post_thumbnail() )
-          echo '<a class="show entry-aside" href="' . get_permalink() . '">' . the_post_thumbnail( get_the_ID(), array('class' => 'entry-image') ) . '</a>';
-          echo '<h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
-        echo '<div class="bottom-margin-md">' . the_excerpt() . '</div>';
-        echo '<a class="unstyled underline-link" href="' . get_permalink() . '">Read more</a>';
+          ?>
+            <a class="show entry-aside" href="<?php get_permalink() ?>">
+              <?php
+                the_post_thumbnail(
+                  get_the_ID(), array('class' => 'entry-image')
+                );
+              ?>
+            </a>
+          <?php
+        echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
+        ?>
+          <div class="entry-content">
+            <?php the_excerpt() ?>
+          </div>
+        <?php
+        echo '<a class="d-inline-block semi-bold underline-link-rev" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';
