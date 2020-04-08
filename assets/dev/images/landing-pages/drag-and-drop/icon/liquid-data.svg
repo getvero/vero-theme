@@ -11,21 +11,26 @@
   <g fill="none" fill-rule="evenodd">
     <use fill="#000" filter="url(#liquid-data-a)" xlink:href="#liquid-data-b"/>
     <rect width="49" height="49" x="4.5" y="3.5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
-    <g transform="translate(13 15)">
-      <rect width="31" height="25" x=".5" y=".5" fill="#CCF7FF" stroke="#01B2D0" rx="2"/>
-      <g fill="#01B2D0" transform="translate(4 8)">
-        <rect width="5" height="2" rx="1"/>
-        <rect width="14" height="2" x="7" rx="1"/>
+    <g fill="#01B2D0" transform="translate(13 15)">
+      <rect width="31" height="25" x=".5" y=".5" fill-opacity=".3" stroke="#01B2D0" rx="1"/>
+      <g transform="translate(4 7)">
+        <rect width="5" height="1" rx=".5"/>
+        <rect width="14" height="1" x="6" rx=".5"/>
       </g>
-      <g fill="#01B2D0" transform="translate(4 20)">
-        <rect width="7" height="2" x="12" rx="1"/>
-        <rect width="10" height="2" rx="1"/>
+      <g transform="translate(4 13)">
+        <rect width="7" height="1" x="11" rx=".5"/>
+        <rect width="10" height="1" rx=".5"/>
       </g>
-      <g fill="#01B2D0" transform="translate(8 14)">
-        <rect width="12" height="2" x="8" rx="1"/>
-        <rect width="6" height="2" rx="1"/>
+      <g transform="translate(8 10)">
+        <rect width="13" height="1" x="7" rx=".5"/>
+        <rect width="6" height="1" rx=".5"/>
       </g>
-      <path fill="#01B2D0" d="M1,0 L31,0 L31,4 C31,4.55228475 30.5522847,5 30,5 L2,5 C1.44771525,5 1,4.55228475 1,4 L1,0 L1,0 Z" transform="matrix(1 0 0 -1 0 5)"/>
+      <rect width="12" height="1" rx=".5" transform="translate(8 16)"/>
+      <g transform="translate(4 19)">
+        <rect width="12" height="1" x="12" rx=".5"/>
+        <rect width="11" height="1" rx=".5"/>
+      </g>
+      <rect width="30" height="3" x="1" y="1" transform="matrix(1 0 0 -1 0 5)"/>
     </g>
   </g>
 </svg>

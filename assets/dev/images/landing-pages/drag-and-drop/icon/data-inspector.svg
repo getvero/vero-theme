@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
   <defs>
-    <rect id="data-inspector-b" width="32" height="18" x="0" y="0" rx="4"/>
+    <rect id="data-inspector-b" width="32" height="18" x="0" y="0" rx="2"/>
     <filter id="data-inspector-a" width="140.6%" height="172.2%" x="-20.3%" y="-30.6%" filterUnits="objectBoundingBox">
       <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
-    <rect id="data-inspector-d" width="28" height="18" x="0" y="0" rx="4"/>
+    <rect id="data-inspector-d" width="28" height="18" x="0" y="0" rx="2"/>
     <filter id="data-inspector-c" width="146.4%" height="172.2%" x="-23.2%" y="-30.6%" filterUnits="objectBoundingBox">
       <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
-    <rect id="data-inspector-f" width="20" height="18" x="0" y="0" rx="4"/>
+    <rect id="data-inspector-f" width="20" height="18" x="0" y="0" rx="2"/>
     <filter id="data-inspector-e" width="165%" height="172.2%" x="-32.5%" y="-30.6%" filterUnits="objectBoundingBox">
       <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
-    <rect id="data-inspector-h" width="24" height="18" x="0" y="0" rx="4"/>
+    <rect id="data-inspector-h" width="24" height="18" x="0" y="0" rx="2"/>
     <filter id="data-inspector-g" width="154.2%" height="172.2%" x="-27.1%" y="-30.6%" filterUnits="objectBoundingBox">
       <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
@@ -36,25 +36,25 @@
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
     </filter>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(0 -1)">
+  <g fill="none" fill-rule="evenodd">
     <g transform="translate(4 4)">
       <use fill="#000" filter="url(#data-inspector-a)" xlink:href="#data-inspector-b"/>
-      <rect width="31" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <rect width="31" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
       <rect width="20" height="2" x="6" y="8" fill="#01B2D0" rx="1"/>
     </g>
     <g transform="translate(32 26)">
       <use fill="#000" filter="url(#data-inspector-c)" xlink:href="#data-inspector-d"/>
-      <rect width="27" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <rect width="27" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
       <rect width="16" height="2" x="6" y="8" fill="#F15242" rx="1"/>
     </g>
     <g transform="translate(40 4)">
       <use fill="#000" filter="url(#data-inspector-e)" xlink:href="#data-inspector-f"/>
-      <rect width="19" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <rect width="19" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
       <rect width="8" height="2" x="6" y="8" fill="#6F0DFB" rx="1"/>
     </g>
     <g transform="translate(4 26)">
       <use fill="#000" filter="url(#data-inspector-g)" xlink:href="#data-inspector-h"/>
-      <rect width="23" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <rect width="23" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="2"/>
       <rect width="12" height="2" x="6" y="8" fill="#6FD350" rx="1"/>
     </g>
     <g transform="translate(9 37)">
