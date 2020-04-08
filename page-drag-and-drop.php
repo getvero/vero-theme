@@ -55,6 +55,7 @@
         </div>
         <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
+            <img class="align-middle absolute" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/beautiful-emails-drag.svg" alt="Beautiful emails dragging">
             <img class="responsive-image align-middle relative" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/beautiful-emails.svg" alt="Beautiful emails in minutes">
             <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-475" data-lax-anchor="#drag-and-drop-section-3"></div>
             <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-400" data-lax-anchor="#drag-and-drop-section-3"></div>
