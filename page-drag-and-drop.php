@@ -97,10 +97,9 @@
         <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
-            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="500 0, 425 1" data-lax-anchor="#drag-and-drop-section-3"></div>
-            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="350 0, 275 1" data-lax-anchor="#drag-and-drop-section-3"></div>
-            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="350 0, 275 1" data-lax-anchor="#drag-and-drop-section-3"></div>
-
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="550 0, 475 1" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="500 0, 415 1" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="shape shape--3 border-radius-100 absolute lax" data-lax-scale="350 0, 290 1" data-lax-anchor="#drag-and-drop-section-3"></div>
           </div>
         </div>
       </div>
@@ -116,7 +115,7 @@
         <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/personalizing-your-messages.svg" alt="Personalizing your messages">
-            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="500 0, 400 1" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="600 0, 500 1" data-lax-anchor="#drag-and-drop-section-4"></div>
             <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="400 0, 300 1" data-lax-anchor="#drag-and-drop-section-4"></div>
             <div class="shape shape--3 border-radius-100 absolute lax" data-lax-scale="300 0, 275 1" data-lax-anchor="#drag-and-drop-section-4"></div>
           </div>
