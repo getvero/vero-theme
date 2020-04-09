@@ -19,7 +19,7 @@
       </span>
 
       <h1 class="hulk bottom-margin-xs">Design beautiful emails</h1>
-      <p class="large">Our drag and drop editor uses <a class="underline-link" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
+      <p class="large bottom-margin-md">Our drag and drop editor uses <a class="underline-link" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
 
       <div class="flex flex-column xs-flex-row items-center justify-center">
         <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
