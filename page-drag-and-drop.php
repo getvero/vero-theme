@@ -61,8 +61,9 @@
                 data-lax-anchor="#drag-and-drop-section-1"
               src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/beautiful-emails-drag.svg" alt="Beautiful emails dragging">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/beautiful-emails.svg" alt="Beautiful emails in minutes">
-            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-450" data-lax-anchor="#drag-and-drop-section-1"></div>
-            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-400" data-lax-anchor="#drag-and-drop-section-1"></div>
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="600 0, 400 1" data-lax-anchor="#drag-and-drop-section-1"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="450 0, 300 1" data-lax-anchor="#drag-and-drop-section-1"></div>
+            <div class="shape shape--3 border-radius-100 absolute lax" data-lax-scale="400 0, 350 1" data-lax-anchor="#drag-and-drop-section-1"></div>
           </div>
         </div>
       </div>
@@ -78,8 +79,9 @@
         <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/templates-that-work@2x.png 2x" alt="Templates that work everywhere">
-            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-475" data-lax-anchor="#drag-and-drop-section-2"></div>
-            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-300" data-lax-anchor="#drag-and-drop-section-2"></div>
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="800 0, 600 1" data-lax-anchor="#drag-and-drop-section-2"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="500 0, 420 1" data-lax-anchor="#drag-and-drop-section-2"></div>
+            <div class="shape shape--3 border-radius-100 absolute lax" data-lax-scale="400 0, 320 1" data-lax-anchor="#drag-and-drop-section-2"></div>
           </div>
         </div>
       </div>
@@ -95,8 +97,10 @@
         <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/campaigns-consistent.svg" alt="Keep campaigns consistent">
-            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 50 0 | offset=-350" data-lax-anchor="#drag-and-drop-section-3"></div>
-            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 100 0 | offset=-180" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="500 0, 425 1" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="350 0, 275 1" data-lax-anchor="#drag-and-drop-section-3"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="350 0, 275 1" data-lax-anchor="#drag-and-drop-section-3"></div>
+
           </div>
         </div>
       </div>
@@ -112,8 +116,9 @@
         <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
             <img class="responsive-image align-middle relative z-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/personalizing-your-messages.svg" alt="Personalizing your messages">
-            <div class="circle circle--1 absolute lax" data-lax-scale="0 1, 100 0 | offset=-350" data-lax-anchor="#drag-and-drop-section-4"></div>
-            <div class="circle circle--2 absolute lax" data-lax-scale="0 1, 50 0 | offset=-200" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="shape shape--1 border-radius-100 absolute lax" data-lax-scale="500 0, 400 1" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="shape shape--2 border-radius-100 absolute lax" data-lax-scale="400 0, 300 1" data-lax-anchor="#drag-and-drop-section-4"></div>
+            <div class="shape shape--3 border-radius-100 absolute lax" data-lax-scale="300 0, 275 1" data-lax-anchor="#drag-and-drop-section-4"></div>
           </div>
         </div>
       </div>
