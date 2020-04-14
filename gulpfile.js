@@ -27,13 +27,6 @@ function clean() {
   return del('assets/dist/');
 }
 
-// Move dev message JS to dist folder
-function devMessage() {
-  return gulp
-  .src('assets/dev/scripts/dev_message.js')
-  .pipe(gulp.dest(paths.scripts.dest));
-}
-
 function images() {
   return gulp
   .src('assets/dev/images/**/*')
@@ -94,7 +87,7 @@ function watch() {
   gulp.watch('assets/dev/images/**/*', images);
 }
 
-const js    = gulp.series(devMessage, scripts);
+const js    = gulp.series(scripts);
 const build = gulp.series(clean, gulp.parallel(css, images, js, watch));
 
 exports.clean   = clean;
