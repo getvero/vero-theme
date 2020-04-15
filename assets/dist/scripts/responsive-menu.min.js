@@ -1,1 +1,0 @@
-"use strict";var classNames=[];navigator.userAgent.match(/(iPad|iPhone|iPod)/i)&&classNames.push("device-ios"),navigator.userAgent.match(/android/i)&&classNames.push("device-android");var html=document.getElementsByTagName("html")[0];classNames.length&&classNames.push("on-device"),html.classList&&html.classList.add.apply(html.classList,classNames);
