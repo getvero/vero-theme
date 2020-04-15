@@ -104,5 +104,4 @@
 </section>
 <?php
   no_content_genesis_footer();
-  include("demo-enquiry-form.php");
 ?>
