@@ -111,14 +111,6 @@ function custom_home_loop() {
               <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
-            <div class="entry-content">
-              <?php if ( get_field('custom_excerpt') ): ?>
-                <p><?php the_field('custom_excerpt') ?></p>
-              <?php else: ?>
-                <?php the_excerpt(); ?>
-              <?php endif ?>
-            </div>
-
             <div class="entry-footer">
               <?php if ( get_field('custom_read_more') ): ?>
                 <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
