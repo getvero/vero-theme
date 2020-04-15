@@ -56,7 +56,7 @@ function change_home_loop() {
     // add_action( 'genesis_loop', 'add_other_posts' );
     // add_action( 'genesis_loop', 'add_news_and_updates_posts' );
     // add_action( 'genesis_loop', 'add_tutorials_posts' );
-    add_action( 'genesis_after_content', 'view_more_posts' );
+    add_action( 'genesis_after_content', 'view_more_posts', 4 );
   }
 
   if ( is_category() ) {
@@ -69,7 +69,7 @@ function change_home_loop() {
 function custom_home_loop() {
   ?>
     <div class="resources-section resources-section--secondary resources-section--thirds">
-      <h2 class="semi-bold atomic">Latest News</h2>
+      <h2 class="semi-bold atomic">Latest Posts</h2>
 
       <div class="grid">
         <?php
