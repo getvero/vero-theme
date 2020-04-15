@@ -265,7 +265,11 @@ function custom_home_loop() {
         $cat_name = $category->name;
       ?>
 
-      <h2 class="semi-bold atomic"><a class="unstyled" href="/resources/category/news-updates"><?php echo $cat_name; ?></a></h2>
+      <div class="flex items-center">
+        <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
+
+        <a class="underline-link-rev left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
+      </div>
 
       <div class="grid">
         <?php
@@ -313,7 +317,16 @@ function custom_home_loop() {
     </div>
 
     <div class="resources-section resources-section--secondary resources-section--thirds">
-      <h2 class="semi-bold atomic"><a class="unstyled" href="/resources/category/tutorials">Tutorials</a></h2>
+      <?php
+        $category = get_category_by_slug('tutorials');
+        $cat_name = $category->name;
+      ?>
+
+      <div class="flex items-center">
+        <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
+
+         <a class="underline-link-rev left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?></a>
+      </div>
 
       <div class="grid">
         <?php
