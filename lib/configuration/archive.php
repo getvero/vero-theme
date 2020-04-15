@@ -68,6 +68,72 @@ function change_home_loop() {
 
 function custom_home_loop() {
   ?>
+    <div class="resources-section resources-section--secondary resources-section--thirds">
+      <h2 class="semi-bold atomic">Latest News</h2>
+
+      <div class="grid">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 3,
+            'post_type'      => array('post', 'guides', 'page'),
+            'no_found_rows'  => true
+          ));
+
+          while( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+            $image_id       = get_post_thumbnail_id();
+            $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+          ?>
+
+          <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="show entry-aside" href="<?php the_permalink(); ?>">
+              <?php if ( has_post_thumbnail() ): ?>
+                <?php
+                  if( !empty($image_alt) ) {
+                    $alt_text = $image_alt;
+                  } else {
+                    $alt_text = get_the_title();
+                  }
+
+                  the_post_thumbnail('', array(
+                    'class' => 'entry-image',
+                    'alt'   => $alt_text
+                  ));
+                ?>
+              <?php endif; ?>
+            </a>
+
+            <div class="entry-header">
+              <div class="entry-meta flex items-center">
+                <span class="badge"><?php get_primary_category(); ?></span>
+              </div>
+
+              <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            </div>
+
+            <div class="entry-content">
+              <?php if ( get_field('custom_excerpt') ): ?>
+                <p><?php the_field('custom_excerpt') ?></p>
+              <?php else: ?>
+                <?php the_excerpt(); ?>
+              <?php endif ?>
+            </div>
+
+            <div class="entry-footer">
+              <?php if ( get_field('custom_read_more') ): ?>
+                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <?php else: ?>
+                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <?php endif ?>
+            </div>
+          </article>
+
+          <?php endwhile;
+            wp_reset_postdata();
+          ?>
+      </div>
+    </div>
+
     <div class="resources-section resources-section--featured">
       <article class="entry entry--featured" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         <?php
@@ -135,6 +201,8 @@ function custom_home_loop() {
     </div>
 
     <div class="resources-section resources-section--secondary resources-section--thirds">
+      <h2 class="semi-bold atomic">Most Popular</h2>
+
       <div class="grid">
         <?php
           $custom_query = new WP_Query(array(
