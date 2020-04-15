@@ -75,7 +75,7 @@ function custom_home_loop() {
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
-            'post_type'      => array('post', 'guides', 'page'),
+            'post_type'      => array('post', 'guides'),
             'no_found_rows'  => true
           ));
 
