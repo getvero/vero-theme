@@ -54,7 +54,7 @@ function images() {
   .pipe(gulp.dest(paths.images.dest));
 }
 
-function css() {
+function buildStyles() {
   return gulp
   .src(paths.css.src)
   .pipe(csso({
@@ -66,29 +66,31 @@ function css() {
   .pipe(gulp.dest(paths.css.dest));
 }
 
-// Uglify scripts
-function scripts() {
+// Uglify vendor scripts
+function uglifyVendorScripts() {
   return gulp
   .src([
-    'assets/dev/scripts/**/*.js',
+    // 'assets/dev/scripts/**/*.js',
+    // '!assets/dev/scripts/source/*',
+    'assets/dev/scripts/vendor/*.js',
     '!assets/dev/scripts/source/*',
   ])
   .pipe(uglify())
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(gulp.dest(paths.scripts.dest));
+  .pipe(gulp.dest('assets/dist/scripts/vendor'))
 }
 
 // Concat scripts
 function concatScripts() {
  return gulp
  .src([
-  'assets/dev/scripts/main.js',
+  'assets/dev/scripts/core.js',
   'assets/dev/scripts/landing.js'
   ])
   .pipe(uglify())
-  .pipe(concat('test.js'))
+  .pipe(concat('main.js'))
   .pipe(rename({
     suffix: '.min'
   }))
@@ -97,15 +99,15 @@ function concatScripts() {
 
 // Watch assets
 function watch() {
-  gulp.watch(paths.css.src, css);
-  gulp.watch(paths.scripts.src, scripts);
+  gulp.watch(paths.css.src, buildStyles);
+  gulp.watch(paths.scripts.src, uglifyVendorScripts, concatScripts);
   gulp.watch('assets/dev/images/**/*', images);
 }
 
-const js    = gulp.series(scripts, concatScripts);
-const build = gulp.series(clean, gulp.parallel(css, images, js, watch));
+const js    = gulp.series(uglifyVendorScripts, concatScripts);
+const build = gulp.series(clean, gulp.parallel(buildStyles, images, js, watch));
 
 exports.clean   = clean;
 exports.images  = images;
-exports.scripts = scripts;
+exports.scripts = uglifyVendorScripts;
 exports.default = build;
