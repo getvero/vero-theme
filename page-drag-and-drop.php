@@ -29,6 +29,9 @@
     </div>
     <div class="inner xlarge-inner">
       <ul class="unstyled-list relative drag-and-drop-hero-imgs">
+        <li class="absolute z-999">
+          <svg xmlns="http://www.w3.org/2000/svg" width="244" height="542"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M65.262 458h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.985 500.86 1 509.847 1 520.93 1 532.015 9.985 541 21.07 541h180.407"/><path stroke="#6F0DFB" d="M76 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H23.07C11.985 41.14 3 32.153 3 21.07 3 9.985 11.985 1 23.07 1h223.442"/></g></svg>
+        </li>
         <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative md-center-text">
           <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
         </li>
