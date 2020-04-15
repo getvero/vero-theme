@@ -5,7 +5,8 @@ const gulp             = require('gulp'),
       imageminPngquant = require('imagemin-pngquant'),
       csso             = require('gulp-csso'),
       newer            = require('gulp-newer'),
-      uglify           = require('gulp-uglify');
+      uglify           = require('gulp-uglify'),
+      concat           = require('gulp-concat');
 
 const paths = {
   css: {
@@ -71,9 +72,23 @@ function scripts() {
   .src([
     'assets/dev/scripts/**/*.js',
     '!assets/dev/scripts/source/*',
-    '!assets/dev/scripts/dev_message.js'
   ])
   .pipe(uglify())
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest(paths.scripts.dest));
+}
+
+// Concat scripts
+function concatScripts() {
+ return gulp
+ .src([
+  'assets/dev/scripts/main.js',
+  'assets/dev/scripts/landing.js'
+  ])
+  .pipe(uglify())
+  .pipe(concat('test.js'))
   .pipe(rename({
     suffix: '.min'
   }))
@@ -87,7 +102,7 @@ function watch() {
   gulp.watch('assets/dev/images/**/*', images);
 }
 
-const js    = gulp.series(scripts);
+const js    = gulp.series(scripts, concatScripts);
 const build = gulp.series(clean, gulp.parallel(css, images, js, watch));
 
 exports.clean   = clean;
