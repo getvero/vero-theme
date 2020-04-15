@@ -69,7 +69,7 @@ function change_home_loop() {
 function custom_home_loop() {
   ?>
     <div class="resources-section resources-section--secondary resources-section--thirds">
-      <h2 class="semi-bold atomic">Latest Posts</h2>
+      <h2 class="semi-bold micro">Latest Posts</h2>
 
       <div class="grid">
         <?php
@@ -193,7 +193,7 @@ function custom_home_loop() {
     </div>
 
     <div class="resources-section resources-section--secondary resources-section--thirds">
-      <h2 class="semi-bold atomic">Most Popular</h2>
+      <h2 class="semi-bold micro">Most Popular</h2>
 
       <div class="grid">
         <?php
@@ -618,16 +618,16 @@ function add_tutorials_posts() {
 function add_latest_title() {
   if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-    <h2 class="semi-bold atomic">All – Page <?php echo $paged; ?></h2>
+    <h2 class="semi-bold micro">All – Page <?php echo $paged; ?></h2>
   <?php }
   else if ( is_category() ){ ?>
     <div class="archive-description">
-      <h2 class="semi-bold atomic"><?php single_cat_title() ?></h2>
+      <h2 class="semi-bold micro"><?php single_cat_title() ?></h2>
     </div>
   <?php }
   else if ( is_search() ) { ?>
     <div class="archive-description">
-      <h2 class="semi-bold atomic">Search results for: <?php echo get_search_query(); ?></h2>
+      <h2 class="semi-bold micro">Search results for: <?php echo get_search_query(); ?></h2>
     </div>
   <?php }
 }
