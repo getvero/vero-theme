@@ -127,6 +127,8 @@ function custom_home_loop() {
     </div>
 
     <div class="resources-section resources-section--featured">
+      <h2 class="semi-bold micro">Editor's Picks</h2>
+
       <?php
         $custom_query = new WP_Query(array(
           'posts_per_page' => 4,
