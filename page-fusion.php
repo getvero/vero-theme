@@ -71,20 +71,6 @@
     </ul>
   </div>
 </section>
-<!-- <section id="external-attributes-tidal" class="floating-section light-border">
-  <div class="inner">
-    <div class="half left">
-      <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-tidal@2x.png 2x" title="Tidal" class="bottom-margin-sm">
-      <p>Tidal helps millions of customers find new music. By leveraging their recommendation APIs with Fusion, Tidal has created a series of highly personalized emails that deliver the same quality on-site and in-app experience via email – ensuring each and every customer finds new music that results in both happier listeners and better engagement.</p>
-      <q>We literally saved 100s of hours with external attributes. It just plugs in and works.</q>
-      <div class="top-margin-lg">
-        <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile.png" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-customer-profile@2x.png 2x" width="53" height="53" class="pull-left right-margin-sm">
-        <p class="semi-bold no-margin">Eskild</p>
-        <p class="no-top-margin">Product Manager</p>
-      </div>
-    </div>
-  </div>
-</section> -->
 <section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
     <ul class="feature-list left-align unstyled-list grid grid-auto">
