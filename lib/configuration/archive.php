@@ -68,10 +68,10 @@ function change_home_loop() {
 
 function custom_home_loop() {
   ?>
-    <div class="resources-section resources-section--secondary resources-section--thirds">
+    <div class="resources-section resources-section--secondary">
       <h2 class="semi-bold micro">Latest Posts</h2>
 
-      <div class="grid">
+      <div class="grid grid--resources">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
@@ -237,7 +237,7 @@ function custom_home_loop() {
           endif;
 
           if ( $custom_query->current_post == 0 ) :
-            echo '<div class="resources-section--secondary"><div class="grid">';
+            echo '<div class="resources-section--secondary"><div class="grid grid--resources">';
           elseif ( $custom_query->current_post == 3 ):
             echo '</div></div>';
           endif;
@@ -248,10 +248,10 @@ function custom_home_loop() {
       ?>
     </div>
 
-    <div class="resources-section resources-section--secondary resources-section--thirds">
+    <div class="resources-section resources-section--secondary">
       <h2 class="semi-bold micro">Most Popular</h2>
 
-      <div class="grid">
+      <div class="grid grid--resources">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
@@ -316,7 +316,7 @@ function custom_home_loop() {
       </div>
     </div>
 
-    <div class="resources-section resources-section--secondary resources-section--thirds">
+    <div class="resources-section resources-section--secondary">
       <?php
         $category = get_category_by_slug('news-updates');
         $cat_name = $category->name;
@@ -328,7 +328,7 @@ function custom_home_loop() {
         <a class="underline-link-rev left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
       </div>
 
-      <div class="grid">
+      <div class="grid grid--resources">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 2,
@@ -373,7 +373,7 @@ function custom_home_loop() {
       </div>
     </div>
 
-    <div class="resources-section resources-section--secondary resources-section--thirds">
+    <div class="resources-section resources-section--secondary">
       <?php
         $category = get_category_by_slug('tutorials');
         $cat_name = $category->name;
@@ -385,7 +385,7 @@ function custom_home_loop() {
          <a class="underline-link-rev left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?></a>
       </div>
 
-      <div class="grid">
+      <div class="grid grid--resources">
         <?php
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
