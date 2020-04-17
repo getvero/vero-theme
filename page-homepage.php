@@ -341,9 +341,6 @@
           <li class="photo-list-item no-margin">
             <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/eric-west.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/eric-west@2x.jpg 2x" alt="Eric West">
           </li>
-          <li class="photo-list-item no-margin">
-            <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray@2x.jpg 2x" alt="Ellis Gray">
-          </li>
         </ul>
       </div>
     </div>

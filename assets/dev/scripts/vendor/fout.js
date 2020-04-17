@@ -1,8 +1,13 @@
-//// Prevent the flash that happens before the font is loaded
-// first, create the object that contains
-// configuration variables
-MTIConfig = {};
+// create the configuration object
+var MTIConfig = {};
 
-// next, add a variable that will control
-// whether or not FOUT will be prevented
-MTIConfig.EnableCustomFOUTHandler = true // true = prevent FOUT
+// assign the variable to enable FOUT prevention
+// default value -> false (prevention disabled)
+// true -> enable FOUT prevention
+MTIConfig.EnableCustomFOUTHandler = true;
+
+// assign the variable to remove `mti_font_element`
+// this is only valid if FOUT prevention is enabled
+// default value -> false (class is left on elements)
+// true -> remove class when FOUT prevention finishes
+MTIConfig.RemoveMTIClass = true;
