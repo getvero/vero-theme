@@ -44,12 +44,6 @@ function add_js() {
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
-  // add_filter( 'script_loader_tag', function ( $tag, $handle ) {
-  //   if ( 'webfonts' !== $handle )
-  //       return $tag;
-
-  //   return str_replace( ' src', ' async src', $tag );
-  // }, 10, 2 );
 
   if ( is_page('careers') ) {
     wp_enqueue_script('bxslider');
