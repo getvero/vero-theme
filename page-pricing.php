@@ -18,7 +18,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section>
   <div class="inner xlarge-inner">
-    <div class="grid grid-auto border-radius-2 pricing-comp-table">
+    <div class="grid border-radius-2 pricing-comp-table">
       <div>
         <header class="pricing-comp-table-header">
           <h2 class="micro">Starter</h2>
@@ -211,6 +211,9 @@ include 'pages-shared/static-header.php';
               </li>
             </ul>
           </div>
+
+          <a href="" class="btn btn--outline btn--dark-blue btn-success full-width">Try for free</a>
+
 
           <a href="" class="btn btn--outline btn-success full-width">Try for free</a>
         </div>
