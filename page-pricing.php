@@ -10,76 +10,253 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section class="hero" id="pricing-hero" >
-  <div class="inner large-inner flush-bottom center-text">
-    <h1 class="biggie semi-bold bottom-margin-xl">A pricing plan that helps you scale your business</h1>
+<section class="hero pricing-hero">
+  <div class="inner tiny-inner center-text">
+    <h1 class="biggie semi-bold">Simple pricing that helps you scale your business</h1>
+    <p class="large">We’ve got plans to suit everyone.</p>
   </div>
-  <div class="inner xlarge-inner flush-top">
-    <h2 class="atomic regular bottom-margin-xl center-text">How many subscribers do you have?</h2>
+</section>
+<section>
+  <div class="inner xlarge-inner">
+    <div class="grid grid-auto border-radius-2 pricing-comp-table">
+      <div>
+        <header class="pricing-comp-table-header">
+          <h2 class="micro">Starter</h2>
+        </header>
 
-    <div class="flex price-scale top-margin-xxs bottom-margin-xl center-text">
-      <div class="price-slider">
-        <div id="js-price-slider"></div>
-        <div id="js-price-pips-values"></div>
+        <div class="pricing-comp-table-body">
+          <span class="show semi-bold tubs">$49 p/m</span>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xxs">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>2,000</strong> Customers </li>
+              <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
+              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin"><a class="annotation underline-link" href="">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                All the core Vero features
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                1 Team member
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Online guides and help docs
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                30 days free Email support
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="btn btn--outline btn-success full-width">Try for free</a>
+        </div>
       </div>
-    </div>
+      <div>
+        <header class="pricing-comp-table-header">
+          <h2 class="micro">Pro</h2>
+        </header>
 
-    <div class="pricing-footer border-light border-radius-2 padding-lg flex items-center">
-      <div class="left">
-        <p class="no-top-margin bottom-margin-xxs"><span class="tubs regular semi-bold" id="js-price">$199</span> <span class="faded no-margin">per month</span></p>
-        <!-- <p class="no-margin"><strong id="js-customer-update">50,000</strong> customers</p> -->
-        <p class="annotation italic no-margin">Includes <strong>unlimited</strong> email and push messages</p>
+        <div class="pricing-comp-table-body">
+          <span class="show semi-bold tubs">$199 p/m</span>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xxs">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>2,000</strong> Customers </li>
+              <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
+              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin"><a class="annotation underline-link" href="">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                All the core Vero features
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                1 Team member
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Online guides and help docs
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                30 days free Email support
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="btn btn--outline btn-success full-width">Try for free</a>
+        </div>
       </div>
+      <div>
+        <header class="pricing-comp-table-header">
+          <h2 class="micro">Growth</h2>
+        </header>
 
-      <div class="right flex">
-        <div class="flex pricing-cta">
-          <a class="btn btn-medium btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-medium btn-outline btn-primary typeform-share" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
+        <div class="pricing-comp-table-body">
+          <span class="show semi-bold tubs">$599 p/m</span>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xxs">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>2,000</strong> Customers </li>
+              <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
+              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin"><a class="annotation underline-link" href="">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                All the core Vero features
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                1 Team member
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Online guides and help docs
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                30 days free Email support
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="btn btn--outline btn-success full-width">Try for free</a>
+        </div>
+      </div>
+      <div>
+        <header class="pricing-comp-table-header">
+          <h2 class="micro">Enterprise</h2>
+        </header>
+
+        <div class="pricing-comp-table-body">
+          <span class="show semi-bold tubs">$1,299 p/m &plus;</span>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xxs">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>2,000</strong> Customers </li>
+              <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
+              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin"><a class="annotation underline-link" href="">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <span class="show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                All the core Vero features
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                1 Team member
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Online guides and help docs
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                30 days free Email support
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="btn btn--outline btn-success full-width">Try for free</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="bg-offwhite" id="pricing-addons">
-  <div class="inner xlarge-inner center-text">
-    <h2 class="tubs regular">Simple, flexible pricing options</h2>
-    <div class="grid grid-auto">
-      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
-        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-ip.svg" alt="Dedicated IP">
+<section>
+  <div class="inner large-inner center-text">
+    <h2 class="atomic regular faded bottom-margin-sm">Trusted by leading brands</h2>
 
-        <header class="flex justify-center bottom-margin-xs">
-          <h3 class="micro semi-bold medium no-bottom-margin">Dedicated IP</h3>
-
-          <!-- <span class="self-center">$79 per month</span> -->
-        </header>
-
-        <p class="no-top-margin">Send your emails from a dedicated server</p>
-        <a href="https://help.getvero.com/articles/dedicated-ips.html" target="_blank" rel="noopener">Find out more</a>
-      </div>
-      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
-        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-email.svg" alt="BYO email provider">
-
-        <header class="flex justify-center bottom-margin-xs">
-          <h3 class="micro semi-bold medium no-bottom-margin">BYO email platform</h3>
-        </header>
-
-        <p class="no-top-margin">We'll track and centralize your reporting</p>
-        <a href="https://help.getvero.com/articles/improving-deliverability#bring-your-own-email-infrastructure" target="_blank" rel="noopener">Find out more</a>
-      </div>
-      <div class="border-light border-radius-2 bg-white top-padding-xs horizontal-padding-xl bottom-padding-lg">
-        <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-discount.svg" alt="Pay up front">
-
-        <header class="flex justify-center bottom-margin-xs">
-          <h3 class="micro semi-bold medium no-bottom-margin">Save 15%</h3>
-        </header>
-
-        <p class="no-top-margin">Choose an annual plan and receive a discount</p>
-        <a href="https://help.getvero.com/articles/annual-plan-discount.html" target="_blank" rel="noopener">Find out more</a>
-      </div>
-    </div>
+    <ul class="unstyled-list home-hero-logo-list flex flex-wrap justify-center">
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
+      </li>
+    </ul>
   </div>
 </section>
-<section id="pricing-included">
+<section>
   <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <ul class="unstyled-list feature-list grid grid-sixths center-text">
       <li class="no-bottom-margin">
@@ -100,42 +277,9 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="bg-dark-blue-gradient" id="pricing-logos">
-  <div class="inner medium-inner top-padding-xl bottom-padding-lg center-text">
-    <h3 class="section-label bottom-margin-sm font-white">Trusted by companies globally</h5>
-
-    <ul class="unstyled-list logos-list flex">
-      <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="show" href="https://unsplash.com">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-unsplash.svg" alt="Unsplash logo" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="show" href="https://monzo.com">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-monzo.svg" alt="Monzo logo" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="show" href="https://helloprint.co.uk">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-helloprint.svg" alt="Helloprint logo" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="show" href="https://tidal.com">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-tidal.svg" alt="Tidal logo" height="76">
-        </a>
-      </li>
-      <li class="logos-list-item logos-list-item-big no-top-margin">
-        <a class="show" href="https://pipedrive.com">
-          <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/logos/pricing-pipedrive.svg" alt="Pipedrive logo" height="76">
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
 <section class="double-padding">
   <div class="inner small-inner">
-    <h2 class="chunk regular center-text bottom-margin-xl jump-link">Frequently Asked Questions</h2>
+    <h2 class="chunk regular center-text bottom-margin-xl">Frequently Asked Questions</h2>
 
     <details class="question-block bottom-margin-lg">
       <summary class="flex question">
