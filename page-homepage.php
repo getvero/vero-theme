@@ -210,7 +210,7 @@
 
     <div class="relative overflow-hidden home-quotes-gradient">
       <div class="flex items-start content-between home-quotes-list">
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
           <div class="flex">
@@ -222,7 +222,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Heck! Vero's support is exceptional!</p>
 
           <div class="flex">
@@ -234,7 +234,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show  home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>You guys/gals rock!</p>
 
           <div class="flex">
@@ -246,7 +246,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero is one of the best DRIP apps&mdash;have been recommending to all my contacts. The workflows feature is industry-leading!</p>
 
           <div class="flex">
@@ -258,7 +258,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
@@ -270,7 +270,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show  home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
@@ -282,7 +282,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>We've never had any reliability issues in the many years using Vero. Their ongoing investment in the platform is visible to us in the new features and updates being rolled out. Also, their service is next to none, it's always a joy dealing with their team.</p>
 
           <div class="flex">
@@ -293,7 +293,7 @@
               <img class="align-middle home-customer-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/pinpayments-logo-vero.svg" alt="Pin Payments logo"></div>
             </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Easy-to-use, thoughtful, lovely UI!</p>
 
           <div class="flex">

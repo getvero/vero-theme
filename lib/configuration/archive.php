@@ -316,7 +316,7 @@ function custom_home_loop() {
         $cat_name = $category->name;
       ?>
 
-      <div class="flex items-center">
+      <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
         <a class="underline-link-rev left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
@@ -373,7 +373,7 @@ function custom_home_loop() {
         $cat_name = $category->name;
       ?>
 
-      <div class="flex items-center">
+      <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
          <a class="underline-link-rev left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?></a>
