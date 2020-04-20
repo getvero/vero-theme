@@ -16,7 +16,7 @@
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
           <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn--gray-darker btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn--secondary btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
           <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
           <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
@@ -24,7 +24,7 @@
             <div class="flex items-center pointer dim">
               <img class="align-middle" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
 
-              <span class="font-brand-gray-dark">Watch a video</span>
+              <span class="font-gray-dark">Watch a video</span>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="flex flex-column lg-flex-row items-center lg-items-end">
           <a href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
 
-          <p class="annotation regular font-brand-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
+          <p class="annotation regular font-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
         </div>
       </div>
       <div class="col-aside">
