@@ -11,7 +11,7 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner center-text bottom-padding-xl">
-    <h2 class="semi-bold smallish font-brand-gray no-top-margin bottom-margin-lg">Integrations</h2>
+    <h2 class="semi-bold smallish font-gray no-top-margin bottom-margin-lg">Integrations</h2>
 
     <div class="integration-logos bottom-margin-xl">
       <div class="logo-container vero">
