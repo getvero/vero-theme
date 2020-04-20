@@ -91,12 +91,6 @@ jQuery(document).ready(function() {
         trialBtn.classList.add('hide');
       }
     });
-
-    // Toggle FAQs
-    jQuery('.js-toggle').click(function(){
-      jQuery(this).parent().toggleClass('active');
-      jQuery(this).next().toggleClass('active');
-    });
   }
 
   var validateForm;

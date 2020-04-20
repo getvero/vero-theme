@@ -133,68 +133,68 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section id="pricing-faq">
-  <div class="inner">
+<section class="double-padding">
+  <div class="inner small-inner">
     <h2 class="chunk regular center-text bottom-margin-xl jump-link">Frequently Asked Questions</h2>
 
-    <div class="question-block bottom-margin-lg">
-      <div class="js-toggle flex question">
+    <details class="question-block bottom-margin-lg">
+      <summary class="flex question">
         <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
-      </div>
-      <div class="answer">
-      <p>Vero will send you an email when you cross the subscriber threshold of your current plan. Your account will be automatically upgraded to a new plan, which will be reflected in your your next invoice.</p>
-      <p>As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
-      </div>
-    </div>
+      </summary>
+      <summary class="answer">
+        <p>Vero will send you an email when you cross the subscriber threshold of your current plan. Your account will be automatically upgraded to a new plan, which will be reflected in your your next invoice.</p>
+        <p>As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
+      </summary>
+    </details>
 
-    <div class="question-block bottom-margin-lg">
-      <div class="js-toggle flex question">
+    <details class="question-block bottom-margin-lg">
+      <summary class="flex question">
         <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
-      </div>
-      <div class="answer">
+      </summary>
+      <summary class="answer">
         <p>Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
 
         <p>We also provide urgent, emergency support for customers on our high-volume plans - <a class="typeform-share"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">talk to our sales team</a> to learn more.</p>
-      </div>
-    </div>
+      </summary>
+    </details>
 
-    <div class="question-block bottom-margin-lg">
-      <div class="js-toggle flex question">
+    <details class="question-block bottom-margin-lg">
+      <summary class="flex question">
         <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
-      </div>
-      <div class="answer">
+      </summary>
+      <summary class="answer">
         <p>You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/annual-plan-discount.html">Find out more about annual plans</a>.</p>
-      </div>
-    </div>
+      </summary>
+    </details>
 
-    <div class="question-block bottom-margin-lg">
-      <div class="js-toggle flex question">
+    <details class="question-block bottom-margin-lg">
+      <summary class="flex question">
         <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
-      </div>
-      <div class="answer">
+      </summary>
+      <summary class="answer">
         <p>In Vero, sub-accounts are called <strong>Projects</strong>. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as <strong>free sandboxes</strong>.</p>
         <p>If you’re an agency, you may also use projects to manage multiple clients.</p>
-      </div>
-    </div>
+      </summary>
+    </details>
 
-    <div class="question-block bottom-margin-lg">
-      <div class="js-toggle flex question">
+    <details class="question-block bottom-margin-lg">
+      <summary class="flex question">
         <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
         <img class="left-margin-auto question-caret" src="/wp-content/themes/vero/assets/dist/images/home/pricing/caret.svg" alt="">
-      </div>
-      <div class="answer">
+      </summary>
+      <summary class="answer">
         <p>Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> for more details.</p>
-      </div>
-    </div>
+      </summary>
+    </details>
   </div>
 </section>
 <section class="bg-gray-lighter">
