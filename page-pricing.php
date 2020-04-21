@@ -11,13 +11,13 @@ function add_class($classes) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="hero pricing-hero">
-  <div class="inner center-text">
-    <h1 class="biggie semi-bold bottom-margin-xs">Simple pricing that helps you scale your business</h1>
+  <div class="inner tiny-inner center-text stack-sm">
+    <h1 class="hulk semi-bold">Simple pricing that helps you scale your business</h1>
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
 </section>
 <section class="tiny-padding">
-  <div class="inner xlarge-inner">
+  <div class="inner xlarge-inner stack-sm">
     <div class="flex flex-wrap border-radius-2 pricing-comp-table">
       <div class="flex flex-column">
         <header class="pricing-comp-table-header">
@@ -33,7 +33,13 @@ include 'pages-shared/static-header.php';
             <ul class="unstyled-list">
               <li class="no-margin"><strong>2,000</strong> Customers </li>
               <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
-              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>1M</strong> Data points p/m</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
               <li class="no-margin"><a class="regular annotation underline-link font-gray-dark" href="">Additional usage charges</a></li>
             </ul>
           </div>
@@ -82,7 +88,13 @@ include 'pages-shared/static-header.php';
             <ul class="unstyled-list">
               <li class="no-margin"><strong>10,000</strong> Customers </li>
               <li class="no-margin"><strong>75,000</strong> Messages p/m</li>
-              <li class="no-margin"><strong>7.5M</strong> Data Points p/m</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>7.5M</strong> Data points p/m</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
               <li class="no-margin"><a class="regular annotation underline-link font-gray-dark" href="">Additional usage charges</a></li>
             </ul>
           </div>
@@ -94,7 +106,7 @@ include 'pages-shared/static-header.php';
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                Everything from <strong>Starter</strong>
+                <span>Everything from <strong>Starter</strong></span>
               </li>
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -143,7 +155,13 @@ include 'pages-shared/static-header.php';
             <ul class="unstyled-list">
               <li class="no-margin"><strong>75,000</strong> Customers </li>
               <li class="no-margin"><strong>375,000</strong> Messages p/m</li>
-              <li class="no-margin"><strong>37M</strong> Data Points p/m</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>37M</strong> Data points p/m</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
               <li class="no-margin"><a class="regular annotation underline-link font-gray-dark" href="">Additional usage charges</a></li>
             </ul>
           </div>
@@ -155,7 +173,7 @@ include 'pages-shared/static-header.php';
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                Everything from <strong>Pro</strong>
+                <span>Everything from <strong>Pro</strong></span>
               </li>
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -195,9 +213,15 @@ include 'pages-shared/static-header.php';
             <span class="font-gray-dark show regular annotation bottom-margin-xxs">Including</span>
 
             <ul class="unstyled-list">
-              <li class="no-margin"><strong>2,000</strong> Customers </li>
-              <li class="no-margin"><strong>10,000</strong> Messages p/m</li>
-              <li class="no-margin"><strong>1M</strong> Data Points p/m</li>
+              <li class="no-margin"><strong>250,000&plus;</strong> Customers </li>
+              <li class="no-margin"><strong>1,250,000&plus;</strong> Messages p/m</li>
+              <li class="no-margin flex items-center">
+                <span><strong>125M&plus;</strong> Data points p/m</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
               <li class="no-margin"><a class="regular annotation underline-link font-gray-dark" href="">Additional usage charges</a></li>
             </ul>
           </div>
@@ -209,7 +233,7 @@ include 'pages-shared/static-header.php';
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                Everything from Growth
+                <span>Everything from <strong>Growth</strong></span>
               </li>
               <li class="flex items-center no-margin">
                 <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -224,7 +248,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <footer class="pricing-comp-table-footer flex flex-column items-center">
+          <footer class="pricing-comp-table-footer flex flex-column items-center stack-xxs">
             <a href="#none" class="btn btn--outline btn--secondary full-width">Talk to us</a>
 
             <span class="annotation">or</span>
@@ -234,11 +258,13 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
     </div>
+
+    <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
   </div>
 </section>
-<section>
-  <div class="inner large-inner center-text">
-    <h2 class="atomic regular faded bottom-margin-sm">Trusted by leading brands</h2>
+<section class="double-padding">
+  <div class="inner large-inner center-text stack-lg">
+    <h2 class="chunk semi-bold">Trusted by leading brands</h2>
 
     <ul class="unstyled-list home-hero-logo-list flex flex-wrap justify-center">
       <li class="logo-list-item no-margin">
@@ -275,24 +301,319 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section>
-  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
-    <ul class="unstyled-list feature-list grid grid-sixths center-text">
-      <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-support.svg" width="46" alt="24-hour support">
-        <h3 class="regular bottom-margin-xs">24-hour support</h3>
-        <p class="no-top-margin no-bottom-margin">Our global support team is on hand to help you</p>
-      </li>
-      <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-encrypt.svg" width="46" alt="Data security">
-        <h3 class="regular bottom-margin-xs">Data security</h3>
-        <p class="no-top-margin no-bottom-margin">GDPR-ready, we take data security seriously</p>
-      </li>
-      <li class="no-bottom-margin">
-        <img src="/wp-content/themes/vero/assets/dist/images/home/pricing/pricing-unlimited.svg" width="46" alt="Unlimited everything">
-        <h3 class="regular bottom-margin-xs">Unlimited everything</h3>
-        <p class="no-top-margin no-bottom-margin">Emails, sub-accounts, users - we won't charge you extra</p>
-      </li>
-    </ul>
+  <div class="inner large-inner stack-lg">
+    <h2 class="chunk semi-bold center-text">Feature comparison</h2>
+
+    <div class="pricing-feature-table">
+      <div class="pricing-feature-table-row flex border-bottom-light">
+        <div>
+          <strong class="medium regular">Message Automation</strong>
+        </div>
+        <div class="center-text">
+          <strong class="medium regular">Starter</strong>
+        </div>
+        <div class="center-text">
+          <strong class="medium regular">Pro</strong>
+        </div>
+        <div class="center-text">
+          <strong class="medium regular">Grow</strong>
+        </div>
+        <div class="center-text">
+          <strong class="medium regular">Enterprise</strong>
+        </div>
+      </div>
+
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Newsletter Campaigns</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Segmentation</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Workflow automated campaigns</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Conversion tracking</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Campaign reporting</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Form builder</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">AB testing</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-feature-table">
+      <div class="pricing-feature-table-row flex border-bottom-light">
+        <div>
+          <strong class="medium regular">Design, branding &amp; customization</strong>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Drag &amp; drop template builder</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Example email templates</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Custom domain signing</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Multi-language campaigns (Internationalization)</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-feature-table">
+      <div class="pricing-feature-table-row flex border-bottom-light">
+        <div>
+          <strong class="medium regular">Developer tooling</strong>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">API access</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Developer documentation</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Integrations</div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Data sync (webhooks)</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">Dedicated IP</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="annotation pricing-feature-table-row flex border-bottom-light">
+        <div class="strong">BYO email providers</div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+        <div class="flex items-center justify-center">
+          <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 <section class="double-padding">
