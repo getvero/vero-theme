@@ -127,8 +127,8 @@ include 'pages-shared/static-header.php';
           <a href="" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
         </div>
       </div>
-      <div class="flex flex-column">
-        <span class="annotation absolute">Most companies start with this plan</span>
+      <div class="flex flex-column relative">
+        <span class="annotation bg-gray-lighter border italic absolute full-width label">Most companies start with this plan</span>
 
         <header class="pricing-comp-table-header">
           <h2 class="micro">Growth</h2>
