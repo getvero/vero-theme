@@ -22,7 +22,7 @@
       <p class="large bottom-margin-md">Our drag and drop editor uses <a class="underline-link" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
 
       <div class="flex flex-column xs-flex-row items-center justify-center">
-        <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Try for free</a>
 
         <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
       </div>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">Template defaults</h3>
-              <p class="medium">Keep your templates on brand by setting default colors and fonts.</p>
+              <p class="medium">Keep your templates on-brand by setting default colors and fonts.</p>
             </div>
           </li>
           <li class="w-sidebar w-sidebar--icon">
@@ -148,8 +148,8 @@
               <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/liquid-data.svg" alt="">
             </div>
             <div class="col-aside">
-              <h3 class="micro bottom-margin-xxs">Liquid data</h3>
-              <p class="medium">Easily personalise by inserting customer or event data into your templates with Liquid.</p>
+              <h3 class="micro bottom-margin-xxs">Dynamic content</h3>
+              <p class="medium">Easily personalise by inserting customer data into your templates with <a href="/email-personalization-liquid-guide">Liquid</a>.</p>
             </div>
           </li>
           <li class="w-sidebar w-sidebar--icon">
@@ -157,7 +157,7 @@
               <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/starting-templates.svg" alt="">
             </div>
             <div class="col-aside">
-              <h3 class="micro bottom-margin-xxs">Starting template</h3>
+              <h3 class="micro bottom-margin-xxs">Starting templates</h3>
               <p class="medium">Start from scratch or select one of our professionally designed templates as a starting point.</p>
             </div>
           </li>
@@ -198,7 +198,7 @@
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Reusable blocks</h3>
-          <p class="medium">Creating a library of common snippets that can be placed in your templates on the fly.</p>
+          <p class="medium">Create a library of common snippets that can be placed in your templates on the fly.</p>
         </div>
       </li>
       <li class="w-sidebar w-sidebar--icon">
@@ -207,7 +207,7 @@
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Exporting</h3>
-          <p class="medium">For more advanced control easily export and edit them in our HTML mode.</p>
+          <p class="medium">For more advanced control, easily export and edit your templates as HTML.</p>
         </div>
       </li>
       <li class="w-sidebar w-sidebar--icon">
@@ -216,7 +216,7 @@
         </div>
         <div class="col-aside">
           <h3 class="micro bottom-margin-xxs">Importing</h3>
-          <p class="medium">Any existing MGML templates you already have can be imported and edited.</p>
+          <p class="medium">Import your existing MJML templates and edit them visually.</p>
         </div>
       </li>
     </ul>
