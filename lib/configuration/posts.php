@@ -100,6 +100,9 @@
       return;
     }
 
+
+    $image_id       = get_post_thumbnail_id();
+    $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
     $categories = get_the_terms( get_the_ID(), 'category' );
     $category = array_shift( $categories );
 
@@ -117,18 +120,23 @@
       while( $loop->have_posts() ): $loop->the_post();
         echo '<div class="entry">';
         if( has_post_thumbnail() )
-          ?>
-            <a class="show entry-aside" href="<?php get_permalink() ?>">
-              <?php
-                the_post_thumbnail(
-                  get_the_ID(), array('class' => 'entry-image')
-                );
-              ?>
-            </a>
-          <?php
+          echo '<a class="show entry-aside" href="' . get_permalink() . '">';
+
+          if( !empty($image_alt) ) {
+            $alt_text = $image_alt;
+          } else {
+            $alt_text = get_the_title();
+          }
+
+          the_post_thumbnail('category-thumb', array(
+            'class' => 'entry-image',
+            'alt'   => $alt_text
+          ));
+          echo '</a>';
         echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
         ?>
           <div class="entry-content">
+            <?php get_the_permalink() ?>
             <?php the_excerpt() ?>
           </div>
         <?php
