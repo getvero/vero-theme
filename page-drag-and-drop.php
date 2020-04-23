@@ -10,6 +10,9 @@
   include 'pages-shared/static-header.php';
 ?>
 <div class="drag-and-drop-hero">
+  <div class="center-text border-bottom">
+    <p class="annotation">We built this editor <strong>from the ground up</strong>, rather than just use a plugin. <a href="#none">Read more</a></p>
+  </div>
   <section>
     <div class="inner tiny-inner flush-bottom center-text">
       <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
