@@ -9,25 +9,24 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section>
-  <div class="inner full-width">
-    <div class="center-text border-bottom bg-dark-blue drag-and-drop-banner">
-      <p class="annotation font-white">We built this editor <strong>from the ground up</strong> rather than just using a plugin. <a class="negative underline-link-rev semi-bold" href="#none">Find out why</a>.</p>
-    </div>
-  </div>
-</section>
+<div class="center-text border-radius-2 border-bottom bg-primary drag-and-drop-banner">
+  <p class="annotation font-white">We built this editor <strong>from the ground up</strong> rather than just using a plugin. <a class="negative underline-link-rev semi-bold" href="#none">Find out why</a>.</p>
+</div>
 <section class="drag-and-drop-hero">
-  <div class="inner tiny-inner flush-bottom center-text">
-    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+  <div class="inner tiny-inner flush-bottom center-text stack-lg">
+    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark">
       <a href="/features">Features</a>
-      <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+      <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Drag and Drop
     </span>
 
-    <h1 class="hulk semi-bold bottom-margin-sm">Design beautiful emails</h1>
+    <div>
+      <h1 class="hulk semi-bold bottom-margin-sm">Design beautiful emails</h1>
 
-    <!-- <p class="large bottom-margin-md">A visual way to realise your email designs, without writing a line of code. Help your team deliver great looking and highly engaging emails to every device.</p> -->
-    <p class="large bottom-margin-md">Help your team deliver great looking and highly engaging emails to every device  without writing a line of code.</p>
+      <!-- <p class="large bottom-margin-md">A visual way to realise your email designs, without writing a line of code. Help your team deliver great looking and highly engaging emails to every device.</p> -->
+
+      <p class="large bottom-margin-md">Help your team deliver great looking and highly engaging emails to every device without writing a line of code.</p>
+    </div>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Try for free</a>
