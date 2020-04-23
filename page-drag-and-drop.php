@@ -9,48 +9,53 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<div class="drag-and-drop-hero">
-  <div class="center-text border-bottom">
-    <p class="annotation">We built this editor <strong>from the ground up</strong>, rather than just use a plugin. <a href="#none">Read more</a></p>
+<section>
+  <div class="inner full-width">
+    <div class="center-text border-bottom bg-dark-blue drag-and-drop-banner">
+      <p class="annotation font-white">We built this editor <strong>from the ground up</strong> rather than just using a plugin. <a class="negative underline-link-rev semi-bold" href="#none">Find out why</a>.</p>
+    </div>
   </div>
-  <section>
-    <div class="inner tiny-inner flush-bottom center-text">
-      <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
-        <a href="/features">Features</a>
-        <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
-        Drag and Drop
-      </span>
+</section>
+<section class="drag-and-drop-hero">
+  <div class="inner tiny-inner flush-bottom center-text">
+    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+      <a href="/features">Features</a>
+      <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+      Drag and Drop
+    </span>
 
-      <h1 class="hulk bottom-margin-xs">Design beautiful emails</h1>
-      <p class="large bottom-margin-md">Our drag and drop editor uses <a class="underline-link" href="#none">MJML</a> to ensure your emails are supported across major email clients.</p>
+    <h1 class="hulk semi-bold bottom-margin-sm">Design beautiful emails</h1>
 
-      <div class="flex flex-column xs-flex-row items-center justify-center">
-        <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Try for free</a>
+    <!-- <p class="large bottom-margin-md">A visual way to realise your email designs, without writing a line of code. Help your team deliver great looking and highly engaging emails to every device.</p> -->
+    <p class="large bottom-margin-md">Help your team deliver great looking and highly engaging emails to every device  without writing a line of code.</p>
 
-        <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
-      </div>
+    <div class="flex flex-column xs-flex-row items-center justify-center">
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Try for free</a>
+
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
-    <div class="inner xlarge-inner">
-      <ul class="unstyled-list relative drag-and-drop-hero-imgs">
-        <li class="absolute z-999">
-          <svg xmlns="http://www.w3.org/2000/svg" width="244" height="542"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M65.262 458h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.985 500.86 1 509.847 1 520.93 1 532.015 9.985 541 21.07 541h180.407"/><path stroke="#6F0DFB" d="M76 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H23.07C11.985 41.14 3 32.153 3 21.07 3 9.985 11.985 1 23.07 1h223.442"/></g></svg>
-        </li>
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative md-center-text">
-          <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
-        </li>
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
-          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
-        </li>
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
-          <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.png 2x" alt="">
-        </li>
-        <li class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
-          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
-        </li>
-      </ul>
-    </div>
-  </section>
-</div>
+  </div>
+  <div class="inner xlarge-inner">
+    <ul class="unstyled-list relative drag-and-drop-hero-imgs">
+      <li class="absolute z-999">
+        <svg xmlns="http://www.w3.org/2000/svg" width="244" height="542"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M65.262 458h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.985 500.86 1 509.847 1 520.93 1 532.015 9.985 541 21.07 541h180.407"/><path stroke="#6F0DFB" d="M76 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H23.07C11.985 41.14 3 32.153 3 21.07 3 9.985 11.985 1 23.07 1h223.442"/></g></svg>
+      </li>
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative md-center-text">
+        <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
+      </li>
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
+        <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
+      </li>
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.png 2x" alt="">
+      </li>
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
+        <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
+      </li>
+    </ul>
+  </div>
+
+</section>
 <div class="drag-and-drop-features bg-dark-blue-lighter">
   <section id="drag-and-drop-section-1">
     <div class="inner">
