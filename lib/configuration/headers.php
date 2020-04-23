@@ -172,23 +172,6 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
     return $classes;
 }
 
-function workflows_banner(){
-  if(is_page('homepage')){
-    ?>
-      <div class="homepage-banner">
-        <a class="flex items-center border-bottom-light" href="/workflows">
-          <p class="large banner-heading no-margin right-margin-lg">Introducing <span class="bold">Workflows</span></p>
-          <p class="regular banner-sub-heading no-margin">A brand new way to design, visualize and manage your customer journeys!</p>
-          <span class="regular banner-button">Find out more</span>
-          <span class="regular banner-arrow">
-            <svg height="19" viewBox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg"><path d="m6.328 14.263c-.407.373-.435 1.006-.061 1.413.373.407 1.006.435 1.413.061l5.998-5.498c.432-.396.432-1.078 0-1.474l-5.998-5.502c-.407-.373-1.04-.346-1.413.061s-.346 1.04.061 1.413l5.194 4.764z" fill="#d8d8d8"/></svg>
-          </span>
-        </a>
-      </div>
-    <?php
-  }
-}
-
 // Add description to submenu
 function add_menu_description( $item_output, $item ) {
   if ( !empty( $item->description ) ) {
