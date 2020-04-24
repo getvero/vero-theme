@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <path id="help-a" d="M16,3 C23.1797017,3 29,8.82029825 29,16 C29,23.1797017 23.1797017,29 16,29 C8.82029825,29 3,23.1797017 3,16 C3,8.82029825 8.82029825,3 16,3 Z M16,10 C12.6862915,10 10,12.6862915 10,16 C10,19.3137085 12.6862915,22 16,22 C19.3137085,22 22,19.3137085 22,16 C22,12.6862915 19.3137085,10 16,10 Z"/>
+    <filter id="help-b" width="165.4%" height="165.4%" x="-32.7%" y="-28.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="7" cy="7" r="5" stroke="#F15242"/>
+    <circle cx="25" cy="7" r="5" stroke="#F15242"/>
+    <circle cx="7" cy="25" r="5" stroke="#F15242"/>
+    <circle cx="25" cy="25" r="5" stroke="#F15242"/>
+    <rect width="14" height="14" x="9" y="9" fill="#F3F4F7"/>
+    <mask id="help-c" fill="#fff">
+      <use xlink:href="#help-a"/>
+    </mask>
+    <use fill="#000" filter="url(#help-b)" xlink:href="#help-a"/>
+    <path fill="#FDE1DE" stroke="#F15242" stroke-width="2" d="M16,2 C19.8659932,2 23.3659932,3.56700338 25.8994949,6.10050506 C28.4329966,8.63400675 30,12.1340068 30,16 C30,19.8659932 28.4329966,23.3659932 25.8994949,25.8994949 C23.3659932,28.4329966 19.8659932,30 16,30 C12.1340068,30 8.63400675,28.4329966 6.10050506,25.8994949 C3.56700338,23.3659932 2,19.8659932 2,16 C2,12.1340068 3.56700338,8.63400675 6.10050506,6.10050506 C8.63400675,3.56700338 12.1340068,2 16,2 Z M16,11 C14.6192881,11 13.3692881,11.5596441 12.4644661,12.4644661 C11.5596441,13.3692881 11,14.6192881 11,16 C11,17.3807119 11.5596441,18.6307119 12.4644661,19.5355339 C13.3692881,20.4403559 14.6192881,21 16,21 C17.3807119,21 18.6307119,20.4403559 19.5355339,19.5355339 C20.4403559,18.6307119 21,17.3807119 21,16 C21,14.6192881 20.4403559,13.3692881 19.5355339,12.4644661 C18.6307119,11.5596441 17.3807119,11 16,11 Z"/>
+    <rect width="8" height="3" x="2.5" y="14.5" fill="#FFF" stroke="#F15242" mask="url(#help-c)"/>
+    <rect width="8" height="3" x="21.5" y="14.5" fill="#FFF" stroke="#F15242" mask="url(#help-c)"/>
+    <rect width="3" height="9" x="14.5" y="2.5" fill="#FFF" stroke="#F15242" mask="url(#help-c)"/>
+    <rect width="3" height="9" x="14.5" y="20.5" fill="#FFF" stroke="#F15242" mask="url(#help-c)"/>
+  </g>
+</svg>
