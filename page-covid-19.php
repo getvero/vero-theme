@@ -11,12 +11,12 @@
 ?>
 <section class="covid-19-hero">
   <div class="inner">
-    <div class="grid grid-halfs items-center">
-      <div class="stack-sm order-2 lg-order-1">
+    <div class="grid grid-auto items-center">
+      <div class="stack-sm order-2 md-order-1">
         <h1 class="semi-bold biggie">Working together in the fight against COVID-19</h1>
         <p class="medium">COVID-19 has impacted us all in various ways. It’s becoming clear that, whilst the initial battle might be over, we’re going to have to learn how to overcome or live with COVID-19 and this is going to take many more months, if not years.</p>
       </div>
-      <div class="center-text md-right-text order-1 lg-order-2">
+      <div class="center-text lg-right-text order-1 md-order-2 top-padding-md bottom-padding-md">
         <div class="d-inline-block covid-19-hero-img border-radius-100 relative">
           <svg class="pulse-1 absolute" xmlns="http://www.w3.org/2000/svg" width="230" height="230"><circle cx="195.964" cy="33.536" r="8" fill="#FFF" fill-rule="evenodd" stroke="#84D2E8" stroke-width="4" transform="rotate(45 195.964 33.536)"/></svg>
 
@@ -24,7 +24,7 @@
 
           <svg  class="pulse-3 absolute" xmlns="http://www.w3.org/2000/svg" width="350" height="350"><circle cx="87.5" cy="23.446" r="8" fill="#FFF" fill-rule="evenodd" stroke="#84D2E8" stroke-width="4" transform="rotate(-30 87.5 23.446)"/></svg>
 
-          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/covid-19/hero.svg" alt="COVID-19 fund">
+          <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/covid-19/hero.svg" alt="COVID-19 fund">
         </div>
       </div>
     </div>
