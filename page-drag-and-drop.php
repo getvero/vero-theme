@@ -101,7 +101,7 @@
     <div class="inner">
       <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2 sm-order-1">
-          <h2 class="chunk bottom-margin-sm">Keep your campaigns consistent</h2>
+          <h2 class="chunk bottom-margin-sm">Keep your experiences on-brand</h2>
           <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
         </div>
         <div class="col-aside order-1 sm-order-2 center-text sm-right-text">
