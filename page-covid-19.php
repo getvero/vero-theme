@@ -93,14 +93,16 @@
 
           <div class="stack-md bg-white border border-radius-2">
             <h3 class="micro semi-bold">2. Create your account?</h3>
-            <p class="medium">Create your new Vero account at <a class="underline-link" href="/signup">app.getvero.com/signup</a>.</p>
+            <p class="medium">Create your new Vero account at <a class="underline-link" href="https://app.getvero.com/signup">app.getvero.com/signup</a>.</p>
+
+            <a class="btn btn-dark-blue" href="https://app.getvero.com/signup">Create your account</a>
           </div>
 
           <div class="stack-md bg-white border border-radius-2">
             <h3 class="micro semi-bold">3. Submit your application</h3>
             <p class="medium">Email us at <a class="underline-link" href="mailto:support+covid19@getvero.com">support+covid19@getvero.com</a>. We’re here to help.</p>
 
-            <a class="btn btn-success btn-large" href="mailto:support+covid19@getvero.com">Email us</a>
+            <a class="btn btn-dark-blue" href="mailto:support+covid19@getvero.com">Email us</a>
           </div>
         </div>
       </div>
