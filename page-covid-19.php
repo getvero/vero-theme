@@ -66,7 +66,7 @@
 
             <p class="medium">If you're working in any of the following, please apply:</p>
 
-            <div class="covid-19-organizations stack-sm">
+            <div class="covid-19-organizations stack-md">
               <div class="stack-xxxs">
                 <h4 class="atomic regular">Local governments</h4>
                 <p class="medium">For example, local governments that need to communicate important updates with their communities.</p>
