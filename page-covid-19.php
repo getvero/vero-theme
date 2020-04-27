@@ -14,7 +14,7 @@
     <div class="grid grid-auto items-center">
       <div class="stack-sm order-2 md-order-1">
         <h1 class="semi-bold biggie">Working together in the fight against COVID-19</h1>
-        <p class="medium">COVID-19 has impacted us all in various ways. It’s becoming clear that, whilst the initial battle might be over, we’re going to have to learn how to overcome or live with COVID-19 and this is going to take many more months, if not years.</p>
+        <p class="medium">COVID-19 has impacted us all in various ways. It’s become clear that we're going to have to learn to live with COVID-19 for the coming months and, in all likelihood, years.</p>
       </div>
       <div class="center-text lg-right-text order-1 md-order-2 top-padding-md bottom-padding-md">
         <div class="d-inline-block covid-19-hero-img border-radius-100 relative">
@@ -35,16 +35,16 @@
     <div class="w-sidebar w-sidebar--long-form">
       <div class="col-main">
         <div class="flex items-center bottom-margin-lg">
-          <img class="align-middle right-margin-xs" src="/wp-content/themes/vero/assets/dist/images/covid-19/icon/help.svg" alt="We're here to help">
+          <img class="align-middle right-margin-xs" src="/wp-content/themes/vero/assets/dist/images/covid-19/icon/help.svg" alt="We want to help">
 
-          <h2 class="semi-bold atomic no-margin">We’re here to help</h2>
+          <h2 class="semi-bold atomic no-margin">We want to help</h2>
         </div>
 
       </div>
       <div class="col-aside">
         <p class="medium">Communicating in times of crisis and change is critical. Businesses and governments all over the world are creating new initiatives to help fight COVID-19.</p>
 
-        <p class="medium">We’re extending six months free usage to new relief working on the front line to directly help those most affected by COVID-19.</p>
+        <p class="medium">We’re extending six months free usage to new relief efforts working on the front line to directly help those most affected by COVID-19.</p>
       </div>
     </div>
   </div>
