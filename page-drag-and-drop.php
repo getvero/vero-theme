@@ -9,9 +9,16 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<div class="center-text border-radius-2 border-bottom bg-primary drag-and-drop-banner">
-  <p class="annotation font-white">We built this editor <strong>from the ground up</strong> rather than just using a plugin. <a class="negative underline-link-rev semi-bold" href="#none">Find out why</a>.</p>
+<div class="bg-dark-blue drag-and-drop-banner z-9999">
+  <a class="font-white" href="#none">
+    <p class="flex flex-column md-flex-row md-items-center"><span>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</span> <span class="hide md-show annotation font-white left-margin-auto underline-link semi-bold">Find out why</span></p>
+  </a>
 </div>
+<?php
+  do_action( 'genesis_before_header' );
+  do_action( 'genesis_header' );
+  do_action( 'genesis_after_header' );
+?>
 <section class="drag-and-drop-hero">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark">
@@ -180,8 +187,12 @@
         </ul>
       </div>
 
-      <div class="col-aside hide sm-show drag-and-drop-more-features-img overflow-hidden">
-        <img class="align-middle md-left-margin-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.svg" alt="">
+      <div class="col-aside hide md-show drag-and-drop-more-features-img overflow-hidden">
+        <div class="relative">
+          <svg class="absolute" xmlns="http://www.w3.org/2000/svg" width="750" height="594"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M750 1h-57.015c-10.578 0-19.153 8.575-19.153 19.153 0 10.579 8.575 19.154 19.153 19.154h21.326c11.513 0 20.846 9.333 20.846 20.846 0 11.514-9.333 20.847-20.846 20.847H611h0"/><path stroke="#01B2D0" d="M1 527h105.017c9.763 0 17.677 7.914 17.677 17.677s-7.914 17.678-17.677 17.678h-46.41c-8.463 0-15.323 6.86-15.323 15.322 0 8.463 6.86 15.323 15.323 15.323H297"/></g></svg>
+
+          <img class="align-middle md-left-margin-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features@2x.png 2x" alt="More features">
+        </div>
       </div>
     </div>
   </div>

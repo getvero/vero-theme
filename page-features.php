@@ -10,11 +10,6 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="features-hero bg-gray-lighter">
-  <?php
-    do_action( 'genesis_before_header' );
-    do_action( 'genesis_header' );
-    do_action( 'genesis_after_header' );
-  ?>
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="d-inline-block atomic semi-bold font-brand-gray-dark">Features</span>
 
