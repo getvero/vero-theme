@@ -11,7 +11,7 @@
 ?>
 <div class="bg-dark-blue drag-and-drop-banner z-9999">
   <a class="font-white" href="#none">
-    <p class="flex flex-column md-flex-row md-items-center"><span>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</span> <span class="hide md-show annotation font-white left-margin-auto underline-link semi-bold">Find out why</span></p>
+    <p><span>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</span> <span class="font-white underline-link semi-bold">Find out why</span></p>
   </a>
 </div>
 <?php
