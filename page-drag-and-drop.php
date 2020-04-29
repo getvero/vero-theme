@@ -143,7 +143,7 @@
 </div>
 <section class="double-padding drag-and-drop-more-features">
   <div class="inner large-inner">
-    <h2 class="chunk center-text bottom-margin-lg">And more features</h2>
+    <h2 class="tubs center-text bottom-margin-lg">And more features</h2>
 
     <div class="w-sidebar w-sidebar--feature-lg">
       <div class="col-main">
@@ -163,7 +163,7 @@
             </div>
             <div class="col-aside">
               <h3 class="micro bottom-margin-xxs">Dynamic content</h3>
-              <p class="medium">Easily personalise by inserting customer data into your templates with <a href="/email-personalization-liquid-guide">Liquid</a>.</p>
+              <p class="medium">Easily personalise by inserting customer data into your templates with <a class="underline-link" href="/email-personalization-liquid-guide">Liquid</a>.</p>
             </div>
           </li>
           <li class="w-sidebar w-sidebar--icon">
@@ -199,7 +199,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner center-text lg-left-text">
-    <h3 class="atomic font-brand-primary bottom-margin-lg center-text">Coming soon</h3>
+    <h3 class="tubs bottom-margin-lg center-text">Coming soon</h3>
     <ul class="unstyled-list grid grid-halfs">
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
