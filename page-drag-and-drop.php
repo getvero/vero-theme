@@ -240,7 +240,7 @@
     </ul>
   </div>
 </section>
-<section class="double-padding bg-offwhite relative drag-and-drop-cta">
+<section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom">
   <div class="inner tiny-inner center-text relative z-1">
     <span class="show font-brand-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
@@ -250,6 +250,11 @@
 
       <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
+  </div>
+</section>
+<section class="micro-padding">
+  <div class="inner center-text">
+    <p class="annotation font-brand-gray-dark center-text">All illustrations by <a class="underline-link" href="#none">icons8.com</a></p>
   </div>
 </section>
 <?php
