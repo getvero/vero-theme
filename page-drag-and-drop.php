@@ -42,11 +42,10 @@
   <div class="inner xlarge-inner">
     <ul class="unstyled-list relative drag-and-drop-hero-imgs lg-center-text">
       <li class="d-inline-block relative z-4">
-        <div class="drag-and-drop-hero-img-lines-1 absolute z-999">
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="242" height="85"><path fill="none" stroke="#6F0DFB" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M74 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H21.07C9.986 41.14 1 32.153 1 21.07 1 9.985 9.986 1 21.07 1h223.442"/></svg> -->
-          <svg xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#6F0DFB" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M74 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H21.07C9.986 41.14 1 32.153 1 21.07 1 9.985 9.986 1 21.07 1h223.442"/></svg>
+        <div class="drag-and-drop-line-1 absolute z-999">
+          <svg xmlns="http://www.w3.org/2000/svg" width="242" height="85"><path fill="none" stroke="#6F0DFB" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M74 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H21.07C9.986 41.14 1 32.153 1 21.07 1 9.985 9.986 1 21.07 1h223.442"/></svg>
         </div>
-        <div class="drag-and-drop-hero-img-lines-2 absolute z-999">
+        <div class="drag-and-drop-line-2 absolute z-999">
           <svg xmlns="http://www.w3.org/2000/svg" width="203" height="85"><path fill="none" stroke="#6FD350" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M65.262 1h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.986 43.86 1 52.847 1 63.93 1 75.015 9.986 84 21.07 84h180.407"/></svg>
         </div>
         <div class="drag-and-drop-hero-img drag-and-drop-hero-img--1">
@@ -56,7 +55,7 @@
           <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
         </div>
       </li>
-      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute z-index-1">
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute z-1">
         <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
       </li>
       <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute z-5">
@@ -193,7 +192,13 @@
 
       <div class="col-aside hide md-show drag-and-drop-more-features-img overflow-hidden">
         <div class="relative">
-          <svg class="absolute" xmlns="http://www.w3.org/2000/svg" width="750" height="594"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M750 1h-57.015c-10.578 0-19.153 8.575-19.153 19.153 0 10.579 8.575 19.154 19.153 19.154h21.326c11.513 0 20.846 9.333 20.846 20.846 0 11.514-9.333 20.847-20.846 20.847H611h0"/><path stroke="#01B2D0" d="M1 527h105.017c9.763 0 17.677 7.914 17.677 17.677s-7.914 17.678-17.677 17.678h-46.41c-8.463 0-15.323 6.86-15.323 15.322 0 8.463 6.86 15.323 15.323 15.323H297"/></g></svg>
+          <div class="drag-and-drop-line-1 absolute z-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="134" height="82"><path fill="none" stroke="#6FD350" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M134 1H76.985C66.407 1 57.832 9.575 57.832 20.153c0 10.579 8.575 19.154 19.153 19.154h21.326c11.513 0 20.846 9.333 20.846 20.846 0 11.514-9.333 20.847-20.846 20.847H-5h0"/></svg>
+          </div>
+
+          <div class="drag-and-drop-line-2 absolute z-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="294" height="68"><path fill="none" stroke="#01B2D0" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h105.017c9.763 0 17.677 7.914 17.677 17.677s-7.914 17.678-17.677 17.678h-46.41c-8.463 0-15.323 6.86-15.323 15.322C44.284 60.14 51.144 67 59.607 67H297"/></svg>
+          </div>
 
           <img class="align-middle md-left-margin-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/more-features@2x.png 2x" alt="More features">
         </div>
