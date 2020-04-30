@@ -19,7 +19,7 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="drag-and-drop-hero">
+<section class="drag-and-drop-hero overflow-hidden">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark">
       <a href="/features">Features</a>
@@ -29,8 +29,6 @@
 
     <div>
       <h1 class="hulk semi-bold bottom-margin-sm">Design beautiful emails</h1>
-
-      <!-- <p class="large bottom-margin-md">A visual way to realise your email designs, without writing a line of code. Help your team deliver great looking and highly engaging emails to every device.</p> -->
 
       <p class="large bottom-margin-md">Help your team deliver great looking and highly engaging emails to every device without writing a line of code.</p>
     </div>
@@ -42,21 +40,27 @@
     </div>
   </div>
   <div class="inner xlarge-inner">
-    <ul class="unstyled-list relative drag-and-drop-hero-imgs">
-      <li class="absolute z-999">
-        <svg xmlns="http://www.w3.org/2000/svg" width="244" height="542"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#6FD350" d="M65.262 458h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.985 500.86 1 509.847 1 520.93 1 532.015 9.985 541 21.07 541h180.407"/><path stroke="#6F0DFB" d="M76 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H23.07C11.985 41.14 3 32.153 3 21.07 3 9.985 11.985 1 23.07 1h223.442"/></g></svg>
+    <ul class="unstyled-list relative drag-and-drop-hero-imgs lg-center-text">
+      <li class="d-inline-block relative z-4">
+        <div class="drag-and-drop-hero-img-lines-1 absolute z-999">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="242" height="85"><path fill="none" stroke="#6F0DFB" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M74 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H21.07C9.986 41.14 1 32.153 1 21.07 1 9.985 9.986 1 21.07 1h223.442"/></svg> -->
+          <svg xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#6F0DFB" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M74 84h26.202c11.836 0 21.43-9.595 21.43-21.43 0-11.836-9.594-21.43-21.43-21.43H21.07C9.986 41.14 1 32.153 1 21.07 1 9.985 9.986 1 21.07 1h223.442"/></svg>
+        </div>
+        <div class="drag-and-drop-hero-img-lines-2 absolute z-999">
+          <svg xmlns="http://www.w3.org/2000/svg" width="203" height="85"><path fill="none" stroke="#6FD350" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M65.262 1h26.565c11.836 0 21.43 9.595 21.43 21.43 0 11.836-9.594 21.43-21.43 21.43H21.07C9.986 43.86 1 52.847 1 63.93 1 75.015 9.986 84 21.07 84h180.407"/></svg>
+        </div>
+        <div class="drag-and-drop-hero-img drag-and-drop-hero-img--1">
+          <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
+        </div>
+        <div class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
+          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
+        </div>
       </li>
-      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--1 relative md-center-text">
-        <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
-      </li>
-      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute">
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute z-index-1">
         <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.jpg 2x" alt="Image pane">
       </li>
-      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute">
+      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute z-5">
         <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/section@2x.png 2x" alt="">
-      </li>
-      <li class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
-        <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
       </li>
     </ul>
   </div>
@@ -254,7 +258,7 @@
 </section>
 <section class="micro-padding">
   <div class="inner center-text">
-    <p class="annotation font-brand-gray-dark center-text">All illustrations by <a class="underline-link" href="#none">icons8.com</a></p>
+    <p class="annotation font-brand-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
   </div>
 </section>
 <?php
