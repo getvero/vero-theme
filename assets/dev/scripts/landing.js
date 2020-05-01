@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-  if (jQuery('body').hasClass('careers')) {
+  if (jQuery('body').hasClass('pricing')) {
     var html5Slider = document.getElementById('html5');
 
     noUiSlider.create(html5Slider, {
