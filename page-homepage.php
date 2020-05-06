@@ -22,7 +22,7 @@
           <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
           <div class="regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim">
-              <img class="align-middle" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="#9D9D9D" fill-rule="evenodd" d="M10.987 9.576l10.041 5.857a.656.656 0 010 1.134l-10.041 5.857a.656.656 0 01-.987-.567V10.143a.656.656 0 01.987-.567z"/></svg>
 
               <span class="font-brand-gray-dark">Watch a video</span>
             </div>
@@ -37,6 +37,9 @@
       </div>
       <div class="col-aside">
         <div class="home-hero-imgs relative">
+          <div class="absolute z-999">
+            <svg xmlns="http://www.w3.org/2000/svg" width="741" height="355"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#F15242" d="M1 289h52.74c8.646 0 15.656 7.01 15.656 15.657s-7.01 15.657-15.657 15.657H33.035c-9.302 0-16.843 7.54-16.843 16.843 0 9.302 7.541 16.843 16.843 16.843h164.333"/><path stroke="#01B2D0" d="M338.329 69h94.893c9.477 0 17.16-7.682 17.16-17.16 0-9.476-7.683-17.158-17.16-17.158h-42c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841h35.844"/><path stroke="#FFC111" d="M603.6 353h102.24c9.478 0 17.16-7.682 17.16-17.16 0-9.476-7.682-17.158-17.16-17.158h-32c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841H769"/></g></svg>
+          </div>
           <div class="home-hero-img home-hero-img--1 relative">
           <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
           </div>
