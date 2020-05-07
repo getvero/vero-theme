@@ -3,13 +3,30 @@ jQuery(document).ready(function() {
     var html5Slider = document.getElementById('html5');
 
     noUiSlider.create(html5Slider, {
-      start: [10, 30],
-      connect: true,
+      start    : [4000],
+      connect  : 'lower',
+      step     : 1000,
       range: {
-        'min': -20,
-        'max': 40
+        'min': [0],
+        'max': [300000]
       }
     });
+
+    var stepSliderValueElement = document.getElementById('slider-step-value');
+    var pricingMessagesValue =  document.querySelector('.js-pricing-messages-value')
+
+    html5Slider.noUiSlider.on('update', function (values, handle) {
+      stepSliderValueElement.innerHTML = values[handle] * 1;
+
+      pricingMessagesValue.innerHTML = values[handle] * 5;
+
+      if (values[handle] == 2000) {
+        pricingMessagesValue.innerHTML = 10000;
+      } else if (values[handle] == 10000) {
+        pricingMessagesValue.innerHTML = 75000;
+      }
+    });
+
   }
 
   // Slider for careers page

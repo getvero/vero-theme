@@ -267,7 +267,31 @@ include 'pages-shared/static-header.php';
 <section class="bg-dark-blue-lighter">
   <div class="inner">
     <h2>Overage calculator</h2>
+
+    <h3>How many customers do you have?</h3>
+
+    <div class="chunk regular font-gray-dark" id="slider-step-value"></div>
     <div id="html5"></div>
+
+    <div class="flex">
+      <div class="stack-sm">
+        <h3>Messages</h3>
+        <span class="js-pricing-messages-value regular font-gray-dark"></span>
+      </div>
+
+      <div class="stack-sm">
+        <h3>Data points</h3>
+        <span class="js-pricing-messages-data-points regular font-gray-dark"></span>
+      </div>
+    </div>
+
+    <div>
+      <select name="" id="">
+        <option value="">Starter</option>
+        <option value="">Pro</option>
+        <option value="">Growth</option>
+      </select>
+    </div>
   </div>
 </section>
 <section class="double-padding">
