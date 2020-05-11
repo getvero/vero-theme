@@ -33,34 +33,36 @@ jQuery(document).ready(function() {
       }
     });
 
-    var pricingStarter  = document.querySelector('.js-overage-calculator--starter');
-    var pricingPro      = document.querySelector('.js-overage-calculator--pro');
-    var pricingGrowth   = document.querySelector('.js-overage-calculator--growth');
-    var pricingPlanText = document.querySelector('.js-pricing-plan');
-
-    let pricingTiers = [{
+    var pricingTiers = [{
+      'name'       : 'Starter',
       'customers'  : 2000,
       'messages'   : 10000,
       'data_points': 1000000
     }, {
+      'name'       : 'Growth',
       'customers'  : 10000,
       'messages'   : 75000,
       'data_points': 7500000
     }, {
+      'name'       : 'Pro',
       'customers'  : 75000,
       'messages'   : 375000,
       'data_points': 37000000
     }, {
+      'name'       : 'Enterprise',
       'customers'  : 250000,
       'messages'   : 12500000,
       'data_points': 1000000
     }];
 
     var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
+    var pricingPlanName = document.querySelector('.js-pricing-plan-name');
 
     for (let [index, overageCalculatorsLink] of overageCalculatorsLinks.entries()) {
       overageCalculatorsLink.addEventListener('click', function () {
         alert('Starter ' + index);
+
+        pricingPlanName.innerHTML = pricingTiers[index].name
 
         pricingSlider.noUiSlider.updateOptions({
           range: {

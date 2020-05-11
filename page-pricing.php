@@ -290,7 +290,7 @@ include 'pages-shared/static-header.php';
 
       <div>
         <span>Plan</span>
-        <span class="js-pricing-plan show">Starter</span>
+        <span class="js-pricing-plan-name show">Starter</span>
       </div>
     </div>
   </div>
