@@ -1,30 +1,100 @@
 jQuery(document).ready(function() {
   if (jQuery('body').hasClass('pricing')) {
-    var html5Slider = document.getElementById('html5');
+    var pricingSlider = document.getElementById('html5');
 
-    noUiSlider.create(html5Slider, {
-      start    : [4000],
+    noUiSlider.create(pricingSlider, {
+      start    : [2000],
       connect  : 'lower',
       step     : 1000,
       range: {
-        'min': [0],
+        'min': [2000],
         'max': [300000]
+      },
+       pips: {
+        mode   : 'positions',
+        // values : [10000, 25000, 50000, 75000],
+        values : [0, 25, 50, 75, 100],
+        density: 100,
+        stepped: true
       }
     });
 
     var stepSliderValueElement = document.getElementById('slider-step-value');
-    var pricingMessagesValue =  document.querySelector('.js-pricing-messages-value')
+    var pricingMessagesValue   = document.querySelector('.js-pricing-messages-value')
+    var pricingDataPointsValue = document.querySelector('.js-pricing-data-points-value')
 
-    html5Slider.noUiSlider.on('update', function (values, handle) {
+    pricingSlider.noUiSlider.on('update', function (values, handle) {
       stepSliderValueElement.innerHTML = values[handle] * 1;
+      pricingMessagesValue.innerHTML   = values[handle] * 5;
+      pricingDataPointsValue.innerHTML   = values[handle] * 500;
 
-      pricingMessagesValue.innerHTML = values[handle] * 5;
-
-      if (values[handle] == 2000) {
-        pricingMessagesValue.innerHTML = 10000;
-      } else if (values[handle] == 10000) {
+      if (values[handle] == 10000) {
         pricingMessagesValue.innerHTML = 75000;
       }
+    });
+
+    var pricingStarter = document.querySelector('.js-pricing-starter');
+    var pricingPro     = document.querySelector('.js-pricing-pro');
+    var pricingGrowth  = document.querySelector('.js-pricing-growth');
+
+    var pricingTiers = [{
+      'customers'  : 2000,
+      'messages'   : 10000,
+      'data_points': 1000000
+    }, {
+      'customers'  : 10000,
+      'messages'   : 75000,
+      'data_points': 7500000
+    }, {
+      'customers'  : 75000,
+      'messages'   : 375000,
+      'data_points': 37000000
+    } , {
+      'customers'  : 250000,
+      'messages'   : 12500000,
+      'data_points': 1000000
+    }];
+
+    // Starter
+    pricingStarter.addEventListener('click', function () {
+      alert('Starter ' + pricingTiers[0].customers);
+
+      pricingSlider.noUiSlider.updateOptions({
+        range: {
+          'min': pricingTiers[0].customers,
+          'max': [300000]
+        }
+      });
+
+      pricingSlider.noUiSlider.set(pricingTiers[0].customers);
+    });
+
+    // Pro
+    pricingPro.addEventListener('click', function () {
+      alert('Pro ' + pricingTiers[1].customers);
+
+      pricingSlider.noUiSlider.updateOptions({
+        range: {
+          'min': pricingTiers[1].customers,
+          'max': [300000]
+        }
+      });
+
+      pricingSlider.noUiSlider.set(pricingTiers[1].customers);
+    });
+
+    // Growth
+    pricingGrowth.addEventListener('click', function () {
+      alert('Pro ' + pricingTiers[2].customers);
+
+      pricingSlider.noUiSlider.updateOptions({
+        range: {
+          'min': pricingTiers[2].customers,
+          'max': [300000]
+        }
+      });
+
+      pricingSlider.noUiSlider.set(pricingTiers[1].customers);
     });
 
   }
