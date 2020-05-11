@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
     var pricingGrowth   = document.querySelector('.js-overage-calculator--growth');
     var pricingPlanText = document.querySelector('.js-pricing-plan');
 
-    var pricingTiers = [{
+    let pricingTiers = [{
       'customers'  : 2000,
       'messages'   : 10000,
       'data_points': 1000000
@@ -58,51 +58,20 @@ jQuery(document).ready(function() {
 
     var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
 
-    // Starter
-    pricingStarter.addEventListener('click', function () {
-      alert('Starter ' + pricingTiers[0].customers);
+    for (let [index, overageCalculatorsLink] of overageCalculatorsLinks.entries()) {
+      overageCalculatorsLink.addEventListener('click', function () {
+        alert('Starter ' + index);
 
-      pricingPlanText.innerHTML   = 'Starter';
+        pricingSlider.noUiSlider.updateOptions({
+          range: {
+            'min': pricingTiers[index].customers,
+            'max': [300000]
+          }
+        });
 
-      pricingSlider.noUiSlider.updateOptions({
-        range: {
-          'min': pricingTiers[0].customers,
-          'max': [300000]
-        }
+        pricingSlider.noUiSlider.set(pricingTiers[index].customers);
       });
-
-      pricingSlider.noUiSlider.set(pricingTiers[0].customers);
-    });
-
-    // Pro
-    pricingPro.addEventListener('click', function () {
-      alert('Pro ' + pricingTiers[1].customers);
-
-      pricingPlanText.innerHTML   = 'Pro';
-
-      pricingSlider.noUiSlider.updateOptions({
-        range: {
-          'min': pricingTiers[1].customers,
-          'max': [300000]
-        }
-      });
-
-      pricingSlider.noUiSlider.set(pricingTiers[1].customers);
-    });
-
-    // Growth
-    // pricingGrowth.addEventListener('click', function () {
-    //   alert('Pro ' + pricingTiers[2].customers);
-
-    //   pricingSlider.noUiSlider.updateOptions({
-    //     range: {
-    //       'min': pricingTiers[2].customers,
-    //       'max': [300000]
-    //     }
-    //   });
-
-    //   pricingSlider.noUiSlider.set(pricingTiers[1].customers);
-    // });
+    }
   }
 
   // Slider for careers page
