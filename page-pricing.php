@@ -41,7 +41,7 @@ include 'pages-shared/static-header.php';
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
                 </span>
               </li>
-              <li class="no-margin"><a class="js-pricing-starter regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--starter regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
             </ul>
           </div>
 
@@ -99,7 +99,7 @@ include 'pages-shared/static-header.php';
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
                 </span>
               </li>
-              <li class="no-margin"><a class="js-pricing-pro regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--pro regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
             </ul>
           </div>
 
@@ -167,7 +167,7 @@ include 'pages-shared/static-header.php';
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
                 </span>
               </li>
-              <li class="no-margin"><a class="js-pricing-growth regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--growth regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
             </ul>
           </div>
 
@@ -230,7 +230,7 @@ include 'pages-shared/static-header.php';
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
                 </span>
               </li>
-              <li class="no-margin"><a class="regular annotation underline-link font-gray-dark" href="">Additional usage charges</a></li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--enterprise regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
             </ul>
           </div>
 
@@ -268,29 +268,30 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <h2>Overage calculator</h2>
 
-    <h3>How many customers do you have?</h3>
-
-    <div class="chunk regular font-gray-dark" id="slider-step-value"></div>
-    <div class="pricing-customer-slider" id="html5"></div>
-
     <div class="flex">
-      <div class="stack-sm">
-        <h3>Messages</h3>
-        <span class="js-pricing-messages-value regular font-gray-dark"></span>
+      <div>
+        <h3>How many customers do you have?</h3>
+
+        <div class="chunk regular font-gray-dark" id="slider-step-value"></div>
+        <div class="pricing-customer-slider" id="html5"></div>
+
+        <div class="flex">
+          <div class="stack-sm">
+            <h3>Messages</h3>
+            <span class="js-pricing-messages-value regular font-gray-dark"></span>
+          </div>
+
+          <div class="stack-sm">
+            <h3>Data points</h3>
+            <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+          </div>
+        </div>
       </div>
 
-      <div class="stack-sm">
-        <h3>Data points</h3>
-        <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+      <div>
+        <span>Plan</span>
+        <span class="js-pricing-plan show">Starter</span>
       </div>
-    </div>
-
-    <div>
-      <select name="" id="">
-        <option value="">Starter</option>
-        <option value="">Pro</option>
-        <option value="">Growth</option>
-      </select>
     </div>
   </div>
 </section>
