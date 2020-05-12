@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
     }];
 
     var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
-    var pricingPlanName = document.querySelector('.js-pricing-plan-name');
+    var pricingPlanName         = document.querySelector('.js-pricing-plan-name');
 
     for (let [index, overageCalculatorsLink] of overageCalculatorsLinks.entries()) {
       overageCalculatorsLink.addEventListener('click', function () {
