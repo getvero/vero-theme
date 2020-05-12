@@ -19,59 +19,82 @@ jQuery(document).ready(function() {
       }
     });
 
-    var stepSliderValueElement = document.getElementById('slider-step-value');
-    var pricingMessagesValue   = document.querySelector('.js-pricing-messages-value')
-    var pricingDataPointsValue = document.querySelector('.js-pricing-data-points-value')
-
-    pricingSlider.noUiSlider.on('update', function (values, handle) {
-      stepSliderValueElement.innerHTML = values[handle] * 1;
-      pricingMessagesValue.innerHTML   = values[handle] * 5;
-      pricingDataPointsValue.innerHTML   = values[handle] * 500;
-
-      if (values[handle] == 10000) {
-        pricingMessagesValue.innerHTML = 75000;
-      }
-    });
-
-    var pricingTiers = [{
+    var pricingPlans = [{
       'name'       : 'Starter',
       'customers'  : 2000,
       'messages'   : 10000,
-      'data_points': 1000000
+      'data_points': 1000000,
+      'price'      : 49
     }, {
       'name'       : 'Growth',
       'customers'  : 10000,
       'messages'   : 75000,
-      'data_points': 7500000
+      'data_points': 7500000,
+      'price'      : 199
     }, {
       'name'       : 'Pro',
       'customers'  : 75000,
       'messages'   : 375000,
-      'data_points': 37000000
+      'data_points': 37000000,
+      'price'      : 599
     }, {
       'name'       : 'Enterprise',
       'customers'  : 250000,
       'messages'   : 12500000,
-      'data_points': 1000000
+      'data_points': 1000000,
+      'price'      : '1,299'
     }];
+
+    var pricingSliderValue         = document.querySelector('.js-pricing-slider-value');
+    var pricingMessagesValue       = document.querySelector('.js-pricing-messages-value')
+    var pricingDataPointsValue     = document.querySelector('.js-pricing-data-points-value')
+
+    var pricingAdditionalCustomers = document.querySelector('.js-pricing-additional-customers');
+    var pricingAdditionalPrice     = document.querySelector('.js-pricing-additional-price');
+
+    pricingSlider.noUiSlider.on('update', function (values, handle) {
+      pricingSliderValue.textContent     = values[handle] * 1;
+      pricingMessagesValue.textContent   = values[handle] * 5;
+      pricingDataPointsValue.textContent = values[handle] * 500;
+
+      if (values[handle] == 10000) {
+        pricingMessagesValue.textContent = 75000;
+      }
+
+      var currentCustomers = Number(pricingSlider.noUiSlider.get());
+      var additionalPrice = currentCustomers - 2000;
+
+      pricingAdditionalCustomers.textContent = currentCustomers - 2000;
+      pricingAdditionalPrice.textContent = additionalPrice / 1000 * 12.50;
+    });
 
     var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
     var pricingPlanName         = document.querySelector('.js-pricing-plan-name');
+    var pricingPlanPrice        = document.querySelector('.js-pricing-plan-price');
 
     for (let [index, overageCalculatorsLink] of overageCalculatorsLinks.entries()) {
       overageCalculatorsLink.addEventListener('click', function () {
-        alert('Starter ' + index);
+        // alert('Starter ' + index);
 
-        pricingPlanName.innerHTML = pricingTiers[index].name
+        pricingSlider.noUiSlider.on('update', function (values, handle) {
+          var currentCustomers = Number(pricingSlider.noUiSlider.get());
+          var additionalPrice = currentCustomers - pricingPlans[index].customers;
+
+          pricingAdditionalCustomers.textContent = currentCustomers - pricingPlans[index].customers;
+          pricingAdditionalPrice.textContent = additionalPrice / 1000 * 12.50;
+        });
 
         pricingSlider.noUiSlider.updateOptions({
           range: {
-            'min': pricingTiers[index].customers,
+            'min': pricingPlans[index].customers,
             'max': [300000]
           }
         });
 
-        pricingSlider.noUiSlider.set(pricingTiers[index].customers);
+        pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+
+        pricingPlanName.textContent = pricingPlans[index].name;
+        pricingPlanPrice.textContent = pricingPlans[index].price;
       });
     }
   }

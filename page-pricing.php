@@ -16,13 +16,13 @@ include 'pages-shared/static-header.php';
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
   <div class="inner xlarge-inner stack-sm">
-    <div class="bg-white flex flex-wrap border-radius-2 pricing-comp-table">
+    <div class="bg-white flex flex-wrap border-radius-2 pricing-plan-table">
       <div class="flex flex-column">
-        <header class="pricing-comp-table-header">
+        <header class="pricing-plan-table-header">
           <h2 class="micro">Starter</h2>
         </header>
 
-        <div class="pricing-comp-table-body flex flex-column">
+        <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
             <span class="show semi-bold tubs">$49/mo</span>
@@ -76,11 +76,11 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="flex flex-column">
-        <header class="pricing-comp-table-header">
+        <header class="pricing-plan-table-header">
           <h2 class="micro">Pro</h2>
         </header>
 
-        <div class="pricing-comp-table-body flex flex-column">
+        <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
             <span class="show semi-bold tubs">$199/mo</span>
@@ -144,11 +144,11 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="flex flex-column relative">
-        <header class="pricing-comp-table-header">
+        <header class="pricing-plan-table-header">
           <h2 class="micro">Growth</h2>
         </header>
 
-        <div class="pricing-comp-table-body flex flex-column">
+        <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
             <span class="show semi-bold tubs">$599/mo</span>
@@ -207,11 +207,11 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
       <div class="flex flex-column">
-        <header class="pricing-comp-table-header">
+        <header class="pricing-plan-table-header">
           <h2 class="micro">Enterprise</h2>
         </header>
 
-        <div class="pricing-comp-table-body flex flex-column">
+        <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
             <span class="show semi-bold tubs">$1,299/mo</span>
@@ -268,12 +268,12 @@ include 'pages-shared/static-header.php';
   <div class="inner">
     <h2>Overage calculator</h2>
 
-    <div class="flex">
+    <div class="flex pricing-overage-calculator">
       <div>
         <h3>How many customers do you have?</h3>
 
-        <div class="chunk regular font-gray-dark" id="slider-step-value"></div>
-        <div class="pricing-customer-slider" id="html5"></div>
+        <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
+        <div class="js-pricing-customer-slider pricing-customer-slider" id="html5"></div>
 
         <div class="flex">
           <div class="stack-sm">
@@ -288,9 +288,23 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
 
-      <div>
-        <span>Plan</span>
-        <span class="js-pricing-plan-name show">Starter</span>
+      <div class="bg-white padding-md border-radius-2 stack-sm">
+        <div class="flex">
+          <div>
+            <span class="atomic semi-bold">Plan</span>
+            <span class="js-pricing-plan-name show">Starter</span>
+          </div>
+
+          <div class="atomic semi-bold right-text">$<span class="js-pricing-plan-price">49</span>/mo</div>
+        </div>
+
+        <div class="flex">
+          <div>
+            <span class="atomic semi-bold">Additional customers</span>
+            <span class="js-pricing-additional-customers test show"></span>
+          </div>
+
+          <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
       </div>
     </div>
   </div>
