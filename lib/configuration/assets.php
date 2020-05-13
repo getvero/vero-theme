@@ -41,7 +41,6 @@ function add_js() {
   wp_register_script('dev_message', get_stylesheet_directory_uri() . '/assets/dist/scripts/dev_message.js', NULL, NULL, true);
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
   wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/prism.min.js', NULL, NULL, true);
-  wp_register_script('cookies', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.cookie.min.js', array('jquery'), NULL, true);
   // wp_register_script('lean_modal', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.leanModal.min.js', array('jquery'), NULL, true);
   // wp_register_script('highlight-js', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js', array(), NULL, true);
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
@@ -71,8 +70,6 @@ function add_js() {
   if ( is_page('workflows') ) {
     wp_enqueue_script('jquery-parallax');
   }
-
-  wp_enqueue_script('cookies');
 
   if ( is_page('pricing') ) {
     wp_enqueue_script('wNumb');
