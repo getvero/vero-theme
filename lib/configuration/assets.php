@@ -38,6 +38,7 @@ function add_js() {
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
   wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.min.js', NULL, NULL, true);
   wp_register_script('noui-slider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js', NULL, NULL, true);
+  wp_register_script('wnumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
 
   wp_enqueue_script('fout');
@@ -45,6 +46,7 @@ function add_js() {
 
   if ( is_page('pricing') ) {
     wp_enqueue_script('noui-slider');
+    wp_enqueue_script('wnumb');
   }
 
   if ( is_page('careers') ) {

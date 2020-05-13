@@ -8,15 +8,27 @@ jQuery(document).ready(function() {
       step     : 1000,
       range: {
         'min': [2000],
-        'max': [300000]
+        'max': [250000]
       },
-       pips: {
-        mode   : 'positions',
-        // values : [10000, 25000, 50000, 75000],
-        values : [0, 25, 50, 75, 100],
+      pips: {
+        mode   : 'values',
+        values : [2000, 10000, 20000, 40000, 75000, 100000, 200000, 250000],
+        // values : [0, 25, 50, 75, 100],
         density: 100,
-        stepped: true
-      }
+        stepped: true,
+        format: wNumb({
+          decimals: 0,
+          thousand: ',',
+          suffix: 'k',
+          encoder: function(value) {
+            return value / 1000;
+          }
+        })
+      },
+      format: wNumb({
+        decimals: 0,
+        thousand: ','
+      })
     });
 
     var pricingPlans = [{
@@ -52,20 +64,30 @@ jQuery(document).ready(function() {
     var pricingAdditionalCustomers = document.querySelector('.js-pricing-additional-customers');
     var pricingAdditionalPrice     = document.querySelector('.js-pricing-additional-price');
 
-    pricingSlider.noUiSlider.on('update', function (values, handle) {
-      pricingSliderValue.textContent     = values[handle] * 1;
-      pricingMessagesValue.textContent   = values[handle] * 5;
-      pricingDataPointsValue.textContent = values[handle] * 500;
+    var numberFormat = wNumb({
+      decimals: 0,
+      thousand: ','
+    });
 
-      if (values[handle] == 10000) {
-        pricingMessagesValue.textContent = 75000;
+    var priceFormat = wNumb({
+      decimals: 2,
+      thousand: ','
+    });
+
+    pricingSlider.noUiSlider.on('update', function (values, handle) {
+      pricingSliderValue.textContent     = values[handle];
+      pricingMessagesValue.textContent   = numberFormat.to(numberFormat.from(values[handle]) * 5);
+      pricingDataPointsValue.textContent = numberFormat.to(numberFormat.from(values[handle]) * 500);
+
+      if (values[handle] == numberFormat.to(10000)) {
+        pricingMessagesValue.textContent = numberFormat.to(75000);
       }
 
-      var currentCustomers = Number(pricingSlider.noUiSlider.get());
-      var additionalPrice = currentCustomers - 2000;
+      var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get());
+      var additionalPrice  = currentCustomers - 2000;
 
-      pricingAdditionalCustomers.textContent = currentCustomers - 2000;
-      pricingAdditionalPrice.textContent = additionalPrice / 1000 * 12.50;
+      pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - 2000);
+      pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice  * 0.01250);
     });
 
     var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
@@ -77,11 +99,11 @@ jQuery(document).ready(function() {
         // alert('Starter ' + index);
 
         pricingSlider.noUiSlider.on('update', function (values, handle) {
-          var currentCustomers = Number(pricingSlider.noUiSlider.get());
+          var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
           var additionalPrice = currentCustomers - pricingPlans[index].customers;
 
-          pricingAdditionalCustomers.textContent = currentCustomers - pricingPlans[index].customers;
-          pricingAdditionalPrice.textContent = additionalPrice / 1000 * 12.50;
+          pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - pricingPlans[index].customers);
+          pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
         });
 
         pricingSlider.noUiSlider.updateOptions({
