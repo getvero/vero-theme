@@ -74,9 +74,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <?php get_search_form(); ?>
     </div>
 
-    <div class="js-resources-menu-footer resources-menu-footer">
-      <div class="resources-menu-footer-wrap">
-        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close hide lg-show"></button>
+    <div class="js-resources-header resources-header">
+      <div class="resources-header-wrap">
+        <button class="js-close-resources-subscribe-form resources-header-close ico ico-close hide lg-show"></button>
         <div class="grid lg-items-center">
           <div class="col-main">
             <div class="js-enquire-menu enquire-menu">
@@ -88,6 +88,21 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             </div>
           </div>
           <div class="col-aside">
+            <form class="js-subscribe-form" action="https://formkeep.com/f/92a0900ae759"
+              accept-charset="UTF-8"
+              enctype="multipart/form-data"
+              method="POST">
+              <input type="hidden" name="utf8" value="✓">
+
+              <label for="email-address">Email Address</label>
+              <input type="email" id="email-address" name="email">
+
+              <button type="submit">Submit</button>
+            </form>
+
+            <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX"></script>
+
+
             <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
               <div class="flex flex-column lg-flex-row justify-center items-stretch">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
@@ -106,7 +121,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     </div>
 
-    <button class="js-open-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
+    <button class="js-open-resources-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
   </div>
   <?php $resources_menu = ob_get_clean();
 
