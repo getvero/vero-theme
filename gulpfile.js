@@ -100,7 +100,7 @@ function concatScripts() {
 // Watch assets
 function watch() {
   gulp.watch(paths.css.src, buildStyles);
-  gulp.watch(paths.scripts.src, uglifyVendorScripts, concatScripts);
+  gulp.watch(paths.scripts.src, gulp.series(uglifyVendorScripts, concatScripts));
   gulp.watch('assets/dev/images/**/*', images);
 }
 
@@ -109,5 +109,5 @@ const build = gulp.series(clean, gulp.parallel(buildStyles, images, js, watch));
 
 exports.clean   = clean;
 exports.images  = images;
-exports.scripts = uglifyVendorScripts;
+exports.scripts = js;
 exports.default = build;
