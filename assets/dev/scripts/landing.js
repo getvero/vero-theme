@@ -99,15 +99,8 @@ jQuery(document).ready(function() {
     });
   }
 
-  var validateForm;
   var subscribeBlogInline;
-
-  // Main blog subscribe form
-  jQuery('.js-blog-subscribe-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlog(e);
-    return false;
-  });
+  var subscribeBlog2;
 
   jQuery('.js-blog-subscribe-form-2').submit(function(e) {
     e.preventDefault();
@@ -121,63 +114,6 @@ jQuery(document).ready(function() {
     subscribeBlogInline(e);
     return false;
   });
-
-  validateForm = function() {
-    var company, email_addr, emails, name, subscribers, ret;
-    ret         = true;
-    name        = jQuery('#sender_name');
-    email_addr  = jQuery('#sender_email_address');
-    company     = jQuery('#sender_company_name');
-    subscribers = jQuery('#sender_subscribers');
-    emails      = jQuery('#sender_emails');
-
-    if (name.val() !== '') {
-      name.removeClass('error');
-    } else {
-      name.addClass('error');
-      ret = false;
-    }
-    if (email_addr.val() !== '') {
-      email_addr.removeClass('error');
-    } else {
-      email_addr.addClass('error');
-      ret = false;
-    }
-    if (company.val() !== '') {
-      company.removeClass('error');
-    } else {
-      company.addClass('error');
-      ret = false;
-    }
-    if (subscribers.val() !== '') {
-      subscribers.removeClass('error');
-    } else {
-      subscribers.addClass('error');
-      ret = false;
-    }
-    if (emails.val() !== '') {
-      emails.removeClass('error');
-    } else {
-      emails.addClass('error');
-      ret = false;
-    }
-    return ret;
-  };
-
-  subscribeBlog = function(e) {
-    var url = jQuery('.js-blog-subscribe-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-subscribe-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-enquire-menu').hide();
-        jQuery('.js-thanks-menu').show();
-      }
-    });
-  };
 
   subscribeBlog2 = function(e) {
     var url = jQuery('.js-blog-subscribe-form-2').attr('action');
