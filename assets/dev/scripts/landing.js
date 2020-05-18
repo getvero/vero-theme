@@ -100,14 +100,7 @@ jQuery(document).ready(function() {
   }
 
   var validateForm;
-  var requestDemo;
   var subscribeBlogInline;
-
-  jQuery('#high-volume-sender-form').submit(function(e) {
-    e.preventDefault();
-    requestDemo(e);
-    return false;
-  });
 
   // Main blog subscribe form
   jQuery('.js-blog-subscribe-form').submit(function(e) {
@@ -169,25 +162,6 @@ jQuery(document).ready(function() {
       ret = false;
     }
     return ret;
-  };
-
-  requestDemo = function(e) {
-    console.log('Trying to validate');
-    if (validateForm()) {
-      var url = jQuery('#high-volume-sender-form').attr('action');
-      jQuery.ajax({
-        type: 'POST',
-        url: url,
-        data: jQuery('#high-volume-sender-form').serialize(),
-        success: function(data)
-        {
-           console.log('Demo sent!');
-           jQuery('#high-volume-sender-form').hide();
-           jQuery('#enquire-intro').hide();
-           jQuery('#thanks').show();
-        }
-      });
-    }
   };
 
   subscribeBlog = function(e) {
@@ -256,19 +230,54 @@ jQuery(document).ready(function() {
   });
 
   // Open subscribe form
-  var form = jQuery('.js-resources-menu-footer');
+  var resourcesHeader           = document.querySelector('.js-resources-header');
+  var openResourcesSubscibeForm = document.querySelector('.js-open-resources-subscribe-form');
 
-  jQuery('.js-open-subscribe-form').on('click', function() {
-    form.addClass('is-active');
+  openResourcesSubscibeForm.addEventListener('click', function() {
+    resourcesHeader.classList.add('is-active');
   });
 
-  jQuery('.js-resources-menu-footer-close').on('click', function() {
-    var formActive = jQuery('.js-resources-menu-footer.is-active');
-    var formOpen   = formActive.length > 0;
+  // Close subscribe form
+  var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-    if (formOpen) {
-      form.removeClass('is-active');
+  closeResourcesSubscibeForm.addEventListener('click', function() {
+    var formActive = resourcesHeader.classList.contains('is-active');
+
+    if (formActive) {
+      resourcesHeader.classList.remove('is-active');
     }
+  });
+
+  jQuery('.js-subscribe-form').submit(function() {
+    // we stoped it
+    event.preventDefault();
+    console.log('test');
+    var email = jQuery('#email-address').val();
+
+    // needs for recaptacha ready
+    grecaptcha.ready(function() {
+      // do request for recaptcha token
+      // response is promise with passed token
+      grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+
+        // add token to form
+        jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+
+        var formEl = jQuery('.js-subscribe-form');
+        var submitButton = jQuery('input[type=submit]', formEl);
+
+        jQuery.ajax({
+          type: 'POST',
+          url: formEl.prop('action'),
+          accept: {
+            javascript: 'application/javascript'
+          },
+          data: formEl.serialize()
+        }).done(function(data) {
+          console.log('submitted');
+        });
+      });
+    });
   });
 
 });
