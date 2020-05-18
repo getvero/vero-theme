@@ -79,31 +79,35 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <button class="js-close-resources-subscribe-form resources-header-close ico ico-close hide lg-show"></button>
         <div class="grid lg-items-center">
           <div class="col-main">
-            <div class="js-enquire-menu enquire-menu">
-              <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
+            <div class="js-subscribe-form-intro-msg">
+              <h3 class="semi-bold">Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
-            <div class="js-thanks-menu thanks-menu hide">
-              <h3 class="atomic regular bottom-margin-sm">Almost there!</h3>
-              <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+            <div class="js-subscribe-form-submitted-msg hide stack-xs">
+              <h3 class="semi-bold">Almost there!</h3>
+              <p>We've sent you an email to confirm your subscription.</p>
             </div>
           </div>
           <div class="col-aside">
-            <form class="js-subscribe-form" action="https://formkeep.com/f/92a0900ae759"
-              accept-charset="UTF-8"
-              enctype="multipart/form-data"
-              method="POST">
-              <input type="hidden" name="utf8" value="✓">
+            <div class="js-subscribe-form stack-sm">
+              <form class="subscribe-form flex"
+                action="https://formkeep.com/f/92a0900ae759"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
+                method="POST">
+                <input type="hidden" name="utf8" value="✓">
 
-              <label for="email-address">Email Address</label>
-              <input type="email" id="email-address" name="email">
+                <input class="form-control" type="email" name="email">
 
-              <button type="submit">Submit</button>
-            </form>
+                <button class="btn btn-success" type="submit">Subscribe</button>
+              </form>
+
+              <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+            </div>
 
             <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX"></script>
 
 
-            <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
+            <!-- <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
               <div class="flex flex-column lg-flex-row justify-center items-stretch">
                 <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
                 <input name="user[consent_marketing]" type="hidden" value="true">
@@ -112,8 +116,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
                 <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
                 <input class="btn btn-success" type="submit" value="Subscribe to updates">
               </div>
-              <span class="annotation faded">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
-            </form>
+            </form> -->
           </div>
         </div>
 

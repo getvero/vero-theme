@@ -248,6 +248,8 @@ jQuery(document).ready(function() {
     }
   });
 
+  var subscribeForm = document.querySelector('.js-subscribe-form');
+
   jQuery('.js-subscribe-form').submit(function() {
     // we stoped it
     event.preventDefault();
@@ -275,6 +277,9 @@ jQuery(document).ready(function() {
           data: formEl.serialize()
         }).done(function(data) {
           console.log('submitted');
+          subscribeForm.classList.add('hide');
+          document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
+          document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
         });
       });
     });
