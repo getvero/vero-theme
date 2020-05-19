@@ -98,7 +98,7 @@
     }
 
     ?>
-      <section class="cta bg-gray-lighter">
+      <section class="bg-gray-lighter">
         <div class="inner tiny-inner center-text">
           <h4 class="tubs semi-bold bottom-margin-md">Vero helps marketing and engineering teams to scale their personalized customer messaging</h4>
 
