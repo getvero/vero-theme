@@ -184,17 +184,12 @@ jQuery(document).ready(function() {
     }
   });
 
-  var elems = document.querySelectorAll('.js-subscribe-form');
   var subscribeForm = document.querySelector('.subscribe-form');
 
-  Array.from(elems).forEach(function (elem, index) {
-    // console.log(index); // index
-    // console.log(elem); // value
-    elem.addEventListener('submit', function() {
-      console.log('This is form number ' + index);
-      console.log(elem);
-
+  jQuery('.js-subscribe-form').each(function() {
+    jQuery(this).on('submit', function() {
       event.preventDefault();
+      console.log('test');
 
       // needs for recaptacha ready
       grecaptcha.ready(function() {
@@ -202,10 +197,11 @@ jQuery(document).ready(function() {
         // response is promise with passed token
         grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
 
-          // Add token to form and insert the new node before the reference node
-          elem.insertAdjacentHTML('afterbegin', '<input type="hidden" name="g-recaptcha-response" value="' + token + '"></input>');
+          // add token to form
+          jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 
-          var formEl = elem;
+          var formEl = jQuery('.js-subscribe-form');
+          var submitButton = jQuery('input[type=submit]', formEl);
 
           jQuery.ajax({
             type: 'POST',
@@ -216,12 +212,9 @@ jQuery(document).ready(function() {
             data: formEl.serialize()
           }).done(function(data) {
             console.log('submitted');
-
-            if (index == 0) {
-              subscribeForm.classList.add('hide');
-              document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
-              document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
-            }
+            subscribeForm.classList.add('hide');
+            document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
+            document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
           });
         });
       });
