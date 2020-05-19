@@ -213,8 +213,13 @@ jQuery(document).ready(function() {
 
             if (index == 0) {
               subscribeForm.classList.add('hide');
-              document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
-              document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
+
+              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
+              var subscribeMsgText = document.createElement('p');
+
+              subscribeMsg.querySelector('h3').textContent = 'Almost there!';
+              subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              subscribeMsg.append(subscribeMsgText);
             }
           });
         });
