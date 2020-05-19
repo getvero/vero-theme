@@ -184,41 +184,83 @@ jQuery(document).ready(function() {
     }
   });
 
-  var subscribeForm = document.querySelector('.js-subscribe-form');
+  var elems = document.querySelectorAll('.js-subscribe-form');
+  var subscribeForm = document.querySelector('.subscribe-form');
 
-  jQuery('.js-subscribe-form').submit(function() {
-    // we stoped it
-    event.preventDefault();
-    console.log('test');
-    var email = jQuery('#email-address').val();
+  Array.from(elems).forEach(function (elem, index) {
+    // console.log(index); // index
+    // console.log(elem); // value
+    elem.addEventListener('submit', function() {
+      console.log('This is form number ' + index);
+      console.log(elem);
 
-    // needs for recaptacha ready
-    grecaptcha.ready(function() {
-      // do request for recaptcha token
-      // response is promise with passed token
-      grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+      event.preventDefault();
 
-        // add token to form
-        jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+      // needs for recaptacha ready
+      grecaptcha.ready(function() {
+        // do request for recaptcha token
+        // response is promise with passed token
+        grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
 
-        var formEl = jQuery('.js-subscribe-form');
-        var submitButton = jQuery('input[type=submit]', formEl);
+          // Add token to form and insert the new node before the reference node
+          elem.insertAdjacentHTML('afterbegin', '<input type="hidden" name="g-recaptcha-response" value="' + token + '"></input>');
 
-        jQuery.ajax({
-          type: 'POST',
-          url: formEl.prop('action'),
-          accept: {
-            javascript: 'application/javascript'
-          },
-          data: formEl.serialize()
-        }).done(function(data) {
-          console.log('submitted');
-          subscribeForm.classList.add('hide');
-          document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
-          document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
+          var formEl = elem;
+
+          jQuery.ajax({
+            type: 'POST',
+            url: formEl.prop('action'),
+            accept: {
+              javascript: 'application/javascript'
+            },
+            data: formEl.serialize()
+          }).done(function(data) {
+            console.log('submitted');
+
+            if (index == 0) {
+              subscribeForm.classList.add('hide');
+              document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
+              document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
+            }
+          });
         });
       });
     });
   });
+
+  // jQuery('.js-subscribe-form').submit(function() {
+  //   // we stoped it
+  //   event.preventDefault();
+  //   console.log('test');
+  //   var email = jQuery('#email-address').val();
+
+  //   // needs for recaptacha ready
+  //   grecaptcha.ready(function() {
+  //     // do request for recaptcha token
+  //     // response is promise with passed token
+  //     grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+
+  //       // add token to form
+  //       jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+
+  //       var formEl = jQuery('.js-subscribe-form');
+  //       var submitButton = jQuery('input[type=submit]', formEl);
+
+  //       jQuery.ajax({
+  //         type: 'POST',
+  //         url: formEl.prop('action'),
+  //         accept: {
+  //           javascript: 'application/javascript'
+  //         },
+  //         data: formEl.serialize()
+  //       }).done(function(data) {
+  //         console.log('submitted');
+  //         // subscribeForm.classList.add('hide');
+  //         // document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
+  //         // document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
+  //       });
+  //     });
+  //   });
+  // });
 
 });
