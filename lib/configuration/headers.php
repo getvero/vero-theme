@@ -88,35 +88,23 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
             </div>
           </div>
           <div class="col-aside">
-            <div class="js-subscribe-form stack-sm">
-              <form class="subscribe-form flex"
-                action="https://formkeep.com/f/92a0900ae759"
-                accept-charset="UTF-8"
-                enctype="multipart/form-data"
-                method="POST">
-                <input type="hidden" name="utf8" value="✓">
+            <form class="js-subscribe-form subscribe-form stack-xs"
+              action="https://formkeep.com/f/92a0900ae759"
+              accept-charset="UTF-8"
+              enctype="multipart/form-data"
+              method="POST">
+              <input type="hidden" name="utf8" value="✓">
 
+              <div class="flex">
                 <input class="form-control" type="email" name="email">
 
                 <button class="btn btn-success" type="submit">Subscribe</button>
-              </form>
+              </div>
 
               <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
-            </div>
+            </form>
 
-            <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX"></script>
-
-
-            <!-- <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column lg-flex-row justify-center items-stretch">
-                <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
-                <input name="user[consent_marketing]" type="hidden" value="true">
-                <input name="user[consent_product_updates]" type="hidden" value="true">
-                <input name="event[blog_subscriber_source]" type="hidden" value="popup">
-                <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-                <input class="btn btn-success" type="submit" value="Subscribe to updates">
-              </div>
-            </form> -->
+            <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer></script>
           </div>
         </div>
 
