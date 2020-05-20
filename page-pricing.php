@@ -818,7 +818,7 @@ include 'pages-shared/static-header.php';
             <div class="flex items-center">
               <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
 
-              <svg class="left-margin-auto" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M14 23l7-7-7-7h0" stroke="#9D9D9D" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
@@ -833,7 +833,7 @@ include 'pages-shared/static-header.php';
             <div class="flex items-center">
               <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
-              <svg class="left-margin-auto" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M14 23l7-7-7-7h0" stroke="#9D9D9D" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
@@ -849,7 +849,7 @@ include 'pages-shared/static-header.php';
             <div class="flex items-center">
               <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
-              <svg class="left-margin-auto" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M14 23l7-7-7-7h0" stroke="#9D9D9D" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
@@ -863,7 +863,7 @@ include 'pages-shared/static-header.php';
             <div class="flex items-center">
               <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
 
-              <svg class="left-margin-auto" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M14 23l7-7-7-7h0" stroke="#9D9D9D" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
@@ -878,7 +878,7 @@ include 'pages-shared/static-header.php';
             <div class="flex items-center">
               <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
-              <svg class="left-margin-auto" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M14 23l7-7-7-7h0" stroke="#9D9D9D" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
