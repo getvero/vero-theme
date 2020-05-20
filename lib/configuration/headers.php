@@ -79,12 +79,8 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <button class="js-close-resources-subscribe-form resources-header-close ico ico-close hide lg-show"></button>
         <div class="grid lg-items-center">
           <div class="col-main">
-            <div class="js-subscribe-form-intro-msg">
+            <div class="js-subscribe-form-msg stack-xs">
               <h3 class="semi-bold">Insights, tips and tools for creating better customer messaging and product experiences</h3>
-            </div>
-            <div class="js-subscribe-form-submitted-msg hide stack-xs">
-              <h3 class="semi-bold">Almost there!</h3>
-              <p>We've sent you an email to confirm your subscription.</p>
             </div>
           </div>
           <div class="col-aside">
