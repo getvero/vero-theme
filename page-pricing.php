@@ -306,6 +306,8 @@ include 'pages-shared/static-header.php';
 
           <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
       </div>
+
+      <a class="btn btn-large btn--success full-width" href="#none">Try for free</a>
     </div>
   </div>
 </section>

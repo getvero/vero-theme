@@ -103,7 +103,7 @@
           <?php if( get_field('type_of_cta') == 'product' ) : ?>
             <h4 class="tubs semi-bold bottom-margin-md">Vero helps marketing and engineering teams to scale their personalized customer messaging</h4>
 
-            <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
+            <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
             <p class="annotation faded">No credit card details required</p>
           <?php else : ?>
