@@ -211,15 +211,23 @@ jQuery(document).ready(function() {
           }).done(function(data) {
             console.log('submitted');
 
-            if (index == 0) {
-              subscribeForm.classList.add('hide');
+            var thisForm = jQuery('.js-subscribe-form').eq(index);
 
+            thisForm.addClass('hide');
+
+            if (index == 0) {
               var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
               var subscribeMsgText = document.createElement('p');
 
               subscribeMsg.querySelector('h3').textContent = 'Almost there!';
               subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
               subscribeMsg.append(subscribeMsgText);
+            } else if (index == 1) {
+              var successMsgText = document.createElement('h3');
+
+              successMsgText.className = 'no-margin';
+              successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              document.querySelector('.form-box').append(successMsgText);
             }
           });
         });
