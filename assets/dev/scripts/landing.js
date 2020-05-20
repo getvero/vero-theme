@@ -38,13 +38,13 @@ jQuery(document).ready(function() {
       'data_points': 1000000,
       'price'      : 49
     }, {
-      'name'       : 'Growth',
+      'name'       : 'Pro',
       'customers'  : 10000,
       'messages'   : 75000,
       'data_points': 7500000,
       'price'      : 199
     }, {
-      'name'       : 'Pro',
+      'name'       : 'Growth',
       'customers'  : 75000,
       'messages'   : 375000,
       'data_points': 37000000,
@@ -74,6 +74,7 @@ jQuery(document).ready(function() {
       thousand: ','
     });
 
+    // Update pricing slider
     pricingSlider.noUiSlider.on('update', function (values, handle) {
       pricingSliderValue.textContent     = values[handle];
       pricingMessagesValue.textContent   = numberFormat.to(numberFormat.from(values[handle]) * 5);
@@ -90,35 +91,42 @@ jQuery(document).ready(function() {
       pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice  * 0.01250);
     });
 
-    var overageCalculatorsLinks = document.querySelectorAll('.js-overage-calculator');
-    var pricingPlanName         = document.querySelector('.js-pricing-plan-name');
-    var pricingPlanPrice        = document.querySelector('.js-pricing-plan-price');
+    // Switch overage calculator
+    var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
+    var secondaryLinks   = document.querySelectorAll('.js-test');
+    var pricingPlanName  = document.querySelector('.js-pricing-plan-name');
+    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
 
-    for (let [index, overageCalculatorsLink] of overageCalculatorsLinks.entries()) {
-      overageCalculatorsLink.addEventListener('click', function () {
-        // alert('Starter ' + index);
+    function overageSwitcher(links) {
+      for (let [index, link] of links.entries()) {
+        link.addEventListener('click', function () {
+          // alert('Starter ' + index);
 
-        pricingSlider.noUiSlider.on('update', function (values, handle) {
-          var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
-          var additionalPrice = currentCustomers - pricingPlans[index].customers;
+          pricingSlider.noUiSlider.on('update', function (values, handle) {
+            var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
+            var additionalPrice = currentCustomers - pricingPlans[index].customers;
 
-          pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - pricingPlans[index].customers);
-          pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
+            pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - pricingPlans[index].customers);
+            pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
+          });
+
+          pricingSlider.noUiSlider.updateOptions({
+            range: {
+              'min': pricingPlans[index].customers,
+              'max': [300000]
+            }
+          });
+
+          pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+
+          pricingPlanName.textContent  = pricingPlans[index].name;
+          pricingPlanPrice.textContent = pricingPlans[index].price;
         });
-
-        pricingSlider.noUiSlider.updateOptions({
-          range: {
-            'min': pricingPlans[index].customers,
-            'max': [300000]
-          }
-        });
-
-        pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-
-        pricingPlanName.textContent = pricingPlans[index].name;
-        pricingPlanPrice.textContent = pricingPlans[index].price;
-      });
+      }
     }
+
+    overageSwitcher(primaryLinks);
+    overageSwitcher(secondaryLinks);
   }
 
   // Slider for careers page
