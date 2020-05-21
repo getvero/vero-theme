@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
       'name'       : 'Enterprise',
       'customers'  : 250000,
       'messages'   : 12500000,
-      'data_points': 1000000,
+      'data_points': 125000000,
       'price'      : 1299
     }];
 
@@ -123,9 +123,10 @@ jQuery(document).ready(function() {
               'max': 250001
             },
             pips: {
-              mode   : 'positions',
+              mode   : 'count',
               density: 100,
-              values : [0, 25, 50, 75, 100]
+              values: 5
+              // values : [0, 25, 50, 75, 100]
             }
           });
 
