@@ -120,12 +120,12 @@ jQuery(document).ready(function() {
           var pipValues    = [2000, 15000, 75000, 250000];
           var step         = 1000;
 
-          if (link.textContent == 'Enterprise') {
-            console.log('Clicking on enterprise');
+          if (link.textContent == pricingPlans[index].name) {
+            console.log('Clicking on ' + pricingPlans[index].name);
 
             pricingSlider.noUiSlider.on('update', function (values, handle) {
               if (numberFormat.from(values[handle]) < pricingPlans[index].customers) {
-                console.log('Less than enterpise customers');
+                // console.log('Less than enterpise customers');
               }
             });
           }
