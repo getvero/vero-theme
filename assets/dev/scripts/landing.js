@@ -5,21 +5,26 @@ jQuery(document).ready(function() {
     noUiSlider.create(pricingSlider, {
       start    : [2000],
       connect  : 'lower',
-      step     : 1000,
+      // step     : 1000,
       range: {
-        'min': [2000],
-        'max': [250000]
+        // 'min': [2000],
+        // 'max': [250000]
+        'min': [2000, 1000],
+        '35%': [15000, 1000],
+        '70%': [75000, 1000],
+        'max': [250000, 1000]
       },
       pips: {
         mode   : 'values',
-        values : [2000, 10000, 20000, 40000, 75000, 100000, 200000, 250000],
-        // values : [0, 25, 50, 75, 100],
+        values : [2000, 15000, 75000, 250000],
+        // mode   : 'positions',
+        // values : [0, 35, 70, 100],
         density: 100,
-        stepped: true,
+        // stepped: true,
         format: wNumb({
           decimals: 0,
           thousand: ',',
-          suffix: 'k',
+          suffix  : 'k',
           encoder: function(value) {
             return value / 1000;
           }
@@ -94,12 +99,13 @@ jQuery(document).ready(function() {
     // Switch overage calculator
     var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
     var secondaryLinks   = document.querySelectorAll('.js-test');
+
     var pricingPlanName  = document.querySelector('.js-pricing-plan-name');
     var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
 
     function overageSwitcher(links) {
       for (let [index, link] of links.entries()) {
-        link.addEventListener('click', function () {
+        link.addEventListener('click', function() {
           // alert('Starter ' + index);
 
           pricingSlider.noUiSlider.on('update', function (values, handle) {
@@ -110,17 +116,32 @@ jQuery(document).ready(function() {
             pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
           });
 
+          // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
             range: {
               'min': pricingPlans[index].customers,
               'max': [300000]
             }
           });
-
+          // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
           pricingPlanName.textContent  = pricingPlans[index].name;
           pricingPlanPrice.textContent = pricingPlans[index].price;
+
+          // Remove is-active class
+          for (var dropdownLink of secondaryLinks) {
+            dropdownLink.classList.remove('is-active');
+            console.log('test');
+          }
+
+          if (links == secondaryLinks) {
+            if (link.textContent == pricingPlans[index].name) {
+              console.log('this is active');
+
+              link.classList.add('is-active');
+            }
+          }
         });
       }
     }
