@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
     noUiSlider.create(pricingSlider, {
       start    : [2000],
       connect  : 'lower',
-      // step     : 1000,
+      step     : 1000,
       range: {
         // 'min': [2000],
         // 'max': [250000]
@@ -120,7 +120,7 @@ jQuery(document).ready(function() {
           pricingSlider.noUiSlider.updateOptions({
             range: {
               'min': pricingPlans[index].customers,
-              'max': [300000]
+              'max': [250000, 1000]
             }
           });
           // Set the slider value
