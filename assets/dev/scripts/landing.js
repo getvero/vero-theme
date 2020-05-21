@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
       'customers'  : 250000,
       'messages'   : 12500000,
       'data_points': 1000000,
-      'price'      : '1,299'
+      'price'      : 1299
     }];
 
     var pricingSliderValue         = document.querySelector('.js-pricing-slider-value');
@@ -120,9 +120,15 @@ jQuery(document).ready(function() {
           pricingSlider.noUiSlider.updateOptions({
             range: {
               'min': pricingPlans[index].customers,
-              'max': [250000, 1000]
+              'max': 250001
+            },
+            pips: {
+              mode   : 'positions',
+              density: 100,
+              values : [0, 25, 50, 75, 100]
             }
           });
+
           // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
