@@ -106,6 +106,8 @@ jQuery(document).ready(function() {
     function overageSwitcher(links) {
       for (const [index, link] of links.entries()) {
         link.addEventListener('click', function() {
+          console.log(pricingPlans[index].customers);
+
           pricingSlider.noUiSlider.on('update', function (values, handle) {
             var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
             var additionalPrice = currentCustomers - pricingPlans[index].customers;
@@ -114,41 +116,20 @@ jQuery(document).ready(function() {
             pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
           });
 
-          // Store values depending on plan
-          var maxCustomers = 250000;
-          var pipValues    = [2000, 15000, 75000, 250000];
-          var step         = 1000;
-
           if (index) {
             console.log('Clicking on ' + pricingPlans[index].name);
 
             // Disable handle
             pricingSlider.noUiSlider.on('change', function (values, handle) {
-              if (values[handle] == 250000) {
-                // return;
-              }
-
-              if (numberFormat.from(values[handle]) < pricingPlans[index].customers) {
-                console.log('Less than ' + pricingPlans[index].name + ' customers');
-
-                // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-              } else if (values[handle] == 250000) {
-              // var origins = slider.getElementsByClassName('noUi-origin');
-                // pricingSlider.setAttribute('disabled', true);
-
-                console.log('Max customers');
+              if (pricingPlans[index].name) {
+                pricingSlider.noUiSlider.set(pricingPlans[index].customers);
               }
             });
           }
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
-            step : step,
             range: allSliderRanges
-            // range: {
-            //   'min': pricingPlans[index].customers,
-            //   'max': maxCustomers
-            // },
           });
 
 
