@@ -85,7 +85,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
           </div>
           <div class="col-aside">
             <form class="js-subscribe-form subscribe-form stack-xs"
-              action="https://formkeep.com/f/92a0900ae759"
+              action="https://formkeep.com/f/642bee56a32f"
               accept-charset="UTF-8"
               enctype="multipart/form-data"
               method="POST">
