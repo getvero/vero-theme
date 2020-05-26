@@ -155,6 +155,31 @@ jQuery(document).ready(function() {
 
     overageSwitcher(primaryLinks);
     overageSwitcher(secondaryLinks);
+
+    // Dropdown
+    document.addEventListener("click", (evt) => {
+      const flyoutElement = document.getElementById("flyout-example");
+      let targetElement = evt.target; // clicked element
+
+      do {
+          if (targetElement == flyoutElement) {
+              // This is a click inside. Do nothing, just return.
+              document.getElementById("flyout-debug").textContent = "Clicked inside!";
+              return;
+          }
+          // Go up the DOM
+          targetElement = targetElement.parentNode;
+      } while (targetElement);
+
+      // This is a click outside.
+      document.getElementById("flyout-debug").textContent = "Clicked outside!";
+    });
+
+    var dropdown = document.querySelector('.js-pricing-plan-dropdown');
+
+    pricingPlanName.addEventListener('click', function() {
+      dropdown.classList.toggle('fade');
+    });
   }
 
   // Slider for careers page

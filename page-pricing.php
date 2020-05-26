@@ -269,13 +269,13 @@ include 'pages-shared/static-header.php';
     <h2>Overage calculator</h2>
 
     <div class="flex pricing-overage-calculator">
-      <div>
+      <div class="pricing-overage-calculator-body">
         <h3>How many customers do you have?</h3>
 
         <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
         <div class="js-pricing-customer-slider pricing-customer-slider" id="html5"></div>
 
-        <div class="flex">
+        <div class="flex pricing-overage-slider-footer">
           <div class="stack-sm">
             <h3>Messages</h3>
             <span class="js-pricing-messages-value regular font-gray-dark"></span>
@@ -288,18 +288,21 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
 
-      <div class="bg-white padding-md border-radius-2 stack-sm">
+      <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-sm">
         <div class="flex">
           <div>
             <span class="atomic semi-bold">Plan</span>
-            <span class="js-pricing-plan-name show">Starter</span>
-            <div class="pricing-overage-calculator-dropdown border-light border-radius-2 shadow-1">
-              <ul class="unstyled-list no-margin stack-xs">
-                <li class="js-test">Starter</li>
-                <li class="js-test">Pro</li>
-                <li class="js-test">Growth</li>
-                <li class="js-test">Enterprise</li>
-              </ul>
+            <div class="relative">
+              <span class="js-pricing-plan-name pointer show">Starter</span>
+
+              <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
+                <ul class="unstyled-list no-margin stack-xxs">
+                  <li class="js-test is-active">Starter</li>
+                  <li class="js-test">Pro</li>
+                  <li class="js-test">Growth</li>
+                  <li class="js-test">Enterprise</li>
+                </ul>
+              </div>
             </div>
             </select>
           </div>
