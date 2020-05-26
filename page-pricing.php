@@ -293,15 +293,14 @@ include 'pages-shared/static-header.php';
           <div>
             <span class="atomic semi-bold">Plan</span>
             <span class="js-pricing-plan-name show">Starter</span>
-            <div class="js-pricing-plans">
-              <ul class="unstyled-list">
+            <div class="pricing-overage-calculator-dropdown border-light border-radius-2 shadow-1">
+              <ul class="unstyled-list no-margin stack-xs">
                 <li class="js-test">Starter</li>
                 <li class="js-test">Pro</li>
                 <li class="js-test">Growth</li>
                 <li class="js-test">Enterprise</li>
               </ul>
             </div>
-            <!-- <select class="js-pricing-plans" name="" id=""> -->
             </select>
           </div>
 
