@@ -209,7 +209,7 @@ jQuery(document).ready(function() {
             },
             data: formEl.serialize()
           }).done(function(data) {
-            console.log('submitted');
+            // console.log('submitted');
 
             var thisForm = jQuery('.js-subscribe-form').eq(index);
 
