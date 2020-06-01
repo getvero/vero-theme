@@ -34,7 +34,7 @@ include 'pages-shared/static-header.php';
       <div class="right flex">
         <div class="flex pricing-cta">
           <a class="btn btn-medium btn-success start-a-free-trial" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-medium btn-outline btn-primary typeform-share talk-to-us" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
+          <a class="btn btn-medium btn-outline btn-primary typeform-share talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
         </div>
       </div>
     </div>

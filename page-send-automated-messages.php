@@ -21,7 +21,7 @@
       <div class="flex items-center justify-center intro-footer">
         <a class="btn btn-success btn-large md-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-        <a class="medium regular underline-link typeform-share link talk-to-us" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+        <a class="medium regular underline-link typeform-share link talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
     </div>
   </div>
