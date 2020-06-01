@@ -14,7 +14,7 @@
         <p class="large md-bottom-margin-md">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
           <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
@@ -353,7 +353,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
