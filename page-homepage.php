@@ -16,7 +16,7 @@
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
           <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs talk-to-us" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
           <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
           <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
