@@ -37,37 +37,41 @@ jQuery(document).ready(function() {
     });
 
     var pricingPlans = [{
-      'name'       : 'Starter',
-      'customers'  : 2000,
-      'messages'   : 10000,
-      'data_points': 1000000,
-      'price'      : 49
+      'name'        : 'Starter',
+      'customers'   : 2000,
+      'messages'    : 10000,
+      'data_points' : 1000000,
+      'price'       : 49,
+      'overage_rate': 25
     }, {
-      'name'       : 'Pro',
-      'customers'  : 10000,
-      'messages'   : 75000,
-      'data_points': 7500000,
-      'price'      : 199
+      'name'        : 'Pro',
+      'customers'   : 10000,
+      'messages'    : 75000,
+      'data_points' : 7500000,
+      'price'       : 199,
+      'overage_rate': 13
     }, {
-      'name'       : 'Growth',
-      'customers'  : 75000,
-      'messages'   : 375000,
-      'data_points': 37000000,
-      'price'      : 599
+      'name'        : 'Growth',
+      'customers'   : 75000,
+      'messages'    : 375000,
+      'data_points' : 37000000,
+      'price'       : 599,
+      'overage_rate': 8
     }, {
-      'name'       : 'Enterprise',
-      'customers'  : 250000,
-      'messages'   : 12500000,
-      'data_points': 125000000,
-      'price'      : 1299
+      'name'        : 'Enterprise',
+      'customers'   : 250000,
+      'messages'    : 12500000,
+      'data_points' : 125000000,
+      'price'       : 1299,
+      'overage_rate': 5
     }];
 
     var pricingSliderValue         = document.querySelector('.js-pricing-slider-value');
     var pricingMessagesValue       = document.querySelector('.js-pricing-messages-value')
     var pricingDataPointsValue     = document.querySelector('.js-pricing-data-points-value')
 
-    var pricingAdditionalCustomers = document.querySelector('.js-pricing-additional-customers');
-    var pricingAdditionalPrice     = document.querySelector('.js-pricing-additional-price');
+    var pricingAdditionalCustomersValue = document.querySelector('.js-pricing-additional-customers');
+    var pricingAdditionalPriceValue     = document.querySelector('.js-pricing-additional-price');
 
     var numberFormat = wNumb({
       decimals: 0,
@@ -89,11 +93,12 @@ jQuery(document).ready(function() {
         pricingMessagesValue.textContent = numberFormat.to(75000);
       }
 
-      var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get());
-      var additionalPrice  = currentCustomers - 2000;
+      // Set default values to starter plan
+      var currentCustomers    = numberFormat.from(pricingSlider.noUiSlider.get());
+      var additionalCustomers = currentCustomers - pricingPlans[0].customers;
 
-      pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - 2000);
-      pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice  * 0.01250);
+      pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
+      pricingAdditionalPriceValue.textContent     = (additionalCustomers * 0.001) * pricingPlans[0].overage_rate;
     });
 
     // Switch overage calculator based on plan
@@ -106,14 +111,24 @@ jQuery(document).ready(function() {
     function overageSwitcher(links) {
       for (const [index, link] of links.entries()) {
         link.addEventListener('click', function() {
-          console.log(pricingPlans[index].customers);
+          // Open modal
+          var newOverlay = document.createElement('div');
+          var modal = document.querySelector('.js-modal');
+
+          if (newOverlay) {
+            newOverlay.setAttribute('class', 'overlay flex items-center justify-center');
+
+            modal.parentNode.insertBefore(newOverlay, modal);
+
+            newOverlay.appendChild(modal);
+          }
 
           pricingSlider.noUiSlider.on('update', function (values, handle) {
             var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
-            var additionalPrice = currentCustomers - pricingPlans[index].customers;
+            var additionalCustomers = currentCustomers - pricingPlans[index].customers;
 
-            pricingAdditionalCustomers.textContent = numberFormat.to(currentCustomers - pricingPlans[index].customers);
-            pricingAdditionalPrice.textContent     = priceFormat.to(additionalPrice * 0.01250);
+            pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
+            pricingAdditionalPriceValue.textContent     = priceFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
           });
 
           if (index) {
@@ -122,20 +137,70 @@ jQuery(document).ready(function() {
             // Disable handle
             pricingSlider.noUiSlider.on('change', function (values, handle) {
               if (pricingPlans[index].name) {
-                pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+                // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
               }
             });
           }
 
+          // var yolo = [2000, 10000, 75000, 250000];
+          var planRange = {
+            'min': [2000, 1000],
+            '35%': [15000, 1000],
+            '70%': [75000, 1000],
+            'max': [250000]
+          };
+
+          var planValue = [2000, 15000, 75000, 250000];
+
+          if (pricingPlans[index].name == 'Pro') {
+            planRange = {
+              'min': [10000, 1000],
+              '50%': [75000, 1000],
+              'max': [250000]
+            };
+
+             planValue = [10000, 75000, 250000]
+          } else if (pricingPlans[index].name == 'Growth') {
+            planRange = {
+              'min': [75000, 1000],
+              '50%': [150000, 1000],
+              'max': [250000]
+            };
+
+             planValue = [75000, 15000, 250000]
+          } else if (pricingPlans[index].name == 'Enterprise') {
+            planRange = {
+              'min': [2000, 1000],
+              'max': [250000]
+            };
+
+             planValue = [2000, 250000]
+          }
+
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
-            range: allSliderRanges
+            start: 0,
+            range: planRange,
+            pips   : {
+              mode   : 'values',
+              values : planValue,
+              density: 100,
+              stepped: true,
+              format: wNumb({
+                decimals: 0,
+                thousand: ',',
+                suffix  : 'k',
+                encoder: function(value) {
+                  return value / 1000;
+                }
+              })
+            }
           });
-
 
           // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
+          // Set the plan and price values
           pricingPlanName.textContent  = pricingPlans[index].name;
           pricingPlanPrice.textContent = pricingPlans[index].price;
 
@@ -153,22 +218,34 @@ jQuery(document).ready(function() {
       }
     }
 
+    document.querySelector('.js-gundam').addEventListener('click', function() {
+      var el     = document.querySelector('.overlay');
+      var parent = el.parentNode;
+
+      while (el.firstChild) parent.insertBefore(el.firstChild, el);
+
+      parent.removeChild(el);
+    });
+
     overageSwitcher(primaryLinks);
     overageSwitcher(secondaryLinks);
 
-    // Dropdown
     var dropdown = document.querySelector('.js-pricing-plan-dropdown');
+
+    pricingPlanName.addEventListener('click', function() {
+      // dropdown.classList.toggle('fade');
+    });
 
     // Detect click outside element
     document.addEventListener('click', function(evt) {
-      var flyoutElement = document.querySelector('.js-pricing-plan-dropdown');
-      var targetElement = evt.target;                                 // clicked element
+      const dropdown      = document.querySelector('.js-pricing-plan-dropdown');
+      let   targetElement = evt.target;                                           // clicked element
 
       do {
         if (targetElement == dropdown) {
-          console.log('Click inside');
-
           // This is a click inside. Do nothing, just return.
+          document.querySelector('.js-yolo').textContent = "Clicked inside!";
+
           return;
         }
         // Go up the DOM
@@ -176,12 +253,9 @@ jQuery(document).ready(function() {
       } while (targetElement);
 
       // This is a click outside.
-      // document.getElementById("flyout-debug").textContent = "Clicked outside!";
+      document.querySelector('.js-yolo').textContent = 'Clicked outside!';
       dropdown.classList.remove('fade');
-    });
-
-    pricingPlanName.addEventListener('click', function() {
-      dropdown.classList.toggle('fade');
+      // dropdown.classList.toggle('fade');
     });
   }
 
@@ -197,7 +271,7 @@ jQuery(document).ready(function() {
       pager           : false
     });
 
-    jQuery('#careers-profiles-slider .bx-control').click(function(){
+    jQuery('#careers-profiles-slider .bx-control').click(function() {
       var slideNum = jQuery(this).data('bx');
       careersSlider.goToSlide(slideNum);
     });

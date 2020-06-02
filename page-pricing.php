@@ -264,8 +264,10 @@ include 'pages-shared/static-header.php';
     <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
   </div>
 </section>
-<section class="bg-dark-blue-lighter">
+<section class="js-modal bg-dark-blue-lighter">
   <div class="inner">
+    <span class="js-gundam">CLOSE</span>
+
     <h2>Overage calculator</h2>
 
     <div class="flex pricing-overage-calculator">
@@ -296,6 +298,7 @@ include 'pages-shared/static-header.php';
               <span class="js-pricing-plan-name pointer show">Starter</span>
 
               <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
+                <div class="js-yolo"></div>
                 <ul class="unstyled-list no-margin stack-xxs">
                   <li class="js-test is-active">Starter</li>
                   <li class="js-test">Pro</li>
