@@ -15,13 +15,18 @@ include 'pages-shared/static-header.php';
     <h1 class="biggie semi-bold">Simple pricing that helps you scale your business</h1>
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
-  <div class="inner xlarge-inner stack-sm">
-    <div class="d-inline-block shadow-1 border-radius-2 padding-2">
-      <span>Monthly</span>
-      <span>Annually</span>
+  <div class="inner xlarge-inner stack-md">
+    <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
+    <input class="hide pricing-radio-2" id="pricing-tab-2" type="radio" name="pricing-tabs">
+
+    <div class="tab-switcher center-text">
+      <div class="inline-flex justify-center shadow-1 border-radius-2">
+        <label class="pricing-tab-label pricing-tab-label--1 semi-bold" for="pricing-tab-1">Monthly</label>
+        <label class="pricing-tab-label pricing-tab-label--2 semi-bold" for="pricing-tab-2">Annually</label>
+      </div>
     </div>
 
-    <div class="bg-white flex flex-wrap border-radius-2 pricing-plan-table">
+    <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--1">
       <div class="flex flex-column">
         <header class="pricing-plan-table-header">
           <h2 class="micro">Starter</h2>
@@ -266,7 +271,7 @@ include 'pages-shared/static-header.php';
       </div>
     </div>
 
-    <div class="bg-white flex flex-wrap border-radius-2 pricing-plan-table">
+    <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--2">
       <div class="flex flex-column">
         <header class="pricing-plan-table-header">
           <h2 class="micro">Starter</h2>
