@@ -16,6 +16,11 @@ include 'pages-shared/static-header.php';
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
   <div class="inner xlarge-inner stack-sm">
+    <div class="d-inline-block shadow-1 border-radius-2 padding-2">
+      <span>Monthly</span>
+      <span>Annually</span>
+    </div>
+
     <div class="bg-white flex flex-wrap border-radius-2 pricing-plan-table">
       <div class="flex flex-column">
         <header class="pricing-plan-table-header">
@@ -215,6 +220,251 @@ include 'pages-shared/static-header.php';
           <div class="stack-xxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
             <span class="show semi-bold tubs">$1,299/mo</span>
+          </div>
+
+          <div class="stack-xxs">
+            <span class="font-gray-dark show regular annotation">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>250,000&plus;</strong> Customers </li>
+              <li class="no-margin"><strong>1,250,000&plus;</strong> Messages/mo</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points/mo</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--enterprise regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div class="pricing-features">
+            <span class="font-gray-dark show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                <span>Everything from <strong>Growth</strong></span>
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Unlimited Team members
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Priority Email Support
+              </li>
+            </ul>
+          </div>
+
+          <a href="#none" class="btn btn--outline btn--secondary full-width top-margin-auto">Talk to us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white flex flex-wrap border-radius-2 pricing-plan-table">
+      <div class="flex flex-column">
+        <header class="pricing-plan-table-header">
+          <h2 class="micro">Starter</h2>
+        </header>
+
+        <div class="pricing-plan-table-body flex flex-column">
+          <div class="stack-xxxs">
+            <span class="font-gray-dark show regular annotation">Starting at</span>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((49 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+          </div>
+
+          <div class="stack-xxs">
+            <span class="font-gray-dark show regular annotation">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>2,000</strong> Customers </li>
+              <li class="no-margin"><strong>10,000</strong> Messages/mo</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>1M</strong> Data points/mo</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--starter regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div class="pricing-features">
+            <span class="font-gray-dark show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                All the core Vero features
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                1 Team member
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Online guides and help docs
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                30 days free Email support
+              </li>
+            </ul>
+          </div>
+
+          <a class="btn btn--outline btn-success full-width top-margin-auto" href="">Try for free</a>
+        </div>
+      </div>
+      <div class="flex flex-column">
+        <header class="pricing-plan-table-header">
+          <h2 class="micro">Pro</h2>
+        </header>
+
+        <div class="pricing-plan-table-body flex flex-column">
+          <div class="stack-xxxs">
+            <span class="font-gray-dark show regular annotation">Starting at</span>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((199 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+          </div>
+
+          <div class="stack-xxs">
+            <span class="font-gray-dark show regular annotation">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>10,000</strong> Customers </li>
+              <li class="no-margin"><strong>75,000</strong> Messages/mo</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>7.5M</strong> Data points/mo</span>
+
+                <span class="tooltip" data-label="This is a tooltip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--pro regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div class="pricing-features">
+            <span class="font-gray-dark show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                <span>Everything from <strong>Starter</strong></span>
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                5 Team members
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                AB Testing
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Custom Webhooks
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Team Access Management
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                24/7 Email Support
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+        </div>
+      </div>
+      <div class="flex flex-column relative">
+        <header class="pricing-plan-table-header">
+          <h2 class="micro">Growth</h2>
+        </header>
+
+        <div class="pricing-plan-table-body flex flex-column">
+          <div class="stack-xxxs">
+            <span class="font-gray-dark show regular annotation">Starting at</span>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((599 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+          </div>
+
+          <div class="stack-xxs">
+            <span class="font-gray-dark show regular annotation">Including</span>
+
+            <ul class="unstyled-list">
+              <li class="no-margin"><strong>75,000</strong> Customers </li>
+              <li class="no-margin"><strong>375,000</strong> Messages/mo</li>
+              <li class="no-margin flex items-center">
+                <span class="right-margin-xxs"><strong>37M</strong> Data points/mo</span>
+
+                <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+                </span>
+              </li>
+              <li class="no-margin"><a class="js-overage-calculator js-overage-calculator--growth regular annotation underline-link font-gray-dark" href="#none">Additional usage charges</a></li>
+            </ul>
+          </div>
+
+          <div class="pricing-features">
+            <span class="font-gray-dark show regular annotation bottom-margin-xs">Features</span>
+
+            <ul class="unstyled-list annotation">
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                <span>Everything from <strong>Pro</strong></span>
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                20 Team members
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Multi-Language Campaigns
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                Dedicated IP Address
+              </li>
+              <li class="flex items-center no-margin">
+                <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+
+                BYO Email Provider
+              </li>
+            </ul>
+          </div>
+
+          <a href="#none" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+        </div>
+      </div>
+      <div class="flex flex-column">
+        <header class="pricing-plan-table-header">
+          <h2 class="micro">Enterprise</h2>
+        </header>
+
+        <div class="pricing-plan-table-body flex flex-column">
+          <div class="stack-xxs">
+            <span class="font-gray-dark show regular annotation">Starting at</span>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((1299 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
