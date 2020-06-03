@@ -12,7 +12,7 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero pricing-hero stack-lg">
   <div class="inner tiny-inner center-text stack-sm">
-    <h1 class="hulk semi-bold">Simple pricing that helps you scale your business</h1>
+    <h1 class="biggie semi-bold">Simple pricing that helps you scale your business</h1>
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
   <div class="inner xlarge-inner stack-sm">
@@ -262,68 +262,6 @@ include 'pages-shared/static-header.php';
     </div>
 
     <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
-  </div>
-</section>
-<section class="js-modal bg-dark-blue-lighter">
-  <div class="inner">
-    <span class="js-gundam">CLOSE</span>
-
-    <h2>Overage calculator</h2>
-
-    <div class="flex pricing-overage-calculator">
-      <div class="pricing-overage-calculator-body">
-        <h3>How many customers do you have?</h3>
-
-        <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
-        <div class="js-pricing-customer-slider pricing-customer-slider" id="html5"></div>
-
-        <div class="flex pricing-overage-slider-footer">
-          <div class="stack-sm">
-            <h3>Messages</h3>
-            <span class="js-pricing-messages-value regular font-gray-dark"></span>
-          </div>
-
-          <div class="stack-sm">
-            <h3>Data points</h3>
-            <span class="js-pricing-data-points-value regular font-gray-dark"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-sm">
-        <div class="flex">
-          <div>
-            <span class="atomic semi-bold">Plan</span>
-            <div class="relative">
-              <span class="js-pricing-plan-name pointer show">Starter</span>
-
-              <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
-                <div class="js-yolo"></div>
-                <ul class="unstyled-list no-margin stack-xxs">
-                  <li class="js-test is-active">Starter</li>
-                  <li class="js-test">Pro</li>
-                  <li class="js-test">Growth</li>
-                  <li class="js-test">Enterprise</li>
-                </ul>
-              </div>
-            </div>
-            </select>
-          </div>
-
-          <div class="atomic semi-bold right-text">$<span class="js-pricing-plan-price">49</span>/mo</div>
-        </div>
-
-        <div class="flex">
-          <div>
-            <span class="atomic semi-bold">Additional customers</span>
-            <span class="js-pricing-additional-customers test show"></span>
-          </div>
-
-          <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
-      </div>
-
-      <a class="btn btn-large btn--success full-width" href="#none">Try for free</a>
-    </div>
   </div>
 </section>
 <section class="double-padding">
@@ -911,6 +849,66 @@ include 'pages-shared/static-header.php';
     <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
+  </div>
+</section>
+<section class="js-modal overlay-modal bg-dark-blue-lighter">
+  <span class="js-gundam">CLOSE</span>
+
+  <h2>Overage calculator</h2>
+
+  <div class="flex pricing-overage-calculator">
+    <div class="pricing-overage-calculator-body">
+      <h3>How many customers do you have?</h3>
+
+      <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
+      <div class="js-pricing-customer-slider pricing-customer-slider" id="html5"></div>
+
+      <div class="flex pricing-overage-slider-footer">
+        <div class="stack-sm">
+          <h3>Messages</h3>
+          <span class="js-pricing-messages-value regular font-gray-dark"></span>
+        </div>
+
+        <div class="stack-sm">
+          <h3>Data points</h3>
+          <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-sm">
+      <div class="flex">
+        <div>
+          <span class="atomic semi-bold">Plan</span>
+          <div class="relative">
+            <span class="js-pricing-plan-name pointer show">Starter</span>
+
+            <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
+              <div class="js-yolo"></div>
+              <ul class="unstyled-list no-margin stack-xxs">
+                <li class="js-test is-active">Starter</li>
+                <li class="js-test">Pro</li>
+                <li class="js-test">Growth</li>
+                <li class="js-test">Enterprise</li>
+              </ul>
+            </div>
+          </div>
+          </select>
+        </div>
+
+        <div class="atomic semi-bold right-text">$<span class="js-pricing-plan-price">49</span>/mo</div>
+      </div>
+
+      <div class="flex">
+        <div>
+          <span class="atomic semi-bold">Additional customers</span>
+          <span class="js-pricing-additional-customers test show"></span>
+        </div>
+
+        <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
+    </div>
+
+    <a class="btn btn-large btn--success full-width" href="#none">Try for free</a>
   </div>
 </section>
 <?php
