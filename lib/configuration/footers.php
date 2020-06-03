@@ -100,7 +100,7 @@
     ?>
       <section class="bg-gray-lighter">
         <div class="inner tiny-inner center-text">
-          <h4 class="tubs semi-bold bottom-margin-md">Vero helps marketing and engineering teams to scale their personalized customer messaging</h4>
+          <h4 class="chunk semi-bold bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
           <a class="btn btn-success btn-large bottom-margin-md start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 

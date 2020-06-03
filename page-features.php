@@ -421,7 +421,7 @@
 </section>
 <section>
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
       <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
