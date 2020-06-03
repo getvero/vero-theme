@@ -78,11 +78,6 @@ jQuery(document).ready(function() {
       thousand: ','
     });
 
-    var priceFormat = wNumb({
-      decimals: 2,
-      thousand: ','
-    });
-
     // Update pricing slider
     pricingSlider.noUiSlider.on('update', function (values, handle) {
       pricingSliderValue.textContent     = values[handle];
@@ -112,26 +107,37 @@ jQuery(document).ready(function() {
       for (const [index, link] of links.entries()) {
         link.addEventListener('click', function() {
           // Open modal
-          var newOverlay = document.createElement('div');
-          var overlay    = document.querySelector('.overlay');
-          var modal      = document.querySelector('.js-modal');
+          var overlay    = document.querySelector('.js-overlay');
 
           if (!overlay) {
-            console.log('Overlay doesn\`t exists');
+            var newOverlay        = document.createElement('div');
+            var modal             = document.querySelector('.js-modal');
+            var close             = document.createElement('span');
 
-            newOverlay.setAttribute('class', 'overlay flex items-center justify-center');
+            document.querySelector('.js-modal').classList.remove('is-active');
+
+            newOverlay.setAttribute('class', 'js-overlay overlay overlay--pricing flex items-center justify-center');
+            close.setAttribute('class', 'js-overlay-close overlay-close pointer');
+            close.innerHTML = '<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#fff"/></g></svg>'
 
             modal.parentNode.insertBefore(newOverlay, modal);
 
-            newOverlay.appendChild(modal);
+            newOverlay.prepend(close);
+            newOverlay.append(modal);
+
+            modal.classList.add('is-active');
+
+            document.body.classList.add('overflow-hidden');
           }
+
+          overlayClose();
 
           pricingSlider.noUiSlider.on('update', function (values, handle) {
             var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
             var additionalCustomers = currentCustomers - pricingPlans[index].customers;
 
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
-            pricingAdditionalPriceValue.textContent     = priceFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
+            pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
           });
 
           if (index) {
@@ -213,14 +219,21 @@ jQuery(document).ready(function() {
       }
     }
 
-    document.querySelector('.js-gundam').addEventListener('click', function() {
-      var el     = document.querySelector('.overlay');
-      var parent = el.parentNode;
+    function overlayClose() {
+      document.querySelector('.js-overlay-close').addEventListener('click', function(event) {
+        var el     = document.querySelector('.js-overlay');
+        var parent = el.parentNode;
 
-      while (el.firstChild) parent.insertBefore(el.firstChild, el);
+        document.querySelector('.js-modal').classList.remove('is-active');
 
-      parent.removeChild(el);
-    });
+        while (el.firstChild) parent.insertBefore(el.firstChild, el);
+
+        parent.removeChild(el);
+
+        document.querySelector('.js-overlay-close').remove();
+        document.body.classList.remove('overflow-hidden');
+      });
+    }
 
     overageSwitcher(primaryLinks);
     overageSwitcher(secondaryLinks);
