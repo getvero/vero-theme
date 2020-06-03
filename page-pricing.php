@@ -265,8 +265,8 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner large-inner center-text stack-lg">
-    <h2 class="chunk semi-bold">Trusted by leading brands</h2>
+  <div class="inner large-inner center-text stack-md">
+    <h2 class="micro semi-bold font-gray-dark">Trusted by leading brands</h2>
 
     <ul class="unstyled-list home-hero-logo-list flex flex-wrap justify-center">
       <li class="logo-list-item no-margin">
@@ -307,8 +307,8 @@ include 'pages-shared/static-header.php';
     <h2 class="chunk semi-bold center-text">Feature comparison</h2>
 
     <div>
-      <div class="pricing-feature-table pricing-feature-table--sticky no-margin">
-        <div class="pricing-feature-table-row test flex font-text">
+      <div class="pricing-feature-table is-sticky no-margin">
+        <div class="pricing-feature-table-row is-sticky flex font-text">
           <div>
           </div>
           <div class="center-text">
@@ -851,12 +851,10 @@ include 'pages-shared/static-header.php';
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-<section class="js-modal overlay-modal bg-dark-blue-lighter">
-  <span class="js-gundam">CLOSE</span>
-
+<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
   <h2>Overage calculator</h2>
 
-  <div class="flex pricing-overage-calculator">
+  <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
       <h3>How many customers do you have?</h3>
 
@@ -902,7 +900,7 @@ include 'pages-shared/static-header.php';
       <div class="flex">
         <div>
           <span class="atomic semi-bold">Additional customers</span>
-          <span class="js-pricing-additional-customers test show"></span>
+          <span class="js-pricing-additional-customers show"></span>
         </div>
 
         <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
@@ -913,5 +911,4 @@ include 'pages-shared/static-header.php';
 </section>
 <?php
   no_content_genesis_footer();
-  add_page_tracking_code("PricingPage");
 ?>
