@@ -4,8 +4,8 @@ jQuery(document).ready(function() {
 
     var allSliderRanges = {
       'min': [2000, 1000],
-      '35%': [15000, 1000],
-      '70%': [75000, 1000],
+      '33.33%': [15000, 1000],
+      '66.66%': [75000, 1000],
       'max': [250000]
     };
 
@@ -113,9 +113,12 @@ jQuery(document).ready(function() {
         link.addEventListener('click', function() {
           // Open modal
           var newOverlay = document.createElement('div');
-          var modal = document.querySelector('.js-modal');
+          var overlay    = document.querySelector('.overlay');
+          var modal      = document.querySelector('.js-modal');
 
-          if (newOverlay) {
+          if (!overlay) {
+            console.log('Overlay doesn\`t exists');
+
             newOverlay.setAttribute('class', 'overlay flex items-center justify-center');
 
             modal.parentNode.insertBefore(newOverlay, modal);
@@ -142,18 +145,10 @@ jQuery(document).ready(function() {
             });
           }
 
-          // var yolo = [2000, 10000, 75000, 250000];
-          var planRange = {
-            'min': [2000, 1000],
-            '35%': [15000, 1000],
-            '70%': [75000, 1000],
-            'max': [250000]
-          };
-
           var planValue = [2000, 15000, 75000, 250000];
 
           if (pricingPlans[index].name == 'Pro') {
-            planRange = {
+            allSliderRanges = {
               'min': [10000, 1000],
               '50%': [75000, 1000],
               'max': [250000]
@@ -161,15 +156,15 @@ jQuery(document).ready(function() {
 
              planValue = [10000, 75000, 250000]
           } else if (pricingPlans[index].name == 'Growth') {
-            planRange = {
+            allSliderRanges = {
               'min': [75000, 1000],
               '50%': [150000, 1000],
               'max': [250000]
             };
 
-             planValue = [75000, 15000, 250000]
+             planValue = [75000, 150000, 250000]
           } else if (pricingPlans[index].name == 'Enterprise') {
-            planRange = {
+            allSliderRanges = {
               'min': [2000, 1000],
               'max': [250000]
             };
@@ -180,7 +175,7 @@ jQuery(document).ready(function() {
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
             start: 0,
-            range: planRange,
+            range: allSliderRanges,
             pips   : {
               mode   : 'values',
               values : planValue,
@@ -230,32 +225,11 @@ jQuery(document).ready(function() {
     overageSwitcher(primaryLinks);
     overageSwitcher(secondaryLinks);
 
+    // Dropdown
     var dropdown = document.querySelector('.js-pricing-plan-dropdown');
 
     pricingPlanName.addEventListener('click', function() {
-      // dropdown.classList.toggle('fade');
-    });
-
-    // Detect click outside element
-    document.addEventListener('click', function(evt) {
-      const dropdown      = document.querySelector('.js-pricing-plan-dropdown');
-      let   targetElement = evt.target;                                           // clicked element
-
-      do {
-        if (targetElement == dropdown) {
-          // This is a click inside. Do nothing, just return.
-          document.querySelector('.js-yolo').textContent = "Clicked inside!";
-
-          return;
-        }
-        // Go up the DOM
-        targetElement = targetElement.parentNode;
-      } while (targetElement);
-
-      // This is a click outside.
-      document.querySelector('.js-yolo').textContent = 'Clicked outside!';
-      dropdown.classList.remove('fade');
-      // dropdown.classList.toggle('fade');
+      dropdown.classList.toggle('fade');
     });
   }
 
