@@ -13,18 +13,18 @@ if (is_page('homepage') || is_page("careers") ) {
 } else {
   no_content_genesis_header();
 }
- 
+
 # Customised Genesis Header
 function no_content_genesis_header() {
   do_action( 'genesis_doctype' );
   do_action( 'genesis_title' );
   do_action( 'genesis_meta' );
-  wp_head(); 
+  wp_head();
   ?>
-  
+
   <meta name="google-site-verification" content="AkIiiyFL03lKnauhmJxy0yvCx-iyt8zAvsjfzQVrakA" />
   </head>
-  
+
   <?php
   genesis_markup( array(
     'html5'   => '<body %s>',
@@ -32,18 +32,18 @@ function no_content_genesis_header() {
     'context' => 'body',
   ) );
   do_action( 'genesis_before' );
-  
+
   genesis_markup( array(
     'html5'   => '<div %s>',
     'xhtml'   => '<div id="wrap">',
     'context' => 'site-container',
   ) );
-  
+
   # Only show nav if not on features page
-  if (!is_page('features') ) {
+  if ( !is_page('drag-and-drop') ) {
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
-    do_action( 'genesis_after_header' ); 
+    do_action( 'genesis_after_header' );
   }
 }
 
@@ -51,12 +51,12 @@ function no_content_no_header() {
   do_action( 'genesis_doctype' );
   do_action( 'genesis_title' );
   do_action( 'genesis_meta' );
-  wp_head(); 
+  wp_head();
   ?>
-  
+
   <meta name="google-site-verification" content="AkIiiyFL03lKnauhmJxy0yvCx-iyt8zAvsjfzQVrakA" />
   </head>
-  
+
   <?php
   genesis_markup( array(
     'html5'   => '<body %s>',
@@ -64,7 +64,7 @@ function no_content_no_header() {
     'context' => 'body',
   ) );
   do_action( 'genesis_before' );
-  
+
   genesis_markup( array(
     'html5'   => '<div %s>',
     'xhtml'   => '<div id="wrap">',
@@ -72,13 +72,13 @@ function no_content_no_header() {
   ) );
 }
 
- 
+
 # Customised Genesis Footer
 function no_content_genesis_footer() {
   do_action( 'genesis_before_footer' );
   do_action( 'genesis_footer' );
   do_action( 'genesis_after_footer' );
-  echo '</div>'; 
+  echo '</div>';
   do_action( 'genesis_after' );
   wp_footer();
   ?>
@@ -88,7 +88,7 @@ function no_content_genesis_footer() {
   }
 
 function no_menus_genesis_footer() {
-  echo '</div>'; 
+  echo '</div>';
   wp_footer();
   ?>
   </body>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <path id="importing-b" d="M4,0 L38,0 C40.209139,-4.05812251e-16 42,1.790861 42,4 L42,46 L42,46 L0,46 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z"/>
+    <filter id="importing-a" width="131%" height="128.3%" x="-15.5%" y="-12%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(11 13)">
+      <use fill="#000" filter="url(#importing-a)" xlink:href="#importing-b"/>
+      <path fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" d="M38,0.5 L4,0.5 C3.03350169,0.5 2.15850169,0.891750844 1.52512627,1.52512627 C0.891750844,2.15850169 0.5,3.03350169 0.5,4 L0.5,45.5 L41.5,45.5 L41.5,4 C41.5,3.03350169 41.1082492,2.15850169 40.4748737,1.52512627 C39.8414983,0.891750844 38.9664983,0.5 38,0.5 Z"/>
+      <path fill="#F7F7F7" d="M5,3 L37,3 C38.1045695,3 39,3.8954305 39,5 L39,43 L39,43 L3,43 L3,5 C3,3.8954305 3.8954305,3 5,3 Z"/>
+      <rect width="24" height="13" x="9" y="8" fill="#F15242"/>
+      <rect width="24" height="2" x="9" y="25" fill="#E1E1E1" rx="1"/>
+      <rect width="24" height="2" x="9" y="29" fill="#E1E1E1" rx="1"/>
+      <rect width="24" height="2" x="9" y="33" fill="#E1E1E1" rx="1"/>
+      <rect width="24" height="2" x="9" y="37" fill="#E1E1E1" rx="1"/>
+    </g>
+    <path fill="#1B2E5B" stroke="#FFF" stroke-width="2" d="M34,4 L30,4 L30,22 L23.3257828,22 L32,38.1092604 L40.6742172,22 L34,22 L34,4 Z"/>
+  </g>
+</svg>
