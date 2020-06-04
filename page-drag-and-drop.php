@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<div class="bg-dark-blue drag-and-drop-banner z-9999">
+<div class="bg-dark-blue banner z-9999">
   <a class="font-white" href="/resources/introducing-drag-and-drop-email-content">
     <p class="center-text"><span>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</span> <span class="font-white underline-link semi-bold">Find out why</span></p>
   </a>
