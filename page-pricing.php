@@ -20,9 +20,9 @@ include 'pages-shared/static-header.php';
     <input class="hide pricing-radio-2" id="pricing-tab-2" type="radio" name="pricing-tabs">
 
     <div class="tab-switcher center-text">
-      <div class="inline-flex justify-center shadow-1 border-radius-2">
-        <label class="pricing-tab-label pricing-tab-label--1 semi-bold" for="pricing-tab-1">Monthly</label>
-        <label class="pricing-tab-label pricing-tab-label--2 semi-bold" for="pricing-tab-2">Annually</label>
+      <div class="pricing-tab-labels inline-flex shadow-1 border border-radius-2 padding-xxs">
+        <label class="pricing-tab-label pricing-tab-label--1" for="pricing-tab-1">Monthly</label>
+        <label class="pricing-tab-label pricing-tab-label--2" for="pricing-tab-2">Annually</label>
       </div>
     </div>
 
