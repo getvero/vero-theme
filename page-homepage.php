@@ -1,7 +1,13 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
+<div class="bg-dark-blue drag-and-drop-banner z-9999">
+  <a class="font-white" href="/drag-and-drop">
+    <p class="center-text">Better email design with our <strong>new</strong> Drag and Drop editor.</p>
+  </a>
+</div>
 <?php
+  do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
