@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <div class="bg-dark-blue drag-and-drop-banner z-9999">
-  <a class="font-white" href="#none">
+  <a class="font-white" href="/resources/introducing-drag-and-drop-email-content">
     <p><span>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</span> <span class="font-white underline-link semi-bold">Find out why</span></p>
   </a>
 </div>
@@ -34,9 +34,9 @@
     </div>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Try for free</a>
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Try for free</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link talk-to-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner">
@@ -130,7 +130,7 @@
       <div class="w-sidebar w-sidebar--feature-sm items-center">
         <div class="col-main order-2">
           <h2 class="chunk bottom-margin-sm">Easily personalize your messages</h2>
-          <p class="large">Extend your personalisation with powerful <a class="underline-link" href="">Liquid templating language</a>. Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
+          <p class="large">Extend your personalisation with powerful <a class="underline-link" href="/email-personalization-liquid-guide">Liquid templating language</a>. Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
         </div>
         <div class="col-aside order-1 center-text sm-left-text">
           <div class="d-inline-block relative drag-and-drop-feature-img">
@@ -255,9 +255,9 @@
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link talk-to-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
 </section>
