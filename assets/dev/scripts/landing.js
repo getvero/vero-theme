@@ -72,38 +72,36 @@ jQuery(document).ready(function() {
 
     var pricingAdditionalCustomersValue = document.querySelector('.js-pricing-additional-customers');
     var pricingAdditionalPriceValue     = document.querySelector('.js-pricing-additional-price');
+    var pricingTotalCost                = document.querySelector('.js-pricing-total-cost');
 
     var numberFormat = wNumb({
       decimals: 0,
       thousand: ','
     });
 
-    // Update pricing slider
+    // Update slider values
     pricingSlider.noUiSlider.on('update', function (values, handle) {
+      // Set handle value
       pricingSliderValue.textContent     = values[handle];
+
+      // Set messages and data points values
       pricingMessagesValue.textContent   = numberFormat.to(numberFormat.from(values[handle]) * 5);
       pricingDataPointsValue.textContent = numberFormat.to(numberFormat.from(values[handle]) * 500);
 
       if (values[handle] == numberFormat.to(10000)) {
         pricingMessagesValue.textContent = numberFormat.to(75000);
       }
-
-      // Set default values to starter plan
-      var currentCustomers    = numberFormat.from(pricingSlider.noUiSlider.get());
-      var additionalCustomers = currentCustomers - pricingPlans[0].customers;
-
-      pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
-      pricingAdditionalPriceValue.textContent     = (additionalCustomers * 0.001) * pricingPlans[0].overage_rate;
     });
 
     // Switch overage calculator based on plan
     var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
     var secondaryLinks   = document.querySelectorAll('.js-test');
 
-    var pricingPlanName  = document.querySelector('.js-pricing-plan-name');
-    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
+    var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
+    var pricingPlanPrice    = document.querySelector('.js-pricing-plan-price');
+    var pricingOverageTotal = document.querySelector('.js-pricing-total-overage-cost');
 
-    function overageSwitcher(links) {
+    function planSwitcher(links) {
       for (const [index, link] of links.entries()) {
         link.addEventListener('click', function() {
           // Open modal
@@ -132,12 +130,15 @@ jQuery(document).ready(function() {
 
           overlayClose();
 
+          // Update pricing slider when moving
           pricingSlider.noUiSlider.on('update', function (values, handle) {
             var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
             var additionalCustomers = currentCustomers - pricingPlans[index].customers;
 
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
             pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
+            pricingTotalCost.textContent = Number(pricingAdditionalPriceValue.innerHTML) + pricingPlans[index].price;
+
           });
 
           if (index) {
@@ -235,8 +236,8 @@ jQuery(document).ready(function() {
       });
     }
 
-    overageSwitcher(primaryLinks);
-    overageSwitcher(secondaryLinks);
+    planSwitcher(primaryLinks);
+    planSwitcher(secondaryLinks);
 
     // Dropdown
     var dropdown = document.querySelector('.js-pricing-plan-dropdown');

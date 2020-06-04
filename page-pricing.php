@@ -35,7 +35,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <span class="show semi-bold tubs">$49/mo</span>
+            <div><span class="semi-bold tubs">$49</span><span class="font-gray-dark">/mo</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -93,7 +93,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <span class="show semi-bold tubs">$199/mo</span>
+            <div><span class="semi-bold tubs">$199</span><span class="font-gray-dark">/mo</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -161,7 +161,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <span class="show semi-bold tubs">$599/mo</span>
+            <div><span class="semi-bold tubs">$599</span><span class="font-gray-dark">/mo</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -224,7 +224,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <span class="show semi-bold tubs">$1,299/mo</span>
+            <div><span class="semi-bold tubs">$1,299</span><span class="font-gray-dark">/mo</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -280,7 +280,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((49 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((49 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -338,7 +338,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((199 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((199 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -406,7 +406,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((599 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div><span class="tubs semi-bold">$<?php echo number_format((599 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -469,7 +469,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((1299 * 12) * 0.85, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((1299 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -1148,7 +1148,6 @@ include 'pages-shared/static-header.php';
           </div>
           </select>
         </div>
-
         <div class="atomic semi-bold right-text">$<span class="js-pricing-plan-price">49</span>/mo</div>
       </div>
 
@@ -1157,9 +1156,17 @@ include 'pages-shared/static-header.php';
           <span class="atomic semi-bold">Additional customers</span>
           <span class="js-pricing-additional-customers show"></span>
         </div>
-
         <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
-    </div>
+      </div>
+
+      <div class="flex">
+        <div>
+          <span>Your total payment</span>
+        </div>
+        <div class="atomic semi-bold right-text">
+          $<span class="js-pricing-total-cost"></span>
+        </div>
+      </div>
 
     <a class="btn btn-large btn--success full-width" href="#none">Try for free</a>
   </div>
