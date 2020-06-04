@@ -5,12 +5,8 @@ const gulp             = require('gulp'),
       imageminPngquant = require('imagemin-pngquant'),
       csso             = require('gulp-csso'),
       newer            = require('gulp-newer'),
-<<<<<<< HEAD
-      terser           = require('gulp-terser'); // For minifying JS ES6
-=======
       terser           = require('gulp-terser'),
       concat           = require('gulp-concat');
->>>>>>> origin/develop
 
 const paths = {
   css: {
