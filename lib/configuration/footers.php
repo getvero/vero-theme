@@ -26,6 +26,7 @@
                 <h4 class="semi-bold annotation uppercase faded">Product</h4>
               </li>
               <li><a href="/features">Features</a></li>
+              <li><a href="/drag-and-drop">Drag and Drop</a></li>
               <li><a href="/push-notifications">Push Notifications</a></li>
               <li><a href="/workflows">Workflows</a></li>
               <li><a href="/event-manager">Event Management</a></li>
