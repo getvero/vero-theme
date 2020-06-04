@@ -22,17 +22,17 @@
         <p class="large md-bottom-margin-md">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
-          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
-          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
           <div class="regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim">
-              <img class="align-middle" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+              <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-              <span class="font-brand-gray-dark">Watch a video</span>
+              <span class="font-brand-gray-dark" style="margin-top: 1px;">Watch a video</span>
             </div>
           </div>
         </div>
@@ -45,6 +45,9 @@
       </div>
       <div class="col-aside">
         <div class="home-hero-imgs relative">
+          <div class="absolute z-999">
+            <svg xmlns="http://www.w3.org/2000/svg" width="741" height="355"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#F15242" d="M1 289h52.74c8.646 0 15.656 7.01 15.656 15.657s-7.01 15.657-15.657 15.657H33.035c-9.302 0-16.843 7.54-16.843 16.843 0 9.302 7.541 16.843 16.843 16.843h164.333"/><path stroke="#01B2D0" d="M338.329 69h94.893c9.477 0 17.16-7.682 17.16-17.16 0-9.476-7.683-17.158-17.16-17.158h-42c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841h35.844"/><path stroke="#FFC111" d="M603.6 353h102.24c9.478 0 17.16-7.682 17.16-17.16 0-9.476-7.682-17.158-17.16-17.158h-32c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841H769"/></g></svg>
+          </div>
           <div class="home-hero-img home-hero-img--1 relative">
           <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
           </div>
@@ -218,7 +221,7 @@
 
     <div class="relative overflow-hidden home-quotes-gradient">
       <div class="flex items-start content-between home-quotes-list">
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
           <div class="flex">
@@ -230,7 +233,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Heck! Vero's support is exceptional!</p>
 
           <div class="flex">
@@ -242,7 +245,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show  home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>You guys/gals rock!</p>
 
           <div class="flex">
@@ -254,7 +257,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero is one of the best DRIP apps&mdash;have been recommending to all my contacts. The workflows feature is industry-leading!</p>
 
           <div class="flex">
@@ -266,7 +269,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
@@ -278,7 +281,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show  home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
@@ -290,7 +293,7 @@
             </div>
           </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>We've never had any reliability issues in the many years using Vero. Their ongoing investment in the platform is visible to us in the new features and updates being rolled out. Also, their service is next to none, it's always a joy dealing with their team.</p>
 
           <div class="flex">
@@ -301,7 +304,7 @@
               <img class="align-middle home-customer-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/pinpayments-logo-vero.svg" alt="Pin Payments logo"></div>
             </div>
         </blockquote>
-        <blockquote class="bg-white border-radius-2 shadow-1 border hide md-show home-customer-quote">
+        <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show home-customer-quote">
           <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Easy-to-use, thoughtful, lovely UI!</p>
 
           <div class="flex">
@@ -349,9 +352,6 @@
           <li class="photo-list-item no-margin">
             <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/eric-west.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/eric-west@2x.jpg 2x" alt="Eric West">
           </li>
-          <li class="photo-list-item no-margin">
-            <img class="photo align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/ellis-gray@2x.jpg 2x" alt="Ellis Gray">
-          </li>
         </ul>
       </div>
     </div>
@@ -359,9 +359,9 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
@@ -369,5 +369,4 @@
 
 <?php
   no_content_genesis_footer();
-  include("demo-enquiry-form.php");
 ?>

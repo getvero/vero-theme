@@ -5,7 +5,12 @@ const gulp             = require('gulp'),
       imageminPngquant = require('imagemin-pngquant'),
       csso             = require('gulp-csso'),
       newer            = require('gulp-newer'),
+<<<<<<< HEAD
       terser           = require('gulp-terser'); // For minifying JS ES6
+=======
+      terser           = require('gulp-terser'),
+      concat           = require('gulp-concat');
+>>>>>>> origin/develop
 
 const paths = {
   css: {
@@ -25,13 +30,6 @@ const paths = {
 // Clean dist folder
 function clean() {
   return del('assets/dist/');
-}
-
-// Move dev message JS to dist folder
-function devMessage() {
-  return gulp
-  .src('assets/dev/scripts/dev_message.js')
-  .pipe(gulp.dest(paths.scripts.dest));
 }
 
 function images() {
@@ -60,7 +58,7 @@ function images() {
   .pipe(gulp.dest(paths.images.dest));
 }
 
-function css() {
+function buildStyles() {
   return gulp
   .src(paths.css.src)
   .pipe(csso({
@@ -72,16 +70,31 @@ function css() {
   .pipe(gulp.dest(paths.css.dest));
 }
 
-// Uglify scripts
-function scripts() {
+// Uglify vendor scripts
+function uglifyVendorScripts() {
   return gulp
   .src([
-    'assets/dev/scripts/**/*.js',
+    // 'assets/dev/scripts/**/*.js',
+    // '!assets/dev/scripts/source/*',
+    'assets/dev/scripts/vendor/*.js',
     '!assets/dev/scripts/source/*',
-    '!assets/dev/scripts/dev_message.js'
   ])
-  // .pipe(uglify())
   .pipe(terser())
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest('assets/dist/scripts/vendor'))
+}
+
+// Concat scripts
+function concatScripts() {
+ return gulp
+ .src([
+  'assets/dev/scripts/core.js',
+  'assets/dev/scripts/landing.js'
+  ])
+  .pipe(terser())
+  .pipe(concat('main.js'))
   .pipe(rename({
     suffix: '.min'
   }))
@@ -90,15 +103,15 @@ function scripts() {
 
 // Watch assets
 function watch() {
-  gulp.watch(paths.css.src, css);
-  gulp.watch(paths.scripts.src, scripts);
+  gulp.watch(paths.css.src, buildStyles);
+  gulp.watch(paths.scripts.src, gulp.series(uglifyVendorScripts, concatScripts));
   gulp.watch('assets/dev/images/**/*', images);
 }
 
-const js    = gulp.series(devMessage, scripts);
-const build = gulp.series(clean, gulp.parallel(css, images, js, watch));
+const js    = gulp.series(uglifyVendorScripts, concatScripts);
+const build = gulp.series(clean, gulp.parallel(buildStyles, images, js, watch));
 
 exports.clean   = clean;
 exports.images  = images;
-exports.scripts = scripts;
+exports.scripts = js;
 exports.default = build;

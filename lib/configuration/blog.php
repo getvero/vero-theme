@@ -71,25 +71,10 @@
     }
   }
 
-  function custom_entry_header() {
-    add_action( 'genesis_before_content', 'move_feature_image' );
-
-    if ( is_blog_post_or_guide() ) {
-      remove_action( 'genesis_entry_header', 'genesis_post_info', 12);
-      add_action( 'genesis_entry_header', 'genesis_post_info', 9 );
-    }
-  }
-
   function change_post_structure() {
-    if ( is_single() || is_archive() || is_search() ) {
-      // Position entry meta above title
-      remove_action( 'genesis_entry_header', 'genesis_post_info', 12);
-      add_action( 'genesis_entry_header', 'genesis_post_info', 9 );
-    }
-
     if ( is_single() ) {
       // Customise entry title markup
-      add_filter( 'genesis_post_title_output', 'post_title_output', 15 );
+      // add_filter( 'genesis_post_title_output', 'post_title_output', 15 );
       function post_title_output( $title ) {
         if ( is_singular() ) {
           $title = sprintf( '<h1 class="entry-title">%s</h1>', apply_filters( 'genesis_post_title_text', get_the_title() ) );
@@ -98,18 +83,13 @@
       }
 
       // Remove the post format image (requires HTML5 theme support)
-      remove_action( 'genesis_entry_header', 'genesis_do_post_format_image', 4 );
+      // remove_action( 'genesis_entry_header', 'genesis_do_post_format_image', 4 );
     }
   }
 
   function change_post_info($post_meta) {
-    if ( !is_blog() ) {
-      // return '';
-    }
-
     global $post;
     $categories = get_the_category();
-    //$categories = get_the_category($post->ID);
     $category = $categories[0]->cat_name;
 
     if ( is_single() ) {
@@ -124,19 +104,17 @@
       <?php
     } else if ( is_search() ) {
       ?>
-      <div class="entry-meta flex items-center bottom-margin-sm">
-        <?php if( $category == 'Uncategorized' || $category == '' ) { ?>
-          <a class="badge" href="/resources"><?php if( is_singular('guide') ) { ?>Guide<?php } else { ?>Article<?php } ?></a>
-        <?php } else { ?>
-          <span class="badge"><?php get_primary_category(); ?></a>
-        <?php } ?>
+      <div class="entry-meta flex items-center">
+        <span class="badge"><?php get_primary_category(); ?></span>
       </div>
       <?php
     } else {
       ?>
-        <div class="entry-meta bottom-margin-sm">
-          <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-        </div>
+      <div class="entry-meta flex items-center badge">
+        <?php get_primary_category(); ?>
+
+        <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+      </div>
       <?php
     }
   }

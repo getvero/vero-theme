@@ -97,18 +97,24 @@ function genesischild_theme_setup() {
   add_action( 'genesis_before_content', 'add_latest_title' );
   add_action( 'genesis_before_loop', 'add_featured_post_to_category' );
 
-  # Move featured image above title on search
+  # Remove entry meta on articles
+  remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
+  # Move featured image above entry title on archives
   add_action( 'genesis_before_entry', 'move_featured_image' );
 
-  # Customise post entry
-  add_action( 'genesis_before_loop', 'change_post_structure' );
-  remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-  add_action( 'genesis_post_info', 'add_featured_image_to_post' );
-  add_filter( 'genesis_post_info', 'change_post_info' );
+  # Customize entry header
+  // add_action( 'genesis_before_loop', 'change_post_structure' );
+  // add_action( 'genesis_entry_header', 'change_post_structure' );
+  add_action( 'genesis_entry_header', 'add_featured_image_to_post', 3 );
+
+  # Customize entry meta
+  add_action( 'genesis_entry_header', 'genesis_post_info', 9 );
+  add_filter( 'genesis_post_info', 'change_post_info', 15 );
+
   # Add author after entry title on single posts
   add_action( 'genesis_entry_header', 'add_author' );
-  add_filter( 'the_content', 'add_class_to_small_images');
-  // add_filter( 'the_content', 'add_blue_signup_boxes' );
 
   # Category page
   add_action( 'genesis_entry_footer', 'add_custom_read_more_link' );
@@ -180,8 +186,25 @@ function genesischild_theme_setup() {
 
   # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
-  
+
   add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
+
+  # Move pagination
+  add_action ( 'genesis_after_entry', 'move_pagination' );
+
+  if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+    add_image_size( 'category-thumb', 387, 9999 ); // 300 pixels wide (and unlimited height)
+  }
+
+  # Function to remove version numbers
+  add_filter( 'style_loader_src', 'remove_ver_css_js', 9999 );
+  add_filter( 'script_loader_src', 'remove_ver_css_js', 9999 );
+  function remove_ver_css_js( $src ) {
+    if ( strpos( $src, 'ver=' ) )
+      $src = remove_query_arg( 'ver', $src );
+    return $src;
+  }
 }
 
 ?>

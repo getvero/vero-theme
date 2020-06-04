@@ -33,8 +33,8 @@ include 'pages-shared/static-header.php';
 
       <div class="right flex">
         <div class="flex pricing-cta">
-          <a class="btn btn-medium btn-success" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-medium btn-outline btn-primary typeform-share" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
+          <a class="btn btn-medium btn-success start-a-free-trial" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-medium btn-outline btn-primary typeform-share talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
         </div>
       </div>
     </div>
@@ -199,9 +199,9 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="bg-gray-lighter">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
@@ -209,5 +209,4 @@ include 'pages-shared/static-header.php';
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
-  include("demo-enquiry-form.php");
 ?>
