@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
   if (jQuery('body').hasClass('pricing')) {
-    var pricingSlider = document.getElementById('html5');
+    var pricingSlider = document.querySelector('.js-pricing-customer-slider');
 
     var allSliderRanges = {
       'min': [2000, 1000],
@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
             pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
             pricingTotalCost.textContent                = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
 
-            console.log('The additional price ' + numberFormat.from(pricingAdditionalPriceValue.textContent));
+            // console.log('The additional price ' + numberFormat.from(pricingAdditionalPriceValue.textContent));
           });
 
           if (index) {
