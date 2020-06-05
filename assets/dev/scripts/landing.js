@@ -17,8 +17,6 @@ jQuery(document).ready(function() {
       pips   : {
         mode   : 'values',
         values : [2000, 15000, 75000, 250000],
-        // mode   : 'positions',
-        // values : [0, 35, 70, 100],
         density: 100,
         stepped: true,
         format: wNumb({
@@ -191,21 +189,30 @@ jQuery(document).ready(function() {
             pricingSlider.setAttribute('disabled', true);
 
             allSliderRanges = {
-              'min': [75000, 1000],
-              '50%': [17500, 1000],
+              'min': [200000, 1000],
+              '50%': [225000, 1000],
               'max': 250000
             };
 
-            planValue = [75000, 17500, 250000]
+            planValue = [200000, 225000, 250000]
 
             formatTest = {
               decimals: 0,
               thousand: ',',
-              suffix  : 'k'
+              suffix  : 'k',
+              encoder: function(value) {
+                return value / 1000;
+              }
+              ,
+              edit: function(value, original) {
+                if (original == 250000) {
+                  return value + '+';
+                } else {
+                  return value;
+                }
+              }
             }
           }
-
-          // console.log(original);
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
