@@ -26,6 +26,7 @@
                 <h4 class="semi-bold annotation uppercase faded">Product</h4>
               </li>
               <li><a href="/features">Features</a></li>
+              <li><a href="/drag-and-drop">Drag and Drop</a></li>
               <li><a href="/push-notifications">Push Notifications</a></li>
               <li><a href="/workflows">Workflows</a></li>
               <li><a href="/event-manager">Event Management</a></li>
@@ -98,36 +99,13 @@
     }
 
     ?>
-      <section class="cta bg-gray-lighter">
+      <section class="bg-gray-lighter">
         <div class="inner tiny-inner center-text">
-          <?php if( get_field('type_of_cta') == 'product' ) : ?>
-            <h4 class="tubs semi-bold bottom-margin-md">Vero helps marketing and engineering teams to scale their personalized customer messaging</h4>
+          <h4 class="chunk semi-bold bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-            <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large bottom-margin-md start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-            <p class="annotation faded">No credit card details required</p>
-          <?php else : ?>
-            <div class="js-enquire-menu-2 enquire-menu-2">
-              <h4 class="tubs semi-bold bottom-margin-md">Insights, tips and tools for creating better customer messaging and product experiences</h4>
-            </div>
-            <div class="js-thanks-menu-2 thanks-menu-2 hide">
-              <h4 class="atomic regular bottom-margin-sm">Almost there!</h4>
-              <p class="no-margin">We've sent you an email to confirm your subscription.</p>
-            </div>
-
-            <form class="js-blog-subscribe-form-2 blog-subscribe-form-2 md-right-margin-md md-left-margin-md" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column lg-flex-row justify-center items-stretch bottom-margin-md">
-                <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
-                <input name="user[consent_marketing]" type="hidden" value="true">
-                <input name="user[consent_product_updates]" type="hidden" value="true">
-                <input name="event[blog_subscriber_source]" type="hidden" value="popup">
-                <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-                <input class="btn btn-success" type="submit" value="Subscribe to updates">
-              </div>
-              <p class="annotation faded">We're committed to keeping your information safe. Read our <a class="unstyled underline-link" href="/privacy">Privacy Policy</a>.</p>
-            </form>
-
-          <?php endif; ?>
+          <p class="annotation faded">No credit card details required</p>
         </div>
       </section>
     <?php

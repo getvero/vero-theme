@@ -11,15 +11,18 @@
 ?>
 <section class="push-notifications-hero">
   <section>
-    <div class="inner tiny-inner flush-bottom center-text">
-      <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+    <div class="inner tiny-inner flush-bottom center-text stack-lg">
+      <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
         <a href="/features">Features</a>
-        <svg class="horizontal-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+        <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
         Push Notifications
       </span>
 
-      <h1 class="hulk bottom-margin-xs">Mobile Push Notifications</h1>
-      <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
+      <div>
+        <h1 class="hulk bottom-margin-sm">Mobile Push Notifications</h1>
+        <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
+      </div>
+
       <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
@@ -148,5 +151,4 @@
 </section>
 <?php
   no_content_genesis_footer();
-  // add_page_tracking_code("ProductPage");
 ?>

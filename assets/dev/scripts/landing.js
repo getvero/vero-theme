@@ -265,22 +265,8 @@ jQuery(document).ready(function() {
     });
   }
 
-  var validateForm;
-  var requestDemo;
   var subscribeBlogInline;
-
-  jQuery('#high-volume-sender-form').submit(function(e) {
-    e.preventDefault();
-    requestDemo(e);
-    return false;
-  });
-
-  // Main blog subscribe form
-  jQuery('.js-blog-subscribe-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlog(e);
-    return false;
-  });
+  var subscribeBlog2;
 
   jQuery('.js-blog-subscribe-form-2').submit(function(e) {
     e.preventDefault();
@@ -294,82 +280,6 @@ jQuery(document).ready(function() {
     subscribeBlogInline(e);
     return false;
   });
-
-  validateForm = function() {
-    var company, email_addr, emails, name, subscribers, ret;
-    ret         = true;
-    name        = jQuery('#sender_name');
-    email_addr  = jQuery('#sender_email_address');
-    company     = jQuery('#sender_company_name');
-    subscribers = jQuery('#sender_subscribers');
-    emails      = jQuery('#sender_emails');
-
-    if (name.val() !== '') {
-      name.removeClass('error');
-    } else {
-      name.addClass('error');
-      ret = false;
-    }
-    if (email_addr.val() !== '') {
-      email_addr.removeClass('error');
-    } else {
-      email_addr.addClass('error');
-      ret = false;
-    }
-    if (company.val() !== '') {
-      company.removeClass('error');
-    } else {
-      company.addClass('error');
-      ret = false;
-    }
-    if (subscribers.val() !== '') {
-      subscribers.removeClass('error');
-    } else {
-      subscribers.addClass('error');
-      ret = false;
-    }
-    if (emails.val() !== '') {
-      emails.removeClass('error');
-    } else {
-      emails.addClass('error');
-      ret = false;
-    }
-    return ret;
-  };
-
-  requestDemo = function(e) {
-    console.log('Trying to validate');
-    if (validateForm()) {
-      var url = jQuery('#high-volume-sender-form').attr('action');
-      jQuery.ajax({
-        type: 'POST',
-        url: url,
-        data: jQuery('#high-volume-sender-form').serialize(),
-        success: function(data)
-        {
-           console.log('Demo sent!');
-           jQuery('#high-volume-sender-form').hide();
-           jQuery('#enquire-intro').hide();
-           jQuery('#thanks').show();
-        }
-      });
-    }
-  };
-
-  subscribeBlog = function(e) {
-    var url = jQuery('.js-blog-subscribe-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-subscribe-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-subscribe-form').hide();
-        jQuery('.js-enquire-menu').hide();
-        jQuery('.js-thanks-menu').show();
-      }
-    });
-  };
 
   subscribeBlog2 = function(e) {
     var url = jQuery('.js-blog-subscribe-form-2').attr('action');
@@ -422,19 +332,108 @@ jQuery(document).ready(function() {
   });
 
   // Open subscribe form
-  var form = jQuery('.js-resources-menu-footer');
+  var resourcesHeader           = document.querySelector('.js-resources-header');
+  var openResourcesSubscibeForm = document.querySelector('.js-open-resources-subscribe-form');
 
-  jQuery('.js-open-subscribe-form').on('click', function() {
-    form.addClass('is-active');
+  openResourcesSubscibeForm.addEventListener('click', function() {
+    resourcesHeader.classList.add('is-active');
   });
 
-  jQuery('.js-resources-menu-footer-close').on('click', function() {
-    var formActive = jQuery('.js-resources-menu-footer.is-active');
-    var formOpen   = formActive.length > 0;
+  // Close subscribe form
+  var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-    if (formOpen) {
-      form.removeClass('is-active');
+  closeResourcesSubscibeForm.addEventListener('click', function() {
+    var formActive = resourcesHeader.classList.contains('is-active');
+
+    if (formActive) {
+      resourcesHeader.classList.remove('is-active');
     }
   });
+
+  var subscribeForm = document.querySelector('.subscribe-form');
+
+  jQuery('.js-subscribe-form').each(function(index) {
+    jQuery(this).on('submit', function() {
+      event.preventDefault();
+
+      // needs for recaptacha ready
+      grecaptcha.ready(function() {
+        // do request for recaptcha token
+        // response is promise with passed token
+        grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+
+          // add token to form
+          jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+
+          var formEl = jQuery('.js-subscribe-form');
+
+          jQuery.ajax({
+            type: 'POST',
+            url: formEl.prop('action'),
+            accept: {
+              javascript: 'application/javascript'
+            },
+            data: formEl.serialize()
+          }).done(function(data) {
+            // console.log('submitted');
+
+            var thisForm = jQuery('.js-subscribe-form').eq(index);
+
+            thisForm.addClass('hide');
+
+            if (index == 0) {
+              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
+              var subscribeMsgText = document.createElement('p');
+
+              subscribeMsg.querySelector('h3').textContent = 'Almost there!';
+              subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              subscribeMsg.append(subscribeMsgText);
+            } else if (index == 1) {
+              var successMsgText = document.createElement('h3');
+
+              successMsgText.className = 'no-margin';
+              successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              document.querySelector('.form-box').append(successMsgText);
+            }
+          });
+        });
+      });
+    });
+  });
+
+  // jQuery('.js-subscribe-form').submit(function() {
+  //   // we stoped it
+  //   event.preventDefault();
+  //   console.log('test');
+  //   var email = jQuery('#email-address').val();
+
+  //   // needs for recaptacha ready
+  //   grecaptcha.ready(function() {
+  //     // do request for recaptcha token
+  //     // response is promise with passed token
+  //     grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+
+  //       // add token to form
+  //       jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+
+  //       var formEl = jQuery('.js-subscribe-form');
+  //       var submitButton = jQuery('input[type=submit]', formEl);
+
+  //       jQuery.ajax({
+  //         type: 'POST',
+  //         url: formEl.prop('action'),
+  //         accept: {
+  //           javascript: 'application/javascript'
+  //         },
+  //         data: formEl.serialize()
+  //       }).done(function(data) {
+  //         console.log('submitted');
+  //         // subscribeForm.classList.add('hide');
+  //         // document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
+  //         // document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
+  //       });
+  //     });
+  //   });
+  // });
 
 });

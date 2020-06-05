@@ -74,31 +74,33 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <?php get_search_form(); ?>
     </div>
 
-    <div class="js-resources-menu-footer resources-menu-footer">
-      <div class="resources-menu-footer-wrap">
-        <button class="js-resources-menu-footer-close resources-menu-footer-close ico ico-close hide lg-show"></button>
+    <div class="js-resources-header resources-header">
+      <div class="resources-header-wrap">
+        <button class="js-close-resources-subscribe-form resources-header-close ico ico-close hide lg-show"></button>
         <div class="grid lg-items-center">
           <div class="col-main">
-            <div class="js-enquire-menu enquire-menu">
-              <h3>Insights, tips and tools for creating better customer messaging and product experiences</h3>
-            </div>
-            <div class="js-thanks-menu thanks-menu hide">
-              <h3 class="atomic regular bottom-margin-sm">Almost there!</h3>
-              <p class="no-margin">We've sent you an email to confirm your subscription.</p>
+            <div class="js-subscribe-form-msg stack-xs">
+              <h3 class="semi-bold">Insights, tips and tools for creating better customer messaging and product experiences</h3>
             </div>
           </div>
           <div class="col-aside">
-            <form class="js-blog-subscribe-form blog-subscribe-form" action="https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577" method="post">
-              <div class="flex flex-column lg-flex-row justify-center items-stretch">
-                <input class="form-control input-width-full" id="sender_email_address" name="email" type="email" placeholder="name@mycompany.com">
-                <input name="user[consent_marketing]" type="hidden" value="true">
-                <input name="user[consent_product_updates]" type="hidden" value="true">
-                <input name="event[blog_subscriber_source]" type="hidden" value="popup">
-                <input name="user[contact_by_fax_only]" type="checkbox" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
-                <input class="btn btn-success" type="submit" value="Subscribe to updates">
+            <form class="js-subscribe-form subscribe-form stack-xs"
+              action="https://formkeep.com/f/642bee56a32f"
+              accept-charset="UTF-8"
+              enctype="multipart/form-data"
+              method="POST">
+              <input type="hidden" name="utf8" value="✓">
+
+              <div class="flex">
+                <input class="form-control" type="email" name="email">
+
+                <button class="btn btn-success subscribe_to_blog" type="submit">Subscribe</button>
               </div>
-              <span class="annotation faded">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+
+              <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
+
+            <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer></script>
           </div>
         </div>
 
@@ -106,7 +108,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     </div>
 
-    <button class="js-open-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
+    <button class="js-open-resources-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
   </div>
   <?php $resources_menu = ob_get_clean();
 
@@ -170,23 +172,6 @@ function additional_active_item_classes($classes = array(), $menu_item = false){
       $classes[] = 'current-menu-item';
     }
     return $classes;
-}
-
-function workflows_banner(){
-  if(is_page('homepage')){
-    ?>
-      <div class="homepage-banner">
-        <a class="flex items-center border-bottom-light" href="/workflows">
-          <p class="large banner-heading no-margin right-margin-lg">Introducing <span class="bold">Workflows</span></p>
-          <p class="regular banner-sub-heading no-margin">A brand new way to design, visualize and manage your customer journeys!</p>
-          <span class="regular banner-button">Find out more</span>
-          <span class="regular banner-arrow">
-            <svg height="19" viewBox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg"><path d="m6.328 14.263c-.407.373-.435 1.006-.061 1.413.373.407 1.006.435 1.413.061l5.998-5.498c.432-.396.432-1.078 0-1.474l-5.998-5.502c-.407-.373-1.04-.346-1.413.061s-.346 1.04.061 1.413l5.194 4.764z" fill="#d8d8d8"/></svg>
-          </span>
-        </a>
-      </div>
-    <?php
-  }
 }
 
 // Add description to submenu

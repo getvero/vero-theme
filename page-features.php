@@ -10,20 +10,15 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="features-hero bg-gray-lighter">
-  <?php
-    do_action( 'genesis_before_header' );
-    do_action( 'genesis_header' );
-    do_action( 'genesis_after_header' );
-  ?>
-  <div class="inner tiny-inner flush-bottom center-text">
-    <span class="d-inline-block atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">Features</span>
+  <div class="inner tiny-inner flush-bottom center-text stack-lg">
+    <span class="d-inline-block atomic semi-bold font-brand-gray-dark">Features</span>
 
-    <h1 class="hulk semi-bold bottom-margin-lg">The messaging platform that scales personalization</h1>
+    <h1 class="hulk semi-bold">The messaging platform that scales personalization</h1>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn--secondary btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link talk-to-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
@@ -421,12 +416,12 @@
 </section>
 <section>
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn--gray-darker btn-large btn-outline typeform-share link" id="talk_to_us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link talk-to-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
 
     <p class="annotation faded">No credit card details required</p>

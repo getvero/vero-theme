@@ -1,7 +1,15 @@
 <?php
   include 'pages-shared/static-header.php';
 ?>
+<div class="bg-dark-blue banner z-9999">
+  <a class="font-white negative flex items-center justify-center" href="/drag-and-drop">
+    <p class="center-text">🎉 Better email design with our <strong>new</strong> Drag and Drop editor</p>
+
+    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg>
+  </a>
+</div>
 <?php
+  do_action( 'genesis_before_header' );
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
@@ -14,17 +22,17 @@
         <p class="large md-bottom-margin-md">The messaging platform to get you from idea to production, faster.</p>
 
         <div class="hero-cta flex flex-wrap md-flex-nowrap justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-success btn-large hide sm-show xs-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn--secondary btn-large btn-outline typeform-share link right-margin-xxs" id="talk_to_us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link right-margin-xxs talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
-          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" async></script>
-          <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
           <div class="regular wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim">
-              <img class="align-middle" src="https://s3.amazonaws.com/assets.getvero.com/marketing-redesign/icon/play.svg" alt="Play intro video">
+              <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-              <span class="font-gray-dark">Watch a video</span>
+              <span class="font-brand-gray-dark" style="margin-top: 1px;">Watch a video</span>
             </div>
           </div>
         </div>
@@ -37,6 +45,9 @@
       </div>
       <div class="col-aside">
         <div class="home-hero-imgs relative">
+          <div class="absolute z-999">
+            <svg xmlns="http://www.w3.org/2000/svg" width="741" height="355"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#F15242" d="M1 289h52.74c8.646 0 15.656 7.01 15.656 15.657s-7.01 15.657-15.657 15.657H33.035c-9.302 0-16.843 7.54-16.843 16.843 0 9.302 7.541 16.843 16.843 16.843h164.333"/><path stroke="#01B2D0" d="M338.329 69h94.893c9.477 0 17.16-7.682 17.16-17.16 0-9.476-7.683-17.158-17.16-17.158h-42c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841h35.844"/><path stroke="#FFC111" d="M603.6 353h102.24c9.478 0 17.16-7.682 17.16-17.16 0-9.476-7.682-17.158-17.16-17.158h-32c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841H769"/></g></svg>
+          </div>
           <div class="home-hero-img home-hero-img--1 relative">
           <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
           </div>
@@ -348,9 +359,9 @@
 </section>
 <section class="bg-offwhite">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
