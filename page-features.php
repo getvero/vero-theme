@@ -11,7 +11,7 @@
 ?>
 <section class="features-hero bg-gray-lighter">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
-    <span class="d-inline-block atomic semi-bold font-brand-gray-dark">Features</span>
+    <span class="d-inline-block atomic semi-bold font-gray-dark">Features</span>
 
     <h1 class="hulk semi-bold">The messaging platform that scales personalization</h1>
 
