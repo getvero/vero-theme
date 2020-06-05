@@ -1120,7 +1120,7 @@ include 'pages-shared/static-header.php';
           <div class="js-pricing-customer-slider pricing-customer-slider"></div>
         </div>
 
-        <div class="flex pricing-overage-slider-footer border-bottom bottom-padding-md">
+        <div class="flex pricing-overage-values border-bottom bottom-padding-md">
           <div class="stack-xxxs">
             <h4>Messages</h4>
             <div class="js-pricing-messages-value atomic regular font-gray-dark"></div>
