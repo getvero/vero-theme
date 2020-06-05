@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-  if (jQuery('body').hasClass('pricing')) {
+  if (document.body.classList.contains('pricing')) {
     var pricingSlider = document.querySelector('.js-pricing-customer-slider');
 
     var allSliderRanges = {
