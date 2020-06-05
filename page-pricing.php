@@ -1112,21 +1112,23 @@ include 'pages-shared/static-header.php';
 
   <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
-      <h3>How many customers do you have?</h3>
+      <div class="stack-md">
+        <div class="stack-xs">
+          <h3>How many customers do you have?</h3>
 
-      <div class="stack-sm">
-        <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
-        <div class="js-pricing-customer-slider pricing-customer-slider"></div>
+          <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
+          <div class="js-pricing-customer-slider pricing-customer-slider"></div>
+        </div>
 
         <div class="flex pricing-overage-slider-footer border-bottom bottom-padding-md">
           <div class="stack-xxxs">
             <h4>Messages</h4>
-            <div class="js-pricing-messages-value regular font-gray-dark"></div>
+            <div class="js-pricing-messages-value atomic regular font-gray-dark"></div>
           </div>
 
           <div class="stack-xxxs">
             <h4>Data points</h4>
-            <div class="js-pricing-data-points-value regular font-gray-dark"></div>
+            <div class="js-pricing-data-points-value atomic regular font-gray-dark"></div>
           </div>
         </div>
 
@@ -1174,8 +1176,9 @@ include 'pages-shared/static-header.php';
         <div>
           <h4 class="atomic semi-bold no-margin">Your total payment</h4>
         </div>
-        <div class="atomic semi-bold right-text">
-          $<span class="js-pricing-total-cost"></span>
+        <div class="right-text">
+          <span class="atomic semi-bold">$<span class="js-pricing-total-cost"></span></span>
+          <span class="font-gray-dark">/mo</span>
         </div>
       </div>
 

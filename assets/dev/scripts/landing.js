@@ -3,10 +3,10 @@ jQuery(document).ready(function() {
     var pricingSlider = document.querySelector('.js-pricing-customer-slider');
 
     var allSliderRanges = {
-      'min': [2000, 1000],
+      'min'   : [2000, 1000],
       '33.33%': [15000, 1000],
       '66.66%': [75000, 1000],
-      'max': [250000]
+      'max'   : 250000
     };
 
     noUiSlider.create(pricingSlider, {
@@ -137,20 +137,18 @@ jQuery(document).ready(function() {
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
             pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
             pricingTotalCost.textContent                = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
-
-            // console.log('The additional price ' + numberFormat.from(pricingAdditionalPriceValue.textContent));
           });
 
-          if (index) {
-            console.log('Clicking on ' + pricingPlans[index].name);
+          // if (index) {
+          //   console.log('Clicking on ' + pricingPlans[index].name);
 
-            // Disable handle
-            pricingSlider.noUiSlider.on('change', function (values, handle) {
-              if (pricingPlans[index].name) {
-                // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-              }
-            });
-          }
+          //   // Disable handle
+          //   pricingSlider.noUiSlider.on('change', function (values, handle) {
+          //     if (pricingPlans[index].name) {
+          //       // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+          //     }
+          //   });
+          // }
 
           var planValue = [];
           var formatTest = {
@@ -162,12 +160,14 @@ jQuery(document).ready(function() {
             }
           };
 
+          pricingSlider.removeAttribute('disabled');
+
           if (pricingPlans[index].name == 'Starter') {
             allSliderRanges = {
               'min': [2000, 1000],
               '33.33%': [15000, 1000],
               '66.66%': [75000, 1000],
-              'max': [250000]
+              'max': 250000
             };
 
             planValue = [2000, 15000, 75000, 250000]
@@ -175,48 +175,48 @@ jQuery(document).ready(function() {
             allSliderRanges = {
               'min': [10000, 1000],
               '50%': [125000, 1000],
-              'max': [250000]
+              'max': 250000
             };
 
-            planValue = [10000, 75000, 250000]
+            planValue = [10000, 125000, 250000]
           } else if (pricingPlans[index].name == 'Growth') {
             allSliderRanges = {
               'min': [75000, 1000],
               '50%': [150000, 1000],
-              'max': [250000]
+              'max': 250000
             };
 
              planValue = [75000, 150000, 250000]
           } else if (pricingPlans[index].name == 'Enterprise') {
+            pricingSlider.setAttribute('disabled', true);
+
             allSliderRanges = {
-              'min': [250000, 1000],
-              'max': [300000]
+              'min': [75000, 1000],
+              '50%': [17500, 1000],
+              'max': 250000
             };
 
-            planValue = [2000, 250000]
+            planValue = [75000, 17500, 250000]
 
             formatTest = {
-              decimals: 3,
+              decimals: 0,
               thousand: ',',
-              suffix  : 'k',
-              edit: function(value, original) {
-                if (original == 300000) {
-                  return value + '+';
-                }
-              }
+              suffix  : 'k'
             }
           }
+
+          // console.log(original);
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
             start: 0,
             range: allSliderRanges,
-            pips   : {
+            pips: {
               mode   : 'values',
               values : planValue,
               density: 100,
               stepped: true,
-              format: wNumb(formatTest)
+              format : wNumb(formatTest)
             }
           });
 
@@ -261,11 +261,11 @@ jQuery(document).ready(function() {
     planSwitcher(secondaryLinks);
 
     // Dropdown
-    var dropdown = document.querySelector('.js-pricing-plan-dropdown');
+    // var dropdown = document.querySelector('.js-pricing-plan-dropdown');
 
-    pricingPlanName.addEventListener('click', function() {
-      dropdown.classList.toggle('fade');
-    });
+    // pricingPlanName.addEventListener('click', function() {
+    //   dropdown.classList.toggle('fade');
+    // });
   }
 
   // Slider for careers page
