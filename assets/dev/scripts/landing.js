@@ -89,18 +89,17 @@ jQuery(document).ready(function() {
       pricingDataPointsValue.textContent = numberFormat.to(numberFormat.from(values[handle]) * 500);
 
       if (values[handle] == numberFormat.to(10000)) {
-        pricingMessagesValue.textContent = numberFormat.to(75000);
+        // pricingMessagesValue.textContent = numberFormat.to(75000);
       }
     });
 
-    // Switch overage calculator based on plan
     var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
     var secondaryLinks   = document.querySelectorAll('.js-test');
 
     var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
     var pricingPlanPrice    = document.querySelector('.js-pricing-plan-price');
-    var pricingOverageTotal = document.querySelector('.js-pricing-total-overage-cost');
 
+    // Switch overage calculator based on plan
     function planSwitcher(links) {
       for (const [index, link] of links.entries()) {
         link.addEventListener('click', function() {
@@ -137,8 +136,10 @@ jQuery(document).ready(function() {
 
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
             pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
-            pricingTotalCost.textContent = Number(pricingAdditionalPriceValue.innerHTML) + pricingPlans[index].price;
+            pricingTotalCost.textContent                = Number(pricingAdditionalPriceValue.innerHTML) + pricingPlans[index].price;
 
+            console.log('This is the plan price ' + pricingPlans[index].price);
+            console.log('This is the additional price ' + parseInt(pricingAdditionalPriceValue.textContent));
           });
 
           if (index) {
@@ -152,16 +153,25 @@ jQuery(document).ready(function() {
             });
           }
 
-          var planValue = [2000, 15000, 75000, 250000];
+          var planValue = [];
 
-          if (pricingPlans[index].name == 'Pro') {
+          if (pricingPlans[index].name == 'Starter') {
+            allSliderRanges = {
+              'min': [2000, 1000],
+              '33.33%': [15000, 1000],
+              '66.66%': [75000, 1000],
+              'max': [250000]
+            };
+
+            planValue = [2000, 15000, 75000, 250000]
+          } else if (pricingPlans[index].name == 'Pro ') {
             allSliderRanges = {
               'min': [10000, 1000],
               '50%': [75000, 1000],
               'max': [250000]
             };
 
-             planValue = [10000, 75000, 250000]
+            planValue = [10000, 75000, 250000]
           } else if (pricingPlans[index].name == 'Growth') {
             allSliderRanges = {
               'min': [75000, 1000],
@@ -285,26 +295,25 @@ jQuery(document).ready(function() {
     }
   });
 
-  // Open subscribe form
-  var resourcesHeader           = document.querySelector('.js-resources-header');
-  var openResourcesSubscibeForm = document.querySelector('.js-open-resources-subscribe-form');
-
-  openResourcesSubscibeForm.addEventListener('click', function() {
-    resourcesHeader.classList.add('is-active');
-  });
-
-  // Close subscribe form
+  var resourcesHeader            = document.querySelector('.js-resources-header');
+  var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
   var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-  closeResourcesSubscibeForm.addEventListener('click', function() {
-    var formActive = resourcesHeader.classList.contains('is-active');
+  if (resourcesHeader) {
+    // Open subscribe form
+    openResourcesSubscibeForm.addEventListener('click', function() {
+      resourcesHeader.classList.add('is-active');
+    });
 
-    if (formActive) {
-      resourcesHeader.classList.remove('is-active');
-    }
-  });
+    // Close subscribe form
+    closeResourcesSubscibeForm.addEventListener('click', function() {
+      var formActive = resourcesHeader.classList.contains('is-active');
 
-  var subscribeForm = document.querySelector('.subscribe-form');
+      if (formActive) {
+        resourcesHeader.classList.remove('is-active');
+      }
+    });
+  }
 
   jQuery('.js-subscribe-form').each(function(index) {
     jQuery(this).on('submit', function() {
