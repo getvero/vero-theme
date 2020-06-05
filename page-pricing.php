@@ -1114,67 +1114,73 @@ include 'pages-shared/static-header.php';
     <div class="pricing-overage-calculator-body">
       <h3>How many customers do you have?</h3>
 
-
-      <div class="stack-sm border-bottom">
+      <div class="stack-sm">
         <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
         <div class="js-pricing-customer-slider pricing-customer-slider"></div>
 
-        <div class="flex pricing-overage-slider-footer">
-          <div class="stack-sm">
-            <h3>Messages</h3>
-            <span class="js-pricing-messages-value regular font-gray-dark"></span>
+        <div class="flex pricing-overage-slider-footer border-bottom bottom-padding-md">
+          <div class="stack-xxxs">
+            <h4>Messages</h4>
+            <div class="js-pricing-messages-value regular font-gray-dark"></div>
           </div>
 
-          <div class="stack-sm">
-            <h3>Data points</h3>
-            <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+          <div class="stack-xxxs">
+            <h4>Data points</h4>
+            <div class="js-pricing-data-points-value regular font-gray-dark"></div>
           </div>
         </div>
-      </div>
 
-      <p class="annotation font-gray-dark">To keep things simple, we charge overage based on the one customer metric.</p>
+        <p class="annotation font-gray-dark">To keep things simple, we charge overage based on the one customer metric.</p>
+      </div>
     </div>
 
-    <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-sm">
-      <div class="flex">
-        <div>
-          <span class="atomic semi-bold">Plan</span>
-          <div class="relative">
-            <span class="js-pricing-plan-name pointer show">Starter</span>
+    <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-md">
+      <div class="stack-sm">
+        <div class="flex">
+          <div>
+            <h4 class="atomic semi-bold no-margin">Plan</h4>
+            <div class="relative">
+              <div class="js-pricing-plan-name regular font-gray-dark pointer">Starter</div>
 
-            <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
-              <div class="js-yolo"></div>
-              <ul class="unstyled-list no-margin stack-xxs">
-                <li class="js-test is-active">Starter</li>
-                <li class="js-test">Pro</li>
-                <li class="js-test">Growth</li>
-                <li class="js-test">Enterprise</li>
-              </ul>
+              <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
+                <ul class="unstyled-list no-margin stack-xxs">
+                  <li class="js-test is-active">Starter</li>
+                  <li class="js-test">Pro</li>
+                  <li class="js-test">Growth</li>
+                  <li class="js-test">Enterprise</li>
+                </ul>
+              </div>
             </div>
           </div>
-          </select>
+          <div class="right-text">
+            <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span>
+            <span class="font-gray-dark">/mo</span>
+          </div>
         </div>
-        <div class="atomic semi-bold right-text">$<span class="js-pricing-plan-price">49</span>/mo</div>
+
+        <div class="flex border-bottom bottom-padding-md">
+          <div>
+            <h4 class="atomic semi-bold no-margin">Additional customers</h4>
+            <div class="js-pricing-additional-customers regular font-gray-dark"></div>
+          </div>
+          <div class="right-text">
+            <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span>
+            <span class="font-gray-dark">/mo</span>
+          </div>
+        </div>
       </div>
 
       <div class="flex">
         <div>
-          <span class="atomic semi-bold">Additional customers</span>
-          <span class="js-pricing-additional-customers show"></span>
-        </div>
-        <div class="atomic semi-bold right-text">$<span class="js-pricing-additional-price">49</span>/mo</div>
-      </div>
-
-      <div class="flex">
-        <div>
-          <span class="atomic semi-bold">Your total payment</span>
+          <h4 class="atomic semi-bold no-margin">Your total payment</h4>
         </div>
         <div class="atomic semi-bold right-text">
           $<span class="js-pricing-total-cost"></span>
         </div>
       </div>
 
-    <a class="btn btn--large btn--success full-width" href="#none">Try for free</a>
+      <a class="btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
+    </div>
   </div>
 </section>
 <?php
