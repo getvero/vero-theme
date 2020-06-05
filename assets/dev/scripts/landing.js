@@ -375,39 +375,18 @@ jQuery(document).ready(function() {
     });
   });
 
-  // jQuery('.js-subscribe-form').submit(function() {
-  //   // we stoped it
-  //   event.preventDefault();
-  //   console.log('test');
-  //   var email = jQuery('#email-address').val();
+  // Add lax to Drag and Drop
+  if (document.body.classList.contains('drag-and-drop')) {
+    window.onload = function() {
+      lax.setup() // init
 
-  //   // needs for recaptacha ready
-  //   grecaptcha.ready(function() {
-  //     // do request for recaptcha token
-  //     // response is promise with passed token
-  //     grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
 
-  //       // add token to form
-  //       jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
-
-  //       var formEl = jQuery('.js-subscribe-form');
-  //       var submitButton = jQuery('input[type=submit]', formEl);
-
-  //       jQuery.ajax({
-  //         type: 'POST',
-  //         url: formEl.prop('action'),
-  //         accept: {
-  //           javascript: 'application/javascript'
-  //         },
-  //         data: formEl.serialize()
-  //       }).done(function(data) {
-  //         console.log('submitted');
-  //         // subscribeForm.classList.add('hide');
-  //         // document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
-  //         // document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
-  //       });
-  //     });
-  //   });
-  // });
+      window.requestAnimationFrame(updateLax)
+    }
+  }
 
 });
