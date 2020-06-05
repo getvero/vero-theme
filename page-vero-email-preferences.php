@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 add_filter( 'body_class', 'add_class' );
 function add_class($classes) {
   global $post;
 
   $classes[] = 'preferences';
-  return $classes;  
+  return $classes;
 }
 
 include 'pages-shared/static-header.php';
@@ -54,13 +54,13 @@ if(isset($_GET['v_id'])) {
           <p>We're beta testing a new API that lets you read user data <strong>from Vero</strong>. We created this preference page using our own Vero account (yep, we use Vero at Vero!)</p>
           <p>In fact, we put this blue box here because we know you have a paid Vero account.</p>
           <p>Sound interesting? This feature is currently available for beta testing. <a href="mailto:support@getvero.com?subject=I want to try the open API">Send us an email</a> and we'll share access.</p>
-          <a href="mailto:support@getvero.com?subject=I want to try the open API" class="btn btn-warning">Email us</a>
+          <a href="mailto:support@getvero.com?subject=I want to try the open API" class="btn btn--warning">Email us</a>
         </aside>
       <?php } else { ?>
         <aside id="right">
           <h3>Want a preference page like this?</h3>
           <p>Vero is the world's premier marketing platform for personalising your customer messages. You can use our free trial for 14 days, and pricing starts at just $99/month.</p>
-          <a href="https://app.getvero.com/signup" class="btn btn-warning">Start your trial</a>
+          <a href="https://app.getvero.com/signup" class="btn btn--warning">Start your trial</a>
         </aside>
       <?php } ?>
 
@@ -69,7 +69,7 @@ if(isset($_GET['v_id'])) {
           <li>
             <h4>You are completely unsubscribed</h4>
             <p>It looks like you're completely unsubscribed from all Vero emails. That's cool, we respect it. If you want, you can resubscribe and adjust your preferences for receiving blog articles, Vero product updates and other emails.</p>
-            <p><a href="?resubscribe=true&v_id=<?php echo $id; ?>" id="resubscribe" class="btn btn-success">Resubscribe and manage preferences</a></p>
+            <p><a href="?resubscribe=true&v_id=<?php echo $id; ?>" id="resubscribe" class="btn btn--success">Resubscribe and manage preferences</a></p>
           </li>
         </ul>
 
@@ -130,7 +130,7 @@ if(isset($_GET['v_id'])) {
   </section>
 </div>
 
-<?php 
+<?php
   wp_footer();
   add_page_tracking_code("PreferencePage");
 ?>

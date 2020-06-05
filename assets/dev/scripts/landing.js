@@ -136,10 +136,9 @@ jQuery(document).ready(function() {
 
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
             pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
-            pricingTotalCost.textContent                = Number(pricingAdditionalPriceValue.innerHTML) + pricingPlans[index].price;
+            pricingTotalCost.textContent                = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
 
-            console.log('This is the plan price ' + pricingPlans[index].price);
-            console.log('This is the additional price ' + parseInt(pricingAdditionalPriceValue.textContent));
+            console.log('The additional price ' + numberFormat.from(pricingAdditionalPriceValue.textContent));
           });
 
           if (index) {
@@ -164,10 +163,10 @@ jQuery(document).ready(function() {
             };
 
             planValue = [2000, 15000, 75000, 250000]
-          } else if (pricingPlans[index].name == 'Pro ') {
+          } else if (pricingPlans[index].name == 'Pro') {
             allSliderRanges = {
               'min': [10000, 1000],
-              '50%': [75000, 1000],
+              '50%': [125000, 1000],
               'max': [250000]
             };
 
@@ -182,8 +181,8 @@ jQuery(document).ready(function() {
              planValue = [75000, 150000, 250000]
           } else if (pricingPlans[index].name == 'Enterprise') {
             allSliderRanges = {
-              'min': [2000, 1000],
-              'max': [250000]
+              'min': [250000, 1000],
+              'max': [300000]
             };
 
              planValue = [2000, 250000]

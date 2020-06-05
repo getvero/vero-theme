@@ -82,7 +82,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a class="btn btn--outline btn-success full-width top-margin-auto" href="">Try for free</a>
+          <a class="btn btn--outline btn--success full-width top-margin-auto" href="">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column">
@@ -150,7 +150,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a href="" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+          <a href="" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column relative">
@@ -213,7 +213,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a href="#none" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+          <a href="#none" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column">
@@ -280,7 +280,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((49 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div><span class="tubs semi-bold">$<?php echo number_format(floor((49 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -327,7 +327,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a class="btn btn--outline btn-success full-width top-margin-auto" href="">Try for free</a>
+          <a class="btn btn--outline btn--success full-width top-margin-auto" href="">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column">
@@ -338,7 +338,8 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((199 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+
+            <div><span class="tubs semi-bold">$<?php echo number_format(floor((199 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -395,7 +396,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a href="" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+          <a href="" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column relative">
@@ -406,7 +407,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div><span class="tubs semi-bold">$<?php echo number_format((599 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div><span class="tubs semi-bold">$<?php echo number_format(floor((599 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -458,7 +459,7 @@ include 'pages-shared/static-header.php';
             </ul>
           </div>
 
-          <a href="#none" class="btn btn--outline btn-success full-width top-margin-auto">Try for free</a>
+          <a href="#none" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
         </div>
       </div>
       <div class="flex flex-column">
@@ -469,7 +470,7 @@ include 'pages-shared/static-header.php';
         <div class="pricing-plan-table-body flex flex-column">
           <div class="stack-xxs">
             <span class="font-gray-dark show regular annotation">Starting at</span>
-            <div class="show"><span class="tubs semi-bold">$<?php echo number_format((1299 * 12) * 0.9, 2); ?></span><span class="font-gray-dark">/yr</span></div>
+            <div><span class="tubs semi-bold">$<?php echo number_format(floor((1299 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
           </div>
 
           <div class="stack-xxs">
@@ -1101,7 +1102,7 @@ include 'pages-shared/static-header.php';
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
@@ -1168,7 +1169,7 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
 
-    <a class="btn btn-large btn--success full-width" href="#none">Try for free</a>
+    <a class="btn btn--large btn--success full-width" href="#none">Try for free</a>
   </div>
 </section>
 <?php

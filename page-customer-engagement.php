@@ -19,7 +19,7 @@
       <p class="tubs bottom-margin-lg">Send email and push notifications that drive customer engagement and increase revenue</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large md-right-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -56,7 +56,7 @@
 
         <p class="medium bottom-margin-md">Workflows help you visualize your customer experience as you build it. It makes even the most complex customer journeys easy to manage.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Streamline your workflows</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/workflows">Streamline your workflows</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -72,7 +72,7 @@
 
         <p class="medium bottom-margin-md">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data. You can feel confident in sending the right message, at the right time.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">See your customer data</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/event-manager">See your customer data</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -96,7 +96,7 @@
       <div class="col md-right-text">
         <p class="medium bottom-margin-md">Add dynamic content to your email and push notifications using Liquid.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/email-personalization-liquid-guide">Personalize your content</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/email-personalization-liquid-guide">Personalize your content</a>
         </a>
       </div>
       <div class="col-aside flex justify-center">
@@ -109,7 +109,7 @@
 
         <p class="medium bottom-margin-md">Send customers account usage updates, tailored product recommendations and more.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/fusion">Load data from it's source</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/fusion">Load data from it's source</a>
       </div>
     </div>
   </div>
@@ -124,7 +124,7 @@
 
         <p class="medium bottom-margin-md">Test and optimize your customer journeys to drive more growth for your business. Easily design and manage your A/B tests with Vero's flexible and powerful features.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns">Robust A/B testing</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="https://help.getvero.com/articles/a-b-testing-email-campaigns">Robust A/B testing</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -141,7 +141,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
