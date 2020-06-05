@@ -153,6 +153,14 @@ jQuery(document).ready(function() {
           }
 
           var planValue = [];
+          var formatTest = {
+            decimals: 0,
+            thousand: ',',
+            suffix  : 'k',
+            encoder: function(value) {
+              return value / 1000;
+            }
+          };
 
           if (pricingPlans[index].name == 'Starter') {
             allSliderRanges = {
@@ -185,7 +193,18 @@ jQuery(document).ready(function() {
               'max': [300000]
             };
 
-             planValue = [2000, 250000]
+            planValue = [2000, 250000]
+
+            formatTest = {
+              decimals: 3,
+              thousand: ',',
+              suffix  : 'k',
+              edit: function(value, original) {
+                if (original == 300000) {
+                  return value + '+';
+                }
+              }
+            }
           }
 
           // Update slider range based on customers per plan
@@ -197,14 +216,7 @@ jQuery(document).ready(function() {
               values : planValue,
               density: 100,
               stepped: true,
-              format: wNumb({
-                decimals: 0,
-                thousand: ',',
-                suffix  : 'k',
-                encoder: function(value) {
-                  return value / 1000;
-                }
-              })
+              format: wNumb(formatTest)
             }
           });
 
