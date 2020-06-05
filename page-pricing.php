@@ -1107,27 +1107,32 @@ include 'pages-shared/static-header.php';
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
-  <h2>Overage calculator</h2>
+<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-md">
+  <h2 class="center-text">Overage calculator</h2>
 
   <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
       <h3>How many customers do you have?</h3>
 
-      <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
-      <div class="js-pricing-customer-slider pricing-customer-slider" id="html5"></div>
 
-      <div class="flex pricing-overage-slider-footer">
-        <div class="stack-sm">
-          <h3>Messages</h3>
-          <span class="js-pricing-messages-value regular font-gray-dark"></span>
-        </div>
+      <div class="stack-sm border-bottom">
+        <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
+        <div class="js-pricing-customer-slider pricing-customer-slider"></div>
 
-        <div class="stack-sm">
-          <h3>Data points</h3>
-          <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+        <div class="flex pricing-overage-slider-footer">
+          <div class="stack-sm">
+            <h3>Messages</h3>
+            <span class="js-pricing-messages-value regular font-gray-dark"></span>
+          </div>
+
+          <div class="stack-sm">
+            <h3>Data points</h3>
+            <span class="js-pricing-data-points-value regular font-gray-dark"></span>
+          </div>
         </div>
       </div>
+
+      <p class="annotation font-gray-dark">To keep things simple, we charge overage based on the one customer metric.</p>
     </div>
 
     <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-sm">
