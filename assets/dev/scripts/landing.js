@@ -165,24 +165,25 @@ jQuery(document).ready(function() {
     }
   });
 
-  // Open subscribe form
-  var resourcesHeader           = document.querySelector('.js-resources-header');
-  var openResourcesSubscibeForm = document.querySelector('.js-open-resources-subscribe-form');
-
-  openResourcesSubscibeForm.addEventListener('click', function() {
-    resourcesHeader.classList.add('is-active');
-  });
-
-  // Close subscribe form
+  var resourcesHeader            = document.querySelector('.js-resources-header');
+  var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
   var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-  closeResourcesSubscibeForm.addEventListener('click', function() {
-    var formActive = resourcesHeader.classList.contains('is-active');
+  if (resourcesHeader) {
+    // Open subscribe form
+    openResourcesSubscibeForm.addEventListener('click', function() {
+      resourcesHeader.classList.add('is-active');
+    });
 
-    if (formActive) {
-      resourcesHeader.classList.remove('is-active');
-    }
-  });
+    // Close subscribe form
+    closeResourcesSubscibeForm.addEventListener('click', function() {
+      var formActive = resourcesHeader.classList.contains('is-active');
+
+      if (formActive) {
+        resourcesHeader.classList.remove('is-active');
+      }
+    });
+  }
 
   var subscribeForm = document.querySelector('.subscribe-form');
 
