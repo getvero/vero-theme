@@ -1161,7 +1161,7 @@ include 'pages-shared/static-header.php';
 
       <div class="flex">
         <div>
-          <span>Your total payment</span>
+          <span class="atomic semi-bold">Your total payment</span>
         </div>
         <div class="atomic semi-bold right-text">
           $<span class="js-pricing-total-cost"></span>
