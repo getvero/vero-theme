@@ -10,17 +10,17 @@ function add_class($classes) {
 
 include 'pages-shared/static-header.php';
 ?>
-<section class="hero pricing-hero stack-lg">
-  <div class="inner tiny-inner center-text stack-sm">
-    <h1 class="biggie semi-bold">Simple pricing that helps you scale your business</h1>
+<section class="hero pricing-hero">
+  <div class="inner center-text stack-xs">
+    <h1 class="biggie semi-bold">Simple pricing that scales your business</h1>
     <p class="large">We’ve got plans to suit everyone.</p>
   </div>
-  <div class="inner xlarge-inner stack-md">
+  <div class="inner xlarge-inner stack-lg flush-top">
     <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
     <input class="hide pricing-radio-2" id="pricing-tab-2" type="radio" name="pricing-tabs">
 
-    <div class="tab-switcher center-text">
-      <div class="pricing-tab-labels inline-flex shadow-1 border border-radius-2 padding-xxs">
+    <div class="tab-switcher center-text no-top-margin">
+      <div class="pricing-tab-labels bg-white inline-flex shadow-1 border border-radius-2 padding-xxs">
         <label class="pricing-tab-label pricing-tab-label--1" for="pricing-tab-1">Monthly</label>
         <label class="pricing-tab-label pricing-tab-label--2" for="pricing-tab-2">Annually</label>
       </div>
@@ -516,12 +516,11 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
     </div>
-
-    <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
   </div>
+  <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
 </section>
-<section class="double-padding">
-  <div class="inner large-inner center-text stack-md">
+<section class="bg-dark-blue-lighter">
+  <div class="inner large-inner center-text stack-sm">
     <h2 class="micro semi-bold font-gray-dark">Trusted by leading brands</h2>
 
     <ul class="unstyled-list home-hero-logo-list flex flex-wrap justify-center">
@@ -585,7 +584,9 @@ include 'pages-shared/static-header.php';
       <div class="stack-lg">
         <div class="pricing-feature-table">
           <div class="pricing-feature-table-row flex border-bottom-light">
-            <div>
+            <div class="flex">
+              <svg class="right-margin-xxxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g><rect stroke="#01B2D0" fill="#FFF" x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M4.113 6.124l7.229 6.302a1 1 0 001.315 0l7.204-6.302h0" stroke="#CFCFCF" stroke-linecap="round"/></g></g></svg>
+
               <strong class="medium regular">Message Automation</strong>
             </div>
             <div>
@@ -707,7 +708,9 @@ include 'pages-shared/static-header.php';
 
         <div class="pricing-feature-table">
           <div class="pricing-feature-table-row flex border-bottom-light">
-            <div>
+            <div class="flex items-center">
+              <svg class="right-margin-xxxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h24v24H0z"/><g fill="#FFF" stroke-linecap="square" stroke-linejoin="round"><path stroke="#FFC111" d="M14.268 6.697l3.535 3.535-6.364 6.364-3.535-3.535z"/><path d="M15.682 5.282l3.536 3.536 1.414-1.414a2 2 0 000-2.829l-.707-.707a2 2 0 00-2.829 0l-1.414 1.414h0zM4.722 19.778l5.303-1.768-3.535-3.535z" stroke="#CFCFCF"/></g><path stroke="#FFC111" stroke-linecap="round" d="M3.5 21.5h-3"/></g></svg>
+
               <strong class="medium regular">Design, branding &amp; customization</strong>
             </div>
             <div>
@@ -784,7 +787,9 @@ include 'pages-shared/static-header.php';
 
         <div class="pricing-feature-table">
           <div class="pricing-feature-table-row flex border-bottom-light">
-            <div>
+            <div class="flex">
+              <svg class="right-margin-xxxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h24v24H0z"/><path stroke="#6FD350" stroke-linecap="round" stroke-linejoin="round" d="M7 7l-5 5 5 5M17 7l5 5-5 5"/><path stroke="#CFCFCF" stroke-linecap="round" d="M16 3.5l-8 17"/></g></svg>
+
               <strong class="medium regular">Developer tooling</strong>
             </div>
             <div>
@@ -891,7 +896,9 @@ include 'pages-shared/static-header.php';
 
         <div class="pricing-feature-table">
           <div class="pricing-feature-table-row flex border-bottom-light">
-            <div>
+            <div class="flex">
+              <svg class="right-margin-xxxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g><path d="M7 9.97V7.326h0C7 4.385 9.244 2 12 2h0c2.761 0 5 2.39 5 5.336V10" stroke="#E1E1E1"/><rect stroke="#FFC111" fill="#FFF" x="4.5" y="9.5" width="15" height="13" rx="2"/></g></g></svg>
+
               <strong class="medium regular">Security &amp; privacy</strong>
             </div>
             <div>
@@ -953,7 +960,9 @@ include 'pages-shared/static-header.php';
 
         <div class="pricing-feature-table">
           <div class="pricing-feature-table-row flex border-bottom-light">
-            <div>
+            <div class="flex items-center">
+              <svg class="right-margin-xxxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(1 1)" fill="#FFF"><path d="M21 16.5L.5 17v3c0 .414.168.79.44 1.06.27.272.646.44 1.06.44h18c.414 0 .79-.168 1.06-.44.272-.27.44-.646.44-1.06l-.5-3.5zM21.438 16.5H.562L2.29 1.825A1.497 1.497 0 013.779.5h14.443a1.497 1.497 0 011.49 1.325L21.437 16.5z" stroke="#6FD350"/><path d="M11 3a5 5 0 00-5 5m5 5a5 5 0 005-5" stroke="#E1E2E5" stroke-linecap="round"/><circle stroke="#E1E2E5" cx="14" cy="19" r="1"/><circle stroke="#E1E2E5" cx="18" cy="19" r="1"/></g></g></svg>
+
               <strong class="medium regular">Data handling &amp; message quotas</strong>
             </div>
             <div>
@@ -1009,6 +1018,85 @@ include 'pages-shared/static-header.php';
             </div>
             <div class="flex items-center justify-center">
               125M
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-feature-table">
+          <div class="pricing-feature-table-row flex border-bottom-light">
+            <div class="flex items-center">
+              <svg class="right-margin-xxxs" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><circle stroke="#354254" stroke-width=".75" opacity=".404" cx="5" cy="5" r="4.625"/><circle stroke="#354254" stroke-width=".75" opacity=".404" cx="17" cy="5" r="4.625"/><circle stroke="#354254" stroke-width=".75" opacity=".404" cx="17" cy="17" r="4.625"/><circle stroke="#354254" stroke-width=".75" opacity=".404" cx="5" cy="17" r="4.625"/><circle stroke="#F15242" fill="#FFF" cx="11" cy="11" r="9.5"/><circle stroke="#F15242" fill="#FFF" cx="11" cy="11" r="4.5"/><g fill="#F15242"><path d="M9 2h1v5H9zM12 2h1v5h-1z"/></g><g fill="#F15242"><path d="M9 15h1v5H9zM12 15h1v5h-1z"/></g><g fill="#F15242"><path d="M20.5 9v1h-5V9zM20.5 12v1h-5v-1z"/></g><g fill="#F15242"><path d="M6.5 9v1h-5V9zM6.5 12v1h-5v-1z"/></g></g></g></svg>
+
+              <strong class="medium regular">Support</strong>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+          </div>
+
+          <div class="annotation pricing-feature-table-row flex border-bottom-light">
+            <div class="strong">Guides and Tutorials</div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+          </div>
+          <div class="annotation pricing-feature-table-row flex border-bottom-light">
+            <div class="strong">Email Support</div>
+            <div class="flex items-center justify-center">
+              30 days free on signup
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+          </div>
+          <div class="annotation pricing-feature-table-row flex border-bottom-light">
+            <div class="strong">Priority Response</div>
+            <div class="flex items-center justify-center mti_font_element">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
+            </div>
+            <div class="flex items-center justify-center mti_font_element">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
+            </div>
+          </div>
+          <div class="annotation pricing-feature-table-row flex border-bottom-light">
+            <div class="strong">Live Chat Support (via Slack)</div>
+            <div class="flex items-center justify-center mti_font_element">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
+            </div>
+            <div class="flex items-center justify-center mti_font_element">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
+            </div>
+            <div class="flex items-center justify-center mti_font_element">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
+            </div>
+            <div class="flex items-center justify-center">
+              <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
             </div>
           </div>
         </div>
@@ -1099,7 +1187,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="bg-gray-lighter">
-  <div class="inner tiny-inner center-text">
+  <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <a class="btn btn--success btn--large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
