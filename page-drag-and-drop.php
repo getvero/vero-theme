@@ -253,7 +253,7 @@
 </section>
 <section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom">
   <div class="inner tiny-inner center-text relative z-1">
-    <span class="show font-brand-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
+    <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
