@@ -19,7 +19,7 @@ include 'pages-shared/static-header.php';
     <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
     <input class="hide pricing-radio-2" id="pricing-tab-2" type="radio" name="pricing-tabs">
 
-    <div class="pricing-tabs stack-md">
+    <div class="pricing-tab-tables stack-md">
       <div class="stack-lg">
         <div class="tab-switcher center-text no-top-margin">
           <div class="pricing-tab-labels bg-white inline-flex shadow-1 border border-radius-2 padding-xxs">
