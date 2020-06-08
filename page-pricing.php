@@ -562,7 +562,7 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section>
+<section class="hide md-show">
   <div class="inner large-inner stack-lg">
     <h2 class="chunk semi-bold center-text">Feature comparison</h2>
 
@@ -1111,7 +1111,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="double-padding">
   <div class="inner small-inner">
-    <h2 class="chunk regular center-text bottom-margin-xl">Frequently Asked Questions</h2>
+    <h2 class="chunk semi-bold center-text bottom-margin-xl">Frequently Asked Questions</h2>
 
     <ul class="unstyled-list stack-md pricing-questions">
       <li>
