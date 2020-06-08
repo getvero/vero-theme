@@ -92,7 +92,8 @@ jQuery(document).ready(function() {
     });
 
     var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
-    var secondaryLinks   = document.querySelectorAll('.js-test');
+    // var secondaryLinks   = document.querySelectorAll('.js-test');
+    var secondaryLinks   = document.querySelectorAll('.js-overage-calculator-annual');
 
     var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
     var pricingPlanPrice    = document.querySelector('.js-pricing-plan-price');
@@ -137,16 +138,16 @@ jQuery(document).ready(function() {
             pricingTotalCost.textContent                = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
           });
 
-          // if (index) {
-          //   console.log('Clicking on ' + pricingPlans[index].name);
+          if (index) {
+            console.log('Clicking on ' + pricingPlans[index].name);
 
-          //   // Disable handle
-          //   pricingSlider.noUiSlider.on('change', function (values, handle) {
-          //     if (pricingPlans[index].name) {
-          //       // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-          //     }
-          //   });
-          // }
+            // Disable handle
+            pricingSlider.noUiSlider.on('change', function (values, handle) {
+              if (pricingPlans[index].name) {
+                // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+              }
+            });
+          }
 
           var planValue = [];
           var formatTest = {
