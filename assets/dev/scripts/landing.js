@@ -85,26 +85,38 @@ jQuery(document).ready(function() {
       // Set messages and data points values
       pricingMessagesValue.textContent   = numberFormat.to(numberFormat.from(values[handle]) * 5);
       pricingDataPointsValue.textContent = numberFormat.to(numberFormat.from(values[handle]) * 500);
-
-      if (values[handle] == numberFormat.to(10000)) {
-        // pricingMessagesValue.textContent = numberFormat.to(75000);
-      }
     });
 
     var monthLinks  = document.querySelectorAll('.js-overage-calculator');
     var annualLinks = document.querySelectorAll('.js-overage-calculator-annual');
 
     var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
-    var pricingPlanPrice    = document.querySelector('.js-pricing-plan-price');
 
     planSwitcher(monthLinks);
     planSwitcher(annualLinks);
+
+    // Switch the fixed pricing to monthly or annual
+    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
+
+    function pricingSwitcher(links, index, el) {
+      if (links == annualLinks) {
+        console.log('Clicking on ' + pricingPlans[index].name);
+
+        // Set the annual price values
+        pricingPlanPrice.textContent = numberFormat.to((pricingPlans[index].price * 12) * 0.9);
+      } else {
+        // Set the monthly price values
+        pricingPlanPrice.textContent = pricingPlans[index].price;
+      }
+    }
 
     // Switch overage calculator based on plan
     function planSwitcher(links) {
       for (const [index, el] of links.entries()) {
         el.addEventListener('click', function() {
           openOverageCalculator();
+
+          pricingSwitcher(links, index, el);
 
           // Update values when moving slider
           pricingSlider.noUiSlider.on('update', function (values, handle) {
@@ -119,16 +131,23 @@ jQuery(document).ready(function() {
 
             var additionPrice = additionalCustomers * pricingPlans[index].overage_rate;
 
+            function annualDiscount(price) {
+              return (price * 12) * 0.9;
+            }
+
             if (links == annualLinks) {
               // Additional price
-              pricingAdditionalPriceValue.textContent = numberFormat.to((additionPrice * 12) * 0.9);
+              pricingAdditionalPriceValue.textContent = numberFormat.to(annualDiscount(additionPrice));
+
+              // Total cost
+              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + (annualDiscount(pricingPlans[index].price)));
             } else {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
-            }
 
-            // Total cost
-            pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + numberFormat.from(pricingPlanPrice.textContent));
+              // Total cost
+              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
+            }
           });
 
           var planValue = [];
@@ -215,24 +234,7 @@ jQuery(document).ready(function() {
 
           // Set the fixed plan and monthly price value on switching plans
           pricingPlanName.textContent  = pricingPlans[index].name;
-
-          test(links, index, el);
         });
-      }
-    }
-
-    // Switch the fixed pricing to monthly or annual
-    function test(links, index, el) {
-      if (links == annualLinks) {
-        console.log('Clicking on ' + pricingPlans[index].name);
-
-        console.log(el);
-
-        // Set the annual price values
-        pricingPlanPrice.textContent = numberFormat.to((pricingPlans[index].price * 12) * 0.9);
-      } else {
-        // Set the monthly price values
-        pricingPlanPrice.textContent = pricingPlans[index].price;
       }
     }
 
