@@ -267,13 +267,6 @@ jQuery(document).ready(function() {
 
     planSwitcher(primaryLinks);
     planSwitcher(secondaryLinks);
-
-    // Dropdown
-    // var dropdown = document.querySelector('.js-pricing-plan-dropdown');
-
-    // pricingPlanName.addEventListener('click', function() {
-    //   dropdown.classList.toggle('fade');
-    // });
   }
 
   // Slider for careers page

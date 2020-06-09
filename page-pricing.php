@@ -1234,18 +1234,7 @@ include 'pages-shared/static-header.php';
         <div class="flex">
           <div>
             <h4 class="atomic semi-bold no-margin">Plan</h4>
-            <div class="relative">
-              <div class="js-pricing-plan-name regular font-gray-dark pointer">Starter</div>
-
-              <div class="js-pricing-plan-dropdown bg-white absolute pricing-plan-dropdown border-light border-radius-2 shadow-1">
-                <ul class="unstyled-list no-margin stack-xxs">
-                  <li class="js-test is-active">Starter</li>
-                  <li class="js-test">Pro</li>
-                  <li class="js-test">Growth</li>
-                  <li class="js-test">Enterprise</li>
-                </ul>
-              </div>
-            </div>
+            <div class="js-pricing-plan-name regular font-gray-dark pointer">Starter</div>
           </div>
           <div class="right-text">
             <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span>
