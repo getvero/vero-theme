@@ -90,25 +90,46 @@ jQuery(document).ready(function() {
     var monthLinks  = document.querySelectorAll('.js-overage-calculator');
     var annualLinks = document.querySelectorAll('.js-overage-calculator-annual');
 
-    var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
-
     planSwitcher(monthLinks);
     planSwitcher(annualLinks);
 
+    // Work out discount
+    function annualDiscount(price) {
+      return (price * 12) * 0.9;
+    }
+
     // Switch the fixed pricing to monthly or annual
+    var pricingFreqText = document.querySelectorAll('.js-pricing-frequency');
+
     var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
 
-    function pricingSwitcher(links, index, el) {
-      if (links == annualLinks) {
-        console.log('Clicking on ' + pricingPlans[index].name);
+    function pricingSwitcher(links, index) {
+      monthAnnual(links);
 
+      if (links == annualLinks) {
         // Set the annual price values
-        pricingPlanPrice.textContent = numberFormat.to((pricingPlans[index].price * 12) * 0.9);
+        pricingPlanPrice.textContent = numberFormat.to(annualDiscount(pricingPlans[index].price));
       } else {
         // Set the monthly price values
         pricingPlanPrice.textContent = pricingPlans[index].price;
       }
     }
+
+    function monthAnnual(links) {
+      var str;
+
+      if (links == annualLinks) {
+        str = '/yr';
+      } else {
+        str = '/mo';
+      }
+
+      for (const el of pricingFreqText) {
+        el.textContent = str;
+      }
+    }
+
+    var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
 
     // Switch overage calculator based on plan
     function planSwitcher(links) {
@@ -116,7 +137,7 @@ jQuery(document).ready(function() {
         el.addEventListener('click', function() {
           openOverageCalculator();
 
-          pricingSwitcher(links, index, el);
+          pricingSwitcher(links, index);
 
           // Update values when moving slider
           pricingSlider.noUiSlider.on('update', function (values, handle) {
@@ -130,10 +151,6 @@ jQuery(document).ready(function() {
             additionalCustomers = additionalCustomers * 0.001;
 
             var additionPrice = additionalCustomers * pricingPlans[index].overage_rate;
-
-            function annualDiscount(price) {
-              return (price * 12) * 0.9;
-            }
 
             if (links == annualLinks) {
               // Additional price
