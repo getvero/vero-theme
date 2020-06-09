@@ -1234,11 +1234,10 @@ include 'pages-shared/static-header.php';
         <div class="flex">
           <div>
             <h4 class="atomic semi-bold no-margin">Plan</h4>
-            <div class="js-pricing-plan-name regular font-gray-dark pointer">Starter</div>
+            <div class="js-pricing-plan-name regular font-gray-dark">Starter</div>
           </div>
           <div class="right-text">
-            <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span>
-            <span class="font-gray-dark">/mo</span>
+            <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
           </div>
         </div>
 
@@ -1248,8 +1247,7 @@ include 'pages-shared/static-header.php';
             <div class="js-pricing-additional-customers regular font-gray-dark"></div>
           </div>
           <div class="right-text">
-            <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span>
-            <span class="font-gray-dark">/mo</span>
+            <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
           </div>
         </div>
       </div>
@@ -1259,8 +1257,7 @@ include 'pages-shared/static-header.php';
           <h4 class="atomic semi-bold no-margin">Your total payment</h4>
         </div>
         <div class="right-text">
-          <span class="atomic semi-bold">$<span class="js-pricing-total-cost"></span></span>
-          <span class="font-gray-dark">/mo</span>
+          <span class="atomic semi-bold">$<span class="js-pricing-total-cost"></span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
         </div>
       </div>
 
