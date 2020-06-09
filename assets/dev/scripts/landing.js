@@ -91,63 +91,45 @@ jQuery(document).ready(function() {
       }
     });
 
-    var primaryLinks     = document.querySelectorAll('.js-overage-calculator');
-    // var secondaryLinks   = document.querySelectorAll('.js-test');
-    var secondaryLinks   = document.querySelectorAll('.js-overage-calculator-annual');
+    var monthLinks  = document.querySelectorAll('.js-overage-calculator');
+    var annualLinks = document.querySelectorAll('.js-overage-calculator-annual');
 
     var pricingPlanName     = document.querySelector('.js-pricing-plan-name');
     var pricingPlanPrice    = document.querySelector('.js-pricing-plan-price');
 
+    planSwitcher(monthLinks);
+    planSwitcher(annualLinks);
+
     // Switch overage calculator based on plan
     function planSwitcher(links) {
-      for (const [index, link] of links.entries()) {
-        link.addEventListener('click', function() {
-          // Open modal
-          var overlay    = document.querySelector('.js-overlay');
+      for (const [index, el] of links.entries()) {
+        el.addEventListener('click', function() {
+          openOverageCalculator();
 
-          if (!overlay) {
-            var newOverlay        = document.createElement('div');
-            var modal             = document.querySelector('.js-modal');
-            var close             = document.createElement('span');
-
-            document.querySelector('.js-modal').classList.remove('is-active');
-
-            newOverlay.setAttribute('class', 'js-overlay overlay overlay--pricing flex items-center justify-center');
-            close.setAttribute('class', 'js-overlay-close overlay-close pointer');
-            close.innerHTML = '<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#fff"/></g></svg>'
-
-            modal.parentNode.insertBefore(newOverlay, modal);
-
-            newOverlay.prepend(close);
-            newOverlay.append(modal);
-
-            modal.classList.add('is-active');
-
-            document.body.classList.add('overflow-hidden');
-          }
-
-          overlayClose();
-
-          // Update pricing slider when moving
+          // Update values when moving slider
           pricingSlider.noUiSlider.on('update', function (values, handle) {
             var currentCustomers = numberFormat.from(pricingSlider.noUiSlider.get())
             var additionalCustomers = currentCustomers - pricingPlans[index].customers;
 
+            // Additional customers
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
-            pricingAdditionalPriceValue.textContent     = numberFormat.to((additionalCustomers * 0.001) * pricingPlans[index].overage_rate);
-            pricingTotalCost.textContent                = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
+
+            // Divide additional customers by 100 to get the price easier
+            additionalCustomers = additionalCustomers * 0.001;
+
+            var additionPrice = additionalCustomers * pricingPlans[index].overage_rate;
+
+            if (links == annualLinks) {
+              // Additional price
+              pricingAdditionalPriceValue.textContent = numberFormat.to((additionPrice * 12) * 0.9);
+            } else {
+              // Additional price
+              pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
+            }
+
+            // Total cost
+            pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + numberFormat.from(pricingPlanPrice.textContent));
           });
-
-          if (index) {
-            console.log('Clicking on ' + pricingPlans[index].name);
-
-            // Disable handle
-            pricingSlider.noUiSlider.on('change', function (values, handle) {
-              if (pricingPlans[index].name) {
-                // pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-              }
-            });
-          }
 
           var planValue = [];
           var formatTest = {
@@ -231,25 +213,57 @@ jQuery(document).ready(function() {
           // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
-          // Set the plan and price values
+          // Set the fixed plan and monthly price value on switching plans
           pricingPlanName.textContent  = pricingPlans[index].name;
-          pricingPlanPrice.textContent = pricingPlans[index].price;
 
-          // Remove is-active class
-          for (var dropdownLink of secondaryLinks) {
-            dropdownLink.classList.remove('is-active');
-          }
-
-          if (links == secondaryLinks) {
-            if (link.textContent == pricingPlans[index].name) {
-              link.classList.add('is-active');
-            }
-          }
+          test(links, index, el);
         });
       }
     }
 
-    function overlayClose() {
+    // Switch the fixed pricing to monthly or annual
+    function test(links, index, el) {
+      if (links == annualLinks) {
+        console.log('Clicking on ' + pricingPlans[index].name);
+
+        console.log(el);
+
+        // Set the annual price values
+        pricingPlanPrice.textContent = numberFormat.to((pricingPlans[index].price * 12) * 0.9);
+      } else {
+        // Set the monthly price values
+        pricingPlanPrice.textContent = pricingPlans[index].price;
+      }
+    }
+
+    function openOverageCalculator() {
+      var overlay    = document.querySelector('.js-overlay');
+
+      if (!overlay) {
+        var newOverlay        = document.createElement('div');
+        var modal             = document.querySelector('.js-modal');
+        var close             = document.createElement('span');
+
+        document.querySelector('.js-modal').classList.remove('is-active');
+
+        newOverlay.setAttribute('class', 'js-overlay overlay overlay--pricing flex items-center justify-center');
+        close.setAttribute('class', 'js-overlay-close overlay-close pointer');
+        close.innerHTML = '<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#fff"/></g></svg>'
+
+        modal.parentNode.insertBefore(newOverlay, modal);
+
+        newOverlay.prepend(close);
+        newOverlay.append(modal);
+
+        modal.classList.add('is-active');
+
+        document.body.classList.add('overflow-hidden');
+      }
+
+      closeOverageCalculator();
+    }
+
+    function closeOverageCalculator() {
       document.querySelector('.js-overlay-close').addEventListener('click', function(event) {
         var el     = document.querySelector('.js-overlay');
         var parent = el.parentNode;
@@ -264,9 +278,6 @@ jQuery(document).ready(function() {
         document.body.classList.remove('overflow-hidden');
       });
     }
-
-    planSwitcher(primaryLinks);
-    planSwitcher(secondaryLinks);
   }
 
   // Slider for careers page
