@@ -33,8 +33,8 @@ include 'pages-shared/static-header.php';
 
       <div class="right flex">
         <div class="flex pricing-cta">
-          <a class="btn btn-medium btn-success start-a-free-trial" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
-          <a class="btn btn-medium btn-outline btn-primary typeform-share talk-to-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
+          <a class="btn btn-medium btn-success track-start-trial" id="js-trial-btn" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn-medium btn-outline btn-primary typeform-share track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Contact our sales team</a>
         </div>
       </div>
     </div>
@@ -201,7 +201,7 @@ include 'pages-shared/static-header.php';
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
