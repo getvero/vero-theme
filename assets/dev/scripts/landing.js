@@ -165,24 +165,25 @@ jQuery(document).ready(function() {
     }
   });
 
-  // Open subscribe form
-  var resourcesHeader           = document.querySelector('.js-resources-header');
-  var openResourcesSubscibeForm = document.querySelector('.js-open-resources-subscribe-form');
-
-  openResourcesSubscibeForm.addEventListener('click', function() {
-    resourcesHeader.classList.add('is-active');
-  });
-
-  // Close subscribe form
+  var resourcesHeader            = document.querySelector('.js-resources-header');
+  var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
   var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-  closeResourcesSubscibeForm.addEventListener('click', function() {
-    var formActive = resourcesHeader.classList.contains('is-active');
+  if (resourcesHeader) {
+    // Open subscribe form
+    openResourcesSubscibeForm.addEventListener('click', function() {
+      resourcesHeader.classList.add('is-active');
+    });
 
-    if (formActive) {
-      resourcesHeader.classList.remove('is-active');
-    }
-  });
+    // Close subscribe form
+    closeResourcesSubscibeForm.addEventListener('click', function() {
+      var formActive = resourcesHeader.classList.contains('is-active');
+
+      if (formActive) {
+        resourcesHeader.classList.remove('is-active');
+      }
+    });
+  }
 
   var subscribeForm = document.querySelector('.subscribe-form');
 
@@ -235,39 +236,18 @@ jQuery(document).ready(function() {
     });
   });
 
-  // jQuery('.js-subscribe-form').submit(function() {
-  //   // we stoped it
-  //   event.preventDefault();
-  //   console.log('test');
-  //   var email = jQuery('#email-address').val();
+  // Add lax to Drag and Drop
+  if (document.body.classList.contains('drag-and-drop')) {
+    window.onload = function() {
+      lax.setup() // init
 
-  //   // needs for recaptacha ready
-  //   grecaptcha.ready(function() {
-  //     // do request for recaptcha token
-  //     // response is promise with passed token
-  //     grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
 
-  //       // add token to form
-  //       jQuery('.js-subscribe-form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
-
-  //       var formEl = jQuery('.js-subscribe-form');
-  //       var submitButton = jQuery('input[type=submit]', formEl);
-
-  //       jQuery.ajax({
-  //         type: 'POST',
-  //         url: formEl.prop('action'),
-  //         accept: {
-  //           javascript: 'application/javascript'
-  //         },
-  //         data: formEl.serialize()
-  //       }).done(function(data) {
-  //         console.log('submitted');
-  //         // subscribeForm.classList.add('hide');
-  //         // document.querySelector('.js-subscribe-form-intro-msg').classList.add('hide');
-  //         // document.querySelector('.js-subscribe-form-submitted-msg').classList.add('show');
-  //       });
-  //     });
-  //   });
-  // });
+      window.requestAnimationFrame(updateLax)
+    }
+  }
 
 });
