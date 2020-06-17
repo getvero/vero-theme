@@ -99,52 +99,6 @@ jQuery(document).ready(function() {
     });
   }
 
-  var subscribeBlogInline;
-  var subscribeBlog2;
-
-  jQuery('.js-blog-subscribe-form-2').submit(function(e) {
-    e.preventDefault();
-    subscribeBlog2(e);
-    return false;
-  });
-
-  // Blog inline subscribe form
-  jQuery('.js-blog-inline-form').submit(function(e) {
-    e.preventDefault();
-    subscribeBlogInline(e);
-    return false;
-  });
-
-  subscribeBlog2 = function(e) {
-    var url = jQuery('.js-blog-subscribe-form-2').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-subscribe-form-2').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-subscribe-form-2').hide();
-        jQuery('.js-enquire-menu-2').hide();
-        jQuery('.js-thanks-menu-2').show();
-      }
-    });
-  };
-
-  subscribeBlogInline = function(e) {
-    var url = jQuery('.js-blog-inline-form').attr('action');
-    jQuery.ajax({
-      type: 'POST',
-      url : url,
-      data: jQuery('.js-blog-inline-form').serialize(),
-      success: function(data)
-      {
-        jQuery('.js-blog-inline-form').hide();
-        jQuery('.js-enquire-intro-3').hide();
-        jQuery('.js-thanks-3').show();
-      }
-    });
-  };
-
   // Responsive resources menu
   var isFixed   = false;
   var menuClone = jQuery('.js-category-toggle').clone();
@@ -185,11 +139,18 @@ jQuery(document).ready(function() {
     });
   }
 
-  var subscribeForm = document.querySelector('.subscribe-form');
-
   jQuery('.js-subscribe-form').each(function(index) {
     jQuery(this).on('submit', function() {
       event.preventDefault();
+      
+      try {anonymous_id = window.analytics._user.anonymousId();}
+      catch {}
+      if(typeof anonymous_id !== 'undefined'){
+        jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'anonymous_id')
+        .attr('value', anonymous_id)
+        .appendTo('.js-subscribe-form');
+      }
 
       // needs for recaptacha ready
       grecaptcha.ready(function() {
