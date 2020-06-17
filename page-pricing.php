@@ -44,13 +44,15 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list">
-                  <li class="no-margin"><strong>2,000</strong> Customers </li>
-                  <li class="no-margin"><strong>10,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>2,000</strong> customers</li>
+                  <li class="no-margin"><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -64,12 +66,12 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    All the core Vero features
+                    All the core Vero features (see table below)
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    1 Team member
+                    1 team member
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -102,13 +104,15 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list">
-                  <li class="no-margin"><strong>10,000</strong> Customers </li>
-                  <li class="no-margin"><strong>75,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>10,000</strong> customers</li>
+                  <li class="no-margin"><strong>75,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -127,27 +131,28 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    5 Team members
+                    5 team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    AB Testing
+                    A/B testing
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Custom Webhooks
+                    <a class="underline-link right-margin-xxxs" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">Custom webhooks</a>
+
+                    <span class="tooltip">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">Send email and unsubscribe activity to other tools or your own servers</span>
+                    </span>
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Team Access Management
-                  </li>
-                  <li class="flex items-center no-margin">
-                    <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
-
-                    24/7 Email Support
+                    24/6 email support
                   </li>
                 </ul>
               </div>
@@ -171,12 +176,14 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list">
                   <li class="no-margin"><strong>75,000</strong> Customers </li>
-                  <li class="no-margin"><strong>375,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -195,17 +202,17 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    20 Team members
+                    20 team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Multi-Language Campaigns
+                    <a class="underline-link" href="/multi-language-campaigns/">Multi-language campaigns</a>
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Dedicated IP Address
+                    Dedicated IP address
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -233,13 +240,15 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list">
-                  <li class="no-margin"><strong>250,000&plus;</strong> Customers </li>
-                  <li class="no-margin"><strong>1,250,000&plus;</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>250,000&plus;</strong> customers </li>
+                  <li class="no-margin"><strong>1,250,000&plus;</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -258,12 +267,12 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Unlimited Team members
+                    Unlimited team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Priority Email Support
+                    Priority and 24/7 email support
                   </li>
                 </ul>
               </div>
@@ -289,13 +298,15 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list">
-                  <li class="no-margin"><strong>2,000</strong> Customers </li>
-                  <li class="no-margin"><strong>10,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>2,000</strong> customers</li>
+                  <li class="no-margin"><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -309,12 +320,12 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    All the core Vero features
+                    All the core Vero features (see table below)
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    1 Team member
+                    1 team member
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -324,7 +335,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    30 days free Email support
+                    30 days free email support
                   </li>
                 </ul>
               </div>
@@ -348,13 +359,15 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list">
-                  <li class="no-margin"><strong>10,000</strong> Customers </li>
-                  <li class="no-margin"><strong>75,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>10,000</strong> Customers</li>
+                  <li class="no-margin"><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -373,27 +386,28 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    5 Team members
+                    5 team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    AB Testing
+                    A/B testing
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Custom Webhooks
+                    <span>Custom webhooks</span>
+
+                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">Send email and unsubscribe activity to other tools or your own servers</span>
+                    </span>
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Team Access Management
-                  </li>
-                  <li class="flex items-center no-margin">
-                    <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
-
-                    24/7 Email Support
+                    24/6 email support
                   </li>
                 </ul>
               </div>
@@ -417,12 +431,14 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list">
                   <li class="no-margin"><strong>75,000</strong> Customers </li>
-                  <li class="no-margin"><strong>375,000</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>37M</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -441,7 +457,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    20 Team members
+                    20 team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -451,7 +467,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Dedicated IP Address
+                    Dedicated IP address
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -480,12 +496,14 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list">
                   <li class="no-margin"><strong>250,000&plus;</strong> Customers </li>
-                  <li class="no-margin"><strong>1,250,000&plus;</strong> Messages/mo</li>
+                  <li class="no-margin"><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points/mo</span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
+
+                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
                   <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
@@ -504,12 +522,12 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Unlimited Team members
+                    Unlimited team members
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Priority Email Support
+                    Priority and 24/7 email support
                   </li>
                 </ul>
               </div>
@@ -1200,8 +1218,8 @@ include 'pages-shared/static-header.php';
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-md">
-  <h2 class="center-text">Overage calculator</h2>
+<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
+  <h2 class="center-text bottom-margin-md">Overage calculator for your <span class="js-pricing-plan-name">Starter</span> plan</h2>
 
   <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
@@ -1220,12 +1238,12 @@ include 'pages-shared/static-header.php';
           </div>
 
           <div class="stack-xxxs">
-            <h4>Data points</h4>
-            <div class="js-pricing-data-points-value atomic regular font-gray-dark"></div>
+            <h4>Events tracked</h4>
+            <div class="js-pricing-events-tracked-value atomic regular font-gray-dark"></div>
           </div>
         </div>
 
-        <p class="annotation font-gray-dark">To keep things simple, we charge overage based on the one customer metric.</p>
+        <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero.</p>
       </div>
     </div>
 
