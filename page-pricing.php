@@ -538,7 +538,7 @@ include 'pages-shared/static-header.php';
         </div>
       </div>
 
-      <p class="font-gray-dark italic center-text">No credit card required. 30 day free trial on all plans</p>
+      <p class="annotation font-gray-dark center-text">No credit card required. 30 day free trial on all plans.</p>
     </div>
   </div>
 </section>

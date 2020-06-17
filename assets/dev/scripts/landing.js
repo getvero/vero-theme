@@ -205,26 +205,25 @@ jQuery(document).ready(function() {
              planValue = [75000, 150000, 250000]
           } else if (pricingPlans[index].name == 'Enterprise') {
             allSliderRanges = {
-              'min': [250000, 1000],
-              '50%': [625000, 1000],
-              'max': 1000000
+              'min'   : [250000, 1000],
+              '33.33%': [450000, 1000],
+              '66.66%': [750000, 1000],
+              'max'   : 1000000
             };
 
-            planValue = [250000, 625000, 1000000]
+            planValue = [250000, 450000, 750000, 1000000]
 
             formatTest = {
               decimals: 0,
               thousand: ',',
-              suffix  : 'k',
               encoder: function(value) {
                 return value / 1000;
-              }
-              ,
+              },
               edit: function(value, original) {
                 if (original == 1000000) {
-                  return value + 'm+';
+                  return original / 1000000 + 'M+';
                 } else {
-                  return value;
+                  return value + 'k';
                 }
               }
             }
