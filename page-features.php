@@ -24,7 +24,7 @@
   <div class="inner xlarge-inner flush-bottom">
     <div class="features-hero-imgs relative center-text">
       <div class="d-inline-block features-hero-img features-hero-img--1 relative">
-        <img class="features-hero-tooltip absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
+        <img class="features-hero-tooltip tooltip--simple absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
 
         <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png 2x" alt="">
       </div>
@@ -378,10 +378,10 @@
       </div>
       <div class="order-2 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
-          <li class="tooltip" data-label="Segment">
+          <li class="tooltip tooltip--simple" data-label="Segment">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
-          <li class="tooltip" data-label="Zapier">
+          <li class="tooltip tooltip--simple" data-label="Zapier">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="Zapier logo">
           </li>
         </ul>
@@ -391,16 +391,16 @@
       </div>
       <div class="order-6 md-order-0">
         <ul class="unstyled-list grid justify-center output">
-          <li class="tooltip" data-label="Webhook">
+          <li class="tooltip tooltip--simple" data-label="Webhook">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
           </li>
-          <li class="tooltip" data-label="Stitch">
+          <li class="tooltip tooltip--simple" data-label="Stitch">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="Stitch logo">
           </li>
-          <li class="tooltip" data-label="Segment">
+          <li class="tooltip tooltip--simple" data-label="Segment">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
-          <li class="tooltip" data-label="Snowplow">
+          <li class="tooltip tooltip--simple" data-label="Snowplow">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/snowplow.svg" alt="Snowplow logo">
           </li>
         </ul>
