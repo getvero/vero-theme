@@ -139,54 +139,60 @@ jQuery(document).ready(function() {
     });
   }
 
-  var subscribeForm = document.querySelector('.subscribe-form');
-
   jQuery('.js-subscribe-form').each(function(index) {
     jQuery(this).on('submit', function() {
-      event.preventDefault();
+      if (_window.analytics.user.anonymousId().length != 0) {
+          jQuery('<input />').attr('type', 'hidden')
+          .attr('name', 'anonymous_id')
+          .attr('value', _window.analytics.user.anonymousId())
+          .appendTo('.js-subscribe-form');
 
-      // needs for recaptacha ready
-      grecaptcha.ready(function() {
-        // do request for recaptcha token
-        // response is promise with passed token
-        grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+        event.preventDefault();
 
-          // add token to form
-          jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+          // do request for recaptcha token
+          // response is promise with passed token
+          grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
 
-          var formEl = jQuery('.js-subscribe-form');
+            // add token to form
+            jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 
-          jQuery.ajax({
-            type: 'POST',
-            url: formEl.prop('action'),
-            accept: {
-              javascript: 'application/javascript'
-            },
-            data: formEl.serialize()
-          }).done(function(data) {
-            // console.log('submitted');
+            var formEl = jQuery('.js-subscribe-form');
 
-            var thisForm = jQuery('.js-subscribe-form').eq(index);
+            jQuery.ajax({
+              type: 'POST',
+              url: formEl.prop('action'),
+              accept: {
+                javascript: 'application/javascript'
+              },
+              data: formEl.serialize()
+            }).done(function(data) {
+              // console.log('submitted');
 
-            thisForm.addClass('hide');
+              var thisForm = jQuery('.js-subscribe-form').eq(index);
 
-            if (index == 0) {
-              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
-              var subscribeMsgText = document.createElement('p');
+              thisForm.addClass('hide');
 
-              subscribeMsg.querySelector('h3').textContent = 'Almost there!';
-              subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
-              subscribeMsg.append(subscribeMsgText);
-            } else if (index == 1) {
-              var successMsgText = document.createElement('h3');
+              if (index == 0) {
+                var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
+                var subscribeMsgText = document.createElement('p');
 
-              successMsgText.className = 'no-margin';
-              successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-              document.querySelector('.form-box').append(successMsgText);
-            }
+                subscribeMsg.querySelector('h3').textContent = 'Almost there!';
+                subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
+                subscribeMsg.append(subscribeMsgText);
+              } else if (index == 1) {
+                var successMsgText = document.createElement('h3');
+
+                successMsgText.className = 'no-margin';
+                successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+                document.querySelector('.form-box').append(successMsgText);
+              }
+            });
           });
         });
-      });
+
+      }
     });
   });
 
