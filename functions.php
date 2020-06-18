@@ -226,6 +226,7 @@ function genesischild_theme_setup() {
     wp_dequeue_style( 'wc-block-style' ); // Remove WooCommerce block CSS
   }
 
+  # Defer all scripts
   add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );
   function defer_parsing_of_js( $url ) {
     if ( is_user_logged_in() ) return $url; //don't break WP Admin
