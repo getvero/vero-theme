@@ -27,8 +27,6 @@
 
           <a class="btn btn-gray-darker btn-large btn-outline typeform-share link sm-right-margin-xxs track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
-          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
-          <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
               <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
@@ -36,6 +34,11 @@
               <span class="font-brand-gray-dark" style="margin-top: 1px;">Watch a video</span>
             </div>
           </div>
+
+          <script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+          <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
+          <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
         </div>
 
         <div class="flex flex-column lg-flex-row items-center lg-items-end">
