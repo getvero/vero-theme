@@ -206,6 +206,9 @@ include 'pages-shared/static-header.php';
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
+
+<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
 <?php
   no_content_genesis_footer();
   add_page_tracking_code("PricingPage");
