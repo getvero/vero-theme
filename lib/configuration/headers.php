@@ -101,8 +101,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
               <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
-
-            <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
           </div>
         </div>
 
