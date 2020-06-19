@@ -21,7 +21,7 @@ function custom_load_custom_style_sheet() {
     $base_url = "https://cdn.getvero.com";
     $suffix   = "min.css";
   }
-  wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array(), PARENT_THEME_VERSION );
+  wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array() );
   if ( is_front_page() || is_page('capterra') || is_page('data-management') || is_page('customer-engagement') || is_page('vero-segment') || is_page('vero-stitch') || is_page('careers') ) {
     wp_enqueue_style( 'googlefont_merriweather');
   }
