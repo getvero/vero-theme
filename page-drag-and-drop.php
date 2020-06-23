@@ -65,9 +65,24 @@
       </li>
     </ul>
   </div>
-
 </section>
 <div class="drag-and-drop-features bg-dark-blue-lighter">
+  <section class="border-bottom">
+    <div class="inner small-inner bg-white">
+      <blockquote>
+        <p class="quote tubs center-text">Curabitur sollicitudin eros quis tincidunt vestibulum. Sed porta tempus euismod. Aenean in suscipit lectus. Praesent auctor hendrerit fermentum.</p>
+
+        <div class="flex">
+          <div>
+            <span class="show semi-bold large">Jon Smith</span>
+            <span class="show large">Position</span>
+          </div>
+          <div>
+          </div>
+        </div>
+      </blockquote>
+    </div>
+  </section>
   <section id="drag-and-drop-section-1">
     <div class="inner">
       <div class="w-sidebar w-sidebar--feature-sm items-center">
