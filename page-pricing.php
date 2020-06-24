@@ -104,10 +104,10 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>10,000</strong> customers</li>
-                  <li class="no-margin"><strong>75,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
-                  <li class="no-margin flex items-center">
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>10,000</strong> customers</li>
+                  <li><strong>75,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
@@ -117,7 +117,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $8 per thousand customers</li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -176,10 +176,10 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>75,000</strong> Customers </li>
-                  <li class="no-margin"><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
-                  <li class="no-margin flex items-center">
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>75,000</strong> Customers </li>
+                  <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
@@ -189,7 +189,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -242,10 +242,10 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>250,000&plus;</strong> customers </li>
-                  <li class="no-margin"><strong>1,250,000&plus;</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
-                  <li class="no-margin flex items-center">
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>250,000&plus;</strong> customers </li>
+                  <li><strong>1,250,000&plus;</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
@@ -255,7 +255,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $4 per thousand customers</li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -301,10 +301,10 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>2,000</strong> customers</li>
-                  <li class="no-margin"><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
-                  <li class="no-margin flex items-center">
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>2,000</strong> customers</li>
+                  <li><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
@@ -313,7 +313,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li>&plus; $18 per thousand customers</li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -362,9 +363,9 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>10,000</strong> Customers</li>
-                  <li class="no-margin"><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>10,000</strong> Customers</li>
+                  <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
                     <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
@@ -374,7 +375,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li>&plus; $8 per thousand customers</li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -433,9 +435,9 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>75,000</strong> Customers </li>
-                  <li class="no-margin"><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>75,000</strong> Customers </li>
+                  <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
                     <span class="right-margin-xxs"><strong>37M</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
 
@@ -445,7 +447,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li>&plus; $5 per thousand customers</li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -498,9 +501,9 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>250,000&plus;</strong> Customers </li>
-                  <li class="no-margin"><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>250,000&plus;</strong> Customers </li>
+                  <li><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
                     <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
 
@@ -510,7 +513,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li>&plus; $4 per thousand customers</li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
