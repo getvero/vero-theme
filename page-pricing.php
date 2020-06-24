@@ -1251,7 +1251,7 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero.</p>
+        <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero. Overage rate per thousand customers is <strong>$<span class="js-overage-rate">18</span></strong>.</p>
       </div>
     </div>
 
@@ -1270,7 +1270,9 @@ include 'pages-shared/static-header.php';
         <div class="flex border-bottom bottom-padding-md">
           <div>
             <h4 class="atomic semi-bold no-margin">Additional customers</h4>
-            <div class="js-pricing-additional-customers regular font-gray-dark"></div>
+            <div>
+              <span class="js-pricing-additional-customers regular font-gray-dark"></span>
+            </div>
           </div>
           <div class="right-text">
             <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
