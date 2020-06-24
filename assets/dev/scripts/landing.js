@@ -84,7 +84,7 @@ jQuery(document).ready(function() {
 
     var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
 
-    function pricingSwitcher(links, index) {
+    function priceSwitcher(links, index) {
       monthAnnual(links);
 
       if (links == annualLinks) {
@@ -126,7 +126,14 @@ jQuery(document).ready(function() {
         el.addEventListener('click', function() {
           openOverageCalculator();
 
-          pricingSwitcher(links, index);
+          // Set the slider value
+          pricingSlider.noUiSlider.set(pricingPlans[index].customers);
+
+          priceSwitcher(links, index);
+
+          var overageRate = document.querySelector('.js-overage-rate');
+
+          overageRate.textContent = pricingPlans[index].overage_rate;
 
           // Update values when moving slider
           pricingSlider.noUiSlider.on('update', function (values, handle) {
@@ -241,9 +248,6 @@ jQuery(document).ready(function() {
               format : wNumb(formatTest)
             }
           });
-
-          // Set the slider value
-          pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
           setPlanName(index);
         });
