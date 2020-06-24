@@ -28,7 +28,7 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--1">
+        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--1 justify-between">
           <div class="flex flex-column">
             <header class="pricing-plan-table-header">
               <h2 class="micro">Starter</h2>
@@ -286,7 +286,7 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--2">
+        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--2 justify-between">
           <div class="flex flex-column">
             <header class="pricing-plan-table-header">
               <h2 class="micro">Starter</h2>
