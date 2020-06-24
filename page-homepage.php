@@ -23,9 +23,9 @@
           <p class="large">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta flex flex-column md-flex-row justify-center lg-justify-start items-center">
-          <a class="btn btn-success btn-large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link sm-right-margin-xxs track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn--gray-darker btn--large btn--outline typeform-share link sm-right-margin-xxs track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
 
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
@@ -360,7 +360,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

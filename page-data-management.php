@@ -19,7 +19,7 @@
       <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -117,7 +117,7 @@
 <<<<<<< HEAD
     <a class="btn btn--success btn--large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 =======
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 >>>>>>> origin/develop
 
     <p class="annotation faded">No credit card details required</p>

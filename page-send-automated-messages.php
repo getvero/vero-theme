@@ -19,7 +19,7 @@
       <p class="tubs bottom-margin-lg">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -97,7 +97,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

@@ -16,9 +16,9 @@
     <h1 class="hulk semi-bold">The messaging platform that scales personalization</h1>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
@@ -419,9 +419,9 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
 
     <p class="annotation faded">No credit card details required</p>
