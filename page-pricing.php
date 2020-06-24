@@ -1227,7 +1227,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
-  <h2 class="center-text bottom-margin-md">Overage calculator for your <span class="js-pricing-plan-name">Starter</span> plan</h2>
+  <h2 class="center-text bottom-margin-md">Overage calculator for your <span class="js-pricing-plan-name underline-link">Starter</span> plan</h2>
 
   <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
