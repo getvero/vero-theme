@@ -39,28 +39,28 @@ jQuery(document).ready(function() {
       'messages'    : 10000,
       'data_points' : 1000000,
       'price'       : 49,
-      'overage_rate': 25
+      'overage_rate': 18
     }, {
       'name'        : 'Pro',
       'customers'   : 10000,
       'messages'    : 75000,
       'data_points' : 7500000,
       'price'       : 199,
-      'overage_rate': 13
+      'overage_rate': 8
     }, {
       'name'        : 'Growth',
       'customers'   : 75000,
       'messages'    : 375000,
       'data_points' : 37000000,
       'price'       : 599,
-      'overage_rate': 8
+      'overage_rate': 5
     }, {
       'name'        : 'Enterprise',
       'customers'   : 250000,
       'messages'    : 12500000,
       'data_points' : 125000000,
       'price'       : 1299,
-      'overage_rate': 5
+      'overage_rate': 4
     }];
 
     var numberFormat = wNumb({
