@@ -43,9 +43,9 @@ include 'pages-shared/static-header.php';
               <div class="stack-xxs">
                 <span class="font-gray-dark show regular annotation">Including</span>
 
-                <ul class="unstyled-list">
-                  <li class="no-margin"><strong>2,000</strong> customers</li>
-                  <li class="no-margin"><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                <ul class="unstyled-list stack-sm">
+                  <li><strong>2,000</strong> customers</li>
+                  <li><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
                     <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
@@ -55,7 +55,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li>&plus; $18 per thousand customers</li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -66,7 +67,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    All the core Vero features (see table below)
+                    <span>All the core Vero <a class="underline-link" href="#features">features</a></span>
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -115,7 +116,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li>&plus; $8 per thousand customers</li>
+                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -186,7 +188,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li>&plus; $5 per thousand customers</li>
+                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -251,7 +254,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li>&plus; $4 per thousand customers</li>
+                  <li class="no-margin"><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -309,7 +313,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -370,7 +374,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -441,7 +445,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -506,7 +510,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
                     </span>
                   </li>
-                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Additional usage charges</span></li>
+                  <li class="no-margin"><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -581,7 +585,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="hide md-show">
-  <div class="inner large-inner stack-lg">
+  <div class="inner large-inner stack-lg jump-link" id="features">
     <h2 class="chunk semi-bold center-text">Feature comparison</h2>
 
     <div>
