@@ -105,7 +105,7 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>10,000</strong> customers</li>
+                  <li><strong>15,000</strong> customers</li>
                   <li><strong>75,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
@@ -364,7 +364,7 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>10,000</strong> Customers</li>
+                  <li><strong>15,000</strong> Customers</li>
                   <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
                     <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>

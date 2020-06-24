@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
       'overage_rate': 18
     }, {
       'name'        : 'Pro',
-      'customers'   : 10000,
+      'customers'   : 15000,
       'messages'    : 75000,
       'data_points' : 7500000,
       'price'       : 199,
@@ -186,13 +186,13 @@ jQuery(document).ready(function() {
             planValue = [2000, 15000, 75000, 250000]
           } else if (pricingPlans[index].name == 'Pro') {
             allSliderRanges = {
-              'min'   : [10000, 1000],
+              'min'   : [15000, 1000],
               '33.33%': [100000, 1000],
               '66.66%': [200000, 1000],
               'max'   : 250000
             };
 
-            planValue = [10000, 125000, 250000]
+            planValue = [15000, 125000, 250000]
           } else if (pricingPlans[index].name == 'Growth') {
             allSliderRanges = {
               'min'   : [75000, 1000],
