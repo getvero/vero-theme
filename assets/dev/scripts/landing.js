@@ -150,7 +150,6 @@ jQuery(document).ready(function() {
             // Set events tracked values
             pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 500000));
 
-
             if (links == annualLinks) {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(annualDiscount(additionPrice));
@@ -205,13 +204,14 @@ jQuery(document).ready(function() {
              planValue = [75000, 150000, 250000]
           } else if (pricingPlans[index].name == 'Enterprise') {
             allSliderRanges = {
-              'min'   : [250000, 1000],
-              '33.33%': [450000, 1000],
-              '66.66%': [750000, 1000],
-              'max'   : 2500000
+              'min': [250000, 1000],
+              '25%': [450000, 1000],
+              '50%': [750000, 1000],
+              '75%': [2500000, 1000],
+              'max': 5000000
             };
 
-            planValue = [250000, 450000, 750000, 2500000]
+            planValue = [250000, 450000, 750000, 2500000, 5000000]
 
             formatTest = {
               decimals: 0,
@@ -220,7 +220,7 @@ jQuery(document).ready(function() {
                 return value / 1000;
               },
               edit: function(value, original) {
-                if (original == 1000000) {
+                if (original == 2500000) {
                   return original / 1000000 + 'M+';
                 } else {
                   return value + 'k';
@@ -245,11 +245,32 @@ jQuery(document).ready(function() {
           // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
-          // Set the fixed plan and monthly price value on switching plans
-          for (const el of pricingPlanName) {
+          setPlanName(index);
+        });
+      }
+    }
+
+    // Set plan name
+    function setPlanName(index) {
+      for (const el of pricingPlanName) {
+        pricingSlider.noUiSlider.on('update', function (values, handle) {
+          // console.log(numberFormat.from(values[handle]));
+          if (numberFormat.from(values[handle]) > 250000 && numberFormat.from(values[handle]) <= 750000) {
+            // alert('Enterprise 2');
+
+            el.textContent = 'Enterprise 2';
+          } else if (numberFormat.from(values[handle]) > 750000 && numberFormat.from(values[handle]) <= 1250000) {
+            el.textContent = 'Enterprise 3';
+          } else if (numberFormat.from(values[handle]) > 1250000 && numberFormat.from(values[handle]) <= 2500000) {
+            el.textContent = 'Enterprise 4';
+          } else if (numberFormat.from(values[handle]) > 2500000 && numberFormat.from(values[handle]) <= 5000000) {
+            el.textContent = 'Enterprise 5';
+          } else {
             el.textContent = pricingPlans[index].name;
           }
         });
+
+        el.textContent = pricingPlans[index].name;
       }
     }
 
