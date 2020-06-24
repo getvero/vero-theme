@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
         pricingPlanPrice.textContent = numberFormat.to(annualDiscount(pricingPlans[index].price));
       } else {
         // Set the monthly price values
-        pricingPlanPrice.textContent = pricingPlans[index].price;
+        pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
       }
     }
 
@@ -208,10 +208,10 @@ jQuery(document).ready(function() {
               'min'   : [250000, 1000],
               '33.33%': [450000, 1000],
               '66.66%': [750000, 1000],
-              'max'   : 1000000
+              'max'   : 2500000
             };
 
-            planValue = [250000, 450000, 750000, 1000000]
+            planValue = [250000, 450000, 750000, 2500000]
 
             formatTest = {
               decimals: 0,
