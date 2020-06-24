@@ -157,24 +157,36 @@ function genesischild_theme_setup() {
   add_filter( 'get_search_form', 'change_search_form_type' );
   add_filter( 'genesis_search_form', 'my_search_button' );
   function my_search_button($form) {
+    $document = new DOMDocument();
+    $document->loadHTML($form);
+    $xpath = new DOMXPath($document);
+    $input = $xpath->query('//input[@type="submit"]');
 
-      $document = new DOMDocument();
-      $document->loadHTML($form);
-      $xpath = new DOMXPath($document);
-      $input = $xpath->query('//input[@type="submit"]');
-      $label = $document->createElement('label');
-      $label->setAttribute('class', 'search-toggle search-toggle-close ico ico-close');
-      $label->setAttribute('for', 'search-form');
+    $label = $document->createElement('label');
+    $label->setAttribute('class', 'search-toggle search-toggle-close');
+    $label->setAttribute('for', 'search-form');
 
-      if ($input->length > 0) {
-        $input->item(0)->parentNode->insertBefore($label, $input->item(0));
-      }
+    // use a helper to load the HTML into a string
+    $helper = new DOMDocument();
+    $helper->loadXML('<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>');
 
-      $document->removeChild($document->doctype);
-      $document->replaceChild($document->firstChild->firstChild->firstChild, $document->firstChild);
-      $form_html = $document->saveHTML();
+    // now the magic!
+    // import the document node of the $helper object deeply (true)
+    // into the $div and append as child.
+    $label->appendChild($document->importNode($helper->documentElement, true));
 
-      return $form_html;
+    // add the div to the $doc
+    $document->appendChild($label);
+
+    if ($input->length > 0) {
+      $input->item(0)->parentNode->insertBefore($label, $input->item(0));
+    }
+
+    $document->removeChild($document->doctype);
+    $document->replaceChild($document->firstChild->firstChild->firstChild, $document->firstChild);
+    $form_html = $document->saveHTML();
+
+    return $form_html;
   }
 
   # Remove Genesis SEO Settings menu link
@@ -205,6 +217,34 @@ function genesischild_theme_setup() {
       $src = remove_query_arg( 'ver', $src );
     return $src;
   }
+
+  # Remove block library as we don't use the Gutenberg editor
+  add_action( 'wp_enqueue_scripts', 'remove_wp_block_library_css', 100 );
+  function remove_wp_block_library_css() {
+    wp_dequeue_style( 'wp-block-library' );
+    wp_dequeue_style( 'wp-block-library-theme' );
+    wp_dequeue_style( 'wc-block-style' ); // Remove WooCommerce block CSS
+  }
+
+  # Defer all scripts
+  add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );
+  function defer_parsing_of_js( $url ) {
+    if ( is_user_logged_in() ) return $url; //don't break WP Admin
+    if ( FALSE === strpos( $url, '.js' ) ) return $url;
+    if ( strpos( $url, 'jquery.js' ) ) return $url;
+    return str_replace( ' src', ' defer src', $url );
+  }
+
+  # Add Recaptcha script to footer
+  add_action('wp_footer', 'move_recaptcha_script');
+  function move_recaptcha_script() {
+    if ( is_blog() ) {
+      ?>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
+      <?php
+    }
+  }
+
 }
 
 ?>

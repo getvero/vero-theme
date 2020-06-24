@@ -380,6 +380,15 @@ jQuery(document).ready(function() {
     jQuery(this).on('submit', function() {
       event.preventDefault();
 
+      try {anonymous_id = window.analytics._user.anonymousId();}
+      catch {}
+      if(typeof anonymous_id !== 'undefined'){
+        jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'anonymous_id')
+        .attr('value', anonymous_id)
+        .appendTo('.js-subscribe-form');
+      }
+
       // needs for recaptacha ready
       grecaptcha.ready(function() {
         // do request for recaptcha token
