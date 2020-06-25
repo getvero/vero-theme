@@ -68,8 +68,9 @@ jQuery(document).ready(function() {
       thousand: ','
     });
 
-    var monthLinks  = document.querySelectorAll('.js-overage-calculator');
-    var annualLinks = document.querySelectorAll('.js-overage-calculator-annual');
+    var monthLinks    = document.querySelectorAll('.js-overage-calculator');
+    var annualLinks   = document.querySelectorAll('.js-overage-calculator-annual');
+    var dropdownLinks = [];
 
     planSwitcher(monthLinks);
     planSwitcher(annualLinks);
@@ -257,23 +258,6 @@ jQuery(document).ready(function() {
     // Set plan name
     function setPlanName(index) {
       for (const el of pricingPlanName) {
-        pricingSlider.noUiSlider.on('update', function (values, handle) {
-          // console.log(numberFormat.from(values[handle]));
-          if (numberFormat.from(values[handle]) > 250000 && numberFormat.from(values[handle]) <= 750000) {
-            // alert('Enterprise 2');
-
-            el.textContent = 'Enterprise 2';
-          } else if (numberFormat.from(values[handle]) > 750000 && numberFormat.from(values[handle]) <= 1250000) {
-            el.textContent = 'Enterprise 3';
-          } else if (numberFormat.from(values[handle]) > 1250000 && numberFormat.from(values[handle]) <= 2500000) {
-            el.textContent = 'Enterprise 4';
-          } else if (numberFormat.from(values[handle]) > 2500000 && numberFormat.from(values[handle]) <= 5000000) {
-            el.textContent = 'Enterprise 5';
-          } else {
-            el.textContent = pricingPlans[index].name;
-          }
-        });
-
         el.textContent = pricingPlans[index].name;
       }
     }
