@@ -104,8 +104,8 @@ jQuery(document).ready(function() {
     planSwitcher(annualLinks);
     planSwitcher(dropdownLinks);
 
-    // Work out discount
-    function annualDiscount(price) {
+    // Work out annual price
+    function annualPrice(price) {
       return (price * 12) * 0.9;
     }
 
@@ -117,7 +117,7 @@ jQuery(document).ready(function() {
 
       if (links == annualLinks) {
         // Set the annual price values
-        pricingPlanPrice.textContent = numberFormat.to(annualDiscount(pricingPlans[index].price));
+        pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
       } else {
         // Set the monthly price values
         pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
@@ -159,9 +159,6 @@ jQuery(document).ready(function() {
             priceSwitcher(links, index);
           }
 
-          // Set the slider value
-          pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-
           var overageRate = document.querySelector('.js-overage-rate');
 
           overageRate.textContent = pricingPlans[index].overage_rate;
@@ -190,10 +187,10 @@ jQuery(document).ready(function() {
 
             if (links == annualLinks) {
               // Additional price
-              pricingAdditionalPriceValue.textContent = numberFormat.to(annualDiscount(additionPrice));
+              pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
 
               // Total cost
-              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + (annualDiscount(pricingPlans[index].price)));
+              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + (annualPrice(pricingPlans[index].price)));
             } else {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
@@ -212,6 +209,8 @@ jQuery(document).ready(function() {
               return value / 1000;
             }
           };
+
+          console.log(index);
 
           if (pricingPlans[index].name == 'Starter') {
             allSliderRanges = {
@@ -319,7 +318,6 @@ jQuery(document).ready(function() {
 
           }
 
-
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
             start: 0,
@@ -332,6 +330,9 @@ jQuery(document).ready(function() {
               format : wNumb(formatTest)
             }
           });
+
+          // Set the slider value
+          pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
           setPlanName(index);
         });
