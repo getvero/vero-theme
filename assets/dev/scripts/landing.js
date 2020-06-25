@@ -57,9 +57,37 @@ jQuery(document).ready(function() {
     }, {
       'name'        : 'Enterprise',
       'customers'   : 250000,
-      'messages'    : 12500000,
+      'messages'    : 1250000,
       'data_points' : 125000000,
       'price'       : 1299,
+      'overage_rate': 4
+    }, {
+      'name'        : 'Enterprise 2',
+      'customers'   : 750000,
+      'messages'    : 3750000,
+      'data_points' : 125000000,
+      'price'       : 1799,
+      'overage_rate': 2
+    }, {
+      'name'        : 'Enterprise 3',
+      'customers'   : 1250000,
+      'messages'    : 6250000,
+      'data_points' : 125000000,
+      'price'       : 2499,
+      'overage_rate': 4
+    }, {
+      'name'        : 'Enterprise 4',
+      'customers'   : 2500000,
+      'messages'    : 125000000,
+      'data_points' : 125000000,
+      'price'       : 4499,
+      'overage_rate': 4
+    }, {
+      'name'        : 'Enterprise 5',
+      'customers'   : 5000000,
+      'messages'    : 250000000,
+      'data_points' : 125000000,
+      'price'       : 7499,
       'overage_rate': 4
     }];
 
@@ -70,10 +98,11 @@ jQuery(document).ready(function() {
 
     var monthLinks    = document.querySelectorAll('.js-overage-calculator');
     var annualLinks   = document.querySelectorAll('.js-overage-calculator-annual');
-    var dropdownLinks = [];
+    var dropdownLinks = document.querySelectorAll('.js-overage-dropdrop');
 
     planSwitcher(monthLinks);
     planSwitcher(annualLinks);
+    planSwitcher(dropdownLinks);
 
     // Work out discount
     function annualDiscount(price) {
@@ -81,8 +110,6 @@ jQuery(document).ready(function() {
     }
 
     // Switch the fixed pricing to monthly or annual
-    var pricingFreqText = document.querySelectorAll('.js-pricing-frequency');
-
     var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
 
     function priceSwitcher(links, index) {
@@ -98,6 +125,7 @@ jQuery(document).ready(function() {
     }
 
     function monthAnnual(links) {
+      var pricingFreqText = document.querySelectorAll('.js-pricing-frequency');
       var str;
 
       if (links == annualLinks) {
@@ -125,12 +153,14 @@ jQuery(document).ready(function() {
     function planSwitcher(links) {
       for (const [index, el] of links.entries()) {
         el.addEventListener('click', function() {
-          openOverageCalculator();
+          if (links == monthLinks || links == annualLinks) {
+            openOverageCalculator();
+
+            priceSwitcher(links, index);
+          }
 
           // Set the slider value
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
-
-          priceSwitcher(links, index);
 
           var overageRate = document.querySelector('.js-overage-rate');
 
@@ -235,7 +265,60 @@ jQuery(document).ready(function() {
                 }
               }
             }
+          } else if (pricingPlans[index].name == 'Enterprise 2') {
+            allSliderRanges = {
+              'min': [250000, 1000],
+              '25%': [450000, 1000],
+              '50%': [750000, 1000],
+              '75%': [2500000, 1000],
+              'max': 5000000
+            };
+
+            planValue = [250000, 450000, 750000, 2500000, 5000000]
+
+            formatTest = {
+              decimals: 0,
+              thousand: ',',
+              encoder: function(value) {
+                return value / 1000;
+              },
+              edit: function(value, original) {
+                if (original == 2500000) {
+                  return original / 1000000 + 'M+';
+                } else {
+                  return value + 'k';
+                }
+              }
+            }
+          } else if (pricingPlans[index].name == 'Enterprise 3') {
+            allSliderRanges = {
+              'min': [250000, 1000],
+              '25%': [450000, 1000],
+              '50%': [750000, 1000],
+              '75%': [2500000, 1000],
+              'max': 5000000
+            };
+
+            planValue = [250000, 450000, 750000, 2500000, 5000000]
+
+            formatTest = {
+              decimals: 0,
+              thousand: ',',
+              encoder: function(value) {
+                return value / 1000;
+              },
+              edit: function(value, original) {
+                if (original == 2500000) {
+                  return original / 1000000 + 'M+';
+                } else {
+                  return value + 'k';
+                }
+              }
+            }
+
+
           }
+
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
