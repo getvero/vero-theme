@@ -1227,11 +1227,15 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
+  <span class="js-overlay-close overlay-close pointer">
+    <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
+  </span>
+
   <h2 class="center-text bottom-margin-md">Overage calculator for your
   <span class="d-inline-block underline relative">
     <span class="js-pricing-plan-name">Starter</span>
 
-    <ul class="pricing-plan-dropdown border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-sm">
+    <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-xxs z-9999">
       <li class="js-overage-dropdrop">Starter</li>
       <li class="js-overage-dropdrop">Pro</li>
       <li class="js-overage-dropdrop">Growth</li>

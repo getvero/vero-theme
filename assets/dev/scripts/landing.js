@@ -12,25 +12,7 @@ jQuery(document).ready(function() {
     noUiSlider.create(pricingSlider, {
       start  : [2000],
       connect: 'lower',
-      range  : allSliderRanges,
-      pips   : {
-        mode   : 'values',
-        values : [2000, 15000, 75000, 250000],
-        density: 100,
-        stepped: true,
-        format: wNumb({
-          decimals: 0,
-          thousand: ',',
-          suffix  : 'k',
-          encoder: function(value) {
-            return value / 1000;
-          }
-        })
-      },
-      format: wNumb({
-        decimals: 0,
-        thousand: ','
-      })
+      range  : allSliderRanges
     });
 
     var pricingPlans = [{
@@ -74,21 +56,21 @@ jQuery(document).ready(function() {
       'messages'    : 6250000,
       'data_points' : 125000000,
       'price'       : 2499,
-      'overage_rate': 4
+      'overage_rate': 1.8
     }, {
       'name'        : 'Enterprise 4',
       'customers'   : 2500000,
       'messages'    : 125000000,
       'data_points' : 125000000,
       'price'       : 4499,
-      'overage_rate': 4
+      'overage_rate': 1.6
     }, {
       'name'        : 'Enterprise 5',
       'customers'   : 5000000,
       'messages'    : 250000000,
       'data_points' : 125000000,
       'price'       : 7499,
-      'overage_rate': 4
+      'overage_rate': 1.4
     }];
 
     var numberFormat = wNumb({
@@ -96,11 +78,11 @@ jQuery(document).ready(function() {
       thousand: ','
     });
 
-    var monthLinks    = document.querySelectorAll('.js-overage-calculator');
+    var monthlyLinks    = document.querySelectorAll('.js-overage-calculator');
     var annualLinks   = document.querySelectorAll('.js-overage-calculator-annual');
     var dropdownLinks = document.querySelectorAll('.js-overage-dropdrop');
 
-    planSwitcher(monthLinks);
+    planSwitcher(monthlyLinks);
     planSwitcher(annualLinks);
     planSwitcher(dropdownLinks);
 
@@ -149,14 +131,36 @@ jQuery(document).ready(function() {
 
     var pricingPlanName = document.querySelectorAll('.js-pricing-plan-name');
 
+
     // Switch overage calculator based on plan
     function planSwitcher(links) {
       for (const [index, el] of links.entries()) {
         el.addEventListener('click', function() {
-          if (links == monthLinks || links == annualLinks) {
+          // Remove class for pricing dropdown
+          pricingDropdown.classList.remove('fade');
+
+          if (links == monthlyLinks || links == annualLinks) {
+
             openOverageCalculator();
 
             priceSwitcher(links, index);
+
+            var overlay = document.querySelector('.js-overlay');
+
+            if (overlay) {
+              overlay.addEventListener('click', function(event) {
+                if (event.target.closest('.js-modal')) return;
+
+                console.log('Click outside');
+                closeOverageCalculator();
+              }, false);
+
+              document.querySelector('.js-overlay-close').addEventListener('click', function() {
+                closeOverageCalculator();
+              });
+
+            }
+
           }
 
           var overageRate = document.querySelector('.js-overage-rate');
@@ -201,16 +205,6 @@ jQuery(document).ready(function() {
           });
 
           var planValue = [];
-          var formatTest = {
-            decimals: 0,
-            thousand: ',',
-            suffix  : 'k',
-            encoder: function(value) {
-              return value / 1000;
-            }
-          };
-
-          console.log(index);
 
           if (pricingPlans[index].name == 'Starter') {
             allSliderRanges = {
@@ -249,73 +243,40 @@ jQuery(document).ready(function() {
             };
 
             planValue = [250000, 450000, 750000, 2500000, 5000000]
-
-            formatTest = {
-              decimals: 0,
-              thousand: ',',
-              encoder: function(value) {
-                return value / 1000;
-              },
-              edit: function(value, original) {
-                if (original == 2500000) {
-                  return original / 1000000 + 'M+';
-                } else {
-                  return value + 'k';
-                }
-              }
-            }
           } else if (pricingPlans[index].name == 'Enterprise 2') {
             allSliderRanges = {
-              'min': [250000, 1000],
-              '25%': [450000, 1000],
-              '50%': [750000, 1000],
-              '75%': [2500000, 1000],
+              'min': [750000, 1000],
+              '25%': [1000000, 1000],
+              '50%': [2500000, 1000],
+              '75%': [4000000, 1000],
               'max': 5000000
             };
 
-            planValue = [250000, 450000, 750000, 2500000, 5000000]
-
-            formatTest = {
-              decimals: 0,
-              thousand: ',',
-              encoder: function(value) {
-                return value / 1000;
-              },
-              edit: function(value, original) {
-                if (original == 2500000) {
-                  return original / 1000000 + 'M+';
-                } else {
-                  return value + 'k';
-                }
-              }
-            }
+            planValue = [750000, 1000000, 2500000, 4000000, 5000000]
           } else if (pricingPlans[index].name == 'Enterprise 3') {
             allSliderRanges = {
-              'min': [250000, 1000],
-              '25%': [450000, 1000],
-              '50%': [750000, 1000],
-              '75%': [2500000, 1000],
+              'min': [1250000, 1000],
+              '50%': [3000000, 1000],
               'max': 5000000
             };
 
-            planValue = [250000, 450000, 750000, 2500000, 5000000]
+            planValue = [1250000, 3000000, 5000000]
+          } else if (pricingPlans[index].name == 'Enterprise 4') {
+            allSliderRanges = {
+              'min': [2500000, 1000],
+              '50%': [3750000, 1000],
+              'max': 5000000
+            };
 
-            formatTest = {
-              decimals: 0,
-              thousand: ',',
-              encoder: function(value) {
-                return value / 1000;
-              },
-              edit: function(value, original) {
-                if (original == 2500000) {
-                  return original / 1000000 + 'M+';
-                } else {
-                  return value + 'k';
-                }
-              }
-            }
+            planValue = [2500000, 3750000, 5000000]
+          } else if (pricingPlans[index].name == 'Enterprise 5') {
+            allSliderRanges = {
+              'min': [2500000, 1000],
+              '50%': [6750000, 1000],
+              'max': 10000000
+            };
 
-
+            planValue = [2500000, 6750000, 10000000]
           }
 
           // Update slider range based on customers per plan
@@ -327,8 +288,28 @@ jQuery(document).ready(function() {
               values : planValue,
               density: 100,
               stepped: true,
-              format : wNumb(formatTest)
-            }
+              format : wNumb({
+                decimals: 0,
+                thousand: ',',
+                suffix  : 'k',
+                encoder: function(value) {
+                  return value / 1000;
+                },
+                edit: function(value, original) {
+                  if (original >= 1000000) {
+                    return original / 1000000 + 'M';
+                  } else if (original == 5000000) {
+                    return original + 'M+';
+                  } else {
+                    return value;
+                  }
+                }
+              })
+            },
+            format: wNumb({
+              decimals: 0,
+              thousand: ','
+            })
           });
 
           // Set the slider value
@@ -347,47 +328,48 @@ jQuery(document).ready(function() {
     }
 
     function openOverageCalculator() {
-      var overlay    = document.querySelector('.js-overlay');
+      var overlay = document.querySelector('.js-overlay');
 
       if (!overlay) {
         var newOverlay        = document.createElement('div');
         var modal             = document.querySelector('.js-modal');
-        var close             = document.createElement('span');
 
         document.querySelector('.js-modal').classList.remove('is-active');
 
         newOverlay.setAttribute('class', 'js-overlay overlay overlay--pricing flex items-center justify-center');
-        close.setAttribute('class', 'js-overlay-close overlay-close pointer');
-        close.innerHTML = '<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>'
 
         modal.parentNode.insertBefore(newOverlay, modal);
 
-        modal.prepend(close);
         newOverlay.append(modal);
 
         modal.classList.add('is-active');
 
         document.body.classList.add('overflow-hidden');
       }
-
-      closeOverageCalculator();
     }
 
     function closeOverageCalculator() {
-      document.querySelector('.js-overlay-close').addEventListener('click', function(event) {
-        var el     = document.querySelector('.js-overlay');
-        var parent = el.parentNode;
+      var el     = document.querySelector('.js-overlay');
+      var parent = el.parentNode;
 
-        document.querySelector('.js-modal').classList.remove('is-active');
+      while (el.firstChild) parent.insertBefore(el.firstChild, el);
 
-        while (el.firstChild) parent.insertBefore(el.firstChild, el);
+      parent.removeChild(el);
 
-        parent.removeChild(el);
-
-        document.querySelector('.js-overlay-close').remove();
-        document.body.classList.remove('overflow-hidden');
-      });
+      document.querySelector('.js-modal').classList.remove('is-active');
+      document.body.classList.remove('overflow-hidden');
     }
+
+    // Open dropdown
+    var pricingDropdown = document.querySelector('.js-pricing-plan-dropdown');
+
+    pricingPlanName[0].addEventListener('click', function() {
+      console.log('Click dropdown');
+
+      pricingDropdown.classList.add('fade');
+    });
+
+
   }
 
   // Slider for careers page
