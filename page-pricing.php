@@ -1227,7 +1227,21 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
-  <h2 class="center-text bottom-margin-md">Overage calculator for your <span class="js-pricing-plan-name underline">Starter</span> plan</h2>
+  <h2 class="center-text bottom-margin-md">Overage calculator for your
+  <span class="d-inline-block underline relative">
+    <span class="js-pricing-plan-name">Starter</span>
+
+    <ul class="pricing-plan-dropdown border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-sm">
+      <li class="js-overage-dropdrop">Starter</li>
+      <li class="js-overage-dropdrop">Pro</li>
+      <li class="js-overage-dropdrop">Growth</li>
+      <li class="js-overage-dropdrop">Enterprise 1</li>
+      <li class="js-overage-dropdrop">Enterprise 2</li>
+      <li class="js-overage-dropdrop">Enterprise 3</li>
+      <li class="js-overage-dropdrop">Enterprise 4</li>
+      <li class="js-overage-dropdrop">Enterprise 5</li>
+    </ul>
+  </span> plan</h2>
 
   <div class="flex flex-column md-flex-row pricing-overage-calculator">
     <div class="pricing-overage-calculator-body">
@@ -1294,7 +1308,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 
-<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<!-- <script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> -->
 
 <?php
   no_content_genesis_footer();
