@@ -44,10 +44,10 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>2,000</strong> customers</li>
-                  <li><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>2,000</strong> Customers</li>
+                  <li><strong>10,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -105,10 +105,10 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>15,000</strong> customers</li>
-                  <li><strong>75,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>15,000</strong> Customers</li>
+                  <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -180,7 +180,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>75,000</strong> Customers </li>
                   <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>37M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -243,10 +243,10 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>250,000&plus;</strong> customers </li>
-                  <li><strong>1,250,000&plus;</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>250,000&plus;</strong> Customers </li>
+                  <li><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -302,10 +302,10 @@ include 'pages-shared/static-header.php';
                 <span class="font-gray-dark show regular annotation">Including</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>2,000</strong> customers</li>
-                  <li><strong>10,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>2,000</strong> Customers</li>
+                  <li><strong>10,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -367,7 +367,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>15,000</strong> Customers</li>
                   <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -439,7 +439,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>75,000</strong> Customers </li>
                   <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>37M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -505,7 +505,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>250,000&plus;</strong> Customers </li>
                   <li><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Data points<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
