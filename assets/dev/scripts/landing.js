@@ -86,41 +86,6 @@ jQuery(document).ready(function() {
     planSwitcher(annualLinks);
     planSwitcher(dropdownLinks);
 
-    // Work out annual price
-    function annualPrice(price) {
-      return (price * 12) * 0.9;
-    }
-
-    // Switch the fixed pricing to monthly or annual
-    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
-
-    function priceSwitcher(links, index) {
-      monthAnnual(links);
-
-      if (links == annualLinks) {
-        // Set the annual price values
-        pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
-      } else {
-        // Set the monthly price values
-        pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
-      }
-    }
-
-    function monthAnnual(links) {
-      var pricingFreqText = document.querySelectorAll('.js-pricing-frequency');
-      var str;
-
-      if (links == annualLinks) {
-        str = '/yr';
-      } else {
-        str = '/mo';
-      }
-
-      for (const el of pricingFreqText) {
-        el.textContent = str;
-      }
-    }
-
     var pricingSliderValue        = document.querySelector('.js-pricing-slider-value');
     var pricingMessagesValue      = document.querySelector('.js-pricing-messages-value')
     var pricingEventsTrackedValue = document.querySelector('.js-pricing-events-tracked-value')
@@ -131,6 +96,7 @@ jQuery(document).ready(function() {
 
     var pricingPlanName = document.querySelectorAll('.js-pricing-plan-name');
 
+    var overlay = document.querySelector('.js-overlay');
 
     // Switch overage calculator based on plan
     function planSwitcher(links) {
@@ -140,28 +106,9 @@ jQuery(document).ready(function() {
           pricingDropdown.classList.remove('fade');
 
           if (links == monthlyLinks || links == annualLinks) {
-
             openOverageCalculator();
 
             priceSwitcher(links, index);
-
-            var overlay = document.querySelector('.js-overlay');
-
-            if (overlay) {
-              overlay.addEventListener('click', function(event) {
-                if (event.target.closest('.js-modal')) return;
-
-                console.log('Click outside');
-                closeOverageCalculator();
-              }, false);
-
-              document.querySelector('.js-overlay-close').addEventListener('click', function() {
-                closeOverageCalculator();
-
-                console.log('Click');
-              });
-            }
-
           }
 
           var overageRate = document.querySelector('.js-overage-rate');
@@ -321,12 +268,48 @@ jQuery(document).ready(function() {
       }
     }
 
-    // Set plan name
-    function setPlanName(index) {
-      for (const el of pricingPlanName) {
-        el.textContent = pricingPlans[index].name;
+    // Work out annual price
+    function annualPrice(price) {
+      return (price * 12) * 0.9;
+    }
+
+    // Switch the fixed pricing to monthly or annual
+    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
+
+    function priceSwitcher(links, index) {
+      monthAnnual(links);
+
+      if (links == annualLinks) {
+        // Set the annual price values
+        pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
+      } else {
+        // Set the monthly price values
+        pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
       }
     }
+
+    function monthAnnual(links) {
+      var pricingFreqText = document.querySelectorAll('.js-pricing-frequency');
+      var str;
+
+      if (links == annualLinks) {
+        str = '/yr';
+      } else {
+        str = '/mo';
+      }
+
+      for (const el of pricingFreqText) {
+        el.textContent = str;
+      }
+    }
+
+    overlay.addEventListener('click', function (event) {
+      // If the click happened inside the modal, do nothing
+      if (event.target.closest('.js-modal') && !event.target.closest('.js-overlay-close')) return;
+
+      // Otherwise, close any open modal windows
+      closeOverageCalculator();
+    });
 
     function openOverageCalculator() {
       var overlay = document.querySelector('.js-overlay');
@@ -350,25 +333,19 @@ jQuery(document).ready(function() {
       document.body.classList.remove('overflow-hidden');
     }
 
-
-    document.addEventListener('click', function(event) {
-      if (!event.target.matches('.js-overlay-close')) return;
-
-      console.log('Click');
-
-      console.log(event.target);
-      closeOverageCalculator();
-    }, false)
-
     // Open dropdown
     var pricingDropdown = document.querySelector('.js-pricing-plan-dropdown');
 
     pricingPlanName[0].addEventListener('click', function() {
-      console.log('Click dropdown');
-
       pricingDropdown.classList.add('fade');
     });
 
+    // Set plan name
+    function setPlanName(index) {
+      for (const el of pricingPlanName) {
+        el.textContent = pricingPlans[index].name;
+      }
+    }
 
   }
 
