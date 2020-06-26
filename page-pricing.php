@@ -82,7 +82,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    30 days free Email support
+                    30 days free email support
                   </li>
                 </ul>
               </div>
@@ -220,7 +220,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    BYO Email Provider
+                    BYO email provider
                   </li>
                 </ul>
               </div>
@@ -281,7 +281,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="#none" class="btn btn--outline btn--secondary full-width top-margin-auto">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto" href="#none" >Talk to us</a>
             </div>
           </div>
         </div>
@@ -479,7 +479,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    BYO Email Provider
+                    BYO email provider
                   </li>
                 </ul>
               </div>
@@ -1234,21 +1234,23 @@ include 'pages-shared/static-header.php';
       <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
     </span>
 
-    <h2 class="center-text bottom-margin-md">Overage calculator for your
+    <h2 class="regular center-text bottom-margin-md">Overage calculator for your
     <span class="d-inline-block underline relative">
-      <span class="js-pricing-plan-name pointer">Starter</span>
+      <span class="js-pricing-plan-name semi-bold pointer">Starter</span>
 
-      <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-xxs z-9999">
-        <li class="js-overage-dropdrop">Starter</li>
-        <li class="js-overage-dropdrop">Pro</li>
-        <li class="js-overage-dropdrop">Growth</li>
-        <li class="js-overage-dropdrop">Enterprise 1</li>
-        <li class="js-overage-dropdrop">Enterprise 2</li>
-        <li class="js-overage-dropdrop">Enterprise 3</li>
-        <li class="js-overage-dropdrop">Enterprise 4</li>
-        <li class="js-overage-dropdrop">Enterprise 5</li>
-      </ul>
+        <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-xxxs z-9999">
+          <li class="js-overage-dropdrop pointer">Starter</li>
+          <li class="js-overage-dropdrop pointer">Pro</li>
+          <li class="js-overage-dropdrop pointer">Growth</li>
+          <li class="js-overage-dropdrop pointer">Enterprise 1</li>
+          <li class="js-overage-dropdrop pointer">Enterprise 2</li>
+          <li class="js-overage-dropdrop pointer">Enterprise 3</li>
+          <li class="js-overage-dropdrop pointer">Enterprise 4</li>
+          <li class="js-overage-dropdrop pointer">Enterprise 5</li>
+        </ul>
     </span> plan</h2>
+
+    <div class="js-pricing-overage-msg bg-white border-radius-1 center-text padding-sm">We can do something</div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">
@@ -1272,12 +1274,12 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero. Overage rate per thousand customers is <strong>$<span class="js-overage-rate">18</span></strong>.</p>
+          <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero.</p>
         </div>
       </div>
 
       <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-md">
-        <div class="stack-sm">
+        <div class="stack-md">
           <div class="flex">
             <div>
               <h4 class="atomic semi-bold no-margin">Plan</h4>
@@ -1288,16 +1290,20 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <div class="flex border-bottom bottom-padding-md">
-            <div>
-              <h4 class="atomic semi-bold no-margin">Additional customers</h4>
+          <div class="border-bottom bottom-padding-md stack-sm">
+            <div class="flex">
               <div>
-                <span class="js-pricing-additional-customers regular font-gray-dark"></span>
+                <h4 class="atomic semi-bold no-margin">Additional customers</h4>
+                <div>
+                  <span class="js-pricing-additional-customers regular font-gray-dark"></span>
+                </div>
+              </div>
+              <div class="right-text">
+                <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
               </div>
             </div>
-            <div class="right-text">
-              <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
-            </div>
+
+            <div class="regular font-gray-dark">$<span class="js-overage-rate">18</span> per thousand customers</div>
           </div>
         </div>
 
@@ -1310,13 +1316,13 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <a class="btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
       </div>
     </div>
   </section>
 </div>
 
-<!-- <script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> -->
+<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <?php
   no_content_genesis_footer();
