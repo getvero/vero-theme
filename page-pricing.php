@@ -1236,7 +1236,7 @@ include 'pages-shared/static-header.php';
 
     <h2 class="center-text bottom-margin-md">Overage calculator for your
     <span class="d-inline-block underline relative">
-      <span class="js-pricing-plan-name">Starter</span>
+      <span class="js-pricing-plan-name pointer">Starter</span>
 
       <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-xxs z-9999">
         <li class="js-overage-dropdrop">Starter</li>
