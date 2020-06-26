@@ -1286,7 +1286,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <div class="border-bottom bottom-padding-md">
+          <div class="border-bottom bottom-padding-md stack-sm">
             <div class="flex">
               <div>
                 <h4 class="atomic semi-bold no-margin">Additional customers</h4>
@@ -1299,7 +1299,7 @@ include 'pages-shared/static-header.php';
               </div>
             </div>
 
-            <div class="regular font-gray-dark">$<span class="js-overage-rate">18</span> per thousand customers</div>
+            <div class="regular annotation font-gray-dark">$<span class="js-overage-rate">18</span> per thousand customers</div>
           </div>
         </div>
 
