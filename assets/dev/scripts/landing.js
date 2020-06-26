@@ -13,6 +13,14 @@ jQuery(document).ready(function() {
       start  : [2000],
       connect: 'lower',
       range  : allSliderRanges
+      // ,
+      // tooltips: wNumb({
+      //   decimals: 0,
+      //   thousand: ',',
+      //   edit    : function(value) {
+      //     return parseInt(value.replace(/,/g, "")) == 300001 ? value + '+' : value;
+      //   }
+      // })
     });
 
     var pricingPlans = [{
@@ -128,7 +136,11 @@ jQuery(document).ready(function() {
             var additionalCustomers = currentCustomers - pricingPlans[index].customers;
 
             // Set handle value
-            pricingSliderValue.textContent = values[handle];
+            if (currentCustomers == 10000000) {
+              pricingSliderValue.textContent = values[handle] + '+';
+            } else {
+              pricingSliderValue.textContent = values[handle];
+            }
 
             // Set additional customers value
             pricingAdditionalCustomersValue.textContent = numberFormat.to(additionalCustomers);
@@ -266,8 +278,6 @@ jQuery(document).ready(function() {
                 edit: function(value, original) {
                   if (original >= 1000000) {
                     return original / 1000000 + 'M';
-                  } else if (original == 5000000) {
-                    return original + 'TEST';
                   } else {
                     return value;
                   }
