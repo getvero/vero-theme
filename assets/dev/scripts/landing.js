@@ -217,6 +217,7 @@ jQuery(document).ready(function() {
             };
 
             planValue = [1250000, 3000000, 4250000, 5000000]
+
           } else if (pricingPlans[index].name == 'Enterprise 4') {
             allSliderRanges = {
               'min': [2500000, 1000],
@@ -234,7 +235,6 @@ jQuery(document).ready(function() {
 
             planValue = [5000000, 7500000, 10000000]
           }
-
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
@@ -274,8 +274,16 @@ jQuery(document).ready(function() {
 
           setPlanName(index);
 
-          if (index[3, 4, 5, 6, 7]) {
-            console.log('Enterprise tiers');
+          // Switch pricing button text
+          if (index == 3 || index == 4 || index == 5 || index == 6 || index == 7) {
+            var str = 'Talk to us';
+            var btn = document.querySelector('.js-pricing-btn ');
+
+            btn.textContent = str;
+          } else {
+            str = 'Try for free'
+
+            btn.textContent = str;
           }
         });
       }
