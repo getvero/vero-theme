@@ -159,9 +159,14 @@ jQuery(document).ready(function() {
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
             }
 
+            var overrageMsg = document.querySelector('.js-pricing-overage-msg');
+
             if (numberFormat.from(values[handle]) == 10000000) {
-              // alert('More customers');
-              document.querySelector('.js-pricing-overage-msg').textContent = 'Something';
+              overrageMsg.classList.add('is-active');
+              overrageMsg.textContent = 'Something about get in touch';
+            } else {
+              overrageMsg.classList.remove('is-active');
+              overrageMsg.textContent = '';
             }
           });
 

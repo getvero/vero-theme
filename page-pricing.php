@@ -1229,16 +1229,12 @@ include 'pages-shared/static-header.php';
 
 
 <div class="js-overlay overlay overlay--pricing items-center justify-center">
-  <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
-    <span class="js-overlay-close overlay-close pointer">
-      <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
-    </span>
-
-    <h2 class="regular center-text bottom-margin-md">Overage calculator for your
+  <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
+    <h2 class="semi-bold center-text bottom-margin-md">Overage calculator for your
     <span class="d-inline-block underline relative">
       <span class="js-pricing-plan-name semi-bold pointer">Starter</span>
 
-        <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-xxxs z-9999">
+        <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
           <li class="js-overage-dropdrop pointer">Starter</li>
           <li class="js-overage-dropdrop pointer">Pro</li>
           <li class="js-overage-dropdrop pointer">Growth</li>
@@ -1250,7 +1246,7 @@ include 'pages-shared/static-header.php';
         </ul>
     </span> plan</h2>
 
-    <div class="js-pricing-overage-msg bg-white border-radius-1 center-text padding-sm">We can do something</div>
+    <div class="js-pricing-overage-msg pricing-overage-msg font-white semi-bold annotation bg-dark-blue border-radius-1 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">
@@ -1290,7 +1286,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <div class="border-bottom bottom-padding-md stack-sm">
+          <div class="border-bottom bottom-padding-md">
             <div class="flex">
               <div>
                 <h4 class="atomic semi-bold no-margin">Additional customers</h4>
@@ -1319,6 +1315,10 @@ include 'pages-shared/static-header.php';
         <a class="js-pricing-btn btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
       </div>
     </div>
+
+    <span class="js-overlay-close overlay-close pointer">
+      <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
+    </span>
   </section>
 </div>
 
