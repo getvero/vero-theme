@@ -144,6 +144,7 @@ jQuery(document).ready(function() {
             // Set events tracked values
             pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 500000));
 
+            // Set prices depending on annual or monthly
             if (links == annualLinks) {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
@@ -156,6 +157,11 @@ jQuery(document).ready(function() {
 
               // Total cost
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
+            }
+
+            if (numberFormat.from(values[handle]) == 10000000) {
+              // alert('More customers');
+              document.querySelector('.js-pricing-overage-msg').textContent = 'Something';
             }
           });
 
@@ -275,16 +281,22 @@ jQuery(document).ready(function() {
           setPlanName(index);
 
           // Switch pricing button text
-          if (index == 3 || index == 4 || index == 5 || index == 6 || index == 7) {
-            var str = 'Talk to us';
-            var btn = document.querySelector('.js-pricing-btn ');
+          btnSwitcher();
 
-            btn.textContent = str;
-          } else {
-            str = 'Try for free'
+          function btnSwitcher() {
+            var btn = document.querySelector('.js-pricing-btn');
+            var str = 'Try for free';
 
-            btn.textContent = str;
+            if (index == 0 || index == 1 || index == 2) {
+
+              btn.textContent = str;
+            } else {
+              str = 'Talk to us';
+
+              btn.textContent = str;
+            }
           }
+
         });
       }
     }
