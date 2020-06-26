@@ -281,7 +281,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto" href="#none" >Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto" href="https://getvero.typeform.com/to/d9wZ4V" >Talk to us</a>
             </div>
           </div>
         </div>
@@ -540,7 +540,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="#none" class="btn btn--outline btn--secondary full-width top-margin-auto">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto" href="https://getvero.typeform.com/to/d9wZ4V" >Talk to us</a>
             </div>
           </div>
         </div>
