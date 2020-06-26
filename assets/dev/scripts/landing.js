@@ -56,21 +56,21 @@ jQuery(document).ready(function() {
       'messages'    : 6250000,
       'data_points' : 125000000,
       'price'       : 2499,
-      'overage_rate': 1.8
+      'overage_rate': 1.80
     }, {
       'name'        : 'Enterprise 4',
       'customers'   : 2500000,
       'messages'    : 125000000,
       'data_points' : 125000000,
       'price'       : 4499,
-      'overage_rate': 1.6
+      'overage_rate': 1.60
     }, {
       'name'        : 'Enterprise 5',
       'customers'   : 5000000,
       'messages'    : 250000000,
       'data_points' : 125000000,
       'price'       : 7499,
-      'overage_rate': 1.4
+      'overage_rate': 1.40
     }];
 
     var numberFormat = wNumb({
@@ -96,8 +96,6 @@ jQuery(document).ready(function() {
 
     var pricingPlanName = document.querySelectorAll('.js-pricing-plan-name');
 
-    var overlay = document.querySelector('.js-overlay');
-
     // Switch overage calculator based on plan
     function planSwitcher(links) {
       for (const [index, el] of links.entries()) {
@@ -111,9 +109,18 @@ jQuery(document).ready(function() {
             priceSwitcher(links, index);
           }
 
-          var overageRate = document.querySelector('.js-overage-rate');
+          for (const el of dropdownLinks) {
+            el.classList.remove('is-active');
+          }
 
-          overageRate.textContent = pricingPlans[index].overage_rate;
+          dropdownLinks[index].classList.add('is-active');
+
+          // Add overage rate
+          var overageRates = document.querySelectorAll('.js-overage-rate');
+
+          for (const el of overageRates) {
+            el.textContent = pricingPlans[index].overage_rate;
+          }
 
           // Update values when moving slider
           pricingSlider.noUiSlider.on('update', function (values, handle) {
@@ -203,12 +210,13 @@ jQuery(document).ready(function() {
             planValue = [750000, 1000000, 2500000, 4000000, 5000000]
           } else if (pricingPlans[index].name == 'Enterprise 3') {
             allSliderRanges = {
-              'min': [1250000, 1000],
-              '50%': [3000000, 1000],
-              'max': 5000000
+              'min'   : [1250000, 1000],
+              '33.33%': [3000000, 1000],
+              '66.66%': [4250000, 1000],
+              'max'   : 5000000
             };
 
-            planValue = [1250000, 3000000, 5000000]
+            planValue = [1250000, 3000000, 4250000, 5000000]
           } else if (pricingPlans[index].name == 'Enterprise 4') {
             allSliderRanges = {
               'min': [2500000, 1000],
@@ -219,13 +227,14 @@ jQuery(document).ready(function() {
             planValue = [2500000, 3750000, 5000000]
           } else if (pricingPlans[index].name == 'Enterprise 5') {
             allSliderRanges = {
-              'min': [2500000, 1000],
-              '50%': [6750000, 1000],
+              'min': [5000000, 1000],
+              '50%': [7500000, 1000],
               'max': 10000000
             };
 
-            planValue = [2500000, 6750000, 10000000]
+            planValue = [5000000, 7500000, 10000000]
           }
+
 
           // Update slider range based on customers per plan
           pricingSlider.noUiSlider.updateOptions({
@@ -247,7 +256,7 @@ jQuery(document).ready(function() {
                   if (original >= 1000000) {
                     return original / 1000000 + 'M';
                   } else if (original == 5000000) {
-                    return original + 'M+';
+                    return original + 'TEST';
                   } else {
                     return value;
                   }
@@ -264,6 +273,10 @@ jQuery(document).ready(function() {
           pricingSlider.noUiSlider.set(pricingPlans[index].customers);
 
           setPlanName(index);
+
+          if (index[3, 4, 5, 6, 7]) {
+            console.log('Enterprise tiers');
+          }
         });
       }
     }
@@ -303,13 +316,14 @@ jQuery(document).ready(function() {
       }
     }
 
+    var overlay = document.querySelector('.js-overlay');
+
     overlay.addEventListener('click', function (event) {
       // If the click happened inside the modal, do nothing
       if (event.target.closest('.js-modal') && !event.target.closest('.js-overlay-close')) return;
 
-      // Otherwise, close any open modal windows
       closeOverageCalculator();
-    });
+    }, false);
 
     function openOverageCalculator() {
       var overlay = document.querySelector('.js-overlay');
