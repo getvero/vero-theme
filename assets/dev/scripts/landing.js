@@ -157,8 +157,9 @@ jQuery(document).ready(function() {
 
               document.querySelector('.js-overlay-close').addEventListener('click', function() {
                 closeOverageCalculator();
-              });
 
+                console.log('Click');
+              });
             }
 
           }
@@ -329,36 +330,35 @@ jQuery(document).ready(function() {
 
     function openOverageCalculator() {
       var overlay = document.querySelector('.js-overlay');
+      var modal   = document.querySelector('.js-modal');
 
-      if (!overlay) {
-        var newOverlay        = document.createElement('div');
-        var modal             = document.querySelector('.js-modal');
-
-        document.querySelector('.js-modal').classList.remove('is-active');
-
-        newOverlay.setAttribute('class', 'js-overlay overlay overlay--pricing flex items-center justify-center');
-
-        modal.parentNode.insertBefore(newOverlay, modal);
-
-        newOverlay.append(modal);
-
-        modal.classList.add('is-active');
-
+      if (!overlay.classList.contains('is-active')) {
         document.body.classList.add('overflow-hidden');
+
+        overlay.classList.add('is-active');
+        modal.classList.add('is-active');
       }
     }
 
     function closeOverageCalculator() {
-      var el     = document.querySelector('.js-overlay');
-      var parent = el.parentNode;
+      var overlay = document.querySelector('.js-overlay');
+      var modal   = document.querySelector('.js-modal');
 
-      while (el.firstChild) parent.insertBefore(el.firstChild, el);
+      overlay.classList.remove('is-active');
+      modal.classList.remove('is-active');
 
-      parent.removeChild(el);
-
-      document.querySelector('.js-modal').classList.remove('is-active');
       document.body.classList.remove('overflow-hidden');
     }
+
+
+    document.addEventListener('click', function(event) {
+      if (!event.target.matches('.js-overlay-close')) return;
+
+      console.log('Click');
+
+      console.log(event.target);
+      closeOverageCalculator();
+    }, false)
 
     // Open dropdown
     var pricingDropdown = document.querySelector('.js-pricing-plan-dropdown');

@@ -1226,91 +1226,95 @@ include 'pages-shared/static-header.php';
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-<section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
-  <span class="js-overlay-close overlay-close pointer">
-    <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
-  </span>
 
-  <h2 class="center-text bottom-margin-md">Overage calculator for your
-  <span class="d-inline-block underline relative">
-    <span class="js-pricing-plan-name">Starter</span>
 
-    <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-xxs z-9999">
-      <li class="js-overage-dropdrop">Starter</li>
-      <li class="js-overage-dropdrop">Pro</li>
-      <li class="js-overage-dropdrop">Growth</li>
-      <li class="js-overage-dropdrop">Enterprise 1</li>
-      <li class="js-overage-dropdrop">Enterprise 2</li>
-      <li class="js-overage-dropdrop">Enterprise 3</li>
-      <li class="js-overage-dropdrop">Enterprise 4</li>
-      <li class="js-overage-dropdrop">Enterprise 5</li>
-    </ul>
-  </span> plan</h2>
+<div class="js-overlay overlay overlay--pricing items-center justify-center">
+  <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1">
+    <span class="js-overlay-close overlay-close pointer">
+      <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
+    </span>
 
-  <div class="flex flex-column md-flex-row pricing-overage-calculator">
-    <div class="pricing-overage-calculator-body">
-      <div class="stack-md">
-        <div class="stack-xs">
-          <h3>How many customers do you have?</h3>
+    <h2 class="center-text bottom-margin-md">Overage calculator for your
+    <span class="d-inline-block underline relative">
+      <span class="js-pricing-plan-name">Starter</span>
 
-          <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
-          <div class="js-pricing-customer-slider pricing-customer-slider"></div>
-        </div>
+      <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border-radius-2 shadow-1 absolute unstyled-list bg-white padding-sm left-text stack-xxs z-9999">
+        <li class="js-overage-dropdrop">Starter</li>
+        <li class="js-overage-dropdrop">Pro</li>
+        <li class="js-overage-dropdrop">Growth</li>
+        <li class="js-overage-dropdrop">Enterprise 1</li>
+        <li class="js-overage-dropdrop">Enterprise 2</li>
+        <li class="js-overage-dropdrop">Enterprise 3</li>
+        <li class="js-overage-dropdrop">Enterprise 4</li>
+        <li class="js-overage-dropdrop">Enterprise 5</li>
+      </ul>
+    </span> plan</h2>
 
-        <div class="flex pricing-overage-values border-bottom bottom-padding-md">
-          <div class="stack-xxxs">
-            <h4>Messages</h4>
-            <div class="js-pricing-messages-value atomic regular font-gray-dark"></div>
+    <div class="flex flex-column md-flex-row pricing-overage-calculator">
+      <div class="pricing-overage-calculator-body">
+        <div class="stack-md">
+          <div class="stack-xs">
+            <h3>How many customers do you have?</h3>
+
+            <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
+            <div class="js-pricing-customer-slider pricing-customer-slider"></div>
           </div>
 
-          <div class="stack-xxxs">
-            <h4>Events tracked</h4>
-            <div class="js-pricing-events-tracked-value atomic regular font-gray-dark"></div>
-          </div>
-        </div>
+          <div class="flex pricing-overage-values border-bottom bottom-padding-md">
+            <div class="stack-xxxs">
+              <h4>Messages</h4>
+              <div class="js-pricing-messages-value atomic regular font-gray-dark"></div>
+            </div>
 
-        <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero. Overage rate per thousand customers is <strong>$<span class="js-overage-rate">18</span></strong>.</p>
-      </div>
-    </div>
-
-    <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-md">
-      <div class="stack-sm">
-        <div class="flex">
-          <div>
-            <h4 class="atomic semi-bold no-margin">Plan</h4>
-            <div class="js-pricing-plan-name regular font-gray-dark">Starter</div>
-          </div>
-          <div class="right-text">
-            <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
-          </div>
-        </div>
-
-        <div class="flex border-bottom bottom-padding-md">
-          <div>
-            <h4 class="atomic semi-bold no-margin">Additional customers</h4>
-            <div>
-              <span class="js-pricing-additional-customers regular font-gray-dark"></span>
+            <div class="stack-xxxs">
+              <h4>Events tracked</h4>
+              <div class="js-pricing-events-tracked-value atomic regular font-gray-dark"></div>
             </div>
           </div>
-          <div class="right-text">
-            <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
+
+          <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero. Overage rate per thousand customers is <strong>$<span class="js-overage-rate">18</span></strong>.</p>
+        </div>
+      </div>
+
+      <div class="pricing-overage-calculator-footer bg-white padding-md border border-radius-2 shadow-1 stack-md">
+        <div class="stack-sm">
+          <div class="flex">
+            <div>
+              <h4 class="atomic semi-bold no-margin">Plan</h4>
+              <div class="js-pricing-plan-name regular font-gray-dark">Starter</div>
+            </div>
+            <div class="right-text">
+              <span class="atomic semi-bold">$<span class="js-pricing-plan-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
+            </div>
+          </div>
+
+          <div class="flex border-bottom bottom-padding-md">
+            <div>
+              <h4 class="atomic semi-bold no-margin">Additional customers</h4>
+              <div>
+                <span class="js-pricing-additional-customers regular font-gray-dark"></span>
+              </div>
+            </div>
+            <div class="right-text">
+              <span class="atomic semi-bold">$<span class="js-pricing-additional-price">49</span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flex">
-        <div>
-          <h4 class="atomic semi-bold no-margin">Your total payment</h4>
+        <div class="flex">
+          <div>
+            <h4 class="atomic semi-bold no-margin">Your total payment</h4>
+          </div>
+          <div class="right-text">
+            <span class="atomic semi-bold">$<span class="js-pricing-total-cost"></span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
+          </div>
         </div>
-        <div class="right-text">
-          <span class="atomic semi-bold">$<span class="js-pricing-total-cost"></span></span><span class="js-pricing-frequency font-gray-dark">/mo</span>
-        </div>
-      </div>
 
-      <a class="btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
+        <a class="btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 
 <!-- <script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> -->
 
