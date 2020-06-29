@@ -48,7 +48,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>10,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>160k</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>75,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1.2M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -183,7 +183,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>375,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>6M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -247,10 +247,10 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list stack-sm">
                   <li><strong>250,000&plus;</strong> customers </li>
-                  <li><strong>1,250,000&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>1.25M&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>20M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -310,7 +310,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>10,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>160k</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -373,7 +373,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>75,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1.2M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -446,7 +446,7 @@ include 'pages-shared/static-header.php';
                   <li><strong>375,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>6M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -510,10 +510,10 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list stack-sm">
                   <li><strong>250,000&plus;</strong> customers </li>
-                  <li><strong>1,250,000&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>1.25M&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>20M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
@@ -1255,29 +1255,32 @@ include 'pages-shared/static-header.php';
 
 <div class="js-overlay overlay overlay--pricing items-center justify-center">
   <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
-    <h2 class="semi-bold center-text bottom-margin-md">Overage calculator for your
-    <span class="d-inline-block underline relative">
-      <span class="js-pricing-plan-name semi-bold pointer">Starter</span>
-
-        <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
-          <li class="js-overage-dropdrop pointer">Starter</li>
-          <li class="js-overage-dropdrop pointer">Pro</li>
-          <li class="js-overage-dropdrop pointer">Growth</li>
-          <li class="js-overage-dropdrop pointer">Enterprise 1</li>
-          <li class="js-overage-dropdrop pointer">Enterprise 2</li>
-          <li class="js-overage-dropdrop pointer">Enterprise 3</li>
-          <li class="js-overage-dropdrop pointer">Enterprise 4</li>
-          <li class="js-overage-dropdrop pointer">Enterprise 5</li>
-        </ul>
-    </span> plan</h2>
+    <h2 class="tubs semi-bold center-text bottom-margin-md">Overage calculator</h2>
 
     <div class="js-pricing-overage-msg pricing-overage-msg font-white semi-bold annotation bg-dark-blue border-radius-1 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">
         <div class="stack-md">
+          <div>
+            <h3>Choose your plan:
+            <span class="relative"><span class="js-pricing-plan-name semi-bold pointer relative">Starter</span>
+
+            <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
+              <li class="js-overage-dropdrop pointer">Starter</li>
+              <li class="js-overage-dropdrop pointer">Pro</li>
+              <li class="js-overage-dropdrop pointer">Growth</li>
+              <li class="js-overage-dropdrop pointer">Enterprise 1</li>
+              <li class="js-overage-dropdrop pointer">Enterprise 2</li>
+              <li class="js-overage-dropdrop pointer">Enterprise 3</li>
+              <li class="js-overage-dropdrop pointer">Enterprise 4</li>
+              <li class="js-overage-dropdrop pointer">Enterprise 5</li>
+            </ul>
+            </span></h3>
+          </div>
+
           <div class="stack-xs">
-            <h3>How many customers do you have?</h3>
+            <h3>How many additional customers do you have?</h3>
 
             <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
             <div class="js-pricing-customer-slider pricing-customer-slider"></div>
