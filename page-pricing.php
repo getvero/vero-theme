@@ -1264,7 +1264,7 @@ include 'pages-shared/static-header.php';
         <div class="stack-md">
           <div>
             <h3>Choose your plan:
-            <span class="relative"><span class="js-pricing-plan-name semi-bold pointer relative">Starter</span>
+            <span class="relative underline"><span class="js-pricing-plan-name semi-bold pointer relative">Starter</span>
 
             <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
               <li class="js-overage-dropdrop pointer">Starter</li>
