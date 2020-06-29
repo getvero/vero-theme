@@ -1062,16 +1062,16 @@ include 'pages-shared/static-header.php';
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
             <div class="strong">Events tracked per month</div>
             <div class="flex items-center justify-center">
-              1M
+              160k
             </div>
             <div class="flex items-center justify-center">
-              7.5M
+              1.2M
             </div>
             <div class="flex items-center justify-center">
-              37.5M
+              6M
             </div>
             <div class="flex items-center justify-center">
-              125M
+              20M
             </div>
           </div>
         </div>
