@@ -305,11 +305,15 @@ jQuery(document).ready(function() {
             if (index == 0 || index == 1 || index == 2) {
 
               btn.textContent = str;
+              btn.classList.remove('track-contact-us');
+              btn.classList.add('track-start-trial');
               btn.setAttribute('href', 'https://app.getvero.com/signup');
             } else {
               str = 'Talk to us';
 
               btn.textContent = str;
+              btn.classList.remove('track-start-trial');
+              btn.classList.add('track-contact-us');
               btn.setAttribute('href', 'https://getvero.typeform.com/to/d9wZ4V');
             }
           }
