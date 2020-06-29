@@ -27,56 +27,56 @@ jQuery(document).ready(function() {
       'name'        : 'Starter',
       'customers'   : 2000,
       'messages'    : 10000,
-      'data_points' : 1000000,
+      'data_points' : 160000,
       'price'       : 49,
       'overage_rate': 18
     }, {
       'name'        : 'Pro',
       'customers'   : 15000,
       'messages'    : 75000,
-      'data_points' : 7500000,
+      'data_points' : 1200000,
       'price'       : 199,
       'overage_rate': 8
     }, {
       'name'        : 'Growth',
       'customers'   : 75000,
       'messages'    : 375000,
-      'data_points' : 37000000,
+      'data_points' : 6000000,
       'price'       : 599,
       'overage_rate': 5
     }, {
       'name'        : 'Enterprise',
       'customers'   : 250000,
       'messages'    : 1250000,
-      'data_points' : 125000000,
+      'data_points' : 20000000,
       'price'       : 1299,
       'overage_rate': 4
     }, {
       'name'        : 'Enterprise 2',
       'customers'   : 750000,
       'messages'    : 3750000,
-      'data_points' : 125000000,
+      'data_points' : 60000000,
       'price'       : 1799,
       'overage_rate': 2
     }, {
       'name'        : 'Enterprise 3',
       'customers'   : 1250000,
       'messages'    : 6250000,
-      'data_points' : 125000000,
+      'data_points' : 100000000,
       'price'       : 2499,
       'overage_rate': 1.80
     }, {
       'name'        : 'Enterprise 4',
       'customers'   : 2500000,
-      'messages'    : 125000000,
-      'data_points' : 125000000,
+      'messages'    : 12500000,
+      'data_points' : 200000000,
       'price'       : 4499,
       'overage_rate': 1.60
     }, {
       'name'        : 'Enterprise 5',
       'customers'   : 5000000,
-      'messages'    : 250000000,
-      'data_points' : 125000000,
+      'messages'    : 25000000,
+      'data_points' : 400000000,
       'price'       : 7499,
       'overage_rate': 1.40
     }];
