@@ -180,7 +180,7 @@ include 'pages-shared/static-header.php';
 
                 <ul class="unstyled-list stack-sm">
                   <li><strong>75,000</strong> customers </li>
-                  <li><strong>375,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>375,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                   <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
                     <span class="right-margin-xxs"><strong>6M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
@@ -1298,7 +1298,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <p class="annotation font-gray-darker">To keep things simple, we charge overage based on the one <strong>customer</strong> metric. A <strong>customer</strong> is any user present in Vero.</p>
+          <p class="annotation font-gray-darker">We calculate overage based on the one <strong>customer</strong> metric, with each 1,000 customers including extra emails sent and events tracked. A <strong>customer</strong> is any user / subscriber record in Vero.</p>
         </div>
       </div>
 

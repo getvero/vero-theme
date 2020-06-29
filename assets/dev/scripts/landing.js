@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 
             if (numberFormat.from(values[handle]) == 10000000) {
               overrageMsg.classList.add('is-active');
-              overrageMsg.textContent = 'Something about get in touch';
+              overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs";
             } else {
               overrageMsg.classList.remove('is-active');
               overrageMsg.textContent = '';
