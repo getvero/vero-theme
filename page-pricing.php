@@ -12,8 +12,8 @@ include 'pages-shared/static-header.php';
 ?>
 <section class="hero pricing-hero">
   <div class="inner center-text stack-xs bottom-padding-lg">
-    <h1 class="biggie semi-bold">Simple pricing that scales your business</h1>
-    <p class="large">We’ve got plans to suit everyone.</p>
+    <h1 class="biggie semi-bold">Pricing that scales as you do</h1>
+    <p class="large">Only pay for what you use</p>
   </div>
   <div class="inner xlarge-inner flush-top">
     <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
@@ -41,18 +41,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>2,000</strong> Customers</li>
-                  <li><strong>10,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>2,000</strong> customers</li>
+                  <li><strong>10,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $18 per thousand customers</li>
@@ -77,7 +78,7 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    Online guides and help docs
+                    Online guides and help documentation
                   </li>
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
@@ -102,18 +103,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>15,000</strong> Customers</li>
-                  <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>15,000</strong> customers</li>
+                  <li><strong>75,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $8 per thousand customers</li>
@@ -174,18 +176,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>75,000</strong> Customers </li>
-                  <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>75,000</strong> customers </li>
+                  <li><strong>375,000</strong> messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
@@ -240,18 +243,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>250,000&plus;</strong> Customers </li>
-                  <li><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>250,000&plus;</strong> customers </li>
+                  <li><strong>1,250,000&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $4 per thousand customers</li>
@@ -299,18 +303,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>2,000</strong> Customers</li>
-                  <li><strong>10,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>2,000</strong> customers</li>
+                  <li><strong>10,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="flex items-center">
-                    <span class="right-margin-xxs"><strong>1M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>1M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $18 per thousand customers</li>
@@ -361,18 +366,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>15,000</strong> Customers</li>
-                  <li><strong>75,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>15,000</strong> customers</li>
+                  <li><strong>75,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>7.5M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>7.5M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $8 per thousand customers</li>
@@ -433,18 +439,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>75,000</strong> Customers </li>
-                  <li><strong>375,000</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>75,000</strong> customers </li>
+                  <li><strong>375,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>37M</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>37M</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
@@ -499,18 +506,19 @@ include 'pages-shared/static-header.php';
               </div>
 
               <div class="stack-xxs">
-                <span class="font-gray-dark show regular annotation">Including</span>
+                <span class="font-gray-dark show regular annotation">Includes</span>
 
                 <ul class="unstyled-list stack-sm">
-                  <li><strong>250,000&plus;</strong> Customers </li>
-                  <li><strong>1,250,000&plus;</strong> Messages<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>250,000&plus;</strong> customers </li>
+                  <li><strong>1,250,000&plus;</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
+                  <li><strong>Unlimited</strong> mobile push messages</li>
                   <li class="no-margin flex items-center">
-                    <span class="right-margin-xxs"><strong>125M&plus;</strong> Events tracked<span class="annotation font-gray-dark">/mo</span></span>
+                    <span class="right-margin-xxs"><strong>125M&plus;</strong> events tracked<span class="annotation font-gray-dark">/mo</span></span>
 
                     <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
-                      <span class="tooltip-msg">A <strong>data point</strong> is any <strong>event track</strong> that you record, read more in our help docs.</span>
+                      <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
                   <li>&plus; $4 per thousand customers</li>
@@ -631,7 +639,7 @@ include 'pages-shared/static-header.php';
           </div>
 
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Newsletter Campaigns</div>
+            <div class="strong">Newsletter (broadcast) campaigns</div>
             <div class="flex items-center justify-center">
               <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
             </div>
@@ -646,7 +654,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Segmentation</div>
+            <div class="strong">Customer segmentation</div>
             <div class="flex items-center justify-center">
               <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
             </div>
@@ -661,7 +669,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Workflow automated campaigns</div>
+            <div class="strong">Automated workflows</div>
             <div class="flex items-center justify-center">
               <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
             </div>
@@ -721,7 +729,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">AB testing</div>
+            <div class="strong">A/B testing</div>
             <div class="flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
             </div>
@@ -755,7 +763,7 @@ include 'pages-shared/static-header.php';
           </div>
 
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Drag &amp; drop template builder</div>
+            <div class="strong">Drag and drop template builder</div>
             <div class="flex items-center justify-center">
               <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
             </div>
@@ -800,7 +808,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Multi-language campaigns (Internationalization)</div>
+            <div class="strong">Multi-language campaigns (internationalization)</div>
             <div class="flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
             </div>
@@ -879,7 +887,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Data sync (webhooks)</div>
+            <div class="strong">Webhooks (data sync)</div>
             <div class="flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"/></svg>
             </div>
@@ -1007,7 +1015,7 @@ include 'pages-shared/static-header.php';
           </div>
 
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Customers (contacts/subscribers)</div>
+            <div class="strong">Customers (contacts / subscribers)</div>
             <div class="flex items-center justify-center">
               2,000
             </div>
@@ -1022,7 +1030,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Messages sent per month (email or push)</div>
+            <div class="strong">Emails sent per month</div>
             <div class="flex items-center justify-center">
               10,000
             </div>
@@ -1037,7 +1045,22 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Data points monthly quota</div>
+            <div class="strong">Mobile push messages sent per month</div>
+            <div class="flex items-center justify-center">
+              Unlimited
+            </div>
+            <div class="flex items-center justify-center">
+              Unlimited
+            </div>
+            <div class="flex items-center justify-center">
+              Unlimited
+            </div>
+            <div class="flex items-center justify-center">
+              Unlimited
+            </div>
+          </div>
+          <div class="annotation pricing-feature-table-row flex border-bottom-light">
+            <div class="strong">Events tracked per month</div>
             <div class="flex items-center justify-center">
               1M
             </div>
@@ -1086,7 +1109,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Email Support</div>
+            <div class="strong">Email support</div>
             <div class="flex items-center justify-center">
               30 days free on signup
             </div>
@@ -1101,7 +1124,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
           <div class="annotation pricing-feature-table-row flex border-bottom-light">
-            <div class="strong">Priority Response</div>
+            <div class="strong">Priority response</div>
             <div class="flex items-center justify-center mti_font_element">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#E1E2E5" stroke-linecap="round" stroke-width="2" d="M2 8h12" fill="none" fill-rule="evenodd"></path></svg>
             </div>
@@ -1144,14 +1167,15 @@ include 'pages-shared/static-header.php';
         <details class="stack-sm">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">What happens if I go over my subscriber limit?</h3>
+              <h3 class="micro regular no-bottom-margin">What happens if I go over the usage limits on my chosen plan?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
-            <p class="medium">Vero will send you an email when you cross the subscriber threshold of your current plan. Your account will be automatically upgraded to a new plan, which will be reflected in your your next invoice.</p>
-            <p class="medium">As your usage fluctuates you can downgrade your plan during the next billing period, ensuring you minimize your spend each month.</p>
+            <p class="medium">When you exceed the limits of your chosen plan we will charge you the overage rate to the nearest thousand customer records. Every thousand customer records also includes 5,000 extra emails and 80,000 extra events.</p>
+            <p class="medium">We will <strong>not</strong> automatically move you between plans, as each plan contains different features. If your usage has permanently increased, it may make sense to move up to the next tier to reduce your overall costs.</p>
+            <p class="medium">We will notify you (via email) when you cross the thresholds of your chosen plan. Administrators can view your current usage from the Billing dashboard within your Vero account.</p>
           </div>
         </details>
       </li>
@@ -1165,9 +1189,9 @@ include 'pages-shared/static-header.php';
             </div>
           </summary>
           <div class="answer">
-            <p class="medium">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
+            <p class="medium">Our global support team is on hand to help 24 hours a day, six days a week. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
 
-            <p class="medium">We also provide urgent, emergency support for customers on our high-volume plans - <a class="typeform-share" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">talk to our sales team</a> to learn more.</p>
+            <p class="medium">We also provide priority and chat support for customers on our Enterprise plans. This is designed to ensure those customers with mission-critical messaging have access to support 24/7.</p>
           </div>
         </details>
       </li>
@@ -1181,7 +1205,7 @@ include 'pages-shared/static-header.php';
             </div>
           </summary>
           <div class="answer">
-            <p class="medium">You sure can. We offer a 15% discount when you subscribe to an annual plan. <a href="https://help.getvero.com/articles/annual-plan-discount.html">Find out more about annual plans</a>.</p>
+            <p class="medium">Absolutely. We offer a 10% discount when you subscribe to an annual plan. You can view our annual plans in the pricing table above.</p>
           </div>
         </details>
       </li>
@@ -1189,13 +1213,14 @@ include 'pages-shared/static-header.php';
         <details class="stack-sm">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">Can I use sub-accounts?</h3>
+              <h3 class="micro regular no-bottom-margin">Does Vero offer sub-accounts / sub-projects?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
           <div class="answer">
-            <p class="medium">In Vero, sub-accounts are called <strong>Projects</strong>. Each project has it's own subscriber database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily jump between. You can also think of them as <strong>free sandboxes</strong>.</p>
+            <p class="medium">In Vero, sub-accounts are called <strong>Projects</strong>. Each project is it's own dedicated space with a standalone database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily switch between.</p>
+            <p>We do not charge for access to multiple projects and you are billed for the total usage across all projects in your account, not on a project-by-project basis.</p>
             <p class="medium">If you’re an agency, you may also use projects to manage multiple clients.</p>
           </div>
         </details>
@@ -1210,7 +1235,7 @@ include 'pages-shared/static-header.php';
             </div>
           </summary>
           <div class="answer">
-            <p class="medium">Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including EU GDPR. At any time, you can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> for more details.</p>
+            <p class="medium">Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including the EU GDPR. You can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> and <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Privacy Notice</a> for more details.</p>
           </div>
         </details>
       </li>
@@ -1219,7 +1244,7 @@ include 'pages-shared/static-header.php';
 </section>
 <section class="bg-gray-lighter">
   <div class="inner small-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+    <h4 class="chunk bottom-margin-md">Scale personalized customer messaging with Vero</h4>
 
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
