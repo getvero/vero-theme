@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 
             if (numberFormat.from(values[handle]) == 10000000) {
               overrageMsg.classList.add('is-active');
-              overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs";
+              overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs.";
             } else {
               overrageMsg.classList.remove('is-active');
               overrageMsg.textContent = '';
@@ -299,22 +299,21 @@ jQuery(document).ready(function() {
           btnSwitcher();
 
           function btnSwitcher() {
-            var btn = document.querySelector('.js-pricing-btn');
-            var str = 'Try for free';
+            var btns = document.querySelectorAll('.js-pricing-btn');
+            // var str = 'Try for free';
 
             if (index == 0 || index == 1 || index == 2) {
+              btns[0].classList.remove('hide');
+              btns[0].classList.add('show');
 
-              btn.textContent = str;
-              btn.classList.remove('track-contact-us', 'typeform-share', 'link');
-              btn.classList.add('track-start-trial');
-              btn.setAttribute('href', 'https://app.getvero.com/signup');
+              btns[1].classList.remove('show');
+              btns[1].classList.add('hide');
             } else {
-              str = 'Talk to us';
+              btns[0].classList.remove('show');
+              btns[0].classList.add('hide');
 
-              btn.textContent = str;
-              btn.classList.remove('track-start-trial');
-              btn.classList.add('track-contact-us', 'typeform-share', 'link');
-              btn.setAttribute('href', 'https://getvero.typeform.com/to/d9wZ4V');
+              btns[1].classList.remove('hide');
+              btns[1].classList.add('show');
             }
           }
 
