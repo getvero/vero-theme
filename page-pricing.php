@@ -1257,30 +1257,33 @@ include 'pages-shared/static-header.php';
   <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
     <h2 class="tubs semi-bold center-text bottom-margin-md">Overage calculator</h2>
 
-    <div class="js-pricing-overage-msg pricing-overage-msg font-white semi-bold annotation bg-dark-blue border-radius-1 center-text"></div>
+    <div class="js-pricing-overage-msg pricing-overage-msg font-white semi-bold bg-dark-blue border-radius-1 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">
         <div class="stack-md">
           <div>
-            <h3>Choose your plan:
-            <span class="relative underline"><span class="js-pricing-plan-name semi-bold pointer relative">Starter</span>
+            <h3 class="atomic">Choose your plan:
+            <span class="relative underline">
+              <span class="js-pricing-plan-name semi-bold pointer relative">Starter</span>
 
-            <ul class="js-pricing-plan-dropdown pricing-plan-dropdown atomic border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
-              <li class="js-overage-dropdrop pointer">Starter</li>
-              <li class="js-overage-dropdrop pointer">Pro</li>
-              <li class="js-overage-dropdrop pointer">Growth</li>
-              <li class="js-overage-dropdrop pointer">Enterprise 1</li>
-              <li class="js-overage-dropdrop pointer">Enterprise 2</li>
-              <li class="js-overage-dropdrop pointer">Enterprise 3</li>
-              <li class="js-overage-dropdrop pointer">Enterprise 4</li>
-              <li class="js-overage-dropdrop pointer">Enterprise 5</li>
-            </ul>
+              <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L6 6 1 1" stroke="#707070" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+
+              <ul class="js-pricing-plan-dropdown pricing-plan-dropdown border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
+                <li class="js-overage-dropdrop pointer">Starter</li>
+                <li class="js-overage-dropdrop pointer">Pro</li>
+                <li class="js-overage-dropdrop pointer">Growth</li>
+                <li class="js-overage-dropdrop pointer">Enterprise 1</li>
+                <li class="js-overage-dropdrop pointer">Enterprise 2</li>
+                <li class="js-overage-dropdrop pointer">Enterprise 3</li>
+                <li class="js-overage-dropdrop pointer">Enterprise 4</li>
+                <li class="js-overage-dropdrop pointer">Enterprise 5</li>
+              </ul>
             </span></h3>
           </div>
 
           <div class="stack-xs">
-            <h3>How many additional customers do you have?</h3>
+            <h3 class="atomic">How many additional customers do you have?</h3>
 
             <div class="js-pricing-slider-value chunk regular font-gray-dark"></div>
             <div class="js-pricing-customer-slider pricing-customer-slider"></div>
@@ -1340,9 +1343,9 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <!-- <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a> -->
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial typeform-share link"  data-mode="popup" href="https://app.getvero.com/signup">Try for free</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us  typeform-share link" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
       </div>
     </div>
 
