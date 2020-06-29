@@ -87,7 +87,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto" href="">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -159,7 +159,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -225,7 +225,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="#none" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -345,7 +345,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto" href="">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -418,7 +418,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -484,7 +484,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a href="#none" class="btn btn--outline btn--success full-width top-margin-auto">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -540,7 +540,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto" href="https://getvero.typeform.com/to/d9wZ4V" >Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
             </div>
           </div>
         </div>
@@ -1312,7 +1312,7 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width start-a-free-trial" href="#none">Try for free</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width start-a-free-trial" href="https://app.getvero.com/signup">Try for free</a>
       </div>
     </div>
 

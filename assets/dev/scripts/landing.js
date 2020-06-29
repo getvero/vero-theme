@@ -295,7 +295,7 @@ jQuery(document).ready(function() {
 
           setPlanName(index);
 
-          // Switch pricing button text
+          // Switch button context
           btnSwitcher();
 
           function btnSwitcher() {
@@ -305,10 +305,12 @@ jQuery(document).ready(function() {
             if (index == 0 || index == 1 || index == 2) {
 
               btn.textContent = str;
+              btn.setAttribute('href', 'https://app.getvero.com/signup');
             } else {
               str = 'Talk to us';
 
               btn.textContent = str;
+              btn.setAttribute('href', 'https://getvero.typeform.com/to/d9wZ4V');
             }
           }
 
