@@ -285,7 +285,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
             </div>
           </div>
         </div>
@@ -1340,7 +1340,9 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width start-a-free-trial track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+        <!-- <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a> -->
+
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial typeform-share link"  data-mode="popup" href="https://app.getvero.com/signup">Try for free</a>
       </div>
     </div>
 
@@ -1349,6 +1351,8 @@ include 'pages-shared/static-header.php';
     </span>
   </section>
 </div>
+
+<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <?php
   no_content_genesis_footer();
