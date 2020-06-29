@@ -300,7 +300,6 @@ jQuery(document).ready(function() {
 
           function btnSwitcher() {
             var btns = document.querySelectorAll('.js-pricing-btn');
-            // var str = 'Try for free';
 
             if (index == 0 || index == 1 || index == 2) {
               btns[0].classList.remove('hide');
