@@ -1245,7 +1245,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 <section class="bg-gray-lighter">
-  <div class="inner small-inner center-text">
+  <div class="inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging with Vero</h4>
 
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
