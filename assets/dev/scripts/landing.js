@@ -145,12 +145,24 @@ jQuery(document).ready(function() {
       
       try {anonymous_id = window.analytics._user.anonymousId();}
       catch {}
+
       if(typeof anonymous_id !== 'undefined'){
+        // Append the Segment.com anonymous_id
         jQuery('<input />').attr('type', 'hidden')
         .attr('name', 'anonymous_id')
         .attr('value', anonymous_id)
         .appendTo('.js-subscribe-form');
       }
+
+      // Append page path and URL
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_path')
+        .attr('value', window.location.pathname)
+        .appendTo('.js-subscribe-form');
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_url')
+        .attr('value', window.location.href)
+        .appendTo('.js-subscribe-form');
 
       // needs for recaptacha ready
       grecaptcha.ready(function() {
