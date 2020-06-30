@@ -1164,15 +1164,15 @@ include 'pages-shared/static-header.php';
 
     <ul class="unstyled-list stack-md pricing-questions">
       <li>
-        <details class="stack-sm">
+        <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">What happens if I go over the usage limits on my chosen plan?</h3>
+              <h3 class="micro regular no-bottom-margin" itemprop="name">What happens if I go over the usage limits on my chosen plan?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
-          <div class="answer">
+          <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <p class="medium">When you exceed the limits of your chosen plan we will charge you the overage rate to the nearest thousand customer records. Every thousand customer records also includes 5,000 extra emails and 80,000 extra events.</p>
             <p class="medium">We will <strong>not</strong> automatically move you between plans, as each plan contains different features. If your usage has permanently increased, it may make sense to move up to the next tier to reduce your overall costs.</p>
             <p class="medium">We will notify you (via email) when you cross the thresholds of your chosen plan. Administrators can view your current usage from the Billing dashboard within your Vero account.</p>
@@ -1180,15 +1180,15 @@ include 'pages-shared/static-header.php';
         </details>
       </li>
       <li>
-        <details class="stack-sm">
+        <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
+              <h3 class="micro regular no-bottom-margin" itemprop="name">What support does Vero provide?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
-          <div class="answer">
+          <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <p class="medium">Our global support team is on hand to help 24 hours a day, six days a week. We have dedicated support team members in Australia, Europe, and the USA. Our email support has a customer satisfaction rating of over 98%.</p>
 
             <p class="medium">We also provide priority and chat support for customers on our Enterprise plans. This is designed to ensure those customers with mission-critical messaging have access to support 24/7.</p>
@@ -1196,29 +1196,29 @@ include 'pages-shared/static-header.php';
         </details>
       </li>
       <li>
-        <details class="stack-sm">
+        <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
+              <h3 class="micro regular no-bottom-margin" itemprop="name">Can I pay annually?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
-          <div class="answer">
+          <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <p class="medium">Absolutely. We offer a 10% discount when you subscribe to an annual plan. You can view our annual plans in the pricing table above.</p>
           </div>
         </details>
       </li>
       <li>
-        <details class="stack-sm">
+        <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">Does Vero offer sub-accounts / sub-projects?</h3>
+              <h3 class="micro regular no-bottom-margin" itemprop="name">Does Vero offer sub-accounts / sub-projects?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
-          <div class="answer">
+          <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <p class="medium">In Vero, sub-accounts are called <strong>Projects</strong>. Each project is it's own dedicated space with a standalone database, API keys, and campaigns. In other words, it’s like having two or more Vero accounts that you can easily switch between.</p>
             <p>We do not charge for access to multiple projects and you are billed for the total usage across all projects in your account, not on a project-by-project basis.</p>
             <p class="medium">If you’re an agency, you may also use projects to manage multiple clients.</p>
@@ -1226,15 +1226,15 @@ include 'pages-shared/static-header.php';
         </details>
       </li>
       <li>
-        <details class="stack-sm">
+        <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
             <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
+              <h3 class="micro regular no-bottom-margin" itemprop="name">Does the data I send Vero belong to me?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
           </summary>
-          <div class="answer">
+          <div class="answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <p class="medium">Absolutely. The data you send us belongs to you. Vero collects and processes all data securely, in accordance with legislation, including the EU GDPR. You can export or request us to remove your data. Read our <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Terms of Service</a> and <a href="https://www.getvero.com/terms-of-service/" rel="noopener" target="_blank">Privacy Notice</a> for more details.</p>
           </div>
         </details>
