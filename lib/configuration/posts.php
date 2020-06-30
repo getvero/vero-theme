@@ -1,5 +1,39 @@
 <?php
 
+  function blog_banner() {
+    if ( !is_blog_post_or_guide() ) {
+      return;
+    }
+
+    if ( get_field('banner_text') ) {
+      // add_body_classes('sticky-banner');
+
+      ?>
+        <div class="bg-dark-blue banner z-9999">
+          <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
+            <p class="center-text"><span class="right-margin-xxxs">🎉</span> <?php the_field('banner_text') ?></p>
+
+            <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+          </a>
+        </div>
+      <?php
+    }
+  }
+
+  function add_body_class_blog_banner( $classes ) {
+    global $post;
+
+    if ( !is_blog() ) {
+      $classes[] = '';
+    }
+
+    if ( get_field('banner_text') ) {
+      $classes[] = 'sticky-banner';
+    }
+
+    return $classes;
+  }
+
   function add_author() {
     if ( is_blog_post_or_guide() && !in_category('tutorials') ) {
       ?>
