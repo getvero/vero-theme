@@ -88,7 +88,7 @@
               </div>
             </div>
 
-            <p class="annotation italic font-brand-gray-dark">Note that if you don’t meet one of these criteria, but feel you’re a fit for this initiative, please write in!</p>
+            <p class="annotation italic font-gray-dark">Note that if you don’t meet one of these criteria, but feel you’re a fit for this initiative, please write in!</p>
           </div>
 
           <div class="stack-md bg-white border border-radius-2">

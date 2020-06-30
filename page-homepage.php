@@ -31,7 +31,7 @@
             <div class="flex items-center pointer dim track-home-video">
               <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-              <span class="font-brand-gray-dark" style="margin-top: 1px;">Watch a video</span>
+              <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="flex flex-column lg-flex-row items-center lg-items-end">
           <a class="track-capterra" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
 
-          <p class="annotation regular font-brand-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
+          <p class="annotation regular font-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
         </div>
       </div>
       <div class="col-aside">
