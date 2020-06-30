@@ -99,7 +99,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
                 <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
               </div>
 
-              <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+              <span class="show annotation font-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
           </div>
         </div>

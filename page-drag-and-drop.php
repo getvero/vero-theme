@@ -265,7 +265,7 @@
 </section>
 <section class="micro-padding">
   <div class="inner center-text">
-    <p class="annotation font-brand-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
+    <p class="annotation font-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
   </div>
 </section>
 <?php

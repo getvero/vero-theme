@@ -31,7 +31,7 @@
             <div class="flex items-center pointer dim track-home-video">
               <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-              <span class="font-brand-gray-dark" style="margin-top: 1px;">Watch a video</span>
+              <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
             </div>
           </div>
         </div>
