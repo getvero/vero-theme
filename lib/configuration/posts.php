@@ -1,13 +1,11 @@
 <?php
 
   function blog_banner() {
-    if ( !is_blog_post_or_guide() ) {
+    if ( !is_blog_post_or_guide_or_tutorial() ) {
       return;
     }
 
     if ( get_field('banner_text') ) {
-      // add_body_classes('sticky-banner');
-
       ?>
         <div class="bg-dark-blue banner z-9999">
           <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
