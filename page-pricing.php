@@ -13,7 +13,7 @@ include 'pages-shared/static-header.php';
 <section class="hero pricing-hero">
   <div class="inner center-text stack-xs bottom-padding-lg">
     <h1 class="biggie semi-bold">Pricing that scales as you do</h1>
-    <p class="large">Only pay for what you use</p>
+    <p class="large">Only pay for what you use.</p>
   </div>
   <div class="inner xlarge-inner flush-top">
     <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
@@ -22,6 +22,8 @@ include 'pages-shared/static-header.php';
     <div class="pricing-tab-tables stack-md">
       <div class="stack-lg">
         <div class="tab-switcher center-text no-top-margin">
+          <div>10% off</div>
+
           <div class="pricing-tab-labels bg-white inline-flex shadow-1 border border-radius-2 padding-xxs">
             <label class="pricing-tab-label pricing-tab-label--1" for="pricing-tab-1">Monthly</label>
             <label class="pricing-tab-label pricing-tab-label--2" for="pricing-tab-2">Annually</label>
