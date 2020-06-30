@@ -132,7 +132,6 @@
       return;
     }
 
-
     $image_id       = get_post_thumbnail_id();
     $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
     $categories = get_the_terms( get_the_ID(), 'category' );
@@ -152,7 +151,7 @@
       while( $loop->have_posts() ): $loop->the_post();
         echo '<div class="entry">';
         if( has_post_thumbnail() )
-          echo '<a class="show entry-aside" href="' . get_permalink() . '">';
+          echo '<a class="show entry-aside track-single-latest-posts" href="' . get_permalink() . '">';
 
           if( !empty($image_alt) ) {
             $alt_text = $image_alt;
@@ -165,14 +164,14 @@
             'alt'   => $alt_text
           ));
           echo '</a>';
-        echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
+        echo '<div class="entry-header"><h4 class="entry-title"><a class="track-single-latest-posts" href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
         ?>
           <div class="entry-content">
             <?php get_the_permalink() ?>
             <?php the_excerpt() ?>
           </div>
         <?php
-        echo '<a class="d-inline-block semi-bold underline-link-rev" href="' . get_permalink() . '">Read more</a>';
+        echo '<a class="d-inline-block semi-bold underline-link-rev track-single-latest-posts" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';
