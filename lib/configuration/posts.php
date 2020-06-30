@@ -1,5 +1,37 @@
 <?php
 
+  function blog_banner() {
+    if ( !is_blog_post_or_guide_or_tutorial() ) {
+      return;
+    }
+
+    if ( get_field('banner_text') ) {
+      ?>
+        <div class="bg-dark-blue banner z-9999">
+          <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
+            <p class="center-text"><span class="right-margin-xxxs">🎉</span> <?php the_field('banner_text') ?></p>
+
+            <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+          </a>
+        </div>
+      <?php
+    }
+  }
+
+  function add_body_class_blog_banner( $classes ) {
+    global $post;
+
+    if ( !is_blog() ) {
+      $classes[] = '';
+    }
+
+    if ( get_field('banner_text') ) {
+      $classes[] = 'sticky-banner';
+    }
+
+    return $classes;
+  }
+
   function add_author() {
     if ( is_blog_post_or_guide() && !in_category('tutorials') ) {
       ?>
@@ -100,7 +132,6 @@
       return;
     }
 
-
     $image_id       = get_post_thumbnail_id();
     $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
     $categories = get_the_terms( get_the_ID(), 'category' );
@@ -120,7 +151,7 @@
       while( $loop->have_posts() ): $loop->the_post();
         echo '<div class="entry">';
         if( has_post_thumbnail() )
-          echo '<a class="show entry-aside" href="' . get_permalink() . '">';
+          echo '<a class="show entry-aside track-single-latest-posts" href="' . get_permalink() . '">';
 
           if( !empty($image_alt) ) {
             $alt_text = $image_alt;
@@ -133,14 +164,14 @@
             'alt'   => $alt_text
           ));
           echo '</a>';
-        echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
+        echo '<div class="entry-header"><h4 class="entry-title"><a class="track-single-latest-posts" href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
         ?>
           <div class="entry-content">
             <?php get_the_permalink() ?>
             <?php the_excerpt() ?>
           </div>
         <?php
-        echo '<a class="d-inline-block semi-bold underline-link-rev" href="' . get_permalink() . '">Read more</a>';
+        echo '<a class="d-inline-block semi-bold underline-link-rev track-single-latest-posts" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';

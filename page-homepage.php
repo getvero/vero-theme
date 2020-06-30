@@ -3,7 +3,7 @@
 ?>
 <div class="bg-dark-blue banner z-9999">
   <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
-    <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor</p>
+    <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor.</p>
 
     <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
   </a>

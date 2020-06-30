@@ -236,7 +236,7 @@ function genesischild_theme_setup() {
   }
 
   # Add Recaptcha script to footer
-  add_action('wp_footer', 'move_recaptcha_script');
+  add_action( 'wp_footer', 'move_recaptcha_script' );
   function move_recaptcha_script() {
     if ( is_blog() ) {
       ?>
@@ -245,6 +245,9 @@ function genesischild_theme_setup() {
     }
   }
 
+  # Add banner
+  add_action( 'genesis_before_header', 'blog_banner' );
+  add_filter( 'body_class', 'add_body_class_blog_banner' );
 }
 
 ?>
