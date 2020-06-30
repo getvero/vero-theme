@@ -408,9 +408,9 @@ include 'pages-shared/static-header.php';
                   <li class="flex items-center no-margin">
                     <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                    <span>Custom webhooks</span>
+                    <a class="underline-link right-margin-xxxs" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">Custom webhooks</a>
 
-                    <span class="tooltip" data-label="A 'data point' is any event 'track' that you record, read more in our help docs.">
+                    <span class="tooltip">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#CED0D5" d="M8 15A7 7 0 108 1a7 7 0 000 14zm-.412-8.518c.777 0 1.44.37 1.236 1.518-.204 1.148-.478 2.059-.671 2.85-.193.791 1.024.406 1.3.406v.45c-.56.274-1.107.412-1.642.412-.804 0-1.686-.412-1.43-1.581.254-1.17.486-1.903.626-2.537.14-.634-.14-.726-.493-.726-.235 0-.489.046-.763.139v-.564c.707-.245 1.32-.367 1.837-.367zm.906-2.847a1.07 1.07 0 110 2.141 1.07 1.07 0 010-2.14z" fill-rule="evenodd"/></svg>
 
                       <span class="tooltip-msg">Send email and unsubscribe activity to other tools or your own servers</span>
