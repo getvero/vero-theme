@@ -23,7 +23,7 @@
         <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
       </div>
 
-      <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Get started</a>
+      <a class="btn btn-success btn-large bottom-margin-md track-start-trial" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
   <section class="xs-bg-dots tiny-padding">
