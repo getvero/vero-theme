@@ -22,7 +22,7 @@ include 'pages-shared/static-header.php';
     <div class="pricing-tab-tables stack-md">
       <div class="stack-lg">
         <div class="flex justify-center tab-switcher relative">
-          <span class="pricing-tab-discount annotation semi-bold absolute font-brand-primary">10% off</span>
+          <span class="pricing-tab-discount annotation semi-bold absolute font-brand-primary">Save 10% off!</span>
 
           <div class="pricing-tab-labels bg-white inline-flex justify-center shadow-1 border border-radius-2 padding-xxs">
             <label class="pricing-tab-label pricing-tab-label--1" for="pricing-tab-1">Monthly</label>
