@@ -108,7 +108,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     </div>
 
-    <button class="js-open-resources-subscribe-form btn btn-success hide lg-show">Subscribe to updates</button>
+    <a href="https://app.getvero.com/signup?from=blog_promo" class="btn btn-success hide lg-show">Start your free trial</a>
   </div>
   <?php $resources_menu = ob_get_clean();
 
