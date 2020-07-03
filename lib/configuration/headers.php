@@ -79,7 +79,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <button class="js-close-resources-subscribe-form resources-header-close hide lg-show">
           <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></svg>
         </button>
-        <div class="grid lg-items-center">
+        <!-- <div class="grid lg-items-center">
           <div class="col-main">
             <div class="js-subscribe-form-msg stack-xs">
               <h3 class="semi-bold">Insights, tips and tools for creating better customer messaging and product experiences</h3>
@@ -102,7 +102,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
           </div>
-        </div>
+        </div> -->
 
         <a class="show annotation underline-link xs-hide top-margin-md" href="/">Back to Vero</a>
       </div>
