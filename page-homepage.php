@@ -25,7 +25,7 @@
         <div class="hero-cta flex flex-column md-flex-row justify-center lg-justify-start items-center">
           <a class="btn btn-success btn-large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-          <a class="btn btn-gray-darker btn-large btn-outline typeform-share link sm-right-margin-xxs track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+          <a class="btn btn-gray-darker btn-large btn-outline link sm-right-margin-xxs track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
 
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
@@ -37,7 +37,7 @@
         </div>
 
         <div class="flex flex-column lg-flex-row items-center lg-items-end">
-          <a class="track-capterra" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
+          <a class="track-capterra" target="_blank" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
 
           <p class="annotation regular font-brand-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
         </div>
@@ -365,8 +365,6 @@
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-
-<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
 <script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
