@@ -60,7 +60,7 @@ if(isset($_GET['v_id'])) {
         <aside id="right">
           <h3>Want a preference page like this?</h3>
           <p>Vero is the world's premier marketing platform for personalising your customer messages. You can use our free trial for 14 days, and pricing starts at just $99/month.</p>
-          <a href="https://app.getvero.com/signup" class="btn btn-warning">Start your trial</a>
+          <a href="https://app.getvero.com/signup" class="btn btn-warning track-start-trial">Start your trial</a>
         </aside>
       <?php } ?>
 
