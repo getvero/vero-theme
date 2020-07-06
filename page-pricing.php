@@ -59,7 +59,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $18 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -121,7 +121,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $8 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -194,7 +194,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -261,7 +261,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $4 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -321,7 +321,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $18 per thousand customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -384,7 +384,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $8 per thousand customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -457,7 +457,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -524,7 +524,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $4 per thousand customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
