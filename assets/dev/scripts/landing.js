@@ -402,8 +402,9 @@ jQuery(document).ready(function() {
 
     // Open dropdown
     var pricingDropdown = document.querySelector('.js-pricing-plan-dropdown');
+    var pricingPlanLink = document.querySelector('.js-pricing-plan-link');
 
-    pricingPlanName[0].addEventListener('click', function() {
+    pricingPlanLink.addEventListener('click', function() {
       pricingDropdown.classList.add('fade');
     });
 
@@ -415,6 +416,15 @@ jQuery(document).ready(function() {
     }
 
   }
+
+
+  overlay.addEventListener('click', function (event) {
+    // If the click happened inside the dropdown, do nothing
+    if (event.target.closest('.js-pricing-plan-dropdown') && !event.target.closest('.js-pricing-plan-link')) return;
+
+    console.log('Click outside');
+    // pricingDropdown.classList.remove('fade');
+  }, false);
 
   // Slider for careers page
   if (jQuery('body').hasClass('careers')) {
