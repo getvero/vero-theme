@@ -409,8 +409,12 @@ jQuery(document).ready(function() {
         if (pricingDropdown.classList.contains('fade')) {
           pricingDropdown.classList.remove('fade')
         }
-
-        console.log('Click outside');
+      } else {
+        if (pricingDropdown.classList.contains('fade')) {
+          pricingDropdown.classList.remove('fade')
+        } else {
+          pricingDropdown.classList.add('fade')
+        }
       }
 
       if (event.target.closest('.js-pricing-plan-link')) {
