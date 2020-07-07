@@ -58,7 +58,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $18 per thousand extra customers</li>
+                  <li class="annotation">&plus; $18 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -120,7 +120,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $8 per thousand extra customers</li>
+                  <li class="annotation">&plus; $8 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -193,7 +193,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $5 per thousand extra customers</li>
+                  <li class="annotation">&plus; $5 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -260,7 +260,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $4 per thousand extra customers</li>
+                  <li class="annotation">&plus; $4 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -320,7 +320,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $18 per thousand extra customers</li>
+                  <li> class="annotation"&plus; $18 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -383,7 +383,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $8 per thousand extra customers</li>
+                  <li class="annotation">&plus; $8 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -456,7 +456,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $5 per thousand extra customers</li>
+                  <li class="annotation">&plus; $5 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -523,7 +523,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $4 per thousand extra customers</li>
+                  <li class="annotation">&plus; $4 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -1265,11 +1265,11 @@ include 'pages-shared/static-header.php';
       <div class="pricing-overage-calculator-body">
         <div class="stack-md">
           <div>
-            <h3 class="atomic">Choose your plan:
-            <span class="js-pricing-plan-link pricing-plan-link border relative pointer">
-              <span class="js-pricing-plan-name semi-bold relative">Starter</span>
+            <h3 class="atomic flex items-center">Choose your plan:
+            <span class="js-pricing-plan-link pricing-plan-link left-margin-xxs border relative pointer">
+              <span class="js-pricing-plan-name semi-bold">Starter</span>
 
-              <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L6 6 1 1" stroke="#707070" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L6 6 1 1" stroke="#9D9D9D" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
 
               <ul class="js-pricing-plan-dropdown pricing-plan-dropdown border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
                 <li class="js-overage-dropdown pointer">Starter</li>
