@@ -121,10 +121,10 @@ jQuery(document).ready(function() {
             priceSwitcher(links, index);
           } else {
             if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
-              // Set the annual price values
+              // Set the base annual price values
               basePlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
             } else {
-              // Set the monthly price values
+              // Set the base monthly price values
               basePlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
             }
           }
@@ -366,10 +366,10 @@ jQuery(document).ready(function() {
       monthAnnual(links);
 
       if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
-        // Set the annual price values
+        // Set the base annual price values
         basePlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
       } else {
-        // Set the monthly price values
+        // Set the base monthly price values
         basePlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
       }
     }
@@ -418,10 +418,6 @@ jQuery(document).ready(function() {
       modal.classList.remove('is-active');
 
       document.body.classList.remove('overflow-hidden');
-
-      // Remove message
-      overrageMsg.classList.remove('is-active');
-      overrageMsg.textContent = '';
 
       pricingSlider.noUiSlider.reset();
     }
