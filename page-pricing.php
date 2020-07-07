@@ -174,7 +174,7 @@ include 'pages-shared/static-header.php';
             <div class="pricing-plan-table-body flex flex-column">
               <div class="stack-xxxs">
                 <span class="font-gray-dark show regular annotation">Starting at</span>
-                <div><span class="semi-bold tubs">$599</span><span class="font-gray-dark">/mo</span></div>
+                <div><span class="semi-bold tubs">$499</span><span class="font-gray-dark">/mo</span></div>
               </div>
 
               <div class="stack-xxs">
@@ -194,7 +194,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li>&plus; $5 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -437,7 +437,7 @@ include 'pages-shared/static-header.php';
             <div class="pricing-plan-table-body flex flex-column">
               <div class="stack-xxxs">
                 <span class="font-gray-dark show regular annotation">Starting at</span>
-                <div><span class="tubs semi-bold">$<?php echo number_format(floor((599 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
+                <div><span class="tubs semi-bold">$<?php echo number_format(floor((499 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span></div>
               </div>
 
               <div class="stack-xxs">

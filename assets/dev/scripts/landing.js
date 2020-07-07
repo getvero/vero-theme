@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
       'customers'   : 75000,
       'messages'    : 375000,
       'data_points' : 6000000,
-      'price'       : 599,
+      'price'       : 499,
       'overage_rate': 5
     }, {
       'name'        : 'Enterprise',
