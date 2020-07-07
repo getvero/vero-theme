@@ -96,6 +96,8 @@ jQuery(document).ready(function() {
 
     var pricingPlanName = document.querySelectorAll('.js-pricing-plan-name');
 
+    var overrageMsg = document.querySelector('.js-pricing-overage-msg');
+
     // Switch overage calculator based on plan
     function planSwitcher(links) {
       for (const [index, el] of links.entries()) {
@@ -163,15 +165,29 @@ jQuery(document).ready(function() {
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
             }
 
-            var overrageMsg = document.querySelector('.js-pricing-overage-msg');
+            // Messaginging
+            if (index == 7) {
 
-            if (numberFormat.from(values[handle]) == 10000000) {
-              overrageMsg.classList.add('is-active');
-              overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs.";
+              if (index == 7 && numberFormat.from(values[handle]) == 10000000) {
+                overrageMsg.classList.add('is-active');
+                overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs.";
+              } else {
+                overrageMsg.classList.remove('is-active');
+                overrageMsg.textContent = '';
+              }
+
             } else {
-              overrageMsg.classList.remove('is-active');
-              overrageMsg.textContent = '';
+
+              if (numberFormat.from(pricingTotalCost.innerHTML) > pricingPlans[index + 1].price) {
+                overrageMsg.classList.add('is-active');
+                overrageMsg.textContent = "You could consider updating to the next tier.";
+              } else {
+                overrageMsg.classList.remove('is-active');
+                overrageMsg.textContent = '';
+              }
+
             }
+
           });
 
           var planValue = [];
@@ -376,6 +392,12 @@ jQuery(document).ready(function() {
       modal.classList.remove('is-active');
 
       document.body.classList.remove('overflow-hidden');
+
+      // Remove message
+      overrageMsg.classList.remove('is-active');
+      overrageMsg.textContent = '';
+
+      pricingSlider.noUiSlider.reset();
     }
 
     // Open dropdown
