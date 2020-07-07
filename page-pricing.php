@@ -1254,19 +1254,18 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 
-
 <div class="js-overlay overlay overlay--pricing items-center justify-center">
-  <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
-    <h2 class="tubs semi-bold center-text bottom-margin-md">Overage calculator</h2>
+  <section class="js-modal overlay-modal bg-offwhite shadow-1 stack-md">
+    <h2 class="tubs semi-bold center-text">Overage calculator</h2>
 
-    <div class="js-pricing-overage-msg pricing-overage-msg annotation semi-bold border-radius-1 center-text"></div>
+    <div class="js-pricing-overage-msg pricing-overage-msg annotation semi-bold border-radius-2 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">
         <div class="stack-md">
           <div>
             <h3 class="atomic flex items-center">Choose your plan:
-            <span class="js-pricing-plan-link pricing-plan-link left-margin-xxs border relative pointer">
+            <span class="js-pricing-plan-link pricing-plan-link left-margin-xxs border relative pointer bg-white">
               <span class="js-pricing-plan-name semi-bold">Starter</span>
 
               <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L6 6 1 1" stroke="#9D9D9D" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
