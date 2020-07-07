@@ -320,7 +320,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li> class="annotation"&plus; $18 per thousand extra customers</li>
+                  <li class="annotation">&plus; $18 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -1259,7 +1259,7 @@ include 'pages-shared/static-header.php';
   <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
     <h2 class="tubs semi-bold center-text bottom-margin-md">Overage calculator</h2>
 
-    <div class="js-pricing-overage-msg pricing-overage-msg annotation font-white semi-bold bg-warning border-radius-1 center-text"></div>
+    <div class="js-pricing-overage-msg pricing-overage-msg annotation font-white semi-bold bg-warning-lighter border-radius-1 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">

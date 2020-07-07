@@ -21,6 +21,7 @@ jQuery(document).ready(function() {
       'messages'    : 10000,
       'data_points' : 160000,
       'price'       : 49,
+      'annual_price': 529,
       'overage_rate': 18
     }, {
       'name'        : 'Pro',
@@ -28,6 +29,7 @@ jQuery(document).ready(function() {
       'messages'    : 75000,
       'data_points' : 1200000,
       'price'       : 199,
+      'annual_price': 2149,
       'overage_rate': 8
     }, {
       'name'        : 'Growth',
@@ -35,6 +37,7 @@ jQuery(document).ready(function() {
       'messages'    : 375000,
       'data_points' : 6000000,
       'price'       : 499,
+      'annual_price': 5389,
       'overage_rate': 5
     }, {
       'name'        : 'Enterprise',
@@ -42,6 +45,7 @@ jQuery(document).ready(function() {
       'messages'    : 1250000,
       'data_points' : 20000000,
       'price'       : 1299,
+      'annual_price': 14029,
       'overage_rate': 4
     }, {
       'name'        : 'Enterprise 2',
@@ -49,6 +53,7 @@ jQuery(document).ready(function() {
       'messages'    : 3750000,
       'data_points' : 60000000,
       'price'       : 1799,
+      'annual_price': 19429,
       'overage_rate': 2
     }, {
       'name'        : 'Enterprise 3',
@@ -56,6 +61,7 @@ jQuery(document).ready(function() {
       'messages'    : 6250000,
       'data_points' : 100000000,
       'price'       : 2499,
+      'annual_price': 26989,
       'overage_rate': 1.80
     }, {
       'name'        : 'Enterprise 4',
@@ -63,6 +69,7 @@ jQuery(document).ready(function() {
       'messages'    : 12500000,
       'data_points' : 200000000,
       'price'       : 4499,
+      'annual_price': 48589,
       'overage_rate': 1.60
     }, {
       'name'        : 'Enterprise 5',
@@ -70,6 +77,7 @@ jQuery(document).ready(function() {
       'messages'    : 25000000,
       'data_points' : 400000000,
       'price'       : 7499,
+      'annual_price': 80989,
       'overage_rate': 1.40
     }];
 
@@ -109,6 +117,14 @@ jQuery(document).ready(function() {
             openOverageCalculator();
 
             priceSwitcher(links, index);
+          } else {
+            if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
+              // This is annual
+              console.log('This is annual');
+              pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
+            } else {
+              pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
+            }
           }
 
           for (const el of dropdownLinks) {
@@ -150,19 +166,32 @@ jQuery(document).ready(function() {
             // Set events tracked values
             pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 80000));
 
+
             // Set prices depending on annual or monthly
             if (links == annualLinks) {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
 
               // Total cost
-              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + (annualPrice(pricingPlans[index].price)));
-            } else {
+              pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + annualPrice(pricingPlans[index].price));
+            } else if (links == monthlyLinks ) {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
 
               // Total cost
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
+            } else {
+              if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
+                // This is annual
+                console.log('This is annual');
+                pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
+
+                pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + annualPrice(pricingPlans[index].price));
+              } else {
+                pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
+
+                pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
+              }
             }
 
             // Messaginging
@@ -342,7 +371,11 @@ jQuery(document).ready(function() {
       if (links == annualLinks) {
         // Set the annual price values
         pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
-      } else {
+
+        if (links == dropdownLinks) {
+          console.log('Clicking dropdown links');
+        }
+      } else if (links == monthlyLinks) {
         // Set the monthly price values
         pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
       }
