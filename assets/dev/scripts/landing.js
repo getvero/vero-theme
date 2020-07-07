@@ -13,14 +13,6 @@ jQuery(document).ready(function() {
       start  : [2000],
       connect: 'lower',
       range  : allSliderRanges
-      // ,
-      // tooltips: wNumb({
-      //   decimals: 0,
-      //   thousand: ',',
-      //   edit    : function(value) {
-      //     return parseInt(value.replace(/,/g, "")) == 300001 ? value + '+' : value;
-      //   }
-      // })
     });
 
     var pricingPlans = [{
@@ -154,7 +146,7 @@ jQuery(document).ready(function() {
             pricingMessagesValue.textContent = numberFormat.to(pricingPlans[index].messages + (addCustomerRate * 5000));
 
             // Set events tracked values
-            pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 500000));
+            pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 80000));
 
             // Set prices depending on annual or monthly
             if (links == annualLinks) {
