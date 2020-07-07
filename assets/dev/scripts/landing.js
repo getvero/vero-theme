@@ -98,6 +98,8 @@ jQuery(document).ready(function() {
     var pricingMessagesValue      = document.querySelector('.js-pricing-messages-value')
     var pricingEventsTrackedValue = document.querySelector('.js-pricing-events-tracked-value')
 
+    var basePlanPrice = document.querySelector('.js-pricing-plan-price');
+
     var pricingAdditionalCustomersValue = document.querySelector('.js-pricing-additional-customers');
     var pricingAdditionalPriceValue     = document.querySelector('.js-pricing-additional-price');
     var pricingTotalCost                = document.querySelector('.js-pricing-total-cost');
@@ -119,11 +121,11 @@ jQuery(document).ready(function() {
             priceSwitcher(links, index);
           } else {
             if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
-              // This is annual
-              console.log('This is annual');
-              pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
+              // Set the annual price values
+              basePlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
             } else {
-              pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
+              // Set the monthly price values
+              basePlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
             }
           }
 
@@ -166,38 +168,25 @@ jQuery(document).ready(function() {
             // Set events tracked values
             pricingEventsTrackedValue.textContent = numberFormat.to(pricingPlans[index].data_points + (addCustomerRate * 80000));
 
-
-            // Set prices depending on annual or monthly
-            if (links == annualLinks) {
+            // Set Total prices depending on annual or monthly
+            if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
 
               // Total cost
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + annualPrice(pricingPlans[index].price));
-            } else if (links == monthlyLinks ) {
+            } else {
               // Additional price
               pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
 
               // Total cost
               pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
-            } else {
-              if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
-                // This is annual
-                console.log('This is annual');
-                pricingAdditionalPriceValue.textContent = numberFormat.to(annualPrice(additionPrice));
-
-                pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + annualPrice(pricingPlans[index].price));
-              } else {
-                pricingAdditionalPriceValue.textContent = numberFormat.to(additionPrice);
-
-                pricingTotalCost.textContent = numberFormat.to(numberFormat.from(pricingAdditionalPriceValue.textContent) + pricingPlans[index].price);
-              }
             }
 
             // Messaginging
             if (index == 7) {
 
-              if (index == 7 && numberFormat.from(values[handle]) == 10000000) {
+              if (numberFormat.from(values[handle]) == 10000000) {
                 overrageMsg.classList.add('is-active');
                 overrageMsg.textContent = "We offer plans scaling into the 10s of millions. Please get in touch, we'd love to learn about your needs.";
               } else {
@@ -373,21 +362,15 @@ jQuery(document).ready(function() {
     }
 
     // Switch the fixed pricing to monthly or annual
-    var pricingPlanPrice = document.querySelector('.js-pricing-plan-price');
-
     function priceSwitcher(links, index) {
       monthAnnual(links);
 
-      if (links == annualLinks) {
+      if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
         // Set the annual price values
-        pricingPlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
-
-        if (links == dropdownLinks) {
-          console.log('Clicking dropdown links');
-        }
-      } else if (links == monthlyLinks) {
+        basePlanPrice.textContent = numberFormat.to(annualPrice(pricingPlans[index].price));
+      } else {
         // Set the monthly price values
-        pricingPlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
+        basePlanPrice.textContent = numberFormat.to(pricingPlans[index].price);
       }
     }
 
