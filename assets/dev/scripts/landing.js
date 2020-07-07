@@ -78,9 +78,9 @@ jQuery(document).ready(function() {
       thousand: ','
     });
 
-    var monthlyLinks    = document.querySelectorAll('.js-overage-calculator');
+    var monthlyLinks  = document.querySelectorAll('.js-overage-calculator');
     var annualLinks   = document.querySelectorAll('.js-overage-calculator-annual');
-    var dropdownLinks = document.querySelectorAll('.js-overage-dropdrop');
+    var dropdownLinks = document.querySelectorAll('.js-overage-dropdown');
 
     planSwitcher(monthlyLinks);
     planSwitcher(annualLinks);
@@ -365,7 +365,7 @@ jQuery(document).ready(function() {
 
     var overlay = document.querySelector('.js-overlay');
 
-    overlay.addEventListener('click', function (event) {
+    overlay.addEventListener('click', function(event) {
       // If the click happened inside the modal, do nothing
       if (event.target.closest('.js-modal') && !event.target.closest('.js-overlay-close')) return;
 
@@ -404,9 +404,23 @@ jQuery(document).ready(function() {
     var pricingDropdown = document.querySelector('.js-pricing-plan-dropdown');
     var pricingPlanLink = document.querySelector('.js-pricing-plan-link');
 
-    pricingPlanLink.addEventListener('click', function() {
-      pricingDropdown.classList.add('fade');
-    });
+    overlay.addEventListener('click', function(event) {
+      if (!event.target.closest('.js-pricing-plan-dropdown')) {
+        if (pricingDropdown.classList.contains('fade')) {
+          pricingDropdown.classList.remove('fade')
+        }
+
+        console.log('Click outside');
+      }
+
+      if (event.target.closest('.js-pricing-plan-link')) {
+        if (pricingDropdown.classList.contains('fade')) {
+          pricingDropdown.classList.remove('fade')
+        } else {
+          pricingDropdown.classList.add('fade')
+        }
+      }
+    }, false);
 
     // Set plan name
     function setPlanName(index) {
@@ -416,15 +430,6 @@ jQuery(document).ready(function() {
     }
 
   }
-
-
-  overlay.addEventListener('click', function (event) {
-    // If the click happened inside the dropdown, do nothing
-    if (event.target.closest('.js-pricing-plan-dropdown') && !event.target.closest('.js-pricing-plan-link')) return;
-
-    console.log('Click outside');
-    // pricingDropdown.classList.remove('fade');
-  }, false);
 
   // Slider for careers page
   if (jQuery('body').hasClass('careers')) {
