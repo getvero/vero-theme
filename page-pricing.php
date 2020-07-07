@@ -58,7 +58,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $18 per thousand customers</li>
+                  <li>&plus; $18 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -120,7 +120,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $8 per thousand customers</li>
+                  <li>&plus; $8 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -193,8 +193,8 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $5 per thousand customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
+                  <li>&plus; $5 per thousand extra customers</li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
 
@@ -260,7 +260,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $4 per thousand customers</li>
+                  <li>&plus; $4 per thousand extra customers</li>
                   <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -287,7 +287,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
             </div>
           </div>
         </div>
@@ -320,7 +320,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $18 per thousand customers</li>
+                  <li>&plus; $18 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -383,7 +383,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $8 per thousand customers</li>
+                  <li>&plus; $8 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -456,7 +456,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $5 per thousand customers</li>
+                  <li>&plus; $5 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -523,7 +523,7 @@ include 'pages-shared/static-header.php';
                       <span class="tooltip-msg">An <strong>event</strong> is a record of <strong>user activity</strong> that you specifically define. You can read more in our help docs.</span>
                     </span>
                   </li>
-                  <li>&plus; $4 per thousand customers</li>
+                  <li>&plus; $4 per thousand extra customers</li>
                   <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges for this plan</span></li>
                 </ul>
               </div>
@@ -550,7 +550,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto typeform-share link track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
             </div>
           </div>
         </div>
@@ -1266,20 +1266,20 @@ include 'pages-shared/static-header.php';
         <div class="stack-md">
           <div>
             <h3 class="atomic">Choose your plan:
-            <span class="js-pricing-plan-link relative pointer underline">
+            <span class="js-pricing-plan-link pricing-plan-link border relative pointer">
               <span class="js-pricing-plan-name semi-bold relative">Starter</span>
 
               <svg width="12" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L6 6 1 1" stroke="#707070" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></svg>
 
               <ul class="js-pricing-plan-dropdown pricing-plan-dropdown border border-radius-2 shadow-1 absolute unstyled-list bg-white left-text stack-0 z-9999">
-                <li class="js-overage-dropdrop pointer">Starter</li>
-                <li class="js-overage-dropdrop pointer">Pro</li>
-                <li class="js-overage-dropdrop pointer">Growth</li>
-                <li class="js-overage-dropdrop pointer">Enterprise 1</li>
-                <li class="js-overage-dropdrop pointer">Enterprise 2</li>
-                <li class="js-overage-dropdrop pointer">Enterprise 3</li>
-                <li class="js-overage-dropdrop pointer">Enterprise 4</li>
-                <li class="js-overage-dropdrop pointer">Enterprise 5</li>
+                <li class="js-overage-dropdown pointer">Starter</li>
+                <li class="js-overage-dropdown pointer">Pro</li>
+                <li class="js-overage-dropdown pointer">Growth</li>
+                <li class="js-overage-dropdown pointer">Enterprise 1</li>
+                <li class="js-overage-dropdown pointer">Enterprise 2</li>
+                <li class="js-overage-dropdown pointer">Enterprise 3</li>
+                <li class="js-overage-dropdown pointer">Enterprise 4</li>
+                <li class="js-overage-dropdown pointer">Enterprise 5</li>
               </ul>
             </span></h3>
           </div>
@@ -1347,7 +1347,7 @@ include 'pages-shared/static-header.php';
 
         <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us  typeform-share link" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
       </div>
     </div>
 
@@ -1356,8 +1356,6 @@ include 'pages-shared/static-header.php';
     </span>
   </section>
 </div>
-
-<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <?php
   no_content_genesis_footer();
