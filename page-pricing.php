@@ -1259,7 +1259,7 @@ include 'pages-shared/static-header.php';
   <section class="js-modal overlay-modal bg-dark-blue-lighter shadow-1 stack-lg">
     <h2 class="tubs semi-bold center-text bottom-margin-md">Overage calculator</h2>
 
-    <div class="js-pricing-overage-msg pricing-overage-msg annotation font-white semi-bold bg-warning-lighter border-radius-1 center-text"></div>
+    <div class="js-pricing-overage-msg pricing-overage-msg annotation semi-bold border-radius-1 center-text"></div>
 
     <div class="flex flex-column md-flex-row pricing-overage-calculator">
       <div class="pricing-overage-calculator-body">

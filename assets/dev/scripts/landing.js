@@ -207,12 +207,22 @@ jQuery(document).ready(function() {
 
             } else {
 
-              if (numberFormat.from(pricingTotalCost.innerHTML) > pricingPlans[index + 1].price) {
-                overrageMsg.classList.add('is-active');
-                overrageMsg.textContent = "You could consider updating to the next tier.";
+              if (document.querySelector('.js-pricing-frequency').textContent == '/yr') {
+                if (numberFormat.from(pricingTotalCost.innerHTML) > pricingPlans[index + 1].annual_price) {
+                  overrageMsg.classList.add('is-active');
+                  overrageMsg.textContent = "You could consider updating to the next tier.";
+                } else {
+                  overrageMsg.classList.remove('is-active');
+                  overrageMsg.textContent = '';
+                }
               } else {
-                overrageMsg.classList.remove('is-active');
-                overrageMsg.textContent = '';
+                if (numberFormat.from(pricingTotalCost.innerHTML) > pricingPlans[index + 1].price) {
+                  overrageMsg.classList.add('is-active');
+                  overrageMsg.textContent = "You could consider updating to the next tier.";
+                } else {
+                  overrageMsg.classList.remove('is-active');
+                  overrageMsg.textContent = '';
+                }
               }
 
             }
