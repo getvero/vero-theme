@@ -11,20 +11,20 @@
 ?>
 <section class="features-hero bg-gray-lighter">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
-    <span class="d-inline-block atomic semi-bold font-brand-gray-dark">Features</span>
+    <span class="d-inline-block atomic semi-bold font-gray-dark">Features</span>
 
     <h1 class="hulk semi-bold">The messaging platform that scales personalization</h1>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
     <div class="features-hero-imgs relative center-text">
       <div class="d-inline-block features-hero-img features-hero-img--1 relative">
-        <img class="features-hero-tooltip absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
+        <img class="features-hero-tooltip tooltip--simple absolute align-middle" src="/wp-content/themes/vero/assets/dist/images/features/logic.png"  srcset="/wp-content/themes/vero/assets/dist/images/features/logic@2x.png 2x" alt="">
 
         <img class="border border-radius-2 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/features/hero-1@2x.png 2x" alt="">
       </div>
@@ -63,7 +63,7 @@
 
           <p class="medium bottom-margin-md">Trigger workflows based on customer activity, automate decisions and send messages across multiple channels, all using a visual, drag-and-drop UI.</p>
 
-          <a class="btn btn-primary btn--outline" href="/workflows">Learn more</a>
+          <a class="btn btn--primary btn--outline" href="/workflows">Learn more</a>
         </div>
         <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/workflows.svg" alt="">
@@ -118,7 +118,7 @@
 
           <p class="medium bottom-margin-md">Attributes enable you to store customer inputs, demographic data, subscription preferences and more.</p>
 
-          <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
+          <a class="btn btn--primary btn--outline" href="/event-manager">Learn more</a>
         </div>
         <div class="col-aside order-1 md-order-2 center-text md-right-text bottom-margin-md md-no-bottom-margin">
           <div class="d-inline-block bg-dots-offset">
@@ -137,7 +137,7 @@
 
           <p class="medium bottom-margin-md">Integrations along with our JavaScript, Ruby, Python and other libraries make powerful activity tracking simpler.</p>
 
-          <a class="btn btn-primary btn--outline" href="/event-manager">Learn more</a>
+          <a class="btn btn--primary btn--outline" href="/event-manager">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/activity-tracking.svg" alt="">
@@ -165,7 +165,7 @@
 
           <p class="medium bottom-margin-md">Pull data at the time your message is sent from internal or public APIs and personalize what your customers see at a whole new level.</p>
 
-          <a class="btn btn-primary btn--outline" href="/fusion">Learn more</a>
+          <a class="btn btn--primary btn--outline" href="/fusion">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/dynamic-data-feeds.svg" alt="">
@@ -215,7 +215,7 @@
           <h3 class="tubs semi-bold">Personalize messages with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your messages are personal.</p>
           <p class="medium bottom-margin-md">Make including dynamic data like <code class="language-liquid">first_name</code> and <code class="language-liquid">last_name</code> a breeze. Use powerful <code class="language-liquid">if</code>, <code class="language-liquid">else</code> and <code class="language-liquid">case</code> statements to fully customise content or templates.</p>
-          <a class="btn btn--outline btn-primary" href="/email-personalization-liquid-guide">Learn more</a>
+          <a class="btn btn--outline btn--primary" href="/email-personalization-liquid-guide">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text md-left-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/personalize.svg" alt="">
@@ -231,7 +231,7 @@
 
           <p class="medium bottom-margin-md">Vero automatically sends each customer the right language variant wherever it's available.</p>
 
-          <a class="btn btn--outline btn-primary" href="/multi-language-campaigns">Learn more</a>
+          <a class="btn btn--outline btn--primary" href="/multi-language-campaigns">Learn more</a>
         </div>
         <div class="col-aside order-1 md-order-2 center-text lg-right-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/multi-language.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language@2x.png 2x" alt="">
@@ -282,7 +282,7 @@
 
           <p class="medium bottom-margin-md">Use our webhooks or integrations with Stitch, Segment and others to send a copy of everything that happens in Vero to your data warehouse.</p>
 
-          <a class="btn btn--outline btn-primary" href="/reporting">Learn more</a>
+          <a class="btn btn--outline btn--primary" href="/reporting">Learn more</a>
         </div>
         <div class="col-aside order-1 bottom-margin-md md-no-bottom-margin center-text md-left-text">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/reporting.svg" alt="">
@@ -335,7 +335,7 @@
           <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
 
           <p class="padding-sm border border-radius-1 bg-offwhite bottom-margin-md">Via our integrations with AWS SNS and Twilio you can send messages to customers on any iOS or Android device.</p>
-          <a class="btn btn--outline btn-primary" href="/push-notifications">Learn more</a>
+          <a class="btn btn--outline btn--primary" href="/push-notifications">Learn more</a>
         </div>
         <div class="col-aside order-1 center-text bottom-margin-md md-no-bottom-margin">
           <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/features/push.svg" alt="">
@@ -378,10 +378,10 @@
       </div>
       <div class="order-2 md-order-0">
         <ul class="unstyled-list flex md-flex-column justify-center input">
-          <li class="tooltip" data-label="Segment">
+          <li class="tooltip tooltip--simple" data-label="Segment">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
-          <li class="tooltip" data-label="Zapier">
+          <li class="tooltip tooltip--simple" data-label="Zapier">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/zapier.svg" alt="Zapier logo">
           </li>
         </ul>
@@ -391,16 +391,16 @@
       </div>
       <div class="order-6 md-order-0">
         <ul class="unstyled-list grid justify-center output">
-          <li class="tooltip" data-label="Webhook">
+          <li class="tooltip tooltip--simple" data-label="Webhook">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/webhook.svg" alt="">
           </li>
-          <li class="tooltip" data-label="Stitch">
+          <li class="tooltip tooltip--simple" data-label="Stitch">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/stitch.svg" alt="Stitch logo">
           </li>
-          <li class="tooltip" data-label="Segment">
+          <li class="tooltip tooltip--simple" data-label="Segment">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/segment.svg" alt="Segment logo">
           </li>
-          <li class="tooltip" data-label="Snowplow">
+          <li class="tooltip tooltip--simple" data-label="Snowplow">
             <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/features/integrations/snowplow.svg" alt="Snowplow logo">
           </li>
         </ul>
@@ -419,9 +419,9 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
 
     <p class="annotation faded">No credit card details required</p>

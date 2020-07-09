@@ -13,7 +13,7 @@
 
 <section id="reports-hero">
   <div class="inner small-inner center-text bottom-padding-lg right-padding-lg left-padding-lg">
-    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+    <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
       <a href="/features">Features</a>
       <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Reporting
@@ -97,7 +97,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

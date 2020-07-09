@@ -17,7 +17,7 @@
         <p class="large md-bottom-margin-md">Unlimited messaging from $125/month.</p>
 
         <div class="flex flex-wrap md-flex-nowrap justify-center md-justify-start items-center bottom-margin-xs">
-          <a class="btn btn-success btn-large hide xs-show xs-right-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
+          <a class="btn btn--success btn--large hide xs-show xs-right-margin-md" href="https://app.getvero.com/signup">Start a free trial</a>
         </div>
 
         <p class="faded bottom-margin-xl">(No credit card details required)</p>
@@ -128,7 +128,7 @@
 
       <h3 class="chunk regular md-right-margin-lg">Easily create and manage automated messages</h3>
 
-      <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="d-inline-block btn btn--large btn--success" href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
   </div>
 </section>
@@ -199,7 +199,7 @@
   <div class="inner small-inner center-text">
     <h3 class="regular chunk bottom-margin-md">Empower your team to use customer data to create personal and timely messages, that drive more growth for your business</h3>
 
-    <a class="d-inline-block btn btn-large btn-success" href="https://app.getvero.com/signup">Try Vero for free</a>
+    <a class="d-inline-block btn btn--large btn--success" href="https://app.getvero.com/signup">Try Vero for free</a>
   </div>
 </section>
 <?php

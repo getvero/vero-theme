@@ -96,10 +96,10 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
               <div class="flex">
                 <input class="form-control" type="email" name="email">
 
-                <button class="btn btn-success subscribe_to_blog" type="submit">Subscribe</button>
+                <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
               </div>
 
-              <span class="show annotation font-brand-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+              <span class="show annotation font-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
             </form>
           </div>
         </div> -->
@@ -108,7 +108,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       </div>
     </div>
 
-    <a class="btn btn-success hide lg-show track-start-trial" href="https://app.getvero.com/signup?from=blog_header" >Start a free trial</a>
+    <a class="btn btn--success hide lg-show track-start-trial" href="https://app.getvero.com/signup?from=blog_header">Start a free trial</a>
   </div>
   <?php $resources_menu = ob_get_clean();
 
