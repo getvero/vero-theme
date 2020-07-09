@@ -23,7 +23,7 @@
 ?>
 <section class="drag-and-drop-hero overflow-hidden">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
-    <span class="flex items-center justify-center atomic semi-bold font-brand-gray-dark">
+    <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
       <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Drag and Drop
@@ -36,9 +36,9 @@
     </div>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
   <div class="inner xlarge-inner">
@@ -253,19 +253,19 @@
 </section>
 <section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom">
   <div class="inner tiny-inner center-text relative z-1">
-    <span class="show font-brand-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
+    <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
 </section>
 <section class="micro-padding">
   <div class="inner center-text">
-    <p class="annotation font-brand-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
+    <p class="annotation font-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
   </div>
 </section>
 <?php
