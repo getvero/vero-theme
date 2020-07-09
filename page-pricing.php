@@ -59,7 +59,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $18 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -121,7 +121,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $8 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -261,7 +261,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $4 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -321,7 +321,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $18 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -384,7 +384,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $8 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -457,7 +457,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $5 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -524,7 +524,7 @@ include 'pages-shared/static-header.php';
                     </span>
                   </li>
                   <li class="annotation">&plus; $4 per thousand extra customers</li>
-                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer">Calculate overage charges</span></li>
+                  <li><span class="js-overage-calculator-annual regular annotation underline-link font-gray-dark pointer track-open-overage-calculator">Calculate overage charges</span></li>
                 </ul>
               </div>
 
@@ -1254,7 +1254,6 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 
-<<<<<<< HEAD
 <div class="js-overlay overlay overlay--pricing items-center justify-center">
   <section class="js-modal overlay-modal bg-offwhite shadow-1 stack-md">
     <h2 class="tubs semi-bold center-text">Overage calculator</h2>
@@ -1357,8 +1356,6 @@ include 'pages-shared/static-header.php';
   </section>
 </div>
 
-=======
->>>>>>> origin/develop
 <?php
   no_content_genesis_footer();
 ?>
