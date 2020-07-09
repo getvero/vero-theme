@@ -1254,6 +1254,7 @@ include 'pages-shared/static-header.php';
   </div>
 </section>
 
+<<<<<<< HEAD
 <div class="js-overlay overlay overlay--pricing items-center justify-center">
   <section class="js-modal overlay-modal bg-offwhite shadow-1 stack-md">
     <h2 class="tubs semi-bold center-text">Overage calculator</h2>
@@ -1356,6 +1357,8 @@ include 'pages-shared/static-header.php';
   </section>
 </div>
 
+=======
+>>>>>>> origin/develop
 <?php
   no_content_genesis_footer();
 ?>

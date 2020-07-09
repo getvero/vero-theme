@@ -30,7 +30,7 @@
     <p class="no-top-margin bottom-margin-xl large">Use <strong>Stitch</strong> to send your email interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your Amazon Redshift, Google BigQuery or other data warehouse in one click.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Stitch in minutes</p>
-    <a href="https://app.getvero.com/signup" class="btn btn--success btn--large btn-wide">Get started</a>
+    <a class="btn btn--success btn--large track-start-trial" href="https://app.getvero.com/signup" >Get started</a>
   </div>
 </section>
 <section class="double-padding bg-offwhite">

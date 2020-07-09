@@ -30,7 +30,7 @@
     <p class="bottom-margin-xl large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Segment in minutes</p>
-    <a href="https://app.getvero.com/signup" class="btn btn--success btn--large">Get started</a>
+    <a class="btn btn--success btn--large track-start-trial" href="https://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <section id="vero-segment-info">

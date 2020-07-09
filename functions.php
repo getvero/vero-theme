@@ -248,6 +248,18 @@ function genesischild_theme_setup() {
   # Add banner
   add_action( 'genesis_before_header', 'blog_banner' );
   add_filter( 'body_class', 'add_body_class_blog_banner' );
+
+  # Change OG type
+  add_filter( 'wpseo_opengraph_type', 'yoast_change_opengraph_type', 10, 1 );
+  function yoast_change_opengraph_type( $type ) {
+    if ( is_page('drag-and-drop') ) {
+      return 'website';
+    } else {
+      return $type;
+    }
+  }
+
+
 }
 
 ?>
