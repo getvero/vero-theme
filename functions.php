@@ -252,7 +252,7 @@ function genesischild_theme_setup() {
   # Change OG type
   add_filter( 'wpseo_opengraph_type', 'yoast_change_opengraph_type', 10, 1 );
   function yoast_change_opengraph_type( $type ) {
-    if ( is_page('drag-and-drop') ) {
+    if ( is_page('drag-and-drop') || is_page('pricing') ) {
       return 'website';
     } else {
       return $type;
