@@ -21,12 +21,13 @@ include 'pages-shared/static-header.php';
 
     <div class="pricing-tab-tables stack-md">
       <div class="stack-lg">
-        <div class="flex justify-center tab-switcher relative">
-          <span class="pricing-tab-discount annotation semi-bold absolute font-brand-success">Save 10% off!</span>
-
+        <div class="flex justify-center tab-switcher">
           <div class="pricing-tab-labels bg-white inline-flex justify-center shadow-1 border border-radius-2 padding-xxs">
             <label class="pricing-tab-label pricing-tab-label--1" for="pricing-tab-1">Monthly</label>
-            <label class="pricing-tab-label pricing-tab-label--2" for="pricing-tab-2">Annually</label>
+            <label class="relative pricing-tab-label pricing-tab-label--2" for="pricing-tab-2">
+              <span class="pricing-tab-label-discount annotation semi-bold absolute font-brand-success">Save 10% off!</span>
+              Annually
+            </label>
           </div>
         </div>
 
