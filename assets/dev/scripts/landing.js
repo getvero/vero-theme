@@ -599,4 +599,62 @@ jQuery(document).ready(function() {
     }
   }
 
+  // Handle signup form on homepage
+  jQuery('.js-signup-form').each(function(index) {
+    var self = this;
+
+    jQuery(self).on('submit', function(e) {
+      var subEl = jQuery(e.originalEvent.submitter);
+
+      event.preventDefault();
+
+      try {anonymous_id = window.analytics._user.anonymousId();}
+      catch {}
+
+      if(typeof anonymous_id !== 'undefined'){
+        // Append the Segment.com anonymous_id
+        jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'anonymous_id')
+        .attr('value', anonymous_id)
+        .appendTo(self);
+      }
+
+      // Append page path and URL
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_path')
+        .attr('value', window.location.pathname)
+        .appendTo(self);
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_url')
+        .attr('value', window.location.href)
+        .appendTo(self);
+
+      //Append the button that was clicked
+      jQuery(self).append(
+        $("<input type='hidden'>").attr( { 
+          name: 'submit_button',
+          value: subEl.val()
+        })
+      );
+
+      var formEl = jQuery(self);
+      jQuery.ajax({
+        type: 'POST',
+        url: formEl.prop('action'),
+        accept: {
+          javascript: 'application/javascript'
+        },
+        data: formEl.serialize()
+      }).done(function(data) {
+        // Redirect depending on submit submit_button
+        if(subEl.val() == 'Start a free trial') {
+          window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val()
+        } else if(subEl.val() == 'Talk to us') {
+          window.location.href = 'https://www.getvero.com/contact-us-thank-you'
+        } else {
+          alert("Oops, something went wrong. Please try again.")
+        };
+      });
+    });
+  });
 });

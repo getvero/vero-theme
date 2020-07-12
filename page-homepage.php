@@ -26,12 +26,10 @@
           <form action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
-            method="POST">
-
+            method="POST"
+            class="js-signup-form">
             <input type="text" name="email"/>
-            
-            <input type="submit" name="signup" value="Start a free trial" class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial"/>
-
+            <input type="submit" name="submit" value="Start a free trial" class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial"/>
             <input type="submit" name="talk_to_us" value="Talk to us" class="btn btn--gray-darker btn--large btn--outline link sm-right-margin-xxs track-contact-us">
           </form>
 
