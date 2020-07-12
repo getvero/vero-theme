@@ -23,9 +23,17 @@
           <p class="large">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta flex flex-column md-flex-row justify-center lg-justify-start items-center">
-          <a class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+          <form action="https://formkeep.com/f/5401a0ae5cb8"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+            method="POST">
 
-          <a class="btn btn--gray-darker btn--large btn--outline link sm-right-margin-xxs track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+            <input type="text" name="email"/>
+            
+            <input type="submit" name="signup" value="Start a free trial" class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial"/>
+
+            <input type="submit" name="talk_to_us" value="Talk to us" class="btn btn--gray-darker btn--large btn--outline link sm-right-margin-xxs track-contact-us">
+          </form>
 
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
