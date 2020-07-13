@@ -114,11 +114,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-<<<<<<< HEAD
-    <a class="btn btn--success btn--large bottom-margin-sm start-a-free-trial" href="https://app.getvero.com/signup">Start a free trial</a>
-=======
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
->>>>>>> origin/develop
 
     <p class="annotation faded">No credit card details required</p>
   </div>
