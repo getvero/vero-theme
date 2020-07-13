@@ -7,7 +7,6 @@ function add_class($classes) {
   $classes[] = 'pricing';
   return $classes;
 }
-
 add_filter( 'genesis_attr_body', 'change_body_itemtype' );
 function change_body_itemtype( $attributes ) {
     $attributes['itemscope'] = 'itemscope';
