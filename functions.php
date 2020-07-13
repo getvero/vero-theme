@@ -259,7 +259,6 @@ function genesischild_theme_setup() {
     }
   }
 
-
 }
 
 ?>
