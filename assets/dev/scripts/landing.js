@@ -629,9 +629,9 @@ jQuery(document).ready(function() {
         .attr('value', window.location.href)
         .appendTo(self);
 
-      //Append the button that was clicked
+      // Append the button that was clicked
       jQuery(self).append(
-        $("<input type='hidden'>").attr( { 
+        jQuery("<input type='hidden'>").attr( {
           name: 'submit_button',
           value: subEl.val()
         })
