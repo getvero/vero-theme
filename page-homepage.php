@@ -27,18 +27,18 @@
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST"
-            class="js-signup-form">
-            <input type="text" name="email"/>
-            <input type="submit" name="submit" value="Start a free trial" class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial"/>
-            <input type="submit" name="talk_to_us" value="Talk to us" class="btn btn--gray-darker btn--large btn--outline link sm-right-margin-xxs track-contact-us">
+            class="js-signup-form flex">
+            <input class="form-control" type="email" name="email" placeholder="Your email address">
+            <input class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin track-start-trial" type="submit" name="submit" value="Start a free trial">
+            <input class="btn btn--gray-darker btn--large btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
           </form>
+        </div>
 
-          <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
-            <div class="flex items-center pointer dim track-home-video">
-              <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
+        <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
+          <div class="flex items-center pointer dim track-home-video">
+            <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-              <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
-            </div>
+            <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
           </div>
         </div>
 
