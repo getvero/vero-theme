@@ -15,37 +15,39 @@
 ?>
 <section class="home-hero overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column lg-flex-row items-stretch lg-items-center">
+    <div class="flex flex-column lg-flex-row items-stretch">
       <div class="col-main center-text lg-left-text stack-md">
         <div class="stack-sm">
-          <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
+          <h1 class="biggie semi-bold">Scale personalized customer messages</h1>
 
           <p class="large">The messaging platform to get you from idea to production, faster.</p>
         </div>
-        <div class="hero-cta flex flex-column md-flex-row justify-center lg-justify-start items-center">
-          <form action="https://formkeep.com/f/5401a0ae5cb8"
+        <div class="hero-cta flex flex-column justify-center lg-justify-start stack-sm">
+          <form class="js-signup-form home-signup-form stack-xs"
+            action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
-            method="POST"
-            class="js-signup-form flex">
-            <input class="form-control" type="email" name="email" placeholder="Your email address">
-            <input class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin track-start-trial" type="submit" name="submit" value="Start a free trial">
-            <input class="btn btn--gray-darker btn--large btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
+            method="POST">
+            <input class="form-control full-width" type="email" name="email" placeholder="Your email address">
+            <div class="flex">
+              <input class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin right-margin-xs track-start-trial" type="submit" name="submit" value="Start a free trial">
+              <input class="btn btn--gray-darker btn--large btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
+            </div>
           </form>
-        </div>
 
-        <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
-          <div class="flex items-center pointer dim track-home-video">
-            <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
+          <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
+            <div class="flex items-center pointer dim track-home-video">
+              <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
 
-            <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
+              <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
+            </div>
           </div>
         </div>
 
-        <div class="flex flex-column lg-flex-row items-center lg-items-end">
+        <div class="flex flex-column items-center lg-items-start stack-xxxs">
           <a class="track-capterra" target="_blank" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
 
-          <p class="annotation regular font-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
+          <p class="annotation regular font-gray-dark">Rated 4.3 in Email Marketing Software</p>
         </div>
       </div>
       <div class="col-aside">
