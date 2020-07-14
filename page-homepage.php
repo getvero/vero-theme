@@ -2,7 +2,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <div class="bg-dark-blue banner z-9999">
-  <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
+  <a class="negative flex items-center md-justify-center" href="https://www.producthunt.com/posts/drag-and-drop-email-editor-by-vero">
     <p class="flex items-center">
       <span>We're thrilled to publicly release the Drag and Drop editor, along with new pricing.</span>
     </p>
