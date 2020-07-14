@@ -650,7 +650,8 @@ jQuery(document).ready(function() {
         if(subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val()
         } else if(subEl.val() == 'Talk to us') {
-          window.location.href = 'https://www.getvero.com/contact-us-thank-you'
+          // window.location.href = 'https://www.getvero.com/contact-us-thank-you'
+          jQuery('.js-contact-msg').text('We will get in touch');
         } else {
           alert("Oops, something went wrong. Please try again.")
         };

@@ -16,27 +16,29 @@
 <section class="home-hero overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
     <div class="flex flex-column lg-flex-row items-stretch">
-      <div class="col-main center-text lg-left-text stack-lg">
-        <div class="stack-xxs">
+      <div class="col-main center-text lg-left-text stack-md">
+        <div class="stack-xs">
           <h1 class="semi-bold">Scale personalized customer messages</h1>
 
           <p class="large">The messaging platform to get you from idea to production, faster.</p>
         </div>
-        <div class="hero-cta stack-md">
-          <form class="js-signup-form home-signup-form stack-sm"
+        <div class="hero-cta stack-sm">
+          <form class="js-signup-form home-signup-form stack-xs"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST">
             <input class="form-control full-width" type="email" name="email" placeholder="Your email address">
-            <div class="flex items-center">
-              <input class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin track-start-trial" type="submit" name="submit" value="Start a free trial">
+            <div class="flex items-center justify-center">
+              <input class="btn btn--success btn--large track-start-trial" type="submit" name="submit" value="Start a free trial">
 
               <span class="d-inline-block font-gray-dark horizontal-margin-xs">or</span>
 
               <input class="btn btn--gray-darker btn--large btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
             </div>
           </form>
+
+          <div class="js-contact-msg"></div>
 
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
