@@ -8,10 +8,10 @@
     if ( get_field('banner_text') ) {
       ?>
         <div class="bg-dark-blue banner z-9999">
-          <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
+          <a class="negative flex items-center md-justify-center" href="<?php the_field('banner_link') ?>">
             <p class="center-text"><span class="right-margin-xxxs">🎉</span> <?php the_field('banner_text') ?></p>
 
-            <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+            <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
           </a>
         </div>
       <?php
@@ -123,7 +123,7 @@
   }
 
   function blue_signup_box_content() {
-    return "<div class='interstitial'><div class='interstitial-left'><div class='blog-cta-content'><h1>Create better customer experiences</h1><p>Send super targeted messages with Vero.</p><a class='btn btn-success' href='https://app.getvero.com/signup' target='_blank'>Start a free trial</a></div></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/dist/images/blog-cta@2x.png'/></div></div>";
+    return "<div class='interstitial'><div class='interstitial-left'><div class='blog-cta-content'><h1>Create better customer experiences</h1><p>Send super targeted messages with Vero.</p><a class='btn btn--success' href='https://app.getvero.com/signup' target='_blank'>Start a free trial</a></div></div><div class='interstitial-right'><img class='no-border' src='/wp-content/themes/vero/assets/dist/images/blog-cta@2x.png'/></div></div>";
   }
 
   function be_related_posts_by_category() {
@@ -131,7 +131,6 @@
     if ( !is_blog_post_or_guide() ) {
       return;
     }
-
 
     $image_id       = get_post_thumbnail_id();
     $image_alt      = get_post_meta($image_id, '_wp_attachment_image_alt', true);
@@ -152,7 +151,7 @@
       while( $loop->have_posts() ): $loop->the_post();
         echo '<div class="entry">';
         if( has_post_thumbnail() )
-          echo '<a class="show entry-aside" href="' . get_permalink() . '">';
+          echo '<a class="show entry-aside track-single-latest-posts" href="' . get_permalink() . '">';
 
           if( !empty($image_alt) ) {
             $alt_text = $image_alt;
@@ -165,14 +164,14 @@
             'alt'   => $alt_text
           ));
           echo '</a>';
-        echo '<div class="entry-header"><h4 class="entry-title"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
+        echo '<div class="entry-header"><h4 class="entry-title"><a class="track-single-latest-posts" href="' . get_permalink() . '">' . get_the_title() . '</a></h4></div>';
         ?>
           <div class="entry-content">
             <?php get_the_permalink() ?>
             <?php the_excerpt() ?>
           </div>
         <?php
-        echo '<a class="d-inline-block semi-bold underline-link-rev" href="' . get_permalink() . '">Read more</a>';
+        echo '<a class="d-inline-block semi-bold underline-link-rev track-single-latest-posts" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';

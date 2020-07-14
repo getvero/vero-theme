@@ -23,7 +23,7 @@
         <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
       </div>
 
-      <a class="btn btn-success btn-large bottom-margin-md" href="https://app.getvero.com/signup">Get started</a>
+      <a class="btn btn--success btn--large bottom-margin-md track-start-trial" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
   <section class="xs-bg-dots tiny-padding">
@@ -144,7 +144,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Design, manage and optimize your mobile push messages</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm" href="https://app.getvero.com/signup">Get started</a>
+    <a class="btn btn--success btn--large bottom-margin-sm" href="https://app.getvero.com/signup">Get started</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

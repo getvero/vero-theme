@@ -13,7 +13,7 @@
   <a class="negative flex items-center md-justify-center" href="/resources/introducing-drag-and-drop-email-content">
     <p>We built this editor <strong>from the ground up</strong> rather than just using a plugin.</p>
 
-    <span class="font-white underline-link semi-bold flex items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+    <span class="font-white underline-link semi-bold flex items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
   </a>
 </div>
 <?php
@@ -37,9 +37,9 @@
       </div>
 
       <div class="flex flex-column xs-flex-row items-center justify-center">
-        <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+        <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+        <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
       </div>
 
       <div class="flex items-center justify-center">
@@ -266,9 +266,9 @@
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn-large btn-success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn-gray-darker btn-large btn-outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
   </div>
 </section>

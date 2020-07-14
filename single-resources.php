@@ -24,7 +24,7 @@ function generate_resource_header() {
     <?php echo genesis_get_image( array( 'format' => 'html', 'size' => genesis_get_option( 'image_size' ) ) ); ?>
     <h1 class="entry-title" itemprop="headline"><?php echo get_the_title() ?></h1>
     <?php if($_GET['dl'] != "") { ?>
-      <a href="<?php echo the_field('downloadable_file') ?>" class="btn btn-large btn-warning">Download your resource</a>
+      <a href="<?php echo the_field('downloadable_file') ?>" class="btn btn--large btn--warning">Download your resource</a>
       <script>
       jQuery(document).ready(function(){
         _gaq.push('_trackPageview', "/resources/download/<?php echo $post->post_name; ?>");
@@ -37,7 +37,7 @@ function generate_resource_header() {
           <input name="email" type="email" placeholder="Enter your email" class="form-control"></div>
         <input name="event[resource_name]" type="hidden" value="<?php echo get_the_title() ?>">
         <input name="redirect_on_success" type="hidden" value="<?php echo get_permalink() ?>?dl=b89c6053bcad49123b808ffb6faf5e61">
-        <div class="form-group"><input type="submit" value="Download the resource" class="btn btn-warning"></div>
+        <div class="form-group"><input type="submit" value="Download the resource" class="btn btn--warning"></div>
       </form>
     <?php } ?>
     <div class="clearfix"></div>

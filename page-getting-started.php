@@ -38,7 +38,7 @@
 
         <div class="subnav-help bg-dark-blue font-white border-radius-1 padding-sm sm-padding-md">
           <p class="bottom-margin-md">Still can’t find what you’re looking for? Check out our help docs.</p>
-          <a class="btn btn-white btn-outline" href="https://help.getvero.com">Help docs</a>
+          <a class="btn btn--white btn--outline" href="https://help.getvero.com">Help docs</a>
         </div>
       </div>
     </div>
@@ -176,7 +176,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

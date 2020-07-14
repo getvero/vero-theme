@@ -11,7 +11,7 @@
 ?>
 <section id="vero-integration-heading">
   <div class="inner small-inner flush-bottom center-text">
-    <h2 class="semi-bold smallish font-gray no-top-margin bottom-margin-lg">Integrations</h2>
+    <span class="show semi-bold font-gray no-top-margin bottom-margin-lg">Integrations</span>
 
     <div class="integration-logos bottom-margin-xl">
       <div class="logo-container vero">
@@ -30,7 +30,7 @@
     <p class="bottom-margin-xl large">Use <strong>Segment</strong> to collect data from multiple sources, including mobile apps, websites, servers, and cloud apps and send it to <strong>Vero</strong> to trigger personalized marketing communications.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Segment in minutes</p>
-    <a href="https://app.getvero.com/signup" class="btn btn-success btn-large">Get started</a>
+    <a class="btn btn--success btn--large track-start-trial" href="https://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <section id="vero-segment-info">
@@ -108,7 +108,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

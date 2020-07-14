@@ -19,7 +19,7 @@
       <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
       <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn-success btn-large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large md-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
       </div>
@@ -58,7 +58,7 @@
 
         <p class="medium bottom-margin-md">Easily store, track and segment customer properties and customer activity.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="https://developers.getvero.com/">Connect Vero</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="https://developers.getvero.com/">Connect Vero</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -79,7 +79,7 @@
       <div class="col-main">
         <p class="medium bottom-margin-md">Empower your non-technical team members to use real-time data to create, test and optimize customer messages with ease.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/event-manager">Empower your team</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/event-manager">Empower your team</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -97,7 +97,7 @@
 
         <p class="medium bottom-margin-md">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
 
-        <a class="btn btn-medium btn-outline btn-primary" href="/workflows">Intuitive workflows</a>
+        <a class="btn btn--medium btn--outline btn--primary" href="/workflows">Intuitive workflows</a>
       </div>
       <div class="col-aside flex justify-center">
         <div class="bg-dots-offset">
@@ -114,7 +114,7 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 
-    <a class="btn btn-success btn-large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
