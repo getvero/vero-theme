@@ -3,9 +3,17 @@
 ?>
 <div class="bg-dark-blue banner z-9999">
   <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
-    <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor.</p>
+    <p class="flex items-center">
+      <span>We're thrilled to publicly release the Drag and Drop editor, along with new pricing.</span>
+    </p>
 
-    <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+    <span class="font-white flex items-center semi-bold items-center left-margin-sm">
+      <svg class="right-margin-xxxs" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M20 10c0 5.523-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0s10 4.477 10 10" fill="#DA552F"/><path d="M11.333 10H8.5V7h2.833a1.5 1.5 0 010 3m0-5H6.5v10h2v-3h2.833a3.5 3.5 0 100-7" fill="#FFF"/></g></svg>
+
+      <span>View on Product Hunt</span>
+
+      <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg>
+    </span>
   </a>
 </div>
 <?php
