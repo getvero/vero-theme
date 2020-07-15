@@ -415,7 +415,8 @@
   </div>
 </section>
 <section banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner tiny-inner center-text">
+  <div class="inner small-inner center-text">
+
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
