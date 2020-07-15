@@ -38,7 +38,7 @@
             </div>
           </form>
 
-          <div class="js-contact-msg"></div>
+          <div class="js-contact-msg border bg-white padding-sm border-radius-2"></div>
 
           <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
             <div class="flex items-center pointer dim track-home-video">
