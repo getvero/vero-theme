@@ -98,7 +98,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -171,7 +171,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup" >Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -238,7 +238,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup" >Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -360,7 +360,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -434,7 +434,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -501,7 +501,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -1252,11 +1252,11 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging with Vero</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

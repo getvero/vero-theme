@@ -9,14 +9,14 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="features-hero bg-gray-lighter">
+<section class="features-hero bg-gray-lighter" banner-name="Messaging platform that scales personalization" element-position="top">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="d-inline-block atomic semi-bold font-gray-dark">Features</span>
 
     <h1 class="hulk semi-bold">The messaging platform that scales personalization</h1>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
       <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us"  data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
@@ -414,12 +414,13 @@
     </div>
   </div>
 </section>
-<section>
+<section banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
+
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="flex items-center justify-center bottom-margin-md">
-      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
       <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
