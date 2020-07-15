@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="push-notifications-hero">
+<section class="push-notifications-hero" banner-name="Mobile Push Notifications" element-position="top">
   <section>
     <div class="inner tiny-inner flush-bottom center-text stack-lg">
       <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
@@ -23,7 +23,7 @@
         <p class="large">Keep customers coming back with timely, personalized, and actionable push notifications.</p>
       </div>
 
-      <a class="btn btn--success btn--large bottom-margin-md track-start-trial" href="https://app.getvero.com/signup">Get started</a>
+      <a class="btn btn--success btn--large bottom-margin-md track-start-trial"  element-position="top" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
   <section class="xs-bg-dots tiny-padding">
@@ -140,11 +140,11 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite">
+<section class="bg-offwhite" element-position="bottom" banner-name="Mobile Push Messages">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Design, manage and optimize your mobile push messages</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm" href="https://app.getvero.com/signup">Get started</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" element-position="bottom" href="https://app.getvero.com/signup">Get started</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

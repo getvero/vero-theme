@@ -21,7 +21,7 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="drag-and-drop-hero overflow-hidden">
+<section class="drag-and-drop-hero overflow-hidden" banner-name="Design beautiful emails" element-position="top">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
@@ -36,8 +36,8 @@
         <p class="large">Help your team deliver great looking and highly engaging emails to every device without writing a line of code.</p>
       </div>
 
-      <div class="flex flex-column xs-flex-row items-center justify-center">
-        <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+    <div class="flex flex-column xs-flex-row items-center justify-center">
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
 
         <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
       </div>
@@ -266,13 +266,13 @@
     </ul>
   </div>
 </section>
-<section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom">
+<section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text relative z-1">
     <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
       <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
     </div>
