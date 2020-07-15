@@ -631,7 +631,7 @@ jQuery(document).ready(function() {
 
       // Append the button that was clicked
       jQuery(self).append(
-        jQuery("<input type='hidden'>").attr( {
+        jQuery('<input type="hidden">').attr( {
           name: 'submit_button',
           value: subEl.val()
         })
@@ -649,13 +649,19 @@ jQuery(document).ready(function() {
         // Redirect depending on submit submit_button
         if(subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val()
-        } else if(subEl.val() == 'Talk to us') {
-          // window.location.href = 'https://www.getvero.com/contact-us-thank-you'
-          jQuery('.js-contact-msg').text('We will get in touch');
+        } else if(subEl.val() == 'Talk to us' && !jQuery('.form-control').val() == '') {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon.');
+        } else if(subEl.val() == 'Talk to us' && jQuery('.form-control').val() == '') {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter your email address.');
         } else {
-          alert("Oops, something went wrong. Please try again.")
+          // alert("Oops, something went wrong. Please try again.")
         };
       });
     });
+
+    // jQuery('.js-signup-form').reset();
+    jQuery(this).next('input[type="email"]').reset();
   });
 });
