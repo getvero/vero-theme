@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="vero-integration-heading">
+<section id="vero-integration-heading" banner-name="Connect Vero and Stitch" element-position="top">
   <div class="inner small-inner center-text bottom-padding-xl">
     <span class="show semi-bold font-gray no-top-margin bottom-margin-lg">Integrations</span>
 
@@ -109,7 +109,7 @@
     <p class="faded large regular">Chris Hexton, CEO Vero</p>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 

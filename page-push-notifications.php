@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="push-notifications-hero">
+<section class="push-notifications-hero" banner-name="Mobile Push Notifications" element-position="top">
   <section>
     <div class="inner tiny-inner flush-bottom center-text stack-lg">
       <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
@@ -140,7 +140,7 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite">
+<section class="bg-offwhite" element-position="bottom" banner-name="Mobile Push Messages">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Design, manage and optimize your mobile push messages</h4>
 

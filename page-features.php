@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="features-hero bg-gray-lighter">
+<section class="features-hero bg-gray-lighter" banner-name="Messaging platform that scales personalization" element-position="top">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="d-inline-block atomic semi-bold font-gray-dark">Features</span>
 
@@ -414,7 +414,7 @@
     </div>
   </div>
 </section>
-<section>
+<section banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 

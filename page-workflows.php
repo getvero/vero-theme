@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="overflow-hidden" id="workflows-hero">
+<section class="overflow-hidden" id="workflows-hero" banner-name="Workflows" element-position="top">
   <div class="inner large-inner flex flex-column md-flex-row bottom-padding-lg">
     <div class="relative col-main secondary">
       <h1 class="hulk bottom-margin-sm semi-bold">Workflows</h1>
@@ -163,7 +163,7 @@
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="top">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 

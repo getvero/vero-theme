@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section id="reports-hero">
+<section id="reports-hero" banner-name="Track performance of campaigns" element-position="top">
   <div class="inner small-inner center-text bottom-padding-lg right-padding-lg left-padding-lg">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
       <a href="/features">Features</a>
@@ -92,7 +92,7 @@
     </div>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 

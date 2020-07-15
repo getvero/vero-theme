@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" id="job-hero">
+<section class="double-padding" id="job-hero" banner-name="Co-ordinate messaging" element-position="top">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
@@ -93,7 +93,7 @@
 <?php
   include 'pages-shared/jobs-navigation.php';
 ?>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 

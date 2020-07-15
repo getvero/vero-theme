@@ -1252,7 +1252,7 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging with Vero</h4>
 

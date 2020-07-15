@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="border-bottom-light" id="job-hero">
+<section class="border-bottom-light" id="job-hero" banner-name="Empower your team" element-position="top">
   <div class="inner xlarge-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
@@ -110,7 +110,7 @@
 <?php
   include 'pages-shared/jobs-navigation.php';
 ?>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Scale personalized customer messaging</h4>
 

@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="multi-language-hero" class="hero border-bottom-light">
+<section class="hero border-bottom-light" id="multi-language-hero" banner-name="Send your multi-language emails" element-position="top">
   <div class="inner center-text">
     <h1 class="chunk semi-bold">The simple way to send your multi-language emails</h1>
     <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
@@ -58,7 +58,7 @@ vero.users.track!({
 
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Use data to create better experience" element-position="bottom">
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
 

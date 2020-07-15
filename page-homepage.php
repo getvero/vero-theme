@@ -13,7 +13,7 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="home-hero overflow-hidden border-bottom-light">
+<section class="home-hero overflow-hidden border-bottom-light" banner-name="Scale personalized messages" element-position="top">
   <div class="inner xlarge-inner">
     <div class="flex flex-column lg-flex-row items-stretch lg-items-center">
       <div class="col-main center-text lg-left-text stack-md">
@@ -356,8 +356,8 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite">
-  <div class="inner tiny-inner center-text">
+<section class="bg-offwhite" banner-name="Scale personalized messages" element-position="bottom">
+  <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>

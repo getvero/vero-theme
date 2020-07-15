@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="event-manager-heading">
+<section id="event-manager-heading" banner-name="Send emails using real-time data" element-position="top">
   <div class="inner small-inner center-text bottom-padding-lg">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
       <a href="/features">Features</a>
@@ -84,7 +84,7 @@
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 

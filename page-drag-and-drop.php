@@ -21,7 +21,7 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="drag-and-drop-hero overflow-hidden">
+<section class="drag-and-drop-hero overflow-hidden" banner-name="Design beautiful emails" element-position="top">
   <div class="inner tiny-inner flush-bottom center-text stack-lg">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
@@ -251,7 +251,7 @@
     </ul>
   </div>
 </section>
-<section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom">
+<section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text relative z-1">
     <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
