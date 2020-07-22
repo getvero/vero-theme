@@ -3,9 +3,10 @@
 ?>
 <div class="bg-dark-blue banner z-9999">
   <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
-    <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor.</p>
+     <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor</p>
 
-    <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
+
+    <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
   </a>
 </div>
 <?php
@@ -13,7 +14,7 @@
   do_action( 'genesis_header' );
   do_action( 'genesis_after_header' );
 ?>
-<section class="home-hero overflow-hidden border-bottom-light">
+<section class="home-hero overflow-hidden border-bottom-light" banner-name="Scale personalized messages" element-position="top">
   <div class="inner xlarge-inner">
     <div class="flex flex-column xl-flex-row items-center">
       <div class="col-main center-text lg-left-text stack-md">
@@ -32,9 +33,8 @@
             <div class="flex flex-column sm-flex-row">
               <input class="form-control full-width" type="email" name="email" placeholder="Your email address">
 
-              <input class="btn btn--success btn--medium track-start-trial" type="submit" name="submit" value="Start a free trial">
+              <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <!-- <input class="btn btn--gray-darker btn--medium btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us"> -->
               <input class="btn underline-link track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
             </div>
           </form>
@@ -383,11 +383,11 @@
     </div>
   </div>
 </section>
-<section class="bg-dark-blue-lighter">
+<section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

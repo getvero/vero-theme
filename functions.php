@@ -236,7 +236,7 @@ function genesischild_theme_setup() {
   }
 
   # Add Recaptcha script to footer
-  add_action( 'wp_footer', 'move_recaptcha_script' );
+  // add_action( 'wp_footer', 'move_recaptcha_script' );
   function move_recaptcha_script() {
     if ( is_blog() ) {
       ?>
@@ -259,6 +259,15 @@ function genesischild_theme_setup() {
     }
   }
 
+  # Add banner-name and element-position to header start a trial button
+  add_filter( 'nav_menu_link_attributes', function ( $atts, $item, $args ) {
+    if ( 2119 === $item->ID ) {
+      $atts['banner-name'] = 'Start a free trial';
+      $atts['element-position'] = 'nav';
+    }
+
+    return $atts;
+  }, 10, 3 );
 
 }
 
