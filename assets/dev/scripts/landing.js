@@ -660,8 +660,5 @@ jQuery(document).ready(function() {
         };
       });
     });
-
-    // jQuery('.js-signup-form').reset();
-    jQuery(this).next('input[type="email"]').reset();
   });
 });
