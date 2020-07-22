@@ -15,12 +15,12 @@
 ?>
 <section class="home-hero overflow-hidden border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column lg-flex-row items-center">
+    <div class="flex flex-column xl-flex-row items-center">
       <div class="col-main center-text lg-left-text stack-md">
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large lg-right-margin-xl">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large xl-right-margin-xl">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta stack-sm">
           <form class="js-signup-form home-signup-form stack-sm"
@@ -29,7 +29,7 @@
             enctype="multipart/form-data"
             method="POST">
 
-            <div class="flex">
+            <div class="flex flex-column sm-flex-row">
               <input class="form-control full-width" type="email" name="email" placeholder="Your email address">
 
               <input class="btn btn--success btn--medium track-start-trial" type="submit" name="submit" value="Start a free trial">
