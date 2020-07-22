@@ -20,7 +20,7 @@
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large xl-right-margin-xl">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large xl-right-margin-xxl">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta stack-sm">
           <form class="js-signup-form home-signup-form stack-sm"
@@ -34,7 +34,6 @@
 
               <input class="btn btn--success btn--medium track-start-trial" type="submit" name="submit" value="Start a free trial">
 
-              <!-- <input class="btn btn--gray-darker btn--medium btn--outline track-contact-us" type="submit" name="talk_to_us" value="Talk to us"> -->
               <input class="btn underline-link track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
             </div>
           </form>
