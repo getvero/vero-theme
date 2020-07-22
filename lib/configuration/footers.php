@@ -103,7 +103,7 @@
         <div class="inner tiny-inner center-text">
           <h4 class="chunk semi-bold bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-          <a class="btn btn--success btn--large bottom-margin-md track-start-trial" href="https://app.getvero.com/signup?from=blog_footer">Start a free trial</a>
+          <a class="btn btn--success btn--large bottom-margin-md track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup?from=blog_footer">Start a free trial</a>
 
           <p class="annotation faded">No credit card details required</p>
         </div>

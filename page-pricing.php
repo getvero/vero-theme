@@ -7,6 +7,13 @@ function add_class($classes) {
   $classes[] = 'pricing';
   return $classes;
 }
+add_filter( 'genesis_attr_body', 'change_body_itemtype' );
+function change_body_itemtype( $attributes ) {
+    $attributes['itemscope'] = 'itemscope';
+    $attributes['itemtype']  = 'https://schema.org/FAQPage';
+
+    return $attributes;
+}
 
 include 'pages-shared/static-header.php';
 ?>
@@ -91,7 +98,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -164,7 +171,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup" >Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -231,7 +238,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup" >Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup" >Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -353,7 +360,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -427,7 +434,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column relative">
@@ -494,7 +501,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--outline btn--success full-width top-margin-auto track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
             </div>
           </div>
           <div class="flex flex-column">
@@ -1169,8 +1176,8 @@ include 'pages-shared/static-header.php';
       <li>
         <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
-            <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin" itemprop="name">What happens if I go over the usage limits on my chosen plan?</h3>
+            <div class="flex items-center" itemprop="name">
+              <h3 class="micro regular no-bottom-margin">What happens if I go over the usage limits on my chosen plan?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
@@ -1185,8 +1192,8 @@ include 'pages-shared/static-header.php';
       <li>
         <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
-            <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin" itemprop="name">What support does Vero provide?</h3>
+            <div class="flex items-center" itemprop="name">
+              <h3 class="micro regular no-bottom-margin">What support does Vero provide?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
@@ -1201,8 +1208,8 @@ include 'pages-shared/static-header.php';
       <li>
         <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
-            <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin" itemprop="name">Can I pay annually?</h3>
+            <div class="flex items-center" itemprop="name">
+              <h3 class="micro regular no-bottom-margin">Can I pay annually?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
@@ -1215,8 +1222,8 @@ include 'pages-shared/static-header.php';
       <li>
         <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
-            <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin" itemprop="name">Does Vero offer sub-accounts / sub-projects?</h3>
+            <div class="flex items-center" itemprop="name">
+              <h3 class="micro regular no-bottom-margin">Does Vero offer sub-accounts / sub-projects?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
@@ -1231,8 +1238,8 @@ include 'pages-shared/static-header.php';
       <li>
         <details class="stack-sm" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <summary>
-            <div class="flex items-center">
-              <h3 class="micro regular no-bottom-margin" itemprop="name">Does the data I send Vero belong to me?</h3>
+            <div class="flex items-center" itemprop="name">
+              <h3 class="micro regular no-bottom-margin">Does the data I send Vero belong to me?</h3>
 
               <svg class="left-margin-auto" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13.001 11.946l-4.667-4.86c-.445-.463-.446-1.242 0-1.735.454-.467 1.185-.468 1.667 0l5.333 5.554c.445.65.446 1.43 0 2.082l-5.333 5.554c-.48.467-1.212.468-1.667 0-.445-.492-.446-1.271 0-1.735l4.667-4.86z" fill="#9D9D9D" fill-rule="evenodd"/></svg>
             </div>
@@ -1245,11 +1252,11 @@ include 'pages-shared/static-header.php';
     </ul>
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner center-text">
     <h4 class="chunk bottom-margin-md">Scale personalized customer messaging with Vero</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

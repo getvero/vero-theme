@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="external-attributes-hero" class="border-bottom-light">
+<section class="border-bottom-light"  id="external-attributes-hero" banner-name="Emails that can talk to APIs" element-position="top">
   <div class="inner center-text flush-bottom">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
       <a href="/features">Features</a>
@@ -112,11 +112,11 @@
     <img class="show responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale@2x.png 2x" alt="Built to scale">
   </div>
 </section>
-<section class="bg-gray-lighter">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text">
-    <h4 class="chunk semi-bold bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>

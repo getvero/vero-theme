@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="vero-integration-heading">
+<section id="vero-integration-heading" banner-name="Connect Vero and Snowplow" element-position="top">
   <div class="inner small-inner center-text">
     <span class="show semi-bold font-gray no-top-margin bottom-margin-lg">Integrations</span>
 
@@ -30,7 +30,7 @@
     <p class="no-top-margin bottom-margin-xl large">Seamlessly send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from <strong>Vero</strong> to your data warehouse using <strong>Snowplow</strong>.</p>
 
     <p class="no-top-margin faded">Create a Vero account and connect Snowplow in minutes</p>
-    <a class="btn btn--success btn--large track-start-trial" href="https://app.getvero.com/signup">Get started</a>
+    <a class="btn btn--success btn--large track-start-trial" element-position="top" href="https://app.getvero.com/signup">Get started</a>
   </div>
 </section>
 <section class="double-padding bg-offwhite">
@@ -101,11 +101,11 @@
     </div>
   </div>
 </section>
-<section class="bg-gray-lighter">
-  <div class="inner tiny-inner center-text">
+<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
+  <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial" element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
