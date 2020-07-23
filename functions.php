@@ -269,6 +269,9 @@ function genesischild_theme_setup() {
     return $atts;
   }, 10, 3 );
 
+  # Add sticky banner
+  add_action( 'genesis_after_content_sidebar_wrap', 'slide_in_sticky_banner' ) ;
+
 }
 
 ?>
