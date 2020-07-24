@@ -600,8 +600,11 @@ jQuery(document).ready(function() {
   }
 
   if (document.body.classList.contains('single')) {
+    let promoSticky = document.querySelector('.js-post-promo-sticky');
+
+
     function onScroll() {
-      let veroPromoSticky = document.querySelector('.js-vero-promo-sticky');
+      // let promoSticky = document.querySelector('.js-post-promo-sticky');
 
       let scrollTop = window.scrollY;
       let docHeight = document.body.offsetHeight;
@@ -612,14 +615,24 @@ jQuery(document).ready(function() {
       // console.log(scrollPercentRounded);
 
       if (scrollPercentRounded >= 25) {
-        // alert('Greater than 25');
-        veroPromoSticky.classList.add('is-active');
+        promoSticky.classList.add('is-active');
       } else {
-        veroPromoSticky.classList.remove('is-active');
+        promoSticky.classList.remove('is-active');
       }
     }
 
     window.addEventListener('scroll', onScroll)
+
+    // Listen to all clicks on the document
+    document.addEventListener('click', function (event) {
+
+      // If the event target doesn't match bail
+      if (!event.target.closest('.js-post-promo-sticky-close')) return;
+
+      // Otherwise, run your code...
+      console.log('Click');
+      promoSticky.classList.remove('is-active');
+    }, false);
   }
 
 });
