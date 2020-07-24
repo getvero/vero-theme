@@ -599,13 +599,11 @@ jQuery(document).ready(function() {
     }
   }
 
+  // Slide out blog banner
   if (document.body.classList.contains('single')) {
     let promoSticky = document.querySelector('.js-post-promo-sticky');
 
-
     function onScroll() {
-      // let promoSticky = document.querySelector('.js-post-promo-sticky');
-
       let scrollTop = window.scrollY;
       let docHeight = document.body.offsetHeight;
       let winHeight = window.innerHeight;
@@ -630,7 +628,6 @@ jQuery(document).ready(function() {
       if (!event.target.closest('.js-post-promo-sticky-close')) return;
 
       // Otherwise, run your code...
-      console.log('Click');
       promoSticky.classList.remove('is-active');
     }, false);
   }
