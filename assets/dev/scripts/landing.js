@@ -604,13 +604,11 @@ jQuery(document).ready(function() {
     let promoSticky = document.querySelector('.js-post-promo-sticky');
 
     function onScroll() {
-      let scrollTop = window.scrollY;
-      let docHeight = document.body.offsetHeight;
-      let winHeight = window.innerHeight;
-      let scrollPercent = scrollTop / (docHeight - winHeight);
+      let scrollTop            = window.scrollY;
+      let docHeight            = document.body.offsetHeight;
+      let winHeight            = window.innerHeight;
+      let scrollPercent        = scrollTop / (docHeight - winHeight);
       let scrollPercentRounded = Math.round(scrollPercent * 100);
-
-      // console.log(scrollPercentRounded);
 
       if (scrollPercentRounded >= 25) {
         promoSticky.classList.add('is-active');
@@ -622,13 +620,16 @@ jQuery(document).ready(function() {
     window.addEventListener('scroll', onScroll)
 
     // Listen to all clicks on the document
-    document.addEventListener('click', function (event) {
-
+    document.addEventListener('click', function(event) {
       // If the event target doesn't match bail
       if (!event.target.closest('.js-post-promo-sticky-close')) return;
 
       // Otherwise, run your code...
       promoSticky.classList.remove('is-active');
+
+      window.setTimeout(function() {
+        promoSticky.remove();
+      }, 400);
     }, false);
   }
 
