@@ -18,17 +18,6 @@
     }
   }
 
-
-  function slide_in_sticky_banner() {
-    if ( is_single() ) {
-      ?>
-        <div class="fixed bg-white border-radius-2 border padding-lg">
-          <p>Sticky banner goes here</p>
-        </div>
-      <?php
-    }
-  }
-
   function add_body_class_blog_banner( $classes ) {
     global $post;
 
