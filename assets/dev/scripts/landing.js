@@ -603,8 +603,10 @@ jQuery(document).ready(function() {
   jQuery('.js-signup-form').each(function(index) {
     var self = this;
 
-    jQuery(self).on('submit', function(e) {
-      var subEl = jQuery(e.originalEvent.submitter);
+    jQuery(self).on('click', '.btn', function(e) {
+    // jQuery(self).on('submit', function(e) {
+      var subEl = jQuery(e.target);
+      // var subEl = jQuery(e.originalEvent.submitter);
 
       event.preventDefault();
 
@@ -648,15 +650,16 @@ jQuery(document).ready(function() {
       }).done(function(data) {
         // Redirect depending on submit submit_button
         if(subEl.val() == 'Start a free trial') {
-          window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val()
-        } else if(subEl.val() == 'Talk to us' && !jQuery('.form-control').val() == '') {
-          jQuery('.js-home-contact-msg').addClass('is-active');
-          jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon.');
-        } else if(subEl.val() == 'Talk to us' && jQuery('.form-control').val() == '') {
-          jQuery('.js-home-contact-msg').addClass('is-active');
-          jQuery('.js-home-contact-msg').text('Please enter your email address.');
+          window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+          // window.location.replace("http://stackoverflow.com"); = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+        // } else if(subEl.val() == 'Talk to us' && !jQuery('.form-control').val() == '') {
+        //   jQuery('.js-home-contact-msg').addClass('is-active');
+        //   jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon.');
+        // } else if(subEl.val() == 'Talk to us' && jQuery('.form-control').val() == '') {
+        //   jQuery('.js-home-contact-msg').addClass('is-active');
+        //   jQuery('.js-home-contact-msg').text('Please enter your email address.');
         } else {
-          // alert("Oops, something went wrong. Please try again.")
+          alert("Oops, something went wrong. Please try again.")
         };
       });
     });
