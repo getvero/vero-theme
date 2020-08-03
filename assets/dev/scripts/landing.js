@@ -652,12 +652,15 @@ jQuery(document).ready(function() {
         },
         data: formEl.serialize()
       }).done(function(data) {
-        var emailField = jQuery('.form-control').val();
+        var emailFieldVal = jQuery('.form-control').val();
 
         // Redirect depending on submit submit_button
-        if (emailField == '' || !isEmail(emailField)) {
+        if (emailFieldVal == '') {
           jQuery('.js-home-contact-msg').addClass('is-active');
           jQuery('.js-home-contact-msg').text('Please enter your email address.');
+        } else if (!isEmail(emailFieldVal)) {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter a valid email address.');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
         } else if (subEl.val() == 'Talk to us') {
