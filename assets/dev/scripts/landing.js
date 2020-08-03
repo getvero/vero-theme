@@ -638,6 +638,11 @@ jQuery(document).ready(function() {
         })
       );
 
+      function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,6})+$/;
+        return regex.test(email);
+      }
+
       var formEl = jQuery(self);
       jQuery.ajax({
         type: 'POST',
@@ -647,8 +652,10 @@ jQuery(document).ready(function() {
         },
         data: formEl.serialize()
       }).done(function(data) {
+        var emailField = jQuery('.form-control').val();
+
         // Redirect depending on submit submit_button
-        if (jQuery('.form-control').val() == '') {
+        if (emailField == '' || !isEmail(emailField)) {
           jQuery('.js-home-contact-msg').addClass('is-active');
           jQuery('.js-home-contact-msg').text('Please enter your email address.');
         } else if (subEl.val() == 'Start a free trial') {
