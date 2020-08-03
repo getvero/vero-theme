@@ -396,9 +396,6 @@
   </div>
 </section>
 
-<!-- <script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
-<script src="//fast.wistia.com/assets/external/E-v1.js" defer></script> -->
-
 <?php
   no_content_genesis_footer();
 ?>
