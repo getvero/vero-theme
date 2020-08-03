@@ -16,31 +16,30 @@
 ?>
 <section class="home-hero overflow-hidden border-bottom-light" banner-name="Scale personalized messages" element-position="top">
   <div class="inner xlarge-inner">
-    <div class="flex flex-column lg-flex-row items-stretch lg-items-center">
+    <div class="flex flex-column xl-flex-row items-center">
       <div class="col-main center-text lg-left-text stack-md">
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large xl-right-margin-xxl">The messaging platform to get you from idea to production, faster.</p>
         </div>
-        <div class="hero-cta flex flex-column md-flex-row justify-center lg-justify-start items-center">
-          <a class="btn btn--success btn--large bottom-margin-sm md-no-bottom-margin sm-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
+        <div class="hero-cta stack-sm">
+          <form class="js-signup-form home-signup-form stack-sm"
+            action="https://formkeep.com/f/5401a0ae5cb8"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+            method="POST">
 
-          <a class="btn btn--gray-darker btn--large btn--outline link sm-right-margin-xxs track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+            <div class="flex flex-column sm-flex-row">
+              <input class="form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
 
-          <div class="regular hide md-show wistia_embed wistia_async_z317cpqx53 popover=true popoverContent=link">
-            <div class="flex items-center pointer dim track-home-video">
-              <svg style="margin-right: 1px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#9D9D9D" d="M7.987 5.576l10.041 5.857a.656.656 0 010 1.134L7.987 18.424A.656.656 0 017 17.857V6.143a.656.656 0 01.987-.567z" fill-rule="evenodd"/></svg>
+              <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <span class="font-gray-dark" style="margin-top: 1px;">Watch a video</span>
+              <input class="btn underline-link track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
             </div>
-          </div>
-        </div>
+          </form>
 
-        <div class="flex flex-column lg-flex-row items-center lg-items-end">
-          <a class="track-capterra" target="_blank" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge"><img class="align-middle bottom-margin-xs lg-no-margin" src="/wp-content/themes/vero/assets/dist/images/home/capterra.svg" alt="Capterra logo"></a>
-
-          <p class="annotation regular font-gray-dark left-margin-xs">Rated 4.3 in Email Marketing Software</p>
+          <div class="js-home-contact-msg home-contact-msg annotation regular"></div>
         </div>
       </div>
       <div class="col-aside">
@@ -165,7 +164,7 @@
   </div>
 </section>
 <section class="home-solutions double-padding overflow-hidden">
-  <div class="inner tiny-inner center-text">
+  <div class="inner small-inner center-text">
     <h2 class="chunk semi-bold bottom-margin-lg">Design and manage automated messages throughout the entire customer lifecycle</h2>
   </div>
   <div class="inner xlarge-inner">
@@ -216,8 +215,8 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter home-quotes">
-  <div class="inner large-inner flush-bottom">
-    <h2 class="chunk semi-bold bottom-margin-lg center-text">What people have said about Vero</h5>
+  <div class="inner large-inner flush-bottom stack-lg">
+    <h2 class="chunk semi-bold center-text">What people have said about Vero</h5>
 
     <div class="relative overflow-hidden home-quotes-gradient">
       <div class="flex items-start content-between home-quotes-list">
@@ -320,11 +319,41 @@
     </div>
   </div>
 </section>
-<section class="double-padding border-bottom-light home-support">
+<section class="tiny-padding bg-offwhite">
+  <div class="inner">
+    <div class="flex items-center justify-center">
+      <div class="flex flex-column items-center stack-xs horizontal-margin-md">
+        <a class="d-inline-block track-capterra" target="_blank" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge">
+          <svg class="align-middle" width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h40v40H0z"/><path fill="#FF9D28" fill-rule="nonzero" d="M3 15.8l14.439.004 8.78.001V7.107z"/><path fill="#68C5ED" fill-rule="nonzero" d="M26.218 7.107v30.708L37.184 3z"/><path fill="#044D80" fill-rule="nonzero" d="M26.218 15.805l-8.78-.001 8.78 22.011z"/><path fill="#E54747" fill-rule="nonzero" d="M3 15.8l16.69 5.651-2.251-5.647z"/></g></svg>
+        </a>
+
+        <div class="flex flex-column items-center stack-xxs">
+          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#EDEDED" xlink:href="#a"/><path fill="#FFC111" mask="url(#b)" d="M79.476 13.6H73V0h6.476z"/></g></svg>
+
+          <span class="annotation font-gray-dark">Rated <strong>4.3</strong> in Email Marketing Software</span>
+        </div>
+      </div>
+
+      <div class="flex flex-column items-center stack-xs horizontal-margin-md">
+        <a class="d-inline-block" href="https://www.g2.com/products/vero/reviews?utm_source=rewards-badge">
+          <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h40v40H0z"/><path d="M33.592 12.39h-5.255c.142-.826.65-1.286 1.683-1.81l.968-.493c1.73-.889 2.652-1.889 2.652-3.524 0-1.032-.397-1.842-1.191-2.43-.778-.587-1.73-.873-2.826-.873-.874 0-1.667.222-2.398.683-.714.444-1.254 1.016-1.588 1.73l1.525 1.525c.587-1.191 1.445-1.778 2.572-1.778.953 0 1.54.492 1.54 1.174 0 .572-.286 1.048-1.381 1.604l-.62.302c-1.35.682-2.286 1.46-2.826 2.35-.54.873-.81 2-.81 3.35v.365h7.955V12.39zm-.702 4.687h-8.703l-4.351 7.537h8.702l4.352 7.536 4.35-7.536-4.35-7.537z" fill="#FF492C" fill-rule="nonzero"/><path d="M20.585 29.638c-5.54 0-10.048-4.508-10.048-10.049 0-5.54 4.508-10.048 10.048-10.048l3.44-7.2a17.69 17.69 0 00-3.44-.337C10.873 2.004 3 9.877 3 19.59c0 9.713 7.873 17.586 17.585 17.586 3.873 0 7.452-1.253 10.357-3.373l-3.81-6.599a10.002 10.002 0 01-6.547 2.435z" fill="#FF492C" fill-rule="nonzero"/></g></svg>
+        </a>
+
+
+        <div class="flex flex-column items-center stack-xxs">
+          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#EDEDED" xlink:href="#a"/><path fill="#FFC111" mask="url(#b)" d="M79.476 13.6H73V0h6.476z"/></g></svg>
+
+          <span class="annotation font-gray-dark">Rated <strong>4.3</strong> in Email Marketing Software</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="double-padding home-support">
   <div class="inner medium-inner">
     <div class="flex flex-wrap">
-      <div class="col-aside">
-        <div class="donut bottom-margin-xs">
+      <div class="col-aside stack-xs">
+        <div class="donut">
           <div>
             <span class="hulk semi-bold no-margin font-brand-success">97%</span>
             <span class="atomic show horizontal-margin-lg semi-bold faded uppercase">Great</span>
@@ -332,12 +361,12 @@
           <img src="/wp-content/themes/vero/assets/dist/images/home/world-class-support-vero.svg" alt="World-class support provided by Vero">
         </div>
 
-        <p class="annotation bottom-margin-lg faded center-text">Customer happiness score based on last 6 months of support rating</p>
+        <p class="annotation font-gray-dark center-text">Customer happiness score based on last 6 months of support rating</p>
       </div>
 
-      <div class="col-main">
-        <header class="bg-white-overlay bottom-margin-md">
-          <h2 class="chunk regular bottom-margin-sm">World-class support</h2>
+      <div class="col-main stack-md">
+        <header class="bg-white-overlay stack-md">
+          <h2 class="chunk semi-bold">World-class support</h2>
 
           <p class="medium">Our global support team is on hand to help 24 hours a day. We have dedicated support team members in Australia, Europe, and the USA.</p>
         </header>
@@ -357,7 +386,7 @@
     </div>
   </div>
 </section>
-<section class="bg-offwhite" banner-name="Scale personalized messages" element-position="bottom">
+<section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
@@ -366,9 +395,6 @@
     <p class="annotation faded">No credit card details required</p>
   </div>
 </section>
-
-<script src="//fast.wistia.com/embed/medias/z317cpqx53.jsonp" defer></script>
-<script src="//fast.wistia.com/assets/external/E-v1.js" defer></script>
 
 <?php
   no_content_genesis_footer();
