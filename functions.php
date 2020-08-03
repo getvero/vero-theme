@@ -268,7 +268,6 @@ function genesischild_theme_setup() {
 
     return $atts;
   }, 10, 3 );
-
 }
 
 ?>
