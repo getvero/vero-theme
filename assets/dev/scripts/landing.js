@@ -605,9 +605,13 @@ jQuery(document).ready(function() {
 
     jQuery(self).on('click', '.btn', function(e) {
       var subEl = jQuery(e.target);
-      // var subEl = jQuery(e.originalEvent.submitter);
 
       event.preventDefault();
+
+      // console.log(jQuery(this).siblings('.form-control').val());
+      // console.log(jQuery(this).parents('.hero-cta').find('.js-home-contact-msg').val());
+      // console.log(jQuery('.js-home-contact-msg')[index]);
+      console.log(index);
 
       try {anonymous_id = window.analytics._user.anonymousId();}
       catch {}
@@ -652,20 +656,21 @@ jQuery(document).ready(function() {
         },
         data: formEl.serialize()
       }).done(function(data) {
-        var emailFieldVal = jQuery('.form-control').val();
+        // var emailFieldVal = jQuery('.form-control').val();
+        var emailFieldVal = jQuery(this).siblings('.form-control').val();
 
         // Redirect depending on submit submit_button
         if (emailFieldVal == '') {
-          jQuery('.js-home-contact-msg').addClass('is-active');
-          jQuery('.js-home-contact-msg').text('Please enter your email address.');
+          jQuery('.js-home-contact-msg')[index].addClass('is-active');
+          jQuery('.js-home-contact-msg')[index].text('Please enter your email address.');
         } else if (!isEmail(emailFieldVal)) {
-          jQuery('.js-home-contact-msg').addClass('is-active');
-          jQuery('.js-home-contact-msg').text('Please enter a valid email address.');
+          jQuery('.js-home-contact-msg')[index].addClass('is-active');
+          jQuery('.js-home-contact-msg')[index].text('Please enter a valid email address.');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
         } else if (subEl.val() == 'Talk to us') {
-          jQuery('.js-home-contact-msg').addClass('is-active');
-          jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon.');
+          jQuery('.js-home-contact-msg')[index].addClass('is-active');
+          jQuery('.js-home-contact-msg')[index].text('Thank you for getting in touch, we will get in contact very soon.');
         }
       });
     });
