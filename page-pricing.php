@@ -295,7 +295,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="overage" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
             </div>
           </div>
         </div>
@@ -558,7 +558,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="overage" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Talk to us</a>
             </div>
           </div>
         </div>
@@ -1352,9 +1352,9 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" href="https://app.getvero.com/signup">Try for free</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" element-position="overage" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us" element-position="overage" target="_blank" href="https://getvero.typeform.com/to/d9wZ4V">Talk to us</a>
       </div>
     </div>
 
