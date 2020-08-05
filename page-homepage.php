@@ -35,7 +35,7 @@
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <input class="btn underline-link track-contact-us" type="submit" name="talk_to_us" value="Talk to us">
+              <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Talk to us">
             </div>
           </form>
 
