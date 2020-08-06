@@ -390,29 +390,9 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <!-- <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a> -->
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
-    <div class="hero-cta stack-sm">
-      <form class="js-signup-form home-signup-form stack-sm"
-        action="https://formkeep.com/f/5401a0ae5cb8"
-        accept-charset="UTF-8"
-        enctype="multipart/form-data"
-        method="POST">
-
-        <div class="flex flex-column sm-flex-row">
-          <input class="form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
-
-          <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
-
-          <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Talk to us">
-        </div>
-
-        <div class="js-home-contact-msg home-contact-msg annotation regular"></div>
-      </form>
-    </div>
-
-
-    <p class="annotation faded">No credit card details required</p>
+    <span class="show annotation font-gray-dark">No credit card details required</span>
   </div>
 </section>
 
