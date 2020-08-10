@@ -12,7 +12,16 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <div id="logo">
     <?php if( is_blog_archive() || is_single() ): ?>
       <div class="flex items-center">
+        <?php if ( is_404() ): ?>
+
+        <a class="show" href="https://www.getvero.com/?from=404-pages">
+
+        <? else: ?>
+
         <a class="show" href="/">
+
+        <?php endif; ?>
+
           <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
         </a>
 
@@ -25,7 +34,16 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
         <?php endif; ?>
       </div>
     <?php else: ?>
+      <?php if ( is_404() ): ?>
+
+      <a class="show" href="https://www.getvero.com/?from=404-pages">
+
+      <? else: ?>
+
       <a class="show" href="/">
+
+      <?php endif; ?>
+
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-blue-navigation.svg" alt="Vero logo blue navigation">
       </a>
     <?php endif; ?>
