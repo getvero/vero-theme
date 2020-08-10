@@ -259,9 +259,10 @@ function genesischild_theme_setup() {
     }
   }
 
-  # Add banner-name and element-position to header start a trial button
+  # Add class, banner-name and element-position to header start a trial button
   add_filter( 'nav_menu_link_attributes', function ( $atts, $item, $args ) {
     if ( 2119 === $item->ID ) {
+      $atts['class'] = 'track-start-trial';
       $atts['banner-name'] = 'Start a free trial';
       $atts['element-position'] = 'nav';
     }
