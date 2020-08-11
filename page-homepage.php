@@ -31,7 +31,7 @@
             method="POST">
 
             <div class="flex flex-column sm-flex-row">
-              <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
+              <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 

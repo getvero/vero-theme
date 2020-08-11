@@ -599,7 +599,6 @@ jQuery(document).ready(function() {
     }
   }
 
-  // Handle signup form on homepage
   jQuery('.js-signup-form').each(function(index) {
     var self = this;
 
@@ -637,8 +636,8 @@ jQuery(document).ready(function() {
         })
       );
 
-      function isEmail(email) {
-        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,6})+$/;
+      function validEmail(email) {
+        var regex = /^.+@.+\..+$/;
         return regex.test(email);
       }
 
@@ -651,20 +650,21 @@ jQuery(document).ready(function() {
         },
         data: formEl.serialize()
       }).done(function(data) {
-        var emailFieldVal = jQuery(this).siblings('.form-control').val();
+        // var emailFieldVal = jQuery(this).siblings('.form-control').val();
+        var emailFieldVal = jQuery('#user_email').val();
 
         // Redirect depending on submit submit_button
-        if (jQuery('.form-control').eq(index).val() == '') {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Please enter your email address');
-        } else if (!isEmail(emailFieldVal)) {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Please enter a valid email address');
+        if (jQuery('.form-control').val() == '') {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter your email address');
+        } else if (!validEmail(emailFieldVal)) {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
         } else if (subEl.val() == 'Talk to us') {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Thank you for getting in touch, we will get in contact very soon');
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon');
         }
       });
     });
