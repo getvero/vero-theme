@@ -654,17 +654,17 @@ jQuery(document).ready(function() {
         var emailFieldVal = jQuery(this).siblings('.form-control').val();
 
         // Redirect depending on submit submit_button
-        if (jQuery('.form-control').eq(index).val() == '') {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Please enter your email address');
+        if (jQuery('.form-control').val() == '') {
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter your email address');
         } else if (!isEmail(emailFieldVal)) {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Please enter a valid email address');
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
         } else if (subEl.val() == 'Talk to us') {
-          jQuery('.js-home-contact-msg').eq(index).addClass('is-active');
-          jQuery('.js-home-contact-msg').eq(index).text('Thank you for getting in touch, we will get in contact very soon');
+          jQuery('.js-home-contact-msg').addClass('is-active');
+          jQuery('.js-home-contact-msg').text('Thank you for getting in touch, we will get in contact very soon');
         }
       });
     });
