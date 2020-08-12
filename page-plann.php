@@ -48,7 +48,7 @@
     <p class="medium">They’re a product-led business that launches regular new releases and features for their customers, so being able to send impactful messages that are tightly-integrated with their core product is critical.</p>
 
 
-    <div class="case-study-callout bg-primary-lighter border-primary border-radius-2 stack-sm">
+    <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
       <h2 class="chunk semi-bold">The Challenge: a small team juggling lots of users </h2>
       <p class="medium">Plann is a data-driven company that needs to be on top of their numbers and analytics to drive growth. Their CMO, Karina May, said that it was previously challenging for them to be data-driven while keeping up the pace of innovation. That’s because they don’t have a dedicated business intelligence, email, or CRM team to manage their analytics and messaging full-time. To keep scaling up, the right tooling was crucial and Plann had outgrown their prior stack.</p>
     </div>
@@ -79,8 +79,18 @@
       <p class="medium">As a specialist in automation, Karina knew what was available on the market and felt Vero was an ideal fit.</p>
     </div>
 
-    <blockquote class="case-study-callout bg-white border border-radius-2">
-      <q class="large">Vero was such a good match for the stage of the business. As about four years in, with a list of over 200,000—we needed a certain level of functionality and analytics support to scale up.</q>
+    <blockquote class="case-study-callout bg-white border stack-md">
+      <p class="large quote center-text">&ldquo;Vero was such a good match for the stage of the business. As about four years in, with a list of over 200,000—we needed a certain level of functionality and analytics support to scale up.</p>
+
+      <div class="author flex items-center justify-center">
+        <div class="right-margin-sm">
+          <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May">
+        </div>
+        <div>
+          <span class="show medium semi-bold">Karina May</span>
+          <span class="d-inline-block">Chief Marketing Officer</span>
+        </div>
+      </div>
     </blockquote>
   </div>
 </section>
@@ -99,7 +109,7 @@
 
     <p class="medium">Karina shared that the very first workflow that they set up in Vero was a standard onboarding campaign, consisting of a two-week series and emails with valuable content.</p>
 
-    <div class="case-study-bleed case-study-bleed--1">
+    <div class="case-study-content-bleed case-study-bleed--1">
       <div class="flex flex-wrap items-center">
         <div>
           <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-1.jpg" alt="">
@@ -120,7 +130,7 @@
 </section>
 <section class="double-padding">
   <div class="inner reading-inner">
-    <div class="case-study-callout bg-primary-lighter border-primary border-radius-2 stack-sm">
+    <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
       <h2 class="chunk semi-bold">The results</h2>
       <h3 class="tubs regular">🎯 Increased team confidence</h3>
       <p class="medium">Plann is a data-driven company that needs to be on top of their numbers and analytics to drive growth. Their CMO, Karina May, said that it was previously challenging for them to be data-driven while keeping up the pace of innovation. That’s because they don’t have a dedicated business intelligence, email, or CRM team to manage their analytics and messaging full-time. To keep scaling up, the right tooling was crucial and Plann had outgrown their prior stack.</p>
