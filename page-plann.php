@@ -86,23 +86,41 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner small-inner">
-    <h2 class="chunk semi-bold">The solution</h2>
-    <h3 class="tubs regular">⚙️ Connect with their marketing tools</h3>
+  <div class="inner reading-inner stack-lg">
+    <div class="stack-sm">
+      <h2 class="chunk semi-bold">The solution</h2>
+      <h3 class="tubs regular">⚙️ Connect with their marketing tools</h3>
+    </div>
 
     <div class="full-bleed center-text">
       <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg" alt="">
     </div>
 
-    <h3 class="tubs regular">👩‍💻 Empower marketing with data</h3>
+    <div>
+      <p class="medium">As a summary of the above, here’s how Plann’s integrations with Vero are set up:</p>
 
-    <p class="medium">With Vero’s flexible APIs, Plann was able to integrate the top-of-funnel and bottom-of-funnel data they needed into one platform.
+      <p class="medium">Plann has four lead sources including WordPress, Unbounce, WebinarJam, and Facebook Ads</p>
 
-    <p class="medium">This not only enhanced visibility for the marketing team, making it clear what data was available and safe to use, but gave marketing a “playground” they could use to iterate, test ideas, and get feedback. All without having to engage engineering for every minor change.</p>
+      <div class="case-study-hotspot case-study-hotspot--1">
+         <p class="medium">For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
+      </div>
 
-    <p class="medium">&ldquo;Having the ability to have those event triggers means that we can use Vero for more sophisticated in-product emails as well, which I'm excited about because if you have something in the one system, you can then look at the whole behavior of contact versus what they did in this system and that system, explained Karina.</p>
+      <div class="case-study-hotspot case-study-hotspot--2">
+        <p class="medium">For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
+      </div>
+    </div>
 
-    <p class="medium">Using Vero’s Segments and Workflows features enabled Plann’s marketing team to see and use data any time they need it, without having to wait days or weeks for space in the engineering team’s sprint cycle to open up.</p>
+    <div>
+      <h3 class="tubs regular">👩‍💻 Empower marketing with data</h3>
+
+      <p class="medium">With Vero’s flexible APIs, Plann was able to integrate the top-of-funnel and bottom-of-funnel data they needed into one platform.
+
+      <p class="medium">This not only enhanced visibility for the marketing team, making it clear what data was available and safe to use, but gave marketing a “playground” they could use to iterate, test ideas, and get feedback. All without having to engage engineering for every minor change.</p>
+
+      <p class="medium">&ldquo;Having the ability to have those event triggers means that we can use Vero for more sophisticated in-product emails as well, which I'm excited about because if you have something in the one system, you can then look at the whole behavior of contact versus what they did in this system and that system, explained Karina.</p>
+
+      <p class="medium">Using Vero’s Segments and Workflows features enabled Plann’s marketing team to see and use data any time they need it, without having to wait days or weeks for space in the engineering team’s sprint cycle to open up.</p>
+    </div>
 
     <div class="stack-lg">
       <p class="medium">Karina shared that the very first workflow that they set up in Vero was a standard onboarding campaign, consisting of a two-week series and emails with valuable content.</p>
