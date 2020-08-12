@@ -24,22 +24,22 @@
           <p class="large xl-right-margin-xxl">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta stack-sm">
-          <form class="js-signup-form home-signup-form stack-sm"
+          <form class="js-signup-form home-signup-form stack-xs"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST">
 
             <div class="flex flex-column sm-flex-row">
-              <input class="form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
+              <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
               <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Talk to us">
             </div>
-          </form>
 
-          <div class="js-home-contact-msg home-contact-msg annotation regular"></div>
+            <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+          </form>
         </div>
       </div>
       <div class="col-aside">
@@ -392,7 +392,7 @@
 
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
-    <p class="annotation faded">No credit card details required</p>
+    <span class="show annotation font-gray-dark">No credit card details required</span>
   </div>
 </section>
 
