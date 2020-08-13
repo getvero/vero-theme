@@ -43,7 +43,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner reading-inner stack-lg">
+  <div class="inner small-inner stack-lg">
     <div>
       <p class="large">A semi-remote, 50-person team headquartered in Sydney, Australia, Plann is an Instagram scheduling app for travel, fashion, and lifestyle brands. They enable their customers to plan, schedule, and explore campaign analytics.</p>
       <p class="medium">They’re a product-led business that launches regular new releases and features for their customers, so being able to send impactful messages that are tightly-integrated with their core product is critical.</p>
@@ -84,7 +84,7 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner reading-inner stack-lg">
+  <div class="inner small-inner stack-lg">
     <div class="stack-sm">
       <h2 class="chunk semi-bold">The solution</h2>
       <h3 class="tubs regular">⚙️ Connect with their marketing tools</h3>
@@ -99,18 +99,26 @@
 
       <p class="medium">Plann has four lead sources including WordPress, Unbounce, WebinarJam, and Facebook Ads</p>
 
-      <ul class="unstyled-list stack-sm">
-        <li class="case-study-hotspot case-study-hotspot--1">
-          <p class="medium">For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
+      <ul class="plann-legend unstyled-list flex justify-between flex-wrap stack-0">
+        <li class="flex plann-key plann-key--1">
+          <div class="plann-key-color plann-key-color--1"></div>
+
+          <p>For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
         </li>
-        <li class="case-study-hotspot case-study-hotspot--2">
-          <p class="medium">For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
+        <li class="flex plann-key plann-key--2">
+          <div class="plann-key-color plann-key-color--2"></div>
+
+          <p>For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
         </li>
-        <li class="case-study-hotspot case-study-hotspot--3">
-          <p class="medium">Plann is using Vero’s Javascript and API to track events, to learn what their users are doing on the backend. They then pass this data over to Vero to trigger workflows.</p>
+        <li class="flex plann-key plann-key--3">
+          <div class="plann-key-color plann-key-color--3"></div>
+
+          <p>Plann is using Vero’s Javascript and API to track events, to learn what their users are doing on the backend. They then pass this data over to Vero to trigger workflows.</p>
         </li>
-        <li class="case-study-hotspot case-study-hotspot--4">
-          <p class="medium">They also use a mix of server and Google Tag Manager (GTM) for event tracking. While server events are for logged-in user tracking via Javascript, GTM is for non logged-in user tracking.</p>
+        <li class="flex plann-key plann-key--4">
+          <div class="plann-key-color plann-key-color--3"></div>
+
+          <p>They also use a mix of server and Google Tag Manager (GTM) for event tracking. While server events are for logged-in user tracking via Javascript, GTM is for non logged-in user tracking.</p>
         </li>
       </ul>
     </div>
@@ -151,7 +159,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner reading-inner stack-lg">
+  <div class="inner small-inner stack-lg">
     <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
       <h2 class="chunk semi-bold">The results</h2>
 
@@ -226,7 +234,7 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter">
-  <div class="inner reading-inner">
+  <div class="inner small-inner">
     <blockquote class="center-text">
       <p class="tubs quote">&ldquo;Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
