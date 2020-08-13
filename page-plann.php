@@ -101,13 +101,20 @@
 
       <p class="medium">Plann has four lead sources including WordPress, Unbounce, WebinarJam, and Facebook Ads</p>
 
-      <div class="case-study-hotspot case-study-hotspot--1">
-         <p class="medium">For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
-      </div>
-
-      <div class="case-study-hotspot case-study-hotspot--2">
-        <p class="medium">For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
-      </div>
+      <ul class="unstyled-list stack-sm">
+        <li class="case-study-hotspot case-study-hotspot--1">
+          <p class="medium">For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
+        </li>
+        <li class="case-study-hotspot case-study-hotspot--2">
+          <p class="medium">For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
+        </li>
+        <li class="case-study-hotspot case-study-hotspot--3">
+          <p class="medium">Plann is using Vero’s Javascript and API to track events, to learn what their users are doing on the backend. They then pass this data over to Vero to trigger workflows.</p>
+        </li>
+        <li class="case-study-hotspot case-study-hotspot--4">
+          <p class="medium">They also use a mix of server and Google Tag Manager (GTM) for event tracking. While server events are for logged-in user tracking via Javascript, GTM is for non logged-in user tracking.</p>
+        </li>
+      </ul>
     </div>
 
     <div>
@@ -119,12 +126,12 @@
 
       <p class="medium">&ldquo;Having the ability to have those event triggers means that we can use Vero for more sophisticated in-product emails as well, which I'm excited about because if you have something in the one system, you can then look at the whole behavior of contact versus what they did in this system and that system, explained Karina.</p>
 
-      <p class="medium">Using Vero’s Segments and Workflows features enabled Plann’s marketing team to see and use data any time they need it, without having to wait days or weeks for space in the engineering team’s sprint cycle to open up.</p>
+      <p class="medium">Using Vero’s <strong>Segments</strong> and <strong>Workflows</strong> features enabled Plann’s marketing team to see and use data any time they need it, without having to wait days or weeks for space in the engineering team’s sprint cycle to open up.</p>
+
+      <p class="medium">Karina shared that the very first workflow that they set up in Vero was a standard onboarding campaign, consisting of a two-week series and emails with valuable content.</p>
     </div>
 
     <div class="stack-lg">
-      <p class="medium">Karina shared that the very first workflow that they set up in Vero was a standard onboarding campaign, consisting of a two-week series and emails with valuable content.</p>
-
       <div class="case-study-split case-study-split--1">
         <div class="flex flex-wrap items-center">
           <div>
@@ -144,11 +151,28 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner reading-inner">
+  <div class="inner reading-inner stack-lg">
     <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
       <h2 class="chunk semi-bold">The results</h2>
       <h3 class="tubs regular">🎯 Increased team confidence</h3>
-      <p class="medium">Plann is a data-driven company that needs to be on top of their numbers and analytics to drive growth. Their CMO, Karina May, said that it was previously challenging for them to be data-driven while keeping up the pace of innovation. That’s because they don’t have a dedicated business intelligence, email, or CRM team to manage their analytics and messaging full-time. To keep scaling up, the right tooling was crucial and Plann had outgrown their prior stack.</p>
+
+      <p class="medium">Working with Vero, Plann was able to:</p>
+
+
+      <ul class="medium stack-0">
+        <li>Customize user properties to ensure data cleanliness.</li>
+        <li>Create a more robust, scalable user experience.</li>
+      </ul>
+
+      <p class="medium">Vero’s flexible data properties and event tracking have empowered Plann’s operations team to set up their data their way, which ensures data cleanliness and readability. Plann, having invested in the process,  reaped the rewards in increased team confidence when segmenting users and creating campaigns.</p>
+    </div>
+
+    <div>
+      <p class="medium">Messaging hundreds of thousand of users requires scalability, and Plann wanted to ensure they worked with a robust, global, scalable partner. As Plann’s audience is largely US-based, Karina (Sydney-based) remembers having to set her alarm for 04:00 am to ensure that emails had gone out on time.</p>
+    </div>
+
+    <div>
+      <p class="large">“Vero makes me feel confident, as I’ve worked with systems where I schedule something and it doesn’t go out. I’ve never had that happen with Vero</p>
     </div>
   </div>
 </section>
