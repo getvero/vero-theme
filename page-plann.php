@@ -58,7 +58,7 @@
       <p class="medium">In the past, the tools they were using lacked transparency and flexibility. Not only were they not providing Plann with the view they needed of their campaign successes, but they couldn’t move as quickly as they needed to drive the business forward.</p>
 
       <div>
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-1.jpg" alt="">
+        <img class="border-radius-2 shadow-3 align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-1.jpg" alt="">
       </div>
     </div>
 
@@ -70,16 +70,14 @@
       <p class="medium">As a specialist in automation, Karina knew what was available on the market and felt Vero was an ideal fit.</p>
     </div>
 
-    <blockquote class="case-study-callout bg-white border stack-md">
-      <p class="tubs quote center-text">&ldquo;Vero was such a good match for the stage of the business. As about four years in, with a list of over 200,000—we needed a certain level of functionality and analytics support to scale up.</p>
+    <blockquote class="case-study-callout bg-white border stack-md center-text">
+      <p class="tubs quote">&ldquo;Vero was such a good match for the stage of the business. As about four years in, with a list of over 200,000 &mdash; we needed a certain level of functionality and analytics support to scale up.</p>
 
-      <div class="author flex items-center justify-center">
-        <div class="right-margin-sm">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May">
-        </div>
+      <div class="author stack-xxs">
+        <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May">
         <div>
-          <span class="show medium semi-bold">Karina May</span>
-          <span class="d-inline-block">Chief Marketing Officer</span>
+          <span class="show anotation medium semi-bold">Karina May</span>
+          <span class="show anotation">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
@@ -134,9 +132,11 @@
     <div class="stack-lg">
       <div class="case-study-split case-study-split--1">
         <div class="flex flex-wrap items-center">
-          <a href="#test">
-            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow@2x.png 2x" alt="">
-          </a>
+          <div>
+            <a class="d-inline-block" href="#plann-workflow">
+              <img class="border-radius-2 shadow-3 align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow@2x.png 2x" alt="">
+            </a>
+          </div>
 
           <div>
             <p class="medium">The next workflow (as seen to the left), though, was a little more complex, where customers were segmented into two groups: sign ups via lead magnets, or sign ups via account registration. And different content was created for each of the two segments.</p>
@@ -171,8 +171,8 @@
       <p class="medium">Messaging hundreds of thousand of users requires scalability, and Plann wanted to ensure they worked with a robust, global, scalable partner. As Plann’s audience is largely US-based, Karina (Sydney-based) remembers having to set her alarm for 04:00 am to ensure that emails had gone out on time.</p>
     </div>
 
-    <div class="bg-dots-offset">
-      <img src="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-2@2x.jpg 2x" alt="Team Plann">
+    <div>
+      <img class="border-radius-2 shadow-3 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-2.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/image-2@2x.jpg 2x" alt="Team Plann">
     </div>
 
     <div>
@@ -192,25 +192,19 @@
       <p class="medium">Since moving to Vero, Plann has been able to run A/B tests and segment their audience quickly and easily. Karina said that they’ve seen an uplift in open rates as the cumulative result of experimenting with different subject lines across multiple follow-up emails, all segmented to the right audience to avoid message fatigue.</p>
     </div>
 
-    <div class="case-study-split case-study-split--2">
-      <div class="flex flex-wrap items-center">
-        <div>
-          <a class="d-inline-block stack-xs" href="">
-            <img class="border-radius-2 align-middle responsive-image shadow-1" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="">
+    <div>
+      <p class="medium">She shared that by using Vero, Plann’s best performing open rate was at <strong>32.1%, averaging at 3% click-through-rate</strong> for their best performing content.</p>
 
-            <p class="anotation font-gray-dark">Plann's email newsletter announcement of their integration with Canva, created in Vero</p>
-          </a>
-        </div>
-
-        <div>
-          <p class="medium">She shared that by using Vero, Plann’s best performing open rate was at <strong>32.1%, averaging at 3% click-through-rate</strong> for their best performing content.</p>
-
-          <p class="medium">And setting up segments within Vero, takes only minutes: &ldquo;It's so easy to set up segments including resend a. It literally takes five minutes to create, change the subject line and re-trigger our newsletter to unopens. We can easily bump our newsletter open rates to over 25% by doing these resends and through testing,&rdquo; said Karina.</p>
-
-          <p class="medium">She believes that Vero was built for marketers, as it has helped empower non-technical team members to build email campaigns without much engineering support. &ldquo;Once our tech team has set up the event triggers, it’s really easy for our marketing team to build out emails and workflows without relying on IT help.&rdquo;</p>
-        </div>
-      </div>
+      <p class="medium">And setting up segments within Vero, takes only minutes: &ldquo;It's so easy to set up segments including resend a. It literally takes five minutes to create, change the subject line and re-trigger our newsletter to unopens. We can easily bump our newsletter open rates to over 25% by doing these resends and through testing,&rdquo; said Karina.</p>
     </div>
+
+    <a class="d-inline-block stack-xs" href="#plann-newsletter">
+      <img class="border-radius-2 align-middle responsive-image shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="">
+
+      <p class="annotation font-gray-dark">Plann's email newsletter announcement of their integration with Canva, created in Vero</p>
+    </a>
+
+    <p class="medium">She believes that Vero was built for marketers, as it has helped empower non-technical team members to build email campaigns without much engineering support. &ldquo;Once our tech team has set up the event triggers, it’s really easy for our marketing team to build out emails and workflows without relying on IT help.&rdquo;</p>
 
     <div>
       <h3 class="tubs regular">🔮 Increased visibility</h3>
@@ -233,16 +227,14 @@
 </section>
 <section class="bg-dark-blue-lighter">
   <div class="inner reading-inner">
-    <blockquote>
+    <blockquote class="center-text">
       <p class="tubs quote">&ldquo;Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
-      <div class="author flex items-center justify-center">
-        <div class="right-margin-sm">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May">
-        </div>
+      <div class="author stack-xxs">
+        <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May">
         <div>
-          <span class="show medium semi-bold">Karina May</span>
-          <span class="d-inline-block">Chief Marketing Officer</span>
+          <span class="show anotation medium semi-bold">Karina May</span>
+          <span class="show anotation">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
@@ -257,10 +249,15 @@
     <span class="show annotation font-gray-dark">No credit card details required</span>
   </div>
 </section>
-<a class="lightbox center-text fixed z-9999 items-center justify-center" id="test" href="#none">
+<a class="lightbox center-text fixed z-9999 items-center justify-center" id="plann-workflow" href="#none">
   <svg class="align-middle absolute pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"></path><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#ffffff"></path></g></svg>
 
-  <img class="align-middle responsive-image border-radius-2" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow@2x.png" alt="Plann's workflow">
+  <img class="align-middle responsive-image border-radius-2" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow-full.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow-full@2x.png 2x" alt="Plann's workflow">
+</a>
+<a class="lightbox center-text fixed z-9999 items-center justify-center" id="plann-newsletter" href="#none">
+  <svg class="align-middle absolute pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"></path><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#ffffff"></path></g></svg>
+
+  <img class="align-middle responsive-image border-radius-2" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="Plann's newsletter">
 </a>
 <?php
   no_content_genesis_footer();
