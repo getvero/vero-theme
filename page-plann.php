@@ -11,8 +11,13 @@
 ?>
 
 <section class="case-study-hero case-study-hero--plann border-bottom overflow-hidden">
-  <div class="inner large-inner stack-lg">
-    <span class="semi-bold font-gray-dark">Case study</span>
+  <div class="inner large-inner stack-md">
+    <span class="show annotation semi-bold uppercase font-gray-dark">Case study</span>
+
+    <div>
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo">
+    </div>
+
     <div class="flex flex-wrap">
       <div class="col-main stack-lg">
         <div class="stack-sm">
@@ -23,15 +28,15 @@
         <div class="stack-sm">
           <h2 class="annotation semi-bold uppercase">Challenges</h2>
 
-          <ul class="stack-sm">
+          <ul class="stack-xs">
             <li>
               <p>Struggled with empowering their marketing/product teams to iterate and test changes without engineering.</p>
             </li>
             <li>
-              <p>Struggled with empowering their marketing/product teams to iterate and test changes without engineering.</p>
+              <p>Lacked effective reporting for campaign results.</p>
             </li>
             <li>
-              <p>Struggled with empowering their marketing/product teams to iterate and test changes without engineering.</p>
+              <p>Low user engagement in both emails and within the product itself.</p>
             </li>
           </ul>
         </div>
@@ -91,7 +96,7 @@
     </div>
 
     <div class="full-bleed center-text">
-      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg" alt="">
+      <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg" alt="">
     </div>
 
     <div>
