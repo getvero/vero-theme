@@ -12,9 +12,9 @@
 
 <section class="border-bottom overflow-hidden">
   <div class="inner large-inner">
+    <span class="semi-bold font-gray-dark">Case study</span>
     <div class="case-study-hero flex flex-wrap">
       <div class="col-main stack-lg">
-        <span class="semi-bold font-gray-dark">Case study</span>
         <div class="stack-sm">
           <h1 class="biggie">Plann is an Instagram scheduling app for travel, fashion, and lifestyle brands</h1>
           <div class="large">Their goal? Move faster as a marketing team.</div>
@@ -206,11 +206,11 @@
       <p class="medium">And setting up segments within Vero, takes only minutes: &ldquo;It's so easy to set up segments including resend a. It literally takes five minutes to create, change the subject line and re-trigger our newsletter to unopens. We can easily bump our newsletter open rates to over 25% by doing these resends and through testing,&rdquo; said Karina.</p>
     </div>
 
-    <a class="d-inline-block stack-xs" href="#plann-newsletter">
-      <img class="border-radius-2 align-middle responsive-image shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="">
+    <div class="stack-xs center-text">
+      <img class="d-inline-block border-radius-2 align-middle responsive-image shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="">
 
       <p class="annotation font-gray-dark">Plann's email newsletter announcement of their integration with Canva, created in Vero</p>
-    </a>
+    </div>
 
     <p class="medium">She believes that Vero was built for marketers, as it has helped empower non-technical team members to build email campaigns without much engineering support. &ldquo;Once our tech team has set up the event triggers, it’s really easy for our marketing team to build out emails and workflows without relying on IT help.&rdquo;</p>
 
@@ -261,11 +261,6 @@
   <svg class="align-middle absolute pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"></path><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#ffffff"></path></g></svg>
 
   <img class="align-middle responsive-image border-radius-2" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow-full.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/workflow-full@2x.png 2x" alt="Plann's workflow">
-</a>
-<a class="lightbox center-text fixed z-9999 items-center justify-center" id="plann-newsletter" href="#none">
-  <svg class="align-middle absolute pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"></path><path d="M23.071 8.929a1 1 0 010 1.414L17.414 16l5.657 5.657a1 1 0 01-1.414 1.414L16 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L14.586 16l-5.657-5.657a1 1 0 011.414-1.414L16 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#ffffff"></path></g></svg>
-
-  <img class="align-middle responsive-image border-radius-2" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="Plann's newsletter">
 </a>
 <?php
   no_content_genesis_footer();
