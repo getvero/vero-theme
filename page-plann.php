@@ -10,10 +10,10 @@
   include 'pages-shared/static-header.php';
 ?>
 
-<section class="border-bottom overflow-hidden">
-  <div class="inner large-inner">
+<section class="case-study-hero case-study-hero--plann border-bottom overflow-hidden">
+  <div class="inner large-inner stack-lg">
     <span class="semi-bold font-gray-dark">Case study</span>
-    <div class="case-study-hero flex flex-wrap">
+    <div class="flex flex-wrap">
       <div class="col-main stack-lg">
         <div class="stack-sm">
           <h1 class="biggie">Plann is an Instagram scheduling app for travel, fashion, and lifestyle brands</h1>
