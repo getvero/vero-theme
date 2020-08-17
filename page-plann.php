@@ -50,7 +50,7 @@
 <section class="double-padding">
   <div class="inner small-inner stack-lg">
     <div>
-      <p class="large">A semi-remote, 50-person team headquartered in Sydney, Australia, Plann is an Instagram scheduling app for travel, fashion, and lifestyle brands. They enable their customers to plan, schedule, and explore campaign analytics.</p>
+      <p class="large">A semi-remote, 50-person team headquartered in Sydney, Australia, <a class="semi-bold underline-link" href="https://www.plannthat">Plann</a> is an Instagram scheduling app for travel, fashion, and lifestyle brands. They enable their customers to plan, schedule, and explore campaign analytics.</p>
       <p class="medium">They’re a product-led business that launches regular new releases and features for their customers, so being able to send impactful messages that are tightly-integrated with their core product is critical.</p>
     </div>
 
@@ -96,36 +96,43 @@
     </div>
 
     <div class="full-bleed center-text">
-      <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg" alt="">
+      <img class="align-middle"
+        sizes="(min-width: 1024px) 1040px, 94vw"
+        srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg 1039w,
+          /wp-content/themes/vero/assets/dist/images/case-study/plann/diagram-mobile.svg 800w"
+        src="/wp-content/themes/vero/assets/dist/images/case-study/plann/diagram.svg"
+        alt="">
     </div>
 
     <div>
       <p class="medium">As a summary of the above, here’s how Plann’s integrations with Vero are set up:</p>
 
-      <p class="medium">Plann has four lead sources including WordPress, Unbounce, WebinarJam, and Facebook Ads</p>
+      <div class="stack-md">
+        <p class="medium">Plann has four lead sources including WordPress, Unbounce, WebinarJam, and Facebook Ads</p>
 
-      <ul class="plann-legend unstyled-list flex justify-between flex-wrap stack-0">
-        <li class="flex plann-key plann-key--1">
-          <div class="plann-key-color plann-key-color--1"></div>
+        <ul class="plann-legend unstyled-list flex justify-between flex-wrap stack-0">
+          <li class="flex plann-key plann-key--1">
+            <div class="plann-key-color plann-key-color--1"></div>
 
-          <p>For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
-        </li>
-        <li class="flex plann-key plann-key--2">
-          <div class="plann-key-color plann-key-color--2"></div>
+            <p>For WebinarJam and Facebook Ads, they use Zapier to pass the lead contacts from their webinars and Facebook Ads campaigns over to Vero.</p>
+          </li>
+          <li class="flex plann-key plann-key--2">
+            <div class="plann-key-color plann-key-color--2"></div>
 
-          <p>For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
-        </li>
-        <li class="flex plann-key plann-key--3">
-          <div class="plann-key-color plann-key-color--3"></div>
+            <p>For WordPress, they use Vero’s embedded forms to import leads directly from their blog. And for Unbounce, they link up with Vero via webhook integration.</p>
+          </li>
+          <li class="flex plann-key plann-key--3">
+            <div class="plann-key-color plann-key-color--3"></div>
 
-          <p>Plann is using Vero’s Javascript and API to track events, to learn what their users are doing on the backend. They then pass this data over to Vero to trigger workflows.</p>
-        </li>
-        <li class="flex plann-key plann-key--4">
-          <div class="plann-key-color plann-key-color--3"></div>
+            <p>Plann is using Vero’s Javascript and API to track events, to learn what their users are doing on the backend. They then pass this data over to Vero to trigger workflows.</p>
+          </li>
+          <li class="flex plann-key plann-key--4">
+            <div class="plann-key-color plann-key-color--3"></div>
 
-          <p>They also use a mix of server and Google Tag Manager (GTM) for event tracking. While server events are for logged-in user tracking via Javascript, GTM is for non logged-in user tracking.</p>
-        </li>
-      </ul>
+            <p>They also use a mix of server and Google Tag Manager (GTM) for event tracking. While server events are for logged-in user tracking via Javascript, GTM is for non logged-in user tracking.</p>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div>
