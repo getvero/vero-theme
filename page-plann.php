@@ -21,7 +21,7 @@
     <div class="flex flex-wrap">
       <div class="col-main stack-lg">
         <div class="stack-sm">
-          <h1 class="biggie">Plann is an Instagram scheduling app for travel, fashion, and lifestyle brands</h1>
+          <h1 class="biggie">Plann is an social media scheduling app for travel, fashion, and lifestyle brands</h1>
           <div class="large">Their goal? Move faster as a marketing team.</div>
         </div>
 
@@ -50,7 +50,7 @@
 <section class="double-padding">
   <div class="inner small-inner stack-lg">
     <div>
-      <p class="medium">A semi-remote, 50-person team headquartered in Sydney, Australia, <a class="semi-bold underline-link" href="https://www.plannthat.com">Plann</a> is an Instagram scheduling app for travel, fashion, and lifestyle brands. They enable their customers to plan, schedule, and explore campaign analytics.</p>
+      <p class="medium">A semi-remote, 50-person team headquartered in Sydney, Australia, <a class="semi-bold underline-link" href="https://www.plannthat.com">Plann</a> is an social media scheduling app for travel, fashion, and lifestyle brands. They enable their customers to plan, schedule, and explore campaign analytics.</p>
       <p class="medium">They’re a product-led business that launches regular new releases and features for their customers, so being able to send impactful messages that are tightly-integrated with their core product is critical.</p>
     </div>
 
@@ -76,7 +76,7 @@
     </div>
 
     <blockquote class="case-study-callout bg-white border stack-md center-text">
-      <p class="tubs quote">&ldquo;Vero was such a good match for the stage of the business. As about four years in, with a list of over 200,000 &mdash; we needed a certain level of functionality and analytics support to scale up.</p>
+      <p class="tubs quote">&ldquo;Vero was such a good match for the stage of the business. As about four years in, with a list of over close to half a million subscribers &mdash; we needed a certain level of functionality and analytics support to scale up.</p>
 
       <div class="author stack-xxs">
         <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May" height="56" width="56">
