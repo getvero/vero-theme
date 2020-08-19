@@ -21,7 +21,7 @@
     <div class="flex flex-wrap">
       <div class="col-main stack-lg">
         <div class="stack-sm">
-          <h1 class="biggie">Plann is an social media scheduling app for travel, fashion, and lifestyle brands</h1>
+          <h1 class="biggie">Plann is a social media scheduling app for travel, fashion, and lifestyle brands</h1>
           <div class="large">Their goal? Move faster as a marketing team.</div>
         </div>
 
