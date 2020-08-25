@@ -63,7 +63,7 @@
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Company</h4>
               </li>
-              <li><a href="https://www.getvero.com/case-study/plann">Case Study</a></li>
+              <li><a href="https://www.getvero.com/case-studies/plann">Case Study</a></li>
               <li><a href="https://www.getvero.com/careers">Careers</a></li>
               <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
               <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
