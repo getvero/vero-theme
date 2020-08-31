@@ -390,16 +390,14 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
-
-    <form class="js-signup-form home-signup-form stack-xs"
+    <form class="js-signup-form home-signup-form lg-horizontal-margin-xl stack-xs bottom-margin-sm"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
       method="POST">
 
       <div class="flex flex-column sm-flex-row">
-        <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+        <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
