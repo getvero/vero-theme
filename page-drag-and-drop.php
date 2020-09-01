@@ -85,7 +85,7 @@
 <div class="drag-and-drop-features bg-dark-blue-lighter">
   <section id="drag-and-drop-section-1">
     <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 sm-order-1">
           <h2 class="chunk bottom-margin-sm">Beautiful emails in minutes, from scratch</h2>
           <p class="large">Enable your team to build the content they need by creating a library of common snippets that can be placed in your templates on the fly.</p>
@@ -108,7 +108,7 @@
   </section>
   <section id="drag-and-drop-section-2">
     <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-sm">
+      <div class="w-sidebar w-sidebar--sm">
         <div class="col-main order-2">
           <h2 class="chunk bottom-margin-sm">Templates that work everywhere</h2>
           <p class="large">Easily design and build templates that work across all major devices and clients responsively. With our drag and drop editor there's no need to know HTML and all it's quirks.</p>
@@ -126,7 +126,7 @@
   </section>
   <section id="drag-and-drop-section-3">
     <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 sm-order-1">
           <h2 class="chunk bottom-margin-sm">Directly edit your content</h2>
           <p class="large">Our WYSIWYG editor gives each member of your team the ability to edit the content of each campaign without worrying about breaking the look and feel of your templates.</p>
@@ -144,7 +144,7 @@
   </section>
   <section id="drag-and-drop-section-4">
      <div class="inner">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2">
           <h2 class="chunk bottom-margin-sm">Easily personalize your messages</h2>
           <p class="large">Extend your personalisation with powerful <a class="underline-link" href="/email-personalization-liquid-guide">Liquid templating language</a>. Use dynamic variables throughout your drag-and-drop template with the click of a button.</p>
@@ -165,7 +165,7 @@
   <div class="inner large-inner">
     <h2 class="tubs center-text bottom-margin-lg">And more features</h2>
 
-    <div class="w-sidebar w-sidebar--feature-lg">
+    <div class="w-sidebar w-sidebar--lg">
       <div class="col-main">
         <ul class="unstyled-list drag-and-drop-feature-list grid grid-halfs center-text lg-left-text">
           <li class="w-sidebar w-sidebar--icon">

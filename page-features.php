@@ -57,7 +57,7 @@
     </ul>
 
     <div class="automation-tab automation-tab--1">
-      <div class="w-sidebar w-sidebar--feature-sm items-center" id="1a">
+      <div class="w-sidebar w-sidebar--sm items-center" id="1a">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold bottom-margin-sm">Workflows</h3>
 
@@ -71,7 +71,7 @@
       </div>
     </div>
     <div class="automation-tab automation-tab--2">
-      <div class="w-sidebar w-sidebar--feature-sm items-center" id="1b">
+      <div class="w-sidebar w-sidebar--sm items-center" id="1b">
         <div class="col-main lg-left-padding-md order-2">
           <h3 class="tubs semi-bold">Recurring newsletters</h3>
           <p class="medium bottom-margin-md">Power weekly summaries, daily news feeds, lists of your latest products and more using recurring newsletters and dynamic segmentation.</p>
@@ -112,7 +112,7 @@
     </ul>
 
     <div class="customers-tab customers-tab--1">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold bottom-margin-sm">Custom attributes</h3>
 
@@ -129,7 +129,7 @@
     </div>
 
     <div class="customers-tab customers-tab--2">
-      <div class="w-sidebar w-sidebar--feature-sm">
+      <div class="w-sidebar w-sidebar--sm">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Activity tracking</h3>
 
@@ -146,7 +146,7 @@
     </div>
 
     <div class="customers-tab customers-tab--3">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Segment your customers</h3>
 
@@ -159,7 +159,7 @@
     </div>
 
     <div class="customers-tab customers-tab--4">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold bottom-margin-sm">Dynamic data feeds</h3>
 
@@ -197,7 +197,7 @@
     </ul>
 
     <div class="workflow-tab workflow-tab--1">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Message design</h3>
           <p class="medium">Manage message designs centrally across any channel for both automated and manual campaigns.</p>
@@ -210,7 +210,7 @@
     </div>
 
     <div class="workflow-tab workflow-tab--2">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Personalize messages with dynamic data and templating</h3>
           <p class="medium">Bring the full power of the Liquid templating language to your campaigns and ensure your messages are personal.</p>
@@ -224,7 +224,7 @@
     </div>
 
     <div class="workflow-tab workflow-tab--3">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">Talk to customers in their language</h3>
           <p class="medium">Create a message variant in any language, for any campaign.</p>
@@ -259,7 +259,7 @@
     </ul>
 
     <div class="testing-tab testing-tab--1">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold">A/B testing</h3>
           <p class="medium">Allows you to rigorously test message subject lines, content and timing across one-off campaigns and workflow automations.</p>
@@ -273,7 +273,7 @@
     </div>
 
     <div class="testing-tab testing-tab--2">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Simple reporting that also lets you dive deep</h3>
           <p class="medium">Track send, delivery, open and click rates by campaign, variation, language and more.</p>
@@ -314,7 +314,7 @@
     </ul>
 
     <div class="multi-channel-tab multi-channel-tab--1">
-      <div class="w-sidebar w-sidebar--feature-sm">
+      <div class="w-sidebar w-sidebar--sm">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold flex items-center">Email</h3>
           <p class="medium bottom-margin-md">Using our drag-and-drop editor you can build great looking, mobile responsive emails, visually. Built on top of the powerful <a class="unstyled underline-link" href="https://mjml.io">MJML</a> rendering engine, you can import, export and reuse full HTML templates with ease.</p>
@@ -329,7 +329,7 @@
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--2">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2">
           <h3 class="tubs semi-bold">Push</h3>
           <p class="medium bottom-margin-md">A visual UI that makes creating iOS and Android push messages simpler for everyone on the team. Add the subject, body content and images at the click of a button.</p>
@@ -344,7 +344,7 @@
     </div>
 
     <div class="multi-channel-tab multi-channel-tab--3">
-      <div class="w-sidebar w-sidebar--feature-sm items-center">
+      <div class="w-sidebar w-sidebar--sm items-center">
         <div class="col-main order-2 md-order-1">
           <h3 class="tubs semi-bold flex items-center">SMS <span class="pill pill--primary pill--small uppercase semi-bold left-margin-xs">Coming soon</span></h3>
           <p class="medium bottom-margin-md">Message your entire customer base as easily as if you were texting a friend.</p>
@@ -419,7 +419,7 @@
 
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form home-signup-form lg-horizontal-margin- stack-xs bottom-margin-sm"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
