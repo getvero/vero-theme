@@ -1,12 +1,12 @@
 <section>
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <div class="shadow-1 border-light border-radius-2 padding-xs flex flex-column md-flex-row justify-around center-text jobs-navigation">
       <?php if (!is_page('data-management')): ?>
         <div class="block block-empower">
           <a class="show unstyled cta-arrow-link" href="/data-management">
-            <img class="responsive-image bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
+            <img class="align-middle responsive-image bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
-            <h3 class="tubs regular semi-bold bottom-margin-xs">Empower your team</h3>
+            <h3 class="micro semi-bold bottom-margin-xxs">Empower your team</h3>
 
             <p class="medium bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data.</p>
 
@@ -23,9 +23,9 @@
       <?php if (!is_page('customer-engagement')): ?>
         <div class="block block-engage">
           <a class="show unstyled cta-arrow-link" href="/customer-engagement">
-            <img class="responsive-image bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
+            <img class="align-middle responsive-image bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/engage-customers-with-vero.svg" alt="Engage customers with Vero">
 
-            <h3 class="tubs regular semi-bold bottom-margin-xs">Engage customers</h3>
+            <h3 class="micro semi-bold bottom-margin-xxs">Engage customers</h3>
 
             <p class="medium bottom-margin-lg">Send email and push notifications that drive customer engagement and increase revenue.</p>
 
@@ -42,9 +42,9 @@
       <?php if (!is_page('send-automated-messages')): ?>
         <div class="block block-coordinate">
           <a class="show unstyled cta-arrow-link" href="/send-automated-messages">
-            <img class="responsive-image bottom-margin-sm" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
+            <img class="align-middle responsive-image bottom-margin-xxs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
-            <h3 class="tubs regular semi-bold bottom-margin-xs">Co-ordinate messaging</h3>
+            <h3 class="micro semi-bold bottom-margin-xxs">Co-ordinate messaging</h3>
 
             <p class="medium bottom-margin-lg">Create and manage emails, push notifications and custom interactions on a single canvas.</p>
 
