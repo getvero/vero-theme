@@ -9,8 +9,8 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" id="job-hero" banner-name="Co-ordinate messaging" element-position="top">
-  <div class="inner xlarge-inner">
+<section id="job-hero" banner-name="Co-ordinate messaging" element-position="top">
+  <div class="inner tiny-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/coordinate-messaging-with-vero.svg" alt="Co-ordinate your messaging strategy with Vero">
 
@@ -18,23 +18,34 @@
 
       <p class="tubs bottom-margin-lg">Create and manage emails, push notifications and custom interactions on a single canvas</p>
 
-      <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn--success btn--large md-right-margin-sm track-start-trial"  element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
+      <form class="js-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+        action="https://formkeep.com/f/5401a0ae5cb8"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
 
-        <a class="medium regular underline-link typeform-share link track-contact-us" element-position="top" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
-      </div>
+        <div class="flex flex-column sm-flex-row">
+          <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+
+          <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
+
+          <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Talk to us">
+        </div>
+
+        <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+      </form>
     </div>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner flush-top xlarge-inner">
+  <div class="inner flush-top large-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-xs">Workflows</span> -->
 
-        <h2 class="chunk regular">Design a better customer experience</h2>
+        <h2 class="tubs semi-bold">Design a better customer experience</h2>
 
-        <p class="medium bottom-margin-lg">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
+        <p class="medium bottom-margin-md">With all your messaging channels and tools in one place, you can visualize your customer journey as you build it.</p>
 
         <a class="btn btn--medium btn--outline btn--primary" href="/workflows">Intuitive Workflows</a>
       </div>
@@ -47,15 +58,15 @@
   </div>
 </section>
 <section class="bg-offwhite">
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-lg center-text">Multi-channel</span> -->
-    <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
-      <h2 class="chunk regular bottom-margin-sm center-text">Right message, right time, right channel</h2>
 
-      <p class="large">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
-    </div>
     <div class="grid job-feature job-feature-right">
       <div class="col-main">
+        <h2 class="tubs semi-bold bottom-margin-sm">Right message, right time, right channel</h2>
+
+        <p class="medium">Send personalized emails and mobile push notifications to drive customer engagement and reduce churn</p>
+
         <p class="medium">Add dynamic content to your messages with Liquid or data pulled directly from APIs.</p>
 
         <p class="medium">Send unique product recommendations, account usage updates, even the weather forecast and more.</p>
@@ -69,12 +80,12 @@
   </div>
 </section>
 <section class="double-padding bottom-border-light">
-  <div class="inner xlarge-inner flush-bottom">
+  <div class="inner large-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
         <!-- <span class="d-block annotation uppercase semi-bold faded bottom-margin-xs">Webhook</span> -->
 
-        <h2 class="chunk regular">Trigger custom interactions anywhere <span class="d-inline annotation pill pill--primary">Coming soon</span></h2>
+        <h2 class="tubs semi-bold">Trigger custom interactions anywhere <span class="d-inline annotation pill pill--primary">Coming soon</span></h2>
 
         <p class="medium">Trigger a HTTP webhook to any software or service in your stack, enabling you to drive and manage customer interactions across the entire lifecycle.</p>
 

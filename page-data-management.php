@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="border-bottom-light" id="job-hero" banner-name="Empower your team" element-position="top">
-  <div class="inner xlarge-inner">
+  <div class="inner tiny-inner">
     <div class="intro-header center-text center-block">
       <img class="bottom-margin-xs" src="/wp-content/themes/vero/assets/dist/images/home/empower-your-team-with-vero.svg" alt="Empower your team with Vero">
 
@@ -18,11 +18,28 @@
 
       <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
-      <div class="flex items-center justify-center intro-footer">
+      <form class="js-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+        action="https://formkeep.com/f/5401a0ae5cb8"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
+
+        <div class="flex flex-column sm-flex-row">
+          <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+
+          <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
+
+          <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Talk to us">
+        </div>
+
+        <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+      </form>
+
+      <!-- <div class="flex items-center justify-center intro-footer">
         <a class="btn btn--success btn--large md-right-margin-sm track-start-trial"  element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="medium regular underline-link typeform-share link track-contact-us" element-position="top" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Talk to us</a>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -47,10 +64,10 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-md">Seamlessly integrate Vero with your software</h2>
+        <h2 class="chunk semi-bold bottom-margin-sm">Seamlessly integrate Vero with your software</h2>
 
         <p class="medium">Vero’s flexible API ensures seamless integration with your core software so you can easily transfer and manage your customer data your way</p>
 
@@ -69,9 +86,9 @@
   </div>
 </section>
 <section class="bg-offwhite">
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <div class="inner small-inner flush-top flush-bottom center-text bottom-margin-lg">
-      <h2 class="chunk regular bottom-margin-sm">Visibility and clarity</h2>
+      <h2 class="chunk semi-bold bottom-margin-sm">Visibility and clarity</h2>
 
       <p class="large">Vero bridges the gap between your engineering and marketing teams</p>
     </div>
@@ -90,10 +107,10 @@
   </div>
 </section>
 <section class="double-padding bottom-border-light">
-  <div class="inner xlarge-inner flush-bottom">
+  <div class="inner large-inner flush-bottom">
     <div class="grid job-feature job-feature-left">
       <div class="col-main">
-        <h2 class="chunk regular bottom-margin-md">Create and iterate, faster</h2>
+        <h2 class="chunk semi-bold bottom-margin-sm">Create and iterate, faster</h2>
 
         <p class="medium bottom-margin-md">Workflows give you and your team a clear view of all the triggers, conditions, filters, timings and content that make up your customer journey. Run AB tests and optimize every message to drive more growth.</p>
 
@@ -111,7 +128,7 @@
   include 'pages-shared/jobs-navigation.php';
 ?>
 <section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner tiny-inner center-text">
+  <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <form class="js-signup-form home-signup-form lg-horizontal-margin-xl stack-xs bottom-margin-sm"
