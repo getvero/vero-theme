@@ -35,7 +35,7 @@
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Talk to us">
+              <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo">
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
@@ -401,7 +401,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Talk to us">
+        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

@@ -664,7 +664,7 @@ jQuery(document).ready(function() {
           validateMsg.text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
-        } else if (subEl.val() == 'Talk to us') {
+        } else if (subEl.val() == 'Schedule a demo') {
           validateMsg.addClass('is-active');
           validateMsg.text('Thank you for getting in touch, we will get in contact very soon');
         }

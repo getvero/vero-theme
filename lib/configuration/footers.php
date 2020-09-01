@@ -98,7 +98,7 @@
         <div class="inner small-inner center-text stack-md">
           <h4 class="chunk">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-          <form class="js-signup-form home-signup-form md-horizontal-margin-xl stack-xs"
+          <form class="js-signup-form home-signup-form md-horizontal-margin-lg stack-xs"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
@@ -109,7 +109,7 @@
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-              <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Talk to us">
+              <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
