@@ -34,12 +34,6 @@
 
         <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
       </form>
-
-      <!-- <div class="flex items-center justify-center intro-footer">
-        <a class="btn btn--success btn--large md-right-margin-sm track-start-trial"  element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
-
-        <a class="medium regular underline-link typeform-share link track-contact-us" element-position="top" href="https://getvero.typeform.com/to/d9wZ4V" data-mode="popup" target="_blank">Schedule a demo</a>
-      </div> -->
     </div>
   </div>
 </section>
