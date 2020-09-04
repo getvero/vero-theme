@@ -11,7 +11,7 @@
 ?>
 <section class="integration-hero overflow-hidden" banner-name="Connect Vero and Zapier" element-position="top">
   <div class="inner large-inner flex flex-wrap items-center">
-    <div class="col-main stack-lg">
+    <div class="col-main order-2 md-order-1 stack-lg">
       <span class="d-inline-block atomic semi-bold font-gray-dark">Integrations</span>
 
       <div class="stack-sm">
@@ -22,31 +22,33 @@
         <a class="btn btn--success btn--large track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
       </div>
     </div>
-    <div class="col-aside center-text">
-      <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/zapier/hero.svg" alt="">
+    <div class="col-aside order-1 md-order-2 center-text relative">
+      <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/zapier/hero.svg" alt="Zapier and Vero">
+
+      <svg class="absolute orange-line" width="311" height="171" xmlns="http://www.w3.org/2000/svg"><path d="M309 2.547H141.69c-22.052 0-39.93 17.877-39.93 39.93 0 22.054 17.878 39.931 39.93 39.931h56.916c23.724 0 42.957 19.233 42.957 42.957v.113c-.063 23.804-19.378 43.069-43.183 43.069H-2h0" stroke="#FF4A00" stroke-width="4" fill="none" fill-rule="evenodd" stroke-dasharray="0,10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+
+      <svg class="absolute blue-line" width="334" height="173" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M2 2h209.042c23.357 0 42.313 18.894 42.39 42.25.076 23.258-18.717 42.173-41.974 42.25h-63.232c-23.334 0-42.25 18.916-42.25 42.25S124.892 171 148.226 171H340" stroke="#01B2D0" stroke-dasharray="0,10" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></g></svg>
     </div>
   </div>
   <div class="inner large-inner bottom-padding-lg relative">
-    <div class="bg-primary-lighter border-radius-2 border-primary padding-md flex intergration-about">
+    <div class="bg-primary-lighter border-radius-2 border-primary integration-about">
       <div class="flex">
-        <div class="right-margin-xs">
-          <svg class="align-middle" width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h36v36H0z"/><path d="M21.937 18.007a9.42 9.42 0 01-.604 3.325 9.443 9.443 0 01-3.327.606h-.013a9.442 9.442 0 01-3.325-.605 9.42 9.42 0 01-.605-3.326v-.014c0-1.17.214-2.29.604-3.325a9.412 9.412 0 013.326-.605h.013a9.41 9.41 0 013.327.605 9.414 9.414 0 01.604 3.325v.014zm11.594-2.632h-9.193l6.5-6.5c-.51-.718-1.08-1.391-1.701-2.013a15.873 15.873 0 00-2.012-1.7l-6.5 6.5V2.47a15.825 15.825 0 00-2.617-.219h-.016c-.892 0-1.766.076-2.617.22v9.193l-6.5-6.501c-.718.51-1.391 1.08-2.011 1.7l-.004.003c-.62.62-1.188 1.293-1.699 2.01l6.502 6.5H2.469s-.219 1.727-.219 2.62v.01c0 .893.076 1.768.22 2.62h9.193l-6.502 6.5a15.862 15.862 0 003.713 3.714l6.501-6.502v9.194c.85.143 1.723.218 2.614.219h.022c.89-.001 1.764-.076 2.613-.219v-9.194l6.502 6.502c.717-.511 1.39-1.08 2.01-1.7l.002-.002c.62-.621 1.19-1.295 1.7-2.011l-6.501-6.501h9.194c.143-.85.218-1.723.219-2.614v-.022a15.847 15.847 0 00-.219-2.614z" fill="#FF4A00"/></g></svg>
-        </div>
+        <div class="stack-xs">
+          <div class="flex items-start">
+            <svg class="align-middle border-radius-1 right-margin-xxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FF4A00" d="M0 0h24v24H0z"/><path d="M13.75 12.003c0 .52-.096 1.018-.269 1.478-.46.173-.958.269-1.478.27h-.006c-.52-.001-1.018-.097-1.478-.27a4.187 4.187 0 01-.269-1.478v-.006c0-.52.096-1.018.269-1.478.46-.173.958-.269 1.478-.269h.006c.52 0 1.018.096 1.478.27.173.459.269.957.269 1.477v.006zm5.153-1.17h-4.086l2.889-2.889a7.055 7.055 0 00-1.65-1.65l-2.89 2.89V5.097A7.033 7.033 0 0012.004 5h-.008c-.396 0-.784.034-1.163.097v4.087l-2.889-2.89a6.99 6.99 0 00-.893.756l-.002.001a7.044 7.044 0 00-.755.893l2.89 2.89H5.097S5 11.6 5 11.997v.004c0 .397.034.786.097 1.165h4.087l-2.89 2.889a7.05 7.05 0 001.65 1.65l2.89-2.89v4.087c.377.063.765.097 1.16.097h.01c.397 0 .785-.034 1.162-.097v-4.087l2.89 2.89a7.068 7.068 0 001.65-1.65l-2.89-2.89h4.087c.063-.377.097-.765.097-1.16v-.011c0-.396-.034-.784-.097-1.162z" fill="#FFF"/></g></svg>
 
-        <div class="stack-xxs">
-          <h2 class="regular micro no-margin">About Zapier</h2>
+            <h2 class="semi-bold atomic no-margin">About Zapier</h2>
+          </div>
 
           <p>Zapier is an online automation tool that connects your favorite apps, such as Gmail, Slack, Mailchimp, and more. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration. It's easy enough that anyone can build their own app workflows with just a few clicks.</p>
         </div>
-      </div>
 
-      <div class="flex">
-        <div class="right-margin-xs">
-          <svg class="align-middle" width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(-24.066 -448.066)"><circle stroke="#F1F1F1" stroke-width="2" cx="395.066" cy="395.066" r="360"/><path d="M592.566 52.986C403.64-56.09 162.062 8.64 52.986 197.566-56.09 386.492 8.64 628.07 197.566 737.146c188.926 109.076 430.504 44.346 539.58-144.58 109.076-188.926 44.346-430.504-144.58-539.58z" stroke="#E1E1E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2378.4,238"/></g><path d="M33.347 3.752a4.017 4.017 0 00-.132-.002H6.595C4.317 3.75 2.5 5.633 2.5 7.994c0 .53.098 1.038.277 1.506.083.264.193.523.33.774L16.34 34.01c.19.34.417.642.674.905a4.046 4.046 0 003.004 1.335c.996 0 1.914-.385 2.62-1.018.4-.326.749-.736 1.02-1.222l13.234-23.736c.135-.246.243-.5.326-.758.181-.473.281-.986.281-1.522 0-2.361-1.817-4.244-4.02-4.244-.044 0-.089 0-.133.002zm-12.039 22.32L31.774 7.248c.038-.054.062-.094.076-.118.31-.616.911-1.022 1.63-1.022.948 0 1.745.827 1.745 1.886 0 .362-.115.718-.304 1.022a.107.107 0 00-.037.079l-11.528 20.67-2.048-3.693zM6.747 6.108h23.055l-2.047 3.694H6.52c-.985 0-1.783-.827-1.783-1.808 0-1.06.798-1.886 1.783-1.886H6.747zm6.809 6.052h12.888L20 23.718 13.556 12.16zm4.795 20.75c.002-.028-.01-.05-.038-.079L6.823 12.16h4.095l10.504 18.824a.54.54 0 00.076.157c.16.277.265.626.265 1.022 0 .98-.797 1.808-1.744 1.808-.748 0-1.37-.44-1.668-1.061z" fill="#01B2D0"/></g></svg>
-        </div>
+        <div class="stack-xs">
+          <div class="flex items-start">
+            <svg class="align-middle border-radius-1 right-margin-xxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(-29.066 -456.066)"><circle stroke="#F1F1F1" stroke-width="2" cx="395.066" cy="395.066" r="360"/><path d="M592.566 52.986C403.64-56.09 162.062 8.64 52.986 197.566-56.09 386.492 8.64 628.07 197.566 737.146c188.926 109.076 430.504 44.346 539.58-144.58 109.076-188.926 44.346-430.504-144.58-539.58z" stroke="#E1E1E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2378.4,238"/></g><path fill="#01B2D0" d="M0 0h24v24H0z"/><path d="M18.101 5.001L18.041 5H5.872C4.83 5 4 5.869 4 6.959c0 .244.045.479.126.695.039.122.089.241.151.357l6.05 10.955c.087.157.191.297.308.418.34.378.828.616 1.374.616.455 0 .875-.178 1.197-.47.183-.15.343-.34.467-.564l6.05-10.955c.061-.114.11-.23.148-.35.083-.218.129-.455.129-.702C20 5.869 19.17 5 18.163 5l-.062.001zm-5.503 10.301l4.784-8.688a.664.664 0 00.035-.054.826.826 0 01.746-.472c.432 0 .797.382.797.87a.912.912 0 01-.139.472.05.05 0 00-.017.037l-5.27 9.54-.936-1.705zM5.942 6.088H16.48l-.936 1.705H5.838a.83.83 0 01-.815-.834c0-.49.364-.87.815-.87h.104zm3.112 2.793h5.892L12 14.216 9.054 8.88zm2.192 9.577c.001-.013-.005-.023-.017-.036l-5.253-9.54h1.872l4.802 8.688a.25.25 0 00.035.072.943.943 0 01.121.472c0 .452-.364.834-.797.834a.844.844 0 01-.763-.49z" fill="#FFF"/></g></svg>
 
-        <div class="stack-xxs">
-          <h2 class="regular micro no-margin">About Vero</h2>
+            <h2 class="semi-bold atomic no-margin">About Vero</h2>
+          </div>
 
           <p>Vero helps you send behavioral and transactional emails. Our emails are data-driven, so you're never guessing when to send an email or who to send it to. Trigger a coupon when a customer views a product twice, or help a new user get started when they download your software.</p>
         </div>
@@ -63,7 +65,7 @@
     </div>
   </div>
 </section>
-<section class="integration-zapier-connect">
+<section class="double-padding integration-zapier-connect">
   <div class="inner medium-inner border-bottom">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main stack-md">
@@ -100,7 +102,7 @@
     </div>
   </div>
 </section>
-<section class="border-bottom integration-zapier-automate">
+<section class="double-padding border-bottom integration-zapier-automate">
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main">
@@ -120,7 +122,7 @@
     <h2 class="chunk semi-bold center-text">Create your own automation journey</h2>
 
     <div class="integration-triggers-actions flex justify-between">
-      <div class="stack-lg center-text triggers">
+      <div class="stack-md center-text triggers">
         <div class="stack-xs">
           <div>
             <svg class="align-middle" width="60" height="60" xmlns="http://www.w3.org/2000/svg"><path d="M42.666 27.81c.75-.92.155-2.38-.968-2.38h-8.37l3.89-13.565c.42-1.466-1.275-2.526-2.208-1.38L17.334 32.188c-.75.92-.155 2.38.968 2.38h8.364L22.78 48.136c-.42 1.466 1.276 2.526 2.209 1.38l17.676-21.704z" fill-rule="nonzero" stroke="#FFC111" stroke-width="2" fill="none"/></svg>
@@ -148,7 +150,7 @@
         </ul>
       </div>
 
-      <div class="stack-lg center-text actions">
+      <div class="stack-md center-text actions">
         <div class="stack-xs">
           <div>
             <svg class="align-middle" width="60" height="60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M30 21a1 1 0 011 1v7h7a1 1 0 010 2h-7v7a1 1 0 01-2 0v-7h-7a1 1 0 010-2h7v-7a1 1 0 011-1z" fill="#F15242"/><circle stroke="#F15242" stroke-width="2" cx="30" cy="30" r="17"/></g></svg>
