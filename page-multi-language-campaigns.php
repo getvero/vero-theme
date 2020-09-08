@@ -10,10 +10,26 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="hero border-bottom-light" id="multi-language-hero" banner-name="Send your multi-language emails" element-position="top">
-  <div class="inner center-text">
-    <h1 class="chunk semi-bold">The simple way to send your multi-language emails</h1>
-    <p>Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
-    <img class="center-block" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
+  <div class="inner tiny-inner center-text flush-bottom stack-xl">
+    <div class="stack-lg">
+      <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
+        <a href="/features">Features</a>
+        <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
+        Multi-langiage
+      </span>
+
+      <div class="stack-md">
+        <div class="stack-xs">
+          <h1 class="biggie semi-bold">The simple way to send your multi-language emails</h1>
+          <p class="large">Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
+        </div>
+        <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+      </div>
+    </div>
+
+    <div>
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
+    </div>
   </div>
 </section>
 <section id="multi-language-steps" class="border-bottom-light">
@@ -59,8 +75,8 @@ vero.users.track!({
   </div>
 </section>
 <section class="bg-gray-lighter" banner-name="Use data to create better experience" element-position="bottom">
-  <div class="inner tiny-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams use their data to create a better customer messaging experience</h4>
+  <div class="inner small-inner center-text">
+    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
 
