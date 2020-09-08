@@ -22,7 +22,7 @@
         <h1 class="biggie semi-bold">Emails that can talk to APIs</h1>
         <p class="large">Load data from its origin for greater accuracy and flexibility.</p>
       </div>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
 
     <div class="hero-image center-text top-margin-lg">
@@ -70,21 +70,21 @@
       <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     </div>
     <ul class="feature-list unstyled-list grid grid-auto top-margin-lg">
-      <li class="stack-xs center-text">
+      <li class="stack-xxs center-text">
         <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Recommendations</h3>
           <p class="light">Access data models and insert dynamically calculated product recommendation emails tailored specifically to each customer.</p>
         </div>
       </li>
-      <li class="stack-xs center-text">
+      <li class="stack-xxs center-text">
         <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Dynamic Data &amp; Charts</h3>
           <p class="light">Pull complex data structures or even fully rendered HTML charts to deliver unique weekly updates with usage details to each customer.</p>
         </div>
       </li>
-      <li class="stack-xs center-text">
+      <li class="stack-xxs center-text">
         <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Delightful Details</h3>
