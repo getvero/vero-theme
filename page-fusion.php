@@ -10,15 +10,21 @@
   include 'pages-shared/static-header.php';
 ?>
 <section class="border-bottom-light"  id="external-attributes-hero" banner-name="Emails that can talk to APIs" element-position="top">
-  <div class="inner center-text flush-bottom">
-    <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+  <div class="inner center-text flush-bottom stack-lg">
+    <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
       <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Fusion
     </span>
 
-    <h1 class="biggie semi-bold center-text bottom-margin-xxs">Emails that can talk to APIs.</h1>
-    <p class="medium">Load data from its <span class="semi-bold">origin</span> for greater <span class="semi-bold">accuracy</span> and <span class="semi-bold">flexibility</span>.</p>
+    <div class="stack-md">
+      <div class="stack-xs">
+        <h1 class="biggie semi-bold">Emails that can talk to APIs</h1>
+        <p class="large">Load data from its origin for greater accuracy and flexibility.</p>
+      </div>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+    </div>
+
     <div class="hero-image center-text top-margin-lg">
       <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs">
     </div>
@@ -26,21 +32,30 @@
 </section>
 <section class="double-padding" id="external-attributes-howitworks">
   <div class="inner center-text gradient-border-bottom">
-    <h2 class="chunk semi-bold bottom-margin-sm">Load data from its source</h2>
-    <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms</p>
-    <img class="top-margin-lg responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
+    <div class="stack-xs">
+      <h2 class="chunk semi-bold">Load data from its source</h2>
+      <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms</p>
+    </div>
+    <img class="top-margin-lg align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
     <ul class="feature-list unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs top-margin-sm">
-      <li><p class="semi-bold medium">Connect an API endpoint</p><p class="light">Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
-      <li><p class="semi-bold medium">Add data to emails using Liquid</p><p class="light">Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
+      <li class="stack-xxs">
+        <h3 class="atomic semi-bold">Connect an API endpoint</h3>
+        <p class="light">Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
+      <li class="stack-xxs">
+        <h3 class="atomic semi-bold">Add data to emails using Liquid</h3>
+        <p class="light">Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
     </ul>
   </div>
 </section>
 <section id="external-attributes-code" class="flush-bottom">
   <div class="inner center-text gradient-border-bottom">
-    <div><p class="semi-bold no-margin">Example API endpoint</p><p class="no-top-margin">https://api.yoursite.com/people-you-may-know/{{user.id}}</p></div>
+    <div>
+      <h2 class="micro semi-bold">Example API endpoint</h2>
+      <pre class="language-html"><code>https://api.yoursite.com/people-you-may-know/{{user.id}}</code></pre>
+    </div>
     <div class="ext-example">
       <div class="ext-example-json">
-        <pre class="top-margin-sm okaidia" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
+        <pre class="top-margin-sm" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
       </div>
       <div class="ext-example-html">
         <pre class="top-margin-sm" data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
@@ -50,23 +65,31 @@
 </section>
 <section id="external-attributes-examples" class="double-padding">
   <div class="inner large-inner center-text">
-    <h2 class="chunk semi-bold bottom-margin-xs">Email as a true extension of your product</h2>
-    <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
+    <div class="stack-xs">
+      <h2 class="chunk semi-bold">Email as a true extension of your product</h2>
+      <p class="medium">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
+    </div>
     <ul class="feature-list unstyled-list grid grid-auto top-margin-lg">
-      <li class="center-text">
-        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
-        <p class="semi-bold medium">Recommendations</p>
-        <p class="light">Access data models and insert dynamically calculated product recommendation emails tailored specifically to each customer.</p>
+      <li class="stack-xs center-text">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
+        <div class="stack-xs">
+          <h3 class="semi-bold atomic">Recommendations</h3>
+          <p class="light">Access data models and insert dynamically calculated product recommendation emails tailored specifically to each customer.</p>
+        </div>
       </li>
-      <li class="center-text">
-        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
-        <p class="semi-bold medium">Dynamic Data &amp; Charts</p>
-        <p class="light">Pull complex data structures or even fully rendered HTML charts to deliver unique weekly updates with usage details to each customer.</p>
+      <li class="stack-xs center-text">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
+        <div class="stack-xs">
+          <h3 class="semi-bold atomic">Dynamic Data &amp; Charts</h3>
+          <p class="light">Pull complex data structures or even fully rendered HTML charts to deliver unique weekly updates with usage details to each customer.</p>
+        </div>
       </li>
-      <li class="center-text">
-        <img class="center-text top-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
-        <p class="semi-bold medium">Delightful Details</p>
-        <p class="light">Impress your users with personalised enriched data pulled from services like OpenWeather, Clearbit and more.</p>
+      <li class="stack-xs center-text">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
+        <div class="stack-xs">
+          <h3 class="semi-bold atomic">Delightful Details</h3>
+          <p class="light">Impress your users with personalised enriched data pulled from services like OpenWeather, Clearbit and more.</p>
+        </div>
       </li>
     </ul>
   </div>
