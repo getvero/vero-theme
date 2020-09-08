@@ -22,7 +22,7 @@
         <h1 class="biggie semi-bold">Confidently send emails using real-time customer data</h1>
         <p class="large">Give marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns.</p>
       </div>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="https://app.getvero.com/signup">Start a free trial</a>
     </div>
   </div>
 </section>
