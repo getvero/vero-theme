@@ -73,7 +73,7 @@
     </ul>
   </div>
 </section>
-<section id="workflows-ui-nodes" class="feature-section double-padding bg-offwhite">
+<section id="workflows-ui-nodes" class="double-padding bg-offwhite">
   <div class="inner large-inner">
     <div class="flex-inner">
       <div class="left center-text primary">
@@ -89,7 +89,7 @@
     </div>
   </div>
 </section>
-<section id="workflows-reasons" class="feature-section double-padding">
+<section id="workflows-reasons" class="double-padding">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-xl">Build engaging campaigns and reach your goals!</h2>
   </div>
@@ -124,7 +124,7 @@
     </div>
   </div>
 </section>
-<section id="workflows-details" class="feature-section double-padding bg-offwhite">
+<section id="workflows-details" class="double-padding bg-offwhite">
   <div class="inner medium-inner flush-bottom">
     <h2 class="biggie semi-bold bottom-margin-xl">We've got the details covered</h2>
   </div>
