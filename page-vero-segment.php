@@ -84,7 +84,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section border-bottom-light">
+<section id="vero-segment-test-event" class="border-bottom-light">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
@@ -97,7 +97,7 @@
     </div>
   </div>
 </section>
-<section id="vero-integration-quote" class="feature-section">
+<section id="vero-integration-quote">
   <div class="inner small-inner center-text">
     <img class="quote-image" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/quote-helloprint.jpg"  alt="Michael Heerkens, CTO Helloprint">
     <p class="tubs quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours.”</p>

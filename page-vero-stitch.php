@@ -89,7 +89,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-stitch-test-event" class="feature-section border-bottom-light">
+<section id="vero-stitch-test-event" class="border-bottom-light">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -102,7 +102,7 @@
     </div>
   </div>
 </section>
-<section id="vero-integration-quote" class="feature-section">
+<section id="vero-integration-quote">
   <div class="inner small-inner center-text">
     <img src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/quote-vero.jpg" class="quote-image" alt="Chris Hexton, CEO Vero">
     <p class="tubs quote">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class.”</p>

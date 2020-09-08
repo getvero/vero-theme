@@ -89,7 +89,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section">
+<section id="vero-segment-test-event">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
