@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="hero border-bottom-light" id="multi-language-hero" banner-name="Send your multi-language emails" element-position="top">
+<section class="hero border-bottom-light" banner-name="Send your multi-language emails" element-position="top">
   <div class="inner tiny-inner center-text flush-bottom stack-xl">
     <div class="stack-lg">
       <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
@@ -28,7 +28,7 @@
     </div>
 
     <div>
-      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
+      <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates@2x.png 2x" alt="The simple way to send your multi-language emails">
     </div>
   </div>
 </section>
