@@ -36,30 +36,34 @@
       </div>
 
       <div class="col-aside bg-white border-radius-2 shadow-4 padding-lg">
-        <form class="stack-sm">
+        <form class="js-demo-form stack-sm" method="get" action="">
           <h2>Schedule a demo</h2>
-          <div class="flex">
+          <div class="flex justify-between">
             <div>
-              <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field">First name</label>
-              <input class="form-control form-control--sm" id="field" type="text">
+              <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-1">First name</label>
+              <input class="form-control form-control--sm" id="field-1" name="first-name" type="text" required>
             </div>
 
             <div>
               <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-2">Surname</label>
-              <input class="form-control form-control--sm" id="field-2" type="text">
+              <input class="form-control form-control--sm" id="field-2" name="surname" type="text" required>
             </div>
           </div>
           <div>
             <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-3">Company name</label>
-            <input class="form-control form-control--sm full-width" id="field-3" type="text">
+            <input class="form-control form-control--sm full-width" id="field-3" name="company-name" type="text" required>
           </div>
           <div>
             <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-4">Work email</label>
-            <input class="form-control form-control--sm full-width" id="field-4" type="email">
+            <input class="form-control form-control--sm full-width" id="field-4" name="email" type="email" required>
           </div>
           <div>
-            <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-5">How many subscribers/customers do you have?</label>
-            <select name="" id="field-5">
+            <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-5">Contact number</label>
+            <input class="form-control form-control--sm full-width" id="field-5" name="number" type="tel" placeholder="Optional">
+          </div>
+          <div>
+            <label class="show annotation semi-bold font-gray-dark bottom-margin-xxxs" for="field-6">How many subscribers/customers do you have?</label>
+            <select name="" id="field-6">
               <option value="">0 &ndash; 2000</option>
               <option value="">2000 &ndash; 15000</option>
               <option value="">15000 &ndash; 75000</option>
