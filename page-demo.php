@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-aside">
+      <div class="col-aside relative">
         <div class="bg-white border-radius-2 shadow-4">
           <form class="js-demo-form demo-form stack-sm" method="get" action="">
             <h2>Schedule a demo</h2>
@@ -134,6 +134,8 @@
             </ul>
           </div>
         </div>
+
+        <svg class="absolute" width="217" height="101" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M1 100h149.28c13.508 0 24.458-10.95 24.458-24.458 0-13.507-10.95-24.458-24.457-24.458H98.277c-13.83 0-25.043-11.211-25.043-25.042C73.234 12.212 84.446 1 98.277 1H215.83" stroke="#01B2D0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"/></g></svg>
       </div>
     </div>
   </div>
