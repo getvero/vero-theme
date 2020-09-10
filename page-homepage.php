@@ -5,7 +5,6 @@
   <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
      <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor</p>
 
-
     <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
   </a>
 </div>
@@ -21,10 +20,10 @@
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large xl-right-margin-xxl">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta stack-sm">
-          <form class="js-signup-form home-signup-form stack-xs"
+          <form class="js-signup-form home-signup-form stack-xxs"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
@@ -35,11 +34,13 @@
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo">
+              <!-- <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo"> -->
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
           </form>
+
+          <p class="medium">See Vero in action. <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">Schedule a demo</a></p>
         </div>
       </div>
       <div class="col-aside">
