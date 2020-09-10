@@ -20,9 +20,9 @@
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large xl-right-margin-lg">The messaging platform to get you from idea to production, faster.</p>
         </div>
-        <div class="hero-cta stack-sm">
+        <div class="hero-cta stack-md">
           <form class="js-signup-form home-signup-form stack-xxs"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
@@ -388,27 +388,32 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner small-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+  <div class="inner small-inner stack-md">
+    <h4 class="chunk center-text">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
-      action="https://formkeep.com/f/5401a0ae5cb8"
-      accept-charset="UTF-8"
-      enctype="multipart/form-data"
-      method="POST">
+    <div class="stack-md">
+      <form class="js-signup-form home-signup-form lg-horizontal-margin-xl stack-xs"
+        action="https://formkeep.com/f/5401a0ae5cb8"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
 
-      <div class="flex flex-column sm-flex-row">
-        <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+        <div class="flex flex-column sm-flex-row">
+          <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
-        <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+          <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
-      </div>
+          <!-- <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo"> -->
+        </div>
 
-      <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
-    </form>
+        <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
 
-    <span class="show annotation font-gray-dark">No credit card details required</span>
+        <span class="show cation regular center-text font-gray-dark">No credit card details required</span>
+      </form>
+
+      <p class="medium center-text">See Vero in action. <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">Schedule a demo</a></p>
+    </div>
+
   </div>
 </section>
 
