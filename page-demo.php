@@ -27,7 +27,7 @@
               <img class="align-middle responsive-image border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes.jpg" srcset="/wp-content/themes/vero/assets/dist/images/home/support/reba-moyes@2x.jpg 2x" alt="Reba Moyes">
             </li>
             <li>
-              <img class="align-middle responsive-image border-radius-100" src="/wp-content/themes/vero/assets/dist/images/demo/team/brandon.jpg" srcset="/wp-content/themes/vero/assets/dist/images/demo/team/brandon@2x.jpg 2x" alt="Brandon">
+              <img class="align-middle responsive-image border-radius-100" src="/wp-content/themes/vero/assets/dist/images/demo/team/chris.jpg" srcset="/wp-content/themes/vero/assets/dist/images/demo/team/chris@2x.jpg 2x" alt="Chris">
             </li>
           </ul>
         </div>
