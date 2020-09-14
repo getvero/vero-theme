@@ -271,7 +271,8 @@
     <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
