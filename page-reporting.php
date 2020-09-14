@@ -23,7 +23,7 @@
         <h1 class="biggie semi-bold">Track the true performance of your email campaigns</h1>
         <p class="large">Understand which of your email campaigns engage customers and drive revenue.</p>
       </div>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="https://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
     </div>
   </div>
 </section>

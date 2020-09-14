@@ -23,7 +23,7 @@
           <h1 class="biggie semi-bold">The simple way to send your multi-language emails</h1>
           <p class="large">Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
         </div>
-        <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="https://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
       </div>
     </div>
 
