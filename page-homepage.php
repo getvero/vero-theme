@@ -40,7 +40,7 @@
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
           </form>
 
-          <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">schedule a demo</a></p>
+          <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">Schedule a demo</a></p>
         </div>
       </div>
       <div class="col-aside">

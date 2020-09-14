@@ -15,7 +15,7 @@
       <div class="col-main stack-sm lg-right-padding-md">
         <div class="stack-sm">
           <div class="stack-xxs">
-            <h1 class="biggie semi-bold">New to Vero</h1>
+            <h1 class="biggie semi-bold">New to Vero?</h1>
             <p class="large">Schedule a demo with one of our experts to find out how Vero can scale your personalized messaging.</p>
           </div>
 

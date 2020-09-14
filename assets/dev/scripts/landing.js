@@ -686,6 +686,16 @@ jQuery(document).ready(function() {
       .attr('value', anonymous_id)
       .appendTo(self);
     }
+
+    // Append page path and URL
+    jQuery('<input />').attr('type', 'hidden')
+      .attr('name', 'page_path')
+      .attr('value', window.location.pathname)
+      .appendTo(self);
+    jQuery('<input />').attr('type', 'hidden')
+      .attr('name', 'page_url')
+      .attr('value', window.location.href)
+      .appendTo(self);
   });
 
    // Slide out blog banner
