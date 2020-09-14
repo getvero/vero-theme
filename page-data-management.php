@@ -18,7 +18,8 @@
 
       <p class="tubs bottom-margin-lg">Empower your marketing team to create and test customer experiences using real-time data</p>
 
-      <form class="js-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+        element-position="top"
         action="https://formkeep.com/f/5401a0ae5cb8"
         accept-charset="UTF-8"
         enctype="multipart/form-data"
@@ -131,7 +132,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"

@@ -98,7 +98,8 @@
         <div class="inner small-inner center-text stack-md">
           <h4 class="chunk">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-          <form class="js-signup-form home-signup-form md-horizontal-margin-lg stack-xs"
+          <form class="js-signup-form track-signup-form home-signup-form md-horizontal-margin-lg stack-xs"
+            element-position="bottom"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
