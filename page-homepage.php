@@ -51,7 +51,16 @@
             <svg class="align-middle" width="189" height="92" xmlns="http://www.w3.org/2000/svg"><path d="M73.972 91H23.234C10.954 91 1 81.045 1 68.766c0-12.28 9.955-22.235 22.234-22.235h142C177.807 46.531 188 36.34 188 23.766S177.807 1 165.234 1H84.886h0" stroke="#F15242" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div class="home-hero-img home-hero-img--1 relative">
-            <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="Workflows">
+          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
+          </div>
+          <div class="home-hero-img home-hero-img--2">
+          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-2.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-2@2x.png 2x" alt="">
+          </div>
+          <div class="home-hero-img home-hero-img--3">
+          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-3.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-3@2x.png 2x" alt="">
+          </div>
+          <div class="home-hero-img home-hero-img--4">
+          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-4.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-4@2x.png 2x" alt="">
           </div>
         </div>
       </div>
