@@ -672,7 +672,7 @@ jQuery(document).ready(function() {
     });
   });
 
-  jQuery('.append-user-id').each(function(index) {
+  jQuery('.append-user-id').submit(function(e) {
     var self = this;
 
     try {anonymous_id = window.analytics._user.anonymousId();}
