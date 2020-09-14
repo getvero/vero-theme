@@ -107,6 +107,7 @@
             <div>
               <input class="btn btn--success full-width" value="Schedule a demo" type="submit">
             </div>
+            <input type="hidden" name="subscribe_f8f7745fab13_28100"/>
           </form>
 
           <div class="bg-dark-blue-lighter demo-customers center-text stack-xs">
