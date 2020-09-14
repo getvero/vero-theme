@@ -672,32 +672,6 @@ jQuery(document).ready(function() {
     });
   });
 
-
-  jQuery('.append-user-id').each(function(index) {
-    var self = this;
-
-    try {anonymous_id = window.analytics._user.anonymousId();}
-    catch {}
-
-    if(typeof anonymous_id !== 'undefined'){
-      // Append the Segment.com anonymous_id
-      jQuery('<input />').attr('type', 'hidden')
-      .attr('name', 'anonymous_id')
-      .attr('value', anonymous_id)
-      .appendTo(self);
-    }
-
-    // Append page path and URL
-    jQuery('<input />').attr('type', 'hidden')
-      .attr('name', 'page_path')
-      .attr('value', window.location.pathname)
-      .appendTo(self);
-    jQuery('<input />').attr('type', 'hidden')
-      .attr('name', 'page_url')
-      .attr('value', window.location.href)
-      .appendTo(self);
-  });
-
    // Slide out blog banner
   if (document.body.classList.contains('single')) {
     let promoSticky = document.querySelector('.js-post-promo-sticky');
