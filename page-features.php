@@ -18,7 +18,7 @@
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" element-position="top" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Schedule a Demo</a>
+      <a class="btn btn--gray-darker btn--large btn--outline track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
