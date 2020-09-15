@@ -39,7 +39,7 @@
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" element-position="top" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Schedule a demo</a>
+        <a class="btn btn--gray-darker btn--large btn--outline track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="stack-sm">
@@ -295,8 +295,6 @@
     <p class="annotation font-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
   </div>
 </section>
-
-<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <?php
   no_content_genesis_footer();
