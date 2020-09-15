@@ -30,7 +30,7 @@
 
           <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-          <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo">
+          <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
         </div>
 
         <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
@@ -165,7 +165,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
