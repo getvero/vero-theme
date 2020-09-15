@@ -14,8 +14,8 @@
 ?>
 
 <section class="double-padding plain-text-body">
-  <div class="inner">
-    <h1 class="biggie regular"><?php single_post_title(); ?></h1>
+  <div class="inner small-inner">
+    <h1 class="biggie semi-bold bottom-margin-sm"><?php single_post_title(); ?></h1>
 
     <?php the_content(); ?>
   </div>
