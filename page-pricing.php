@@ -295,7 +295,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="overage" href="/demo/">Schedule a demo</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
             </div>
           </div>
         </div>
@@ -558,7 +558,7 @@ include 'pages-shared/static-header.php';
                 </ul>
               </div>
 
-              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="overage" href="/demo/">Schedule a demo</a>
+              <a class="btn btn--outline btn--secondary full-width top-margin-auto track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
             </div>
           </div>
         </div>
