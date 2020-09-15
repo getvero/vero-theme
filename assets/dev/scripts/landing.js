@@ -653,8 +653,6 @@ jQuery(document).ready(function() {
         var emailFieldVal = jQuery(self).find('.form-control').val();
         var validateMsg = jQuery(self).children('.js-home-contact-msg');
 
-        // console.log(jQuery(self));
-
         // Redirect depending on submit submit_button
         if (emailFieldVal == '') {
           validateMsg.addClass('is-active');
@@ -664,9 +662,6 @@ jQuery(document).ready(function() {
           validateMsg.text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
-        } else if (subEl.val() == 'Schedule a demo') {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Thank you for getting in touch, we will get in contact very soon');
         }
       });
     });
