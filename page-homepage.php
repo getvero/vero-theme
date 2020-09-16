@@ -321,7 +321,7 @@
     </div>
   </div>
 </section>
-<section class="tiny-padding bg-offwhite">
+<section class="small-padding bg-offwhite">
   <div class="inner">
     <div class="flex items-center justify-center">
       <div class="flex flex-column items-center stack-xs horizontal-margin-md">
