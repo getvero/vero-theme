@@ -18,11 +18,11 @@ function change_body_itemtype( $attributes ) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="pricing-hero small-padding">
-  <div class="inner center-text stack-xxs bottom-padding-lg">
+  <div class="inner center-text stack-xxs flush-bottom bottom-margin-md">
     <h1 class="biggie semi-bold">Pricing that scales as you do</h1>
     <p class="large">Only pay for what you use.</p>
   </div>
-  <div class="inner xlarge-inner">
+  <div class="inner xlarge-inner flush-bottom">
     <input class="hide pricing-radio-1" id="pricing-tab-1" type="radio" name="pricing-tabs" checked>
     <input class="hide pricing-radio-2" id="pricing-tab-2" type="radio" name="pricing-tabs">
 
@@ -38,8 +38,8 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--1 justify-between">
-          <div class="flex flex-column padding-md">
+        <div class="pricing-plan-table pricing-tab pricing-tab--1 justify-between">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Starter</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -96,7 +96,7 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Pro</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -164,7 +164,7 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Growth</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -225,7 +225,7 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Enterprise</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -279,8 +279,8 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <div class="bg-white border-radius-2 pricing-plan-table pricing-tab pricing-tab--2 justify-between">
-          <div class="flex flex-column padding-md">
+        <div class="pricing-plan-table pricing-tab pricing-tab--2 justify-between">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Starter</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -319,7 +319,7 @@ include 'pages-shared/static-header.php';
                 </li>
               </ul>
 
-              <ul class="annotation unstyled-list stack-xxxs">
+              <ul class="annotation unstyled-list stack-xxxs top-margin-auto">
                 <li><strong>10,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                 <li><strong>Unlimited</strong> mobile push messages</li>
                 <li class="flex items-center">
@@ -335,7 +335,7 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Pro</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -402,7 +402,7 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Growth</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
@@ -418,7 +418,7 @@ include 'pages-shared/static-header.php';
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
-              <ul class="unstyled-list annotation stack-xxxs top-margin-auto">
+              <ul class="unstyled-list annotation stack-xxxs">
                 <li class="flex items-center">
                   <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
@@ -462,14 +462,14 @@ include 'pages-shared/static-header.php';
               </ul>
             </div>
           </div>
-          <div class="flex flex-column padding-md">
+          <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Enterprise</h2>
 
             <div class="pricing-plan-table-body flex flex-column stack-sm">
               <div>
                 <span class="font-gray-dark show semi-bold annotation">Starting at</span>
                 <div>
-                  <span class="tubs semi-bold">$<?php echo number_format(floor((1299 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
+                  <span class="chunk semi-bold">$<?php echo number_format(floor((1299 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
                 </div>
                 <span class="js-overage-calculator-annual annotation underline-link font-gray-dark regular pointer track-open-overage-calculator">Pay as you go overage</span>
               </div>
@@ -482,7 +482,7 @@ include 'pages-shared/static-header.php';
                 <li class="flex items-center">
                   <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
 
-                  <span>Everything from <strong>Growth</strong></span>
+                  <span><strong>Everything from Growth</strong></span>
                 </li>
                 <li class="flex items-center">
                   <svg class="right-margin-xxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#6FD350" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"/></svg>
