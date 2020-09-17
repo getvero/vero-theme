@@ -23,8 +23,8 @@
           <p class="large xl-right-margin-lg">The messaging platform to get you from idea to production, faster.</p>
         </div>
         <div class="hero-cta stack-md">
-          <form class="js-signup-form track-signup-form home-signup-form track-signup-form stack-xxs"
-            elemennt-position="top"
+          <form class="js-signup-form home-signup-form track-signup-form stack-xxs"
+            element-position="top"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
