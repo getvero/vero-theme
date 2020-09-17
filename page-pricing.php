@@ -42,7 +42,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Starter</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="semi-bold chunk">$49</span><span class="font-gray-dark">/mo</span>
@@ -53,7 +53,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Newsletters, Workflows and everything you need to get started</p>
+              <p class="font-gray-dark regular">Newsletters, Workflows and everything you need to get started</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -99,7 +99,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Pro</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="semi-bold chunk">$199</span><span class="font-gray-dark">/mo</span>
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Testing, team collaboration and best-in-class support</p>
+              <p class="font-gray-dark regular">Testing, team collaboration and best-in-class support</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -167,7 +167,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Growth</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="semi-bold chunk">$499</span><span class="font-gray-dark">/mo</span>
@@ -178,7 +178,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Advanced message delivery, send in every language</p>
+              <p class="font-gray-dark regular">Advanced message delivery, send in every language</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -210,7 +210,7 @@ include 'pages-shared/static-header.php';
                 </li>
               </ul>
 
-              <ul class="annotation unstyled-list stack-xxxs top-margin-md">
+              <ul class="annotation unstyled-list stack-xxxs top-margin-lg">
                 <li><strong>375,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                 <li><strong>Unlimited</strong> mobile push messages</li>
                 <li class="flex items-center">
@@ -229,7 +229,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Enterprise</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="semi-bold chunk">$1,299</span><span class="font-gray-dark">/mo</span>
@@ -240,7 +240,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Priority account management, support for your entire team</p>
+              <p class="font-gray-dark regular">Priority account management, support for your entire team</p>
 
               <a class="btn btn--secondary full-width" element-position="top" href="/demo/">Schedule a demo</a>
 
@@ -284,7 +284,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Starter</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="chunk semi-bold">$<?php echo number_format(floor((49 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
@@ -295,7 +295,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Newsletters, Workflows and everything you need to get started</p>
+              <p class="font-gray-dark regular">Newsletters, Workflows and everything you need to get started</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
 
@@ -341,7 +341,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Pro</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="chunk semi-bold">$<?php echo number_format(floor((199 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
@@ -352,7 +352,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Testing, team collaboration and best-in-class support</p>
+              <p class="font-gray-dark regular">Testing, team collaboration and best-in-class support</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -410,7 +410,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Growth</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="chunk semi-bold">$<?php echo number_format(floor((499 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
@@ -421,7 +421,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Advanced message delivery, send in every language</p>
+              <p class="font-gray-dark regular">Advanced message delivery, send in every language</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -453,7 +453,7 @@ include 'pages-shared/static-header.php';
                 </li>
               </ul>
 
-              <ul class="unstyled-list annotation stack-xxxs top-margin-md">
+              <ul class="unstyled-list annotation stack-xxxs top-margin-lg">
                 <li><strong>375,000</strong> emails<span class="annotation font-gray-dark">/mo</span></li>
                 <li><strong>Unlimited</strong> mobile push messages</li>
                 <li class="flex items-center">
@@ -472,7 +472,7 @@ include 'pages-shared/static-header.php';
           <div class="bg-white flex flex-column padding-md">
             <h2 class="micro">Enterprise</h2>
 
-            <div class="pricing-plan-table-body flex flex-column stack-sm">
+            <div class="pricing-plan-table-body flex flex-column stack-md">
               <div class="stack-xxxs">
                 <div>
                   <span class="chunk semi-bold">$<?php echo number_format(floor((1299 * 12) * 0.9), 0); ?></span><span class="font-gray-dark">/yr</span>
@@ -483,7 +483,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-darker">Priority account management, support for your entire team</p>
+              <p class="font-gray-dark regular">Priority account management, support for your entire team</p>
 
               <a class="btn btn--secondary full-width track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
 
@@ -1286,7 +1286,7 @@ include 'pages-shared/static-header.php';
             </div>
           </div>
 
-          <p class="annotation font-gray-darker">We calculate overage based on the <strong>customer</strong> metric, with each 1,000 customers including extra emails sent and events tracked. A <strong>customer</strong> is a user / subscriber record in Vero.</p>
+          <p class="annotation font-gray-dark regular">We calculate overage based on the <strong>customer</strong> metric, with each 1,000 customers including extra emails sent and events tracked. A <strong>customer</strong> is a user / subscriber record in Vero.</p>
         </div>
       </div>
 
