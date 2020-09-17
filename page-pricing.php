@@ -18,7 +18,7 @@ function change_body_itemtype( $attributes ) {
 include 'pages-shared/static-header.php';
 ?>
 <section class="pricing-hero small-padding">
-  <div class="inner center-text stack-xxs flush-bottom bottom-margin-md">
+  <div class="inner center-text stack-xxs flush-bottom">
     <h1 class="biggie semi-bold">Pricing that scales as you do</h1>
     <p class="large">Only pay for what you use.</p>
   </div>
