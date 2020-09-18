@@ -89,7 +89,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-stitch-test-event" class="feature-section border-bottom-light">
+<section id="vero-stitch-test-event" class="border-bottom-light">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular no-bottom-margin">Meaningful and actionable insights</h2>
@@ -102,7 +102,7 @@
     </div>
   </div>
 </section>
-<section id="vero-integration-quote" class="feature-section">
+<section id="vero-integration-quote">
   <div class="inner small-inner center-text">
     <img src="/wp-content/themes/vero/assets/dist/images/integrations/stitch/quote-vero.jpg" class="quote-image" alt="Chris Hexton, CEO Vero">
     <p class="tubs quote">“Stitch Data is our pick internally here at Vero to ETL our email engagement to Redshift. Stitch is simple to use and powerful – it's best in class.”</p>
@@ -113,7 +113,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -124,7 +125,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

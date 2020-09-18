@@ -144,7 +144,8 @@
   <div class="inner tiny-inner center-text">
     <h4 class="chunk bottom-margin-sm">Design, manage and optimize your mobile push messages</h4>
 
-    <form class="js-signup-form home-signup-form stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -155,7 +156,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

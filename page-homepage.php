@@ -5,7 +5,6 @@
   <a class="negative flex items-center md-justify-center" href="/drag-and-drop">
      <p><span class="right-margin-xxxs">🎉</span> Better email design with our <strong>new</strong> Drag and Drop editor</p>
 
-
     <span class="font-white underline-link semi-bold items-center left-margin-xs">Find out more<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 11.5L10.5 8 7 4.5h0" fill="none" fill-rule="evenodd"/></svg></span>
   </a>
 </div>
@@ -21,10 +20,11 @@
         <div class="stack-sm">
           <h1 class="hulk semi-bold">Scale personalized customer messages</h1>
 
-          <p class="large xl-right-margin-xxl">The messaging platform to get you from idea to production, faster.</p>
+          <p class="large xl-right-margin-lg">The messaging platform to get you from idea to production, faster.</p>
         </div>
-        <div class="hero-cta stack-sm">
-          <form class="js-signup-form home-signup-form stack-xs"
+        <div class="hero-cta stack-md">
+          <form class="js-signup-form home-signup-form track-signup-form stack-xxs"
+            element-position="top"
             action="https://formkeep.com/f/5401a0ae5cb8"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
@@ -35,11 +35,13 @@
 
               <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-              <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo">
+              <!-- <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo"> -->
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
           </form>
+
+          <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">Schedule a demo</a></p>
         </div>
       </div>
       <div class="col-aside">
@@ -328,7 +330,7 @@
         </a>
 
         <div class="flex flex-column items-center stack-xxs">
-          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#EDEDED" xlink:href="#a"/><path fill="#FFC111" mask="url(#b)" d="M79.476 13.6H73V0h6.476z"/></g></svg>
+          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="44.513%" y2="50%" id="a"><stop stop-color="#FFC111" offset="0%"/><stop stop-color="#FFC111" offset="0%"/><stop stop-color="#FFC111" offset="100%"/><stop stop-color="#FFF" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><path fill="url(#a)" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></g></svg>
 
           <span class="annotation font-gray-dark">Rated <strong>4.3</strong> in Email Marketing Software</span>
         </div>
@@ -336,12 +338,11 @@
 
       <div class="flex flex-column items-center stack-xs horizontal-margin-md">
         <a class="d-inline-block" href="https://www.g2.com/products/vero/reviews?utm_source=rewards-badge">
-          <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h40v40H0z"/><path d="M33.592 12.39h-5.255c.142-.826.65-1.286 1.683-1.81l.968-.493c1.73-.889 2.652-1.889 2.652-3.524 0-1.032-.397-1.842-1.191-2.43-.778-.587-1.73-.873-2.826-.873-.874 0-1.667.222-2.398.683-.714.444-1.254 1.016-1.588 1.73l1.525 1.525c.587-1.191 1.445-1.778 2.572-1.778.953 0 1.54.492 1.54 1.174 0 .572-.286 1.048-1.381 1.604l-.62.302c-1.35.682-2.286 1.46-2.826 2.35-.54.873-.81 2-.81 3.35v.365h7.955V12.39zm-.702 4.687h-8.703l-4.351 7.537h8.702l4.352 7.536 4.35-7.536-4.35-7.537z" fill="#FF492C" fill-rule="nonzero"/><path d="M20.585 29.638c-5.54 0-10.048-4.508-10.048-10.049 0-5.54 4.508-10.048 10.048-10.048l3.44-7.2a17.69 17.69 0 00-3.44-.337C10.873 2.004 3 9.877 3 19.59c0 9.713 7.873 17.586 17.585 17.586 3.873 0 7.452-1.253 10.357-3.373l-3.81-6.599a10.002 10.002 0 01-6.547 2.435z" fill="#FF492C" fill-rule="nonzero"/></g></svg>
+          <svg class="align-middle" width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h40v40H0z"/><path d="M33.592 12.39h-5.255c.142-.826.65-1.286 1.683-1.81l.968-.493c1.73-.889 2.652-1.889 2.652-3.524 0-1.032-.397-1.842-1.191-2.43-.778-.587-1.73-.873-2.826-.873-.874 0-1.667.222-2.398.683-.714.444-1.254 1.016-1.588 1.73l1.525 1.525c.587-1.191 1.445-1.778 2.572-1.778.953 0 1.54.492 1.54 1.174 0 .572-.286 1.048-1.381 1.604l-.62.302c-1.35.682-2.286 1.46-2.826 2.35-.54.873-.81 2-.81 3.35v.365h7.955V12.39zm-.702 4.687h-8.703l-4.351 7.537h8.702l4.352 7.536 4.35-7.536-4.35-7.537z" fill="#FF492C" fill-rule="nonzero"/><path d="M20.585 29.638c-5.54 0-10.048-4.508-10.048-10.049 0-5.54 4.508-10.048 10.048-10.048l3.44-7.2a17.69 17.69 0 00-3.44-.337C10.873 2.004 3 9.877 3 19.59c0 9.713 7.873 17.586 17.585 17.586 3.873 0 7.452-1.253 10.357-3.373l-3.81-6.599a10.002 10.002 0 01-6.547 2.435z" fill="#FF492C" fill-rule="nonzero"/></g></svg>
         </a>
 
-
         <div class="flex flex-column items-center stack-xxs">
-          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#EDEDED" xlink:href="#a"/><path fill="#FFC111" mask="url(#b)" d="M79.476 13.6H73V0h6.476z"/></g></svg>
+          <svg class="align-middle" width="88" height="15" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="44.513%" y2="50%" id="a"><stop stop-color="#FFC111" offset="0%"/><stop stop-color="#FFC111" offset="0%"/><stop stop-color="#FFC111" offset="100%"/><stop stop-color="#FFF" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="#FFC111" d="M7.5 11.25l-4.408 2.318.842-4.91L.367 5.183l4.929-.716L7.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM25.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L25.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM44.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L44.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909zM62.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L62.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/><path fill="url(#a)" d="M80.5 11.25l-4.408 2.318.842-4.91-3.567-3.476 4.929-.716L80.5 0l2.204 4.466 4.929.716-3.567 3.477.842 4.909z"/></g></svg>
 
           <span class="annotation font-gray-dark">Rated <strong>4.3</strong> in Email Marketing Software</span>
         </div>
@@ -387,27 +388,33 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner small-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+  <div class="inner small-inner stack-md">
+    <h4 class="chunk center-text">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
-      action="https://formkeep.com/f/5401a0ae5cb8"
-      accept-charset="UTF-8"
-      enctype="multipart/form-data"
-      method="POST">
+    <div class="stack-md">
+      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xl stack-xs"
+        element-position="bottom"
+        action="https://formkeep.com/f/5401a0ae5cb8"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
 
-      <div class="flex flex-column sm-flex-row">
-        <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+        <div class="flex flex-column sm-flex-row">
+          <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
-        <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+          <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
-      </div>
+          <!-- <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo"> -->
+        </div>
 
-      <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
-    </form>
+        <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
 
-    <span class="show annotation font-gray-dark">No credit card details required</span>
+        <span class="show cation regular center-text font-gray-dark">No credit card details required</span>
+      </form>
+
+      <p class="medium center-text">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">schedule a demo</a></p>
+    </div>
+
   </div>
 </section>
 

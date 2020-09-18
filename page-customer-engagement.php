@@ -18,7 +18,8 @@
 
       <p class="tubs bottom-margin-lg">Send email and push notifications that drive customer engagement and increase revenue</p>
 
-      <form class="js-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-sm stack-xs bottom-margin-sm"
+        element-position="top"
         action="https://formkeep.com/f/5401a0ae5cb8"
         accept-charset="UTF-8"
         enctype="multipart/form-data"
@@ -29,7 +30,7 @@
 
           <input class="btn btn--success btn--medium track-start-trial" element-position="top" type="submit" name="submit" value="Start a free trial">
 
-          <input class="btn underline-link track-contact-us" element-position="top" type="submit" name="talk_to_us" value="Schedule a demo">
+          <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
         </div>
 
         <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
@@ -152,7 +153,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="top"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -163,7 +165,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

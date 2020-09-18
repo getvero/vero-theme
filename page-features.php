@@ -18,7 +18,7 @@
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
-      <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" element-position="top" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Schedule a Demo</a>
+      <a class="btn btn--gray-darker btn--large btn--outline track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
     </div>
   </div>
   <div class="inner xlarge-inner flush-bottom">
@@ -419,18 +419,21 @@
 
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin- stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
       method="POST">
 
       <div class="flex flex-column sm-flex-row">
-        <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+        <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <!-- <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo"> -->
+
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

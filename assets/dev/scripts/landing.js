@@ -653,8 +653,6 @@ jQuery(document).ready(function() {
         var emailFieldVal = jQuery(self).find('.form-control').val();
         var validateMsg = jQuery(self).children('.js-home-contact-msg');
 
-        // console.log(jQuery(self));
-
         // Redirect depending on submit submit_button
         if (emailFieldVal == '') {
           validateMsg.addClass('is-active');
@@ -664,12 +662,34 @@ jQuery(document).ready(function() {
           validateMsg.text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
           window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
-        } else if (subEl.val() == 'Schedule a demo') {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Thank you for getting in touch, we will get in contact very soon');
         }
       });
     });
+  });
+
+  jQuery('.append-user-id').submit(function(e) {
+    var self = this;
+
+    try {anonymous_id = window.analytics._user.anonymousId();}
+    catch {}
+
+    if(typeof anonymous_id !== 'undefined'){
+      // Append the Segment.com anonymous_id
+      jQuery('<input />').attr('type', 'hidden')
+      .attr('name', 'anonymous_id')
+      .attr('value', anonymous_id)
+      .appendTo(self);
+    }
+
+    // Append page path and URL
+    jQuery('<input />').attr('type', 'hidden')
+      .attr('name', 'page_path')
+      .attr('value', window.location.pathname)
+      .appendTo(self);
+    jQuery('<input />').attr('type', 'hidden')
+      .attr('name', 'page_url')
+      .attr('value', window.location.href)
+      .appendTo(self);
   });
 
    // Slide out blog banner

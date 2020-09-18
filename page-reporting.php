@@ -11,14 +11,20 @@
 ?>
 
 <section id="reports-hero" banner-name="Track performance of campaigns" element-position="top">
-  <div class="inner small-inner center-text bottom-padding-lg right-padding-lg left-padding-lg">
-    <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+  <div class="inner tiny-inner center-text bottom-padding-lg stack-lg">
+    <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
       <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Reporting
     </span>
-    <h1 class="biggie semi-bold bottom-margin-sm">Track the true performance of <span class="show">your email campaigns</span></h1>
-    <p class="large">Understand which of your email campaigns engage <span class="show">customers and drive revenue.</span></p>
+
+    <div class="stack-md">
+      <div class="stack-xs">
+        <h1 class="biggie semi-bold">Track the true performance of your email campaigns</h1>
+        <p class="large">Understand which of your email campaigns engage customers and drive revenue.</p>
+      </div>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+    </div>
   </div>
 </section>
 <section id="reports-hero-image" class="double-padding">
@@ -30,25 +36,25 @@
   <div class="inner medium-inner top-padding-xl bottom-padding-xl">
     <h2 class="chunk regular bottom-margin-lg center-text">View and analyze essential email results</h2>
     <ul class="unstyled-list grid grid-halfs">
-      <li class="no-margin flex flex-column lg-flex-row items-start">
+      <li class="flex flex-column lg-flex-row items-start">
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-results.svg" alt="Monitor the overall results for key email campaign metrics">
         <div class="right">
           <p class="medium regular no-top-margin">Monitor the overall results for key email campaign metrics</p>
         </div>
       </li>
-      <li class="no-margin flex flex-column lg-flex-row items-start">
+      <li class="flex flex-column lg-flex-row items-start">
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-day.svg" alt="Chart and export day-by-day metrics for all your campaigns">
         <div class="right">
           <p class="medium regular no-top-margin">Chart and export day-by-day metrics for all your campaigns</p>
         </div>
       </li>
-      <li class="no-margin flex flex-column lg-flex-row items-start">
+      <li class="flex flex-column lg-flex-row items-start">
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-series.svg" alt="Understand how each email within a series drives different results">
         <div class="right">
           <p class="medium regular no-top-margin">Understand how each email within a series drives different results</p>
         </div>
       </li>
-      <li class="no-margin flex flex-column lg-flex-row items-start">
+      <li class="flex flex-column lg-flex-row items-start">
         <img class="right-margin-sm" src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-review.svg" alt="Review results from one campaign to the next, ensuring consistency and stability">
         <div class="right">
           <p class="medium regular no-top-margin">Review results from one campaign to the next, ensuring consistency and stability</p>
@@ -57,7 +63,7 @@
     </ul>
   </div>
 </section>
-<section id="reports-hero-ui-features" class="feature-section double-padding">
+<section id="reports-hero-ui-features" class="double-padding">
   <div class="inner halfs medium-inner left-padding-xl right-padding-xl flush-top">
     <div class="left center-text">
       <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-content-breakdown.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/reporting/report-content-breakdown@2x.png 2x" class="bottom-margin-sm small-responsive-image" alt="Compare the results of A/B tests and different language variations.">
@@ -96,7 +102,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -107,7 +114,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

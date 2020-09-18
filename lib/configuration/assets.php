@@ -33,6 +33,7 @@ function add_js() {
   wp_register_script('main', get_stylesheet_directory_uri() . '/assets/dist/scripts/main.min.js', array('jquery'), NULL, true);
   wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/fout.min.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
+  wp_register_script('demo', get_stylesheet_directory_uri() . '/assets/dist/scripts/demo.min.js', NULL, NULL, true);
   wp_register_script('bxslider', '//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js', NULL, NULL, true);
   wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/prism.min.js', NULL, NULL, true);
   wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
@@ -41,9 +42,15 @@ function add_js() {
   wp_register_script('wnumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
   wp_register_script('lax', '//cdn.jsdelivr.net/npm/lax.js', NULL, NULL, true);
+  wp_register_script('jquery-validate', '//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js', NULL, NULL, true);
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
+
+  if ( is_page('demo') ) {
+    wp_enqueue_script('jquery-validate');
+    wp_enqueue_script('demo');
+  }
 
   if ( is_page('pricing') ) {
     wp_enqueue_script('noui-slider');
@@ -62,12 +69,7 @@ function add_js() {
     wp_enqueue_script('jquery-parallax');
   }
 
-  if ( is_page('pricing') ) {
-    wp_enqueue_script('wNumb');
-    wp_enqueue_script('nouislider');
-  }
-
-  if ( is_page('features') || is_page('multi-language-campaigns') || is_blog_post_or_guide_or_tutorial() ) {
+  if ( is_page('features') || is_page('fusion') || is_page('multi-language-campaigns') || is_blog_post_or_guide_or_tutorial() ) {
     wp_enqueue_script('prism');
   }
 

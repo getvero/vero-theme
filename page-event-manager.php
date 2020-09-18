@@ -9,16 +9,21 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section id="event-manager-heading" banner-name="Send emails using real-time data" element-position="top">
-  <div class="inner small-inner center-text bottom-padding-lg">
-    <span class="flex items-center justify-center atomic semi-bold font-gray-dark bottom-margin-sm xs-bottom-margin-lg">
+<section banner-name="Send emails using real-time data" element-position="top">
+  <div class="inner tiny-inner center-text stack-lg">
+    <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
       <svg class="horizontal-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path stroke="#9D9D9D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5L10.5 8 7 4.5" fill="none" fill-rule="evenodd"/></svg>
       Event Management
     </span>
 
-    <h1 class="chunk semi-bold bottom-margin-sm biggie">Confidently send emails using real-time customer data</h1>
-    <p class="no-top-margin medium">Vero's Event Manager gives marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns. </p>
+    <div class="stack-md">
+      <div class="stack-xs">
+        <h1 class="biggie semi-bold">Confidently send emails using real-time customer data</h1>
+        <p class="large">Give marketing and engineering teams the visibility and clarity to collaborate and rapidly implement personalized email campaigns.</p>
+      </div>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+    </div>
   </div>
 </section>
 <section id="event-manager-event-schema" class="double-padding">
@@ -26,26 +31,27 @@
     <img class="center-text show responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-hero.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-hero@2x.png 2x"  alt="Confidently send emails using real-time customer data">
   </div>
 </section>
-<section id="event-manager-add-event" class="feature-section double-padding">
+<section id="event-manager-add-event" class="double-padding">
   <div class="inner halfs medium-inner flush-bottom">
-    <div class="left primary">
-      <h2 class="tubs regular bottom-margin-lg">Design email campaigns with placeholder events</h2>
-      <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.<br><br>
-      Marketing teams can design personalized customer journeys and then collaborate with engineering to rapidly implement them.</p>
+    <div class="left primary stack-sm">
+      <h2 class="tubs semi-bold">Design email campaigns with placeholder events</h2>
+      <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.</p>
+      <p class="medium">Marketing teams can design personalized customer journeys and then collaborate with engineering to rapidly implement them.</p>
     </div>
     <div class="right secondary">
       <img class="small-responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-add.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-add@2x.png 2x" alt="Design email campaigns with placeholder events">
     </div>
   </div>
 </section>
-<section id="event-manager-test-event" class="feature-section double-padding">
+<section id="event-manager-test-event" class="double-padding">
   <div class="inner halfs medium-inner small-reverse flush-bottom flush-top">
     <div class="left">
       <img class="fl-r small-responsive-image right-padding-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
-    <div class="right">
-      <h2 class="tubs regular bottom-margin-lg">Test and debug automated emails</h2>
-      <p class="medium">Simulate user activity by triggering test events for any customer profile in your Vero account and have complete confidence that your customers will receive the right emails at the right time.<br><br>Trigger live, individual emails to customers and test basic or sophisticated email campaigns with ease.</p>
+    <div class="right stack-sm">
+      <h2 class="tubs semi-bold">Test and debug automated emails</h2>
+      <p class="medium">Simulate user activity by triggering test events for any customer profile in your Vero account and have complete confidence that your customers will receive the right emails at the right time.</p>
+      <p class="medium">Trigger live, individual emails to customers and test basic or sophisticated email campaigns with ease.</p>
     </div>
   </div>
 </section>
@@ -88,7 +94,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -99,7 +106,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

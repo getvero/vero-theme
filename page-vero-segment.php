@@ -84,7 +84,7 @@
     </ul>
   </div>
 </section>
-<section id="vero-segment-test-event" class="feature-section border-bottom-light">
+<section id="vero-segment-test-event" class="border-bottom-light">
   <div class="inner halfs medium-inner small-reverse">
     <div class="left">
       <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
@@ -97,7 +97,7 @@
     </div>
   </div>
 </section>
-<section id="vero-integration-quote" class="feature-section">
+<section id="vero-integration-quote">
   <div class="inner small-inner center-text">
     <img class="quote-image" src="/wp-content/themes/vero/assets/dist/images/integrations/segment/quote-helloprint.jpg"  alt="Michael Heerkens, CTO Helloprint">
     <p class="tubs quote">“The Vero and Segment integration was a matter of ticking a box, putting in an API key and our CRM team was able to set up their first campaign in just a few hours.”</p>
@@ -108,7 +108,8 @@
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-xl stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xl stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -119,7 +120,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

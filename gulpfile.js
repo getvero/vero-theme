@@ -70,16 +70,16 @@ function buildStyles() {
 function uglifyVendorScripts() {
   return gulp
   .src([
-    // 'assets/dev/scripts/**/*.js',
-    // '!assets/dev/scripts/source/*',
-    'assets/dev/scripts/vendor/*.js',
-    '!assets/dev/scripts/source/*',
+    'assets/dev/scripts/**/*.js', // All scripts
+    '!assets/dev/scripts/source/*', // Ignore coffeescript in /source
+    '!assets/dev/scripts/core.js', // Ignore core and landing as they only get minified when concating
+    '!assets/dev/scripts/landing.js' // Above
   ])
   .pipe(terser())
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(gulp.dest('assets/dist/scripts/vendor'))
+  .pipe(gulp.dest('assets/dist/scripts'))
 }
 
 // Concat scripts

@@ -39,7 +39,7 @@
     <div class="flex flex-column xs-flex-row items-center justify-center">
       <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
 
-        <a class="btn btn--gray-darker btn--large btn--outline typeform-share link track-contact-us" element-position="top" data-mode="popup" href="https://getvero.typeform.com/to/d9wZ4V" target="_blank">Schedule a demo</a>
+        <a class="btn btn--gray-darker btn--large btn--outline track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="stack-sm">
@@ -271,7 +271,8 @@
     <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
-    <form class="js-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+      element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
       enctype="multipart/form-data"
@@ -282,7 +283,7 @@
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
 
-        <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo">
+        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
 
       <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
@@ -294,8 +295,6 @@
     <p class="annotation font-gray-dark center-text">Illustrations by <a class="underline-link-rev" href="#none">icons8.com</a></p>
   </div>
 </section>
-
-<script defer> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 <?php
   no_content_genesis_footer();
