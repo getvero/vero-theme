@@ -53,7 +53,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Newsletters, Workflows and everything you need to get started</p>
+              <p class="font-gray-dark regular">Newsletters, Workflows, all you need to get started</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -110,7 +110,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Testing, team collaboration and best-in-class support</p>
+              <p class="font-gray-dark regular">Testing, team collaboration, and best-in-class support</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -240,7 +240,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Priority account management, support for your entire team</p>
+              <p class="font-gray-dark regular">Priority account management, support for the whole team</p>
 
               <a class="btn btn--secondary full-width" element-position="top" href="/demo/">Schedule a demo</a>
 
@@ -295,9 +295,9 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Newsletters, Workflows and everything you need to get started</p>
+              <p class="font-gray-dark regular">Newsletters, Workflows, all you need to get started</p>
 
-              <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
+              <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
               <ul class="unstyled-list annotation stack-xxxs">
                 <li class="flex items-center">
@@ -352,7 +352,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Testing, team collaboration and best-in-class support</p>
+              <p class="font-gray-dark regular">Testing, team collaboration, and best-in-class support</p>
 
               <a class="btn btn--success full-width track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
@@ -483,7 +483,7 @@ include 'pages-shared/static-header.php';
                 </div>
               </div>
 
-              <p class="font-gray-dark regular">Priority account management, support for your entire team</p>
+              <p class="font-gray-dark regular">Priority account management, support for the whole team</p>
 
               <a class="btn btn--secondary full-width track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
 
