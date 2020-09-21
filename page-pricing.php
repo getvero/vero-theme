@@ -242,7 +242,7 @@ include 'pages-shared/static-header.php';
 
               <p class="font-gray-dark regular">Priority account management, support for the whole team</p>
 
-              <a class="btn btn--secondary full-width" element-position="top" href="/demo/">Schedule a demo</a>
+              <a class="btn btn--secondary full-width track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
 
               <ul class="annotation unstyled-list stack-xxxs">
                 <li class="flex items-center">
@@ -1328,7 +1328,7 @@ include 'pages-shared/static-header.php';
           </div>
         </div>
 
-        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" element-position="overage" href="https://app.getvero.com/signup">Try for free</a>
+        <a class="js-pricing-btn btn btn--large btn--success full-width track-start-trial" element-position="overage" href="https://app.getvero.com/signup">Start a free trial</a>
 
         <a class="js-pricing-btn btn btn--large btn--success full-width track-contact-us" element-position="overage" href="/demo/">Schedule a demo</a>
       </div>
