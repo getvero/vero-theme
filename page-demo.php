@@ -70,7 +70,7 @@
             <div class="flex flex-wrap demo-form-halfs justify-between">
               <div>
                 <label class="show annotation regular font-gray-dark bottom-margin-xxxs" for="field-1">First name</label>
-                <input class="bg-offwhite form-control form-control--sm full-width" id="field-1" name="first-name" type="text" required>
+                <input class="bg-offwhite form-control form-control--sm full-width track-first-name" id="field-1" name="first-name" type="text" required>
               </div>
 
               <div>
