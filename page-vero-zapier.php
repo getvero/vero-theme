@@ -189,17 +189,12 @@
   <div class="inner xlarge-inner center-text stack-md">
     <h2 class="chunk semi-bold">Zapier recipes</h2>
 
-    <input class="hide featured-radio" id="featured-recipe" name="integration-zapier" type="checkbox" checked>
     <input class="hide acquisition-radio" id="acquisition-recipe" name="integration-zapier" type="checkbox" checked>
     <input class="hide referral-radio" id="referral-recipe" name="integration-zapier" type="checkbox" checked>
+    <input class="hide retention-radio" id="retention-recipe" name="integration-zapier" type="checkbox" checked>
     <input class="hide tracking-radio" id="tracking-recipe" name="integration-zapier" type="checkbox" checked>
 
     <div class="flex justify-center integration-recipe-switcher">
-      <!-- <label class="flex items-center integration-label semi-bold" data-category="featured" for="featured-recipe">
-        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
-
-        <span>Featured</span>
-      </label> -->
       <label class="flex items-center integration-label semi-bold" data-category="acquisition" for="acquisition-recipe">
         <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
 
@@ -210,6 +205,11 @@
 
         <span>Referral</span>
       </label>
+      <label class="flex items-center integration-label semi-bold" data-category="retention" for="retention-recipe">
+        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
+
+        <span>Retention</span>
+      </label>
       <label class="flex items-center integration-label semi-bold" data-category="tracking" for="tracking-recipe">
         <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
 
@@ -217,52 +217,54 @@
       </label>
     </div>
 
-    <ul class="integration-recipe-list unstyled-list flex flex-wrap">
+    <input class="hide recipe-reveal" id="integration-recipe-reveal" name="reveal" type="checkbox">
+
+    <ul class="integration-recipe-list unstyled-list relative flex flex-wrap">
       <?php
       // Loop through Array
       $someJSON =
       '[
         {
+          "featured"   : "featured",
           "integration": "Facebook Ads",
           "desc"       : "Send new leads from Facebook Lead Ads to Vero",
           "tag"        : "Acquisition",
-          "team"       : "Marketing",
-          "featured"   : "featured"
+          "team"       : "Marketing"
         },
         {
+          "featured"   : "featured",
           "integration": "Stripe",
           "desc"       : "Add or update Vero contacts when there are new Stripe charges or events",
           "tag"        : "Tracking",
-          "team"       : "Engineering",
-          "featured"   : "featured"
+          "team"       : "Engineering"
         },
         {
+          "featured"   : "featured",
           "integration": "Salesforce",
           "desc"       : "Add new Salesforce leads to Vero or update contacts",
           "tag"        : "Acquisition",
-          "team"       : "Sale",
-          "featured"   : "featured"
+          "team"       : "Sale"
         },
         {
+          "featured"   : "featured",
           "integration": "Google Sheet",
           "desc"       : "Track event in Vero using a Google Sheet",
           "tag"        : "Tracking",
-          "team"       : "Marketing",
-          "featured"   : "featured"
+          "team"       : "Marketing"
         },
         {
+          "featured"   : "featured",
           "integration": "Mailchimp",
           "desc"       : "Sync unsubscribes from Mailchimp to Vero",
           "tag"        : "Tracking",
-          "team"       : "Marketing",
-          "featured"   : "featured"
+          "team"       : "Marketing"
         },
         {
+          "featured"   : "featured",
           "integration": "Google Ads",
           "desc"       : "Add new leads in Google lead form extension to contact lists in Vero",
           "tag"        : "Acquisition",
-          "team"       : "Marketing",
-          "featured"   : "featured"
+          "team"       : "Marketing"
         },
         {
           "integration": "Typeform",
@@ -406,37 +408,43 @@
           "integration": "Gravity Forms",
           "desc"       : "Add Vero subscribers from new Gravity Forms submissions",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Leadpages",
           "desc"       : "Add new Vero subscribers for new Leadpages submissions",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Google Sheet",
           "desc"       : "Add new Vero subscribers to a Google Sheet as rows",
           "tag"        : "Tracking",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Google Forms",
           "desc"       : "Create Vero subscribers from Google Forms responses",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Paypal",
           "desc"       : "Add new PayPal customers to Vero as new contacts",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "ManyChat",
           "desc"       : "Add ManyChat subscribers to Vero",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "SurveyMonkey",
@@ -448,25 +456,22 @@
           "integration": "GoToWebinar",
           "desc"       : "Add new GoToWebinar registrants to Vero as new subscribers",
           "tag"        : "Acquisition",
-          "team"       : "Sale"
-        },
-        {
-          "integration": "GoToWebinar",
-          "desc"       : "Add new GoToWebinar registrants to Vero as new subscribers",
-          "tag"        : "Acquisition",
-          "team"       : "Sale"
+          "team"       : "Sale",
+          "image"      : "sql.svg"
         },
         {
           "integration": "PaperForm",
           "desc"       : "Add subscribers to ActiveCampaign from new Paperform submissions",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Insightly",
           "desc"       : "Add Insightly leads to Vero as subscribers",
           "tag"        : "Acquisition",
-          "team"       : "Sale"
+          "team"       : "Sale",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Formstack",
@@ -490,13 +495,15 @@
           "integration": "Facebook Ads",
           "desc"       : "Add new Vero campaign conversion as Facebook Offline Conversions",
           "tag"        : "Tracking",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Zoom",
           "desc"       : "Add new Vero contacts from new Zoom registrants",
           "tag"        : "Acquisition",
-          "team"       : "Marketing"
+          "team"       : "Marketing",
+          "image"      : "sql.svg"
         },
         {
           "integration": "Airtasker",
@@ -567,13 +574,13 @@
       // Loop through Object
       foreach($someObject as $key => $value) {
         $integration = $value->integration;
-        $new = str_replace(" ", "-", $integration);
+        $newStr = str_replace(" ", "-", $integration);
 
         ?>
           <li class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($value->tag) . " " . $value->featured ?>">
             <div class="stack-xxxs">
               <div class="flex items-center justify-center">
-                <div class="integration-logo integration-logo--<?php echo strtolower($new) ?>"></div>
+                <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newStr) ?>.svg" alt="<?php echo $value->integration ?>">
 
                 <svg class="align-middle horizontal-margin-xxs" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8 0a1 1 0 011 1v6h6a1 1 0 110 2H9v6a1 1 0 11-2 0V9H1a1 1 0 010-2h6V1a1 1 0 011-1z" fill="#9D9D9D"/></g></svg>
 
@@ -591,6 +598,10 @@
       }
 
       ?>
+
+      <li>
+        <label class="absolute annotation tracked uppercase bg-white border border-radius-2 padding-sm" for="integration-recipe-reveal">View more</label>
+      </li>
     </ul>
   </div>
 </section>
