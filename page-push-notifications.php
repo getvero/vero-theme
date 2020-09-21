@@ -26,7 +26,7 @@
       <a class="btn btn--success btn--large bottom-margin-md track-start-trial"  element-position="top" href="https://app.getvero.com/signup">Get started</a>
     </div>
   </section>
-  <section class="xs-bg-dots tiny-padding">
+  <section class="xs-bg-dots small-padding">
     <div class="inner xs-flush-bottom">
       <ul class="unstyled-list flex flex-column xs-flex-row justify-center items-center push-list">
           <li class="no-margin">
