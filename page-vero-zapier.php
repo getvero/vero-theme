@@ -194,24 +194,32 @@
     <input class="hide retention-radio" id="retention-recipe" name="integration-zapier" type="checkbox" checked>
     <input class="hide tracking-radio" id="tracking-recipe" name="integration-zapier" type="checkbox" checked>
 
-    <div class="flex justify-center integration-recipe-switcher">
-      <label class="flex items-center integration-label semi-bold" data-category="acquisition" for="acquisition-recipe">
-        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
+    <div class="flex flex-wrap justify-center integration-recipe-switcher">
+      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="acquisition" for="acquisition-recipe">
+        <div class="bg-white box border right-margin-xxxs">
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+        </div>
 
         <span>Acquisition</span>
       </label>
-      <label class="flex items-center integration-label semi-bold" data-category="referral" for="referral-recipe">
-        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
+      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="referral" for="referral-recipe">
+        <div class="bg-white box border right-margin-xxxs">
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+        </div>
 
         <span>Referral</span>
       </label>
-      <label class="flex items-center integration-label semi-bold" data-category="retention" for="retention-recipe">
-        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
+      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="retention" for="retention-recipe">
+        <div class="bg-white box border right-margin-xxxs">
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+        </div>
 
         <span>Retention</span>
       </label>
-      <label class="flex items-center integration-label semi-bold" data-category="tracking" for="tracking-recipe">
-        <svg class="align-middle right-margin-xxxs" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="#ffffff" d="M15.126 2.38a1.3 1.3 0 010 1.84l-8.755 8.755a1.294 1.294 0 01-.72.365l-.133.014h-.133a1.295 1.295 0 01-.852-.38L1.38 9.824a1.3 1.3 0 111.838-1.839l2.232 2.232 7.837-7.835a1.3 1.3 0 011.838 0z" fill-rule="evenodd"></path></svg>
+      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="tracking" for="tracking-recipe">
+        <div class="bg-white box border right-margin-xxxs">
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+        </div>
 
         <span>Tracking</span>
       </label>
@@ -219,7 +227,7 @@
 
     <input class="hide recipe-reveal" id="integration-recipe-reveal" name="reveal" type="checkbox">
 
-    <ul class="integration-recipe-list unstyled-list relative flex flex-wrap">
+    <div class="js-integration-recipe-list integration-recipe-list">
       <?php
       // Loop through Array
       $someJSON =
@@ -571,38 +579,85 @@
       // Convert JSON string to Array
       $someObject = json_decode($someJSON);
 
+      $count = 1;
+
       // Loop through Object
       foreach($someObject as $key => $value) {
         $integration = $value->integration;
         $newStr = str_replace(" ", "-", $integration);
 
-        ?>
-          <li class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($value->tag) . " " . $value->featured ?>">
-            <div class="stack-xxxs">
+        if ($value->featured == "featured") {
+          if ($count%6 == 1) {
+            echo "<div class='js-integration-recipe-featured flex flex-wrap'>";
+          }
+
+          ?>
+          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($value->tag) . " " . $value->featured ?>">
+            <div class="stack-xxs">
               <div class="flex items-center justify-center">
                 <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newStr) ?>.svg" alt="<?php echo $value->integration ?>">
 
-                <svg class="align-middle horizontal-margin-xxs" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8 0a1 1 0 011 1v6h6a1 1 0 110 2H9v6a1 1 0 11-2 0V9H1a1 1 0 010-2h6V1a1 1 0 011-1z" fill="#9D9D9D"/></g></svg>
+                <svg class="align-middle horizontal-margin-xxs" width="12" height="12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M6 0a1 1 0 011 1v4h4a1 1 0 110 2H7v4a1 1 0 11-2 0V7H1a1 1 0 110-2h4V1a1 1 0 011-1z" fill="#9D9D9D"/></g></svg>
 
                 <svg class="align-middle" width="32" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M28.203.002a3.789 3.789 0 00-.12-.002H3.743A3.733 3.733 0 000 3.761c0 .47.09.92.253 1.335.076.233.177.463.302.685l12.1 21.034c.173.301.381.57.615.802a3.752 3.752 0 002.747 1.183c.911 0 1.75-.341 2.396-.902.365-.29.684-.652.933-1.083l12.1-21.034a3.81 3.81 0 00.297-.672c.166-.418.257-.873.257-1.348C32 1.668 30.34 0 28.325 0c-.041 0-.082 0-.122.002zM17.196 19.78L26.765 3.1c.034-.048.057-.084.07-.105a1.658 1.658 0 011.49-.906c.866 0 1.595.734 1.595 1.672a1.7 1.7 0 01-.278.905.094.094 0 00-.034.07l-10.54 18.318-1.872-3.274zM3.883 2.09h21.079L23.09 5.362H3.675c-.9 0-1.63-.733-1.63-1.602 0-.939.73-1.672 1.63-1.672h.208zm6.225 5.362h11.784L16 17.695 10.108 7.452zm4.384 18.388c.002-.025-.01-.044-.035-.07L3.952 7.452h3.745L17.3 24.133a.472.472 0 00.07.14c.147.245.242.554.242.905 0 .87-.728 1.602-1.595 1.602-.684 0-1.252-.39-1.525-.94z" id="a"/></defs><use fill="#0AA6D2" xlink:href="#a" transform="translate(0 6)" fill-rule="evenodd"/></svg>
               </div>
 
-              <p class="annotation"><?php echo $value->desc ?></p>
+              <p><?php echo $value->desc ?></p>
             </div>
 
-            <div class="padding-xs border-top-light flex justify-center">
-              <span class="cation semi-bold uppercase"><?php echo $value->tag ?></span>
+            <div class="flex justify-center integration-recipe-tags">
+              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->featured ?></span>
+              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
             </div>
-          </li>
-        <?php
+          </div>
+          <?php
+
+          if ($count%6 == 0) {
+            echo "</div>";
+          }
+          $count++;
+
+        }
       }
 
       ?>
 
-      <li>
-        <label class="absolute annotation tracked uppercase bg-white border border-radius-2 padding-sm" for="integration-recipe-reveal">View more</label>
-      </li>
-    </ul>
+      <label class="annotation semi-bold tracked uppercase underline-link" for="integration-recipe-reveal">View more recipes</label>
+
+      <div class="flex-wrap">
+
+      <?php
+      // Loop through Object
+      foreach($someObject as $key => $value) {
+        $integration = $value->integration;
+        $newStr = str_replace(" ", "-", $integration);
+
+        if ($value->featured == "") {
+          ?>
+          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($value->tag) . " " . $value->featured ?>">
+            <div class="stack-xxs">
+              <div class="flex items-center justify-center">
+                <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newStr) ?>.svg" alt="<?php echo $value->integration ?>">
+
+                <svg class="align-middle horizontal-margin-xxs" width="12" height="12" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M6 0a1 1 0 011 1v4h4a1 1 0 110 2H7v4a1 1 0 11-2 0V7H1a1 1 0 110-2h4V1a1 1 0 011-1z" fill="#9D9D9D"/></g></svg>
+
+                <svg class="align-middle" width="32" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M28.203.002a3.789 3.789 0 00-.12-.002H3.743A3.733 3.733 0 000 3.761c0 .47.09.92.253 1.335.076.233.177.463.302.685l12.1 21.034c.173.301.381.57.615.802a3.752 3.752 0 002.747 1.183c.911 0 1.75-.341 2.396-.902.365-.29.684-.652.933-1.083l12.1-21.034a3.81 3.81 0 00.297-.672c.166-.418.257-.873.257-1.348C32 1.668 30.34 0 28.325 0c-.041 0-.082 0-.122.002zM17.196 19.78L26.765 3.1c.034-.048.057-.084.07-.105a1.658 1.658 0 011.49-.906c.866 0 1.595.734 1.595 1.672a1.7 1.7 0 01-.278.905.094.094 0 00-.034.07l-10.54 18.318-1.872-3.274zM3.883 2.09h21.079L23.09 5.362H3.675c-.9 0-1.63-.733-1.63-1.602 0-.939.73-1.672 1.63-1.672h.208zm6.225 5.362h11.784L16 17.695 10.108 7.452zm4.384 18.388c.002-.025-.01-.044-.035-.07L3.952 7.452h3.745L17.3 24.133a.472.472 0 00.07.14c.147.245.242.554.242.905 0 .87-.728 1.602-1.595 1.602-.684 0-1.252-.39-1.525-.94z" id="a"/></defs><use fill="#0AA6D2" xlink:href="#a" transform="translate(0 6)" fill-rule="evenodd"/></svg>
+              </div>
+
+              <p><?php echo $value->desc ?></p>
+            </div>
+
+            <div class="flex justify-center integration-recipe-tags">
+              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
+            </div>
+          </div>
+          <?php
+        }
+      }
+      ?>
+
+      </div>
+    </div>
   </div>
 </section>
 <section class="flush-padding padding-md">
