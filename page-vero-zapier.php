@@ -120,65 +120,53 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner medium-inner stack-md">
+  <div class="inner small-inner stack-lg">
     <h2 class="chunk semi-bold center-text">Create your own automation journey</h2>
 
-    <div class="integration-triggers-actions flex justify-between">
+    <div class="integration-triggers-actions flex flex-wrap justify-between">
       <div class="stack-md center-text triggers">
-        <div class="stack-xs">
-          <div>
-            <svg class="align-middle" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M24.769 14.467c.519-.643.107-1.666-.67-1.666h-5.794l2.692-9.495c.291-1.027-.883-1.769-1.528-.967L7.23 17.533c-.519.643-.107 1.666.67 1.666h5.79l-2.688 9.495c-.291 1.027.883 1.769 1.528.967L24.77 14.467z" fill-rule="nonzero" stroke="#FFC111" stroke-width="2" fill="none"/></svg>
-          </div>
-
-          <div class="stack-xxs">
-            <span class="show annotation semi-bold uppercase font-gray-dark tracked">Triggers</span>
-            <h3 class="micro semi-bold">When this happens…</h3>
-          </div>
+        <div class="stack-xxxs">
+          <span class="show annotation semi-bold uppercase font-gray-dark tracked">Triggers</span>
+          <h3 class="micro semi-bold">When this happens…</h3>
         </div>
 
-        <ul class="unstyled-list padding-md border-radius-2 border bg-offwhite stack-xxs">
-          <li class="d-inline-block bg-white border border-radius-2 bottom-margin-xs">
+        <ul class="unstyled-list stack-sm">
+          <li class="d-inline-block bg-white border border-radius-2">
             <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
           </li>
           <li>
-            <span class="show atomic regular">Update user</span>
+            <span class="show regular">Update user</span>
           </li>
           <li>
-            <span class="atomic regular">New user</span>
+            <span class="show regular">New user</span>
           </li>
           <li>
-            <span class="atomic regular">Unsubscribed user</span>
+            <span class="show regular">Unsubscribed user</span>
           </li>
         </ul>
       </div>
 
       <div class="stack-md center-text actions">
-        <div class="stack-xs">
-          <div>
-            <svg class="align-middle" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16.2 9a.8.8 0 01.8.8v5.6h5.6a.8.8 0 110 1.6H17v5.6a.8.8 0 11-1.6 0V17H9.8a.8.8 0 110-1.6h5.6V9.8a.8.8 0 01.8-.8z" fill="#F15242"/><circle stroke="#F15242" stroke-width="2" cx="16" cy="16" r="12"/></g></svg>
-          </div>
-
-          <div class="stack-xxs">
-            <span class="show annotation semi-bold uppercase font-gray-dark tracked">Actions</span>
-            <h3 class="micro semi-bold">Do this…</h3>
-          </div>
+        <div class="stack-xxxs">
+          <span class="show annotation semi-bold uppercase font-gray-dark tracked">Actions</span>
+          <h3 class="micro semi-bold">Do this…</h3>
         </div>
 
-        <ul class="unstyled-list padding-md border-radius-2 border bg-offwhite stack-xxs">
-          <li class="d-inline-block bg-white border border-radius-2 bottom-margin-xs">
+        <ul class="unstyled-list stack-sm">
+          <li class="d-inline-block bg-white border border-radius-2">
             <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
           </li>
           <li>
-            <span class="show atomic regular">Create or update a user</span>
+            <span class="show regular">Create or update a user</span>
           </li>
           <li>
-            <span class="atomic regular">Track an event</span>
+            <span class="show regular">Track an event</span>
           </li>
           <li>
-            <span class="atomic regular">Unsubscribe a user</span>
+            <span class="show regular">Unsubscribe a user</span>
           </li>
           <li>
-            <span class="atomic regular">Update user tags</span>
+            <span class="show regular">Update user tags</span>
           </li>
         </ul>
       </div>
@@ -588,7 +576,7 @@
 
         if ($value->featured == "featured") {
           if ($count%6 == 1) {
-            echo "<div class='js-integration-recipe-featured flex flex-wrap'>";
+            echo "<div class='flex flex-wrap'>";
           }
 
           ?>
