@@ -94,29 +94,38 @@
     }
 
     ?>
-      <section class="bg-gray-lighter">
-        <div class="inner small-inner center-text stack-md">
-          <h4 class="chunk">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+      <section class="resources-cta bg-gray-lighter overflow-hidden">
+        <div class="inner xlarge-inner">
+          <div class="w-sidebar w-sidebar--feature-xxl">
+            <div class="col-main stack-md">
+              <h4 class="tubs semi-bold">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-          <form class="js-signup-form track-signup-form home-signup-form md-horizontal-margin-lg stack-xs"
-            element-position="bottom"
-            action="https://formkeep.com/f/5401a0ae5cb8"
-            accept-charset="UTF-8"
-            enctype="multipart/form-data"
-            method="POST">
+              <form class="js-signup-form track-signup-form home-signup-form stack-xs"
+                element-position="bottom"
+                action="https://formkeep.com/f/5401a0ae5cb8"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
+                method="POST">
 
-            <div class="flex flex-column sm-flex-row">
-              <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
+                <div class="flex flex-column sm-flex-row">
+                  <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
 
-              <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+                  <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+                </div>
 
-              <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
+                <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+
+                <span class="d-inline-block cation font-gray-dark">Free for 30 days. No credit card details required</span>
+              </form>
+
+              <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="bottom">Schedule a demo</a></p>
             </div>
+            <div class="col-aside left-margin-auto md-right-text relative">
+              <svg class="z-1 absolute" width="167" height="92" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M166 1H23.234C10.954 1 1 10.955 1 23.234c0 12.28 9.955 22.235 22.234 22.235h66C101.807 45.469 112 55.66 112 68.234S101.807 91 89.234 91H63.301h0" stroke="#01B2D0" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
 
-            <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
-          </form>
-
-          <span class="d-inline-block annotation font-gray-dark">No credit card details required</span>
+              <img class="z-0 absolute align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/resources/workflows.png" srcset="/wp-content/themes/vero/assets/dist/images/resources/workflows@2x.png 2x" alt="Workflows">
+            </div>
+          </div>
         </div>
       </section>
     <?php
