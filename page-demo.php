@@ -65,12 +65,12 @@
 
       <div class="col-aside relative">
         <div class="bg-white border-radius-2 shadow-4">
-          <form class="js-demo-form demo-form stack-sm append-user-id" method="post" action="https://formkeep.com/f/f8f7745fab13" accept-charset="UTF-8" enctype="multipart/form-data">
+          <form class="js-demo-form demo-form stack-sm append-user-id track-demo-form" method="post" action="https://formkeep.com/f/f8f7745fab13" accept-charset="UTF-8" enctype="multipart/form-data">
             <h2>Schedule a demo</h2>
             <div class="flex flex-wrap demo-form-halfs justify-between">
               <div>
                 <label class="show annotation regular font-gray-dark bottom-margin-xxxs" for="field-1">First name</label>
-                <input class="bg-offwhite form-control form-control--sm full-width" id="field-1" name="first-name" type="text" required>
+                <input class="bg-offwhite form-control form-control--sm full-width track-first-name" id="field-1" name="first-name" type="text" required>
               </div>
 
               <div>
@@ -105,7 +105,7 @@
               </select>
             </div>
             <div>
-              <input class="btn btn--success full-width" value="Schedule a demo" type="submit">
+              <input class="btn btn--success full-width track-contact-us" element-position="" value="Schedule a demo" type="submit">
             </div>
             <input type="hidden" name="subscribe_f8f7745fab13_28100"/>
           </form>
