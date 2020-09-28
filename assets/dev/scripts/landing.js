@@ -516,11 +516,21 @@ jQuery(document).ready(function() {
   // }
 
   // Blog subscribe form validation
-  jQuery.each(jQuery('.js-subscribe-form input, .js-subscribe-form select'), function(index, control) {
+  jQuery('.js-subscribe-form').validate({
+    errorClass  : 'error-msg',
+    errorElement: 'span'
+  });
+
+  jQuery.each(jQuery('.js-subscribe-form input'), function(index, control) {
     jQuery(control).focusout(function() {
       jQuery('.js-subscribe-form').validate().element(this);
     });
   });
+
+  function validEmail(email) {
+    var regex = /^.+@.+\..+$/;
+    return regex.test(email);
+  }
 
   // Blog subscribe form
   jQuery('.js-subscribe-form').each(function(index) {
@@ -549,7 +559,7 @@ jQuery(document).ready(function() {
         .appendTo('.js-subscribe-form');
 
       // needs for recaptacha ready
-      // grecaptcha.ready(function() {
+      grecaptcha.ready(function() {
         // do request for recaptcha token
         // response is promise with passed token
         grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
@@ -557,26 +567,40 @@ jQuery(document).ready(function() {
           // add token to form
           jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 
-          var formEl = jQuery('.js-subscribe-form');
+          var formEl        = jQuery('.js-subscribe-form');
+          var emailFieldVal = formEl.find('.form-control').val();
 
-          jQuery.ajax({
-            type: 'POST',
-            url: formEl.prop('action'),
-            accept: {
-              javascript: 'application/javascript'
-            },
-            data: formEl.serialize()
-          }).done(function(data) {
-            var thisForm = jQuery('.js-subscribe-form').eq(index);
+          if (emailFieldVal && validEmail(emailFieldVal)) {
+            jQuery.ajax({
+              type: 'POST',
+              url: formEl.prop('action'),
+              accept: {
+                javascript: 'application/javascript'
+              },
+              data: formEl.serialize()
+            }).done(function(data) {
+              // console.log('submitted');
 
-            thisForm.addClass('hide');
+              var thisForm = jQuery('.js-subscribe-form').eq(index);
 
-            var successMsgText = document.createElement('h3');
+              thisForm.addClass('hide');
 
-            successMsgText.className = 'no-margin';
-            successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-            document.querySelector('.form-box').append(successMsgText);
-          });
+              if (index == 0) {
+                var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
+                var subscribeMsgText = document.createElement('p');
+
+                subscribeMsg.querySelector('h3').textContent = 'Almost there!';
+                subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
+                subscribeMsg.append(subscribeMsgText);
+              } else if (index == 1) {
+                var successMsgText = document.createElement('h3');
+
+                successMsgText.className = 'no-margin';
+                successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+                document.querySelector('.form-box').append(successMsgText);
+              }
+            });
+          }
         });
       });
     });
@@ -632,11 +656,6 @@ jQuery(document).ready(function() {
           value: subEl.val()
         })
       );
-
-      function validEmail(email) {
-        var regex = /^.+@.+\..+$/;
-        return regex.test(email);
-      }
 
       var formEl = jQuery(self);
       jQuery.ajax({
