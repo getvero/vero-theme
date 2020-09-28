@@ -515,75 +515,75 @@ jQuery(document).ready(function() {
   //   });
   // }
 
-  // jQuery('.js-subscribe-form').each(function(index) {
-  //   jQuery(this).on('submit', function() {
-  //     event.preventDefault();
+  jQuery('.js-subscribe-form').each(function(index) {
+    jQuery(this).on('submit', function() {
+      event.preventDefault();
 
-  //     try {anonymous_id = window.analytics._user.anonymousId();}
-  //     catch {}
+      try {anonymous_id = window.analytics._user.anonymousId();}
+      catch {}
 
-  //     if(typeof anonymous_id !== 'undefined'){
-  //       // Append the Segment.com anonymous_id
-  //       jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'anonymous_id')
-  //       .attr('value', anonymous_id)
-  //       .appendTo('.js-subscribe-form');
-  //     }
+      if(typeof anonymous_id !== 'undefined'){
+        // Append the Segment.com anonymous_id
+        jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'anonymous_id')
+        .attr('value', anonymous_id)
+        .appendTo('.js-subscribe-form');
+      }
 
-  //     // Append page path and URL
-  //     jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'page_path')
-  //       .attr('value', window.location.pathname)
-  //       .appendTo('.js-subscribe-form');
-  //     jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'page_url')
-  //       .attr('value', window.location.href)
-  //       .appendTo('.js-subscribe-form');
+      // Append page path and URL
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_path')
+        .attr('value', window.location.pathname)
+        .appendTo('.js-subscribe-form');
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_url')
+        .attr('value', window.location.href)
+        .appendTo('.js-subscribe-form');
 
-  //     // needs for recaptacha ready
-  //     grecaptcha.ready(function() {
-  //       // do request for recaptcha token
-  //       // response is promise with passed token
-  //       grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+      // needs for recaptacha ready
+      grecaptcha.ready(function() {
+        // do request for recaptcha token
+        // response is promise with passed token
+        grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
 
-  //         // add token to form
-  //         jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+          // add token to form
+          jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 
-  //         var formEl = jQuery('.js-subscribe-form');
+          var formEl = jQuery('.js-subscribe-form');
 
-  //         jQuery.ajax({
-  //           type: 'POST',
-  //           url: formEl.prop('action'),
-  //           accept: {
-  //             javascript: 'application/javascript'
-  //           },
-  //           data: formEl.serialize()
-  //         }).done(function(data) {
-  //           // console.log('submitted');
+          jQuery.ajax({
+            type: 'POST',
+            url: formEl.prop('action'),
+            accept: {
+              javascript: 'application/javascript'
+            },
+            data: formEl.serialize()
+          }).done(function(data) {
+            // console.log('submitted');
 
-  //           var thisForm = jQuery('.js-subscribe-form').eq(index);
+            var thisForm = jQuery('.js-subscribe-form').eq(index);
 
-  //           thisForm.addClass('hide');
+            thisForm.addClass('hide');
 
-  //           if (index == 0) {
-  //             var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
-  //             var subscribeMsgText = document.createElement('p');
+            if (index == 0) {
+              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
+              var subscribeMsgText = document.createElement('p');
 
-  //             subscribeMsg.querySelector('h3').textContent = 'Almost there!';
-  //             subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
-  //             subscribeMsg.append(subscribeMsgText);
-  //           } else if (index == 1) {
-  //             var successMsgText = document.createElement('h3');
+              subscribeMsg.querySelector('h3').textContent = 'Almost there!';
+              subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              subscribeMsg.append(subscribeMsgText);
+            } else if (index == 1) {
+              var successMsgText = document.createElement('h3');
 
-  //             successMsgText.className = 'no-margin';
-  //             successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-  //             document.querySelector('.form-box').append(successMsgText);
-  //           }
-  //         });
-  //       });
-  //     });
-  //   });
-  // });
+              successMsgText.className = 'no-margin';
+              successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+              document.querySelector('.form-box').append(successMsgText);
+            }
+          });
+        });
+      });
+    });
+  });
 
   // Add lax to Drag and Drop
   if (document.body.classList.contains('drag-and-drop')) {

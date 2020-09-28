@@ -19,6 +19,29 @@
             <a href="https://www.getvero.com">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
             </a>
+
+
+            <div class="js-subscribe-form-msg stack-xs">
+              <h3 class="semi-bold font-white">Insights, tips and tools for creating better customer messaging and product experiences</h3>
+            </div>
+
+            <form class="js-subscribe-form subscribe-form stack-xs"
+              action="https://formkeep.com/f/642bee56a32f"
+              accept-charset="UTF-8"
+              enctype="multipart/form-data"
+              method="POST">
+              <input type="hidden" name="utf8" value="✓">
+
+              <div class="flex">
+                <input class="form-control" type="email" name="email">
+
+                <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
+              </div>
+
+              <span class="show annotation font-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
+            </form>
+
+
           </div>
           <div class="col-aside">
             <ul class="unstyled-list footer-list font-white regular stack-0">
