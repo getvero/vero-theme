@@ -23,7 +23,7 @@
             <div class="stack-sm">
               <div class="js-subscribe-form-msg">
                 <!-- <h3 class="semi-bold font-white">Insights, tips and tools for creating better customer messaging and product experiences</h3> -->
-                <h3 class="atomic semi-bold font-white">Subscribe to our newsletter for insights, tips and tools on sending better customer communciations</h3>
+                <h3 class="atomic semi-bold font-white">Subscribe to our newsletter for insights on sending better customer communciations</h3>
               </div>
 
               <form class="js-subscribe-form subscribe-form stack-sm"
