@@ -33,7 +33,7 @@
               <input type="hidden" name="utf8" value="✓">
 
               <div class="flex">
-                <input class="form-control" type="email" name="email">
+                <input class="form-control" type="email" name="email" required>
 
                 <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
               </div>

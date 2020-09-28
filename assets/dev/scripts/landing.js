@@ -495,9 +495,9 @@ jQuery(document).ready(function() {
     }
   });
 
-  var resourcesHeader            = document.querySelector('.js-resources-header');
-  var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
-  var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
+  // var resourcesHeader            = document.querySelector('.js-resources-header');
+  // var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
+  // var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
   // if (resourcesHeader) {
   //   // Open subscribe form
@@ -515,6 +515,14 @@ jQuery(document).ready(function() {
   //   });
   // }
 
+  // Blog subscribe form validation
+  jQuery.each(jQuery('.js-subscribe-form input, .js-subscribe-form select'), function(index, control) {
+    jQuery(control).focusout(function() {
+      jQuery('.js-subscribe-form').validate().element(this);
+    });
+  });
+
+  // Blog subscribe form
   jQuery('.js-subscribe-form').each(function(index) {
     jQuery(this).on('submit', function() {
       event.preventDefault();
@@ -541,7 +549,7 @@ jQuery(document).ready(function() {
         .appendTo('.js-subscribe-form');
 
       // needs for recaptacha ready
-      grecaptcha.ready(function() {
+      // grecaptcha.ready(function() {
         // do request for recaptcha token
         // response is promise with passed token
         grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
@@ -559,26 +567,15 @@ jQuery(document).ready(function() {
             },
             data: formEl.serialize()
           }).done(function(data) {
-            // console.log('submitted');
-
             var thisForm = jQuery('.js-subscribe-form').eq(index);
 
             thisForm.addClass('hide');
 
-            if (index == 0) {
-              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
-              var subscribeMsgText = document.createElement('p');
+            var successMsgText = document.createElement('h3');
 
-              subscribeMsg.querySelector('h3').textContent = 'Almost there!';
-              subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
-              subscribeMsg.append(subscribeMsgText);
-            } else if (index == 1) {
-              var successMsgText = document.createElement('h3');
-
-              successMsgText.className = 'no-margin';
-              successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-              document.querySelector('.form-box').append(successMsgText);
-            }
+            successMsgText.className = 'no-margin';
+            successMsgText.textContent = "We've sent you an email to confirm your subscription.";
+            document.querySelector('.form-box').append(successMsgText);
           });
         });
       });
