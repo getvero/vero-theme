@@ -13,34 +13,35 @@
   function custom_footer_html() {
     ?>
     <footer class="bg-dark-blue footer">
-      <div class="inner xlarge-inner stack-lg">
-        <div class="w-sidebar">
-          <div class="col-main">
+      <div class="inner xlarge-inner stack-xl">
+        <div class="w-sidebar w-sidebar--feature-md">
+          <div class="col-main stack-md">
             <a href="https://www.getvero.com">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
             </a>
 
-
-            <div class="js-subscribe-form-msg stack-xs">
-              <h3 class="semi-bold font-white">Insights, tips and tools for creating better customer messaging and product experiences</h3>
-            </div>
-
-            <form class="js-subscribe-form subscribe-form stack-xs"
-              action="https://formkeep.com/f/642bee56a32f"
-              accept-charset="UTF-8"
-              enctype="multipart/form-data"
-              method="POST">
-              <input type="hidden" name="utf8" value="✓">
-
-              <div class="flex">
-                <input class="form-control" type="email" name="email" required>
-
-                <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
+            <div class="stack-sm">
+              <div class="js-subscribe-form-msg">
+                <!-- <h3 class="semi-bold font-white">Insights, tips and tools for creating better customer messaging and product experiences</h3> -->
+                <h3 class="atomic semi-bold font-white">Subscribe to our newsletter for insights, tips and tools on sending better customer communciations</h3>
               </div>
 
-              <span class="show annotation font-gray-dark">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy">Privacy Policy</a>.</span>
-            </form>
+              <form class="js-subscribe-form subscribe-form stack-sm"
+                action="https://formkeep.com/f/642bee56a32f"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
+                method="POST">
+                <input type="hidden" name="utf8" value="✓">
 
+                <div class="flex flex-wrap">
+                  <input class="form-control" type="email" name="email" placeholder="Your email address" required>
+
+                  <button class="btn btn--success track-subscribe-to-blog subscribe_to_blog" type="submit">Subscribe</button>
+                </div>
+
+                <span class="show annotation font-white">We're committed to keeping your information safe. Read our <a class="underline-link negative" href="/privacy/">Privacy Policy</a>.</span>
+              </form>
+            </div>
 
           </div>
           <div class="col-aside">
