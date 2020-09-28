@@ -51,12 +51,6 @@
               <svg class="align-middle right-margin-xs" width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect fill="#01B2D0" width="22" height="22" rx="11"/><path d="M5 11.472a.55.55 0 01.778 0l2.875 2.875 7.722-7.722a.55.55 0 01.778.778l-8.111 8.111a.55.55 0 01-.847-.083.56.56 0 01-.084-.07L5 12.251a.55.55 0 010-.779z" fill="#FFF"/></g></svg>
 
 
-              <h3 class="atomic light no-margin">Create and edit</h3>
-            </li>
-            <li class="flex items-center">
-              <svg class="align-middle right-margin-xs" width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect fill="#01B2D0" width="22" height="22" rx="11"/><path d="M5 11.472a.55.55 0 01.778 0l2.875 2.875 7.722-7.722a.55.55 0 01.778.778l-8.111 8.111a.55.55 0 01-.847-.083.56.56 0 01-.084-.07L5 12.251a.55.55 0 010-.779z" fill="#FFF"/></g></svg>
-
-
               <h3 class="atomic light no-margin">Run A/B tests</h3>
             </li>
           </ul>
