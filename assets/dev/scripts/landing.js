@@ -480,7 +480,7 @@ jQuery(document).ready(function() {
   var menuClone = jQuery('.js-category-toggle').clone();
 
   jQuery('.js-category-toggle').on('click', function() {
-    var isActive  = jQuery('js-category-toggle.is-active').length > 0;
+    var isActive = jQuery('js-category-toggle.is-active').length > 0;
 
     if (!isActive && !isFixed) {
       jQuery('.js-resources-menu').addClass('is-visible');
@@ -494,7 +494,6 @@ jQuery(document).ready(function() {
       isFixed = false;
     }
   });
-
 
   // Form validation defaults
   jQuery.validator.setDefaults({
