@@ -495,31 +495,15 @@ jQuery(document).ready(function() {
     }
   });
 
-  // var resourcesHeader            = document.querySelector('.js-resources-header');
-  // var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
-  // var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
 
-  // if (resourcesHeader) {
-  //   // Open subscribe form
-  //   openResourcesSubscibeForm.addEventListener('click', function() {
-  //     resourcesHeader.classList.add('is-active');
-  //   });
-
-  //   // Close subscribe form
-  //   closeResourcesSubscibeForm.addEventListener('click', function() {
-  //     var formActive = resourcesHeader.classList.contains('is-active');
-
-  //     if (formActive) {
-  //       resourcesHeader.classList.remove('is-active');
-  //     }
-  //   });
-  // }
-
-  // Blog subscribe form validation
-  jQuery('.js-subscribe-form').validate({
+  // Form validation defaults
+  jQuery.validator.setDefaults({
     errorClass  : 'error-msg',
     errorElement: 'span'
   });
+
+  // Blog subscribe form validation
+  jQuery('.js-subscribe-form').validate();
 
   jQuery.each(jQuery('.js-subscribe-form input'), function(index, control) {
     jQuery(control).focusout(function() {
