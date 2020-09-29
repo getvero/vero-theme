@@ -568,20 +568,9 @@ jQuery(document).ready(function() {
 
               thisForm.addClass('hide');
 
-              if (index == 0) {
-                var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
-                var subscribeMsgText = document.createElement('p');
+              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
 
-                subscribeMsg.querySelector('h3').textContent = 'Almost there!';
-                subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
-                subscribeMsg.append(subscribeMsgText);
-              } else if (index == 1) {
-                var successMsgText = document.createElement('h3');
-
-                successMsgText.className = 'no-margin';
-                successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-                document.querySelector('.form-box').append(successMsgText);
-              }
+              subscribeMsg.querySelector('h3').textContent = "We've sent you an email to confirm your subscription";
             });
           }
         });
