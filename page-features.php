@@ -418,10 +418,10 @@
         </ul>
       </div>
       <div class="order-3 md-order-0">
-        <p>Add or update data in Vero using</p>
+        <p>Add your data to Vero from sources like Segment or Zapier.</p>
       </div>
       <div class="order-7 md-order-0">
-        <p>Copy all message activity from Vero to</p>
+        <p>Pipe activity data to your tools using our integrations and webhooks.</p>
       </div>
     </div>
   </div>
@@ -442,8 +442,6 @@
         <input class="bg-gray-lighter form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
         <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
-
-        <!-- <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo"> -->
 
         <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
       </div>
