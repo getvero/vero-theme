@@ -46,9 +46,9 @@ function add_js() {
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
+  wp_enqueue_script('jquery-validate');
 
   if ( is_page('demo') ) {
-    wp_enqueue_script('jquery-validate');
     wp_enqueue_script('demo');
   }
 

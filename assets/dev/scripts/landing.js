@@ -480,7 +480,7 @@ jQuery(document).ready(function() {
   var menuClone = jQuery('.js-category-toggle').clone();
 
   jQuery('.js-category-toggle').on('click', function() {
-    var isActive  = jQuery('js-category-toggle.is-active').length > 0;
+    var isActive = jQuery('js-category-toggle.is-active').length > 0;
 
     if (!isActive && !isFixed) {
       jQuery('.js-resources-menu').addClass('is-visible');
@@ -495,95 +495,88 @@ jQuery(document).ready(function() {
     }
   });
 
-  var resourcesHeader            = document.querySelector('.js-resources-header');
-  var openResourcesSubscibeForm  = document.querySelector('.js-open-resources-subscribe-form');
-  var closeResourcesSubscibeForm = document.querySelector('.js-close-resources-subscribe-form');
+  // Form validation defaults
+  jQuery.validator.setDefaults({
+    errorClass  : 'error-msg',
+    errorElement: 'span'
+  });
 
-  // if (resourcesHeader) {
-  //   // Open subscribe form
-  //   openResourcesSubscibeForm.addEventListener('click', function() {
-  //     resourcesHeader.classList.add('is-active');
-  //   });
+  // Blog subscribe form validation
+  jQuery('.js-subscribe-form').validate();
 
-  //   // Close subscribe form
-  //   closeResourcesSubscibeForm.addEventListener('click', function() {
-  //     var formActive = resourcesHeader.classList.contains('is-active');
+  jQuery.each(jQuery('.js-subscribe-form input'), function(index, control) {
+    jQuery(control).focusout(function() {
+      jQuery('.js-subscribe-form').validate().element(this);
+    });
+  });
 
-  //     if (formActive) {
-  //       resourcesHeader.classList.remove('is-active');
-  //     }
-  //   });
-  // }
+  function validEmail(email) {
+    var regex = /^.+@.+\..+$/;
+    return regex.test(email);
+  }
 
-  // jQuery('.js-subscribe-form').each(function(index) {
-  //   jQuery(this).on('submit', function() {
-  //     event.preventDefault();
+  // Blog subscribe form
+  jQuery('.js-subscribe-form').each(function(index) {
+    jQuery(this).on('submit', function() {
+      event.preventDefault();
 
-  //     try {anonymous_id = window.analytics._user.anonymousId();}
-  //     catch {}
+      try {anonymous_id = window.analytics._user.anonymousId();}
+      catch {}
 
-  //     if(typeof anonymous_id !== 'undefined'){
-  //       // Append the Segment.com anonymous_id
-  //       jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'anonymous_id')
-  //       .attr('value', anonymous_id)
-  //       .appendTo('.js-subscribe-form');
-  //     }
+      if(typeof anonymous_id !== 'undefined'){
+        // Append the Segment.com anonymous_id
+        jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'anonymous_id')
+        .attr('value', anonymous_id)
+        .appendTo('.js-subscribe-form');
+      }
 
-  //     // Append page path and URL
-  //     jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'page_path')
-  //       .attr('value', window.location.pathname)
-  //       .appendTo('.js-subscribe-form');
-  //     jQuery('<input />').attr('type', 'hidden')
-  //       .attr('name', 'page_url')
-  //       .attr('value', window.location.href)
-  //       .appendTo('.js-subscribe-form');
+      // Append page path and URL
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_path')
+        .attr('value', window.location.pathname)
+        .appendTo('.js-subscribe-form');
+      jQuery('<input />').attr('type', 'hidden')
+        .attr('name', 'page_url')
+        .attr('value', window.location.href)
+        .appendTo('.js-subscribe-form');
 
-  //     // needs for recaptacha ready
-  //     grecaptcha.ready(function() {
-  //       // do request for recaptcha token
-  //       // response is promise with passed token
-  //       grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
+      // needs for recaptacha ready
+      grecaptcha.ready(function() {
+        // do request for recaptcha token
+        // response is promise with passed token
+        grecaptcha.execute('6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX', {action: 'create_blog_subscription'}).then(function(token) {
 
-  //         // add token to form
-  //         jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+          // add token to form
+          jQuery('.js-subscribe-form').eq(index).prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
 
-  //         var formEl = jQuery('.js-subscribe-form');
+          var formEl        = jQuery('.js-subscribe-form');
+          var emailFieldVal = formEl.find('.form-control').val();
 
-  //         jQuery.ajax({
-  //           type: 'POST',
-  //           url: formEl.prop('action'),
-  //           accept: {
-  //             javascript: 'application/javascript'
-  //           },
-  //           data: formEl.serialize()
-  //         }).done(function(data) {
-  //           // console.log('submitted');
+          if (emailFieldVal && validEmail(emailFieldVal)) {
+            jQuery.ajax({
+              type: 'POST',
+              url: formEl.prop('action'),
+              accept: {
+                javascript: 'application/javascript'
+              },
+              data: formEl.serialize()
+            }).done(function(data) {
+              // console.log('submitted');
 
-  //           var thisForm = jQuery('.js-subscribe-form').eq(index);
+              var thisForm = jQuery('.js-subscribe-form').eq(index);
 
-  //           thisForm.addClass('hide');
+              thisForm.addClass('hide');
 
-  //           if (index == 0) {
-  //             var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
-  //             var subscribeMsgText = document.createElement('p');
+              var subscribeMsg     = document.querySelector('.js-subscribe-form-msg');
 
-  //             subscribeMsg.querySelector('h3').textContent = 'Almost there!';
-  //             subscribeMsgText.textContent = "We've sent you an email to confirm your subscription.";
-  //             subscribeMsg.append(subscribeMsgText);
-  //           } else if (index == 1) {
-  //             var successMsgText = document.createElement('h3');
-
-  //             successMsgText.className = 'no-margin';
-  //             successMsgText.textContent = "We've sent you an email to confirm your subscription.";
-  //             document.querySelector('.form-box').append(successMsgText);
-  //           }
-  //         });
-  //       });
-  //     });
-  //   });
-  // });
+              subscribeMsg.querySelector('h3').textContent = "We've sent you an email to confirm your subscription";
+            });
+          }
+        });
+      });
+    });
+  });
 
   // Add lax to Drag and Drop
   if (document.body.classList.contains('drag-and-drop')) {
@@ -635,11 +628,6 @@ jQuery(document).ready(function() {
           value: subEl.val()
         })
       );
-
-      function validEmail(email) {
-        var regex = /^.+@.+\..+$/;
-        return regex.test(email);
-      }
 
       var formEl = jQuery(self);
       jQuery.ajax({

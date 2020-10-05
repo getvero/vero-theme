@@ -236,13 +236,11 @@ function genesischild_theme_setup() {
   }
 
   # Add Recaptcha script to footer
-  // add_action( 'wp_footer', 'move_recaptcha_script' );
+  add_action( 'wp_footer', 'move_recaptcha_script' );
   function move_recaptcha_script() {
-    if ( is_blog() ) {
-      ?>
-        <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
-      <?php
-    }
+    ?>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
+    <?php
   }
 
   # Add banner
