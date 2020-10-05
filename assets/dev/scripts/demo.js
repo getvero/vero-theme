@@ -1,8 +1,5 @@
 jQuery(document).ready(function() {
-  jQuery('.js-demo-form').validate({
-    errorClass  : 'error-msg',
-    errorElement: 'span'
-  });
+  jQuery('.js-demo-form').validate();
 
   jQuery.each(jQuery('.js-demo-form input, .js-demo-form select'), function(index, control) {
     jQuery(control).focusout(function() {
