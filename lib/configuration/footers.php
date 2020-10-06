@@ -14,7 +14,7 @@
     ?>
     <footer class="bg-dark-blue footer">
       <div class="inner xlarge-inner stack-xl">
-        <div class="w-sidebar w-sidebar--feature-md">
+        <div class="w-sidebar w-sidebar--md">
           <div class="col-main stack-md">
             <a href="https://www.getvero.com">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/logo/vero-logo-white.svg" alt="Vero logo white footnote">
