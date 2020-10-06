@@ -22,7 +22,6 @@
 
             <div class="stack-sm">
               <div class="js-subscribe-form-msg">
-                <!-- <h3 class="semi-bold font-white">Insights, tips and tools for creating better customer messaging and product experiences</h3> -->
                 <h3 class="atomic semi-bold font-white">Subscribe to our newsletter for insights on sending better customer communciations</h3>
               </div>
 
@@ -49,33 +48,33 @@
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Product</h4>
               </li>
-              <li><a href="/features">Features</a></li>
-              <li><a href="/drag-and-drop">Drag and Drop</a></li>
-              <li><a href="/push-notifications">Push Notifications</a></li>
-              <li><a href="/workflows">Workflows</a></li>
-              <li><a href="/event-manager">Event Management</a></li>
-              <li><a href="/fusion">Fusion</a></li>
-              <li><a href="/multi-language-campaigns">Multi-language</a></li>
-              <li><a href="/reporting">Reporting</a></li>
-              <li><a href="/pricing">Pricing</a></li>
+              <li><a href="/features/">Features</a></li>
+              <li><a href="/drag-and-drop/">Drag and Drop</a></li>
+              <li><a href="/push-notifications/">Push Notifications</a></li>
+              <li><a href="/workflows/">Workflows</a></li>
+              <li><a href="/event-manager/">Event Management</a></li>
+              <li><a href="/fusion/">Fusion</a></li>
+              <li><a href="/multi-language-campaigns/">Multi-language</a></li>
+              <li><a href="/reporting/">Reporting</a></li>
+              <li><a href="/pricing/">Pricing</a></li>
             </ul>
             <ul class="unstyled-list footer-list font-white regular stack-0">
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Integrations</h4>
               </li>
-              <li><a href="/integrations/vero-segment">Segment</a></li>
-              <li><a href="/integrations/vero-stitch">Stitch</a></li>
-              <li><a href="/integrations/vero-snowplow">Snowplow</a></li>
-              <li><a href="https://help.getvero.com/articles/using-zapier-and-vero.html">Zapier</a></li>
+              <li><a href="/integrations/vero-segment/">Segment</a></li>
+              <li><a href="/integrations/vero-stitch/">Stitch</a></li>
+              <li><a href="/integrations/vero-snowplow/">Snowplow</a></li>
+              <li><a href="/integrations/vero-zapier/">Zapier</a></li>
               <li><a href="https://help.getvero.com/articles/setting-up-veros-webhooks.html">Webhooks</a></li>
             </ul>
             <ul class="unstyled-list footer-list font-white regular stack-0">
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Resources</h4>
               </li>
-              <li><a href="https://www.getvero.com/resources" target="_blank">Blog</a></li>
+              <li><a href="/resources" target="_blank">Blog</a></li>
               <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
-              <li><a href="/resources/getting-started">Getting Started</a></li>
+              <li><a href="/resources/getting-started/">Getting Started</a></li>
               <li><a href="https://help.getvero.com" target="_blank" rel="noopener">Help Center</a></li>
               <li><a href="https://developers.getvero.com" target="_blank" rel="noopener">API Reference</a></li>
               <li><a href="https://releasenotes.getvero.com" target="_blank" rel="noopener">Release Notes</a></li>
@@ -87,8 +86,8 @@
               <li>
                 <h4 class="semi-bold annotation uppercase faded">Company</h4>
               </li>
-              <li><a href="https://www.getvero.com/case-studies/plann">Case Study</a></li>
-              <li><a href="https://www.getvero.com/careers">Careers</a></li>
+              <li><a href="/case-studies/plann/">Case Study</a></li>
+              <li><a href="/careers/">Careers</a></li>
               <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
               <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
               <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
