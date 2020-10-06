@@ -51,12 +51,6 @@
               <svg class="align-middle right-margin-xs" width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect fill="#01B2D0" width="22" height="22" rx="11"/><path d="M5 11.472a.55.55 0 01.778 0l2.875 2.875 7.722-7.722a.55.55 0 01.778.778l-8.111 8.111a.55.55 0 01-.847-.083.56.56 0 01-.084-.07L5 12.251a.55.55 0 010-.779z" fill="#FFF"/></g></svg>
 
 
-              <h3 class="atomic light no-margin">Create and edit</h3>
-            </li>
-            <li class="flex items-center">
-              <svg class="align-middle right-margin-xs" width="22" height="22" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect fill="#01B2D0" width="22" height="22" rx="11"/><path d="M5 11.472a.55.55 0 01.778 0l2.875 2.875 7.722-7.722a.55.55 0 01.778.778l-8.111 8.111a.55.55 0 01-.847-.083.56.56 0 01-.084-.07L5 12.251a.55.55 0 010-.779z" fill="#FFF"/></g></svg>
-
-
               <h3 class="atomic light no-margin">Run A/B tests</h3>
             </li>
           </ul>
@@ -65,12 +59,12 @@
 
       <div class="col-aside relative">
         <div class="bg-white border-radius-2 shadow-4">
-          <form class="js-demo-form demo-form stack-sm append-user-id" method="post" action="https://formkeep.com/f/f8f7745fab13" accept-charset="UTF-8" enctype="multipart/form-data">
+          <form class="js-demo-form demo-form stack-sm append-user-id track-demo-form" method="post" action="https://formkeep.com/f/f8f7745fab13" accept-charset="UTF-8" enctype="multipart/form-data">
             <h2>Schedule a demo</h2>
             <div class="flex flex-wrap demo-form-halfs justify-between">
               <div>
                 <label class="show annotation regular font-gray-dark bottom-margin-xxxs" for="field-1">First name</label>
-                <input class="bg-offwhite form-control form-control--sm full-width" id="field-1" name="first-name" type="text" required>
+                <input class="bg-offwhite form-control form-control--sm full-width track-first-name" id="field-1" name="first-name" type="text" required>
               </div>
 
               <div>
@@ -105,7 +99,7 @@
               </select>
             </div>
             <div>
-              <input class="btn btn--success full-width" value="Schedule a demo" type="submit">
+              <input class="btn btn--success full-width track-contact-us" element-position="" value="Schedule a demo" type="submit">
             </div>
             <input type="hidden" name="subscribe_f8f7745fab13_28100"/>
           </form>
