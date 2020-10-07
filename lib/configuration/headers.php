@@ -134,40 +134,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   }
 }
 
-function additional_active_item_classes($classes = array(), $menu_item = false){
-    if(is_singular('kb')) {
-      $post = get_post();
-      $terms = get_the_terms( $post->ID, 'topic' );
-      $term_array = array();
-      $count = count($terms);
-      if ( $count > 0 ){
-        foreach ( $terms as $term ) {
-            $term_array[] = $term->name;
-        }
-      }
-    } else if(is_tax('topic')) {
-      $q_object = get_queried_object();
-      if( isset($q_object->taxonomy) ){
-        $taxonomy = $q_object->taxonomy;
-      }
-    }
-    //global $wp_query;
-    if ( strtolower($menu_item->title) == 'tour' && ( is_page('features') || is_page('triggered-emails') || is_page('smart-newsletters') || is_page('external-attributes') || is_page('individual-contact-profiles')  ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'idea lab' && ( is_singular('campaigns') || is_post_type_archive('campaigns')) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( $menu_item->title == 'Pricing' && (is_page('pricing') || is_page('growth') || is_page('entrepreneur') || is_page('enterprise')  || is_page('full-pricing') ) ) {
-      $classes[] = 'current-menu-item';
-    }  else if ( ( is_singular('kb') && in_array($menu_item->title, $term_array) ) || ( is_tax('topic') && ($menu_item->title == $taxonomy) ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( $menu_item->title == 'Email Marketing Resources' && (is_page('email-marketing-resources') || is_singular('guides') || is_singular('resources') ) ) {
-      $classes[] = 'current-menu-item';
-    } else if ( strtolower($menu_item->title) == 'blog' && (array_shift(explode(".",$_SERVER['HTTP_HOST'])) == 'blog') ) {
-      $classes[] = 'current-menu-item';
-    }
-    return $classes;
-}
-
 // Add description to submenu
 function add_menu_description( $item_output, $item ) {
   if ( !empty( $item->description ) ) {
