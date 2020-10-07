@@ -616,7 +616,6 @@
             </div>
 
             <div class="flex justify-center integration-recipe-tags">
-              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->featured ?></span>
               <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
             </div>
           </div>
