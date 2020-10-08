@@ -30,32 +30,4 @@ jQuery(document).ready(function() {
       jQuery( '#menu-marketing-navbar-right').removeAttr('style');
     }
   });
-
-  jQuery('.menu-item-has-children > a').click(function(e){
-    e.preventDefault();
-    e.stopPropagation();
-
-    if(jQuery(this).siblings('.sub-menu').hasClass('show-sub-menu')) {
-      jQuery(this).siblings('.sub-menu').removeClass('show-sub-menu');
-    }
-    else {
-      jQuery('.sub-menu.show-sub-menu').removeClass('show-sub-menu');
-      jQuery(this).siblings('.sub-menu').addClass('show-sub-menu');
-    }
-  });
-
-  jQuery(document).click(function (e){
-    var sub_menu = jQuery(".menu-item-has-children > .sub-menu");
-    var link     = jQuery(".menu-item-has-children > a");
-    if (!sub_menu.is(e.target) && sub_menu.has(e.target).length === 0){
-      sub_menu.removeClass('show-sub-menu');
-    }
-  });
-
-  // if(window.location.hash) {
-  //   var hash = window.location.hash.substring(1);
-  //   if(hash == 'demo') {
-  //     jQuery('#demo-trigger').click();
-  //   }
-  // }
 });
