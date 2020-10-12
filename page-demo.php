@@ -11,7 +11,7 @@
 ?>
 <section class="demo-hero" banner-name="" element-position="top">
   <div class="inner large-inner">
-    <div class="w-sidebar w-sidebar--feature-lg">
+    <div class="w-sidebar w-sidebar--lg">
       <div class="col-main stack-sm lg-right-padding-md">
         <div class="stack-sm">
           <div class="stack-xxs">

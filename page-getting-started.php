@@ -17,7 +17,7 @@
 </section>
 <section class="getting-started-videos border-bottom-light">
   <div class="inner xlarge-inner">
-    <div class="w-sidebar w-sidebar--getting-started-videos">
+    <div class="w-sidebar w-sidebar--sm">
       <div class="col-main">
         <div class="subnav bg-white border-light border-radius-2">
           <ul class="unstyled-list bottom-margin-md md-bottom-margin-xxl">
