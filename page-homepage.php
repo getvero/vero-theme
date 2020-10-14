@@ -104,7 +104,7 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner large-inner">
-    <div class="w-sidebar w-sidebar--lg md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--md md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
         <p class="medium">Digital businesses never sleep.</p>
@@ -151,7 +151,7 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner large-inner">
-    <div class="w-sidebar w-sidebar--lg md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--md md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Reach your customer</h2>
         <p class="medium">Meet your customers where they are. Customers use all the channels.</p>
