@@ -135,7 +135,7 @@
     <h2 class="chunk regular">Be where you want to be</h2>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>
-  <div class="inner full-width flush-top flush-bottom">
+  <div class="inner xlarge-inner flush-top flush-bottom">
     <ul class="feature-list grid grid-sixths unstyled-list center-text">
       <li>
         <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/sydney.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/sydney@2x.png 2x" alt="Sydney, Australia">
@@ -158,11 +158,6 @@
         <p class="no-margin small">Australia</p>
       </li>
       <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/edinburgh.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/edinburgh@2x.png 2x" alt="Edinburgh, United Kingdom">
-        <p class="semi-bold no-bottom-margin">Edinburgh</p>
-        <p class="no-margin small">United Kingdom</p>
-      </li>
-      <li>
         <img src="/wp-content/themes/vero/assets/dist/images/careers/locations/amsterdam.png" srcset="/wp-content/themes/vero/assets/dist/images/careers/locations/amsterdam@2x.png 2x" alt="Amsterdam, Netherlands">
         <p class="semi-bold no-bottom-margin">Amsterdam</p>
         <p class="no-margin small">Netherlands</p>
@@ -175,31 +170,17 @@
     </ul>
   </div>
 </section>
-<section id="careers-job-listings" class="double-padding">
+<section class="double-padding" id="careers-job-listings">
   <div class="inner small-inner">
     <h2 class="chunk regular">See where you fit in</h2>
 
     <p class="medium bottom-margin-md">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
 
-    <ul class="unstyled-list lined-list medium bottom-margin-md">
-      <li class="no-margin">
-        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/C36A5B207A/" target="_blank">
-          Senior Platform Software Engineer
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
-        </a>
-      </li>
-        <li class="no-margin">
-        <a class="semi-bold vertical-padding-sm flex" href="https://apply.workable.com/getvero/j/AF6008C71F/" target="_blank">
-          Front-end Developer (Ember.js)
-          <img class="left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/careers/arrow.svg" alt="Right arrow">
-        </a>
-      </li>
-    </ul>
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shrtJO3ER23AbnAi8?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-    <p class="medium">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
+    <p class="medium top-margin-md">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
   </div>
 </section>
 <?php
   no_content_genesis_footer();
-  add_page_tracking_code("ProductPage");
 ?>
