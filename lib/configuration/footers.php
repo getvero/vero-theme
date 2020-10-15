@@ -38,7 +38,7 @@
                   <button class="btn btn--success track-subscribe-to-blog subscribe_to_blog" type="submit">Subscribe</button>
                 </div>
 
-                <span class="show annotation font-white">We're committed to keeping your information safe. Read our <a class="underline-link negative" href="/privacy/">Privacy Policy</a>.</span>
+                <p class="show cation font-white">We're committed to keeping your information safe. Read our <a class="underline-link negative" href="/privacy/">Privacy Policy</a>. This site is protected by reCAPTCHA and the Google <a class="underline-link negative" href="https://policies.google.com/privacy">Privacy Policy</a> and <a class="underline-link negative" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
               </form>
             </div>
 
