@@ -22,7 +22,7 @@
         <h1 class="biggie semi-bold">Emails that can talk to APIs</h1>
         <p class="large">Load data from its origin for greater accuracy and flexibility.</p>
       </div>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
     </div>
 
     <div class="hero-image center-text top-margin-lg">
