@@ -23,7 +23,7 @@
           <h1 class="biggie semi-bold">The simple way to send your multi-language emails</h1>
           <p class="large">Send multiple language variations inside a single campaign. That's it, no fancy-pants stuff.</p>
         </div>
-        <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+        <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
       </div>
     </div>
 
@@ -78,7 +78,7 @@ vero.users.track!({
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup">Start a free trial</a>
+    <a class="btn btn--success btn--large bottom-margin-sm track-start-trial"  element-position="bottom" href="https://app.getvero.com/signup/newsletters">Start a free trial</a>
 
     <p class="annotation faded">No credit card details required</p>
   </div>
