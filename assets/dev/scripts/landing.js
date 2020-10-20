@@ -629,26 +629,66 @@ jQuery(document).ready(function() {
         })
       );
 
-      var formEl = jQuery(self);
-      jQuery.ajax({
-        type: 'POST',
-        url: formEl.prop('action'),
-        accept: {
-          javascript: 'application/javascript'
-        },
-        data: formEl.serialize()
-      }).done(function(data) {
-        var emailFieldVal = jQuery(self).find('.form-control').val();
-        var validateMsg = jQuery(self).children('.js-home-contact-msg');
+      // var formEl = jQuery(self);
+      // jQuery.ajax({
+      //   type: 'POST',
+      //   url: formEl.prop('action'),
+      //   accept: {
+      //     javascript: 'application/javascript'
+      //   },
+      //   data: formEl.serialize()
+      // }).done(function(data) {
+      //   var emailFieldVal = jQuery(self).find('.form-control').val();
+      //   var validateMsg = jQuery(self).children('.js-home-contact-msg');
 
-        // Redirect depending on submit submit_button
-        if (emailFieldVal == '') {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Please enter your email address');
-        } else if (!validEmail(emailFieldVal)) {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Please enter a valid email address');
-        } else if (subEl.val() == 'Start a free trial') {
+      //   // Redirect
+      //   if (emailFieldVal == '') {
+      //     validateMsg.addClass('is-active');
+      //     validateMsg.text('Please enter your email address');
+      //   } else if (!validEmail(emailFieldVal)) {
+      //     validateMsg.addClass('is-active');
+      //     validateMsg.text('Please enter a valid email address');
+      //   } else if (subEl.val() == 'Start a free trial') {
+      //     if (document.location.pathname == '/workflows/' ||
+      //         document.location.pathname == '/resources/guides/lifecycle-marketing/onboarding-emails/' ||
+      //         document.location.pathname == '/resources/welcome-emails/' ||
+      //         document.location.pathname == '/resources/product-update-emails/' ||
+      //         document.location.pathname == '/resources/guides/lifecycle-marketing/subscriber-emails/' ||
+      //         document.location.pathname == '/resources/guides/lifecycle-marketing/transactional-emails/' ||
+      //         document.location.pathname == '/resources/product-update-emails/') {
+      //       window.location.href = 'https://app.getvero.com/signup/workflows?email=' + jQuery(self).find("input[name='email']").val();
+      //     } else if (document.location.pathname == '/drag-and-drop/' ||
+      //                document.location.pathname == '/multi-language-campaigns/' ||
+      //                document.location.pathname == '/fusion/' ||
+      //                document.location.pathname == '/lifecycle-marketing/promotional-emails/' ||
+      //                document.location.pathname == '/resources/50-email-newsletters/') {
+      //       window.location.href = 'https://app.getvero.com/signup/newsletters?email=' + jQuery(self).find("input[name='email']").val();
+      //     } else {
+      //       window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+      //     }
+      //   }
+      // });
+
+      var emailFieldVal = jQuery(self).find('.form-control').val();
+      var validateMsg = jQuery(self).children('.js-home-contact-msg');
+
+      if (emailFieldVal == '') {
+        validateMsg.addClass('is-active');
+        validateMsg.text('Please enter your email address');
+      } else if (!validEmail(emailFieldVal)) {
+        validateMsg.addClass('is-active');
+        validateMsg.text('Please enter a valid email address');
+      } else {
+
+        var formEl = jQuery(self);
+        jQuery.ajax({
+          type: 'POST',
+          url: formEl.prop('action'),
+          accept: {
+            javascript: 'application/javascript'
+          },
+          data: formEl.serialize()
+        }).done(function(data) {
           if (document.location.pathname == '/workflows/' ||
               document.location.pathname == '/resources/guides/lifecycle-marketing/onboarding-emails/' ||
               document.location.pathname == '/resources/welcome-emails/' ||
@@ -666,8 +706,9 @@ jQuery(document).ready(function() {
           } else {
             window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
           }
-        }
-      });
+        });
+      }
+
     });
   });
 
