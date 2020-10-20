@@ -649,7 +649,13 @@ jQuery(document).ready(function() {
           validateMsg.addClass('is-active');
           validateMsg.text('Please enter a valid email address');
         } else if (subEl.val() == 'Start a free trial') {
-          window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+          if (document.location.pathname == '/workflows/') {
+            window.location.href = 'https://app.getvero.com/signup/workflows?email=' + jQuery(self).find("input[name='email']").val();
+          } else if (document.location.pathname == '/drag-and-drop/' || document.location.pathname == 'multi-language-campaigns/' || document.location.pathname == '/fusion/') {
+            window.location.href = 'https://app.getvero.com/signup/newsletters?email=' + jQuery(self).find("input[name='email']").val();
+          } else {
+            window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+          }
         }
       });
     });
