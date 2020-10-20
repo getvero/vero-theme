@@ -679,7 +679,6 @@ jQuery(document).ready(function() {
         validateMsg.addClass('is-active');
         validateMsg.text('Please enter a valid email address');
       } else {
-
         var formEl = jQuery(self);
         jQuery.ajax({
           type: 'POST',
