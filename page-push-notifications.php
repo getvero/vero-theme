@@ -145,6 +145,9 @@
     <h4 class="chunk bottom-margin-sm">Design, manage and optimize your mobile push messages</h4>
 
     <form class="js-signup-form track-signup-form home-signup-form stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
