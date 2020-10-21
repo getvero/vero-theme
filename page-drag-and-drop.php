@@ -272,6 +272,9 @@
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
