@@ -46,20 +46,11 @@
       </div>
       <div class="col-aside">
         <div class="home-hero-imgs relative">
-          <div class="absolute z-999">
-            <svg xmlns="http://www.w3.org/2000/svg" width="741" height="355"><g fill="none" fill-rule="evenodd" stroke-dasharray="3 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke="#F15242" d="M1 289h52.74c8.646 0 15.656 7.01 15.656 15.657s-7.01 15.657-15.657 15.657H33.035c-9.302 0-16.843 7.54-16.843 16.843 0 9.302 7.541 16.843 16.843 16.843h164.333"/><path stroke="#01B2D0" d="M338.329 69h94.893c9.477 0 17.16-7.682 17.16-17.16 0-9.476-7.683-17.158-17.16-17.158h-42c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841h35.844"/><path stroke="#FFC111" d="M603.6 353h102.24c9.478 0 17.16-7.682 17.16-17.16 0-9.476-7.682-17.158-17.16-17.158h-32c-9.3 0-16.84-7.54-16.84-16.841 0-9.301 7.54-16.841 16.84-16.841H769"/></g></svg>
+          <div class="home-hero-lines absolute z-999">
+            <svg width="747" height="500" xmlns="http://www.w3.org/2000/svg"><g stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"><path d="M88.065 499H143.5c15.009 0 27.175-12.167 27.175-27.175 0-15.009-12.166-27.176-27.175-27.176H28.825C13.458 444.65 1 432.192 1 416.825S13.458 389 28.825 389H69.65" stroke="#6FD350"/><path d="M631.972 91h-50.738C568.954 91 559 81.045 559 68.766c0-12.28 9.955-22.235 22.234-22.235h142C735.807 46.531 746 36.34 746 23.766S735.807 1 723.234 1h-80.348 0" stroke="#F15242"/></g></svg>
           </div>
           <div class="home-hero-img home-hero-img--1 relative">
-          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
-          </div>
-          <div class="home-hero-img home-hero-img--2">
-          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-2.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-2@2x.png 2x" alt="">
-          </div>
-          <div class="home-hero-img home-hero-img--3">
-          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-3.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-3@2x.png 2x" alt="">
-          </div>
-          <div class="home-hero-img home-hero-img--4">
-          <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-4.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-4@2x.png 2x" alt="">
+            <img class="border border-radius-2 shadow-1 responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/home/hero-1@2x.png 2x" alt="">
           </div>
         </div>
       </div>
@@ -104,7 +95,7 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner large-inner">
-    <div class="w-sidebar w-sidebar--lg md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--md md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Automation scales when you can’t</h2>
         <p class="medium">Digital businesses never sleep.</p>
@@ -151,7 +142,7 @@
 </section>
 <section class="double-padding border-bottom-light">
   <div class="inner large-inner">
-    <div class="w-sidebar w-sidebar--lg md-items-center center-text lg-left-text">
+    <div class="w-sidebar w-sidebar--md md-items-center center-text lg-left-text">
       <div class="col-main">
         <h2 class="chunk semi-bold">Reach your customer</h2>
         <p class="medium">Meet your customers where they are. Customers use all the channels.</p>

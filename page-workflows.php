@@ -14,7 +14,7 @@
     <div class="relative col-main secondary">
       <h1 class="hulk bottom-margin-sm semi-bold">Workflows</h1>
       <p class="no-top-margin bottom-margin-lg chunk">A better way to design, manage and optimize email and push campaigns</p>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup" >Try it out</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/workflows" >Try it out</a>
     </div>
     <div class="workflows-hero-bg">
       <img class="zig" src="/wp-content/themes/vero/assets/dist/images/landing-pages/workflows/zig.svg" data-parallax='{"y" : 230}' alt="Workflows - A visual way to build your automated campaigns 1">
@@ -168,6 +168,9 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"

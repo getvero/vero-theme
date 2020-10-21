@@ -22,7 +22,7 @@
         <h1 class="biggie semi-bold">Emails that can talk to APIs</h1>
         <p class="large">Load data from its origin for greater accuracy and flexibility.</p>
       </div>
-      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup">Start a free trial</a>
+      <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
     </div>
 
     <div class="hero-image center-text top-margin-lg">
@@ -140,6 +140,9 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"

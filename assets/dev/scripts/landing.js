@@ -629,29 +629,36 @@ jQuery(document).ready(function() {
         })
       );
 
-      var formEl = jQuery(self);
-      jQuery.ajax({
-        type: 'POST',
-        url: formEl.prop('action'),
-        accept: {
-          javascript: 'application/javascript'
-        },
-        data: formEl.serialize()
-      }).done(function(data) {
-        var emailFieldVal = jQuery(self).find('.form-control').val();
-        var validateMsg = jQuery(self).children('.js-home-contact-msg');
+      var emailFieldVal = jQuery(self).find('.form-control').val();
+      var validateMsg = jQuery(self).children('.js-home-contact-msg');
 
-        // Redirect depending on submit submit_button
-        if (emailFieldVal == '') {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Please enter your email address');
-        } else if (!validEmail(emailFieldVal)) {
-          validateMsg.addClass('is-active');
-          validateMsg.text('Please enter a valid email address');
-        } else if (subEl.val() == 'Start a free trial') {
-          window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
-        }
-      });
+      if (emailFieldVal == '') {
+        validateMsg.addClass('is-active');
+        validateMsg.text('Please enter your email address');
+      } else if (!validEmail(emailFieldVal)) {
+        validateMsg.addClass('is-active');
+        validateMsg.text('Please enter a valid email address');
+      } else {
+        var formEl = jQuery(self);
+        jQuery.ajax({
+          type: 'POST',
+          url: formEl.prop('action'),
+          accept: {
+            javascript: 'application/javascript'
+          },
+          data: formEl.serialize()
+        }).done(function(data) {
+          // Redirect
+          if (jQuery(self).is('[data-url]')) {
+            // attribute exists
+            window.location.href = 'https://app.getvero.com' + jQuery(self).data('url') + '?email=' + jQuery(self).find("input[name='email']").val();
+          } else {
+            // attribute does not exist
+            window.location.href = 'https://app.getvero.com/signup?email=' + jQuery(self).find("input[name='email']").val();
+          }
+        });
+      }
+
     });
   });
 

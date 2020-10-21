@@ -359,7 +359,7 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter feature-integrations">
-  <div class="inner tiny-inner bottom-margin-lg center-text">
+  <div class="inner tiny-inner flush-bottom bottom-margin-lg center-text">
     <h2 class="chunk semi-bold bottom-margin-sm">Our integrations</h2>
     <p class="large">Built from the ground up to work with the modern data stack, Vero respects your data.</p>
   </div>
@@ -432,6 +432,9 @@
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"

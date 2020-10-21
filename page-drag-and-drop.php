@@ -37,7 +37,7 @@
       </div>
 
     <div class="flex flex-column xs-flex-row items-center justify-center">
-      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup">Try for free</a>
+      <a class="btn btn--large btn--success bottom-margin-xs xs-no-bottom-margin xs-right-margin-sm track-start-trial" element-position="top" href="https://app.getvero.com/signup/newsletters">Try for free</a>
 
         <a class="btn btn--gray-darker btn--large btn--outline track-contact-us" element-position="top" href="/demo/">Schedule a demo</a>
       </div>
@@ -167,7 +167,7 @@
 
     <div class="w-sidebar w-sidebar--lg">
       <div class="col-main">
-        <ul class="unstyled-list drag-and-drop-feature-list grid grid-halfs center-text lg-left-text">
+        <ul class="unstyled-list drag-and-drop-feature-list grid grid-halfs center-text lg-left-text stack-lg">
           <li class="w-sidebar w-sidebar--icon">
             <div class="col-main">
               <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/icon/defaults.svg" alt="">
@@ -225,7 +225,7 @@
 </section>
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner center-text lg-left-text">
-    <h3 class="tubs bottom-margin-lg center-text">Coming soon</h3>
+    <h3 class="font-gray-dark annotation semi-bold tracked uppercase bottom-margin-lg center-text">Coming soon</h3>
     <ul class="unstyled-list grid grid-halfs">
       <li class="w-sidebar w-sidebar--icon">
         <div class="col-main">
@@ -268,10 +268,13 @@
 </section>
 <section class="double-padding bg-offwhite relative drag-and-drop-cta border-bottom" banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner tiny-inner center-text relative z-1">
-    <span class="show font-gray-dark semi-bold annotation uppercase bottom-margin-md">Start a trial</span>
+    <span class="show font-gray-dark semi-bold annotation tracked uppercase bottom-margin-md">Start a trial</span>
     <h2 class="chunk bottom-margin-md">Scale personalized customer messaging</h2>
 
     <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xs stack-xs bottom-margin-sm"
+      <?php if (get_field('sign_up')) { ?>
+        data-url="<?php echo get_field('sign_up'); ?>"
+      <?php } ?>
       element-position="bottom"
       action="https://formkeep.com/f/5401a0ae5cb8"
       accept-charset="UTF-8"
