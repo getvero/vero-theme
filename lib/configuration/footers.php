@@ -158,9 +158,9 @@
             <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="bottom">Schedule a demo</a></p>
           </div>
           <div class="col-aside left-margin-auto center-text relative">
-            <svg class="z-1" width="167" height="92" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M166 1H23.234C10.954 1 1 10.955 1 23.234c0 12.28 9.955 22.235 22.234 22.235h66C101.807 45.469 112 55.66 112 68.234S101.807 91 89.234 91H63.301h0" stroke="#01B2D0" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <img class="align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/resources/workflows.png" srcset="/wp-content/themes/vero/assets/dist/images/resources/workflows@2x.png 2x" alt="Workflows">
 
-            <img class="z-0 align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/resources/workflows.png" srcset="/wp-content/themes/vero/assets/dist/images/resources/workflows@2x.png 2x" alt="Workflows">
+            <svg class="align-middle" width="167" height="92" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M166 1H23.234C10.954 1 1 10.955 1 23.234c0 12.28 9.955 22.235 22.234 22.235h66C101.807 45.469 112 55.66 112 68.234S101.807 91 89.234 91H63.301h0" stroke="#01B2D0" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
         </div>
       </section>
