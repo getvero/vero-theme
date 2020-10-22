@@ -3,108 +3,148 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = '';
+    $classes[] = 'case-studies';
     return $classes;
   }
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="covid-19-hero">
-  <div class="inner">
-    <div class="grid grid-auto items-center">
-      <div class="stack-sm order-2 md-order-1">
-        <h1 class="semi-bold biggie">Case Studies</h1>
-        <p class="medium">COVID-19 has impacted us all in various ways. It’s become clear that we're going to have to learn to live with COVID-19 for the coming months and, in all likelihood, years.</p>
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner tiny-inner center-text stack-lg">
+    <span class="d-inline-block annotation uppercase tracked semi-bold font-gray-dark">Case studies</span>
+
+    <h1 class="semi-bold biggie">Join hundreds of customers that use Vero</h1>
+  </div>
+</section>
+<section class="border-bottom-light">
+  <div class="inner large-inner">
+    <div class="grid grid--thirds">
+      <div>
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
+
+        <p>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+
+        <span class="show annotation semi-bold">Luke Chesser</span>
+        <span class="show annotation">Cofounder</span>
       </div>
-      <div class="center-text lg-right-text order-1 md-order-2 top-padding-md bottom-padding-md">
-        <div class="d-inline-block covid-19-hero-img border-radius-100 relative">
-          <svg class="pulse-1 absolute" xmlns="http://www.w3.org/2000/svg" width="230" height="230"><circle cx="195.964" cy="33.536" r="8" fill="#FFF" fill-rule="evenodd" stroke="#84D2E8" stroke-width="4" transform="rotate(45 195.964 33.536)"/></svg>
+      <div>
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
 
-          <svg class="pulse-2 absolute" xmlns="http://www.w3.org/2000/svg" width="290" height="290"><circle cx="17" cy="81" r="8" fill="#FFF" fill-rule="evenodd" stroke="#84D2E8" stroke-width="4"/></svg>
+        <p>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
-          <svg  class="pulse-3 absolute" xmlns="http://www.w3.org/2000/svg" width="350" height="350"><circle cx="87.5" cy="23.446" r="8" fill="#FFF" fill-rule="evenodd" stroke="#84D2E8" stroke-width="4" transform="rotate(-30 87.5 23.446)"/></svg>
+        <span class="show annotation semi-bold">Luke Chesser</span>
+        <span class="show annotation">Cofounder</span>
+      </div>
+      <div>
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt="Unsplash logo Vero">
 
-          <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/covid-19/hero.svg" alt="COVID-19 fund">
-        </div>
+        <p>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+
+        <span class="show annotation semi-bold">Luke Chesser</span>
+        <span class="show annotation">Cofounder</span>
       </div>
     </div>
   </div>
 </section>
-<section class="bg-dark-blue-lighter">
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--long-form">
-      <div class="col-main">
-        <div class="flex items-center bottom-margin-lg">
-          <img class="align-middle right-margin-xs" src="/wp-content/themes/vero/assets/dist/images/covid-19/icon/help.svg" alt="We want to help">
+<section>
+  <div class="inner medium-inner stack-xl">
+    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
+      </li>
+    </ul>
 
-          <h2 class="semi-bold atomic no-margin">We want to help</h2>
-        </div>
-
-      </div>
-      <div class="col-aside">
-        <p class="medium">Communicating in times of crisis and change is critical. Businesses and governments all over the world are creating new initiatives to help fight COVID-19.</p>
-
-        <p class="medium">We’re extending six months free usage to new relief efforts working on the front line to directly help those most affected by COVID-19.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="bg-offwhite">
-  <div class="inner">
-    <div class="w-sidebar w-sidebar--long-form">
-      <div class="col-main">
-        <div class="flex items-center bottom-margin-lg">
-          <img class="align-middle right-margin-xs" src="/wp-content/themes/vero/assets/dist/images/covid-19/icon/application.svg" alt="Application details">
-
-          <h2 class="semi-bold atomic no-margin">Application details</h2>
-        </div>
-      </div>
-      <div class="col-aside">
-        <div class="covid-19-steps stack-md">
-          <div class="bg-white border border-radius-2 stack-md">
-            <h3 class="micro semi-bold">1. Who's this for?</h3>
-
-            <p class="medium">If you're working in any of the following, please apply:</p>
-
-            <div class="covid-19-organizations stack-md">
-              <div class="stack-xxxs">
-                <h4 class="atomic regular">Local governments</h4>
-                <p class="medium">For example, local governments that need to communicate important updates with their communities.</p>
-              </div>
-
-              <div class="stack-xxxs">
-                <h4 class="atomic regular">Education</h4>
-                <p class="medium">For example, public and private having to digitise to help ensure students get the education they need.</p>
-              </div>
-
-              <div class="stack-xxxs">
-                <h4 class="atomic regular">Healthcare providers</h4>
-                <p class="medium">For example, organizations co-ordinating medical professionals or healthcare for communities.</p>
-              </div>
-
-              <div class="stack-xxxs">
-                <h4 class="atomic regular">Non-profits</h4>
-                <p class="medium">For example, non-profit organizations or teams that are directly working to fight COVID-19.</p>
-              </div>
+    <div>
+      <div class="w-sidebar w-sidebar--md items-center">
+        <div class="col-main lg-right-padding-lg">
+          <div class="stack-md">
+            <div>
+              <h2>Plann is a social media scheduling app for travel, fashion, and lifestyle brand</h2>
+              <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
-            <p class="annotation italic font-gray-dark">Note that if you don’t meet one of these criteria, but feel you’re a fit for this initiative, please write in!</p>
-          </div>
-
-          <div class="stack-md bg-white border border-radius-2">
-            <h3 class="micro semi-bold">2. Create your account?</h3>
-            <p class="medium">Create your new Vero account at <a class="underline-link" href="https://app.getvero.com/signup">app.getvero.com/signup</a>.</p>
-
-            <a class="btn btn--dark-blue" href="https://app.getvero.com/signup">Create your account</a>
-          </div>
-
-          <div class="stack-md bg-white border border-radius-2">
-            <h3 class="micro semi-bold">3. Submit your application</h3>
-            <p class="medium">Email us at <a class="underline-link" href="mailto:support+covid19@getvero.com">support+covid19@getvero.com</a>. We’re here to help.</p>
-
-            <a class="btn btn--dark-blue" href="mailto:support+covid19@getvero.com">Email us</a>
+            <a class="btn btn--secondary" href="#none">Read more</a>
           </div>
         </div>
+        <div class="col-aside md-order-0 relative">
+          <div class="case-studies-featured-img">
+            <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="Plann">
+          </div>
+
+          <svg class="absolute align-middle" width="182" height="134" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h147.39C166.4 1 181 15.6 181 33.61c0 18.01-14.6 32.61-32.61 32.61h-59C70.949 66.22 56 81.17 56 99.61 56 118.051 70.949 133 89.39 133h35.537" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
+      </li>
+      <li class="logo-list-item no-margin">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
+      </li>
+    </ul>
+
+    <div>
+      <div class="w-sidebar w-sidebar--md items-center">
+        <div class="col-main md-order-1 lg-left-padding-lg">
+          <div class="stack-md">
+            <div>
+              <h2>Plann is a social media scheduling app for travel, fashion, and lifestyle brand</h2>
+              <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
+            </div>
+
+            <a class="btn btn--secondary" href="#none">Read more</a>
+          </div>
+        </div>
+        <div class="col-aside md-order-0 relative">
+          <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="Plann">
+
+          <svg class="absolute align-middle" width="182" height="134" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h147.39C166.4 1 181 15.6 181 33.61c0 18.01-14.6 32.61-32.61 32.61h-59C70.949 66.22 56 81.17 56 99.61 56 118.051 70.949 133 89.39 133h35.537" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-dark-blue">
+  <div class="inner xlarge-inner">
+    <div class="flex">
+      <div class="bg-white-border-radius-2"></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="inner medium-inner">
+    <div class="w-sidebar w-sidebar--md">
+      <div class="col-main">
+        <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/karina.jpg" alt="Karina May">
+      </div>
+      <div class="col-aside">
+        <p class="micro quote-mark">Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
+
+        <span class="show atomic semi-bold">Karina May</span>
+        <span class="medium">Chief Marketing Officer at Plann</span>
       </div>
     </div>
   </div>
