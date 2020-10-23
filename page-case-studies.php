@@ -46,7 +46,7 @@
     </div>
   </div>
 </section>
-<section>
+<section class="overflow-hidden">
   <div class="inner medium-inner stack-xl">
     <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
       <li class="logo-list-item no-margin">
@@ -79,11 +79,11 @@
           </div>
         </div>
         <div class="col-aside md-order-0 relative">
-          <div class="case-studies-featured-img">
+          <div class="case-studies-featured-img case-studies-featured-img--primary">
             <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="Plann">
-          </div>
 
-          <svg class="absolute align-middle" width="182" height="134" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h147.39C166.4 1 181 15.6 181 33.61c0 18.01-14.6 32.61-32.61 32.61h-59C70.949 66.22 56 81.17 56 99.61 56 118.051 70.949 133 89.39 133h35.537" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg class="absolute align-middle" width="182" height="134" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h147.39C166.4 1 181 15.6 181 33.61c0 18.01-14.6 32.61-32.61 32.61h-59C70.949 66.22 56 81.17 56 99.61 56 118.051 70.949 133 89.39 133h35.537" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
         </div>
       </div>
     </div>
@@ -119,9 +119,11 @@
           </div>
         </div>
         <div class="col-aside md-order-0 relative">
-          <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="Plann">
+          <div class="case-studies-featured-img case-studies-featured-img--secondary">
+            <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="Plann">
 
-          <svg class="absolute align-middle" width="182" height="134" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h147.39C166.4 1 181 15.6 181 33.61c0 18.01-14.6 32.61-32.61 32.61h-59C70.949 66.22 56 81.17 56 99.61 56 118.051 70.949 133 89.39 133h35.537" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg class="absolute align-middle" width="154" height="120" xmlns="http://www.w3.org/2000/svg"><path d="M108 1h2.565c16.1 0 29.152 13.052 29.152 29.152s-13.052 29.151-29.152 29.151H31.508c-16.484 0-29.848 13.364-29.848 29.849C1.66 105.636 15.024 119 31.508 119h124.11" stroke="#F15242" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
         </div>
       </div>
     </div>
