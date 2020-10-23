@@ -131,22 +131,46 @@
 </section>
 <section class="bg-dark-blue">
   <div class="inner xlarge-inner">
-    <div class="flex">
-      <div class="bg-white-border-radius-2"></div>
+    <div class="grid grid--thirds center-text">
+      <div class="bg-white border-radius-2 padding-md stack-sm">
+        <span class="show hulk">60%</span>
+        <div class="stack-0">
+          <h3 class="atomic semi-bold">Click-through-rate</h3>
+          <p class="medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="bg-white border-radius-2 padding-md stack-sm">
+        <span class="show hulk">60%</span>
+        <div class="stack-0">
+          <h3 class="atomic semi-bold">Click-through-rate</h3>
+          <p class="medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+      </div>
+      <div class="bg-white border-radius-2 padding-md stack-sm">
+        <span class="show hulk">60%</span>
+        <div class="stack-0">
+          <h3 class="atomic semi-bold">Click-through-rate</h3>
+          <p class="medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <section>
   <div class="inner medium-inner">
-    <div class="w-sidebar w-sidebar--md">
-      <div class="col-main">
-        <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/karina.jpg" alt="Karina May">
-      </div>
-      <div class="col-aside">
+    <div class="w-sidebar w-sidebar--md items-center">
+      <div class="col-main md-order-1 md-left-padding-md stack-md">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo">
+
         <p class="micro quote-mark">Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
-        <span class="show atomic semi-bold">Karina May</span>
-        <span class="medium">Chief Marketing Officer at Plann</span>
+        <div>
+          <span class="show atomic semi-bold">Karina May</span>
+          <span class="medium">Chief Marketing Officer at Plann</span>
+        </div>
+      </div>
+      <div class="col-aside md-order-0">
+        <img class="responsive-image align-middle border-radius-2 shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/karina.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/karina@2x.jpg 2x" alt="Karina May">
       </div>
     </div>
   </div>
