@@ -33,14 +33,14 @@
       </div>
       <div class="stack-md">
         <div>
-          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/drawboard-logo-vero.svg" height="44" alt="Unsplash logo Vero">
+          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="44" alt="Hello Print logo Vero">
 
-          <p class="medium relative"><span class="absolute quote-mark-small">&ldquo;</span>Heck! Vero's support is exceptional!</p>
+          <p class="medium relative"><span class="absolute quote-mark-small">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
         </div>
 
         <div>
-          <span class="show semi-bold">Nathan Field</span>
-          <span class="show">Head of Marketing</span>
+          <span class="show semi-bold">Julien Catani</span>
+          <span class="show">Head of CRM</span>
         </div>
       </div>
       <div class="stack-md">
