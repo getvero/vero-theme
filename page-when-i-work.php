@@ -39,8 +39,12 @@
           </ul>
         </div>
       </div>
-      <div class="col-aside flex items-start">
-        <img class="responsive-image align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero@2x.jpg 2x" alt="When I Work company">
+      <div class="col-aside flex items-start relative">
+        <img class="align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero@2x.jpg 2x" alt="When I Work company">
+
+        <svg class="absolute" width="202" height="134" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><text font-family="AvenirNext-DemiBold, Avenir Next" font-size="36" font-weight="500" fill="#384254" transform="translate(-523 -265)"><tspan x="33" y="361">Plann is an Instagram </tspan> <tspan x="33" y="411">scheduling a for travel, </tspan> <tspan x="33" y="461">fashion, and lifestyle brands</tspan></text><path d="M38 133h-4.055c-18.01 0-32.61-14.6-32.61-32.61 0-18.01 14.6-32.61 32.61-32.61H167.59c18.44 0 33.39-14.95 33.39-33.39C200.98 15.949 186.03 1 167.59 1H65.777h0" stroke="#6FD350" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"/></g></svg>
+
+        <svg class="absolute" width="193" height="117" xmlns="http://www.w3.org/2000/svg"><path d="M1.512 116h132.9c16.4 0 29.693-13.294 29.693-29.693 0-16.398-13.294-29.692-29.693-29.692h-23.2c-15.358 0-27.808-12.45-27.808-27.808C83.404 13.45 95.854 1 111.212 1H193" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
     </div>
 
