@@ -11,8 +11,8 @@
 ?>
 
 <section class="case-study-hero case-study-hero--plann border-bottom overflow-hidden">
-  <div class="inner large-inner stack-md">
-    <span class="d-inline-block annotation semi-bold uppercase tracked font-gray-dark">Case study</span>
+  <div class="inner large-inner stack-lg">
+    <span class="show annotation semi-bold uppercase tracked font-gray-dark">Case study</span>
 
     <div>
       <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo">
@@ -42,7 +42,11 @@
         </div>
       </div>
       <div class="col-aside flex items-start">
-        <img class="responsive-image align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="">
+        <img class="align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="">
+
+        <svg class="absolute" width="202" height="134" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><text font-family="AvenirNext-DemiBold, Avenir Next" font-size="36" font-weight="500" fill="#384254" transform="translate(-523 -265)"><tspan x="33" y="361">Plann is an Instagram </tspan> <tspan x="33" y="411">scheduling a for travel, </tspan> <tspan x="33" y="461">fashion, and lifestyle brands</tspan></text><path d="M38 133h-4.055c-18.01 0-32.61-14.6-32.61-32.61 0-18.01 14.6-32.61 32.61-32.61H167.59c18.44 0 33.39-14.95 33.39-33.39C200.98 15.949 186.03 1 167.59 1H65.777h0" stroke="#6FD350" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"/></g></svg>
+
+        <svg class="absolute" width="193" height="117" xmlns="http://www.w3.org/2000/svg"><path d="M1.512 116h132.9c16.4 0 29.693-13.294 29.693-29.693 0-16.398-13.294-29.692-29.693-29.692h-23.2c-15.358 0-27.808-12.45-27.808-27.808C83.404 13.45 95.854 1 111.212 1H193" stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
     </div>
   </div>
@@ -81,8 +85,8 @@
       <div class="author stack-xxs">
         <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May" height="56" width="56">
         <div>
-          <span class="show anotation medium semi-bold">Karina May</span>
-          <span class="show anotation">Chief Marketing Officer</span>
+          <span class="show medium semi-bold">Karina May</span>
+          <span class="show medium">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
@@ -245,8 +249,8 @@
       <div class="author stack-xxs">
         <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May" height="56" width="56">
         <div>
-          <span class="show anotation medium semi-bold">Karina May</span>
-          <span class="show anotation">Chief Marketing Officer</span>
+          <span class="show medium semi-bold">Karina May</span>
+          <span class="show medium">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
