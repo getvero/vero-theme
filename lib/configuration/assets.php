@@ -22,7 +22,8 @@ function custom_load_custom_style_sheet() {
     $suffix   = "min.css";
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array() );
-  if ( is_page('capterra') || is_page('data-management') || is_page('customer-engagement') || is_page('vero-segment') || is_page('vero-stitch') || is_page('careers') || is_page('case-studies/plann') || is_page('case-studies/when-i-work') ) {
+
+  if ( is_page( array( 'capterra', 'data-management', 'customer-engagement', 'vero-segment', 'vero-stitch', 'careers', 'case-studies/plann', 'case-studies/when-i-work' ) ) ) {
     wp_enqueue_style( 'googlefont_merriweather');
   }
 }
