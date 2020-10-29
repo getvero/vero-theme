@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="col-aside flex items-start">
-        <img class="responsive-image align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/hero.jpg" alt="">
+        <img class="responsive-image align-middle lg-left-margin-auto" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/wiw/hero@2x.jpg 2x" alt="When I Work company">
       </div>
     </div>
 
