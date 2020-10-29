@@ -46,60 +46,62 @@
 
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner small-inner stack-lg">
-    <div>
-      <p class="medium">Minneapolis-based <a class="regular underline-link" href="https://wheniwork.com">When I Work</a> is an employee scheduling app for the modern workforce, helping companies of all sizes. Their customers include companies with just a handful of team members to those with thousands of employees.</p>
 
-      <p class="medium">Over the past decade, they’ve worked with thousands of businesses and have evolved their product along the way. When I Work is a true product-first company, enabling businesses to self-serve and scale with them as they grow.</p>
+<div class="inner small-inner stack-lg">
+  <div>
+    <p class="medium">Minneapolis-based <a class="regular underline-link" href="https://wheniwork.com">When I Work</a> is an employee scheduling app for the modern workforce, helping companies of all sizes. Their customers include companies with just a handful of team members to those with thousands of employees.</p>
 
-      <p class="medium">We spoke with Ellen Falk, Senior Manager of Lifecycle Marketing, to learn more about When I Work and their experiences with Vero. Ellen is responsible for the company’s lifecycle marketing strategy and execution. She says her three-person team relies on lifecycle messaging, primarily email, to nurture and support customers throughout their journey.</p>
-    </div>
+    <p class="medium">Over the past decade, they’ve worked with thousands of businesses and have evolved their product along the way. When I Work is a true product-first company, enabling businesses to self-serve and scale with them as they grow.</p>
 
-    <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
-      <h2 class="chunk semi-bold">The Challenge: A pragmatic, data-driven company hamstrung by old tooling</h2>
-
-      <p class="medium">Difficult to create or update automated communications, requiring a “software specialist” to write and maintain complex proprietary code in their previous solution. This resource became a costly bottleneck, blocking When I Work from scaling up.</p>
-
-      <ul class="medium stack-0">
-        <li>Update email content for automated messages without opening an engineering ticket.</li>
-        <li>Unable to export their campaign data (customer engagement data) for complex analysis in their own data warehouse and BI tools.</li>
-        <li>Inability to integrate deeply with their core software stack.</li>
-      </ul>
-    </div>
-
-    <div>
-      <p class="medium">&ldquo;Limitations on how much data could be extracted prevented us from understanding the full impact of our campaigns. We could never really find out how our campaigns were supporting our customers or impacting the business,&rdquo; said Ellen.</p>
-
-      <p class="medium">To make matters worse, the tool they were using was not very intuitive, so When I Work had to hire a certified expert to help them use the software. When this employee left the company, they had to bring an agency on board.</p>
-    </div>
-
-    <blockquote class="case-study-callout bg-white border stack-md center-text">
-      <p class="tubs quote">&ldquo;It was great to find an intuitive platform like Vero. We no longer require technical expertise to build personalized, sophisticated campaigns&mdash;the strategists on the team and I feel very confident using it</p>
-
-      <div class="author stack-xxs">
-        <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" alt="Ellen Falk" height="56" width="56">
-
-        <div>
-          <span class="show medium semi-bold">Ellen Falk</span>
-          <span class="show medium">Senior Manager of Lifecycle Marketing</span>
-        </div>
-      </div>
-    </blockquote>
-
-    <div>
-      <p class="medium">These challenges slowed them down and incurred extra costs, so Ellen and her team set their sights on a new tool.
-
-      <p>[Add team photo]</p>
-
-      <p class="medium">With the help of Founder Chad Halvorson and Senior Director of Data Science and Engineering Scott Ernst, When I Work switched to Vero — a tool that both the marketing and data engineering teams approved of.</p>
-    </div>
-
-    <blockquote class="case-study-callout bg-white border stack-md center-text">
-      <p class="tubs quote">&ldquo;Vero removes the major bottleneck of having all campaigns built by one resource, plus it doesn't require us to pay for both a product and a person who understands how to use it.</p>
-    </blockquote>
+    <p class="medium">We spoke with Ellen Falk, Senior Manager of Lifecycle Marketing, to learn more about When I Work and their experiences with Vero. Ellen is responsible for the company’s lifecycle marketing strategy and execution. She says her three-person team relies on lifecycle messaging, primarily email, to nurture and support customers throughout their journey.</p>
   </div>
-</section>
+
+  <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
+    <h2 class="chunk semi-bold">The Challenge: A pragmatic, data-driven company hamstrung by old tooling</h2>
+
+    <p class="medium">Difficult to create or update automated communications, requiring a “software specialist” to write and maintain complex proprietary code in their previous solution. This resource became a costly bottleneck, blocking When I Work from scaling up.</p>
+
+    <ul class="medium stack-0">
+      <li>Update email content for automated messages without opening an engineering ticket.</li>
+      <li>Unable to export their campaign data (customer engagement data) for complex analysis in their own data warehouse and BI tools.</li>
+      <li>Inability to integrate deeply with their core software stack.</li>
+    </ul>
+  </div>
+
+  <div>
+    <p class="medium">&ldquo;Limitations on how much data could be extracted prevented us from understanding the full impact of our campaigns. We could never really find out how our campaigns were supporting our customers or impacting the business,&rdquo; said Ellen.</p>
+
+    <p class="medium">To make matters worse, the tool they were using was not very intuitive, so When I Work had to hire a certified expert to help them use the software. When this employee left the company, they had to bring an agency on board.</p>
+  </div>
+
+  <blockquote class="case-study-callout bg-white border stack-md center-text">
+    <p class="tubs quote">&ldquo;It was great to find an intuitive platform like Vero. We no longer require technical expertise to build personalized, sophisticated campaigns&mdash;the strategists on the team and I feel very confident using it</p>
+
+    <div class="author stack-xxs">
+      <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" alt="Ellen Falk" height="56" width="56">
+
+      <div>
+        <span class="show medium semi-bold">Ellen Falk</span>
+        <span class="show medium">Senior Manager of Lifecycle Marketing</span>
+      </div>
+    </div>
+  </blockquote>
+
+  <p class="medium">These challenges slowed them down and incurred extra costs, so Ellen and her team set their sights on a new tool.
+
+  <div class="center-text">
+    <p class="center-text">[Add team photo]</p>
+  </div>
+
+  <div>
+    <p class="medium">With the help of Founder Chad Halvorson and Senior Director of Data Science and Engineering Scott Ernst, When I Work switched to Vero — a tool that both the marketing and data engineering teams approved of.</p>
+  </div>
+
+  <blockquote class="case-study-callout bg-white border stack-md center-text">
+    <p class="tubs quote">&ldquo;Vero removes the major bottleneck of having all campaigns built by one resource, plus it doesn't require us to pay for both a product and a person who understands how to use it.</p>
+  </blockquote>
+</div>
+
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner small-inner stack-lg">
     <div class="stack-sm">
@@ -189,6 +191,7 @@
     </div>
 
     <div>
+      <!-- <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers, save time and money</h3> -->
       <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers, save time and money</h3>
 
       <p class="medium">In the past, the When I Work team had to rely on an internal expert — and eventually an agency — to create their marketing campaigns.</p>
