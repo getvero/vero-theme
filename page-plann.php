@@ -11,8 +11,8 @@
 ?>
 
 <section class="case-study-hero case-study-hero--plann border-bottom overflow-hidden">
-  <div class="inner large-inner stack-md">
-    <span class="show annotation semi-bold uppercase font-gray-dark">Case study</span>
+  <div class="inner large-inner stack-lg">
+    <span class="show annotation semi-bold uppercase tracked font-gray-dark">Case study</span>
 
     <div>
       <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo">
@@ -81,8 +81,8 @@
       <div class="author stack-xxs">
         <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May" height="56" width="56">
         <div>
-          <span class="show anotation medium semi-bold">Karina May</span>
-          <span class="show anotation">Chief Marketing Officer</span>
+          <span class="show medium semi-bold">Karina May</span>
+          <span class="show medium">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
@@ -245,8 +245,8 @@
       <div class="author stack-xxs">
         <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/karina-may@2x.jpg 2x" alt="Karina May" height="56" width="56">
         <div>
-          <span class="show anotation medium semi-bold">Karina May</span>
-          <span class="show anotation">Chief Marketing Officer</span>
+          <span class="show medium semi-bold">Karina May</span>
+          <span class="show medium">Chief Marketing Officer</span>
         </div>
       </div>
     </blockquote>
