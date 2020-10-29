@@ -134,7 +134,7 @@
     </div>
 
     <div>
-      <h3 class="tubs regular">👩‍💻 Visual workflows that are shareable, digestible, and easy to test </h3>
+      <h3 class="tubs regular">👩‍💻 Visual workflows that are shareable, digestible, and easy to test</h3>
 
       <p class="medium">Vero’s visual <a class="underline-link regular" href="/workflows/">Workflows</a> allow for a clear picture of the triggers, conditions, filters, and content that power automated lifecycle messaging campaigns. Thanks to the visual nature of Vero’s workflows, the When I Work marketing team has been able to share their work with internal partners and get broader buy-in for new campaigns and ideas.</p>
     </div>
@@ -192,7 +192,7 @@
 
     <div>
       <!-- <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers, save time and money</h3> -->
-      <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers, save time and money</h3>
+      <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers</h3>
 
       <p class="medium">In the past, the When I Work team had to rely on an internal expert — and eventually an agency — to create their marketing campaigns.</p>
 
