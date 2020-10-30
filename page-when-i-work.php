@@ -53,7 +53,7 @@
 
 <div class="inner small-inner stack-lg">
   <div>
-    <p class="medium">Minneapolis-based <a class="regular underline-link" href="https://wheniwork.com">When I Work</a> is an employee scheduling app for the modern workforce, helping companies of all sizes. Their customers include companies with just a handful of team members to those with thousands of employees.</p>
+    <p class="medium">Minneapolis-based <a class="semi-bold underline-link" href="https://wheniwork.com">When I Work</a> is an employee scheduling app for the modern workforce, helping companies of all sizes. Their customers include companies with just a handful of team members to those with thousands of employees.</p>
 
     <p class="medium">Over the past decade, they’ve worked with thousands of businesses and have evolved their product along the way. When I Work is a true product-first company, enabling businesses to self-serve and scale with them as they grow.</p>
 
@@ -63,7 +63,7 @@
   <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
     <h2 class="chunk semi-bold">The Challenge: A pragmatic, data-driven company hamstrung by old tooling</h2>
 
-    <p class="medium">Difficult to create or update automated communications, requiring a “software specialist” to write and maintain complex proprietary code in their previous solution. This resource became a costly bottleneck, blocking When I Work from scaling up.</p>
+    <p class="medium">Difficult to create or update automated communications, requiring a <strong>software specialist</strong> to write and maintain complex proprietary code in their previous solution. This resource became a costly bottleneck, blocking When I Work from scaling up.</p>
 
     <ul class="medium stack-0">
       <li>Update email content for automated messages without opening an engineering ticket.</li>
@@ -140,7 +140,7 @@
     <div>
       <h3 class="tubs regular">👩‍💻 Visual workflows that are shareable, digestible, and easy to test</h3>
 
-      <p class="medium">Vero’s visual <a class="underline-link regular" href="/workflows/">Workflows</a> allow for a clear picture of the triggers, conditions, filters, and content that power automated lifecycle messaging campaigns. Thanks to the visual nature of Vero’s workflows, the When I Work marketing team has been able to share their work with internal partners and get broader buy-in for new campaigns and ideas.</p>
+      <p class="medium">Vero’s visual <a class="underline-link semi-bold" href="/workflows/">Workflows</a> allow for a clear picture of the triggers, conditions, filters, and content that power automated lifecycle messaging campaigns. Thanks to the visual nature of Vero’s workflows, the When I Work marketing team has been able to share their work with internal partners and get broader buy-in for new campaigns and ideas.</p>
     </div>
 
     <blockquote class="case-study-callout bg-white border stack-md center-text">
@@ -148,9 +148,9 @@
     </blockquote>
 
     <div>
-      <p class="medium">Given When I Work’s large user base, the team found Vero’s “Workflows” particularly valuable when creating segments, along with the ability to quickly iterate on ideas, launch campaigns, and test for optimum results.
+      <p class="medium">Given When I Work’s large user base, the team found Vero’s <strong >Workflows</strong> particularly valuable when creating segments, along with the ability to quickly iterate on ideas, launch campaigns, and test for optimum results.
 
-      <p class="medium">Besides being able to create unlimited branches within workflows, a powerful feature that the When I Work team loves is the ability to “converge” paths. This is because bringing journeys back together was something they were unable to do with their previous tool. This has helped reduce duplication, resulting in faster iteration on new campaign ideas.
+      <p class="medium">Besides being able to create unlimited branches within workflows, a powerful feature that the When I Work team loves is the ability to <strong>converge</strong> paths. This is because bringing journeys back together was something they were unable to do with their previous tool. This has helped reduce duplication, resulting in faster iteration on new campaign ideas.
     </div>
 
     <div class="center-text">
@@ -191,14 +191,13 @@
         <li>Create longer campaigns faster.</li>
       </ul>
 
-      <p class="medium">Since switching to Vero, Ellen says that her team has created campaigns in a “better, smarter, and faster” way. They’ve also been able to create long campaigns that continue for weeks or even months, extending the touchpoints they have with customers.</p>
+      <p class="medium">Since switching to Vero, Ellen says that her team has created campaigns in a &ldquo;better, smarter, and faster&rdquo; way. They’ve also been able to create long campaigns that continue for weeks or even months, extending the touchpoints they have with customers.</p>
     </div>
 
     <div>
-      <!-- <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers, save time and money</h3> -->
       <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers</h3>
 
-      <p class="medium">In the past, the When I Work team had to rely on an internal expert — and eventually an agency — to create their marketing campaigns.</p>
+      <p class="medium">In the past, the When I Work team had to rely on an internal expert&mdash;and eventually an agency&mdash;to create their marketing campaigns.</p>
 
       <p class="medium">With Vero they’ve been able to take back the reins and create their own campaigns, saving time and money. In fact, Ellen shared that they were able to cut down on the internal hours spent on <strong>email marketing by 50%</strong>.</p>
     </div>
