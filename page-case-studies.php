@@ -127,7 +127,7 @@
               <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
-            <a class="btn btn--secondary" href="#none">Read more</a>
+            <a class="btn btn--secondary" href="/case-studies/when-i-work/">Read more</a>
           </div>
         </div>
         <div class="col-aside md-order-0 relative">
@@ -175,7 +175,7 @@
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main md-order-1 md-left-padding-md stack-md">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="48">
 
         <p class="micro quote-mark">Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
