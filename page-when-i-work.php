@@ -110,7 +110,7 @@
   <div class="inner small-inner stack-lg">
     <div class="stack-sm">
       <h2 class="chunk semi-bold">The solution</h2>
-      <h3 class="tubs regular">🔁 Export every message interaction to their data warehouse</h3>
+      <h3 class="tubs regular">🔁 Export message interactions to their data warehouse</h3>
 
       <p class="medium">&ldquo;We are a very data-driven company, and wanted a tool that would allow us access to the raw data so we could see what our customers were engaging with, what campaigns they were part of, and understand the impact of those on our customers’ lifecycle,&rdquo; said Ellen.</o>
 
@@ -138,7 +138,7 @@
     </div>
 
     <div>
-      <h3 class="tubs regular">👩‍💻 Visual workflows that are shareable, digestible, and easy to test</h3>
+      <h3 class="tubs regular">👩‍💻 Visual workflows that are shareable and easy to test</h3>
 
       <p class="medium">Vero’s visual <a class="underline-link semi-bold" href="/workflows/">Workflows</a> allow for a clear picture of the triggers, conditions, filters, and content that power automated lifecycle messaging campaigns. Thanks to the visual nature of Vero’s workflows, the When I Work marketing team has been able to share their work with internal partners and get broader buy-in for new campaigns and ideas.</p>
     </div>
