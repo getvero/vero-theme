@@ -214,9 +214,9 @@
     </div>
 
     <div class="stack-xs center-text">
-      <img class="d-inline-block border-radius-2 align-middle responsive-image shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/newsletter@2x.jpg 2x" alt="">
+      <img class="d-inline-block border-radius-2 align-middle responsive-image shadow-3" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/newsletter.png" alt="When I Work's email newsletter" style="width: 84%;">
 
-      <p class="annotation font-gray-dark">Plann's email newsletter announcement of their integration with Canva, created in Vero</p>
+      <p class="annotation font-gray-dark">Plann's email newsletter created in Vero</p>
     </div>
 
     <p class="medium">She believes that Vero was built for marketers, as it has helped empower non-technical team members to build email campaigns without much engineering support. &ldquo;Once our tech team has set up the event triggers, it’s really easy for our marketing team to build out emails and workflows without relying on IT help.&rdquo;</p>
