@@ -157,8 +157,8 @@
   </div>
 </section>
 <section class="home-solutions double-padding overflow-hidden">
-  <div class="inner small-inner center-text">
-    <h2 class="chunk semi-bold bottom-margin-lg">Design and manage automated messages throughout the entire customer lifecycle</h2>
+  <div class="inner small-inner center-text flush-bottom bottom-margin-lg">
+    <h2 class="chunk semi-bold">Design and manage automated messages throughout the entire customer lifecycle</h2>
   </div>
   <div class="inner xlarge-inner">
     <div class="grid grid-thirds center-text">
