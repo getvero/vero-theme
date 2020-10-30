@@ -17,42 +17,54 @@
   </div>
 </section>
 <section class="border-bottom-light">
-  <div class="inner xlarge-inner">
+  <div class="inner large-inner">
     <div class="grid grid--thirds">
       <div class="stack-md">
-        <div>
-          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="44" alt="Unsplash logo Vero">
+        <div class="stack-xxxs">
+          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="56" alt="Unsplash logo Vero">
 
-          <p class="medium relative"><span class="absolute quote-mark-small">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+          <p class="medium regular">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.&rdquo;</p>
         </div>
 
-        <div>
-          <span class="show semi-bold">Luke Chesser</span>
-          <span class="show">Cofounder</span>
-        </div>
-      </div>
-      <div class="stack-md">
-        <div>
-          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/filld-logo-vero.svg" height="44" alt="filld logo Vero">
+        <div class="flex items-center">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
 
-          <p class="medium relative"><span class="absolute quote-mark-small">&ldquo;</span>Vero is one of the best DRIP apps—have been recommending to all my contacts. The workflows feature is industry-leading!</p>
-        </div>
-
-        <div>
-          <span class="show semi-bold">Nitin Ahuja</span>
-          <span class="show">VP of Product &amp; Engineering</span>
+          <div class="left-margin-xs">
+            <span class="show semi-bold">Luke Chesser</span>
+            <span class="show">Cofounder</span>
+          </div>
         </div>
       </div>
       <div class="stack-md">
-        <div>
-          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="44" alt="Hello Print logo Vero">
+        <div class="stack-xxxs">
+          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/filld-logo-vero.svg" height="56" alt="filld logo Vero">
 
-          <p class="medium relative"><span class="absolute quote-mark-small">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+          <p class="medium regular">&ldquo;Vero is one of the best DRIP apps&mdash;have been recommending to all my contacts. The workflows feature is industry-leading!&rdquo;</p>
         </div>
 
-        <div>
-          <span class="show semi-bold">Julien Catani</span>
-          <span class="show">Head of CRM</span>
+        <div class="flex items-center">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+
+          <div class="left-margin-xs">
+            <span class="show semi-bold">Nitin Ahuja</span>
+            <span class="show">VP of Product &amp; Engineering</span>
+          </div>
+        </div>
+      </div>
+      <div class="stack-md">
+        <div class="stack-xxxs">
+          <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="56" alt="Hello Print logo Vero">
+
+          <p class="medium regular">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.&rdquo;</p>
+        </div>
+
+        <div class="flex items-center">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+
+          <div class="left-margin-xs">
+            <span class="show semi-bold">Julien Catani</span>
+            <span class="show">Head of CRM</span>
+          </div>
         </div>
       </div>
     </div>
