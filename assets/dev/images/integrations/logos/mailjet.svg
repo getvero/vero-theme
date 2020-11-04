@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="40" viewBox="0 0 44 40">
+  <defs>
+    <path id="mailjet-a" d="M42.4346107,4.4163194 L37.2594011,7.26215767 L9.4650473,22.5664435 L7.76903309,23.498192 L7.76186579,23.498192 L12.8168124,16.1053366 L13.5440822,11.2041707 L42.4346107,4.4163194 Z M0,0.0843211341 L15.8945338,2.28721076 L28.0367771,3.97363344 L33.7600741,4.76414408 L35.1724531,4.95386663 L13.3754399,9.90773326 L13.1540969,9.74963113 L5.82869839,4.36361869 L0,0.0843211341 Z"/>
+    <linearGradient id="mailjet-b" x1="65.656%" x2="14.439%" y1="26.131%" y2="63.633%">
+      <stop offset="0%" stop-color="#F2AD54"/>
+      <stop offset="100%" stop-color="#EC963B"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(.5 8)">
+    <mask id="mailjet-c" fill="#fff">
+      <use xlink:href="#mailjet-a"/>
+    </mask>
+    <polygon fill="url(#mailjet-b)" points="0 23.414 42.435 23.414 42.435 0 0 0" mask="url(#mailjet-c)"/>
+  </g>
+</svg>
