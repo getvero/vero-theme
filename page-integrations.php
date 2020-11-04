@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="double-padding" banner-name="" element-position="top">
+<section class="double-padding relative" banner-name="" element-position="top">
   <div class="inner center-text">
     <div class="stack-md">
       <div class="stack-xxs">
@@ -19,16 +19,51 @@
       </div>
     </div>
   </div>
+
+  <div class="flex justify-center integrations-hero-customers z-1">
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/panoply.svg" alt="Panoply">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/zapier.svg" alt="Zapier">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/mailjet.svg" alt="Mailjet">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/sendgrid.svg" alt="Senndgrid">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/unbounce.svg" alt="Unbounce">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/stitch.svg" alt="Stitch">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/n8n.svg" alt="n8n">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/survicate.svg" alt="Survicate">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/amazon-aws.svg" alt="Amazon AWS">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/google-analytics.svg" alt="Google Analytics">
+    </div>
+    <div class="integrations-hero-customer bg-white border-radius-100 shadow-3 flex items-center justify-center">
+      <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/twilio.svg" alt="Twilio">
+    </div>
+  </div>
 </section>
-<section class="bg-dark-blue-lighter integrations-featured relative overflow-hidden">
+<section class="double-padding bg-dark-blue-lighter integrations-featured relative overflow-hidden">
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
       <div class="col-main stack-md">
         <span class="annotation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Connecting Vero and Segment helps your team move quickly</h2>
-          <h2 class="tubs semi-bold">Connecting Vero and Segment helps your team move quickly</h2>
+          <h2 class="tubs semi-bold">Move faster by connecting Vero and Segment</h2>
 
           <p class="medium">Use Segment to collect data from multiple sources to trigger personalized marketing communications.</p>
         </div>
@@ -40,20 +75,20 @@
       </div>
     </div>
   </div>
-  <div class="inner relative z-1">
-    <div class="w-sidebar w-sidebar--md">
+  <div class="inner small-inner relative z-1">
+    <div class="w-sidebar w-sidebar--sm">
       <div class="col-main md-order-1 stack-md">
-        <span class="annotation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
+        <span class="annotation tracked uppercase font-gray-dark semi-bold">Featured</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Connecting Vero and Zapier helps your team move quickly</h2>
-          <p class="medium">Use Segment to collect data from multiple sources to trigger personalized marketing communications.</p>
+          <h2 class="tubs semi-bold">Integrate beyond your product with Vero and Zapier</h2>
+          <p class="medium">Using the Vero Zapier integration you can trigger actions in thousands of business tools.</p>
         </div>
 
         <a class="btn btn--secondary" href="/integrations/vero-zapier/">Read more</a>
       </div>
       <div class="col-aside md-order-0">
-        <p>Image</p>
+        <svg class="align-middle" width="303" height="120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="b"><stop stop-color="#52BD94" offset="0%"/><stop stop-color="#01B2D0" offset="100%"/></linearGradient><path d="M33.05.002A4.44 4.44 0 0032.91 0H4.387A4.375 4.375 0 000 4.407c0 .55.105 1.078.296 1.564.09.274.207.543.354.803l14.18 24.65c.203.353.447.667.721.94a4.397 4.397 0 003.22 1.386c1.067 0 2.05-.4 2.806-1.058a4.42 4.42 0 001.094-1.268L36.85 6.774c.144-.255.26-.518.348-.786a4.28 4.28 0 00.302-1.58C37.5 1.954 35.554 0 33.193 0c-.048 0-.095 0-.143.002zM20.152 23.18L31.365 3.632c.04-.055.067-.097.081-.122a1.943 1.943 0 011.747-1.061c1.015 0 1.87.859 1.87 1.958 0 .376-.124.745-.326 1.062a.11.11 0 00-.04.081L22.346 27.016l-2.194-3.836zM4.55 2.45h24.702L27.06 6.285H4.307c-1.055 0-1.91-.86-1.91-1.878 0-1.1.855-1.958 1.91-1.958h.243zm7.296 6.284h13.808L18.75 20.736 11.846 8.733zm5.137 21.548c.002-.029-.011-.051-.041-.081L4.632 8.733H9.02l11.254 19.548c.014.054.039.101.08.164.173.287.285.65.285 1.06 0 1.02-.854 1.878-1.869 1.878a1.983 1.983 0 01-1.787-1.102z" id="a"/></defs><g fill="none" fill-rule="evenodd"><g stroke="#E1E1E1"><path d="M559.828 103.828l489.344 489.344a4 4 0 010 5.656l-489.344 489.344a4 4 0 01-5.656 0L64.828 598.828a4 4 0 010-5.656l489.344-489.344a4 4 0 015.656 0z"/><path d="M559.828 73.828l519.344 519.344a4 4 0 010 5.656l-519.344 519.344a4 4 0 01-5.656 0L34.828 598.828a4 4 0 010-5.656L554.172 73.828a4 4 0 015.656 0z"/></g><path d="M65.657 5.657l48.686 48.686a8 8 0 010 11.314l-48.686 48.686a8 8 0 01-11.314 0L5.657 65.657a8 8 0 010-11.314L54.343 5.657a8 8 0 0111.314 0z" fill="#01B2D0"/><use fill="#FFF" xlink:href="#a" transform="translate(40 47)"/><path d="M248.657 5.657l48.686 48.686a8 8 0 010 11.314l-48.686 48.686a8 8 0 01-11.314 0l-48.686-48.686a8 8 0 010-11.314l48.686-48.686a8 8 0 0111.314 0z" fill="#52BD94"/><g transform="translate(226 43)" fill="#FFF"><rect fill-rule="nonzero" x="13.127" y="11.942" width="20.9" height="3.626" rx=".674"/><rect fill-rule="nonzero" x=".195" y="21.002" width="20.9" height="3.626" rx=".674"/><path d="M2.705 14.423a.68.68 0 00.82-.461c2.239-7.029 9.466-11.191 16.668-9.6a.668.668 0 00.783-.487l.59-2.202a.678.678 0 00-.513-.835C11.947-1.215 2.793 4.078.03 12.994a.671.671 0 00.474.84l2.202.59zM31.525 22.146a.68.68 0 00-.821.462c-2.238 7.028-9.465 11.19-16.667 9.6a.669.669 0 00-.783.486l-.59 2.202a.678.678 0 00.513.835c9.106 2.053 18.26-3.24 21.024-12.156a.671.671 0 00-.474-.84l-2.202-.59z"/><circle fill-rule="nonzero" cx="27.445" cy="5.973" r="1.988"/><circle fill-rule="nonzero" cx="6.784" cy="30.596" r="1.988"/></g><g transform="translate(120 55)"><circle stroke="#52BD94" stroke-width="2" cx="58" cy="5" r="5"/><circle stroke="#01B2D0" stroke-width="2" cx="5" cy="5" r="5"/><rect fill="url(#b)" x="13" y="3" width="38" height="4" rx="2"/></g></g></svg>
       </div>
     </div>
   </div>
