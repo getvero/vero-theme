@@ -48,7 +48,7 @@
       </div>
 
       <div class="col-main">
-        <blockquote class="quote-mark">
+        <blockquote>
           <p class="large quote">Vero enables us to use real-time data to personalise our emails with relevant content to drive more revenue.</p>
 
           <span class="show semi-bold">Julien Catani</span>

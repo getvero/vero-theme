@@ -157,8 +157,8 @@
   </div>
 </section>
 <section class="home-solutions double-padding overflow-hidden">
-  <div class="inner small-inner center-text">
-    <h2 class="chunk semi-bold bottom-margin-lg">Design and manage automated messages throughout the entire customer lifecycle</h2>
+  <div class="inner small-inner center-text flush-bottom bottom-margin-lg">
+    <h2 class="chunk semi-bold">Design and manage automated messages throughout the entire customer lifecycle</h2>
   </div>
   <div class="inner xlarge-inner">
     <div class="grid grid-thirds center-text">
@@ -214,7 +214,7 @@
     <div class="relative overflow-hidden home-quotes-gradient">
       <div class="flex items-start content-between home-quotes-list">
         <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Four amazing services that make Unsplash possible with a small team: Heroku, Stream, Imgix, &amp; Vero.</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser">
@@ -226,7 +226,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Heck! Vero's support is exceptional!</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Heck! Vero's support is exceptional!</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/nathan-field.jpg" alt="Nathan Field">
@@ -238,7 +238,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>You guys/gals rock!</p>
+          <p class="medium regular bottom-margin-md">&ldquo;You guys/gals rock!</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/adam-mills.jpg" alt="Adam Mills">
@@ -250,7 +250,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero is one of the best DRIP apps&mdash;have been recommending to all my contacts. The workflows feature is industry-leading!</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Vero is one of the best DRIP apps&mdash;have been recommending to all my contacts. The workflows feature is industry-leading!</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/nitin-ahuja.jpg" alt="Nitin Ahuja">
@@ -262,7 +262,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Julien Catani">
@@ -274,7 +274,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show  home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Vero enables us to use real-time data to enrich our emails with relevant content to drive a higher ROI.</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Julien Catani">
@@ -286,7 +286,7 @@
           </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>We've never had any reliability issues in the many years using Vero. Their ongoing investment in the platform is visible to us in the new features and updates being rolled out. Also, their service is next to none, it's always a joy dealing with their team.</p>
+          <p class="medium regular bottom-margin-md">&ldquo;We've never had any reliability issues in the many years using Vero. Their ongoing investment in the platform is visible to us in the new features and updates being rolled out. Also, their service is next to none, it's always a joy dealing with their team.</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/chris-dahl.jpg" alt="Chris Dahl">
@@ -297,7 +297,7 @@
             </div>
         </blockquote>
         <blockquote class="bg-white border-radius-2 shadow-2 border hide md-show home-customer-quote">
-          <p class="medium regular relative bottom-margin-md"><span class="absolute home-customer-quote-mark">&ldquo;</span>Easy-to-use, thoughtful, lovely UI!</p>
+          <p class="medium regular bottom-margin-md">&ldquo;Easy-to-use, thoughtful, lovely UI!</p>
 
           <div class="flex">
             <img class="align-middle home-customer-quote-avatar" src="wp-content/themes/vero/assets/dist/images/home/customers/kristina-lemasson.jpg" alt="Kristina Lemasson">
