@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'integration-zapier';
+    $classes[] = 'integration integration-zapier';
     return $classes;
   }
 
@@ -59,10 +59,10 @@
 
     <div class="circles absolute overflow-hidden">
       <div class="outer-circles">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/outer-circles.svg" alt="Outer circles">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/zapier/outer-circles.svg" alt="Outer circles">
       </div>
       <div class="absolute inner-circles">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/inner-circles.svg" alt="Inner circles">
+        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/zapier/inner-circles.svg" alt="Inner circles">
       </div>
     </div>
   </div>
