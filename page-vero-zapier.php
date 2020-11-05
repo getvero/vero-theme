@@ -3,7 +3,7 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'integration-zapier';
+    $classes[] = 'integration integration-zapier';
     return $classes;
   }
 
