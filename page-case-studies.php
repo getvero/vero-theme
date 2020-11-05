@@ -43,7 +43,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/nitin-ahuja.jpg" alt="Luke Chesser" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Nitin Ahuja</span>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Luke Chesser" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Julien Catani</span>
@@ -162,7 +162,8 @@
           <h3 class="atomic light">Best performing open rate</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="48">
       </div>
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
