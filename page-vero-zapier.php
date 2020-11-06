@@ -205,30 +205,30 @@
     <input class="hide tracking-radio" id="tracking-recipe" name="integration-zapier" type="checkbox" checked>
 
     <div class="flex flex-wrap justify-center integration-recipe-switcher">
-      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="acquisition" for="acquisition-recipe">
-        <div class="bg-white box border right-margin-xxxs">
-          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+      <label class="flex items-center integration-label atomic semi-bold" data-category="acquisition" for="acquisition-recipe">
+        <div class="bg-white box border right-margin-xxs">
+          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Acquisition</span>
       </label>
-      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="referral" for="referral-recipe">
-        <div class="bg-white box border right-margin-xxxs">
-          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+      <label class="flex items-center integration-label atomic semi-bold" data-category="referral" for="referral-recipe">
+        <div class="bg-white box border right-margin-xxs">
+          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Referral</span>
       </label>
-      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="retention" for="retention-recipe">
-        <div class="bg-white box border right-margin-xxxs">
-          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+      <label class="flex items-center integration-label atomic semi-bold" data-category="retention" for="retention-recipe">
+        <div class="bg-white box border right-margin-xxs">
+          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Retention</span>
       </label>
-      <label class="flex items-center integration-label cation uppercase semi-bold" data-category="tracking" for="tracking-recipe">
-        <div class="bg-white box border right-margin-xxxs">
-          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+      <label class="flex items-center integration-label atomic semi-bold" data-category="tracking" for="tracking-recipe">
+        <div class="bg-white box border right-margin-xxs">
+          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Tracking</span>

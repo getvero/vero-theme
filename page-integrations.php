@@ -60,7 +60,7 @@
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
       <div class="col-main stack-md">
-        <span class="annotation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
+        <span class="cation tracked uppercase font-gray-dark regular">Featured integration</span>
 
         <div class="stack-xs">
           <h2 class="tubs semi-bold">Move faster by connecting Vero and Segment</h2>
@@ -78,7 +78,7 @@
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
       <div class="col-main md-order-1 stack-md">
-        <span class="annotation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
+        <span class="cation tracked uppercase font-gray-dark regular">Featured integration</span>
 
         <div class="stack-xs">
           <h2 class="tubs semi-bold">Integrate beyond your product with Vero and Zapier</h2>
@@ -138,6 +138,12 @@
 
         <span>Other</span>
       </label>
+    </div>
+
+    <div class="js-integrations-blank-state integrations-blank-state hide border-radius-2 border bg-white center-text stack-xs padding-lg">
+      <h3 class="tubs semi-bold">No integrations</h3>
+
+      <p class="medium">Please select a filter.</p>
     </div>
 
     <div class="integration-recipe-list">
@@ -280,6 +286,7 @@
           <?php
 
         } else {
+
           ?>
           <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . " " . $value->featured ?>">
             <div class="stack-xxs">
@@ -300,7 +307,7 @@
       }
 
       ?>
-      <div class="flex flex-wrap">
+      </div>
     </div>
   </div>
 </section>
