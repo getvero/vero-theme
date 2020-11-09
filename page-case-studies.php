@@ -187,13 +187,13 @@
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main md-order-1 md-left-padding-md stack-md">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="48">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="56">
 
         <p class="micro quote-mark">Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
         <div>
           <span class="show atomic semi-bold">Karina May</span>
-          <span class="medium">Chief Marketing Officer at Plann</span>
+          <span class="atomic">Chief Marketing Officer at Plann</span>
         </div>
       </div>
       <div class="col-aside md-order-0">
