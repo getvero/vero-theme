@@ -152,49 +152,46 @@
       $someJSON =
       '[
         {
-          "featured"   : "featured",
           "integration": "Segment",
           "desc"       : "Use Segment to collect data from multiple sources to trigger personalized marketing communications",
-          "tag"        : "Data in"
+          "tag"        : "Data in",
+          "link"       : "/integrations/vero-segment/"
         },
         {
-          "featured"   : "featured",
           "integration": "Zapier",
           "desc"       : "Using the Vero Zapier integration you can trigger actions in thousands of business tools",
-          "tag"        : "Data out"
+          "tag"        : "Data in",
+          "tag2"       : "Data out",
+          "link"       : "/integrations/vero-zapier/"
         },
         {
-          "featured"   : "featured",
           "integration": "Stitch",
           "desc"       : "Use Stitch to send your email interaction data including deliveries, opens, clicks and unsubscribes from Vero to your data warehouse in one click",
-          "tag"        : "Data out"
+          "tag"        : "Data out",
+          "link"       : "/integrations/vero-stitch/"
         },
         {
-          "featured"   : "featured",
           "integration": "Snowplow",
           "desc"       : "Use Snowplow to send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from Vero to your data warehouse",
-          "tag"        : "Data out"
+          "tag"        : "Data out",
+          "link"       : "/integrations/vero-snowplow/"
         },
         {
-          "featured"   : "featured",
           "integration": "Google Analytics",
           "desc"       : "You can automatically append UTM parameters to outbound links in your email campaigns and use this data to attribute conversions to their correct source",
           "tag"        : "Data out"
         },
         {
-          "featured"   : "featured",
           "integration": "Unbounce",
           "desc"       : "By integrating Vero with Unbounce, you can capture the email addresses and actions of leads that sign up via your Unbounce landing pages",
           "tag"        : "Data in"
         },
         {
-          "featured"   : "featured",
           "integration": "Sendgrid",
           "desc"       : "Third party email service provider to assist with deliveribility",
           "tag"        : "Messaging channel"
         },
         {
-          "featured"   : "featured",
           "integration": "Mailgun",
           "desc"       : "Third party email service provider to assist with deliveribility",
           "tag"        : "Messaging channel"
@@ -222,47 +219,56 @@
         {
           "integration": "Gleam",
           "desc"       : "Create or update customers in Vero from FormKeep submissions",
-          "tag"        : "Data in"
+          "tag"        : "Data in",
+          "link"       : "https://gleam.io/docs/integrations/vero"
         },
         {
           "integration": "Survicate",
           "desc"       : "Create or update customer profiles in Vero from new Survicate question responses",
-          "tag"        : "Data In"
+          "tag"        : "Data In",
+          "link"       : "https://survicate.com/blog/installation/vero-integration"
         },
         {
           "integration": "Leadsbridge",
           "desc"       : "Send new leads from LinkedIn Lead Get Forms to Vero",
-          "tag"        : "Data In"
+          "tag"        : "Data In",
+          "link"       : "https://leadsbridge.com/integrations/vero/"
         },
         {
           "integration": "Lexer",
           "desc"       : "Add Stripe customers with new Vero contacts",
-          "tag"        : "Data In"
+          "tag"        : "Data In",
+          "link"       : "https://learn.lexer.io/article/05ouna37ca-vero"
         },
         {
           "integration": "n8n",
           "desc"       : "Create or update Mixpanel profiles whenever people unsubscribe from Vero",
-          "tag"        : "Data in"
+          "tag"        : "Data in",
+          "link"       : "https://n8n.io/integrations/n8n-nodes-base.vero"
         },
         {
           "integration": "Tealium",
           "desc"       : "Send Trustpilot review invitations to your top customers in Vero",
-          "tag"        : "Data in"
+          "tag"        : "Data in",
+          "link"       : "https://tealium.com/integrations/vero_vero.php"
         },
         {
           "integration": "Panoply",
           "desc"       : "Send new people on Pipderive to Vero as new contacts",
-          "tag"        : "Data out"
+          "tag"        : "Data out",
+          "link"       : "https://panoply.io/integrations/vero/"
         },
         {
           "integration": "Branch",
-          "desc"       : "Branch’s deep links store contextual information about where a user wants to go, where the link was clicked, who originally shared the link, and an almost unlimited amount of custom data. Use Branch to include deeplinks in Vero campaigns",
-          "tag"        : "Other"
+          "desc"       : "Branch’s deep links store contextual information about where a user wants to go, where the link was clicked, who originally shared the link, and an almost unlimited amount of custom data",
+          "tag"        : "Other",
+          "link"       : "https://help.branch.io/using-branch/docs/vero"
         },
         {
           "integration": "Freshpaint",
           "desc"       : "Assign leads in Close and create events in Vero",
-          "tag"        : "Data In"
+          "tag"        : "Data In",
+          "link"       : "http://freshpaint.io/"
         }
       ]'
       ;
@@ -278,11 +284,13 @@
         $tag = $value->tag;
         $newTag = str_replace(" ", "-", $tag);
 
-        if ($value->featured == "featured") {
+        $tag2 = $value->tag2;
+        $newTag2 = str_replace(" ", "-", $tag2);
+        ?>
 
-          ?>
-          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . " " . $value->featured ?>">
-            <div class="stack-xxs">
+        <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag); strtolower($newTag2); ?>">
+          <div class="stack-sm">
+            <div class="stack-xxxs">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newIntegration) ?>.svg" alt="<?php echo $value->integration ?>">
 
               <h3 class="micro semi-bold"><?php echo $integration; ?></h3>
@@ -290,34 +298,32 @@
               <p><?php echo $value->desc ?>.</p>
             </div>
 
-            <div class="flex integration-recipe-tags">
-              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
-            </div>
+            <?php
+              if ($value->link) {
+                ?>
+                  <a class="d-inline-block regular underline-link" href="<?php echo $value->link; ?>">Find out more</a>
+                <?php
+              }
+            ?>
           </div>
-          <?php
 
-        } else {
-          ?>
-          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . " " . $value->featured ?>">
-            <div class="stack-xxs">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newIntegration) ?>.svg" alt="<?php echo $value->integration ?>">
+          <div class="flex integration-recipe-tags">
+            <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
 
-              <h3 class="micro semi-bold"><?php echo $integration; ?></h3>
-
-              <p><?php echo $value->desc ?>.</p>
-            </div>
-
-            <div class="flex integration-recipe-tags">
-              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
-            </div>
+            <?php
+              if ($value->tag2) {
+                ?>
+                  <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
+                <?php
+              }
+            ?>
           </div>
-          <?php
+        </div>
 
-        }
+        <?php
       }
 
       ?>
-      <div class="flex flex-wrap">
     </div>
   </div>
 </section>
