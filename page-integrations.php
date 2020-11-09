@@ -59,35 +59,35 @@
 <section class="double-padding bg-dark-blue-lighter integrations-featured relative overflow-hidden">
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
-      <div class="col-main stack-md">
+      <div class="col-main stack-md order-1 md-order-0">
         <span class="cation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Move faster by connecting Vero and Segment</h2>
+          <h2 class="tubs semi-bold">Vero and Segment</h2>
 
           <p class="medium">Use Segment to collect data from multiple sources to trigger personalized marketing communications.</p>
         </div>
 
         <a class="btn btn--secondary" href="/integrations/vero-segment/">Read more</a>
       </div>
-      <div class="col-aside md-right-text">
+      <div class="col-aside md-right-text order-0 md-order-1">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-segment.svg" alt="Vero and Segment integrations">
       </div>
     </div>
   </div>
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
-      <div class="col-main md-order-1 stack-md">
+      <div class="col-main order-1 stack-md">
         <span class="cation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Integrate beyond your product with Vero and Zapier</h2>
+          <h2 class="tubs semi-bold">Vero and Zapier</h2>
           <p class="medium">Using the Vero Zapier integration you can trigger actions in thousands of business tools.</p>
         </div>
 
         <a class="btn btn--secondary" href="/integrations/vero-zapier/">Read more</a>
       </div>
-      <div class="col-aside md-order-0">
+      <div class="col-aside order-0">
         <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-zapier.svg" alt="Vero and Zapier integrations">
       </div>
     </div>
