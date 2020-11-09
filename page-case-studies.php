@@ -9,17 +9,17 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="case-studies-hero double-padding">
+<section class="case-studies-hero">
   <div class="inner tiny-inner center-text stack-md">
     <span class="d-inline-block annotation uppercase tracked semi-bold font-gray-dark">Case studies</span>
 
     <h1 class="semi-bold hulk">Join hundreds of customers that use Vero</h1>
   </div>
 </section>
-<section class="border-bottom-light">
+<section class="bg-dark-blue-lighter">
   <div class="inner large-inner">
     <div class="grid grid--thirds">
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="56" alt="Unsplash logo Vero">
 
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/filld-logo-vero.svg" height="56" alt="filld logo Vero">
 
@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="56" alt="Hello Print logo Vero">
 
