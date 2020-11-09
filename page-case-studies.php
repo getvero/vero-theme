@@ -43,7 +43,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/nitin-ahuja.jpg" alt="Nitin Ahuj" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Nitin Ahuja</span>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/luke-chesser.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Julien Catani" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Julien Catani</span>
@@ -72,21 +72,21 @@
 </section>
 <section class="double-padding overflow-hidden">
   <div class="inner medium-inner stack-xl">
-    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
+    <ul class="unstyled-list case-studies-logos flex justify-between">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
       </li>
     </ul>
 
@@ -112,21 +112,21 @@
       </div>
     </div>
 
-    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
+    <ul class="unstyled-list case-studies-logos flex justify-between">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
+      <li class="no-margin">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
       </li>
     </ul>
 
