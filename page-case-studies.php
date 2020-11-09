@@ -94,8 +94,8 @@
       <div class="w-sidebar w-sidebar--md items-center">
         <div class="col-main lg-right-padding-lg">
           <div class="stack-md">
-            <div>
-              <h2>Plann is a social media scheduling app for travel, fashion, and lifestyle brand</h2>
+            <div class="stack-xxs">
+              <h2 class="tubs semi-bold">Vero and Plann</h2>
               <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
@@ -134,8 +134,8 @@
       <div class="w-sidebar w-sidebar--md items-center">
         <div class="col-main md-order-1 lg-left-padding-lg">
           <div class="stack-md">
-            <div>
-              <h2>When I Work is a fully-integrated scheduling, time tracking, and team messaging tool for businesses</h2>
+            <div class="stack-xxs">
+              <h2 class="tubs semi-bold">Vero and When I Work</h2>
               <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
@@ -159,18 +159,18 @@
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
           <span class="show hulk regular font-brand-primary">32.1%</span>
-          <h3 class="atomic light">Best performing open rate</h3>
+          <h3 class="atomic light">Highest open rate on their best newsletter</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="44">
       </div>
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
           <span class="show hulk regular font-brand-primary">25%</span>
-          <h3 class="atomic light">Reduced buying timeline</h3>
+          <h3 class="atomic light">Reduced the buying timeline</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo" height="44">
       </div>
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
@@ -178,7 +178,7 @@
           <h3 class="atomic light">Click-through-rate</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo" height="44">
       </div>
     </div>
   </div>
