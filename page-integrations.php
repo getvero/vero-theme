@@ -140,7 +140,7 @@
       </label>
     </div>
 
-    <div class="js-integrations-blank-state hide border border-radius-2 padding-lg center-text stack-xxs">
+    <div class="js-integrations-blank-state integrations-blank-state hide border border-radius-2 padding-lg center-text stack-xxs">
       <h3 class="micro semi-bold">No integrations found</h3>
       <p class="medium">Please review your filters and try again.</p>
     </div>
