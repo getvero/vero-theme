@@ -235,7 +235,7 @@
       </label>
     </div>
 
-    <div class="js-integrations-blank-state bg-white hide border border-radius-2 padding-lg center-text stack-xxs">
+    <div class="js-integrations-blank-state integrations-blank-state bg-white hide border border-radius-2 padding-lg center-text stack-xxs">
       <h3 class="micro semi-bold">No integrations found</h3>
       <p class="medium">Please review your filters and try again.</p>
     </div>
@@ -638,7 +638,7 @@
 
       <label class="annotation semi-bold tracked uppercase underline-link" for="integration-recipe-reveal">View more recipes</label>
 
-      <div>
+      <div class="integration-recipe-list-secondary stack-md">
         <div class="flex flex-wrap">
 
         <?php
@@ -673,7 +673,7 @@
 
         </div>
 
-        <span class="d-inline-block font-gray-dark annotation semi-bold tracked uppercase top-margin-lg">More recipes to come</span>
+        <span class="d-inline-block font-gray-dark annotation semi-bold tracked uppercase">More recipes to come</span>
       </div>
     </div>
   </div>
