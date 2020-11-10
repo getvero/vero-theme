@@ -235,12 +235,12 @@
       </label>
     </div>
 
-    <input class="hide recipe-reveal" id="integration-recipe-reveal" name="reveal" type="checkbox">
-
     <div class="js-integrations-blank-state bg-white hide border border-radius-2 padding-lg center-text stack-xxs">
       <h3 class="micro semi-bold">No integrations found</h3>
       <p class="medium">Please review your filters and try again.</p>
     </div>
+
+    <input class="hide recipe-reveal" id="integration-recipe-reveal" name="reveal" type="checkbox">
 
     <div class="integration-recipe-list">
       <?php
