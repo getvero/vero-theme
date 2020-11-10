@@ -39,8 +39,8 @@ function no_content_genesis_header() {
     'context' => 'site-container',
   ) );
 
-  # Only show nav if not on features page
-  if ( !is_page('drag-and-drop') ) {
+  # Only show nav
+  if ( !is_page( array('drag-and-drop') ) ) {
     do_action( 'genesis_before_header' );
     do_action( 'genesis_header' );
     do_action( 'genesis_after_header' );
