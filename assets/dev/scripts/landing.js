@@ -720,4 +720,22 @@ jQuery(document).ready(function() {
       }, 400);
     }, false);
   }
+
+  const integrationsRadio = document.querySelectorAll('input[name="integrations"]');
+
+  for (const button of integrationsRadio) {
+    button.addEventListener('click', () => {
+      const blankState = document.querySelector('.js-integrations-blank-state');
+
+     if (document.querySelectorAll('input[name="integrations"]:checked').length == 0){
+        // all are unchecked
+        blankState.classList.remove('hide');
+        blankState.classList.add('show');
+      } else {
+        blankState.classList.add('hide');
+        blankState.classList.remove('show');
+      }
+
+    });
+  }
 });
