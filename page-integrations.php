@@ -288,7 +288,7 @@
         $newTag2 = str_replace(" ", "-", $tag2);
         ?>
 
-        <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag); strtolower($newTag2); ?>">
+        <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . ' ' . strtolower($newTag2) ?>">
           <div class="stack-sm">
             <div class="stack-xxxs">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newIntegration) ?>.svg" alt="<?php echo $value->integration ?>">
