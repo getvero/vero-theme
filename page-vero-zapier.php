@@ -196,7 +196,7 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter">
-  <div class="inner xlarge-inner center-text stack-md">
+  <div class="inner xlarge-inner center-text stack-lg">
     <h2 class="chunk semi-bold">Zapier recipes</h2>
 
     <input class="hide acquisition-radio" id="acquisition-recipe" name="integrations" type="checkbox" checked>
