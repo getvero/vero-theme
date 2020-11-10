@@ -313,7 +313,7 @@
             <?php
               if ($value->tag2) {
                 ?>
-                  <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
+                  <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag2 ?></span>
                 <?php
               }
             ?>
