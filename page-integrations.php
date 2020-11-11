@@ -218,7 +218,7 @@
         },
         {
           "integration": "Gleam",
-          "desc"       : "Create or update customers in Vero from FormKeep submissions",
+          "desc"       : "Use Gleam to send users directly to them and tag them with something specifically that can be used to send triggered mails",
           "tag"        : "Data in",
           "link"       : "https://gleam.io/docs/integrations/vero"
         },
@@ -230,31 +230,31 @@
         },
         {
           "integration": "Leadsbridge",
-          "desc"       : "Send new leads from LinkedIn Lead Get Forms to Vero",
+          "desc"       : "Use Leadsbridge to synchronize contacts from hundreds of sources into Vero for personalized and targeted messages at scale",
           "tag"        : "Data In",
           "link"       : "https://leadsbridge.com/integrations/vero/"
         },
         {
           "integration": "Lexer",
-          "desc"       : "Add Stripe customers with new Vero contacts",
+          "desc"       : "Use Lexer to create enriched identity profiles and send lists of segmented customers for marketing activations",
           "tag"        : "Data In",
           "link"       : "https://learn.lexer.io/article/05ouna37ca-vero"
         },
         {
           "integration": "n8n",
-          "desc"       : "Create or update Mixpanel profiles whenever people unsubscribe from Vero",
+          "desc"       : "With n8n, you can send data to Vero from hundreds of integrations and synchronize key stages of the customer journey for personalized, targeted messages at scale",
           "tag"        : "Data in",
           "link"       : "https://n8n.io/integrations/n8n-nodes-base.vero"
         },
         {
           "integration": "Tealium",
-          "desc"       : "Send Trustpilot review invitations to your top customers in Vero",
+          "desc"       : "Use Tealium to collect data from multiple sources to trigger personalized marketing communications",
           "tag"        : "Data in",
           "link"       : "https://tealium.com/integrations/vero_vero.php"
         },
         {
           "integration": "Panoply",
-          "desc"       : "Send new people on Pipderive to Vero as new contacts",
+          "desc"       : "Use Panoply to sync, store, and access all your Vero data",
           "tag"        : "Data out",
           "link"       : "https://panoply.io/integrations/vero/"
         },
@@ -266,7 +266,7 @@
         },
         {
           "integration": "Freshpaint",
-          "desc"       : "Assign leads in Close and create events in Vero",
+          "desc"       : "Use Freshpaint to connect and standardize customer data from your site or app to Vero",
           "tag"        : "Data In",
           "link"       : "http://freshpaint.io/"
         }
