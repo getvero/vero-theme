@@ -208,12 +208,12 @@
         },
         {
           "integration": "Twilio",
-          "desc"       : "Third party email service provider to assist with deliveribility",
+          "desc"       : "Third party push notification provider",
           "tag"        : "Messaging channel"
         },
         {
           "integration": "Amazon SNS",
-          "desc"       : "Third party email service provider to assist with deliveribility",
+          "desc"       : "Third party push notification provider",
           "tag"        : "Messaging channel"
         },
         {
