@@ -16,7 +16,7 @@
     <h1 class="semi-bold hulk">Join hundreds of customers that use Vero</h1>
   </div>
 </section>
-<section class="border-bottom-light">
+<section class="bg-dark-blue-lighter small-padding">
   <div class="inner large-inner">
     <div class="grid grid--thirds">
       <div class="stack-md">
