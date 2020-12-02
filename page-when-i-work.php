@@ -63,10 +63,12 @@
   <div class="case-study-callout bg-primary-lighter border-primary stack-sm">
     <h2 class="chunk semi-bold">The Challenge: A pragmatic, data-driven company hamstrung by old tooling</h2>
 
-    <p class="medium">Difficult to create or update automated communications, requiring a <strong>software specialist</strong> to write and maintain complex proprietary code in their previous solution. This resource became a costly bottleneck, blocking When I Work from scaling up.</p>
+    <p class="medium">When I Work needed a customer communications tool that would enable them to continue scaling without slowing their team down.</p>
+
+    <p class="medium">The three main challenges with their current tool?</p>
 
     <ul class="medium stack-0">
-      <li>Update email content for automated messages without opening an engineering ticket.</li>
+      <li>Difficult to create or update automated communications, requiring a <strong>software specialist</strong> with deep product knowledge in order to use the tool. This resource became a costly bottleneck, blocking When I Work from scaling up.</li>
       <li>Unable to export their campaign data (customer engagement data) for complex analysis in their own data warehouse and BI tools.</li>
       <li>Inability to integrate deeply with their core software stack.</li>
     </ul>
@@ -98,7 +100,7 @@
   </div>
 
   <div>
-    <p class="medium">With the help of Founder Chad Halvorson and Senior Director of Data Science and Engineering Scott Ernst, When I Work switched to Vero — a tool that both the marketing and data engineering teams approved of.</p>
+    <p class="medium">With the help of Founder Chad Halvorson, When I Work switched to Vero&mdash;a tool that both the marketing and data engineering teams approved of</p>
   </div>
 
   <blockquote class="case-study-callout bg-white border stack-md center-text">
