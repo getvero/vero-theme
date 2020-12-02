@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="case-studies-hero double-padding">
+<section class="case-studies-hero">
   <div class="inner tiny-inner center-text stack-md">
     <span class="d-inline-block annotation uppercase tracked semi-bold font-gray-dark">Case studies</span>
 
@@ -19,7 +19,7 @@
 <section class="bg-dark-blue-lighter small-padding">
   <div class="inner large-inner">
     <div class="grid grid--thirds">
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" height="56" alt="Unsplash logo Vero">
 
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/filld-logo-vero.svg" height="56" alt="filld logo Vero">
 
@@ -43,7 +43,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/nitin-ahuja.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/nitin-ahuja.jpg" alt="Nitin Ahuj" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Nitin Ahuja</span>
@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="stack-md">
+      <div class="case-studies-quote stack-md">
         <div class="stack-xxxs">
           <img class="align-middle case-studies-quote-logo" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" height="56" alt="Hello Print logo Vero">
 
@@ -59,7 +59,7 @@
         </div>
 
         <div class="flex items-center">
-          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Luke Chesser" width="44" height="44">
+          <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/home/customers/julien-catani.jpg" alt="Julien Catani" width="44" height="44">
 
           <div class="left-margin-xs">
             <span class="show semi-bold">Julien Catani</span>
@@ -72,21 +72,21 @@
 </section>
 <section class="double-padding overflow-hidden">
   <div class="inner medium-inner stack-xl">
-    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
+    <ul class="unstyled-list case-studies-logos flex justify-between">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/unsplash-logo-vero.svg" alt=" Unsplash logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/tidal-logo-vero.svg" alt="Tidal logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/stickermule-logo-vero.svg" alt="Stickermule logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/monzo-logo-vero.svg" alt="Monzo logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/pipedrive-logo-vero.svg" alt="Pipedrive logo">
       </li>
     </ul>
 
@@ -94,8 +94,8 @@
       <div class="w-sidebar w-sidebar--md items-center">
         <div class="col-main lg-right-padding-lg">
           <div class="stack-md">
-            <div>
-              <h2>Plann is a social media scheduling app for travel, fashion, and lifestyle brand</h2>
+            <div class="stack-xxs">
+              <h2 class="tubs semi-bold">Vero and Plann</h2>
               <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
@@ -112,21 +112,21 @@
       </div>
     </div>
 
-    <ul class="unstyled-list case-studies-logos flex flex-wrap justify-between">
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
+    <ul class="unstyled-list case-studies-logos flex justify-between">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/helloprint-logo-vero.svg" alt="Helloprint logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/ausmed-logo-vero.svg" alt="Ausmed logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/aboutme-logo-vero.svg" alt="about.me logo">
       </li>
-      <li class="logo-list-item no-margin">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
+      <li>
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/bubble-logo-vero.svg" alt="bubble logo">
       </li>
     </ul>
 
@@ -134,8 +134,8 @@
       <div class="w-sidebar w-sidebar--md items-center">
         <div class="col-main md-order-1 lg-left-padding-lg">
           <div class="stack-md">
-            <div>
-              <h2>When I Work is a fully-integrated scheduling, time tracking, and team messaging tool for businesses</h2>
+            <div class="stack-xxs">
+              <h2 class="tubs semi-bold">Vero and When I Work</h2>
               <p class="medium">Plann’s best performing open rate was at 32.1%, averaging at 3% click-through-rate for their best performing content.</p>
             </div>
 
@@ -159,19 +159,18 @@
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
           <span class="show hulk regular font-brand-primary">32.1%</span>
-          <h3 class="atomic light">Best performing open rate</h3>
+          <h3 class="atomic light">Highest open rate on their best newsletter</h3>
         </div>
 
-
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="48">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="44">
       </div>
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
           <span class="show hulk regular font-brand-primary">25%</span>
-          <h3 class="atomic light">Reduced buying timeline</h3>
+          <h3 class="atomic light">Reduced the buying timeline</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo" height="44">
       </div>
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
@@ -179,7 +178,7 @@
           <h3 class="atomic light">Click-through-rate</h3>
         </div>
 
-        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo">
+        <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo" height="44">
       </div>
     </div>
   </div>
@@ -188,13 +187,13 @@
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main md-order-1 md-left-padding-md stack-md">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="48">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo.png" srcset="/wp-content/themes/vero/assets/dist/images/case-study/plann/logo@2x.png 2x" alt="Plann logo" height="56">
 
         <p class="micro quote-mark">Vero is constantly innovating and readily takes on product feature requests, so we’re confident that they’ll be able to scale with us.</p>
 
         <div>
           <span class="show atomic semi-bold">Karina May</span>
-          <span class="medium">Chief Marketing Officer at Plann</span>
+          <span class="atomic">Chief Marketing Officer at Plann</span>
         </div>
       </div>
       <div class="col-aside md-order-0">
