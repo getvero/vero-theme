@@ -182,6 +182,10 @@
       <p class="medium">Ellen added that these new personalized streams have allowed the When I Work team to reduce friction and optimize the customer experience&mdash;<strong>reducing the buying timeline by 25%</strong>.</p>
     </div>
 
+    <blockquote class="case-study-callout bg-white border stack-md center-text">
+      <p class="tubs quote">&ldquo;Our customers are at the center of everything we do. And one of the key benefits of Vero is that it allows us to personalize in a way that every campaign and interaction is putting the customer first, and meeting them where they are in their journey.</p>
+    </blockquote>
+
     <div class="stack-sm">
       <h3 class="tubs regular">🏃‍♀️ Get new ideas <strong>live</strong>, faster</h3>
 
