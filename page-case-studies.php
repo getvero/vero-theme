@@ -167,7 +167,7 @@
       <div class="bg-white border-radius-2 padding-md stack-sm">
         <div class="stack-xxxs">
           <span class="show hulk regular font-brand-primary">25%</span>
-          <h3 class="atomic light">Reduced the buying timeline</h3>
+          <h3 class="atomic light">Increase in speed of the buying timeline</h3>
         </div>
 
         <img class="d-inline-block align-middle" src="/wp-content/themes/vero/assets/dist/images/home/logos/wiw-logo-vero.svg" alt="When I Work logo" height="44">
