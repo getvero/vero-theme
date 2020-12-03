@@ -201,7 +201,7 @@
     </div>
 
     <div>
-      <h3 class="tubs regular">🏃‍♀️ Empower non-technical marketers</h3>
+      <h3 class="tubs regular">🚀 Empower non-technical marketers</h3>
 
       <p class="medium">In the past, the When I Work team had to rely on an internal expert&mdash;and eventually an agency&mdash;to create their marketing campaigns.</p>
 
