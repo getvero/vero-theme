@@ -84,7 +84,7 @@
     <p class="tubs quote">&ldquo;It was great to find an intuitive platform like Vero. We no longer require technical expertise to build personalized, sophisticated campaigns&mdash;the strategists on the team and I feel very confident using it</p>
 
     <div class="author stack-xxs">
-      <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" alt="Ellen Falk" height="56" width="56">
+      <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk@2x.jpg 2x" alt="Ellen Falk" height="56" width="56">
 
       <div>
         <span class="show medium semi-bold">Ellen Falk</span>
@@ -241,7 +241,7 @@
       <p class="tubs quote">&ldquo;Adopting Vero, allowing us to create those dynamic pieces, and really improve what we're doing has been huge. Our speed to market has also improved, and the team has been able to crank things out faster, and still ensure messages that are personalized to a stronger degree.</p>
 
       <div class="author stack-xxs">
-        <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" alt="Ellen Falk" height="56" width="56">
+        <img class="align-middle border-radius-100" src="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk.jpg" srcset="/wp-content/themes/vero/assets/dist/images/case-study/wiw/ellen-falk@2x.jpg 2x" alt="Ellen Falk" height="56" width="56">
         <div>
           <span class="show medium semi-bold">Ellen Falk</span>
           <span class="show medium">Senior Manager of Lifecycle Marketing</span>
