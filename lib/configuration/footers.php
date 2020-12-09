@@ -63,6 +63,7 @@
                 <li>
                   <h4 class="semi-bold annotation uppercase faded">Integrations</h4>
                 </li>
+                <li><a href="/integrations/">Overview</a></li>
                 <li><a href="/integrations/vero-segment/">Segment</a></li>
                 <li><a href="/integrations/vero-stitch/">Stitch</a></li>
                 <li><a href="/integrations/vero-snowplow/">Snowplow</a></li>

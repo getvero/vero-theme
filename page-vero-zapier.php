@@ -196,43 +196,48 @@
   </div>
 </section>
 <section class="bg-dark-blue-lighter">
-  <div class="inner xlarge-inner center-text stack-md">
+  <div class="inner xlarge-inner center-text stack-lg">
     <h2 class="chunk semi-bold">Zapier recipes</h2>
 
-    <input class="hide acquisition-radio" id="acquisition-recipe" name="integration-zapier" type="checkbox" checked>
-    <input class="hide referral-radio" id="referral-recipe" name="integration-zapier" type="checkbox" checked>
-    <input class="hide retention-radio" id="retention-recipe" name="integration-zapier" type="checkbox" checked>
-    <input class="hide tracking-radio" id="tracking-recipe" name="integration-zapier" type="checkbox" checked>
+    <input class="hide acquisition-radio" id="acquisition-recipe" name="integrations" type="checkbox" checked>
+    <input class="hide referral-radio" id="referral-recipe" name="integrations" type="checkbox" checked>
+    <input class="hide retention-radio" id="retention-recipe" name="integrations" type="checkbox" checked>
+    <input class="hide tracking-radio" id="tracking-recipe" name="integrations" type="checkbox" checked>
 
     <div class="flex flex-wrap justify-center integration-recipe-switcher">
       <label class="flex items-center integration-label atomic semi-bold" data-category="acquisition" for="acquisition-recipe">
         <div class="bg-white box border right-margin-xxs">
-          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Acquisition</span>
       </label>
       <label class="flex items-center integration-label atomic semi-bold" data-category="referral" for="referral-recipe">
         <div class="bg-white box border right-margin-xxs">
-          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Referral</span>
       </label>
       <label class="flex items-center integration-label atomic semi-bold" data-category="retention" for="retention-recipe">
         <div class="bg-white box border right-margin-xxs">
-          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Retention</span>
       </label>
       <label class="flex items-center integration-label atomic semi-bold" data-category="tracking" for="tracking-recipe">
         <div class="bg-white box border right-margin-xxs">
-          <svg class="align-middle" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h16v16H0z" fill="#01B2D0"/><path stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.46 9.43l2.351 2.402 6.413-7.206"/></g></svg>
         </div>
 
         <span>Tracking</span>
       </label>
+    </div>
+
+    <div class="js-integrations-blank-state integrations-blank-state bg-white hide border border-radius-2 padding-lg center-text stack-xxs">
+      <h3 class="micro semi-bold">No integrations found</h3>
+      <p class="medium">Please review your filters and try again.</p>
     </div>
 
     <input class="hide recipe-reveal" id="integration-recipe-reveal" name="reveal" type="checkbox">
@@ -633,7 +638,7 @@
 
       <label class="annotation semi-bold tracked uppercase underline-link" for="integration-recipe-reveal">View more recipes</label>
 
-      <div>
+      <div class="integration-recipe-list-secondary stack-md">
         <div class="flex flex-wrap">
 
         <?php
@@ -668,7 +673,7 @@
 
         </div>
 
-        <span class="d-inline-block font-gray-dark annotation semi-bold tracked uppercase top-margin-lg">More recipes to come</span>
+        <span class="d-inline-block font-gray-dark annotation semi-bold tracked uppercase">More recipes to come</span>
       </div>
     </div>
   </div>

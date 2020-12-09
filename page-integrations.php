@@ -59,36 +59,36 @@
 <section class="double-padding bg-dark-blue-lighter integrations-featured relative overflow-hidden">
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
-      <div class="col-main stack-md">
-        <span class="cation tracked uppercase font-gray-dark regular">Featured integration</span>
+      <div class="col-main stack-md order-1 md-order-0">
+        <span class="cation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Move faster by connecting Vero and Segment</h2>
+          <h2 class="tubs semi-bold">Vero and Segment</h2>
 
           <p class="medium">Use Segment to collect data from multiple sources to trigger personalized marketing communications.</p>
         </div>
 
         <a class="btn btn--secondary" href="/integrations/vero-segment/">Read more</a>
       </div>
-      <div class="col-aside md-right-text">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-segment.svg" alt="Vero and Segment integration">
+      <div class="col-aside md-right-text order-0 md-order-1">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-segment.svg" alt="Vero and Segment integrations">
       </div>
     </div>
   </div>
   <div class="inner small-inner relative z-1">
     <div class="w-sidebar w-sidebar--sm items-center">
-      <div class="col-main md-order-1 stack-md">
-        <span class="cation tracked uppercase font-gray-dark regular">Featured integration</span>
+      <div class="col-main order-1 stack-md">
+        <span class="cation tracked uppercase font-gray-dark semi-bold">Featured integration</span>
 
         <div class="stack-xs">
-          <h2 class="tubs semi-bold">Integrate beyond your product with Vero and Zapier</h2>
+          <h2 class="tubs semi-bold">Vero and Zapier</h2>
           <p class="medium">Using the Vero Zapier integration you can trigger actions in thousands of business tools.</p>
         </div>
 
         <a class="btn btn--secondary" href="/integrations/vero-zapier/">Read more</a>
       </div>
-      <div class="col-aside md-order-0">
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-zapier.svg" alt="Vero and Zapier integration">
+      <div class="col-aside order-0">
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/vero-zapier.svg" alt="Vero and Zapier integrations">
       </div>
     </div>
   </div>
@@ -140,10 +140,9 @@
       </label>
     </div>
 
-    <div class="js-integrations-blank-state integrations-blank-state hide border-radius-2 border bg-white center-text stack-xs padding-lg">
-      <h3 class="tubs semi-bold">No integrations</h3>
-
-      <p class="medium">Please select a filter.</p>
+    <div class="js-integrations-blank-state integrations-blank-state hide border border-radius-2 padding-lg center-text stack-xxs">
+      <h3 class="micro semi-bold">No integrations found</h3>
+      <p class="medium">Please review your filters and try again.</p>
     </div>
 
     <div class="integration-recipe-list">
@@ -153,37 +152,46 @@
       $someJSON =
       '[
         {
-          "featured"   : "featured",
+          "integration": "Segment",
+          "desc"       : "Use Segment to collect data from multiple sources to trigger personalized marketing communications",
+          "tag"        : "Data in",
+          "link"       : "/integrations/vero-segment/"
+        },
+        {
+          "integration": "Zapier",
+          "desc"       : "Using the Vero Zapier integration you can trigger actions in thousands of business tools",
+          "tag"        : "Data in",
+          "tag2"       : "Data out",
+          "link"       : "/integrations/vero-zapier/"
+        },
+        {
           "integration": "Stitch",
           "desc"       : "Use Stitch to send your email interaction data including deliveries, opens, clicks and unsubscribes from Vero to your data warehouse in one click",
-          "tag"        : "Data out"
+          "tag"        : "Data out",
+          "link"       : "/integrations/vero-stitch/"
         },
         {
-          "featured"   : "featured",
           "integration": "Snowplow",
           "desc"       : "Use Snowplow to send all your email and push interaction data including deliveries, opens, clicks and unsubscribes from Vero to your data warehouse",
-          "tag"        : "Data out"
+          "tag"        : "Data out",
+          "link"       : "/integrations/vero-snowplow/"
         },
         {
-          "featured"   : "featured",
           "integration": "Google Analytics",
           "desc"       : "You can automatically append UTM parameters to outbound links in your email campaigns and use this data to attribute conversions to their correct source",
           "tag"        : "Data out"
         },
         {
-          "featured"   : "featured",
           "integration": "Unbounce",
           "desc"       : "By integrating Vero with Unbounce, you can capture the email addresses and actions of leads that sign up via your Unbounce landing pages",
           "tag"        : "Data in"
         },
         {
-          "featured"   : "featured",
           "integration": "Sendgrid",
           "desc"       : "Third party email service provider to assist with deliveribility",
           "tag"        : "Messaging channel"
         },
         {
-          "featured"   : "featured",
           "integration": "Mailgun",
           "desc"       : "Third party email service provider to assist with deliveribility",
           "tag"        : "Messaging channel"
@@ -200,58 +208,67 @@
         },
         {
           "integration": "Twilio",
-          "desc"       : "Third party email service provider to assist with deliveribility",
+          "desc"       : "Third party push notification provider",
           "tag"        : "Messaging channel"
         },
         {
           "integration": "Amazon SNS",
-          "desc"       : "Third party email service provider to assist with deliveribility",
+          "desc"       : "Third party push notification provider",
           "tag"        : "Messaging channel"
         },
         {
           "integration": "Gleam",
-          "desc"       : "Create or update customers in Vero from FormKeep submissions",
-          "tag"        : "Data in"
+          "desc"       : "Use Gleam to send users directly to them and tag them with something specifically that can be used to send triggered mails",
+          "tag"        : "Data in",
+          "link"       : "https://gleam.io/docs/integrations/vero"
         },
         {
           "integration": "Survicate",
           "desc"       : "Create or update customer profiles in Vero from new Survicate question responses",
-          "tag"        : "Data In"
+          "tag"        : "Data In",
+          "link"       : "https://survicate.com/blog/installation/vero-integration"
         },
         {
           "integration": "Leadsbridge",
-          "desc"       : "Send new leads from LinkedIn Lead Get Forms to Vero",
-          "tag"        : "Data In"
+          "desc"       : "Use Leadsbridge to synchronize contacts from hundreds of sources into Vero for personalized and targeted messages at scale",
+          "tag"        : "Data In",
+          "link"       : "https://leadsbridge.com/integrations/vero/"
         },
         {
           "integration": "Lexer",
-          "desc"       : "Add Stripe customers with new Vero contacts",
-          "tag"        : "Data In"
+          "desc"       : "Use Lexer to create enriched identity profiles and send lists of segmented customers for marketing activations",
+          "tag"        : "Data In",
+          "link"       : "https://learn.lexer.io/article/05ouna37ca-vero"
         },
         {
           "integration": "n8n",
-          "desc"       : "Create or update Mixpanel profiles whenever people unsubscribe from Vero",
-          "tag"        : "Data in"
+          "desc"       : "With n8n, you can send data to Vero from hundreds of integrations and synchronize key stages of the customer journey for personalized, targeted messages at scale",
+          "tag"        : "Data in",
+          "link"       : "https://n8n.io/integrations/n8n-nodes-base.vero"
         },
         {
           "integration": "Tealium",
-          "desc"       : "Send Trustpilot review invitations to your top customers in Vero",
-          "tag"        : "Data in"
+          "desc"       : "Use Tealium to collect data from multiple sources to trigger personalized marketing communications",
+          "tag"        : "Data in",
+          "link"       : "https://tealium.com/integrations/vero_vero.php"
         },
         {
           "integration": "Panoply",
-          "desc"       : "Send new people on Pipderive to Vero as new contacts",
-          "tag"        : "Data out"
+          "desc"       : "Use Panoply to sync, store, and access all your Vero data",
+          "tag"        : "Data out",
+          "link"       : "https://panoply.io/integrations/vero/"
         },
         {
           "integration": "Branch",
-          "desc"       : "Branch’s deep links store contextual information about where a user wants to go, where the link was clicked, who originally shared the link, and an almost unlimited amount of custom data. Use Branch to include deeplinks in Vero campaigns",
-          "tag"        : "Other"
+          "desc"       : "Branch’s deep links store contextual information about where a user wants to go, where the link was clicked, who originally shared the link, and an almost unlimited amount of custom data",
+          "tag"        : "Other",
+          "link"       : "https://help.branch.io/using-branch/docs/vero"
         },
         {
           "integration": "Freshpaint",
-          "desc"       : "Assign leads in Close and create events in Vero",
-          "tag"        : "Data In"
+          "desc"       : "Use Freshpaint to connect and standardize customer data from your site or app to Vero",
+          "tag"        : "Data In",
+          "link"       : "http://freshpaint.io/"
         }
       ]'
       ;
@@ -267,11 +284,13 @@
         $tag = $value->tag;
         $newTag = str_replace(" ", "-", $tag);
 
-        if ($value->featured == "featured") {
+        $tag2 = $value->tag2;
+        $newTag2 = str_replace(" ", "-", $tag2);
+        ?>
 
-          ?>
-          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . " " . $value->featured ?>">
-            <div class="stack-xxs">
+        <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . ' ' . strtolower($newTag2) ?>">
+          <div class="stack-sm">
+            <div class="stack-xxxs">
               <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newIntegration) ?>.svg" alt="<?php echo $value->integration ?>">
 
               <h3 class="micro semi-bold"><?php echo $integration; ?></h3>
@@ -279,35 +298,32 @@
               <p><?php echo $value->desc ?>.</p>
             </div>
 
-            <div class="flex integration-recipe-tags">
-              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
-            </div>
+            <?php
+              if ($value->link) {
+                ?>
+                  <a class="d-inline-block regular underline-link" href="<?php echo $value->link; ?>">Find out more</a>
+                <?php
+              }
+            ?>
           </div>
-          <?php
 
-        } else {
+          <div class="flex integration-recipe-tags">
+            <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
 
-          ?>
-          <div class="integration-recipe shadow-2 border-radius-2 bg-white border" data-category="<?php echo strtolower($newTag) . " " . $value->featured ?>">
-            <div class="stack-xxs">
-              <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/integrations/logos/<?php echo strtolower($newIntegration) ?>.svg" alt="<?php echo $value->integration ?>">
-
-              <h3 class="micro semi-bold"><?php echo $integration; ?></h3>
-
-              <p><?php echo $value->desc ?>.</p>
-            </div>
-
-            <div class="flex integration-recipe-tags">
-              <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag ?></span>
-            </div>
+            <?php
+              if ($value->tag2) {
+                ?>
+                  <span class="d-inline-block bg-gray-light cation semi-bold uppercase border-radius-1"><?php echo $value->tag2 ?></span>
+                <?php
+              }
+            ?>
           </div>
-          <?php
+        </div>
 
-        }
+        <?php
       }
 
       ?>
-      </div>
     </div>
   </div>
 </section>

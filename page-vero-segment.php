@@ -85,15 +85,17 @@
   </div>
 </section>
 <section id="vero-segment-test-event" class="border-bottom-light">
-  <div class="inner halfs medium-inner small-reverse">
-    <div class="left">
-      <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
-      <p class="medium">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.</p>
-      <p class="medium">Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
-      </p>
-    </div>
-    <div class="right flex md-justify-end">
-      <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
+  <div class="inner medium-inner">
+    <div class="w-sidebar w-sidebar--md">
+      <div class="col-main">
+        <h2 class="chunk regular bottom-margin-sm">Meaningful and actionable insights</h2>
+        <p class="medium">Vero’s integration with Segment allows you to extract, transform and load (ETL) your email campaign data into your data warehouses, such as Redshift and Bigquery.</p>
+
+        <p class="medium">Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights. For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
+      </div>
+      <div class="col-aside flex md-right-text">
+        <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
+      </div>
     </div>
   </div>
 </section>
