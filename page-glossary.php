@@ -83,7 +83,7 @@
           <li class="faded">U</li>
           <li class="faded">V</li>
           <li>
-            <a href="#w">W</a>
+            <a href="#W">W</a>
           </li>
           <li class="faded">X</li>
           <li class="faded">Y</li>
