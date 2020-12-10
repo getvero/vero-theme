@@ -475,6 +475,20 @@ jQuery(document).ready(function() {
     });
   }
 
+  // Responsive marketing menu
+  jQuery('.nav-primary-label').on('click', function() {
+    if (!jQuery('.nav-primary-check').prop('checked')) {
+      jQuery('.menu-primary > .menu-item-has-children > .sub-menu').addClass('hide');
+    }
+  });
+
+  jQuery('.menu-primary > .menu-item-has-children').on('click', function() {
+    jQuery(this).children('.sub-menu').toggleClass('hide');
+
+    jQuery(this).children('.sub-menu').toggleClass('flex');
+  });
+
+
   // Responsive resources menu
   var isFixed   = false;
   var menuClone = jQuery('.js-category-toggle').clone();
