@@ -3,13 +3,13 @@
   function add_class($classes) {
     global $post;
 
-    $classes[] = 'integration integration-zapier';
+    $classes[] = 'integration integration-webhooks';
     return $classes;
   }
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="integration-hero" banner-name="Connect Vero and Zapier" element-position="top">
+<section class="integration-hero" banner-name="Connect Vero with Webhooks" element-position="top">
   <div class="inner small-inner center-text stack-lg">
     <span class="show annotation tracked uppercase semi-bold font-gray-dark">Integrations</span>
 
@@ -26,7 +26,7 @@
            <a class="btn btn--success btn--large track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
 
   </div>
-  <div class="inner large-inner bottom-padding-lg relative">
+  <div class="inner large-inner">
     <div class="bg-primary-lighter border-radius-2 border-primary integration-about">
       <div class="flex">
         <div class="stack-xs">
@@ -52,8 +52,8 @@
     </div>
   </div>
 </section>
-<section class="double-padding integration-zapier-connect">
-  <div class="inner medium-inner border-bottom">
+<section class="double-padding">
+  <div class="inner medium-inner flush-top">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main stack-md">
         <div class="stack-xs">
@@ -66,7 +66,7 @@
       <div class="col-aside stack-md">
         <div class="flex">
           <div class="right-margin-sm">
-            <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g stroke="#01B2D0" stroke-width="2"><rect x="7" y="27" width="14" height="14" rx="4"/><rect x="27" y="27" width="14" height="14" rx="4"/><rect x="7" y="7" width="14" height="14" rx="4"/><rect opacity=".2" x="27" y="7" width="14" height="14" rx="4"/></g><path d="M577.5-779.08C388.574-888.156 146.996-823.426 37.92-634.5-71.156-445.574-6.426-203.996 182.5-94.92 371.426 14.156 613.004-50.574 722.08-239.5c109.076-188.926 44.346-430.504-144.58-539.58z" stroke="#E1E1E1" stroke-dasharray="2378.4,238" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></g></svg>
+            <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><rect stroke="#6F0DFB" stroke-width="2" x="7" y="9" width="34" height="30" rx="4"/><path fill="#6F0DFB" d="M7 14h34v2H7z"/><path stroke-opacity=".4" stroke="#6F0DFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15.706 30l5.633-4.212L27.08 30l7.038-8.423"/></g></svg>
           </div>
 
           <div class="stack-xxxs">
@@ -77,7 +77,7 @@
 
         <div class="flex">
           <div class="right-margin-sm">
-            <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g stroke="#F15242" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M27.577 13.113l14.266 10.07a1 1 0 010 1.634l-14.266 10.07A1 1 0 0126 34.07V13.93a1 1 0 011.577-.817z" fill="#F15242" opacity=".4"/><path d="M7.577 13.113l14.266 10.07a1 1 0 010 1.634L7.577 34.887A1 1 0 016 34.07V13.93a1 1 0 011.577-.817z" fill="#FFF"/></g></svg>
+            <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><defs/><g stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd"><rect x="5" y="5" width="16" height="16" rx="2"/><rect x="27" y="27" width="16" height="16" rx="2"/><circle stroke-opacity=".4" cx="35" cy="13" r="8"/><circle cx="13" cy="35" r="8"/></g></svg>
           </div>
 
           <div class="stack-xxxs">
@@ -89,93 +89,21 @@
     </div>
   </div>
 </section>
-<section class="double-padding border-bottom integration-zapier-automate">
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner small-inner stack-lg">
+    <h2 class="chunk semi-bold center-text">Make decisions with greater clarity</h2>
+    <p class="large">By combining message interaction data with all of your business data</p>
+  </div>
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main">
-        <h2 class="tubs semi-bold">Automate at a whole new level</h2>
+        <h2 class="tubs semi-bold">Access the insights important to your business</h2>
         <p class="medium">With Zapier and Vero together, when it comes to messaging if you can dream it, then you can build it.</p>
 
         <p class="medium">Zapier's no-code interface enables anyone on the team to send data to Vero, whether technical or not, from thousands of business applications. Empowering you to unlock more data and streamline your customer experience, the Vero Zap helps your team to move faster, test more ideas, personalize at a more granular level and deliver great products.</p>
       </div>
       <div class="col-aside relative center-text lg-right-text">
         <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/integrations/zapier/automate.svg" alt="Automate at a whole new level">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="double-padding">
-  <div class="inner small-inner stack-lg">
-    <h2 class="chunk semi-bold center-text">Create your own automation journey</h2>
-
-    <div class="integration-triggers-actions flex flex-wrap justify-between">
-      <div class="stack-md center-text md-left-text triggers">
-        <div class="stack-xxxs">
-          <span class="show annotation semi-bold uppercase font-gray-dark tracked">Triggers</span>
-          <h3 class="micro semi-bold">When this happens…</h3>
-        </div>
-
-        <ul class="unstyled-list stack-sm">
-          <li class="flex flex-wrap items-center trigger-item">
-            <div class="d-inline-block bg-white border border-radius-2">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-
-            <span class="show atomic regular">Update user</span>
-          </li>
-          <li class="flex flex-wrap items-center trigger-item">
-            <div class="d-inline-block bg-white border border-radius-2">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-
-            <span class="show atomic regular">New user</span>
-          </li>
-          <li class="flex flex-wrap items-center trigger-item">
-            <div class="d-inline-block bg-white border border-radius-2">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-
-            <span class="show atomic regular">Unsubscribed user</span>
-          </li>
-        </ul>
-      </div>
-
-      <div class="stack-md center-text md-right-text actions">
-        <div class="stack-xxxs">
-          <span class="show annotation semi-bold uppercase font-gray-dark tracked">Actions</span>
-          <h3 class="micro semi-bold">Do this…</h3>
-        </div>
-
-        <ul class="unstyled-list stack-sm">
-          <li class="flex flex-wrap items-center md-justify-end action-item">
-            <span class="show atomic regular order-1 md-order-0">Create or update a user</span>
-
-            <div class="d-inline-block bg-white border border-radius-2 order-0 md-order-1">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-          </li>
-          <li class="flex flex-wrap items-center md-justify-end action-item">
-            <span class="show atomic regular order-1 md-order-0">Track an event</span>
-
-            <div class="d-inline-block bg-white border border-radius-2 order-0 md-order-1">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-          </li>
-          <li class="flex flex-wrap items-center md-justify-end action-item">
-            <span class="show atomic regular order-1 md-order-0">Unsubscribe a user</span>
-
-            <div class="d-inline-block bg-white border border-radius-2 order-0 md-order-1">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-          </li>
-          <li class="flex flex-wrap items-center md-justify-end action-item">
-            <span class="show atomic regular order-1 md-order-0">Update user tags</span>
-
-            <div class="d-inline-block bg-white border border-radius-2 order-0 md-order-1">
-              <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h64v64H0z"/><path d="M44.203 17.002a3.637 3.637 0 00-.12-.002H19.743C17.661 17 16 18.738 16 20.918c0 .489.09.958.253 1.39.076.243.177.482.302.714l12.1 21.91c.173.314.381.593.615.836A3.684 3.684 0 0032.017 47c.911 0 1.75-.356 2.396-.94.365-.3.684-.679.933-1.128l12.1-21.91c.122-.227.22-.461.297-.7.166-.436.257-.91.257-1.404C48 18.738 46.34 17 44.325 17c-.041 0-.082 0-.122.002zM33.196 37.605l9.569-17.377c.034-.049.057-.086.07-.108.282-.569.832-.944 1.49-.944.866 0 1.595.764 1.595 1.742 0 .334-.106.662-.278.943a.1.1 0 00-.034.072l-10.54 19.081-1.872-3.41zM19.883 19.176h21.079l-1.872 3.41H19.675c-.9 0-1.63-.763-1.63-1.668 0-.978.73-1.742 1.63-1.742h.208zm6.225 5.587h11.784L32 35.432l-5.892-10.67zm4.384 19.154c.002-.026-.01-.046-.035-.073L19.952 24.763h3.745L33.3 42.139a.5.5 0 00.07.145c.147.256.242.578.242.943 0 .906-.728 1.669-1.595 1.669a1.687 1.687 0 01-1.525-.98z" fill="#0AA6D2"/></g></svg>
-            </div>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
