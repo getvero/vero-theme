@@ -106,7 +106,7 @@
     <input class="integration-webhooks-radio-7" id="tab-7" name="test" type="radio">
 
     <ul class="unstyled-list flex justify-center integration-triggers">
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-1">
 
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
@@ -116,7 +116,7 @@
           <span>Sent</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-2">
 
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
@@ -126,7 +126,7 @@
           <span>Opened</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-3">
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
             <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M23.585 5.895c.81 0 1.468.655 1.468 1.467v13.276a1.47 1.47 0 01-1.468 1.467H4.415c-.81 0-1.468-.655-1.468-1.467V7.362c0-.81.662-1.467 1.468-1.467h19.17zm-2.953 8.842l-.143.007c-.752.07-1.331.7-1.331 1.465v1.477c0 .82.66 1.472 1.474 1.472l.142-.007c.752-.071 1.331-.7 1.331-1.465v-1.477c0-.82-.66-1.472-1.473-1.472zm-9.58-5.895c-2.184 0-3.638 2.125-1.604 5.871.687 1.264-.742 1.563-2.188 1.897-1.196.275-1.35.839-1.365 1.792a.738.738 0 00.742.741h8.83c.41 0 .75-.332.743-.741-.014-.954-.168-1.517-1.364-1.793-1.478-.34-2.855-.64-2.188-1.896 2.029-3.825.538-5.87-1.605-5.87zm9.581 0h-2.95c-.82 0-1.472.66-1.472 1.472v1.477c0 .82.659 1.472 1.472 1.472h2.95c.819 0 1.472-.659 1.472-1.472v-1.477c0-.82-.659-1.472-1.472-1.472z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
@@ -135,7 +135,7 @@
           <span>Customer updated</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-4">
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
             <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M22.101 6C23.702 6 25 7.296 25 8.897v10.206c0 1.6-1.294 2.897-2.899 2.897H5.9A2.897 2.897 0 013 19.103V8.897C3 7.297 4.294 6 5.899 6H22.1zM6.281 8.218a.753.753 0 00-1.061 0 .742.742 0 000 1.054l8.25 8.202a.753.753 0 001.06 0l8.25-8.202a.742.742 0 000-1.054.753.753 0 00-1.06 0L14 15.893z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
@@ -144,7 +144,7 @@
           <span>Delivered</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-5">
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
             <svg class="align-middle" width="29" height="29" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M15.822 19.92c1.222 1.71 2.74 1.468 3.386-.522l3.97-12.239c.648-1.998-.3-2.77-2.131-1.719l-10.851 6.233c-1.826 1.049-1.77 2.646.109 3.56l1.704.83-4.177 5.156c-.63.778-.52 1.935.246 2.584l-.094-.08c.766.65 1.897.547 2.528-.232l4.177-5.156 1.133 1.585z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
@@ -153,7 +153,7 @@
           <span>Clicked</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-6">
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
             <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h28v28H0z"/><path d="M14.5 4C20.299 4 25 8.701 25 14.5S20.299 25 14.5 25 4 20.299 4 14.5a1.5 1.5 0 013 0A7.5 7.5 0 1014.5 7v2.13c0 1.647-1.15 2.31-2.567 1.459L6.35 7.239c-1.42-.852-1.417-2.23 0-3.08l5.583-3.35C13.353-.043 14.5.612 14.5 2.27V4z" fill="#1B2E5B"/></g></svg>
@@ -162,7 +162,7 @@
           <span>Bounced</span>
         </label>
       </li>
-      <li class="integration-triggers-item">
+      <li class="no-margin integration-triggers-item">
         <label for="tab-7">
           <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
             <svg class="align-middle" width="23" height="23" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M6.573 18.048A8.253 8.253 0 0018.048 6.573L6.573 18.048zm-2.121-2.121L15.927 4.452A8.253 8.253 0 004.452 15.927zm14.753 3.278c-4.393 4.393-11.517 4.393-15.91 0-4.393-4.393-4.393-11.517 0-15.91 4.393-4.393 11.517-4.393 15.91 0 4.393 4.393 4.393 11.517 0 15.91z" fill="#1B2E5B" fill-rule="nonzero"/></svg>
