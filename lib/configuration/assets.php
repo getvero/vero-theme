@@ -70,7 +70,7 @@ function add_js() {
     wp_enqueue_script('jquery-parallax');
   }
 
-  if ( is_page('features') || is_page('fusion') || is_page('multi-language-campaigns') || is_blog_post_or_guide_or_tutorial() ) {
+  if ( is_page( array( 'features', 'fusion', 'multi-language-campaigns', 'vero-webhooks' ) )|| is_blog_post_or_guide_or_tutorial() ) {
     wp_enqueue_script('prism');
   }
 
