@@ -349,7 +349,7 @@
     </div>
   </div>
 </section>
-<section class="flush-padding padding-md">
+<!-- <section class="flush-padding padding-md">
   <div class="inner medium-inner center-text">
     <div class="integration-cover integration-cover--plann relative">
       <div class="flex flex-column padding-sm absolute center-text font-white">
@@ -366,8 +366,8 @@
       </div>
     </div>
   </div>
-</section>
-<section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
+</section> -->
+<section banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
