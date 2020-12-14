@@ -678,11 +678,11 @@
     </div>
   </div>
 </section>
-<section class="flush-padding padding-md">
-  <div class="inner xlarge-inner center-text flex">
-    <div class="integration-cover integration-cover--plann inline-flex relative">
+<!-- <section class="flush-padding padding-md">
+  <div class="inner xlarge-inner center-text">
+    <div class="integration-cover integration-cover--plann relative">
       <div class="flex flex-column padding-sm absolute center-text font-white">
-        <span class="annotation semi-bold uppercase">Case study</span>
+        <span class="annotation semi-bold tracked-tight uppercase">Case study</span>
 
         <div class="stack-0">
           <h3 class="biggie semi-bold">Plann</h3>
@@ -695,8 +695,8 @@
       </div>
     </div>
   </div>
-</section>
-<section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
+</section> -->
+<section banner-name="Scale personalized messages" element-position="bottom">
   <div class="inner small-inner center-text">
     <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
