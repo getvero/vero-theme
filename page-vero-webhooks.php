@@ -63,7 +63,7 @@
         <a class="btn btn--secondary btn--outline" href="#none">View documentation</a>
       </div>
 
-      <div class="col-aside stack-md">
+      <div class="col-aside stack-md lg-left-padding-lg">
         <div class="flex">
           <div class="right-margin-sm">
             <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><rect stroke="#6F0DFB" stroke-width="2" x="7" y="9" width="34" height="30" rx="4"/><path fill="#6F0DFB" d="M7 14h34v2H7z"/><path stroke-opacity=".4" stroke="#6F0DFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15.706 30l5.633-4.212L27.08 30l7.038-8.423"/></g></svg>
@@ -90,13 +90,11 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner small-inner stack-xxs flush-bottom bottom-margin-lg">
-    <h2 class="chunk semi-bold center-text">Make decisions with greater clarity</h2>
+  <div class="inner small-inner stack-xxs flush-bottom bottom-margin-lg center-text">
+    <h2 class="chunk semi-bold">Make decisions with greater clarity</h2>
     <p class="large">By combining message interaction data with all of your business data</p>
   </div>
   <div class="inner medium-inner stack-md border-bottom">
-    <span class="show annotation semi-bold uppercase font-gray-dark tracked center-text">Triggers</span>
-
     <input class="hide integration-webhooks-radio-1" id="tab-1" name="test" type="radio">
     <input class="hide integration-webhooks-radio-2" id="tab-2" name="test" type="radio">
     <input class="hide integration-webhooks-radio-3" id="tab-3" name="test" type="radio">
@@ -105,73 +103,76 @@
     <input class="hide integration-webhooks-radio-6" id="tab-6" name="test" type="radio">
     <input class="hide integration-webhooks-radio-7" id="tab-7" name="test" type="radio">
 
-    <ul class="unstyled-list flex justify-center integration-triggers">
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-1">
+    <div class="stack-sm">
+      <span class="show annotation semi-bold uppercase font-gray-dark tracked center-text">Triggers</span>
 
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M22.088 4.49L4.789 12.683a.613.613 0 00-.205.976l3.969 4.337c-.001.013-.004.026-.004.04v3.403c0 .565.724.844 1.14.44l.085-.082a37.026 37.026 0 00.883-.897 16.504 16.504 0 00.28-.3l2.298 2.512c.316.345.903.267 1.106-.147l8.647-17.646c.266-.54-.337-1.096-.9-.829zM9.698 17.315a.42.42 0 01.024-.612l7.035-6.07c.183-.158.201-.14.039.041l-6.207 6.953a.401.401 0 01-.598 0l-.293-.312z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
-          </div>
+      <ul class="unstyled-list flex flex-wrap justify-center integration-triggers">
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-1">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M22.088 4.49L4.789 12.683a.613.613 0 00-.205.976l3.969 4.337c-.001.013-.004.026-.004.04v3.403c0 .565.724.844 1.14.44l.085-.082a37.026 37.026 0 00.883-.897 16.504 16.504 0 00.28-.3l2.298 2.512c.316.345.903.267 1.106-.147l8.647-17.646c.266-.54-.337-1.096-.9-.829zM9.698 17.315a.42.42 0 01.024-.612l7.035-6.07c.183-.158.201-.14.039.041l-6.207 6.953a.401.401 0 01-.598 0l-.293-.312z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
+            </div>
 
-          <span>Sent</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-2">
+            <span class="d-inline-block annotation">Sent</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-2">
 
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M13.759 1.448c3.23 2.081 5.68 3.677 7.355 4.789l.372.248c1.375.917 2.14 1.455 2.298 1.614.517.523.837 1.24.837 2.027v10.161a2.886 2.886 0 01-2.885 2.885H5.78a2.893 2.893 0 01-2.884-2.885v-10.16c0-.803.328-1.53.857-2.053.348-.343 3.683-2.552 10.005-6.626zm8.985 8.69H4.774a.427.427 0 00-.43.427v2.042c0 .236.149.541.347.694l8.493 6.533a.986.986 0 001.15 0l8.492-6.533a.987.987 0 00.346-.694v-2.042a.424.424 0 00-.428-.427z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
-          </div>
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M13.759 1.448c3.23 2.081 5.68 3.677 7.355 4.789l.372.248c1.375.917 2.14 1.455 2.298 1.614.517.523.837 1.24.837 2.027v10.161a2.886 2.886 0 01-2.885 2.885H5.78a2.893 2.893 0 01-2.884-2.885v-10.16c0-.803.328-1.53.857-2.053.348-.343 3.683-2.552 10.005-6.626zm8.985 8.69H4.774a.427.427 0 00-.43.427v2.042c0 .236.149.541.347.694l8.493 6.533a.986.986 0 001.15 0l8.492-6.533a.987.987 0 00.346-.694v-2.042a.424.424 0 00-.428-.427z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
+            </div>
 
-          <span>Opened</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-3">
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M23.585 5.895c.81 0 1.468.655 1.468 1.467v13.276a1.47 1.47 0 01-1.468 1.467H4.415c-.81 0-1.468-.655-1.468-1.467V7.362c0-.81.662-1.467 1.468-1.467h19.17zm-2.953 8.842l-.143.007c-.752.07-1.331.7-1.331 1.465v1.477c0 .82.66 1.472 1.474 1.472l.142-.007c.752-.071 1.331-.7 1.331-1.465v-1.477c0-.82-.66-1.472-1.473-1.472zm-9.58-5.895c-2.184 0-3.638 2.125-1.604 5.871.687 1.264-.742 1.563-2.188 1.897-1.196.275-1.35.839-1.365 1.792a.738.738 0 00.742.741h8.83c.41 0 .75-.332.743-.741-.014-.954-.168-1.517-1.364-1.793-1.478-.34-2.855-.64-2.188-1.896 2.029-3.825.538-5.87-1.605-5.87zm9.581 0h-2.95c-.82 0-1.472.66-1.472 1.472v1.477c0 .82.659 1.472 1.472 1.472h2.95c.819 0 1.472-.659 1.472-1.472v-1.477c0-.82-.659-1.472-1.472-1.472z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
-          </div>
+            <span class="d-inline-block annotation">Opened</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-3">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M23.585 5.895c.81 0 1.468.655 1.468 1.467v13.276a1.47 1.47 0 01-1.468 1.467H4.415c-.81 0-1.468-.655-1.468-1.467V7.362c0-.81.662-1.467 1.468-1.467h19.17zm-2.953 8.842l-.143.007c-.752.07-1.331.7-1.331 1.465v1.477c0 .82.66 1.472 1.474 1.472l.142-.007c.752-.071 1.331-.7 1.331-1.465v-1.477c0-.82-.66-1.472-1.473-1.472zm-9.58-5.895c-2.184 0-3.638 2.125-1.604 5.871.687 1.264-.742 1.563-2.188 1.897-1.196.275-1.35.839-1.365 1.792a.738.738 0 00.742.741h8.83c.41 0 .75-.332.743-.741-.014-.954-.168-1.517-1.364-1.793-1.478-.34-2.855-.64-2.188-1.896 2.029-3.825.538-5.87-1.605-5.87zm9.581 0h-2.95c-.82 0-1.472.66-1.472 1.472v1.477c0 .82.659 1.472 1.472 1.472h2.95c.819 0 1.472-.659 1.472-1.472v-1.477c0-.82-.659-1.472-1.472-1.472z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
+            </div>
 
-          <span>Customer updated</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-4">
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M22.101 6C23.702 6 25 7.296 25 8.897v10.206c0 1.6-1.294 2.897-2.899 2.897H5.9A2.897 2.897 0 013 19.103V8.897C3 7.297 4.294 6 5.899 6H22.1zM6.281 8.218a.753.753 0 00-1.061 0 .742.742 0 000 1.054l8.25 8.202a.753.753 0 001.06 0l8.25-8.202a.742.742 0 000-1.054.753.753 0 00-1.06 0L14 15.893z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
-          </div>
+            <span class="d-inline-block annotation">Customer updated</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-4">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M22.101 6C23.702 6 25 7.296 25 8.897v10.206c0 1.6-1.294 2.897-2.899 2.897H5.9A2.897 2.897 0 013 19.103V8.897C3 7.297 4.294 6 5.899 6H22.1zM6.281 8.218a.753.753 0 00-1.061 0 .742.742 0 000 1.054l8.25 8.202a.753.753 0 001.06 0l8.25-8.202a.742.742 0 000-1.054.753.753 0 00-1.06 0L14 15.893z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
+            </div>
 
-          <span>Delivered</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-5">
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="29" height="29" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M15.822 19.92c1.222 1.71 2.74 1.468 3.386-.522l3.97-12.239c.648-1.998-.3-2.77-2.131-1.719l-10.851 6.233c-1.826 1.049-1.77 2.646.109 3.56l1.704.83-4.177 5.156c-.63.778-.52 1.935.246 2.584l-.094-.08c.766.65 1.897.547 2.528-.232l4.177-5.156 1.133 1.585z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
-          </div>
+            <span class="d-inline-block annotation">Delivered</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-5">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="29" height="29" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M15.822 19.92c1.222 1.71 2.74 1.468 3.386-.522l3.97-12.239c.648-1.998-.3-2.77-2.131-1.719l-10.851 6.233c-1.826 1.049-1.77 2.646.109 3.56l1.704.83-4.177 5.156c-.63.778-.52 1.935.246 2.584l-.094-.08c.766.65 1.897.547 2.528-.232l4.177-5.156 1.133 1.585z" fill="#1B2E5B" fill-rule="evenodd"/></svg>
+            </div>
 
-          <span>Clicked</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-6">
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h28v28H0z"/><path d="M14.5 4C20.299 4 25 8.701 25 14.5S20.299 25 14.5 25 4 20.299 4 14.5a1.5 1.5 0 013 0A7.5 7.5 0 1014.5 7v2.13c0 1.647-1.15 2.31-2.567 1.459L6.35 7.239c-1.42-.852-1.417-2.23 0-3.08l5.583-3.35C13.353-.043 14.5.612 14.5 2.27V4z" fill="#1B2E5B"/></g></svg>
-          </div>
+            <span class="d-inline-block annotation">Clicked</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-6">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><path d="M14.5 4C20.299 4 25 8.701 25 14.5S20.299 25 14.5 25 4 20.299 4 14.5a1.5 1.5 0 013 0A7.5 7.5 0 1014.5 7v2.13c0 1.647-1.15 2.31-2.567 1.459L6.35 7.239c-1.42-.852-1.417-2.23 0-3.08l5.583-3.35C13.353-.043 14.5.612 14.5 2.27V4z" fill="#1B2E5B"/></g></svg>
+            </div>
 
-          <span>Bounced</span>
-        </label>
-      </li>
-      <li class="no-margin integration-triggers-item">
-        <label class="stack-sm" for="tab-7">
-          <div class="flex items-center justify-center border-dark-blue bw2 border-radius-100">
-            <svg class="align-middle" width="23" height="23" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M6.573 18.048A8.253 8.253 0 0018.048 6.573L6.573 18.048zm-2.121-2.121L15.927 4.452A8.253 8.253 0 004.452 15.927zm14.753 3.278c-4.393 4.393-11.517 4.393-15.91 0-4.393-4.393-4.393-11.517 0-15.91 4.393-4.393 11.517-4.393 15.91 0 4.393 4.393 4.393 11.517 0 15.91z" fill="#1B2E5B" fill-rule="nonzero"/></svg>
-          </div>
+            <span class="d-inline-block annotation">Bounced</span>
+          </label>
+        </li>
+        <li class="no-margin integration-triggers-item">
+          <label class="pointer stack-xxs" for="tab-7">
+            <div class="flex items-center justify-center bg-white border-dark-blue bw2 border-radius-100">
+              <svg class="align-middle" width="23" height="23" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M6.573 18.048A8.253 8.253 0 0018.048 6.573L6.573 18.048zm-2.121-2.121L15.927 4.452A8.253 8.253 0 004.452 15.927zm14.753 3.278c-4.393 4.393-11.517 4.393-15.91 0-4.393-4.393-4.393-11.517 0-15.91 4.393-4.393 11.517-4.393 15.91 0 4.393 4.393 4.393 11.517 0 15.91z" fill="#1B2E5B" fill-rule="nonzero"/></svg>
+            </div>
 
-          <span>Unsubscribed</span>
-        </label>
-      </li>
-    </ul>
+            <span class="d-inline-block annotation">Unsubscribed</span>
+          </label>
+        </li>
+      </ul>
+    </div>
 
     <div class="integration-webhooks-tab" data-category="sent">
       <pre class="language-json"><code>{
@@ -195,7 +196,7 @@
     </div>
 
     <div class="integration-webhooks-tab" data-category="opened">
-      <pre class="language-json"><code> {
+      <pre class="language-json"><code>{
   "opened_at":1435016238,
   "user_agent":"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
   "type":"opened",
@@ -229,8 +230,8 @@
   }
 }
 
-// User updated
-{
+  // User updated
+  {
   "type":"user_updated",
   "user": {
     "id": 123,
@@ -243,7 +244,7 @@
     }
   }
 }</code></pre>
-</div>
+    </div>
 
     <div class="integration-webhooks-tab" data-category="delivered">
       <pre class="language-json"><code>{
@@ -329,11 +330,13 @@
 }</code></pre>
     </div>
 
+    <div class="center-text">
+      <a class="btn btn--secondary" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">Need help setting up</a>
+    </div>
 
-    <a class="btn btn--secondary" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">Need help setting up</a>
   </div>
   <div class="inner medium-inner">
-    <div class="w-sidebar w-sidebar--md">
+    <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main">
         <h2 class="tubs semi-bold">Access the insights important to your business</h2>
         <p class="medium">With Zapier and Vero together, when it comes to messaging if you can dream it, then you can build it.</p>
@@ -350,11 +353,11 @@
   <div class="inner xlarge-inner center-text flex">
     <div class="integration-cover integration-cover--plann inline-flex relative">
       <div class="flex flex-column padding-sm absolute center-text font-white">
-        <span class="annotation semi-bold uppercase">Case study</span>
+        <span class="annotation semi-bold uppercase tracked-tight">Case study</span>
 
         <div class="stack-0">
           <h3 class="biggie semi-bold">Plann</h3>
-          <a class="medium underline-link negative" href="/case-studies/plann">Find out more</a>
+          <a class="medium negative" href="/case-studies/plann">Find out more</a>
         </div>
       </div>
 
