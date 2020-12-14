@@ -23,15 +23,14 @@
       </div>
     </div>
 
-           <a class="btn btn--success btn--large track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
-
+    <a class="btn btn--success btn--large track-start-trial" element-position="top" href="https://app.getvero.com/signup">Start a free trial</a>
   </div>
   <div class="inner large-inner">
     <div class="bg-primary-lighter border-radius-2 border-primary integration-about">
       <div class="flex">
         <div class="stack-xs">
           <div class="flex items-center">
-            <svg class="align-middle border-radius-1 right-margin-xxs" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FF4A00" d="M0 0h24v24H0z"/><path d="M13.75 12.003c0 .52-.096 1.018-.269 1.478-.46.173-.958.269-1.478.27h-.006c-.52-.001-1.018-.097-1.478-.27a4.187 4.187 0 01-.269-1.478v-.006c0-.52.096-1.018.269-1.478.46-.173.958-.269 1.478-.269h.006c.52 0 1.018.096 1.478.27.173.459.269.957.269 1.477v.006zm5.153-1.17h-4.086l2.889-2.889a7.055 7.055 0 00-1.65-1.65l-2.89 2.89V5.097A7.033 7.033 0 0012.004 5h-.008c-.396 0-.784.034-1.163.097v4.087l-2.889-2.89a6.99 6.99 0 00-.893.756l-.002.001a7.044 7.044 0 00-.755.893l2.89 2.89H5.097S5 11.6 5 11.997v.004c0 .397.034.786.097 1.165h4.087l-2.89 2.889a7.05 7.05 0 001.65 1.65l2.89-2.89v4.087c.377.063.765.097 1.16.097h.01c.397 0 .785-.034 1.162-.097v-4.087l2.89 2.89a7.068 7.068 0 001.65-1.65l-2.89-2.89h4.087c.063-.377.097-.765.097-1.16v-.011c0-.396-.034-.784-.097-1.162z" fill="#FFF"/></g></svg>
+            <svg class="align-middle border-radius-1 right-margin-xxs" width="26" height="26" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><g stroke="#E1E1E1"><path d="M-402.172-908.172L57.172-448.828a4 4 0 010 5.656L-402.172 16.172a4 4 0 01-5.656 0l-459.344-459.344a4 4 0 010-5.656l459.344-459.344a4 4 0 015.656 0z"/><path d="M-402.172-938.172L87.172-448.828a4 4 0 010 5.656L-402.172 46.172a4 4 0 01-5.656 0l-489.344-489.344a4 4 0 010-5.656l489.344-489.344a4 4 0 015.656 0z"/><path d="M-402.172-968.172l519.344 519.344a4 4 0 010 5.656L-402.172 76.172a4 4 0 01-5.656 0l-519.344-519.344a4 4 0 010-5.656l519.344-519.344a4 4 0 015.656 0z"/></g><g transform="translate(-48 -48)"><rect stroke="#01B2D0" fill="#E5F7FA" x=".5" y=".5" width="1015" height="247" rx="8"/><path fill="#C73A63" d="M48 48h26v26H48z"/><g fill="#FFF" fill-rule="nonzero"><path d="M60.903 59.804c-.612 1.03-1.2 2.028-1.799 3.018-.154.254-.23.46-.107.784.34.892-.14 1.76-1.04 1.996-.848.223-1.675-.335-1.843-1.244-.15-.804.475-1.592 1.362-1.718.074-.01.15-.012.275-.021l1.348-2.262c-.848-.844-1.353-1.83-1.241-3.052a3.47 3.47 0 011.04-2.222 3.53 3.53 0 014.403-.462c1.344.864 1.96 2.546 1.435 3.986l-1.232-.334c.164-.8.042-1.52-.498-2.136-.356-.406-.814-.62-1.335-.698-1.043-.158-2.068.513-2.372 1.537-.345 1.163.177 2.112 1.604 2.828z"/><path d="M62.653 58.586l1.305 2.3c2.195-.679 3.85.537 4.445 1.838.717 1.572.227 3.434-1.182 4.403-1.446.996-3.275.826-4.556-.453l1.005-.841c1.266.82 2.372.78 3.194-.19.7-.828.685-2.062-.036-2.873-.832-.935-1.946-.964-3.293-.066-.56-.991-1.128-1.975-1.669-2.973-.182-.337-.384-.532-.795-.604-.687-.119-1.13-.708-1.157-1.37a1.505 1.505 0 01.96-1.474 1.498 1.498 0 011.697.463c.328.414.432.88.26 1.391-.048.142-.11.28-.178.449z"/><path d="M63.685 64.811h-2.643c-.254 1.042-.8 1.884-1.744 2.419a3.525 3.525 0 01-2.364.42c-1.548-.249-2.814-1.643-2.925-3.212-.126-1.778 1.096-3.358 2.725-3.713l.338 1.228c-1.494.763-2.011 1.723-1.593 2.924.368 1.057 1.414 1.637 2.55 1.413 1.159-.229 1.744-1.193 1.672-2.74 1.1 0 2.2-.01 3.3.006.428.007.76-.038 1.083-.416.533-.623 1.513-.567 2.086.022a1.497 1.497 0 01-.062 2.144 1.495 1.495 0 01-2.103-.073c-.115-.124-.206-.27-.32-.422z"/></g></g></g></svg>
 
             <h2 class="semi-bold atomic no-margin">About Webhooks</h2>
           </div>
@@ -95,13 +94,13 @@
     <p class="large">By combining message interaction data with all of your business data</p>
   </div>
   <div class="inner medium-inner stack-md border-bottom">
-    <input class="hide integration-webhooks-radio-1" id="tab-1" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-2" id="tab-2" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-3" id="tab-3" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-4" id="tab-4" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-5" id="tab-5" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-6" id="tab-6" name="test" type="radio">
-    <input class="hide integration-webhooks-radio-7" id="tab-7" name="test" type="radio">
+    <input class="hide integration-webhooks-radio-1" id="tab-1" name="integration-webhooks-tabs" type="radio" checked>
+    <input class="hide integration-webhooks-radio-2" id="tab-2" name="integration-webhooks-tabs" type="radio">
+    <input class="hide integration-webhooks-radio-3" id="tab-3" name="integration-webhooks-tabs" type="radio">
+    <input class="hide integration-webhooks-radio-4" id="tab-4" name="integration-webhooks-tabs" type="radio">
+    <input class="hide integration-webhooks-radio-5" id="tab-5" name="integration-webhooks-tabs" type="radio">
+    <input class="hide integration-webhooks-radio-6" id="tab-6" name="integration-webhooks-tabs" type="radio">
+    <input class="hide integration-webhooks-radio-7" id="tab-7" name="integration-webhooks-tabs" type="radio">
 
     <div class="stack-sm">
       <span class="show annotation semi-bold uppercase font-gray-dark tracked center-text">Triggers</span>
