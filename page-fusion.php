@@ -97,7 +97,7 @@
 <section id="external-attributes-extras">
   <div class="inner gradient-border-bottom gradient-border-top">
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
-      <li class="bottom-margin-lg">
+      <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-real-time.svg" alt="Access live data">
         <div class="right">
           <h3 class="atomic semi-bold">Access live data</h3>
@@ -111,7 +111,7 @@
           <p>Fusion caches content as efficiently as possible. It loads all the permutations and keeps them on hand for the duration of your send.</p>
         </div>
       </li>
-      <li class="bottom-margin-lg">
+      <li>
         <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-3rd-party.svg" alt="Works with third party APIs too">
         <div class="right">
           <h3 class="atomic semi-bold">Works with third party APIs too…</h3>
