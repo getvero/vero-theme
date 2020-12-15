@@ -68,7 +68,8 @@
                 <li><a href="/integrations/vero-stitch/">Stitch</a></li>
                 <li><a href="/integrations/vero-snowplow/">Snowplow</a></li>
                 <li><a href="/integrations/vero-zapier/">Zapier</a></li>
-                <li><a href="https://help.getvero.com/articles/setting-up-veros-webhooks.html">Webhooks</a></li>
+                <li><a href="/integrations/vero-freshpaint/">Freshpaint</a></li>
+                <li><a href="/integrations/vero-webhooks/">Webhooks</a></li>
               </ul>
               <ul class="unstyled-list footer-list font-white regular stack-0">
                 <li>
