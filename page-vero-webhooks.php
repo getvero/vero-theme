@@ -59,7 +59,7 @@
           <h2 class="tubs">Connecting Vero via Webhooks helps your team do more</h2>
           <p class="medium">Vero can send all message events, including sent, delivered, opened, clicked, bounced, unsubscribed to a webhook you provide. This enables you to capture and save the data in your own database or data warehouse.</p>
         </div>
-        <a class="btn btn--secondary btn--outline" href="#none">View documentation</a>
+        <a class="btn btn--secondary btn--outline" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">View documentation</a>
       </div>
 
       <div class="col-aside stack-md lg-left-padding-lg">
@@ -328,11 +328,6 @@
   },
 }</code></pre>
     </div>
-
-    <div class="center-text">
-      <a class="btn btn--secondary" href="https://help.getvero.com/articles/setting-up-veros-webhooks/">Need help setting up</a>
-    </div>
-
   </div>
   <div class="inner medium-inner">
     <div class="w-sidebar w-sidebar--md items-center">
