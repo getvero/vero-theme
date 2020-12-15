@@ -90,14 +90,17 @@
   </div>
 </section>
 <section id="vero-segment-test-event">
-  <div class="inner halfs medium-inner small-reverse">
-    <div class="left">
-      <h2 class="chunk regular bottom-margin-lg">Meaningful and actionable insights</h2>
-      <p class="medium no-top-margin bottom-margin-sm">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
-      <p class="medium no-bottom-margin">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
-    </div>
-    <div class="right flex md-justify-end">
-      <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
+  <div class="inner medium-inner">
+    <div class="w-sidebar w-sidebar--md">
+      <div class="col-main">
+        <h2 class="chunk regular bottom-margin-sm">Meaningful and actionable insights</h2>
+        <p class="medium">With Snowplow you can send data to Amazon Redshift or Snowflake data warehouses. Joining up your email and push interaction data with the rest of your customer data will give you access to meaningful and actionable insights.</p>
+
+        <p class="medium">For example, by combining your data from payment apps, like Stripe, with your data from Vero, you can analyze conversions and revenue from email campaigns.</p>
+      </div>
+      <div class="col-aside flex md-right-text">
+        <img class="responsive-image hide-on-medium" src="/wp-content/themes/vero/assets/dist/images/integrations/snowplow/meaningful-actionable-insights.svg" alt="Meaningful and actionable insights">
+      </div>
     </div>
   </div>
 </section>
