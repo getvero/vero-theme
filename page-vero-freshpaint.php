@@ -20,7 +20,7 @@
         <h1 class="biggie semi-bold">Connect Vero and Freshpaint</h1>
 
         <!-- <p class="large">Freshpaint unifies customer data across all your analytics and marketing tools. With this integration, you'll be able to use Freshpaint to collect data from the likes of mobile and cloud apps, plug it into Vero, and trigger personalized marketing messages.</p> -->
-        <p class="large">Use Freshpaint to collect data from the likes of mobile and cloud apps, plug it into Vero, and trigger personalized marketing messages.</p>
+        <p class="large">Use Freshpaint to collect data from mobile and cloud apps, plug it into Vero, and trigger personalized marketing messages.</p>
       </div>
     </div>
 
