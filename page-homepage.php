@@ -311,7 +311,7 @@
   </div>
 </section>
 <section class="tiny-padding bg-dark-blue home-ratings">
-  <div class="inner small-inner">
+  <div class="inner medium-inner">
     <div class="flex flex-wrap items-start justify-center">
       <div class="stack-xs capterra center-text">
         <a class="d-inline-block track-capterra" target="_blank" href="https://www.capterra.com/reviews/132215/Vero?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge">
