@@ -68,7 +68,7 @@
   </div>
 </section>
 <section class="double-padding integration-zapier-connect">
-  <div class="inner medium-inner border-bottom">
+  <div class="inner  border-bottom">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main stack-md">
         <div class="stack-xs">
