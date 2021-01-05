@@ -94,15 +94,19 @@
   <div class="inner">
     <ul class="unstyled-list">
       <li class="stack-md">
-        <h3>Do exceptional work with extraordinary people</h3>
-        <blockquote>
-          <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
-        </blockquote>
+        <div>
+          <h3>Do exceptional work with extraordinary people</h3>
+          <blockquote>
+            <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
+          </blockquote>
 
-        <div class="stack-0">
-          <h4 class="atomic">Rory Colsell</h4>
-          <span class="atomic">Product Design</span>
+          <div class="stack-0 border-top-primary bw2">
+            <h4 class="atomic">Rory Colsell</h4>
+            <span class="atomic">Product Design</span>
+          </div>
         </div>
+
+        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
       </li>
       <li class="stack-md">
         <h3>Solve challenging problems for interesting customers</h3>
@@ -110,7 +114,7 @@
           <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
         </blockquote>
 
-        <div class="stack-0">
+        <div class="stack-0 border-top-primary bw2">
           <h4 class="atomic">Reba Moyes</h4>
           <span class="atomic">Support</span>
         </div>
@@ -118,32 +122,37 @@
     </ul>
   </div>
   <div class="inner">
-    <h2 class="chunk regular md-center">Not just work life, real life</h2>
+    <h2 class="tubs semi-bold">Not just work life, real life</h2>
     <ul class="unstyled-list grid grid--thirds">
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/remote.svg" alt="Remote-first">
-        <p class="semi-bold">Remote-First</p>
-        <p class="">Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
+      <li class="stack-sm">
+        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><circle stroke="#01B2D0" stroke-width="2" cx="28" cy="28" r="23"/><path d="M28 14c4.97 0 9 3.76 9 8.4 0 3.093-3 9.626-9 19.6-6-9.974-9-16.507-9-19.6 0-4.64 4.03-8.4 9-8.4zm0 6a3 3 0 100 6 3 3 0 000-6z" fill="#01B2D0" opacity=".4"/></g></svg>
+
+        <h3 class="atomic semi-bold">Remote-First</h3>
+        <p>Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
       </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/hours.svg" alt="Flexible hours">
-        <p class="semi-bold">Flexibility</p>
-        <p class="">We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
+      <li class="stack-sm">
+        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><defs><circle id="a" cx="28" cy="28" r="24"/></defs><g fill="none" fill-rule="evenodd"><rect fill="#F7DF9B" x="27" y="12" width="2" height="18" rx="1"/><rect fill="#F7DF9B" transform="rotate(-90 34 29)" x="33" y="22" width="2" height="14" rx="1"/><circle stroke="#FFC111" stroke-width="2" cx="28" cy="28" r="23"/></g></svg>
+
+        <h3 class="atomic semi-bold">Flexibility</h3>
+        <p>We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
       </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/vacation.svg" alt="Yearly adventures">
-        <p class="semi-bold">Yearly Adventures</p>
-        <p class="">Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
+      <li class="stack-sm">
+        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><g stroke="#6FD350" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M15.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L3.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M39.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L27.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M26.702 7.53a.997.997 0 011.22.48h0l20.662 39.527a.997.997 0 01-.423 1.35h0L8.171 49a.997.997 0 01-1-1h0L26.133 8.042a.997.997 0 01.57-.512z" fill="#F3F4F7"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.613 23l4 7 4-7 4 7 4-7"/></g></svg>
+
+        <h3 class="atomic semi-bold">Yearly Adventures</h3>
+        <p>Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
       </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/health.svg" alt="Health conscious">
-        <p class="semi-bold">Health Conscious</p>
-        <p class="">We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
+      <li class="stack-sm">
+        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M20 11a9.967 9.967 0 016.977 2.836 9.969 9.969 0 013.02 6.89h0L30 27h5.986c2.826.074 5.324 1.205 7.119 3A9.85 9.85 0 0146 37a9.967 9.967 0 01-2.836 6.977 9.969 9.969 0 01-6.889 3.02h0L10 47V21.013c.074-2.826 1.205-5.324 3-7.119A9.85 9.85 0 0120 11z" stroke="#6F0DFB" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+
+        <h3 class="atomic semi-bold">Health Conscious</h3>
+        <p>We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
       </li>
-      <li>
-        <img src="/wp-content/themes/vero/assets/dist/images/careers/activities.svg" alt="Team activities">
-        <p class="semi-bold">Team Activities</p>
-        <p class="">From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
+      <li class="stack-sm">
+        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M20 11a9.967 9.967 0 016.977 2.836 9.969 9.969 0 013.02 6.89h0L30 27h5.986c2.826.074 5.324 1.205 7.119 3A9.85 9.85 0 0146 37a9.967 9.967 0 01-2.836 6.977 9.969 9.969 0 01-6.889 3.02h0L10 47V21.013c.074-2.826 1.205-5.324 3-7.119A9.85 9.85 0 0120 11z" stroke="#6F0DFB" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+
+        <h3 class="atomic semi-bold">Team Activities</h3>
+        <p>From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
       </li>
     </ul>
   </div>
