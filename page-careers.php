@@ -91,35 +91,46 @@
   </div>
 </section>
 <section class="double-padding bg-dark-blue-lighter">
-  <div class="inner">
-    <ul class="unstyled-list">
-      <li class="stack-md">
-        <div>
-          <h3>Do exceptional work with extraordinary people</h3>
+  <div class="inner halfs">
+    <div class="careers-slider">
+      <nav>
+        <ul class="unstyled-list">
+          <li><a href="#rory">Rory</a></li>
+          <li><a href="#reba">Reba</a></li>
+        </ul>
+      </nav>
+
+      <div class="careers-slides flex">
+        <div class="jump-link careers-slide flex" id="rory">
+          <div class="col-main stack-md">
+            <h3>Do exceptional work with extraordinary people</h3>
+            <blockquote>
+              <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
+            </blockquote>
+
+            <div class="stack-0 border-top-primary bw2">
+              <h4 class="atomic">Rory Colsell</h4>
+              <span class="atomic">Product Design</span>
+            </div>
+          </div>
+
+          <div class="col-aside">
+            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
+          </div>
+        </div>
+        <div class="jump-link careers-slide stack-md" id="reba">
+          <h3>Solve challenging problems for interesting customers</h3>
           <blockquote>
-            <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
+            <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
           </blockquote>
 
           <div class="stack-0 border-top-primary bw2">
-            <h4 class="atomic">Rory Colsell</h4>
-            <span class="atomic">Product Design</span>
+            <h4 class="atomic">Reba Moyes</h4>
+            <span class="atomic">Support</span>
           </div>
         </div>
-
-        <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
-      </li>
-      <li class="stack-md">
-        <h3>Solve challenging problems for interesting customers</h3>
-        <blockquote>
-          <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
-        </blockquote>
-
-        <div class="stack-0 border-top-primary bw2">
-          <h4 class="atomic">Reba Moyes</h4>
-          <span class="atomic">Support</span>
-        </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
   <div class="inner">
     <h2 class="tubs semi-bold">Not just work life, real life</h2>
