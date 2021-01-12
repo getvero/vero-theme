@@ -93,13 +93,6 @@
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner halfs">
     <div class="careers-slider">
-      <nav>
-        <ul class="unstyled-list">
-          <li><a href="#rory">Rory</a></li>
-          <li><a href="#reba">Reba</a></li>
-        </ul>
-      </nav>
-
       <div class="careers-slides flex">
         <div class="jump-link careers-slide flex" id="rory">
           <div class="col-main stack-md">
@@ -118,18 +111,29 @@
             <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
           </div>
         </div>
-        <div class="jump-link careers-slide stack-md" id="reba">
-          <h3>Solve challenging problems for interesting customers</h3>
-          <blockquote>
-            <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
-          </blockquote>
+        <div class="jump-link careers-slide flex" id="reba">
+          <div class="col-main stack-md">
+            <h3>Solve challenging problems for interesting customers</h3>
+            <blockquote>
+              <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
+            </blockquote>
 
-          <div class="stack-0 border-top-primary bw2">
-            <h4 class="atomic">Reba Moyes</h4>
-            <span class="atomic">Support</span>
+            <div class="stack-0 border-top-primary bw2">
+              <h4 class="atomic">Reba Moyes</h4>
+              <span class="atomic">Support</span>
+            </div>
+          </div>
+
+          <div class="col-aside">
+            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
           </div>
         </div>
       </div>
+
+      <ul class="careers-slider-nav unstyled-list flex">
+        <li class="no-margin"><a class="rory border-radius-100" href="#rory"></a></li>
+        <li class="no-margin"><a class="reba border-radius-100" href="#reba"></a></li>
+      </ul>
     </div>
   </div>
   <div class="inner">
