@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="191" viewBox="0 0 400 191">
+  <defs>
+    <path id="sydney-opera-house-a" d="M29.6872672,44.8096619 L0.896057129,1.43668227 C20.9136519,-1.44836837 40.5490383,4.63814692 55.2102764,17.0801653 C60.8985733,12.3510392 66.5309488,8.71355524 72.1062498,6.16744478 C85.8304695,-0.100087576 102.427072,-1.4003644 121.896057,2.26661431 L107.836925,18.6920162 C107.484486,19.1037732 107.135401,19.5183886 106.789704,19.9358215 L86.1904172,44.8096619 L29.6872672,44.8096619 Z"/>
+    <filter id="sydney-opera-house-b" width="115.2%" height="126.9%" x="-7.3%" y="-13.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <polygon id="sydney-opera-house-d" points="12.734 21.282 27.85 23.261 32.229 28.261 7.563 28.261"/>
+    <filter id="sydney-opera-house-e" width="176.1%" height="247.2%" x="-36.3%" y="-75.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <path id="sydney-opera-house-f" d="M94,66.5924683 C82.1829357,36.5818361 69.8789669,17.9218019 57.0880937,10.6123657 C44.2972205,3.30292955 25.2678559,-0.130969562 0,0.31066839 L0.985245373,1.42389207 C12.9808995,14.97772 21.073033,31.5331414 24.3987364,49.3247592 L27.6265081,66.5924683 L27.6265081,66.5924683 L94,66.5924683 Z"/>
+    <filter id="sydney-opera-house-g" width="119.8%" height="118.1%" x="-11.4%" y="-9%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <polygon id="sydney-opera-house-i" points="16.148 39.085 33.873 42.614 41.11 63.592 5.923 63.592"/>
+    <filter id="sydney-opera-house-j" width="138.7%" height="143.1%" x="-19.9%" y="-22.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <path id="sydney-opera-house-k" d="M118.371857,83.5924683 C103.766246,65.1554435 87.9373983,47.4999709 70.8853149,30.6260507 C53.8332316,13.7521304 30.2047933,3.54344686 0,0 L14.6551947,23.7261152 C20.9497192,33.9166734 25.3622512,45.155194 27.6825268,56.9061445 L32.951856,83.5924683 L32.951856,83.5924683 L118.371857,83.5924683 Z"/>
+    <filter id="sydney-opera-house-l" width="116.9%" height="115.5%" x="-8.2%" y="-8.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <polygon id="sydney-opera-house-n" points="10.672 52.391 38.397 55.92 42.633 66.877 4.446 66.898"/>
+    <filter id="sydney-opera-house-o" width="136.4%" height="171.4%" x="-18.5%" y="-36.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <path id="sydney-opera-house-p" d="M38.3810946,106.932835 C34.4640715,86.5224246 29.5766507,67.0483137 23.7188321,48.5105024 C17.8610135,29.9726911 9.95473612,13.8025237 -4.54747351e-13,0 C23.4123967,3.30295621 44.1307875,13.0830785 62.1551724,29.3403669 C72.319907,38.5085588 81.4697841,50.7320446 89.604804,66.0108242 C106.235561,45.493405 133.793775,35.2559342 161.12725,42.0221659 C163.67792,42.6535684 166.191173,43.4275172 168.655172,44.3403669 L133.262926,106.932835 Z"/>
+    <filter id="sydney-opera-house-q" width="111%" height="112.4%" x="-6.4%" y="-6.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+    <polygon id="sydney-opera-house-s" points="19 26.092 48 34.592 66 30.272 71.257 40.092 4.5 40.114"/>
+    <filter id="sydney-opera-house-t" width="127.8%" height="174.9%" x="-16.3%" y="-39.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(214.104 117.19)">
+      <path fill="#C8C4BA" stroke="#1B2E5B" stroke-linecap="round" stroke-width="4" d="M112.896057,14.2171936 L112.896057,32.765563 L138.697,45.8096619 L75.3082581,45.8096619 L75.3082581,14.2171936 L112.896057,14.2171936 Z"/>
+      <mask id="sydney-opera-house-c" fill="#fff">
+        <use xlink:href="#sydney-opera-house-a"/>
+      </mask>
+      <g stroke-linecap="round">
+        <use fill="#FCF6E7" xlink:href="#sydney-opera-house-a"/>
+        <use fill="#000" filter="url(#sydney-opera-house-b)" xlink:href="#sydney-opera-house-a"/>
+        <path stroke="#1B2E5B" stroke-width="4" d="M71.2754317,4.34817534 C86.1117689,-2.42723526 104.223194,-3.5949873 125.631716,0.977887934 L125.631716,0.977887934 L109.356342,19.9925436 C109.010952,20.3960655 108.668848,20.8023887 108.330065,21.2114729 L108.330065,21.2114729 L87.1309089,46.8096619 L28.6143466,46.8096619 L-2.47724171,-0.0287592972 C18.5993922,-4.01127867 39.5118337,1.78549074 55.218935,14.4895902 C60.6202533,10.1463053 65.9745899,6.76894664 71.2754317,4.34817534 Z"/>
+      </g>
+      <g stroke-linecap="round" mask="url(#sydney-opera-house-c)">
+        <g transform="translate(42.947 16.549)">
+          <path fill="#C8C4BA" stroke="#1B2E5B" stroke-width="4" d="M9.75345804,-3.56993459 C10.7300583,-2.94628998 11.6967011,-2.30553737 12.6529234,-1.64787484 C24.7788869,6.69201907 34.9650108,17.5695728 42.4961892,30.2472552 L42.4961892,30.2472552 L-4.3860086,30.2623868 C3.54751045,21.8542142 8.40202473,11.1534952 9.52935267,-0.197655583 C9.64095703,-1.32140842 9.71549169,-2.44609593 9.75345804,-3.56993459 Z"/>
+          <use fill="#97DEFF" xlink:href="#sydney-opera-house-d"/>
+          <use fill="#000" filter="url(#sydney-opera-house-e)" xlink:href="#sydney-opera-house-d"/>
+          <path stroke="#1B2E5B" stroke-width="4" d="M11.826824,19.1464164 L28.8577647,21.3758075 L36.6386143,30.2609711 L3.59276744,30.2609711 L11.826824,19.1464164 Z"/>
+        </g>
+      </g>
+      <path stroke="#000" stroke-opacity=".1" stroke-width="6" d="M56.4662018,16.5486908 C55.1624685,26.9423494 51.8594018,36.9854344 46.7392205,46.1239028 L46.6869507,46.2171936 L46.6869507,46.2171936"/>
+    </g>
+    <g stroke="#1B2E5B" stroke-width="4" transform="translate(54)">
+      <circle cx="128" cy="88" r="72" fill="#FFC111" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect width="116" height="12" x="2" y="50" fill="#4B55BC" rx="6"/>
+      <rect width="156" height="12" x="148" y="74" fill="#FED97E" rx="6"/>
+      <rect width="76" height="12" x="123" y="26" fill="#EA878A" rx="6"/>
+      <rect width="36" height="12" x="49" y="2" fill="#EA878A" rx="6"/>
+    </g>
+    <g transform="translate(10.084 95.408)">
+      <mask id="sydney-opera-house-h" fill="#fff">
+        <use xlink:href="#sydney-opera-house-f"/>
+      </mask>
+      <g stroke-linecap="round">
+        <use fill="#FCF6E7" xlink:href="#sydney-opera-house-f"/>
+        <use fill="#000" filter="url(#sydney-opera-house-g)" xlink:href="#sydney-opera-house-f"/>
+        <path stroke="#1B2E5B" stroke-width="4" d="M-4.34249194,-1.57816834 C23.5561122,-2.52057448 44.3431411,1.02564059 58.080409,8.87590083 C71.4986119,16.543829 84.5418583,36.3418922 96.9233908,68.5924683 L96.9233908,68.5924683 L25.9657176,68.5924683 L22.4327877,49.6922448 C19.1735983,32.2564593 11.2433075,16.0321463 -0.512433526,2.74939496 L-0.512433526,2.74939496 Z"/>
+      </g>
+      <g stroke-linecap="round" mask="url(#sydney-opera-house-h)">
+        <g transform="translate(26.993 3)">
+          <path fill="#C8C4BA" stroke="#1B2E5B" stroke-linejoin="round" stroke-width="4" d="M63.6105347,-2 L63.6105347,65.5924683 L-2.63598172,65.5924683 L2.58287767,46.9290308 C7.25323408,30.2271238 16.1050043,14.9918301 28.3017522,2.66278836 L28.3017522,2.66278836 L32.9145077,-2 L63.6105347,-2 Z"/>
+          <use fill="#97DEFF" xlink:href="#sydney-opera-house-i"/>
+          <use fill="#000" filter="url(#sydney-opera-house-j)" xlink:href="#sydney-opera-house-i"/>
+          <path stroke="#1B2E5B" stroke-width="4" d="M14.9330019,36.8034367 L35.3896577,40.8763263 L43.9154005,65.5924683 L2.92118331,65.5924683 L14.9330019,36.8034367 Z"/>
+        </g>
+      </g>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".1" stroke-width="6" d="M52.9156799,7.59246826 L56.2604255,14.0471114 C61.3290872,23.8285437 64.7466012,34.3803126 66.3748664,45.2760228 L68.1027832,56.838562 L68.1027832,56.838562" mask="url(#sydney-opera-house-h)"/>
+    </g>
+    <g transform="translate(53.759 78.408)">
+      <mask id="sydney-opera-house-m" fill="#fff">
+        <use xlink:href="#sydney-opera-house-k"/>
+      </mask>
+      <g stroke-linecap="round">
+        <use fill="#FCF6E7" xlink:href="#sydney-opera-house-k"/>
+        <use fill="#000" filter="url(#sydney-opera-house-l)" xlink:href="#sydney-opera-house-k"/>
+        <path stroke="#1B2E5B" stroke-width="4" d="M-3.84618284,-2.42100595 C28.8378102,0.716018216 54.1961059,11.2975234 72.2920823,29.2044299 C90.3989931,47.1221567 107.13119,65.9182454 122.488926,85.5924683 L122.488926,85.5924683 L31.3081491,85.5924683 L25.7204108,57.2935727 C23.4465407,45.7776412 19.1222593,34.763891 12.9536253,24.777144 L12.9536253,24.777144 Z"/>
+      </g>
+      <g stroke-linecap="round" mask="url(#sydney-opera-house-m)">
+        <g transform="translate(37.795 15.694)">
+          <path fill="#C8C4BA" stroke="#1B2E5B" stroke-linejoin="round" stroke-width="4" d="M67.4461365,-2.34053689 L67.4461365,69.3125434 L-2.18260961,69.0814691 C-0.232003299,42.4260222 15.7060282,18.8879546 39.5914959,7.14493385 L39.5914959,7.14493385 L54.8353135,-0.34951717 L67.4461365,-2.34053689 Z"/>
+          <use fill="#97DEFF" xlink:href="#sydney-opera-house-n"/>
+          <use fill="#000" filter="url(#sydney-opera-house-o)" xlink:href="#sydney-opera-house-n"/>
+          <path stroke="#1B2E5B" stroke-width="4" d="M9.4283791,50.2161589 L39.8321006,54.0861458 L45.550159,68.8755338 L1.41081538,68.9000495 L9.4283791,50.2161589 Z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(103.345 55.067)">
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".1" stroke-width="6" d="M16.6551724,47.9328352 L23.44488,69.8710421 C24.572433,73.5142756 25.4906483,77.2190286 26.1950259,80.9671452 L31.262646,107.932835 L31.262646,107.932835"/>
+      <mask id="sydney-opera-house-r" fill="#fff">
+        <use xlink:href="#sydney-opera-house-p"/>
+      </mask>
+      <g stroke-linecap="round">
+        <use fill="#FCF6E7" xlink:href="#sydney-opera-house-p"/>
+        <use fill="#000" filter="url(#sydney-opera-house-q)" xlink:href="#sydney-opera-house-p"/>
+        <path stroke="#1B2E5B" stroke-width="4" d="M-4.39697851,-2.55010816 C-2.84167399,-2.3906978 -1.28288504,-2.20079061 0.279387872,-1.98038946 C24.0898804,1.37872902 45.1630913,11.3208263 63.49471,27.8552275 C73.2324428,36.6382806 82.0631001,48.1762568 89.9680522,62.4837945 C98.4123664,52.902478 109.262228,45.7277135 121.315482,41.6850471 C133.891715,37.4669731 147.777686,36.6571975 161.607832,40.0807641 C164.988836,40.9177107 168.305917,41.9981876 171.533009,43.3141678 L171.533009,43.3141678 L134.42963,108.932835 L36.7259963,108.932835 C32.7731338,88.0100656 27.8020452,68.0700789 21.8117782,49.1131181 C16.0229496,30.7936344 8.21577174,14.8104416 -1.62212529,1.1699186 C-2.52401258,-0.0805736726 -3.4499688,-1.32108629 -4.39697851,-2.55010816 Z"/>
+      </g>
+      <g stroke-linecap="round" mask="url(#sydney-opera-house-r)">
+        <g transform="translate(48.655 65.84)">
+          <path fill="#C8C4BA" stroke="#1B2E5B" stroke-linejoin="round" stroke-width="4" d="M40.7788654,-2.82405132 C49.0601324,4.14854787 55.905494,11.400041 61.3221731,18.9239331 C66.8841936,26.6497078 71.8713967,35.8399273 76.2744628,46.5 L76.2744628,46.5 L-4.79175625,46.5 L18.8688893,22.5821736 C20.6382917,20.7935384 22.3381587,18.937428 23.9647116,17.0179681 L23.9647116,17.0179681 Z"/>
+          <use fill="#97DEFF" xlink:href="#sydney-opera-house-s"/>
+          <use fill="#000" filter="url(#sydney-opera-house-t)" xlink:href="#sydney-opera-house-s"/>
+          <path stroke="#1B2E5B" stroke-width="4" d="M18.4460828,23.8459735 L48.0512759,32.5233577 L67.0345878,27.9669689 L74.5953855,42.0914077 L-0.447045077,42.1152498 L18.4460828,23.8459735 Z"/>
+        </g>
+      </g>
+      <path stroke="#1B2E5B" stroke-width="4" d="M89.6258908,62.4766813 L90.1261044,63.7692479 C95.5628637,77.8179933 97.7057134,92.9263609 96.3899136,107.932835 L96.3899136,107.932835 L96.3899136,107.932835" mask="url(#sydney-opera-house-r)"/>
+      <path stroke="#000" stroke-opacity=".1" stroke-width="6" d="M54.2090359,107.123173 C63.705894,98.0134681 70.6301545,91.0157061 74.9818173,86.1298872 C79.3334802,81.2440683 84.8746433,74.2463062 91.6053067,65.136601" mask="url(#sydney-opera-house-r)"/>
+    </g>
+    <g stroke="#384254" stroke-width="4" transform="translate(0 145)">
+      <path fill="#987462" d="M60.5295876,2 L76.4425564,10 L101.529588,10 L117.442556,18 L353.162411,18 L371.97548,28 L386.613928,28 L386.934764,37.9989714 L13,38 L13,28 L24,28 L24,10 L33.4217737,10 L48.4977862,2 L60.5295876,2 Z"/>
+      <rect width="115" height="10" x="148" y="28" fill="#695044"/>
+      <rect width="12" height="10" x="124" y="28" fill="#695044"/>
+      <rect width="12" height="10" x="275" y="28" fill="#695044"/>
+      <path fill="#987462" d="M397.617452,38 L397.902562,43.9977447 L2,44 L2,38 L397.617452,38 Z"/>
+    </g>
+  </g>
+</svg>
