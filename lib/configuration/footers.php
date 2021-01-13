@@ -91,6 +91,7 @@
                 </li>
                 <li><a href="/case-studies/plann/">Case Study</a></li>
                 <li><a href="/careers/">Careers</a></li>
+                <li><a href="/contact-us/">Contact</a></li>
                 <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
                 <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
                 <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
