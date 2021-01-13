@@ -10,7 +10,7 @@
   include 'pages-shared/static-header.php';
 ?>
 <section>
-  <div class="inner flush-bottom">
+  <div class="inner flush-bottom bottom-margin-lg">
     <div class="center-text">
       <div class="stack-xs">
         <h1 class="semi-bold hulk">Contact us</h1>
@@ -18,9 +18,7 @@
       </div>
     </div>
   </div>
-</section>
-<section>
-  <div class="inner large-inner flush-bottom">
+  <div class="inner large-inner">
     <ul class="grid grid--thirds unstyled-list center-text">
       <li class="bg-white horizontal-padding-lg padding-md border border-radius-2 shadow-3 stack-sm">
         <div class="stack-xs">
@@ -65,9 +63,12 @@
 
   </div>
 </section>
-<section class="double-padding bg-dark-blue-lighter" style="margin-top: -60px">
-  <div class="inner tiny-inner center-text stack-lg flush-bottom">
-    <h2 class="center-text">We're a semi-distributed team spread across Europe, Asia, and North America, with our core team in Sydney, Australia.</h2>
+<section class="double-padding bg-dark-blue-lighter">
+  <div class="inner small-inner center-text stack-lg flush-bottom">
+    <div class="stack-xxs">
+      <h2 class="biggie semi-bold center-text">Our location</h2>
+      <p class="large">We're a semi-distributed team spread across Europe, Asia, and North America, with our core team in Sydney, Australia.</p>
+    </div>
 
     <img class="d-inline-block align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/contact/sydney-opera-house.svg" alt="Sydney Open Opera House">
   </div>
