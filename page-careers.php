@@ -81,8 +81,8 @@
 <section class="double-padding bg-dark-blue-lighter">
   <div class="inner halfs">
     <div class="careers-slider">
-      <input class="careers-radio-1" id="careers-radio-1" type="radio" name="careers-radios" checked>
-      <input class="careers-radio-2" id="careers-radio-2" type="radio" name="careers-radios">
+      <input class="hide careers-radio-1" id="careers-radio-1" type="radio" name="careers-radios" checked>
+      <input class="hide careers-radio-2" id="careers-radio-2" type="radio" name="careers-radios">
 
       <div class="careers-slides">
         <div class="careers-slide careers-slide--rory" data-slide="rory">
@@ -91,7 +91,7 @@
               <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
             </blockquote>
 
-            <div class="stack-0 border-top-primary bw2">
+            <div class="d-inline-block top-padding-md stack-0 border-top-primary bw2">
               <h4 class="atomic">Rory Colsell</h4>
               <span class="atomic">Product Design</span>
             </div>
@@ -107,7 +107,7 @@
               <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
             </blockquote>
 
-            <div class="stack-0 border-top-primary bw2">
+            <div class="d-inline-block top-padding-md stack-0 border-top-primary bw2">
               <h4 class="atomic">Reba Moyes</h4>
               <span class="atomic">Support</span>
             </div>
