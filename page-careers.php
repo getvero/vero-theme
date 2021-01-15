@@ -98,7 +98,7 @@
           </div>
 
           <div class="col-aside">
-            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
+            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
           </div>
         </div>
         <div class="careers-slide careers-slide--reba" data-slide="reba">
@@ -114,17 +114,17 @@
           </div>
 
           <div class="col-aside">
-            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory">
+            <img class="align-middle border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Reba Moyes">
           </div>
         </div>
       </div>
 
       <ul class="careers-slider-nav unstyled-list flex">
-        <li class="no-margin">
-          <label for="careers-radio-1">Rory</label>
+        <li>
+          <label class="padding-sm border-radius-100 pointer" for="careers-radio-1"><span class="vh">Rory</span></label>
         </li>
-        <li class="no-margin">
-          <label for="careers-radio-2">Reba</label>
+        <li>
+          <label class="padding-sm border-radius-100 pointer" for="careers-radio-2"><span class="vh">Reba</span></label>
         </li>
       </ul>
     </div>
