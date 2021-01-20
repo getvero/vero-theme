@@ -84,9 +84,9 @@
       <input class="hide careers-radio-1" id="careers-radio-1" type="radio" name="careers-radios" checked>
       <input class="hide careers-radio-2" id="careers-radio-2" type="radio" name="careers-radios">
 
-      <div class="careers-slides">
-        <div class="careers-slide careers-slide--rory" data-slide="rory">
-          <div class="col-main stack-md">
+      <div class="flex careers-slides">
+        <div class="flex items-center flex-column md-flex-row careers-slide careers-slide--rory" data-slide="rory">
+          <div class="col-main stack-md order-1 md-order-0">
             <blockquote>
               <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
             </blockquote>
@@ -97,12 +97,12 @@
             </div>
           </div>
 
-          <div class="col-aside">
+          <div class="col-aside order-0 md-order-1">
             <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
           </div>
         </div>
-        <div class="careers-slide careers-slide--reba" data-slide="reba">
-          <div class="col-main stack-md">
+        <div class="flex items-center flex-column md-flex-row careers-slide careers-slide--reba" data-slide="reba">
+          <div class="col-main stack-md order-1 md-order-0">
             <blockquote>
               <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
             </blockquote>
@@ -113,7 +113,7 @@
             </div>
           </div>
 
-          <div class="col-aside">
+          <div class="col-aside order-0 md-order-1">
             <img class="align-middle border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Reba Moyes">
           </div>
         </div>
@@ -121,10 +121,10 @@
 
       <ul class="careers-slider-nav unstyled-list flex">
         <li>
-          <label class="padding-sm border-radius-100 pointer" for="careers-radio-1"><span class="vh">Rory</span></label>
+          <label class="border-radius-100 pointer" for="careers-radio-1"><span class="vh">Rory</span></label>
         </li>
         <li>
-          <label class="padding-sm border-radius-100 pointer" for="careers-radio-2"><span class="vh">Reba</span></label>
+          <label class="border-radius-100 pointer" for="careers-radio-2"><span class="vh">Reba</span></label>
         </li>
       </ul>
     </div>
@@ -184,16 +184,14 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner small-inner bottom-padding-xs">
-    <h2 class="chunk regular">Be where you want to be</h2>
+  <div class="inner small-inner center-text">
+    <h2 class="chunk semi-bold">Be where you want to be</h2>
     <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
   </div>
 </section>
 <section class="double-padding">
   <div class="inner small-inner">
-    <h2>Be where you want to be</h2>
-
-    <h2 class="chunk regular">See where you fit in</h2>
+    <h2 class="tubs semi-bold">See where you fit in</h2>
 
     <p class="medium bottom-margin-md">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
 
