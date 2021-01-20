@@ -35,7 +35,7 @@
       </li>
       <li class="bg-white horizontal-padding-lg padding-md border border-radius-2 shadow-3 stack-sm">
         <div class="stack-xs">
-          <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><defs/><g transform="translate(3 10)" fill="none" fill-rule="evenodd"><rect stroke="#6F0DFB" stroke-width="2" fill="#FFF" x="1" y="1" width="56" height="42" rx="4"/><path fill="#BC95F4" d="M2 6h54v10H2z"/><rect fill="#6F0DFB" x="7" y="22" width="18" height="2" rx="1"/></g></svg>
+          <svg class="align-middle" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g stroke="#6F0DFB" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M15.787 18.757c1.28 0 2.559.489 3.535 1.465h0l2.829 2.828a4.984 4.984 0 011.464 3.536c0 1.28-.488 2.559-1.464 3.535h0l-2.829 2.829a4.99 4.99 0 01-4.018 1.441c-.73-.07-1.44-.3-2.077-.677.35.745.72 1.465 1.107 2.16 1.608 2.881 3.758 5.745 6.403 8.39 2.644 2.644 5.508 4.794 8.39 6.402a34.98 34.98 0 002.16 1.108 5.02 5.02 0 01-.678-2.077 4.99 4.99 0 011.441-4.02h0l2.829-2.828a4.984 4.984 0 013.535-1.464c1.28 0 2.56.488 3.536 1.464h0l2.828 2.829a4.984 4.984 0 011.465 3.535c0 1.28-.489 2.56-1.465 3.536h0l-2.828 2.828a4.987 4.987 0 01-1.526 1.045c-3.003 1.58-6.96 1.5-11.139.112-4.28-1.424-8.797-4.234-12.791-8.228-3.994-3.994-6.804-8.51-8.228-12.791-1.389-4.18-1.468-8.136.082-11.074a5.127 5.127 0 011.075-1.59h0l2.828-2.83a4.984 4.984 0 013.536-1.464z" fill="#FFF"/><g stroke-linecap="round" stroke-linejoin="bevel" stroke-opacity=".2"><path d="M56.675 31.368c0-13.807-11.193-25-25-25M49.175 32.618c0-9.665-7.835-17.5-17.5-17.5M40.291 32.663a8.75 8.75 0 00-8.75-8.75"/></g></g></svg>
 
           <div class="stack-xxxs">
             <h2 class="semi-bold tubs">Sales</h2>
