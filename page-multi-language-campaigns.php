@@ -27,7 +27,7 @@
         <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
       </div>
 
-      <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/features/multi-language/language-templates.svg" alt="The simple way to send your multi-language emails">
+      <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/language-templates.svg" alt="The simple way to send your multi-language emails">
     </div>
   </div>
 </section>
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <img src="/wp-content/themes/vero/assets/dist/images/features/multi-language/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/dist/images/features/multi-language/languages-how-it-works@2x.png 2x" alt="How does it work?">
+    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works@2x.png 2x" alt="How does it work?">
   </div>
 </section>
 <section>
