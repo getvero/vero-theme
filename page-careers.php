@@ -23,7 +23,7 @@
   </div>
 </section>
 <section>
-  <div class="inner xlarge-inner flush-top">
+  <div class="inner xlarge-inner flush-top flush-bottom left-bleed">
     <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main order-1">
         <h2 class="chunk semi-bold">We believe data is changing our world</h2>
@@ -32,13 +32,13 @@
       <div class="col-aside order-0">
         <div class="grid careers-photo-wall">
           <div>
-            <img class="align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholders.jpg" alt="">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
           </div>
           <div>
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholders.jpg" alt="">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-2.jpg" alt="">
           </div>
           <div>
-            <img class="align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholders.jpg" alt="">
+            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-3.jpg" alt="">
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
     </div>
   </div>
 </section>
-<section class="double-padding bg-dark-blue-lighter">
+<section class="bg-dark-blue-lighter">
   <div class="inner halfs">
     <div class="careers-slider">
       <input class="hide careers-radio-1" id="careers-radio-1" type="radio" name="careers-radios" checked>
@@ -114,7 +114,7 @@
           </div>
 
           <div class="col-aside order-0 md-order-1">
-            <img class="align-middle border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Reba Moyes">
+            <img class="align-middle border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
           </div>
         </div>
       </div>
@@ -129,75 +129,81 @@
       </ul>
     </div>
   </div>
-  <div class="inner">
-    <h2 class="tubs semi-bold">Not just work life, real life</h2>
-    <ul class="unstyled-list grid grid--thirds">
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><circle stroke="#01B2D0" stroke-width="2" cx="28" cy="28" r="23"/><path d="M28 14c4.97 0 9 3.76 9 8.4 0 3.093-3 9.626-9 19.6-6-9.974-9-16.507-9-19.6 0-4.64 4.03-8.4 9-8.4zm0 6a3 3 0 100 6 3 3 0 000-6z" fill="#01B2D0" opacity=".4"/></g></svg>
+</section>
+<section class="double-padding">
+  <div class="inner medium-inner stack-lg">
+    <h2 class="chunk semi-bold">Not just work life, real life</h2>
+    <ul class="unstyled-list grid grid--halfs">
+      <li class="flex no-margin">
+        <div class="right-margin-sm">
+          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><circle stroke="#01B2D0" stroke-width="2" cx="28" cy="28" r="23"/><path d="M28 14c4.97 0 9 3.76 9 8.4 0 3.093-3 9.626-9 19.6-6-9.974-9-16.507-9-19.6 0-4.64 4.03-8.4 9-8.4zm0 6a3 3 0 100 6 3 3 0 000-6z" fill="#01B2D0" opacity=".4"/></g></svg>
+        </div>
 
         <div class="stack-xxxs">
-          <h3 class="atomic semi-bold">Remote-First</h3>
+          <h3 class="atomic semi-bold">Remote-first</h3>
           <p>Embracing global culture and opportunity, you are free to live and work where you want in the world, whether it's our HQ in Sydney, or a cabin in the woods.</p>
         </div>
       </li>
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><defs><circle id="a" cx="28" cy="28" r="24"/></defs><g fill="none" fill-rule="evenodd"><rect fill="#F7DF9B" x="27" y="12" width="2" height="18" rx="1"/><rect fill="#F7DF9B" transform="rotate(-90 34 29)" x="33" y="22" width="2" height="14" rx="1"/><circle stroke="#FFC111" stroke-width="2" cx="28" cy="28" r="23"/></g></svg>
+      <li class="flex no-margin">
+        <div class="right-margin-sm">
+          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><defs><circle id="a" cx="28" cy="28" r="24"/></defs><g fill="none" fill-rule="evenodd"><rect fill="#F7DF9B" x="27" y="12" width="2" height="18" rx="1"/><rect fill="#F7DF9B" transform="rotate(-90 34 29)" x="33" y="22" width="2" height="14" rx="1"/><circle stroke="#FFC111" stroke-width="2" cx="28" cy="28" r="23"/></g></svg>
+        </div>
 
         <div class="stack-xxxs">
           <h3 class="atomic semi-bold">Flexibility</h3>
           <p>We know people have different needs and work in different ways. We believe in asynchronous work and invest in processes that enable you to work the way that suits you.</p>
         </div>
       </li>
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><g stroke="#6FD350" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M15.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L3.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M39.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L27.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M26.702 7.53a.997.997 0 011.22.48h0l20.662 39.527a.997.997 0 01-.423 1.35h0L8.171 49a.997.997 0 01-1-1h0L26.133 8.042a.997.997 0 01.57-.512z" fill="#F3F4F7"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.613 23l4 7 4-7 4 7 4-7"/></g></svg>
+      <li class="flex no-margin">
+        <div class="right-margin-sm">
+          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g stroke="#6FD350" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M15.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L3.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M39.02 11.53a.997.997 0 011.22.48h0l13.344 25.527a.997.997 0 01-.423 1.35h0L27.171 39a.997.997 0 01-1-1h0l12.28-25.958a.997.997 0 01.57-.512z"/><path d="M26.702 7.53a.997.997 0 011.22.48h0l20.662 39.527a.997.997 0 01-.423 1.35h0L8.171 49a.997.997 0 01-1-1h0L26.133 8.042a.997.997 0 01.57-.512z" fill="#FFF"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.613 23l4 7 4-7 4 7 4-7"/></g></svg>
+        </div>
 
         <div class="stack-xxxs">
           <h3 class="atomic semi-bold">Yearly Adventures</h3>
-          <p>Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Thailand, we had a blast!</p>
+          <p>Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Vietnam, we had a blast!</p>
         </div>
       </li>
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M20 11a9.967 9.967 0 016.977 2.836 9.969 9.969 0 013.02 6.89h0L30 27h5.986c2.826.074 5.324 1.205 7.119 3A9.85 9.85 0 0146 37a9.967 9.967 0 01-2.836 6.977 9.969 9.969 0 01-6.889 3.02h0L10 47V21.013c.074-2.826 1.205-5.324 3-7.119A9.85 9.85 0 0120 11z" stroke="#6F0DFB" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-
-        <div class="stack-xxxs">
-          <h3 class="atomic semi-bold">Health Conscious</h3>
-          <p>We believe in a healthy working environment. Sit-stand desks are provided, healthy snacks are on offer and our global team regularly discusses their exercise.</p>
+      <li class="flex no-margin">
+        <div class="right-margin-sm">
+          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle stroke="#F15242" stroke-width="2" cx="18" cy="13" r="7"/><rect stroke="#F15242" stroke-width="2" fill="#FFFFFF" x="19" y="14" width="22" height="36" rx="2"/><path fill-opacity=".4" fill="#F15242" d="M20 23h20v2H20z"/></g></svg>
         </div>
-      </li>
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle stroke="#F15242" stroke-width="2" cx="18" cy="13" r="7"/><rect stroke="#F15242" stroke-width="2" fill="#F3F4F7" x="19" y="14" width="22" height="36" rx="2"/><path fill-opacity=".4" fill="#F15242" d="M20 23h20v2H20z"/></g></svg>
 
         <div class="stack-xxxs">
           <h3 class="atomic semi-bold">Culture</h3>
-          <p>We are a semi-distrubuted team so try and keep social by using our non-work related Slack channel with Among Us and regular Zoom happy hours.</p>
-        </div>
-      </li>
-      <li class="stack-sm">
-        <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle stroke="#F15242" stroke-width="2" cx="18" cy="13" r="7"/><rect stroke="#F15242" stroke-width="2" fill="#F3F4F7" x="19" y="14" width="22" height="36" rx="2"/><path fill-opacity=".4" fill="#F15242" d="M20 23h20v2H20z"/></g></svg>
-
-        <div class="stack-xxxs">
-          <h3 class="atomic semi-bold">Team Activities</h3>
-          <p>From doing the Friday crossword to running and indoor climbing, we flex our brains and bodies in different ways, always with a little competition thrown in.</p>
+          <p>We are a semi-distrubuted team and  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </div>
       </li>
     </ul>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner small-inner center-text">
-    <h2 class="chunk semi-bold">Be where you want to be</h2>
-    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
+<section>
+  <div class="inner xlarge-inner halfs no-padding">
+    <div class="left">
+      <img class="align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
+    </div>
+    <div class="right">
+      <img class="align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-2.jpg" alt="">
+    </div>
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner small-inner">
-    <h2 class="tubs semi-bold">See where you fit in</h2>
+  <!-- <div class="inner small-inner center-text stack-sm">
+    <h2 class="chunk semi-bold">Be where you want to be</h2>
+    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
+  </div> -->
+  <div class="inner small-inner stack-lg">
+    <div class="stack-xs">
+      <h2 class="chunk semi-bold">See where you fit in</h2>
 
-    <p class="medium bottom-margin-md">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
+      <p class="large">Join us on our mission to empower businesses to put their data to work to create great product experiences.</p>
+    </div>
 
-    <iframe class="airtable-embed" src="https://airtable.com/embed/shrtJO3ER23AbnAi8?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    <div class="stack-xxxs">
+      <iframe class="align-middle airtable-embed" src="https://airtable.com/embed/shrtJO3ER23AbnAi8?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-    <p class="medium top-margin-md">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
+      <p class="medium top-margin-md">Don’t see what you’re looking for? Drop us a line at <a href="mailto:careers@getvero.com">careers@getvero.com</a></p>
+    </div>
   </div>
 </section>
 <?php
