@@ -23,31 +23,29 @@
   </div>
 </section>
 <section>
-  <div class="inner xlarge-inner flush-top flush-bottom left-bleed">
-    <div class="w-sidebar w-sidebar--md items-center">
-      <div class="col-main order-1">
-        <h2 class="chunk semi-bold">We believe data is changing our world</h2>
-        <p class="medium">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
+  <div class="inner xlarge-inner flush-top flush-bottom">
+    <div class="grid careers-photo-wall">
+      <div>
+        <img class="border-radius-3 shadow-1 align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
       </div>
-      <div class="col-aside order-0">
-        <div class="grid careers-photo-wall">
-          <div>
-            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
-          </div>
-          <div>
-            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-2.jpg" alt="">
-          </div>
-          <div>
-            <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-3.jpg" alt="">
-          </div>
-        </div>
+      <div>
+        <img class="border-radius-3 shadow-1 align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-2.jpg" alt="">
+      </div>
+      <div>
+        <img class="border-radius-3 shadow-1 align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-3.jpg" alt="">
       </div>
     </div>
   </div>
 </section>
+<section class="double-padding border-bottom">
+  <div class="inner small-inner center-text">
+    <h2 class="chunk semi-bold">We believe data is changing our world</h2>
+    <p class="large">Collecting realtime data and using it responsibly to create products and messages that deliver <strong>more value</strong> is the key to success for the next generation of products. At Vero, you'll help Product Teams harness the power of their data to <strong>create</strong> message and product experiences that matter.</p>
+  </div>
+</section>
 <section class="double-padding">
   <div class="inner">
-    <div class="w-sidebar w-sidebar--md">
+    <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main">
         <h2 class="tubs semi-bold">Live to work, not the other way around</h2>
 
@@ -56,20 +54,20 @@
       <div class="col-aside md-left-padding-xl">
         <ul class="unstyled-list stack-md careers-empowered-list">
           <li class="flex">
-            <div>
-              <h3 class="atomic semi-bold">Work on hard problems</h3>
+            <div class="stack-xxxs">
+              <h3 class="micro semi-bold">Work on hard problems</h3>
               <p>Smart people should work on the hardest problems. At Vero, you'll have the opportunity to tackle the kind of challenges that make work interesting.</p>
             </div>
           </li>
           <li class="flex">
-            <div>
-              <h3 class="atomic semi-bold">Make an impact</h3>
+            <div class="stack-xxxs">
+              <h3 class="micro semi-bold">Make an impact</h3>
               <p>We believe in quality over quantity. As a young company with a growing team you will have the opportunity to make a big impact on all aspects of Vero.</p>
             </div>
           </li>
           <li class="flex">
-            <div>
-              <h3 class="atomic semi-bold">Opportunities to grow</h3>
+            <div class="stack-xxxs">
+              <h3 class="micro semi-bold">Opportunities to grow</h3>
               <p>We believe in growing and moving forward, as a company and as individuals. Our goal is to enable you to seek the knowledge and learn the skills that make you a better human.</p>
             </div>
           </li>
@@ -98,7 +96,7 @@
           </div>
 
           <div class="col-aside order-0 md-order-1">
-            <img class="align-middle  border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
+            <img class="align-middle border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
           </div>
         </div>
         <div class="flex items-center flex-column md-flex-row careers-slide careers-slide--reba" data-slide="reba">
@@ -114,7 +112,7 @@
           </div>
 
           <div class="col-aside order-0 md-order-1">
-            <img class="align-middle border-radius-2" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
+            <img class="align-middle border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
           </div>
         </div>
       </div>
@@ -160,7 +158,7 @@
         </div>
 
         <div class="stack-xxxs">
-          <h3 class="atomic semi-bold">Yearly Adventures</h3>
+          <h3 class="atomic semi-bold">Yearly adventures</h3>
           <p>Once a year we go on a team retreat somewhere exciting, challenging and inspiring. For our last trip we went to Vietnam, we had a blast!</p>
         </div>
       </li>
@@ -178,12 +176,14 @@
   </div>
 </section>
 <section>
-  <div class="inner xlarge-inner halfs no-padding">
-    <div class="left">
-      <img class="align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
-    </div>
-    <div class="right">
-      <img class="align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-2.jpg" alt="">
+  <div class="inner xlarge-inner flush-top flush-bottom">
+    <div class="grid grid--halfs">
+      <div>
+        <img class="border-radius-3 shadow-1 align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-4.jpg" alt="Hui, Obi and Adrian at Bali">
+      </div>
+      <div>
+        <img class="border-radius-3 shadow-1 align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-5.jpg" alt="Beers in Vietnam">
+      </div>
     </div>
   </div>
 </section>
