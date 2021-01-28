@@ -13,10 +13,10 @@
   do_action( 'genesis_after_header' );
 ?>
 <section class="double-padding">
-  <div class="inner stack-md center-text">
+  <div class="inner tiny-inner stack-md center-text">
     <div class="stack-xs">
       <h1 class="hulk semi-bold">Working at Vero</h3>
-      <p class="large">We've come far. With your help we’ll go further.</p>
+      <p class="large">Join us in our journey to build the worlds best customer experience and messaging platform.</p>
     </div>
 
     <a class="btn btn--large btn--secondary btn--outline" href="#careers-job-listings">View current openings</a>
@@ -83,23 +83,7 @@
       <input class="hide careers-radio-2" id="careers-radio-2" type="radio" name="careers-radios">
 
       <div class="flex careers-slides">
-        <div class="flex md-items-center flex-column md-flex-row careers-slide careers-slide--rory" data-slide="rory">
-          <div class="col-main stack-md order-1 md-order-0">
-            <blockquote>
-              <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
-            </blockquote>
-
-            <div class="d-inline-block top-padding-md stack-0 border-top-primary bw2">
-              <h4 class="atomic">Rory Colsell</h4>
-              <span class="atomic">Product Design</span>
-            </div>
-          </div>
-
-          <div class="col-aside order-0 md-order-1">
-            <img class="align-middle shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
-          </div>
-        </div>
-        <div class="flex md-items-center flex-column md-flex-row careers-slide careers-slide--reba" data-slide="reba">
+        <div class="flex md-items-center flex-column md-flex-row careers-slide">
           <div class="col-main stack-md order-1 md-order-0">
             <blockquote>
               <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
@@ -113,6 +97,22 @@
 
           <div class="col-aside order-0 md-order-1">
             <img class="align-middle shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
+          </div>
+        </div>
+        <div class="flex md-items-center flex-column md-flex-row careers-slide">
+          <div class="col-main stack-md order-1 md-order-0">
+            <blockquote>
+              <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
+            </blockquote>
+
+            <div class="d-inline-block top-padding-md stack-0 border-top-primary bw2">
+              <h4 class="atomic">Rory Colsell</h4>
+              <span class="atomic">Product Design</span>
+            </div>
+          </div>
+
+          <div class="col-aside order-0 md-order-1">
+            <img class="align-middle shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
           </div>
         </div>
       </div>
@@ -164,12 +164,12 @@
       </li>
       <li class="flex no-margin">
         <div class="right-margin-sm">
-          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle stroke="#F15242" stroke-width="2" cx="18" cy="13" r="7"/><rect stroke="#F15242" stroke-width="2" fill="#FFFFFF" x="19" y="14" width="22" height="36" rx="2"/><path fill-opacity=".4" fill="#F15242" d="M20 23h20v2H20z"/></g></svg>
+          <svg class="align-middle" width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="matrix(-1 0 0 1 51 5)"><path d="M28 1a2.99 2.99 0 012.121.879A2.99 2.99 0 0131 4h0v16a2.99 2.99 0 01-.879 2.121A2.99 2.99 0 0128 23h0-13.414L7 30.586V23H4a2.99 2.99 0 01-2.121-.879A2.99 2.99 0 011 20h0V4c0-.828.336-1.578.879-2.121A2.99 2.99 0 014 1h0z" stroke="#F15242" stroke-width="2"/><circle fill-opacity=".4" fill="#F15242" cx="10" cy="13" r="2"/><circle fill-opacity=".4" fill="#F15242" cx="16" cy="13" r="2"/><circle fill-opacity=".4" fill="#F15242" cx="22" cy="13" r="2"/></g><g transform="translate(5 20)"><path d="M28 1a2.99 2.99 0 012.121.879A2.99 2.99 0 0131 4h0v16a2.99 2.99 0 01-.879 2.121A2.99 2.99 0 0128 23h0-13.414L7 30.586V23H4a2.99 2.99 0 01-2.121-.879A2.99 2.99 0 011 20h0V4c0-.828.336-1.578.879-2.121A2.99 2.99 0 014 1h0z" stroke="#F15242" stroke-width="2" fill="#FFF"/><circle fill-opacity=".4" fill="#F15242" cx="10" cy="12" r="2"/><circle fill-opacity=".4" fill="#F15242" cx="16" cy="12" r="2"/><circle fill-opacity=".4" fill="#F15242" cx="22" cy="12" r="2"/></g></g></svg>
         </div>
 
         <div class="stack-xxxs">
           <h3 class="atomic semi-bold">Culture</h3>
-          <p>We are a semi-distrubuted team and  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+          <p>Join a group of kind and motivated people who love to get to know each through regularly scheduled Donut chats and games of Among Us.</p>
         </div>
       </li>
     </ul>
@@ -188,11 +188,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <!-- <div class="inner small-inner center-text stack-sm">
-    <h2 class="chunk semi-bold">Be where you want to be</h2>
-    <p class="medium">Living and traveling to different countries is a valuable and pleasurable part of life. At Vero, you are free to live and work wherever you want. We hire from countries around the world and we encourage people to travel and try something new. Here’s some of the locations Vero team members currently reside:</p>
-  </div> -->
-  <div class="inner small-inner stack-lg">
+  <div class="inner stack-lg">
     <div class="stack-xs">
       <h2 class="chunk semi-bold">See where you fit in</h2>
 
