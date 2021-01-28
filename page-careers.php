@@ -24,7 +24,7 @@
 </section>
 <section>
   <div class="inner xlarge-inner flush-top flush-bottom">
-    <div class="grid careers-photo-wall">
+    <div class="grid careers-photos careers-photos--wall">
       <div>
         <img class="border-radius-3 shadow-1 align-middle" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder.jpg" alt="">
       </div>
@@ -47,7 +47,7 @@
   <div class="inner">
     <div class="w-sidebar w-sidebar--md items-center">
       <div class="col-main">
-        <h2 class="tubs semi-bold">Live to work, not the other way around</h2>
+        <h2 class="chunk semi-bold">Live to work, not the other way around</h2>
 
         <p class="medium">We believe that happy teams are the key to a powerful business. At Vero we are an empowered group of people who accomplish a lot. By helping each other to overcome any challenge that comes our way we have built a company that thrives on trust, positivity and a pinch of adventure.</p>
       </div>
@@ -83,7 +83,7 @@
       <input class="hide careers-radio-2" id="careers-radio-2" type="radio" name="careers-radios">
 
       <div class="flex careers-slides">
-        <div class="flex items-center flex-column md-flex-row careers-slide careers-slide--rory" data-slide="rory">
+        <div class="flex md-items-center flex-column md-flex-row careers-slide careers-slide--rory" data-slide="rory">
           <div class="col-main stack-md order-1 md-order-0">
             <blockquote>
               <q class="large">Every day I get the chance to work with amazing people to help improve what is a mission critical product for many of our customers. Our customers are very passionate about what they do so each new release makes a difference.</q>
@@ -96,10 +96,10 @@
           </div>
 
           <div class="col-aside order-0 md-order-1">
-            <img class="align-middle border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
+            <img class="align-middle shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/rory.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/rory@2x.jpg 2x" alt="Rory Colsell">
           </div>
         </div>
-        <div class="flex items-center flex-column md-flex-row careers-slide careers-slide--reba" data-slide="reba">
+        <div class="flex md-items-center flex-column md-flex-row careers-slide careers-slide--reba" data-slide="reba">
           <div class="col-main stack-md order-1 md-order-0">
             <blockquote>
               <q class="large">There's nothing more satisfying than cracking a hard problem for a customer. At Vero I get to work side by side with some of the best companies in the industry, where every day is different.</q>
@@ -112,7 +112,7 @@
           </div>
 
           <div class="col-aside order-0 md-order-1">
-            <img class="align-middle border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
+            <img class="align-middle shadow-1" src="/wp-content/themes/vero/assets/dist/images/careers/reba.jpg" srcset="/wp-content/themes/vero/assets/dist/images/careers/reba@2x.jpg 2x" alt="Reba Moyes">
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
 </section>
 <section>
   <div class="inner xlarge-inner flush-top flush-bottom">
-    <div class="grid grid--halfs">
+    <div class="grid grid--halfs careers-photos">
       <div>
         <img class="border-radius-3 shadow-1 align-middle full-width" src="/wp-content/themes/vero/assets/dist/images/careers/placeholder-4.jpg" alt="Hui, Obi and Adrian at Bali">
       </div>
