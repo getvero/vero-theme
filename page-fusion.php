@@ -9,7 +9,7 @@
 
   include 'pages-shared/static-header.php';
 ?>
-<section class="border-bottom-light"  id="external-attributes-hero" banner-name="Emails that can talk to APIs" element-position="top">
+<section class="border-bottom-light" banner-name="Emails that can talk to APIs" element-position="top">
   <div class="inner center-text flush-bottom stack-lg">
     <span class="flex items-center justify-center atomic semi-bold font-gray-dark">
       <a href="/features">Features</a>
@@ -30,25 +30,27 @@
     </div>
   </div>
 </section>
-<section class="double-padding" id="external-attributes-howitworks">
-  <div class="inner center-text gradient-border-bottom">
+<section class="double-padding">
+  <div class="inner small-inner center-text gradient-border-bottom">
     <div class="stack-xs">
       <h2 class="chunk semi-bold">Load data from its source</h2>
       <p class="medium">Use APIs to access data where it originates: databases, data models or third party platforms</p>
     </div>
-    <img class="top-margin-lg align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
-    <ul class="feature-list unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs top-margin-sm">
-      <li class="stack-xxs">
+
+    <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-api-diagram.svg" alt="load data from its source">
+
+    <ul class="unstyled-list flex flex-wrap md-flex-nowrap md-justify-between halfs">
+      <li class="stack-xxs md-right-margin-md">
         <h3 class="atomic semi-bold">Connect an API endpoint</h3>
-        <p class="light">Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
-      <li class="stack-xxs">
+        <p>Add an external data source URL to an email using Vero's data inspector. To load specific user or event data, Vero can pass identifying attributes with every API request.</p></li>
+      <li class="stack-xxs md-left-margin-md">
         <h3 class="atomic semi-bold">Add data to emails using Liquid</h3>
-        <p class="light">Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
+        <p>Data is loaded for access via Liquid tags, enabling you access the full JSON object and insert attributes (or HTML) into your email content, just like this: <code>{{external.user_region}}</code>.</p></li>
     </ul>
   </div>
 </section>
 <section id="external-attributes-code" class="flush-bottom">
-  <div class="inner center-text gradient-border-bottom">
+  <div class="inner center-text">
     <div>
       <h2 class="micro semi-bold">Example API endpoint</h2>
       <pre class="language-html"><code>https://api.yoursite.com/people-you-may-know/{{user.id}}</code></pre>
