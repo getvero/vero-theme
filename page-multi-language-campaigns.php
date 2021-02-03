@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <img src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works@2x.png 2x" alt="How does it work?">
+    <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/i18n/languages-how-it-works@2x.png 2x" alt="How does it work?">
   </div>
 </section>
 <section>
