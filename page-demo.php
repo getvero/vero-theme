@@ -12,7 +12,7 @@
 <section class="demo-hero" banner-name="" element-position="top">
   <div class="inner large-inner">
     <div class="w-sidebar w-sidebar--lg">
-      <div class="col-main stack-sm lg-right-padding-md">
+      <div class="col-main stack-sm lg-top-padding-lg lg-right-padding-md">
         <div class="stack-sm">
           <div class="stack-xxs">
             <h1 class="biggie semi-bold">New to Vero?</h1>
