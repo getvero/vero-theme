@@ -25,8 +25,8 @@
       <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
     </div>
 
-    <div class="hero-image center-text top-margin-lg">
-      <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs">
+    <div class="overflow-hidden" style="height: 250px;">
+      <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs">
     </div>
   </div>
 </section>
@@ -79,24 +79,27 @@
       <p class="large">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     </div>
   </div>
-  <div class="inner border-bottom ">
+  <div class="inner flush-bottom">
     <ul class="feature-list unstyled-list grid grid-thirds">
       <li class="stack-xs center-text">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-recommendations.svg" alt="Recommendations">
+        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
+
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Recommendations</h3>
           <p class="light">Access data models and insert dynamically calculated product recommendation emails tailored specifically to each customer.</p>
         </div>
       </li>
       <li class="stack-xs center-text">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-charts.svg" alt="Dynamic data and charts">
+        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
+
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Dynamic Data &amp; Charts</h3>
           <p class="light">Pull complex data structures or even fully rendered HTML charts to deliver unique weekly updates with usage details to each customer.</p>
         </div>
       </li>
       <li class="stack-xs center-text">
-        <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-delights.svg" alt="Delightful details">
+        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
+
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Delightful Details</h3>
           <p class="light">Impress your users with personalised enriched data pulled from services like OpenWeather, Clearbit and more.</p>
@@ -118,7 +121,7 @@
       </li>
       <li>
         <div class="right-margin-sm">
-          <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect stroke="#F15242" stroke-width="2" x="9" y="23" width="30" height="20" rx="2"/><path d="M24 27a3 3 0 011 5.829V39h-2v-6.17A3.001 3.001 0 0124 27z" fill-opacity=".4" fill="#F15242"/><path d="M24 5c5.523 0 10 4.477 10 10v8h0-20v-8c0-5.523 4.477-10 10-10z" stroke="#F15242" stroke-width="2"/></g></svg>
+          <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFC111" stroke-width="2" fill="none" fill-rule="evenodd"><circle stroke-opacity=".4" cx="15" cy="15" r="7"/><circle stroke-opacity=".4" cx="33" cy="15" r="7"/><circle cx="33" cy="33" r="7"/><circle cx="15" cy="33" r="7"/></g></svg>
         </div>
 
         <div class="stack-xxxs">
@@ -128,7 +131,7 @@
       </li>
       <li>
         <div class="right-margin-sm">
-          <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect stroke="#F15242" stroke-width="2" x="9" y="23" width="30" height="20" rx="2"/><path d="M24 27a3 3 0 011 5.829V39h-2v-6.17A3.001 3.001 0 0124 27z" fill-opacity=".4" fill="#F15242"/><path d="M24 5c5.523 0 10 4.477 10 10v8h0-20v-8c0-5.523 4.477-10 10-10z" stroke="#F15242" stroke-width="2"/></g></svg>
+          <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g stroke="#6F0DFB" stroke-width="2" fill="none" fill-rule="evenodd"><g transform="translate(6 9)"><path stroke-opacity=".4" stroke-linecap="round" stroke-linejoin="round" d="M3 3l9.091 5.883V20"/><circle fill="#FFF" cx="3" cy="3" r="3"/></g><g transform="matrix(-1 0 0 1 42 9)"><path stroke-opacity=".4" stroke-linecap="round" stroke-linejoin="round" d="M3 3l9.091 5.883V20"/><circle fill="#FFF" cx="3" cy="3" r="3"/></g><g transform="translate(21 6)"><path stroke-opacity=".4" stroke-linecap="round" stroke-linejoin="round" d="M3 6v22"/><circle fill="#FFF" cx="3" cy="3" r="3"/></g><rect fill="#FFF" x="12" y="26" width="24" height="16" rx="2"/></g></svg>
         </div>
 
         <div class="stack-xxxs">
@@ -155,33 +158,35 @@
     <p class="large">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
   </div>
 </section>
-<section class="bg-gray-lighter" banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner small-inner center-text">
-    <h4 class="chunk bottom-margin-md">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+<section class="double-padding bg-offwhite relative" banner-name="Scale personalized messages" element-position="bottom">
+  <div class="inner small-inner center-text stack-md">
+    <h4 class="chunk semi-bold">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
-    <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-lg stack-xs bottom-margin-sm"
-      <?php if (get_field('sign_up')) { ?>
-        data-url="<?php echo get_field('sign_up'); ?>"
-      <?php } ?>
-      element-position="bottom"
-      action="https://formkeep.com/f/5401a0ae5cb8"
-      accept-charset="UTF-8"
-      enctype="multipart/form-data"
-      method="POST">
+    <div class="stack-md">
+      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xl stack-xs"
+        <?php if (get_field('sign_up')) { ?>
+          data-url="<?php echo get_field('sign_up'); ?>"
+        <?php } ?>
+        element-position="bottom"
+        action="https://formkeep.com/f/5401a0ae5cb8"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
 
-      <div class="flex flex-column sm-flex-row">
-        <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
+        <div class="flex flex-column sm-flex-row">
+          <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
-        <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+          <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+        </div>
 
-        <a class="d-inline-block semi-bold ws-nowrap underline-link padding-xs track-contact-us" element-position="bottom" href="/demo/">Schedule a demo</a>
-      </div>
+        <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+      </form>
 
-      <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
-    </form>
-
-    <p class="annotation faded">No credit card details required</p>
+      <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="bottom">schedule a demo</a></p>
+    </div>
   </div>
+
+  <span class="show cation regular font-gray-dark absolute full-width center-text" style="bottom: 24px">No credit card details required</span>
 </section>
 <?php
   no_content_genesis_footer();
