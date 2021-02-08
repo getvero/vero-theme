@@ -52,7 +52,7 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner medium-inner flush-top">
+  <div class="inner  flush-top">
     <div class="w-sidebar w-sidebar--md">
       <div class="col-main stack-md">
         <div class="stack-xs">
@@ -93,7 +93,7 @@
     <h2 class="chunk semi-bold">Make decisions with greater clarity</h2>
     <p class="large">By combining message interaction data with all of your business data</p>
   </div>
-  <div class="inner medium-inner stack-md border-bottom">
+  <div class="inner  stack-md border-bottom">
     <input class="hide integration-webhooks-radio-1" id="tab-1" name="integration-webhooks-tabs" type="radio" checked>
     <input class="hide integration-webhooks-radio-2" id="tab-2" name="integration-webhooks-tabs" type="radio">
     <input class="hide integration-webhooks-radio-3" id="tab-3" name="integration-webhooks-tabs" type="radio">
@@ -344,7 +344,7 @@
   </div>
 </section>
 <!-- <section class="flush-padding padding-md">
-  <div class="inner medium-inner center-text">
+  <div class="inner  center-text">
     <div class="integration-cover integration-cover--plann relative">
       <div class="flex flex-column padding-sm absolute center-text font-white">
         <span class="annotation semi-bold uppercase tracked-tight">Case study</span>

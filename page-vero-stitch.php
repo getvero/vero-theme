@@ -41,7 +41,7 @@
   </div>
 </section>
 <section id="vero-stitch-info">
-  <div class="inner medium-inner bottom-padding-xs">
+  <div class="inner  bottom-padding-xs">
     <div class="integration-platform-info stitch">
       <div class="left">
         <h2 class="medium regular bottom-margin-xs">What is Stitch?</h2>

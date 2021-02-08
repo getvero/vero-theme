@@ -58,7 +58,7 @@
       <h2 class="chunk">Connecting Vero and Freshpaint helps your team move quickly</h2>
     </div>
   </div>
-  <div class="inner medium-inner border-bottom">
+  <div class="inner  border-bottom">
     <ul class="unstyled-list grid grid--halfs">
       <li class="no-margin flex">
         <div class="right-margin-sm">
