@@ -69,7 +69,7 @@
 </section>
 <section class="double-padding capterra-event-manager bg-center">
   <div class="inner large-inner center-text">
-    <header class="inner medium-inner flush-top flush-bottom bottom-margin-lg">
+    <header class="inner  flush-top flush-bottom bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-xs">Confidently send messages with real-time data</h2>
       <p class="large">Vero tracks your customer's actions, as they happen, and gives you a clear view of the data.</p>
     </header>
@@ -104,7 +104,7 @@
 </section>
 <section class="capterra-ab-testing bg-offwhite bg-center">
   <div class="inner large-inner center-text">
-    <header class="inner medium-inner flush-top flush-bottom bottom-margin-lg">
+    <header class="inner  flush-top flush-bottom bottom-margin-lg">
       <h2 class="chunk regular bottom-margin-xs">Measure and optimize your emails</h2>
       <p class="large">View the performance of your campaigns and run A/B tests to improve results.</p>
     </header>

@@ -32,8 +32,8 @@
   </div>
 </section>
 <section id="event-manager-add-event" class="double-padding">
-  <div class="inner halfs medium-inner flush-bottom">
-    <div class="left primary stack-sm">
+  <div class="inner halfs flush-bottom">
+    <div class="left stack-sm">
       <h2 class="tubs semi-bold">Design email campaigns with placeholder events</h2>
       <p class="medium">With Vero's Event Manager you can use placeholder events to build and test triggered email campaigns before integrating any code into your website or application.</p>
       <p class="medium">Marketing teams can design personalized customer journeys and then collaborate with engineering to rapidly implement them.</p>
@@ -44,8 +44,8 @@
   </div>
 </section>
 <section id="event-manager-test-event" class="double-padding">
-  <div class="inner halfs medium-inner small-reverse flush-bottom flush-top">
-    <div class="left">
+  <div class="inner halfs small-reverse flush-bottom flush-top">
+    <div class="left secondary">
       <img class="fl-r small-responsive-image right-padding-lg" src="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/event-manager/event-test@2x.png 2x" alt="Test and debug automated emails">
     </div>
     <div class="right stack-sm">
@@ -56,7 +56,7 @@
   </div>
 </section>
 <section id="features-more" class="double-padding">
-  <div class="inner medium-inner top-padding-xl bottom-padding-xl">
+  <div class="inner top-padding-xl bottom-padding-xl">
     <p class="semi-bold center-text annotation uppercase font-gray center-text no-top-margin bottom-margin-lg">AND MORE</p>
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
