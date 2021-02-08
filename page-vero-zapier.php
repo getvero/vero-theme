@@ -75,7 +75,7 @@
           <h2 class="tubs">Connect Vero and Zapier to integrate beyond your product</h2>
           <p class="medium">Vero's Zapier integration enables you to import data from across your organization, enriching the core product data that Vero integrates with so tightly. Using the Vero Zapier integration you can trigger actions in thousands of business tools.</p>
         </div>
-        <a class="btn btn--secondary btn--outline" href="#none">View documentation</a>
+        <a class="btn btn--secondary btn--outline" href="https://zapier.com/apps/vero/integrations">Find out more</a>
       </div>
 
       <div class="col-aside stack-md">
