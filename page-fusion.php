@@ -79,7 +79,7 @@
       <p class="large">Fusion leverages the data powering your product on-site, enabling you to craft superior interactions off-site.</p>
     </div>
   </div>
-  <div class="inner flush-bottom">
+  <div class="inner border-bottom">
     <ul class="feature-list unstyled-list grid grid-thirds">
       <li class="stack-xs center-text">
         <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
@@ -98,7 +98,7 @@
         </div>
       </li>
       <li class="stack-xs center-text">
-        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
+        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g transform="translate(84 8)" fill="none" fill-rule="evenodd"><rect stroke="#6FD350" stroke-width="2" fill="#FFF" x="1" y="1" width="130" height="46" rx="4"/><rect fill-opacity=".4" fill="#6FD350" x="47" y="11" width="20" height="20" rx="2"/><circle fill-opacity=".4" fill="#6FD350" cx="21" cy="21" r="10"/><rect fill-opacity=".4" fill="#6FD350" x="12" y="35" width="18" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="48" y="35" width="18" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="81" y="11" width="40" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="81" y="17" width="32" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="81" y="23" width="36" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="81" y="29" width="30" height="2" rx="1"/><rect fill-opacity=".4" fill="#6FD350" x="81" y="35" width="30" height="2" rx="1"/></g></svg>
 
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Delightful Details</h3>
@@ -111,7 +111,7 @@
     <ul class="feature-list left-align unstyled-list grid grid-halfs">
       <li>
         <div class="right-margin-sm">
-          <svg class="align-middle" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect stroke="#F15242" stroke-width="2" x="9" y="23" width="30" height="20" rx="2"/><path d="M24 27a3 3 0 011 5.829V39h-2v-6.17A3.001 3.001 0 0124 27z" fill-opacity=".4" fill="#F15242"/><path d="M24 5c5.523 0 10 4.477 10 10v8h0-20v-8c0-5.523 4.477-10 10-10z" stroke="#F15242" stroke-width="2"/></g></svg>
+          <svg class="align-middle"width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle stroke="#01B2D0" stroke-width="2" cx="24" cy="24" r="20"/><path d="M24 7a1 1 0 011 1v15h9a1 1 0 010 2H24a1 1 0 01-1-1V8a1 1 0 011-1z" fill-opacity=".4" fill="#01B2D0"/></g></svg>
         </div>
 
         <div class="stack-xxxs">
@@ -153,14 +153,14 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner small-inner center-text">
+  <div class="inner small-inner center-text flush-bottom bottom-margin-lg">
     <div class="stack-xxs">
       <h2 class="chunk semi-bold">Built to Scale</h2>
       <p class="large">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
     </div>
   </div>
-  <div class="inner flush-bottom">
-    <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.svg" alt="Scale with Fusion">
+  <div class="inner flush-top flush-bottom">
+    <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.svg" alt="Scale with Fusion">
   </div>
 </section>
 <section class="double-padding bg-offwhite relative" banner-name="Scale personalized messages" element-position="bottom">

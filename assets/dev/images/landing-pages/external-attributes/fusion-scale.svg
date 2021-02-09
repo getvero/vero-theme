@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996" height="267" viewBox="0 0 996 267">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1016" height="261" viewBox="0 0 1016 261">
   <defs>
-    <rect id="fusion-scale-a" width="996" height="267" x="0" y="0"/>
+    <rect id="fusion-scale-a" width="1016" height="267" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
     <mask id="fusion-scale-b" fill="#fff">
       <use xlink:href="#fusion-scale-a"/>
     </mask>
     <use fill="#FFF" transform="matrix(1 0 0 -1 0 267)" xlink:href="#fusion-scale-a"/>
-    <path stroke="#E1E1E1" stroke-dasharray="1" stroke-linecap="round" stroke-width="2" d="M59.0405555 316.562571C89.9908997 316.562571 115.081111 291.588439 115.081111 260.781285 115.081111 229.974132 89.9908997 205 59.0405555 205 28.0902113 205 3 229.974132 3 260.781285 3 291.588439 28.0902113 316.562571 59.0405555 316.562571zM698.35805 596.964661C862.584366 596.964661 995.716099 464.448858 995.716099 300.982331 995.716099 137.515803 862.584366 5 698.35805 5 534.131734 5 401 137.515803 401 300.982331 401 464.448858 534.131734 596.964661 698.35805 596.964661z" mask="url(#fusion-scale-b)"/>
-    <path stroke="#E1E1E1" stroke-dasharray="1" stroke-linecap="round" stroke-width="2" d="M394.438004,489.928837 C510.659705,489.928837 604.876009,396.148423 604.876009,280.464419 C604.876009,164.780415 510.659705,71 394.438004,71 C278.216304,71 184,164.780415 184,280.464419 C184,396.148423 278.216304,489.928837 394.438004,489.928837 Z" mask="url(#fusion-scale-b)"/>
-    <path stroke="#E1E1E1" stroke-dasharray="1" stroke-linecap="round" stroke-width="2" d="M182.661644,395.1698 C251.510369,395.1698 307.323288,339.615098 307.323288,271.0849 C307.323288,202.554702 251.510369,147 182.661644,147 C113.812919,147 58,202.554702 58,271.0849 C58,339.615098 113.812919,395.1698 182.661644,395.1698 Z" mask="url(#fusion-scale-b)"/>
+    <circle cx="64" cy="261" r="56" stroke="#01B2D0" stroke-linecap="round" stroke-width="4" mask="url(#fusion-scale-b)"/>
+    <circle cx="56" cy="269" r="56" fill="#01B2D0" fill-opacity=".2" mask="url(#fusion-scale-b)"/>
+    <path stroke="#F15242" stroke-dasharray="1" stroke-linecap="round" stroke-width="4" d="M703,599 C867.028571,599 1000,466.028571 1000,302 C1000,137.971429 867.028571,5 703,5 C538.971429,5 406,137.971429 406,302 C406,466.028571 538.971429,599 703,599 Z" mask="url(#fusion-scale-b)"/>
+    <path fill="#F15242" fill-opacity=".2" d="M719,615 C883.028571,615 1016,482.028571 1016,318 C1016,153.971429 883.028571,21 719,21 C554.971429,21 422,153.971429 422,318 C422,482.028571 554.971429,615 719,615 Z" mask="url(#fusion-scale-b)"/>
+    <circle cx="399" cy="281" r="210" stroke="#FFC111" stroke-linecap="round" stroke-width="4" mask="url(#fusion-scale-b)"/>
+    <circle cx="383" cy="297" r="210" fill="#FFC111" fill-opacity=".2" mask="url(#fusion-scale-b)"/>
+    <path stroke="#6F0DFB" stroke-dasharray="1" stroke-linecap="round" stroke-width="4" d="M187,395 C255.483309,395 311,339.483309 311,271 C311,202.516691 255.483309,147 187,147 C118.516691,147 63,202.516691 63,271 C63,339.483309 118.516691,395 187,395 Z" mask="url(#fusion-scale-b)"/>
+    <path fill="#6F0DFB" fill-opacity=".2" d="M195,403 C263.483309,403 319,347.483309 319,279 C319,210.516691 263.483309,155 195,155 C126.516691,155 71,210.516691 71,279 C71,347.483309 126.516691,403 195,403 Z" mask="url(#fusion-scale-b)"/>
   </g>
 </svg>
