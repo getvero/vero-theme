@@ -90,7 +90,7 @@
         </div>
       </li>
       <li class="stack-xs center-text">
-        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(130 8)"><rect stroke="#F15242" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#F15242" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#F15242" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(86 8)"><rect stroke="#01B2D0" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><circle fill-opacity=".4" fill="#01B2D0" cx="20" cy="21" r="9"/><rect fill-opacity=".4" fill="#01B2D0" x="11" y="34" width="18" height="2" rx="1"/></g><g transform="translate(174 8)"><rect stroke="#FFC111" stroke-width="2" fill="#FFF" x="1" y="1" width="38" height="46" rx="4"/><rect fill-opacity=".4" fill="#FFC111" x="11" y="34" width="18" height="2" rx="1"/><circle fill-opacity=".4" fill="#FFC111" cx="20" cy="21" r="9"/></g></g></svg>
+        <svg class="align-middle" width="300" height="64" xmlns="http://www.w3.org/2000/svg"><g transform="translate(80 8)" fill="none" fill-rule="evenodd"><rect stroke="#6F0DFB" stroke-width="2" fill="#FFF" x="1" y="1" width="138" height="46" rx="4"/><g fill="#6F0DFB"><path d="M24 32a8 8 0 11-8-8v8z" fill-opacity=".4"/><path d="M18 22a8 8 0 018 8h-8z" fill-opacity=".2"/></g><g fill="#6F0DFB"><path d="M48 32a8 8 0 11-8-8v8z" fill-opacity=".4"/><path d="M42 22a8 8 0 018 8h-8z" fill-opacity=".2"/></g><g fill="#6F0DFB"><path d="M72 32a8 8 0 11-8-8v8z" fill-opacity=".4"/><path d="M66 22a8 8 0 018 8h-8z" fill-opacity=".2"/></g><rect fill="#6F0DFB" opacity=".2" x="8" y="8" width="64" height="2" rx="1"/><rect fill="#6F0DFB" opacity=".4" x="8" y="12" width="48" height="2" rx="1"/><path fill-opacity=".4" fill="#6F0DFB" d="M124 8h8v32h-8z"/><path fill-opacity=".2" fill="#6F0DFB" d="M112 12h8v28h-8z"/><path fill-opacity=".4" fill="#6F0DFB" d="M100 16h8v24h-8z"/><path fill-opacity=".2" fill="#6F0DFB" d="M88 20h8v20h-8z"/></g></svg>
 
         <div class="stack-xs">
           <h3 class="semi-bold atomic">Dynamic Data &amp; Charts</h3>
@@ -153,9 +153,14 @@
   </div>
 </section>
 <section class="double-padding">
-  <div class="inner small-inner center-text stack-xxs">
-    <h2 class="chunk semi-bold">Built to Scale</h2>
-    <p class="large">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
+  <div class="inner small-inner center-text">
+    <div class="stack-xxs">
+      <h2 class="chunk semi-bold">Built to Scale</h2>
+      <p class="large">As your business grows, Vero scales with you. Concentrate on designing product experiences you customers love and let us handle delivering them, whether you have just one customer or 100 million.</p>
+    </div>
+  </div>
+  <div class="inner flush-bottom">
+    <img class="responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-scale.svg" alt="Scale with Fusion">
   </div>
 </section>
 <section class="double-padding bg-offwhite relative" banner-name="Scale personalized messages" element-position="bottom">
@@ -163,7 +168,7 @@
     <h4 class="chunk semi-bold">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="stack-md">
-      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xl stack-xs"
+      <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xxl stack-xs"
         <?php if (get_field('sign_up')) { ?>
           data-url="<?php echo get_field('sign_up'); ?>"
         <?php } ?>
