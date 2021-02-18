@@ -154,7 +154,7 @@
     </div>
   </div>
 </section>
-<!-- <section class="home-solutions double-padding overflow-hidden">
+<section class="home-solutions double-padding overflow-hidden">
   <div class="inner small-inner center-text flush-bottom bottom-margin-lg">
     <h2 class="chunk semi-bold">Design and manage automated messages throughout the entire customer lifecycle</h2>
   </div>
@@ -204,7 +204,7 @@
       </div>
     </div>
   </div>
-</section> -->
+</section>
 <section class="bg-dark-blue-lighter home-quotes">
   <div class="inner large-inner flush-bottom stack-lg">
     <h2 class="chunk semi-bold center-text">What people have said about Vero</h5>
