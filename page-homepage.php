@@ -138,7 +138,7 @@
     </ul>
   </div>
 </section>
-<section class="double-padding">
+<section class="double-padding border-bottom-light">
   <div class="inner large-inner">
     <div class="w-sidebar w-sidebar--md md-items-center center-text lg-left-text">
       <div class="col-main">
