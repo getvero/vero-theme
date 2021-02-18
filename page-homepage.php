@@ -389,9 +389,9 @@
     </div>
   </div>
 </section>
-<section class="bg-dark-blue-lighter" banner-name="Scale personalized messages" element-position="bottom">
-  <div class="inner small-inner stack-md">
-    <h4 class="chunk center-text">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+<section class="double-padding bg-dark-blue-lighter relative" banner-name="Scale personalized messages" element-position="bottom">
+  <div class="inner small-inner center-text stack-md">
+    <h4 class="chunk semi-bold">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
 
     <div class="stack-md">
       <form class="js-signup-form track-signup-form home-signup-form lg-horizontal-margin-xl stack-xs"
@@ -405,19 +405,16 @@
           <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address" required>
 
           <input class="btn btn--success btn--medium track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
-
-          <!-- <input class="btn underline-link track-contact-us" element-position="bottom" type="submit" name="talk_to_us" value="Schedule a demo"> -->
         </div>
 
         <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
-
-        <span class="show cation regular center-text font-gray-dark">No credit card details required</span>
       </form>
 
-      <p class="medium center-text">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="top">schedule a demo</a></p>
+      <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="bottom">schedule a demo</a></p>
     </div>
-
   </div>
+
+  <span class="show cation regular font-gray-dark absolute full-width center-text" style="bottom: 24px">No credit card details required</span>
 </section>
 
 <?php
