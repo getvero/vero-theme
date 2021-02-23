@@ -4,6 +4,6 @@ friend: {
   name: Annie Apple,
   likes: 245,
   friends: 415,
-  user_image: “www.example.com/ 1234/avatar.png”
-  recent_likes: [{food_name:”Tacos”, food_image…
+  user_image: 'www.example.com/1234/img.png',
+  recent_likes: [{food_name: 'Tacos', …
 }

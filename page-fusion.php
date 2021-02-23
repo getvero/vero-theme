@@ -25,7 +25,7 @@
       <a class="btn btn--success btn--large track-start-trial" element-position="top"  href="http://app.getvero.com/signup/newsletters">Start a free trial</a>
     </div>
 
-    <div class="overflow-hidden" style="height: 250px;">
+    <div class="fusion-hero-img overflow-hidden">
       <img class="align-middle responsive-image" src="/wp-content/themes/vero/assets/dist/images/landing-pages/external-attributes/fusion-hero.svg" alt="emails that can talk to APIs">
     </div>
   </div>
@@ -56,18 +56,19 @@
     </div>
   </div>
 </section>
-<section class="double-padding">
-  <div class="inner center-text stack-xxs">
-    <div>
-      <h2 class="micro semi-bold">Example API endpoint</h2>
+<section class="double-padding fusion-api-example">
+  <div class="inner center-text stack-sm">
+    <h2 class="micro semi-bold">Example API endpoint</h2>
+
+    <div class="stack-xxs">
       <pre class="language-html"><code>https://api.yoursite.com/people-you-may-know/{{user.id}}</code></pre>
-    </div>
-    <div class="flex">
-      <div class="fusion-code-json right-margin-xxs">
-        <pre data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
-      </div>
-      <div class="fusion-code-html">
-        <pre data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
+      <div class="flex flex-wrap items-stretch">
+        <div class="fusion-code-json bottom-margin-xs md-no-bottom-margin md-right-margin-xxs">
+          <pre class="language-json" data-src="/wp-content/themes/vero/snippets/fusion-json.json"></pre>
+        </div>
+        <div class="fusion-code-html">
+          <pre class="language-html" data-src="/wp-content/themes/vero/snippets/fusion-html.html"></pre>
+        </div>
       </div>
     </div>
   </div>
@@ -80,7 +81,7 @@
     </div>
   </div>
   <div class="inner border-bottom">
-    <ul class="feature-list unstyled-list grid grid-thirds">
+    <ul class="unstyled-list grid grid-thirds">
       <li class="stack-xs center-text">
         <svg class="align-middle" width="300" height="144" xmlns="http://www.w3.org/2000/svg"><g transform="translate(80 8)" fill="none" fill-rule="evenodd"><rect stroke="#1B2E5B" stroke-width="2" fill="#FFF" x="20" y="1" width="98" height="126" rx="8"/><rect fill="#F1F1F1" x="37" y="30" width="64" height="4" rx="2"/><rect fill="#F1F1F1" x="37" y="38" width="56" height="4" rx="2"/><rect fill="#F1F1F1" x="37" y="46" width="48" height="4" rx="2"/><rect fill="#F1F1F1" x="37" y="54" width="56" height="4" rx="2"/><rect fill="#F1F1F1" x="37" y="62" width="56" height="4" rx="2"/><rect fill="#E1E1E1" x="37" y="22" width="24" height="4" rx="2"/><g transform="translate(0 74)"><rect stroke="#1B2E5B" stroke-width="2" fill="#FFF" x="1" y="1" width="30" height="36" rx="4"/><circle fill="#01B2D0" cx="16" cy="16" r="7"/><rect fill-opacity=".4" fill="#01B2D0" x="8" y="27" width="16" height="2" rx="1"/></g><g transform="translate(36 74)"><rect stroke="#1B2E5B" stroke-width="2" fill="#FFF" x="1" y="1" width="30" height="36" rx="4"/><circle fill="#F15242" cx="16" cy="16" r="7"/><rect fill-opacity=".4" fill="#F15242" x="8" y="27" width="16" height="2" rx="1"/></g><g transform="translate(72 74)"><rect stroke="#1B2E5B" stroke-width="2" fill="#FFF" x="1" y="1" width="30" height="36" rx="4"/><circle fill="#6FD350" cx="16" cy="16" r="7"/><rect fill-opacity=".4" fill="#6FD350" x="8" y="27" width="16" height="2" rx="1"/></g><g transform="translate(108 74)"><rect stroke="#1B2E5B" stroke-width="2" fill="#FFF" x="1" y="1" width="30" height="36" rx="4"/><circle fill="#FFC111" cx="16" cy="16" r="7"/><rect fill-opacity=".4" fill="#FFC111" x="8" y="27" width="16" height="2" rx="1"/></g></g></svg>
 
