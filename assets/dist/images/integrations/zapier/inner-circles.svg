@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="444" height="444" viewBox="0 0 444 444"><g fill="none" fill-rule="evenodd" transform="translate(2 2)"><circle cx="220" cy="220" r="220" stroke="#F1F1F1" stroke-width="2"/><path stroke="#E1E1E1" stroke-linecap="round" stroke-width="4" d="M277.168 44.055C179.996 12.48 75.628 65.66 44.055 162.832 12.48 260.004 65.66 364.372 162.832 395.945c97.172 31.574 201.54-21.605 233.113-118.777"/><circle cx="220" cy="220" r="150" stroke="#F1F1F1" stroke-width="2"/><path stroke="#E1E1E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M169.587 323.361c57.085 27.842 125.932 4.137 153.774-52.948s4.137-125.932-52.948-153.774-125.932-4.137-153.774 52.948"/><circle cx="220" cy="220" r="80" stroke="#F1F1F1" stroke-width="2"/><path stroke="#E1E1E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M262.548 205.35c-8.09-23.5-33.7-35.99-57.199-27.898-23.498 8.09-35.989 33.7-27.897 57.199 8.09 23.498 33.7 35.989 57.199 27.897"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="444" height="444" viewBox="0 0 444 444">
+  <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+    <circle cx="220" cy="220" r="220" stroke="#F1F1F1" stroke-width="2"/>
+    <path stroke="#E1E1E1" stroke-linecap="round" stroke-width="4" d="M277.168144,44.0545445 C179.996152,12.4814504 75.6276386,65.6598642 44.0545445,162.831856 C12.4814504,260.003848 65.6598642,364.372361 162.831856,395.945456 C260.003848,427.51855 364.372361,374.340136 395.945456,277.168144"/>
+    <circle cx="220" cy="220" r="150" stroke="#F1F1F1" stroke-width="2"/>
+    <path stroke="#E1E1E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M169.587318,323.361315 C226.672196,351.203471 295.51916,327.49756 323.361315,270.412682 C351.203471,213.327804 327.49756,144.48084 270.412682,116.638685 C213.327804,88.7965293 144.48084,112.50244 116.638685,169.587318"/>
+    <circle cx="220" cy="220" r="80" stroke="#F1F1F1" stroke-width="2"/>
+    <path stroke="#E1E1E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M262.548336,205.349433 C254.457051,181.850636 228.84823,169.360379 205.349433,177.451664 C181.850636,185.542949 169.360379,211.15177 177.451664,234.650567 C185.542949,258.149364 211.15177,270.639621 234.650567,262.548336"/>
+  </g>
+</svg>

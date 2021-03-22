@@ -1,1 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350"><defs><filter id="a" width="107.1%" height="109.6%" x="-3.5%" y="-3.9%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="c" width="107.1%" height="222.2%" x="-3.5%" y="-50%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="e" width="147.8%" height="257.1%" x="-23.9%" y="-64.3%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="g" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="i" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="k" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="m" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="o" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="q" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="s" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><filter id="u" width="168.8%" height="168.8%" x="-34.4%" y="-28.1%" filterUnits="objectBoundingBox"><feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/><feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.101137908 0"/></filter><rect id="b" width="312" height="228" x="0" y="0" rx="8"/><rect id="f" width="46" height="14" x="54" y="0" rx="2"/><rect id="h" width="40" height="14" x="60" y="0" rx="2"/><rect id="j" width="40" height="14" x="60" y="0" rx="2"/><rect id="l" width="40" height="14" x="60" y="0" rx="2"/><rect id="n" width="47" height="26" x="0" y="0" rx="2"/><rect id="p" width="47" height="26" x="0" y="0" rx="2"/><rect id="r" width="47" height="26" x="0" y="0" rx="2"/><rect id="t" width="47" height="26" x="0" y="0" rx="2"/><rect id="v" width="32" height="32" x="0" y="0" rx="2"/><path id="d" d="M8 0h296a8 8 0 018 8v10H0V8a8 8 0 018-8z"/></defs><g fill="none" fill-rule="evenodd"><g stroke="#E1E1E1" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M180 330c88.366 0 160-71.634 160-160S268.366 10 180 10 20 81.634 20 170s71.634 160 160 160z"/><path d="M180 304c74.006 0 134-59.994 134-134S254.006 36 180 36 46 95.994 46 170s59.994 134 134 134z"/><path d="M180 278c59.647 0 108-48.353 108-108S239.647 62 180 62 72 110.353 72 170s48.353 108 108 108z"/><path d="M180 252c45.287 0 82-36.713 82-82s-36.713-82-82-82-82 36.713-82 82 36.713 82 82 82z"/></g><rect width="263" height="229" x="174" y="28" stroke="#E1E1E1" stroke-width="2" rx="8"/><circle cx="174" cy="28" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/><circle cx="437" cy="257" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/><g transform="translate(13 98)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/><use fill="#000" filter="url(#c)" xlink:href="#d"/><path fill="#FFF" stroke="#E1E1E1" d="M312.5 18.5H-.5V8a8.47 8.47 0 012.49-6.01A8.473 8.473 0 018-.5h296a8.47 8.47 0 016.01 2.49A8.473 8.473 0 01312.5 8v10.5z"/><path fill="#F1F1F1" d="M14 102h100v2H14z"/><g transform="translate(14 116)"><use fill="#000" filter="url(#e)" xlink:href="#f"/><rect width="47" height="15" x="53.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="38" height="4" y="5" fill="#F1F1F1" rx="2"/></g><g transform="translate(14 136)"><use fill="#000" filter="url(#g)" xlink:href="#h"/><rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/></g><g transform="translate(14 156)"><use fill="#000" filter="url(#i)" xlink:href="#j"/><rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/></g><g transform="translate(14 176)"><use fill="#000" filter="url(#k)" xlink:href="#l"/><rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/></g><path fill="#F1F1F1" d="M130 18h2v210h-2z"/><g transform="translate(14 32)"><use fill="#000" filter="url(#m)" xlink:href="#n"/><rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="16" height="4" x="15" y="11" fill="#01B2D0" rx="2"/></g><g transform="translate(67 64)"><use fill="#000" filter="url(#o)" xlink:href="#p"/><rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="16" height="4" x="15" y="11" fill="#6F0DFB" rx="2"/></g><g transform="translate(67 32)"><use fill="#000" filter="url(#q)" xlink:href="#r"/><rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="16" height="4" x="15" y="11" fill="#F15242" rx="2"/></g><g transform="translate(14 64)"><use fill="#000" filter="url(#s)" xlink:href="#t"/><rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><rect width="16" height="4" x="15" y="11" fill="#6FD350" rx="2"/></g><g fill="#F1F1F1" transform="translate(162 38)"><path d="M0 0h120v80H0zm0 136h54v34H0zm66 0h54v34H66z"/><rect width="120" height="2" y="102" rx="1"/><rect width="120" height="2" y="92" rx="1"/><rect width="120" height="2" y="112" rx="1"/><rect width="120" height="2" y="122" rx="1"/></g></g><g transform="translate(119 144)"><use fill="#000" filter="url(#u)" xlink:href="#v"/><rect width="33" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/><g fill="#F1F1F1"><path d="M15 10h2v14h-2zm1-7l4 7h-8z"/><path d="M16 29l4-7h-8z"/></g><g fill="#F1F1F1"><path d="M22 15v2H8v-2zm7 1l-7 4v-8z"/><path d="M3 16l7 4v-8z"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465" height="350" viewBox="0 0 465 350">
+  <defs>
+    <rect id="email-b" width="312" height="228" x="0" y="0" rx="8"/>
+    <filter id="email-a" width="107.1%" height="109.6%" x="-3.5%" y="-3.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <path id="email-d" d="M8,0 L304,0 C308.418278,-8.11624501e-16 312,3.581722 312,8 L312,18 L312,18 L0,18 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z"/>
+    <filter id="email-c" width="107.1%" height="222.2%" x="-3.5%" y="-50%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-f" width="46" height="14" x="54" y="0" rx="2"/>
+    <filter id="email-e" width="147.8%" height="257.1%" x="-23.9%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-h" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-g" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-j" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-i" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-l" width="40" height="14" x="60" y="0" rx="2"/>
+    <filter id="email-k" width="155%" height="257.1%" x="-27.5%" y="-64.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-n" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-m" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-p" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-o" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-r" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-q" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-t" width="47" height="26" x="0" y="0" rx="2"/>
+    <filter id="email-s" width="146.8%" height="184.6%" x="-23.4%" y="-34.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+    <rect id="email-v" width="32" height="32" x="0" y="0" rx="2"/>
+    <filter id="email-u" width="168.8%" height="168.8%" x="-34.4%" y="-28.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.207843137   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.101137908 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#E1E1E1" stroke-dasharray="1 8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(20 10)">
+      <path d="M160,320 C248.36556,320 320,248.36556 320,160 C320,71.63444 248.36556,0 160,0 C71.63444,0 0,71.63444 0,160 C0,248.36556 71.63444,320 160,320 Z"/>
+      <path d="M160,294 C234.006156,294 294,234.006156 294,160 C294,85.9938435 234.006156,26 160,26 C85.9938435,26 26,85.9938435 26,160 C26,234.006156 85.9938435,294 160,294 Z"/>
+      <path d="M160,268 C219.646753,268 268,219.646753 268,160 C268,100.353247 219.646753,52 160,52 C100.353247,52 52,100.353247 52,160 C52,219.646753 100.353247,268 160,268 Z"/>
+      <path d="M160,242 C205.287349,242 242,205.287349 242,160 C242,114.712651 205.287349,78 160,78 C114.712651,78 78,114.712651 78,160 C78,205.287349 114.712651,242 160,242 Z"/>
+    </g>
+    <rect width="263" height="229" x="174" y="28" stroke="#E1E1E1" stroke-width="2" rx="8"/>
+    <circle cx="174" cy="28" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/>
+    <circle cx="437" cy="257" r="8" fill="#FFF" stroke="#E1E1E1" stroke-width="2"/>
+    <g transform="translate(13 98)">
+      <use fill="#000" filter="url(#email-a)" xlink:href="#email-b"/>
+      <rect width="313" height="229" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="8"/>
+      <use fill="#000" filter="url(#email-c)" xlink:href="#email-d"/>
+      <path fill="#FFF" stroke="#E1E1E1" d="M312.5,18.5 L-0.5,18.5 L-0.5,8 C-0.5,5.65278981 0.451394907,3.52778981 1.98959236,1.98959236 C3.52778981,0.451394907 5.65278981,-0.5 8,-0.5 L304,-0.5 C306.34721,-0.5 308.47221,0.451394907 310.010408,1.98959236 C311.548605,3.52778981 312.5,5.65278981 312.5,8 L312.5,18.5 Z"/>
+      <rect width="100" height="2" x="14" y="102" fill="#F1F1F1"/>
+      <g transform="translate(14 116)">
+        <use fill="#000" filter="url(#email-e)" xlink:href="#email-f"/>
+        <rect width="47" height="15" x="53.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="38" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <g transform="translate(14 136)">
+        <use fill="#000" filter="url(#email-g)" xlink:href="#email-h"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <g transform="translate(14 156)">
+        <use fill="#000" filter="url(#email-i)" xlink:href="#email-j"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <g transform="translate(14 176)">
+        <use fill="#000" filter="url(#email-k)" xlink:href="#email-l"/>
+        <rect width="41" height="15" x="59.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="24" height="4" y="5" fill="#F1F1F1" rx="2"/>
+      </g>
+      <rect width="2" height="210" x="130" y="18" fill="#F1F1F1"/>
+      <g transform="translate(14 32)">
+        <use fill="#000" filter="url(#email-m)" xlink:href="#email-n"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#01B2D0" rx="2"/>
+      </g>
+      <g transform="translate(67 64)">
+        <use fill="#000" filter="url(#email-o)" xlink:href="#email-p"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#6F0DFB" rx="2"/>
+      </g>
+      <g transform="translate(67 32)">
+        <use fill="#000" filter="url(#email-q)" xlink:href="#email-r"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#F15242" rx="2"/>
+      </g>
+      <g transform="translate(14 64)">
+        <use fill="#000" filter="url(#email-s)" xlink:href="#email-t"/>
+        <rect width="48" height="27" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+        <rect width="16" height="4" x="15" y="11" fill="#6FD350" rx="2"/>
+      </g>
+      <g fill="#F1F1F1" transform="translate(162 38)">
+        <rect width="120" height="80"/>
+        <rect width="54" height="34" y="136"/>
+        <rect width="54" height="34" x="66" y="136"/>
+        <rect width="120" height="2" y="102" rx="1"/>
+        <rect width="120" height="2" y="92" rx="1"/>
+        <rect width="120" height="2" y="112" rx="1"/>
+        <rect width="120" height="2" y="122" rx="1"/>
+      </g>
+    </g>
+    <g transform="translate(119 144)">
+      <use fill="#000" filter="url(#email-u)" xlink:href="#email-v"/>
+      <rect width="33" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#E1E1E1" rx="2"/>
+      <g fill="#F1F1F1" transform="translate(12 3)">
+        <rect width="2" height="14" x="3" y="7"/>
+        <polygon points="4 0 8 7 0 7"/>
+        <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
+      </g>
+      <g fill="#F1F1F1" transform="rotate(90 8.5 20.5)">
+        <rect width="2" height="14" x="3" y="7"/>
+        <polygon points="4 0 8 7 0 7"/>
+        <polygon points="4 19 8 26 0 26" transform="matrix(1 0 0 -1 0 45)"/>
+      </g>
+    </g>
+  </g>
+</svg>
