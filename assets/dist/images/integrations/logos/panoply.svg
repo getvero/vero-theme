@@ -1,1 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><defs><linearGradient id="a" x1=".055%" x2="100.049%" y1="50.011%" y2="50.011%"><stop offset="0%" stop-color="#CB1C81"/><stop offset="64%" stop-color="#9A2985"/><stop offset="100%" stop-color="#712D86"/></linearGradient><linearGradient id="b" x1="-.049%" x2="99.967%" y1="50.023%" y2="50.023%"><stop offset="0%" stop-color="#6A2B80"/><stop offset="33%" stop-color="#532D86"/><stop offset="68%" stop-color="#464E9B"/><stop offset="100%" stop-color="#199BD1"/></linearGradient><linearGradient id="c" x1="-.026%" x2="99.982%" y1="49.982%" y2="49.982%"><stop offset="0%" stop-color="#1FAE8F"/><stop offset="5%" stop-color="#26AF8B"/><stop offset="44%" stop-color="#5CB46F"/><stop offset="100%" stop-color="#88BF4C"/></linearGradient><linearGradient id="d" x1="-.002%" x2="99.985%" y1="50.04%" y2="50.04%"><stop offset="0%" stop-color="#0AB"/><stop offset="45%" stop-color="#00ADAB"/><stop offset="100%" stop-color="#30B091"/></linearGradient><linearGradient id="e" x1="-.008%" x2="99.989%" y1="49.951%" y2="49.951%"><stop offset="0%" stop-color="#37AC6B"/><stop offset="47%" stop-color="#61B251"/><stop offset="100%" stop-color="#8EC03E"/></linearGradient><linearGradient id="f" x1=".025%" x2="100.016%" y1="50.016%" y2="50.016%"><stop offset="0%" stop-color="#84BF6C"/><stop offset="49%" stop-color="#BBCF49"/><stop offset="100%" stop-color="#EAE22A"/></linearGradient><linearGradient id="g" x1=".033%" x2="100.004%" y1="50.016%" y2="50.016%"><stop offset="0%" stop-color="#BEBC31"/><stop offset="47%" stop-color="#DFD61F"/><stop offset="100%" stop-color="#FCE900"/></linearGradient><linearGradient id="h" x1="-.002%" x2="100.02%" y1="50.015%" y2="50.015%"><stop offset="0%" stop-color="#DE0B80"/><stop offset="50%" stop-color="#E95B4D"/><stop offset="100%" stop-color="#FDCE07"/></linearGradient></defs><g fill="none"><path fill="url(#a)" d="M1.163 8.123l5.48 5.512 3.398-3.37-6.138-6.2a13.584 13.584 0 00-2.754 4.058" transform="translate(6 3)"/><path fill="url(#b)" d="M.063 13.46c0 1.916.406 3.812 1.198 5.553l5.382-5.378-5.48-5.512a13.326 13.326 0 00-1.1 5.336" transform="translate(6 3)"/><path fill="url(#c)" d="M.063.014l8.507 9.99h.112L8.325 2.83C6.433 2.815 4.632 1.16 2.999.43A2.652 2.652 0 001.598.294C1.058.358.547.407.063.014z" transform="translate(10.975 26.871)"/><path fill="url(#d)" d="M1.261 19.013a13.443 13.443 0 006.727 6.677l5.312-5.364-6.657-6.698-5.382 5.385z" transform="translate(6 3)"/><path fill="url(#e)" d="M7.974 25.69a13.376 13.376 0 0010.735.077l-5.416-5.441-5.319 5.364z" transform="translate(6 3)"/><path fill="url(#f)" d="M13.286 20.326l5.402 5.455a13.44 13.44 0 006.825-6.593l-5.584-5.63-6.643 6.768z" transform="translate(6 3)"/><path fill="url(#g)" d="M19.929 13.55l5.584 5.631a13.564 13.564 0 001.283-5.722 13.277 13.277 0 00-1.24-5.638l-5.627 5.73z" transform="translate(6 3)"/><path fill="url(#h)" d="M19.922 13.55l5.626-5.729c-3.11-6.712-11.071-9.625-17.77-6.508L19.922 13.55z" transform="translate(6 3)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="panoply-a" x1=".055%" x2="100.049%" y1="50.011%" y2="50.011%">
+      <stop offset="0%" stop-color="#CB1C81"/>
+      <stop offset="64%" stop-color="#9A2985"/>
+      <stop offset="100%" stop-color="#712D86"/>
+    </linearGradient>
+    <linearGradient id="panoply-b" x1="-.049%" x2="99.967%" y1="50.023%" y2="50.023%">
+      <stop offset="0%" stop-color="#6A2B80"/>
+      <stop offset="33%" stop-color="#532D86"/>
+      <stop offset="68%" stop-color="#464E9B"/>
+      <stop offset="100%" stop-color="#199BD1"/>
+    </linearGradient>
+    <linearGradient id="panoply-c" x1="-.026%" x2="99.982%" y1="49.982%" y2="49.982%">
+      <stop offset="0%" stop-color="#1FAE8F"/>
+      <stop offset="5%" stop-color="#26AF8B"/>
+      <stop offset="44%" stop-color="#5CB46F"/>
+      <stop offset="100%" stop-color="#88BF4C"/>
+    </linearGradient>
+    <linearGradient id="panoply-d" x1="-.002%" x2="99.985%" y1="50.04%" y2="50.04%">
+      <stop offset="0%" stop-color="#0AB"/>
+      <stop offset="45%" stop-color="#00ADAB"/>
+      <stop offset="100%" stop-color="#30B091"/>
+    </linearGradient>
+    <linearGradient id="panoply-e" x1="-.008%" x2="99.989%" y1="49.951%" y2="49.951%">
+      <stop offset="0%" stop-color="#37AC6B"/>
+      <stop offset="47%" stop-color="#61B251"/>
+      <stop offset="100%" stop-color="#8EC03E"/>
+    </linearGradient>
+    <linearGradient id="panoply-f" x1=".025%" x2="100.016%" y1="50.016%" y2="50.016%">
+      <stop offset="0%" stop-color="#84BF6C"/>
+      <stop offset="49%" stop-color="#BBCF49"/>
+      <stop offset="100%" stop-color="#EAE22A"/>
+    </linearGradient>
+    <linearGradient id="panoply-g" x1=".033%" x2="100.004%" y1="50.016%" y2="50.016%">
+      <stop offset="0%" stop-color="#BEBC31"/>
+      <stop offset="47%" stop-color="#DFD61F"/>
+      <stop offset="100%" stop-color="#FCE900"/>
+    </linearGradient>
+    <linearGradient id="panoply-h" x1="-.002%" x2="100.02%" y1="50.015%" y2="50.015%">
+      <stop offset="0%" stop-color="#DE0B80"/>
+      <stop offset="50%" stop-color="#E95B4D"/>
+      <stop offset="100%" stop-color="#FDCE07"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" transform="translate(6 3)">
+    <path fill="url(#panoply-a)" d="M1.16319997,8.12328269 L6.64285283,13.634758 L10.0413587,10.2646839 L3.90302639,4.06515185 C2.74683366,5.23765679 1.81487224,6.61377037 1.14918551,8.12328269"/>
+    <path fill="url(#panoply-b)" d="M0.0630650585,13.4592334 C0.0630650585,15.375963 0.469484324,17.2716296 1.26130117,19.0128346 L6.64285283,13.634758 L1.16319997,8.12328269 C0.434448181,9.80831978 0.0560578298,11.6267555 0.0630650585,13.4592334"/>
+    <path fill="url(#panoply-c)" d="M0.0630650585,0.0140419753 L8.56984075,10.0049074 L8.68195636,10.0049074 L8.32458773,2.82945802 C6.43263596,2.81541605 4.63177819,1.15846296 2.99909389,0.428280247 C2.55063125,0.259776543 2.06713247,0.21062963 1.59764815,0.294881481 C1.05809154,0.35807037 0.54656384,0.407217284 0.0630650585,0.0140419753 Z" transform="translate(4.975 23.871)"/>
+    <path fill="url(#panoply-d)" d="M1.26130117,19.0128346 C2.62070354,21.9827124 5.01016854,24.3558062 7.98824076,25.6897938 L13.2997201,20.3257593 L6.64285283,13.627737 L1.26130117,19.0128346 Z"/>
+    <path fill="url(#panoply-e)" d="M7.97422627,25.6897938 C11.3867467,27.2133482 15.2757586,27.2414321 18.7093007,25.7670247 L13.2927129,20.3257593 L7.97422627,25.6897938 Z"/>
+    <path fill="url(#panoply-f)" d="M13.2857056,20.3257593 L18.688279,25.7810667 C21.6873729,24.4892049 24.111874,22.1441951 25.5133198,19.1883592 L19.9285585,13.5575272 L13.2857056,20.3257593 Z"/>
+    <path fill="url(#panoply-g)" d="M19.9285585,13.5505062 L25.5133198,19.1813383 C26.3541872,17.3909864 26.7886354,15.4391518 26.7956426,13.4592334 C26.8026499,11.5144197 26.3752089,9.58364815 25.5553631,7.82138022 L19.9285585,13.5505062 Z"/>
+    <path fill="url(#panoply-h)" d="M19.9215513,13.5505062 L25.5483559,7.82138022 C22.4371464,1.10931605 14.4769345,-1.80439383 7.77802389,1.31292469 C7.78269536,1.31760535 11.8305378,5.39679918 19.9215513,13.5505062 Z"/>
+  </g>
+</svg>

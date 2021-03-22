@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><g fill="none" fill-rule="evenodd"><path fill="#1B2E5B" d="M8.25 3H21v15h-1v4h1v1H8.5A3.5 3.5 0 015 19.5V6.25A3.25 3.25 0 018.25 3z"/><path fill="#FFF" d="M15 4h4v6l-2-.667L15 10z"/><path fill="#FFF" stroke="#1B2E5B" d="M20.5 17.5H8.014l-.161.004A2.5 2.5 0 008 22.5h11.75-.25v-5h1z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g fill="none" fill-rule="evenodd" transform="translate(5 3)">
+    <path fill="#1B2E5B" d="M3.25,0 L16,0 L16,0 L16,15 L15,15 L15,19 L16,19 L16,20 L3.5,20 C1.56700338,20 2.36723813e-16,18.4329966 0,16.5 L0,3.25 C-2.19814969e-16,1.45507456 1.45507456,3.29722454e-16 3.25,0 Z"/>
+    <polygon fill="#FFF" points="10 1 14 1 14 7 12 6.333 10 7"/>
+    <path fill="#FFF" stroke="#1B2E5B" d="M15.5,14.499992 L3.01443946,14.4997915 L2.85264937,14.5042555 C1.5354592,14.5805753 0.5,15.6740639 0.5,17 C0.5,18.3807119 1.61928813,19.5 3,19.5 L14.75,19.5 L14.5,19.5 L14.5,14.5 L15.5,14.5 Z"/>
+  </g>
+</svg>
