@@ -1,10 +1,7 @@
 const gulp             = require('gulp'),
       del              = require('del'),
       rename           = require('gulp-rename'),
-      imagemin         = require('gulp-imagemin'),
-      imageminPngquant = require('imagemin-pngquant'),
       csso             = require('gulp-csso'),
-      newer            = require('gulp-newer'),
       terser           = require('gulp-terser'),
       concat           = require('gulp-concat');
 
@@ -12,10 +9,6 @@ const paths = {
   css: {
     src : 'assets/dev/stylesheets/**/*.css',
     dest: 'assets/dist/stylesheets/'
-  },
-  images: {
-    src : 'assets/dev/images/**/*',
-    dest: 'assets/dist/images/'
   },
   scripts: {
     src : 'assets/dev/scripts/**/*.js',
@@ -101,13 +94,11 @@ function concatScripts() {
 function watch() {
   gulp.watch(paths.css.src, buildStyles);
   gulp.watch(paths.scripts.src, gulp.series(uglifyVendorScripts, concatScripts));
-  gulp.watch('assets/dev/images/**/*', images);
 }
 
 const js    = gulp.series(uglifyVendorScripts, concatScripts);
-const build = gulp.series(clean, gulp.parallel(buildStyles, images, js, watch));
+const build = gulp.series(clean, gulp.parallel(buildStyles, js, watch));
 
 exports.clean   = clean;
-exports.images  = images;
 exports.scripts = js;
 exports.default = build;
