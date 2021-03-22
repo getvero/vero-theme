@@ -18,7 +18,7 @@ const paths = {
 
 // Clean dist folder
 function clean() {
-  return del('assets/dist/');
+  return del([paths.css.dest, paths.scripts.dest]);
 }
 
 function images() {
