@@ -1,1 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100"><defs><filter id="a" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="c" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="f" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.05859375 0"/></filter><filter id="g" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="i" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="k" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="m" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><filter id="p" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.05859375 0"/></filter><filter id="r" width="156.2%" height="156.2%" x="-28.1%" y="-21.9%" filterUnits="objectBoundingBox"><feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/><feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843 0 0 0 0 0.258823529 0 0 0 0 0.329411765 0 0 0 0.1 0"/></filter><rect id="b" width="18" height="18" x="0" y="0" rx="4"/><rect id="d" width="18" height="18" x="0" y="0" rx="4"/><rect id="e" width="14" height="14" x="2" y="2" rx="2"/><rect id="h" width="18" height="18" x="0" y="0" rx="4"/><rect id="j" width="18" height="18" x="0" y="0" rx="4"/><rect id="l" width="18" height="18" x="0" y="0" rx="4"/><rect id="n" width="18" height="18" x="0" y="0" rx="4"/><rect id="o" width="14" height="14" x="2" y="2" rx="2"/><circle id="q" cx="57" cy="38" r="24"/></defs><g fill="none" fill-rule="evenodd" transform="translate(43 12)"><g transform="matrix(-1 0 0 1 116 0)"><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h28.326a2 2 0 012 2v11h0"/><use fill="#000" filter="url(#a)" xlink:href="#b"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/><path fill="#1B2E5B" fill-opacity=".2" d="M12.354 11.301c-1.327-.306-2.562-.575-1.964-1.704 1.82-3.437.483-5.275-1.44-5.275-1.96 0-3.265 1.909-1.44 5.275.616 1.136-.665 1.404-1.963 1.705-1.073.247-1.211.753-1.225 1.61a.663.663 0 00.666.666h7.924a.663.663 0 00.666-.666c-.013-.857-.152-1.363-1.224-1.611z"/></g><g transform="rotate(180 58 37.5)"><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h26.326a4 4 0 014 4v9h0"/><use fill="#000" filter="url(#c)" xlink:href="#d"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/><g transform="matrix(1 0 0 -1 0 18)"><use fill="#1B2E5B" fill-opacity=".102" xlink:href="#e"/><use fill="#000" filter="url(#f)" xlink:href="#e"/></g></g><g transform="rotate(180 58 23.5)"><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h25.326"/><use fill="#000" filter="url(#g)" xlink:href="#h"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/></g><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h26.326a2 2 0 012 2v11h0"/><use fill="#000" filter="url(#i)" xlink:href="#j"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/><path fill="#1B2E5B" fill-opacity=".2" d="M12.354 11.301c-1.327-.306-2.562-.575-1.964-1.704 1.82-3.437.483-5.275-1.44-5.275-1.96 0-3.265 1.909-1.44 5.275.616 1.136-.665 1.404-1.963 1.705-1.073.247-1.211.753-1.225 1.61a.663.663 0 00.666.666h7.924a.663.663 0 00.666-.666c-.013-.857-.152-1.363-1.224-1.611z"/><g transform="matrix(1 0 0 -1 0 75)"><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h24.326a4 4 0 014 4v9h0"/><use fill="#000" filter="url(#k)" xlink:href="#l"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/></g><g transform="matrix(1 0 0 -1 0 47)"><path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18 9.4h25.326"/><use fill="#000" filter="url(#m)" xlink:href="#n"/><rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/><g transform="matrix(1 0 0 -1 0 18)"><use fill="#1B2E5B" fill-opacity=".102" xlink:href="#o"/><use fill="#000" filter="url(#p)" xlink:href="#o"/></g></g><mask id="s" fill="#fff"><use xlink:href="#q"/></mask><use fill="#000" filter="url(#r)" xlink:href="#q"/><circle cx="57" cy="38" r="23" fill="#1B2E5B" stroke="#49587C" stroke-linejoin="square" stroke-width="2"/><g fill="#FFF" mask="url(#s)"><g transform="translate(47 42)"><circle cx="1" cy="1" r="1"/><circle cx="5" cy="1" r="1"/><circle cx="9" cy="1" r="1"/><circle cx="13" cy="1" r="1"/><rect width="4" height="2" x="16" rx="1"/></g></g><g fill="#FFF" mask="url(#s)"><g transform="translate(47 47)"><circle cx="1" cy="1" r="1"/><circle cx="5" cy="1" r="1"/><circle cx="13" cy="1" r="1"/></g></g><g fill="#FFF" mask="url(#s)"><g transform="translate(47 27)"><circle cx="1" cy="1" r="1"/><circle cx="5" cy="1" r="1"/><rect width="4" height="2" x="8" rx="1"/><circle cx="15" cy="1" r="1"/></g></g><g fill="#FFF" mask="url(#s)"><g transform="translate(51 37)"><circle cx="1" cy="1" r="1"/><rect width="4" height="2" x="4" rx="1"/><circle cx="11" cy="1" r="1"/><circle cx="15" cy="1" r="1"/><circle cx="19" cy="1" r="1"/></g></g><g fill="#FFF" mask="url(#s)"><g transform="translate(47 32)"><circle cx="1" cy="1" r="1"/><circle cx="5" cy="1" r="1"/><circle cx="9" cy="1" r="1"/><circle cx="13" cy="1" r="1"/><circle cx="17" cy="1" r="1"/><circle cx="21" cy="1" r="1"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100">
+  <defs>
+    <rect id="centralize-b" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-a" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-d" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-c" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-e" width="14" height="14" x="2" y="2" rx="2"/>
+    <filter id="centralize-f" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <rect id="centralize-h" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-g" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-j" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-i" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-l" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-k" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-n" width="18" height="18" x="0" y="0" rx="4"/>
+    <filter id="centralize-m" width="211.1%" height="211.1%" x="-55.6%" y="-44.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="centralize-o" width="14" height="14" x="2" y="2" rx="2"/>
+    <filter id="centralize-p" width="107.1%" height="107.1%" x="-3.6%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.05859375 0"/>
+    </filter>
+    <circle id="centralize-q" cx="57" cy="38" r="24"/>
+    <filter id="centralize-r" width="156.2%" height="156.2%" x="-28.1%" y="-21.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.219607843   0 0 0 0 0.258823529   0 0 0 0 0.329411765  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(43 12)">
+    <g transform="matrix(-1 0 0 1 116 0)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L46.3262153,9.4 C47.4307848,9.4 48.3262153,10.2954305 48.3262153,11.4 L48.3262153,22.4 L48.3262153,22.4"/>
+      <use fill="#000" filter="url(#centralize-a)" xlink:href="#centralize-b"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <path fill="#1B2E5B" fill-opacity=".2" d="M9.35369781,8.30102728 C8.02702082,7.99452738 6.79191539,7.72609279 7.39021586,6.5968631 C9.21054011,3.16010935 7.87275605,1.32222222 5.95024682,1.32222222 C3.98960334,1.32222222 2.68514048,3.23104924 4.51027778,6.59735746 C5.12634956,7.73289016 3.8449647,8.00132476 2.54679583,8.30152164 C1.47410035,8.54919334 1.33575571,9.05516535 1.32230382,9.91163484 C1.31650346,10.2794347 1.62071358,10.5777778 1.98811055,10.5777778 L9.91151921,10.5777778 C10.2792864,10.5777778 10.5834965,10.2789404 10.5776962,9.91163484 C10.5647379,9.054671 10.4263933,8.54869898 9.35369781,8.30102728 L9.35369781,8.30102728 Z" transform="translate(3 3)"/>
+    </g>
+    <g transform="rotate(180 58 37.5)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L44.3262153,9.4 C46.5353543,9.4 48.3262153,11.190861 48.3262153,13.4 L48.3262153,22.4 L48.3262153,22.4"/>
+      <use fill="#000" filter="url(#centralize-c)" xlink:href="#centralize-d"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#centralize-e"/>
+        <use fill="#000" filter="url(#centralize-f)" xlink:href="#centralize-e"/>
+      </g>
+    </g>
+    <g transform="rotate(180 58 23.5)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L43.3262153,9.4"/>
+      <use fill="#000" filter="url(#centralize-g)" xlink:href="#centralize-h"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    </g>
+    <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L44.3262153,9.4 C45.4307848,9.4 46.3262153,10.2954305 46.3262153,11.4 L46.3262153,22.4 L46.3262153,22.4"/>
+    <use fill="#000" filter="url(#centralize-i)" xlink:href="#centralize-j"/>
+    <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    <path fill="#1B2E5B" fill-opacity=".2" d="M9.35369781,8.30102728 C8.02702082,7.99452738 6.79191539,7.72609279 7.39021586,6.5968631 C9.21054011,3.16010935 7.87275605,1.32222222 5.95024682,1.32222222 C3.98960334,1.32222222 2.68514048,3.23104924 4.51027778,6.59735746 C5.12634956,7.73289016 3.8449647,8.00132476 2.54679583,8.30152164 C1.47410035,8.54919334 1.33575571,9.05516535 1.32230382,9.91163484 C1.31650346,10.2794347 1.62071358,10.5777778 1.98811055,10.5777778 L9.91151921,10.5777778 C10.2792864,10.5777778 10.5834965,10.2789404 10.5776962,9.91163484 C10.5647379,9.054671 10.4263933,8.54869898 9.35369781,8.30102728 L9.35369781,8.30102728 Z" transform="translate(3 3)"/>
+    <g transform="matrix(1 0 0 -1 0 75)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L42.3262153,9.4 C44.5353543,9.4 46.3262153,11.190861 46.3262153,13.4 L46.3262153,22.4 L46.3262153,22.4"/>
+      <use fill="#000" filter="url(#centralize-k)" xlink:href="#centralize-l"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+    </g>
+    <g transform="matrix(1 0 0 -1 0 47)">
+      <path stroke="#9D9D9D" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round" d="M18,9.4 L43.3262153,9.4"/>
+      <use fill="#000" filter="url(#centralize-m)" xlink:href="#centralize-n"/>
+      <rect width="17" height="17" x=".5" y=".5" fill="#FFF" stroke="#E1E1E1" stroke-linejoin="square" rx="4"/>
+      <g transform="matrix(1 0 0 -1 0 18)">
+        <use fill="#1B2E5B" fill-opacity=".102" xlink:href="#centralize-o"/>
+        <use fill="#000" filter="url(#centralize-p)" xlink:href="#centralize-o"/>
+      </g>
+    </g>
+    <mask id="centralize-s" fill="#fff">
+      <use xlink:href="#centralize-q"/>
+    </mask>
+    <use fill="#000" filter="url(#centralize-r)" xlink:href="#centralize-q"/>
+    <circle cx="57" cy="38" r="23" fill="#1B2E5B" stroke="#49587C" stroke-linejoin="square" stroke-width="2"/>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 42)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="9" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+        <rect width="4" height="2" x="16" rx="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 47)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 27)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <rect width="4" height="2" x="8" rx="1"/>
+        <circle cx="15" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(51 37)">
+        <circle cx="1" cy="1" r="1"/>
+        <rect width="4" height="2" x="4" rx="1"/>
+        <circle cx="11" cy="1" r="1"/>
+        <circle cx="15" cy="1" r="1"/>
+        <circle cx="19" cy="1" r="1"/>
+      </g>
+    </g>
+    <g fill="#FFF" mask="url(#centralize-s)">
+      <g transform="translate(47 32)">
+        <circle cx="1" cy="1" r="1"/>
+        <circle cx="5" cy="1" r="1"/>
+        <circle cx="9" cy="1" r="1"/>
+        <circle cx="13" cy="1" r="1"/>
+        <circle cx="17" cy="1" r="1"/>
+        <circle cx="21" cy="1" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
