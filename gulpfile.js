@@ -101,4 +101,4 @@ const build = gulp.series(clean, gulp.parallel(buildStyles, js, watch));
 
 exports.clean   = clean;
 exports.scripts = js;
-exports.default = build;
+exports.dev     = build;
