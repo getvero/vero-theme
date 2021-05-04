@@ -41,7 +41,6 @@ function add_js() {
   wp_register_script('noui-slider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js', NULL, NULL, true);
   wp_register_script('wnumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js', NULL, NULL, true);
   wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
-  wp_register_script('lax', '//cdn.jsdelivr.net/npm/lax.js', NULL, NULL, true);
   wp_register_script('jquery-validate', '//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js', NULL, NULL, true);
 
   wp_enqueue_script('fout');
@@ -55,10 +54,6 @@ function add_js() {
   if ( is_page('pricing') ) {
     wp_enqueue_script('noui-slider');
     wp_enqueue_script('wnumb');
-  }
-
-  if ( is_page('drag-and-drop') ) {
-    wp_enqueue_script('lax');
   }
 
   if ( is_page('workflows') ) {
