@@ -33,6 +33,17 @@ function genesischild_theme_setup() {
   remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
   remove_action( 'genesis_sidebar_alt', 'genesis_do_sidebar_alt' );
 
+  # Handle Netlify proxy
+  add_filter('redirect_canonical','netlify_redirect',10,2);
+  function netlify_redirect($redirect_url, $requested_url) {
+	$netlify_header = strtolower($_SERVER['HTTP_X_VERO_NETLIFY']);
+	if( $netlify_header == "true" ) {
+		return $requested_url;
+	} else {
+		return $redirect_url;
+	}
+  }
+
   # Conditionally load Disqus
   function filter_dsq_can_load( $script_name ) {
     if ( !is_single() && ( 'count' === $script_name || 'embed' === $script_name )) {
