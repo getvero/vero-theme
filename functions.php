@@ -37,10 +37,13 @@ function genesischild_theme_setup() {
   add_filter('redirect_canonical','netlify_redirect',10,2);
   function netlify_redirect($redirect_url, $requested_url) {
 	$netlify_header = strtolower($_SERVER['HTTP_X_VERO_NETLIFY']);
-	if( $netlify_header == "true" ) {
+  $whole_url = $_SERVER['HTTP_HOST']."".$_SERVER['REQUEST_URI']."";
+  
+  if( $netlify_header == "true" && substr($whole_url,-1) == '/' ) {
 		return $requested_url;
 	} else {
-		return $redirect_url;
+		// return $redirect_url;
+    return "https://www.getvero.com".$_SERVER['REQUEST_URI']."/";
 	}
   }
 
