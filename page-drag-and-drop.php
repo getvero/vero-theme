@@ -70,14 +70,14 @@
           <img class="d-inline-block responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-1@2x.png 2x" alt="Vero's drag and drop editor main screen">
         </div>
         <div class="drag-and-drop-hero-img drag-and-drop-hero-img--4 absolute">
-          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
+          <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/color.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/color@2x.png 2x" alt="">
         </div>
       </li>
       <li class="drag-and-drop-hero-img drag-and-drop-hero-img--2 absolute z-1">
         <img class="responsive-image align-middle border border-radius-3 shadow-1" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/hero-2@2x.png 2x" alt="Image pane">
       </li>
       <li class="drag-and-drop-hero-img drag-and-drop-hero-img--3 absolute z-5">
-        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/two-columns.png" srcset="/wp-content/themes/vero/assets/dev/images/landing-pages/drag-and-drop/two-columns.png 2x" alt="">
+        <img class="responsive-image align-middle" src="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/two-columns.png" srcset="/wp-content/themes/vero/assets/dist/images/landing-pages/drag-and-drop/two-columns.png 2x" alt="">
       </li>
     </ul>
   </div>
