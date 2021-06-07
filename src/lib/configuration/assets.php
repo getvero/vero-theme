@@ -8,13 +8,11 @@ function remove_cssjs_ver( $src ) {
 
 // Load various stylesheets based on environment
 function custom_load_custom_style_sheet() {
-  // Register styles
-  wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
-
+  // Register stylesheet from vero-styles and enqueue it
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
-  } else if($_SERVER["HTTP_HOST"] == "getvero.staging.wpengine.com" || $_SERVER["HTTP_HOST"] == "veropublic.staging.wpengine.com" ) {
+  } else if($_SERVER["HTTP_HOST"] == "verostagnetl.wpengine.com") {
     $base_url = "https://s3.amazonaws.com/static-getvero-com/staging";
     $suffix   = "css";
   } else {
@@ -23,6 +21,8 @@ function custom_load_custom_style_sheet() {
   }
   wp_enqueue_style( 'custom-stylesheet', $base_url."/app.".$suffix, array() );
 
+  // Register Google Font
+  wp_register_style('googlefont_merriweather', 'https://fonts.googleapis.com/css?family=Merriweather:700&display=swap');
   if ( is_page( array( 'capterra', 'data-management', 'customer-engagement', 'vero-segment', 'vero-stitch', 'careers', 'case-studies/plann', 'case-studies/when-i-work' ) ) ) {
     wp_enqueue_style( 'googlefont_merriweather');
   }
