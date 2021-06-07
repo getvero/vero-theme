@@ -66,11 +66,7 @@ function change_home_loop() {
 function custom_home_loop() {
   ?>
     <div class="resources-section resources-section--secondary">
-<<<<<<< HEAD
       <h2 class="semi-bold micro">Latest Posts</h2>
-=======
-      <h2 class="semi-bold micro"><?php echo $_SERVER["HTTP_HOST"]; ?>Latest Posts</h2>
->>>>>>> 3290c81f58db3e70e5e8f24839d19baa644b9cd0
 
       <div class="grid grid--resources">
         <?php
