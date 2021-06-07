@@ -12,7 +12,7 @@ function custom_load_custom_style_sheet() {
   if($_SERVER["HTTP_HOST"] == "localhost:8888"){
     $base_url = "http://0.0.0.0:9000";
     $suffix   = "css";
-  } else if($_SERVER["HTTP_HOST"] == "resources-staging.getvero.com") {
+  } else if($_SERVER["HTTP_HOST"] == "resources-staging.getvero.com" || $_SERVER["HTTP_HOST"] == "www-staging.getvero.com") {
     $base_url = "https://s3.amazonaws.com/static-getvero-com/staging";
     $suffix   = "css";
   } else {
