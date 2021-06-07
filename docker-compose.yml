@@ -2,8 +2,6 @@ version: '2'
 services:
   db:
     image: mysql:5.7
-    volumes:
-      - "./.data/db:/var/lib/mysql"
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
@@ -11,12 +9,13 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
     volumes:
-      - ./.data/db_dump:/docker-entrypoint-initdb.d
+      - ./.data/db_persistence:/var/lib/mysql
+      - ./.data/db_seed:/docker-entrypoint-initdb.d
 
   wordpress:
+    image: wordpress:latest
     depends_on:
       - db
-    image: wordpress:latest
     links:
       - db
     ports:
