@@ -1,4 +1,4 @@
-### Local deployment
+## Local deployment
 
 You will need Docker and `docker-compose` installed on your machine.
 
@@ -12,6 +12,16 @@ docker-compose up -d
 
 **Running our CSS styles**
 To see the styles when running locally you will also need to be running the `vero-styles` repository.
+
+## Compiling JS and CSS in this repository
+
+Make sure you've got `node` and `npm` installed. If you do, you can then run these different methods using `gulp`:
+
+```
+npx gulp clean
+npx gulp scripts
+npx gulp dev
+```
 
 ## Staging
 
