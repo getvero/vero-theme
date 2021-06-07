@@ -1,4 +1,4 @@
 .DS_Store
 /node_modules
 .nova
-/.nova
+.data/db_persistence/*

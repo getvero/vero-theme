@@ -1,0 +1,32 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    volumes:
+      - ./.data/db_persistence:/var/lib/mysql
+      - ./.data/db_seed:/docker-entrypoint-initdb.d
+
+  wordpress:
+    image: wordpress:latest
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - "8888:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+    volumes:
+      - ./.data/genesis:/var/www/html/wp-content/themes/genesis
+      - .:/var/www/html/wp-content/themes/vero
+      - ./.data/plugins/advanced-custom-fields:/var/www/html/wp-content/plugins/advanced-custom-fields
+
