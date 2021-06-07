@@ -4,7 +4,6 @@
 include_once( 'lib/configuration/assets.php' );
 include_once( 'lib/configuration/archive.php' );
 include_once( 'lib/configuration/blog.php' );
-include_once( 'lib/configuration/release_notes.php' );
 include_once( 'lib/configuration/posts.php' );
 include_once( 'lib/configuration/search.php' );
 include_once( 'lib/configuration/global.php' );
@@ -15,7 +14,6 @@ include_once( 'lib/configuration/footers.php' );
 # Add in custom resources and the like
 include_once( 'lib/post_types/guides.php' );         // Guides pages
 include_once( 'lib/post_types/tutorials.php' );      // Tutorials pages
-include_once( 'lib/post_types/release_notes.php' );  // Release Notes
 
 add_action('genesis_setup','genesischild_theme_setup', 15);
 
@@ -63,7 +61,6 @@ function genesischild_theme_setup() {
   unregister_nav_menu( 'header-right' );
 
   # Add custom types
-  add_action( 'init', 'create_release_notes_post_type' );
   add_action( 'init', 'create_guides_post_type' );
   add_action( 'init', 'create_tutorials_post_type' );
   add_filter( 'pre_get_posts', 'add_custom_types' );
@@ -191,10 +188,6 @@ function genesischild_theme_setup() {
 
   # Remove Genesis SEO Settings menu link
   remove_theme_support('genesis-seo-settings-menu');
-
-  # Customise release notes
-  add_action( 'genesis_before', 'remove_elements_release_notes' );
-  add_action( 'template_redirect', 'single_release_note_redirect' );
 
   # Customise resources home page
   add_action( 'genesis_before_loop', 'change_home_loop' );
