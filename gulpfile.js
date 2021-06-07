@@ -7,12 +7,12 @@ const gulp             = require('gulp'),
 
 const paths = {
   css: {
-    src : 'assets/dev/stylesheets/**/*.css',
-    dest: 'assets/dist/stylesheets/'
+    src : 'src/assets/dev/stylesheets/**/*.css',
+    dest: 'src/assets/dist/stylesheets/'
   },
   scripts: {
-    src : 'assets/dev/scripts/**/*.js',
-    dest: 'assets/dist/scripts/'
+    src : 'src/assets/dev/scripts/**/*.js',
+    dest: 'src/assets/dist/scripts/'
   },
 };
 
@@ -23,7 +23,7 @@ function clean() {
 
 function images() {
   return gulp
-  .src('assets/dev/images/**/*')
+  .src('src/assets/dev/images/**/*')
   // Piping the source files to newer before imagemin ensures that only those images that have changed are minified
   .pipe(newer(paths.images.dest))
   .pipe(
@@ -63,24 +63,24 @@ function buildStyles() {
 function uglifyVendorScripts() {
   return gulp
   .src([
-    'assets/dev/scripts/**/*.js', // All scripts
-    '!assets/dev/scripts/source/*', // Ignore coffeescript in /source
-    '!assets/dev/scripts/core.js', // Ignore core and landing as they only get minified when concating
-    '!assets/dev/scripts/landing.js' // Above
+    'src/assets/dev/scripts/**/*.js', // All scripts
+    '!src/assets/dev/scripts/source/*', // Ignore coffeescript in /source
+    '!src/assets/dev/scripts/core.js', // Ignore core and landing as they only get minified when concating
+    '!src/assets/dev/scripts/landing.js' // Above
   ])
   .pipe(terser())
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(gulp.dest('assets/dist/scripts'))
+  .pipe(gulp.dest('src/assets/dist/scripts'))
 }
 
 // Concat scripts
 function concatScripts() {
  return gulp
  .src([
-  'assets/dev/scripts/core.js',
-  'assets/dev/scripts/landing.js'
+  'src/assets/dev/scripts/core.js',
+  'src/assets/dev/scripts/landing.js'
   ])
   .pipe(terser())
   .pipe(concat('main.js'))
