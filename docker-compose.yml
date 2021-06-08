@@ -9,7 +9,7 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
     volumes:
-      - ./.data/db_persistence:/var/lib/mysql
+      # - ./.data/db_persistence:/var/lib/mysql
       - ./.data/db_seed:/docker-entrypoint-initdb.d
 
   wordpress:
@@ -23,6 +23,7 @@ services:
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
     volumes:
