@@ -29,6 +29,6 @@ services:
     volumes:
       - ./.data/genesis:/var/www/html/wp-content/themes/genesis
       - ./.data/uploads_persistence:/var/www/html/wp-content/uploads
-      - .:/var/www/html/wp-content/themes/vero
+      - ./src:/var/www/html/wp-content/themes/vero
       - ./.data/plugins/advanced-custom-fields:/var/www/html/wp-content/plugins/advanced-custom-fields
 
