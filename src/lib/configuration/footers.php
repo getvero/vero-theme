@@ -140,27 +140,26 @@
       <section class="resources-cta bg-gray-lighter overflow-hidden">
         <div class="inner blog-inner flex flex-wrap">
           <div class="col-main stack-md md-horizontal-margin-lg">
-            <h4 class="chunk semi-bold">Vero helps marketing and engineering teams scale personalized customer messaging</h4>
+            <h4 class="chunk semi-bold">Send newsletters to your customers using <em>your data</em>.</h4>
+            <p>Not another marketing data store, Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your messaging.</p>
 
             <form class="js-signup-form track-signup-form home-signup-form stack-xs"
               element-position="bottom"
-              action="https://formkeep.com/f/5401a0ae5cb8"
+              action="https://formkeep.com/f/950bb5e6549f"
               accept-charset="UTF-8"
               enctype="multipart/form-data"
               method="POST">
 
               <div class="flex flex-column sm-flex-row">
-                <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your email address">
+                <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your business email address">
 
-                <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Start a free trial">
+                <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get your free account">
               </div>
 
               <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
 
-              <span class="d-inline-block annotation font-gray-dark">Free for 30 days. No credit card details required</span>
+              <span class="d-inline-block annotation font-gray-dark">Send 20,000 messages per month for free.</span>
             </form>
-
-            <p class="medium">See Vero in action: <a class="underline-link regular track-contact-us" href="/demo/" element-position="bottom">Schedule a demo</a></p>
           </div>
           <div class="col-aside left-margin-auto center-text relative">
             <img class="align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/resources/workflows.png" srcset="/wp-content/themes/vero/assets/dist/images/resources/workflows@2x.png 2x" alt="Workflows">

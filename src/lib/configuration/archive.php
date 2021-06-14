@@ -53,7 +53,6 @@ function change_home_loop() {
   if ( is_home() && !is_paged() ) {
     remove_action( 'genesis_loop', 'genesis_do_loop' );
     add_action( 'genesis_loop', 'custom_home_loop' );
-    add_action( 'genesis_after_content', 'view_more_posts', 4 );
   }
 
   if ( is_category() ) {
@@ -74,7 +73,7 @@ function custom_home_loop() {
       <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
+        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?> →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -123,7 +122,10 @@ function custom_home_loop() {
     </div>
 
     <div class="resources-section resources-section--secondary">
-      <h2 class="semi-bold micro">Latest Posts</h2>
+      <div class="flex items-baseline">
+        <h2 class="semi-bold micro">Latest Posts</h2>
+        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts →</a>
+      </div>
 
       <div class="grid grid--resources">
         <?php
@@ -373,7 +375,7 @@ function custom_home_loop() {
       <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
-         <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?></a>
+         <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?> →</a>
       </div>
 
       <div class="grid grid--resources">
