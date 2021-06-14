@@ -66,6 +66,63 @@ function change_home_loop() {
 function custom_home_loop() {
   ?>
     <div class="resources-section resources-section--secondary">
+      <?php
+        $category = get_category_by_slug('news-updates');
+        $cat_name = $category->name;
+      ?>
+
+      <div class="flex items-baseline">
+        <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
+
+        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
+      </div>
+
+      <div class="grid grid--resources">
+        <?php
+          $custom_query = new WP_Query(array(
+            'posts_per_page' => 2,
+            'post_type'      => array('post', 'guides'),
+            'tag'            => 'news_and_updates',
+            'no_found_rows'  => true
+          ));
+
+          while ( $custom_query->have_posts() ) : $custom_query->the_post();
+            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+        ?>
+
+        <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="entry-header">
+            <div class="entry-meta flex items-center bottom-margin-xs">
+              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
+            </div>
+
+            <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          </div>
+
+          <div class="entry-content">
+            <?php if ( get_field('custom_excerpt') ): ?>
+              <p><?php the_field('custom_excerpt') ?></p>
+            <?php else: ?>
+              <?php the_excerpt(); ?>
+            <?php endif ?>
+          </div>
+
+          <div class="entry-footer">
+            <?php if ( get_field('custom_read_more') ): ?>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <?php else: ?>
+              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <?php endif ?>
+          </div>
+        </article>
+
+        <?php endwhile;
+          wp_reset_postdata();
+        ?>
+      </div>
+    </div>
+
+    <div class="resources-section resources-section--secondary">
       <h2 class="semi-bold micro">Latest Posts</h2>
 
       <div class="grid grid--resources">
@@ -302,63 +359,6 @@ function custom_home_loop() {
 
           <?php endwhile;
 
-          wp_reset_postdata();
-        ?>
-      </div>
-    </div>
-
-    <div class="resources-section resources-section--secondary">
-      <?php
-        $category = get_category_by_slug('news-updates');
-        $cat_name = $category->name;
-      ?>
-
-      <div class="flex items-baseline">
-        <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
-
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?></a>
-      </div>
-
-      <div class="grid grid--resources">
-        <?php
-          $custom_query = new WP_Query(array(
-            'posts_per_page' => 2,
-            'post_type'      => array('post', 'guides'),
-            'tag'            => 'news_and_updates',
-            'no_found_rows'  => true
-          ));
-
-          while ( $custom_query->have_posts() ) : $custom_query->the_post();
-            $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-        ?>
-
-        <article class="entry" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-          <div class="entry-header">
-            <div class="entry-meta flex items-center bottom-margin-xs">
-              <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
-            </div>
-
-            <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          </div>
-
-          <div class="entry-content">
-            <?php if ( get_field('custom_excerpt') ): ?>
-              <p><?php the_field('custom_excerpt') ?></p>
-            <?php else: ?>
-              <?php the_excerpt(); ?>
-            <?php endif ?>
-          </div>
-
-          <div class="entry-footer">
-            <?php if ( get_field('custom_read_more') ): ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
-            <?php else: ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
-            <?php endif ?>
-          </div>
-        </article>
-
-        <?php endwhile;
           wp_reset_postdata();
         ?>
       </div>

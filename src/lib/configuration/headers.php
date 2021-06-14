@@ -70,16 +70,16 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
     <ul class="menu resources-categories flex <?php if ( is_blog_post_or_guide_or_tutorial() ) { ?>lg-hide<? } ?>">
       <li>
-        <a class="unstyled" href="/resources/category/news-updates">News &amp; Updates</a>
+        <a class="unstyled" href="/resources/category/news-updates">News and Updates</a>
       </li>
       <li>
-        <a class="unstyled" href="/resources/category/messaging-automation">Messaging &amp; Automation</a>
+        <a class="unstyled" href="/resources/category/messaging-automation">Messaging and Automation</a>
       </li>
       <li>
         <a class="unstyled" href="/resources/category/data-management">Data Management</a>
       </li>
       <li>
-        <a class="unstyled" href="/resources/category/tutorials">Tutorials <sup class="pill pill--primary pill--small left-margin-xxs">New</sup></a>
+        <a class="unstyled" href="/resources/category/tutorials">Tutorials</a>
       </li>
     </ul>
 
