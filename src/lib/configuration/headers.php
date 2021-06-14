@@ -2,6 +2,9 @@
 
 function add_classes_to_navbar( $args) {
   $classes = ' menu resources-categories flex'; 
+  if(is_blog_post_or_guide_or_tutorial()){
+    $classes .= ' lg-hide'; 
+  }
   $args['menu_class'] .= $classes;
   return $args;
 }
@@ -66,7 +69,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     </div>
 
     <a class="btn btn--success hide lg-show track-start-trial" banner-name="Start a free trial" element-position="nav" href="https://app.getvero.com/signup?from=blog_header">Start a free trial</a>
-  </div>
   <?php $search_and_cta = ob_get_clean();
 
   // Get hamburger for mobile
@@ -87,7 +89,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   </div>
   <?php $category_toggle = ob_get_clean();
 
-  return $logo . $menu . $responsive_toggle . $search_and_cta;
+  return $logo . '<div class="js-resources-menu resources-menu flex">' . $menu . $search_and_cta . '</div>' . $category_toggle;
 }
 
 // Add description to submenu
