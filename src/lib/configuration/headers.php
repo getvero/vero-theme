@@ -68,7 +68,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <?php get_search_form(); ?>
     </div>
 
-    <a class="btn btn--success hide lg-show track-start-trial" banner-name="Start a free trial" element-position="nav" href="https://app.getvero.com/signup?from=blog_header">Start a free trial</a>
+    <a class="btn btn--success hide lg-show track-start-trial" banner-name="Get your free account" element-position="nav" href="https://newsletters.getvero.com/signup?from=blog_header">Get your free account</a>
   <?php $search_and_cta = ob_get_clean();
 
   // Get hamburger for mobile
