@@ -8,7 +8,6 @@ include_once( 'lib/configuration/posts.php' );
 include_once( 'lib/configuration/search.php' );
 include_once( 'lib/configuration/global.php' );
 include_once( 'lib/configuration/headers.php' );
-include_once( 'lib/configuration/tracking.php' );
 include_once( 'lib/configuration/footers.php' );
 
 # Add in custom resources and the like
@@ -89,7 +88,7 @@ function genesischild_theme_setup() {
   add_action( 'genesis_after_content_sidebar_wrap', 'blog_cta' );
   add_action( 'genesis_footer', 'custom_footer' );
   add_filter( 'wp_nav_menu', 'add_logo_and_menu_toggle_to_navbar', 10, 2 );
-  add_filter( 'wp_nav_menu_args', 'add_classes_to_navbar' ); 
+  add_filter( 'wp_nav_menu_args', 'add_classes_to_navbar' );
 
   // add_action( 'genesis_after_header', 'add_categories_and_search' );
   add_action( 'genesis_before_content', 'add_latest_title' );
