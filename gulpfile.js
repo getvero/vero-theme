@@ -21,32 +21,6 @@ function clean() {
   return del([paths.css.dest, paths.scripts.dest]);
 }
 
-function images() {
-  return gulp
-  .src('src/assets/dev/images/**/*')
-  // Piping the source files to newer before imagemin ensures that only those images that have changed are minified
-  .pipe(newer(paths.images.dest))
-  .pipe(
-    imagemin([
-      imagemin.gifsicle({ interlaced: true }),
-      imagemin.jpegtran({ progressive: true }),
-      imageminPngquant({
-        speed: 1,
-        quality: [0.7, 0.8] //lossy settings
-      }),
-      imagemin.svgo({
-        plugins: [
-          {
-            removeViewBox: false,
-            collapseGroups: true
-          }
-        ]
-      })
-    ])
-  )
-  .pipe(gulp.dest(paths.images.dest));
-}
-
 function buildStyles() {
   return gulp
   .src(paths.css.src)
