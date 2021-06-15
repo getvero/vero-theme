@@ -1,10 +1,7 @@
 <?php
 
 function add_classes_to_navbar( $args) {
-  $classes = ' menu resources-categories flex'; 
-  if(is_blog_post_or_guide_or_tutorial()){
-    $classes .= ' lg-hide'; 
-  }
+  $classes = ' menu resources-categories flex';
   $args['menu_class'] .= $classes;
   return $args;
 }
@@ -13,7 +10,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   $args = (array)$args;
   $useragent=$_SERVER['HTTP_USER_AGENT'];
 
-  // Start capturing the logo 
+  // Start capturing the logo
   ob_start();
   ?>
   <div id="logo">
@@ -38,8 +35,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   <?php $logo = ob_get_clean();
 
   // Start capturing the breadcrumb
-  ob_start();
-  ?>
+  ob_start(); ?>
   <div class="js-resources-menu resources-menu flex">
     <?php if ( is_blog_post_or_guide_or_tutorial() ): ?>
       <ul class="menu resources-categories resources-categories-single">
@@ -78,7 +74,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <svg class="align-middle" width="64" height="32" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M25 21a1 1 0 010 2H7a1 1 0 010-2h18zm0-6a1 1 0 010 2H7a1 1 0 010-2h18zm0-6a1 1 0 010 2H7a1 1 0 010-2h18z" fill="#9D9D9D"/><g><path fill="none" d="M32 0h32v32H32z"/><path d="M55.071 8.929a1 1 0 010 1.414L49.414 16l5.657 5.657a1 1 0 01-1.414 1.414L48 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L46.586 16l-5.657-5.657a1 1 0 011.414-1.414L48 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></g></svg>
   </label>
   <?php $responsive_toggle = ob_get_clean();
-  
+
   // Hide buttons for search and hamburger
   ob_start(); ?>
   <label class="search-toggle search-toggle-open left-margin-auto lg-hide" for="search-form">
@@ -91,15 +87,5 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
 
   return $logo . '<div class="js-resources-menu resources-menu flex">' . $menu . $search_and_cta . '</div>' . $category_toggle;
 }
-
-// Add description to submenu
-function add_menu_description( $item_output, $item ) {
-  if ( !empty( $item->description ) ) {
-    $item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-desc annotation light">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
-  }
-
-  return $item_output;
-}
-add_filter( 'walker_nav_menu_start_el', 'add_menu_description', 10, 2 );
 
 ?>

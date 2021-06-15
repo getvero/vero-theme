@@ -94,12 +94,6 @@
     }
   }
 
-  function remove_comments() {
-    if ( !in_category('news-updates') ) {
-      remove_action( 'genesis_after_entry', 'genesis_get_comments_template' );
-    }
-  }
-
   function post_is_long() {
     $content = get_the_content();
     $length  = sizeof( explode(" ", $content) );

@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Naked Social Share\n"
+"POT-Creation-Date: 2015-06-23 17:54-0000\n"
+"PO-Revision-Date: 2015-06-23 17:54-0000\n"
+"Last-Translator: Creative Whim <support@creativewhim.com>\n"
+"Language-Team: Creative Whim <support@creativewhim.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/ng-settings.class.php:83
+msgid "Nose Graze Settings"
+msgstr ""
+
+#: admin/ng-settings.class.php:247
+msgid "Reset Tab"
+msgstr ""
+
+#: admin/ng-settings.class.php:361
+msgid "On"
+msgstr ""
+
+#: admin/ng-settings.class.php:362
+msgid "Off"
+msgstr ""
+
+#: admin/ng-settings.class.php:518
+msgid "Settings updated."
+msgstr ""
+
+#: admin/ng-settings.class.php:560
+msgid ""
+"Error: Color field not updated. You must insert a valid color into the color "
+"picker."
+msgstr ""
+
+#: admin/ng-settings.class.php:852
+msgid "Select a Category"
+msgstr ""
+
+#: admin/ng-settings.class.php:1028
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+
+#: class-naked-social-share-buttons.php:362 class-naked-social-share.php:311
+msgid "Twitter"
+msgstr ""
+
+#: class-naked-social-share-buttons.php:372 class-naked-social-share.php:314
+msgid "Facebook"
+msgstr ""
+
+#: class-naked-social-share-buttons.php:382 class-naked-social-share.php:317
+msgid "Pinterest"
+msgstr ""
+
+#: class-naked-social-share-buttons.php:392 class-naked-social-share.php:320
+msgid "StumbleUpon"
+msgstr ""
+
+#: class-naked-social-share-buttons.php:402 class-naked-social-share.php:325
+msgid "Google+"
+msgstr ""
+
+#: class-naked-social-share.php:152 class-naked-social-share.php:164
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: class-naked-social-share.php:240
+msgid "Settings"
+msgstr ""
+
+#: class-naked-social-share.php:260
+msgid "General Settings"
+msgstr ""
+
+#: class-naked-social-share.php:261
+msgid "Just a few settings for this plugin."
+msgstr ""
+
+#: class-naked-social-share.php:265
+msgid "Load Default Styles"
+msgstr ""
+
+#: class-naked-social-share.php:266
+msgid ""
+"If checked, a stylesheet will be loaded to give the buttons a few basic "
+"styles."
+msgstr ""
+
+#: class-naked-social-share.php:272
+msgid "Load Font Awesome"
+msgstr ""
+
+#: class-naked-social-share.php:273
+msgid "Font Awesome is used for the brand icons."
+msgstr ""
+
+#: class-naked-social-share.php:279
+msgid "Disable JavaScript"
+msgstr ""
+
+#: class-naked-social-share.php:280
+msgid ""
+"Some simple JavaScript is used to make the share links open in small popup "
+"windows. Disabling the JavaScript will lose that behaviour."
+msgstr ""
+
+#: class-naked-social-share.php:286
+msgid "Automatically Add Buttons"
+msgstr ""
+
+#: class-naked-social-share.php:287
+#, php-format
+msgid ""
+"Choose where you want the buttons to appear automatically. Alternatively, "
+"you can add the icons to your theme manually using this function: %s"
+msgstr ""
+
+#: class-naked-social-share.php:291
+msgid "Blog Archives"
+msgstr ""
+
+#: class-naked-social-share.php:292
+msgid "Single Posts"
+msgstr ""
+
+#: class-naked-social-share.php:293
+msgid "Pages"
+msgstr ""
+
+#: class-naked-social-share.php:298
+msgid "Twitter  Handle"
+msgstr ""
+
+#: class-naked-social-share.php:299
+msgid "Enter your Twitter handle (WITHOUT the @ sign)"
+msgstr ""
+
+#: class-naked-social-share.php:305
+msgid "Social Media Sites"
+msgstr ""
+
+#: class-naked-social-share.php:306
+msgid ""
+"Drag the sites you want to display buttons for into the \"Enabled\" column."
+msgstr ""
+
+#: class-naked-social-share.php:337
+msgid "Naked Social Share"
+msgstr ""

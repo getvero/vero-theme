@@ -1,12 +1,10 @@
 <?php
 
 function prev_link_text() {
-  $prevlink = 'Previous';
-  return $prevlink;
+  return 'Previous';
 }
 function next_link_text() {
-  $nextlink = 'Next';
-  return $nextlink;
+  return 'Next';
 }
 
 function remove_archives_entry_content() {
@@ -27,7 +25,6 @@ function custom_excerpt_text() {
   }
 }
 
-// Change excerpt length
 function custom_excerpt_length( $length ) {
   return 25;
 }
@@ -124,7 +121,7 @@ function custom_home_loop() {
     <div class="resources-section resources-section--secondary">
       <div class="flex items-baseline">
         <h2 class="semi-bold micro">Latest Posts</h2>
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts →</a>
+        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/page/2">All posts →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -451,16 +448,6 @@ function move_pagination() {
   }
 }
 
-function view_more_posts() {
-  ?>
-    <div class="resources-section resources-section--secondary center-text">
-      <div class="archive-pagination">
-        <a class="regular atomic underline-link-rev" href="/resources/page/2">View more posts</a>
-      </div>
-    </div>
-  <?php
-}
-
 function add_latest_title() {
   if ( is_home() && is_paged() ){
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
@@ -622,11 +609,6 @@ function custom_category_loop() {
 }
 
 function move_featured_image() {
-  # If this is not an archive, abort.
-  // if ( is_singular() ) {
-  //   return;
-  // }
-
   # Remove featured image from entry content.
   remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 

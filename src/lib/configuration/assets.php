@@ -1,9 +1,26 @@
 <?php
 
-function remove_cssjs_ver( $src ) {
-  if( strpos( $src, '?ver=' ) )
+function custom_favicon( $favicon_url ) {
+  return '/wp-content/themes/vero/assets/dist/images/home/favicon/64.png';
+}
+
+function defer_parsing_of_js( $url ) {
+  if ( is_user_logged_in() ) return $url; //don't break WP Admin
+  if ( FALSE === strpos( $url, '.js' ) ) return $url;
+  if ( strpos( $url, 'jquery.js' ) ) return $url;
+  return str_replace( ' src', ' defer src', $url );
+}
+
+function move_recaptcha_script() {
+  ?>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
+  <?php
+}
+
+function remove_ver_css_js( $src ) {
+  if ( strpos( $src, 'ver=' ) )
     $src = remove_query_arg( 'ver', $src );
-    return $src;
+  return $src;
 }
 
 // Load various stylesheets based on environment
