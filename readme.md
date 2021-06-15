@@ -39,3 +39,13 @@ Staging deploys are viewable at:
 [![buddy pipeline](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127924/badge.svg?token=2a3979fcf42e5530e6e3bd84a28555688ca38da468161718ddf08d0056e4ee19 "buddy pipeline")](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127924)
 
 Simply merge to master, Buddy.works will take care of the rest.
+
+## Exporting database changes
+
+If you make some important changes to the underlying database and need those reflected for other users, you will want to do this:
+
+```
+docker exec -i vero-theme_db_1 mysqldump -uwordpress -pwordpress wordpress > ./.data/db_seed/wordpress.sql
+```
+
+This will export the database into the folder that Docker uses to bootstrap new databases.
