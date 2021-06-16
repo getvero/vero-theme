@@ -64,14 +64,8 @@ function concatScripts() {
   .pipe(gulp.dest(paths.scripts.dest));
 }
 
-// Watch assets
-function watch() {
-  gulp.watch(paths.css.src, buildStyles);
-  gulp.watch(paths.scripts.src, gulp.series(uglifyVendorScripts, concatScripts));
-}
-
 const js    = gulp.series(uglifyVendorScripts, concatScripts);
-const build = gulp.series(clean, gulp.parallel(buildStyles, js, watch));
+const build = gulp.series(clean, gulp.parallel(buildStyles, js));
 
 exports.clean   = clean;
 exports.scripts = js;
