@@ -54,6 +54,7 @@ Production
 TBC
 
 ## Running specs / Percy.io
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/d4c3a9ef/www.getvero.com-resources)
 
 For now this is manual. This should only ever be run on `master` or on `develop`.
 
