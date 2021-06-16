@@ -2,3 +2,5 @@
 /node_modules
 .nova
 .data
+tests_output
+geckodriver.log
