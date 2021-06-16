@@ -2,3 +2,6 @@
 /node_modules
 .nova
 .data
+.data/db_persistence/*
+tests_output
+geckodriver.log
