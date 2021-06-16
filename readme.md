@@ -33,7 +33,7 @@ To see the styles locally, clone down the `vero-styles` directory and do the fol
 
 If you need to force the database to update you can simply do:
 
-- `docker-compose down` 
+- `docker-compose down`
 - `docker-compose up -d`
 
 ## Making changes
@@ -52,3 +52,23 @@ Deploy using Buddy:
 
 Production
 TBC
+
+## Running specs / Percy.io
+
+For now this is manual. This should only ever be run on `master` or on `develop`.
+
+The correct token is found in this project: https://percy.io/d4c3a9ef/www.getvero.com-resources
+
+When on `master` we want to run specs against `www.getvero.com`. To do so, run:
+
+```
+export PERCY_TOKEN=GET_TOKEN_FOR_PROJECT
+npx percy exec -- nightwatch tests/percy.js -e production
+```
+
+When on `develop` we want to run specs against `www-staging.getvero.com`. To do so, run:
+
+```
+export PERCY_TOKEN=GET_TOKEN_FOR_PROJECT
+npx percy exec -- nightwatch tests/percy.js -e development
+```
