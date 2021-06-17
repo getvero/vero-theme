@@ -49,27 +49,8 @@
                 <li>
                   <h4 class="semi-bold annotation uppercase faded">Product</h4>
                 </li>
-                <li><a href="/features/">Features</a></li>
-                <li><a href="/drag-and-drop/">Drag and Drop</a></li>
-                <li><a href="/push-notifications/">Push Notifications</a></li>
-                <li><a href="/workflows/">Workflows</a></li>
-                <li><a href="/event-manager/">Event Management</a></li>
-                <li><a href="/fusion/">Fusion</a></li>
-                <li><a href="/multi-language-campaigns/">Multi-language</a></li>
-                <li><a href="/reporting/">Reporting</a></li>
-                <li><a href="/pricing/">Pricing</a></li>
-              </ul>
-              <ul class="unstyled-list footer-list font-white regular stack-0">
-                <li>
-                  <h4 class="semi-bold annotation uppercase faded">Integrations</h4>
-                </li>
-                <li><a href="/integrations/">Overview</a></li>
-                <li><a href="/integrations/vero-segment/">Segment</a></li>
-                <li><a href="/integrations/vero-stitch/">Stitch</a></li>
-                <li><a href="/integrations/vero-snowplow/">Snowplow</a></li>
-                <li><a href="/integrations/vero-zapier/">Zapier</a></li>
-                <li><a href="/integrations/vero-freshpaint/">Freshpaint</a></li>
-                <li><a href="/integrations/vero-webhooks/">Webhooks</a></li>
+                <li><a href="/features/">Newsletters</a></li>
+                <li><a href="/drag-and-drop/">Workflows</a></li>
               </ul>
               <ul class="unstyled-list footer-list font-white regular stack-0">
                 <li>
@@ -89,7 +70,6 @@
                 <li>
                   <h4 class="semi-bold annotation uppercase faded">Company</h4>
                 </li>
-                <li><a href="/case-studies/plann/">Case Study</a></li>
                 <li><a href="/careers/">Careers</a></li>
                 <li><a href="/contact-us/">Contact</a></li>
                 <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
