@@ -117,35 +117,28 @@
     }
 
     ?>
-      <section class="resources-cta bg-gray-lighter overflow-hidden">
-        <div class="inner blog-inner flex flex-wrap">
-          <div class="col-main stack-md md-horizontal-margin-lg">
-            <h4 class="chunk semi-bold">Send newsletters to your customers using <em>your data</em>.</h4>
-            <p>Not another marketing data store, Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your messaging.</p>
+      <section class="bg-gray-lighter resources-cta overflow-hidden">
+        <div class="inner large-inner center-text">
+          <h4 class="chunk semi-bold bottom-margin-xs center-text">Send newsletters to your customers using your data</h4>
+          <p class="bottom-margin-md medium">Not another marketing data store, Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your messaging.</p>
 
-            <form class="js-signup-form track-signup-form home-signup-form stack-xs"
-              element-position="bottom"
-              action="https://formkeep.com/f/950bb5e6549f"
-              accept-charset="UTF-8"
-              enctype="multipart/form-data"
-              method="POST">
+          <form class="js-signup-form track-signup-form home-signup-form stack-xs"
+            element-position="bottom"
+            action="https://formkeep.com/f/950bb5e6549f"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+            method="POST">
 
-              <div class="flex flex-column sm-flex-row">
-                <input class="bg-white form-control full-width" id="user_email" type="email" name="email" placeholder="Your business email address">
+            <div class="flex flex-column sm-flex-row">
+              <input class="bg-white form-control form-control--lg full-width" id="user_email" type="email" name="email" placeholder="Your email address">
 
-                <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get your free account">
-              </div>
+              <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get free account">
+            </div>
 
-              <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
+            <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
 
-              <span class="d-inline-block annotation font-gray-dark">Send 20,000 messages per month for free.</span>
-            </form>
-          </div>
-          <div class="col-aside left-margin-auto center-text relative">
-            <img class="align-middle border border-radius-2 shadow-1" src="/wp-content/themes/vero/assets/dist/images/resources/workflows.png" srcset="/wp-content/themes/vero/assets/dist/images/resources/workflows@2x.png 2x" alt="Workflows">
-
-            <svg class="align-middle" width="167" height="92" xmlns="http://www.w3.org/2000/svg"><defs/><path d="M166 1H23.234C10.954 1 1 10.955 1 23.234c0 12.28 9.955 22.235 22.234 22.235h66C101.807 45.469 112 55.66 112 68.234S101.807 91 89.234 91H63.301h0" stroke="#01B2D0" stroke-width="2" fill="none" fill-rule="evenodd" stroke-dasharray="3,8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
+            <span class="d-inline-block annotation font-gray-dark">Send 20,000 messages per month for free.</span>
+          </form>
         </div>
       </section>
     <?php
