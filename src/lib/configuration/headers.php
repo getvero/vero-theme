@@ -66,14 +66,6 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <a class="btn btn--success hide lg-show track-start-trial" banner-name="Get your free account" element-position="nav" href="https://newsletters.getvero.com/signup?from=blog_header">Get your free account</a>
   <?php $search_and_cta = ob_get_clean();
 
-  // Get hamburger for mobile
-  ob_start(); ?>
-  <input class="nav-primary-check hide" id="nav-primary-toggle" type="checkbox">
-  <label class="nav-primary-label show lg-hide z-999 left-margin-auto" for="nav-primary-toggle">
-    <svg class="align-middle" width="64" height="32" xmlns="http://www.w3.org/2000/svg"><defs/><g fill="none" fill-rule="evenodd"><path fill="none" d="M0 0h32v32H0z"/><path d="M25 21a1 1 0 010 2H7a1 1 0 010-2h18zm0-6a1 1 0 010 2H7a1 1 0 010-2h18zm0-6a1 1 0 010 2H7a1 1 0 010-2h18z" fill="#9D9D9D"/><g><path fill="none" d="M32 0h32v32H32z"/><path d="M55.071 8.929a1 1 0 010 1.414L49.414 16l5.657 5.657a1 1 0 01-1.414 1.414L48 17.414l-5.657 5.657a1 1 0 01-1.414-1.414L46.586 16l-5.657-5.657a1 1 0 011.414-1.414L48 14.586l5.657-5.657a1 1 0 011.414 0z" fill="#9D9D9D"/></g></g></svg>
-  </label>
-  <?php $responsive_toggle = ob_get_clean();
-
   // Hide buttons for search and hamburger
   ob_start(); ?>
   <label class="search-toggle search-toggle-open left-margin-auto lg-hide" for="search-form">
