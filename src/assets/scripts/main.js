@@ -1,13 +1,13 @@
-jQuery(window).scroll(function() {
-  var header          = jQuery('.nav-primary');
-  var scroll          = jQuery(window).scrollTop();
+// jQuery(window).scroll(function() {
+//   var header          = jQuery('.nav-primary');
+//   var scroll          = jQuery(window).scrollTop();
 
-  if (scroll > 0) {
-    header.addClass('sticky');
-  } else {
-    header.removeClass('sticky');
-  }
-});
+//   if (scroll > 0) {
+//     header.addClass('sticky');
+//   } else {
+//     header.removeClass('sticky');
+//   }
+// });
 
 jQuery(document).ready(function() {
   // Responsive resources menu
