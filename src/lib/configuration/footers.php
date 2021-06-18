@@ -13,7 +13,7 @@
   function custom_footer_html() {
     ?>
     <footer class="footer">
-      <div class="inner xlarge-inner stack-md">
+      <div class="inner blog-inner stack-md">
         <div class="stack-xl">
           <div class="w-sidebar w-sidebar--md">
             <div class="col-main stack-md">
@@ -23,7 +23,7 @@
 
               <div class="stack-sm">
                 <div class="js-subscribe-form-msg">
-                  <h3 class="atomic semi-bold">Subscribe to our newsletter for insights on sending better customer communciations</h3>
+                  <h3 class="tubs semi-bold">Subscribe to our newsletter for product and industry updates</h3>
                 </div>
 
                 <form class="js-subscribe-form subscribe-form stack-sm"
@@ -47,14 +47,14 @@
             <div class="col-aside">
               <ul class="unstyled-list footer-list regular stack-0">
                 <li>
-                  <h4 class="semi-bold annotation uppercase faded">Product</h4>
+                  <h4 class="semi-bold annotation uppercase font-gray-dark">Product</h4>
                 </li>
                 <li><a href="/features/">Newsletters</a></li>
                 <li><a href="/drag-and-drop/">Workflows</a></li>
               </ul>
               <ul class="unstyled-list footer-list regular stack-0">
                 <li>
-                  <h4 class="semi-bold annotation uppercase faded">Resources</h4>
+                  <h4 class="semi-bold annotation uppercase font-gray-dark">Resources</h4>
                 </li>
                 <li><a href="/resources" target="_blank">Blog</a></li>
                 <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
@@ -68,7 +68,7 @@
               </ul>
               <ul class="unstyled-list footer-list regular stack-0">
                 <li>
-                  <h4 class="semi-bold annotation uppercase faded">Company</h4>
+                  <h4 class="semi-bold annotation uppercase font-gray-dark">Company</h4>
                 </li>
                 <li><a href="/careers/">Careers</a></li>
                 <li><a href="/contact-us/">Contact</a></li>
