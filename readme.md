@@ -15,13 +15,7 @@ To see the styles when running locally you will also need to be running the `ver
 
 ## Compiling JS and CSS in this repository
 
-Make sure you've got `node` and `npm` installed. If you do, you can then run these different methods using `gulp`:
-
-```
-npx gulp clean
-npx gulp scripts
-npx gulp dev
-```
+We use the WP plugin Autoptimize to minify our CSS/JS.
 
 ## Staging
 

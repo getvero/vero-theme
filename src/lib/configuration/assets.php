@@ -1,7 +1,7 @@
 <?php
 
 function custom_favicon( $favicon_url ) {
-  return '/wp-content/themes/vero/assets/dist/images/home/favicon/64.png';
+  return '/wp-content/themes/vero/assets/images/home/favicon/64.png';
 }
 
 function defer_parsing_of_js( $url ) {
@@ -48,36 +48,17 @@ function custom_load_custom_style_sheet() {
 // Add JS
 function add_js() {
   # Below this line is stuff that is new and clean
-  wp_register_script('main', get_stylesheet_directory_uri() . '/assets/dist/scripts/main.min.js', array('jquery'), NULL, true);
-  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/fout.min.js', array('jquery'), NULL, false);
+  wp_register_script('main', get_stylesheet_directory_uri() . '/assets/scripts/main.js', array('jquery'), NULL, true);
+  wp_register_script('fout', get_stylesheet_directory_uri() . '/assets/scripts/vendor/fout.min.js', array('jquery'), NULL, false);
   wp_register_script('webfonts', '//fast.fonts.net/jsapi/bd23cf03-685d-4ec1-b306-4adae883ab02.js', NULL, NULL, false);
-  wp_register_script('demo', get_stylesheet_directory_uri() . '/assets/dist/scripts/demo.min.js', NULL, NULL, true);
-  wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/prism.min.js', NULL, NULL, true);
-  wp_register_script('jquery-easing', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.easing.1.3.js', NULL, NULL, true);
-  wp_register_script('jquery-parallax', get_stylesheet_directory_uri() . '/assets/dist/scripts/vendor/jquery.parallax-scroll.min.js', NULL, NULL, true);
-  wp_register_script('noui-slider', '//cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js', NULL, NULL, true);
-  wp_register_script('wnumb', '//cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js', NULL, NULL, true);
-  wp_register_script('slick-carousel', '//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', NULL, NULL, true);
+  wp_register_script('prism', get_stylesheet_directory_uri() . '/assets/scripts/vendor/prism.min.js', NULL, NULL, true);
   wp_register_script('jquery-validate', '//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js', NULL, NULL, true);
 
   wp_enqueue_script('fout');
   wp_enqueue_script('webfonts');
   wp_enqueue_script('jquery-validate');
 
-  if ( is_page('demo') ) {
-    wp_enqueue_script('demo');
-  }
-
-  if ( is_page('pricing') ) {
-    wp_enqueue_script('noui-slider');
-    wp_enqueue_script('wnumb');
-  }
-
-  if ( is_page('workflows') ) {
-    wp_enqueue_script('jquery-parallax');
-  }
-
-  if ( is_page( array( 'features', 'fusion', 'multi-language-campaigns', 'vero-webhooks' ) )|| is_blog_post_or_guide_or_tutorial() ) {
+  if ( is_blog_post_or_guide_or_tutorial() ) {
     wp_enqueue_script('prism');
   }
 
