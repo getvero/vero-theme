@@ -46,17 +46,12 @@ This will export the database into the folder that Docker uses to bootstrap new 
 
 ## Nginx rewrite rules
 
-We have these installed on WPEngine:
+We have these installed on WPEngine (change `www` to `www-staging` if testing on staging):
 
 ```
-location ~ ^/(wp-admin|wp-login\.php) {
-}
+rewrite ^(?!\/wp-admin|\/wp-login)([^.]*[^\/])$ $1/ permanent;
 
-# Rewrite to include /
-rewrite ^([^.]*[^/])$ $1/ permanent;
-
-# If the header is not set then redirect
 if ($http_x_vero_proxied = "") {
-  return 301 https://www-staging.getvero.com$request_uri;
+    rewrite ^\/(?!wp-admin|wp-login|wp-json|wp-content|wp-includes)(.*) https://www.getvero.com/$1 permanent;
 }
 ```
