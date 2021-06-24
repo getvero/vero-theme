@@ -25,9 +25,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <div class="divider"></div>
 
     <?php if( is_single() ): ?>
-      <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
+      <a class="logo-resources semi-bold unstyled" href="/resources" style="margin-top: -2px">Resources</a>
     <?php else: ?>
-      <h1 class="logo-resources no-margin"><a class="semi-bold unstyled" href="/resources">Resources</a></h1>
+      <h1 class="logo-resources no-margin" style="margin-top: -2px"><a class="semi-bold unstyled" href="/resources">Resources</a></h1>
     <?php endif; ?>
 
   </div>

@@ -36,11 +36,11 @@ function add_custom_read_more_link() {
   if ( is_paged() || is_search() ) {
     if ( get_field('custom_read_more') ) {
       ?>
-      <a class="d-inline-block regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+      <a class="d-inline-block regular" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
       <?php
     } else {
       ?>
-      <a class="d-inline-block regular underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
+      <a class="d-inline-block regular" href="<?php the_permalink(); ?>">Read more</a>
       <?php
     }
   }
@@ -70,7 +70,7 @@ function custom_home_loop() {
       <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?> →</a>
+        <a class="font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?> →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -105,9 +105,9 @@ function custom_home_loop() {
 
           <div class="entry-footer">
             <?php if ( get_field('custom_read_more') ): ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <a class="semi-bold" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
             <?php endif ?>
           </div>
         </article>
@@ -121,7 +121,7 @@ function custom_home_loop() {
     <div class="resources-section resources-section--secondary">
       <div class="flex items-baseline">
         <h2 class="semi-bold micro">Latest Posts</h2>
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/page/2">All posts →</a>
+        <a class="font-gray-dark left-margin-auto" href="/resources/page/2">All posts →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -227,9 +227,9 @@ function custom_home_loop() {
 
                     <div class="entry-footer">
                       <?php if ( get_field('custom_read_more') ): ?>
-                        <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                        <a class="regular" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                       <?php else: ?>
-                        <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read more</a>
+                        <a class="regular" href="<?php the_permalink(); ?>">Read more</a>
                       <?php endif ?>
                     </div>
                   </div>
@@ -274,9 +274,9 @@ function custom_home_loop() {
 
                 <div class="entry-footer">
                   <?php if ( get_field('custom_read_more') ): ?>
-                    <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                    <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                   <?php else: ?>
-                    <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                    <a class="semi-bold" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
                   <?php endif ?>
                 </div>
               </article>
@@ -349,9 +349,9 @@ function custom_home_loop() {
 
             <div class="entry-footer">
               <?php if ( get_field('custom_read_more') ): ?>
-                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
               <?php else: ?>
-                <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <a class="semi-bold" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
               <?php endif ?>
             </div>
           </article>
@@ -372,7 +372,7 @@ function custom_home_loop() {
       <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
-         <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?> →</a>
+         <a class="font-gray-dark left-margin-auto" href="/resources/category/tutorials">All posts in <?php echo $cat_name; ?> →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -422,9 +422,9 @@ function custom_home_loop() {
 
           <div class="entry-footer">
             <?php if ( get_field('custom_read_more') ): ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+              <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
             <?php else: ?>
-              <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+              <a class="semi-bold" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
             <?php endif ?>
           </div>
         </article>
@@ -522,9 +522,9 @@ function add_featured_post_to_category() {
 
             <div class="entry-footer">
               <?php if ( get_field('custom_read_more') ): ?>
-                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                <a class="regular" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
               <?php else: ?>
-                <a class="regular underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+                <a class="regular" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
               <?php endif ?>
             </div>
           </div>
@@ -594,9 +594,9 @@ function custom_category_loop() {
 
         <div class="entry-footer">
           <?php if ( get_field('custom_read_more') ): ?>
-            <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+            <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
           <?php else: ?>
-            <a class="semi-bold underline-link-rev" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
+            <a class="semi-bold" href="<?php the_permalink(); ?>">Read&nbsp;more</a>
           <?php endif; ?>
         </div>
       </article>

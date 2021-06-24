@@ -130,9 +130,9 @@
             method="POST">
 
             <div class="flex flex-column sm-flex-row">
-              <input class="bg-white form-control form-control--lg full-width" id="user_email" type="email" name="email" placeholder="Your email address">
+              <input class="bg-white form-control form-control--lg full-width" id="user_email" type="email" name="email" placeholder="Your email address" style="border-top-right-radius:0;border-bottom-right-radius:0;">
 
-              <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get free account">
+              <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get free account" style="border-top-left-radius:0;border-bottom-left-radius:0;">
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>

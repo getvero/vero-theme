@@ -161,7 +161,7 @@
             <?php the_excerpt() ?>
           </div>
         <?php
-        echo '<a class="d-inline-block semi-bold underline-link-rev track-single-latest-posts" href="' . get_permalink() . '">Read more</a>';
+        echo '<a class="d-inline-block semi-bold track-single-latest-posts" href="' . get_permalink() . '">Read more</a>';
         echo '</div>';
       endwhile;
       echo '</div>';
