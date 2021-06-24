@@ -43,3 +43,20 @@ docker exec -i vero-theme_db_1 mysqldump -uwordpress -pwordpress wordpress > ./.
 ```
 
 This will export the database into the folder that Docker uses to bootstrap new databases.
+
+## Nginx rewrite rules
+
+We have these installed on WPEngine:
+
+```
+location ~ ^/(wp-admin|wp-login\.php) {
+}
+
+# Rewrite to include /
+rewrite ^([^.]*[^/])$ $1/ permanent;
+
+# If the header is not set then redirect
+if ($http_x_vero_proxied = "") {
+  return 301 https://www-staging.getvero.com$request_uri;
+}
+```
