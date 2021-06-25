@@ -174,6 +174,11 @@ function genesischild_theme_setup() {
   # Related posts
   add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
 
+  # Add the title to categories pages
+  add_action( 'genesis_before_content', 'add_latest_title' );
+
+  # Add a banner to the tutorials page
+  add_action( 'genesis_before_content', 'add_banner_to_tutorials' );
 
   // ------ Customise the search page
 
@@ -200,10 +205,8 @@ function genesischild_theme_setup() {
   }
 
 
+  // ------ Not yet categorised
 
-
-
-  add_action( 'genesis_before_content', 'add_latest_title' );
   add_action ( 'genesis_after_entry', 'move_pagination' );
 }
 
