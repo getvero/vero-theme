@@ -49,9 +49,9 @@ This will export the database into the folder that Docker uses to bootstrap new 
 We have these installed on WPEngine (change `www` to `www-staging` if testing on staging):
 
 ```
-rewrite ^(?!\/wp-admin|\/wp-login)([^.]*[^\/])$ $1/ permanent;
+rewrite ^(?!\/wp-admin|\/wp-login|\/search)([^.]*[^\/])$ $1/ permanent;
 
 if ($http_x_vero_proxied = "") {
-    rewrite ^\/(?!wp-admin|wp-login|wp-json|wp-content|wp-includes)(.*) https://www.getvero.com/$1 permanent;
+    rewrite ^\/(?!wp-admin|wp-login|wp-json|wp-content|wp-includes)(.*) https://www-staging.getvero.com/$1 permanent;
 }
 ```
