@@ -120,10 +120,12 @@
       <section class="bg-gray-lighter resources-cta overflow-hidden">
         <div class="inner large-inner center-text">
           <h4 class="chunk semi-bold bottom-margin-xs center-text">Send newsletters to your customers using your data</h4>
-          <p class="bottom-margin-md medium">Not another marketing data store, Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your messaging.</p>
+          <p class="bottom-margin-md medium">Not another marketing data store: Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your newsletters.</p>
 
-          <form class="js-signup-form track-signup-form home-signup-form stack-xs"
-            element-position="bottom"
+          <form class="js-signup-form track-form-shown track-form-submitted home-signup-form stack-xs"
+            tracking-element-position="bottom"
+            tracking-object-name="Sign up inline"
+            tracking-product-name="vero-newsletters"
             action="https://formkeep.com/f/950bb5e6549f"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
@@ -132,7 +134,7 @@
             <div class="flex flex-column sm-flex-row">
               <input class="bg-white form-control form-control--lg full-width" id="user_email" type="email" name="email" placeholder="Your email address" style="border-top-right-radius:0;border-bottom-right-radius:0;">
 
-              <input class="btn btn--success btn--large track-start-trial" element-position="bottom" type="submit" name="submit" value="Get free account" style="border-top-left-radius:0;border-bottom-left-radius:0;">
+              <input class="btn btn--success btn--large" type="submit" name="submit" value="Get free account" style="border-top-left-radius:0;border-bottom-left-radius:0;">
             </div>
 
             <div class="js-home-contact-msg home-contact-msg font-brand-error"></div>
