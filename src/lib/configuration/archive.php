@@ -468,9 +468,9 @@ function add_latest_title() {
 function add_banner_to_tutorials() {
   if ( is_category('tutorials') ) { ?>
     <div class="tutorial-banner">
-      <strong>We've released a new product 🎉</strong>
+      <h3>We've released a new product 🎉</h3>
       <p>The tutorials below are for the <a href="https://www.getvero.com/workflows/" target="_blank">Vero Workflows</a> product.</p>
-      <p>We're in the process of writing additional guides and tutorials for our new product, a href="https://www.getvero.com/newsletters/" target="_blank">Vero Newsletters</a>. Stay tuned!
+      <p>We're in the process of writing additional guides and tutorials for our new product, <a href="https://www.getvero.com/newsletters/" target="_blank">Vero Newsletters</a>. Stay tuned!
     </div>
   <?php }
 }
