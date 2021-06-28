@@ -104,7 +104,7 @@ function custom_home_loop() {
                         <span class="badge"><?php get_primary_category(); ?></span>
                       </div>
 
-                      <h2 class="entry-title regular"><a class="" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                      <h2 class="entry-title"><a class="" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     </div>
 
                     <div class="entry-content">
@@ -117,9 +117,9 @@ function custom_home_loop() {
 
                     <div class="entry-footer">
                       <?php if ( get_field('custom_read_more') ): ?>
-                        <a class="regular" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
+                        <a class="semi-bold" href="<?php the_permalink(); ?>"><?php the_field('custom_read_more') ?></a>
                       <?php else: ?>
-                        <a class="regular" href="<?php the_permalink(); ?>">Read more</a>
+                        <a class="semi-bold" href="<?php the_permalink(); ?>">Read more</a>
                       <?php endif ?>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ function custom_home_loop() {
                     <span class="badge"><?php get_primary_category(); ?></span>
                   </div>
 
-                  <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                  <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 </div>
 
                 <div class="entry-content">
@@ -228,7 +228,7 @@ function custom_home_loop() {
                 <span class="badge"><?php get_primary_category(); ?></span>
               </div>
 
-              <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
           </article>
 
@@ -269,7 +269,7 @@ function custom_home_loop() {
               <time class="badge" datetime="<?php the_time('c');?>"><?php echo get_the_date( 'j M, Y' ); ?></time>
             </div>
 
-            <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           </div>
 
           <div class="entry-content">
@@ -336,7 +336,7 @@ function custom_home_loop() {
                 <span class="badge"><?php get_primary_category(); ?></span>
               </div>
 
-              <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
 
             <div class="entry-content">
@@ -409,7 +409,7 @@ function custom_home_loop() {
           </a>
 
           <div class="entry-header">
-            <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           </div>
 
           <div class="entry-content">
@@ -589,7 +589,7 @@ function custom_category_loop() {
             </div>
           <?php endif; ?>
 
-          <h2 class="entry-title regular"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
         </div>
 
         <div class="entry-content">
