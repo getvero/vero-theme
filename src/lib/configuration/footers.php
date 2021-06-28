@@ -39,7 +39,7 @@
                     <button class="btn btn--success track-subscribe-to-blog subscribe_to_blog" type="submit">Subscribe</button>
                   </div>
 
-                  <p class="annotation">We're committed to keeping your information safe. Read our <a class="underline-link" href="/privacy/">Privacy Policy</a>.</p>
+                  <p class="annotation">We're committed to keeping your information safe. Read our <a href="/privacy/">Privacy Policy</a>.</p>
                 </form>
               </div>
             </div>
@@ -105,7 +105,7 @@
           </div>
         </div>
 
-        <p class="cation">This site is protected by reCAPTCHA and the Google <a class="underline-link" href="https://policies.google.com/privacy">Privacy Policy</a> and <a class="underline-link" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+        <p class="cation">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
       </div>
     </footer>
     <?php
