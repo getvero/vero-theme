@@ -13,7 +13,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
   // Start capturing the logo
   ob_start();
   ?>
-  <div class="flex items-center" id="logo">
+  <div class="flex items-center" id="logo" style="margin-top: -2px;">
     <?php if ( is_404() ): ?>
       <a class="show" href="https://www.getvero.com/?from=404-pages">
     <? else: ?>
@@ -25,9 +25,9 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
     <div class="divider"></div>
 
     <?php if( is_single() ): ?>
-      <a class="logo-resources semi-bold unstyled" href="/resources" style="margin-top: -3px">Resources</a>
+      <a class="logo-resources semi-bold unstyled" href="/resources">Resources</a>
     <?php else: ?>
-      <h1 class="logo-resources no-margin" style="margin-top: -3px"><a class="semi-bold unstyled" href="/resources">Resources</a></h1>
+      <h1 class="logo-resources no-margin"><a class="semi-bold unstyled" href="/resources">Resources</a></h1>
     <?php endif; ?>
 
   </div>
