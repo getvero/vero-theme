@@ -33,7 +33,8 @@
                   action="https://formkeep.com/f/4123811018f7"
                   accept-charset="UTF-8"
                   enctype="multipart/form-data"
-                  method="POST">
+                  method="POST"
+                  target="_blank">
                   <input type="hidden" name="utf8" value="✓">
 
                   <div class="flex flex-wrap">
