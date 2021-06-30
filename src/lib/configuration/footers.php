@@ -26,8 +26,11 @@
                   <h3 class="tubs semi-bold">Subscribe to our newsletter for product and industry updates</h3>
                 </div>
 
-                <form class="js-subscribe-form subscribe-form stack-sm"
-                  action="https://formkeep.com/f/642bee56a32f"
+                <form class="track-form-shown track-form-started track-form-submitted add-segment-anonymous-id subscribe-form stack-sm"
+                  tracking-object-name="Newsletter subscribe"
+                  tracking-product-name="any"
+                  tracking-element-position="footer"
+                  action="https://formkeep.com/f/4123811018f7"
                   accept-charset="UTF-8"
                   enctype="multipart/form-data"
                   method="POST">
@@ -36,7 +39,7 @@
                   <div class="flex flex-wrap">
                     <input class="form-control" type="email" name="email" placeholder="Your email address" required>
 
-                    <button class="btn btn--success track-subscribe-to-blog subscribe_to_blog" type="submit">Subscribe</button>
+                    <button class="btn btn--success subscribe_to_blog" type="submit">Subscribe</button>
                   </div>
 
                   <p class="annotation">We're committed to keeping your information safe. Read our <a href="/privacy/">Privacy Policy</a>.</p>
