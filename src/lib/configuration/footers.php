@@ -22,10 +22,6 @@
               </a>
 
               <div class="stack-sm">
-                <div class="js-subscribe-form-msg">
-                  <h3 class="tubs semi-bold">Subscribe to our newsletter for product and industry updates</h3>
-                </div>
-
                 <form class="track-form-shown track-form-started track-form-submitted add-segment-anonymous-id subscribe-form stack-sm"
                   tracking-object-name="Newsletter subscribe"
                   tracking-product-name="all"
