@@ -28,7 +28,7 @@
 
                 <form class="track-form-shown track-form-started track-form-submitted add-segment-anonymous-id subscribe-form stack-sm"
                   tracking-object-name="Newsletter subscribe"
-                  tracking-product-name="any"
+                  tracking-product-name="all"
                   tracking-element-position="footer"
                   action="https://formkeep.com/f/4123811018f7"
                   accept-charset="UTF-8"

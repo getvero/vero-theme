@@ -63,7 +63,7 @@ function add_logo_and_menu_toggle_to_navbar($menu, $args) {
       <?php get_search_form(); ?>
     </div>
 
-    <a class="btn btn--success hide lg-show track-button-shown track-button-clicked" tracking-object-name="Start messaging for free" tracking-element-position="nav" tracking-product-name="vero-newsletters" href="https://www.getvero.com/newsletters/?from=blog_header">Start messaging for free</a>
+    <a class="btn btn--success hide lg-show track-button-shown track-button-clicked" tracking-object-name="Sign up" tracking-element-position="nav" tracking-product-name="vero-newsletters" href="https://www.getvero.com/newsletters/?from=blog_header">Start messaging for free</a>
   <?php $search_and_cta = ob_get_clean();
 
   // Hide buttons for search and hamburger
