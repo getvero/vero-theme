@@ -11,11 +11,11 @@ function defer_parsing_of_js( $url ) {
   return str_replace( ' src', ' defer src', $url );
 }
 
-function move_recaptcha_script() {
-  ?>
-  <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
-  <?php
-}
+// function move_recaptcha_script() {
+//   ?>
+//   <script src="https://www.google.com/recaptcha/api.js?render=6LfUD_YUAAAAAO5FOQgHwsQSEMzOZYEPHEo_DZRX" defer async></script>
+//   <?php
+// }
 
 function remove_ver_css_js( $src ) {
   if ( strpos( $src, 'ver=' ) )

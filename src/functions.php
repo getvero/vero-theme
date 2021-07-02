@@ -89,7 +89,6 @@ function genesischild_theme_setup() {
   add_action( 'wp_enqueue_scripts', 'custom_load_custom_style_sheet' );
   add_filter( 'genesis_pre_load_favicon', 'custom_favicon' );
   add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );
-  add_action( 'wp_footer', 'move_recaptcha_script' );
   add_filter( 'style_loader_src', 'remove_ver_css_js', 9999 );
   add_filter( 'script_loader_src', 'remove_ver_css_js', 9999 );
 
