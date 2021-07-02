@@ -11,7 +11,7 @@
 ?>
 <section class="double-padding">
   <div class="inner center-text">
-    <img class="bottom-margin-lg" src="/wp-content/themes/vero/assets/dist/images/home/404/404.png" width="340">
+    <img class="bottom-margin-lg" src="/wp-content/themes/vero/assets/images/home/404/404.png" width="340">
     <h1 class="semi-bold biggie bottom-margin-xs">Uh oh, you got stung!</h1>
     <p class="medium">If you're looking for email marketing that doesn't hurt…check out the <a href="https://www.getvero.com/?from=404-pages">homepage</a>.</p>
   </div>
