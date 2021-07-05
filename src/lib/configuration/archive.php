@@ -196,6 +196,7 @@ function custom_home_loop() {
           $custom_query = new WP_Query(array(
             'posts_per_page' => 3,
             'post_type'      => array('post', 'guides'),
+            'tag__not_in'    => array(221),
             'no_found_rows'  => true
           ));
 
