@@ -56,15 +56,12 @@
                 <li>
                   <h4 class="semi-bold annotation uppercase font-gray-dark">Resources</h4>
                 </li>
-                <li><a href="/resources" target="_blank">Blog</a></li>
-                <li ><a href="https://www.getvero.com/email-personalization-liquid-guide" target="_blank">Liquid Guide</a></li>
-                <li><a href="/resources/getting-started/">Getting Started</a></li>
                 <li><a href="https://help.getvero.com" target="_blank" rel="noopener">Help Center</a></li>
                 <li><a href="https://developers.getvero.com" target="_blank" rel="noopener">API Reference</a></li>
-                <li><a href="https://releasenotes.getvero.com" target="_blank" rel="noopener">Release Notes</a></li>
-                <li><a href="https://feedback.getvero.com/" target="_blank" rel="noopener">Product Roadmap</a></li>
-                <li><a href="https://feedback.getvero.com/feature-requests" target="_blank" rel="noopener">Feature Requests</a></li>
-                <li><a href="https://status.getvero.com/" target="_blank" rel="noopener">Status</a></li>
+                <li><a href="https://feedback.getvero.com/changelog" target="_blank" rel="noopener">Changelog ↗ </a></li>
+                <li><a href="/resources" target="_blank">Resource Center</a></li>
+                <li><a href="https://feedback.getvero.com/" target="_blank" rel="noopener">Product Roadmap ↗</a></li>
+                <li><a href="https://status.getvero.com/" target="_blank" rel="noopener">Status ↗</a></li>
               </ul>
               <ul class="unstyled-list footer-list regular stack-0">
                 <li>
@@ -72,9 +69,9 @@
                 </li>
                 <li><a href="/careers/">Careers</a></li>
                 <li><a href="/contact-us/">Contact</a></li>
-                <li><a href="https://www.getvero.com/gdpr">GDPR</a></li>
-                <li><a href="https://www.getvero.com/terms-of-service">Terms of Service</a></li>
-                <li><a href="https://www.getvero.com/privacy">Privacy Policy</a></li>
+                <li><a href="https://www.getvero.com/gdpr/">GDPR</a></li>
+                <li><a href="https://www.getvero.com/terms-of-service/">Terms of Service</a></li>
+                <li><a href="https://www.getvero.com/privacy/">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
