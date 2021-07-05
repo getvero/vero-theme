@@ -188,7 +188,7 @@ function custom_home_loop() {
     <div class="resources-section resources-section--secondary">
       <div class="flex items-baseline">
         <h2 class="semi-bold micro">Latest Posts</h2>
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/page/2">All posts →</a>
+        <a class="font-gray-dark left-margin-auto" href="/resources/page/2">All posts →</a>
       </div>
 
       <div class="grid grid--resources">
@@ -247,7 +247,7 @@ function custom_home_loop() {
       <div class="flex items-baseline">
         <h2 class="semi-bold micro no-margin"><?php echo $cat_name; ?></h2>
 
-        <a class="underline-link-rev font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?> →</a>
+        <a class="font-gray-dark left-margin-auto" href="/resources/category/news-updates">All posts in <?php echo $cat_name; ?> →</a>
       </div>
 
       <div class="grid grid--resources">
