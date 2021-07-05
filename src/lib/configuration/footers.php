@@ -118,7 +118,7 @@
       <section class="bg-gray-lighter resources-cta overflow-hidden">
         <div class="inner large-inner center-text">
           <h4 class="chunk semi-bold bottom-margin-xs center-text">Send newsletters to your customers using your data</h4>
-          <p class="bottom-margin-md medium">Not another marketing data store: Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your newsletters.</p>
+          <p class="bottom-margin-md micro">Not another marketing data store: Vero connects to Airtable, Google Sheets, Redshift, Snowflake and more to power your newsletters.</p>
 
           <form class="js-signup-form track-form-shown track-form-submitted home-signup-form stack-xs"
             tracking-element-position="bottom"
