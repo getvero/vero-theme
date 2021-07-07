@@ -55,3 +55,24 @@ if ($http_x_vero_proxied = "") {
     rewrite ^\/(?!wp-admin|wp-login|wp-json|wp-content|wp-includes)(.*) https://www-staging.getvero.com/$1 permanent;
 }
 ```
+
+## Running specs / Percy.io
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/d4c3a9ef/www.getvero.com-resources)
+
+For now this is manual. This should only ever be run on `master` or on `develop`.
+
+The correct token is found in this project: https://percy.io/d4c3a9ef/www.getvero.com-resources
+
+When on `master` we want to run specs against `www.getvero.com`. To do so, run:
+
+```
+export PERCY_TOKEN=GET_TOKEN_FOR_PROJECT
+npx percy exec -- nightwatch tests/percy.js -e production
+```
+
+When on `develop` we want to run specs against `www-staging.getvero.com`. To do so, run:
+
+```
+export PERCY_TOKEN=GET_TOKEN_FOR_PROJECT
+npx percy exec -- nightwatch tests/percy.js -e development
+```
