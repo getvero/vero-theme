@@ -1,57 +1,60 @@
-# vero-theme
-This README outlines the details of collaborating on the Vero marketing site and blog.
+## Local deployment
 
-## Developing locally
+You will need Docker and `docker-compose` installed on your machine.
 
-### Pre-requisites
+Once installed, run:
 
-• You will need Docker and `docker-compose` installed on your machine.
-• Clone [vero-styles](https://github.com/getvero/vero-styles)
-• Clone [veropublic](https://github.com/getvero/veropublic)
+```
+docker-compose up -d
+```
 
-### Installation
-
-**Running Wordpress**
-To run a full version of Wordpress, you need to clone down a copy of the repository `veropublic`. This is a full mirror of Wordpress and MySQL. Follow these steps to setup:
-
-- git clone this repository
-- change into the cloned directory
-- run `git submodule add <vero-theme github url> wp-content/themes/vero`
-- run `cd wp-content/themes/vero`
-- do a `git pull`
-- `cd` back to the main `veropublic` directory
-- run `docker-compose up -d`
+**Note:** You can login to the local WP instance as an administrator at [http://localhost:8888/login](http://localhost:8888/login) with username `vinitc` and password `hACO&bvpvhDPsL1C!eeLs*Zm`.
 
 **Running our CSS styles**
-To see the styles locally, clone down the `vero-styles` directory and do the following:
+To see the styles when running locally you will also need to be running the `vero-styles` repository.
 
-- `vero-styles`: `grunt local`
-- Run `docker-compose up -d`
-- Visit [http://localhost:8888/](http://localhost:8888/)
+## Compiling JS and CSS in this repository
 
-### Updating changes made to the database
+We use the WP plugin Autoptimize to minify our CSS/JS.
 
-If you need to force the database to update you can simply do:
+## Staging
 
-- `docker-compose down`
-- `docker-compose up -d`
+[![buddy pipeline](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918/badge.svg?token=2a3979fcf42e5530e6e3bd84a28555688ca38da468161718ddf08d0056e4ee19 "buddy pipeline")](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918)
 
-## Making changes
+Manually deploy the branch you'd like using Buddy.
 
-You **only want to make changes** inside the `wp-content/themes/vero` folder, as this is the actual theme. Open this in an editor of choice, like Sublime or Atom.
+Staging deploys are viewable at:
 
-Note that you can login to the local WP instance as an administrator at [http://localhost:8888/login](http://localhost:8888/login) with username `vinitc` and password `hACO&bvpvhDPsL1C!eeLs*Zm`.
+- The end-to-end version via https://www-staging.getvero.com **(RECOMMENDED)**
+- The raw install at WPEngine via http://resources-staging.getvero.com
 
-## Staging and deployment
+## Production deployment
 
-Staging
+[![buddy pipeline](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127924/badge.svg?token=2a3979fcf42e5530e6e3bd84a28555688ca38da468161718ddf08d0056e4ee19 "buddy pipeline")](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127924)
 
-Deploy using Buddy:
+Simply merge to master, Buddy.works will take care of the rest.
 
-[![buddy pipeline](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918/badge.svg?token=bdea566d3feff8982be762737eab5f0fef4d9a282dc247160d737981285dde41 "buddy pipeline")](https://app.buddy.works/getvero/vero-theme/pipelines/pipeline/127918)
+## Exporting database changes
 
-Production
-TBC
+If you make some important changes to the underlying database and need those reflected for other users, you will want to do this:
+
+```
+docker exec -i vero-theme_db_1 mysqldump -uwordpress -pwordpress wordpress > ./.data/db_seed/wordpress.sql
+```
+
+This will export the database into the folder that Docker uses to bootstrap new databases.
+
+## Nginx rewrite rules
+
+We have these installed on WPEngine (change `www` to `www-staging` if testing on staging):
+
+```
+rewrite ^(?!\/wp-admin|\/wp-login|\/search)([^.]*[^\/])$ $1/ permanent;
+
+if ($http_x_vero_proxied = "") {
+    rewrite ^\/(?!wp-admin|wp-login|wp-json|wp-content|wp-includes)(.*) https://www-staging.getvero.com/$1 permanent;
+}
+```
 
 ## Running specs / Percy.io
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/d4c3a9ef/www.getvero.com-resources)
