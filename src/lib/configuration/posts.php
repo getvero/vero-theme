@@ -1,5 +1,13 @@
 <?php
 
+  function blog_banner() {
+    ?>
+      <div class="bg-dark-blue global-banner">
+        <p class="annotation font-white regular center-text">🎉 We’ve launched a new product, Vero Newsletters. Read more about this release and our vision <a class="font-white semi-bold" href="https://www.getvero.com/resources/unveiling-the-future-of-vero/">here ↗</a></p>
+      </div>
+    <?php
+  }
+
   function add_author() {
     if ( is_blog_post_or_guide() && !in_category('tutorials') ) {
       ?>

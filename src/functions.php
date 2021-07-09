@@ -166,6 +166,9 @@ function genesischild_theme_setup() {
   # Add social shares
   add_action( 'genesis_after_content', 'add_shares_to_post', 1 );
 
+  # Add fixed global banner
+  add_action( 'genesis_before_header', 'blog_banner' );
+
   # Related posts
   add_action( 'genesis_after_content_sidebar_wrap', 'be_related_posts_by_category' );
 
