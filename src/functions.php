@@ -166,7 +166,7 @@ function genesischild_theme_setup() {
   # Add social shares
   add_action( 'genesis_after_content', 'add_shares_to_post', 1 );
 
-  # Add support for an optional banner on blog posts
+  # Add fixed global banner
   add_action( 'genesis_before_header', 'blog_banner' );
 
   # Related posts
